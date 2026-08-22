@@ -1,0 +1,1826 @@
+{
+  "id": "p3-108-the-art-of-healing",
+  "catalogueId": "p3-108",
+  "catalogueIds": [
+    "p3-108"
+  ],
+  "passage": 3,
+  "title": "THE ART OF HEALING",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "C",
+    "A",
+    "B",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "2nd century BC",
+    "prescriptions",
+    "Sun Simiao"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "C — the systematic approach taken to medical issues during the Tang era",
+      "answerKey": "C — the systematic approach taken to medical issues during the Tang era",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "在第一段中，作者特別把讀者注意力放在哪一點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the first paragraph, the writer draws particular attention to…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If no further evidence were available of the sophistication of China in the Tang era, then a look at Chinese medicine would be sufficient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有其他證據可以顯示 Tang era 中國的精密程度，那麼只看中國醫學已經足夠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The organisational context of health and healing was structured to a degree that had no precedent in Chinese history and found no parallel elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "健康與治療的組織背景被建構到一種程度：在中國史上沒有先例，在其他地方也找不到相似例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看出 Paragraph 1 的功能：作者用 Chinese medicine 展示 Tang China 的高度 sophistication，尤其是醫療和治療在制度層面的組織化程度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“first paragraph”"
+            },
+            {
+              "kind": "quote",
+              "text": "“draws particular attention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“medical issues”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最值得停下的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the organisational context of health and healing was structured…”"
+            },
+            {
+              "kind": "label",
+              "text": "這句包含兩個重要訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“organisational context”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 組織框架"
+            },
+            {
+              "kind": "quote",
+              "text": "“structured”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 有系統地建立"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the systematic approach taken to medical issues during the Tang era”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tang era 對醫療問題採取的系統化處理方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應原文 “organisational context” 和 “structured to a degree”。原文並不只說 Tang medicine 很先進，也強調其制度安排在中國史上無先例，在外地也無可比擬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說中國 Tang 前缺乏醫學知識。原文沒有比較 Tang 前中國是否缺乏知識；它只是說 Tang 的組織程度沒有先例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說西方對 Tang medicine 有興趣。原文比較中國和歐洲，但沒有說西方當時有興趣研究中國醫學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說中西文化 rivalries。原文說 Tang China 文化中心地位更高、歐洲 counterpart 落後，但沒有把重點放在 rivalry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。這題最重要的字是 “systematic”，它不是逐字出現在原文，而是由 “organisational”和 “structured” 概括出來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — the effectiveness of his treatment",
+      "answerKey": "A — the effectiveness of his treatment",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "Tang era 中，政府醫生的年薪取決於甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the Tang era, a government doctor’s annual salary depended upon…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physicians were given positions in governmental medical service only after passing qualifying examinations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫生只有通過資格考試後，才會獲得政府醫療服務中的職位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were remunerated in accordance with the number of cures they had effected during the past year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的酬金按照過去一年所完成的治癒個案數目來決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段只有兩句，第一句講入職資格，第二句講薪酬標準。題目問 annual salary，答案很明顯會在第二句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“government doctor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“annual salary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“depended upon”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“governmental medical service”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remunerated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“during the past year”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中 “remunerated” 是 salary / paid 的近義詞，表示受薪、得到報酬。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were remunerated in accordance with the number of cures they had effected during the past year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的報酬根據過去一年治癒病人的數目而定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “They”，指前一句的 physicians。核心動詞是 “were remunerated”，即獲得薪酬。控制答案的是 “the number of cures”，也就是治癒成功的個案數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “the effectiveness of his treatment” 意思是治療是否有效。雖然原文沒有用 effectiveness這個名詞，但 “number of cures” 正是用治癒成果衡量治療效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “medical experience” 是經驗年資，原文沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “number of people he had successfully trained” 是培訓學生人數，原文沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “breadth of his medical expertise” 是專業範圍，原文也沒有作為薪酬標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — the use of unorthodox medical practices",
+      "answerKey": "B — the use of unorthodox medical practices",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "以下哪一項在 Tang era 會違反法律？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which of the following contravened the law during the Tang era?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The government took care to protect the general populace from potentially harmful medical practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府小心保護一般民眾，避免他們受到可能有害的醫療行為影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if no harm resulted, he was to be sentenced to sixty strokes with a heavy cane.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使沒有造成傷害，他也會被判用重杖打六十下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 明顯在講 medical practice 的法律規管。題目問 contravened the law，應該在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“contravened the law”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Tang era”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Tang legal code was the first in China to include laws concerned with harmful and heterodox medical practices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tang legal code 是中國第一部包含有關有害和異端醫療行為法律的法典。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有力的詞是 “heterodox medical practices”。heterodox 指不依正統、不合標準、異端或非正規。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與選項 B 的 unorthodox medical practices 對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the use of unorthodox medical practices”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用非正統醫療方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說法律處理 “harmful and heterodox medical practices”，所以 B 是最貼近的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “a qualified doctor’s refusal to practise” 沒有原文支援。文章沒有說合資格醫生拒絕執業違法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “a patient dying under medical treatment” 範圍太大。原文說如果那些不按標準的療法導致病人死亡，healer 要被放逐兩年半；並非所有醫療過程中的死亡都違法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the receipt of money for medical treatment” 也太闊。原文說 “to treat patients for money without adhering to standard procedures” 才被定義為 fraud combined with theft。問題在於收錢後不依標準程序治療，不在單純收取醫療費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。這題的中伏位是 D，因為原文確實有 “for money”，但真正違法的條件是 “without adhering to standard procedures”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Academic staff sometimes taught a range of medical subjects during the Tang era.”",
+      "translation": "Tang era 中，學術人員有時會教授一系列醫學科目。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An Imperial Medical Office had been inherited from previous dynasties: it was immediately restructured and staffed with directors and deputy directors, chief and assistant medical directors, pharmacists and curators of medicinal herb gardens and further personnel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Imperial Medical Office 從前朝承襲而來，隨即被重組，並配置 directors、deputy directors、chief and assistant medical directors、pharmacists、medicinal herb gardens 的 curators，以及其他人員。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within the first two decades after consolidating its rule, the Tang administration set up one central and several provincial medical colleges with professors, lecturers, clinical practitioners and pharmacists to train students in one or all of the four departments of medicine, acupuncture, physical therapy and exorcism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在鞏固統治後的頭二十年內，Tang administration 設立一所中央醫學院和幾所地方醫學院，配有professors、lecturers、clinical practitioners 和 pharmacists，訓練學生修讀 medicine、acupuncture、physical therapy 和 exorcism 四個部門中的一個或全部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Academic staff”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taught”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a range of medical subjects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“professors, lecturers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to train students”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one or all of the four departments”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "professors 和 lecturers 屬於 academic staff；train students 對應 taught；four departments 對應 a range of subjects。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 medical colleges 有 professors、lecturers、clinical practitioners 和 pharmacists，並訓練學生學習四個 departments 中的一個或全部。題目用了 “sometimes”，語氣較保守，不要求每位教師都教全部科目。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Academic staff= professors and lecturers taught= to train students a range of medical subjects= medicine, acupuncture, physical therapy and exorcism during the Tang era= within the first two decades after consolidating its rule所以題目和原文方向一致，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The medical knowledge available during the Tang era only benefited the wealthy.”",
+      "translation": "Tang era 可得到的醫學知識只惠及富人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 / Paragraph 5 Paragraph 4 第一語句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 723, Emperor Xuanzong personally composed a general formulary of prescriptions recommended to him by one of his imperial pharmacists and sent it to all the provincial medical schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "723 年，Emperor Xuanzong 親自編寫一份 general formulary of prescriptions；這些處方由他的一名 imperial pharmacist 推薦，並被送到所有 provincial medical schools。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An Arabic traveller, who visited China in 851, noted with surprise that prescriptions from the emperor’s formulary were publicised on notice boards at crossroads to enhance the welfare of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位 851 年到訪中國的 Arabic traveller 驚訝地記下：皇帝 formulary 中的 prescriptions 被張貼在十字路口的 notice boards 上，以提升民眾 welfare。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“medical knowledge”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only benefited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wealthy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 “wealthy”，但有相反方向的概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“publicised on notice boards at crossroads”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enhance the welfare of the population”"
+            },
+            {
+              "kind": "quote",
+              "text": "“general populace”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞都指向公共層面，而非只限富人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “only benefited the wealthy”，當中 “only” 是控制詞。要選 TRUE，原文必須支持醫學知識只屬於富人或只服務富人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文實際說 prescriptions 被 publicised on notice boards at crossroads。十字路口是公共場所， notice boards 是公開資訊傳播方式。目的也是 “to enhance the welfare of the population”，即提升民眾福祉。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The government took care to protect the general populace from potentially harmful medical practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府小心保護一般民眾免受可能有害的醫療行為影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“general populace” 直接指一般百姓。這和 “only benefited the wealthy” 形成明顯衝突。所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Tang citizens were encouraged to lead a healthy lifestyle.”",
+      "translation": "Tang citizens 被鼓勵過健康生活方式。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能目標段落：Paragraph 4 / Paragraph 5 Paragraph 4 第一語句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 723, Emperor Xuanzong personally composed a general formulary of prescriptions recommended to him by one of his imperial pharmacists and sent it to all the provincial medical schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "723 年，Emperor Xuanzong 親自編寫一份 general formulary of prescriptions，並送到所有provincial medical schools。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An Arabic traveller, who visited China in 851, noted with surprise that prescriptions from the emperor’s formulary were publicised on notice boards at crossroads to enhance the welfare of the population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位 851 年到訪中國的 Arabic traveller 驚訝地記下：皇帝 formulary 中的 prescriptions 被張貼在十字路口的 notice boards 上，以提升民眾 welfare。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“citizens”"
+            },
+            {
+              "kind": "quote",
+              "text": "“encouraged”"
+            },
+            {
+              "kind": "quote",
+              "text": "“healthy lifestyle”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關但不足的內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“enhance the welfare of the population”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protect the general populace”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prescriptions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容和公共健康有關，但沒有直接談 lifestyle。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要原文支持三件事：第一，Tang citizens 是對象；第二，政府或某些人鼓勵他們；第三，鼓勵內容是 healthy lifestyle，例如飲食、運動、日常生活習慣、預防疾病的生活方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 prescriptions 被張貼，以改善 population welfare。可是 prescriptions 是處方，不等同於 lifestyle guidance。Paragraph 5 說政府保護民眾免受有害醫療行為影響，這是法律保護，也不是鼓勵健康生活方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了公共醫療和公共福利背景，但缺少 “lead a healthy lifestyle” 這個核心內容，也沒有說citizens 被 encouraged 做某些生活習慣改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Doctors who behaved in a fraudulent manner were treated in the same way as ordinary criminals during the Tang era.”",
+      "translation": "Tang era 中，以欺詐方式行醫的醫生會像普通罪犯一樣被處理。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The government took care to protect the general populace from potentially harmful medical practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府小心保護一般民眾免受可能有害的醫療行為影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if no harm resulted, he was to be sentenced to sixty strokes with a heavy cane.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使沒有造成傷害，他也會被判用重杖打六十下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段在講法律規管和懲罰。題目中的 fraudulent manner 明顯要在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fraudulent”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ordinary criminals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“treated in the same way”"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, to treat patients for money without adhering to standard procedures was defined as fraud combined with theft and had to be tried in accordance with the legal statutes on theft.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，收錢為病人治療卻不遵守標準程序，會被定義為 fraud combined with theft，並且必須按照theft 的法律條文審理。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “behaved in a fraudulent manner” 對應原文 “defined as fraud combined with theft”。原文說這類行為會 “be tried in accordance with the legal statutes on theft”，即按照盜竊罪相關法律條文審理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “ordinary criminals” 不是原文字眼，但 theft 屬於一般刑事法律範圍。醫療欺詐被納入theft statutes 處理，正好支持題目所說：這些醫生不會只被視作專業失當，也會進入普通刑事法律框架。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。這題的控制詞是 “fraudulent”，不是所有 medical error 都算；原文針對的是收錢後不遵守標準程序的欺詐行為。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Medical reference books published during the Tang era covered practical and academic issues.”",
+      "translation": "Tang era 出版或使用的醫學參考書涵蓋實用和學術／理論問題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, physicians practising during the Tang era had access to a wealth of pharmaceutical and medical texts, their contents ranging from purely pragmatic advice to highly sophisticated theoretical considerations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，Tang era 執業的醫生可以接觸大量藥物學和醫學文本，其內容從純粹實用的建議，到高度複雜的理論思考都有。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Concise descriptions of the position, morphology, and functions of the organs of the human body stood side by side in libraries with books enabling readers to calculate the daily, seasonal and annual climatic conditions of cycles of sixty years and to understand and predict their effects on health.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖書館中既有簡明描述人體器官位置、形態和功能的書，也有幫助讀者計算每日、季節性、年度氣候條件及其六十年週期，並理解和預測它們對健康影響的書。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Medical reference books”"
+            },
+            {
+              "kind": "quote",
+              "text": "“practical”"
+            },
+            {
+              "kind": "quote",
+              "text": "“academic issues”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“medical texts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“purely pragmatic advice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“highly sophisticated theoretical considerations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pragmatic” 對應 practical；“theoretical considerations” 對應 academic / theoretical issues。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句已經建立完整範圍：“from purely pragmatic advice”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 從純粹實用建議"
+            },
+            {
+              "kind": "quote",
+              "text": "“to highly sophisticated theoretical considerations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 到高度複雜的理論思考題目把 “pragmatic advice” 改寫成 practical issues，把 “theoretical considerations” 改寫成academic issues。這是很直接的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句補充例子：一邊是人體器官位置、形態、功能，另一邊是計算氣候週期並預測其健康影響。這些例子顯示 Tang medical texts 不只處理臨床用法，也包括人體知識和理論推算。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Waitai miyao contained medical data from the Tang era.”",
+      "translation": "《Waitai miyao》包含來自 Tang era 的醫學資料。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several Tang authors wrote large collections of prescriptions, continuing a literary tradition documented since the 2nd century BC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾位 Tang authors 編寫大型處方集，延續一個自公元前二世紀已有記載的文獻傳統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They reflect the Indian origin of much Chinese knowledge on ailments of the eye and, in particular, of cataract surgery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們反映了許多中國眼疾知識，尤其是白內障手術知識，具有印度來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 Tang medical writings、prescription collections、Wang Tao 的 Waitai miyao，以及部分中國醫學知識的來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Waitai miyao”"
+            },
+            {
+              "kind": "quote",
+              "text": "“medical data”"
+            },
+            {
+              "kind": "quote",
+              "text": "“from the Tang era”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latter was a librarian who copied more than six thousand formulas, categorised in 1,104 sections, from sixty-five older works and published them under the title Waitai miyao.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後者是一名 librarian，他從六十五部較早的著作中抄錄了六千多條 formulas，分成 1,104 個部分，並以《Waitai miyao》為題出版。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題最容易誤讀，因為 Wang Tao 本人生活在 Tang era，而 Waitai miyao 也是 Tang author 的作品。可是題目說的是 “medical data from the Tang era”，重點落在資料來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說得很清楚：Wang Tao copied more than six thousand formulas “from sixty-five older works”。也就是說，《Waitai miyao》中的 formulas 來自較早著作，而非以 Tang era 原生資料為來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “from the Tang era” 和原文中的 “from sixty-five older works” 在來源方向上不相符。因此答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "補充邊界：如果只問 “Waitai miyao was published during the Tang era”，文章會支持；但本題問contained medical data from the Tang era，原文把資料來源指向 older works，所以不可把作者年代直接當作內容來源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Chinese medical authors are known to have influenced Indian writing.”",
+      "translation": "據知，中國醫學作者影響了印度著作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several Tang authors wrote large collections of prescriptions, continuing a literary tradition documented since the 2nd century BC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾位 Tang authors 編寫大型處方集，延續一個自公元前二世紀已有記載的文獻傳統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They reflect the Indian origin of much Chinese knowledge on ailments of the eye and, in particular, of cataract surgery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們反映了許多中國眼疾知識，尤其是白內障手術知識，具有印度來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段處理醫學文本和知識來源。題目有 Chinese、Indian、writing，因此必須看最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese medical authors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influenced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Indian writing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They reflect the Indian origin of much Chinese knowledge on ailments of the eye and, in particular, of cataract surgery.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有說 Chinese authors 影響 Indian writing；它說 Chinese knowledge 有 Indian origin。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目建立的方向是： Chinese medical authors → influenced → Indian writing原文建立的方向是： Indian origin → much Chinese knowledge on eye ailments and cataract surgery這兩個方向相反。原文甚至沒有討論 Indian writing 被中國作者影響；它只說 Waitai miyao 的某些眼科內容反映了印度來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “Chinese knowledge” 和 “Indian origin” 同時出現。學生如果只看到 Chinese 和 Indian，可能會忽略 influence direction。這題要看清楚誰影響誰：原文是 Indian origin of Chinese knowledge，題目把方向倒轉。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "2nd century BC",
+      "answerKey": "2nd century BC",
+      "type": "Sentence Completion",
+      "prompt": "“The first known medical writing in China dates back to the 38 ______.”",
+      "translation": "中國最早已知的醫學寫作可追溯至 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several Tang authors wrote large collections of prescriptions, continuing a literary tradition documented since the 2nd century BC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾位 Tang authors 編寫大型處方集，延續一個自公元前二世紀已有記載的文獻傳統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They reflect the Indian origin of much Chinese knowledge on ailments of the eye and, in particular, of cataract surgery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們反映了許多中國眼疾知識，尤其是白內障手術知識，具有印度來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段第一句已經出現 “documented since the 2nd century BC”，和題目的 “first known medical writing” 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first known”"
+            },
+            {
+              "kind": "quote",
+              "text": "“medical writing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dates back to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“literary tradition documented since the 2nd century BC”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“documented since” 可理解為有記載可追溯到某時；這對應 “dates back to”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文答案短語是：“the 2nd century BC”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子已經有 “the”，所以空格只需要填： 2nd century BC字數限制是 no more than three words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“2nd century BC” 正好是三個元素；如果填 “the 2nd century BC”，會超出題目空格所需，並且句子會變成 “the the 2nd century BC”。所以答案是 2nd century BC。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "prescriptions",
+      "answerKey": "prescriptions",
+      "type": "Sentence Completion",
+      "prompt": "“During the Tang era, doctors depended most on 39 ______ and single substances to treat their patients.”",
+      "translation": "Tang era 中，醫生主要依靠 ______ 和 single substances 治療病人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun Simiao was the most eminent physician and author not only of the Tang dynasty, but of the entire first millennium AD.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sun Simiao 不只是在 Tang dynasty，也是整個公元第一千年中最傑出的 physician and author。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The theories of systematic correspondences, characteristic of the acupuncture tradition, had not yet been extended to cover pharmacology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 acupuncture tradition 為特色的 systematic correspondences 理論，當時尚未延伸到pharmacology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段前半介紹 Sun Simiao，後半講 Tang doctors 的治療依據。題目有 “prescriptions and single substances” 的結構，所以應找這段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“single substances”"
+            },
+            {
+              "kind": "quote",
+              "text": "“treat their patients”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In contrast to developments in the 12th century, physicians relied on prescriptions and single substances to treat their patients’ illnesses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 12 世紀的發展相比，醫生依靠 prescriptions 和 single substances 來治療病人的疾病。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子幾乎照原文改寫："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“doctors depended most on ______ and single substances to treat their patients”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“physicians relied on prescriptions and single substances to treat their patients’ illnesses”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對應如下： doctors= physicians depended most on= relied on to treat their patients= to treat their patients’ illnesses空格前後文法要求一個複數名詞，並且要能和 “single substances” 並列。原文答案是： prescriptions所以 Question 39 答案是 prescriptions。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "Sun Simiao",
+      "answerKey": "Sun Simiao",
+      "type": "Sentence Completion",
+      "prompt": "“40 ______ is famous for producing a set of medical rules for Chinese physicians.”",
+      "translation": "______ 因為制定一套給中國醫生的醫學規則而著名。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun Simiao rose to the pantheon of Chinese popular Buddhism in about the 13th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大約在 13 世紀，Sun Simiao 進入 Chinese popular Buddhism 的 pantheon。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It initiated a debate on the task of medicine, its professional obligations, social position and moral justification that continued until the arrival of Western medicine in the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它引發了一場關於醫學任務、專業義務、社會位置和道德正當性的辯論，這場辯論一直延續到19 世紀 Western medicine 到來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯講 Sun Simiao 的後世聲望和醫學倫理。題目中的 “medical rules” 應定位到 ethical code。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“famous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set of medical rules”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese physicians”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun Simiao was the first Chinese author known to compose an elaborate medical ethical code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sun Simiao 是已知第一位撰寫詳盡 medical ethical code 的中國作者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a set of medical rules” 對應原文 “an elaborate medical ethical code”。ethical code 是一套職業倫理規則，規定醫生應如何看待職責、義務和道德正當性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問主語是誰。原文句子主語是： Sun Simiao後文補充說他的 deontology 可與 Hippocratic Oath 比較，並引發關於 medicine 任務和professional obligations 的長期討論。這進一步證明題目所說的 medical rules 指的是他的medical ethical code。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 Sun Simiao。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -THE ART OF HEALING.pdf",
+    "sha256": "84a974fc31e31650679c9337865fdc52926f01b037307cf613ab2da3459ed656",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "導語說 Tang dynasty medicine 令歐洲同時期醫學相形見絀，並提到 Tang 有自己的 “national health service”，也留下 Sun Simiao 的教導。只看這兩句，可以先估計文章會有兩條主線：第一， Tang medicine 在制度上很成熟；第二，Sun Simiao 在醫學思想和醫德方面很重要。這段不是主要答案段，但它幫助我們預先看出 Questions 28、39、40 的方向：制度化醫療、處方治療、Sun Simiao 的地位。",
+        "label": "導語"
+      },
+      {
+        "number": "1",
+        "summary": "第一句說，如果要證明 Tang era 中國的精密程度，只看 Chinese medicine 已經足夠；最後一句說Tang 時期 health and healing 的組織結構在中國史上沒有先例，在其他地方也沒有平行例子。只看首尾句，這段功能很明顯：用醫療制度展示 Tang China 的高度組織化和領先地位。這段最直接服務 Question 28，因為題目問第一段特別強調甚麼，而原文的核心就是 organisational context /structured。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說 Imperial Medical Office 從前朝承襲而來；最後一句說 Tang government 設立中央和地方 medical colleges，並用 professors、lecturers、clinical practitioners、pharmacists 訓練學生，科目包括 medicine、acupuncture、physical therapy 和 exorcism。只看首尾句，這段是在具體展示醫療制度如何運作：有辦公室、有職位、有學院、有教職員、有科目。Question 31 會來自這段，因為它問 academic staff 是否有時教授一系列 medical subjects。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說 physicians 只有通過 qualifying examinations 後，才可在 governmental medical service 獲得職位；最後一句說他們的酬金按照過去一年治癒病人的數目決定。只看首尾句，這段非常短，但資訊密度高：政府醫生要考試合格，薪酬和 cures 直接掛鉤。Question 29 會直接定位到這裡，因為題目問 annual salary depended upon 甚麼。要留意 number of cures 不是經驗年資，也不是教授人數。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說 723 年 Emperor Xuanzong 親自編寫一份 general formulary of prescriptions，並送到所有 provincial medical schools；最後一句說 851 年一名 Arabic traveller 驚訝地注意到，皇帝formulary 的 prescriptions 被張貼在十字路口的 notice boards 上，以提升人民 welfare。只看首尾句，這段功能是說醫學知識如何被官方整理及公開傳播。Question 32 會用這段判斷醫學知識是否只惠及 wealthy；Question 33 也可能被這段干擾。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說政府小心保護 general populace 免受 potentially harmful medical practice 影響；最後一句說即使沒有造成傷害，故意不按標準執業的醫生也會被判六十下重杖。只看首尾句，可以知道這段講 Tang legal code 如何管制醫療行為。中間會有 fraud、theft、banishment、premeditated homicide 等法律語言。Questions 30 和 34 都會定位到這段，因為它們問違法行為和欺詐醫生如何被處理。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說 Tang era 的 physicians 可接觸大量 pharmaceutical and medical texts；最後一句說圖書館中既有人體器官位置、形態和功能的簡明描述，也有幫助讀者計算氣候週期並預測其對健康影響的書。只看首尾句，這段重點是醫學書籍的範圍很廣，從實用建議到理論推算都有。Question 35 很可能來自這段，因為題目問 reference books 是否涵蓋 practical and academic issues。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說幾位 Tang authors 編寫大型 prescription collections，延續自公元前二世紀已有記載的literary tradition；最後一句說 Waitai miyao 中眼科部分反映很多中國眼疾知識，尤其 cataract surgery，具有 Indian origin。只看首尾句，這段功能是介紹 Tang 醫學著作和來源。Questions 36、37、38 都集中在這段：Wang Tao 的 Waitai miyao、older works、2nd century BC、Indian origin 都是強定位詞。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說 Sun Simiao 是 Tang dynasty 以至整個 first millennium AD 最傑出的 physician and author；最後一句說 systematic correspondences 的理論在當時尚未延伸到 pharmacology。只看首尾句，這段介紹 Sun Simiao 的學術地位、思想背景和治療方法。中間會出現 Confucianism、Daoism、Buddhism、imperial court、Prescriptions Worth Thousands in Gold。Question 39 會定位到這段，因為它問 Tang doctors 依靠 prescriptions 和 single substances。"
+      },
+      {
+        "number": "9",
+        "summary": "第一句說 Sun Simiao 大約在 13 世紀進入 Chinese popular Buddhism 的 pantheon；最後一句說他引發了關於 medicine 任務、professional obligations、social position 和 moral justification 的辯論，這場辯論持續到 19 世紀 Western medicine 到來。只看首尾句，這段重點是 Sun Simiao 的後世聲望和醫德貢獻。Question 40 會來自這段，因為 “medical ethical code” 正是 “set of medical rules” 的原文基礎。"
+      },
+      {
+        "number": "10",
+        "summary": "第一句說 Tang dynasty 也許由於長期富裕和政治穩定，沒有為 illness、health 和 healing 的解釋加入顯著新思想；最後一句說 medicine 仍然是 Tang civilisation 中非常迷人的一部分，並給後世留下豐富 legacy。只看首尾句，這段是全文總結。它提醒我們：Tang medicine 的貢獻主要在制度、文本、醫德和傳承，未必在疾病理論上的重大突破。這段沒有直接回答多數題目，但有助理解文章的整體評價。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "以下把標題下的短引視作導語；正式段落從 “If no further evidence were available…” 開始編為 Paragraph 1。"
+  ]
+}

@@ -1,0 +1,1635 @@
+{
+  "id": "p3-045-stealth-forces-in-weight-loss",
+  "catalogueId": "p3-045",
+  "catalogueIds": [
+    "p3-045"
+  ],
+  "passage": 3,
+  "title": "Stealth Forces in weight Loss",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "E",
+    "D",
+    "C",
+    "B",
+    "G",
+    "F",
+    "F",
+    "E",
+    "D",
+    "A",
+    "chickens",
+    "AD-36",
+    "gene",
+    "vaccine"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“An evaluation of the effect of weight loss on different kinds of diets”",
+      "translation": "對不同飲食方法減重效果的評估。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section E。"
+            },
+            {
+              "kind": "label",
+              "text": "Section E 第一個問題就是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s the $64,000 question: Which diets work?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最關鍵的問題是：哪些飲食方法有效？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接把段落功能指向 diet comparison。段落後面提到 two groups of adults，又分成low-fat diet 和 low-glycemic-load diet，所以很明顯是在比較不同 diet 的效果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“effect of weight loss”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different kinds of diets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中相應內容包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“half were put on a low-fat diet and half on a low-glycemic-load diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一組中，一半人接受低脂飲食，另一半人接受低升糖負荷飲食。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“losing nearly 10 pounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“losing about 4.5 pounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lost nearly 13 pounds and kept it off”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些數字就是不同飲食方法的減重效果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The high-insulin group didn’t do as well on the low-fat plan, losing about 4.5 pounds, and gaining back more than half by the end. But the most successful were the high-insulin-secretors on the low-glycemic-load diet. They lost nearly 13 pounds and kept it off.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高胰島素分泌組在低脂方案上表現不太好，只減了約 4.5 磅，而且研究結束時反彈超過一半。最成功的是高胰島素分泌者配合低升糖負荷飲食，他們減掉近 13 磅，並維持下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正正是對不同飲食方法減重效果的評估，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“an example of research involving participants’ relatives”",
+      "translation": "一個涉及參與者親屬的研究例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section D。"
+            },
+            {
+              "kind": "label",
+              "text": "Section D 一開始說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The negotiation between your genes and the environment begins on day one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的基因和環境之間的互動，從生命第一天就開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段很快進入懷孕、母親和孩子的關係，因此如果題目提到 relatives，尤其是 family / mother /child，Section D 是最合理定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“participants’ relatives”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“according to a study of almost 10,000 mother-child pairs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一項涉及將近一萬對母親與孩子的研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mother-child pairs” 就是 participants’ relatives 的具體例子，因為母親和孩子是親屬關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“If a woman has high blood-sugar levels while she’s pregnant, her children are more likely to be overweight or obese, according to a study of almost 10,000 mother-child pairs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一項涉及近一萬對母親與孩子的研究，如果女性懷孕時血糖水平高，她的孩子較可能過重或肥胖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “participants’ relatives” 概括原文的 “mother-child pairs”。這是具體例子轉上位類別的改寫。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“an example of a group of people who did not immediately regain weight after weight loss”",
+      "translation": "一個群體的例子：他們減重後沒有很快反彈。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section C 前半講小型運動改變對減重幫助有限，後半轉向成功減重者："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barrett suggests taking a cue from the members of the National Weight Control Registry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Barrett 建議可以參考 National Weight Control Registry 成員的做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這已經提示這段會出現成功減重群體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“group of people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“did not immediately regain weight”"
+            },
+            {
+              "kind": "quote",
+              "text": "“after weight loss”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“a self-selected group of more than 5,000 successful weight-losers who have shed an average of 66 pounds and kept it off 5.5 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個由超過 5,000 名成功減重者自願組成的群體；他們平均減掉 66 磅，並維持了 5.5 年。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“kept it off 5.5 years”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "維持減重成果 5.5 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “did not immediately regain weight”，原文說 “kept it off 5.5 years”。5.5 年明顯不是immediate regain，所以 Section C 正確。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“whether long-term hunger is tolerable during a weight-loss programme”",
+      "translation": "在減重過程中，長期飢餓感是否可以忍受。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 主要講 obese people lose weight 後，leptin levels 和 metabolism 下降，身體進入一種chronic hunger 狀態。這和題目中的 long-term hunger 完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“long-term hunger”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tolerable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相應詞語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“chronic hunger”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tolerate chronic thirst”"
+            },
+            {
+              "kind": "quote",
+              "text": "“couldn’t stand it”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中 chronic = 長期的、持續的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obese dieters’ bodies go into a state of chronic hunger, a feeling Rudolph Leibel, an obesity researcher at Columbia University, compares to thirst.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖減重者的身體會進入一種長期飢餓狀態；哥倫比亞大學肥胖研究者 Rudolph Leibel 把這種感覺比作口渴。"
+            },
+            {
+              "kind": "label",
+              "text": "接著 Leibel 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people might be able to tolerate chronic thirst, but the majority couldn’t stand it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人也許能忍受長期口渴，但大多數人承受不了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 whether long-term hunger is tolerable。原文正正討論 chronic hunger / chronic thirst 是否能被忍受，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“ongoing research that may lead to a practical solution other than diet or genetic intervention”",
+      "translation": "一項仍在進行的研究，可能帶來飲食或基因干預以外的實際解決方案。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section G 延續 Section F 的病毒理論，進一步研究 human virus AD-36、病毒致胖機制，以及可能的 obesity vaccine。題目中的 practical solution 明顯指向 vaccine。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ongoing research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“practical solution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other than diet or genetic intervention”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the goal is to use the research to create a sort of obesity vaccine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標是利用這項研究製造某種肥胖疫苗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vaccine 就是 practical solution，而且它不是 diet，也不是單純的 genetic intervention。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his latest studies, Dhurandhar has isolated a gene that, when blocked from expressing itself, seems to turn off the virus’s fattening power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在最新研究中，Dhurandhar 分離出一個基因；當這個基因的表達被阻止時，似乎可以關掉病毒令人發胖的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gene appears to be necessary and sufficient to trigger AD-36-related obesity, and the goal is to use the research to create a sort of obesity vaccine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個基因似乎是引發 AD-36 相關肥胖的必要且充分條件，而研究目標是利用這項研究製造某種肥胖疫苗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 ongoing research that may lead to a practical solution，原文說 latest studies 和 goal is to create a vaccine。答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "F — Teresa Hillier",
+      "answerKey": "F — Teresa Hillier",
+      "type": "Matching Researchers",
+      "prompt": "“A person’s weight is predetermined by the interaction of their DNA and the environment”",
+      "translation": "一個人的體重由 DNA 和環境的互動預先影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section D。"
+            },
+            {
+              "kind": "label",
+              "text": "這段第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The negotiation between your genes and the environment begins on day one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的基因和環境之間的協商，從生命第一天就開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句已經同時出現 genes 和 environment，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“DNA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“environment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predetermined”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相應內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your optimal weight, written by your genes, appears to get edited early on by conditions even before birth, inside the womb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的理想體重似乎由基因寫下，但早在出生前、在子宮裡，已經會被環境條件修改。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "Section D 後面提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maternal diabetes may influence a child’s obesity risk through a process called metabolic imprinting, says Teresa Hillier…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Teresa Hillier 表示，母親糖尿病可能透過一種稱為 metabolic imprinting 的過程，影響孩子的肥胖風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “DNA and the environment” 對應原文的 “genes and the environment”。而這整個發現由 Teresa Hillier 的母嬰研究支持，所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "F — Teresa Hillier",
+      "answerKey": "F — Teresa Hillier",
+      "type": "Matching Researchers",
+      "prompt": "“Overweight pregnant mothers may increase the risk of weight gain in their children.”",
+      "translation": "懷孕時過重的母親可能增加孩子日後體重上升的風險。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Section D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中討論懷孕時母親的身體狀況如何影響孩子未來體重。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“pregnant mothers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“risk”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a woman has high blood-sugar levels while she’s pregnant, her children are more likely to be overweight or obese…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果女性懷孕時血糖水平高，她的孩子更可能過重或肥胖。"
+            },
+            {
+              "kind": "label",
+              "text": "後面也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous studies in both animals and humans have shown that a mother’s obesity directly increases her child’s risk for weight gain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量動物和人類研究顯示，母親肥胖會直接增加孩子體重上升的風險。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 overweight pregnant mothers may increase risk。原文說 mother’s obesity directly increases her child’s risk for weight gain。這是高度直接的改寫。"
+            },
+            {
+              "kind": "label",
+              "text": "這段唯一被明確點名的研究者是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Teresa Hillier, an endocrinologist with Kaiser Permanente’s Center for Health Research and the study’s lead author.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Teresa Hillier 是 Kaiser Permanente 健康研究中心的內分泌學家，也是這項研究的主要作者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "E — Jeffrey Friedman",
+      "answerKey": "E — Jeffrey Friedman",
+      "type": "Matching Researchers",
+      "prompt": "“The aim of losing weight should be health rather than appearance.”",
+      "translation": "減重目標應該是健康，而不是外表。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段前半講小型運動改變未必帶來大幅減重，後半講減重目標不應只看外表，而要看健康收益。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“aim”"
+            },
+            {
+              "kind": "quote",
+              "text": "“health”"
+            },
+            {
+              "kind": "quote",
+              "text": "“appearance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有非常明顯的對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The goal shouldn’t be getting thin, but getting healthy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標不應是變瘦，而應是變健康。"
+            },
+            {
+              "kind": "label",
+              "text": "這句後面接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s enough to whittle your weight down to the low end of your set range, says Jeffrey Friedman…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jeffrey Friedman 表示，把體重降到自己設定範圍的低端已經足夠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Losing even 10 pounds vastly decreases your risk of diabetes, heart disease, and high blood pressure. The point is to not give up just because you don’t look like a swimsuit model.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使只減 10 磅，也能大幅降低糖尿病、心臟病和高血壓的風險。重點是，不要因為自己不像泳裝模特兒就放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “getting healthy” 和 “don’t look like a swimsuit model” 概括成 health rather than appearance。這個觀點連到 Jeffrey Friedman，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — Deirdre Barrett",
+      "answerKey": "D — Deirdre Barrett",
+      "type": "Matching Researchers",
+      "prompt": "“Small lifestyle changes will not result in much weight loss.”",
+      "translation": "細小生活習慣改變不會帶來太多減重效果。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section C 一開始講 moderate daily exercise："
+            },
+            {
+              "kind": "quote",
+              "text": "“The government has long espoused moderate daily exercise… but that may not do much to budge the needle on the scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府長期提倡溫和日常運動，但這可能不太能讓磅上的數字移動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“small lifestyle changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not result in much weight loss”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 Deirdre Barrett 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radical changes are necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要激烈或根本性的改變。"
+            },
+            {
+              "kind": "label",
+              "text": "接著她補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“People don’t lose weight by choosing the small fries or taking a little walk every other day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們不會靠選小份薯條，或每隔一天散一小段步，就成功減重。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 small lifestyle changes will not result in much weight loss。原文用具體例子表達同一意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“choosing the small fries” = 小幅飲食改變“taking a little walk every other day” = 小幅運動改變“don’t lose weight by…” = 這樣不足以達成減重這是 Deirdre Barrett 的觀點，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A — Robert Berkowitz",
+      "answerKey": "A — Robert Berkowitz",
+      "type": "Matching Researchers",
+      "prompt": "“Different researchers support different perspectives on weight loss.”",
+      "translation": "不同研究者支持不同的減重觀點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section A 是全文的總開場，主題是 obesity / weight loss 的理論很多，彼此差異很大。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different researchers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different perspectives”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Everyone subscribes to their own little theory,” says Robert Berkowitz…"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Robert Berkowitz 說，每個人都支持自己的小理論。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文前面列出多種不同觀點：“Some say obesity is largely predetermined by our genes and biology; others attribute it to an overabundance of fries, soda, and screen-sucking; still others think we’re fat because of viral infection, insulin, or the metabolic conditions we encountered in the womb.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人說肥胖很大程度由基因和生物學決定；另一些人歸因於薯條、汽水和螢幕生活過多；還有人認為肥胖源於病毒感染、胰島素，或胎內遇到的代謝條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Robert Berkowitz 的 “Everyone subscribes to their own little theory” 正好總結：不同研究者各有理論。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "chickens",
+      "answerKey": "chickens",
+      "type": "Summary Completion",
+      "prompt": "“For years, he experimented on 37 ______.”",
+      "translation": "多年來，他在 ______ 身上做實驗。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹 Dhurandhar 在 Bombay 提出 infectobesity 概念，以及他用 SMAM-1 病毒做實驗的早期研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bombay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“infectobesity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experimented”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea of ‘infectobesity’ came to him 20 years ago when he was a young doctor treating obesity in Bombay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“infectobesity” 這個想法，是二十年前他在 Bombay 當年輕醫生治療肥胖時想到的。後面說：“In experiments, Dhurandhar found that SMAM-1-infected chickens became obese…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在實驗中，Dhurandhar 發現感染 SMAM-1 的雞變得肥胖。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "題目問 experimented on 甚麼。原文中的實驗對象是："
+            },
+            {
+              "kind": "quote",
+              "text": "“chickens”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案必須保留複數，因為原文是 chickens。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 chickens。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "AD-36",
+      "answerKey": "AD-36",
+      "type": "Summary Completion",
+      "prompt": "“After moving to the United States, he identified a new virus, 38 ______, that induced weight gain.”",
+      "translation": "搬到美國後，他辨認出一種新的病毒 ______，能引起體重增加。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section G。"
+            },
+            {
+              "kind": "label",
+              "text": "這段第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He later moved to the US and began studying a bona fide human virus, adenovirus 36 (AD-36).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來他搬到美國，開始研究一種真正的人類病毒 adenovirus 36，即 AD-36。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“moved to the United States”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new virus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“induced weight gain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“He later moved to the US and began studying a bona fide human virus, adenovirus 36 (AD-36).”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目限制是 NO MORE THAN ONE WORD，最穩妥答案是原文括號中的縮寫： AD-36"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“adenovirus 36” 也在原文，但以 IELTS 字數限制來說，AD-36 更安全。所以答案是 AD-36。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "gene",
+      "answerKey": "gene",
+      "type": "Summary Completion",
+      "prompt": "“Although there is currently no way to eliminate the virus, a 39 ______ can be isolated and blocked to reduce its effects.”",
+      "translation": "雖然目前沒有方法消除病毒，但可以分離並阻截一個 ______，以減少它的影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Section G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半開始講 Dhurandhar 的 latest studies，重點是找出病毒致胖能力背後的 gene。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“isolated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blocked”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce its effects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dhurandhar has isolated a gene that, when blocked from expressing itself, seems to turn off the virus’s fattening power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dhurandhar 分離出一個基因；當這個基因的表達被阻止時，似乎可以關掉病毒令人發胖的能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be isolated and blocked”"
+            },
+            {
+              "kind": "label",
+              "text": "直接對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“has isolated a gene”"
+            },
+            {
+              "kind": "quote",
+              "text": "“when blocked from expressing itself”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格答案是 gene。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "vaccine",
+      "answerKey": "vaccine",
+      "type": "Summary Completion",
+      "prompt": "“The doctor now aims to develop a 40 ______ that could combat the virus.”",
+      "translation": "這位醫生現在目標是研發一種可以對抗病毒的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Section G 的最後一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先研究 AD-36，再研究 gene，最後提出 practical goal。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“aims to develop”"
+            },
+            {
+              "kind": "quote",
+              "text": "“combat the virus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the goal is to use the research to create a sort of obesity vaccine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標是利用這項研究製造某種肥胖疫苗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的："
+            },
+            {
+              "kind": "quote",
+              "text": "“aims to develop”"
+            },
+            {
+              "kind": "label",
+              "text": "對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the goal is to use the research to create”"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的："
+            },
+            {
+              "kind": "quote",
+              "text": "“could combat the virus”"
+            },
+            {
+              "kind": "label",
+              "text": "對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“obesity vaccine”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vaccine。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Stealth Forces in weight Loss.pdf",
+    "sha256": "d44f6aa05ebdf7ec7cb76c33f0a391c51e3ca723be5b30a69668b8ff5d597a24",
+    "pageCount": 20
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "功能：提出減重成因非常複雜，不同專家各有理論。這段用 blind men and the elephant 的比喻延伸到肥胖研究：有人重視基因和生物學，有人重視飲食、汽水、螢幕生活，也有人研究病毒、胰島素、胎內代謝環境。Robert Berkowitz 的重點是：每個人都支持自己的小理論。Nikhil Dhurandhar 則提醒，肥胖不應簡化成懶惰或意志力不足。"
+      },
+      {
+        "number": "B",
+        "summary": "功能：解釋 leptin、代謝下降和長期飢餓感如何令減重後維持體重很困難。這段主要講 obese people lose weight 後，leptin levels plummet，metabolism 也下降。身體會更有效率地使用燃料、保存脂肪。Rudolph Leibel 把 obese dieters 的 chronic hunger 比作 chronic thirst，指出這不能簡單歸咎於意志力問題。"
+      },
+      {
+        "number": "C",
+        "summary": "功能：說明小型生活改變通常不足以帶來明顯減重，並提出成功減重者、健康目標和減少疾病風險。這段先說政府一直提倡 moderate daily exercise，但半小時步行只消耗約 150 calories。Deirdre Barrett 認為 radical changes are necessary。之後提到 National Weight Control Registry，成員平均減掉 66 pounds 並維持 5.5 年。最後 Jeffrey Friedman 表示，目標應是健康，不一定是變瘦成模特兒身形。"
+      },
+      {
+        "number": "D",
+        "summary": "功能：討論基因和環境如何在出生前已影響體重，尤其是母親懷孕時的健康狀況。這段說 genes and environment 的 negotiation begins on day one，胎內環境會「編輯」基因設定的 optimal weight。Teresa Hillier 的研究涉及 nearly 10,000 mother-child pairs，指出母親血糖高、糖尿病或肥胖會增加孩子日後過重風險。"
+      },
+      {
+        "number": "E",
+        "summary": "功能：比較不同飲食方法在不同 insulin 分泌群體上的減重效果。這段講一項飲食研究：low-insulin-secreting group 在 low-fat diet 和 low-glycemic-load diet 上效果差不多；high-insulin group 在 low-fat plan 表現較差；最成功的是 high-insulin-secretors on the low-glycemic-load diet，他們減掉近 13 pounds 並維持效果。"
+      },
+      {
+        "number": "F",
+        "summary": "功能：介紹 infectobesity 概念的來源，以及 SMAM-1 病毒令雞變胖的實驗。這段說 Dhurandhar 在 Bombay 當年治療 obesity 時，發現 avian virus SMAM-1 令雞生病並出現大量腹部脂肪。他的實驗顯示，被 SMAM-1 感染的雞在相同飲食下變胖，未感染的雞則保持瘦削。"
+      },
+      {
+        "number": "G",
+        "summary": "功能：延伸到人類病毒 AD-36，並介紹可能通向 obesity vaccine 的研究。這段講 Dhurandhar 到美國後研究 human virus adenovirus 36，即 AD-36。不同動物感染後都會變胖。後來他 isolated a gene；當這個 gene 被 blocked from expressing itself，病毒的 fattening power 似乎會被關掉。研究目標是製造 obesity vaccine。"
+      }
+    ]
+  }
+}

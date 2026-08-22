@@ -1,0 +1,1237 @@
+{
+  "id": "p3-101-the-fame-machine",
+  "catalogueId": "p3-101",
+  "catalogueIds": [
+    "p3-101"
+  ],
+  "passage": 3,
+  "title": "The Fame Machine",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "C",
+    "B",
+    "A",
+    "creating and selling",
+    "Cinderella theme",
+    "relationship journalism",
+    "ordinary folk",
+    "retain some control",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B — more celebrity magazines per head of population than Americans",
+      "answerKey": "B — more celebrity magazines per head of population than Americans",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "英國人購買名人雜誌的情況是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： British people buy…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。這段首尾句都在說英國人對名人新聞需求龐大，並用 circulation 數字支持，所以 Question 27 應先定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 British people buy。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Britons buy almost half as many celebrity magazines as Americans do, despite having a population that is only one fifth the size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國人購買的名人雜誌數量接近美國人的一半，儘管英國人口只有美國的五分之一。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個數量：● 購買量：Britons buy almost half as many celebrity magazines as Americans do英國購買總量接近美國一半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 人口：population only one fifth the size英國人口只有美國五分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果總購買量接近美國的一半，但人口只有五分之一，代表按人口平均計算，英國人買得更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "粗略看就是 0.5 ÷ 0.2 = 2.5，即人均購買量約為美國的 2.5 倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A 說英國人買得和美國人一樣多。原文說 almost half as many，不是 as many。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說總共每年買 2,300 萬本名人雜誌。原文的 23 million 是十大名人刊物和十大 tabloids 的combined circulation，題目把範圍縮成 celebrity magazines each year，證據不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — now employing many British journalists",
+      "answerKey": "C — now employing many British journalists",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "《National Enquirer》現在有甚麼情況？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The National Enquirer is…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3。首句說名人媒體產業正在 expanding abroad，尾句正好提到 The National Enquirer，所以這段是直接定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 The National Enquirer。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The National Enquirer, a hard-nosed American scandal sheet famed for pushing back the boundaries of taste – and of free speech – was relaunched earlier in the year by a team led by Paul Field, formerly of The Sun, and stuffed with alumni of British tabloids and magazines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《National Enquirer》是一份強硬的美國醜聞小報，以挑戰品味和言論自由界線聞名；它在今年早些時候重新推出，由曾任《The Sun》的 Paul Field 領導的團隊負責，並充滿英國 tabloids 和magazines 的舊員工。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“stuffed with alumni of British tabloids and magazines”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“alumni” 在這裡指曾在英國 tabloids 和 magazines 工作過的人。題目選項 C 說 now employing many British journalists，就是把 “stuffed with alumni of British tabloids and magazines” 改寫成「聘用了很多有英國小報和雜誌背景的人」。所以 C 正確。錯項分析A 說它是 tasteful magazine。原文說它 “pushing back the boundaries of taste”，意思接近挑戰品味底線，和 tasteful 的方向不合。 B 說它現在由英國人擁有。原文只說重新推出的團隊有英國小報背景，沒有說 ownership 轉到英國人手上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — has been published for over a hundred years",
+      "answerKey": "B — has been published for over a hundred years",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "《News of the World》的情況是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The News of the World…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。首句說名人雜誌不是英國發明，尾句提到 The News of the World 的歷史時間點。這段處理 celebrity news 的歷史來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 The News of the World。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The News of the World, which gleefully reported aristocratic scandals in the 19th century, first appeared in the same year as Dickens’s ‘A Christmas Carol’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《News of the World》在十九世紀愉快地報導貴族醜聞；它首次出現的年份，和 Dickens 的《A Christmas Carol》同一年。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩個時間訊號：● “in the 19th century”十九世紀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “first appeared in the same year as Dickens’s ‘A Christmas Carol’”和《A Christmas Carol》同年首次出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使不記得具體年份，只要知道十九世紀距今已超過一百年，便可判斷它 has been published for over a hundred years。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A 說它是 American newspaper。原文把它放在 “In Britain, celebrity news has been used…” 之後，並說 nineteenth-century aristocratic scandals，語境是英國報業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說它刊登了《A Christmas Carol》的摘錄。原文只用《A Christmas Carol》的出版年份作時間參照，沒有說它刊登過該作品。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — works with celebrities",
+      "answerKey": "A — works with celebrities",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "Darren Lyons 的工作方式是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Darren Lyons…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。首句提到 profit motive，尾句說 collaboration 讓 celebrities 對照片有一定控制。這段很明顯在講名人、攝影機構和圖片銷售的合作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 Darren Lyons。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Darren Lyons runs a photography agency called Big Pictures that specialises in shooting celebrities through long lenses as if for a paparazzi picture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Darren Lyons 經營一家名為 Big Pictures 的攝影機構，專門用長鏡頭拍攝名人，看起來像paparazzi 照片。"
+            },
+            {
+              "kind": "label",
+              "text": "後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The profits from the picture sales are then split between the subject, the agency, and the photographer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "照片銷售所得的利潤會由拍攝對象、機構和攝影師分成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的是 profit split：● subject = 被拍攝的名人● agency = 攝影機構● photographer = 攝影師名人能分到利潤，說明他們不是完全被偷拍的受害者，實際上有合作關係。後文 “friendly paparazzi” 和 “Collaboration allows celebrities…” 也支持這點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 正確：Darren Lyons works with celebrities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析B 說很多名人討厭他。原文沒有這種說法；相反，利潤分成和 friendly paparazzi 暗示合作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說他不和報紙雜誌合作。原文說他的照片用於 picture sales，且全段談的是圖片進入媒體市場，沒有支持 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "creating and selling",
+      "answerKey": "creating and selling",
+      "type": "Sentence Completion",
+      "prompt": "Britain’s celebrity industry is good at 31 ______ a celebrity rating.",
+      "translation": "英國名人產業很擅長 ______ celebrity rating。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。首句說現代英國讓 gossip 變得更 sophisticated；尾句說英國名人產業很擅長創造和出售第二種 revenue stream。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 celebrity rating 和 Britain’s celebrity industry。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This second stream can often be more valuable than the first, and Britain’s celebrity industry has become adept at creating and selling it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這第二種收入來源往往比第一種更有價值，而英國名人產業已經很擅長創造並出售它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “is good at” 對應原文 has become adept at。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a celebrity rating” 對應前文的 celebrity rating / second stream。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個動名詞短語，放在 “is good at” 後面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 creating and selling。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● is good at = has become adept at● celebrity rating = this second stream● creating and selling = 創造並出售"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "Cinderella theme",
+      "answerKey": "Cinderella theme",
+      "type": "Sentence Completion",
+      "prompt": "Peter Andre and Katie Price’s wedding will have a 32 ______",
+      "translation": "Peter Andre 和 Katie Price 的婚禮將會有一個 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。首句直接引出 Peter Andre and Katie Price；這段用他們的婚禮和私生活出售權利，說明現代名人如何被包裝成商品。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Peter Andre and Katie Price 和 wedding。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have sold rights to the wedding, built around a Cinderella theme, as an exclusive to OK! for a small fortune…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們把婚禮報導權賣給 OK! 作為獨家內容，婚禮圍繞一個 Cinderella theme 打造，價格是一大筆錢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “wedding will have a ______”。原文的 “built around a Cinderella theme” 表示婚禮以Cinderella theme 為主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要從原文取出，且不可超過三個字。Cinderella theme 是兩個字，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 Cinderella theme。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "relationship journalism",
+      "answerKey": "relationship journalism",
+      "type": "Sentence Completion",
+      "prompt": "According to some, the three stars that increase sales of OK! the most all participate in 33 ______",
+      "translation": "據一些人所說，最能推高 OK! 銷量的三位明星，都參與了 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。首句直接出現 “relationship journalism”；後面說這種 process 很有效，能製造最能帶動 OK! 銷量的 celebrities。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 OK!、three celebrities、shift most copies。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Ashford of Northern & Shell, the company that owns OK!, calls this stuff‘relationship journalism’, and it is pretty easy to spot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OK! 所屬公司 Northern & Shell 的 Paul Ashford 把這種內容稱為 “relationship journalism”，而且它很容易辨認。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process has become so effective that the three celebrities who insiders say shift most copies of OK! have all been manufactured in this way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程已經變得非常有效，以致 insiders 說最能帶動 OK! 銷量的三位名人，都是用這種方式製造出來的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“this stuff” 和 “the process” 都回指前文的 relationship journalism。題目說 “participate in”，意思上指這些明星透過這種名人關係新聞模式被包裝、製造和出售。答案要填名詞短語，relationship journalism 兩個字，符合字數限制。所以 33 是 relationship journalism。中伏位是 “manufactured in this way”。這句很重要，但它本身不適合填入 “participate in ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。空格需要一個名詞短語，原文前一句提供的名詞就是 relationship journalism。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "ordinary folk",
+      "answerKey": "ordinary folk",
+      "type": "Sentence Completion",
+      "prompt": "34 ______ make more interesting subjects for stories.",
+      "translation": "______ 作為故事題材更有趣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。這段除了講 relationship journalism，也比較了傳統貴族八卦和普通人名人的新聞價值。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 more interesting subjects for stories。原文沒有直接使用 interesting subjects，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tittle-tattle about dukes and duchesses is worth less than stories on ordinary folk, partly because ordinary folk make for more colourful copy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於公爵和公爵夫人的閒話，比不上普通人的故事有價值，部分原因是 ordinary folk 能產生更有色彩、更生動的報導內容。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “more interesting subjects for stories” 對應原文 more colourful copy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“copy” 在新聞語境中指報導文字或新聞內容。能做出 “more colourful copy” 的主體是 ordinary folk。所以 34 是 ordinary folk。對比上，dukes and duchesses 的新聞 worth less，普通人的故事更有色彩。題目把 “more colourful copy” 改寫成 “more interesting subjects for stories”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "retain some control",
+      "answerKey": "retain some control",
+      "type": "Sentence Completion",
+      "prompt": "If celebrities co-operate with agencies and photographers, they 35 ______ with regard to which photographs of them are published.",
+      "translation": "如果名人和機構、攝影師合作，他們在刊登哪些照片方面可以 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。首句說 profit motive，尾句直接說 collaboration 讓 celebrities 保留一定控制，所以這段是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 co-operate、agencies and photographers、which photographs。原文最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collaboration allows celebrities to retain some control over choosing the pictures that appear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "合作讓名人能對哪些照片出現保留一定控制。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “co-operate” 對應原文 Collaboration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “which photographs of them are published” 對應原文 choosing the pictures that appear。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個動詞短語，放在 “they” 後面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文答案短語是 retain some control，三個字，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 retain some control。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Aaron Spelling has produced many American soap operas.",
+      "translation": "Aaron Spelling 製作過很多美國 soap operas。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。首句一開頭就提到 Aaron Spelling，所以定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Aaron Spelling 和 American soap operas。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fascination with what Aaron Spelling, a prolific producer of American soap operas, once called ‘rich people having problems that money can’t solve’ is universal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們普遍迷戀 Aaron Spelling 曾稱為「有錢人也解決不了的問題」的內容；Aaron Spelling 是一位多產的美國 soap operas 製作人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵詞是 prolific producer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "prolific 表示多產的、作品很多的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “has produced many”，正好對應 “prolific producer”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目和原文同方向，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The “talent” (paragraph 2) refers to the celebrity.",
+      "translation": "Paragraph 2 中的 “talent” 指的是 celebrity。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。這段在解釋名人產業的商業模式，尤其是 celebrity 如何成為 product。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是引號內的 “talent”。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, celebrity has become the product – rather than just a device for marketing films or music. The ‘talent’ (if that is the word) owes its standing chiefly to the celebrity machine and not to any particular gift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，celebrity 已經成為產品，不再只是用來推銷電影或音樂的工具。所謂 “talent”（如果這個詞還合適的話）的地位主要來自名人機器，而非任何特殊才華。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前一句說 celebrity has become the product。後一句的 The “talent” 承接這個概念，指那些被名人機器捧起來的人，即 celebrities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者加上 “if that is the word”，帶有諷刺語氣：這些人被稱作 talent，但他們的名氣主要不是來自genuine gift，而是來自 celebrity machine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 “talent” 指 celebrity，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Confidential was first published in the 1950s.",
+      "translation": "《Confidential》在 1950 年代首次出版。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。這段講 celebrity magazines 的歷史來源，並提到美國電影工業周邊的雜誌。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 Confidential。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some reported what the studios wanted them to say; others, such as Confidential– which became the biggest-selling magazine in America in the 1950s – aimed to dish the dirt on the stars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些雜誌報導電影公司希望它們說的內容；另一些，例如《Confidential》，則以揭露明星醜聞為目標；它在 1950 年代成為美國最暢銷雜誌。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 became the biggest-selling magazine in America in the 1950s，意思是它在 1950年代成為最暢銷雜誌。題目說的是 first published in the 1950s，即首次出版時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩件事不同：● 原文提供：1950 年代成為最暢銷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 題目要求：1950 年代首次出版。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "成為暢銷可以發生在創刊後，也可以發生在創刊同一時期；文章沒有交代創刊年份。因此資料不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 1950s 原字重現。看到相同年代不能直接選 TRUE，要看動詞：原文是 became the biggest-selling，題目是 first published。動作不同，證據鏈沒有完成。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "At Henry’s House, the celebrity’s ability is linked to their celebrity rating.",
+      "translation": "在 Henry’s House 的說法中，名人的能力和 celebrity rating 有關聯。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。這段分析現代英國名人產業如何把 celebrity rating 變成可出售的價值來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Henry’s House、celebrity rating、ability。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Julian Henry of Henry’s House, an agency for celebrities, distinguishes between a celebrity’s craft (such as singing, stripping, or kicking footballs) and their celebrity rating, which has a trajectory of its own, and often has an inverse relationship to the talent a famous person has, or once had.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Henry’s House 的 Julian Henry 區分名人的 craft，例如唱歌、脫衣表演或踢足球，以及他們的celebrity rating；後者有自己的發展軌跡，而且常常和名人現在或曾經擁有的才華呈反向關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 ability 對應原文的 craft 和 talent。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 celebrity rating 原字重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 celebrity rating “often has an inverse relationship to the talent”。“inverse relationship” 表示反向關係，仍然是一種 relationship / link。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，名人的能力和 celebrity rating 有關聯，只是這種關聯常常是反向：才藝越弱或越不重要，名人評級反而可能越有商業操作空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Peter Andre and Katie Price were becoming more successful when they met.",
+      "translation": "Peter Andre 和 Katie Price 相識時，事業正變得更成功。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。首句直接提到 Peter Andre and Katie Price，這段用他們作為 celebrity machine 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Peter Andre and Katie Price 和 met。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pop singer and the model better known as Jordan met when their careers were flagging, on a reality TV show – that essential new cog in the celebrity machine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位流行歌手和那位更為人熟知為 Jordan 的模特兒，是在他們的事業正在下滑時，在一個reality TV show 上相識的；真人騷是名人機器中重要的新齒輪。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵詞是 flagging。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "flagging 指變弱、走下坡、失去活力。用在 careers 上，就是事業正在下滑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 becoming more successful，即事業越來越成功。原文方向正好相反：他們相識時careers were flagging。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是後文他們成功把婚禮和私生活賣給 OK!，甚至簽書約。這些是相識之後透過 celebrity machine 被重新包裝的結果。題目問的是 when they met，時間點必須回到 “careers were flagging”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. B 28. C 29. B 30. A 31. creating and selling 32. Cinderella theme 33. relationship journalism 34. ordinary folk 35. retain some control 36. TRUE 37. TRUE 38. NOT GIVEN 39. TRUE 40. FALSE"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Fame Machine.pdf",
+    "sha256": "07c1073bc7790f24865ce00f2ff0d3cc6dd1305192f2632c1973f1be65dc00ca",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說人們普遍迷戀名人故事，尤其是那種「有錢人也解決不了的問題」；尾句用 Audit Bureau of Circulations 的數字指出，英國十大名人刊物和十大 tabloids 的合計發行量達 2,300 萬。只看首尾句，可先估計本段在介紹英國對名人新聞的強烈需求，並用銷量和人口比例證明這種需求非常龐大。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說滿足這種巨大需求，已把昔日粗糙、業餘的生意變成一個真正的娛樂產業；尾句說過去以入侵私隱為基礎的行業，現在偏向 collaboration。首尾句顯示本段會解釋現代名人產業的商業模式：名人本身成為產品，並且名人、代理人、攝影師和媒體會互相合作，持續製造可出售的名人新聞。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說這個產業也正在向海外擴張；尾句說美國 scandal sheet《National Enquirer》重新推出時，由曾任《The Sun》的 Paul Field 領導，並充滿英國 tabloids 和 magazines 的舊員工。首尾句可見本段重點是英國名人媒體經驗正在輸出海外，英國競爭市場培養出的人才，在外國名人新聞市場中很受需要。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 celebrity magazines 並非英國發明；尾句說《News of the World》早在 Dickens 的《A Christmas Carol》同年已經出現。首尾句顯示本段在交代名人雜誌和八卦新聞的歷史來源：西班牙有 Hello! / Hola!，美國電影工業周邊也有影星雜誌，英國使用名人新聞賣報紙的歷史也超過一個世紀。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說現代英國讓 gossip 變得更 sophisticated；尾句說英國名人產業很擅長創造並出售第二種revenue stream。只看首尾句，可推測本段會分析「名人評級」如何成為獨立價值來源。中間的Julian Henry 會區分 celebrity’s craft 和 celebrity rating，說明一個人原本的才藝和市場名氣可以分開運作。"
+      },
+      {
+        "number": "6",
+        "summary": "首句以 Peter Andre 和 Katie Price 為例，說他們即將結婚；尾句說 Katie Price 已和 Random House 簽下三本書合約。首尾句顯示本段用具體名人案例說明名人生命如何商品化：婚禮、戀愛、懷孕、孩子生日、書籍合約，都可以打包出售。這段很可能回答 wedding theme、exclusive rights和 celebrity commodity 的題目。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 OK! 所屬公司 Northern & Shell 的 Paul Ashford 把這種內容稱為 “relationship journalism”；尾句說很多看似入侵私生活的名人照片，其實是 staged。首尾句可見本段在解釋現代名人新聞如何被製造：關係、私生活、普通人名人、緋聞和 staged photos 都會影響銷量。這段很適合定位 relationship journalism 和 ordinary folk。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說這部分也受到 profit motive 推動；尾句說 collaboration 讓名人對刊登哪些照片保留一定控制。只看首尾句，可見本段講名人與攝影機構合作的原因：名人不想免費交出肖像價值，攝影機構則用 paparazzi 風格拍攝，再與當事人分成。這段會回答 Darren Lyons、friendly paparazzi、photo control 等題目。"
+      }
+    ]
+  }
+}

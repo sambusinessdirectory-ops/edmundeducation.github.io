@@ -1,0 +1,1869 @@
+{
+  "id": "p3-070-the-beginnings-of-art-therapy",
+  "catalogueId": "p3-070",
+  "catalogueIds": [
+    "p3-070"
+  ],
+  "passage": 3,
+  "title": "The Beginnings of Art Therapy",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "variety",
+    "therapeutic benefits",
+    "creative process",
+    "not incompatible",
+    "B — strong",
+    "D — inhibited",
+    "E — creative"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“The artist Adrian Hill was strongly influenced by psychoanalytic theories when formulating his ideas on art therapy.”",
+      "translation": "藝術家 Adrian Hill 在形成 art therapy 理念時，深受 psychoanalytic theories 影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目把 Adrian Hill 和 psychoanalytic theories 建立關係，而且加入 “strongly influenced” 這個程度詞。要成立 TRUE，原文必須明確把 Hill 的想法和psychoanalysis 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2，並需要回看 Paragraph 1 的背景句。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t until 1942, however, that the British artist Adrian Hill coined the term ‘art therapy’, as he was recovering from tuberculosis in a sanatorium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1942 年，英國藝術家 Adrian Hill 在療養院從肺結核中康復時，才創造了 “art therapy” 這個詞。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This effect, argued Hill, could in turn help the patient as it would ‘build up a strong defence against his misfortunes’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hill 認為，這種效果可以進一步幫助病人，因為它會「建立起一道對抗不幸的強大防線」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 主要介紹 Hill 如何命名 art therapy，以及他如何理解藝術對病人的治療效果。這段首尾都沒有出現 psychoanalysis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “Adrian Hill” 和 “psychoanalytic theories”。掃描全文會發現"
+            },
+            {
+              "kind": "quote",
+              "text": "“psychoanalysis” 出現在 Paragraph 1：“Many of the early practitioners of art therapy acknowledged the influence of a variety of disciplines on their practices, ranging from psychoanalysis through to aesthetics and early childhood education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 art therapy 早期從業者承認，他們的實踐受到多種學科影響，由 psychoanalysis 到aesthetics 和 early childhood education 都包括在內。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提到的是 many early practitioners，沒有指名 Adrian Hill。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 對 Hill 的描述是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He discovered that therapeutic benefits could be derived from drawing and painting during his recovery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現，在康復期間進行 drawing and painting 可以帶來治療益處。"
+            },
+            {
+              "kind": "label",
+              "text": "再看他的理念："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art, he claimed, could become therapeutic since it was capable of ‘completely engrossing the mind… releasing the creative energy of the frequently inhibited patient’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他主張，藝術可以變成治療性的，因為它能「完全吸引心智……釋放常被壓抑病人的創造能量」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子支援的是 Hill 從康復、drawing and painting、creative energy 角度理解 art therapy。原文沒有說他受 psychoanalytic theories 影響，更沒有 “strongly influenced” 這種程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Adrian Hill 的理念深受 psychoanalysis 影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：許多早期從業者受多種學科影響；Hill 在康復期間發現 drawing and painting 有therapeutic benefits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分：Hill 和 psychoanalysis 的直接關係，以及 “strongly influenced” 的程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Twentieth-century art therapy focuses on treating a client’s mental or physical health problems rather than dealing with moral issues.”",
+      "translation": "二十世紀的 art therapy 重點是治療客戶的心理或身體健康問題，而不把焦點放在道德議題上。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較現代 art therapy 的功能和早期 “moral treatment” 的歷史背景。控制詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Twentieth-century”、“mental or physical health problems” 和 “moral issues”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 4。 Paragraph 1 第一句：“Art therapy is a relative newcomer to the therapeutic field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Art therapy 是治療領域中相對新的成員。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the roots of art as therapy go back as far as the late 18th century, when arts were used in the ‘moral treatment’ of psychiatric patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，藝術作為治療的根源可追溯至十八世紀末，當時藝術被用於精神病人的 “moral treatment”。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art therapy in all its forms has proved effective in the treatment of individuals suffering from a wide range of difficulties or disabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各種形式的 art therapy 已被證明能有效治療遭受多種困難或障礙的人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, art therapy sessions can enhance a patient’s cognitive abilities and help the patient enjoy the life-affirming pleasures of making art.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，art therapy sessions 可以提升病人的認知能力，並幫助病人享受創作藝術所帶來、肯定生命的愉悅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到一條歷史轉向：藝術曾用於 “moral treatment”，現代 art therapy 則被描述為治療多種困難和障礙的治療方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “mental or physical health problems” 在 Paragraph 4 找到明確對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“These include emotional, behavioural or mental-health problems, learning or physical disabilities, neurological conditions and physical illness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些包括 emotional、behavioural 或 mental-health problems、learning 或 physical disabilities、neurological conditions 和 physical illness。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接列出現代 art therapy 的治療對象，當中包括 mental-health problems、physical disabilities 和 physical illness。題目把這些內容概括為 “mental or physical health problems”。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph 1 的歷史句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the roots of art as therapy go back as far as the late 18th century, when arts were used in the‘moral treatment’ of psychiatric patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術作為治療的根源可追溯至十八世紀末，當時藝術被用於精神病人的 “moral treatment”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rather than dealing with moral issues” 是把歷史上的 “moral treatment” 和現代 art therapy 的治療範圍作對比。文章對現代 art therapy 的介紹集中在 health、disabilities、stress、trauma、cognitive abilities 等方面，沒有把現代重點放在道德議題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“treating a client’s mental or physical health problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“emotional, behavioural or mental-health problems… physical disabilities… physical illness”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twentieth-century art therapy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art therapy as a profession began in the mid-20th century”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目方向和原文一致，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Approaches to art therapy can be broadly considered to be creative or psychoanalytic; however, practitioners tend to avoid combining the two schools of practice.”",
+      "translation": "Art therapy 的方法大致可分為 creative 和 psychoanalytic 兩類；不過，從業者通常避免把兩派結合。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題前半句和原文很接近，真正需要判斷的是後半句：是否 “avoid combining”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1964, the British Association of Art Therapists was founded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1964 年，British Association of Art Therapists 成立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A patient, for example, could produce work that could be analysed for content and forms of self-expression but which could also be a creative outlet at the same time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，病人可以創作出既能被分析內容和自我表達形式，同時也能作為創意出口的作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會說明 art therapy 形成專業後的方法分類，以及不同方法之間的實際關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “creative”、“psychoanalytic”、“combining”。Paragraph 3 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Proponents of art therapy fell into one of two categories…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持 art therapy 的人分成兩類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著原文分別描述 psychoanalytic tool 和 art-making as an end in itself。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two practices, however, were not incompatible, a degree of overlap occurring between the two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這兩種做法並不互相排斥，兩者之間會出現一定程度的重疊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “practitioners tend to avoid combining the two schools of practice”，意思是從業者通常避免結合兩派。原文剛好指出兩者 not incompatible，並且有 overlap。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句還進一步說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A patient, for example, could produce work that could be analysed for content and forms of self-expression but which could also be a creative outlet at the same time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，病人的作品可以被分析內容和自我表達形式，同時也可以成為創意出口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個例子正正說明兩種方式可以同時出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目前半：creative / psychoanalytic 兩類方法 —— 原文支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目後半：避免結合兩派 —— 原文說兩者有 overlap。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後半出現明確衝突，所以整句答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Clients who respond best to art therapy have a previous background in art.”",
+      "translation": "對 art therapy 反應最好的客戶，過去有藝術背景。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 clients，而且有 “respond best” 和 “previous background in art” 兩個關鍵限制。要成立 TRUE，文章必須說哪些客戶效果最好，並指出他們有藝術背景。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 和 Paragraph 7 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art therapy in all its forms has proved effective in the treatment of individuals suffering from a wide range of difficulties or disabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各種形式的 art therapy 已證明能有效治療遭受多種困難或障礙的人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, art therapy sessions can enhance a patient’s cognitive abilities and help the patient enjoy the life-affirming pleasures of making art.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，art therapy sessions 可以提升病人的認知能力，並幫助病人享受創作藝術帶來的肯定生命的愉悅。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Requirements for those wishing to become an art therapist vary from country to country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想成為 art therapist 的要求因國家而異。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On completion of the master’s degree, candidates also have to complete at least 1,000 hours of postgraduate direct client contact approved by the American Art Therapy Association (AATA).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完成 master’s degree 後，候選人還要完成至少 1,000 小時由 AATA 認可的 postgraduate direct client contact。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “clients” 對應 Paragraph 4 的 individuals / patient / clients。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“previous background in art” 容易讓人掃到 Paragraph 7 的 “studio art disciplines” 和 “artistic proficiency”，但那裡說的是 therapist，不是 client。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 說 art therapy 對以下人有效：“These include emotional, behavioural or mental-health problems, learning or physical disabilities, neurological conditions and physical illness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些包括 emotional、behavioural 或 mental-health problems、learning 或 physical disabilities、neurological conditions 和 physical illness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡只按困難或障礙類型分類，沒有說過去有藝術背景的人效果最好。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“those entering the profession must have taken courses in a variety of studio art disciplines in order to demonstrate artistic proficiency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入這個專業的人必須修讀多種 studio art disciplines 的課程，以證明藝術能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句講的是想成為 therapist 的人，不是接受 therapy 的 client。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文有：客戶可以有多種 health / disability needs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療師需要藝術訓練和專業資格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有：有藝術背景的客戶反應最好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有比較哪類 client “respond best”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Art therapy sessions are more concerned with expression through art than with the artwork created.”",
+      "translation": "Art therapy sessions 更重視透過藝術表達，而較少把焦點放在完成的藝術作品本身。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 session 的重點。控制詞是 “more concerned with expression” 和 “than with the artwork created”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typically, an art therapy session is fundamentally different from an art class in that the individual is encouraged to focus more on their internal feelings and to express them, rather than portray external objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常，art therapy session 和 art class 根本不同，因為個人被鼓勵更多專注於內在感受並表達它們，而非描繪外在物件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any type of visual art or medium can be employed in the therapeutic process including painting, drawing, sculpture, photography and digital art.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何類型的 visual art 或 medium 都可用於治療過程，包括 painting、drawing、sculpture、photography 和 digital art。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段不是教技巧或作品評分，而是說明 art therapy session 的核心在therapeutic process 和 inner expression。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “expression through art” 和 “artwork created”。原文對應 “express them”、“inner world”、“therapeutic process”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句已非常直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“the individual is encouraged to focus more on their internal feelings and to express them…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個人被鼓勵更多專注於自己的內在感受，並把它們表達出來。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“the patient’s inner world of images, feelings, thoughts and ideas are always of primary importance to the experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "病人內在世界中的 images、feelings、thoughts 和 ideas，始終是這段經驗中最重要的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “expression through art” 對應 “focus more on internal feelings and express them”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “than with the artwork created” 對應原文把 external objects、art medium 放在次要位置，重點是 inner world 和 therapeutic process。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目說 session 更重視表達，原文說 internal feelings / inner world are primary。方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Many art therapists are insufficiently qualified as they are not aware of the regulations regarding the practice of art therapy.”",
+      "translation": "許多 art therapists 資格不足，原因是他們不了解 art therapy 的執業規例。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題包含兩個命題：第一，many art therapists are insufficiently qualified。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，原因是 they are not aware of regulations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者都需要原文支持才可選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 和 Paragraph 8 Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Requirements for those wishing to become an art therapist vary from country to country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想成為 art therapist 的要求因國家而異。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On completion of the master’s degree, candidates also have to complete at least 1,000 hours of postgraduate direct client contact approved by the American Art Therapy Association (AATA).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完成 master’s degree 後，候選人還要完成至少 1,000 小時由 AATA 認可的 postgraduate direct client contact。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, whilst entry to the profession is strictly regulated in the USA, the same does not hold true for other countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，雖然在美國進入這個專業受到嚴格規管，其他國家情況並不相同。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As such, until it becomes truly established as a therapy, its practice and application will remain unregulated in many countries for some time yet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，在 art therapy 真正成為成熟治療形式之前，它的 practice and application 在許多國家仍會有一段時間不受規管。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “qualified”、“regulations”。原文有 “qualified professionals”、“strictly regulated”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unregulated”，但沒有 “insufficiently qualified” 或 “not aware”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 說：“its practice and application will remain unregulated in many countries for some time yet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的實踐和應用在許多國家仍會有一段時間保持不受規管。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是制度層面：許多國家暫時缺少規管。它沒有說許多 art therapists 資格不足，也沒有說他們不懂規例。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 的美國規管反而說明有些地方要求很嚴："
+            },
+            {
+              "kind": "quote",
+              "text": "“a master’s degree in art therapy is essential.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "art therapy 的 master’s degree 是必需的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文有：不同國家規管不同，美國嚴格，許多國家仍未規管。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有：許多治療師不合資格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也沒有：資格不足是因為不了解規例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Art therapy sessions involve limited interaction between therapist and client.”",
+      "translation": "Art therapy sessions 中，therapist 和 client 之間的互動有限。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 session 中 therapist 的角色。如果原文顯示 therapist 需要主動引導和鼓勵，便會和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“limited interaction” 衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句：“Art therapy sessions are usually led by qualified professionals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Art therapy sessions 通常由合資格專業人士帶領。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The therapist’s primary role is to attend to, guide and encourage the patient’s artistic expression, in keeping with the original sense of the Greek word ‘therapeia’, meaning ‘being attentive to’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療師的主要角色是留意、引導並鼓勵病人的藝術表達，這符合希臘字 “therapeia” 的原意，即「專注照顧、留心對待」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚看到 therapist 在 session 中有主動角色。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “interaction between therapist and client”。原文沒有 interaction 這個字，但 “led by”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“attend to”、“guide”、“encourage” 都是互動性很強的動詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The therapist’s primary role is to attend to, guide and encourage the patient’s artistic expression…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療師的主要角色是留意、引導並鼓勵病人的藝術表達。"
+            },
+            {
+              "kind": "label",
+              "text": "三個動詞很重要："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“attend to” = 留意、照顧、專注於病人狀態。“guide” = 引導。“encourage” = 鼓勵。這些都表示 therapist 需要和 patient 持續互動。判斷題目說 interaction limited。原文說 therapist led sessions，並要 attend、guide、encourage。原文提供了相反方向的資訊，所以答案是 FALSE。 Questions 34–37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "variety",
+      "answerKey": "variety",
+      "type": "Question Analysis",
+      "prompt": "“The early pioneers of art therapy admitted that their beliefs had been shaped by a 34 ______of influences.”",
+      "translation": "Art therapy 的早期先驅承認，他們的信念受到 ______ 影響塑造。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前是 “a”，後面是 “of influences”，所以需要一個可接 “a ___ of” 的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art therapy is a relative newcomer to the therapeutic field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Art therapy 是治療領域中相對新的成員。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the roots of art as therapy go back as far as the late 18th century, when arts were used in the ‘moral treatment’ of psychiatric patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，藝術作為治療的根源可追溯至十八世紀末，當時藝術被用於精神病人的 “moral treatment”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 art therapy 的歷史來源和早期影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “early pioneers” 和 “influences”。原文對應 “early practitioners” 和 “influence of a variety of disciplines”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of the early practitioners of art therapy acknowledged the influence of a variety of disciplines on their practices…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 art therapy 早期從業者承認，他們的實踐受到多種學科影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目將 “early practitioners” 改成 “early pioneers”，並把 “influence of a variety of disciplines” 改成 “a variety of influences”。空格應填 variety。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： variety = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "therapeutic benefits",
+      "answerKey": "therapeutic benefits",
+      "type": "Question Analysis",
+      "prompt": "“Artist Adrian Hill realised the 35 ______ of art as therapy, and coined the term ‘art therapy’ in 1942.”",
+      "translation": "藝術家 Adrian Hill 意識到藝術作為治療的 ______，並在 1942 年創造 “art therapy” 一詞。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t until 1942, however, that the British artist Adrian Hill coined the term ‘art therapy’, as he was recovering from tuberculosis in a sanatorium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1942 年，英國藝術家 Adrian Hill 在療養院從肺結核中康復時，才創造了 “art therapy” 這個詞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This effect, argued Hill, could in turn help the patient as it would ‘build up a strong defence against his misfortunes’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hill 認為，這種效果可以進一步幫助病人，因為它會「建立起一道對抗不幸的強大防線」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Adrian Hill”、“coined the term” 和 “art as therapy”。原文同段直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“He discovered that therapeutic benefits could be derived from drawing and painting during his recovery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現，在康復期間進行 drawing and painting 可以帶來治療益處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “realised the ___ of art as therapy” 對應原文 “discovered that therapeutic benefits could be derived”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 therapeutic benefits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： therapeutic benefits = 2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "creative process",
+      "answerKey": "creative process",
+      "type": "Question Analysis",
+      "prompt": "“Those supporting art therapy advised a psychoanalytic approach or alternatively one that placed more emphasis on the 36 ______ itself.”",
+      "translation": "支持 art therapy 的人，有些主張 psychoanalytic approach，另一派則更重視 ______ 本身。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1964, the British Association of Art Therapists was founded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1964 年，British Association of Art Therapists 成立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A patient, for example, could produce work that could be analysed for content and forms of self-expression but which could also be a creative outlet at the same time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，病人可以創作出既能被分析內容和自我表達形式，同時也能成為創意出口的作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門處理兩種 art therapy approach。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “psychoanalytic approach” 和 “itself”。原文有 “psychoanalytic tool” 和 “art-making was an end in itself”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“those who held the belief that art-making was an end in itself, the creative process acting therapeutically on the patient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一類人相信 art-making 本身就是目的，creative process 會對病人產生治療作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前有 “the”，空格後有 “itself”，最自然接法是 “the creative process itself”。因此答案是creative process。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： creative process = 2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "not incompatible",
+      "answerKey": "not incompatible",
+      "type": "Question Analysis",
+      "prompt": "“Whilst theories behind art therapy may differ, they are 37 ______ in practice.”",
+      "translation": "雖然 art therapy 背後的理論可能不同，但在實踐中它們 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1964, the British Association of Art Therapists was founded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1964 年，British Association of Art Therapists 成立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A patient, for example, could produce work that could be analysed for content and forms of self-expression but which could also be a creative outlet at the same time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，病人可以創作出既能被分析內容和自我表達形式，同時也能成為創意出口的作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先分兩派，再說兩派可重疊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “theories may differ” 和 “in practice”。原文對應 “The two practices” 和 “overlap”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two practices, however, were not incompatible, a degree of overlap occurring between the two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩種做法並不互相排斥，兩者之間會出現一定程度的重疊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子 “they are ___ in practice” 需要一個形容詞短語。原文最精準答案是 not incompatible。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： not incompatible = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 38–40"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "從 A–F 選字。這組不只要選意思，也要看 summary 的文法位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — strong",
+      "answerKey": "B — strong",
+      "type": "Question Analysis",
+      "prompt": "“Adrian Hill, one of its early pioneers, realised that art therapy was effective in helping patients create a 38 ______ resistance to psychological and social stresses.”",
+      "translation": "Adrian Hill 意識到 art therapy 能幫助病人建立一種 ______ 的抵抗力，用來面對心理和社會壓力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t until 1942, however, that the British artist Adrian Hill coined the term ‘art therapy’, as he was recovering from tuberculosis in a sanatorium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1942 年，英國藝術家 Adrian Hill 在療養院從肺結核中康復時，才創造了 “art therapy” 這個詞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This effect, argued Hill, could in turn help the patient as it would ‘build up a strong defence against his misfortunes’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hill 認為，這種效果可以進一步幫助病人，因為它會「建立起一道對抗不幸的強大防線」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“build up a strong defence against his misfortunes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建立一道對抗不幸的強大防線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “defence” 改寫成 “resistance”，所以空格需要形容詞 “strong”。選項中對應是 B — strong。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — inhibited",
+      "answerKey": "D — inhibited",
+      "type": "Question Analysis",
+      "prompt": "“Hill considered that 39 ______ patients would particularly benefit from having an artistic outlet.”",
+      "translation": "Hill 認為，______ 的病人尤其會因藝術出口而受益。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2這段仍然是 Hill 的理念。題目中的 “artistic outlet” 對應原文的 “releasing the creative energy”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Art, he claimed, could become therapeutic since it was capable of ‘completely engrossing the mind… releasing the creative energy of the frequently inhibited patient’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他主張，藝術可以變成治療性的，因為它能「完全吸引心智……釋放常被壓抑病人的創造能量」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “having an artistic outlet” 改寫自 “releasing the creative energy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要形容病人的形容詞，原文是 “inhibited patient”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D — inhibited。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "E — creative",
+      "answerKey": "E — creative",
+      "type": "Question Analysis",
+      "prompt": "“Art therapy then developed into two types of practice, one emphasising a psychoanalytic approach and the other a more 40 ______ one.”",
+      "translation": "Art therapy 後來發展成兩種 practice：一種強調 psychoanalytic approach，另一種更 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1964, the British Association of Art Therapists was founded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1964 年，British Association of Art Therapists 成立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A patient, for example, could produce work that could be analysed for content and forms of self-expression but which could also be a creative outlet at the same time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，病人可以創作出既能被分析內容和自我表達形式，同時也能成為創意出口的作品。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文把兩類 proponents 分成：第一類："
+            },
+            {
+              "kind": "quote",
+              "text": "“the therapeutic effect of art lay in its effectiveness as a psychoanalytic tool…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術的治療效果在於它可作為 psychoanalytic tool。"
+            },
+            {
+              "kind": "label",
+              "text": "第二類："
+            },
+            {
+              "kind": "quote",
+              "text": "“art-making was an end in itself, the creative process acting therapeutically on the patient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "art-making 本身就是目的，creative process 對病人產生治療作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “the other a more ___ one” 概括第二類 approach。選項中最貼近 “creative process /creative outlet” 的是 E — creative。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Beginnings of Art Therapy.pdf",
+    "sha256": "d7ed1d19061299f9173577385f2e3b6657f54736b41e7f24dcc85fef8b70b955",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首尾句，第一段先說 art therapy 是治療領域中相對新的成員，作為專業在二十世紀中期才開始；段尾卻把 art as therapy 的根源推回十八世紀末，當時藝術被用於精神病人的 “moral treatment”。這段功能是交代歷史背景：現代 art therapy 雖然年輕，但藝術作為治療手段已有更長歷史。中間提到早期從業者受 psychoanalysis、aesthetics、early childhood education 等多種學科影響。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說直到 1942 年，英國藝術家 Adrian Hill 才創造 “art therapy” 一詞；段尾說藝術可以幫助病人建立對抗不幸的強大防線。這段功能是介紹 art therapy 這個名稱的由來，以及 Hill 在肺結核療養期間如何發現 drawing and painting 的 therapeutic benefits。整段重點是個人康復經驗、創造力釋放、心靈投入和心理防禦，並沒有把 Hill 直接連到 psychoanalysis。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說 British Association of Art Therapists 在 1964 年成立；段尾說同一位病人的作品既可被分析，也可同時作為 creative outlet。這段功能是說明 art therapy 形成兩大路線：一種把藝術作品當作 psychoanalytic tool，用來評估病人；另一種把 art-making 本身視為治療。段中最重要的轉折是：兩種做法並不互相排斥，實際上可以有 overlap。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說各種形式的 art therapy 已證明對多類困難或障礙有效；段尾說 art therapy 可提升cognitive abilities，也讓病人享受創作藝術帶來的 life-affirming pleasures。這段功能是回答 “Who Benefits”：受益者包括有 emotional、behavioural、mental-health、learning、physical、neurological、physical illness 等問題的人。它同時說明治療可按需要以 group 或 individual basis 進行，效果也很多層面。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說 art therapy session 和 art class 根本不同，因為個人被鼓勵更專注於內在感受和表達，而非描繪外在物件；段尾說任何 visual art 或 medium 都可用於治療，包括 painting、drawing、sculpture、photography 和 digital art。這段功能是解釋 session 內容：重點在 inner world of images, feelings, thoughts and ideas。Q31 直接由這段判斷。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說 art therapy sessions 通常由 qualified professionals 帶領；段尾解釋 therapist 的主要角色是 attend to、guide 和 encourage 病人的 artistic expression，這也呼應 Greek word“therapeia” 的原意 “being attentive to”。這段功能是說明 therapist 在 session 中的角色。它顯示治療師並非旁觀者，而是有主動引導和支持功能，因此 Q33 要定位這段。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說想成為 art therapist 的要求因國家而異；段尾說完成 master’s degree 後，候選人還要完成至少 1,000 小時由 AATA 認可的 postgraduate direct client contact。這段功能是介紹美國art therapy 的嚴格入行規管：需要 master’s degree、studio art disciplines 課程以證明 artistic proficiency，以及大量臨床接觸時數。這段可幫助排除 Q30 和 Q32 的干擾。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段首句以 however 轉折，指出雖然美國入行規管嚴格，其他國家情況並不相同；段尾說由於art therapy 仍被視為 developing field，在許多國家，其 practice and application 仍會有一段時間保持 unregulated。這段功能是補充全球規管差異。它說明某些國家缺乏規管，但沒有說大量治療師不合資格，也沒有說他們不懂規例。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1383 @@
+{
+  "id": "p3-080-long-term-forecast-hot-and-dry",
+  "catalogueId": "p3-080",
+  "catalogueIds": [
+    "p3-080"
+  ],
+  "passage": 3,
+  "title": "LONG-TERM FORECAST: HOT AND DRY",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "varying rates",
+    "intensify",
+    "initiate",
+    "aridity",
+    "vegetation",
+    "soils",
+    "G",
+    "E",
+    "D",
+    "B",
+    "E — loss",
+    "G —desertification",
+    "C — drylands",
+    "A — irrigation"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "varying rates",
+      "answerKey": "varying rates",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 27",
+      "translation": "土地退化以 ______ 進行。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“degradation proceeds at 27 ______”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞是 “proceeds at”。原文直接說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“it proceeds at varying rates in different climates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在不同氣候中以不同速度進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目圖表已經給出 “proceeds at”，所以空格要填它後面的名詞短語： varying rates"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／結構對應",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "degradation proceeds at ______= it proceeds at varying rates答案符合 no more than three words。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "intensify",
+      "answerKey": "intensify",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 28",
+      "translation": "______ 一種 climate trend。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“28 ______ a climate trend”"
+            },
+            {
+              "kind": "label",
+              "text": "Scan 定位詞是 “a climate trend”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Desertification may intensify a general climatic trend…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Desertification 可能會加劇一個 general climatic trend。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表把原文的 “a general climatic trend” 簡化成 “a climate trend”。空格在動詞位置，所以要填動詞： intensify注意答案要用原文形式，不要改成 “intensifies”。IELTS sentence / flow-chart completion 通常要求直接從文章取詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "initiate",
+      "answerKey": "initiate",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 29",
+      "translation": "______ 一種 climate change。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“29 ______ a change in climate”"
+            },
+            {
+              "kind": "label",
+              "text": "Scan 定位詞是 “a change in climate”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“or initiate a change in local climate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "或引發 local climate 的變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “local climate” 改寫成 “climate”，但句子結構完全一致。空格需要動詞，答案是： initiate Question 28 和 29 是並列結構： intensify a general climatic trend initiate a change in local climate所以圖表左右兩邊分別填 intensify 和 initiate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "aridity",
+      "answerKey": "aridity",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 30",
+      "translation": "結果導致更大的／更高程度的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“resulting in greater 30 ______”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞是 “greater”。原文說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“both leading towards greater aridity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者都會導向更高程度的乾旱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “resulting in” 改寫原文 “leading towards”。空格前有 greater，後面需要抽象名詞。原文答案是： aridity不要填 “arid conditions”。圖表句型是 “greater ______”，原文完全對應 “greater aridity”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "vegetation",
+      "answerKey": "vegetation",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 31",
+      "translation": "______ 的耗損／枯竭。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“depletion of 31 ______”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞是 “depletion of”。原文說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“The more arid conditions associated with desertification accelerate the depletion of vegetation and soils.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 desertification 相關的更乾旱環境，會加速 vegetation 和 soils 的耗損。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表下面有兩個並列空格：depletion of 31 和 depletion of 32。原文並列名詞是： vegetation and soils所以 31 是 vegetation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "soils",
+      "answerKey": "soils",
+      "type": "Flow-chart Completion",
+      "prompt": "Question 32",
+      "translation": "______ 的耗損／流失。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖表位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“depletion of 32 ______”"
+            },
+            {
+              "kind": "label",
+              "text": "同一句原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more arid conditions associated with desertification accelerate the depletion of vegetation and soils.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更乾旱的條件會加速 vegetation 和 soils 的耗損。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "31 已經填 vegetation，32 就是第二個並列名詞： soils中伏位在於有些同學會填 “soil” 單數，但原文是 soils。因為題目要求 words from the passage，應保留原文複數形式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Human intervention is a potential solution to disaster.”",
+      "translation": "人類介入可能是災難的一種解決方向。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Future climate change could critically undermine efforts towards sustainable development in the Mediterranean region through its impacts on the environment and social and economic well-being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未來 climate change 可能透過對環境、社會和經濟福祉的影響，嚴重削弱 Mediterranean region的 sustainable development 努力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Current understanding of safe limits points to the need for prompt international agreement—and action—to make the drastic cuts in emissions of greenhouse gases required to stabilise atmospheric concentrations of these gases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前對安全限度的理解指出，各國需要迅速達成國際協議並採取行動，大幅削減 greenhouse gas emissions，以穩定這些氣體在大氣中的濃度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段從 climate change 的威脅轉向 policy response 和 action，所以很適合找「人類介入作為解決方向」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Human intervention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“potential solution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接寫 “human intervention”，但有一系列人類行動詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“adaptation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“radical changes in our policies and practices”"
+            },
+            {
+              "kind": "quote",
+              "text": "“assist adaptation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“international agreement—and action”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drastic cuts in emissions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是人類可以採取的介入措施。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is some scope for adaptation, but the fact that many measures would be beneficial irrespective of climate change suggests that radical changes in our policies and practices will be needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍然有一些 adaptation 的空間；而且許多措施即使不考慮 climate change 也會有益，這顯示我們需要在 policies and practices 上作出 radical changes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明災難並非完全無法處理。人類可以透過 adaptation、政策和實踐改變來回應問題。最後一句再把解決方向提高到國際層面：需要 agreement、action 和 drastic cuts in emissions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Human intervention” 是對這些 policy changes、adaptation、financial assistance、emissions cuts 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“potential solution to disaster” 對應原文 “some scope for adaptation” 和 “action”。所以段落是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“The rate of climate change is set to accelerate dramatically.”",
+      "translation": "Climate change 的速度將會大幅加快。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But desertification will not be limited to the drylands of Africa and Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Desertification 不會只限於 Africa and Asia 的 drylands。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The worst affected areas will be the Nile Delta, Venice in Italy and Thessaloniki in Greece, two major cities where local subsidence means that sea levels could rise by at least one-and-a-half times as much as elsewhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受影響最嚴重的地區會是 Nile Delta、意大利 Venice 和希臘 Thessaloniki；在後兩個主要城市， local subsidence 表示 sea levels rise 可能至少是其他地方的一倍半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段在講 Mediterranean region 將受到 climate change 和 sea-level rise 的嚴重影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“climate change”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accelerate dramatically”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If current trends in emissions of greenhouse gases continue, global temperatures are expected to rise faster over the next century than over any time during the last 10,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 greenhouse gases emissions 的目前趨勢持續，全球氣溫在下一個世紀上升的速度，預計會比過去 10,000 年中的任何時期都更快。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句有兩個強烈訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“expected to rise faster”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 預計上升得更快"
+            },
+            {
+              "kind": "quote",
+              "text": "“than over any time during the last 10,000 years”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 比過去一萬年任何時期都快題目說 “accelerate dramatically”，原文沒有逐字寫 accelerate，但 “rise faster … than any time during the last 10,000 years” 已經表達速度大幅增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落 E 也繼續說 Mediterranean region 可能 significantly warm，droughts frequency and severity increase，sea levels rise。整段都在講 climate change 在地區層面的加速和後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“There is seldom enough information available in some areas to track how fast the effects of climate change have happened in the past.”",
+      "translation": "在某些地區，常常沒有足夠資料追蹤過去變化發生得有多快。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a misconception that droughts cause desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "認為 droughts cause desertification 是一種誤解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists still question whether desertification, as a process of global change, is permanent and how or when it can be halted or reversed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家仍在質疑 desertification 作為 global change process 是否永久，以及它如何或何時可以被停止或逆轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段是在糾正沙漠化的誤解，並指出科學上仍有不確定性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“seldom enough information”"
+            },
+            {
+              "kind": "quote",
+              "text": "“track how fast”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the past”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often little or no data are available to indicate the previous state of the ecosystem or the rate of degradation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通常只有很少資料，甚至沒有資料，可以顯示 ecosystem 之前的狀態，或 degradation 的速度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “seldom enough information available”，原文說 “Often little or no data are available”。兩者意思非常接近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “track how fast”，原文是 “the rate of degradation”。rate 就是速度或速率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “in the past”，原文是 “previous state of the ecosystem”。previous 表示之前的、過去的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然題目用了 “effects of climate change”，原文更精確地談 “an area undergoing desertification”和 “rate of degradation”。在文章語境中，desertification 被放在 global change / climate change的框架下討論，所以這題的資訊功能對應 Paragraph D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Desertification is attributable to a number of factors.”",
+      "translation": "Desertification 可以歸因於多種因素。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Desertification is officially recognised as land degradation in arid, semi-arid and dry sub-humid areas resulting from various factors, including climatic variations and human activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Desertification 官方上被認定為發生在 arid、semi-arid 和 dry sub-humid areas 的 land degradation，成因包括 climatic variations 和 human activities 等多種因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is because these areas are especially prone to more permanent damage as different areas of degraded land spread and merge together to form desert-like conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因是這些地區特別容易受到較永久破壞，因為不同 degraded land 會擴散並合併，形成desert-like conditions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“attributable to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a number of factors”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“resulting from various factors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“involves multiple causes”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句已經提供答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“resulting from various factors, including climatic variations and human activities”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由多種因素造成，包括氣候變化和人類活動。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“It involves multiple causes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它涉及多重原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “attributable to a number of factors” 是對 “resulting from various factors” 和 “multiple causes” 的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "attributable to= resulting from a number of factors= various factors / multiple causes所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "E — loss",
+      "answerKey": "E — loss",
+      "type": "Summary Completion",
+      "prompt": "“As glaciers melt, sea levels will rise, causing extensive flooding and land 37 ______.”",
+      "translation": "隨著 glaciers 融化，sea levels 會上升，造成大範圍 flooding 和 land ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E / F Paragraph E 第一相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the world warms, global sea levels will rise as oceans expand and glaciers melt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著世界變暖，海洋擴張和 glaciers 融化會令全球 sea levels rise。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, some low-lying coastal areas would be lost through flooding or erosion…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，一些 low-lying coastal areas 會因 flooding 或 erosion 而消失。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 也有："
+            },
+            {
+              "kind": "quote",
+              "text": "“land loss through desertification and sea-level rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因 desertification 和 sea-level rise 造成 land loss。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“glaciers melt”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sea levels will rise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flooding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“land”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應很清楚："
+            },
+            {
+              "kind": "quote",
+              "text": "“glaciers melt”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sea levels will rise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lost through flooding or erosion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“land loss”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 空格前是 “land”，所以答案需要能和 land 組成自然名詞短語。選項中最合適的是： loss land loss = 土地喪失／土地流失原文 Paragraph F 直接有 “land loss through desertification and sea-level rise”，所以 37 選 E —loss。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要選 “desertification”。因為題目句子已經在講 sea-level rise causing flooding，空格前是 land，最自然和最有原文支援的組合是 land loss。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "G — desertification",
+      "answerKey": "G — desertification",
+      "type": "Summary Completion",
+      "prompt": "“Another consequence of global warming is 38 ______…”",
+      "translation": "Global warming 的另一個後果是 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Melting land ice in the Arctic is set to cause a global rise in sea levels, leading to disastrous effects for both people and wildlife.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arctic land ice 融化將造成全球 sea levels rise，對人類和 wildlife 造成災難性影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A decrease in the total amount of rainfall in arid and semi-arid areas could increase the total area of drylands worldwide, and thus the total amount of land potentially at risk from desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Arid 和 semi-arid areas 的總 rainfall 減少，可能令全球 drylands 面積增加，從而令更多土地面臨desertification 風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another consequence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“global warming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有非常接近的轉折："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the havoc wreaked by greenhouse gases will not be confined to excess water; the absence of water will also be a problem—in other words, desertification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greenhouse gases 造成的破壞不會只限於水過多；缺水也會成為問題。換句話說，就是desertification。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 前一句講 sea levels rise 和 flooding。下一句說 “Another consequence”，表示要找除了海平面上升之外的另一種後果。Paragraph A 正好用 “not be confined to excess water; the absence of water will also be a problem” 建立同樣對比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the absence of water” 最後被解釋為： desertification所以答案是 G — desertification。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — drylands",
+      "answerKey": "C — drylands",
+      "type": "Summary Completion",
+      "prompt": "“…which affects areas known as 39 ______.”",
+      "translation": "它影響一些稱為 ______ 的地區。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B / C Paragraph B 第一語句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Desertification is officially recognised as land degradation in arid, semi-arid and dry sub-humid areas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Desertification 官方上被認定為發生在 arid、semi-arid 和 dry sub-humid areas 的 land degradation。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Land degradation occurs all over the world, but it is only referred to as desertification when it takes place in drylands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Land degradation 在世界各地都會發生，但只有當它發生在 drylands 時，才稱為 desertification。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“areas known as”"
+            },
+            {
+              "kind": "quote",
+              "text": "“desertification affects areas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“when it takes place in drylands”"
+            },
+            {
+              "kind": "label",
+              "text": "以及 Paragraph C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Existing drylands, which cover over 40% of the total land area of the world…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現有 drylands 佔全球總土地面積超過 40%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 desertification 影響的地區 known as 甚麼。原文明確說 land degradation 只有在drylands 發生時才稱為 desertification。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中最精準的是： C — drylands不要選 H — deserts。文章特別指出 desertification 不等於附近一定有 desert；Paragraph D 還說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The presence of a nearby desert has no direct relationship to desertification.” 因此 “deserts” 是典型干擾項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — irrigation",
+      "answerKey": "A — irrigation",
+      "type": "Summary Completion",
+      "prompt": "“These areas are subject to irregular weather patterns, but also suffer from human intervention or neglect, such as inadequate or inefficient 40 ______ systems.”",
+      "translation": "這些地區會受到 irregular weather patterns 影響，也會因人類介入或忽視而受損，例如不足或低效的 ______ systems。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Global warming brought about by increasing greenhouse gas levels in the atmosphere is expected to increase the variability of weather conditions and extreme events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大氣中 greenhouse gas levels 增加所造成的 global warming，預計會增加 weather conditions的 variability 和 extreme events。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, such areas also suffer from land degradation due to over-cultivation, overgrazing, deforestation and poor irrigation practices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，這些地區也因 over-cultivation、overgrazing、deforestation 和 poor irrigation practices 而出現 land degradation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“irregular weather patterns”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human intervention or neglect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“systems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These areas already experience low rainfall, and any that falls is usually in the form of short, erratic, high-intensity storms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些地區本來 rainfall 已經低，而且下雨時通常是短暫、不穩定、高強度的暴雨。"
+            },
+            {
+              "kind": "label",
+              "text": "接著最後一句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“poor irrigation practices”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不良的灌溉做法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “irregular weather patterns” 對應原文的 “short, erratic, high-intensity storms”。erratic就是不規律、不穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “human intervention or neglect” 對應： over-cultivation overgrazing deforestation poor irrigation practices空格前有 “inadequate or inefficient”，後面是 “systems”，所以需要一個名詞可以形成 “irrigation systems”。選項中只有： A — irrigation原文使用的是 “poor irrigation practices”，題目改寫成 “inadequate or inefficient irrigation systems”。意思同向：灌溉管理不佳，加劇土地退化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A — irrigation。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -LONG-TERM FORECAST_ HOT AND DRY.pdf",
+    "sha256": "a4efeaddc413f5b564c51698a29b6f4a0c5113169f4a87a07dbb6b3c8d793f7c",
+    "pageCount": 20
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句說 Arctic land ice melting 會令全球 sea levels rise，對人類和 wildlife 造成 disastrous effects；最後一句說 arid and semi-arid areas 的 rainfall 減少，可能令 worldwide drylands 面積增加，更多土地面臨 desertification 風險。只看首尾句，可以先估計這段是全文引入：全球暖化帶來的災害不只有海平面上升，也包括缺水和沙漠化。Question 37–39 的 summary 開頭，很可能會從這段建立大方向。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句正式定義 desertification：它是在 arid、semi-arid 和 dry sub-humid areas 中，由 climatic variations 和 human activities 等因素造成的 land degradation；最後一句說 drylands 特別容易受到較永久的破壞，因為 degraded land 會擴散和合併，形成 desert-like conditions。只看首尾句，可以判斷這段是核心定義段：它解釋 productive land 如何退化、沙漠化有 multiple causes，並引出 aridity、vegetation 和 soils 的耗損。Questions 27–32 和 36 主要來自這段。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說 greenhouse gases 導致的 global warming 預計會增加 weather variability 和 extreme events；最後一句說這些 dryland areas 也因 over-cultivation、overgrazing、deforestation 和 poor irrigation practices 而出現 land degradation。只看首尾句，可以估計這段講 drylands 在 climate change 下為何更脆弱。它同時包含自然因素，例如 erratic rainfall、wind erosion、drying water resources，也包含人為土地管理問題。Questions 39–40 的 drylands 和 irrigation 會定位到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說 droughts cause desertification 是一種 misconception；最後一句說科學家仍在質疑desertification 作為 global change process 是否永久，以及如何或何時可以停止或逆轉。只看首尾句，可以看出這段主要糾正常見誤解。它說 drought 本身不必然造成 desertification，真正危險的是 drought 期間持續 land abuse。這段也指出 desertification pattern 不線性，而且 data often little or no。Question 35 會定位到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說 desertification 不會只限於 Africa and Asia 的 drylands；最後一句說 Nile Delta、Venice和 Thessaloniki 會受到最嚴重影響，當地 subsidence 令 sea levels rise 至少是其他地方的一倍半。只看首尾句，可以估計這段把焦點轉向 Mediterranean。中間提到 greenhouse gas emissions、temperature rising faster、droughts、sea-level rise、flooding、erosion 和 salinity。Questions 34和 37 會用到這段，因為它包含 climate change accelerating 和 land loss。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說 Greenpeace 認為這一切的 consequences far-reaching，而且 picture is gloomy；最後一句說 millions 可能因 desertification、poor harvests 和 sea-level rise 被迫離鄉，而 water resources 的國際爭端可能演變成 conflict。只看首尾句，可以估計這段列出 Mediterranean climate change 的後果：livestock、crops、water competition、disease、death rates、infrastructure、migration 和 conflict。它是 impact 段，負責展示環境、健康、社會和政治層面的連鎖災害。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說 future climate change 可能嚴重削弱 Mediterranean region 的 sustainable development；最後一句說需要 prompt international agreement 和 action，大幅削減 greenhouse gas emissions，以穩定大氣中這些氣體的濃度。只看首尾句，可以判斷這段是解決方法和政策段。它承認 climate change 會加劇現有問題，但也指出仍有 adaptation 空間，並需要政策、援助和減排。Question 33 會定位到這段。"
+      }
+    ]
+  }
+}

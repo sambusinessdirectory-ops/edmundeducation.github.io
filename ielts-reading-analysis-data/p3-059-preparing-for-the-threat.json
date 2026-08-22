@@ -1,0 +1,2144 @@
+{
+  "id": "p3-059-preparing-for-the-threat",
+  "catalogueId": "p3-059",
+  "catalogueIds": [
+    "p3-059"
+  ],
+  "passage": 3,
+  "title": "PREPARING FOR THE THREAT",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "TRUE",
+    "D",
+    "C",
+    "B",
+    "D",
+    "A",
+    "B",
+    "B",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most people affected by natural disasters are from poorer countries.”",
+      "translation": "大多數受自然災害影響的人來自較貧窮國家。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。要判斷題目中的 “Most people” 和 “poorer countries” 是否得到原文支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is an unfortunate fact that over the past 20 years, around 260 million people a year have been affected by natural disasters around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去二十年，全球每年約有二億六千萬人受到自然災害影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It follows that the international community should address the issue of ‘disaster preparedness’ and establish a process by which natural disasters are dealt with.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，國際社會應處理災害準備問題，並建立處理自然災害的程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷這段是自然災害的全球背景介紹。題目問 “people affected by natural disasters”，正好對應第一句的 “people … affected by natural disasters”，所以 Paragraph 1 是合理定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“affected by natural disasters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“poorer countries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph 1 時，要留意 “most” 可能改寫成 “a majority / a vast majority”。“poorer countries”在 IELTS Reading 中也很常改寫成 “developing countries” 或 “less-developed countries”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regrettably, a vast majority of these victims are from developing countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人遺憾的是，這些受害者中的絕大多數來自發展中國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “a vast majority of these victims”。“these victims” 指前一句中受自然災害影響的人。核心資訊是 “are from developing countries”。“a vast majority” 比 “most” 更強，意思是絕大多數。題目的 “poorer countries” 對應原文的 “developing countries”。雖然兩者不是逐字相同，但在這篇文章語境中，developing countries 正是相對較貧窮、資源較少的國家。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people affected by natural disasters”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a vast majority of these victims”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“poorer countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“developing countries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說大多數受災者來自較貧窮國家；原文說絕大多數受害者來自發展中國家。兩者方向一致，程度也一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“poorer countries” 沒有在原文逐字出現，但不能只等原字。IELTS 常用 “developing countries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示較貧窮或資源較少的國家。這題的關鍵是 “Most” 和 “a vast majority” 的程度對應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Present-day natural disasters are more dangerous than disasters of the past.”",
+      "translation": "現今的自然災害比過去的災害更危險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要判斷原文是否有比較 present-day disasters 和 disasters of the past 的危險程度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is an unfortunate fact that over the past 20 years, around 260 million people a year have been affected by natural disasters around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去二十年，全球每年約有二億六千萬人受到自然災害影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It follows that the international community should address the issue of ‘disaster preparedness’ and establish a process by which natural disasters are dealt with.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，國際社會應處理災害準備問題，並建立處理自然災害的程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 確實和當代自然災害的嚴重影響有關。題目提到 present-day natural disasters，目標段落很可能是 Paragraph 1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Present-day”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more dangerous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disasters of the past”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找時間比較和程度比較，例如 “more frequently”、“affecting more people”、“more dangerous”、“more destructive”、“than ever before”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether they are earthquakes, tornadoes, floods, volcanic eruptions or tsunamis, over the past twenty years, natural disasters have been happening more frequently and affecting more people than ever before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是地震、龍捲風、洪水、火山爆發或海嘯，過去二十年，自然災害發生得更頻繁，影響的人也比以往更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供了兩個比較：第一，natural disasters have been happening more frequently= 自然災害發生得更頻繁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，affecting more people than ever before= 影響的人比以往更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說的是 “more dangerous”，即災害本身的危險性更高。這需要原文提供更高死亡率、更大破壞力、更強烈災害、或每次災害更危險之類的資料。原文只說頻率增加和受影響人數增加。影響更多人可能和人口密度、城市發展、預警不足、居住地點有關，不能直接等同於災害本身更危險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫檢查",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“more frequently”"
+            },
+            {
+              "kind": "quote",
+              "text": "“affecting more people”"
+            },
+            {
+              "kind": "label",
+              "text": "題目需要："
+            },
+            {
+              "kind": "quote",
+              "text": "“more dangerous”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者相關，但缺少關鍵橋樑。原文沒有說 present-day disasters are more dangerous，也沒有說past disasters were less dangerous。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提供相關背景，仍未提供題目所需的「危險程度比較」。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 TRUE 的地方是 “affecting more people than ever before”。學生可能會把「影響更多人」理解成「更危險」。細讀時要分清：more people affected 是結果數量；more dangerous 是災害危險程度。這兩者不能自動互換。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It will take the countries affected by the tsunami many years to rebuild.”",
+      "translation": "受海嘯影響的國家將需要很多年重建。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要判斷原文是否說明海嘯受災國家的重建時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On December 26, 2004, a massive earthquake centred off the coast of the Indonesian island of Sumatra caused a series of deadly tsunamis in the Indian Ocean.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2004 年 12 月 26 日，一場震央位於印尼蘇門答臘島外海的大地震，在印度洋引發一連串致命海嘯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a matter of seconds, the tsunami waves wiped out the long years of struggle for development, and the world was once again reminded of the fearsome and destructive power of natural disasters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "短短幾秒內，海嘯巨浪摧毀了多年來為發展所作的努力，世界再次被提醒自然災害可怕而具破壞性的力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 是海嘯例子段。題目有 tsunami，所以目標段落明確是 Paragraph 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“tsunami”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rebuild”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找 rebuild、reconstruction、recovery、many years、years to rebuild 等資訊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The damage from this extraordinary disaster was estimated to be in the vicinity of US$13 billion – the equivalent of the combined GDP of the world’s developing countries for an entire year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場非凡災害造成的損失估計約為 130 億美元，相當於世界發展中國家一整年的 GDP 總和。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a matter of seconds, the tsunami waves wiped out the long years of struggle for development…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "短短幾秒內，海嘯巨浪摧毀了多年來為發展所作的努力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都說明災害損失巨大。第一句是金錢損失；第二句是多年發展成果被摧毀。可是題目問的是未來重建時間：“It will take … many years to rebuild.” 原文沒有提供 rebuild、reconstruction、recovery time、will take years 這類資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失檢查",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“damage … US$13 billion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wiped out the long years of struggle for development”"
+            },
+            {
+              "kind": "label",
+              "text": "題目需要："
+            },
+            {
+              "kind": "quote",
+              "text": "“will take … many years to rebuild”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是災害造成了巨大損失和發展倒退。它沒有直接說受災國家需要多少年重建，也沒有提供任何時間估算。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：這題不能用常識推。現實中大海嘯重建通常很漫長，但 IELTS Reading 只看文章證據。原文沒有講重建需時，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“long years of struggle for development” 很容易令人想到 “many years to rebuild”。但前者講的是過去多年發展努力被摧毀；題目講的是未來重建需要多年。時間方向不同，證據不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Being prepared and knowing what to do in a disaster should be a global issue.”",
+      "translation": "災害準備，以及知道災害發生時應怎樣處理，應該是一個全球議題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要判斷原文是否把 disaster preparedness 和處理程序提升到 international / global 層面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is an unfortunate fact that over the past 20 years, around 260 million people a year have been affected by natural disasters around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去二十年，全球每年約有二億六千萬人受到自然災害影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It follows that the international community should address the issue of ‘disaster preparedness’ and establish a process by which natural disasters are dealt with.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，國際社會應處理「災害準備」這個議題，並建立一套處理自然災害的程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 的功能非常清楚：自然災害是全球問題，所以國際社會要處理 disaster preparedness。題目中的 “global issue” 對應原文 “international community should address”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being prepared”"
+            },
+            {
+              "kind": "quote",
+              "text": "“knowing what to do”"
+            },
+            {
+              "kind": "quote",
+              "text": "“global issue”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最直接的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster preparedness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“establish a process by which natural disasters are dealt with”"
+            },
+            {
+              "kind": "quote",
+              "text": "“international community should address”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It follows that the international community should address the issue of ‘disaster preparedness’ and establish a process by which natural disasters are dealt with.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，國際社會應該處理「災害準備」這個議題，並建立一套處理自然災害的程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the international community”。這直接表示事情不只屬於某一個國家內部，而是需要國際層面共同處理。核心動詞是 “should address” 和 “establish”。這表達責任和必要性。題目中的 “Being prepared” 對應 “disaster preparedness”。題目中的 “knowing what to do in a disaster”對應 “establish a process by which natural disasters are dealt with”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being prepared”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster preparedness”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“knowing what to do in a disaster”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“establish a process by which natural disasters are dealt with”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“should be a global issue”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the international community should address the issue”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向一致，且三個核心元素都有支援，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有逐字使用 “international community”，改成 “global issue”。這是 IELTS 常見概括。只要看到 international community should address，就足以支持 global issue。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — it will save lives and money",
+      "answerKey": "D — it will save lives and money",
+      "type": "Multiple Choice",
+      "prompt": "“According to the passage, reducing the risk of disasters is important because…”",
+      "translation": "根據文章，減低災害風險之所以重要，是因為甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In January 2005, the UN World Conference on Disaster Reduction (WCDR) met in Kobe, Hyogo Prefecture to discuss and debate how the international community should address issues of disaster preparedness and mitigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2005 年 1 月，聯合國世界減災會議在神戶召開，討論國際社會應如何處理災害準備和減災問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jan Egeland, a UN representative, stated, ‘Disaster risk reduction is not an additional expense– it is an essential investment in our common future, but the benefits of this investment will be calculated not only in dollars or euros or yen saved, but most importantly, in saved lives in every corner of the globe.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯合國代表 Jan Egeland 表示，減低災害風險是對共同未來的必要投資，這項投資的好處不只包括省下金錢，更重要的是拯救世界各地的生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 明顯處理 disaster risk reduction 的重要性。題目直接問 reducing the risk of disasters，所以要看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reducing the risk of disasters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“important because”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接出現 “Disaster risk reduction”，並用 “essential investment” 解釋其重要性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Disaster risk reduction is not an additional expense – it is an essential investment in our common future, but the benefits of this investment will be calculated not only in dollars or euros or yen saved, but most importantly, in saved lives in every corner of the globe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "減低災害風險不是額外開支，而是對我們共同未來的必要投資；這項投資的好處不只會以省下多少美元、歐元或日圓計算，最重要的是世界每個角落被拯救的生命。"
+            },
+            {
+              "kind": "label",
+              "text": "這句有兩個清楚答案點："
+            },
+            {
+              "kind": "quote",
+              "text": "“dollars or euros or yen saved”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 省下金錢。"
+            },
+            {
+              "kind": "quote",
+              "text": "“saved lives”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 拯救生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “it will save lives and money”，正好概括這兩點。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “countries can then focus on growth and development.”文章確實講災害會摧毀發展，也講發展計劃要加入防災，但這不是 Jan Egeland 這句解釋的主要原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “communities will be drawn together in support of each other.”原文沒有說減災會令社區互相支持或凝聚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “it helps international communities to become more economically stable.”原文有 money saved，但沒有講 international communities 變得 more economically stable。這個選項把省錢擴大成經濟穩定，超出原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “it will save lives and money.”正確。原文直接說 saved money 和 saved lives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — writing and acceptance of the Hyogo Declaration",
+      "answerKey": "C — writing and acceptance of the Hyogo Declaration",
+      "type": "Multiple Choice",
+      "prompt": "“According to the writer, the most important outcome of the World Conference on Disaster Reduction (WCDR) was the…”",
+      "translation": "根據作者，WCDR 最重要的成果是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most significant work done at the WCDR meetings was the drafting and adoption of the Hyogo Declaration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "WCDR 會議中最重要的工作，或許是起草並通過《兵庫宣言》。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The people-centred system requires effective communication and education in the building of disaster-resilient countries and communities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以人為中心的系統需要有效溝通和教育，從而建立能抵禦災害的國家和社區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 直接指出 WCDR 的 most significant work。題目問 most important outcome，幾乎可以預測答案就在第一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most important outcome”"
+            },
+            {
+              "kind": "quote",
+              "text": "“WCDR”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the most significant work done at the WCDR meetings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the drafting and adoption of the Hyogo Declaration”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most significant work done at the WCDR meetings was the drafting and adoption of the Hyogo Declaration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "WCDR 會議中最重要的工作，或許是起草並通過《兵庫宣言》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“most significant work” 對應題目 “most important outcome”。“drafting and adoption” 對應選項中的 “writing and acceptance”。Drafting 是起草；adoption 是正式採納、通過。Hyogo Declaration 就是選項 C 的核心名詞。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “discussion and debate amongst the international community attendees.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 WCDR 的活動形式，對應 Paragraph 4 第一句 “discuss and debate”，但題目問 outcome，並且問 most important。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “chance for participants to review the Yokohama Strategy.” Paragraph 4 確實說會議提供機會 review the Yokohama Strategy，但作者沒有稱它為最重要成果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “writing and acceptance of the Hyogo Declaration.”正確。它對應 “drafting and adoption of the Hyogo Declaration”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “acknowledgement that disaster risk reduction is an investment in the future.”這對應 Jan Egeland 的引文，是重要觀點，但文章沒有說這是 WCDR 最重要成果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "B — the people of Kobe",
+      "answerKey": "B — the people of Kobe",
+      "type": "Multiple Choice",
+      "prompt": "“The town of Kobe was effectively rebuilt due to…”",
+      "translation": "神戶能有效重建，是由於甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the intergovernmental panels of the WCDR were meeting, the Great Hanshin-Awaji Earthquake Forum was also underway.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 WCDR 的政府間小組正在開會時，阪神淡路大地震論壇也正在舉行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the forum, it was agreed that in May 2005, a new hub for the coordination of international disaster recovery support activities would be established in Kobe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在論壇期間，與會者同意於 2005 年 5 月在神戶成立一個新中心，用來協調國際災後復原支援活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 是關於神戶地震論壇和災後復原經驗。題目問 Kobe rebuilt，目標段落應是 Paragraph 6。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kobe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rebuilt”"
+            },
+            {
+              "kind": "quote",
+              "text": "“due to”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文未必用 rebuilt，可能用 recovery 或 reconstruction。掃描時要留意這些同義詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Attendees were told how the town mobilised to facilitate recovery and reconstruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與會者聽到這個城鎮如何動員起來，以促進復原和重建。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the town”。在語境中，the town mobilised 指地方社區、居民和本地力量動員起來。核心動詞是 “mobilised”，即動員。目的則是 “to facilitate recovery and reconstruction”，即促進復原和重建。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “the people of Kobe” 最貼近 “the town mobilised”。文章沒有具體說 United Nations、Japanese Government 或 Professor Kawata 領導重建。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “the support of the United Nations.” UN 在文章中與 WCDR 有關，但原文沒有說神戶重建靠聯合國支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the people of Kobe.”正確。原文的 “the town mobilised” 最合理指向本地社群和居民力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the Government of Japan.”文章沒有提到日本政府在重建中的角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the leadership of Professor Kawata.” Professor Kawata 在文章中提供評論和提醒，但沒有被描述為重建領袖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — for people to remember and learn from what happened",
+      "answerKey": "D — for people to remember and learn from what happened",
+      "type": "Multiple Choice",
+      "prompt": "“The stated purpose of the Great Hanshin-Awaji Earthquake Forum was…”",
+      "translation": "阪神淡路大地震論壇明確表達的目的，是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the intergovernmental panels of the WCDR were meeting, the Great Hanshin-Awaji Earthquake Forum was also underway.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 WCDR 的政府間小組正在開會時，阪神淡路大地震論壇也正在舉行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the forum, it was agreed that in May 2005, a new hub for the coordination of international disaster recovery support activities would be established in Kobe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在論壇期間，與會者同意於 2005 年 5 月在神戶成立一個新中心，用來協調國際災後復原支援活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 介紹論壇，並以論壇促成的新復原支援中心作結。題目問 stated purpose，應看段中對論壇目的的直接說法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“stated purpose”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Great Hanshin-Awaji Earthquake Forum”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找引號、專家說話、purpose-like language，例如 “make sure”、“learn from”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“preparations”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文證據一：“Part of our gathering here today is to make sure that we do not forget what happened back in 1995.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們今天聚集在這裡，其中一部分目的，是確保大家不會忘記 1995 年發生的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“As well as being a memorial, our facility and, indeed this forum, is a place to learn from earthquake experiences and incorporate the things we learned into our preparations for future disasters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了作為紀念場所，我們的設施，以及這個論壇，都是讓人從地震經驗中學習，並把所學內容納入未來災害準備的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來，目的有兩個：第一，remember / not forget= 記住 1995 年地震。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，learn from earthquake experiences= 從地震經驗中學習，並用於未來準備。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “to help others be better prepared for any future natural disasters.”這只抓到 future preparations，沒有包含 remember / memorial。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “for people to learn more about natural disasters.”太籠統。原文重點是從 1995 年神戶地震經驗中學習。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to remember the Kobe earthquake of 1995.”這只抓到 “do not forget”，但漏了 learn from earthquake experiences。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “for people to remember and learn from what happened.”正確。它同時包含 remember 和 learn from。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A — Hyogo Declaration",
+      "answerKey": "A — Hyogo Declaration",
+      "type": "Matching Disaster",
+      "prompt": "“people should be the first to communicate disaster information”",
+      "translation": "人應該成為傳遞災害資訊的核心。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most significant work done at the WCDR meetings was the drafting and adoption of the Hyogo Declaration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "WCDR 會議中最重要的工作，或許是起草並通過《兵庫宣言》。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The people-centred system requires effective communication and education in the building of disaster-resilient countries and communities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以人為中心的系統需要有效溝通和教育，從而建立能抵禦災害的國家和社區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 明確講 Hyogo Declaration 和 people-centred system。題目中的people 和 communicate 直接對應尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“communicate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster information”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“people-centred early warning system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“effective communication and education”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This document expresses the united determination of the international community to rely not only on advanced technology or facilities for disaster preparedness, but on a people-centred early warning system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這份文件表達了國際社會的共同決心：災害準備不能只依靠先進科技或設施，也要依靠以人為中心的早期預警系統。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The people-centred system requires effective communication and education in the building of disaster-resilient countries and communities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以人為中心的系統需要有效溝通和教育，從而建立能抵禦災害的國家和社區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “people-centred early warning system” 概括成 “people should be the first to communicate disaster information”。雖然 “first” 這個字不是原文逐字出現，但題目想配對的是「把人放在預警和溝通核心」這個概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "四個 initiative 中，只有 Hyogo Declaration 直接提到 people-centred early warning system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A — Hyogo Declaration。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B — Great Hanshin-Awaji Earthquake Forum",
+      "answerKey": "B — Great Hanshin-Awaji Earthquake Forum",
+      "type": "Matching Disaster",
+      "prompt": "“led to the creation of a new hub for disaster-recovery support”",
+      "translation": "促成建立一個新的災後復原支援中心。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the intergovernmental panels of the WCDR were meeting, the Great Hanshin-Awaji Earthquake Forum was also underway.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 WCDR 的政府間小組正在開會時，阪神淡路大地震論壇也正在舉行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the forum, it was agreed that in May 2005, a new hub for the coordination of international disaster recovery support activities would be established in Kobe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在論壇期間，與會者同意於 2005 年 5 月在神戶成立一個新中心，用來協調國際災後復原支援活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，答案已經非常清楚。題目中的 “new hub” 和 “disaster-recovery support” 幾乎逐字對應段落最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new hub”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster-recovery support”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a new hub”"
+            },
+            {
+              "kind": "quote",
+              "text": "“international disaster recovery support activities”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the forum, it was agreed that in May 2005, a new hub for the coordination of international disaster recovery support activities would be established in Kobe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在論壇期間，與會者同意於 2005 年 5 月在神戶成立一個新中心，用來協調國際災後復原支援活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“During the forum” 指 Great Hanshin-Awaji Earthquake Forum。題目說 “led to the creation of a new hub”，對應原文 “it was agreed that … a new hub … would be established”。答案是 B — Great Hanshin-Awaji Earthquake Forum。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — Great Hanshin-Awaji Earthquake Forum",
+      "answerKey": "B — Great Hanshin-Awaji Earthquake Forum",
+      "type": "Matching Disaster",
+      "prompt": "“a reminder of the impact of disasters”",
+      "translation": "提醒人們災害造成的影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the intergovernmental panels of the WCDR were meeting, the Great Hanshin-Awaji Earthquake Forum was also underway.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 WCDR 的政府間小組正在開會時，阪神淡路大地震論壇也正在舉行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the forum, it was agreed that in May 2005, a new hub for the coordination of international disaster recovery support activities would be established in Kobe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在論壇期間，與會者同意於 2005 年 5 月在神戶成立一個新中心，用來協調國際災後復原支援活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 介紹論壇和其災後復原功能。題目說 reminder，應看同段中論壇如何提醒人們神戶地震的破壞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reminder”"
+            },
+            {
+              "kind": "quote",
+              "text": "“impact of disasters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要留意 “memory”、“do not forget”、“memorial”、“pictures”、“rubble”、“victims” 等概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of our gathering here today is to make sure that we do not forget what happened back in 1995.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們今天聚集在這裡，其中一部分目的，是確保大家不會忘記 1995 年發生的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“An exhibition hall showed pictures of mounds of rubble produced by the earthquake as well as a display of objects donated by earthquake victims including a broken clock and a child’s toy that melted in the fires caused by the earthquake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "展覽廳展示了地震造成的瓦礫堆照片，也展出了地震受害者捐出的物品，包括一個壞掉的鐘，以及一件在地震引發的火災中熔化的兒童玩具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容的功能就是提醒人們災害的影響：生命損失、房屋倒塌、瓦礫、火災、受害者物件。四個initiatives 中，只有 Great Hanshin-Awaji Earthquake Forum 直接有 memorial、exhibition、victims’ objects 這些提醒功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B — Great Hanshin-Awaji Earthquake Forum。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — Yokohama Strategy for a Safer World",
+      "answerKey": "D — Yokohama Strategy for a Safer World",
+      "type": "Matching Disaster",
+      "prompt": "“in times of disaster, developed countries should do more to help less-developed countries”",
+      "translation": "在災害相關工作中，已發展國家應該為較落後國家提供更多幫助。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The United Nations designated the 1990s as the International Decade for Natural Disaster Reduction, and has been active in promoting and developing international cooperation on disaster preparedness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯合國把 1990 年代定為「國際減少自然災害十年」，並積極推動災害準備方面的國際合作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the guidelines, developing countries are encouraged to organise and implement their domestic resources for disaster reduction activities and donor countries in the developed world are encouraged to give greater priority to disaster prevention, mitigation and preparedness in their assistance programmes and budgets, including through increased financial contributions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些指引中，發展中國家被鼓勵組織和運用本國資源進行減災活動；已發展世界中的捐助國則被鼓勵在援助計劃和預算中，更優先處理防災、減災和災害準備，包括增加財政貢獻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 明顯講 Yokohama Strategy 和 developed / developing countries 的責任分配。題目中的 developed countries 和 less-developed countries 直接指向這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“developed countries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less-developed countries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should do more to help”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“donor countries in the developed world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developing countries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“give greater priority”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased financial contributions”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the guidelines, developing countries are encouraged to organise and implement their domestic resources for disaster reduction activities and donor countries in the developed world are encouraged to give greater priority to disaster prevention, mitigation and preparedness in their assistance programmes and budgets, including through increased financial contributions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些指引中，發展中國家被鼓勵組織和運用本國資源進行減災活動；已發展世界中的捐助國則被鼓勵在援助計劃和預算中，更優先處理防災、減災和災害準備，包括增加財政貢獻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句屬於 Yokohama Strategy 的 guidelines。題目把 “donor countries in the developed world” 改寫成 “developed countries”，把 “developing countries” 改寫成 “less-developed countries”。“give greater priority” 和 “increased financial contributions” 對應 “should do more to help”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D — Yokohama Strategy for a Safer World。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — World Conference on Disaster Reduction",
+      "answerKey": "C — World Conference on Disaster Reduction",
+      "type": "Matching Disaster",
+      "prompt": "“national development and disaster prevention should be considered at the same time”",
+      "translation": "國家發展和防災應該同時考慮。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In January 2005, the UN World Conference on Disaster Reduction (WCDR) met in Kobe, Hyogo Prefecture to discuss and debate how the international community should address issues of disaster preparedness and mitigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2005 年 1 月，聯合國世界減災會議在神戶召開，討論國際社會應如何處理災害準備和減災問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jan Egeland, a UN representative, stated, ‘Disaster risk reduction is not an additional expense– it is an essential investment in our common future, but the benefits of this investment will be calculated not only in dollars or euros or yen saved, but most importantly, in saved lives in every corner of the globe.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聯合國代表 Jan Egeland 表示，減低災害風險是對共同未來的必要投資，其好處包括省下金錢和拯救生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 是 WCDR 段落，主題是 disaster preparedness、mitigation 和 risk reduction。題目說 national development and disaster prevention at the same time，應看 WCDR的 action plan。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“national development”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster prevention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at the same time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文可能用 “integration” 表示「同時考慮 / 結合」。掃描 Paragraph 4 可以找到 Action Plan 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a first step, the Action Plan encourages the integration of disaster prevention programs in all development and policy-making plans for all countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為第一步，該行動計劃鼓勵所有國家把防災計劃整合到所有發展和政策制定計劃之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心詞是 “integration”。它表示把 disaster prevention programs 放入 development and policy-making plans 裡。題目中的 “national development and disaster prevention should be considered at the same time” 正是對這句的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“national development”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“development and policy-making plans for all countries”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster prevention”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“disaster prevention programs”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“should be considered at the same time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“integration … in all development and policy-making plans”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項 Action Plan 是 WCDR 的結果，所以對應 initiative 是 C — World Conference on Disaster Reduction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -PREPARING FOR THE THREAT.pdf",
+    "sha256": "93ae61e5d3bc0a83d2a09ed850d0c080147d9921d150b8a3920790bd95025341",
+    "pageCount": 27
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句：“It is an unfortunate fact that over the past 20 years, around 260 million people a year have been affected by natural disasters around the world.”中文意思：很不幸，過去二十年，全球每年約有二億六千萬人受到自然災害影響。最後一句：“It follows that the international community should address the issue of ‘disaster preparedness’ and establish a process by which natural disasters are dealt with.”中文意思：因此，國際社會應該處理「災害準備」這個議題，並建立一套處理自然災害的程序。首尾句功能推測：只看首尾句，可以先估計 Paragraph 1 是全文總引入：先指出自然災害影響巨大，再提出國際社會需要處理 disaster preparedness。這段很可能回答關於「全球災害問題」、「受影響人數」、「國際責任」的題目。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句：“On December 26, 2004, a massive earthquake centred off the coast of the Indonesian island of Sumatra caused a series of deadly tsunamis in the Indian Ocean.”中文意思： 2004 年 12 月 26 日，一場震央位於印尼蘇門答臘島外海的大地震，在印度洋引發一連串致命海嘯。最後一句：“In a matter of seconds, the tsunami waves wiped out the long years of struggle for development, and the world was once again reminded of the fearsome and destructive power of natural disasters.”中文意思：短短幾秒之內，海嘯巨浪摧毀了多年來為發展所作的努力，世界再次被提醒自然災害可怕而具破壞性的力量。首尾句功能推測：這段應該用 2004 年印度洋海嘯作具體例子，展示自然災害的破壞力。它很可能回答關於tsunami、damage、development 被摧毀、災後重建推論的題目。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句：“The United Nations designated the 1990s as the International Decade for Natural Disaster Reduction, and has been active in promoting and developing international cooperation on disaster preparedness.”中文意思：聯合國把 1990 年代定為「國際減少自然災害十年」，並一直積極推動和發展災害準備方面的國際合作。最後一句：“Among the guidelines, developing countries are encouraged to organise and implement their domestic resources for disaster reduction activities and donor countries in the developed world are encouraged to give greater priority to disaster prevention, mitigation and preparedness in their assistance programmes and budgets, including through increased financial contributions.”中文意思：在這些指引中，發展中國家被鼓勵組織和運用本國資源進行減災活動；已發展世界中的捐助國則被鼓勵在援助計劃和預算中，更優先處理防災、減災和災害準備，包括增加財政貢獻。首尾句功能推測： Paragraph 3 主要介紹聯合國早期災害準備工作，尤其是 Yokohama Strategy。首句講 UN 的國際合作，尾句講發展中國家和已發展捐助國各自應做的事。因此，關於 developed countries helping developing countries 的題目，通常會定位到這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句：“In January 2005, the UN World Conference on Disaster Reduction (WCDR) met in Kobe, Hyogo Prefecture to discuss and debate how the international community should address issues of disaster preparedness and mitigation.”中文意思： 2005 年 1 月，聯合國世界減災會議在兵庫縣神戶召開，討論和辯論國際社會應如何處理災害準備和減災問題。最後一句：“Jan Egeland, a UN representative, stated, ‘Disaster risk reduction is not an additional expense– it is an essential investment in our common future, but the benefits of this investment will be calculated not only in dollars or euros or yen saved, but most importantly, in saved lives in every corner of the globe.’”中文意思：聯合國代表 Jan Egeland 表示：「減低災害風險不是額外開支，而是對我們共同未來的必要投資；這項投資的好處不只會以省下多少美元、歐元或日圓計算，最重要的是世界每個角落被拯救的生命。」首尾句功能推測：這段介紹 WCDR 的目的和成果方向。首句說會議討論 disaster preparedness and mitigation，尾句說減災能省錢和救命。因此，關於 WCDR、risk reduction、saved lives and money、development plans 的題目，很可能在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句：“Perhaps the most significant work done at the WCDR meetings was the drafting and adoption of the Hyogo Declaration.”中文意思： WCDR 會議中最重要的工作，或許是起草並通過《兵庫宣言》。最後一句：“The people-centred system requires effective communication and education in the building of disaster-resilient countries and communities.”中文意思：以人為中心的系統需要有效溝通和教育，從而建立能抵禦災害的國家和社區。首尾句功能推測：這段明顯聚焦 Hyogo Declaration。第一句直接說它是 WCDR 最重要的工作；最後一句說明people-centred system 需要 communication and education。因此，關於 Hyogo Declaration、people-centred warning、communication 的題目，通常會定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句：“As the intergovernmental panels of the WCDR were meeting, the Great Hanshin-Awaji Earthquake Forum was also underway.”中文意思：當 WCDR 的政府間小組正在開會時，阪神淡路大地震論壇也正在舉行。最後一句：“During the forum, it was agreed that in May 2005, a new hub for the coordination of international disaster recovery support activities would be established in Kobe.”中文意思：在論壇期間，與會者同意於 2005 年 5 月在神戶成立一個新中心，用來協調國際災後復原支援活動。首尾句功能推測：這段主要講 Great Hanshin-Awaji Earthquake Forum。首句引入論壇，尾句提到論壇促成新 hub。這段也很可能涉及「記住神戶地震」、「學習災害經驗」、「復原支援中心」等題目。"
+      }
+    ]
+  }
+}

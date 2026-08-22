@@ -1,0 +1,1424 @@
+{
+  "id": "p3-088-continents-collide",
+  "catalogueId": "p3-088",
+  "catalogueIds": [
+    "p3-088"
+  ],
+  "passage": 3,
+  "title": "Continents Collide!",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "Laurasia",
+    "Pangaea",
+    "C",
+    "B",
+    "B",
+    "D",
+    "tectonic plate",
+    "cools",
+    "surface",
+    "San Andreas Fault",
+    "Divergent",
+    "continental collision",
+    "mighty rivers",
+    "subduction zone"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "Laurasia",
+      "answerKey": "Laurasia",
+      "type": "Question Analysis",
+      "prompt": "The combination of North America and Eurasia had the name 27 ______.",
+      "translation": "North America 和 Eurasia 組合起來的名稱是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。這段第一句介紹 Wegener 最先提出大陸正在移動的想法；最後一句直接交代 Pangaea 分裂成 Laurasia 和 Gondwana，以及兩者後來分別變成哪些大陸。這段的功能很清楚：建立大陸組合名稱和地理對應關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是 North America 和 Eurasia。這兩個專有地名很少在文章中重複，因此一掃描 Paragraph 1 便會找到括號句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laurasia (which became North America and Eurasia)”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Laurasia 後來成為 North America 和 Eurasia。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Pangaea broke up into Laurasia and Gondwana，接著括號解釋 Laurasia became North America and Eurasia。題目問的是「North America + Eurasia 這個組合叫甚麼」。原文括號已直接給出名稱，所以答案是 Laurasia。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“combination of North America and Eurasia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laurasia (which became North America and Eurasia)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： became North America and Eurasia= 後來形成 North America 和 Eurasia= 這個組合原本叫 Laurasia"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易錯選的是 Pangaea。Pangaea 是所有大陸曾經組成的 supercontinent，不只包含 North America 和 Eurasia。題目只問 North America + Eurasia，所以範圍較小，答案要落在 Laurasia。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "Pangaea",
+      "answerKey": "Pangaea",
+      "type": "Question Analysis",
+      "prompt": "The combination of Laurasia and Gondwana had the name 28 ______.",
+      "translation": "Laurasia 和 Gondwana 組合起來的名稱是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍然是 Paragraph 1。這段先講 Wegener 的大陸移動理論，再講所有大陸曾經組成一個 supercontinent，最後交代這個 supercontinent 分裂成 Laurasia 和 Gondwana。段落功能正是「大陸名稱與分裂關係」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Laurasia 和 Gondwana 是最強定位詞。原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pangaea broke up into Laurasia … and Gondwana …”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pangaea 分裂成 Laurasia 和 Gondwana。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問「Laurasia + Gondwana 這個組合叫甚麼」。原文方向是 Pangaea → Laurasia +Gondwana。把這個分裂關係倒回去看，Laurasia 和 Gondwana 未分裂前的整體就是 Pangaea。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“combination of Laurasia and Gondwana”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pangaea broke up into Laurasia and Gondwana”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： Pangaea 分裂成 A + B= A + B 原本組成 Pangaea"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 27 和 Question 28 很容易互相混淆。Q27 問 North America + Eurasia，所以答案是Laurasia。Q28 問 Laurasia + Gondwana，層級更高，所以答案是 Pangaea。做這類題時要先畫出層級： Pangaea→ Laurasia + Gondwana→ Laurasia = North America + Eurasia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — was a meteorologist",
+      "answerKey": "C — was a meteorologist",
+      "type": "Question Analysis",
+      "prompt": "Scientists disliked Wegener’s idea because he A was German. B made simple observations. C was a meteorologist. D made too many suggestions.",
+      "translation": "科學家不喜歡 Wegener 的想法，原因是他……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。這段第一句用 Unfortunately 開始，說 Wegener 無法提出推動大陸移動的力量；之後解釋他的理論為何被科學界敵視。段落功能是「說明 Wegener 理論當時被拒絕的原因」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 Scientists disliked，原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the scientific community was resolutely and implacably hostile”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學界堅決而毫不妥協地敵視他的想法。"
+            },
+            {
+              "kind": "label",
+              "text": "這句前面提供原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“These problems, and the fact that he was a meteorologist (rather than a geologist), meant that…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些問題，加上他是氣象學家而非地質學家，意味著……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的原因有幾個：他沒有可靠的 propulsive force，還嚴重高估移動速度；另外，他的身份是meteorologist rather than geologist。選項中只有 C 對應這個身份問題。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A was German：原文沒有說科學家因他是德國人而拒絕他的理論。German meteorologist 只是身份介紹。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B made simple observations：原文說 simple observation 是他的證據之一，沒有把它描述成被拒絕的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C was a meteorologist：正確。原文直接說 “the fact that he was a meteorologist (rather than a geologist)” 加劇了科學界敵意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D made too many suggestions：原文說他的 centrifugal force suggestion vague and erroneous，但沒有說他提出太多建議。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易被 A 吸引，因為原文第一句有 German meteorologist。但題目問 dislike 的原因，German在文中只是國籍資訊；真正放在因果句裡的是 meteorologist rather than geologist。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — lacked crucial evidence",
+      "answerKey": "B — lacked crucial evidence",
+      "type": "Question Analysis",
+      "prompt": "Both Wegener and Semmelweis A died prematurely. B lacked crucial evidence. C were never given recognition. D were German.",
+      "translation": "Wegener 和 Semmelweis 兩人共同點是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要看 Paragraph 2 和 Paragraph 3。Paragraph 2 引入 Semmelweis 作類比；Paragraph 3 進一步說 Wegener 的理論需要 propulsive force 證據，就像 Semmelweis 的想法需要 germ theory of disease 一樣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 Wegener 和 Semmelweis。原文先說 Wegener 被否定，然後提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Semmelweis, who advocated the washing of hands before surgery as a way to reduce hospital fatalities, is another example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Semmelweis 主張手術前洗手以減少醫院死亡，也是另一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "真正決定答案的句子在 Paragraph 3："
+            },
+            {
+              "kind": "quote",
+              "text": "“the theory needed evidence of a propulsive force … in the same way that Semmelweis’s ideas needed the germ theory of disease”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個理論需要推動力的證據；同樣地，Semmelweis 的想法也需要疾病細菌理論。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把兩人放在同一比較框架中：Wegener 的大陸漂移需要 propulsive force 證據；Semmelweis的洗手理論需要 germ theory of disease。兩人的共同點是：核心想法方向正確，但當時缺乏能令科學界信服的關鍵證據。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A died prematurely：原文有寫 Wegener 死於 Greenland expedition，但沒有提供 Semmelweis的死亡資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B lacked crucial evidence：正確。propulsive force 和 germ theory 都是令理論成立的關鍵證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C were never given recognition：這個選項很有迷惑性。原文說 Wegener “denied any recognition in his lifetime”，重點是 lifetime。選項說 never，範圍太絕對，而且文章後文已說 hard evidence 後來變得 overwhelming，暗示理論後來獲接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D were German：Wegener 是 German meteorologist；Semmelweis 的國籍原文沒有交代。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 最吸引人，因為 Paragraph 2 確實有 recognition。但 IELTS MCQ 要小心絕對字眼。in his lifetime 和 never 範圍不同。B 有 Paragraph 3 的直接類比句支撐，證據鏈更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — does not change",
+      "answerKey": "B — does not change",
+      "type": "Question Analysis",
+      "prompt": "The motion of tectonic plates A is faster than hair growth. B does not change. C is well understood. D can start cyclic swirls.",
+      "translation": "構造板塊的運動……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4–5。Paragraph 4 解釋板塊如何受地球內部循環力量推動；Paragraph 5則說明這種運動速度很慢，但持續而難以停止。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 motion of tectonic plates。Paragraph 4 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“producing drags and pulls on each tectonic plate, the sum of which results in a steady migration”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些力量對每個構造板塊產生拖拉，總和造成穩定遷移。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“this motion is slow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consistent and essentially unstoppable”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種運動很慢；但它持續一致，而且基本上無法停止。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文形容 motion 有三個特點：slow、consistent、essentially unstoppable。選項 B “does not change” 對應 consistent，表示運動穩定持續。雖然 “does not change” 不是逐字重現，但在四個選項中最貼近 “consistent”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A is faster than hair growth：錯。原文說最快也只是 hair growth 的速度，沒有說比頭髮生長更快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B does not change：正確，對應 consistent / steady。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C is well understood：錯。原文說 “barely understood set of cyclic swirls”，表示理解仍有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D can start cyclic swirls：方向錯。cyclic swirls 造成 drags and pulls，推動 plate migration；題目把因果方向倒轉。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易吸引學生，因為原文有 hair。細讀比較詞很重要：原文是 “at its fastest, the rate at which hair does”，意思是最快也只是和頭髮生長速度相若，沒有 faster than。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — heated regions",
+      "answerKey": "D — heated regions",
+      "type": "Question Analysis",
+      "prompt": "Volcanos are formed away from plate boundaries due to A buckling and melting. B oceanic effects. C geological events. D heated regions.",
+      "translation": "遠離板塊邊界形成的火山，是由於……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。這段先講板塊交界造成火山等地質特徵，最後特別補充：有些火山也可能出現在板塊中間。這個轉折位置通常就是答案區。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 away from plate boundaries。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Volcanism may sometimes occur in the middle of plates”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火山活動有時可能出現在板塊中間。"
+            },
+            {
+              "kind": "label",
+              "text": "接著給原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“a result of ‘hotspots’: anomalously hot areas of interior rock”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這被認為是 hotspots 的結果，也就是地球內部岩石中異常炎熱的區域。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 away from plate boundaries，原文說 middle of plates。這兩者意思相近：板塊中間自然遠離板塊邊界。原因是 hotspots，而 hotspots 又被解釋成 anomalously hot areas。選項 D “heated regions” 是 “hot areas” 的概括改寫。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A buckling and melting：Paragraph 5 前半有 buckling and melting，但那是 plates meet 時，即板塊交界處的結果，不是 away from boundaries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B oceanic effects：原文沒有這個原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C geological events：geological events 是結果，例如 earthquakes，不是原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D heated regions：正確，對應 hotspots / anomalously hot areas。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 的迷惑性最高，因為 buckling and melting 原字出現在同段。問題在語境：buckling and melting屬於 plates meet 的情況；題目問 away from boundaries，要讀到最後一句 hotspots。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "tectonic plate",
+      "answerKey": "tectonic plate",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。這段解釋 plate tectonics 的機制：地球表面分裂成 plates，地球內部的熱岩上升、冷卻、下沉，最後產生拖拉力量，使 tectonic plate 遷移。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 33 指向最上方的長形板塊，旁邊有 movement 箭嘴。原文與此最貼近的短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“each tectonic plate”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一塊構造板塊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 cyclic swirls of molten rock produce drags and pulls on each tectonic plate。圖中上方長形部分正是被推動的板塊，因此 33 應填 tectonic plate。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 plates。雖然原文有 plates，但圖中 33 指向一塊具體板塊；題目容許兩個字，tectonic plate 更精準，也直接來自原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "cools",
+      "answerKey": "cools",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中 34 的文字是： Material ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標仍是 Paragraph 4。這段描述熱岩上升後接近地表，然後發生狀態變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中已印出 Material，所以要回原文找 “This material …” 的句子。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This material cools as it nears the surface”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些物質在接近地表時冷卻。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只留下 Material，空格需要動詞。原文完整搭配是 material cools，所以答案是 cools。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中也有 rising 和 sinking，但這兩個詞已經印在圖上，而且不配合 “Material ____” 的文法。真正能接在 Material 後面的原文動詞是 cools。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "surface",
+      "answerKey": "surface",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中 35 的文字是： Earth’s ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 4。第一句直接說 plate tectonics 的基礎："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Earth’s surface is fractured into ‘plates’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球表面分裂成多個板塊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中已給 Earth’s，原文最自然的搭配是 Earth’s surface。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "35 的箭嘴指向上方接近板塊的位置。原文說 Earth’s surface fractured into plates，正好解釋圖中上層結構。因此答案是 surface。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 molten interior。圖中底部已標明 molten interior rock，35 指向上方，且題目已給Earth’s，原文固定搭配是 Earth’s surface。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "San Andreas Fault",
+      "answerKey": "San Andreas Fault",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 36",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格： Type of Boundary: Transform Related Example: 36 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。這段專門分類三種 plate boundaries，並為每種邊界提供例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 Transform。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, Transform boundaries, where the plates grind past each other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種是 Transform boundaries，板塊在這裡彼此擦過。"
+            },
+            {
+              "kind": "label",
+              "text": "接著提到例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“the periodic earthquakes along California’s San Andreas Fault show the very opposite case”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加州 San Andreas Fault 沿線的週期性地震顯示了相反的情況。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先提 Aegir Ridge，但說它 had never been active，所以它不是有效例子。接著用 whereas轉向 San Andreas Fault，說它顯示 very opposite case，即活躍的 transform boundary 例子。因此答案是 San Andreas Fault。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Aegir Ridge 很有迷惑性，因為它緊貼 Transform boundaries 出現。但後文 “had never been active” 排除了它。遇到 example 題，要特別留意 until、whereas 這類修正訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "Divergent",
+      "answerKey": "Divergent",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 37",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格： Type of Boundary: 37 ______Related Example: East African Rift"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。這段將 plate boundaries 分成三種，第二種是 Divergent boundaries。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目給的例子是 East African Rift。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second type is Divergent boundaries, where the two plates slide apart from each other. Mid-oceanic ridges, such as in the Atlantic, and active rift zones, such as in East Africa, are examples.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二種是 Divergent boundaries，兩塊板塊彼此分開滑動。大洋中脊，例如大西洋中的海脊，以及活躍裂谷區，例如東非，都是例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "East Africa 是 active rift zones 的例子，而這些例子隸屬於 Divergent boundaries。因此表格中Type of Boundary 應填 Divergent。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 active rift zones。表格左欄問 Type of Boundary，不是問地質例子的名稱。East African Rift 是例子；其邊界類型是 Divergent。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "continental collision",
+      "answerKey": "continental collision",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 38",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格： Convergent I: 38 ______Related Example: Central Asian ranges"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6–7。Paragraph 6 說 convergent boundaries 可以形成 subduction zone或 continental collision；Paragraph 7 詳細講 continental collision 的最佳例子，即 Indian plate 撞向 central Asia。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目給 Central Asian ranges，原文 Paragraph 7 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best example of a continental collision is the Indian plate, which is steadily and implacably migrating straight into central Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "continental collision 的最佳例子是 Indian plate 穩定而不可阻擋地直接移向 central Asia。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格說 Central Asian ranges 造成 tall mountains、deep valleys 和 rivers。這正是 Paragraph 7對 Indian plate 撞向 central Asia 的描述。Paragraph 6 已把 convergent 分成兩種：subduction zone 和 continental collision。Central Asian ranges 來自大陸與大陸碰撞，所以答案是continental collision。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 Convergent。表格本身已經寫 Convergent I，空格要填的是其中一種具體形式。Central Asia 對應大陸碰撞，不是海洋板塊下沉的 subduction zone。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "mighty rivers",
+      "answerKey": "mighty rivers",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 39",
+      "translation": "中亞山脈造成高山、深谷，以及幾條……",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格句子： Central Asian ranges resulting in tall mountains, deep valleys, and several 39______."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。這段講 Indian plate 撞向 central Asia 後造成的地形結果：高峰、深谷、融水和大河。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 tall mountains, deep valleys。原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“producing some of the highest peaks in the world. There are also some deep valleys … creating some mighty rivers, such as the Indus, the Irrawaddy, and the Mekong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "形成世界上一些最高峰；也有一些深谷接收山脈另一側的融水，形成一些大河，例如 Indus、Irrawaddy 和 Mekong。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 tall mountains 對應 highest peaks；deep valleys 原字重現；空格前有 several，後面需要複數名詞。原文的 mighty rivers 正好符合意思和文法。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 rivers。原文可用短語是 mighty rivers，而題目容許最多三個字。保留 mighty 更貼近原文，也完整表達「大河」的意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "subduction zone",
+      "answerKey": "subduction zone",
+      "type": "題目要求完成 diagram，並且每個答案 NO MORE THAN TWO WORDS。圖中可見 33 指向上方",
+      "prompt": "Question 40",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格： Convergent II: 40 ______Related Example: Andes Mountains"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。這段說 convergent boundaries 有兩種結果：subduction zone 或continental collision。接著用 Andes mountain range 作 subduction zone 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 Andes Mountains。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This can form either a subduction zone … or a continental collision.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以形成 subduction zone，或者 continental collision。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Deep marine trenches are formed in the former case … causing mountains and volcanoes to form, such as in the Andes mountain range.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在前一種情況下會形成深海溝；下沉板塊受熱後釋放 trapped water，熱力和壓力上升，造成山脈和火山，例如 Andes 山脈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "former case 指的是前面剛提到的 subduction zone。Andes mountain range 是這一種convergent boundary 的例子。因此答案是 subduction zone。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Andes 也是山脈，所以學生可能想填 continental collision。但 Paragraph 6 明確把 Andes 放在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“former case” 後面，而 former case 指 subduction zone。代名詞和指示詞很重要：former / latter常常直接控制答案。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Continents Collide!.pdf",
+    "sha256": "869cbef786786bc1d081c6781733dcd80bee5348d7a05c17478a706df3ea03e6",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "介紹 Wegener 的大陸移動想法、證據，以及 Pangaea、Laurasia、Gondwana 的關係。"
+      },
+      {
+        "number": "2",
+        "summary": "解釋 Wegener 當時不被科學界接受的原因，並用Semmelweis 作類比。"
+      },
+      {
+        "number": "3",
+        "summary": "補充 Gondwana 的化石和岩石證據，並說明理論仍需要「推動力」證據，直到 1960s 才開始累積硬證據。"
+      },
+      {
+        "number": "4",
+        "summary": "正式引入 plate tectonics，解釋板塊、地球內部熱岩上升、冷卻、下沉及循環旋流如何推動板塊。"
+      },
+      {
+        "number": "5",
+        "summary": "描述板塊運動速度很慢，但長期穩定，尤其在板塊交界會造成地震、山脈、火山、海嶺和海溝；亦解釋 hotspots。"
+      },
+      {
+        "number": "6",
+        "summary": "分類三種 plate boundaries： Transform、Divergent、Convergent，並提供例子及結果。"
+      },
+      {
+        "number": "7",
+        "summary": "詳細說明 continental collision的最佳例子：Indian plate 撞向central Asia，形成 Himalayas、Karakoram、高地、深谷和大河。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "三、逐題精析 — Continents Collide!"
+  ]
+}

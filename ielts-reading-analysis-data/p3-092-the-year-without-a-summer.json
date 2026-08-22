@@ -1,0 +1,1963 @@
+{
+  "id": "p3-092-the-year-without-a-summer",
+  "catalogueId": "p3-092",
+  "catalogueIds": [
+    "p3-092"
+  ],
+  "passage": 3,
+  "title": "The Year Without a Summer",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "dust clouds",
+    "solar radiation",
+    "historic high",
+    "volcanic winter",
+    "the sun’s rays",
+    "rainfall",
+    "road systems",
+    "famine",
+    "D — Northern Europe",
+    "B — Lake Toba",
+    "C — London",
+    "G — Tambora",
+    "E — Philippines",
+    "F — Switzerland"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "dust clouds",
+      "answerKey": "dust clouds",
+      "type": "Flowchart Completion",
+      "prompt": "Question 27",
+      "translation": "其他火山爆發，其特徵是巨大的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“other eruptions typified by huge 27 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adding further complexity to the issue, there had been other significant volcanic eruptions in the years prior to Tambora—in the Caribbean, Japan and the Philippines—all of which produced massive dust clouds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使問題更複雜的是，在 Tambora 之前幾年，加勒比、日本和菲律賓已有其他重大火山爆發，它們全都產生了大量塵雲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, the accumulation of ash in the stratosphere rose to a historic high, to which the mammoth Tambora explosion substantially added, sending a sharp cold spell across the already cooler globe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，平流層中的火山灰累積量升至歷史高位，而巨大的 Tambora 爆發又大幅加重這情況，令原本已偏冷的全球出現猛烈寒潮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 明顯是在補充 Tambora 以外的火山爆發如何增加大氣中的塵埃和火山灰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“other eruptions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“huge”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“other significant volcanic eruptions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“massive dust clouds”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“all of which produced massive dust clouds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表把 massive 改寫成 huge，所以空格要填被形容的名詞 dust clouds。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "huge = massive other eruptions = other significant volcanic eruptions typified by = produced / characterised by所以 27 是 dust clouds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "solar radiation",
+      "answerKey": "solar radiation",
+      "type": "Flowchart Completion",
+      "prompt": "Question 28",
+      "translation": "“Dalton Minimum”，即到達地球的 ______ 較少。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“the ‘Dalton Minimum’ (less 28 ______ reaching the Earth)”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句：“On a somewhat benign note, this airborne ash resulted in beautiful pastel-coloured sunsets and extended twilights in Northern Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從較正面的角度看，空中的火山灰使北歐出現美麗的粉彩色日落和延長的暮光。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If such a correlation exists, the effect would be small—a fraction of a percent less, but, arguably, significant to our small planet orbiting so far away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這種關聯存在，影響會很小，只是少了百分之一的一小部分，但對於我們這顆在遠處運行的小行星來說，可以說仍有重要意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段一邊講火山灰效果，一邊引入太陽活動較弱的可能影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dalton Minimum”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reaching the Earth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“This period has officially become known as the ‘Dalton Minimum’…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether there is a correlation between this and the average amount of solar radiation emitted is still unclear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段時期正式被稱為 “Dalton Minimum”。這和平均太陽輻射釋放量之間是否有關聯，仍不清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表將原文的 “solar radiation emitted” 改寫成 “solar radiation reaching the Earth”。雖然原文用emitted，圖表用 reaching the Earth，但意思仍在同一條因果線：太陽活動較弱，可能令地球接收到的太陽能量減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 less，後面是 reaching the Earth，最自然的名詞短語是 solar radiation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 是 solar radiation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 sunspots 或 solar flares。John Dalton 觀察到的是太陽黑子和太陽耀斑較不活"
+            },
+            {
+              "kind": "paragraph",
+              "text": "躍，但圖表問的是少了甚麼到達地球，答案要落在能量／輻射量，即 solar radiation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "historic high",
+      "answerKey": "historic high",
+      "type": "Flowchart Completion",
+      "prompt": "Question 29",
+      "translation": "平流層火山灰水平達到 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stratospheric ash levels reached a 29 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adding further complexity to the issue, there had been other significant volcanic eruptions in the years prior to Tambora…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使問題更複雜的是，在 Tambora 之前幾年已有其他重大火山爆發。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, the accumulation of ash in the stratosphere rose to a historic high…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，平流層中的火山灰累積量升至歷史高位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stratospheric ash levels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reached”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the accumulation of ash in the stratosphere rose to a historic high”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的名詞短語改寫如下： Stratospheric ash levels= the accumulation of ash in the stratosphere reached= rose to a ______= a historic high答案 historic high 是兩個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 historic high。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "volcanic winter",
+      "answerKey": "volcanic winter",
+      "type": "Flowchart Completion",
+      "prompt": "Question 30",
+      "translation": "因為以下兩個原因，出現了 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“30 ______ resulted because…”"
+            },
+            {
+              "kind": "label",
+              "text": "圖中下面連接兩個原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“31 ______ were filtered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heat and sunlight were reflected into space”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a somewhat benign note, this airborne ash resulted in beautiful pastel-coloured sunsets and extended twilights in Northern Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較正面來看，空中火山灰使北歐出現美麗的粉彩日落和延長暮光。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If such a correlation exists, the effect would be small…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果太陽活動和太陽輻射量之間有關聯，影響雖然小，仍可能有意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段同時處理火山灰的正面視覺效果和負面氣候效果。題目圖中問 resulted because，應找因果句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“filtered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reflected into space”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, on a (quite literally) darker note, it set into motion a ‘volcanic winter’ due to the filtering of the sun’s rays, and the increased reflectivity of the atmosphere, where heat and sunlight are bounced back into space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，從更陰暗的角度看，它引發了一場 “volcanic winter”，原因是太陽光線被過濾，以及大氣反射率增加，使熱力和陽光被反射回太空。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的結果是："
+            },
+            {
+              "kind": "quote",
+              "text": "“it set into motion a ‘volcanic winter’”"
+            },
+            {
+              "kind": "label",
+              "text": "圖表改寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“______ resulted because…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格應填結果名詞 volcanic winter。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "resulted = set into motion because = due to filtered / reflected = filtering / bounced back所以 30 是 volcanic winter。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "the sun’s rays",
+      "answerKey": "the sun’s rays",
+      "type": "Flowchart Completion",
+      "prompt": "Question 31",
+      "translation": "______ 被過濾。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“31 ______ were filtered”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a somewhat benign note, this airborne ash resulted in beautiful pastel-coloured sunsets and extended twilights in Northern Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從較正面看，火山灰令北歐出現美麗日落和延長暮光。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If such a correlation exists, the effect would be small…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這種關聯存在，影響雖小，但仍可能重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“filtered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the filtering of the sun’s rays”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太陽光線被過濾。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "圖表句子是被動語態："
+            },
+            {
+              "kind": "quote",
+              "text": "“______ were filtered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文是名詞化："
+            },
+            {
+              "kind": "quote",
+              "text": "“the filtering of the sun’s rays”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "把名詞化改成被動句，主語就是 the sun’s rays。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 the sun’s rays。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "rainfall",
+      "answerKey": "rainfall",
+      "type": "Flowchart Completion",
+      "prompt": "Question 32",
+      "translation": "氣溫下降，以及 ______ 增加。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“lowered temperatures and increased 32 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The consequences were dire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後果非常嚴重。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was such mortality that the famine is now considered the worst of that century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "死亡率如此高，以致這場饑荒如今被視為該世紀最嚴重的一次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段由氣候後果講到人類災難。圖中 “lowered temperatures and increased…” 會對應段落開頭的氣候描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lowered temperatures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With temperatures falling to near-freezing within hours, together with sudden summer frosts and sustained drenching rainfall across the Northern Hemisphere, staple crops such as maize and wheat failed to mature…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣溫在數小時內降至接近冰點，加上北半球突然出現夏季霜凍和持續傾盆大雨，玉米和小麥等主糧作物未能成熟。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 “lowered temperatures” 對應 “temperatures falling to near-freezing”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 “increased ______” 要找和農業生產下降有關的氣候因素。原文給出 “sustained drenching rainfall”，即長時間大量降雨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於圖中已有 increased，答案應填核心名詞 rainfall。如果填 “sustained drenching rainfall”，圖中會變成 “increased sustained drenching rainfall”，文法不自然，而且題目只需要概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 rainfall。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "road systems",
+      "answerKey": "road systems",
+      "type": "Flowchart Completion",
+      "prompt": "Question 33",
+      "translation": "落後的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“primitive 33 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The consequences were dire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後果非常嚴重。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was such mortality that the famine is now considered the worst of that century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "死亡率如此高，以致這場饑荒如今被視為該世紀最嚴重的一次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會解釋從氣候到農業再到 famine 的後果鏈。圖中 “primitive 33” 位於 agricultural production和 final disaster 附近，應該是加重糧食危機的社會條件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞是 “primitive”。原文未必用 primitive，應找近義詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rudimentary”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“With agricultural production already low due to the cooler preceding years, and with the rudimentary road systems of those times making the importation and distribution of emergency food supplies difficult, this final blow was devastating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於之前幾年較冷，農業產量本已偏低；再加上當時道路系統簡陋，使緊急糧食供應的進口和分配變得困難，這最後一擊造成毀滅性後果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中給了形容詞 primitive，原文對應形容詞是 rudimentary。答案要從 passage 取字，所以不能填primitive；空格需要被形容的名詞，即 road systems。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "primitive = rudimentary road systems = road systems所以 33 是 road systems。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "famine",
+      "answerKey": "famine",
+      "type": "Flowchart Completion",
+      "prompt": "Question 34",
+      "translation": "該世紀最嚴重的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“That century’s most serious 34 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The consequences were dire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後果非常嚴重。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was such mortality that the famine is now considered the worst of that century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "死亡率如此高，以致這場饑荒如今被視為該世紀最嚴重的一次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，答案已經高度清晰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“that century’s most serious”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the worst of that century”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the famine is now considered the worst of that century”"
+            },
+            {
+              "kind": "label",
+              "text": "圖表改寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“That century’s most serious ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "worst = most serious that century = that century空格答案就是 famine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 famine。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — Northern Europe",
+      "answerKey": "D — Northern Europe",
+      "type": "Matching Locations",
+      "prompt": "Question 35",
+      "translation": "哪個地點看到了火山爆發帶來的正面效果？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which location saw a positive effect of a volcanic eruption?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a somewhat benign note, this airborne ash resulted in beautiful pastel-coloured sunsets and extended twilights in Northern Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從較正面的角度看，這些空中的火山灰在北歐造成美麗的粉彩色日落和延長的暮光。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If such a correlation exists, the effect would be small…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這種關聯存在，影響雖小，但仍可能重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“positive effect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a somewhat benign note”"
+            },
+            {
+              "kind": "quote",
+              "text": "“beautiful pastel-coloured sunsets and extended twilights”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "benign 表示較溫和、較正面；beautiful sunsets 和 extended twilights 明顯是比較正面的效果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說這個正面效果發生在："
+            },
+            {
+              "kind": "quote",
+              "text": "“Northern Europe”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 D — Northern Europe。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "火山灰整體造成氣候災難，但題目問的是 positive effect，所以要找 “benign note” 這個轉"
+            },
+            {
+              "kind": "paragraph",
+              "text": "折訊號。真正對應的是日落和暮光，不是冷害本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — Lake Toba",
+      "answerKey": "B — Lake Toba",
+      "type": "Matching Locations",
+      "prompt": "Question 36",
+      "translation": "哪個地點發生了最大的火山爆發？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which location saw the biggest volcanic eruption?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The question then is whether it could happen again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來的問題是，這種事情會否再次發生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We can rest assured, however, that such events are extremely few and far between.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過我們可以放心，這類事件極少發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理地質史上的更極端例子，所以很可能回答 “biggest eruption”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“biggest volcanic eruption”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most extreme case occurred about 70,000 years ago, when the world’s largest known eruption took place at Lake Toba…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最極端的例子發生在大約七萬年前，當時世界上已知最大的火山爆發發生在 Lake Toba。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文使用："
+            },
+            {
+              "kind": "quote",
+              "text": "“the world’s largest known eruption”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這比 “biggest volcanic eruption” 更精確。地點是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lake Toba”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 B — Lake Toba。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 說 Tambora 是 “the largest in recorded history”，即有文字紀錄以來最大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 說 Lake Toba 是 “the world’s largest known eruption”。題目只說 biggest，沒有加recorded history，所以應選 Lake Toba。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — London",
+      "answerKey": "C — London",
+      "type": "Matching Locations",
+      "prompt": "Question 37",
+      "translation": "哪個地點出現了科學觀察？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which location saw scientific observation?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a somewhat benign note, this airborne ash resulted in beautiful pastel-coloured sunsets and extended twilights in Northern Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從較正面的角度看，空中的火山灰令北歐出現美麗日落和延長暮光。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If such a correlation exists, the effect would be small…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這種關聯存在，影響雖小，但仍可能重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間引入 Dalton Minimum 和 John Dalton，所以和 scientific observation 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific observation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This period has officially become known as the ‘Dalton Minimum’, after John Dalton, a London-based meteorologist who noted that the sun at that time did not seem as active in its production of sunspots and solar flares.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段時期正式被稱為 “Dalton Minimum”，名稱來自 John Dalton；他是一位以倫敦為基地的氣象學家，曾注意到當時太陽在產生太陽黑子和太陽耀斑方面似乎不太活躍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“noted that…” 表示觀察到、記錄到。“meteorologist” 是氣象學家。地點是 “London-based”。所以 37 是 C — London。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "G — Tambora",
+      "answerKey": "G — Tambora",
+      "type": "Matching Locations",
+      "prompt": "Question 38",
+      "translation": "哪個地點出現了一連串火山爆發？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which location saw a series of eruptions?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But where did the summer go?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，夏天去了哪裡？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If these dust particles are fine enough, they are quickly blown around the globe, to remain there for years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這些塵粒足夠細，它們會很快被吹到全球各地，並停留多年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 解釋主因 Tambora，也交代爆發前的火山活動，因此和 “a series of eruptions” 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“series of eruptions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the years leading to this, the mountain had experienced minor eruptions, but the 1815 event was the culmination…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這之前的幾年，這座山曾經歷較小型的火山爆發，但 1815 年的事件是高潮。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“minor eruptions” 是複數，並且發生在 “the years leading to this”，表示 Tambora 在 1815 年巨大爆發前已有多次小型爆發。“the mountain” 指前文的 Mount Tambora。所以 38 是 G — Tambora。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 也提到 Tambora 之前其他地方有火山爆發，但 “Philippines” 那裡主要是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mount Mayon 的單一例子。題目問 a series of eruptions，最直接對應 Tambora 之前的 “minor eruptions”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "E — Philippines",
+      "answerKey": "E — Philippines",
+      "type": "Matching Locations",
+      "prompt": "Question 39",
+      "translation": "哪個地點出現建築或聚落被毀？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which location saw buildings destroyed?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adding further complexity to the issue, there had been other significant volcanic eruptions in the years prior to Tambora—in the Caribbean, Japan and the Philippines—all of which produced massive dust clouds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使問題更複雜的是，Tambora 之前幾年，加勒比、日本和菲律賓已有其他重大火山爆發，它們都產生大量塵雲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, the accumulation of ash in the stratosphere rose to a historic high…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，平流層火山灰累積升至歷史高位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間用 Philippines 作例子，會交代具體破壞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“buildings destroyed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接用 buildings destroyed，但有更大的概括："
+            },
+            {
+              "kind": "quote",
+              "text": "“burying whole towns and villages”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "掩埋整個城鎮和村莊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Looking at the Philippine example, 1814 saw the most destructive eruption of Mount Mayon ever. Killing thousands, burying whole towns and villages, the volcano spewed out millions of tons of ash and rock into the high atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以菲律賓為例，1814 年出現了 Mount Mayon 有史以來最具破壞性的爆發。它造成數千人死亡，掩埋整個城鎮和村莊，並把數百萬噸火山灰和岩石噴入高層大氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整個城鎮和村莊被掩埋，自然包括大量建築被毀。地點是 Philippines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 E — Philippines。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "F — Switzerland",
+      "answerKey": "F — Switzerland",
+      "type": "Matching Locations",
+      "prompt": "Question 40",
+      "translation": "哪個地點與一本書的寫作有關？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which location saw a book written?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“1816 was a strange year indeed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1816 年確實是非常奇怪的一年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But there were to be far more significant effects of what became known as the ‘year without a summer’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但後來被稱為 “year without a summer” 的事件，還會帶來更重大的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 用多個地方介紹 1816 年的反常天氣，其中提到 Mary Shelley 和 Switzerland。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“book written”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mary Shelley, author of Frankenstein, while holidaying in Switzerland, complained of ‘incessant rainfall’, a feeling which may have put her in the mood for writing her most famous work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Frankenstein》的作者 Mary Shelley 當時正在瑞士度假，她抱怨「無休止的降雨」；這種感受可能讓她進入創作自己最著名作品的心境。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“her most famous work” 指前面的 Frankenstein。地點是：“while holidaying in Switzerland”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 F — Switzerland。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說她正式在瑞士完成整本書，只說那裡的天氣可能使她進入寫作心境。題目用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a book written” 作簡化描述，在配對題中最接近 Switzerland，因為其餘地點沒有任何書籍寫作線索。 Final Answers 27. dust clouds 28. solar radiation 29. historic high 30. volcanic winter 31. the sun’s rays 32. rainfall 33. road systems 34. famine 35. D 36. B 37. C 38. G 39. E 40. F"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Year Without a Summer.pdf",
+    "sha256": "facee5ef0e1dadb49f3805ab8387afaf6a165324cc475a85dae0a33b63aa445a",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 1816 年非常奇怪，美國盛夏時被濃厚 dry fog 覆蓋，甚至下雪，大片地區陷入持久嚴寒；尾句說這個 “year without a summer” 帶來更重大的後果。只看首尾句，可以先判斷本段功能是引入現象：1816 年夏天反常地寒冷、潮濕，影響美國、英國和歐洲，也間接提到 Mary Shelley 在瑞士的經歷。這段很可能回答地點配對中 Switzerland / America 相關內容。"
+      },
+      {
+        "number": "2",
+        "summary": "首句問夏天去了哪裡，並指出主因竟是地球另一邊的印尼 Mount Tambora；尾句說如果火山塵粒足夠細，會很快被吹到全球，並在大氣中停留多年。只看首尾句，可以估計本段會解釋 Tambora eruption 如何改變全球氣候，尤其是火山灰、stratosphere、dust particles 的作用。這段會直接支援 flowchart 中 Tambora eruption、stratospheric ash 和火山活動的因果鏈。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 airborne ash 帶來一個較正面的效果：北歐出現美麗的粉彩色日落和延長的暮光；尾句說如果太陽活動與太陽輻射量之間有關聯，效果雖然很小，對地球仍可能有意義。只看首尾句，可見本段一方面講火山灰的視覺正面效果，另一方面引入 Dalton Minimum、sunspots、solar flares和 solar radiation。這段是 28、30、31、35、37 的重要定位段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說問題更複雜，因為 Tambora 之前已有其他重要火山爆發，分別在加勒比、日本和菲律賓；尾句說世界本已因太陽活動變化而偏冷，連串嚴重火山爆發又令 stratosphere 的 ash accumulation 達到 historic high，再由 Tambora 加劇冷 spell。只看首尾句，可以判斷本段是總結原因鏈：其他火山爆發、菲律賓 Mayon 例子、ash clouds、historic high、Tambora 的疊加效果。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說後果非常嚴重；尾句說死亡率極高，因此這場 famine 現在被視為該世紀最嚴重的一次。只看首尾句，可見本段從氣候原因轉到人類後果：溫度急降、夏季霜凍、持續大雨、農作物失收、牲畜死亡、道路系統落後、糧食難以進口和分配，最後導致 malnutrition、starvation、disease、refugees、riots 和大規模死亡。"
+      },
+      {
+        "number": "6",
+        "summary": "首句問這種事情會不會再次發生；尾句安慰讀者，這類事件極少發生，大家仍可長期享受暑假。只看首尾句，可見本段是結論段：先回答大型火山冬天在地質史上確實多次發生，再用 Lake Toba作最極端例子。中間會提到 70,000 年前、world’s largest known eruption、decade-long volcanic winter、last ice age 和人類幾乎滅絕。"
+      }
+    ]
+  }
+}

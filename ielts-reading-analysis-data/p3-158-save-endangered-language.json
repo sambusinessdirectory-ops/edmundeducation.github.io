@@ -1,0 +1,886 @@
+{
+  "id": "p3-158-save-endangered-language",
+  "catalogueId": "p3-158",
+  "catalogueIds": [
+    "p3-158"
+  ],
+  "passage": 3,
+  "title": "Save Endangered Language",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "v",
+    "x Example Paragraph vi C",
+    "iii",
+    "i",
+    "vii",
+    "viii",
+    "ii",
+    "C",
+    "B",
+    "E",
+    "A",
+    "D",
+    "C",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "v — A potential threat to minority languages",
+      "answerKey": "v — A potential threat to minority languages",
+      "type": "Matching Headings",
+      "prompt": "Questions 27–33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "手冊對 Matching Headings 的提醒很重要：Skim 時要看段落首句、末句、重複概念和轉折後核心；Read 時要區分主題、例子、細節和結論。最大中伏位是某 heading 只吻合段內一個例子，卻不能概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 27 — Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 首句說 Michael Krauss 預測世界約 6,000 種語言中，一半會在一個世紀內停止被使用。末句說在美國 175 種 Native American languages 中，只有 20 種仍有較完整使用狀況。首尾句共同顯示，這段在建立「語言正在大量消失」的危機背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “prediction”, “cease to be uttered”, “doomed to extinction”, “Aboriginal languages”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Native American languages”。這些詞都指向少數語言面臨消失風險。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的 “potential threat” 對應原文的 “cease to be uttered”, “doomed to extinction”,“passed into extinction”。“minority languages” 對應 Aboriginal languages 和 Native American languages 等例子。這個 heading 能覆蓋整段：預測、警告、澳洲例子、美國例子全部都服務同一主題。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 有 “congressional panel”，但這只是 Krauss 報告數據的位置，沒有講"
+            },
+            {
+              "kind": "paragraph",
+              "text": "government participation in preservation，所以 xi 不合適。 Question 28 — Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：x — The value of minority languages to linguists"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 首句說很多專家為 rare languages 的消失感到悲傷，並說有幾個原因。末句說研究語言的 portfolio 越廣，越可能得到正確答案。首尾句提示本段不是繼續報危機數字，重點已轉向「為何語言學家重視這些語言」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “experts”, “scientific self-interest”, “basic questions in linguistics”, “universal”,“migration patterns”。這些詞都屬於語言學研究價值。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說研究者想知道語法和詞彙中哪些元素可能是 universal，其他科學家也會透過 borrowed words 重建古代遷徙。Heading x 的 “value” 並非情感價值，準確地說是學術和科學研究價值。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段有 “wider portfolio of languages you study”，看似和 documentation 有關，但段落沒"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有集中講如何記錄語言；它講的是少數語言可幫助 linguists 回答基本學術問題。 Question 29 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii — Positive gains for language protection"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句直接說 “there are encouraging signs that the field has turned a corner”。末句說相關行動可讓語言學家有更多時間在語言消失前記錄它們。首尾句已經把段落方向定為「出現正面進展」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “encouraging signs”, “grants”, “multimedia archive”, “document”, “Ford Foundation”,“master-apprentice program”, “transmitting”。這些都是保護語言的具體行動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段提到 Volkswagen Foundation 提供超過 $2 million、建立 multimedia archive、派 field linguists 記錄多種瀕危語言；Ford Foundation 也資助 master-apprentice program。這些都是保護上的正面成果，所以 iii 最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vii “Native-language programmes launched” 也有吸引力，因為段內有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "master-apprentice program。但整段不只講 programme，還講 funding、archive、field documentation，因此 iii 的概括範圍更完整。 Question 30 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：i — Consistent documentation needed for a language"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 首句說 master-apprentice approach 在美國以外沒有普及，且 Hinton 的努力規模很小。末句說復興語言時，最想學的是日常對話方式，例如怎樣開始談話、怎樣跟嬰兒說話、夫妻怎樣交談。首尾句提示本段焦點是「保存語言資料不足」及「復興語言需要更完整的使用記錄」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “little or no record”, “grammar”, “vocabulary”, “pronunciation”, “use in daily life”, “fossil skeleton”, “revitalize”。這些都指向 documentation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說大部分語言很少或沒有語法、詞彙、發音、日常使用方式的記錄。即使語言被 fully documented，若沒有 active use，剩下的也只是 fossil skeleton。Heading i 中 “documentation” 正好對應這些句子。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “Minimum requirements for saving a language” 看似接近，因為段落末尾談復興語言"
+            },
+            {
+              "kind": "paragraph",
+              "text": "想學甚麼。但整段的核心語義一直圍繞 record / documented / capture / use in daily life，所以 i更準確。 Question 31 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii — Native-language programmes launched"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 首句說目前還沒有成熟的 “conservation linguistics”，各種策略有成有敗。末句說夏威夷學生現在可接受 Hawaiian 教育直到大學。首尾句顯示，本段會講實際嘗試過的語言保護計劃，尤其是 native-language education。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Maori speakers”, “language nests”, “preschoolers”, “native language”, “Maori-only classes”, “Hawaii”, “instruction in Hawaiian”。這些都明顯屬於母語教育計劃。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 的 Maori speakers 設立 “language nests”，讓學前兒童沉浸在母語中；Hawaii 也採用類似方式，並且學生可一路用 Hawaiian 學到大學。Heading vii 的 “programmes launched” 能概括這些例子。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段開頭說沒有 conservation linguistics，容易以為主題是理論不足。但中後段的篇幅集"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中在 Maori 和 Hawaiian programme，段落最終功能是展示 native-language programmes 的實例。 Question 32 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：viii — Lack of confidence among young speakers as a negative factor"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 首句說語言死亡常見因素是說話者開始懷疑 language loyalty 的用處。末句說 Irish Gaelic 即使作為官方語言多年，日常家庭使用仍少。首尾句可看到本段在講語言使用者信心下降、家庭使用減少及 dominant language 壓力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “collective doubts”, “inferior”, “dominant language”, “Kids pick up on the attitude”,“never speak the language”。這些詞都指向心理態度和年輕一代語言選擇。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說當人們把自己的語言看得低於 majority language，他們就會停止在所有情境使用它；孩子感受到這種態度後，會偏好 dominant language。Heading viii 的 “Lack of confidence among young speakers” 對應 kids prefer dominant language 這個結果。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落也提到 Cornish、Scottish Gaelic、Irish Gaelic，但這些是例子；總主題是語言信心和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言忠誠下降。 Question 33 — Paragraph H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ii — Consensus on an initial recommendation for saving dying languages"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 首句說 linguists agree，語言滅絕問題的答案是 multilingualism。末句說拯救瀕危語言的第一步，是說服多數族群容許少數族群用自己的聲音說話。首尾句已經顯示，本段是總結性建議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Linguists agree”, “answer”, “multilingualism”, “first step”, “persuade”, “majorities”,“minorities”。這些詞都指向共識和初步建議。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii 中的 “Consensus” 對應 “Linguists agree”；“initial recommendation” 對應末句的 “The first step”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。多語能力只是方法背景，真正的起步建議是 majorities 要容許 minorities 使用自己的語言。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ix “Practices in several developing countries” 看似可選，因為文中提到 Cameroon、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Papua New Guinea 和 India。但這些國家只是例子，用來證明多語能力可行；整段主旨仍是linguists 的共識和 first step。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — Joseph E. Grimes",
+      "answerKey": "C — Joseph E. Grimes",
+      "type": "Matching People",
+      "prompt": "Reported language conservation practice in Hawaii",
+      "translation": "報告夏威夷的語言保護做法。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "最強定位詞是 “Hawaii”。Paragraph F 中找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar approach was tried in Hawaii, with some success – the number of native speakers has stabilized at 1,000 or so, reports Joseph E. Grimes of SIL International, who is working on Oahu.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "類似做法也在夏威夷試行，並取得一些成功；SIL International 的 Joseph E. Grimes 報告說，母語使用者數量已穩定在約 1,000 人，他本人正在 Oahu 工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“reports Joseph E. Grimes” 明確表示這項資訊由 Grimes 報告。因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也提到 New Zealand 的 Maori programme，但題目指定 Hawaii，所以要落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 “reports Joseph E. Grimes”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B — Michael Krauss",
+      "answerKey": "B — Michael Krauss",
+      "type": "Matching People",
+      "prompt": "Predicted that many languages would disappear soon",
+      "translation": "預測許多語言很快會消失。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “predicted”, “many languages”, “disappear”。Paragraph A 首句直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ten years ago Michael Krauss sent a shudder through the discipline of linguistics with his prediction that half the 6,000 or so languages spoken in the world would cease to be uttered within a century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十年前，Michael Krauss 預測世界約 6,000 種語言中有一半會在一個世紀內停止被使用，這令語言學界震動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“prediction” 對應題目 “Predicted”；“half the 6,000 or so languages” 對應 “many languages”；“cease to be uttered” 對應 “would disappear”。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "E — Kenneth L. Hale",
+      "answerKey": "E — Kenneth L. Hale",
+      "type": "Matching People",
+      "prompt": "Personally witnessed languages dying out",
+      "translation": "親身見證自己研究過的語言消失。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “personally witnessed”, “languages dying out”。Paragraph A 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kenneth L. Hale of the Massachusetts Institute of Technology noted in the same journal issue that eight languages on which he had done fieldwork had since passed into extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "麻省理工學院的 Kenneth L. Hale 在同一期期刊指出，他曾做田野研究的八種語言後來已經滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“on which he had done fieldwork” 表示他親身研究過；“passed into extinction” 表示已經消失。題目把這句概括成 “Personally witnessed languages dying out”。答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Krauss 提供大規模預測，Hale 的特色是自己做過 fieldwork 的語言已滅絕。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A — Nicholas Ostler",
+      "answerKey": "A — Nicholas Ostler",
+      "type": "Matching People",
+      "prompt": "Raised funds for language preservation in England",
+      "translation": "在英格蘭為語言保存籌款。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “funds”, “England”, “raised”。Paragraph C 末段有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar foundation in England, directed by Nicholas Ostler, has raised just $8,000 since 1995.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英格蘭一個類似基金會由 Nicholas Ostler 領導，自 1995 年以來只籌得 8,000 美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“foundation in England” 對應題目 “in England”；“has raised” 對應 “Raised funds”；“directed by Nicholas Ostler” 指出人物。答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Whalen founded Endangered Languages Fund，但題目指定 England，所以要選"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nicholas Ostler。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "D — Sarah G. Thomason",
+      "answerKey": "D — Sarah G. Thomason",
+      "type": "Matching People",
+      "prompt": "Observed that insufficient effort had been made until recently",
+      "translation": "指出直到最近之前，相關努力一直不足。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “insufficient effort”, “until recently”。Paragraph C 引述 Sarah G. Thomason："
+            },
+            {
+              "kind": "quote",
+              "text": "“You would think that there would be some organized response to this dire situation… But there isn’t any such effort organized in the profession. It is only recently that it has become fashionable enough to work on endangered languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你會以為面對如此嚴峻情況，學界會有組織化回應……但專業界沒有這種組織化努力。只是最近，研究瀕危語言才變得夠「時髦」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“there isn’t any such effort organized” 對應 “insufficient effort”；“It is only recently…” 對應 “until recently”。答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Douglas H. Whalen 也說當年很多人 “blank stares”，但題目 wording 更貼近 Thomason"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的完整觀察。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — Postpone the extinction of some endangered languages",
+      "answerKey": "C — Postpone the extinction of some endangered languages",
+      "type": "Multiple Choice",
+      "prompt": "What is the real result of a master-apprentice program sponsored by the Ford Foundation?",
+      "translation": "Ford Foundation 資助的 master-apprentice program 真正結果是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。首句說語言保護出現鼓舞人心的跡象；末句說這些行動可讓語言學家有更多時間在語言消失前記錄它們。段落中間提到 Ford Foundation 和 master-apprentice program，因此這題定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “master-apprentice program”, “Ford Foundation”, “real result”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Ford Foundation has also edged into the arena. Its contributions helped to reinvigorate a master-apprentice program…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ford Foundation 也開始進入這個領域，它的資助協助重新推動一個 master-apprentice program。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據是 Hinton 的評價："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s too early to call this language revitalization,” Hinton admits. “In California, the death rate of elderly speakers will always be greater than the recruitment rate of young speakers. But at least we prolong the survival of the language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hinton 承認：「現在稱它為語言復興還太早。在加州，年長說話者的死亡速度總會高於年輕說話者的招募速度。但至少我們延長了語言的生存。」"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Teach children how to speak原文說 fluent speakers 教 younger relative，不一定是 children；重點也不是一般「教孩子說話」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Revive some endangered languages in California太強。Hinton 明確說 “too early to call this language revitalization”，所以 “revive” 超出原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Postpone the extinction of some endangered languages正確。“prolong the survival of the language” 等於延長語言生命，也就是推遲消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Increase communication between students原文沒有說 students 之間的交流增加。program 的核心是 fluent speaker 和 younger relative 之間的語言傳承。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“prolong the survival of the language”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 延長語言生存= postpone extinction所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — They should be more tolerant of minority-language speakers",
+      "answerKey": "D — They should be more tolerant of minority-language speakers",
+      "type": "Multiple Choice",
+      "prompt": "What should the majority language speakers do according to the last paragraph?",
+      "translation": "根據最後一段，多數語言使用者應該怎樣做？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph H。首句說語言滅絕問題的答案是 multilingualism；末句說拯救瀕危語言的第一步，是說服世界上的多數族群容許少數族群用自己的聲音說話。題目問 majority language speakers，所以答案必然在最後一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “majority language speakers”。原文末句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first step in saving dying languages is to persuade the world’s majorities to allow the minorities among them to speak with their own voices.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拯救瀕危語言的第一步，是說服世界上的多數族群，容許身邊的少數族群用自己的聲音說話。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“allow the minorities… to speak with their own voices” 的重點是容許、接受、不要壓制少數語言使用者。題目把 “majorities” 改寫成 “majority language speakers”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A They should teach their children endangered languages in free lessons原文沒有 free lessons，也沒有要求 majority speakers 教孩子瀕危語言。 B They should learn at least four languages原文提到有些地方常說三四種語言，但這是多語社會例子，不是給 majority speakers 的具體要求。 C They should show their loyalty to a dying language language loyalty 在 Paragraph G 講的是 minority speakers 對自己語言的信心；最後一段問的是majority speakers 應給予空間。 D They should be more tolerant of minority-language speakers正確。“allow the minorities… to speak” 就是更包容少數語言使用者。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“allow the minorities… to speak with their own voices”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= tolerate / accept minority-language speakers= be more tolerant of minority-language speakers所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Save Endangered Language.pdf",
+    "sha256": "b0b058b5534abbe923cd8d48b04cda6332af2eec2ac6c5c0343062a82cc58259",
+    "pageCount": 11
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把 Michael Krauss 的預測放在開端：世界約 6,000 種語言中，一半可能在一個世紀內消失。尾句用美國 Native American languages 的數字收束，顯示危機不只停留在理論預測，已有多地語言正在失去日常使用者。只看首尾句，可先判斷本段功能是提出語言滅絕危機，並用數據支撐「少數語言正受威脅」這一大方向。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說很多專家為稀有語言消失感到痛惜，並提示接下來會解釋原因。尾句說研究語言種類越廣，越可能得到正確答案。只看首尾句，可先估計本段功能是解釋少數語言對語言學研究的價值。中間大概會談語法、詞彙、人類語言普遍性、古代遷徙等研究用途，因此這段很可能對應「minority languages 對 linguists 的價值」。"
+      },
+      {
+        "number": "C",
+        "summary": "首句有明顯轉折：雖然過去十年語言學界一直談 endangered languages，但實際成效令人失望。尾句用英國基金會只籌得少量資金作結。只看首尾句，可先判斷本段主旨是「危機已被討論很久，但專業界沒有形成足夠行動」。中間的 Sarah Thomason 和 Douglas Whalen 會提供人物觀點，指出直到近年才開始有人認真處理。"
+      },
+      {
+        "number": "D",
+        "summary": "首句用 “But there are encouraging signs” 開始，清楚轉向較正面的保護進展。尾句說這些行動可為語言學家爭取更多時間，在語言消失前記錄它們。只看首尾句，可先看到本段功能是介紹語言保護方面的正面進展，例如資助、檔案、田野記錄、master-apprentice program。這段很可能對應「positive gains」，也會提供 Ford Foundation program 的答案證據。"
+      },
+      {
+        "number": "E",
+        "summary": "首句指出 master-apprentice approach 在美國以外沒有普及，並說 Hinton 的努力只是很小規模。尾句問：要復興語言時，最想學的是人們如何開始對話、如何跟嬰兒說話、夫妻如何交談。只看首尾句，可先估計本段焦點轉向「記錄不足」和「復興語言需要日常使用資料」。它不是單純講資金少，重點落在語言資料保存要包含真實生活用法。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說語言學仍沒有像生物學那樣成熟的 “conservation linguistics”，暗示保護策略尚未系統化。尾句說夏威夷學生現在可一路用 Hawaiian 學到大學。只看首尾句，可先看到本段功能是介紹不同地方嘗試 native-language programmes，尤其是 New Zealand 的 Maori language nests 和Hawaii 的 immersion education。段落重點是已推出的母語教育計劃及其部分成功。"
+      },
+      {
+        "number": "G",
+        "summary": "首句提出語言死亡常見因素：說話者開始集體懷疑自己語言忠誠是否有用。尾句用 Irish Gaelic作例子，指出即使成為官方語言多年，在家庭日常生活中仍少用。只看首尾句，可先判斷本段討論心理和態度因素：一旦說話者覺得自己語言低於主流語言，孩子就會轉向 dominant language。這段很明顯對應「缺乏信心／語言自卑」造成負面影響。"
+      },
+      {
+        "number": "H",
+        "summary": "首句直接說 linguists agree，語言滅絕問題的最終答案是 multilingualism。尾句提出第一步：說服多數族群容許少數族群用自己的聲音說話。只看首尾句，可先看到本段是總結式建議，不只列舉多語社會例子，也指出 majorities 的態度是保護少數語言的起點。中間的 Cameroon、Papua New Guinea、India 只是支撐多語能力可行的例子。"
+      }
+    ]
+  }
+}

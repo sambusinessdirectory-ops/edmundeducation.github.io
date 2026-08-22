@@ -1,0 +1,1874 @@
+{
+  "id": "p3-141-the-history-of-the-guitar",
+  "catalogueId": "p3-141",
+  "catalogueIds": [
+    "p3-141"
+  ],
+  "passage": 3,
+  "title": "The history of the guitar",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "spelling and pronunciation",
+    "500 years",
+    "exact date",
+    "shape and dimensions",
+    "patent",
+    "jazz",
+    "fans",
+    "5,000",
+    "visual depictions",
+    "the lute",
+    "authenticity",
+    "luthiers",
+    "solid-body"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "spelling and pronunciation",
+      "answerKey": "spelling and pronunciation",
+      "type": "Sentence Completion",
+      "prompt": "“Despite differences in 28 ______, ‘guit-’ and ‘-tar’ appear in the word for ‘guitar’ in many languages.”",
+      "translation": "儘管在某方面有差異，guit- 和 -tar 仍出現在許多語言中表示 guitar 的詞裡。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求從文章中選 NO MORE THAN THREE WORDS。空格在 “differences in” 後面，所以需要一個名詞或名詞片語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The word ‘guitar’ was brought into English as an adaptation of the Spanish word ‘guitarra’, which was, in turn, derived from the Greek ‘kithara’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“guitar” 這個詞進入英文時，是由西班牙文 “guitarra” 改寫而來，而 “guitarra” 又源自希臘文“kithara”。最後一句：“Although the spelling and pronunciation differ between languages, these key elements have been present in most words for ‘guitar’ throughout history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然不同語言之間的拼寫和發音有所不同，但這些核心元素在歷史上多數表示 “guitar” 的詞中都一直存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 1 是語源段，專門講 guitar 一詞在不同語言中的變化和共同元素。題目有 “guit-”、“-tar” 和 “many languages”，所以答案非常可能在 Paragraph 1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “guit-”、“-tar”、“many languages” 和 “differences”。原文中 “guit-” 和 “-tar” 出現在中段，最後一句再總結不同語言之間的差異："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the spelling and pronunciation differ between languages…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 “differ between languages”，正好對應題目的 “Despite differences in”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the spelling and pronunciation differ between languages, these key elements have been present in most words for ‘guitar’ throughout history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然不同語言之間的拼寫和發音有所不同，但這些核心元素在歷史上多數表示 guitar 的詞中都一直存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Despite differences in” 對應原文 “Although … differ”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “‘guit-’ and ‘-tar’” 對應原文 “these key elements”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格應填原文中 differ 的主語：spelling and pronunciation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合字數限制：spelling / and / pronunciation，共三個詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “languages”。題目已經有 “in many languages”，空格問的是不同語言之間有甚"
+            },
+            {
+              "kind": "paragraph",
+              "text": "麼差異，答案要回到 “spelling and pronunciation”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "500 years",
+      "answerKey": "500 years",
+      "type": "Sentence Completion",
+      "prompt": "“Instruments that we would call acoustic guitars have been made and played for approximately 29 ______.”",
+      "translation": "我們今天會稱為 acoustic guitars 的樂器，已經被製作和演奏大約多久。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求 NO MORE THAN THREE WORDS。空格前有 “for approximately”，所以答案應是時間長度，例如 “500 years”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the guitar may have gained most of its popularity as a musical instrument during the modern era, guitar-like instruments have been in existence in numerous cultures throughout the world for more than 5,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 guitar 作為樂器大多是在現代才變得非常流行，但類似 guitar 的樂器已經在世界多個文化中存在超過 5,000 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of these instruments have more in common with the lute than the guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樂器中有不少與 lute 的共同點，比與 guitar 的共同點更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 明顯處理早期 guitar-like instruments 和 modern acoustic guitar 之前的樂器形態。題目問 acoustic guitars 約有多久歷史，所以應在這段找時間數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “acoustic guitars” 和 “approximately”。原文中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The earliest instruments that the modern eye and ear would recognise as a ‘normal’ acoustic guitar date from about 500 years ago.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 “acoustic guitar” 和 “about 500 years ago”，完全對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The earliest instruments that the modern eye and ear would recognise as a ‘normal’ acoustic guitar date from about 500 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代人用眼睛和耳朵會認作「正常」acoustic guitar 的最早樂器，可追溯到大約 500 年前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “date from about 500 years ago” 改寫成 “have been made and played for approximately______”。兩者都在問 acoustic guitars 這類樂器大約存在多久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案應填：500 years。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不用 “about 500 years”？因為題目已經有 “approximately”。如果填 “about 500 years”，句子會變成 “for approximately about 500 years”，意思重複，文法上不夠自然。考試填空要同時看原文和題目句子的文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "exact date",
+      "answerKey": "exact date",
+      "type": "Sentence Completion",
+      "prompt": "“No one knows the 30 ______ when the first six-string guitar was made.”",
+      "translation": "沒有人知道第一把 six-string guitar 製作出來的確切甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，後面有 “when”，所以答案應是名詞片語，文法上可形成 “the exact date when…”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is some uncertainty about the exact date of the earliest six-string guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於最早的 six-string guitar 的確切日期，存在一些不確定性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus for nearly two hundred years, luthiers, or guitar makers, have been producing versions of the modern acoustic guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近兩百年來，luthiers，即 guitar makers，一直在製作 modern acoustic guitar 的各種版本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 是 six-string guitar 和 modern acoustic guitar 成形的歷史段。第一句已經直接包含 “exact date”，非常適合 Question 30。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “first six-string guitar” 和 “No one knows”。原文沒有逐字寫 “No one knows”，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“There is some uncertainty about…”。這兩者屬於同義改寫：有不確定性，即無法確切知道。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“There is some uncertainty about the exact date of the earliest six-string guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於最早的 six-string guitar 的確切日期，存在一些不確定性。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one knows the ______ when the first six-string guitar was made.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“some uncertainty about the exact date of the earliest six-string guitar”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one knows” = “There is some uncertainty”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first six-string guitar” = “earliest six-string guitar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“when … was made” = “date of”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 exact date。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “earliest six-string guitar”。空格後已有 “when the first six-string guitar was made”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，因此答案要填「不知道的是甚麼」，也就是日期，不是樂器本身。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "shape and dimensions",
+      "answerKey": "shape and dimensions",
+      "type": "Sentence Completion",
+      "prompt": "“The 31 ______ of acoustic guitars have not changed much in 200 years.”",
+      "translation": "acoustic guitars 的某些方面在 200 年間沒有太大改變。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “The”，後面動詞是 “have”，所以答案最好是複數概念或並列名詞片語。字數限制是NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is some uncertainty about the exact date of the earliest six-string guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於最早的 six-string guitar 的確切日期，存在一些不確定性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus for nearly two hundred years, luthiers, or guitar makers, have been producing versions of the modern acoustic guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近兩百年來，luthiers，也就是 guitar makers，一直在製作 modern acoustic guitar 的不同版本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段一開頭講 six-string guitar 的最早日期，尾句講近兩百年來 modern acoustic guitar 的製作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 acoustic guitars 在 200 年內沒有太大改變，所以應回到這段中間找 modern shape 相關資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “200 years”、“acoustic guitars” 和 “changed much”。原文中相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The early nineteenth century is generally accepted as the time period during which six-string guitars began taking on their modern shape and dimensions.”"
+            },
+            {
+              "kind": "label",
+              "text": "下一句又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus for nearly two hundred years…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句連在一起形成答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The early nineteenth century is generally accepted as the time period during which six-string guitars began taking on their modern shape and dimensions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀初期一般被認為是 six-string guitars 開始具備現代形狀和尺寸的時期。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus for nearly two hundred years, luthiers, or guitar makers, have been producing versions of the modern acoustic guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近兩百年來，guitar makers 一直在製作 modern acoustic guitar 的不同版本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “have not changed much in 200 years”，這是對原文 “began taking on their modern shape and dimensions” + “for nearly two hundred years” 的概括。既然十九世紀初已開始具備現代形狀和尺寸，近兩百年來製作的都是 modern acoustic guitar 的版本，說明其基本形狀和尺寸變化不大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 shape and dimensions，三個詞，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "patent",
+      "answerKey": "patent",
+      "type": "Sentence Completion",
+      "prompt": "“A 32 ______ for an electric guitar was issued in the mid-1930s.”",
+      "translation": "1930s 中期，有一個關於 electric guitar 的甚麼被發出／授予。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “A”，後面是 “for an electric guitar”，需要單數名詞。定位時要找 1930s 和 electric guitar。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first electric guitar was not developed until the early twentieth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一把 electric guitar 直到二十世紀初才被開發出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Beatles continued to use Rickenbacker guitars throughout their career, and made the instruments highly popular among other musicians of the era.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Beatles 在整個職業生涯中一直使用 Rickenbacker guitars，並使這些樂器在同時代其他音樂人之間非常受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段由 electric guitar 的早期發明講到 Rickenbacker 的流行。題目問 1930s 中期 electric guitar的某項官方授予，應在本段開頭附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “electric guitar”、“mid-1930s” 和 “issued”。原文沒有 “issued”，但有 “received”。1936 屬於 mid-1930s。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“George Beauchamp received the first patent for an electric guitar in 1936…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“George Beauchamp received the first patent for an electric guitar in 1936, and Beauchamp went on to co-found Rickenbacker, originally known as the Electro String Instrument Company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "George Beauchamp 於 1936 年取得第一個 electric guitar 的專利，並繼續共同創立Rickenbacker，該公司原名為 Electro String Instrument Company。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “was issued” 對應原文 “received”。一個 patent 被授予某人，從受領者角度就是received a patent。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mid-1930s” 對應 “1936”。“for an electric guitar” 原字重現。所以答案是 patent。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “first patent”。題目空格前已有 “A”，填 “first patent” 會形成 “A first patent”，雖然"
+            },
+            {
+              "kind": "paragraph",
+              "text": "勉強可讀，但題目只需要名詞 “patent”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "jazz",
+      "answerKey": "jazz",
+      "type": "Sentence Completion",
+      "prompt": "“Les Paul, the well-known 33 ______ guitarist, was involved in the development of the electric guitar.”",
+      "translation": "Les Paul 這位著名的某類 guitarist，參與了 electric guitar 的發展。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “well-known” 和 “guitarist” 之間，所以需要一個形容詞或類別詞，例如某種音樂風格。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Fender Musical Instruments Company and the Gibson Guitar Corporation were two other early electric guitar pioneers, both developing models in the early 1950s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fender Musical Instruments Company 和 Gibson Guitar Corporation 是另外兩個早期 electric guitar 先驅，兩者都在 1950s 初期發展出不同型號。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The majority of present-day solid-body electric guitars are still based largely on these three early electric guitar designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日大多數 solid-body electric guitars 仍大致建基於這三款早期 electric guitar 設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 Fender、Gibson 和早期 electric guitar 設計。題目提到 Les Paul，所以應在 Gibson Les Paul 相關句中找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Les Paul” 和 “electric guitar”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gibson began selling the Gibson Les Paul, based partially on assistance from jazz musician and guitar innovator Les Paul, in 1952.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 Gibson Les Paul、jazz musician、guitar innovator 和 Les Paul。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gibson began selling the Gibson Les Paul, based partially on assistance from jazz musician and guitar innovator Les Paul, in 1952.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gibson 於 1952 年開始銷售 Gibson Les Paul，這款 guitar 部分建基於 jazz musician 兼 guitar innovator Les Paul 的協助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的 “jazz musician and guitar innovator” 改寫成 “well-known ______ guitarist”。空格後已有 “guitarist”，所以只需要填音樂類型：jazz。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“jazz musician” = 從事 jazz 的音樂人“jazz guitarist” = jazz 類型的 guitarist答案 jazz 符合字數限制，也符合題目文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "fans",
+      "answerKey": "fans",
+      "type": "Sentence Completion",
+      "prompt": "“Most 34 ______ of the guitar know little about its rich history.”",
+      "translation": "大多數 guitar 的愛好者對它豐富的歷史所知不多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “Most” 後面，後面接 “of the guitar”，所以最自然需要一個名詞，形成 “Most fans of the guitar…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the history of the guitar, an enormous number of individuals have made their mark on the way in which the instrument was built, played and perceived.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 guitar 的整個歷史中，大量人物都對這件樂器的製作方式、演奏方式和被理解的方式留下了影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By looking at the entire history of the guitar, rather than just recent developments, largely confined to electric guitars, it is possible to see more of the contributions of earlier generations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要看 guitar 的整段歷史，而非只看大多局限於 electric guitars 的近期發展，我們就能看見早期世代更多貢獻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段總結 guitar history 很豐富，且提醒讀者不要只看近代 electric guitar。題目問大多數 guitar fans 對 rich history 了解不足，所以應在這段中間找 “fans” 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “fans”、“rich history” 和 “know little”。原文沒有 “know little”，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the majority of these people are virtually invisible to most modern guitar fans.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句表示多數作出貢獻的人，對現代 guitar fans 來說幾乎不可見。換言之，大多數 fans 並不了解guitar 歷史中大量早期人物的貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though some of these individuals are particularly well known, like the Beatles or Les Paul, the majority of these people are virtually invisible to most modern guitar fans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然其中一些人物特別知名，例如 Beatles 或 Les Paul，但這些人中的大多數，對大多數現代guitar fans 來說幾乎是看不見的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “virtually invisible to most modern guitar fans” 改寫成 “know little about its rich history”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果貢獻者對 fans 來說幾乎不可見，就表示 fans 對 guitar 歷史中的大量人物和貢獻了解很少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式方面，原文完整片語是 “modern guitar fans”。然而題目句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most ______ of the guitar…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果填 “modern guitar fans”，句子會變成 “Most modern guitar fans of the guitar…”，語感重疊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "填 fans 則形成 “Most fans of the guitar…”，最自然，也來自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 fans。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "5,000",
+      "answerKey": "5,000",
+      "type": "Summary Completion",
+      "prompt": "“Instruments similar to the guitar have been played by musicians for over 35 ______ years.”",
+      "translation": "類似 guitar 的樂器已被音樂人演奏超過多少年。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這部分要求 NO MORE THAN TWO WORDS。空格前有 “over”，後面有 “years”，所以答案應是數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the guitar may have gained most of its popularity as a musical instrument during the modern era, guitar-like instruments have been in existence in numerous cultures throughout the world for more than 5,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 guitar 作為樂器大多是在現代才得到廣泛流行，但類似 guitar 的樂器已經在世界多個文化中存在超過 5,000 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of these instruments have more in common with the lute than the guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樂器中有不少與 lute 的共同點多於與 guitar 的共同點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，已經可見 “guitar-like instruments” 和 “more than 5,000 years”，和題目高度對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Instruments similar to the guitar” 和 “over”。原文對應："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“guitar-like instruments” = instruments similar to the guitar“more than 5,000 years” = over 5,000 years"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“guitar-like instruments have been in existence in numerous cultures throughout the world for more than 5,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "類似 guitar 的樂器已經在世界多個文化中存在超過 5,000 年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經有 “over” 和 “years”，所以空格只需填數字 5,000。如果填 “more than 5,000”，句子會變成 “for over more than 5,000 years”，意思重複且不自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 5,000。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "visual depictions",
+      "answerKey": "visual depictions",
+      "type": "Summary Completion",
+      "prompt": "“What we know about many of these instruments comes from 36 ______ rather than actual physical examples or music played on them.”",
+      "translation": "我們對許多這類樂器的了解，來自某種資料，而非實物例子或為它們寫下的音樂。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “comes from” 後面，需要名詞片語。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the guitar may have gained most of its popularity as a musical instrument during the modern era, guitar-like instruments have been in existence in numerous cultures throughout the world for more than 5,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 guitar 作為樂器大多是在現代才流行起來，但類似 guitar 的樂器已在世界多個文化中存在超過 5,000 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of these instruments have more in common with the lute than the guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樂器中有不少與 lute 的共同點多於與 guitar 的共同點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講早期 stringed instruments 的資料來源和形態。題目提到 “actual physical examples or music”，所以應找原文中 “known from…” 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “what we know”、“actual physical examples” 和 “music”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“these early instruments are known primarily from visual depictions, not from the continued existence of music written for them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“known primarily from” 對應題目 “comes from”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Prior to this time, stringed instruments were in use throughout the world, but these early instruments are known primarily from visual depictions, not from the continued existence of music written for them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在此之前，弦樂器已在世界各地被使用，但這些早期樂器主要是透過視覺描繪而為人所知，而非因為有為它們寫下的音樂持續保存下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “music played on them” 對應原文 “music written for them”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “actual physical examples” 是對「沒有實物持續存在」的補充概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正答案是原文中的資料來源：visual depictions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合字數限制：visual / depictions，共兩個詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "the lute",
+      "answerKey": "the lute",
+      "type": "Summary Completion",
+      "prompt": "“In some ways, these early stringed instruments were closer to 37 ______ than the guitar as we know it today.”",
+      "translation": "在某些方面，這些早期弦樂器比起今天我們所認識的 guitar，更接近甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “closer to” 後面，需要名詞或名詞片語。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the guitar may have gained most of its popularity as a musical instrument during the modern era, guitar-like instruments have been in existence in numerous cultures throughout the world for more than 5,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 guitar 作為樂器大多是在現代才變得非常流行，但類似 guitar 的樂器已在世界多個文化中存在超過 5,000 年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of these instruments have more in common with the lute than the guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樂器中有不少與 lute 的共同點多於與 guitar 的共同點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎由段落最後一句直接支援。題目 “closer to” 改寫原文 “have more in common with”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “closer to” 和 “than the guitar”。原文有 “more in common with the lute than the guitar”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常直接的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of these instruments have more in common with the lute than the guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些樂器中有不少與 lute 的共同點，比與 guitar 的共同點更多。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were closer to ______ than the guitar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“have more in common with the lute than the guitar”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "quote",
+              "text": "“closer to” = “have more in common with”"
+            },
+            {
+              "kind": "quote",
+              "text": "“these early stringed instruments” = “these instruments”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案 = “the lute”所以答案是 the lute。若考試答案表只寫 “lute”，通常意思也可接受；但原文片語是 “the lute”，而空格前 “to” 後接 “the lute” 很自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "authenticity",
+      "answerKey": "authenticity",
+      "type": "Summary Completion",
+      "prompt": "“However, the 38 ______ of six-string guitars made by guitar makers … before the final decade of the eighteenth century is often open to question.”",
+      "translation": "然而，在十八世紀最後十年之前，由 guitar makers 製作的 six-string guitars，其甚麼常常受到質疑。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，後面有 “of six-string guitars”，所以需要抽象名詞。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is some uncertainty about the exact date of the earliest six-string guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於最早的 six-string guitar 的確切日期，存在一些不確定性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus for nearly two hundred years, luthiers, or guitar makers, have been producing versions of the modern acoustic guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近兩百年來，luthiers，即 guitar makers，一直在製作 modern acoustic guitar 的不同版本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講最早 six-string guitar 的日期和真偽問題。題目中 “open to question” 提示要找 suspect /uncertainty / authenticity 一類詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “before the final decade of the eighteenth century”。十八世紀最後十年是 1790s，所以before the final decade = prior to 1790。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the authenticity of six-string guitars alleged to have been made prior to 1790 is often suspect…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the authenticity of six-string guitars alleged to have been made prior to 1790 is often suspect, as many fakes have been discovered dating to this era.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，那些聲稱在 1790 年以前製作的 six-string guitars，其真實性常常受到懷疑，因為人們發現許多屬於這個時期的假貨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “is often open to question” 對應原文 “is often suspect”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“before the final decade of the eighteenth century” 對應 “prior to 1790”。所以被質疑的是 “authenticity”。答案是 authenticity。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “fakes”。原文提到 many fakes 是原因，空格問的是被質疑的對象，也就是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "authenticity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "luthiers",
+      "answerKey": "luthiers",
+      "type": "Summary Completion",
+      "prompt": "“guitar makers (who are also known as 39 ______)”",
+      "translation": "guitar makers 也被稱為甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在括號解釋中，要求填一個名稱。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is some uncertainty about the exact date of the earliest six-string guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於最早的 six-string guitar 的確切日期，存在一些不確定性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus for nearly two hundred years, luthiers, or guitar makers, have been producing versions of the modern acoustic guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近兩百年來，luthiers，也就是 guitar makers，一直在製作 modern acoustic guitar 的不同版本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落最後一句直接給出專門名詞和普通解釋。題目把原文 “luthiers, or guitar makers” 反過來問"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“guitar makers, also known as…”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “guitar makers”。原文直接出現：“luthiers, or guitar makers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "逗號和 “or” 表示兩者是同一類人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus for nearly two hundred years, luthiers, or guitar makers, have been producing versions of the modern acoustic guitar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，近兩百年來，luthiers，即 guitar makers，一直在製作 modern acoustic guitar 的各種版本。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“guitar makers (who are also known as ______)”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“luthiers, or guitar makers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫方式是順序反轉：原文：luthiers = guitar makers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：guitar makers = luthiers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 luthiers。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “guitar makers”，因為題目已經給出這個普通說法。空格要填的是專門名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "solid-body",
+      "answerKey": "solid-body",
+      "type": "Summary Completion",
+      "prompt": "“Most 40 ______ electric guitars in use today are similar in design to guitars produced by the Fender Musical Instruments Company and the Gibson Guitar Corporation in the 1950s.”",
+      "translation": "今天使用的大多數某類 electric guitars，在設計上都與 Fender 和 Gibson 在 1950s 生產的guitars 相似。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “electric guitars” 前面，需要形容詞或複合形容詞。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Fender Musical Instruments Company and the Gibson Guitar Corporation were two other early electric guitar pioneers, both developing models in the early 1950s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fender Musical Instruments Company 和 Gibson Guitar Corporation 是另外兩個早期 electric guitar 先驅，兩者都在 1950s 初期發展出不同型號。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The majority of present-day solid-body electric guitars are still based largely on these three early electric guitar designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日大多數 solid-body electric guitars 仍大致建基於這三款早期 electric guitar 設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段開頭講 Fender 和 Gibson 在 1950s 的 models，尾句講 present-day solid-body electric guitars 仍建基於早期設計。Question 40 幾乎直接改寫最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Fender”、“Gibson”、“1950s” 和 “in use today”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“present-day solid-body electric guitars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“these three early electric guitar designs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “in use today” 對應 “present-day”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The majority of present-day solid-body electric guitars are still based largely on these three early electric guitar designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日大多數 solid-body electric guitars 仍大致建基於這三款早期 electric guitar 設計。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most ______ electric guitars in use today are similar in design to…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The majority of present-day solid-body electric guitars are still based largely on…”"
+            },
+            {
+              "kind": "label",
+              "text": "改寫關係："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most” = “The majority of”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in use today” = “present-day”"
+            },
+            {
+              "kind": "quote",
+              "text": "“are similar in design to” = “are still based largely on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案 = “solid-body”所以答案是 solid-body。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “present-day solid-body”。題目後面已經有 “in use today”，這已經處理"
+            },
+            {
+              "kind": "paragraph",
+              "text": "present-day 的意思；空格只需要填 electric guitars 的類型。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The history of the guitar.pdf",
+    "sha256": "c7a4d01c16178c50d486712f17dfa6d7f86cd251653da488ea15c81b8323f2c0",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首尾句，這段主要處理 “guitar” 一詞的語源。第一句說 guitar 由西班牙文 guitarra 進入英文，而 guitarra 又源自希臘文 kithara。最後一句指出，不同語言雖然 spelling and pronunciation 有差異，但 guit- 和 -tar 這些核心元素一直保留在多數 guitar 相關詞中。這段很可能回答關於字源、拼寫、發音、guit-、-tar、sitar 和 string / chord 的題目。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 guitar 在現代最受歡迎，但類似 guitar 的樂器在世界多個文化中已存在超過 5,000 年。尾句說不少早期樂器與 lute 的共同點多於現代 guitar。只看首尾句，可估計這段會處理 guitar-like instruments 的早期歷史、acoustic guitar 的出現時間、資料來源和早期樂器形態。Questions 29、35、36、37 都很可能定位到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句直接說 earliest six-string guitar 的確切日期存在不確定性。尾句說近兩百年來，luthiers，即guitar makers，一直在製作 modern acoustic guitar 的版本。只看首尾句，可以判斷本段核心是six-string guitar 到 modern acoustic guitar 的形成歷史。它會支援 exact date、1779、1790、authenticity、shape and dimensions、luthiers 這類題目。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說第一把 electric guitar 到二十世紀初才出現。尾句說 Beatles 整個職業生涯都使用Rickenbacker guitars，令這些樂器在同時代音樂人之間非常流行。只看首尾句，可見這段會由electric guitar 的發明和專利講到 Rickenbacker 的成名過程。George Beauchamp、1936 patent、Rickenbacker、Beatles、John Lennon、George Harrison 和 Paul McCartney 都是強定位詞。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Fender 和 Gibson 是另外兩個早期 electric guitar pioneers，並在 1950s 初期發展不同models。尾句說今日多數 present-day solid-body electric guitars 仍大致建基於三款早期設計。只看首尾句，這段會處理 Fender Telecaster、Fender Stratocaster、Gibson Les Paul、Les Paul 本人身份，以及現代 solid-body electric guitars 和 1950s 設計的關係。Questions 33 和 40 應優先看這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 guitar 歷史中有大量人物影響了這件樂器的製作、演奏和被理解的方式。尾句說如果看整段 guitar 歷史，而非只看近期 electric guitars 發展，就能看見早期世代更多貢獻。只看首尾句，這段是全文總結，提醒讀者不要只記得 Beatles 或 Les Paul 這些近代名人。它支援關於 modern guitar fans 對豐富歷史了解不足的題目。"
+      }
+    ]
+  }
+}

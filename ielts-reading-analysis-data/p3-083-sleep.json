@@ -1,0 +1,1284 @@
+{
+  "id": "p3-083-sleep",
+  "catalogueId": "p3-083",
+  "catalogueIds": [
+    "p3-083"
+  ],
+  "passage": 3,
+  "title": "SLEEP",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "A",
+    "C",
+    "B",
+    "light sleep",
+    "brain wave",
+    "smaller, faster waves",
+    "deep sleep",
+    "breathing",
+    "deteriorate",
+    "metabolic rate",
+    "torpor",
+    "day-night cycle",
+    "circadian rhythm"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — re-energise parts of the brain",
+      "answerKey": "D — re-energise parts of the brain",
+      "type": "Question Analysis",
+      "prompt": "Among other functions, sleep serves to A help the adult body develop physically. B push daily problems from our minds. C accelerate the learning process significantly. D re-energise parts of the brain.",
+      "translation": "除了其他功能外，睡眠可以……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。這段用 bullet points 列出 scientists proposed theories on why humans require sleep，功能是集中講「睡眠的可能作用」。題目問 sleep serves to，所以自然應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 re-energise 不會在原文原字出現，應留意近義概念：recharge、repair、restore。原文第一個 theory 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sleep may be a way of recharging the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡眠可能是一種為大腦重新充電的方式。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The brain has a chance to shut down and repair neurons…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大腦有機會暫時關閉並修復神經元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 re-energise parts of the brain 對應原文 recharging the brain。recharge 和 re-energise是直接近義改寫；parts of the brain 則概括 neurons and neuronal connections。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯在 adult body develop physically。原文提到 growth hormones released during deep sleep，但限定在 children and teenagers，沒有說 adult body develop physically。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯在 push daily problems from our minds。原文說 reorganise data to help find a solution to problems，意思是整理資料以幫助解決問題，並非把問題趕出腦海。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯在 significantly。原文只說 process newly-learned information，沒有說 accelerate significantly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確，因為 re-energise = recharge。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很容易吸引學生，因為原文有 newly-learned information。真正要看的是程度詞：題目加了significantly，而原文沒有這種強度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — a very deep sleep",
+      "answerKey": "A — a very deep sleep",
+      "type": "Question Analysis",
+      "prompt": "‘Torpor’ can be described as A a very deep sleep. B a long state of hibernation. C the sleep all non-human mammals experience. D a light sleep.",
+      "translation": "torpor 可以描述為……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。這段比較 small mammals 和 humans，並解釋 torpor 這個概念。題目直接問 torpor，所以定位非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“sleep can also develop into a torpor, in which the metabolic rate drops significantly for a few hours during the sleep period.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡眠也可以發展成 torpor；在這種狀態中，睡眠期間的幾小時內，代謝率會大幅下降。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對 torpor 的精確定義是：在睡眠期間，代謝率短時間大幅下降。四個選項中，A a very deep sleep 最接近這種「睡眠中進入更深、更低代謝狀態」的意思。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 是最佳答案。雖然 torpor 的核心其實是 metabolic rate drops significantly，但在四個選項中，A最接近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯在 long state of hibernation。原文說 for a few hours during the sleep period，不是長期冬眠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯在 all non-human mammals。原文只說 many small mammals such as rodents，不是所有非人類哺乳動物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為 light sleep 和 metabolic rate drops significantly 方向不合。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的 hibernation 很吸引，因為 torpor 常和低代謝聯想在一起。但 IELTS 要跟原文走：這裡寫的是 few hours during sleep period，時間很短，所以 B 太誇張。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — save only a small amount of energy by sleeping",
+      "answerKey": "C — save only a small amount of energy by sleeping",
+      "type": "Question Analysis",
+      "prompt": "Unlike small mammals, humans A don’t sleep to conserve energy. B don’t sleep properly. C save only a small amount of energy by sleeping. D show no decrease in their metabolic rate when they sleep.",
+      "translation": "和小型哺乳動物不同，人類……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。這段前半講 small mammals 透過睡眠節省很多能量，後半用 “On the other hand, humans…” 轉向人類情況。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 Unlike small mammals 和 humans。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, humans can usually rest and relax quite adequately during wakefulness…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，人類通常在清醒時也可以充分休息和放鬆。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is only a modest further energy saving to be gained by sleeping.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡眠只能帶來少量額外的能量節省。"
+            },
+            {
+              "kind": "label",
+              "text": "再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“the fall in metabolic rate … is only about 5–10%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "代謝率下降只有約 5–10%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 save only a small amount of energy 對應原文 only a modest further energy saving。modest = small / limited。這是直接同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 太絕對。原文沒有說人類睡眠完全不節省能量；它說節省幅度 modest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 無根據。原文沒有說 humans don’t sleep properly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為原文明確說 metabolic rate 有 5–10% 的下降。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 D 都是極端選項。A 把 small saving 誇大成 no energy-saving purpose；D 把 5–10%decrease 抹走。題目考的是 only / modest / 5–10% 這組程度訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — there is an alternation of delta waves and small fast waves",
+      "answerKey": "B — there is an alternation of delta waves and small fast waves",
+      "type": "Question Analysis",
+      "prompt": "In stage 3 deep sleep A the eyes move slowly and there’s little muscle activity. B there is an alternation of delta waves and small fast waves. C there is an occasional burst of rapid brain waves. D there are no small fast waves.",
+      "translation": "在第三階段深層睡眠中……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。這段逐一介紹 Stage 1、Stage 2、Stage 3、Stage 4 和 REM。題目問Stage 3，所以應在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 stage 3。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a person enters stage 3, extremely slow brain waves called delta waves are interspersed with smaller, faster waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一個人進入第三階段時，稱為 delta waves 的極慢腦波，會和較小、較快的腦波交錯出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "interspersed with 的意思是「穿插、交錯」。所以 Stage 3 不是只有 delta waves，也有 smaller, faster waves 穿插其中。選項 B 的 alternation 對應 interspersed with。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 是 Stage 1：eyes move slowly and muscle activity slows。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確：delta waves + smaller, faster waves 交錯出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 是 Stage 2：occasional burst of rapid brain waves。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 是 Stage 4 的方向：brain produces delta waves almost exclusively。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很吸引，因為 Stage 3 and 4 都屬於 deep sleep。但題目指定 stage 3，不可把 Stage 4 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“almost exclusively” 套到 Stage 3。 Questions 31–35 — Flow-chart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "light sleep",
+      "answerKey": "light sleep",
+      "type": "Question Analysis",
+      "prompt": "The individual drifts in and out of consciousness and can be woken up easily as they are only in a 31 ______.",
+      "translation": "個人時睡時醒，而且容易被喚醒，因為他們只處於……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。flow-chart 依照睡眠階段順序排列，所以第一格對應 Stage 1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 drifts in and out 和 awakened easily 直接對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stage 1 is light sleep in which you drift in and out of sleep and can be awakened easily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一階段是淺睡，在這階段你會時睡時醒，而且容易被喚醒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “in a”，後面需要名詞短語。原文給出 light sleep，文法和意思都完全符合。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 sleep。題目已經在說 sleep stage，要填具體類型；原文完整答案是 light sleep。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "brain wave",
+      "answerKey": "brain wave",
+      "type": "Question Analysis",
+      "prompt": "The speed of 32 ______ activity slows and all movement of the eyes tends to stop.",
+      "translation": "______ 活動的速度減慢，眼睛活動也趨向停止。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 flow-chart 第二格，對應 Stage 2。Paragraph 7 在 Stage 1 後立刻介紹 Stage 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 eye movement stops 和 activity slows。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In stage 2, eye movement stops and brain waves become slower…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在第二階段，眼睛活動停止，腦波變慢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文是 brain waves become slower。題目改成 “The speed of ______ activity slows”。要令句子文法自然，應填 brain wave，組成 brain wave activity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文： brain waves become slower"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "the speed of brain wave activity slows這是名詞結構改寫：brain waves → brain wave activity。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果直接填 brain waves，會變成 “brain waves activity”，文法不自然。這題不是單純抄原字，也要看空格前後的文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "smaller, faster waves",
+      "answerKey": "smaller, faster waves",
+      "type": "Question Analysis",
+      "prompt": "Brain activity is dominated by delta waves, with a scattering of 33 ______ also in evidence.",
+      "translation": "腦部活動以 delta waves 為主，同時也有少量 ______ 出現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 flow-chart 第三格，對應 Stage 3。Paragraph 7 對 Stage 3 的描述包含 delta waves 和另一種 wave。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 delta waves 和 scattering。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“delta waves are interspersed with smaller, faster waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "delta waves 會和較小、較快的腦波交錯出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “with a scattering of” 對應原文 “interspersed with”。空格要填被穿插出現的東西，所以答案是 smaller, faster waves。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 delta waves。題目已經給了 delta waves；空格要補充和 delta waves 同時出現的另一類wave。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "deep sleep",
+      "answerKey": "deep sleep",
+      "type": "Question Analysis",
+      "prompt": "In a state of 34 ______, the brain emits delta waves almost exclusively. It is hard to wake the individual.",
+      "translation": "在 ______ 狀態中，大腦幾乎只產生 delta waves，而且很難喚醒那個人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 flow-chart 第四格，對應 Stage 4。Paragraph 7 說 Stage 4 以 delta waves almost exclusively 為特徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 delta waves almost exclusively 和 hard to wake。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In stage 4, the brain produces delta waves almost exclusively.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Stages 3 and 4 are referred to as deep sleep, and it is very difficult to wake someone from them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在第四階段，大腦幾乎只產生 delta waves。第三和第四階段稱為 deep sleep，而且很難把人喚醒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “In a state of ______”，需要一個狀態名稱。原文給出 deep sleep。雖然 Stage 4 也是答案區，但空格不是要填 Stage 4，而是要填狀態名稱。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 stage 4。題目句子已有描述 Stage 4 的特徵，但空格前是 “a state of”，最自然答案是deep sleep。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "breathing",
+      "answerKey": "breathing",
+      "type": "Question Analysis",
+      "prompt": "A period of rapid eye movement follows, during which 35 ______ patterns are not consistent and limb muscles enter a temporary state of paralysis.",
+      "translation": "之後是 rapid eye movement 階段，期間 ______ 模式不穩定，而四肢肌肉會暫時麻痺。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 flow-chart 最後一格，對應 REM sleep。Paragraph 8 詳細描述 REM 的身體反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 rapid eye movement、not consistent、limb muscles paralysis。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the REM period, breathing becomes more rapid, irregular and shallow, eyes jerk rapidly and limb muscles are temporarily paralysed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 REM 階段，呼吸變得更快、不規則且淺；眼睛快速抽動，四肢肌肉暫時麻痺。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “patterns are not consistent” 對應原文 irregular。原文中變得 irregular 的是breathing。所以答案是 breathing，組成 breathing patterns。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 eye movement。題目已經說 rapid eye movement follows，後半句 “patterns are not consistent” 指的是 breathing irregular，不是 eye movement。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "deteriorate",
+      "answerKey": "deteriorate",
+      "type": "— Summary Completion",
+      "prompt": "neuronal connections which could otherwise 36 ______ in a state of inactivity.",
+      "translation": "神經連結如果缺乏活動，原本可能會……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。Summary 開頭講 sleep essential，接著轉入 brain repair and neuronal connections，正好對應第二段第一個 theory。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 neuronal connections 和 inactivity。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“important neuronal connections that might otherwise deteriorate due to lack of activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "重要的神經連結如果缺乏活動，原本可能會退化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “in a state of inactivity” 對應原文 “due to lack of activity”。空格要填動詞，原文動詞是deteriorate。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 repair。repair 是睡眠幫助大腦做的事情；題目問 lack of activity 時神經連結可能發生的負面結果，所以是 deteriorate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "metabolic rate",
+      "answerKey": "metabolic rate",
+      "type": "— Summary Completion",
+      "prompt": "During this rest period, the 37 ______ drops and energy consumption goes down.",
+      "translation": "在這段休息期間，______ 下降，能量消耗也下降。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。這段列出睡眠功能，其中一點直接講代謝率和能量消耗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 drops 和 energy consumption。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sleep lowers a person’s metabolic rate and energy consumption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡眠降低人的代謝率和能量消耗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 lowers 改寫成 drops，把同一個句子拆成兩部分：metabolic rate drops；energy consumption goes down。所以答案是 metabolic rate。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 energy consumption。題目空格後面已經有 energy consumption goes down，所以空格應填另一個下降項目：metabolic rate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "torpor",
+      "answerKey": "torpor",
+      "type": "— Summary Completion",
+      "prompt": "During deep sleep, humans do not fall into 38 ______, unlike some small animals such as rodents.",
+      "translation": "在深層睡眠中，人類不像某些小動物如 rodents 那樣進入 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。這段集中比較 rodents 和 humans 的睡眠能量節省，並提到 torpor。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 humans do not、small animals such as rodents。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“sleep can also develop into a torpor…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“We do not enter torpor…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡眠也可以發展成 torpor；我們人類不會進入 torpor。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子的 “do not fall into” 對應原文 “do not enter”。空格要填人類不會進入的狀態，所以答案是 torpor。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 deep sleep。題目已經說 during deep sleep；真正比較的是 humans 和 rodents 是否進入 torpor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "day-night cycle",
+      "answerKey": "day-night cycle",
+      "type": "— Summary Completion",
+      "prompt": "A 39 ______ of 24 hours is described as a person’s 40 ______.",
+      "translation": "一個約 24 小時的 ______ 被描述為一個人的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。這段只有一個核心概念：circadian rhythm 是大約 24 小時的day-night cycle。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 24 hours。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“his or her circadian rhythm, a day-night cycle of about 24 hours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他或她的 circadian rhythm，也就是約 24 小時的日夜周期。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 apposition 結構倒轉。原文是： circadian rhythm = a day-night cycle of about 24 hours題目是： A ______ of 24 hours is described as a person’s ______第一個空格要填被 of 24 hours 修飾的名詞短語，所以 39 是 day-night cycle。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 39 和 40 對調。英文原文中逗號後的 “a day-night cycle of about 24 hours” 是對circadian rhythm 的解釋；題目先問解釋內容，再問名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "circadian rhythm",
+      "answerKey": "circadian rhythm",
+      "type": "— Summary Completion",
+      "prompt": "A day-night cycle of 24 hours is described as a person’s 40 ______, and this greatly influences the amount and type of sleep they get.",
+      "translation": "一個 24 小時的日夜周期被描述為一個人的 ______，並大大影響他們得到的睡眠數量和類型。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標仍是 Paragraph 3。這段第一句直接給出定義，第二句說 circadian rhythms greatly influence the timing, amount and quality of sleep。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 greatly influences 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Circadian rhythms greatly influence the timing, amount and quality of sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "晝夜節律大大影響睡眠的時間、數量和質素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目後半句 “this greatly influences…” 指回 40 的答案。原文中具有這種影響力的是 circadian rhythms。由於題目說 a person’s，使用單數形式 circadian rhythm。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的答案和 Q39 來自同一句。Q39 是定義內容；Q40 是術語名稱。遇到 “X, a Y of …” 這種結構，要分清 X 是名稱，Y 是解釋。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -SLEEP.pdf",
+    "sha256": "79e0a6b9e3d599da93fd75d5b6f9b463481a6fb8a414ff61d33961801bbacf27",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "引入睡眠研究仍年輕，並指出睡眠對人類和動物都不可缺少。"
+      },
+      {
+        "number": "2",
+        "summary": "列出科學家提出的睡眠功能理論。"
+      },
+      {
+        "number": "3",
+        "summary": "定義 circadian rhythm，說明它是約 24 小時的 day-night cycle，影響睡眠時間、數量和質素。"
+      },
+      {
+        "number": "4",
+        "summary": "比較小型哺乳動物和人類睡眠的能量節省；解釋 torpor，以及人類睡眠只額外節省少量能量。"
+      },
+      {
+        "number": "5",
+        "summary": "講 shift workers 和circadian rhythm 的改變因素，並提到節律打亂可能導致 bipolar disorder 中的mania。"
+      },
+      {
+        "number": "6",
+        "summary": "反駁把睡眠視為懶惰或羞恥的觀念，強調健康睡眠對工作表現必要。"
+      },
+      {
+        "number": "7",
+        "summary": "詳細介紹 Stage 1–4 和REM 的睡眠周期，尤其Stage 1–4 的特徵。"
+      },
+      {
+        "number": "8",
+        "summary": "詳細介紹 REM sleep 的生理特徵、夢境、不同年齡層REM 比例。"
+      },
+      {
+        "number": "9",
+        "summary": "介紹 REM sleep 的發現歷史和現代理論。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "三、逐題精析 — Why We Sleep"
+  ]
+}

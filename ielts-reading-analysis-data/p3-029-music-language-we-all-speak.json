@@ -1,0 +1,635 @@
+{
+  "id": "p3-029-music-language-we-all-speak",
+  "catalogueId": "p3-029",
+  "catalogueIds": [
+    "p3-029"
+  ],
+  "passage": 3,
+  "title": "Music: Language We All Speak",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "iii",
+    "vii",
+    "viii",
+    "ii",
+    "v",
+    "F",
+    "B",
+    "E",
+    "D",
+    "G",
+    "A",
+    "C",
+    "B",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "iii — Music and language contrasted",
+      "answerKey": "iii — Music and language contrasted",
+      "type": "Matching Headings",
+      "prompt": "Questions 27–31",
+      "translation": "語言長期被視為理解人類智能機制的關鍵；音樂則通常被看成演化上的裝飾品。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "27 Section A"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section A 一開始說 music 是 universal ability，後面立刻比較 language：語言能組織遷徙、建造船隻、夜間溝通，現代文化也直接來自人類操控 symbols and syntax 的能力。接著作者指出， scientists 一直對 music 和 language 的 connection 感興趣，但兩者在研究中的地位差異很大。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While language has long been considered essential to unlocking the mechanisms of human intelligence, music is generally treated as an evolutionary frippery…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iii “Music and language contrasted” 最能概括全段，因為它同時涵蓋 music、language和兩者地位差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 的問題： vi “Music transcends cultures” 只符合 Section A 第一部分的 music universal ability，但沒有覆蓋語言比較。iv “Current research on music” 主要屬於後文，不是 Section A 的主軸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "28 Section B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 開頭提到 neuroscience research，但大部分內容在交代傳統音樂理論：musicologists認為音樂雖受文化影響，仍有 universal qualities；各文化常把聲音分成 chromatic scale 的intervals；之後作者引入 Pythagoras，說明 harmoniousness 和 physical dimensions / simple ratios 的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some 2,500 years ago, Pythagoras was the first to note a direct relationship between the harmoniousness of a tone combination and the physical dimensions of the object that produced it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "約二千五百年前，Pythagoras 首先注意到音組的和諧程度，與產生聲音的物件的物理尺寸之間有直接關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 Section B 的主要功能是回看音樂理論歷史，答案是 vii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “Current research on music” 很吸引，因為段落開頭有 neuroscience research 和 recent publications。不過真正控制全段的是後面大量篇幅：traditional understanding、musicologists、Pythagoras、mathematical properties of sound。heading 要概括整段，不可只看第一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "29 Section C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：viii — Are we genetically designed for music?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section C 先指出傳統的 music-is-math 和 music-is-abstract 觀念都不準確，然後介紹 Schwartz, Howe, and Purves 的觀點：音樂偏好根植於 biology，尤其與 speech sounds 和 vocal tract 有關。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The explanation of music, like the explanation of any product of the mind, must be rooted in biology, not in numbers per se,” says Schwartz."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schwartz 說，音樂的解釋，就像任何心智產物的解釋一樣，必須植根於生物學，而不能只停留在數字本身。再看最後一句：“What we do know is that they both come from the same system, and it is this that shapes our preferences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們確知的是，音樂和語言都來自同一個系統，正是這個系統塑造了我們的偏好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii “Are we genetically designed for music?” 用問題形式概括這段的核心：音樂偏好是否由人類生物系統塑造。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "30 Section D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ii — New discoveries on animal music"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section D 主要討論 animal music / animals’ response to music。作者先說 Schwartz 的研究能照亮動物是否理解或欣賞音樂這個長期問題，然後提到 monkeys、birds、birdsong、whalesong、wolf howls 和 chimpanzee hooting。最後 Schwartz 指出，過往給動物聽的是 human music，因此測試不足。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what’s been played to animals, Schwartz notes, is human music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Schwartz 指出，過往播放給動物聽的是人類音樂。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“To demonstrate that animals don’t appreciate sound the way we do, we’d need evidence that they don’t respond to ‘music’ constructed from their own sound environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要證明動物不以我們的方式欣賞聲音，需要證據顯示牠們對根據自身聲音環境製作的「音樂」也沒有反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii 比 i 更好。i “Communication in music with animals” 像是在說人類與動物透過音樂溝通，但本段重點是 animal music research 的限制和新理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "31 Section E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：v — Music is beneficial for infants."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section E 開頭說音樂和語言一樣深植於 biology and brains，然後用 babies 作例子。Sandra Trehub 指出，mothers use musical speech to regulate infants’ emotional states，這種介乎speech and song 的聲音能令嬰兒進入 trancelike state，可能帶來睡眠或愉悅狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mothers use musical speech to ‘regulate infants’ emotional states’, Trehub says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Trehub 說，母親使用帶音樂性的說話來調節嬰兒的情緒狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說 music may be even more of a necessity than we realise，但這個結論是從嬰兒例子推出來的。heading v 最貼近整段內容。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "F — Music does not receive the same level of research attention as language.",
+      "answerKey": "F — Music does not receive the same level of research attention as language.",
+      "type": "Matching People with",
+      "prompt": "Questions 32–38",
+      "translation": "語言長期被視為理解人類智能機制的關鍵；音樂通常被看成演化上的裝飾品，正如 Steven Pinker 所說，只是「聽覺芝士蛋糕」。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Statements Questio Person Answe Core Evidence n r 32 Steven Pinker F music treated as “auditory cheesecake” 33 Musicologists B music has universal qualities despite cultural identity 34 Pythagoras E simple ratios and harmony 35 Schwartz, Howe, and D preferences shaped by speech / sound Purves environment 36 Marc Hauser and Josh G monkeys’ recognition shows shared McDermott auditory features 37 Charles Rosen A music exists apart from the world 38 Sandra Trehub C music may be a necessity 32 Steven Pinker"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section A。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“While language has long been considered essential to unlocking the mechanisms of human intelligence, music is generally treated as an evolutionary frippery—mere ‘auditory cheesecake’, as the Harvard cognitive scientist Steven Pinker puts it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pinker 的 “auditory cheesecake” 表示音樂被視為附加享受，地位低於語言。選項 F 把這種地位差距概括成：music does not receive the same level of research attention as language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "33 Musicologists"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section B。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, musicologists have long emphasised that while each culture stamps a special identity onto its music, music itself has some universal qualities.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，音樂學家長久以來強調，雖然每種文化都會把特殊身份印在自己的音樂上，音樂本身仍有某些普遍特質。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 幾乎是原文的直接改寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“despite cultural influences” = “while each culture stamps a special identity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“universal character” = “universal qualities”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "34 Greek philosopher Pythagoras"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section B。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some 2,500 years ago, Pythagoras was the first to note a direct relationship between the harmoniousness of a tone combination and the physical dimensions of the object that produced it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "約二千五百年前，Pythagoras 首先注意到音組的和諧程度與產生聲音的物件的物理尺寸之間有直接關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文還提到 simple ratios and harmony。這正好對應選項 E 的 mathematical basis of music。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "35 Schwartz, Howe, and Purves"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section C。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Human musical preferences are fundamentally shaped not by elegant algorithms or ratios but by the messy sounds of real life, and of speech in particular…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類的音樂偏好基本上由真實生活中複雜的聲音塑造，尤其是說話聲音，而非純粹由精巧算法或比例塑造。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“We like the sounds that are familiar to us—specifically, we like the sounds that remind us of us.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們喜歡熟悉的聲音；更具體地說，我們喜歡那些令我們想起自身的聲音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 surrounding influences 對應 real life sounds / speech / familiar sounds。這是Schwartz, Howe, and Purves 的核心觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "36 Marc Hauser and Josh McDermott"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section D。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fact that laboratory monkeys can show recognition of human tunes is evidence, they say, of shared general features of the auditory system, not any specific monkey musical ability.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說，實驗室猴子能顯示對人類旋律的識別，這證明牠們與人類共享聽覺系統的一般特徵，並不代表猴子有特定音樂能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G 的 “similar traits in perceiving sound” 對應 “shared general features of the auditory system”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句不是說猴子懂音樂，只是說牠們有共同聽覺系統特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "37 Charles Rosen"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A — Music exists outside of the world it is created in."
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section C 開頭。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Charles Rosen discussed the long-standing notion that … music is entirely abstracted from the world in which we live.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Charles Rosen 討論了一種長期存在的觀念：音樂完全從我們生活的世界中抽離出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 “exists outside of the world it is created in” 正好概括 “abstracted from the world”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "38 Sandra Trehub"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C — Music is a necessity for humans."
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section E。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The upshot, says Trehub, is that music may be even more of a necessity than we realise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Trehub 說，結論是音樂可能比我們意識到的更有必要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “Music is a necessity for humans” 直接對應 “music may be even more of a necessity than we realise”。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B — Tests on animal music are limited.",
+      "answerKey": "B — Tests on animal music are limited.",
+      "type": "Multiple Choice",
+      "prompt": "Questions 39–40",
+      "translation": "Schwartz 指出，過往播放給動物聽的是人類音樂。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "39 Why were studies of animal music inconclusive?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問：為甚麼 animal music 的研究結果未能作出確定結論？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位在 Section D 最後一段。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what’s been played to animals, Schwartz notes, is human music.”"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“To demonstrate that animals don’t appreciate sound the way we do, we’d need evidence that they don’t respond to ‘music’ constructed from their own sound environment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要證明動物不以我們的方式欣賞聲音，我們需要證據顯示牠們對根據自身聲音環境製作的「音樂」也沒有反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示過往測試的限制在於：研究多數使用 human music，沒有充分測試由動物自身聲音環境建構出的 “music”。所以結論未必穩固。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Animals don’t have the same auditory system as humans.”錯。原文反而提到 monkeys 的反應顯示 shared general features of the auditory system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Tests on animal music are limited.”正確。限制在於過往測試多用 human music，缺少根據 animals’ own sound environment 製作的music。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Animals can’t make up new tunes.”只局部對應 birds 的例子：birds generally recognise their own tunes but don’t generate novel melodies like we do。這不是整體研究 inconclusive 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “There have not been enough tests involving a wide range of animals.”原文問題重點不在動物種類多少，而在測試材料是否合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "40 What is the main theme of this passage?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B — The evolution of music"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文主題不是單純介紹音樂在社會中的角色，也不只是動物音樂或嬰兒音樂。文章由 music and language 的比較開始，接著討論 neuroscience research、Pythagoras 的數學理論、Schwartz 等人的 biological explanation、animals’ sound environment，以及 babies 對 musical speech 的反應。整條主線都在追問：音樂為何存在、它和語言有甚麼生物根源關係、它是否深植於人類演化和大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No matter how the connection between language and music is parsed, what is apparent is that our sense of music, even our love for it, is as deeply rooted in our biology and in our brains as language is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論如何分析語言與音樂的關係，有一點很明顯：我們對音樂的感受，甚至對音樂的熱愛，都像語言一樣深植於我們的生物特質和大腦之中。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Language and learning”文章確實談 language，但不是教育或 learning 主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “The evolution of music”正確。全文集中討論音樂的生物、語言、演化和感知根源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “The role of music in human society”太社會學化。文章不主要談音樂在社會、文化活動或群體生活中的功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Music for animals”只覆蓋 Section D，不能概括全文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Music_ Language We All Speak.pdf",
+    "sha256": "7b302a10963927dab54fadd869cd0cf537884a921ff04a48b5a1ac3c9ee7ce4c",
+    "pageCount": 12
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句：“Music is one of the human species’ relatively few universal abilities.”中文意思：音樂是人類少數相對普遍的能力之一。最後一句：“While language has long been considered essential to unlocking the mechanisms of human intelligence, music is generally treated as an evolutionary frippery—mere ‘auditory cheesecake’, as the Harvard cognitive scientist Steven Pinker puts it.”中文意思：語言長久以來被視為理解人類智能機制的關鍵；相比之下，音樂通常被看作演化上的裝飾品，正如哈佛認知科學家 Steven Pinker 所說，只是「聽覺芝士蛋糕」。段落功能： Section A 主要把 music 和 language 放在一起比較。兩者都普遍存在，但語言的實用價值較明顯，音樂在學術研究中的地位長期較低。因此 heading 應找「music and language 的對比」。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句：“But thanks to a decade-long wave of neuroscience research, that tune is changing.”中文意思：但由於過去十年一波神經科學研究的推動，這種看法正在改變。最後一句：“This link between simple ratios and harmony has influenced music theory ever since.”中文意思：這種簡單比例與和諧之間的關係，自此一直影響音樂理論。段落功能： Section B 開頭提到新研究，但主要篇幅回顧傳統理解：音樂跨文化有共同特質、十二音階、Pythagoras 以及音樂與數學比例的關係。因此 heading 應概括「歷史理論回顧」。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句：“This music-is-math idea is often accompanied by the notion that music, formally speaking at least, exists apart from the world in which it was created.”中文意思：「音樂是數學」這種想法，常伴隨另一種觀念：至少從形式上看，音樂脫離其創造所在的世界而存在。最後一句：“What we do know is that they both come from the same system, and it is this that shapes our preferences.”中文意思：我們確知的是，音樂和語言都來自同一個系統，正是這個系統塑造了我們的偏好。段落功能： Section C 反駁「音樂純粹是數學／抽象形式」的想法，提出音樂偏好根植於 speech、biology 和human sound-making system。這段重點是音樂是否由人的生物系統塑造。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句：“Schwartz’s study also casts light on the long-running question of whether animals understand or appreciate music.”中文意思： Schwartz 的研究也有助於理解一個長期問題：動物是否理解或欣賞音樂。最後一句：“To demonstrate that animals don’t appreciate sound the way we do, we’d need evidence that they don’t respond to ‘music’ constructed from their own sound environment.”中文意思：若要證明動物不以我們的方式欣賞聲音，我們需要證據顯示牠們對根據自身聲音環境製作的「音樂」也沒有反應。段落功能： Section D 主要討論動物音樂研究：過往多用 human music 測試動物，因此結果有限。這段適合heading “New discoveries on animal music”。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句：“No matter how the connection between language and music is parsed, what is apparent is that our sense of music, even our love for it, is as deeply rooted in our biology and in our brains as language is.”中文意思：無論如何分析語言與音樂之間的關係，有一點很明顯：我們對音樂的感受，甚至對音樂的熱愛，都像語言一樣深深植根於我們的生物特質和大腦之中。最後一句：“The upshot, says Trehub, is that music may be even more of a necessity than we realise.”中文意思： Trehub 表示，結論是音樂可能比我們意識到的更有必要。段落功能： Section E 用 babies 和 mothers’ musical speech 說明音樂對嬰兒情緒調節、睡眠和愉悅狀態的作用。因此 heading 應是嬰兒與音樂益處。"
+      }
+    ]
+  }
+}

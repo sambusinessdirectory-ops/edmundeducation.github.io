@@ -1,0 +1,1961 @@
+{
+  "id": "p3-056-the-olympic-torch",
+  "catalogueId": "p3-056",
+  "catalogueIds": [
+    "p3-056"
+  ],
+  "passage": 3,
+  "title": "The Olympic Torch",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "severe weather conditions",
+    "aesthetic and practical",
+    "treasured souvenir",
+    "E",
+    "F",
+    "B",
+    "D",
+    "H",
+    "C",
+    "tiny fuel tank",
+    "openings",
+    "handle",
+    "propane and butane",
+    "a flame"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "severe weather conditions",
+      "answerKey": "severe weather conditions",
+      "type": "Summary Completion",
+      "prompt": "“The Olympic torch, as requested by the Olympic Committee, will be carefully designed so that it is capable of withstanding all kinds of 27 ______.”",
+      "translation": "奧運火炬按照 Olympic Committee 的要求，會被仔細設計，使它能承受各種 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The torch begins as an abstract concept created by a designer or a group of designers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火炬最初是一個抽象概念，由一位設計師或一組設計師創造出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His design laid a solid foundation for all future Olympic torches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的設計為所有後來的奧運火炬奠定了堅實基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 主要講現代火炬的設計過程和設計傳統。題目提到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“designed” 和 “Olympic Committee”，所以這段很可能藏有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“carefully designed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Olympic Committee”"
+            },
+            {
+              "kind": "quote",
+              "text": "“withstanding all kinds of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several design teams submit their proposals to the Olympic Committee in the hope of getting the chance to create the torch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個設計團隊會向 Olympic Committee 提交方案，希望得到設計火炬的機會。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the torch is completed, it must withstand all sorts of severe weather conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火炬完成後，必須能承受各種惡劣天氣條件。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “all kinds of” 對應原文 “all sorts of”。兩者意思相同，都是「各種」。"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“all sorts of severe weather conditions”"
+            },
+            {
+              "kind": "label",
+              "text": "題目已經有："
+            },
+            {
+              "kind": "quote",
+              "text": "“all kinds of ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格填： severe weather conditions這是三個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要只填 weather conditions。原文強調的是 severe，即惡劣天氣。題目說火炬要withstand，承受的自然是嚴峻環境，不只是一般天氣。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "aesthetic and practical",
+      "answerKey": "aesthetic and practical",
+      "type": "Summary Completion",
+      "prompt": "“Generally, the design of the modern Olympic torch has both 28 ______ value.”",
+      "translation": "一般來說，現代奧運火炬的設計同時具有 ______ 價值。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The torch begins as an abstract concept created by a designer or a group of designers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火炬最初是一個抽象概念，由一位設計師或一組設計師創造出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His design laid a solid foundation for all future Olympic torches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的設計為後來所有奧運火炬奠定了堅實基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講設計概念、設計團隊、Olympic Committee 和設計要求。題目問 design has both what value，自然要在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“design”"
+            },
+            {
+              "kind": "quote",
+              "text": "“modern Olympic torch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“both”"
+            },
+            {
+              "kind": "quote",
+              "text": "“value”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The winning group develops a design for a torch that has both aesthetic and practical value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "勝出的團隊會發展一個火炬設計，這個設計同時具有美學和實用價值。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的核心短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“both aesthetic and practical value”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給了 “both ______ value”，所以空格要填 value 前面的兩個形容詞： aesthetic and practical這裡 aesthetic 指美學上的、外觀上的；practical 指實用上的。火炬不只要好看，也要能在 relay中安全使用、抗風雨、保存火焰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要填 aesthetic and practical value。題目空格後已經有 “value”，如果把 value 也填進去，句子會變成 “value value”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "treasured souvenir",
+      "answerKey": "treasured souvenir",
+      "type": "Summary Completion",
+      "prompt": "“Each runner has an opportunity to purchase the torch as a 29 ______ at the end of his or her leg of the relay.”",
+      "translation": "每位跑手在完成自己那一段接力後，都有機會購買自己的火炬，作為一件 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The long journey to the Olympic host city is not completed by one single torch, but by thousands of them, so the torch has to be replicated many times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前往奧運主辦城市的漫長旅程不是由單一火炬完成，而是由成千上萬支火炬完成，所以火炬必須大量複製。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each runner can choose to buy his or her torch as a treasured souvenir when he or she finishes his or her part of the relay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每位跑手完成自己那一段接力後，可以選擇購買自己的火炬，作為珍貴紀念品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎直接改寫最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each runner”"
+            },
+            {
+              "kind": "quote",
+              "text": "“purchase”"
+            },
+            {
+              "kind": "quote",
+              "text": "“at the end of his or her leg”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each runner”"
+            },
+            {
+              "kind": "quote",
+              "text": "“buy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“when he or she finishes his or her part of the relay”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把： purchase = buy at the end of his or her leg = when he or she finishes his or her part"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each runner can choose to buy his or her torch as a treasured souvenir…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每位跑手可以選擇購買自己的火炬，作為珍貴紀念品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案就是： treasured souvenir這是兩個詞，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要填 torch。題目已經說 purchase the torch，空格問的是火炬被買下後的身份，即souvenir。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "E — Munich Games torch (1972)",
+      "answerKey": "E — Munich Games torch (1972)",
+      "type": "Matching Olympic",
+      "prompt": "“first use of liquid fuel”",
+      "translation": "首次使用液體燃料。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To improve safety, liquid fuels made their first appearance at the 1972 Munich Games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了提高安全性，液體燃料在 1972 年慕尼黑奧運首次出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once it makes its way through the openings, the pressure decreases and the liquid becomes gas so it can burn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當燃料穿過這些開口後，壓力下降，液體變成氣體，於是可以燃燒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段一開始就直接提到 liquid fuels 和 first appearance。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“liquid fuel”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“liquid fuels made their first appearance at the 1972 Munich Games”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "first use = made their first appearance liquid fuel = liquid fuels 1972 Munich Games = E"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說液體燃料首次出現於 1972 Munich Games。選項列表中： E = Munich Games torch (1972)所以答案是 E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph 6 後面也提到 1996 torch 的 fuel tank 和 liquid fuel system，但題目問的是first use，第一句已經把時間鎖定為 1972。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "F — 1996 torch (Atlanta)",
+      "answerKey": "F — 1996 torch (Atlanta)",
+      "type": "Matching Olympic",
+      "prompt": "“not environmentally friendly”",
+      "translation": "不環保。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The torch in 1996 was fuelled by propylene, a type of substance that could produce a bright flame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年的火炬以 propylene 作燃料，這種物質可以產生明亮火焰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As fuel, they chose a combination of 35 per cent propane and 65 per cent butane, thus creating a powerful flame without generating much smoke.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為燃料，他們選擇 35% propane 和 65% butane 的組合，因此能產生強大火焰，又不會產生很多煙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段比較 1996 和 2000 火炬燃料：1996 有煙和環境問題；2000 改用較環保的燃料組合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“environmentally friendly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“detrimental to the environment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思是「對環境有害」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, since propylene was carbon-rich, it would produce plenty of smoke which was detrimental to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，由於 propylene 含碳量高，它會產生大量煙霧，這對環境有害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 the torch in 1996 的燃料 propylene。選項中： F = 1996 torch (Atlanta)所以答案是 F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 2000 torch 也在同一段出現。2000 的燃料 “without generating much smoke”，方向是較環保；題目問 not environmentally friendly，對應 1996。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — Berlin Games torch (1936)",
+      "answerKey": "B — Berlin Games torch (1936)",
+      "type": "Matching Olympic",
+      "prompt": "“first to record the runner’s name”",
+      "translation": "首次記錄跑手姓名。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first torch in the modern Olympics (the 1936 Berlin Games) was made from a slender steel rod with a circular platform at the top and a circular hole in the middle to emit a flame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代奧運的第一支火炬，即 1936 年柏林奧運火炬，由一條細長鋼棒製成，頂部有圓形平台，中間有一個圓孔用來冒出火焰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1956 Olympics, the torch in the final relay was ignited by magnesium and aluminium, but some flaming pieces fell off and seared the runner’s arms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1956 年奧運中，最後接力的火炬由鎂和鋁點燃，但一些燃燒碎片掉落，灼傷了跑手的手臂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中講早期火炬的材料、燃料和問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“runner’s name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“record”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The runner’s name was also inscribed on the platform as a token of thanks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "跑手的名字也被刻在平台上，以示感謝。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“inscribed” 指刻上、銘刻。題目的 “record the runner’s name” 改寫了原文的 “The runner’s name was also inscribed”。這個句子承接前一句，而前一句說的是：“The first torch in the modern Olympics (the 1936 Berlin Games)…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B — Berlin Games torch (1936)。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要只看 “runner” 一字。Paragraph 4 也反覆提到 runners，但沒有說名字被記錄。真正答案詞是 “inscribed”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "D — 1956 Games torch",
+      "answerKey": "D — 1956 Games torch",
+      "type": "Matching Olympic",
+      "prompt": "“potentially risky as it burnt the runner’s arms”",
+      "translation": "有潛在危險，因為它燒傷了跑手的手臂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first torch in the modern Olympics (the 1936 Berlin Games) was made from a slender steel rod with a circular platform at the top and a circular hole in the middle to emit a flame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代奧運第一支火炬，即 1936 年柏林奧運火炬，由細長鋼棒製成，頂部有圓形平台，中間有圓孔冒出火焰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1956 Olympics, the torch in the final relay was ignited by magnesium and aluminium, but some flaming pieces fell off and seared the runner’s arms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1956 年奧運中，最後接力的火炬由鎂和鋁點燃，但一些燃燒碎片掉落，灼傷了跑手的手臂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題答案直接在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“risky”"
+            },
+            {
+              "kind": "quote",
+              "text": "“burnt”"
+            },
+            {
+              "kind": "quote",
+              "text": "“runner’s arms”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“hazardous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flaming pieces fell off”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seared the runner’s arms”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1956 Olympics, the torch in the final relay was ignited by magnesium and aluminium, but some flaming pieces fell off and seared the runner’s arms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1956 年奧運中，最後接力的火炬由鎂和鋁點燃，但一些燃燒碎片掉下來，灼傷了跑手手臂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “burnt the runner’s arms” 對應原文 “seared the runner’s arms”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sear 是灼傷、燒傷的意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中： D = 1956 Games torch所以答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是前文提到 gunpowder、olive oil、hexamine、naphthalene 等燃料 “could be quite hazardous”。這些也有危險性，但題目加入了具體結果 “burnt the runner’s arms”，只有 1956 句子直接支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "H — 2002 torch (Salt Lake City)",
+      "answerKey": "H — 2002 torch (Salt Lake City)",
+      "type": "Matching Olympic",
+      "prompt": "“specially designed around a ‘Light’ theme”",
+      "translation": "圍繞 “Light” 主題特別設計。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As for the torch at the 2002 Olympics in Salt Lake City, the top section was made of glass in which the flame burned, to reflect that Olympics’ theme, ‘Light the Fire Within’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於 2002 年 Salt Lake City 奧運火炬，其頂部由玻璃製成，火焰在其中燃燒，以反映該屆奧運的主題 “Light the Fire Within”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This torch was of great significance for the design of subsequent torches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支火炬對後來火炬的設計具有重大意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段直接講 2002 torch 和 Light theme。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Light”"
+            },
+            {
+              "kind": "quote",
+              "text": "“theme”"
+            },
+            {
+              "kind": "quote",
+              "text": "“designed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“to reflect that Olympics’ theme, ‘Light the Fire Within’”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 2002 Salt Lake City torch 的 top section was made of glass，目的就是反映主題 “Light the Fire Within”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中： H = 2002 torch (Salt Lake City)所以答案是 H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “Light” 這個字和 flame / fire 很容易在全文多處聯想，但只有 Paragraph 9 明確把設計和 theme 連在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — 1952 Winter Games flame",
+      "answerKey": "C — 1952 Winter Games flame",
+      "type": "Matching Olympic",
+      "prompt": "“not lit in Greece”",
+      "translation": "沒有在希臘點燃。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reintroduction of the Olympic flame occurred at the Amsterdam 1928 Games, for which a cauldron was lit, though there was no torch relay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奧運聖火在 1928 年阿姆斯特丹奧運重新引入，當時點燃了一個聖火盆，不過沒有火炬接力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was not until the 1964 Winter Olympics in Innsbruck, Austria, that the Olympic flame was reignited at Olympia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 1964 年奧地利 Innsbruck 冬季奧運，奧運聖火才重新在 Olympia 點燃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 flame / relay 的現代歷史。題目問 not lit in Greece，很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not lit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Greece”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in that year the torch was lit not in Olympia, Greece, but in Norway…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在那一年，火炬不是在希臘 Olympia 點燃，而是在挪威點燃。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "要理解 “that year” 指哪一年。前一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1936 Berlin Summer Games featured the first Olympic torch relay, which was not introduced at the Winter Olympics until 1952.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1936 年柏林夏季奧運首次出現奧運火炬接力；直到 1952 年，冬季奧運才引入火炬接力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 “that year” 指 1952。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文再說 1952 年火炬在 Norway 點燃，因為 Norway 被視為 skiing 的 birthplace。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中： C = 1952 Winter Games flame所以答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 1964 Winter Olympics 也在同段出現，但 1964 的資訊剛好相反：它是 Olympic flame was reignited at Olympia。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "tiny fuel tank",
+      "answerKey": "tiny fuel tank",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 36",
+      "translation": "由鋁製底座包覆／容納的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中標籤："
+            },
+            {
+              "kind": "quote",
+              "text": "“36 ______ coated by an aluminium base”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To improve safety, liquid fuels made their first appearance at the 1972 Munich Games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了提高安全性，液體燃料在 1972 年慕尼黑奧運首次出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once it makes its way through the openings, the pressure decreases and the liquid becomes gas so it can burn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當燃料穿過這些開口後，壓力下降，液體變成氣體，於是可以燃燒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門講液體燃料如何在火炬內運作。圖中第 36 題指向最下方藍色燃料容器，因此要找 fuel tank 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中第 36 題在底部，箭嘴指向藍色容器。旁邊寫著 “aluminium base”。所以掃描時要找："
+            },
+            {
+              "kind": "quote",
+              "text": "“aluminium base”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fuel tank”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The torch at the 1996 Atlanta Summer Olympics was equipped with an aluminium base that accommodated a tiny fuel tank.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年 Atlanta 夏季奧運火炬配備了一個鋁製底座，裡面容納了一個小型燃料罐。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的關鍵名詞短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a tiny fuel tank”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前沒有冠詞，圖上描述的是被 aluminium base 包覆／容納的物件，所以答案填： tiny fuel tank這是三個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要填 aluminium base。圖上已經把 aluminium base 寫出來，空格問的是底座內的物件，即 fuel tank。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "openings",
+      "answerKey": "openings",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 37",
+      "translation": "一個有許多小型 ______ 的黃銅閥門。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中標籤："
+            },
+            {
+              "kind": "quote",
+              "text": "“A brass valve with many small 37 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To improve safety, liquid fuels made their first appearance at the 1972 Munich Games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了提高安全性，液體燃料在 1972 年慕尼黑奧運首次出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once it makes its way through the openings, the pressure decreases and the liquid becomes gas so it can burn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當燃料穿過這些開口後，壓力下降，液體變成氣體，於是可以燃燒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段最後一句已經出現 openings，圖中第 37 題也直接指向 valve 的小孔位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "圖中定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“brass valve”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many small”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the fuel rises through the modified handle, it is squeezed through a brass valve that has thousands of little openings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當燃料通過改良過的手柄向上升時，它會被擠壓通過一個黃銅閥門；這個閥門有成千上萬個小開口。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“thousands of little openings”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖上已經有 “many small”，這其實改寫了 “thousands of little”。所以空格只需要填名詞： openings填入後句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“A brass valve with many small openings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個有許多小孔的黃銅閥門。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要填 little openings。雖然這是原文短語，但圖中已經有 “small”，如果填 little openings，語意會重複。答案詞應配合圖上的文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "handle",
+      "answerKey": "handle",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 38",
+      "translation": "加壓燃料從改良過的 ______ 向上升。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中標籤："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pressurised fuel rises from the improved 38 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To improve safety, liquid fuels made their first appearance at the 1972 Munich Games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了提高安全性，液體燃料在 1972 年慕尼黑奧運首次出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once it makes its way through the openings, the pressure decreases and the liquid becomes gas so it can burn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當燃料穿過這些開口後，壓力下降，液體變成氣體，於是可以燃燒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段描述燃料由 fuel tank 向上，經過 handle，再進入 brass valve。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "圖中定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fuel rises”"
+            },
+            {
+              "kind": "quote",
+              "text": "“improved”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the fuel rises through the modified handle, it is squeezed through a brass valve…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當燃料通過改良過的手柄向上升時，它會被擠壓通過黃銅閥門。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目用："
+            },
+            {
+              "kind": "quote",
+              "text": "“improved”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用："
+            },
+            {
+              "kind": "quote",
+              "text": "“modified”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者在這裡意思接近，都指手柄經過改良或修改。"
+            },
+            {
+              "kind": "label",
+              "text": "題目已有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the improved 38 ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格只需填名詞： handle如果填 “modified handle”，圖中文字會變成 “the improved modified handle”，文法上不自然。因此答案是 handle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是圖上也標了 “Thin fuel pipe”。可是原文說 fuel rises through the modified handle，不是through the thin fuel pipe。這題看圖時要留意箭嘴位置和原文順序。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "propane and butane",
+      "answerKey": "propane and butane",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 39",
+      "translation": "液體燃料。在 2000 年，它是 ______ 的混合物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中標籤："
+            },
+            {
+              "kind": "quote",
+              "text": "“The liquid fuel. In 2000, it was a mixture of 39 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The torch in 1996 was fuelled by propylene, a type of substance that could produce a bright flame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1996 年的火炬以 propylene 作燃料，這種物質可以產生明亮火焰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As fuel, they chose a combination of 35 per cent propane and 65 per cent butane, thus creating a powerful flame without generating much smoke.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為燃料，他們選擇 35% propane 和 65% butane 的組合，因此產生強大火焰，同時不會產生很多煙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目明確說 “In 2000”，所以要看 Paragraph 7 中 Sydney 2000 torch 的燃料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“2000”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mixture”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2000, the designers of the Sydney Olympic torch…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a combination of 35 per cent propane and 65 per cent butane”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mixture = combination"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文完整說法："
+            },
+            {
+              "kind": "quote",
+              "text": "“a combination of 35 per cent propane and 65 per cent butane”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求 NO MORE THAN THREE WORDS，不能填整個百分比長句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最合適答案是： propane and butane這剛好三個詞，完整指出混合物的兩種成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要填 propylene。1996 用的是 propylene；2000 改用 propane + butane，以減少煙霧和環境傷害。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "a flame",
+      "answerKey": "a flame",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 40",
+      "translation": "燃燒系統產生 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中標籤："
+            },
+            {
+              "kind": "quote",
+              "text": "“Burning system produces 40 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To improve safety, liquid fuels made their first appearance at the 1972 Munich Games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了提高安全性，液體燃料在 1972 年慕尼黑奧運首次出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once it makes its way through the openings, the pressure decreases and the liquid becomes gas so it can burn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當燃料穿過這些開口後，壓力下降，液體變成氣體，於是可以燃燒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段解釋燃料如何由液體變成氣體並燃燒。圖中第 40 題位於最上方，指向火焰位置，所以要找produce / flame 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "圖中定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Burning system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produces”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the fuels are burnt, they turn into gas to produce a flame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "燃料燃燒時會變成氣體，從而產生火焰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a flame”"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Burning system produces 40 ______”"
+            },
+            {
+              "kind": "label",
+              "text": "填入後是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Burning system produces a flame.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "燃燒系統產生火焰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 a flame。如果答案表只保留核心名詞，有時也會寫 flame；但最貼近原文短語的是 a flame。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph 7 有 “a powerful flame”，Paragraph 8 有 “dual-flame system”。不過圖上這格只問燃燒系統產生甚麼，最直接證據是 Paragraph 6 的 “produce a flame”。“powerful flame” 是2000 fuel 的效果描述；“dual-flame system” 是後面解釋兩層火焰如何保持燃燒，範圍更專門。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Olympic Torch.pdf",
+    "sha256": "3d3e5c095d451968e58ceb31e348e3a83d8262db3fcc311a43ec91a8930e7e3b",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "功能：介紹古希臘奧運聖火的起源。重點內容包括 776 BC、Olympia、opening ceremony、cauldron、altar、Hera。這段主要交代火焰作為儀式的歷史背景，和後面的現代 torch relay 作對比。"
+      },
+      {
+        "number": "2",
+        "summary": "功能：交代 Olympic flame 和 torch relay 在現代奧運中的重新引入。重點年份包括 1928 Amsterdam、1936 Berlin、1952 Winter Olympics、1964 Innsbruck。 Questions 35 會定位到這段，因為它問哪一次 flame not lit in Greece。"
+      },
+      {
+        "number": "3",
+        "summary": "功能：說明現代火炬的設計流程和設計要求。重點包括 designer、design teams、Olympic Committee、aesthetic and practical value、severe weather conditions、John Hench。Questions 27–28 會定位到這段。"
+      },
+      {
+        "number": "4",
+        "summary": "功能：說明火炬需要大量複製，因為 relay 由大量跑手完成。重點包括 thousands of torches、10,000 to 15,000 torches、runners、treasured souvenir。 Question 29 會定位到這段。"
+      },
+      {
+        "number": "5",
+        "summary": "功能：介紹早期現代火炬和燃料問題。重點包括 1936 Berlin torch、steel rod、runner’s name、gunpowder、olive oil、hexamine、naphthalene、1956 magnesium and aluminium、runner’s arms。Questions 32–33 會定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "功能：解釋液體燃料如何提高安全性，以及 1996 Atlanta torch 的燃料運作結構。重點包括 1972 Munich Games、liquid fuels、pressurised into liquid form、tiny fuel tank、modified handle、brass valve、little openings、pressure、gas、burn。Questions 30、36、37、38、40 主要來自這段。"
+      },
+      {
+        "number": "7",
+        "summary": "功能：比較 1996 和 2000 火炬燃料的環境影響。重點包括 1996 propylene、carbon-rich、plenty of smoke、detrimental to the environment、2000 Sydney torch、35 per cent propane、65 per cent butane、powerful flame、without much smoke。Questions 31 和 39 會定位到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "功能：解釋 1996 和 2000 火炬的 dual-flame system。重點包括 exterior flame、interior flame、pilot light、relight the external flame、severe weather conditions。這段有助理解圖中上方 flame system，但 Question 40 的答案更直接來自 Paragraph 6 的 “produce a flame”。"
+      },
+      {
+        "number": "9",
+        "summary": "功能：介紹 2002 Salt Lake City torch 的設計和主題。重點包括 glass top section、flame burned、theme “Light the Fire Within”、significance for subsequent torches。Question 34 會定位到這段。"
+      }
+    ]
+  }
+}

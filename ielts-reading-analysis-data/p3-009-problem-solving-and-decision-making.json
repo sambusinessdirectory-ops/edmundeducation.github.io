@@ -1,0 +1,1938 @@
+{
+  "id": "p3-009-problem-solving-and-decision-making",
+  "catalogueId": "p3-009",
+  "catalogueIds": [
+    "p3-009"
+  ],
+  "passage": 3,
+  "title": "PROBLEM SOLVING AND DECISION MAKING",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "E",
+    "A",
+    "B",
+    "A",
+    "C",
+    "D",
+    "B",
+    "programming",
+    "true",
+    "feelings",
+    "mood",
+    "NOT GIVEN",
+    "NO",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "E — John Tate",
+      "answerKey": "E — John Tate",
+      "type": "Question Analysis",
+      "prompt": "A successful solution can only be found when there is a clear corporate structure for decision making.",
+      "translation": "只有在決策有清楚企業架構時，才可能找到成功的解決方案。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是 clear corporate structure。看到 structure、responsibility、decision making 這類字，要優先找文章中談「組織架構」和「責任歸屬」的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some, however, the more psycho-analytical approach to problem solving has little place in a business decision – a point of view held by John Tate, former CEO of Allied Enterprise and Shipping, who believes the secret behind a solid decision is more mechanical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，有些人認為較偏心理分析的解難方法在商業決策中作用有限；Allied Enterprise and Shipping 前行政總裁 John Tate 就持這種看法，他認為穩健決策背後的祕訣更偏向機械化流程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From his point of view, a flawed decision is not one that did not work, but one that was decided on by too many people leaving no single person with sufficient accountability to ensure its success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，有問題的決策不單是最後沒有效果的決策；真正有問題的是由太多人共同決定，以致沒有單一人士有足夠問責性去確保它成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段在講 John Tate 的管理觀：他不重視心理分析，較重視程序、架構、責任和問責。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● successful solution● clear corporate structure● decision making原文中最貼近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a hierarchical structure that then takes responsibility for the decision”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個能為決策承擔責任的層級架構。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "clear corporate structure 對應 hierarchical structure； successful solution 對應 verify whether the problem has indeed been resolved 和 ensure its success。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tate argues that a decision should be made after a consideration of all alternatives, and a hierarchical structure that then takes responsibility for the decision and, most importantly, follows that decision through to verify whether the problem has indeed been resolved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tate 認為，決策應在考慮所有替代方案之後作出，並且要有一個層級架構為該決策承擔責任；最重要的是，這個架構要跟進該決策，以核實問題是否真的已經解決。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句清楚有三個步驟： 1. consideration of all alternatives：先考慮所有可行選項； 2. hierarchical structure：有清楚層級架構； 3. takes responsibility / follows through / verify：負責任、跟進、檢查問題是否已解決。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說「成功解決方案需要清楚企業決策架構」，正是把 Tate 的 hierarchical structure +accountability + follow-through 概括成一句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文clear corporate hierarchical structure structure successful solution verify whether the problem has indeed been resolved / ensure its success decision making a decision should be made responsibility for accountability to ensure its success success"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選的是 D Anne Wicks，因為她也提出一個 “ladder”，看起來像 structure。不過 Wicks的 ladder 是心理過濾層次：programming、beliefs、feelings、attitudes、actions。題目問的是corporate structure for decision making，即企業內部決策和責任架構，所以應選 John Tate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — Marie Scrive",
+      "answerKey": "A — Marie Scrive",
+      "type": "Question Analysis",
+      "prompt": "Decisions made without full consideration of the details are a potential by-product of pressure.",
+      "translation": "在壓力之下，管理者可能未充分考慮細節便作決定。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是 pressure 和 decisions made without full consideration。看到 pressure，應直接回到 Marie Scrive 的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie Scrive, senior lecturer at Carling University, argues that poor management skills can be identified in many arenas, but few are perhaps as illustrative as the ability to make accurate judgements about a course of action to overcome an obstacle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Carling University 高級講師 Marie Scrive 認為，差劣管理能力可以在很多場合被看出來，但其中最能說明問題的，也許就是管理者能否對克服障礙的行動方案作出準確判斷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He advocates a system whereby the problem must be clearly defined before the appropriate course of action can be decided upon, and this is achieved by applying questions to the problem itself: why is this happening? When is this happening? With whom is this happening?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他主張一套制度：在決定適當行動方案前，必須先清楚界定問題；這可以透過向問題本身提出問題來做到：為甚麼會發生？何時發生？和誰有關？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段包含兩位學者：前半是 Marie Scrive，後半是 Martin Hewings。題目講 pressure，答案多數在前半 Marie 的部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● pressure● without full consideration● by-product● decisions原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pressure from other managers, senior staff or even employees can cause those in middle management to make decisions based quickly, reacting at speed to a problem that would have been better solved by a calmer, more inclusive style of management…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自其他經理、高級職員甚至員工的壓力，可能令中層管理人員快速作出決定，以高速回應一個本來更適合用冷靜、較具包容性的管理方式去處理的問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句的主語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pressure from other managers, senior staff or even employees”"
+            },
+            {
+              "kind": "label",
+              "text": "核心動詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“can cause”"
+            },
+            {
+              "kind": "label",
+              "text": "結果是："
+            },
+            {
+              "kind": "quote",
+              "text": "“make decisions … quickly, reacting at speed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以原文的邏輯是：壓力→ 令中層管理者快速決策→ 問題本來應該用更冷靜、更包容的方式處理→ 快速反應可能導致考慮不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 without full consideration of the details 不是原文逐字出現，但它合理概括了"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“decisions made quickly” 和 “reacting at speed” 的問題。尤其原文說這些問題 “would have been better solved by a calmer, more inclusive style of management”，即如果處理得更冷靜、更多人參與，效果會較好。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文pressure Pressure from other managers, senior staff or even employees by-product can cause without full consideration make decisions quickly / reacting at speed full consideration of details calmer, more inclusive style of management"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "容易誤選 B Martin Hewings，因為 Hewings 也談「沒有清楚界定問題」。可是題目明確有pressure，這個字只出現在 Marie Scrive 的論述中。Hewings 關心的是 problem definition；Marie關心的是 pressure-driven quick decisions。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — Martin Hewings",
+      "answerKey": "B — Martin Hewings",
+      "type": "Question Analysis",
+      "prompt": "Decision making that does not look into motives for the issue is the primary reason for continued problems.",
+      "translation": "決策如果沒有探究問題背後的原因，就會成為問題持續出現的主要原因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要抓住兩組訊號：motives for the issue 和 continued problems。它不是單純問誰談「問題」，而是問誰認為重複出現的問題源於沒有真正看清問題本質。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie Scrive, senior lecturer at Carling University, argues that poor management skills can be identified in many arenas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marie Scrive 認為，差劣管理能力可在很多場合被識別出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He advocates a system whereby the problem must be clearly defined before the appropriate course of action can be decided upon…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他主張一套制度：在決定適當行動方案之前，必須先清楚界定問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段前半講 Marie 的快速決策問題；後半由 “However, Martin Hewings…” 轉入另一個角度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 講 “continued problems”，正好對應 Hewings 論及 repetitive problems。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● motives● primary reason● continued problems● does not look into原文最重要的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“His argument is that most repetitive problems are actually not permanently resolved because of a lack of focus as to the true nature of the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的論點是，大多數反覆出現的問題其實沒有被永久解決，原因是人們沒有把焦點放在問題的真正本質上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心結構是：● most repetitive problems：大多數反覆出現的問題；● not permanently resolved：沒有被永久解決；● because of：原因是；● a lack of focus as to the true nature of the problem：缺乏對問題真正本質的關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 continued problems 對應原文 repetitive problems / not permanently resolved。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 look into motives for the issue 對應原文後面的問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“why is this happening? When is this happening? With whom is this happening?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼會發生？何時發生？和誰有關？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中 why is this happening? 就是探究問題原因或動機的問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文continued problems repetitive problems / not permanently resolved does not look into motives lack of focus as to the true nature / why is this happening primary reason because of decision making appropriate course of action"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "容易誤選 C Garen Filke，因為 Filke 也講 lasting solution，而且原文有 “main reason”。可是 Filke的重點是不要把焦點放在 “who is causing the problem”，避免指責文化。Question 29 的重點是探究問題本質和原因，尤其是 “why is this happening?”，這是 Martin Hewings 的系統。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — Marie Scrive",
+      "answerKey": "A — Marie Scrive",
+      "type": "Question Analysis",
+      "prompt": "Poor decision making is the most easily identified form of weak managerial ability.",
+      "translation": "差劣決策是最容易看出管理能力不足的一種表現。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是 poor managerial ability 和 decision making / judgement 之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie Scrive, senior lecturer at Carling University, argues that poor management skills can be identified in many arenas, but few are perhaps as illustrative as the ability to make accurate judgements about a course of action to overcome an obstacle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Carling University 高級講師 Marie Scrive 認為，差劣管理能力可以在很多場合被看出來，但其中最能說明問題的，也許就是管理者能否對克服障礙的行動方案作出準確判斷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He advocates a system whereby the problem must be clearly defined before the appropriate course of action can be decided upon…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他主張在決定適當行動方案前，問題必須先被清楚界定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然整段後半轉到 Hewings，但題目中的 poor management skills 直接回到 Marie Scrive 的第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Poor decision making● weak managerial ability● most easily identified原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“poor management skills can be identified in many arenas”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "差劣管理能力可在很多場合被看出來。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“few are perhaps as illustrative as the ability to make accurate judgements…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很少有其他方面像「能否作出準確判斷」那樣能說明問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字說 “most easily identified”，但 few are perhaps as illustrative as 的意思是：很少有東西比這更能清楚顯示管理能力問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這句概括成： Poor decision making is the most easily identified form of weak managerial ability.這裡的 poor decision making 對應原文反面意思：無法 make accurate judgements about a course of action。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "weak managerial ability 對應 poor management skills。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文poor decision making inability to make accurate judgements weak managerial ability poor management skills most easily identified few are perhaps as illustrative as form / example arena / illustrative example"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "容易誤選 E John Tate，因為他也提到 flawed decision。不過 Tate 的重點是責任歸屬和問責，不是「差劣管理能力最容易如何被識別」。題目語言最貼近 Marie 的第一句，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — Garen Filke",
+      "answerKey": "C — Garen Filke",
+      "type": "Question Analysis",
+      "prompt": "Seeking a staff member on whom responsibility can be placed can have negative effects.",
+      "translation": "尋找某個可以歸責的員工，可能帶來負面影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是 seeking a staff member on whom responsibility can be placed，也就是找人負責、找人承擔錯誤。文章中這個概念出現在 Garen Filke 對 blame / finger-pointing 的批評。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Garen Filke, Managing Director of a large paper supply company, has put Hewings’ steps to the test…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型紙張供應公司董事總經理 Garen Filke 曾把 Hewings 的步驟付諸測試。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finger-pointing and blaming leads to an uncomfortable work environment where problems grow, and ultimately have a detrimental effect on the productivity of the workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "互相指責和怪罪會造成令人不舒服的工作環境，問題會在其中惡化，最終對工作場所的生產力造成有害影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示：這段先評價 Hewings 方法，接着指出把焦點放在「誰有錯」會造成負面後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● staff member● responsibility can be placed● negative effects原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the focus on who is causing the problem”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把焦點放在誰造成問題。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finger-pointing and blaming…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "互相指責和怪罪。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“there remains the feeling that the focus on who is causing the problem, and this in itself is the main reason for any implemented solution to falter if not fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過仍有一種看法認為，把焦點放在誰造成問題，這件事本身就是任何已實行解決方案動搖甚至失敗的主要原因。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finger-pointing and blaming leads to an uncomfortable work environment where problems grow…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "互相指責和怪罪會導致不舒服的工作環境，使問題惡化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “seeking a staff member on whom responsibility can be placed” 是對 focus on who is causing the problem / finger-pointing / blaming 的概括。它不是正面的 accountability，而是找人怪罪。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文seeking a staff member focus on who is causing the problem responsibility can be who may be at fault placed negative effects solution to falter / fail; uncomfortable work environment; detrimental effect workplace consequence problems grow / productivity harmed"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 E John Tate，因為 Tate 也談 responsibility 和 accountability。但兩人方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Tate 主張清楚問責能確保成功；Garen Filke 批評找人怪罪會破壞工作環境。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“negative effects” 與 Filke 的 finger-pointing and blaming 完全吻合，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — Anne Wicks",
+      "answerKey": "D — Anne Wicks",
+      "type": "Question Analysis",
+      "prompt": "Decision making abilities are at least partly formulated long before they have any business application.",
+      "translation": "人在商業場合使用決策能力之前，這些能力至少已有部分在很早以前形成。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是 long before 和 formulated。看到「很早以前形成」，要找 Anne Wicks 的 filters，尤其是 programming。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anne Wicks believes that our problem solving abilities are first run through five distinct filters, and that good managers are those that can negotiate these filters to arrive at an unbiased, logical and clear solution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Anne Wicks 認為，我們的解難能力首先會經過五個不同的過濾器；好的管理者能夠穿過這些過濾器，得出不偏不倚、合乎邏輯而清晰的解決方案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A combination of all these steps on the ladder culminate in our actions – what we choose to do or not do – and this is the step that most directly controls the success or failure of the decision making process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條階梯上的所有步驟合起來，最後會形成我們的行動，也就是我們選擇做或不做的事；這一步最直接控制決策過程的成敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段完整講 Anne Wicks 的決策心理階梯，由早期 programming 到最後 actions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● long before● formulated● decision making abilities● business application原文中最強對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first step being programming – from the day we are born, there is an amount of conditioning that means we accept or reject certain points of view, almost a reflex action.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一步是 programming；從我們出生那天開始，就有某種程度的制約，使我們幾乎像反射動作一樣接受或拒絕某些觀點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 from the day we are born 是答案核心。題目說 long before business application，原文說從出生開始已有 conditioning。這明確表示，決策和解難能力不是到了商業環境才形成；早在出生後的成長過程中，人已經逐步建立反應模式。"
+            },
+            {
+              "kind": "label",
+              "text": "Wicks 還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Programming will of course vary from person to person, but is often more marked when comparing nationalities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Programming 當然因人而異，但在比較不同國籍的人時，這種差異往往更明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這補充了題目中 “formulated” 的意思：人的反應方式會受長期背景、文化和成長環境塑造。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文decision making abilities problem solving abilities / decision making process formulated conditioning / programming long before business from the day we are born application at least partly first run through five distinct filters"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "容易誤看 Paragraph 1，因為它提到近年在 tertiary level 教 problem solving and decision making。不過那是學術研究和教學背景；Question 32 問的是能力如何早早形成。答案在 Anne Wicks 的 programming from the day we are born，所以選 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — Martin Hewings",
+      "answerKey": "B — Martin Hewings",
+      "type": "Question Analysis",
+      "prompt": "Long term solutions can only be found by asking the right questions.",
+      "translation": "長遠解決方案只能透過提出正確問題來找到。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的兩個核心是 long term solutions 和 asking the right questions。文章中真正提出問題系統的人是 Martin Hewings。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marie Scrive… argues that poor management skills can be identified in many arenas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Marie Scrive 認為差劣管理能力可以在很多場合被識別出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He advocates a system whereby the problem must be clearly defined before the appropriate course of action can be decided upon, and this is achieved by applying questions to the problem itself: why is this happening? When is this happening? With whom is this happening?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他主張一套制度：在決定適當行動方案前，必須先清楚界定問題；這可以透過向問題本身提出問題來做到：為甚麼會發生？何時發生？和誰有關？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接出現 “applying questions”，所以定位非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● long term solutions● asking● questions原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“most repetitive problems are actually not permanently resolved because of a lack of focus as to the true nature of the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數反覆出現的問題其實沒有被永久解決，原因是缺乏對問題真正本質的關注。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“this is achieved by applying questions to the problem itself…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以透過向問題本身提出問題來做到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martin Hewings 的邏輯是： 1. 問題反覆出現，因為它沒有被永久解決； 2. 沒有被永久解決，原因是沒有看清問題真正本質； 3. 要看清問題本質，必須先清楚界定問題； 4. 清楚界定問題的方法，就是向問題提出 why / when / with whom。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 long term solutions 對應原文的 permanently resolved。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 asking the right questions 對應原文的 applying questions to the problem itself。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文long term solutions permanently resolved asking the right applying questions to the problem itself questions found achieved right questions why / when / with whom solution before action problem must be clearly defined before course of action"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "容易誤選 C Garen Filke，因為他也提到 lasting solution。但 Filke 的方法是避免把問題變成找人負責；Martin Hewings 的方法才是用問題去清楚界定問題本質。題目中的 “asking the right questions” 決定答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "四、Questions 34–37：Flowchart Completion這組題來自 Paragraph 4 Anne Wicks 的 ladder。題目要求 ONE WORD ONLY，所以答案必須是文章中的單字，不能改寫成自己的說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文順序是： programming → beliefs → feelings → attitudes → actions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "programming",
+      "answerKey": "programming",
+      "type": "Question Analysis",
+      "prompt": "Question 34",
+      "translation": "被制約去作出反應；常受出生地影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： conditioned to react; often influenced by place of birth"
+            },
+            {
+              "kind": "label",
+              "text": "定位原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wicks has built the filters into a ladder through which all decisions have the potential to be coloured, the first step being programming – from the day we are born, there is an amount of conditioning that means we accept or reject certain points of view, almost a reflex action.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wicks 把這些過濾器建成一條階梯；所有決策都有可能經過這條階梯而被染上個人色彩。第一步是 programming；從我們出生那天開始，就有某種制約，使我們幾乎像反射動作一樣接受或拒絕某些觀點。"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 conditioned to react 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“conditioning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“almost a reflex action”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 often influenced by place of birth 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“often more marked when comparing nationalities”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較不同國籍時，這種差異通常更加明顯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷空格是 ladder 的最底層，原文說 first step being programming。答案符合 ONE WORD ONLY。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "true",
+      "answerKey": "true",
+      "type": "Question Analysis",
+      "prompt": "Question 35",
+      "translation": "信念可能只是個人持有的看法，未必普遍為真。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： BELIEFS possibly only personally held beliefs, not necessarily universally 35 ______"
+            },
+            {
+              "kind": "label",
+              "text": "定位原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our programming is the base of our character, but this is then built on our beliefs, remembering that for someone to believe something does not necessarily mean it is true.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的 programming 是性格的基礎，而這之上建立的是我們的 beliefs；要記住，一個人相信某件事，並不代表那件事就是真的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀空格文法"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前面是： not necessarily universally ______這裡需要一個形容詞，表示「未必普遍真實」。原文提供的單字是： true所以答案應填 true。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文personally held beliefs for someone to believe something not necessarily universally true does not necessarily mean it is true beliefs beliefs"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "feelings",
+      "answerKey": "feelings",
+      "type": "Question Analysis",
+      "prompt": "Question 36",
+      "translation": "在對他人作出反應時，可能導致複雜問題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： could lead to complications when reacting to others"
+            },
+            {
+              "kind": "label",
+              "text": "定位原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“So having built from programming to belief, Wicks argues that next on the ladder are our feelings – how we personally react to an issue will skew how we look at solving it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，從 programming 到 belief 之後，Wicks 認為階梯下一層是 feelings；我們個人如何對某個問題作反應，會扭曲我們看待解決方法的方式。"
+            },
+            {
+              "kind": "label",
+              "text": "接着原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you feel that someone involved is being unfair or unreasonable, then a solution could over-compensate for this, which of course would not be effective in the long run.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你覺得某個相關人士不公平或不合理，那麼解決方案可能會因此過度補償；長遠來看，這當然不會有效。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀空格文法"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一格位於 beliefs 之上、attitudes 之下。原文 ladder 的順序是： programming → beliefs → feelings → attitudes → actions所以空格 36 應填 feelings。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文reacting to others how we personally react to an issue complications skew how we look at solving it / over-compensate when reacting to someone involved is being unfair or others unreasonable"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：feelings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "mood",
+      "answerKey": "mood",
+      "type": "Question Analysis",
+      "prompt": "Question 37",
+      "translation": "態度可以是短期的，與某一刻的心情有關。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： ATTITUDES can be short term and relate to 37 ______ at a particular time"
+            },
+            {
+              "kind": "label",
+              "text": "定位原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This has the potential to impact on the next step – our attitudes. This involves not only those attitudes that are resistant to change, but also the daily modifications in how we feel – our mood.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能影響下一步，也就是我們的 attitudes。這不只包括那些抗拒改變的態度，也包括我們每天感受上的變化，也就是 mood。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀空格文法"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說： relate to ______ at a particular time需要一個名詞，表示某一刻的情緒狀態。原文直接給出： our mood由於題目要求 ONE WORD ONLY，所以填 mood，不用寫 our mood。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文short term daily modifications relate to … at a particular time how we feel mood mood"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：mood"
+            },
+            {
+              "kind": "paragraph",
+              "text": "五、Questions 38–40：YES / NO / NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "It is only in recent years that the mental processes behind decision making have been studied.",
+      "translation": "決策背後的心理過程只是在近年才開始被研究。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心 only。題目不只是說近年有人研究，而是說「只有近年才研究」，暗示過去沒有研究。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the business world, much as in life in general, there are challenges that need to be faced, problems that need solutions and decisions that need to be made and acted upon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在商業世界中，正如一般人生一樣，人們需要面對挑戰、解決問題，並作出和執行決定。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over recent years, the psychology behind problem solving and decision making in a business context has been analysed and taught at a tertiary level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年來，商業語境中解難和決策背後的心理學已經被分析，並在高等教育層面教授。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段只是交代研究和教學近年變得明顯，並沒有講研究歷史的起點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● only● recent years● mental processes● decision making● studied原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over recent years…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the psychology behind problem solving and decision making…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“has been analysed and taught…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字和題目很接近，但真正控制答案的是 only。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀原文支援到哪一步"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支持的是：● 近年來，商業決策背後的心理學受到分析；● 這個範疇也在 tertiary level 被教授。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供：● 這些心理過程在近年以前完全沒有人研究；● 研究是近年才開始；● 一般 mental processes behind decision making 的研究歷史；● business context 以外的決策心理研究情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “only in recent years”，多了一個排他限制。原文的 “Over recent years” 只是時間背景，沒有排除更早研究的可能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷這題應選 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章提供了「近年有研究和教學」這項資料，但沒有足夠證據判斷「近年以前沒有研究」。也沒有相反句明確說以前已研究，所以不能選 NO。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求 原文有沒有？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "recent years 有：Over recent years decision making psychology 有：psychology behind problem solving and decision making studied / analysed 有：analysed only in recent years 沒有before recent years no 沒有study"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是看到 Over recent years 就立刻選 YES。IELTS Reading 裡，only 是高風險限制詞。原文說「近年發生 X」，不等於「只有近年才有 X」。這題缺少研究歷史起點，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "Garen Filke completely disagrees with the conclusion drawn by Martin Hewings.",
+      "translation": "Garen Filke 完全不同意 Martin Hewings 得出的結論。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題核心是 completely disagrees。要判斷 Garen Filke 是完全否定 Hewings，還是只對某部分提出保留。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Garen Filke, Managing Director of a large paper supply company, has put Hewings’ steps to the test, and although he referred to the results as ‘potentially encouraging’, there remains the feeling that the focus on who is causing the problem, and this in itself is the main reason for any implemented solution to falter if not fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型紙張供應公司董事總經理 Garen Filke 曾測試 Hewings 的步驟；雖然他把結果稱為「有潛在鼓舞作用」，但仍有一種看法認為，將焦點放在誰造成問題，本身就是任何已實行解決方案動搖甚至失敗的主要原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finger-pointing and blaming leads to an uncomfortable work environment where problems grow, and ultimately have a detrimental effect on the productivity of the workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "互相指責和怪罪會造成令人不舒服的工作環境，使問題惡化，最終損害工作場所的生產力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經顯示 Filke 對 Hewings 的方法不是全面否定，因為他稱結果 “potentially encouraging”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Garen Filke● completely disagrees● Martin Hewings● conclusion原文相關詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“has put Hewings’ steps to the test”"
+            },
+            {
+              "kind": "quote",
+              "text": "“‘potentially encouraging’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“there remains the feeling…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞顯示 Filke 對 Hewings 的步驟有測試和評價，也有保留。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文最關鍵的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“although he referred to the results as ‘potentially encouraging’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然他把結果稱為「有潛在鼓舞作用」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Filke completely disagreed，原文通常會出現 fully rejected、entirely disagreed、dismissed、found no value 等意思。但這裡他承認結果有鼓舞性，只是之後指出一個問題：Hewings 的方法涉及 “with whom is this happening?”，容易把焦點帶到誰造成問題，從而引發 blame。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Filke 的態度是：● 測試過 Hewings 的方法；● 承認結果有潛在價值；● 批評其中把焦點放在人身責任的風險；● 主張要看 problem as an organic entity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不符合 completely disagrees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了與題目相反的訊號：Filke 並沒有完全否定 Hewings；他說結果 “potentially encouraging”，只是批評其中一個焦點可能導致失敗。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文completely disagrees “potentially encouraging” 顯示並非完全反對conclusion drawn by Hewings Hewings’ steps total rejection partial concern about focus on who"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被 “main reason for any implemented solution to falter if not fail” 誤導。Filke 的批評語氣很強，但強烈批評某一部分，不等於完全不同意整套方法。真正控制答案的是 completely，而原文的 potentially encouraging 直接削弱這個絕對說法，所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "John Tate believes that successful decision making is not related to psychology.",
+      "translation": "John Tate 認為成功決策與心理學關係不大。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要定位 John Tate，並判斷他是否把成功決策和心理分析分開處理。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some, however, the more psycho-analytical approach to problem solving has little place in a business decision – a point of view held by John Tate, former CEO of Allied Enterprise and Shipping, who believes the secret behind a solid decision is more mechanical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，有些人認為較偏心理分析的解難方法在商業決策中作用有限；Allied Enterprise and Shipping 前行政總裁 John Tate 持這種看法，他認為穩健決策背後的祕訣更偏向機械化流程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From his point of view, a flawed decision is not one that did not work, but one that was decided on by too many people leaving no single person with sufficient accountability to ensure its success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，有問題的決策不單是最後沒有效果的決策；真正有問題的是由太多人共同決定，以致沒有單一人士有足夠問責性去確保成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 John Tate 對 psycho-analytical approach 的態度；整段之後轉向 mechanical process、hierarchical structure 和 accountability。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● John Tate● successful decision making● psychology● not related原文最貼近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the more psycho-analytical approach to problem solving has little place in a business decision”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較偏心理分析的解難方法在商業決策中作用有限。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“the secret behind a solid decision is more mechanical”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "穩健決策背後的祕訣更偏向機械化流程。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "John Tate 的觀點可以拆成兩部分：第一："
+            },
+            {
+              "kind": "quote",
+              "text": "“the more psycho-analytical approach … has little place in a business decision”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是心理分析式方法在商業決策中位置很小、作用有限。"
+            },
+            {
+              "kind": "label",
+              "text": "第二："
+            },
+            {
+              "kind": "quote",
+              "text": "“the secret behind a solid decision is more mechanical”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是好的決策靠的是更機械化、更程序化的做法。"
+            },
+            {
+              "kind": "label",
+              "text": "後文列出的做法包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“consideration of all alternatives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a hierarchical structure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“takes responsibility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“follows that decision through”"
+            },
+            {
+              "kind": "quote",
+              "text": "“verify whether the problem has indeed been resolved”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮所有選項、有層級架構、承擔責任、跟進決策、核實問題是否真的解決。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全都是流程、架構、責任和執行層面的內容，與心理分析方法距離很遠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷答案是 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 John Tate 的 “psycho-analytical approach has little place” 和 “solid decision is more mechanical” 概括成 “successful decision making is not related to psychology”。雖然 “not related” 比原文的 “little place” 稍強，但在這篇題目的語境中，它是在概括 Tate 的基本立場：成功商業決策主要靠機械化流程和問責架構。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文successful decision making solid decision not related to psychology psycho-analytical approach has little place successful ensure its success more practical / structural more mechanical / hierarchical structure / accountability process"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要注意 “psychology” 和 “psycho-analytical approach” 的關係。原文不是在討論所有心理學分支，只是在 John Tate 的商業決策觀中，心理分析方法作用很有限。題目將其概括為successful decision making is not related to psychology，方向與 Tate 的觀點一致，所以選 YES。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -PROBLEM SOLVING AND DECISION MAKING.pdf",
+    "sha256": "3ae7c74d2a9a8d2abf04d85e273c871e3eaf7cfbbb7d5301440b1ed6c69d1ec9",
+    "pageCount": 30
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "介紹主題背景：商業世界需要解難和決策，而商業決策背後的心理學近年受到分析和教學。"
+      },
+      {
+        "number": "2",
+        "summary": "介紹兩位觀點：Marie Scrive 認為壓力令人快速作出短期決定；Martin Hewings 認為核心問題在於沒有先清楚界定問題本質。"
+      },
+      {
+        "number": "3",
+        "summary": "Garen Filke 評價 Hewings 的方法，並批評把焦點放在「誰造成問題」會導致指責文化，影響工作環境和生產力。"
+      },
+      {
+        "number": "4",
+        "summary": "Anne Wicks 提出五層過濾器 /ladder：programming → beliefs →feelings → attitudes → actions。"
+      },
+      {
+        "number": "5",
+        "summary": "John Tate 反對過度心理分析，主張更機械化的決策方式：考慮所有選項、清楚層級、責任歸屬、跟進成效。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "三、Questions 27–33：Matching People"
+  ]
+}

@@ -1,0 +1,2633 @@
+{
+  "id": "p3-062-the-natural-world",
+  "catalogueId": "p3-062",
+  "catalogueIds": [
+    "p3-062"
+  ],
+  "passage": 3,
+  "title": "The natural world",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 17,
+  "questionNumberStart": 24,
+  "answerKey": [
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "wavelength",
+    "late afternoon",
+    "eye mask",
+    "hummingbird",
+    "lose weight",
+    "alcohol and cigarettes",
+    "rhythm",
+    "soft background",
+    "metabolism",
+    "nap"
+  ],
+  "questions": [
+    {
+      "number": 24,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Our reactions are at their slowest at sunset.”",
+      "translation": "我們的反應在日落時最慢。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目有三個控制點： 1. Our reactions：要找 reaction times； 2. at their slowest：最高級，表示「最慢」； 3. at sunset：時間點限定在日落時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題不能只看到原文有 sunset 和 reaction times 就直接判斷。真正要比較的是：原文有沒有說「日落那一刻是反應最慢的時候」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The circadian rhythm is the cycle that indicates when to be awake and when to be asleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "晝夜節律是一個週期，指示身體何時應該清醒，何時應該入睡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, there may be many hours between sunset and the time people actually go to bed, but from sunset onward we generally become increasingly less alert and reaction times can be noticeably slower.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，日落和人們實際上床睡覺的時間之間可能相隔很多小時，但從日落開始，我們一般會越來越不警覺，反應時間也可能明顯變慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 的功能是解釋 circadian rhythm 如何根據白天與黑夜的轉換，逐步影響清醒程度和反應速度。這段很適合回答有 sunset、alert、reaction times 的題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● reactions● slowest● sunset原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“from sunset onward we generally become increasingly less alert and reaction times can be noticeably slower.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含：● sunset；● reaction times；● slower。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以要停下來細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的關鍵不只在 slower，也在 from sunset onward 和 increasingly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "from sunset onward = 從日落開始往後increasingly less alert = 越來越不警覺reaction times can be noticeably slower = 反應時間可能明顯變慢這代表日落是身體開始逐漸變慢的起點之一。題目卻說 at their slowest at sunset，意思是反應在日落時已經達到最慢。這和原文的「從日落開始往後逐漸變慢」方向不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果某件事 from sunset onward 變得越來越慢，便不能說它在 sunset 那一刻已經是最慢。日落是變化開始或加速的時間點，不是原文確認的最低點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "at their slowest at sunset原文： from sunset onward … increasingly less alert … reaction times … slower轉換關係：● sunset = 定位點；● from sunset onward = 日落之後一路往後；● increasingly = 程度逐步加深；● 題目把「開始逐漸變慢」改成「日落時最慢」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是核心衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易中伏的是看到 sunset、reaction times、slower 三組字都出現，便急著選 TRUE。可是IELTS Reading 不只考單字重現，還考時間和程度。真正控制答案的是 at their slowest 和increasingly 的衝突。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There are more accidents on the night shift because workers tend to get less sleep.”",
+      "translation": "夜班有更多意外，是因為工人通常睡得較少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查因果關係：● 結果：night shift 有更多 workplace accidents；● 題目給出的原因：workers get less sleep。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重點不只是原文有沒有 accidents，也要看原文把事故增加歸因於甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a number of factors that can affect our circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有很多因素可以影響我們的晝夜節律。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar, although milder, effect can be felt in countries with daylight saving time, when the clocks are moved forward and backward depending on the season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在實行夏令時間的國家也會感受到類似但較輕微的影響，因為時鐘會按季節向前或向後調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 是列出干擾 circadian rhythm 的不同因素。夜班是這段第一個例子，因此題目出現 night shift 和 accidents 時，應優先定位到 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● night shift● accidents● less sleep原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite getting a good eight hours’ sleep during the day, night shift workers still tend to feel drowsy for at least some of the night.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管夜班工人在白天睡了足足八小時，他們在夜裡仍然往往至少有一段時間感到昏昏欲睡。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the main factor in the increase in workplace accidents during night shifts when compared to the day shift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是夜班工作意外比日班更多的主要因素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚說 Despite getting a good eight hours’ sleep during the day。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Despite 表示「儘管」。也就是說，夜班工人即使睡了八小時，仍可能因身體節律和工作時間相反而感到睏倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "This is the main factor 中的 This 指前一句的情況：夜班工人晚上感到 drowsy。也就是說，意外增加的主要原因是夜間睏倦和身體節律不配合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說原因是 workers tend to get less sleep。這和原文的 getting a good eight hours’ sleep直接相衝。原文甚至特意排除了「睡眠時間不足」作為主要說明：即使睡夠八小時，夜班仍會令人睏倦。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "because workers tend to get less sleep原文： Despite getting a good eight hours’ sleep during the day轉換關係：● 題目說：事故多，原因是睡得較少；● 原文說：即使白天睡了八小時，夜裡仍睏倦，這才導致事故增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的陷阱在於現實常識。很多人會覺得夜班工人出意外是因為睡不夠，這聽起來合理。但IELTS Reading 要跟原文走。原文的重點在 work against the body’s natural rhythm 和drowsy at night，不是睡眠總時數較少。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Short journeys by air have minimal effect on the body’s circadian rhythm.”",
+      "translation": "短途飛行對身體的晝夜節律影響很小。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查三個元素： 1. Short journeys：短途旅程； 2. by air：航空旅程； 3. minimal effect：影響很小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果原文只說長途旅行有影響，並不自動等於短途旅行影響很小。要有明確或可直接推出的短途資料，才可選 TRUE 或 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a number of factors that can affect our circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有很多因素可以影響我們的晝夜節律。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar, although milder, effect can be felt in countries with daylight saving time, when the clocks are moved forward and backward depending on the season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在實行夏令時間的國家，也會感受到類似但較輕微的影響，因為時鐘會按季節向前或向後調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 是列出干擾節律的因素，包括夜班、季節、國際旅行和夏令時間。題目談 journeys，所以應在 Paragraph C 的 travel 部分找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● short journeys● air● minimal effect● circadian rhythm原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“International travel, notably when travelling for more than four hours, can also have a significant effect; in extreme cases, it can take up to seven days for your rhythm to reset after such travel, a phenomenon referred to as jet lag.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "國際旅行也可以有顯著影響，尤其是旅行超過四小時時；在極端情況下，這種旅行之後，你的節律可能需要長達七天才會重新調整，這種現象稱為時差反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的是：● International travel can have a significant effect；● especially more than four hours；● extreme cases may need up to seven days to reset；● this is called jet lag。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說的是 short journeys by air，即短途飛行。原文沒有明確說：● 少於四小時的旅程影響如何；● 短途飛行是否影響很小；● 所有短途航空旅程是否 minimal effect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "notably when travelling for more than four hours 只告訴我們超過四小時特別值得注意。這句未能推出「短途一定影響小」。它只是說長一點的國際旅行可能有顯著效果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據：● short journeys；● by air；● minimal effect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的證據：● international travel；● more than four hours；● significant effect；● up to seven days reset。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少的關鍵資料：● short journeys 的影響程度；● by air 這個方式；● minimal effect 這個結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大陷阱是反向推理。原文說「超過四小時有顯著影響」，學生容易推成「少於四小時影響很小」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種推理聽起來合理，但文章沒有直接確認。NOT GIVEN 題最常見的陷阱，就是把文章沒有說出的另一半補進去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The circadian rhythm starts when light reaches the brain.”",
+      "translation": "晝夜節律在光線到達大腦時開始。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的關鍵詞是 starts。原文可能說光線影響 circadian rhythm，也可能說光線進入眼睛和大腦，但題目問的是「開始」的機制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要選 TRUE，原文必須支持「節律在光線到達大腦時開始」。如果原文只說 light affects / signals /helps，仍不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D，並需要回看 Paragraph B 的定義Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are some tips for helping your body work with your circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一些建議可以幫助你的身體配合自己的晝夜節律運作。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wear an eye mask to block out the light when you want to go to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你想睡覺時，戴上眼罩來遮擋光線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph D 的首尾句，可以知道這段不是在定義 circadian rhythm 的起源，而是在提供practical tips。題目中的 light reaches the brain 很像 Paragraph D 中的建議，因此先定位到 D，但要小心：建議不等於開始機制。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 的定義句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a daily cycle that is controlled by daily rises and falls in light and temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個日常週期，受每日光線和溫度的升降控制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● starts● light● brain Paragraph D 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First thing in the morning, take a short walk outside or open all the curtains to get as much light as possible through the eyes and into the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早上第一件事，可以到戶外短走，或打開所有窗簾，讓盡可能多的光線經由眼睛進入大腦。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是早上接觸光線的一個建議。它的功能是 helping your body work with your circadian rhythm，即幫助身體配合節律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它沒有說 circadian rhythm starts at that moment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也只是說 light and temperature control the daily cycle，並說 declining light 和lower temperatures signal the body to prepare for sleep。這些句子支援「光線影響節律」，但仍沒有支援「節律在光線到達大腦時開始」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 light affects / helps / signals 推成 starts。這一步超出原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "starts when light reaches the brain原文： get as much light as possible through the eyes and into the brain controlled by daily rises and falls in light and temperature原文有：● light enters the brain；● light affects circadian rhythm；● light and temperature help control the cycle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少：● starts；● begins；● the rhythm begins at the moment light reaches the brain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題非常容易因為原文有 through the eyes and into the brain 而選 TRUE。可是定位詞不等於答案。真正控制答案的是 starts。原文只說接觸光線有助配合節律，沒有說節律由這個動作啟動。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“If a driver is tired, taking a short sleep, listening to music or opening a window are all equally effective measures for keeping awake.”",
+      "translation": "如果司機疲倦，短睡、聽音樂或開窗都是同樣有效的保持清醒方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的重點是 all equally effective。只要原文說其中一些方法無效，就會和題目衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are some tips for helping your body work with your circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一些建議可以幫助你的身體配合自己的晝夜節律運作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wear an eye mask to block out the light when you want to go to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你想睡覺時，戴上眼罩來遮擋光線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 是建議段，涵蓋晨光、工作安排、運動時間、駕駛、睡眠環境和夜班安排。題目談driver，所以答案在 D 的 driving 建議部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● driver● tired● short sleep● music● opening a window● equally effective原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Avoid driving at times when you would normally sleep. Sleepy drivers should stop for a nap – playing loud music or opening the windows are ineffective substitutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應避免在你通常會睡覺的時間駕駛。睏倦的司機應停下來小睡；播放大聲音樂或打開車窗都是無效的替代方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：● sleepy drivers should stop for a nap；● playing loud music or opening the windows are ineffective substitutes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ineffective substitutes 的意思是「無效的替代方法」。也就是說，音樂和開窗不能和小睡相提並論，更不能說三者同樣有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說三者 all equally effective。原文明確說其中兩項是 ineffective substitutes，所以方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "taking a short sleep, listening to music or opening a window are all equally effective原文： Sleepy drivers should stop for a nap playing loud music or opening the windows are ineffective substitutes轉換關係：● short sleep = nap；● listening to music = playing loud music；● opening a window = opening the windows；● equally effective 和 ineffective substitutes 直接衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把三個行動放在同一層次，表面上像是一組建議。原文的破題點在破折號後面：playing loud music or opening the windows are ineffective substitutes。閱讀時要特別注意破折號後的補充，因為它往往給出真正判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Humans share the same trends with regard to their body clocks.”",
+      "translation": "人類在 body clock 方面有相同趨勢。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清兩個概念：● circadian rhythm：大部分人和非夜行動物都遵循的基本節律；● body clocks：每個人的個人節律，有獨特差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說的是 body clocks，所以不能只用「人人都有 circadian rhythm」來判斷。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every human—in fact, most non-nocturnal animals—follows the basic rules of the circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一個人類，其實大部分非夜行動物，都遵循晝夜節律的基本規則。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your body clock is what causes you to gain a few kilograms in autumn and wintertime and makes it easier to lose weight in spring and summer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的 body clock 會使你在秋冬季增加幾公斤，也會令你在春夏季較容易減重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 的功能是從普遍 circadian rhythm 轉到個人 body clock，並說明它如何影響不同生活和身體特徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Humans● same trends● body clocks原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, we also have our own unique body clocks which control the daily changes in how we think and feel, and oversee a number of our personal characteristics such as sleep patterns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，我們也有自己獨特的 body clock，它控制我們每天思考和感受的變化，也管理多項個人特徵，例如睡眠模式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說每個人都遵循 circadian rhythm 的基本規則，接著用 However 轉折，指出每個人也有our own unique body clocks。"
+            },
+            {
+              "kind": "label",
+              "text": "unique 是這題的關鍵，意思是「獨特的」。後文也用例子支持這種差異："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your body clock dictates whether you are a night owl … an early bird … or a hummingbird…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的 body clock 決定你是夜貓子、早起型的人，還是早晚都能工作的 hummingbird。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些分類本身就說明人和人之間的 body clock 並不完全相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 share the same trends with regard to their body clocks，把個人化差異說成相同趨勢。原文提供相反方向的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向轉換",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "share the same trends原文： our own unique body clocks night owl / early bird / hummingbird轉換關係：● same trends = 相同模式；● unique body clocks = 各自獨特；● 不同類型例子進一步支持個人差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易中伏的是 Paragraph E 第一句：Every human … follows the basic rules of the circadian rhythm.這句確實說人人都遵循基本 circadian rhythm，但題目問的是 body clocks。這裡要分清普遍生理規則和個人 body clock 差異。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Many people take a short rest just after eating lunch.”",
+      "translation": "很多人在午飯後會短暫休息。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找三個元素： 1. Many people：很多人； 2. take a short rest：真的去休息； 3. just after eating lunch：吃完午飯後不久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文如果只說「午飯後可能想睡」或「建議休息」，仍未等於很多人實際會短休。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are some tips for helping your body work with your circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一些建議可以幫助你的身體配合自己的晝夜節律運作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wear an eye mask to block out the light when you want to go to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你想睡覺時，戴上眼罩來遮擋光線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 是建議段，包含如何按一天不同時間安排活動。題目中的 after eating lunch 對應D 中的 After lunch。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● after lunch● short rest● many people原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After lunch you may feel like nodding off. Take scheduled breaks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "午飯後，你可能會想打瞌睡。要安排固定休息時間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 you may feel like nodding off。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "may 表示可能；feel like nodding off 表示想打瞌睡或有睡意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和題目中的 Many people take a short rest 有距離。原文說的是感覺和建議，不是實際行為統計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求「很多人會短暫休息」，原文沒有說 many people，也沒有說人們真的 take a short rest just after lunch。它只說午飯後可能睏，並建議安排 breaks。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有：● after lunch；● may feel like nodding off；● scheduled breaks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要：● many people；● actually take a short rest；● just after eating lunch。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少的是「很多人實際這樣做」這個事實。所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易把 feel like nodding off 理解成「會睡一會」。但 feeling 和 action 不同。想睡不等於已經休息；建議休息也不等於很多人真的這樣做。這就是 NOT GIVEN 的典型資料缺失。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "wavelength",
+      "answerKey": "wavelength",
+      "type": "Short-answer Questions",
+      "prompt": "As well as the intensity, what else is important in sunlight for our circadian rhythm?",
+      "translation": "除了強度之外，陽光中還有甚麼對 circadian rhythm 重要？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。答案要用 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 what else，所以答案應該是一個名詞或名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are some tips for helping your body work with your circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一些建議可以幫助你的身體配合自己的晝夜節律運作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wear an eye mask to block out the light when you want to go to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你想睡覺時，戴上眼罩來遮擋光線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 提供實用建議，其中一部分談光線如何影響 circadian rhythm，因此題目中的sunlight、intensity 很可能在這一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● intensity● sunlight● circadian rhythm原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to light intensity, wavelength (or colour) is a factor; sunlight is the best source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了光線強度之外，波長（或顏色）也是一個因素；陽光是最佳來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 As well as the intensity, what else is important。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文剛好說 In addition to light intensity，這是直接對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案位置在後面： wavelength (or colour) is a factor也就是說，除了強度，另一個重要因素是 wavelength。括號中的 colour 是 wavelength 的解釋，因為不同波長對應不同顏色。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "As well as the intensity原文： In addition to light intensity"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "what else is important原文： wavelength … is a factor所以答案是 wavelength。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查wavelength 是一個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果答案寫 wavelength or colour，雖然意思來自原文，但正式答題最穩是 wavelength，因為它是主詞；colour 是括號內解釋。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "late afternoon",
+      "answerKey": "late afternoon",
+      "type": "Short-answer Questions",
+      "prompt": "What specific part of the day is the body at its warmest?",
+      "translation": "身體在一天中哪個具體時段最暖？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What specific part of the day，答案應該是時間短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are some tips for helping your body work with your circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一些建議可以幫助你的身體配合自己的晝夜節律運作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wear an eye mask to block out the light when you want to go to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你想睡覺時，戴上眼罩來遮擋光線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 有關於一天中不同時間做不同活動的建議，包括 challenging tasks、exercise、driving 和 sleep。題目問體溫最高的時間，因此要找 body temperature。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● body● warmest● specific part of the day原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best time to exercise is in the late afternoon – your body temperature reaches its daily high, and your body is warmed up and stretched from spending your day at work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最佳運動時間是在下午較後的時段，因為你的體溫達到一天中的高點，而且你的身體經過一天工作後已經暖起來並伸展開來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 body at its warmest。原文對應： your body temperature reaches its daily high這句意思是「你的體溫達到每日最高點」。前面給出時間： in the late afternoon因此答案是 late afternoon。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "the body at its warmest原文： your body temperature reaches its daily high"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "specific part of the day原文： late afternoon所以答案是 late afternoon。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查late afternoon 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "eye mask",
+      "answerKey": "eye mask",
+      "type": "Short-answer Questions",
+      "prompt": "What should night shift workers use to help them sleep?",
+      "translation": "夜班工人應該用甚麼來幫助自己睡覺？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What should night shift workers use，答案應該是一個具體物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are some tips for helping your body work with your circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一些建議可以幫助你的身體配合自己的晝夜節律運作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wear an eye mask to block out the light when you want to go to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你想睡覺時，戴上眼罩來遮擋光線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 結尾剛好談 night shift 的工作和睡眠安排，所以題目應定位到這段末尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● night shift workers● use● sleep原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you work the night shift, use bright lights and music in the workplace to keep your brain alert. Wear an eye mask to block out the light when you want to go to sleep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你上夜班，在工作場所使用明亮燈光和音樂來保持大腦警覺。當你想睡覺時，戴上眼罩來遮擋光線。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩組工具，但功能不同：● bright lights and music：在工作場所保持警覺；● eye mask：想睡覺時遮擋光線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 to help them sleep，所以不能答 bright lights 或 music。真正對應睡眠的是： Wear an eye mask to block out the light"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "What should night shift workers use to help them sleep?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文： Wear an eye mask to block out the light when you want to go to sleep.轉換：● use = wear；● help them sleep = block out the light when you want to go to sleep；● object = eye mask。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 eye mask。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查eye mask 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "hummingbird",
+      "answerKey": "hummingbird",
+      "type": "Short-answer Questions",
+      "prompt": "What type of person works equally well in the morning and the evening?",
+      "translation": "哪一類人在早上和晚上都能同樣工作良好？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What type of person，答案應該是文章中的人物類型名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every human—in fact, most non-nocturnal animals—follows the basic rules of the circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一個人類，其實大部分非夜行動物，都遵循晝夜節律的基本規則。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your body clock is what causes you to gain a few kilograms in autumn and wintertime and makes it easier to lose weight in spring and summer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的 body clock 會使你在秋冬季增加幾公斤，也會令你在春夏季較容易減重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講個人 body clock 的差異，包含不同人的工作時間偏好，所以題目應在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● works equally well● morning● evening原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your body clock dictates whether you are a night owl, happy to work late into the night, an early bird who prefers the morning or a hummingbird, happy to work at both ends of the day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的 body clock 決定你是夜貓子，喜歡工作到深夜；還是早起型的人，偏好早上；又或是hummingbird，早晚兩端都能工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出三類人：● night owl：喜歡深夜工作；● early bird：偏好早上；● hummingbird：happy to work at both ends of the day。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 in the morning and the evening 對應 both ends of the day。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "能早晚都工作的人就是 hummingbird。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "works equally well in the morning and the evening原文： happy to work at both ends of the day轉換：● morning and evening = both ends of the day；● type of person = hummingbird。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 hummingbird。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查hummingbird 是一個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "lose weight",
+      "answerKey": "lose weight",
+      "type": "Short-answer Questions",
+      "prompt": "What does our body clock make it easier to do after the winter?",
+      "translation": "冬天過後，body clock 會令我們較容易做甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 what does our body clock make it easier to do，答案應該是動詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 after the winter 要對應春天或夏天。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every human—in fact, most non-nocturnal animals—follows the basic rules of the circadian rhythm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每一個人類，其實大部分非夜行動物，都遵循晝夜節律的基本規則。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your body clock is what causes you to gain a few kilograms in autumn and wintertime and makes it easier to lose weight in spring and summer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的 body clock 會使你在秋冬季增加幾公斤，也會令你在春夏季較容易減重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目直接對應 Paragraph E 最後一句，因為它同時有 body clock、winter、easier。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● body clock● easier● after the winter原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your body clock is what causes you to gain a few kilograms in autumn and wintertime and makes it easier to lose weight in spring and summer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的 body clock 會使你在秋冬季增加幾公斤，也會令你在春夏季較容易減重。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 after the winter。冬天之後是 spring and summer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說在 spring and summer，body clock makes it easier to lose weight。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案就是 lose weight。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "after the winter原文： in spring and summer"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "make it easier to do原文： makes it easier to lose weight所以答案是 lose weight。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查lose weight 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "alcohol and cigarettes",
+      "answerKey": "alcohol and cigarettes",
+      "type": "Short-answer Questions",
+      "prompt": "What should you avoid before bed to help you get a good night’s sleep?",
+      "translation": "睡前應避免甚麼，才能幫助自己睡得好？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 What should you avoid，答案應該是名詞或名詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 before bed 對應原文的 before sleep time。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being aware of a few issues can help us maintain the best rhythms for our body clocks, but there are some tips and tools that can help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "留意一些事項可以幫助我們維持 body clock 的最佳節律，而且也有一些建議和工具可以幫忙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you sleep for longer than a ‘catnap’, you will enter Stage 3 (deep sleep) and find it harder to wake up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你睡得比「小睡」更久，你會進入第三階段深層睡眠，醒來會更困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 是維持 body clock 和改善睡眠的建議段。題目問睡前避免甚麼，因此要找 avoid /before sleep time。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● avoid● before bed● sleep原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Avoid alcohol and cigarettes before sleep time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡前避免酒精和香煙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常直接。題目中的 before bed 對應原文 before sleep time。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 What should you avoid，原文的受詞是 alcohol and cigarettes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然同段也提到 avoid eating a heavy meal near bedtime，但 Question 36 的 wording 更直接對應 before sleep time 這一句，且答案可完整填入。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "before bed原文： before sleep time"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "what should you avoid原文： Avoid alcohol and cigarettes所以答案是 alcohol and cigarettes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查alcohol and cigarettes 是三個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "rhythm",
+      "answerKey": "rhythm",
+      "type": "Summary Completion",
+      "prompt": "Question 37",
+      "translation": "透過遵循固定日常規律，保持良好的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Keep a good 37 ______ by following routines.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。答案要用 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 a good，所以答案應該是單數名詞或名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being aware of a few issues can help us maintain the best rhythms for our body clocks, but there are some tips and tools that can help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "留意一些事項可以幫助我們維持 body clock 的最佳節律，而且也有一些建議和工具可以幫忙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you sleep for longer than a ‘catnap’, you will enter Stage 3 (deep sleep) and find it harder to wake up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你睡得比「小睡」更久，你會進入第三階段深層睡眠，醒來會更困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 開頭已經點出本段主題：維持 body clock 的良好節律。Summary 的第一句正是在概括這個主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 定位詞：● following routines● sleep and wake● same times● days off原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being aware of a few issues can help us maintain the best rhythms for our body clocks…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "留意一些事項可以幫助我們維持 body clock 的最佳節律。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Keeping to the same bedtime routine and wake-up schedule, even on your days off, is particularly important – there should be no more than a few hours’ difference in the time you go to bed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使在休息日，也保持相同的睡前 routine 和起床時間表，這特別重要；上床時間的差距不應超過幾小時。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 說 Keep a good ______ by following routines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 maintain the best rhythms for our body clocks，接著用 same bedtime routine and wake-up schedule 解釋如何維持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此空格要填的核心概念是 rhythm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它能和 a good 組成自然短語：a good rhythm。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： Keep a good rhythm原文： maintain the best rhythms Summary： by following routines原文： Keeping to the same bedtime routine and wake-up schedule所以答案是 rhythm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查rhythm 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題有時學生會想填 body clock，因為原文同一句也有 body clocks。但空格前有 a good，而原文的核心動作是 maintain the best rhythms，所以 rhythm 是最貼合文法和原文改寫的答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "soft background",
+      "answerKey": "soft background",
+      "type": "Summary Completion",
+      "prompt": "Question 38",
+      "translation": "如果外界有干擾，可以使用 ______ 噪音來幫助睡眠。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Use 38 ______ noise to help you sleep if there are external distractions.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案要用 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格後面已有 noise，所以答案應該是修飾 noise 的形容詞或形容詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being aware of a few issues can help us maintain the best rhythms for our body clocks, but there are some tips and tools that can help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "留意一些事項可以幫助我們維持 body clock 的最佳節律，而且也有一些建議和工具可以幫忙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you sleep for longer than a ‘catnap’, you will enter Stage 3 (deep sleep) and find it harder to wake up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你睡得比「小睡」更久，你會進入第三階段深層睡眠，醒來會更困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 中段談避免睡眠中斷和使用噪音裝置，所以題目中的 noise 很容易定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 定位詞：● noise● external distractions● help you sleep原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is intermittent, irregular noise, use a fan or any white noise device that generates calming sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果有斷續而不規律的噪音，可以使用風扇或任何會產生平靜聲音的白噪音裝置。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is particularly important for night shift workers, for whom daytime noises are generally louder; soft background noise can help drown out daytime activity noises.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對夜班工人尤其重要，因為對他們來說，白天的噪音通常較大；柔和的背景聲可以幫助蓋過白天活動產生的噪音。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 的句子是 Use ______ noise。原文中最能直接放入空格的是： soft background noise因為 summary 已經給了 noise，所以空格只需要填 soft background。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "drown out daytime activity noises 的意思是「蓋過白天活動噪音」，對應 Summary 的 external distractions。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： external distractions原文： intermittent, irregular noise daytime activity noises Summary： Use ______ noise to help you sleep原文： soft background noise can help drown out…所以答案是 soft background。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查soft background 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 soft background noise，因為題目空格後面已經有 noise；填三個字也會超出字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "metabolism",
+      "answerKey": "metabolism",
+      "type": "Summary Completion",
+      "prompt": "Question 39",
+      "translation": "少量而規律的餐食能令你的 ______ 保持最佳運作。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small and regular meals keep your 39 ______ operating at its best.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案要用 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 your，後面是 operating at its best，所以答案應該是身體系統或身體功能名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being aware of a few issues can help us maintain the best rhythms for our body clocks, but there are some tips and tools that can help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "留意一些事項可以幫助我們維持 body clock 的最佳節律，而且也有一些建議和工具可以幫忙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you sleep for longer than a ‘catnap’, you will enter Stage 3 (deep sleep) and find it harder to wake up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你睡得比「小睡」更久，你會進入第三階段深層睡眠，醒來會更困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 包含飲食建議。Summary 的 Small and regular meals 對應原文的 small frequent meals。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 定位詞：● Small and regular meals● operating at its best原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eat small frequent meals to help stoke your metabolism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "吃少量而頻密的餐食，以幫助推動你的新陳代謝。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 small frequent meals 對應 Summary 的 Small and regular meals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "stoke your metabolism 的意思是「促進／推動新陳代謝」。Summary 把這個意思改寫成 keep your metabolism operating at its best。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 metabolism。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： Small and regular meals原文： small frequent meals Summary： keep your ______ operating at its best原文： help stoke your metabolism所以答案是 metabolism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查metabolism 是一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "nap",
+      "answerKey": "nap",
+      "type": "Summary Completion",
+      "prompt": "Question 40",
+      "translation": "減少工作班次變動，如有需要，可在白天短暫 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Limit changes to your work shift, and if necessary take a short 40 ______ during the day.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案要用 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 take a short，所以答案應該是可與 take 搭配的名詞，例如 nap。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being aware of a few issues can help us maintain the best rhythms for our body clocks, but there are some tips and tools that can help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "留意一些事項可以幫助我們維持 body clock 的最佳節律，而且也有一些建議和工具可以幫忙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you sleep for longer than a ‘catnap’, you will enter Stage 3 (deep sleep) and find it harder to wake up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你睡得比「小睡」更久，你會進入第三階段深層睡眠，醒來會更困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 最後部分談工作班次和白天小睡，因此 summary 的最後一句定位到 F 後半段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 定位詞：● Limit changes to your work shift● during the day● take a short原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reduce changes to your work shift, such as changing from night shift to day shift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "減少工作班次變動，例如從夜班轉到日班。"
+            },
+            {
+              "kind": "label",
+              "text": "後面一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you feel sleepy during the day, take a short nap.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你白天感到睏倦，就小睡一會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 的 Limit changes to your work shift 對應原文 Reduce changes to your work shift。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 的 take a short ______ during the day 對應原文 take a short nap。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 nap。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： Limit changes原文： Reduce changes Summary： if necessary原文： If you feel sleepy Summary： take a short ______ during the day原文： take a short nap所以答案是 nap。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查nap 是一個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 short nap，因為題目已經有 short；填入後會變成 short short nap，文法和意思都不自然。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The natural world.pdf",
+    "sha256": "dccee085441b20153825b270427bf0153de3321cb6e971bf9d20c16ea59fc16c",
+    "pageCount": 38
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖段 段落功能",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 介紹自然界由規律循環主導，這些循環會影響人體代謝、情緒、行為和睡眠模式。 B 解釋 circadian rhythm 的基本意思：它是控制清醒和睡眠的日常節律，受光線和溫度變化影響。 C 說明會干擾 circadian rhythm 的因素，包括夜班、季節、長途國際旅行和 daylight saving time。 D 提供配合 circadian rhythm 的實用建議，例如早上接觸陽光、按體溫高低安排工作、疲勞時避免駕駛、夜班工人使用燈光和眼罩。 E 轉入個人 body clock，說明不同人可分為 night owl、early bird、hummingbird，並解釋body clock 對情緒、飲食、運動、身體機能和體重的影響。 F 提供維持 body clock 節律的方法，包括固定睡眠時間、使用背景噪音、少量多餐、減少轉班、避免睡前酒精香煙，以及白天短睡。",
+        "label": "落"
+      }
+    ]
+  }
+}

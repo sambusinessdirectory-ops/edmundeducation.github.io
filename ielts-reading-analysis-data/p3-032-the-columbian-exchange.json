@@ -1,0 +1,2047 @@
+{
+  "id": "p3-032-the-columbian-exchange",
+  "catalogueId": "p3-032",
+  "catalogueIds": [
+    "p3-032"
+  ],
+  "passage": 3,
+  "title": "The Columbian Exchange",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "G",
+    "A",
+    "E",
+    "B",
+    "F",
+    "H",
+    "D",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "missionaries and traders",
+    "demographic triumph"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "A description of an imported species that is named after the English colonists",
+      "translation": "描述一種被引入的物種，而且它的名字和英國殖民者有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問的是「哪一段包含這項資訊」，所以要找具體例子。最強定位詞是：● imported species● named after the English colonists● English"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As might be expected, the Europeans who settled on the east coast of the United States cultivated crops like wheat and apples, which they had brought with them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以預料的是，定居在美國東岸的歐洲人種植了小麥和蘋果等他們帶來的作物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The imported weeds could, because they had lived with large numbers of grazing animals for thousands of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被引入的雜草卻能承受這種壓力，因為它們數千年來一直和大量放牧動物共存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 講的是：歐洲人帶來的植物、雜草和畜牧活動如何改變美洲土地。這和題目中的 imported species 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C 時，最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of these, a plantain (Plantago major), was named ‘Englishman’s Foot’ by the Amerindians of New England and Virginia…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種植物，車前草，被新英格蘭和維珍尼亞的美洲原住民稱為 “Englishman’s Foot”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 an imported species that is named after the English colonists。原文說：● a plantain (Plantago major) = 一種植物物種；● was named “Englishman’s Foot” = 名字和 Englishman 有關；● by the Amerindians = 由美洲原住民命名；● 原因是他們相信這植物只會在英國人踏過的地方生長。"
+            },
+            {
+              "kind": "label",
+              "text": "後面原文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“it would grow only where the English ‘have trodden’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它只會在英國人「踏過」的地方生長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph C 不只提到名字，也解釋這名字如何與英國殖民者的足跡連起來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "imported species named after the English colonists原文： a plantain … was named “Englishman’s Foot”改寫關係：● species → plantain● named after the English colonists → Englishman’s Foot● colonists → the English"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易看到 Paragraph D 的 cattle and horses，因為它們也是 imported species。不過Paragraph D 沒有提到任何物種以 English colonists 命名。真正控制答案的是 named"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Englishman’s Foot”，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "The reason why both the New World and Old World experienced population growth",
+      "translation": "解釋為甚麼 New World 和 Old World 都出現人口增長。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問原因，定位詞是：● both the New World and Old World● population growth● reason要找的段落應該同時提到兩邊的 crops / peoples，並把它們連到人口增長。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The New World’s great contribution to the Old is in crop plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New World 對 Old World 的重大貢獻在於作物植物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Columbian Exchange has been an indispensable factor in that demographic explosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Columbian Exchange 是那場人口爆炸不可或缺的因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph G 講 New World crops 如何影響 Old World，並把這種作物交換連到 demographic explosion，即人口爆炸。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their influence on Old World peoples, like that of wheat and rice on New World peoples, goes far to explain the global population explosion of the past three centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們對 Old World peoples 的影響，就像小麥和稻米對 New World peoples 的影響一樣，在很大程度上解釋了過去三個世紀的全球人口爆炸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含題目要求的兩邊：● Old World peoples：受到 maize、potatoes、manioc 等 New World crops 影響；● New World peoples：受到 wheat and rice 等 Old World crops 影響；● global population explosion：對應 population growth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 both the New World and Old World experienced population growth，原文說兩邊作物互相影響，並解釋 global population explosion。這不是只講 Old World 的單向受益，而是雙向crop exchange 對人口增長的作用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "both the New World and Old World experienced population growth原文： Their influence on Old World peoples, like that of wheat and rice on New World peoples… global population explosion改寫關係：● population growth → demographic explosion / global population explosion● both worlds → Old World peoples + New World peoples● reason → influence of exchanged crops"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也提到人口變化，特別是 Old World peoples increased in number 和 Amerindians numbers plunged。不過 Paragraph H 的重點是環境適應和入侵者優勢；它沒有同時解釋 Old World 和 New World population growth。Question 28 的答案要落在 crop exchange 和 global population explosion，所以是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "The formation of new continents explained",
+      "translation": "解釋新大陸如何形成，或兩個世界如何被分隔開。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的強定位詞是：● formation● new continents● explained文章一開始通常會交代地理背景，所以先看 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Millions of years ago, continental drift carried the Old World and New World apart, splitting North and South America from Eurasia and Africa.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數百萬年前，大陸漂移把 Old World 和 New World 分開，使南北美洲與歐亞大陸和非洲分離。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their artificial re-establishment of connections through the commingling of Old and New World plants, animals, and bacteria, commonly known as the Columbian Exchange, is one of the more spectacular and significant ecological events of the past millennium.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類透過 Old World 和 New World 的植物、動物和細菌混合，人工重新建立兩者的連繫；這就是Columbian Exchange，是過去一千年中較壯觀且重大的生態事件之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 首句直接講 continental drift，即大陸漂移；最後一句引入 Columbian Exchange。這一段的功能是先講分離，再講重新連接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 formation of new continents，原文沒有直接使用 formation，但有地理形成背景："
+            },
+            {
+              "kind": "quote",
+              "text": "“continental drift carried the Old World and New World apart…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大陸漂移把 Old World 和 New World 分開。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 formation of new continents 不是指人類創造大陸，而是指 Old World 和 New World的地理分隔如何出現。原文的 continental drift 是直接原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 continental drift，動詞是 carried … apart 和 splitting。兩個動作都在說大陸被拉開、被分裂成不同世界。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "formation of new continents explained原文： continental drift … splitting North and South America from Eurasia and Africa改寫關係：● formation / separation of continents → continental drift● new continents → North and South America● explained → 原文直接交代地質原因"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 “After 1492” 吸走注意力。1492 年之後講的是人類重新連接兩個世界；Question 29 問的是 continents 如何形成或分開，所以真正證據在第一句的 continental drift。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "The reason why the indigenous population declined",
+      "translation": "解釋原住民人口下降的原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞非常清楚：● indigenous population● declined● reason要找 Native Americans / Indigenous peoples / Amerindians 的人口下降原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Native American resistance to the Europeans was ineffective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Native Americans 對歐洲人的抵抗並不有效。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1837-38 nearly every last one of the Mandans and perhaps half the people of the high plains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1837 至 1838 年，幾乎所有 Mandans 人，以及高原地區可能一半的人口都被摧毀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句談 Native American resistance；末句用數字和部族例子展示死亡規模。這段明顯聚焦於原住民敗退和人口災難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "真正的答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The crucial factor was not people, plants, or animals, but germs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵因素並非人、植物或動物；真正起決定作用的是病菌。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句進一步具體化："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smallpox was the worst and the most spectacular of the infectious diseases mowing down the Native Americans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天花是摧毀 Native Americans 的傳染病中最嚴重、最驚人的一種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 why the indigenous population declined。Paragraph E 先承認幾個因素：● white brutality；● alcoholism；● killing and driving off of game；● expropriation of farmland。"
+            },
+            {
+              "kind": "label",
+              "text": "不過原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“but all these together are insufficient to explain the degree of their defeat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這些因素加在一起，仍不足以解釋他們失敗的程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後作者把真正原因指向 germs，尤其 smallpox。這就是 Question 30 的答案段落。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "indigenous population declined原文： infectious diseases mowing down the Native Americans改寫關係：● indigenous population → Native Americans / indigenes● declined → mowing down / destroyed half / two thirds / nearly every last one● reason → germs / smallpox"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被 brutality、alcoholism、farmland 等字眼吸引。這些確實是傷害因素，但原文明確說它們不足以解釋 defeat 的程度。真正控制答案的是 The crucial factor … germs。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "An overview of species absent from the Old World and the New World",
+      "translation": "概述 Old World 和 New World 彼此缺少哪些物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● overview● species absent● Old World and New World這題要找一段總覽式描述，而非單一例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Europeans first touched the shores of the Americas, Old World crops such as wheat, barley, rice, and turnips had not travelled west across the Atlantic, and New World crops such as maize, white potatoes, sweet potatoes, and manioc had not travelled east to Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當歐洲人第一次抵達美洲海岸時，小麥、大麥、稻米和蕪菁等 Old World crops 尚未向西越過大西洋；玉米、白馬鈴薯、番薯和木薯等 New World crops 也尚未向東傳到歐洲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among these germs were those that carried smallpox, measles, chickenpox, influenza, malaria, and yellow fever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些病菌包括帶有天花、麻疹、水痘、流感、瘧疾和黃熱病的病原體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句和末句顯示 Paragraph B 是一個總覽：先講 crops，再講 animals，最後講 germs。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 中有多個 “had not” 和 “no”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old World crops … had not travelled west…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“New World crops … had not travelled east…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Americas, there were no horses, cattle, sheep, or goats…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the New World had no equivalents…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子反覆說明兩個世界彼此缺少哪些作物、動物和病原體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的重點是 Columbian Exchange 發生前，兩個世界的生物組合完全不同： Old World 尚未把以下東西帶到 New World：● wheat；● barley；● rice；● turnips；● horses；● cattle；● sheep；● goats；● pathogens linked to dense populations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "New World 尚未把以下東西帶到 Old World：● maize；● white potatoes；● sweet potatoes；● manioc。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 species absent 概括這種「某些物種在某一邊不存在」的情況。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "species absent from the Old World and the New World原文： had not travelled / there were no / had no equivalents改寫關係：● absent → had not travelled / there were no / had no● species → crops, animals, germs● overview → 一整段列出多類生物"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也提到動物，但它只講 America’s native animals 對 Old World 影響有限。Question 31 要的是「1492 年前雙方缺少哪些物種的總覽」，所以 Paragraph B 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "A description of some animal species having little effect on the Old World",
+      "translation": "描述一些美洲動物物種對 Old World 影響不大。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● animal species● little effect● Old World要找美洲動物輸出到 Old World 之後的影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The export of America’s native animals has not revolutionised Old World agriculture or ecosystems as the introduction of European animals to the New World did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美洲本土動物的輸出，沒有像歐洲動物被引入 New World 那樣，徹底改變 Old World 的農業或生態系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of America’s domesticated animals are raised in the Old World, but turkeys have not displaced chickens and geese, and guinea pigs have proved useful in laboratories, but have not usurped rabbits in the butcher shops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些美洲馴化動物在 Old World 被飼養，但火雞沒有取代雞和鵝；豚鼠在實驗室有用，卻沒有在肉店中取代兔子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 首句直接說 has not revolutionised，末句用 turkeys 和 guinea pigs 作例子。這正好是 little effect。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“America’s grey squirrels and muskrats and a few others have established themselves east of the Atlantic and west of the Pacific, but that has not made much of a difference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美洲灰松鼠、麝鼠和少數其他物種已在大西洋以東和太平洋以西定居，但這沒有造成多大差別。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 some animal species having little effect on the Old World。原文有三個關鍵：● grey squirrels and muskrats：animal species；● established themselves east of the Atlantic and west of the Pacific：已經在 Old World 相關區域落腳；● has not made much of a difference：影響很小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常直接的同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "having little effect原文： has not made much of a difference改寫關係：● animal species → grey squirrels and muskrats● Old World → east of the Atlantic and west of the Pacific● little effect → not made much of a difference"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講 European animals 對 New World 很成功；Question 32 則問 America’s animals對 Old World 影響有限。方向相反，要看清 Old World 這個地理方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "An overall explanation of the success of the Old World species invasion",
+      "translation": "對 Old World species 入侵成功作整體解釋。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● overall explanation● success● Old World species invasion這題要找總結性段落，不只是單一物種或單一疾病。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this had nothing to do with superiority or inferiority of biosystems in any absolute sense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切和生物系統在絕對意義上的優劣無關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...but the demographic triumph of the invaders, which was the most spectacular feature of the Old World’s invasion of the New, still stands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但入侵者在人口上的勝利，作為 Old World 入侵 New World 最壯觀的特徵，仍然成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句排除「生物系統絕對優劣」；末句總結 invaders 的 demographic triumph。這段明顯是全文總結，適合 overall explanation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the Old World peoples came to America, they brought with them all their plants, animals, and germs, creating a kind of environment to which they were already adapted, and so they increased in number.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Old World peoples 來到美洲時，他們帶來了自己的植物、動物和病菌，創造出一種他們早已適應的環境，因此他們的人數增加。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋了 Old World species / peoples 為何成功： 1. 他們帶來 plants, animals, and germs； 2. 這些東西共同創造出熟悉的環境； 3. Old World peoples 已經適應這種環境； 4. 因此他們 increased in number。"
+            },
+            {
+              "kind": "label",
+              "text": "同段也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amerindians had not adapted to European germs, and so initially their numbers plunged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Amerindians 尚未適應歐洲病菌，因此起初人口急劇下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一正一反，完整解釋 Old World invasion 的成功。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "success of the Old World species invasion原文： brought with them all their plants, animals, and germs … environment to which they were already adapted … increased in number改寫關係：● Old World species invasion → plants, animals, germs brought to America● success → increased in number / demographic triumph● overall explanation → environmental contrasts and adaptation"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 只解釋 germs 如何使 Native Americans decline。Question 33 問的是整體成功原因，包括 plants、animals、germs 和 environmental adaptation，所以答案要放在總結段 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "An account of European animals taking root in the New World",
+      "translation": "描述歐洲動物在 New World 成功落地、生存和繁殖。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● European animals● taking root● New World要找 horses / cattle / livestock 被帶到北美後的狀況。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cattle and horses were brought ashore in the early 1600s and found hospitable climate and terrain in North America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛和馬在十七世紀初被帶上岸，並在北美找到適宜的氣候和地形。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fences were not for keeping livestock in, but for keeping livestock out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍欄不是用來把牲畜關在裡面，而是用來把牲畜擋在外面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 cattle and horses 適應北美；末句說牠們多到需要用圍欄阻擋。這就是 taking root 的具體表現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Horses arrived in Virginia as early as 1620 and in Massachusetts in 1629.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "馬早在 1620 年就抵達 Virginia，1629 年抵達 Massachusetts。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many wandered free with little more evidence of their connection to humanity than collars…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多馬自由遊走，除了頸圈外，幾乎看不出牠們和人類有甚麼聯繫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 taking root，原文沒有這個短語，但意思由以下內容支持：● cattle and horses were brought ashore；● found hospitable climate and terrain；● many wandered free；● fences were for keeping livestock out。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明 European animals 不只是被帶來，也在北美環境中適應得很好，甚至自由擴散到要防止牠們進入農田。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "European animals taking root in the New World原文： Cattle and horses … found hospitable climate and terrain in North America改寫關係：● European animals → cattle and horses● New World → North America / Virginia / Massachusetts● taking root → found hospitable climate and terrain / wandered free"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也提到 livestock，但它主要講 Old World livestock 對 native flora 和 weeds 的影響。Question 34 要的是 European animals 本身如何在 New World 落地，所以 Paragraph D 最精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "European settlers built fences to keep their cattle and horses inside.",
+      "translation": "歐洲定居者建圍欄，是為了把牛和馬留在圍欄裡面。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 European settlers / fences / cattle and horses，定位到 Paragraph D。要判斷圍欄的用途是否與原文一致。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cattle and horses were brought ashore in the early 1600s and found hospitable climate and terrain in North America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛和馬在十七世紀初被帶上岸，並在北美找到適合牠們的氣候和地形。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fences were not for keeping livestock in, but for keeping livestock out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍欄不是用來把牲畜關在裡面，而是用來把牲畜擋在外面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示：動物大量適應並自由遊走，圍欄用途和題目正面衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞：● fences● cattle and horses● inside原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fences were not for keeping livestock in, but for keeping livestock out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "圍欄不是用來把牲畜留在裡面，而是用來把牲畜擋在外面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說：● fences were built to keep cattle and horses inside。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：● fences were for keeping livestock out。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確方向相反。題目中的 inside 對應原文的 in；原文直接否定 keeping livestock in。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷FALSE 需要原文提供相反資訊。這題的相反資訊非常清楚：● 題目：keep inside；● 原文：not for keeping in, but for keeping out。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "前文說 horses wandered free，學生可能以為圍欄是為了把牠們關起來。但末句直接糾正這個想像：圍欄的功能是保護農作物，把牲畜擋出去。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The indigenous people had been brutally killed by the European colonists.",
+      "translation": "原住民曾遭歐洲殖民者殘酷殺害。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要定位到 Paragraph E，因為該段集中講 Native Americans / Indigenous peoples 的遭遇。要留意：題目只是說他們遭到殘酷傷害或殺害，沒有說這是人口下降的最主要原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Native American resistance to the Europeans was ineffective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Native Americans 對歐洲人的抵抗並不有效。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1837-38 nearly every last one of the Mandans and perhaps half the people of the high plains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1837 至 1838 年，幾乎所有 Mandans 人，以及高原地區可能一半的人口都被摧毀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的功能是說明原住民為何抵抗失敗，以及人口災難如何發生。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● indigenous people● brutally● European colonists原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indigenous peoples suffered from white brutality, alcoholism, the killing and driving off of game, and the expropriation of farmland…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "原住民遭受白人的殘酷對待、酒精問題、獵物被殺害和驅離，以及農地被奪取等傷害。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 white brutality 是判斷核心。它指白人對原住民施加的殘酷暴力和壓迫。題目把它寫成brutally killed by the European colonists，語氣較具體，但方向仍來自原文的 white brutality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要小心一點：Paragraph E 後面說真正造成大規模人口下降的 crucial factor 是 germs，尤其smallpox。可是 Question 36 沒有說「原住民人口下降主要由殖民者直接殺害造成」。它只說indigenous people had been brutally killed / brutally treated by colonists。原文已經承認Indigenous peoples suffered from white brutality，因此題目方向獲得支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "brutally killed by the European colonists原文： suffered from white brutality改寫關係：● European colonists → white● brutally → brutality● indigenous people → Indigenous peoples判斷題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是把 Question 36 和 Question 30 混在一起。Paragraph E 的確說人口大幅下降的crucial factor 是 germs；但 Question 36 只問原住民是否曾遭白人殘酷對待。這兩件事可以同時成立：白人殘酷行為存在，但解釋 defeat 程度的主要因素是 germs。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "America’s domesticated animals, such as turkeys, became popular in the Old World.",
+      "translation": "美洲的馴化動物，例如火雞，在 Old World 變得受歡迎。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● America’s domesticated animals● turkeys● popular in the Old World這題很明顯定位到 Paragraph F，因為該段談 America’s native / domesticated animals 對 Old World 的影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The export of America’s native animals has not revolutionised Old World agriculture or ecosystems as the introduction of European animals to the New World did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美洲本土動物的輸出，沒有像歐洲動物被引入 New World 那樣徹底改變 Old World 的農業或生態系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of America’s domesticated animals are raised in the Old World, but turkeys have not displaced chickens and geese, and guinea pigs have proved useful in laboratories, but have not usurped rabbits in the butcher shops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些美洲馴化動物在 Old World 被飼養，但火雞沒有取代雞和鵝；豚鼠在實驗室有用，卻沒有在肉店中取代兔子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段重點是：美洲動物輸出後影響有限。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 turkeys 在原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“turkeys have not displaced chickens and geese…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火雞沒有取代雞和鵝。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說：● turkeys became popular in the Old World。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：● some domesticated animals are raised in the Old World；● but turkeys have not displaced chickens and geese。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示火雞雖然被飼養，但沒有成為取代主要家禽的主流動物。題目用 became popular 概括火雞在 Old World 變得很受歡迎，這和原文的 not displaced chickens and geese 方向不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提供相反或限制性資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 are raised in the Old World 誤導。原文確實說一些美洲馴化動物在 Old World 被飼養，但後面馬上限制：火雞沒有取代雞和鵝。被飼養不等於變得非常流行，更不等於取代原有家禽。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Crop exchange between the two worlds played a major role in world population growth.",
+      "translation": "兩個世界之間的作物交換，對世界人口增長起了重要作用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● crop exchange● two worlds● major role● world population growth這題定位到 Paragraph G，因為該段講 crop plants 和 global population explosion。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The New World’s great contribution to the Old is in crop plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New World 對 Old World 的重大貢獻在於作物植物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Columbian Exchange has been an indispensable factor in that demographic explosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Columbian Exchange 是那場人口爆炸不可或缺的因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 crop plants，末句講 demographic explosion。Question 38 的 crop exchange 和population growth 都在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their influence on Old World peoples, like that of wheat and rice on New World peoples, goes far to explain the global population explosion of the past three centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們對 Old World peoples 的影響，就像小麥和稻米對 New World peoples 的影響一樣，在很大程度上解釋了過去三個世紀的全球人口爆炸。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Columbian Exchange has been an indispensable factor in that demographic explosion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Columbian Exchange 是這場人口爆炸不可或缺的因素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 played a major role。原文用了更強的說法：● goes far to explain = 在很大程度上解釋；● indispensable factor = 不可或缺的因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 world population growth。原文對應：● global population explosion● demographic explosion題目說 crop exchange between the two worlds。原文對應：● New World crops 對 Old World peoples；● wheat and rice 對 New World peoples；● Columbian Exchange。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目和原文方向一致，而且原文支持力度很強，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要只看到 Paragraph G 第一段前半講 New World crops 對 Old World 的貢獻，便以為只涉及單向影響。原文中間明確加入 like that of wheat and rice on New World peoples，表示兩個方向的 crop exchange 都在內。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "missionaries and traders",
+      "answerKey": "missionaries and traders",
+      "type": "Short-answer Questions",
+      "prompt": "Which groups reported the same story of European diseases among Indigenous people in the American interior?",
+      "translation": "哪兩類人報告了歐洲疾病在美洲內陸原住民之間造成的同樣情況？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。字數限制是 NO MORE THAN THREE WORDS。題目問 Which groups，所以答案應該是人群名詞，不是疾病名稱，也不是地點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Native American resistance to the Europeans was ineffective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Native Americans 對歐洲人的抵抗並不有效。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1837-38 nearly every last one of the Mandans and perhaps half the people of the high plains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1837 至 1838 年，幾乎所有 Mandans 人，以及高原地區可能一半的人口都被摧毀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中講 disease、smallpox 和 indigenous peoples，所以符合題目中的 European diseases among Indigenous people。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● same story● American interior● European diseases● Indigenous people原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The missionaries and the traders who ventured into the American interior told the same appalling story about smallpox and the indigenes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入美洲內陸的傳教士和商人，講述了同樣令人震驚的故事：天花如何影響原住民。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 Which groups reported the same story。原文的主語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The missionaries and the traders…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案要抄這兩個 groups。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查可填： missionaries and traders字數計算：● missionaries = 1● and = 2● traders = 3符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 smallpox and the indigenes。這是故事內容，不是報告故事的人群。題目問 Which groups，答案必須是人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "demographic triumph",
+      "answerKey": "demographic triumph",
+      "type": "Short-answer Questions",
+      "prompt": "What enduring feature of the Old World’s invasion of the New World remains?",
+      "translation": "Old World 入侵 New World 之後，哪一個持久特徵仍然存在？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這也是 Short-answer Question。字數限制是 NO MORE THAN THREE WORDS。題目問 What feature remains?，所以答案應該是一個名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this had nothing to do with superiority or inferiority of biosystems in any absolute sense.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切和生物系統在絕對意義上的優劣無關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...but the demographic triumph of the invaders, which was the most spectacular feature of the Old World’s invasion of the New, still stands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但入侵者在人口上的勝利，作為 Old World 入侵 New World 最壯觀的特徵，仍然成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接包含題目中的 enduring feature / remains 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● feature● Old World’s invasion of the New● remains原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the demographic triumph of the invaders, which was the most spectacular feature of the Old World’s invasion of the New, still stands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "入侵者在人口上的勝利，是 Old World 入侵 New World 最壯觀的特徵，而且仍然成立。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 What enduring feature … remains?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中：● feature 原字重現；● still stands 對應 remains；● Old World’s invasion of the New 原字重現；● 真正答案名詞是 demographic triumph。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整片語是 the demographic triumph of the invaders，但字數限制是 no more than three words。最核心答案可以縮成： demographic triumph答案形式檢查demographic triumph = 2 words，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 demographic triumph of the invaders，因為：● demographic = 1● triumph = 2● of = 3● the = 4● invaders = 5超過三字限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易多抄。Short-answer 題不只要找到原文，也要遵守字數限制。題目問的是 feature 本身，所以 demographic triumph 已經足夠，不需要把 of the invaders 全部抄下來。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Columbian Exchange.pdf",
+    "sha256": "afa91205f1b23f85a774d889a58ed4920931e5065eb4ce82128bba48c9b99f83",
+    "pageCount": 31
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "用 continental drift 交代 Old World 和 New World 分開的背景，再引入 Columbian Exchange。"
+      },
+      {
+        "number": "B",
+        "summary": "概述 1492 年前兩個世界彼此缺少哪些 crops、animals 和 germs。"
+      },
+      {
+        "number": "C",
+        "summary": "說明歐洲作物、雜草和畜牧活動如何改變美洲植物環境，並提到 “Englishman’s Foot”。"
+      },
+      {
+        "number": "D",
+        "summary": "描述 cattle and horses 被帶到北美後如何適應當地，並解釋 fences 的用途。"
+      },
+      {
+        "number": "E",
+        "summary": "解釋 Native Americans 人口大幅下降的主因，重點是 Old World germs，尤其 smallpox。"
+      },
+      {
+        "number": "F",
+        "summary": "說明美洲動物輸出到 Old World 後影響有限。"
+      },
+      {
+        "number": "G",
+        "summary": "說明 New World crops 對 Old World 飲食和全球人口增長的重要性。"
+      },
+      {
+        "number": "H",
+        "summary": "從環境適應角度總結 Old World species / peoples 在 New World 成功擴張的原因。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "全文段落地圖段落 功能A 用 continental drift 交代 Old World 和 New World 分開的背景，再引入 Columbian Exchange。",
+    "B 概述 1492 年前兩個世界彼此缺少哪些 crops、animals 和 germs。",
+    "C 說明歐洲作物、雜草和畜牧活動如何改變美洲植物環境，並提到 “Englishman’s Foot”。",
+    "D 描述 cattle and horses 被帶到北美後如何適應當地，並解釋 fences 的用途。",
+    "E 解釋 Native Americans 人口大幅下降的主因，重點是 Old World germs，尤其 smallpox。",
+    "F 說明美洲動物輸出到 Old World 後影響有限。",
+    "G 說明 New World crops 對 Old World 飲食和全球人口增長的重要性。",
+    "H 從環境適應角度總結 Old World species / peoples 在 New World 成功擴張的原因。"
+  ]
+}

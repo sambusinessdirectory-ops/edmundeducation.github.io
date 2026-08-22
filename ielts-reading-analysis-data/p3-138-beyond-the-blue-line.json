@@ -1,0 +1,1017 @@
+{
+  "id": "p3-138-beyond-the-blue-line",
+  "catalogueId": "p3-138",
+  "catalogueIds": [
+    "p3-138"
+  ],
+  "passage": 3,
+  "title": "Beyond the blue line",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "H — early seafarers",
+    "L — grave",
+    "A — bones",
+    "C — descendants",
+    "F — proof",
+    "D",
+    "B",
+    "C",
+    "B",
+    "TRUE, as written",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "H — early seafarers",
+      "answerKey": "H — early seafarers",
+      "type": "Summary Completion",
+      "prompt": "“However, a surprising archaeological find on Éfaté began to provide valuable information about the 27 ______.”",
+      "translation": "可是，Éfaté 島上一項驚人的考古發現，開始提供關於 27 ______ 的寶貴資料。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時，Paragraph B 首句提出大問題",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“That question, and others that flow from it, have tantalized inquiring minds for centuries…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個問題，以及由此衍生的其他問題，數百年來一直吸引並困擾着好奇的研究者。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 末句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The discoveries there have also opened a window into the shadowy world of those early voyagers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那裡的發現也打開了一扇窗口，讓人看到那些早期航海者的朦朧世界。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目中的 “archaeological find on Éfaté” 直接帶到 Paragraph B："
+            },
+            {
+              "kind": "quote",
+              "text": "“a startling archaeological find on the island of Éfaté… has revealed an ancient seafaring people…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Éfaté 島上一項驚人的考古發現，揭示了一群古代航海民族。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read 時要看 “ancient seafaring people” 和 “early voyagers”。選項 H “early seafarers” 正好概括這兩個表達。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ancient seafaring people= early seafarers early voyagers= early seafarers選項 G “ancestors” 也有吸引力，因為原文說 “the distant ancestors of today’s Polynesians”。但summary 這一句承接前面 “amazing seafarers” 以及後面的 “early voyagers”，所以 H 更貼合整句功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "L — grave",
+      "answerKey": "L — grave",
+      "type": "Summary Completion",
+      "prompt": "“At the excavation site, a 28 ______ containing 29 ______ of the Lapita was uncovered.”",
+      "translation": "在發掘地點，一個包含 Lapita 的 29 ______ 的 28 ______ 被發現。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時，Paragraph C 首句說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“What we have is a first- or second-generation site containing the graves of some of the Pacific’s first explorers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們看到的是第一代或第二代遺址，包含一些太平洋最早探險者的墓葬。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 末句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…it harbors the bones of an ancient people archaeologists call the Lapita…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它保存着一群古人的骨骸，考古學家稱他們為 Lapita。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，空格 28 前有 “a”，後面有 “containing”，所以需要一個單數名詞。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A backhoe operator… scraped open a grave…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名挖泥機操作員在挖走表土時，刮開了一個墓穴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 填 grave。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — bones",
+      "answerKey": "A — bones",
+      "type": "Summary Completion",
+      "prompt": "Question 29",
+      "translation": "在發掘地點，一個包含 Lapita 的 29 ______ 的墓穴被發現。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "同一句題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the excavation site, a 28 ______ containing 29 ______ of the Lapita was uncovered.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C Scan 時，題目 “containing” 對應原文 “containing the graves” 和 “harbors the bones”。真正填空位置在 “of the Lapita” 前面，所以需要 plural noun。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“…it harbors the bones of an ancient people archaeologists call the Lapita…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它保存着一群古人的骨骸，考古學家稱他們為 Lapita。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 29 填 bones。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "containing= harbors bones of the Lapita= bones of an ancient people archaeologists call the Lapita"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — descendants",
+      "answerKey": "C — descendants",
+      "type": "Summary Completion",
+      "prompt": "“Later, various studies were conducted to investigate the ancient Lapita and their 30 ______.”",
+      "translation": "後來，不同研究用來調查古代 Lapita 以及他們的 30 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E Skim 時，Paragraph E 首句說 Lapita 留下很少線索："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the Lapita left a glorious legacy, they also left precious few clues about themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lapita 留下輝煌遺產，但關於自身的線索非常少。"
+            },
+            {
+              "kind": "label",
+              "text": "末句引用 Spriggs："
+            },
+            {
+              "kind": "quote",
+              "text": "“…to find out who the Lapita actually were, where they came from, and who their closest descendants are today.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "去了解 Lapita 到底是誰、他們從何而來，以及今天誰是他們最接近的後代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目中的 “ancient Lapita and their…” 很明顯對應 “who the Lapita actually were… and who their closest descendants are today”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 descendants。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "investigate the ancient Lapita= find out who the Lapita actually were their descendants= who their closest descendants are today"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "F — proof",
+      "answerKey": "F — proof",
+      "type": "Summary Completion",
+      "prompt": "“But there is no 31 ______ that they could do so.”",
+      "translation": "但沒有 31 ______ 證明他們能做到這一點。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G Skim 時，Paragraph G 先提出 trade winds theory，最後由 Anderson 質疑 canoe evidence。題目中的 “no” 和 “could do so” 應掃描否定證據。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“And there’s no proof that they could do any such thing,” Anderson says."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Anderson 說：「沒有證據證明他們能做到這種事。」答案直接是 proof。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "there is no ______= there’s no proof they could do so= they could do any such thing這裡的 “such thing” 指前一句的 “mastered the advanced art of tacking into the wind”，即掌握逆風搶風航行的高階技術。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — these chemicals cannot conceal one’s origin",
+      "answerKey": "D — these chemicals cannot conceal one’s origin",
+      "type": "Multiple Choice",
+      "prompt": "“The chemical tests indicate that…”",
+      "translation": "化學測試顯示……目標段落：Paragraph E",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 首句說 Lapita 留下很少線索；末句說科學研究可能幫助找出 Lapita 是誰、來"
+            },
+            {
+              "kind": "paragraph",
+              "text": "自哪裡、後代是誰。這段自然是 chemical tests / isotope analysis 的答案段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "chemical tests teeth isotope signatures origin原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then as now, the food and water you consume as a child deposit oxygen, carbon, strontium, and other elements in your still-forming adult teeth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論古今，人童年時攝取的食物和水，會把氧、碳、鍶和其他元素沉積在仍在形成中的成人牙齒裡。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句更關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“The isotope signatures of these elements vary subtly from place to place…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些元素的同位素特徵會因地點不同而有細微差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…tests on the isotopes in your teeth will always reveal your eastern roots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你牙齒中的同位素測試總會揭示你東部的根源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “these chemicals cannot conceal one’s origin”，意思是這些化學痕跡無法隱藏一個人的來源。這是原文 “will always reveal your eastern roots” 的概括改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A 錯在 “varied from childhood to adulthood”。原文說童年攝取的元素沉積在成人牙齒中，沒有說同一個人的牙齒元素由童年到成年改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 方向相反。原文說 isotope signatures “vary subtly from place to place”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 直接和原文態度不合。原文稱這是 “a particularly intriguing clue”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — reveals that the Lapita found the new place by crossing stretches of sea",
+      "answerKey": "B — reveals that the Lapita found the new place by crossing stretches of sea",
+      "type": "Multiple Choice",
+      "prompt": "“The isotope analysis of the Lapita…”",
+      "translation": "對 Lapita 的同位素分析……目標段落：Paragraph E",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "isotope analysis Lapita birth island crossing sea origin原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Isotope analysis indicates that several of the Lapita buried on Éfaté didn’t spend their childhoods here but came from somewhere else.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同位素分析顯示，幾名埋葬於 Éfaté 的 Lapita 並非在這裡度過童年，而是來自其他地方。"
+            },
+            {
+              "kind": "label",
+              "text": "再看後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At some point in their lives, these people left the villages of their birth and made a voyage by seagoing canoe, never to return.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在生命中某個時刻，這些人離開出生村落，乘坐遠洋獨木舟航行，之後再沒有回去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說他們通過海上航行到達新地方，對應 “made a voyage by seagoing canoe”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "didn’t spend their childhoods here= not born / not raised on Éfatécame from somewhere else= left villages of their birth made a voyage by seagoing canoe= crossed stretches of sea錯項分析： A “exactly locates their birth island” 與原文相反，因為原文說 “isotopes can’t pinpoint their precise island of origin”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 有一定相關性，但它比較貼近 DNA 的作用，因為原文說 DNA may also help answer broader questions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “leaves more new questions” 原文沒有這樣說。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — worked their way through the archipelagoes of the western Pacific",
+      "answerKey": "C — worked their way through the archipelagoes of the western Pacific",
+      "type": "Multiple Choice",
+      "prompt": "“According to paragraph F, the ancestors of the Lapita…”",
+      "translation": "根據 Paragraph F，Lapita 的祖先……目標段落：Paragraph F Skim 時，Paragraph F 首句提出 Lapita 航海技術大謎題；末句說 Santa Cruz Islands 離最近陸地230 miles，其中至少 150 miles 看不到陸地。這段處理 ancestors / earlier mariners / sailing skills。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ancestors of the Lapita earlier mariners western Pacific archipelagoes原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those sailing skills, he says, were developed and passed down over thousands of years by earlier mariners who worked their way through the archipelagoes of the western Pacific making short crossings to islands within sight of each other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這些航海技術由更早的水手在數千年間發展並傳承下來；他們穿行於西太平洋群島之間，進行短距離航行，前往視線範圍內的島嶼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “ancestors of the Lapita” 對應 “earlier mariners”。選項 C 幾乎直接重現原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “land that is not accessible to view” 指後來 Lapita 進入 Santa Cruz 方向時的情況，不是earlier mariners。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “farthest voyage of 230 miles” 把 Santa Cruz Islands 的距離誤作 earlier mariners 的能力描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “fully explored the horizons” 原文沒有這項資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B — could return home with various clues",
+      "answerKey": "B — could return home with various clues",
+      "type": "Multiple Choice",
+      "prompt": "“Once out exploring the sea, the sailors…”",
+      "translation": "一旦水手出海探索……目標段落：Paragraph G Skim 時，Paragraph G 首句說 Lapita 向東，方向和 trade winds 相反；末句說沒有人知道他們canoe 外形和 rigging。中間部分會講 Irwin 的航海推測，包括回航和找陸地線索。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Once out sailors clues land return home原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They could sail out for days into the unknown and reconnoiter, secure in the knowledge that if they didn’t find anything, they could turn about and catch a swift ride home on the trade winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可以向未知海域航行數天進行偵察，並安心知道：如果找不到任何東西，他們可以掉頭，借助信風快速回家。"
+            },
+            {
+              "kind": "label",
+              "text": "接着說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once out there, skilled seafarers would detect abundant leads to follow to land: seabirds and turtles, coconuts and twigs carried out to sea by the tides and the afternoon pileup of clouds on the horizon…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦到了海上，熟練水手會察覺大量通向陸地的線索：海鳥、海龜、被潮水帶到海上的椰子和樹枝，以及下午地平線上堆起、常預示遠方有島嶼的雲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 表達不夠精準，但它是四個選項中最接近原文的一項。原文支持兩點：他們若找不到新陸地，可以借 trade winds 回家；若有線索，可以跟着 seabirds、turtles、coconuts、twigs、clouds 尋找陸地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “always found the trade winds unsuitable” 過度絕對。trade winds 逆向時是 headwinds，但回程可幫助他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “sail off into eternity” 原文沒有這種災難性說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “would sail in one direction” 與 “turn about” 不合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE, as written",
+      "answerKey": "TRUE, as written",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Lapita could canoe in the prevailing wind.”",
+      "translation": "Lapita 能夠在盛行風中駕 canoe / 航行。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G Skim 時，Paragraph G 處理 prevailing trade winds、headwinds、return home 和 tacking into the wind 的爭論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Lapita prevailing wind trade winds canoe原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They could sail out for days into the unknown and reconnoiter, secure in the knowledge that if they didn’t find anything, they could turn about and catch a swift ride home on the trade winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可以向未知海域航行數天進行偵察，並安心知道：如果找不到東西，他們可以掉頭，借助信風快速回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "按題目原句 “in the prevailing wind” 來讀，原文支持 Lapita 可以利用 trade winds 回程，所以答案判 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過這題 wording 有一個重要邊界。Paragraph G 後半說："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this presupposes one essential detail… that the Lapita had mastered the advanced art of tacking into the wind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切預設了一個關鍵細節：Lapita 已掌握逆風搶風航行的高階技術。"
+            },
+            {
+              "kind": "label",
+              "text": "Anderson 接着說："
+            },
+            {
+              "kind": "quote",
+              "text": "“And there’s no proof that they could do any such thing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有證據證明他們能做到這種事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，如果題目本來想寫 “The Lapita could canoe into / against the prevailing wind”，答案就應改為 NOT GIVEN，因為原文說沒有證據能證明他們掌握逆風搶風航行。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It was difficult for the sailors to find their way back, once they were out.”",
+      "translation": "水手一旦出海，就很難找到回去的路。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "find their way back once they were out return home trade winds原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…if they didn’t find anything, they could turn about and catch a swift ride home on the trade winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們找不到任何東西，他們可以掉頭，借助信風快速回家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “difficult to find their way back”；原文說他們可以安心知道自己能 “turn about” 並 “catch a swift ride home”。方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "find their way back↔ turn about and catch a swift ride home difficult↔ secure in the knowledge這題的控制詞是 “difficult”。原文沒有表達回程困難，反倒說 prevailing trade winds 令回航成為Irwin theory 的關鍵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The reason why the Lapita stopped sailing farther is still unknown.”",
+      "translation": "Lapita 停止繼續遠航的原因仍然未知。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“However they did it, the Lapita spread themselves a third of the way across the Pacific, then called it quits for reasons known only to them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論他們怎樣做到，Lapita 擴散到太平洋三分之一處後便停止，原因只有他們自己知道。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reason stopped sailing farther unknown原文 “reasons known only to them” 等於讀者、作者、現代研究者都不知道確切原因。題目說 “still unknown”，意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "stopped sailing farther= called it quits reason still unknown= reasons known only to them答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The majority of the Lapita lived in Fiji.”",
+      "translation": "大多數 Lapita 住在 Fiji。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "majority Lapita Fiji原文提到 Fiji："
+            },
+            {
+              "kind": "quote",
+              "text": "“…in their rapid migration eastward they encountered hundreds of islands – more than 300 in Fiji alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他們快速向東遷移時，他們遇到數百個島嶼，單是在 Fiji 就有三百多個。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 Fiji 有超過 300 個島嶼，並且 Lapita 在東遷時遇到很多島。它沒有說大多數 Lapita 住在 Fiji，也沒有提供人口分佈比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資料是： majority of the Lapita= 超過一半 Lapita 人口原文提供的資料是： more than 300 islands in Fiji= Fiji 的島嶼數量很多人口比例缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The navigators could take advantage of El Niño during their further voyages.”",
+      "translation": "航海者在後續遠航中可能受惠於 El Niño。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Rather than give all the credit to human skill and daring, Anderson invokes the winds of change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Anderson 沒有把全部功勞歸於人類技術和膽量，他提出風向變化的作用。"
+            },
+            {
+              "kind": "label",
+              "text": "末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once again this was during a period of frequent El Niño activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這再次發生在 El Niño 活動頻繁的時期。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "El Niño further voyages navigators take advantage原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“El Niño… may have helped scatter the first settlers to the ends of the ocean…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "El Niño 可能幫助第一批定居者散佈到海洋盡頭。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“By reversing the regular east-to-west flow of the trade winds for weeks at a time, these ‘super El Niño events’ might have sped the Pacific’s ancient mariners on long, unplanned voyages…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些「超級 El Niño 事件」會一次數週反轉平常由東向西的信風流向，可能加速太平洋古代水手的長途、非計劃航行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “could” 表示可能性，和原文 “may have helped”, “might have sped”, “could have been key” 一致。若 “take advantage” 理解為「受惠於、借助」，答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要注意邊界：原文說 “unplanned voyages”，所以不能理解成水手有意識地預測並操控 El Niño。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有說 deliberately，所以仍可判 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Beyond the blue line.pdf",
+    "sha256": "440b3e89378a20ad5eba73014afa244efb91119c565537dff8538c8940027ba5",
+    "pageCount": 18
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句由「遠赴世界另一端」的差異感切入，接着把焦點放在 Cook 於 1778 年到達 Hawaii 的驚訝。末句引用他的日記問題：這個民族如何散佈到如此廣闊的海洋？只看首尾句，可以先判斷本段功能是提出全文大謎題：太平洋島嶼相隔極遠，語言文化卻相通。這會引出後文關於 Polynesian /Lapita 來源、航海能力和擴散路線的討論。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Cook 的問題以及相關問題困擾研究者數百年：這些航海者是誰、從何而來、如何找到並殖民遠方島嶼？末句說 Éfaté 的發現打開了一扇窗口，讓人看見早期航海者的朦朧世界。只看首尾句，本段功能很清楚：由大問題轉向新考古發現。後文很可能介紹 Lapita，並說明這個發現如何幫助研究 Polynesians 的遠古祖先。"
+      },
+      {
+        "number": "C",
+        "summary": "首句由 Spriggs 直接定義 excavation site 的重要性：這是第一或第二代遺址，包含太平洋早期探險者的墓葬。末句說這些骨骸屬於考古學家稱為 Lapita 的古人，而名稱來自 New Caledonia 一處發現陶器的海灘。只看首尾句，可以看到本段重點在 burial ground / cemetery / bones / Lapita identity。它負責交代 Éfaté 發現的具體內容。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Lapita 是勇敢的遠洋冒險者，不只探索，也作為移民先鋒，把家人、牲畜、作物和工具帶上旅程。末句說 Lapita 奠定基礎，把語言、習俗和文化傳給後來更有名的 Polynesian descendants。只看首尾句，本段功能是說明 Lapita 的擴張、殖民和文化遺產。這段最適合處理 Lapita spread、legacy、descendants 和 Polynesian connection。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Lapita 留下了輝煌遺產，卻留下很少關於自身的線索。末句引用 Spriggs：這是目前最好的機會去了解 Lapita 是誰、從何而來、今天最接近的後代是誰。只看首尾句，可以推斷本段會介紹科學研究方法，用有限線索追查 origins and descendants。中間的 chemical tests、isotope analysis 和 DNA 很可能是後面細節題的答案區。"
+      },
+      {
+        "number": "F",
+        "summary": "首句提出一個考古學仍未解答的頑固問題：Lapita 如何一次又一次完成古代版 moon landing？末句說最近的陸地 Santa Cruz Islands 幾乎 230 miles 外，至少 150 miles 完全看不到陸地。首尾句顯示本段在處理航海技術之謎：沒有 canoe 或 rigging 實物，也沒有後世口述傳統提供答案，但Lapita 必須能進行看不見陸地的遠洋航行。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Lapita 向東進入太平洋，方向和 prevailing trade winds 相反。末句由 Anderson 質疑：沒有人知道 Lapita 的 canoes 長怎樣或怎樣裝配。只看首尾句，本段功能偏向 presenting a theory and challenge：Irwin 認為 headwinds 幫助探索和回航，熟練水手也會看 seabirds、turtles、clouds等線索；Anderson 則指出，tacking into the wind 缺乏證據。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說無論 Lapita 如何做到，他們擴散到太平洋三分之一後便停止，原因只有他們自己知道。末句說他們面對如此豐富的島嶼資源，可以定居並享受一段時間的 Earth’s last Edens。只看首尾句，本段功能是解釋 Lapita expansion stopped 的情況：原因未知，但可能和人口少、已遇到大量島嶼、資源充足、有條件定居有關。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Anderson 不把全部功勞歸於人類技術和膽量，他提出 winds of change。末句說 Easter Island 的抵達也發生在 frequent El Niño activity 的時期。只看首尾句，可以看到本段轉向氣候解釋：El Niño 可能反轉 trade winds，幫助或推動航海者完成更遠的 voyage。它負責說明 Lapita 之後第二波向 eastern Polynesia、Hawaii、Easter Island 擴散的可能自然因素。"
+      }
+    ]
+  }
+}

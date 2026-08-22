@@ -1,0 +1,1868 @@
+{
+  "id": "p3-112-painters-of-time",
+  "catalogueId": "p3-112",
+  "catalogueIds": [
+    "p3-112"
+  ],
+  "passage": 3,
+  "title": "Painters of time",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "vi",
+    "v",
+    "viii",
+    "i",
+    "iv",
+    "vii",
+    "thousands of years",
+    "tree bark",
+    "overseas museums",
+    "school walls",
+    "B",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "vi — The increasing acclaim for Aboriginal art",
+      "answerKey": "vi — The increasing acclaim for Aboriginal art",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph A 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The works of Aboriginal artists are now much in demand throughout the world, and not just in Australia, where they are already fully recognised…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aboriginal artists 的作品現在在世界各地都很受追捧，而且不只在澳洲受到需求；在澳洲，它們已經得到充分承認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Europe their art is being exhibited at a museum in Lyon, France, while the future Quai Branly museum in Paris … plans to commission frescoes by artists from Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在歐洲，他們的藝術正在法國里昂一間博物館展出；巴黎未來的 Quai Branly museum 也計劃委託澳洲藝術家創作壁畫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經顯示 Aboriginal art 的地位正在擴大：由澳洲本地認可，走向歐洲展覽和巴黎大型博物館委託。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 heading 關鍵詞"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vi 的核心詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The increasing acclaim”"
+            },
+            {
+              "kind": "label",
+              "text": "= 越來越高的讚譽、認可、聲望原文中對應的訊號有："
+            },
+            {
+              "kind": "quote",
+              "text": "“much in demand throughout the world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fully recognised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exhibited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plans to commission”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是需求、認可和展示機會增加的證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 並沒有深入講 Dreaming、歷史壓迫或繪畫技法。它的功能是文章開場，先告訴讀者Aboriginal art 現在已經得到國際藝術機構重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 能覆蓋整段，因為它同時包括：澳洲國家博物館把 40% 展覽空間給 Aboriginal works；歐洲博物館展出 Aboriginal art；巴黎博物館將委託澳洲藝術家創作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 的問題： i “Amazing results from a project” 更貼近 Paragraph D 的 Bardon school-wall project。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv “Early painting techniques and marketing systems” 更貼近 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v “Mythology and history combined” 要等 Paragraph B 才出現 Dreaming 和 stolen land。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 28 答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "v — Mythology and history combined",
+      "answerKey": "v — Mythology and history combined",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their artistic movement began about 30 years ago, but its roots go back to time immemorial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的藝術運動大約三十年前開始，但其根源可追溯到遠古時代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Painting is nothing without history,’ says one such artist, Michael Nelson Tjakamarra.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術家 Michael Nelson Tjakamarra 說：「沒有歷史，繪畫便沒有意義。」首句把現代 artistic movement 和遠古根源連起來；末句直接說 painting 和 history 分不開。這段很可能講 Aboriginal art 的神話根源和歷史背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 heading 關鍵詞"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mythology and history combined”"
+            },
+            {
+              "kind": "label",
+              "text": "神話和歷史結合原文有兩個強訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“All the works refer to the founding myth of the Aboriginal culture, ‘the Dreaming’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有作品都指向 Aboriginal culture 的 founding myth，也就是 Dreaming。"
+            },
+            {
+              "kind": "quote",
+              "text": "“That internal geography … is also the expression of the Aborigines’ long quest to regain the land…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種內在地理也是 Aborigines 長期尋回被奪土地的追尋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All the works refer to the founding myth of the Aboriginal culture, ‘the Dreaming’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有作品都指向 Aboriginal culture 的 founding myth，即 “the Dreaming”。"
+            },
+            {
+              "kind": "label",
+              "text": "這句支援 “Mythology”。接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“That internal geography … is also the expression of the Aborigines’ long quest to regain the land which was stolen from them when Europeans arrived in the nineteenth century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種以筆刷和色彩呈現的內在地理，也表達了 Aborigines 長期尋回土地的追求；那些土地在十九世紀歐洲人到來時被奪走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 “history”。它講的是殖民歷史、土地被奪和文化恢復。整段把 Dreaming 的 mythic layer和 stolen land 的 historical layer 放在一起，所以 heading v 最準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “Belief in continuity” 也和 Dreaming 有關，但更貼近 Paragraph F，因為 F 直接說Dreaming 是 past, present and future。Paragraph B 的重點更偏向 mythology + history，因此答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "viii — Oppression of a minority people",
+      "answerKey": "viii — Oppression of a minority people",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph C 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are now fewer than 400,000 Aborigines living in Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在澳洲生活的 Aborigines 少於 400,000 人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Driven back to the most barren lands or crammed into slums on the outskirts of cities, the Aborigines were subjected to a policy of ‘assimilation’, which involved kidnapping children …and herding the nomadic Aborigines by force into settled communities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aborigines 被趕到最貧瘠的土地，或被擠進城市邊緣的貧民區，並受到 assimilation policy 影響；這包括綁架兒童，以及用武力把游牧的 Aborigines 趕入定居社區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句交代人數少，末句交代壓迫政策。這段很清楚地處理 minority group 的處境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 heading 關鍵詞"
+            },
+            {
+              "kind": "label",
+              "text": "Heading viii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Oppression of a minority people”"
+            },
+            {
+              "kind": "label",
+              "text": "少數族群受壓迫原文中的對應包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“fewer than 400,000”"
+            },
+            {
+              "kind": "quote",
+              "text": "“swamped by … 17.5 million immigrants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“maltreated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Driven back”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crammed into slums”"
+            },
+            {
+              "kind": "quote",
+              "text": "“kidnapping children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by force”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字共同形成 oppression 的語義場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的核心不在藝術本身，而在 Aboriginal people 的歷史遭遇。原文說他們是 original"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“natives”，在澳洲生活了 50,000 年，卻被 newcomers maltreated。接著列出具體壓迫：被趕到貧瘠土地；被擠入城市邊緣貧民區；兒童被帶走，以便更好地融入 European society； nomadic Aborigines 被強制趕入 settled communities。這些內容都指向少數民族被殖民社會壓制和同化。 Heading viii 能完整概括全段。其他 heading 如 “Community art centres” 或 “New religious ceremonies” 完全不能覆蓋這些政治和社會壓迫細節。Question 30 答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "i — Amazing results from a project",
+      "answerKey": "i — Amazing results from a project",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph D 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in one such community, Papunya, near Alice Springs, in the central desert, that Aboriginal painting first came into its own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aboriginal painting 正是在 Papunya 這樣的一個 community 中，首次真正形成自己的現代面貌； Papunya 位於中央沙漠、靠近 Alice Springs。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So there existed a formal vocabulary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當時已經存在一套正式的視覺語彙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 Aboriginal painting 在 Papunya “first came into its own”，末句說這種藝術並非憑空出現，原本已經有 formal vocabulary。中間很可能就是具體 project。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 heading 關鍵詞"
+            },
+            {
+              "kind": "label",
+              "text": "Heading i 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Amazing results from a project”"
+            },
+            {
+              "kind": "label",
+              "text": "某個計劃帶來驚人結果原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1971, a white schoolteacher, Geoffrey Bardon, suggested…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“He gave them brushes, colours and surfaces to paint on…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“He was astounded by the result.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1971, a white schoolteacher, Geoffrey Bardon, suggested to a group of Aborigines that they should decorate the school walls with ritual motifs…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1971 年，一位白人教師 Geoffrey Bardon 建議一群 Aborigines 用 ritual motifs 裝飾學校牆壁。"
+            },
+            {
+              "kind": "label",
+              "text": "這就是 project：裝飾 school walls。接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“He gave them brushes, colours and surfaces to paint on—cardboard and canvases. He was astounded by the result.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他給他們畫筆、顏色和可作畫的表面，包括紙板和畫布。他對結果感到非常驚訝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“astounded” 對應 heading 中的 “Amazing results”。段落後半補充說這些藝術並非突然出現，因為 Aborigines 已有 ground painting、rock painting、body decoration 的長久傳統。可是全段最突出的事件仍是 Bardon 的 project 令 Aboriginal painting 在現代材料上展現出驚人效果。所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "iv — Early painting techniques and marketing systems",
+      "answerKey": "iv — Early painting techniques and marketing systems",
+      "type": "Matching Headings",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph E 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This had already been noted by Europeans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點早已被歐洲人注意到。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painting on bark persisted in the north, whereas the communities in the central desert increasingly used acrylic paint, and elsewhere in Western Australia women explored the possibilities of wax painting and dyeing processes, known as ‘batik’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "北部地區繼續使用 bark painting；中央沙漠的 communities 越來越多使用 acrylic paint；在Western Australia 其他地方，女性則探索 wax painting 和 dyeing processes，也就是 batik。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承接前段 formal vocabulary，末句列出不同地區的繪畫媒介和技法。這段會處理早期媒介、教會支持和市場推廣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 heading 關鍵詞"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iv："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early painting techniques and marketing systems”"
+            },
+            {
+              "kind": "label",
+              "text": "早期繪畫技法和銷售／推廣系統原文支援分成兩組：技法與媒介："
+            },
+            {
+              "kind": "quote",
+              "text": "“tree bark”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rock faces”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bark”"
+            },
+            {
+              "kind": "quote",
+              "text": "“acrylic paint”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wax painting and dyeing processes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“batik”"
+            },
+            {
+              "kind": "label",
+              "text": "市場與推廣："
+            },
+            {
+              "kind": "quote",
+              "text": "“supported by the churches”"
+            },
+            {
+              "kind": "quote",
+              "text": "“helped to sell them to the public”"
+            },
+            {
+              "kind": "quote",
+              "text": "“began to reach overseas museums”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說 early twentieth century missionaries 鼓勵 Aboriginal communities 把 rock-face motifs reproduced on tree bark。這是早期繪畫媒介的轉移：從岩壁圖案到樹皮繪畫。之後："
+            },
+            {
+              "kind": "quote",
+              "text": "“Artists turned out a steady stream of works, supported by the churches, which helped to sell them to the public…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術家穩定地創作作品，受到教會支持；教會幫助把作品賣給公眾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 marketing system。接著 “between 1950 and 1960 Aboriginal paintings began to reach overseas museums”，說明作品進入海外博物館。最後一句再列出不同技法在不同地區延續和變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 heading iv 很完整：既有 early techniques，也有 marketing / selling support。Question 32 答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "vii — Belief in continuity",
+      "answerKey": "vii — Belief in continuity",
+      "type": "Matching Headings",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph F 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What Aborigines depict are always elements of the Dreaming, the collective history that each community is both part of and guardian of.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aborigines 所描繪的永遠是 Dreaming 的元素；Dreaming 是每個 community 既身處其中、也守護著的 collective history。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dreaming is both past, present and future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dreaming 同時是過去、現在和未來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經非常清楚：Dreaming 並非只屬於遠古，它持續存在於現在，也延伸到未來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看 heading 關鍵詞"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Belief in continuity”"
+            },
+            {
+              "kind": "label",
+              "text": "相信某種延續性原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“that moment has never ceased to exist”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perpetuated by the cycle of the seasons and the religious ceremonies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ensure the permanence of that golden age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“past, present and future”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的重點在於 Dreaming 的時間觀。原文引用 Stephane Jacob："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dreaming is not synonymous with the moment when the world was created… For Aborigines, that moment has never ceased to exist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dreaming 不等同於世界被創造的那一刻。對 Aborigines 來說，那一刻從未停止存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 continuity。後面說 Dreaming 透過 seasons 和 religious ceremonies 被perpetuated，也就是被持續延續。再加上最後一句 “past, present and future”，整段完全圍繞時間連續性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “New religious ceremonies” 有干擾，因為段中確實提到 religious ceremonies。不過ceremonies 在這裡只是延續 Dreaming 的方式，不是段落主題。段落的核心是 Dreaming 持續存在，所以答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "thousands of years",
+      "answerKey": "thousands of years",
+      "type": "Flow Chart Completion",
+      "prompt": "“For 34 ______, Aborigines produced ground and rock paintings.”",
+      "translation": "Aborigines 製作地面畫和岩畫已有 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in one such community, Papunya, near Alice Springs, in the central desert, that Aboriginal painting first came into its own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aboriginal painting 正是在 Papunya 這樣的一個 community 中，首次真正形成自己的現代面貌。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So there existed a formal vocabulary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當時已經存在一套正式的視覺語彙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 既講 1971 年 Papunya project，也會回溯 Aboriginal painting 早已有的形式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ground”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rock paintings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“For”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But their art did not come like a bolt from the blue: for thousands of years Aborigines had been‘painting’ on the ground using sands of different colours, and on rock faces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他們的藝術並非突然從天而降：數千年來，Aborigines 一直用不同顏色的沙在地面上「繪畫」，也在岩壁上作畫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子是 “For ______, Aborigines produced ground and rock paintings.” 空格需要一個時間長度。原文直接給出："
+            },
+            {
+              "kind": "quote",
+              "text": "“for thousands of years”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目已經有 “For”，答案可填 thousands of years。這符合 “NO MORE THAN THREE WORDS”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "produced ground and rock paintings= had been “painting” on the ground … and on rock faces所以 Question 34 答案是 thousands of years。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "tree bark",
+      "answerKey": "tree bark",
+      "type": "Flow Chart Completion",
+      "prompt": "“Early twentieth century: churches first promoted the use of 35 ______ for paintings.”",
+      "translation": "二十世紀初，教會首次推動使用 ______ 作畫。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This had already been noted by Europeans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點早已被歐洲人注意到。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painting on bark persisted in the north, whereas the communities in the central desert increasingly used acrylic paint, and elsewhere in Western Australia women explored the possibilities of wax painting and dyeing processes, known as ‘batik’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "北部地區繼續使用 bark painting；中央沙漠 communities 越來越多使用 acrylic paint；Western Australia 其他地方的女性則探索 wax painting 和 dyeing processes，即 batik。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 明顯包含不同繪畫材料和媒介，題目中的 early twentieth century 也在這段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early twentieth century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“churches”"
+            },
+            {
+              "kind": "quote",
+              "text": "“promoted the use of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early twentieth century, Aboriginal communities brought together by missionaries in northern Australia had been encouraged to reproduce on tree bark the motifs found on rock faces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在二十世紀初，澳洲北部由 missionaries 聚集起來的 Aboriginal communities，被鼓勵把岩壁上的圖案複製到 tree bark 上。"
+            },
+            {
+              "kind": "label",
+              "text": "後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Artists turned out a steady stream of works, supported by the churches…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術家穩定地創作作品，並受到教會支持。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “missionaries” 和 “churches” 合併成一個宗教推動系統。原文說 missionaries encouraged communities to reproduce motifs on tree bark。因此空格要填媒介： tree bark注意答案不宜填 “bark” 雖然也可能被接受，但原文更完整、且不超過三字的是 tree bark。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "promoted the use of= encouraged to reproduce on for paintings= motifs found on rock faces reproduced as artworks所以答案是 tree bark。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "overseas museums",
+      "answerKey": "overseas museums",
+      "type": "Flow Chart Completion",
+      "prompt": "“Mid-twentieth century: Aboriginal paintings were seen in 36 ______.”",
+      "translation": "二十世紀中期，Aboriginal paintings 可在 ______ 被看到。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This had already been noted by Europeans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點早已被歐洲人注意到。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painting on bark persisted in the north, whereas the communities in the central desert increasingly used acrylic paint, and elsewhere in Western Australia women explored the possibilities of wax painting and dyeing processes, known as ‘batik’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "北部地區延續 bark painting；中央沙漠 communities 逐漸使用 acrylic paint；Western Australia 其他地方的女性探索 batik。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段除了技法，也交代作品如何被教會支持、出售、進入更廣市場。Question 36 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Mid-twentieth century” 對應原文的 “between 1950 and 1960”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“Mid-twentieth century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“paintings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seen in”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…between 1950 and 1960 Aboriginal paintings began to reach overseas museums.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1950 至 1960 年間，Aboriginal paintings 開始進入 overseas museums。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “were seen in” 是對 “began to reach” 的改寫。原文說作品開始 reach overseas museums，意思是它們被海外博物館收藏、展出或接觸到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “in”，所以答案要是一個地點名詞短語： overseas museums字數兩個，符合 no more than three words。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Mid-twentieth century= between 1950 and 1960 were seen in= began to reach答案是 overseas museums。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "school walls",
+      "answerKey": "school walls",
+      "type": "Flow Chart Completion",
+      "prompt": "“Early 1970s: Aborigines painted traditional patterns on 37 ______ in one community.”",
+      "translation": "1970 年代初，在一個 community 中，Aborigines 把傳統圖案畫在 ______ 上。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was in one such community, Papunya, near Alice Springs, in the central desert, that Aboriginal painting first came into its own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aboriginal painting 正是在 Papunya 這樣的一個 community 中，首次真正形成現代面貌。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So there existed a formal vocabulary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當時已經存在一套正式的視覺語彙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 37 的 “Early 1970s” 和 “one community” 很明顯指向 Paragraph D 的 1971 Papunya event。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Early 1970s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional patterns”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one community”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1971, a white schoolteacher, Geoffrey Bardon, suggested to a group of Aborigines that they should decorate the school walls with ritual motifs…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1971 年，一位白人教師 Geoffrey Bardon 建議一群 Aborigines 用 ritual motifs 裝飾學校牆壁。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “traditional patterns” 對應原文 “ritual motifs”。motifs 是圖案、母題；ritual 表示儀式性的，和 traditional patterns 意思接近。題目問畫在哪裡，原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“decorate the school walls”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： school walls不要填 “cardboard and canvases”。原文後面說 Bardon gave them brushes, colours and surfaces to paint on—cardboard and canvases，這是後續提供的材料；flow chart 的 “traditional patterns on ______ in one community” 對應的是一開始的 school walls project。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — its significance to the group",
+      "answerKey": "B — its significance to the group",
+      "type": "Multiple Choice",
+      "prompt": "“In Paragraph G, the writer suggests that an important feature of Aboriginal art is…”",
+      "translation": "在 Paragraph G 中，作者指出 Aboriginal art 的一項重要特色是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each work is created individually, with a form peculiar to each artist, but it is created within and on behalf of a community who must approve it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每件作品都是個別創作，有每位藝術家獨有的形式；但作品是在 community 之內、代表community 創作，並且必須得到 community 認可。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An artist cannot use a ‘dream’ that does not belong to his or her community, since each community is the owner of its dreams, just as it is anchored to a territory marked out by its ancestors, so each painting can be interpreted as a kind of spiritual road map for that community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術家不能使用不屬於自己 community 的 dream，因為每個 community 都是其 dreams 的擁有者；正如 community 與祖先劃定的 territory 相連，每幅畫也可被理解為該 community 的 spiritual road map。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都強調 community：community must approve、community owns dreams、painting is road map for that community。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paragraph G”"
+            },
+            {
+              "kind": "quote",
+              "text": "“important feature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Aboriginal art”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是指定段落 MCQ，不需要跨段。要找段落反覆出現的概念。Paragraph G 中反覆出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“community”"
+            },
+            {
+              "kind": "quote",
+              "text": "“approve”"
+            },
+            {
+              "kind": "quote",
+              "text": "“belong to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“owner of its dreams”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spiritual road map for that community”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A. its historical context歷史背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 更重視 history，特別是 “Painting is nothing without history.” Paragraph G 也提到ancestors，但主要不是歷史背景，而是 community ownership 和 collective approval。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. its significance to the group它對群體的意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這最貼近 Paragraph G。作品雖由個人創作，卻代表 community，且要得到 community approval。dream 屬於 community，每幅畫也是該 community 的 spiritual road map。這明確顯示Aboriginal art 對 group / community 有重要意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. its religious content宗教內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章其他段落有 Dreaming、religious ceremonies、ritual motifs。可是 Paragraph G 的主線是community ownership，不是宗教內容本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. its message about the environment關於環境的訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 有 territory，但沒有說作品傳遞 environmental message。territory 在這裡和community、ancestors、spiritual road map 有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — ancestors and territory",
+      "answerKey": "D — ancestors and territory",
+      "type": "Multiple Choice",
+      "prompt": "“In Aboriginal beliefs, there is a significant relationship between…”",
+      "translation": "在 Aboriginal beliefs 中，哪兩者之間有重要關係？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each work is created individually, with a form peculiar to each artist, but it is created within and on behalf of a community who must approve it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每件作品都有個別藝術家的獨特形式，但作品在 community 之內、代表 community 創作，並且要得到 community 認可。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An artist cannot use a ‘dream’ that does not belong to his or her community, since each community is the owner of its dreams, just as it is anchored to a territory marked out by its ancestors, so each painting can be interpreted as a kind of spiritual road map for that community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術家不能使用不屬於自己 community 的 dream，因為每個 community 都擁有自己的 dreams；正如它固定在由祖先劃出的 territory 上，每幅畫也可理解為該 community 的 spiritual road map。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段最後一句直接同時出現 ancestors 和 territory。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aboriginal beliefs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significant relationship”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 relationship 不是用 relationship 這個字，而是透過以下句子表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“anchored to a territory marked out by its ancestors”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "固定在一片由祖先劃定的土地上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A. communities and lifestyles原文提到 community，但沒有把 community 和 lifestyle 建立重要關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. images and techniques Paragraph E 有 techniques，Paragraph G 有 paintings / images，但沒有說 beliefs 中 images 和techniques 有重要關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. culture and form Paragraph G 說每件作品有 form peculiar to each artist，但沒有建立 culture and form 的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. ancestors and territory這直接對應 “territory marked out by its ancestors”。Aboriginal belief 中，community 的 dream、territory、ancestors 相互連接。每幅畫因此可被理解為 spiritual road map。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 C。因為 Paragraph G 第一部分確實說 “form peculiar to each artist”，而全文又一直講culture。不過題目問 significant relationship in Aboriginal beliefs，決定答案的是 “territory marked out by its ancestors”，因此 D 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — Aboriginal culture",
+      "answerKey": "C — Aboriginal culture",
+      "type": "Multiple Choice",
+      "prompt": "“In Paragraph I, the writer suggests that Aboriginal art invites Westerners to engage with…”",
+      "translation": "在 Paragraph I 中，作者指出 Aboriginal art 邀請 Westerners 接觸或參與甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘By exporting their paintings as though they were surfaces of their territory, by accompanying them to the temples of Western art, the Aborigines have redrawn the map of their country, into whose depths they were exiled,’ says Yves Le Fur, of the Quai Branly museum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Quai Branly museum 的 Yves Le Fur 說，Aborigines 把畫作當作自己 territory 的表面輸出，並把它們帶到 Western art 的殿堂，從而重新繪畫他們曾被流放至深處的 country map。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their undeniable power prompts a dialogue that has proved all too rare in the history of contacts between the two cultures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些作品不可否認的力量促成一種 dialogue；在兩種文化接觸的歷史中，這種 dialogue 一直非常罕見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 cultural dialogue：Aboriginal territory / country 被帶進 Western art spaces，並促成兩種文化之間的對話。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paragraph I”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Westerners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“engage with”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接說 Westerners，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“temples of Western art”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dialogue”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contacts between the two cultures”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些表達共同指向 Western art world 與 Aboriginal culture 的互動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A. the Australian land Paragraph I 確實有 territory 和 country map，所以 A 有吸引力。但 writer 最後把重點推向"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dialogue … between the two cultures”。因此 land 是入口，最終要接觸的是文化。 B. their own art“Western art” 出現了，但 Aboriginal paintings 被帶到 Western art institutions，目的不是讓Westerners 反思自己的藝術本身。這個選項抓到 Western art 一字，卻沒有抓到 dialogue 的方向。 C. Aboriginal culture正確。Paragraph I 說 Aboriginal paintings 像 territory 的表面，被帶到 Western art temples，並促成 two cultures 之間少見的 dialogue。這表示 Aboriginal art 讓 Westerners 接觸 Aboriginal country、history、territory 和 cultural worldview。概括成 Aboriginal culture 最穩妥。 D. their own history原文有 “history of contacts between the two cultures”，但這不是 Westerners’ own history；它指兩種文化接觸的歷史。D 把 collective cross-cultural history 改成 Westerners 自己的歷史，範圍偏離。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Painters of time.pdf",
+    "sha256": "815d6203ca10c9e1a71454ff71ec77c62666b916cf4a24f53644841c63041182",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句說 Aboriginal artists 的作品現在在全球都很受追捧，不只在澳洲受到承認；最後一句說巴黎未來的 Quai Branly museum 也計劃委託澳洲藝術家創作 frescoes。只看首尾句，可以先估計這段功能是介紹 Aboriginal art 的國際地位上升。它從澳洲本地 recognition，推到歐洲展覽和巴黎博物館計劃。這段最適合對應 heading vi The increasing acclaim for Aboriginal art，因為整段焦點在全球需求、展覽和博物館認可。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說這個 artistic movement 大約三十年前開始，但其根源可追溯到 time immemorial；最後一句引用 Michael Nelson Tjakamarra：「Painting is nothing without history.」只看首尾句，可以估計這段會把 Aboriginal painting 的現代發展、古老神話和歷史經驗連起來。中間提到 Dreaming，以及被歐洲人奪走土地後重新尋回土地的 long quest。這段的核心是 mythology 和 history 同時存在，所以 heading v Mythology and history combined 很合適。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說現在澳洲只有少於 400,000 名 Aborigines；最後一句說 assimilation policy 包括kidnapping children 和強迫 nomadic Aborigines 進入 settled communities。只看首尾句，可以看出這段在交代 Aboriginal people 的人口少數地位和受壓迫歷史。中間的 “swamped”、“maltreated”、“driven back”、“crammed into slums” 都是負面處境。這段明顯不是講藝術技法，而是講一個少數族群遭受壓迫，所以 heading viii Oppression of a minority people 最貼切。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說 Aboriginal painting first came into its own 的地方是 Papunya 這個 community；最後一句說 Aborigines 原本已存在一套 formal vocabulary。只看首尾句，可以先估計這段講 Aboriginal painting 在現代形式中正式發展起來的起點。中間有 1971 年 white schoolteacher Geoffrey Bardon 建議他們用 ritual motifs 裝飾 school walls，結果令他 astounded。這像一個 project 產生驚人效果，所以 heading i Amazing results from a project 很合理。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說這些早已被 Europeans 注意到；最後一句說北部保留 bark painting，中部 desert communities 越來越多用 acrylic paint，Western Australia 的女性探索 batik。只看首尾句，可以估計這段在補充更早期的繪畫媒介和發展系統。中間有 missionaries、tree bark、churches helped sell them、overseas museums。它同時談 techniques 和 marketing / selling support，所以heading iv Early painting techniques and marketing systems 最能覆蓋全段。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說 Aborigines 描繪的永遠是 Dreaming 的元素；最後一句說 Dreaming 同時是 past, present and future。只看首尾句，可以先估計這段在解釋 Aboriginal belief system 對繪畫的核心意義。中間說 Dreaming 是 origins 和 Great Ancestors 的故事，並且透過 seasons 和 religious ceremonies 持續存在。段落重點是 Dreaming 沒有停留在創世一刻，而是持續延續。因此heading vii Belief in continuity 最合適。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說每件作品由個別藝術家創作，有個人形式，但必須在 community 之內、代表 community創作，並由 community approve；最後一句說每幅畫可被理解為該 community 的 spiritual road map。只看首尾句，可以估計這段講 Aboriginal art 的集體性和 community ownership。它不是單純個人藝術表達，還涉及 dream 的歸屬、territory 和祖先劃定的土地。Questions 38 和 39 很可能在這段找答案。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說現今每個 community 都組成 cooperative，並由 art adviser 協助材料、畫廊、博物館和收入分配；最後一句說 exceptional items 在澳洲可賣到 $180,000。只看首尾句，可以估計這段講Aboriginal art 的現代組織制度和商業成功。它延續 Paragraph E 的 sales / marketing 脈絡，但更集中於 cooperative、art adviser 和 proceeds redistribution。雖然本組題目沒有直接問 H，但它有助理解 Aboriginal painting 已進入成熟市場。"
+      },
+      {
+        "number": "I",
+        "summary": "第一句引用 Yves Le Fur，說 Aborigines 透過輸出 paintings as surfaces of their territory，重新繪畫自己的 country map；最後一句說這些作品的力量促成兩種文化之間少有的 dialogue。只看首尾句，可以估計這段是全文總結：Aboriginal art 不只是美術市場成功，也讓 Western art institutions 接觸 Aboriginal territory、memory 和 culture。Question 40 很可能定位到這段，因為它問 Westerners 被邀請 engage with 甚麼。"
+      }
+    ]
+  }
+}

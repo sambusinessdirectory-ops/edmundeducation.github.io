@@ -1,0 +1,831 @@
+{
+  "id": "p3-157-mystery-in-easter-island",
+  "catalogueId": "p3-157",
+  "catalogueIds": [
+    "p3-157"
+  ],
+  "passage": 3,
+  "title": "Mystery in Easter Island",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "v",
+    "ii",
+    "iii",
+    "viii",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "growing population",
+    "racist assumptions",
+    "archaeological and historical",
+    "inhumane behavior"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "v — Early immigrants, rise, and prosperity",
+      "answerKey": "v — Early immigrants, rise, and prosperity",
+      "type": "/ Heading Analysis",
+      "prompt": "Questions 27–30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求我們為 Paragraph B 選一個能概括全段的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時先看首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“In the early 1950s, the Norwegian explorer Thor Heyerdahl popularized the idea that the island had been originally settled by advanced societies of Indians from the coast of South America.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 1950 年代初，挪威探險家 Thor Heyerdahl 推廣一種說法，認為 Easter Island 最早"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由南美海岸的先進印第安社會定居。"
+            },
+            {
+              "kind": "label",
+              "text": "末句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of the plentiful bird, fish and plant food sources, the human population grew and gave rise to a rich religious and artistic culture.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：由於鳥類、魚類和植物食物來源充足，人口增長，並形成了豐富的宗教與藝術文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，最重要的詞是 “original inhabitants”, “Polynesian stock”, “arrived”, “plentiful”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“population grew”, “rich religious and artistic culture”。這些詞共同指向三個部分：早期移民來源、島上繁榮條件、文化興起。 Read 後可見，Thor Heyerdahl 的 South American Indians theory 只是開頭的被否定背景。真正主線是：原住民是 Polynesian stock，可能來自 Marquesas or Society Islands，島上當時有森林、陸鳥、海鳥、魚和植物食物，人口因而增長，文化也隨之形成。因此 heading v 最全面。 Heading vii 有 “Thor Heyerdahl” 這個吸引點，但它只抓到首句，而且該理論在段內被明確說成inaccurate。段落真正功能是講早期定居者與繁榮，不是介紹 Heyerdahl 的理論。 Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ii — The statues served several symbolic purposes"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時先看首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Scholars are unable to definitively explain the function and use of the moai statues.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：學者仍無法明確解釋 moai 石像的功能和用途。"
+            },
+            {
+              "kind": "label",
+              "text": "末句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ahu platforms of Easter Island were the sanctuaries of the people, and the moai statues were the ritually charged sacred objects of those sanctuaries.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Easter Island 的 ahu 平台是人們的聖所，而 moai 石像則是這些聖所中經儀式加持的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "神聖物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時要找 “function”, “use”, “symbols”, “authority”, “power”, “religious”, “political”, “sacred spirit”, “mana”。真正答案句包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“The statues were thus symbols of authority and power, both religious and political.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，這些石像是權威與權力的象徵，兼具宗教和政治意義。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“To the people who erected and used them, they were actual repositories of sacred spirit.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：對建造和使用它們的人來說，它們是神聖精神的真正載體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以本段不是單一說「權力象徵」。它同時涉及 lineage-based authority、religious power、political power、sacred spirit、mana、sanctuary function。Heading ii 的 “several symbolic purposes” 比heading ix 更能概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “Symbols of authority and power” 很吸引，因為原文有近乎相同字眼。但它只覆蓋一個中段細節，沒有包含 mana、sacred spirit 和 sanctuary 這些後半段重點。因此 ii 較佳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii — Ancient sites indicating scientific applications"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Besides its more well-known name, Easter Island is also known as Te-Pito-O-Te-Henua, meaning ‘The Navel of the World’, and as Mata-Ki-Te-Rani, meaning ‘Eyes Looking at Heaven’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：除了較廣為人知的名稱外，Easter Island 也稱為 Te-Pito-O-Te-Henua，意為「世界的肚"
+            },
+            {
+              "kind": "paragraph",
+              "text": "臍」；也稱為 Mata-Ki-Te-Rani，意為「望向天空的眼睛」。"
+            },
+            {
+              "kind": "label",
+              "text": "末句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In their fascinating book, Uriel’s Machine, they suggest that one purpose of the geodetic markers was as part of a global network of sophisticated astronomical observatories dedicated to predicting and preparing for future cometary impacts and crustal displacement cataclysms.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在《Uriel’s Machine》中，他們提出，這些地理測量標記其中一個用途，是作為全球精密"
+            },
+            {
+              "kind": "paragraph",
+              "text": "天文觀測站網絡的一部分，用來預測並準備應對未來彗星撞擊和地殼移位災難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，核心詞是 “geodetic marker”, “astronomical observatory”, “scientific outpost”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mathematically precise grid”, “global network”, “astronomical observatories”。這些詞全部屬於scientific / astronomical application。 Heading x “The Navel of the World” 是真實原文字眼，但它只是首句其中一個古名。整段真正發展方向是：古名和神話細節可能指向地理測量和天文觀測功能。因此 iii 才能概括全段。 Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：提供的 heading list 沒有合適選項"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“In the latter years of the 20th century and the first years of the 21st century, various writers and scientists have advanced theories regarding the rapid decline of Easter Island’s magnificent civilization around the time of the first European contact.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在二十世紀後期和二十一世紀初，不同作者和科學家提出關於 Easter Island 壯麗文明"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在首次歐洲接觸前後快速衰落的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1700 the population dropped to between one-quarter and one-tenth of its former number, and many of the statues were toppled during supposed ‘clan wars’ of the 1600s and 1700s.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到 1700 年，人口跌至原本的四分之一至十分之一之間，許多石像在 1600 和 1700 年"
+            },
+            {
+              "kind": "paragraph",
+              "text": "代所謂的「氏族戰爭」中被推倒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時可見 “resource needs”, “growing population”, “outpace”, “forests”, “cut”, “eroded”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“famine”, “cannibalism”, “social and cultural collapse”。全段功能很清楚：描述一套 ecological collapse / resource-depletion theory，即人口增長耗盡資源，造成糧食危機和社會崩潰。問題是 heading list 沒有類似 “The ecological collapse theory” 或 “Resource depletion and social collapse” 的選項。為何其他選項不合適？ vi “The geology of Easter Island” 屬於 Paragraph A 的地質背景，不合 Paragraph F。 vii “The origin of Thor Heyerdahl’s theory” 沒有出現在 Paragraph F；F 講 Jared Diamond 和collapse theory。 viii “A counterargument to politically motivated misconceptions” 更貼合 Paragraph G，因為 G 明確用 “faulty notions”, “racist assumptions”, “The real truth” 反駁前段理論。 xi “The Norwegian invaders’ legacy” 原文沒有 Norwegian invaders。所以 Paragraph F 是題目設計問題：文章功能明確，但選項缺少正確 heading。 Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：viii — A counterargument to politically motivated misconceptions"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“The faulty notions presented in these theories began with the racist assumptions of Thor Heyerdahl and have been perpetuated by writers, such as Jared Diamond, who do not have sufficient archaeological and historical understanding of the actual events which occurred on Easter Island.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些理論中的錯誤觀念源自 Thor Heyerdahl 的種族主義假設，並被 Jared Diamond"
+            },
+            {
+              "kind": "paragraph",
+              "text": "等缺乏足夠考古和歷史理解的作者延續。"
+            },
+            {
+              "kind": "label",
+              "text": "末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The real truth regarding the tremendous social devastation which occurred on Easter Island is that it was a direct consequence of the inhumane behavior of many of the first European visitors…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：關於 Easter Island 所發生的巨大社會破壞，真正的事實是：它直接源於許多早期歐洲"
+            },
+            {
+              "kind": "paragraph",
+              "text": "訪客的不人道行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，定位詞是 “faulty notions”, “racist assumptions”, “do not have sufficient archaeological and historical understanding”, “The real truth”, “direct consequence”, “inhumane behavior”。這些字清楚顯示作者在反駁前段的 resource-collapse theory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 的 “counterargument” 對應 “The real truth”；“misconceptions” 對應 “faulty notions”；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“politically motivated” 可由 “racist assumptions” 這類意識形態偏見理解出來。因此 G 選 viii。 Heading vii 會吸引學生，因為它有 Thor Heyerdahl。但本段不是介紹 Heyerdahl 理論從何而來；它是在指出錯誤理論的偏見來源，並提出真正原因。因此 viii 更準確。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The first inhabitants of Easter Island were Polynesians, from the Marquesas or Society Islands.”",
+      "translation": "Easter Island 的第一批居民是 Polynesians，來自 Marquesas 或 Society Islands。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B Skim 已顯示 Paragraph B 處理原住民來源和早期繁榮。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“first inhabitants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Polynesians”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Marquesas or Society Islands”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is now recognized that the original inhabitants of Easter Island are of Polynesian stock (DNA extracts from skeletons have confirmed this), that they most probably came from the Marquesas or Society Islands…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：現在人們認為 Easter Island 的原住民屬於 Polynesian 血統；骨骼 DNA 提取結果已證"
+            },
+            {
+              "kind": "paragraph",
+              "text": "實這點。他們最可能來自 Marquesas 或 Society Islands。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read 時要留意兩層內容。第一，Polynesian stock 由 DNA 支持，這直接對應 “were Polynesians”。第二，came from the Marquesas or Society Islands 對應題目的 “from the Marquesas or Society Islands”。原文有 “most probably”，代表具體來源仍帶推測語氣；但題目沒有指定其中一個島群，也沒有加入相反資料。因此以 IELTS-style 判斷，這句和原文方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first inhabitants = original inhabitants Polynesians = Polynesian stock from the Marquesas or Society Islands = came from the Marquesas or Society Islands所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Construction of some moai statues on the island was not finished.”",
+      "translation": "島上一些 moai 石像的建造沒有完成。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“construction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some moai statues”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not finished”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another 600 moai statues, in various stages of completion, are scattered around the island, either in quarries or along ancient roads between the quarries and the coastal areas where the statues were most often erected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：另外 600 座 moai 石像以不同完成階段散落在島上，有些在採石場，有些在採石場與"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沿海豎立地點之間的古道上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read 時要看 “in various stages of completion”。這個短語表示有些已接近完成，有些仍在製作途中。若所有石像都已完成，原文不會說 various stages of completion。因此題目的 “some … was not finished” 是合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "construction was not finished = in various stages of completion some moai statues = another 600 moai statues, scattered around the island答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Moai can be found not only on Easter Island but also elsewhere in Polynesia.”",
+      "translation": "Moai 不只在 Easter Island 找到，也可在 Polynesia 其他地方找到。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs C–D"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Moai”"
+            },
+            {
+              "kind": "quote",
+              "text": "“elsewhere in Polynesia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph D 有一句容易令人誤會："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is assumed that their carving and erection derived from an idea rooted in similar practices found elsewhere in Polynesia…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人們推測，石像的雕刻和豎立源自 Polynesia 其他地方類似做法中的一種想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read 時要分清 “similar practices” 和 “moai statues”。原文只說 Polynesia 其他地方有類似做法，沒有說那些地方也有 moai。類似做法可以是雕刻、立像、祭祀或其他相關傳統，但不能自動等同於 Easter Island 的 moai。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求的命題是： Moai can be found elsewhere in Polynesia.原文提供的是： similar practices found elsewhere in Polynesia.缺少核心資料：其他地方是否真的有 moai。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。它也不適合判 FALSE，因為原文沒有明確說 moai 只存在於 Easter Island。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most archaeologists recognised religious and astronomical functions in the island’s ancient structures.”",
+      "translation": "大多數考古學家承認島上古代結構具有宗教和天文功能。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs D–E這題有兩個部分： religious functions astronomical functions Paragraph D 確實支持宗教功能："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ahu platforms of Easter Island were the sanctuaries of the people, and the moai statues were the ritually charged sacred objects of those sanctuaries.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Paragraph E 對 astronomical function 的說法不同："
+            },
+            {
+              "kind": "quote",
+              "text": "“These ancient names and a host of mythological details ignored by mainstream archaeologists point to the possibility that the remote island may once have been a geodetic marker and the site of an astronomical observatory…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "許曾是地理測量標記和天文觀測站。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Most archaeologists recognised” astronomical functions。原文說 mainstream archaeologists ignored 相關 mythological details，天文觀測站說法主要由 Graham Hancock、Christopher Knight、Robert Lomas 等 alternative scholars 提出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，題目把 alternative theory 說成 most archaeologists 的共識，和原文方向相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The structures of Easter Island served as astronomical outposts for extraterrestrial visitors.”",
+      "translation": "Easter Island 的結構曾作為 extraterrestrial visitors 的天文前哨站。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“astronomical outposts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extraterrestrial visitors”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graham Hancock suggests that Easter Island may once have been a significant scientific outpost of this antediluvian civilization…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Graham Hancock 提出，Easter Island 可能曾是這個遠古文明的重要科學前哨站。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…as part of a global network of sophisticated astronomical observatories…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：作為全球精密天文觀測站網絡的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Read 時，原文確實有 scientific outpost 和 astronomical observatories，但沒有 “extraterrestrial visitors”。“antediluvian civilization” 指某種遠古文明，原文沒有說它來自地球之外，也沒有提到外星訪客。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了 extraterrestrial visitors，這是文章沒有提供的資料。原文也沒有明確否定外星說，所以更準確的判斷是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The theory that depleted natural resources led to the fall of Easter Island is based on a distorted perspective.”",
+      "translation": "自然資源耗盡導致 Easter Island 衰落的理論，是基於一種扭曲的視角。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs F–G Paragraph F 先描述該理論："
+            },
+            {
+              "kind": "quote",
+              "text": "“Basically, these theories state that a few centuries after Easter Island’s initial colonization the resource needs of the growing population had begun to outpace the island’s capacity to renew itself ecologically.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "開始超出島嶼自身生態更新能力。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 評價這些理論："
+            },
+            {
+              "kind": "quote",
+              "text": "“The faulty notions presented in these theories began with the racist assumptions of Thor Heyerdahl…”"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“…writers, such as Jared Diamond, who do not have sufficient archaeological and historical understanding…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “distorted perspective” 對應原文的 “faulty notions”, “racist assumptions”, “do not have sufficient archaeological and historical understanding”。文章明確說這些資源耗盡理論有錯誤觀念和偏見來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "growing population",
+      "answerKey": "growing population",
+      "type": "Summary Completion",
+      "prompt": "“Some say that resources were depleted by a 37 ______.”",
+      "translation": "有人說，資源被一個 ______ 耗盡。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the resource needs of the growing population had begun to outpace the island’s capacity to renew itself ecologically.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，後面需要名詞短語。原文 “growing population” 正好符合文法和字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "racist assumptions",
+      "answerKey": "racist assumptions",
+      "type": "Summary Completion",
+      "prompt": "“The erroneous theories stemmed from the 38 ______ advanced by some scholars.”",
+      "translation": "這些錯誤理論源於一些學者提出的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The faulty notions presented in these theories began with the racist assumptions of Thor Heyerdahl…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "erroneous theories = faulty notions presented in these theories stemmed from = began with racist assumptions = racist assumptions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "archaeological and historical",
+      "answerKey": "archaeological and historical",
+      "type": "Summary Completion",
+      "prompt": "“Earlier writers did not have adequate 39 ______ understanding to comprehend the true nature of events on the island.”",
+      "translation": "早期作者沒有足夠的 ______ 理解，因此未能理解島上事件的真正性質。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…writers, such as Jared Diamond, who do not have sufficient archaeological and historical understanding of the actual events which occurred on Easter Island.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "史理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "adequate = sufficient true nature of events = actual events空格在 understanding 前，所以只填修飾 understanding 的形容詞短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "inhumane behavior",
+      "answerKey": "inhumane behavior",
+      "type": "Summary Completion",
+      "prompt": "“The social devastation was, in fact, a direct result of the 40 ______ of the first European visitors.”",
+      "translation": "事實上，這種社會破壞是第一批歐洲訪客的 ______ 直接造成的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The real truth regarding the tremendous social devastation which occurred on Easter Island is that it was a direct consequence of the inhumane behavior of many of the first European visitors…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "客的不人道行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "direct result = direct consequence social devastation = tremendous social devastation of the first European visitors = of many of the first European visitors答案要照原文拼法填 “behavior”，不要改成 British spelling “behaviour”，因為題目要求從文章取詞。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Mystery in Easter Island.pdf",
+    "sha256": "ddbfc21e1dd533458f51715ae23a97ad977e82aab0c9c071709e0d42d9fc44e4",
+    "pageCount": 14
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Easter Island 是世界著名但少人到訪的考古遺址，又是細小、多山、今日無樹的火山島。末句轉到 Dutch sea captain Jacob Roggeveen 在 Easter Sunday 到訪，並帶出 Easter Island 這個名稱。只看首尾句，可以先判斷本段主要介紹島的基本身份、地理隔離、火山背景，以及名稱來源。若遇到 heading 題，重點應落在「命名故事」，地質資料只是背景。"
+      },
+      {
+        "number": "B",
+        "summary": "首句提出 Thor Heyerdahl 曾推廣「南美印第安人最早定居」的說法。末句說由於鳥類、魚類和植物食物充足，人口增長，並形成豐富的宗教與藝術文化。首尾句顯示本段由一個被推翻的起源說開始，然後轉向真正的早期定居者、島上資源充足、人口上升和文化繁榮。這段最可能處理 early immigrants、rise、prosperity，而非單純介紹 Heyerdahl。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接說這個文化最著名的特色是巨大石像 moai，以及它們曾立在 ahu 平台上。末句說不同大小的石像需要 50 至 150 人用樹木製成的雪橇和滾木拖行。只看首尾句，已可知道本段是 moai的 factual description：數量、位置、大小、重量、材料、搬運方法。它的功能偏向介紹 famous moai，不是解釋宗教功能或島嶼衰落。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說學者仍不能明確解釋 moai 的功能和用途。末句說 ahu 是人們的聖所，moai 是聖所中經儀式加持的神聖物件。首尾句顯示本段會由「功能未完全確定」進入「可能功能解釋」：權威、權力、宗教、政治、祖先精神、mana、聖所。這段不是講石像有多大，而是講石像在社會和宗教制度中的象徵與神聖作用。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Easter Island 另有古名 Te-Pito-O-Te-Henua 和 Mata-Ki-Te-Rani，分別涉及「世界的肚臍」和「望向天空的眼睛」。末句說一些 alternative scholars 認為這些地點可能屬於全球天文觀測網，用來預測彗星撞擊和地殼災變。只看首尾句，可以看出本段進入 alternative theory：古名、地理標記、天文觀測、科學用途。重點是 scientific / astronomical application。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說二十世紀末和二十一世紀初，不同作者與科學家提出 Easter Island 文明快速衰落的理論。末句說到 1700 年人口大幅下降，許多石像在所謂 clan wars 中被推倒。首尾句顯示本段在描述一套「資源枯竭導致社會崩潰」的理論：人口增長、森林砍光、土壤侵蝕、糧食不足、饑荒、混亂、戰爭。提供的 headings 沒有一項準確概括這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說前述理論中的錯誤觀念源自 Thor Heyerdahl 的 racist assumptions，並被 Jared Diamond等缺乏足夠考古和歷史理解的作者延續。末句說真正造成巨大社會破壞的，是早期歐洲訪客的不人道行為，包括奴役、強姦、殺害、疾病和強行帶走島民。首尾句清楚顯示本段在反駁前段的collapse theory，並把原因改回歐洲殖民暴力。"
+      }
+    ]
+  }
+}

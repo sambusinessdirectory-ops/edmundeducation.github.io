@@ -1,0 +1,1320 @@
+{
+  "id": "p3-171-the-importance-of-law",
+  "catalogueId": "p3-171",
+  "catalogueIds": [
+    "p3-171"
+  ],
+  "passage": 3,
+  "title": "The importance of law",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "iv",
+    "vii",
+    "i",
+    "viii",
+    "vi",
+    "ii",
+    "C",
+    "D",
+    "truth",
+    "journalists",
+    "nurses",
+    "dedication",
+    "documents"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "iv — The law applies throughout our lives",
+      "answerKey": "iv — The law applies throughout our lives",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求我們為 Paragraph A 選最能概括全段的 heading。Matching Headings 的重點是找整段主旨，不能只抓一個例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The law influences all of us virtually all the time; it governs almost all aspects of our behavior, and even what happens to us when we are no longer alive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法律幾乎無時無刻影響我們所有人；它規管我們行為的幾乎所有方面，甚至規管我們離世後會發生的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each time we examine a label on a food product, engage in work as an employee or employer, travel on the roads, go to school to learn or to teach, stay in a hotel, borrow a library book, create or dissolve a commercial company, play sports, or engage the services of someone for anything from plumbing a sink to planning a city, we are in the world of law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每當我們看食品標籤、以僱員或僱主身份工作、在道路上行走、上學或教學、住酒店、借圖書館書、成立或解散公司、做運動，或聘請他人做任何服務，從修理洗手盆到規劃城市，我們都身處法律世界之中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的關鍵是 throughout our lives，即「貫穿我們一生」。Paragraph A 反覆出現的概念包括：● all of us● all the time● embryo onwards● no longer alive● food, travel, family, property, work, school, hotel, company, sports這些詞全部指向「法律覆蓋人生和日常生活各部分」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 不只說法律存在，也用大量日常例子證明法律無處不在。由 embryo onwards 到 no longer alive，時間範圍由出生前伸延至死亡後；由 food product label 到 planning a city，活動範圍由個人消費到大型公共規劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading iv The law applies throughout our lives 最能覆蓋全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 的問題在於範圍不合。i 講不同專業知識，較適合 Paragraph C；viii 講法律數量增加，較適合 Paragraph D；vii 講公眾影響法律，較適合 Paragraph B。Paragraph A 的真正焦點是「法律貫穿人生和日常生活」，所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "vii — The public’s increasing ability to influence the law",
+      "answerKey": "vii — The public’s increasing ability to influence the law",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Law has also become much more widely recognised as the standard by which behaviour needs to be judged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法律也愈來愈廣泛地被視為判斷行為的標準。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, law is a versatile instrument that can be used equally well for the improvement or the degradation of humanity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，法律是一種用途多變的工具，既可用於改善人類處境，也可用於使人類退步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段講法律在社會中的地位上升。中間句子進一步說，過去很多人不識字；今天大量人能閱讀，更多人能關心法律，甚至在許多國家協助塑造法律。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading vii 的核心是：● public● increasing ability● influence the law Paragraph B 中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, by contrast, a vast number of people can read, and it is becoming easier for people to take an interest in law, and for the general population to help actually shape the law in many countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，今天有大量人能閱讀；人們更容易對法律產生興趣，而在許多國家，一般民眾也更容易真正協助塑造法律。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 a vast number of people 和 the general population，即一般大眾。核心動詞是take an interest in law 和 help actually shape the law。這不只是知道法律，也包括實際影響法律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading vii 的 The public’s increasing ability to influence the law 正好概括這點：● the public = the general population● increasing ability = it is becoming easier● influence the law = help actually shape the law Paragraph B 前半講法律成為社會判斷標準，後半講公眾因識字和參與而更能接觸及塑造法律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading vii 比其他選項更貼近全段可考主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading v The law has affected historical events 不合，因為本段沒有講具體歷史事件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iii The disadvantages of the legal system 也過重；最後一句只是提醒法律可好可壞，沒有整段討論制度缺點。所以答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "i — Different areas of professional expertise",
+      "answerKey": "i — Different areas of professional expertise",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, of course, puts law in a very significant position.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這當然使法律處於非常重要的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, the lawyer is the only person who has read and made sense of the rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，律師是唯一讀過並理解那些規則的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，本段重點是法律知識的重要性。中間加入 IT skills、IT help desk、computers、internet、communications technology，說明作者會用其他專業知識作比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i 的核心是 professional expertise，即專業技能或專業知識。Paragraph C 中有兩大類專業：第一類是 IT 專業："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those people, for example, with knowledge of computers, the internet, and communications technology are relied upon by the rest of us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，懂電腦、互聯網和通訊科技的人，是其他人所依賴的。"
+            },
+            {
+              "kind": "label",
+              "text": "第二類是法律專業："
+            },
+            {
+              "kind": "quote",
+              "text": "“But legal understanding is just as vital and as universally needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但法律理解同樣重要，也同樣被普遍需要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的邏輯是：現代社會依賴不同專業人士。IT 專才能令學校、公司、醫院和政府機構順利運作；法律專才則理解社會規則。Seinfeld 的比喻把社會比作遊戲，律師就是讀過盒內規則的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading i Different areas of professional expertise 最能概括這段，因為本段比較的是 IT expertise 和 legal expertise。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii 講法律數量增加，Paragraph C 沒有數字和立法量。heading iv 講法律貫穿人生，較適合 Paragraph A。heading vii 講公眾影響法律，Paragraph C 的焦點在專業人士，不在普通大眾。所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "viii — Growth in the number of laws",
+      "answerKey": "viii — Growth in the number of laws",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The number of laws has never been greater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法律的數量從未如此龐大。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Law courts can and do produce new law and revise old law, but they do so having heard the arguments of lawyers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法院可以、也確實會制定新法和修訂舊法，但這是在聽取律師論證後進行的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已直接點出全段焦點：法律數量增加。最後一句補充，在大量法律環境之下，律師和法院也參與法律發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii 的關鍵是 Growth 和 number of laws。Paragraph D 有大量數字證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the UK alone, about 35 new Acts of Parliament are produced every year, thereby delivering thousands of new rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單在英國，每年大約有 35 條新的國會法案產生，帶來數以千計的新規則。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The legislative output of the British Parliament has more than doubled in recent times from 1,100 pages a year in the early 1970s, to over 2,500 pages a year today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國國會的立法產量近年增加超過一倍，由 1970 年代初每年 1,100 頁，增加至今天每年超過2,500 頁。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不只是說法律「很多」，還用每年 35 條新 Acts、thousands of new rules、more than doubled、365 Acts、32,000 statutory instruments 等資料證明法律數量正在增長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii Growth in the number of laws 正好概括段落主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是段落後半講 lawyers help develop the law，學生可能想選其他關於律師的 heading。不過後半只是說明在法律大量增加的制度中，律師如何發揮作用。段落核心由第一句控制：The number of laws has never been greater. 所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "vi — A negative regard for lawyers",
+      "answerKey": "vi — A negative regard for lawyers",
+      "type": "Matching Headings",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, despite their important role in developing the rules, lawyers are not universally admired.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，儘管律師在制定規則方面有重要角色，他們並非普遍受人敬重。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For balance, though, it is worth remembering that there are and have been many heroic and revered lawyers such as the Roman philosopher and politician Cicero and Mahatma Gandhi, the Indian campaigner for independence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，為求平衡，也值得記住，現在和過去都有許多英勇而受尊敬的律師，例如羅馬哲學家兼政治家 Cicero，以及印度獨立運動人士 Mahatma Gandhi。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接指出律師形象不一定正面；尾句雖然補充正面例子，但它是 for balance，即用來平衡前面的負面看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading vi 的核心是 negative regard for lawyers。Paragraph E 中有幾個明顯訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anti-lawyer jokes have a long history going back to the ancient Greeks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反律師笑話有悠久歷史，可追溯至古希臘。"
+            },
+            {
+              "kind": "label",
+              "text": "以及 Hollywood actor 的兒子說："
+            },
+            {
+              "kind": "quote",
+              "text": "“My daddy is a movie actor, and sometimes he plays the good guy, and sometimes he plays the lawyer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我爸爸是電影演員，有時他演好人，有時他演律師。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個笑話把 “good guy” 和 “lawyer” 放成對比，顯示律師常被負面看待。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的主線是：律師雖然重要，公眾形象卻常常不好。古希臘已有 anti-lawyer jokes；現代笑話也把 lawyer 放在 “good guy” 的對立位置。最後提到 Cicero 和 Gandhi，只是提醒讀者不要把所有律師看成負面人物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading vi A negative regard for lawyers 最能概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii Reasons why it is unfair to criticise lawyers 較適合 Paragraph F，因為 Paragraph F 直接回應批評是否公平。Paragraph E 主要呈現負面印象本身，所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "ii — Reasons why it is unfair to criticise lawyers",
+      "answerKey": "ii — Reasons why it is unfair to criticise lawyers",
+      "type": "Matching Headings",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People sometimes make comments that characterise lawyers as professionals who put personal reward above truth or who gain financially from misfortune.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們有時會評論律師，說他們是把個人利益放在真相之上，或從不幸事件中獲利的專業人士。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Greater clarity about these issues, maybe as a result of better public relations, would reduce many aspects of public dissatisfaction with the law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這些問題能更清楚地被公眾理解，也許透過更好的公共關係，很多公眾對法律的不滿都會減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段會處理公眾批評，並解釋誤解如何造成不滿。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的核心是 unfair to criticise lawyers。Paragraph F 有直接證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“But, in general, it is no more just to say that lawyers are bad because they make a living from people’s problems than it is to make the same accusation in respect of nurses or IT consultants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但一般而言，因為律師靠處理人們的問題謀生，就說律師不好，這和用同樣理由指責護士或 IT顧問一樣不公平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接回應批評是否公平。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 給出幾個理由反駁對律師的批評：第一，有些律師或許真的重視金錢多於真相，但這種人也存在於 scientists、journalists 等行業，所以不能把整個職業概括成壞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，靠處理別人的問題謀生並不等於道德有問題；nurses 和 IT consultants 也常處理人的困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，很多律師做 public law work，例如 civil liberties 和 housing，收入不一定高，還需要considerable professional dedication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四，很多法律工作只是 drafting documents，和衝突或不幸無關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 heading ii Reasons why it is unfair to criticise lawyers 最能概括全段。答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C, D",
+      "answerKey": "C, D",
+      "type": "Choose TWO",
+      "prompt": "Questions 34–35",
+      "translation": "作者對今日世界中的法律技能提出了哪兩項說法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which TWO of the following statements does the writer make about legal skills in today’s world?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 multiple-answer 題。黃金手冊提醒，Choose TWO 題要把每個正確選項獨立證明，也要逐一檢查選項是否被文章支持、限制或否定。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看目標段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, of course, puts law in a very significant position.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這當然使法律處於非常重要的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, the lawyer is the only person who has read and made sense of the rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，律師是唯一讀過並理解那些規則的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段要說明法律知識在現代社會的重要性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位詞是：● legal skills● today’s world● writer make about Paragraph C 沒有直接用 “legal skills”，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“But legal understanding is just as vital and as universally needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但法律理解同樣重要，也同樣被普遍需要。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, the lawyer is the only person who has read and made sense of the rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，律師是唯一讀過並理解規則的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "正確選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. Knowledge of the law is as important as computer skills.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說 IT skills 很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those people, for example, with knowledge of computers, the internet, and communications technology are relied upon by the rest of us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "懂電腦、互聯網和通訊科技的人，是其他人所依賴的。"
+            },
+            {
+              "kind": "label",
+              "text": "接著作者說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But legal understanding is just as vital and as universally needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但法律理解同樣重要，也同樣被普遍需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 C 的 Knowledge of the law 對應 legal understanding；as important as computer skills對應 just as vital。所以 C 成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. Society could not function effectively without legal experts.正確。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 用 IT 專才作比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without their knowledge, many parts of commercial and social life today would seize up in minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有他們的知識，今天商業和社會生活的許多部分會在幾分鐘內停頓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後作者說 legal understanding just as vital and as universally needed，再用 Seinfeld 的比喻說，出問題時律師是唯一懂規則的人。這支援 D 的概括：現代社會若缺少法律專才，便難以有效處理規則、衝突和制度運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 legal experts 對應 paragraph C 的 lawyer；function effectively 對應規則被理解和問題被處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A. There should be a person with legal training in every hospital.錯。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說每間醫院有 IT skills 或 IT help desk："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is now someone with IT skills or an IT help desk in every UK school, every company, every hospital…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在英國每間學校、公司、醫院都有具 IT 技能的人或 IT 支援台。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句講 IT，不是法律訓練。A 把 IT 專才的位置改成法律專才，缺乏原文支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. Lawyers with experience in commercial law are the most in demand.錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 commercial life，但沒有說 commercial law，也沒有比較哪一類律師需求最高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E. Schools should teach students about the law.錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提到 school，是說每間學校有 IT help desk；沒有提出學校應教法律。這是把場景字眼school 擴展成教育建議，文章沒有提供這項主張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34–35 答案是 C, D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        34,
+        35
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "truth",
+      "answerKey": "truth",
+      "type": "Summary Completion",
+      "prompt": "“People sometimes say that 36 ______ is of little interest to lawyers, who are more concerned with making money.”",
+      "translation": "人們有時說，律師對 ______ 沒有多少興趣，他們更關心賺錢。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的關鍵是：● of little interest to lawyers● more concerned with making money原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People sometimes make comments that characterise lawyers as professionals who put personal reward above truth or who gain financially from misfortune.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們有時會評論律師，說他們是把個人利益放在真相之上，或從不幸事件中獲利的專業人士。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀文法和改寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 lawyers are more concerned with making money，對應原文 put personal reward above truth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "personal reward 即個人利益或金錢回報；above truth 即把個人利益放在 truth 之上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “that”，後面是 “is of little interest”，需要一個單數抽象名詞。原文唯一合適的一字答案是 truth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 truth。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "journalists",
+      "answerKey": "journalists",
+      "type": "Summary Completion",
+      "prompt": "“This may well be the case with some individuals, in the same way that some 37______ or scientific experts may also be driven purely by financial greed.”",
+      "translation": "這在某些個別人士身上可能確實如此；同樣，有些 ______ 或科學專家也可能純粹受金錢貪念驅使。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位詞是：● some individuals● scientific experts● financial greed原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are undoubtedly lawyers who fit that description, just as there are some scientists, journalists, and others in that category.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，有些律師符合這種描述，就如也有些科學家、記者和其他人屬於這一類。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀空格"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已把 scientists 改寫成 scientific experts，所以空格要填同一句中另一類人：journalists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意答案必須保持原文詞形。原文是複數 journalists，題目也有 “some”，所以填複數形式正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 journalists。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "nurses",
+      "answerKey": "nurses",
+      "type": "Summary Completion",
+      "prompt": "“However, criticising lawyers because their work is concerned with people’s problems would be similar to attacking IT staff or 38 ______ for the same reason.”",
+      "translation": "然而，因為律師的工作涉及人們的問題就批評律師，這就類似因同樣理由攻擊 IT 人員或 ______。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的關鍵是：● criticising lawyers● people’s problems● IT staff● same reason原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But, in general, it is no more just to say that lawyers are bad because they make a living from people’s problems than it is to make the same accusation in respect of nurses or IT consultants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但一般而言，因為律師靠處理人們的問題謀生，就說律師不好，這和用同樣理由指責護士或 IT顧問一樣不公平。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀改寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的 IT consultants 改寫成 IT staff。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文同一句還有 nurses。題目順序改成 “IT staff or ______”，所以空格填 nurses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位是順序不同。原文是 nurses or IT consultants；summary 改成 IT staff or nurses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "IELTS 常會改變順序，所以要看意思和詞性，不要只找相同排列。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 nurses。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "dedication",
+      "answerKey": "dedication",
+      "type": "Summary Completion",
+      "prompt": "“Such work requires them to have 39 ______.”",
+      "translation": "這類工作要求他們具備 ______。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “Such work” 指前一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“many lawyers focus on questions relating, for example, to housing or civil liberties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多律師專注於與房屋或公民自由等問題相關的工作。"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such work is not lavishly remunerated and the quality of the service provided by these lawyers relies on considerable professional dedication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類工作收入並不豐厚，而這些律師所提供服務的質素依賴相當大的專業奉獻。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀空格"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “requires them to have ______”，即這類工作需要律師有某種特質。原文說服務質素依賴considerable professional dedication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格只可填一個字，所以不能填 “professional dedication” 兩字。最核心名詞是 dedication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 dedication。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "documents",
+      "answerKey": "documents",
+      "type": "Summary Completion",
+      "prompt": "“What’s more, a lot of lawyers’ time is spent writing 40 ______ rather than dealing with people’s misfortunes.”",
+      "translation": "此外，很多律師的時間都花在撰寫 ______，而非處理人們的不幸。",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的關鍵是：● a lot of lawyers’ time● writing● rather than dealing with people’s misfortunes原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, much legal work has nothing to do with conflict or misfortune, but is primarily concerned with drafting documents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，很多法律工作與衝突或不幸無關，主要是草擬文件。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀改寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 writing 對應原文 drafting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 rather than dealing with people’s misfortunes 對應原文 has nothing to do with conflict or misfortune。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 drafting 的對象是 documents，而且是單字複數名詞，符合 ONE WORD ONLY。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 documents。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The importance of law.pdf",
+    "sha256": "05fa89336c046f33dc2d7f58eb34c5cb756baf37327dafeef273079c518b0282",
+    "pageCount": 18
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 law 幾乎無時無刻影響所有人，涵蓋行為、出生前後，甚至死亡後的安排；尾句列出看食物標籤、工作、上學、旅行、借書、成立公司、運動、聘請服務等日常情境，最後總結我們都在法律世界之中。只看首尾句，已可估計本段重點是：法律覆蓋人生不同階段和大量日常活動，範圍極廣。"
+      },
+      {
+        "number": "B",
+        "summary": "首句指出 law 已逐漸成為判斷行為的標準；尾句提醒 law 是一種靈活工具，可用來改善人類，也可使人類退步。首尾句之間可預期會談法律觀念如何滲入社會生活，以及更多人因識字和公共參與而能理解甚至影響法律。段落功能大概是：法律不只由專家掌握，公眾和社會標準也愈來愈受法律影響。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說法律因此處於非常重要的位置，並指出快速發展的世界需要各種技能和知識；尾句用Seinfeld 的比喻說，律師是唯一讀過遊戲盒內規則的人。首尾句顯示本段會比較不同專業知識的價值，特別是 IT skills 和 legal understanding。段落功能大概是：像電腦專才一樣，法律專才掌握現代社會運作規則，重要性極高。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接說法律數量從未如此多；尾句說法院能制定新法和修訂舊法，但會先聽取律師的法律論證。只看首尾句，已可見本段主題是法律數量增加，以及在大量規則之下，律師如何幫助市民、組織和法院理解、主張、發展法律。中間數字很可能用來證明立法產量上升，因此本段焦點是法律規模增長。"
+      },
+      {
+        "number": "E",
+        "summary": "首句以 However 轉折，說律師雖然在制定規則方面重要，卻不一定受人敬重；尾句補充也有許多英勇、受尊敬的律師，例如 Cicero 和 Gandhi。首尾句透露本段主要處理公眾對律師的負面印象，同時用正面例子作平衡。中間很可能列出笑話或社會印象，說明律師常被視為不討喜或道德形象較差的職業。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說有人批評律師把個人利益放在真相之上，或從他人不幸中獲利；尾句說，如果公眾更清楚法律如何運作及如何改變，對法律的不滿會減少。首尾句顯示本段會回應對律師的批評，解釋這些批評為何過度簡化，並指出很多法律工作其實涉及公共利益、文件草擬和專業奉獻。段落功能偏向替律師辯護。"
+      }
+    ]
+  }
+}

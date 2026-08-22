@@ -1,0 +1,1855 @@
+{
+  "id": "p3-030-talc-powder",
+  "catalogueId": "p3-030",
+  "catalogueIds": [
+    "p3-030"
+  ],
+  "passage": 3,
+  "title": "Talc Powder",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "A",
+    "B",
+    "A",
+    "C",
+    "B",
+    "20",
+    "extra foam",
+    "waste water",
+    "harmful",
+    "biodegrade",
+    "droplets",
+    "lamination and packing",
+    "grape growers"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B — Olive oil extraction",
+      "answerKey": "B — Olive oil extraction",
+      "type": "Matching Applications",
+      "prompt": "Talc is used to prevent foaming.",
+      "translation": "Talc 用來防止起泡。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 + Paragraph 5 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chewing gum business is, however, just one example of talc’s use in the food sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，香口膠業務只是 talc 在食品領域用途的一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only that, if the waste water is disposed of directly into local fields—often the case in many smaller processing operations—the emulsified oil may take some time to biodegrade and so be harmful to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，如果廢水被直接排到附近田地——這在許多較小型加工場很常見——其中被乳化的油可能需要一段時間才能生物分解，因此可能對環境有害。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you add between a half and 2 per cent of talc by weight during the stirring process, talc absorbs the natural emulsifier in the olives and so boosts the amount of oil you can extract,”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "says Delord."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Delord 說，如果在攪拌過程中按重量加入 0.5% 至 2% 的 talc，talc 會吸收橄欖中的天然乳化劑，從而提高可以提取的油量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段的首尾句，可以先猜它們都在講 olive oil processing。Paragraph 4 說問題， Paragraph 5 說 talc 如何解決問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“foaming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“These olives are easy to recognize because they produce a lot of extra foam during the stirring process, a consequence of an excess of a fine solid that acts as a natural emulsifier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些橄欖很容易辨認，因為它們在攪拌過程中會產生大量額外泡沫；這是過量細小固體造成的結果，而這種固體會像天然乳化劑一樣發揮作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 talc is used to prevent foaming。原文沒有直接寫 prevent foaming，但它先指出 foaming的原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“an excess of a fine solid that acts as a natural emulsifier”"
+            },
+            {
+              "kind": "label",
+              "text": "接著 Paragraph 5 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“talc absorbs the natural emulsifier in the olives”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "talc 會吸收橄欖中的天然乳化劑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來，證據鏈是： extra foam 來自 natural emulsifier→ talc absorbs the natural emulsifier→ 起泡問題得到處理→ 這發生在 olive oil extraction 中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要看到 food sector 就選 chewing gum。這題的控制詞是 foaming，而 foaming 只出現"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 olive oil processing 的 “difficult olives” 段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — Chewing gum manufacture",
+      "answerKey": "A — Chewing gum manufacture",
+      "type": "Matching Applications",
+      "prompt": "Talc is used to prevent stickiness.",
+      "translation": "Talc 用來防止黏住。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how is talc actually used in the manufacture of chewing gum?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 talc 實際上如何用於香口膠製造呢？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“In the factory, talc is also used to dust the gum base pellets and to stop the chewing gum sticking during the lamination and packing process,” Delord adds."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Delord 補充說，在工廠中，talc 也用來撒在 gum base pellets 上，並防止香口膠在壓片和包裝過程中黏住。只看首尾句，Paragraph 3 明顯是 chewing gum manufacture 的具體用途段。題目有 stickiness，最後一句直接出現 “sticking”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“prevent stickiness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文不一定用名詞 stickiness，而用了動詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“to stop the chewing gum sticking”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "防止香口膠黏住。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the factory, talc is also used to dust the gum base pellets and to stop the chewing gum sticking during the lamination and packing process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在工廠中，talc 也用來撒在 gum base pellets 上，並防止香口膠在壓片和包裝過程中黏住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “prevent stickiness” 是名詞化概括；原文的 “stop … sticking” 是動詞形式。意思完全對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● prevent = stop● stickiness = sticking● application = chewing gum manufacture所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — Olive oil extraction",
+      "answerKey": "B — Olive oil extraction",
+      "type": "Matching Applications",
+      "prompt": "Talc is used to boost production.",
+      "translation": "Talc 用來提高產量。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you add between a half and 2 per cent of talc by weight during the stirring process, talc absorbs the natural emulsifier in the olives and so boosts the amount of oil you can extract,”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "says Delord."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Delord 說，在攪拌過程中加入 0.5% 至 2% 的 talc，talc 會吸收橄欖中的天然乳化劑，從而提高可提取的油量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, because talc is chemically inert, it doesn’t affect the colour, taste, appearance or composition of the resulting olive oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，由於 talc 在化學上呈惰性，它不會影響最終橄欖油的顏色、味道、外觀或成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段在說 talc 如何提高 oil yield，同時保持 oil quality。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“boost production”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“boosts the amount of oil you can extract”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提高可以提取的油量。"
+            },
+            {
+              "kind": "label",
+              "text": "後面還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“which again improves the yield”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也再次提高產量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 talc 的作用是： 1. 吸收 natural emulsifier； 2. 增加可提取的 oil amount； 3. platy structure 幫助 oil droplets 變大； 4. improves the yield。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “boosts the amount of oil you can extract” 和 “improves the yield” 概括成 “boost production”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這明顯屬於 olive oil extraction，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — Chewing gum manufacture",
+      "answerKey": "A — Chewing gum manufacture",
+      "type": "Matching Applications",
+      "prompt": "Talc is used as a filler to provide a base.",
+      "translation": "Talc 作為 filler，用來提供 base。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how is talc actually used in the manufacture of chewing gum?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 talc 實際上如何用於香口膠製造呢？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“In the factory, talc is also used to dust the gum base pellets and to stop the chewing gum sticking during the lamination and packing process,” Delord adds."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在工廠中，talc 也用來撒在 gum base pellets 上，並防止香口膠在壓片和包裝過程中黏住。首尾句顯示這段專門解釋 chewing gum 製造中的 talc 用途，題目中的 filler 和 base 都是本段核心詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“filler”"
+            },
+            {
+              "kind": "quote",
+              "text": "“base”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our talc is used as a filler in the gum base.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的 talc 被用作 gum base 中的填充物。"
+            },
+            {
+              "kind": "label",
+              "text": "前文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most important of them is the gum base,” he says. “It’s the gum base that puts the chew into chewing gum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，其中最重要的是 gum base。正是 gum base 讓香口膠有可咀嚼的質感。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的關鍵在 “gum base”。原文先解釋 chewing gum 有四個主要成分，其中最重要的是 gum base，因為它提供 chewing gum 的可咀嚼質感，並把材料結合在一起。然後說 talc 是 gum base的 filler。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● used as a filler = used as a filler● provide a base = in the gum base● application = chewing gum manufacture所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — Fruit crop protection",
+      "answerKey": "C — Fruit crop protection",
+      "type": "Matching Applications",
+      "prompt": "Talc is used to prevent sunburn.",
+      "translation": "Talc 用來防止曬傷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6–8 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the use of talc in olive oil processing and in chewing gum is long established, new applications in the food and agriculture industries are also constantly being sought by Luzenac.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果說 talc 在橄欖油加工和香口膠中的用途已建立很久，Luzenac 也一直在食品和農業產業中尋找新的應用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initial trials in the state of Washington in 2003 showed that when the product was sprayed onto Granny Smith apples, it reduced their surface temperature and lowered the incidence of sunburn by up to 60 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2003 年在 Washington 州的初步試驗顯示，當產品噴在 Granny Smith 蘋果上時，它降低了蘋果表面溫度，並把曬傷發生率降低最多 60%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這幾段首尾句，可以知道這部分轉向 fruit crop protection，尤其是 fruit sunburn。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“sunburn”"
+            },
+            {
+              "kind": "label",
+              "text": "原文多次出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“fruit can get sunburned”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heat stress and sunburn”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lowered the incidence of sunburn by up to 60 per cent”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接的證據是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“So our idea was to coat the fruit with talc to protect it from the sun,” says Greg Hunter."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Greg Hunter 說，所以我們的想法是用 talc 覆蓋水果，以保護它免受陽光傷害。再加上 Paragraph 8：“lowered the incidence of sunburn by up to 60 per cent”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把曬傷發生率降低最多 60%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “prevent sunburn” 概括了 “protect it from the sun” 和 “lowered the incidence of sunburn”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一用途屬於 fruit crop protection。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — Olive oil extraction",
+      "answerKey": "B — Olive oil extraction",
+      "type": "Matching Applications",
+      "prompt": "Talc is used to help increase the size of the product.",
+      "translation": "Talc 用來幫助增加產品中某物的大小。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you add between a half and 2 per cent of talc by weight during the stirring process, talc absorbs the natural emulsifier in the olives and so boosts the amount of oil you can extract,”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "says Delord."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Delord 說，在攪拌過程中加入 0.5% 至 2% 的 talc，talc 會吸收橄欖中的天然乳化劑，從而提高可提取的油量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, because talc is chemically inert, it doesn’t affect the colour, taste, appearance or composition of the resulting olive oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，由於 talc 在化學上呈惰性，它不會影響最終橄欖油的顏色、味道、外觀或成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段集中講 talc 在 olive oil extraction 中如何改善油的提取。題目中的 “increase the size” 是重要定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“increase the size”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, talc’s flat, ‘platy’ structure helps increase the size of the oil droplets liberated during stirring, which again improves the yield.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，talc 扁平、片狀的結構有助於增加攪拌時釋放出的油滴大小，這也會提高產量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “the product” 在語意上指向油提取過程中的 oil droplets。原文不是說水果變大，也不是說香口膠變大；它明確說："
+            },
+            {
+              "kind": "quote",
+              "text": "“increase the size of the oil droplets”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "油滴變大後，更容易分離出來，進一步提高 olive oil yield。因此應配到 olive oil extraction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 product 可能令人想到 fruit crop protection，但原文真正出現 “increase the size”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的地方是 oil droplets，不是 fruit size。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "20",
+      "answerKey": "20",
+      "type": "Summary Completion",
+      "prompt": "The use of talc powder in the olive oil industry in Spain has been around for 33 ______years.",
+      "translation": "Talc powder 在西班牙橄欖油產業中的使用已經大約有 ______ 年。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chewing gum business is, however, just one example of talc’s use in the food sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香口膠業務只是 talc 在食品領域用途的一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only that, if the waste water is disposed of directly into local fields—often the case in many smaller processing operations—the emulsified oil may take some time to biodegrade and so be harmful to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，如果廢水直接排到附近田地，其中被乳化的油可能需要一段時間才能生物分解，因此可能對環境有害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段開始轉入 olive oil processors in Spain，因此題目問 Spain olive oil industry 的時間，應看這段開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“olive oil industry in Spain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“has been around”"
+            },
+            {
+              "kind": "quote",
+              "text": "“years”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the past 20 years or so, olive oil processors in Spain have been taking advantage of talc’s unique characteristics…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去大約 20 年裡，西班牙的橄欖油加工商一直利用 talc 的獨特特性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格後已經有 “years”，所以答案只需填數字 20。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果填 “20 years”，整句會變成 “for 20 years years”，形式不正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “20 years or so” 表示大約二十年。題目句子已經把 “or so” 的大約語氣略去，答案仍取核心數字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 20。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "extra foam",
+      "answerKey": "extra foam",
+      "type": "Summary Completion",
+      "prompt": "“difficult” olives which often produce a lot of 34 ______ due to the high content of solid matter.",
+      "translation": "“difficult” olives 常因固體物質含量高而產生大量 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“The chewing gum business is, however, just one example of talc’s use in the food sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香口膠業務只是 talc 在食品領域用途的一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only that, if the waste water is disposed of directly into local fields—often the case in many smaller processing operations—the emulsified oil may take some time to biodegrade and so be harmful to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，如果廢水直接排到附近田地，其中被乳化的油可能需要一段時間才能生物分解，因此可能對環境有害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中間解釋 difficult olives 的特徵。題目給出 “difficult olives” 和 “solid matter”，定位範圍很小。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult olives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“solid matter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produce a lot of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“These olives are easy to recognize because they produce a lot of extra foam during the stirring process, a consequence of an excess of a fine solid that acts as a natural emulsifier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些橄欖很容易辨認，因為它們在攪拌過程中產生大量額外泡沫；這是過量細小固體造成的結果，而這種固體會像天然乳化劑一樣作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “high content of solid matter” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“an excess of a fine solid”"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “produce a lot of” 原文也完全重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce a lot of extra foam”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案可直接取 extra foam。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若只填 “foam”，意思也成立，但原文完整短語是 “extra foam”，字數也符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 extra foam。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "waste water",
+      "answerKey": "waste water",
+      "type": "Summary Completion",
+      "prompt": "The traditional method of oil extraction used in some smaller plants often produces 35______, which contains emulsified oil…",
+      "translation": "一些較小型工廠使用的傳統提油方法常會產生 ______，其中含有被乳化的油。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chewing gum business is, however, just one example of talc’s use in the food sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香口膠業務只是 talc 在食品領域用途的一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only that, if the waste water is disposed of directly into local fields—often the case in many smaller processing operations—the emulsified oil may take some time to biodegrade and so be harmful to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，如果廢水直接排到附近田地——這在許多較小型加工場很常見——其中被乳化的油可能需要一段時間才能生物分解，因此可能對環境有害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句中最後一句直接有 “waste water” 和 “emulsified oil”，題目也有 smaller plants / emulsified oil，所以目標句非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“smaller plants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“emulsified oil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disposed of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“if the waste water is disposed of directly into local fields—often the case in many smaller processing operations—the emulsified oil may take some time to biodegrade…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果廢水直接排到附近田地——許多小型加工場常有這種情況——其中被乳化的油可能需要一段時間才能分解……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子需要一個名詞短語作為 “produces” 的賓語。原文提供的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the waste water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它包含 emulsified oil，並可能被排放到 local fields。空格限制為最多兩字，waste water 正好兩字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 waste water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "harmful",
+      "answerKey": "harmful",
+      "type": "Summary Completion",
+      "prompt": "if it is directly disposed of, it may be 36 ______ to the environment",
+      "translation": "如果它被直接排放，可能對環境 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chewing gum business is, however, just one example of talc’s use in the food sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香口膠業務只是 talc 在食品領域用途的一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only that, if the waste water is disposed of directly into local fields—often the case in many smaller processing operations—the emulsified oil may take some time to biodegrade and so be harmful to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，如果廢水直接排到附近田地，其中被乳化的油可能需要一段時間才能生物分解，因此可能對環境有害。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“environment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disposed of directly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“be harmful to the environment”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對環境有害。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“it may be ______ to the environment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“be harmful to the environment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要形容詞，答案是 harmful。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 harmful。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "biodegrade",
+      "answerKey": "biodegrade",
+      "type": "Summary Completion",
+      "prompt": "because it cannot 37 ______.",
+      "translation": "因為它不能 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chewing gum business is, however, just one example of talc’s use in the food sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香口膠業務只是 talc 在食品領域用途的一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only that, if the waste water is disposed of directly into local fields—often the case in many smaller processing operations—the emulsified oil may take some time to biodegrade and so be harmful to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，如果廢水直接排到附近田地，其中被乳化的油可能需要一段時間才能生物分解，因此可能對環境有害。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot”"
+            },
+            {
+              "kind": "quote",
+              "text": "“environment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“may take some time to biodegrade”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能需要一段時間才能生物分解。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “cannot”，所以答案需要一個動詞原形。原文提供的動詞是 biodegrade。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "嚴格來說，原文的語氣是 “may take some time to biodegrade”，意思是「需要較長時間才能分解」。題目句子用 “cannot” 把語氣寫得更強；考題此處主要要求學生填入原文動詞，所以答案仍是biodegrade。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 biodegrade。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "droplets",
+      "answerKey": "droplets",
+      "type": "Summary Completion",
+      "prompt": "But adding talc powder can absorb the emulsifier and increase the production, because the oil 38 ______ increase in size.",
+      "translation": "加入 talc powder 可以吸收乳化劑並提高產量，因為油 ______ 會變大。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you add between a half and 2 per cent of talc by weight during the stirring process, talc absorbs the natural emulsifier in the olives and so boosts the amount of oil you can extract,”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "says Delord."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Delord 說，在攪拌過程中加入 0.5% 至 2% 的 talc，talc 會吸收橄欖中的天然乳化劑，從而提高可以提取的油量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, because talc is chemically inert, it doesn’t affect the colour, taste, appearance or composition of the resulting olive oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，由於 talc 在化學上呈惰性，它不會影響最終橄欖油的顏色、味道、外觀或成分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“increase in size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“oil”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, talc’s flat, ‘platy’ structure helps increase the size of the oil droplets liberated during stirring, which again improves the yield.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，talc 扁平、片狀的結構有助於增加攪拌時釋放出的油滴大小，這也會提高產量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子已有 “the oil ______”，所以空格填 droplets，組成 “oil droplets”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● oil droplets increase in size = increase the size of the oil droplets● increase the production = improves the yield● adding talc absorbs emulsifier = talc absorbs the natural emulsifier所以 38 是 droplets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "lamination and packing",
+      "answerKey": "lamination and packing",
+      "type": "Short-answer Questions",
+      "prompt": "What are the final two stages of the chewing-gum manufacturing process?",
+      "translation": "香口膠製造過程最後兩個階段是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how is talc actually used in the manufacture of chewing gum?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 talc 實際上如何用於香口膠製造呢？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“In the factory, talc is also used to dust the gum base pellets and to stop the chewing gum sticking during the lamination and packing process,” Delord adds."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Delord 補充說，在工廠中，talc 也用來撒在 gum base pellets 上，並防止香口膠在壓片和包裝過程中黏住。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“final two stages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chewing-gum manufacturing process”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中與 manufacturing process 相關的最後兩個工序是："
+            },
+            {
+              "kind": "quote",
+              "text": "“lamination and packing process”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目問 final two stages，原文最後一句列出："
+            },
+            {
+              "kind": "quote",
+              "text": "“during the lamination and packing process”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個名詞就是答案。字數限制最多三字，lamination and packing 正好三字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 lamination and packing。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "grape growers",
+      "answerKey": "grape growers",
+      "type": "Short-answer Questions",
+      "prompt": "Which group of farmers does Invelop intend to target next?",
+      "translation": "Invelop 下一步打算瞄準哪一類農民？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Initial trials in the state of Washington in 2003 showed that when the product was sprayed onto Granny Smith apples, it reduced their surface temperature and lowered the incidence of sunburn by up to 60 per cent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2003 年在 Washington 州的初步試驗顯示，當產品噴在 Granny Smith apples 上時，它降低了蘋果表面溫度，並把曬傷發生率降低最多 60%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He is also hopeful of extending sales to overseas markets such as Australia, South America and southern Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也希望把銷售擴展到澳洲、南美和南歐等海外市場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是 Invelop 的市場發展段落。題目問 target next，所以要找 primary target 後面的 long-term potential。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Invelop”"
+            },
+            {
+              "kind": "quote",
+              "text": "“target next”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apple growers are the primary target although Hunter believes grape growers represent another sector with long-term potential.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蘋果種植者是主要目標，不過 Hunter 認為葡萄種植者代表另一個具有長期潛力的領域。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apple growers are the primary target”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即目前主要目標是 apple growers。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“grape growers represent another sector with long-term potential”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即 grape growers 是下一個有長期潛力的市場。題目把 “another sector with long-term potential”改寫成 “target next”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案最多三字，grape growers 兩字，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 grape growers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. B 28. A 29. B 30. A 31. C 32. B 33. 20 34. extra foam 35. waste water 36. harmful 37. biodegrade 38. droplets 39. lamination and packing 40. grape growers"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Talc Powder.pdf",
+    "sha256": "83915ecb3d3de6300b36587d34b7d377f4cc12932585e855b522ff83833b0730",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹 Trimouns 位於法國 Pyrenees 高山，是一個巨大的 talc 礦床；尾句說 talc 真正的多用途，在食品和農業某些 niche markets 中表現得最明顯。只看首尾句，可以先估計本段是全文引入：先交代 talc 的來源、化學名稱和日常用途，再把焦點轉到本文主題——talc 在 food and agriculture industries 中的特殊用途。"
+      },
+      {
+        "number": "2",
+        "summary": "首句用 chewing gum business 作第一個例子；尾句說 chewing gum manufacturers 若已找到可用的 talc grade，即使價格高，也通常不願轉換供應商。只看首尾句，可估計本段主要說 talc 在香口膠市場中的商業供應關係。這段未必解釋 talc 如何加入香口膠，較多是說 Luzenac 供應量、可靠來源、長期客戶關係和 reformulating cost。"
+      },
+      {
+        "number": "3",
+        "summary": "首句直接問 talc 實際上如何用於 chewing gum manufacture；尾句說 talc 在工廠中也用來 dust gum base pellets，並防止香口膠在 lamination and packing 過程中黏住。只看首尾句，可以預測本段會回答香口膠製造的具體用途。這段是 A 類題的核心段落，尤其是 filler、gum base、non-reactive、dusting、sticking、lamination、packing。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 chewing gum 只是 talc 在 food sector 中的一個例子，接著轉到 Spain olive oil processors；尾句說 waste water 中的 emulsified oil 需要時間分解，可能對環境有害。只看首尾句，可以看到本段會介紹 talc 在 olive oil extraction 中的背景、工序和問題：difficult olives、extra foam、emulsifier、oil loss、waste water 和 environmental harm。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說在 stirring process 中加入 0.5% 至 2% talc，可以吸收 olives 中的 natural emulsifier，從而增加可提取的油量；尾句說 talc chemically inert，不會影響 olive oil 的顏色、味道、外觀或成分。只看首尾句，可估計本段重點是 talc 如何改善橄欖油產量，同時不改變最終產品品質。這段特別對應 boost production 和 oil droplets。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Luzenac 除了已有的 olive oil 和 chewing gum 用途，也不斷尋找新的食品和農業應用；尾句指出傷害水果的主要因素，更準確地說是陽光造成的 high surface temperature，而非紫外線本身。只看首尾句，可以估計本段把話題轉到 fruit crop protection，尤其是 fruit sunburn、heat stress 和高溫對農作物的影響。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說為了應對 fruit sunburn，農民通常使用 chemicals 或在果樹上方噴灑細霧；尾句說沒有人會想要一個 covered in talc 的蘋果。只看首尾句，可以推測本段在比較傳統防曬方法的問題和talc coating 的技術挑戰。重點包括 water use、waterlogging、hydrophobic talc、wettable powder、suspension、wash off easily。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 2003 年在 Washington 的初步試驗顯示，產品噴在 Granny Smith apples 上能降低表面溫度，並把 sunburn incidence 降低最多 60%；尾句說 Hunter 希望把銷售擴展到 Australia、South America 和 southern Europe。只看首尾句，可以估計本段是 fruit crop protection 的結果和市場展望：Invelop Maximum SPF、apple growers、grape growers 和海外市場。"
+      }
+    ]
+  }
+}

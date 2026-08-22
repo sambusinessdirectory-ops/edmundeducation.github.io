@@ -41,7 +41,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 4997, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 5154, "the Homework/Schedule catalogue should include every current learning resource, downloadable file, Common Expression lesson, IELTS Listening part and learning portal");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -54,7 +54,7 @@ assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be inde
 assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
 assert.equal((byType["writing-submission"] || []).length, 321, "every Writing Practice exercise should have a Writing Submission assignment link");
-assert.equal((byType["reading-analysis"] || []).length, 296, "all unique available IELTS Reading analyses should be indexed once");
+assert.equal((byType["reading-analysis"] || []).length, 453, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
 assert.equal((byType["download-material"] || []).length, 857, "every item in the DSE/IELTS download portal should be indexed");
 assert.equal((byType["common-expression"] || []).length, 172, "all six Common Expression catalogues should be indexed");
@@ -163,7 +163,7 @@ for (const [articleId, article] of Object.entries(readingAnalysisAvailability.ar
   );
   assert.equal(resource.ordinal, records[0].sourceOrder, `reading analysis should retain its first catalogue order: ${articleId}`);
 }
-assert.equal(mappedReadingCatalogueIds.size, 300, "296 unique analyses should cover all 300 currently available Passage 1 and Passage 2 catalogue positions");
+assert.equal(mappedReadingCatalogueIds.size, 457, "453 unique analyses should cover all 457 currently available Passage 1, 2 and 3 catalogue positions");
 for (const unavailableId of ["p1-033", "p1-053", "p1-066", "p1-164"]) {
   assert.equal(mappedReadingCatalogueIds.has(unavailableId), false, `${unavailableId} must stay unavailable until analysis content exists`);
 }
@@ -869,7 +869,7 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260820-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260822-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20260820-email-hotkey1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /isDownload \? "↓" : "↗"/, "download materials should be visibly presented as downloads to students");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

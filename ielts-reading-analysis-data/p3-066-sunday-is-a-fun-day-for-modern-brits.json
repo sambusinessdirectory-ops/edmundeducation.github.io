@@ -1,0 +1,1885 @@
+{
+  "id": "p3-066-sunday-is-a-fun-day-for-modern-brits",
+  "catalogueId": "p3-066",
+  "catalogueIds": [
+    "p3-066"
+  ],
+  "passage": 3,
+  "title": "Sunday Is a Fun Day for Modern Brits",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "C",
+    "C",
+    "A",
+    "diaries",
+    "high tea",
+    "an average of",
+    "gender-segregated",
+    "playing football",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — mornings",
+      "answerKey": "A — mornings",
+      "type": "Multiple Choice",
+      "prompt": "According to the diaries, in 1961, women rarely had free time on Sunday…",
+      "translation": "根據日記，1961 年女性在星期日甚麼時段很少有空閒時間？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The contrast between the two periods could not be more striking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個時期之間的對比非常鮮明。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then there would be another rush to the table between 5 p.m. and 6 p.m. for high tea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後在下午 5 點至 6 點之間，人們又會趕回餐桌吃 high tea。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 2 主要描述 1961 年的星期日傳統生活，特別是家務和固定用餐時間。題目問 1961 年 women 的 free time，這段正好提到女性在 Sunday mornings 的活動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“1961”"
+            },
+            {
+              "kind": "quote",
+              "text": "“women”"
+            },
+            {
+              "kind": "quote",
+              "text": "“free time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 free time，而用 “leisure” 表達相同概念。掃描 Paragraph 2，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women rarely allowed themselves any ‘leisure’ until the afternoon, after the dishes were cleaned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女性很少讓自己在下午以前有任何「休閒」，通常要等碗碟清洗完之後才可以。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 women rarely had “leisure” until the afternoon。這句的時間邏輯很重要：如果要到下午才有 leisure，代表早上通常沒有 free time。題目問 “rarely had free time on Sunday…”，空格選項是 mornings / afternoons / evenings。原文支援的是 Sunday mornings。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● free time = leisure● rarely had free time = rarely allowed themselves any leisure● Sunday mornings = before the afternoon, when chores and cooking were being done選項 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B afternoons 不對，因為原文說女性到下午才開始有 leisure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C evenings 沒有相應證據。Paragraph 2 的傍晚重點是 high tea，不是女性沒有空閒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 27 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — they are tired on Saturdays",
+      "answerKey": "C — they are tired on Saturdays",
+      "type": "Multiple Choice",
+      "prompt": "People want to do more on Sundays because…",
+      "translation": "人們想在星期日做更多事，原因是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the arrival of brunch, the gastropub and the all-you-can-eat Sunday buffet at the local curry house, such traditional mealtimes have largely disappeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從 brunch、gastropub 和本地咖喱店的星期日任食自助餐出現後，這些傳統用餐時間大多已經消失。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sundays are the last bastion of the weekend – you want to get as much as possible out of the day before you have to go back to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星期日是週末最後的堡壘；在你必須回去上班前，你想盡量從這一天得到最多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會解釋現代英國人為何把星期日看成娛樂、外出和把握週末的日子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 people want to do more on Sundays，直接對應這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“do more on Sundays”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You only have two free days a week. You don’t want to have to waste one because there is nothing to do but watch TV. Sunday has leapfrogged Saturday in the fun stakes. On Saturdays, you are recovering from the week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你一星期只有兩天自由時間。你不想因為除了看電視外沒有事可做，就浪費其中一天。在娛樂方面，星期日已經超越了星期六。星期六時，你正在從一星期的疲勞中恢復過來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這題的核心原因在兩句之間："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sunday has leapfrogged Saturday in the fun stakes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "星期日在娛樂性方面超越星期六。"
+            },
+            {
+              "kind": "quote",
+              "text": "“On Saturdays, you are recovering from the week.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "星期六時，人們還在從一星期的工作疲勞中恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以人們更想在星期日做更多事，因為星期六常用來恢復精力，星期日成為真正把握週末的日子。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. more shops are open Paragraph 4 確實提到 shopping 改變星期日，但 Question 28 的原因句集中在 Saturday recovery，不是商店數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. it is a good day to graze Paragraph 3 說 “we graze throughout the day”，意思是整天零散進食。這是飲食模式改變，不是人們想做更多事的主因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. they are tired on Saturdays正確。它對應 “On Saturdays, you are recovering from the week.”所以 28 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — men do as much shopping as women",
+      "answerKey": "C — men do as much shopping as women",
+      "type": "Multiple Choice",
+      "prompt": "Shopping habits have changed since 1961 in that…",
+      "translation": "自 1961 年以來，購物習慣有甚麼變化？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to researchers, the ability to trail around B&Q has made the most dramatic difference to our Sundays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者認為，可以在 B&Q 逛街購物，對我們的星期日造成了最戲劇性的改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Men now stay in bed longer, and get up not, as previously, to work around the house, but rather to shop or to pursue other outside leisure activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代男性會在床上待久一點；起床後，他們不像以往那樣主要做家務，更多會去購物或從事其他戶外休閒活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見 Paragraph 4 的主題是 shopping 變得更重要，也變得更不分男女。Question 29 問 shopping habits，所以目標段落很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“shopping habits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changed since 1961”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有明確比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1961, adults spent an average of 20 minutes a day shopping; by 2001, it was 50 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1961 年，成年人每天平均花 20 分鐘購物；到 2001 年，這個時間是 50 分鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "更重要的是下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shopping used to be a gender-segregated activity that would take place during the week, while the husband was at work. Now it’s as much a male activity as a female one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購物以前是一種按性別分隔的活動，通常在平日、丈夫上班時進行。現在，它既是男性活動，也是女性活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "決定答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now it’s as much a male activity as a female one.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句表示現代購物活動中，男性參與程度和女性相若。題目選項 C “men do as much shopping as women” 正好把這句換成較直接的說法。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. people shop less at weekends原文方向相反。Paragraph 4 說 shopping on Sundays 增加，而且平均購物時間由 20 分鐘升至50 分鐘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. men shop more than women原文說 “as much a male activity as a female one”，意思是男女差不多，不是男性多於女性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. men do as much shopping as women正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — women do far less housework on Sundays",
+      "answerKey": "A — women do far less housework on Sundays",
+      "type": "Multiple Choice",
+      "prompt": "Compared with 1961,…",
+      "translation": "與 1961 年相比，現在星期日家務分工有甚麼變化？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Men do about the same amount of unpaid work around the house on Sundays as they used to, but it is spread throughout the whole day, instead of crammed into the morning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男性星期日在家做的無薪工作量和以往差不多，但現在分散在整天，而不是擠在早上完成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“But by 2001, the shapes of men’s and women’s Sundays were much more similar,” says the report."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但報告指出，到 2001 年，男性和女性星期日的生活形態已經相似得多。只看首尾句，可見本段專門比較男女在星期日做家務和休閒的變化。Question 30 問 compared with 1961，這段就是最直接位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“Compared with 1961”"
+            },
+            {
+              "kind": "quote",
+              "text": "“women / men”"
+            },
+            {
+              "kind": "quote",
+              "text": "“housework”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women do considerably less than 40 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女性比 40 年前做得少得多。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句也重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Men do about the same amount of unpaid work around the house on Sundays as they used to…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男性星期日在家做的無薪工作量和以前差不多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目比較的是 1961 和現代。原文提供兩個方向：● Men：about the same amount男性家務量大致相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● Women：considerably less女性做得少很多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此正確答案一定集中在 women 的變化。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. women do far less housework on Sundays正確。far less 對應 considerably less。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. men do far less housework on Sundays原文說 men do about the same amount，和 B 不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. men and women do far less housework on Sundays原文只明確支持 women do considerably less；men 的量大致相同，所以 C 範圍太大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "diaries",
+      "answerKey": "diaries",
+      "type": "Sentence Completion",
+      "prompt": "Professor Gershuny discovered thousands of 31 ______ at the BBC.",
+      "translation": "Professor Gershuny 在 BBC 發現了數以千計的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a new study, Essex University sociologists have dissected the typical British Sunday and found we get up later and do fewer chores than we did 40 years ago – and we are far more likely to be out shopping or enjoying ourselves than cooking Sunday lunch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項新研究中，Essex University 的社會學家剖析了典型英國星期日，發現我們比 40 年前起床較晚、做較少家務，也更可能外出購物或娛樂，而不再主要煮星期日午餐。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then they compared the results with 3,500 diaries written in 1961, a treasure trove of information that had been uncovered ‘in two egg boxes and a tea chest’ in the basement of the BBC by ISER’s director, Professor Jonathan Gershuny.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，他們把結果與 1961 年寫成的 3,500 份日記比較；這些日記是一批珍貴資料，由 ISER 主任 Professor Jonathan Gershuny 在 BBC 地庫中、兩個蛋盒和一個茶箱裡發現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Gershuny”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discovered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“BBC”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“uncovered … in the basement of the BBC by … Professor Jonathan Gershuny”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“uncovered” 在這裡等於 discovered。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Gershuny 在 BBC 地庫發現的是：“3,500 diaries written in 1961”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目改成 “thousands of ______”，所以空格只需要填核心名詞 diaries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案 diaries 來自原文，1 個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 diaries。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "high tea",
+      "answerKey": "high tea",
+      "type": "Sentence Completion",
+      "prompt": "In 1961, people ate 32 ______ at 5 or 6 o’clock.",
+      "translation": "1961 年，人們在 5 點或 6 點吃 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The contrast between the two periods could not be more striking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個時期之間的對比非常鮮明。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then there would be another rush to the table between 5 p.m. and 6 p.m. for high tea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後在下午 5 點至 6 點之間，人們又會趕回餐桌吃 high tea。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“1961”"
+            },
+            {
+              "kind": "quote",
+              "text": "“5 or 6 o’clock”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“between 5 p.m. and 6 p.m.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“for high tea”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “ate” 對應原文 “rush to the table for…”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“5 or 6 o’clock” 對應 “between 5 p.m. and 6 p.m.”。真正被吃的東西是 high tea。答案是兩個字，直接取自原文，符合 NO MORE THAN THREE WORDS。所以 32 是 high tea。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "an average of",
+      "answerKey": "an average of",
+      "type": "Sentence Completion",
+      "prompt": "In 2001, people spent 33 ______ 50 minutes on shopping on Sundays.",
+      "translation": "2001 年，人們在星期日購物花了 ______ 50 分鐘。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to researchers, the ability to trail around B&Q has made the most dramatic difference to our Sundays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者認為，可以在 B&Q 逛街購物，對我們的星期日造成了最明顯的改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Men now stay in bed longer, and get up not, as previously, to work around the house, but rather to shop or to pursue other outside leisure activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代男性會在床上待久一點；起床後更多會去購物或從事其他戶外休閒活動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“2001”"
+            },
+            {
+              "kind": "quote",
+              "text": "“50 minutes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shopping”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1961, adults spent an average of 20 minutes a day shopping; by 2001, it was 50 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1961 年，成年人每天平均花 20 分鐘購物；到 2001 年，這個時間是 50 分鐘。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“people spent ______ 50 minutes”"
+            },
+            {
+              "kind": "label",
+              "text": "要令句子文法自然，空格要填一個修飾時間數字的短語。原文前半句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“spent an average of 20 minutes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2001 年 “it was 50 minutes”，it 指前面的 average shopping time。因此題目重寫成 “spent an average of 50 minutes”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案 an average of 是三個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 an average of。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "gender-segregated",
+      "answerKey": "gender-segregated",
+      "type": "Sentence Completion",
+      "prompt": "Shopping is something that is not as 34 ______ as it was in 1961.",
+      "translation": "購物不像 1961 年那樣 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to researchers, the ability to trail around B&Q has made the most dramatic difference to our Sundays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者認為，可以在 B&Q 逛街購物，是星期日最大變化之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Men now stay in bed longer, and get up not, as previously, to work around the house, but rather to shop or to pursue other outside leisure activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代男性起床後更多會去購物或從事其他戶外休閒活動，而不是像以前那樣主要做家務。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shopping”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not as … as it was in 1961”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shopping used to be a gender-segregated activity that would take place during the week, while the husband was at work. Now it’s as much a male activity as a female one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購物以前是一種按性別分隔的活動，通常在平日、丈夫上班時進行。現在，它既是男性活動，也是女性活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “not as ______ as it was in 1961”，所以要找 1961 年購物的特徵，然後填入形容詞。原文說以前 shopping was a gender-segregated activity。現在則是男女都參與。因此題目要說的是： shopping is not as gender-segregated as it was in 1961。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案 gender-segregated 直接取自原文，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 gender-segregated。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "playing football",
+      "answerKey": "playing football",
+      "type": "Sentence Completion",
+      "prompt": "In 1961, men would often go for a drink or be 35 ______ before lunch.",
+      "translation": "1961 年，男性午餐前常會去喝一杯，或者 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Men do about the same amount of unpaid work around the house on Sundays as they used to, but it is spread throughout the whole day, instead of crammed into the morning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男性星期日做的無薪家務量和以前差不多，但現在分散於整天，而不再擠在早上完成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“But by 2001, the shapes of men’s and women’s Sundays were much more similar,” says the report."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但到 2001 年，男女星期日的生活形態已經相似得多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“1961”"
+            },
+            {
+              "kind": "quote",
+              "text": "“men”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before lunch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“go for a drink”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, men and women were ‘pretty much different species’ in 1961, as far as the way they spent Sundays was concerned, with men far more likely to be out of the house – at the pub or playing football – before lunch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，就星期日生活方式而言，1961 年的男女幾乎像不同物種；男性午餐前更可能外出，在酒吧或踢足球。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “go for a drink” 對應原文 “at the pub”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一句另一個活動是 “playing football”。題目寫 “or be ______”，所以填入 playing football 最自然："
+            },
+            {
+              "kind": "quote",
+              "text": "“be playing football”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是兩個字，直接取自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 playing football。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Mr. Atchison usually eats out.",
+      "translation": "Atchison 先生通常外出用餐。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sunday for me is all about holding on to the weekend and trying to stave off Monday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對我來說，星期日就是抓住週末，盡量推遲星期一的來臨。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I often go to Camden market, as I love the international foods on offer and hunting for bargains and vintage clothes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我常去 Camden market，因為我喜歡那裡提供的國際美食，也喜歡尋找便宜貨和復古衣服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 是 Atchison 的現代休閒型星期日，包含外出吃東西、逛市場和娛樂。題目問 usually eats out，應在這段找他的用餐習慣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr. Atchison”"
+            },
+            {
+              "kind": "quote",
+              "text": "“usually”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eats out”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes we cook, but more often I go out to get a roast or bangers and mash at a gastropub.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時我們會自己煮，但更常見的是，我會外出到 gastropub 吃 roast 或 bangers and mash。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “usually eats out”。原文沒有用 usually，但有 “more often I go out”。“more often” 表示較常發生，意思上足以支持 usually。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：● 主體：Mr. Atchison● 動作：usually eats out● 時間：Sunday context原文命題：● 主體：Atchison● 動作：more often I go out to get food● 時間：Sunday routine兩者方向一致，所以 36 是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Mrs. Hallows’ husband does no household chores on Sundays.",
+      "translation": "Hallows 太太的丈夫星期日完全不做家務。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I am usually at home making the Sunday lunch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我通常在家做星期日午餐。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When I was growing up, my dad would do the gardening and paint the fences while my mum would do housework.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我成長時，爸爸會做園藝和油漆圍欄，而媽媽會做家務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見 Paragraph 7 談 Hallows 家庭中的星期日分工。題目問丈夫是否完全不做household chores，應該細看 Mark 的活動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mrs. Hallows’ husband”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does no household chores”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的丈夫名字是 Mark："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mark potters around – last Sunday, he tidied the garage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mark 會在家裡東摸摸西弄弄；上星期日，他整理了車房。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “does no household chores”，核心是 no，表示完全沒有。原文卻提供了反例："
+            },
+            {
+              "kind": "quote",
+              "text": "“last Sunday, he tidied the garage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整理車房屬於家中雜務或家務活動。即使 Hallows 太太做 Sunday lunch 和洗衣，丈夫並非完全沒有做任何事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：● 主體：Mrs Hallows’ husband● 動作：does no household chores● 程度：no = 完全沒有原文命題：● 主體：Mark● 動作：tidied the garage● 時間：last Sunday原文提供相反例子，所以 37 是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Mrs. Hallows thinks the shops are too busy on Sundays.",
+      "translation": "Hallows 太太認為星期日商店太多人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I am usually at home making the Sunday lunch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我通常在家做星期日午餐。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When I was growing up, my dad would do the gardening and paint the fences while my mum would do housework.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我成長時，爸爸會做園藝和油漆圍欄，媽媽會做家務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段描述 Hallows 的家庭型星期日，也包含她對 Sunday shopping 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mrs. Hallows”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“too busy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“I don’t like shopping on a Sunday because every man and his dog is out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我不喜歡星期日購物，因為每個人都出來了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“every man and his dog is out” 是英語習語，意思是到處都是人、非常多人外出。題目把這句改寫成 “the shops are too busy on Sundays”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● every man and his dog is out = very crowded / too many people● I don’t like shopping on a Sunday = she thinks Sunday shopping is unpleasant● shops are too busy = shopping places are crowded題目和原文同方向，所以 38 是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Mr. Jones is a widower.",
+      "translation": "Jones 先生是鰥夫，即妻子已去世的男性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we were at home, I would get out in the garden, and my late wife Rose would cook the Sunday lunch and do the housework.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以前我們在家時，我會到花園裡去，而我已故的妻子 Rose 會煮星期日午餐和做家務。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, I get up on Sundays and spend a couple of hours reading the newspapers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，我星期日起床後會花幾個小時讀報紙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 8 明顯是 Bryan Jones 對過去與現在星期日的回憶。題目問他是否widower，第一句已經有強定位詞 “late wife”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr. Jones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“widower”"
+            },
+            {
+              "kind": "label",
+              "text": "原文不用 widower，而用："
+            },
+            {
+              "kind": "quote",
+              "text": "“my late wife Rose”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“late wife” 是固定說法，意思是已故妻子。若一名男性的妻子已去世，他就是 widower。這是直接、短距離的身份推論。題目命題：● 主體：Mr Jones● 身份：widower原文命題：● 主體：Bryan Jones● 資料：my late wife Rose兩者相符，所以 39 是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Mr. Jones does household chores on Sundays.",
+      "translation": "Jones 先生星期日會做家務。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we were at home, I would get out in the garden, and my late wife Rose would cook the Sunday lunch and do the housework.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以前我們在家時，我會到花園裡去，而我已故的妻子 Rose 會煮星期日午餐和做家務。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, I get up on Sundays and spend a couple of hours reading the newspapers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，我星期日起床後會花幾個小時讀報紙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到這段有明顯時間對比：以前他和妻子在家時的星期日，以及現在他的星期日。題目用現在式 “does”，所以要特別留意現時習慣，而不能直接套用 1961 年的回憶。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mr. Jones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does household chores”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on Sundays”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中與 chores 相關的資料有幾處："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we were at home, I would get out in the garden, and my late wife Rose would cook the Sunday lunch and do the housework.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以前我們在家時，我會到花園裡去，而已故妻子 Rose 會煮星期日午餐和做家務。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1961, we had just moved to Bristol, and I spent Sunday maintaining the new house.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1961 年，我們剛搬到 Bristol，我花星期日維護新房子。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, I get up on Sundays and spend a couple of hours reading the newspapers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，我星期日起床後會花幾個小時讀報。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題最容易混淆時間。原文確實說 Jones 以前會在花園工作，1961 年也花星期日維護新房子。不過題目用了現在式 “does household chores on Sundays”，看起來是在問他現在星期日是否做家務。"
+            },
+            {
+              "kind": "label",
+              "text": "關於現在，原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, I get up on Sundays and spend a couple of hours reading the newspapers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只提供他現在會讀報，沒有說他現在做家務，也沒有說他現在完全不做家務。因此資料不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不選 TRUE？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 TRUE 需要原文支持「他現在星期日做家務」。1961 年的 maintaining the new house 是過去資料，不能直接變成現在習慣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不選 FALSE？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為原文沒有明確說他現在星期日不做家務。讀報幾小時不排除一天中其他時間可能做其他事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. A 28. C 29. C 30. A 31. diaries 32. high tea 33. an average of 34. gender-segregated 35. playing football 36. TRUE 37. FALSE 38. TRUE 39. TRUE 40. NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Sunday Is a Fun Day for Modern Brits.pdf",
+    "sha256": "8255660244b0428a9c23d97f08105c3ae57706ae59704a162ba162a19c261112",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 Essex University 的社會學家研究英國人的典型星期日，發現現代英國人起床較遲、家務較少，也更常外出購物或娛樂；尾句說研究者把 2001 年的一萬份日記，與 1961 年在 BBC 地庫發現的 3,500 份日記比較。只看首尾句，可見本段是研究背景：資料來源是 Sunday diaries，核心比較是 1961 和 2001 的生活模式差異。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說兩個時期之間的對比非常鮮明；尾句說 1961 年下午 5 至 6 點又會有一波人回到餐桌吃high tea。只看首尾句，可以估計本段集中描述 1961 年星期日的傳統模式：早上忙家務、女性尤其辛苦，中午有正式 Sunday lunch，傍晚再吃 high tea。這段會回答女性空閒時間和 1961 年餐飲習慣。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說自從 brunch、gastropub 和 all-you-can-eat Sunday buffet 出現後，傳統用餐時間大多消失；尾句說星期日是週末最後堡壘，人們想在回到工作前盡量享受這一天。只看首尾句，可見本段在解釋現代星期日為何變得更自由、更娛樂化。它會支援「為何人們想在星期日做更多事」這類題目。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說研究者認為，能夠在 B&Q 逛街購物，是改變星期日最明顯的因素；尾句說現代男性起床較遲，起床後不再主要做家務，更多是購物或從事戶外休閒活動。只看首尾句，可以判斷本段主題是 Sunday shopping 的增加，以及購物不再主要屬於女性。這段會回答 shopping time 和gender-segregated shopping。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說男性在星期日做的無薪家務量和以往差不多，只是分散到整天；尾句說到 2001 年，男女星期日的生活形態已經相似得多。只看首尾句，可見本段比較男女星期日家務和休閒分工：1961 年差異很大，女性早上多做家務；2001 年女性家務大減，男女模式更接近。這段會回答 housework變化和 men before lunch。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Jonathan Bentley Atchison 認為星期日是「抓住週末、推遲星期一」的一天；尾句說他常去Camden market，喜歡那裡的國際美食、尋找 bargains 和 vintage clothes。只看首尾句，可見這是一個年輕倫敦上班族的現代星期日：吃 gastropub、看報紙、喝 Guinness、探索倫敦、購物、看電影。這段會回答他是否常外食。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Hazel Hallows 通常在家做 Sunday lunch；尾句回憶她小時候，父親會做 gardening 和paint fences，母親做 housework。只看首尾句，可見這段提供一個較傳統家庭模式：她仍在家煮飯和洗衣，丈夫 Mark 週日留在家，有時整理車房；她不喜歡星期日購物，因為人太多。這段會回答丈夫是否完全不做家務，以及她對星期日購物的看法。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Bryan Jones 回憶以前在家時，他會到花園，亡妻 Rose 會煮 Sunday lunch 和做家務；尾句說現在他星期日起床後會花幾小時讀報。只看首尾句，可以估計本段用老人回憶 1961 年的星期日：當年有修屋、洗衣、探親、開車去郊外或 garden centres；現在則較安靜。這段會回答他是否喪偶，以及現時星期日家務是否有足夠證據。"
+      }
+    ]
+  }
+}

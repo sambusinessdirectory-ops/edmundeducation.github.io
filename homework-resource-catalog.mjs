@@ -28514,6 +28514,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "proverb-system.html?lesson=proverb-03"
   },
   {
+    "id": "reading-analysis:p3-105-talented-or-gifted",
+    "type": "reading-analysis",
+    "ordinal": 105,
+    "label": "Answer Analysis - IELTS Reading - ‘talented' or ‘gifted'?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-105-talented-or-gifted"
+  },
+  {
     "id": "reading-analysis:p1-071-3d-printers",
     "type": "reading-analysis",
     "ordinal": 71,
@@ -28528,6 +28536,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - A decibel Hell (The Effects of Living in a Noisy World)",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-121-a-decibel-hell-the-effects-of-living-in-a-noisy-world"
+  },
+  {
+    "id": "reading-analysis:p3-016-a-library-at-your-fingertips",
+    "type": "reading-analysis",
+    "ordinal": 16,
+    "label": "Answer Analysis - IELTS Reading - A LIBRARY AT YOUR FINGERTIPS",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-016-a-library-at-your-fingertips"
   },
   {
     "id": "reading-analysis:p2-088-a-meat-eaters-counter",
@@ -28570,6 +28586,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-089-ac-or-dc-the-war-of-currents"
   },
   {
+    "id": "reading-analysis:p3-038-accidental-scientists",
+    "type": "reading-analysis",
+    "ordinal": 38,
+    "label": "Answer Analysis - IELTS Reading - Accidental Scientists",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-038-accidental-scientists"
+  },
+  {
     "id": "reading-analysis:p2-114-acquiring-the-principles-of-mathematics-and-science",
     "type": "reading-analysis",
     "ordinal": 114,
@@ -28602,12 +28626,36 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-069-albert-einstein"
   },
   {
+    "id": "reading-analysis:p3-166-alfred-nobel-the-man-behind-the-nobel-prize",
+    "type": "reading-analysis",
+    "ordinal": 166,
+    "label": "Answer Analysis - IELTS Reading - Alfred Nobel: The man behind the Nobel Prize",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-166-alfred-nobel-the-man-behind-the-nobel-prize"
+  },
+  {
+    "id": "reading-analysis:p3-073-all-you-need-to-know-about-snow",
+    "type": "reading-analysis",
+    "ordinal": 73,
+    "label": "Answer Analysis - IELTS Reading - ALL YOU NEED TO KNOW ABOUT SNOW",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-073-all-you-need-to-know-about-snow"
+  },
+  {
     "id": "reading-analysis:p1-080-alternative-energy-sources",
     "type": "reading-analysis",
     "ordinal": 80,
     "label": "Answer Analysis - IELTS Reading - ALTERNATIVE ENERGY SOURCES",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-080-alternative-energy-sources"
+  },
+  {
+    "id": "reading-analysis:p3-026-amateur-naturalists",
+    "type": "reading-analysis",
+    "ordinal": 26,
+    "label": "Answer Analysis - IELTS Reading - Amateur Naturalists",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-026-amateur-naturalists"
   },
   {
     "id": "reading-analysis:p1-143-ambergris",
@@ -28698,6 +28746,38 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-049-are-artists-liars"
   },
   {
+    "id": "reading-analysis:p3-078-are-these-two-reporters-on-the-same-planet",
+    "type": "reading-analysis",
+    "ordinal": 78,
+    "label": "Answer Analysis - IELTS Reading - Are these two reporters on the same planet?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-078-are-these-two-reporters-on-the-same-planet"
+  },
+  {
+    "id": "reading-analysis:p3-097-are-you-being-served",
+    "type": "reading-analysis",
+    "ordinal": 97,
+    "label": "Answer Analysis - IELTS Reading - Are You Being Served?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-097-are-you-being-served"
+  },
+  {
+    "id": "reading-analysis:p3-098-are-you-experienced",
+    "type": "reading-analysis",
+    "ordinal": 98,
+    "label": "Answer Analysis - IELTS Reading - Are You Experienced?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-098-are-you-experienced"
+  },
+  {
+    "id": "reading-analysis:p3-156-art-in-iron-and-steel",
+    "type": "reading-analysis",
+    "ordinal": 156,
+    "label": "Answer Analysis - IELTS Reading - Art in Iron and Steel",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-156-art-in-iron-and-steel"
+  },
+  {
     "id": "reading-analysis:p1-112-astronaut-ice-cream-anyone",
     "type": "reading-analysis",
     "ordinal": 112,
@@ -28730,6 +28810,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-170-australian-parrots-and-their-adaptation-to-habitat-change"
   },
   {
+    "id": "reading-analysis:p3-087-austria-the-burgeoning-budget-holiday-attraction",
+    "type": "reading-analysis",
+    "ordinal": 87,
+    "label": "Answer Analysis - IELTS Reading - Austria: The burgeoning budget holiday attraction",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-087-austria-the-burgeoning-budget-holiday-attraction"
+  },
+  {
     "id": "reading-analysis:p2-026-being-left-handed-in-a-right-handed-world",
     "type": "reading-analysis",
     "ordinal": 26,
@@ -28744,6 +28832,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Bestcom—Considerate Computing",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-053-bestcomconsiderate-computing"
+  },
+  {
+    "id": "reading-analysis:p3-138-beyond-the-blue-line",
+    "type": "reading-analysis",
+    "ordinal": 138,
+    "label": "Answer Analysis - IELTS Reading - Beyond the blue line",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-138-beyond-the-blue-line"
   },
   {
     "id": "reading-analysis:p1-119-biology-of-bitterness",
@@ -28762,12 +28858,44 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-146-bird-migration"
   },
   {
+    "id": "reading-analysis:p3-085-bismarck-a-master-of-political-and-diplomatic-juggling",
+    "type": "reading-analysis",
+    "ordinal": 85,
+    "label": "Answer Analysis - IELTS Reading - Bismarck: A Master of Political and Diplomatic Juggling?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-085-bismarck-a-master-of-political-and-diplomatic-juggling"
+  },
+  {
+    "id": "reading-analysis:p3-103-black-gold",
+    "type": "reading-analysis",
+    "ordinal": 103,
+    "label": "Answer Analysis - IELTS Reading - Black Gold",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-103-black-gold"
+  },
+  {
     "id": "reading-analysis:p2-154-blue-footed-boobies",
     "type": "reading-analysis",
     "ordinal": 154,
     "label": "Answer Analysis - IELTS Reading - Blue-footed Boobies",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-154-blue-footed-boobies"
+  },
+  {
+    "id": "reading-analysis:p3-131-bondi-beach",
+    "type": "reading-analysis",
+    "ordinal": 131,
+    "label": "Answer Analysis - IELTS Reading - Bondi Beach",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-131-bondi-beach"
+  },
+  {
+    "id": "reading-analysis:p3-160-book-review-on-musicophilia",
+    "type": "reading-analysis",
+    "ordinal": 160,
+    "label": "Answer Analysis - IELTS Reading - Book review on Musicophilia",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-160-book-review-on-musicophilia"
   },
   {
     "id": "reading-analysis:p2-173-bovids",
@@ -28810,6 +28938,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-139-brunel-the-practical-prophet"
   },
   {
+    "id": "reading-analysis:p3-053-can-hurricanes-be-moderated-or-diverted",
+    "type": "reading-analysis",
+    "ordinal": 53,
+    "label": "Answer Analysis - IELTS Reading - Can Hurricanes be Moderated or Diverted?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-053-can-hurricanes-be-moderated-or-diverted"
+  },
+  {
     "id": "reading-analysis:p1-142-can-scientists-tell-us-what-happiness-is",
     "type": "reading-analysis",
     "ordinal": 142,
@@ -28824,6 +28960,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - CAN WE BELIEVE OUR OWN EYES?",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-119-can-we-believe-our-own-eyes"
+  },
+  {
+    "id": "reading-analysis:p3-099-can-you-charm-your-way-into-oxbridge",
+    "type": "reading-analysis",
+    "ordinal": 99,
+    "label": "Answer Analysis - IELTS Reading - Can You Charm Your Way into Oxbridge?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-099-can-you-charm-your-way-into-oxbridge"
+  },
+  {
+    "id": "reading-analysis:p3-133-carbon-capture-and-storage",
+    "type": "reading-analysis",
+    "ordinal": 133,
+    "label": "Answer Analysis - IELTS Reading - Carbon Capture and Storage",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-133-carbon-capture-and-storage"
+  },
+  {
+    "id": "reading-analysis:p3-068-care-in-the-community",
+    "type": "reading-analysis",
+    "ordinal": 68,
+    "label": "Answer Analysis - IELTS Reading - Care in the Community",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-068-care-in-the-community"
   },
   {
     "id": "reading-analysis:p2-024-caveat-scriptor",
@@ -28898,6 +29058,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-095-climate-change-instant-expert"
   },
   {
+    "id": "reading-analysis:p3-014-clinical-trials",
+    "type": "reading-analysis",
+    "ordinal": 14,
+    "label": "Answer Analysis - IELTS Reading - CLINICAL TRIALS",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-014-clinical-trials"
+  },
+  {
+    "id": "reading-analysis:p3-060-co-educational-versus-single-sex-classrooms",
+    "type": "reading-analysis",
+    "ordinal": 60,
+    "label": "Answer Analysis - IELTS Reading - CO- EDUCATIONAL VERSUS SINGLE SEX CLASSROOMS",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-060-co-educational-versus-single-sex-classrooms"
+  },
+  {
     "id": "reading-analysis:p2-033-coastal-archaeology-of-britain",
     "type": "reading-analysis",
     "ordinal": 33,
@@ -28928,6 +29104,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Coming of Age",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-096-coming-of-age"
+  },
+  {
+    "id": "reading-analysis:p3-031-communicating-styles-and-conflict",
+    "type": "reading-analysis",
+    "ordinal": 31,
+    "label": "Answer Analysis - IELTS Reading - Communicating Styles and Conflict",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-031-communicating-styles-and-conflict"
+  },
+  {
+    "id": "reading-analysis:p3-055-company-innovation",
+    "type": "reading-analysis",
+    "ordinal": 55,
+    "label": "Answer Analysis - IELTS Reading - Company Innovation",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-055-company-innovation"
+  },
+  {
+    "id": "reading-analysis:p3-148-compliance-or-noncompliance-for-children",
+    "type": "reading-analysis",
+    "ordinal": 148,
+    "label": "Answer Analysis - IELTS Reading - Compliance Or Noncompliance For Children",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-148-compliance-or-noncompliance-for-children"
   },
   {
     "id": "reading-analysis:p1-047-computer-games-for-preschoolers-nintendo-s-research-and-design-process",
@@ -28962,6 +29162,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-155-consecutive-and-simultaneous-translation"
   },
   {
+    "id": "reading-analysis:p3-061-constellation",
+    "type": "reading-analysis",
+    "ordinal": 61,
+    "label": "Answer Analysis - IELTS Reading - Constellation",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-061-constellation"
+  },
+  {
+    "id": "reading-analysis:p3-088-continents-collide",
+    "type": "reading-analysis",
+    "ordinal": 88,
+    "label": "Answer Analysis - IELTS Reading - Continents Collide!",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-088-continents-collide"
+  },
+  {
     "id": "reading-analysis:p1-081-controlling-deathwatch-beetles",
     "type": "reading-analysis",
     "ordinal": 81,
@@ -28994,6 +29210,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-086-could-you-pass-me-my-glasses-please"
   },
   {
+    "id": "reading-analysis:p3-004-criminal-rehabilitation-a-difficult-issue",
+    "type": "reading-analysis",
+    "ordinal": 4,
+    "label": "Answer Analysis - IELTS Reading - Criminal Rehabilitation: A Difficult Issue",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-004-criminal-rehabilitation-a-difficult-issue"
+  },
+  {
     "id": "reading-analysis:p2-163-crisis-freshwater",
     "type": "reading-analysis",
     "ordinal": 163,
@@ -29008,6 +29232,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Crop circles",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-073-crop-circles"
+  },
+  {
+    "id": "reading-analysis:p3-093-cubism",
+    "type": "reading-analysis",
+    "ordinal": 93,
+    "label": "Answer Analysis - IELTS Reading - Cubism",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-093-cubism"
   },
   {
     "id": "reading-analysis:p1-068-daydreaming",
@@ -29042,6 +29274,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-141-design-the-mat-and-foot-health"
   },
   {
+    "id": "reading-analysis:p3-159-designed-to-last",
+    "type": "reading-analysis",
+    "ordinal": 159,
+    "label": "Answer Analysis - IELTS Reading - Designed to Last",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-159-designed-to-last"
+  },
+  {
+    "id": "reading-analysis:p3-005-destination-mars",
+    "type": "reading-analysis",
+    "ordinal": 5,
+    "label": "Answer Analysis - IELTS Reading - Destination Mars",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-005-destination-mars"
+  },
+  {
+    "id": "reading-analysis:p3-130-detection-of-a-meteorite-lake",
+    "type": "reading-analysis",
+    "ordinal": 130,
+    "label": "Answer Analysis - IELTS Reading - Detection of a meteorite Lake",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-130-detection-of-a-meteorite-lake"
+  },
+  {
     "id": "reading-analysis:p2-159-development-of-public-management-theory",
     "type": "reading-analysis",
     "ordinal": 159,
@@ -29066,12 +29322,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-070-did-tea-and-beer-bring-about-industrialisation"
   },
   {
+    "id": "reading-analysis:p3-140-digital-diet",
+    "type": "reading-analysis",
+    "ordinal": 140,
+    "label": "Answer Analysis - IELTS Reading - Digital diet",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-140-digital-diet"
+  },
+  {
     "id": "reading-analysis:p1-035-dirty-river-but-clean-water",
     "type": "reading-analysis",
     "ordinal": 35,
     "label": "Answer Analysis - IELTS Reading - Dirty River But Clean Water",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-035-dirty-river-but-clean-water"
+  },
+  {
+    "id": "reading-analysis:p3-100-do-you-look-your-age",
+    "type": "reading-analysis",
+    "ordinal": 100,
+    "label": "Answer Analysis - IELTS Reading - Do You Look Your Age?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-100-do-you-look-your-age"
   },
   {
     "id": "reading-analysis:p2-044-does-an-iq-test-prove-creativity",
@@ -29088,6 +29360,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - DRINKING FILTERED WATER",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-065-drinking-filtered-water"
+  },
+  {
+    "id": "reading-analysis:p3-072-driverless-cars",
+    "type": "reading-analysis",
+    "ordinal": 72,
+    "label": "Answer Analysis - IELTS Reading - Driverless cars",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-072-driverless-cars"
+  },
+  {
+    "id": "reading-analysis:p3-042-e-training",
+    "type": "reading-analysis",
+    "ordinal": 42,
+    "label": "Answer Analysis - IELTS Reading - E-training",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-042-e-training"
   },
   {
     "id": "reading-analysis:p2-113-early-occupations-around-the-river-thames",
@@ -29112,6 +29400,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - EFFORT AND SCIENCE TO WIN",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-118-effort-and-science-to-win"
+  },
+  {
+    "id": "reading-analysis:p3-057-elephant-communication",
+    "type": "reading-analysis",
+    "ordinal": 57,
+    "label": "Answer Analysis - IELTS Reading - Elephant Communication",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-057-elephant-communication"
   },
   {
     "id": "reading-analysis:p2-161-elnino-and-seabirds",
@@ -29154,6 +29450,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-130-exploring-british-village-2"
   },
   {
+    "id": "reading-analysis:p3-135-extinct-the-giant-deer",
+    "type": "reading-analysis",
+    "ordinal": 135,
+    "label": "Answer Analysis - IELTS Reading - Extinct: the Giant Deer",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-135-extinct-the-giant-deer"
+  },
+  {
     "id": "reading-analysis:p1-158-facial-expression",
     "type": "reading-analysis",
     "ordinal": 158,
@@ -29192,6 +29496,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Finches on Islands",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-126-finches-on-islands"
+  },
+  {
+    "id": "reading-analysis:p3-146-finding-our-way",
+    "type": "reading-analysis",
+    "ordinal": 146,
+    "label": "Answer Analysis - IELTS Reading - Finding our way",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-146-finding-our-way"
   },
   {
     "id": "reading-analysis:p1-097-fix-it-with-flavour",
@@ -29290,12 +29602,44 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-098-fruit-that-falls-far-from-the-tree"
   },
   {
+    "id": "reading-analysis:p3-123-fueling-the-future",
+    "type": "reading-analysis",
+    "ordinal": 123,
+    "label": "Answer Analysis - IELTS Reading - FUELING THE FUTURE",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-123-fueling-the-future"
+  },
+  {
+    "id": "reading-analysis:p3-015-genealogy",
+    "type": "reading-analysis",
+    "ordinal": 15,
+    "label": "Answer Analysis - IELTS Reading - GENEALOGY",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-015-genealogy"
+  },
+  {
     "id": "reading-analysis:p1-115-geoff-brash",
     "type": "reading-analysis",
     "ordinal": 115,
     "label": "Answer Analysis - IELTS Reading - Geoff Brash",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-115-geoff-brash"
+  },
+  {
+    "id": "reading-analysis:p3-134-global-warming",
+    "type": "reading-analysis",
+    "ordinal": 134,
+    "label": "Answer Analysis - IELTS Reading - Global Warming",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-134-global-warming"
+  },
+  {
+    "id": "reading-analysis:p3-046-global-warming-in-new-zealand",
+    "type": "reading-analysis",
+    "ordinal": 46,
+    "label": "Answer Analysis - IELTS Reading - Global Warming in New Zealand",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-046-global-warming-in-new-zealand"
   },
   {
     "id": "reading-analysis:p2-142-global-warming-prevent-poles-from-melting",
@@ -29322,6 +29666,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-082-graffiti"
   },
   {
+    "id": "reading-analysis:p3-124-gravity",
+    "type": "reading-analysis",
+    "ordinal": 124,
+    "label": "Answer Analysis - IELTS Reading - GRAVITY",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-124-gravity"
+  },
+  {
     "id": "reading-analysis:p1-110-green-virtues-of-green-sand",
     "type": "reading-analysis",
     "ordinal": 110,
@@ -29346,12 +29698,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-163-grimms-fairy-tales"
   },
   {
+    "id": "reading-analysis:p3-168-growing-up-in-new-zealand",
+    "type": "reading-analysis",
+    "ordinal": 168,
+    "label": "Answer Analysis - IELTS Reading - Growing up in New Zealand",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-168-growing-up-in-new-zealand"
+  },
+  {
     "id": "reading-analysis:p2-138-have-teenagers-always-existed",
     "type": "reading-analysis",
     "ordinal": 138,
     "label": "Answer Analysis - IELTS Reading - Have teenagers always existed",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-138-have-teenagers-always-existed"
+  },
+  {
+    "id": "reading-analysis:p3-063-hazard-management",
+    "type": "reading-analysis",
+    "ordinal": 63,
+    "label": "Answer Analysis - IELTS Reading - HAZARD MANAGEMENT",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-063-hazard-management"
   },
   {
     "id": "reading-analysis:p2-151-health-in-the-wild",
@@ -29370,6 +29738,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-078-hello-happiness"
   },
   {
+    "id": "reading-analysis:p3-040-high-speed-photography",
+    "type": "reading-analysis",
+    "ordinal": 40,
+    "label": "Answer Analysis - IELTS Reading - High speed photography",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-040-high-speed-photography"
+  },
+  {
     "id": "reading-analysis:p1-059-history-of-refrigeration",
     "type": "reading-analysis",
     "ordinal": 59,
@@ -29384,6 +29760,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Homeopathy",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-071-homeopathy"
+  },
+  {
+    "id": "reading-analysis:p3-035-honey-bees-in-trouble",
+    "type": "reading-analysis",
+    "ordinal": 35,
+    "label": "Answer Analysis - IELTS Reading - Honey bees in trouble",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-035-honey-bees-in-trouble"
   },
   {
     "id": "reading-analysis:p1-013-hot-air-ballooning",
@@ -29410,6 +29794,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-166-how-fair-is-fair-trade"
   },
   {
+    "id": "reading-analysis:p3-132-how-to-handle-the-sun",
+    "type": "reading-analysis",
+    "ordinal": 132,
+    "label": "Answer Analysis - IELTS Reading - How to handle the Sun",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-132-how-to-handle-the-sun"
+  },
+  {
     "id": "reading-analysis:p1-027-how-to-spot-a-liar",
     "type": "reading-analysis",
     "ordinal": 27,
@@ -29432,6 +29824,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - How Well Do We Concentrate?",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-048-how-well-do-we-concentrate"
+  },
+  {
+    "id": "reading-analysis:p3-128-human-remain-in-green-sahara",
+    "type": "reading-analysis",
+    "ordinal": 128,
+    "label": "Answer Analysis - IELTS Reading - Human remain in Green Sahara",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-128-human-remain-in-green-sahara"
   },
   {
     "id": "reading-analysis:p2-126-hunting-perfume-in-madagascar",
@@ -29466,6 +29866,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-052-implication-of-false-belief-experiments"
   },
   {
+    "id": "reading-analysis:p3-048-improving-patient-safety",
+    "type": "reading-analysis",
+    "ordinal": 48,
+    "label": "Answer Analysis - IELTS Reading - Improving Patient Safety",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-048-improving-patient-safety"
+  },
+  {
     "id": "reading-analysis:p1-102-in-praise-of-amateurs",
     "type": "reading-analysis",
     "ordinal": 102,
@@ -29498,6 +29906,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-108-inside-the-mind-of-the-consumer"
   },
   {
+    "id": "reading-analysis:p3-153-inspired-by-mimicking-mother-nature",
+    "type": "reading-analysis",
+    "ordinal": 153,
+    "label": "Answer Analysis - IELTS Reading - Inspired by Mimicking Mother Nature",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-153-inspired-by-mimicking-mother-nature"
+  },
+  {
     "id": "reading-analysis:p1-136-intelligence-and-giftedness",
     "type": "reading-analysis",
     "ordinal": 136,
@@ -29514,12 +29930,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-140-internal-and-external-marketing"
   },
   {
+    "id": "reading-analysis:p3-036-internal-market-selling-the-inside",
+    "type": "reading-analysis",
+    "ordinal": 36,
+    "label": "Answer Analysis - IELTS Reading - Internal Market: Selling the inside",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-036-internal-market-selling-the-inside"
+  },
+  {
     "id": "reading-analysis:p2-162-is-aid-hurting-africa",
     "type": "reading-analysis",
     "ordinal": 162,
     "label": "Answer Analysis - IELTS Reading - IS AID HURTING AFRICA?",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-162-is-aid-hurting-africa"
+  },
+  {
+    "id": "reading-analysis:p3-126-is-graffiti-art-or-crime",
+    "type": "reading-analysis",
+    "ordinal": 126,
+    "label": "Answer Analysis - IELTS Reading - Is Graffiti Art or Crime",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-126-is-graffiti-art-or-crime"
   },
   {
     "id": "reading-analysis:p1-088-its-dynamite",
@@ -29554,6 +29986,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-001-italian-architect-palladio"
   },
   {
+    "id": "reading-analysis:p3-071-jack-the-ripper-a-bungled-investigation",
+    "type": "reading-analysis",
+    "ordinal": 71,
+    "label": "Answer Analysis - IELTS Reading - Jack the Ripper: A Bungled Investigation?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-071-jack-the-ripper-a-bungled-investigation"
+  },
+  {
     "id": "reading-analysis:p2-072-just-relax",
     "type": "reading-analysis",
     "ordinal": 72,
@@ -29562,12 +30002,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-072-just-relax"
   },
   {
+    "id": "reading-analysis:p3-109-keep-taking-the-tablets",
+    "type": "reading-analysis",
+    "ordinal": 109,
+    "label": "Answer Analysis - IELTS Reading - Keep taking the tablets",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-109-keep-taking-the-tablets"
+  },
+  {
     "id": "reading-analysis:p2-051-keep-the-water-away",
     "type": "reading-analysis",
     "ordinal": 51,
     "label": "Answer Analysis - IELTS Reading - Keep the Water Away",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-051-keep-the-water-away"
+  },
+  {
+    "id": "reading-analysis:p3-077-kids-and-sport",
+    "type": "reading-analysis",
+    "ordinal": 77,
+    "label": "Answer Analysis - IELTS Reading - Kids and Sport",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-077-kids-and-sport"
   },
   {
     "id": "reading-analysis:p2-125-koalas",
@@ -29586,6 +30042,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-077-lake-vostok"
   },
   {
+    "id": "reading-analysis:p3-120-language-diversity",
+    "type": "reading-analysis",
+    "ordinal": 120,
+    "label": "Answer Analysis - IELTS Reading - Language diversity",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-120-language-diversity"
+  },
+  {
     "id": "reading-analysis:p2-141-language-strategy-in-multinational-company",
     "type": "reading-analysis",
     "ordinal": 141,
@@ -29594,12 +30058,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-141-language-strategy-in-multinational-company"
   },
   {
+    "id": "reading-analysis:p3-084-latchkey-children",
+    "type": "reading-analysis",
+    "ordinal": 84,
+    "label": "Answer Analysis - IELTS Reading - LATCHKEY CHILDREN",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-084-latchkey-children"
+  },
+  {
     "id": "reading-analysis:p2-045-leaf-cutting-ants-and-fungus",
     "type": "reading-analysis",
     "ordinal": 45,
     "label": "Answer Analysis - IELTS Reading - Leaf-Cutting Ants and Fungus",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-045-leaf-cutting-ants-and-fungus"
+  },
+  {
+    "id": "reading-analysis:p3-102-learning-about-the-past",
+    "type": "reading-analysis",
+    "ordinal": 102,
+    "label": "Answer Analysis - IELTS Reading - Learning about the Past",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-102-learning-about-the-past"
   },
   {
     "id": "reading-analysis:p1-028-learning-by-examples",
@@ -29642,6 +30122,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-128-lighting-up-the-lies"
   },
   {
+    "id": "reading-analysis:p3-037-living-dunes",
+    "type": "reading-analysis",
+    "ordinal": 37,
+    "label": "Answer Analysis - IELTS Reading - Living Dunes",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-037-living-dunes"
+  },
+  {
+    "id": "reading-analysis:p3-080-long-term-forecast-hot-and-dry",
+    "type": "reading-analysis",
+    "ordinal": 80,
+    "label": "Answer Analysis - IELTS Reading - LONG-TERM FORECAST: HOT AND DRY",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-080-long-term-forecast-hot-and-dry"
+  },
+  {
     "id": "reading-analysis:p2-148-longaeva-ancient-bristlecone-pine",
     "type": "reading-analysis",
     "ordinal": 148,
@@ -29666,12 +30162,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-062-looking-in-the-telescope"
   },
   {
+    "id": "reading-analysis:p3-064-low-cost-lamps-light-rural-india",
+    "type": "reading-analysis",
+    "ordinal": 64,
+    "label": "Answer Analysis - IELTS Reading - Low-Cost Lamps Light Rural India",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-064-low-cost-lamps-light-rural-india"
+  },
+  {
     "id": "reading-analysis:p1-006-make-that-wine",
     "type": "reading-analysis",
     "ordinal": 6,
     "label": "Answer Analysis - IELTS Reading - Make That Wine!",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-006-make-that-wine"
+  },
+  {
+    "id": "reading-analysis:p3-086-making-a-sound-investment-decision",
+    "type": "reading-analysis",
+    "ordinal": 86,
+    "label": "Answer Analysis - IELTS Reading - Making a sound Investment Decision",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-086-making-a-sound-investment-decision"
   },
   {
     "id": "reading-analysis:p1-160-malaria-combat-in-italy",
@@ -29698,12 +30210,52 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-112-measures-to-combat-infectious-disease-in-tsarist-russia"
   },
   {
+    "id": "reading-analysis:p3-034-mechanisms-of-linguistic-change",
+    "type": "reading-analysis",
+    "ordinal": 34,
+    "label": "Answer Analysis - IELTS Reading - Mechanisms of Linguistic Change",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-034-mechanisms-of-linguistic-change"
+  },
+  {
+    "id": "reading-analysis:p3-154-memory-and-age",
+    "type": "reading-analysis",
+    "ordinal": 154,
+    "label": "Answer Analysis - IELTS Reading - Memory and Age",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-154-memory-and-age"
+  },
+  {
+    "id": "reading-analysis:p3-125-memory-decoding",
+    "type": "reading-analysis",
+    "ordinal": 125,
+    "label": "Answer Analysis - IELTS Reading - Memory Decoding",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-125-memory-decoding"
+  },
+  {
     "id": "reading-analysis:p1-147-mental-gymnastics",
     "type": "reading-analysis",
     "ordinal": 147,
     "label": "Answer Analysis - IELTS Reading - Mental Gymnastics",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-147-mental-gymnastics"
+  },
+  {
+    "id": "reading-analysis:p3-081-migrants-and-refugees-racial-discrimination-and-xenophobia",
+    "type": "reading-analysis",
+    "ordinal": 81,
+    "label": "Answer Analysis - IELTS Reading - Migrants and Refugees: Racial Discrimination and Xenophobia",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-081-migrants-and-refugees-racial-discrimination-and-xenophobia"
+  },
+  {
+    "id": "reading-analysis:p3-170-mind-music",
+    "type": "reading-analysis",
+    "ordinal": 170,
+    "label": "Answer Analysis - IELTS Reading - Mind Music",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-170-mind-music"
   },
   {
     "id": "reading-analysis:p1-014-mobile-phones-and-driving",
@@ -29722,6 +30274,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-064-money-transfers-by-mobile"
   },
   {
+    "id": "reading-analysis:p3-044-monkeys-and-forests",
+    "type": "reading-analysis",
+    "ordinal": 44,
+    "label": "Answer Analysis - IELTS Reading - Monkeys and Forests",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-044-monkeys-and-forests"
+  },
+  {
     "id": "reading-analysis:p1-041-morse-code",
     "type": "reading-analysis",
     "ordinal": 41,
@@ -29730,12 +30290,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-041-morse-code"
   },
   {
+    "id": "reading-analysis:p3-047-motivating-drives",
+    "type": "reading-analysis",
+    "ordinal": 47,
+    "label": "Answer Analysis - IELTS Reading - Motivating Drives",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-047-motivating-drives"
+  },
+  {
     "id": "reading-analysis:p1-012-mount-everest-and-hillary",
     "type": "reading-analysis",
     "ordinal": 12,
     "label": "Answer Analysis - IELTS Reading - MOUNT EVEREST AND HILLARY",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-012-mount-everest-and-hillary"
+  },
+  {
+    "id": "reading-analysis:p3-144-movie-of-metropolis",
+    "type": "reading-analysis",
+    "ordinal": 144,
+    "label": "Answer Analysis - IELTS Reading - Movie of Metropolis",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-144-movie-of-metropolis"
   },
   {
     "id": "reading-analysis:p2-030-mrs-carlill-and-the-carbolic-smoke-ball",
@@ -29768,6 +30344,38 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Museum Blockbuster",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-133-museum-blockbuster"
+  },
+  {
+    "id": "reading-analysis:p3-029-music-language-we-all-speak",
+    "type": "reading-analysis",
+    "ordinal": 29,
+    "label": "Answer Analysis - IELTS Reading - Music: Language We All Speak",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-029-music-language-we-all-speak"
+  },
+  {
+    "id": "reading-analysis:p3-039-musical-maladies",
+    "type": "reading-analysis",
+    "ordinal": 39,
+    "label": "Answer Analysis - IELTS Reading - Musical Maladies",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-039-musical-maladies"
+  },
+  {
+    "id": "reading-analysis:p3-157-mystery-in-easter-island",
+    "type": "reading-analysis",
+    "ordinal": 157,
+    "label": "Answer Analysis - IELTS Reading - Mystery in Easter Island",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-157-mystery-in-easter-island"
+  },
+  {
+    "id": "reading-analysis:p3-079-mystery-of-the-mummies",
+    "type": "reading-analysis",
+    "ordinal": 79,
+    "label": "Answer Analysis - IELTS Reading - Mystery of the mummies",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-079-mystery-of-the-mummies"
   },
   {
     "id": "reading-analysis:p2-175-nanotechnology-its-development-and-uses",
@@ -29842,12 +30450,36 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-032-optimism-and-health"
   },
   {
+    "id": "reading-analysis:p3-089-organisational-conflict-and-change",
+    "type": "reading-analysis",
+    "ordinal": 89,
+    "label": "Answer Analysis - IELTS Reading - Organisational Conflict and Change",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-089-organisational-conflict-and-change"
+  },
+  {
+    "id": "reading-analysis:p3-151-origin-of-species-continent-formation",
+    "type": "reading-analysis",
+    "ordinal": 151,
+    "label": "Answer Analysis - IELTS Reading - Origin of Species & Continent Formation",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-151-origin-of-species-continent-formation"
+  },
+  {
     "id": "reading-analysis:p1-040-otters",
     "type": "reading-analysis",
     "ordinal": 40,
     "label": "Answer Analysis - IELTS Reading - Otters",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-040-otters"
+  },
+  {
+    "id": "reading-analysis:p3-112-painters-of-time",
+    "type": "reading-analysis",
+    "ordinal": 112,
+    "label": "Answer Analysis - IELTS Reading - Painters of time",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-112-painters-of-time"
   },
   {
     "id": "reading-analysis:p2-137-paper-or-computer",
@@ -29880,6 +30512,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Paul Nash",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-127-paul-nash"
+  },
+  {
+    "id": "reading-analysis:p3-149-photovoltaics-on-the-rooftop",
+    "type": "reading-analysis",
+    "ordinal": 149,
+    "label": "Answer Analysis - IELTS Reading - Photovoltaics on the rooftop",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-149-photovoltaics-on-the-rooftop"
   },
   {
     "id": "reading-analysis:p1-005-pine-trees",
@@ -29922,12 +30562,44 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-023-polluting-sounds-in-search-of-silence"
   },
   {
+    "id": "reading-analysis:p3-145-pollution-in-the-bay",
+    "type": "reading-analysis",
+    "ordinal": 145,
+    "label": "Answer Analysis - IELTS Reading - Pollution! In the Bay",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-145-pollution-in-the-bay"
+  },
+  {
+    "id": "reading-analysis:p3-082-population-growth-sentencing-millions-to-hydrological-poverty",
+    "type": "reading-analysis",
+    "ordinal": 82,
+    "label": "Answer Analysis - IELTS Reading - Population growth sentencing millions to hydrological poverty",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-082-population-growth-sentencing-millions-to-hydrological-poverty"
+  },
+  {
+    "id": "reading-analysis:p3-059-preparing-for-the-threat",
+    "type": "reading-analysis",
+    "ordinal": 59,
+    "label": "Answer Analysis - IELTS Reading - PREPARING FOR THE THREAT",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-059-preparing-for-the-threat"
+  },
+  {
     "id": "reading-analysis:p1-070-prison-the-solution-or-the-problem",
     "type": "reading-analysis",
     "ordinal": 70,
     "label": "Answer Analysis - IELTS Reading - Prison: The Solution or the Problem?",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-070-prison-the-solution-or-the-problem"
+  },
+  {
+    "id": "reading-analysis:p3-009-problem-solving-and-decision-making",
+    "type": "reading-analysis",
+    "ordinal": 9,
+    "label": "Answer Analysis - IELTS Reading - PROBLEM SOLVING AND DECISION MAKING",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-009-problem-solving-and-decision-making"
   },
   {
     "id": "reading-analysis:p1-079-project-reform-of-the-prison-system-in-the-uk",
@@ -29938,12 +30610,44 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-079-project-reform-of-the-prison-system-in-the-uk"
   },
   {
+    "id": "reading-analysis:p3-122-pronunciation-and-physiognomy",
+    "type": "reading-analysis",
+    "ordinal": 122,
+    "label": "Answer Analysis - IELTS Reading - Pronunciation and physiognomy",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-122-pronunciation-and-physiognomy"
+  },
+  {
     "id": "reading-analysis:p2-120-psychology-of-new-product-adoption",
     "type": "reading-analysis",
     "ordinal": 120,
     "label": "Answer Analysis - IELTS Reading - Psychology of new product adoption",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-120-psychology-of-new-product-adoption"
+  },
+  {
+    "id": "reading-analysis:p3-017-psychometrics",
+    "type": "reading-analysis",
+    "ordinal": 17,
+    "label": "Answer Analysis - IELTS Reading - PSYCHOMETRICS",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-017-psychometrics"
+  },
+  {
+    "id": "reading-analysis:p3-054-quantitative-research-in-education",
+    "type": "reading-analysis",
+    "ordinal": 54,
+    "label": "Answer Analysis - IELTS Reading - Quantitative Research in Education",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-054-quantitative-research-in-education"
+  },
+  {
+    "id": "reading-analysis:p3-110-quiet-roads-ahead",
+    "type": "reading-analysis",
+    "ordinal": 110,
+    "label": "Answer Analysis - IELTS Reading - Quiet roads ahead",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-110-quiet-roads-ahead"
   },
   {
     "id": "reading-analysis:p1-133-radio-automation",
@@ -29962,6 +30666,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-050-radiocarbon-dating-the-profile-of-nancy-athfield"
   },
   {
+    "id": "reading-analysis:p3-147-rainwater-harvesting",
+    "type": "reading-analysis",
+    "ordinal": 147,
+    "label": "Answer Analysis - IELTS Reading - Rainwater Harvesting",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-147-rainwater-harvesting"
+  },
+  {
     "id": "reading-analysis:p2-099-reading-the-screen",
     "type": "reading-analysis",
     "ordinal": 99,
@@ -29976,6 +30688,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Reclaiming the future of aral sea",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-134-reclaiming-the-future-of-aral-sea"
+  },
+  {
+    "id": "reading-analysis:p3-117-recovering-a-damaged-reputation",
+    "type": "reading-analysis",
+    "ordinal": 117,
+    "label": "Answer Analysis - IELTS Reading - Recovering a damaged reputation",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-117-recovering-a-damaged-reputation"
   },
   {
     "id": "reading-analysis:p1-113-reducing-electricity-consumption-on-the-isle-of-eigg",
@@ -30018,12 +30738,44 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-037-review-of-research-on-the-effects-of-food-promotion-to-children"
   },
   {
+    "id": "reading-analysis:p3-065-rise-of-the-robots",
+    "type": "reading-analysis",
+    "ordinal": 65,
+    "label": "Answer Analysis - IELTS Reading - Rise of the Robots",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-065-rise-of-the-robots"
+  },
+  {
+    "id": "reading-analysis:p3-050-robert-louis-stevenson",
+    "type": "reading-analysis",
+    "ordinal": 50,
+    "label": "Answer Analysis - IELTS Reading - Robert Louis Stevenson",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-050-robert-louis-stevenson"
+  },
+  {
     "id": "reading-analysis:p2-101-robots",
     "type": "reading-analysis",
     "ordinal": 101,
     "label": "Answer Analysis - IELTS Reading - ROBOTS",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-101-robots"
+  },
+  {
+    "id": "reading-analysis:p3-152-roller-coaster",
+    "type": "reading-analysis",
+    "ordinal": 152,
+    "label": "Answer Analysis - IELTS Reading - Roller coaster",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-152-roller-coaster"
+  },
+  {
+    "id": "reading-analysis:p3-114-running-on-empty",
+    "type": "reading-analysis",
+    "ordinal": 114,
+    "label": "Answer Analysis - IELTS Reading - Running on empty",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-114-running-on-empty"
   },
   {
     "id": "reading-analysis:p2-066-salvador-dali",
@@ -30058,6 +30810,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-128-satellite-technology"
   },
   {
+    "id": "reading-analysis:p3-158-save-endangered-language",
+    "type": "reading-analysis",
+    "ordinal": 158,
+    "label": "Answer Analysis - IELTS Reading - Save Endangered Language",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-158-save-endangered-language"
+  },
+  {
+    "id": "reading-analysis:p3-106-saving-language",
+    "type": "reading-analysis",
+    "ordinal": 106,
+    "label": "Answer Analysis - IELTS Reading - SAVING LANGUAGE",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-106-saving-language"
+  },
+  {
     "id": "reading-analysis:p2-042-saving-the-british-bitterns",
     "type": "reading-analysis",
     "ordinal": 42,
@@ -30088,6 +30856,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Single-Gender Education: A Case Made?",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-085-single-gender-education-a-case-made"
+  },
+  {
+    "id": "reading-analysis:p3-083-sleep",
+    "type": "reading-analysis",
+    "ordinal": 83,
+    "label": "Answer Analysis - IELTS Reading - SLEEP",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-083-sleep"
   },
   {
     "id": "reading-analysis:p1-074-sleeping-on-the-job",
@@ -30122,6 +30898,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-156-sosus-listening-to-the-ocean"
   },
   {
+    "id": "reading-analysis:p3-041-source-of-knowledge",
+    "type": "reading-analysis",
+    "ordinal": 41,
+    "label": "Answer Analysis - IELTS Reading - Source of Knowledge",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-041-source-of-knowledge"
+  },
+  {
+    "id": "reading-analysis:p3-155-soviets-new-working-week",
+    "type": "reading-analysis",
+    "ordinal": 155,
+    "label": "Answer Analysis - IELTS Reading - Soviet's New Working Week",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-155-soviets-new-working-week"
+  },
+  {
+    "id": "reading-analysis:p3-111-space-the-final-archaeological-frontier",
+    "type": "reading-analysis",
+    "ordinal": 111,
+    "label": "Answer Analysis - IELTS Reading - Space: The Final Archaeological Frontier",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-111-space-the-final-archaeological-frontier"
+  },
+  {
     "id": "reading-analysis:p2-076-special-olympics-conditions-of-participation",
     "type": "reading-analysis",
     "ordinal": 76,
@@ -30130,12 +30930,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-076-special-olympics-conditions-of-participation"
   },
   {
+    "id": "reading-analysis:p3-069-speech-dysfluency-and-popular-fillers",
+    "type": "reading-analysis",
+    "ordinal": 69,
+    "label": "Answer Analysis - IELTS Reading - SPEECH DYSFLUENCY AND POPULAR FILLERS",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-069-speech-dysfluency-and-popular-fillers"
+  },
+  {
     "id": "reading-analysis:p1-067-spot-the-difference",
     "type": "reading-analysis",
     "ordinal": 67,
     "label": "Answer Analysis - IELTS Reading - Spot the Difference",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-067-spot-the-difference"
+  },
+  {
+    "id": "reading-analysis:p3-045-stealth-forces-in-weight-loss",
+    "type": "reading-analysis",
+    "ordinal": 45,
+    "label": "Answer Analysis - IELTS Reading - Stealth Forces in weight Loss",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-045-stealth-forces-in-weight-loss"
   },
   {
     "id": "reading-analysis:p2-037-storytelling-from-prehistoric-craves-to-modern-cinemas",
@@ -30154,12 +30970,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-020-stress-of-workplace"
   },
   {
+    "id": "reading-analysis:p3-107-striking-the-right-note",
+    "type": "reading-analysis",
+    "ordinal": 107,
+    "label": "Answer Analysis - IELTS Reading - Striking the right note",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-107-striking-the-right-note"
+  },
+  {
     "id": "reading-analysis:p2-083-subtitling-some-strategies",
     "type": "reading-analysis",
     "ordinal": 83,
     "label": "Answer Analysis - IELTS Reading - Subtitling: Some Strategies",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-083-subtitling-some-strategies"
+  },
+  {
+    "id": "reading-analysis:p3-066-sunday-is-a-fun-day-for-modern-brits",
+    "type": "reading-analysis",
+    "ordinal": 66,
+    "label": "Answer Analysis - IELTS Reading - Sunday Is a Fun Day for Modern Brits",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-066-sunday-is-a-fun-day-for-modern-brits"
   },
   {
     "id": "reading-analysis:p2-081-surfs-up",
@@ -30218,12 +31050,60 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-084-taking-us-back-to-the-paradise-city"
   },
   {
+    "id": "reading-analysis:p3-030-talc-powder",
+    "type": "reading-analysis",
+    "ordinal": 30,
+    "label": "Answer Analysis - IELTS Reading - Talc Powder",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-030-talc-powder"
+  },
+  {
     "id": "reading-analysis:p2-038-tasmanian-tiger",
     "type": "reading-analysis",
     "ordinal": 38,
     "label": "Answer Analysis - IELTS Reading - Tasmanian Tiger",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-038-tasmanian-tiger"
+  },
+  {
+    "id": "reading-analysis:p3-008-team-building",
+    "type": "reading-analysis",
+    "ordinal": 8,
+    "label": "Answer Analysis - IELTS Reading - TEAM BUILDING",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-008-team-building"
+  },
+  {
+    "id": "reading-analysis:p3-075-team-based-learning",
+    "type": "reading-analysis",
+    "ordinal": 75,
+    "label": "Answer Analysis - IELTS Reading - TEAM-BASED LEARNING",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-075-team-based-learning"
+  },
+  {
+    "id": "reading-analysis:p3-067-teens-try-to-change-the-world-one-purchase-at-a-time",
+    "type": "reading-analysis",
+    "ordinal": 67,
+    "label": "Answer Analysis - IELTS Reading - Teens Try to Change the World, One Purchase at a Time",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-067-teens-try-to-change-the-world-one-purchase-at-a-time"
+  },
+  {
+    "id": "reading-analysis:p3-163-tele-working",
+    "type": "reading-analysis",
+    "ordinal": 163,
+    "label": "Answer Analysis - IELTS Reading - Tele-working",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-163-tele-working"
+  },
+  {
+    "id": "reading-analysis:p3-058-texting-the-television",
+    "type": "reading-analysis",
+    "ordinal": 58,
+    "label": "Answer Analysis - IELTS Reading - Texting the Television",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-058-texting-the-television"
   },
   {
     "id": "reading-analysis:p1-122-the-beautiful-game",
@@ -30250,12 +31130,36 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-025-the-2003-heatwave"
   },
   {
+    "id": "reading-analysis:p3-113-the-accidental-rainforest",
+    "type": "reading-analysis",
+    "ordinal": 113,
+    "label": "Answer Analysis - IELTS Reading - The accidental rainforest",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-113-the-accidental-rainforest"
+  },
+  {
     "id": "reading-analysis:p2-028-the-ant-and-the-mandarin",
     "type": "reading-analysis",
     "ordinal": 28,
     "label": "Answer Analysis - IELTS Reading - The Ant and the Mandarin",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-028-the-ant-and-the-mandarin"
+  },
+  {
+    "id": "reading-analysis:p3-108-the-art-of-healing",
+    "type": "reading-analysis",
+    "ordinal": 108,
+    "label": "Answer Analysis - IELTS Reading - THE ART OF HEALING",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-108-the-art-of-healing"
+  },
+  {
+    "id": "reading-analysis:p3-007-the-australian-visa-application-process-explained",
+    "type": "reading-analysis",
+    "ordinal": 7,
+    "label": "Answer Analysis - IELTS Reading - The Australian Visa Application Process Explained",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-007-the-australian-visa-application-process-explained"
   },
   {
     "id": "reading-analysis:p2-057-the-automobiles-history",
@@ -30272,6 +31176,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - The Beginning of Football",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-153-the-beginning-of-football"
+  },
+  {
+    "id": "reading-analysis:p3-070-the-beginnings-of-art-therapy",
+    "type": "reading-analysis",
+    "ordinal": 70,
+    "label": "Answer Analysis - IELTS Reading - The Beginnings of Art Therapy",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-070-the-beginnings-of-art-therapy"
+  },
+  {
+    "id": "reading-analysis:p3-095-the-biggest-impact",
+    "type": "reading-analysis",
+    "ordinal": 95,
+    "label": "Answer Analysis - IELTS Reading - The Biggest Impact",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-095-the-biggest-impact"
+  },
+  {
+    "id": "reading-analysis:p3-129-the-bite-that-heat",
+    "type": "reading-analysis",
+    "ordinal": 129,
+    "label": "Answer Analysis - IELTS Reading - The Bite That Heat",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-129-the-bite-that-heat"
   },
   {
     "id": "reading-analysis:p2-062-the-brains-business",
@@ -30306,6 +31234,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-074-the-cells-from-hell"
   },
   {
+    "id": "reading-analysis:p3-032-the-columbian-exchange",
+    "type": "reading-analysis",
+    "ordinal": 32,
+    "label": "Answer Analysis - IELTS Reading - The Columbian Exchange",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-032-the-columbian-exchange"
+  },
+  {
     "id": "reading-analysis:p1-054-the-concept-of-childhood-in-western-countries",
     "type": "reading-analysis",
     "ordinal": 54,
@@ -30330,6 +31266,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-118-the-construction-of-roads-and-bridges"
   },
   {
+    "id": "reading-analysis:p3-115-the-creation-of-lasting-memories",
+    "type": "reading-analysis",
+    "ordinal": 115,
+    "label": "Answer Analysis - IELTS Reading - The creation of lasting memories",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-115-the-creation-of-lasting-memories"
+  },
+  {
     "id": "reading-analysis:p2-046-the-development-of-plastics",
     "type": "reading-analysis",
     "ordinal": 46,
@@ -30344,6 +31288,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - The Dinosaurs Footprints and Extinction",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-117-the-dinosaurs-footprints-and-extinction"
+  },
+  {
+    "id": "reading-analysis:p3-139-the-dinosaurs-footprints-and-extinction",
+    "type": "reading-analysis",
+    "ordinal": 139,
+    "label": "Answer Analysis - IELTS Reading - The Dinosaurs Footprints and Extinction",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-139-the-dinosaurs-footprints-and-extinction"
+  },
+  {
+    "id": "reading-analysis:p3-137-the-discovery-of-uranus",
+    "type": "reading-analysis",
+    "ordinal": 137,
+    "label": "Answer Analysis - IELTS Reading - The Discovery of Uranus",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-137-the-discovery-of-uranus"
   },
   {
     "id": "reading-analysis:p1-116-the-economic-importance-of-coral-reefs",
@@ -30386,6 +31346,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-049-the-extraordinary-watkin-tench"
   },
   {
+    "id": "reading-analysis:p3-101-the-fame-machine",
+    "type": "reading-analysis",
+    "ordinal": 101,
+    "label": "Answer Analysis - IELTS Reading - The Fame Machine",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-101-the-fame-machine"
+  },
+  {
     "id": "reading-analysis:p2-063-the-fertility-bust",
     "type": "reading-analysis",
     "ordinal": 63,
@@ -30402,6 +31370,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-083-the-final-frontier-for-tourism"
   },
   {
+    "id": "reading-analysis:p3-167-the-flavour-industry",
+    "type": "reading-analysis",
+    "ordinal": 167,
+    "label": "Answer Analysis - IELTS Reading - The Flavour Industry",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-167-the-flavour-industry"
+  },
+  {
+    "id": "reading-analysis:p3-169-the-fluoridation-controversy",
+    "type": "reading-analysis",
+    "ordinal": 169,
+    "label": "Answer Analysis - IELTS Reading - The fluoridation controversy",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-169-the-fluoridation-controversy"
+  },
+  {
     "id": "reading-analysis:p1-038-the-forgotten-forest",
     "type": "reading-analysis",
     "ordinal": 38,
@@ -30410,12 +31394,52 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-038-the-forgotten-forest"
   },
   {
+    "id": "reading-analysis:p3-028-the-fruit-book",
+    "type": "reading-analysis",
+    "ordinal": 28,
+    "label": "Answer Analysis - IELTS Reading - The Fruit Book",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-028-the-fruit-book"
+  },
+  {
+    "id": "reading-analysis:p3-121-the-future-of-fish",
+    "type": "reading-analysis",
+    "ordinal": 121,
+    "label": "Answer Analysis - IELTS Reading - The Future of fish",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-121-the-future-of-fish"
+  },
+  {
+    "id": "reading-analysis:p3-024-the-future-of-the-worlds-language",
+    "type": "reading-analysis",
+    "ordinal": 24,
+    "label": "Answer Analysis - IELTS Reading - The future of the World's Language",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-024-the-future-of-the-worlds-language"
+  },
+  {
+    "id": "reading-analysis:p3-025-the-game-of-tennis",
+    "type": "reading-analysis",
+    "ordinal": 25,
+    "label": "Answer Analysis - IELTS Reading - The Game of Tennis",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-025-the-game-of-tennis"
+  },
+  {
     "id": "reading-analysis:p1-105-the-great-australian-fence",
     "type": "reading-analysis",
     "ordinal": 105,
     "label": "Answer Analysis - IELTS Reading - The Great Australian Fence",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-105-the-great-australian-fence"
+  },
+  {
+    "id": "reading-analysis:p3-076-the-hemp-revival",
+    "type": "reading-analysis",
+    "ordinal": 76,
+    "label": "Answer Analysis - IELTS Reading - The hemp revival",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-076-the-hemp-revival"
   },
   {
     "id": "reading-analysis:p1-135-the-hidden-lives-of-solitary-bees",
@@ -30442,12 +31466,44 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-157-the-history-of-salt"
   },
   {
+    "id": "reading-analysis:p3-141-the-history-of-the-guitar",
+    "type": "reading-analysis",
+    "ordinal": 141,
+    "label": "Answer Analysis - IELTS Reading - The history of the guitar",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-141-the-history-of-the-guitar"
+  },
+  {
+    "id": "reading-analysis:p3-096-the-immunisation-controversy",
+    "type": "reading-analysis",
+    "ordinal": 96,
+    "label": "Answer Analysis - IELTS Reading - The Immunisation Controversy",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-096-the-immunisation-controversy"
+  },
+  {
+    "id": "reading-analysis:p3-164-the-impact-of-environment-to-children",
+    "type": "reading-analysis",
+    "ordinal": 164,
+    "label": "Answer Analysis - IELTS Reading - The Impact of Environment to Children",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-164-the-impact-of-environment-to-children"
+  },
+  {
     "id": "reading-analysis:p1-036-the-impact-of-the-potato",
     "type": "reading-analysis",
     "ordinal": 36,
     "label": "Answer Analysis - IELTS Reading - The Impact of the Potato",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-036-the-impact-of-the-potato"
+  },
+  {
+    "id": "reading-analysis:p3-171-the-importance-of-law",
+    "type": "reading-analysis",
+    "ordinal": 171,
+    "label": "Answer Analysis - IELTS Reading - The importance of law",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-171-the-importance-of-law"
   },
   {
     "id": "reading-analysis:p1-055-the-innovation-of-grocery-stores",
@@ -30464,6 +31520,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - The intense rate of change in the world",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-059-the-intense-rate-of-change-in-the-world"
+  },
+  {
+    "id": "reading-analysis:p3-094-the-international-space-station",
+    "type": "reading-analysis",
+    "ordinal": 94,
+    "label": "Answer Analysis - IELTS Reading - The International Space Station",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-094-the-international-space-station"
   },
   {
     "id": "reading-analysis:p1-025-the-invention-of-television",
@@ -30498,12 +31562,44 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-086-the-most-dangerous-insect-in-the-world"
   },
   {
+    "id": "reading-analysis:p3-090-the-mother-of-all-languages",
+    "type": "reading-analysis",
+    "ordinal": 90,
+    "label": "Answer Analysis - IELTS Reading - The Mother of All Languages",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-090-the-mother-of-all-languages"
+  },
+  {
     "id": "reading-analysis:p1-029-the-mozart-effect",
     "type": "reading-analysis",
     "ordinal": 29,
     "label": "Answer Analysis - IELTS Reading - The Mozart Effect",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-029-the-mozart-effect"
+  },
+  {
+    "id": "reading-analysis:p3-127-the-mpemba-effect",
+    "type": "reading-analysis",
+    "ordinal": 127,
+    "label": "Answer Analysis - IELTS Reading - THE MPEMBA EFFECT",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-127-the-mpemba-effect"
+  },
+  {
+    "id": "reading-analysis:p3-136-the-nagymaros-dam",
+    "type": "reading-analysis",
+    "ordinal": 136,
+    "label": "Answer Analysis - IELTS Reading - The Nagymaros Dam",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-136-the-nagymaros-dam"
+  },
+  {
+    "id": "reading-analysis:p3-062-the-natural-world",
+    "type": "reading-analysis",
+    "ordinal": 62,
+    "label": "Answer Analysis - IELTS Reading - The natural world",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-062-the-natural-world"
   },
   {
     "id": "reading-analysis:p1-010-the-nature-of-addiction",
@@ -30514,12 +31610,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-010-the-nature-of-addiction"
   },
   {
+    "id": "reading-analysis:p3-056-the-olympic-torch",
+    "type": "reading-analysis",
+    "ordinal": 56,
+    "label": "Answer Analysis - IELTS Reading - The Olympic Torch",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-056-the-olympic-torch"
+  },
+  {
     "id": "reading-analysis:p1-058-the-pearl",
     "type": "reading-analysis",
     "ordinal": 58,
     "label": "Answer Analysis - IELTS Reading - The Pearl",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-058-the-pearl"
+  },
+  {
+    "id": "reading-analysis:p3-150-the-persuaders",
+    "type": "reading-analysis",
+    "ordinal": 150,
+    "label": "Answer Analysis - IELTS Reading - The Persuaders",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-150-the-persuaders"
   },
   {
     "id": "reading-analysis:p1-162-the-power-of-nothing",
@@ -30546,6 +31658,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-069-the-race-to-make-spider-silk"
   },
   {
+    "id": "reading-analysis:p3-165-the-return-of-monkey-life",
+    "type": "reading-analysis",
+    "ordinal": 165,
+    "label": "Answer Analysis - IELTS Reading - The return of monkey life",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-165-the-return-of-monkey-life"
+  },
+  {
+    "id": "reading-analysis:p3-104-the-revolutionary-bridges-of-robert-maillart",
+    "type": "reading-analysis",
+    "ordinal": 104,
+    "label": "Answer Analysis - IELTS Reading - The Revolutionary Bridges of Robert Maillart",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-104-the-revolutionary-bridges-of-robert-maillart"
+  },
+  {
     "id": "reading-analysis:p1-114-the-rufous-hare-wallaby",
     "type": "reading-analysis",
     "ordinal": 114,
@@ -30570,6 +31698,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-089-the-search-for-colour"
   },
   {
+    "id": "reading-analysis:p3-142-the-secret-of-the-yawn",
+    "type": "reading-analysis",
+    "ordinal": 142,
+    "label": "Answer Analysis - IELTS Reading - The secret of the Yawn",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-142-the-secret-of-the-yawn"
+  },
+  {
     "id": "reading-analysis:p1-151-the-secrets-of-persuasion",
     "type": "reading-analysis",
     "ordinal": 151,
@@ -30584,6 +31720,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - The sense of flavour",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-135-the-sense-of-flavour"
+  },
+  {
+    "id": "reading-analysis:p3-043-the-significant-role-of-mother-tongue-in-education",
+    "type": "reading-analysis",
+    "ordinal": 43,
+    "label": "Answer Analysis - IELTS Reading - The Significant Role of Mother Tongue in Education",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-043-the-significant-role-of-mother-tongue-in-education"
   },
   {
     "id": "reading-analysis:p1-087-the-spice-of-life",
@@ -30624,6 +31768,22 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - THE WILD SIDE OF TOWN",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-109-the-wild-side-of-town"
+  },
+  {
+    "id": "reading-analysis:p3-092-the-year-without-a-summer",
+    "type": "reading-analysis",
+    "ordinal": 92,
+    "label": "Answer Analysis - IELTS Reading - The Year Without a Summer",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-092-the-year-without-a-summer"
+  },
+  {
+    "id": "reading-analysis:p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools",
+    "type": "reading-analysis",
+    "ordinal": 49,
+    "label": "Answer Analysis - IELTS Reading - Theory or Practice? —What is the point of research carried out by biz schools?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools"
   },
   {
     "id": "reading-analysis:p2-078-therapeutic-jurisprudence-an-overview",
@@ -30680,6 +31840,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Travel Accounts",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-158-travel-accounts"
+  },
+  {
+    "id": "reading-analysis:p3-033-travel-books",
+    "type": "reading-analysis",
+    "ordinal": 33,
+    "label": "Answer Analysis - IELTS Reading - Travel Books",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-033-travel-books"
   },
   {
     "id": "reading-analysis:p1-117-trends-in-the-indian-fashion-and-textile-industries",
@@ -30746,12 +31914,28 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p1-120-undoing-our-emotions"
   },
   {
+    "id": "reading-analysis:p3-020-unexpected-benefits-to-human-brain",
+    "type": "reading-analysis",
+    "ordinal": 20,
+    "label": "Answer Analysis - IELTS Reading - Unexpected Benefits to Human Brain",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-020-unexpected-benefits-to-human-brain"
+  },
+  {
     "id": "reading-analysis:p2-084-unsung-and-lowly-creatures",
     "type": "reading-analysis",
     "ordinal": 84,
     "label": "Answer Analysis - IELTS Reading - Unsung and Lowly Creatures",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-084-unsung-and-lowly-creatures"
+  },
+  {
+    "id": "reading-analysis:p3-118-video-game-research",
+    "type": "reading-analysis",
+    "ordinal": 118,
+    "label": "Answer Analysis - IELTS Reading - Video game research",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-118-video-game-research"
   },
   {
     "id": "reading-analysis:p2-147-video-games-unexpected-benefit-to-human-brain",
@@ -30786,6 +31970,30 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-167-warning-mondays-are-bad-for-your-heart"
   },
   {
+    "id": "reading-analysis:p3-143-water-filter",
+    "type": "reading-analysis",
+    "ordinal": 143,
+    "label": "Answer Analysis - IELTS Reading - Water Filter",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-143-water-filter"
+  },
+  {
+    "id": "reading-analysis:p3-162-water-treatment-2-reed-bed",
+    "type": "reading-analysis",
+    "ordinal": 162,
+    "label": "Answer Analysis - IELTS Reading - Water Treatment 2: Reed Bed",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-162-water-treatment-2-reed-bed"
+  },
+  {
+    "id": "reading-analysis:p3-091-waterfalls",
+    "type": "reading-analysis",
+    "ordinal": 91,
+    "label": "Answer Analysis - IELTS Reading - Waterfalls",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-091-waterfalls"
+  },
+  {
     "id": "reading-analysis:p2-143-we-have-star-performers",
     "type": "reading-analysis",
     "ordinal": 143,
@@ -30810,12 +32018,52 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "ielts-reading-analysis.html?article=p2-149-western-immigration-of-canada"
   },
   {
+    "id": "reading-analysis:p3-161-what-are-dreams",
+    "type": "reading-analysis",
+    "ordinal": 161,
+    "label": "Answer Analysis - IELTS Reading - What Are Dreams?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-161-what-are-dreams"
+  },
+  {
+    "id": "reading-analysis:p3-051-what-do-babies-know",
+    "type": "reading-analysis",
+    "ordinal": 51,
+    "label": "Answer Analysis - IELTS Reading - What Do Babies Know?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-051-what-do-babies-know"
+  },
+  {
     "id": "reading-analysis:p1-048-what-do-managers-really-do",
     "type": "reading-analysis",
     "ordinal": 48,
     "label": "Answer Analysis - IELTS Reading - What do Managers Really Do?",
     "detail": "IELTS Reading · Passage 1 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p1-048-what-do-managers-really-do"
+  },
+  {
+    "id": "reading-analysis:p3-027-what-is-a-dinosaur",
+    "type": "reading-analysis",
+    "ordinal": 27,
+    "label": "Answer Analysis - IELTS Reading - What is a dinosaur?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-027-what-is-a-dinosaur"
+  },
+  {
+    "id": "reading-analysis:p3-052-what-is-meaning",
+    "type": "reading-analysis",
+    "ordinal": 52,
+    "label": "Answer Analysis - IELTS Reading - What is Meaning",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-052-what-is-meaning"
+  },
+  {
+    "id": "reading-analysis:p3-003-whats-in-blood",
+    "type": "reading-analysis",
+    "ordinal": 3,
+    "label": "Answer Analysis - IELTS Reading - What's in Blood?",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-003-whats-in-blood"
   },
   {
     "id": "reading-analysis:p2-100-wheel-of-fortune",
@@ -30840,6 +32088,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "label": "Answer Analysis - IELTS Reading - Why are so few tigers man-eaters?",
     "detail": "IELTS Reading · Passage 2 · Answer Analysis",
     "url": "ielts-reading-analysis.html?article=p2-104-why-are-so-few-tigers-man-eaters"
+  },
+  {
+    "id": "reading-analysis:p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues",
+    "type": "reading-analysis",
+    "ordinal": 172,
+    "label": "Answer Analysis - IELTS Reading - Why Do We Touch Strangers So Much? A History Of The Handshake Offers Clues",
+    "detail": "IELTS Reading · Passage 3 · Answer Analysis",
+    "url": "ielts-reading-analysis.html?article=p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues"
   },
   {
     "id": "reading-analysis:p1-108-why-risks-can-go-wrong",

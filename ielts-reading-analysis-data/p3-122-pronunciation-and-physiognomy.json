@@ -1,0 +1,1076 @@
+{
+  "id": "p3-122-pronunciation-and-physiognomy",
+  "catalogueId": "p3-122",
+  "catalogueIds": [
+    "p3-122"
+  ],
+  "passage": 3,
+  "title": "Pronunciation and physiognomy",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "F",
+    "B",
+    "D",
+    "NOT GIVEN",
+    "NO",
+    "YES",
+    "YES",
+    "YES",
+    "NOT GIVEN",
+    "D",
+    "A",
+    "E",
+    "G"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "F — his friends’ appearance had changed since they moved to the United States.",
+      "answerKey": "F — his friends’ appearance had changed since they moved to the United States.",
+      "type": "Matching People",
+      "prompt": "Question 28",
+      "translation": "他的朋友移居美國後，外貌發生了變化。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物是 Koestler。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Writer Arthur Koestler once remarked that friends of his, whom he had met thirty years after they emigrated to the United States, had acquired an ‘American physiognomy’, i.e. a broadened jaw, an appearance which is also prevalent in the indigenous population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作家 Arthur Koestler 曾說，他有些朋友在移居美國三十年後再與他見面時，已經獲得一種「美國式面相」，也就是變寬的下顎；這種外貌在本土人口中也很常見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ‘change of countenance’ in immigrants had already been observed by the historian M. Fishberg in 1910.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種移民面容上的改變，歷史學家 M. Fishberg 早在 1910 年已經觀察到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 3 是人物觀點段，Koestler 和 Fishberg 都與移民外貌改變有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Koestler”。原文直接出現 “Writer Arthur Koestler once remarked...”。值得停"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下的原因是這句同時出現 friends、emigrated to the United States、acquired an American physiognomy。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "關鍵動詞是 “had acquired”。acquire 表示後來獲得。這些朋友三十年前移居美國，三十年"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後 Koestler 發現他們有了 American physiognomy。選項 F 說 “his friends’ appearance had changed since they moved to the United States”，正好概括這個變化。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "his friends = friends of his appearance had changed = had acquired an American physiognomy since they moved to the United States = after they emigrated to the United States所以 Q28 答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — immigrants acquire physiognomical features common among the indigenous",
+      "answerKey": "B — immigrants acquire physiognomical features common among the indigenous",
+      "type": "Matching People",
+      "prompt": "Question 29",
+      "translation": "移民會獲得本土人口常見的面相特徵。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "population題目人物是 Fishberg。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已提到 Koestler 的朋友移居美國後獲得 American physiognomy；最後一句說 Fishberg早已觀察到 “change of countenance” in immigrants。這兩句合起來提示：Fishberg 的觀察不是孤立資料，而是接著前面 Koestler 所說的移民面容改變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Fishberg”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ‘change of countenance’ in immigrants had already been observed by the historian M. Fishberg in 1910.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種移民面容上的改變，歷史學家 M. Fishberg 早在 1910 年已經觀察到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要處理代詞和引號。原文的 “This ‘change of countenance’” 指前面那種改變：移居美"
+            },
+            {
+              "kind": "paragraph",
+              "text": "國的人獲得 American physiognomy，即 broadened jaw；這種 appearance 又被說成 “prevalent in the indigenous population”。所以 Fishberg 觀察到的是：移民出現面容改變，這種改變和本土人口常見特徵有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "immigrants = immigrants acquire physiognomical features = change of countenance / acquired an American physiognomy common among the indigenous population = prevalent in the indigenous population選項 G 說 change was unremarkable，但原文沒有 “unremarkable” 的意思。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "D — lifestyle affects physiognomy",
+      "answerKey": "D — lifestyle affects physiognomy",
+      "type": "Matching People",
+      "prompt": "Question 30",
+      "translation": "生活方式會影響面相。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物是 Emerson。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To paraphrase the philosopher Emerson, certain national, social and religious groups, such as aging actors, long-term convicts and celibate priests, to give just a few examples, develop a distinguishing ‘look’, which is not easily defined, but readily recognised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "借用哲學家 Emerson 的說法，某些國家、社會和宗教群體，例如年老演員、長期囚犯和獨身神父，會形成一種難以定義但容易辨認的獨特「樣貌」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說心理和社會語言因素也需要另行研究。只看首尾句可知，本段先談群體生活如何塑造樣貌，再談 pronunciation 與學習因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Emerson”。原文在 Paragraph 4 第一行直接出現。接著往下讀可找到真正"
+            },
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their way of life affects their facial expression and physical features...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的生活方式會影響他們的面部表情和身體特徵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 “lifestyle” 對應原文 “way of life”；“affects physiognomy” 對應 “affects their facial"
+            },
+            {
+              "kind": "paragraph",
+              "text": "expression and physical features”。physiognomy 指面相、外貌特徵。這是非常直接的同義改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 facial expression and physical features are hereditary，但原文說這種印象可能令人誤以為 traits are hereditary or racial。重點是生活方式會造成外貌特徵，不應直接歸因於遺傳。因此Q30 答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Further study into the science of voice production will cost considerable sums of money.”",
+      "translation": "進一步研究聲音產生科學會花費大量金錢。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句提到 Emerson 及不同群體形成 distinctive look。最後一句說成人外語學習者發音受心理和社會語言因素影響，這是另一個重要議題，需要 separate investigation。只看首尾句可知，本段確實談到研究需要，但不一定談經費。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Further study” 和 “science of voice production”。原文中間說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...calls for further study into the science of voice production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這需要對聲音產生科學作進一步研究。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文只說有研究需要，並補充這種研究 “can only benefit those working in the field of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "speech therapy, elocution and the pronunciation of foreign languages”。也就是說，研究可能有益於語音治療、演說發音和外語發音學習。題目加入 “will cost considerable sums of money”，文章沒有提供任何 cost、money、funding、expense 或 expensive research 相關資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文支持 “further study is needed”，但沒有說研究成本高。缺少金錢和費用資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The psychological and socio-linguistic factors that make it difficult for adult learners of foreign languages to gain ‘good’ pronunciation are not as important as other factors.”",
+      "translation": "令成人外語學習者難以獲得良好發音的心理和社會語言因素，沒有其他因素那麼重要。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句談生活方式如何形成群體 look；最後一句直接出現 “psychological and socio-linguistic factors”，所以最後一句是本題核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “psychological and socio-linguistic factors”、“adult learners” 和 “‘good’"
+            },
+            {
+              "kind": "label",
+              "text": "pronunciation”。原文最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naturally, the numerous psychological and socio-linguistic factors that inhibit most adult learners of foreign languages from acquiring ‘good’ pronunciation constitute a completely different and no less important issue that requires separate investigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然地，那些阻礙大多數成人外語學習者獲得「良好」發音的眾多心理和社會語言因素，構成一個完全不同、同樣重要的議題，也需要另行研究。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “no less important”。它的意思是「重要性並不較低」，即至少同樣重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “are not as important as other factors”，意思是「較不重要」。這和原文的 “no less important” 相衝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：not as important = 較不重要"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：no less important = 重要性不低於其他因素因此答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Speech organs are muscles.”",
+      "translation": "發音器官是肌肉。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The pronunciation of the various forms of English around the world today is affected by the voice being ‘placed’ in different parts of the mouth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日世界各地不同形式的英語發音，會受到聲音在口腔不同位置「放置」的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句問 “stuck up” 這個表達是否可能來自 RP 的某種臉部姿勢。首尾句顯示本段討論發音位置、口腔動作、臉部姿態之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “speech organs” 和 “muscles”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“We use our speech organs in certain ways to produce specific sounds, and these muscles have to practise to learn new phonemes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們以特定方式使用發音器官來發出特定聲音，而這些肌肉必須練習，才能學會新的音素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句先說 speech organs，後面用 “these muscles” 回指前面的發音器官或參與發音的肌"
+            },
+            {
+              "kind": "paragraph",
+              "text": "肉群。文章立場是在說：發音不是純粹聲音問題，也涉及口腔內外的肌肉使用。題目把這個意思壓縮成 “Speech organs are muscles.” 在文章語境中，這是可接受的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "speech organs = organs used to produce specific sounds are muscles = these muscles所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“New phonemes are difficult to learn.”",
+      "translation": "新的音素很難學會。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經指出不同英語發音與 voice placement 有關；尾句又把 RP 的發音姿態連到臉部表情。這段的功能是展示發音需要身體器官和肌肉配合，因此很適合處理 new phonemes 的學習難度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “new phonemes”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...these muscles have to practise to learn new phonemes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些肌肉必須練習，才能學會新的音素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 difficult 這個字，但 “have to practise” 表示新音素不是自然立即掌握，需"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要肌肉訓練。後面作者又叫 non-Americans 對著鏡子反覆讀帶有美式 retroflex /r/ 的句子，觀察三四次後下顎骨有何變化，再想像二十年後的效果。這進一步支援新音素需要身體習慣和持續練習。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "difficult to learn = have to practise to learn new phonemes = new phonemes這題的重點是 “difficult” 屬於合理概括，不代表 impossible。文章支援「需要練習，不能輕易自然掌握」這個意思，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“People often make fun of standard British RP.”",
+      "translation": "人們經常取笑標準英式 RP 發音。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講英語不同形式的發音由口腔位置影響；最後一句提到 RP 的動作可能和 “stuck up” 表達有關。段落後半明顯轉向不同口音被模仿、被嘲笑的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “standard British RP” 和 “make fun of”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise, standard British RP is often parodied, and its whine of superiority mocked to the point of turning the end of one’s nose up as much as possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，標準英式 RP 經常被滑稽模仿，其帶有優越感的鼻音也被嘲弄，甚至模仿到盡量把鼻尖往上翹的程度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“parodied” 指被戲仿；“mocked” 指被嘲笑。題目中的 “make fun of” 正好概括這兩個動作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文還有 “often”，題目也有 often，頻率一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "make fun of = parodied / mocked standard British RP = standard British RP所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Facial features contribute to the incomprehensibility of Midlands English.”",
+      "translation": "臉部特徵導致 Midlands English 難以理解。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once on a Birmingham bus, a friend pointed to a fellow passenger and said, ‘That man’s Brummie accent is written all over his face.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一次在 Birmingham 的巴士上，一位朋友指著另一名乘客說：「那個人的 Brummie 口音全寫在他的臉上。」最後一句問 Scouse accent 和高顴骨究竟誰造成誰。只看首尾句可知，這段討論臉部特徵和地區口音之間的因果方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Midlands English”、“facial features” 和 “incomprehensibility”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The interesting thing would be to establish whether thin lips and a tense, prominent chin are a result of the way Midlands English is spoken, or its cause, or a mixture of both.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正有趣的是要確定：薄唇和緊繃、突出的下巴，究竟是 Midlands English 說法造成的結果，還是它的原因，或兩者都有。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文討論的是 facial features 和 Midlands English 之間的 cause / result 關係。題目加入"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“incomprehensibility”，也就是「難以理解」。文章沒有說 Midlands English 難懂，也沒有說臉部特徵令它難懂。判斷：原文有 facial features 和 Midlands English，但缺少 incomprehensibility 這個核心概念，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D — use images to assist students with the desired pronunciation.",
+      "answerKey": "D — use images to assist students with the desired pronunciation.",
+      "type": "Sentence Endings",
+      "prompt": "“Voice coaches use images to assist students with the desired pronunciation.”",
+      "translation": "語音教練會用圖像或想像畫面，幫助學生掌握目標發音。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When one learns another accent, as in the theatre for example, voice coaches often resort to images to help their students acquire the distinctive sound of the target pronunciation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當一個人學習另一種口音時，例如在劇場訓練中，語音教練常會借助圖像或想像畫面，幫助學生掌握目標發音的獨特聲音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句講 Australian accent 的身體想像。首尾句顯示本段是 accent coaching 的方法段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Voice coaches”。原文第一句直接出現 “voice coaches often resort to images”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 “use images” 對應原文 “resort to images”；“assist students” 對應 “help their"
+            },
+            {
+              "kind": "paragraph",
+              "text": "students”；“desired pronunciation” 對應 “target pronunciation”。人物、意思和文法都配合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q37 答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — can be achieved by using a mental aid.",
+      "answerKey": "A — can be achieved by using a mental aid.",
+      "type": "Sentence Endings",
+      "prompt": "“The Scouse accent can be achieved by using a mental aid.”",
+      "translation": "Scouse 口音可以透過心理輔助畫面來掌握。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 voice coaches 用 images 幫學生學目標發音；最後一句講 Australian accent 的想像。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間會列出不同口音的 mental aid，其中包括 Scouse。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Scouse”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“With ‘Scouse’, the mental aid employed is pushing your cheekbones up in a smile as high as they will go and imagining you have a very slack mouth full of cotton wool.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學 Scouse 時，所使用的心理輔助方法是把顴骨盡量向上推成笑容，並想像自己有一張非常鬆弛、塞滿棉花的嘴。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題幹 “The Scouse accent...” 接選項 A 之後，句子自然完整。原文直接說 Scouse 有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mental aid employed”，選項 A 概括為 “can be achieved by using a mental aid”。選項 I “makes you smile” 有迷惑性，因為原文確實有 “in a smile”，但 smile 只是 mental aid 的一部分，不是整句主旨。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "E — is a chicken and egg conundrum.",
+      "answerKey": "E — is a chicken and egg conundrum.",
+      "type": "Sentence Endings",
+      "prompt": "“Whether the way we look affects the way we speak or the other way round is a chicken and egg conundrum.”",
+      "translation": "究竟外貌影響說話方式，還是說話方式影響外貌，是一個雞與蛋式的因果難題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Has this contributed to an Australian ‘look’, and affected the way ‘Aussies’ speak English, or vice versa?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是否促成了澳洲人的某種「樣貌」，並影響澳洲人說英語的方式，還是反方向成立？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說人們也會好奇自己群體有甚麼 look。首尾句顯示本段總結外貌和說話方式之間的因果疑問。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是題幹中的 “the way we look affects the way we speak or the other way round”。原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文第一句的 “or vice versa” 正好對應 “or the other way round”。下一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a curious chicken and egg conundrum...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個有趣的雞與蛋式難題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題幹和原文幾乎完全同構。whether X affects Y or vice versa = chicken and egg"
+            },
+            {
+              "kind": "paragraph",
+              "text": "conundrum。選項 E 完整接上題幹，意思和文法都正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "G — can affect appearance.",
+      "answerKey": "G — can affect appearance.",
+      "type": "Sentence Endings",
+      "prompt": "“It is important to prove that pronunciation can affect appearance.”",
+      "translation": "重要的是要證明發音可以影響外貌。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句提出 Australian look 和 Australian speech 的因果問題；最後一句說人們也會好奇自己群體的 look。這段是全文總結，會收束到 pronunciation 和 physiognomy 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “important” 和 “pronunciation”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is important, however, is establishing pronunciation as one of the factors that determine physiognomy, and gaining a deeper insight into the origins and nature of the sounds of speech.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "重要的是，要確立發音是決定面相的因素之一，並更深入理解語音的起源和本質。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“physiognomy” 在本文中指面相或外貌特徵。原文 “pronunciation as one of the factors"
+            },
+            {
+              "kind": "paragraph",
+              "text": "that determine physiognomy” 表示 pronunciation 能影響 appearance。選項 G “can affect appearance” 正好概括這個意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “is worth investigating” 有一定吸引力，因為前文說 “that alone is worth investigating”。不過 Question 40 的題幹是 “It is important to prove that pronunciation...”，最自然、最精準的結尾是G：pronunciation can affect appearance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q40 答案是 G。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Pronunciation and physiognomy.pdf",
+    "sha256": "1cd8af7bd56de5759f71513cc251b4a9b023fb14d67ee0d96f984de055daff65",
+    "pageCount": 13
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用地鐵場景引入：你憑直覺覺得某人是美國人；尾句問你如何知道。只看首尾句，可以估計本段是導入段，重點不在答案本身，重點在提出「外貌、口音、國籍判斷」之間的關係。這段讓讀者準備思考：我們判斷一個人是否像某國人，可能不只靠衣著，也可能靠臉部特徵和說話方式。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說我們認為某人「看起來像美國人」時，會考慮衣著、舉止和外貌；尾句指出其中一個明顯特徵是下顎變寬。只看首尾句，可先判斷本段開始提出核心論點：American look 不是種族單一造成的，可能和 jaw widening 有關。本段很適合定位 Americans、look、jaw、physical appearance 類資訊。"
+      },
+      {
+        "number": "3",
+        "summary": "首句提到 Arthur Koestler 說移居美國多年的朋友獲得 American physiognomy；尾句說 Fishberg早在 1910 年已觀察到移民的 change of countenance。首尾句已顯示本段集中處理人物觀點，尤其是 Koestler、anthropologist friend、Fishberg。這段會是人物配對題的核心，重點是移民外貌改變、下顎變寬，以及美式發音可能造成臉部變化。"
+      },
+      {
+        "number": "4",
+        "summary": "首句借 Emerson 的說法指出，不同國家、社會和宗教群體會形成可辨認的 look；尾句說成人學外語發音時的心理和社會語言因素也值得另行研究。只看首尾句，可以估計本段把外貌差異擴大到lifestyle、facial expression、physical features 和 pronunciation 的研究價值。這段適合定位Emerson、way of life、further study、psychological / socio-linguistic factors。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說世界各地英語發音受到聲音在口腔不同位置的影響；尾句提出 “stuck up” 這個說法是否來自某種 RP 臉部姿態。只看首尾句，可判斷本段重點是發音如何牽動 speech organs、jaw muscles 和臉部動作。它也談到美式 retroflex /r/、模仿美國口音、RP 被嘲笑，所以很可能回答phonemes、speech organs、mock RP 類題目。"
+      },
+      {
+        "number": "6",
+        "summary": "首句提到朋友說某個乘客的 Brummie accent 寫在臉上；尾句問 Liverpool 的 Scouse accent 和高顴骨之間，究竟誰影響誰。只看首尾句，可以估計本段用 Birmingham 和 Liverpool 作地方案例，討論口音和臉部特徵的因果方向。這段會處理 Midlands English、thin lips、prominent chin、Scouse、高顴骨，以及「原因或結果」的問題。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說學習另一種口音時，voice coaches 常用 images 幫學生掌握目標發音；尾句說戴帽似的Australian look 想像來自強烈陽光下的皺眼和 grimace。只看首尾句，可判斷本段是 accent coaching 的例子段：Scouse、Belfast、Australian 都用身體或想像圖像輔助發音。這段會對應voice coaches、mental aid、Scouse accent 類句尾配對題。"
+      },
+      {
+        "number": "8",
+        "summary": "首句問 Australian look 是否影響澳洲英語，或反方向成立；尾句說人們也會好奇自己群體有甚麼look。只看首尾句，可以看到本段是全文總結：作者承認其他因素也影響外貌和聲音，不宜過度概括，但 pronunciation 作為決定 physiognomy 的因素之一，值得證明和研究。這段適合定位chicken and egg conundrum、worth investigating、pronunciation affects appearance。"
+      }
+    ]
+  }
+}

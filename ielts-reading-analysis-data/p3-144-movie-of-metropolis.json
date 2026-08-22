@@ -1,0 +1,1987 @@
+{
+  "id": "p3-144-movie-of-metropolis",
+  "catalogueId": "p3-144",
+  "catalogueIds": [
+    "p3-144"
+  ],
+  "passage": 3,
+  "title": "Movie of Metropolis",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "NOT GIVEN",
+    "social division",
+    "machines",
+    "John Fredersen",
+    "abstract",
+    "function",
+    "efficiency",
+    "C",
+    "A",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The inspiration for the film Metropolis came from the director’s visit to the USA in 1924.”",
+      "translation": "電影《Metropolis》的靈感來自導演在 1924 年到訪美國。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求判斷題目是否符合作者說法。重點是 inspiration、director’s visit、USA、1924 是否在原文中形成同一條證據鏈。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When German director Fritz Lang visited the United States in 1924, his first glimpse of the country was a night-time view of the New York skyline from the deck of an ocean liner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國導演 Fritz Lang 在 1924 年到訪美國時，第一次看到這個國家的景象，是從郵輪甲板上望見夜間紐約天際線。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, he later recalled, was the direct inspiration for what is still probably the most innovative and influential science-fiction film ever made – Metropolis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他後來回憶，這正是《Metropolis》的直接靈感來源；這部電影至今仍可能是有史以來最創新、最有影響力的科幻電影。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 已經把 visit、1924、USA、New York skyline、direct inspiration、Metropolis 全部連起來，所以這段一定是 Question 27 的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“inspiration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“director’s visit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“USA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1924”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“visited the United States in 1924”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the direct inspiration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Metropolis”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞幾乎原字重現，定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “This … was the direct inspiration”。這裡的 “This” 指上一句的畫面：Lang 於 1924 年到訪美國時，從郵輪上看到的 New York skyline。題目說 inspiration came from the director’s visit to the USA in 1924，雖然沒有提到 skyline，但把核心來源概括成那次美國之行，方向正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“came from the director’s visit to the USA in 1924”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“visited the United States in 1924” + “This … was the direct inspiration”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： USA = the United States inspiration came from = was the direct inspiration the director = Fritz Lang所以題目和原文同方向，答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The Master of Metropolis, John Fredersen, is based on an industrialist whom the director met in the US.”",
+      "translation": "Metropolis 的主人 John Fredersen，是以導演在美國遇到的一位工業家為原型。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 based on 和 whom the director met in the US。原文若要支持 YES，必須說明 John Fredersen 的人物原型來自 Lang 在美國見過的某位 industrialist。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B + Paragraph E Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Metropolis is a bleak vision of the early twenty-first century that is at once both chilling and exhilarating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Metropolis》是對二十一世紀初的一個陰暗想像，既令人不寒而慄，也令人興奮。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Presiding over them all is the Master of Metropolis, John Fredersen, whose sole satisfaction seems to lie in the exercise of power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "統治所有人的，是 Metropolis 的主人 John Fredersen；他唯一的滿足似乎在於行使權力。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is enlightening, I think, to relate the film to the modern global economy in which multinational corporations now routinely close their factories in one continent so that they can take advantage of cheap labour in another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者認為，把這部電影和現代全球經濟連起來看很有啟發性；在現代全球經濟中，跨國公司經常關閉一個洲的工廠，以便在另一個洲利用廉價勞工。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only people who have power are the supreme industrialist, Fredersen, and his magician/scientist cohort Rotwang.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正有權力的人只有最高工業家 Fredersen，以及他的魔術師／科學家同夥 Rotwang。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 後可以估計",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 介紹 Fredersen 是誰；Paragraph E 把 Fredersen 和現代企業權"
+            },
+            {
+              "kind": "paragraph",
+              "text": "力比較。這兩段都可能有關，但仍要細查有沒有 “based on” 和 “met in the US”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Fredersen”"
+            },
+            {
+              "kind": "quote",
+              "text": "“industrialist”"
+            },
+            {
+              "kind": "quote",
+              "text": "“based on”"
+            },
+            {
+              "kind": "quote",
+              "text": "“met in the US”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有 John Fredersen，也有 industrialist："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fredersen himself is the essence of the big company boss…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fredersen 本人就是大型公司老闆的本質化身。"
+            },
+            {
+              "kind": "label",
+              "text": "原文也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rupert Murdoch would probably feel perfectly at home in his huge skyscraper office with its panoramic view of the city below.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rupert Murdoch 大概會在 Fredersen 那間巨大摩天大樓辦公室中感到非常自在，因為那裡可俯瞰下方城市全景。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只是作者用現代企業老闆來解讀 Fredersen 的象徵意義。原文沒有說 Lang 在美國見過某位 industrialist，也沒有說 Fredersen 以那個人為藍本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據包括兩點： 1. Lang met an industrialist in the US. 2. John Fredersen was based on that industrialist.原文提供的是： 1. Lang 在美國看到 New York skyline。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. Fredersen 是大公司老闆或最高工業家的象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. 作者把他和現代企業領袖作比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少的是人物原型和見面經歷。這不是 NO，因為原文沒有明確否定 Fredersen 有任何現實原型；它只是沒有提供題目所需的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The opening of the film shows the workers moving energetically.”",
+      "translation": "電影開頭顯示工人精神充沛地移動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 opening scene 中 workers 的動作狀態。控制詞是 opening 和 energetically。即使原文提到工人移動，也要看他們是否真的 energetic。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lang’s graphic depiction of the future is conceived in almost totally abstract terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lang 對未來的視覺描寫幾乎是以完全抽象的方式構成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An extraordinary fantasy sequence sees one machine transformed into a huge open-jawed statue which then literally swallows them up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個非凡的幻想段落中，一部機器變成一座張開大口的巨大雕像，然後真的把他們吞下去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段分析電影的視覺象徵，尤其是機器與工人的關係。題目問 opening of the film shows the workers，這段中間很可能會有開場畫面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“opening”"
+            },
+            {
+              "kind": "quote",
+              "text": "“workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“moving energetically”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lang emphasizes this idea in the famous shift-change sequence at the start of the movie…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lang 在電影開頭著名的換班場面中強調這個想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “at the start of the movie” 對應題目 “The opening of the film”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lang emphasizes this idea in the famous shift-change sequence at the start of the movie when the workers walk in zombie-like geometric ranks, all dressed in the same dark overalls and all exhibiting the same bowed head and dead-eyed stare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lang 在電影開頭著名的換班場面中強調這個想法：工人像殭屍一樣排成幾何隊列行走，全都穿著同樣的深色工作服，全都低著頭，眼神呆滯。"
+            },
+            {
+              "kind": "label",
+              "text": "這句的核心描述包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“zombie-like”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "像殭屍一樣。"
+            },
+            {
+              "kind": "quote",
+              "text": "“bowed head”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "低著頭。"
+            },
+            {
+              "kind": "quote",
+              "text": "“dead-eyed stare”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼神空洞、呆滯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞的方向和 energetically 正好相反。Energetically 指有活力、精神充沛、動作有力量；原文呈現的是麻木、機械化、失去個性的人群。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“moving energetically”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“zombie-like”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bowed head”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dead-eyed stare”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文明確描寫工人缺乏生命力和活力，所以題目方向和原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The director and his wife divorced because she chose to remain in Germany.”",
+      "translation": "導演和他的妻子離婚，是因為她選擇留在德國。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個核心部分：第一，director and his wife divorced；第二，原因是 she chose to remain in Germany。只找到 wife stayed in Germany 不夠，還要有 divorce 和 because 的因果關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lang wrote the screenplay in collaboration with his then-wife Thea von Harbou.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lang 與當時的妻子 Thea von Harbou 合作撰寫劇本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a constant tension within the film between the too-tidy platitudes of von Harbou’s script and the uncompromisingly caustic vigour of Lang’s imagery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電影內部一直存在一種張力：一邊是 von Harbou 劇本中過度整齊的老套道理，另一邊是 Lang影像中毫不妥協、尖銳有力的活力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Lang 與妻子的創作合作，以及電影內部的兩種力量。題目提到wife，所以 Paragraph G 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wife”"
+            },
+            {
+              "kind": "quote",
+              "text": "“divorced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remain in Germany”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1933 he fled from the Nazis (and continued a very successful career in Hollywood). She stayed in Germany and continued to make films under the Hitler regime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1933 年，他逃離納粹，並在 Hollywood 繼續非常成功的事業。她留在德國，並在希特拉政權下繼續拍電影。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 Lang fled from the Nazis，也說 Thea von Harbou stayed in Germany。不過題目說的是 “divorced because she chose to remain in Germany”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供： 1. 他們離婚這一事件的具體說明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. 離婚原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. 她留在德國與婚姻結束之間的因果關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“then-wife” 這個字可能讓人知道她後來不再是他的妻子，但這仍然不能證明離婚原因。IELTS 中，because 是很強的因果詞；原文若沒有建立因果，就不能自行補上。題目需要的證據： she stayed in Germany → therefore they divorced原文實際提供： he fled from the Nazis she stayed in Germany they had different later careers and political contexts缺少 divorce cause，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "social division",
+      "answerKey": "social division",
+      "type": "Summary Completion",
+      "prompt": "“The director depicts a world of inequality and 31 ______.”",
+      "translation": "導演描繪了一個充滿不平等和 ______ 的世界。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Metropolis is a bleak vision of the early twenty-first century that is at once both chilling and exhilarating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Metropolis》是對二十一世紀初的一個陰暗想像，既令人不寒而慄，也令人興奮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Presiding over them all is the Master of Metropolis, John Fredersen, whose sole satisfaction seems to lie in the exercise of power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "統治所有人的，是 Metropolis 的主人 John Fredersen；他唯一的滿足似乎在於行使權力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹 Metropolis 這個未來城市的社會結構，因此很可能回答 inequality 相關的 summary 空格。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “inequality” 在原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s also a world of extreme inequality and social division.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也是一個極度不平等和社會分裂的世界。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“a world of inequality and ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“a world of extreme inequality and social division”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目省略了 extreme，但保留 inequality。空格後需要一個名詞短語，原文的 social division 正好填入，而且是兩個字，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 social division。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "machines",
+      "answerKey": "machines",
+      "type": "Summary Completion",
+      "prompt": "“In the future, the mindless masses of workers living underground are treated as 32 ______.”",
+      "translation": "在未來，住在地下、近乎失去思想的大批工人被當成 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Metropolis is a bleak vision of the early twenty-first century that is at once both chilling and exhilarating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Metropolis》是對二十一世紀初的一個陰暗想像，既令人不寒而慄，也令人興奮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Presiding over them all is the Master of Metropolis, John Fredersen, whose sole satisfaction seems to lie in the exercise of power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "統治所有人的，是 Metropolis 的主人 John Fredersen；他唯一的滿足似乎在於行使權力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中間介紹地下工人的生活，正好對應題目中的 workers living underground。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“below ground”"
+            },
+            {
+              "kind": "quote",
+              "text": "“machines”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The workers live below ground and exist as machines working in an endless routine of mind-numbing 10-hour shifts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工人住在地下，像機器一樣存在，在令人麻木的十小時輪班中不斷工作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “living underground” 對應原文 “live below ground”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “mindless masses” 對應原文 “mind-numbing 10-hour shifts” 以及 Paragraph C 的zombie-like workers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格句 “are treated as ______” 要一個名詞。原文最直接的名詞是 machines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “exist as machines” 改寫成 “are treated as machines”。意思上是：工人已被去人性化，像機器一樣工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 machines。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "John Fredersen",
+      "answerKey": "John Fredersen",
+      "type": "Summary Completion",
+      "prompt": "“Their master is 33 ______, who controls the entire city.”",
+      "translation": "他們的主人是 ______，他控制整座城市。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Metropolis is a bleak vision of the early twenty-first century that is at once both chilling and exhilarating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Metropolis》是對二十一世紀初的一個陰暗想像，既令人不寒而慄，也令人興奮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Presiding over them all is the Master of Metropolis, John Fredersen, whose sole satisfaction seems to lie in the exercise of power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "統治所有人的，是 Metropolis 的主人 John Fredersen；他唯一的滿足似乎在於行使權力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“master”"
+            },
+            {
+              "kind": "quote",
+              "text": "“controls”"
+            },
+            {
+              "kind": "quote",
+              "text": "“entire city”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Master of Metropolis, John Fredersen”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “Presiding over them all” 表示他在所有人之上，支配整個城市秩序。題目把這個意思概括成 “controls the entire city”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要人名，且最多兩個字。John Fredersen 是兩個字，完全符合題目要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 John Fredersen。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "abstract",
+      "answerKey": "abstract",
+      "type": "Summary Completion",
+      "prompt": "“The writer says that Fritz Lang presents the film in 34 ______ terms…”",
+      "translation": "作者說 Fritz Lang 以 ______ 的方式呈現電影。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lang’s graphic depiction of the future is conceived in almost totally abstract terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lang 對未來的視覺描寫幾乎是以完全抽象的方式構成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An extraordinary fantasy sequence sees one machine transformed into a huge open-jawed statue which then literally swallows them up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個非凡的幻想段落中，一部機器變成一座張開大口的巨大雕像，然後真的把工人吞下去。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “presents the film in ___ terms” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“conceived in almost totally abstract terms”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵詞是 abstract terms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格後已有 “terms”，所以只需要填形容詞 abstract。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文完整說法是 “almost totally abstract terms”，但題目限制最多兩個字，而且句子只需補足核心形容詞。填 abstract 最清楚、最穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 abstract。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "function",
+      "answerKey": "function",
+      "type": "Summary Completion",
+      "prompt": "“…while the 35 ______ of the individual machines is never defined.”",
+      "translation": "個別機器的 ______ 從未被界定。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lang’s graphic depiction of the future is conceived in almost totally abstract terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lang 對未來的視覺描寫幾乎是以完全抽象的方式構成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An extraordinary fantasy sequence sees one machine transformed into a huge open-jawed statue which then literally swallows them up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個非凡的幻想段落中，一部機器變成一座張開大口的巨大雕像，然後真的把工人吞下去。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目幾乎照抄原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The function of the individual machines is never defined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別機器的功能從未被界定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the”，後面是 “of the individual machines”，所以需要名詞。原文名詞是 function。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點在於：機器的具體功能並不重要，因為它們在電影中作為所有機器和所有工業的象徵。題目只問原文字詞，所以答案直接取 function。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 function。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "efficiency",
+      "answerKey": "efficiency",
+      "type": "Summary Completion",
+      "prompt": "“…multinational corporations are more concerned with growing 36 ______ and profits.”",
+      "translation": "跨國公司更關心增長 ______ 和利潤。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is enlightening, I think, to relate the film to the modern global economy in which multinational corporations now routinely close their factories in one continent so that they can take advantage of cheap labour in another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者認為，把這部電影和現代全球經濟連起來看很有啟發性；在現代全球經濟中，跨國公司經常關閉一個洲的工廠，以便在另一個洲利用廉價勞工。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only people who have power are the supreme industrialist, Fredersen, and his magician/scientist cohort Rotwang.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正有權力的人只有最高工業家 Fredersen，以及他的魔術師／科學家同夥 Rotwang。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“multinational corporations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“profits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“goals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like the industry in Metropolis, these corporations’ goals of increased efficiency and profits have little to do with the welfare of the majority of their employees or that of the population at large.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像《Metropolis》中的工業一樣，這些公司的目標是提高效率和利潤，這與大多數員工或廣大人口的福祉幾乎沒有關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “growing” 對應原文 “increased”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “profits” 原字重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要和 profits 並列的名詞，原文是 efficiency。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 efficiency。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — contradictory feelings towards the future",
+      "answerKey": "C — contradictory feelings towards the future",
+      "type": "Multiple Choice",
+      "prompt": "“The first sentence in paragraph B indicates…”",
+      "translation": "Paragraph B 第一句顯示甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Metropolis is a bleak vision of the early twenty-first century that is at once both chilling and exhilarating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Metropolis》是對二十一世紀初的一個陰暗想像，既令人不寒而慄，也令人興奮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Presiding over them all is the Master of Metropolis, John Fredersen, whose sole satisfaction seems to lie in the exercise of power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "統治所有人的，是 Metropolis 的主人 John Fredersen；他唯一的滿足似乎在於行使權力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題直接指定 first sentence in paragraph B，所以不需要大範圍搜索。要細讀的詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“bleak”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chilling”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exhilarating”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bleak” 指陰暗、悲觀。“chilling” 指令人不安、令人害怕。“exhilarating” 指令人興奮、振奮。同一句同時出現 chilling 和 exhilarating，表示作者對這個未來城市有矛盾感受：一方面恐怖、壓抑；另一方面壯觀、刺激。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. the author’s fear about technology只抓到 chilling 的一部分，沒有處理 exhilarating。 B. the inspiration of the director這是 Paragraph A 的內容，不是 Paragraph B 第一句重點。 C. contradictory feelings towards the future正確。它概括了 chilling 和 exhilarating 同時出現的矛盾感。 D. the city elite’s successful management of the workers這涉及後文的階級控制，不是第一句本身。所以 37 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — Because Lang presents the theme symbolically.",
+      "answerKey": "A — Because Lang presents the theme symbolically.",
+      "type": "Multiple Choice",
+      "prompt": "“Why is the function of the individual machines not defined?”",
+      "translation": "為甚麼個別機器的功能沒有被界定？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lang’s graphic depiction of the future is conceived in almost totally abstract terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lang 對未來的視覺描寫幾乎是以完全抽象的方式構成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An extraordinary fantasy sequence sees one machine transformed into a huge open-jawed statue which then literally swallows them up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個非凡的幻想段落中，一部機器變成一座張開大口的巨大雕像，然後真的把工人吞下去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段已經提示：機器畫面不是普通工業說明，重點在抽象和象徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“function”"
+            },
+            {
+              "kind": "quote",
+              "text": "“individual machines”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not defined”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The function of the individual machines is never defined.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著用 “Instead” 解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, this mass of dials, levers and gauges symbolically stands for all machines and all industry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反地，這一大堆錶盤、操縱桿和儀表象徵所有機器和整個工業。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Instead” 是解題訊號。它告訴我們，作者不關心每部機器實際做甚麼，因為那一堆機器部件作為象徵存在。它們代表的是所有機器、所有工業，以及工人被機器化的處境。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. Because Lang presents the theme symbolically.正確。原文的 “symbolically stands for all machines and all industry” 直接支持。 B. Because workers are more important to exploit.原文確實講 exploited workers，但這不是機器功能未被定義的原因。 C. Because the fantasy sequence is difficult to understand.原文沒有說觀眾難以理解幻想段落。 D. Because the focus of the movie is not about machines.原文其實大量講 machines。較準確地說，機器的具體功能不重要，因為它們具有象徵作用。所以 38 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B — compare the movie with reality in the modern global economy",
+      "answerKey": "B — compare the movie with reality in the modern global economy",
+      "type": "Multiple Choice",
+      "prompt": "“The writer’s purpose in paragraph five is to…”",
+      "translation": "作者在第五段的目的何在？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “paragraph five” 對應文章的 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is enlightening, I think, to relate the film to the modern global economy in which multinational corporations now routinely close their factories in one continent so that they can take advantage of cheap labour in another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者認為，把這部電影和現代全球經濟連起來看很有啟發性；在現代全球經濟中，跨國公司經常關閉一個洲的工廠，以便在另一個洲利用廉價勞工。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only people who have power are the supreme industrialist, Fredersen, and his magician/scientist cohort Rotwang.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正有權力的人只有最高工業家 Fredersen，以及他的魔術師／科學家同夥 Rotwang。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，已經能看到段落目的：relate the film to the modern global economy。這就是把電影和現實經濟比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目問 purpose，所以要看段落第一句和全段主線。原文的核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like the industry in Metropolis, these corporations’ goals of increased efficiency and profits have little to do with the welfare of the majority of their employees or that of the population at large.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像《Metropolis》中的工業一樣，這些公司的提高效率和利潤目標，與大多數員工或廣大人口的福祉幾乎沒有關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A. emphasize the multinational corporations’ profit-oriented goal這是段落中的重要內容，但只覆蓋其中一部分。Paragraph E 不只說 corporations want profits，也把這種企業目標與 Metropolis 的工業制度連接起來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. compare the movie with reality in the modern global economy正確。第一句的 “relate the film to the modern global economy” 直接支持 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. explore the difference between fantasy and reality段落確實把電影和現實連起來，但焦點不是 fantasy vs reality 的差異，而是相似性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. shed light on underdeveloped industries原文沒有討論 underdeveloped industries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — The movie is good but could be better.",
+      "answerKey": "D — The movie is good but could be better.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the writer’s opinion about the movie?”",
+      "translation": "作者對這部電影的看法是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問整體評價，不能只看一個正面句或一個負面句。要把 Paragraph F、G、I 的評價合起來看。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F + Paragraph I Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far so good: when the images are allowed to speak for themselves the film is impeccable both in its symbolism and in its cynicism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止都很好：當影像本身發聲時，這部電影在象徵手法和冷峻批判方面都無可挑剔。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 中間句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem with Metropolis is its sentimental storyline…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Metropolis》的問題在於它感傷的故事線。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All the same, Metropolis is probably more accurate now as a representation of industrial and social relations than it has been at any time since its original release.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，《Metropolis》作為工業與社會關係的表現，如今可能比它上映以來任何時候都更準確。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Fredersen is certainly still the most potent movie symbol of the handful of elusive corporate figureheads who increasingly treat the world as a Metropolis-like global village.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fredersen 也確實仍是最有力的電影象徵，代表少數難以捉摸、越來越把世界當成 Metropolis 式全球村的企業領袖。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用評價詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "正面評價："
+            },
+            {
+              "kind": "quote",
+              "text": "“impeccable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more accurate now”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most potent movie symbol”"
+            },
+            {
+              "kind": "label",
+              "text": "負面評價："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem with Metropolis is its sentimental storyline”"
+            },
+            {
+              "kind": "quote",
+              "text": "“too-tidy platitudes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tension within the film”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀作者態度"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者高度肯定電影影像、象徵和社會批判。他說 images speak for themselves 時，電影在symbolism and cynicism 方面 “impeccable”，即幾乎無可挑剔。結尾又說 Metropolis 今天更能代表工業和社會關係，Fredersen 仍是強而有力的企業權力象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是作者也明確批評電影的 sentimental storyline，尤其是 Maria、Mediator、Heart 這套把資本和勞工衝突用愛來調和的故事線。他還指出 von Harbou 劇本中的 platitudes 與 Lang 的強烈影像形成 tension。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. The movie’s storyline is excellent.錯。原文直接說 “The problem with Metropolis is its sentimental storyline.” B. The movie has a poor use of symbolism.錯。原文說電影在 symbolism 方面 “impeccable”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. The movie is perfect in all aspects.錯。作者肯定影像和象徵，但明確指出 storyline 有問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. The movie is good but could be better.正確。這個選項最能概括作者的平衡態度：電影非常出色，尤其在影像和象徵方面；可是故事線和劇本思想有明顯缺陷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. YES 28. NOT GIVEN 29. NO 30. NOT GIVEN 31. social division 32. machines 33. John Fredersen 34. abstract 35. function 36. efficiency 37. C 38. A 39. B 40. D"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Movie of Metropolis.pdf",
+    "sha256": "620bc06aa67615fee7ac66b8bb72934d044e30b041681964d14feeace1a45923",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Fritz Lang 在 1924 年到訪美國時，第一次看到美國是從郵輪甲板上望見夜間 New York skyline；尾句直接指出，這個景象後來成為《Metropolis》的直接靈感來源。只看首尾句，已可判斷本段功能是交代電影創作靈感的來源，特別連接 1924 年美國之行、紐約夜景和這部極具影響力的科幻電影。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說《Metropolis》呈現二十一世紀初的陰暗願景，既令人不寒而慄，也令人興奮；尾句說 John Fredersen 作為 Master of Metropolis 支配眾人，唯一滿足似乎來自權力運作。只看首尾句，可見本段介紹電影中的未來城市：科技奇觀、階級分裂、地下工人和高處精英形成強烈對比，並突出Fredersen 的統治角色。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Lang 對未來的視覺描寫幾乎以完全抽象的方式構成；尾句說一個幻想段落中，一部機器變成張開大口的巨大雕像，並把工人吞下。只看首尾句，可以估計本段會分析電影的象徵手法：機器不需有具體功能，因為它們代表整個工業制度；工人則被拍成失去個性的、近乎被機器吞噬的人群。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說在一個層面上，機器和被剝削的工人只是提供財富與服務，讓精英享受閒適生活；尾句說城市消耗人和勞動，最後變成一種扭曲的生命體模仿。只看首尾句，本段的功能偏向 deeper interpretation：工業制度不只服務精英享樂，也像自我維持的怪物，真正追求的是權力、控制和制度延續。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說把電影和現代全球經濟連起來看很有啟發性；尾句說在《Metropolis》中，有權力的人只有最高工業家 Fredersen 和魔術師／科學家 Rotwang。只看首尾句，可見本段把電影世界和跨國企業現實比較：現代公司追逐效率、利潤和增長，普通員工福祉被邊緣化，政府概念在電影中也幾乎消失。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說到目前為止很好：當影像自己說話時，電影在象徵和冷峻批判方面都無可挑剔；尾句說調停者是 Heart，即愛，最後由 Freder 對 Maria 的愛和父親對他的愛體現。只看首尾句，可見本段出現評價轉折：作者高度肯定電影影像，但開始批評故事線過於感傷，尤其是用愛去調和資本和勞工衝突。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Lang 和當時的妻子 Thea von Harbou 合寫劇本；尾句說電影中一直存在 tension，一邊是von Harbou 劇本中過度整齊的老套道理，一邊是 Lang 影像中毫不妥協、尖銳有力的批判。只看首尾句，可估計本段會用兩人的背景和後來選擇，解釋電影內部為何同時有感傷劇情和強烈視覺批判。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說在作者看來，無論在《Metropolis》還是真實世界中，Head 和 Hands 的問題不太適合用Heart 來調停；尾句說 Hands 需要發展自己的 Head，即政治意識，並透過投票、購買力和對物質幻想的懷疑抵抗來行動。只看首尾句，本段明顯是作者的政治解讀：工人需要自主意識和實際行動。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說即使如此，《Metropolis》作為工業與社會關係的表現，現在可能比上映以來任何時候都更準確；尾句說 Fredersen 仍是最有力的電影象徵，代表那些難以捉摸、把世界當成 Metropolis 式全球村的企業領袖。只看首尾句，可見結尾把電影重新拉回現代：雖有缺點，但它對企業權力和全球化的預見仍然強烈。"
+      }
+    ]
+  }
+}

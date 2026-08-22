@@ -1,0 +1,1815 @@
+{
+  "id": "p3-028-the-fruit-book",
+  "catalogueId": "p3-028",
+  "catalogueIds": [
+    "p3-028"
+  ],
+  "passage": 3,
+  "title": "The Fruit Book",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "A",
+    "C",
+    "B",
+    "E",
+    "I",
+    "forest fruit",
+    "fibre",
+    "uxi",
+    "unpredictable",
+    "piquia trees",
+    "subsistence",
+    "commercial potential",
+    "non-timber forest products"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "“A description of Shanley’s initial data collection”",
+      "translation": "哪一段描述 Shanley 初期收集資料的過程？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Shanley had been invited to work in the Rio Capim, some caboclos were suspicious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Shanley 被邀請到 Rio Capim 工作，但有些 caboclos 對她抱有懷疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During 1993 and 1994, 30 families weighed everything they used from the forest—game, fruit, fibre and medicinal plants—and documented its source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1993 和 1994 年期間，30 個家庭把他們從森林中使用的一切都秤重，包括 game、fruit、fibre和 medicinal plants，並記錄來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph D 主要處理 Shanley 如何進入當地社群，以及研究如何正式開始。最後一句直接出現家庭秤量、記錄森林產品來源，因此非常貼近 “initial data collection”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “initial data collection”。原文未必逐字重複 data collection，所以要找研究行為，例如 “weighed”、“documented”、“field research”、“data”。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 中可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“six years of field research yielded a mass of data on their flowering and fruiting behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "六年的 field research 產生了大量關於這些樹開花和結果行為的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上段尾 30 families weighing everything，就是具體資料收集描述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“During 1993 and 1994, 30 families weighed everything they used from the forest—game, fruit, fibre and medicinal plants—and documented its source.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個重點。第一，時間是 1993 and 1994，代表研究早期階段。第二，參與者是 30 families。第三，動作是 weighed 和 documented，即量度並記錄。這正是 data collection 的具體方式。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● initial data collection= During 1993 and 1994, 30 families weighed and documented● data= everything they used from the forest and its source● collection= weighed / documented所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "“Why a government official contributed to the book”",
+      "translation": "哪一段提到一位政府官員為甚麼參與這本書？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The book is called Fruit Trees and Useful Plants in the Lives of Amazonians, but is better known simply as the ‘fruit book’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這本書名為 Fruit Trees and Useful Plants in the Lives of Amazonians，但更常被簡稱為 “fruit book”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It gives science back to the poor, to the people who really need it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「它把科學帶回給貧困的人，帶回給真正需要它的人。」只看首尾句，可以先估計 Paragraph A 會介紹 fruit book 的身份、評價和社會價值。題目提到government official，最可能是這段中間出現的 environment minister。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 government official 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brazil’s environment minister, Marina Silva”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "巴西環境部長 Marina Silva。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常強的定位詞，因為 minister 明確屬於政府官員。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its blend of hard science and local knowledge on the use and trade of 35 native forest species has been so well received (and well used) that no less a dignitary than Brazil’s environment minister, Marina Silva, has written the foreword.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這本書把 hard science 和 local knowledge 結合起來，介紹 35 種 native forest species 的使用和交易；它受到高度歡迎，也被廣泛使用，以至於連巴西環境部長 Marina Silva 這樣的重要人物也為它寫了 foreword。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Why a government official contributed to the book”。原文的原因是這本書 “has been so well received (and well used)”，所以部長寫了 foreword。這裡的 “contributed” 不是指做研究，而是寫前言。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● government official= Brazil’s environment minister, Marina Silva● contributed to the book= has written the foreword● why= has been so well received and well used所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "“Reasons why the community asked Shanley to conduct the research”",
+      "translation": "哪一段說明社群請 Shanley 做研究的原因？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Rural Workers’ Union wanted to know whether harvesting wild fruits would make economic sense in the Rio Capim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rural Workers’ Union 想知道，在 Rio Capim 採收 wild fruits 是否有經濟意義。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether it would work for the caboclos was far from clear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這套做法是否適用於 caboclos，當時仍完全不清楚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 主要提出研究問題：採收 wild fruits 和其他 non-timber forest products，是否真的比賣木材更值得。這正好解釋社群為何需要 Shanley 的研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “reasons”、“community asked”、“conduct the research”。原文對應 “The Rural Workers’ Union wanted to know…” 和 “The union was keen to discover…”。這些表達都在說研究需求和原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The union was keen to discover whether it made more sense to conserve the forest for subsistence use and the possible sale of fruit, game and medicinal plants rather than sell trees for timber.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Union 很想弄清楚：保留森林，用作 subsistence use，並可能售賣 fruit、game 和 medicinal plants，是否比把樹賣作 timber 更合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚顯示研究原因：當地人需要比較兩種選擇的價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選擇一：保留 forest，供日常生活使用，也可能出售 fruit、game、medicinal plants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選擇二：把樹賣給 timber market / loggers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “asked Shanley to conduct the research” 對應 Paragraph C 的 “wanted to know” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“keen to discover”。研究原因並非單純學術好奇，重點在於社群要判斷森林保育和賣木材哪個更有經濟和生活價值。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "“Reference to the starting point of her research”",
+      "translation": "哪一段提到 Shanley 研究工作的起點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shanley’s work on the book began a decade ago, with a plea for help from the Rural Workers’ Union of Paragominas, a Brazilian town whose prosperity is based on exploitation of timber.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shanley 關於這本書的工作始於十年前，起因是 Paragominas 的 Rural Workers’ Union 向她求助；Paragominas 是一個以 timber exploitation 為繁榮基礎的巴西城鎮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘What they wanted to know was how valuable the forests were,’ recalls Shanley, then a researcher in the area for the Massachusetts-based Woods Hole Research Centre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shanley 回憶說：「他們想知道的是森林究竟有多大價值。」當時她是 Massachusetts-based Woods Hole Research Centre 在該地區的研究員。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 交代研究項目的起源：誰找 Shanley、為甚麼找她、她當時的身份是甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “starting point”。原文最直接對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shanley’s work on the book began a decade ago…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shanley 關於這本書的工作始於十年前……"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“began” 直接提示起點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文首句已經提供答案：“Shanley’s work on the book began a decade ago, with a plea for help from the Rural Workers’ Union of Paragominas…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “began” 是決定答案的詞。它說明 Shanley 的 book-related work 如何開始：Rural Workers’ Union 向她求助。"
+            },
+            {
+              "kind": "label",
+              "text": "同段最後一句也補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“What they wanted to know was how valuable the forests were.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明起點背後的核心問題是 forest value。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位在 Paragraph D，因為那裡有一句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“The only way to find out, Shanley decided, was to start from scratch with a scientific study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shanley 決定，要弄清楚這件事，唯一方法是從零開始做科學研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “start from scratch” 也很吸引人。不過 Question 30 問的是研究工作的 starting point，也就是整件工作如何開始；Paragraph B 的 “began a decade ago, with a plea for help” 更直接交代起源。Paragraph D 則說明研究方法需要由零開始建立資料。兩者都與 start 有關，但題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reference to the starting point of her research” 以 Paragraph B 最貼切。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Question Analysis",
+      "prompt": "“Two factors that alter food consumption patterns”",
+      "translation": "哪一段提到兩個改變食物消耗模式的因素？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After three logging sales and a major fire in 1997, the researchers were also able to study the ecosystem’s reaction to logging and disturbance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在三次 logging sales 和 1997 年一場 major fire 之後，研究者也能研究 ecosystem 對 logging 和disturbance 的反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1999 some were fortunate if they ate game more than two or three times a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1999 年，有些家庭如果一年能吃 game 超過兩三次，已算幸運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 會講 logging 和 fire 對森林資源及飲食的影響。題目說 two factors，這段第一句剛好有 logging sales 和 major fire。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “two factors” 和 “food consumption patterns”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fire and logging also changed the nature of the caboclo diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fire 和 logging 也改變了 caboclo diet 的性質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句非常直接，因為它同時包含兩個因素和飲食變化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fire and logging also changed the nature of the caboclo diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "火災和伐木也改變了 caboclo 的飲食性質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡兩個 factors 是：● fire● logging接著原文用 game consumption 作例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1993 most households ate game two or three times a month. By 1999 some were fortunate if they ate game more than two or three times a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1993 年，大多數家庭每月吃 game 兩三次；到 1999 年，有些家庭若一年能吃超過兩三次 game，已算幸運。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● alter= changed● food consumption patterns= nature of the caboclo diet / ate game frequency● two factors= fire and logging所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Question Analysis",
+      "prompt": "“Why the book is successful”",
+      "translation": "哪一段說明這本書成功的原因？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Shanley and her colleagues decided to do more than just report their results to the union.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Shanley 和她的 colleagues 決定不只把研究結果報告給 union。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The caboclos who have used the book now have a much better understanding of which trees to sell to the loggers, and which to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用過這本書的 caboclos 現在更清楚哪些樹可以賣給 loggers，哪些樹應該保護。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph I 會講研究成果如何變成書，以及這本書對 caboclos 有甚麼實際幫助。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的是 “successful”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its success is largely due to the fact that…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的成功很大程度上是由於……這是很強的答案訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its success is largely due to the fact that people with poor literacy skills can understand much of the information it contains about the non-timber forest products, thanks to its illustrations, anecdotes, stories and songs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的成功很大程度上是因為低識字能力的人也能理解書中很多關於 non-timber forest products的資訊，這要歸功於它的插圖、軼事、故事和歌曲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是 “Why the book is successful”。原文直接回答：因為低識字能力者也能看懂，而且書用了 illustrations、anecdotes、stories and songs。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● why successful= success is largely due to● book is successful= people with poor literacy skills can understand● reason= illustrations, anecdotes, stories and songs所以答案是 I。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 33–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "forest fruit",
+      "answerKey": "forest fruit",
+      "type": "Question Analysis",
+      "prompt": "“Forest fires caused local villagers to consume less: 33 ______”",
+      "translation": "森林火災令當地村民消耗更少的甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After three logging sales and a major fire in 1997, the researchers were also able to study the ecosystem’s reaction to logging and disturbance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在三次 logging sales 和 1997 年一場 major fire 之後，研究者也能研究 ecosystem 對 logging 和disturbance 的反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1999 some were fortunate if they ate game more than two or three times a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1999 年，有些家庭若一年能吃 game 超過兩三次，已算幸運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段正是在講 logging 和 fire 後，forest resources 使用量下降，因此可定位 Q33 和 Q34。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “consume less” 對應原文的 “consumption … had fallen” 和 “use also dropped”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Average annual household consumption of forest fruit had fallen from 89 to 28 kilogrammes between 1993 and 1999.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1993 至 1999 年間，每戶平均每年 forest fruit consumption 從 89 公斤跌至 28 公斤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “consume less”，原文說 “consumption … had fallen”。空格需要名詞短語，原文答案是forest fruit。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● consume less= consumption had fallen● local villagers= household / caboclos● forest fires caused= after logging and major fire, researchers observed decline所以 Q33 是 forest fruit。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "fibre",
+      "answerKey": "fibre",
+      "type": "Question Analysis",
+      "prompt": "“Forest fires caused local villagers to consume less: 34 ______”",
+      "translation": "森林火災令當地村民使用／消耗更少的另一項森林資源是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After three logging sales and a major fire in 1997, the researchers were also able to study the ecosystem’s reaction to logging and disturbance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在三次 logging sales 和 1997 年一場 major fire 之後，研究者也能研究 ecosystem 對 logging 和disturbance 的反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1999 some were fortunate if they ate game more than two or three times a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1999 年，有些家庭若一年能吃 game 超過兩三次，已算幸運。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 整段描述資源使用下降。Q34 要在 Q33 附近繼續掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “consume less”，原文第二個對應不再用 consumption，而用 “use also dropped”。要留意"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "consume 在 summary 中用作廣義「使用資源」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the same period, fibre use also dropped from around 20 to 4 kilogrammes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一時期，fibre use 也從大約 20 公斤跌至 4 公斤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的答案是 fibre。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它和 Q33 的 forest fruit 一起，構成 fire / logging 後村民使用量明顯下降的兩項森林資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 game。Paragraph E 後半確實提到 game consumption 大跌，但 summary 下一部分已用 Game 作小標題，後面 Q35–37 專門處理 game 和 tree species 的關係。因此 Q33–34 更自然對應段中連續出現的 “forest fruit” 和 “fibre”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q34 是 fibre。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "uxi",
+      "answerKey": "uxi",
+      "type": "Question Analysis",
+      "prompt": "“There is the least amount of game hunted under 35 ______…”",
+      "translation": "在甚麼樹下捕獲的 game 數量最少？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The loss of certain species of tree was especially significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些樹種的 loss 特別重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Their local value lies in providing a prized fruit, as well as flowers which attract more game than any other species.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「它們的 local value 在於提供珍貴 fruit，也在於其 flowers 比任何其他 species 都吸引更多game。」只看首尾句，可以先估計 Paragraph F 會比較不同樹種對 game 和當地生活的價值。題目問game hunted under which tree，必然在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “game hunted under”。原文對應 “noting the trees under which the animals were caught” 和後面三組數據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the year, they trapped five species of game averaging 232 kilogrammes under piquia trees. Under copaiba, they caught just two species averaging 63 kilogrammes; and under uxi, four species weighing 38 kilogrammes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一年之內，他們在 piquia trees 下捕獲五種 game，平均 232 公斤；在 copaiba 下捕獲兩種，平均63 公斤；在 uxi 下捕獲四種，重 38 公斤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “least amount of game”，這裡要看重量：● piquia trees：232 kilogrammes● copaiba：63 kilogrammes● uxi：38 kilogrammes最低重量是 uxi 下的 38 kilogrammes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 copaiba 的 species 數最少，只有 two species，但題目問 amount of game，後面又用kilogrammes 表示重量，所以答案應按重量判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q35 是 uxi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "unpredictable",
+      "answerKey": "unpredictable",
+      "type": "Question Analysis",
+      "prompt": "“…whose yield is also 36 ______.”",
+      "translation": "這種樹的產量也很 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result of these studies, Shanley had to tell the Rural Workers’ Union of Paragominas that the Nature thesis could not be applied wholesale to their community—harvesting NTFPs would not always yield more than timber sales.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據這些研究結果，Shanley 必須告訴 Paragominas 的 Rural Workers’ Union，Nature paper 的thesis 不能整套套用到他們的 community——採收 NTFPs 不一定總比 timber sales 收益更高。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1994, one household collected 3,654 uxi fruits; the following year, none at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1994 年，一戶家庭收集了 3,654 個 uxi fruits；下一年卻一個也沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是說明 NTFP 收益不穩定，尤其 uxi fruiting pattern 不可預測。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Q36 要接 Q35 的 uxi，因此掃描時要找 uxi 和 yield / fruiting pattern。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fruiting patterns of trees such as uxi were unpredictable…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像 uxi 這類樹的結果模式難以預測。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fruiting patterns of trees such as uxi were unpredictable, for example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，像 uxi 這類樹的結果模式難以預測。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “yield” 對應原文 “fruiting patterns”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“also” 表示它除了 game 數量少，果實產量也有問題。原文給出例子：“In 1994, one household collected 3,654 uxi fruits; the following year, none at all.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1994 年，一戶家庭收集了 3,654 個 uxi fruits；下一年卻一個也沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個年份對比說明 uxi yield 波動很大，因此答案是 unpredictable。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "piquia trees",
+      "answerKey": "piquia trees",
+      "type": "Question Analysis",
+      "prompt": "“Thus, it is more reasonable to keep 37 ______.”",
+      "translation": "因此，更合理的是保留甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The loss of certain species of tree was especially significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些樹種的 loss 特別重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Their local value lies in providing a prized fruit, as well as flowers which attract more game than any other species.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「它們的 local value 在於提供珍貴 fruit，也在於其 flowers 比任何其他 species 都吸引更多game。」Paragraph F 的主旨是找出哪些樹值得保留，哪些可以賣。題目問 “more reasonable to keep”，應看段落後半的結論句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “reasonable to keep”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“which trees were worth keeping, and which could reasonably be sold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "哪些樹值得保留，哪些樹可以合理地出售。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後原文立刻點名 piquia trees。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This showed that selling piquia trees to loggers for a few dollars made little sense,” explains Shanley."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shanley 解釋說，這顯示把 piquia trees 以幾美元賣給 loggers 並不合理。再看後一句：“Their local value lies in providing a prized fruit, as well as flowers which attract more game than any other species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們的本地價值在於提供珍貴 fruit，也在於 flowers 比任何其他 species 吸引更多 game。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “Their” 指前一句的 piquia trees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 piquia trees 提供珍貴 fruit，又能吸引最多 game，所以把它們賣掉不划算，保留更合理。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● more reasonable to keep= selling … made little sense● trees worth keeping= piquia trees所以 Q37 是 piquia trees。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "subsistence",
+      "answerKey": "subsistence",
+      "type": "Question Analysis",
+      "prompt": "“All the trees can also be used for 38 ______ besides being sold to loggers.”",
+      "translation": "除了賣給 loggers，這些樹也可用於甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is not to say that wild fruit trees were unimportant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不表示 wild fruit trees 不重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geography was another factor preventing the Rio Capim caboclos from establishing a serious trade in wild fruit: villagers in remote areas could not compete with communities collecting NTFPs close to urban markets, although they could sell them to passing river boats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地理位置也是阻礙 Rio Capim caboclos 建立正式 wild fruit trade 的另一因素：偏遠地區的村民無法與靠近 urban markets、採集 NTFPs 的社群競爭，雖然他們可以把產品賣給經過的河船。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 的功能是說明 wild fruit trees 即使商業潛力受限，仍有重要生活價值。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “used for” 和 “besides being sold to loggers” 提示我們找樹木的非商業價值。原文中最直接的詞是 “subsistence”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the contrary, argues Shanley, they are critical for subsistence, something that is often ignored in much of the current research on NTFPs, which tends to focus on their commercial potential.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，Shanley 認為它們對 subsistence 非常關鍵；這一點在很多當前 NTFP 研究中常被忽略，因為那些研究往往集中於它們的 commercial potential。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“subsistence” 指基本生活所需、維持生計，例如食物、纖維、藥用植物等日常使用。題目說 “can also be used for”，空格需要名詞，所以答案是 subsistence。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● used for daily living= critical for subsistence● besides sold to loggers= not only commercial/timber value; also local survival value所以 Q38 是 subsistence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "commercial potential",
+      "answerKey": "commercial potential",
+      "type": "Question Analysis",
+      "prompt": "“But this is often ignored because most research focuses on the 39 ______ of the trees.”",
+      "translation": "但這一點常被忽略，因為大部分研究集中在樹木的甚麼方面？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is not to say that wild fruit trees were unimportant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不表示 wild fruit trees 不重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Geography was another factor preventing the Rio Capim caboclos from establishing a serious trade in wild fruit: villagers in remote areas could not compete with communities collecting NTFPs close to urban markets, although they could sell them to passing river boats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地理位置也是阻礙 Rio Capim caboclos 建立正式 wild fruit trade 的另一因素：偏遠地區的村民無法與靠近 urban markets 的 NTFP 採集社群競爭，雖然他們可賣給經過的河船。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不只講 subsistence，也講 commercial trade 的限制。因此 Q39 應在 Q38 同一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “most research focuses on” 幾乎直接對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“much of the current research on NTFPs, which tends to focus on…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the contrary, argues Shanley, they are critical for subsistence, something that is often ignored in much of the current research on NTFPs, which tends to focus on their commercial potential.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shanley 認為它們對 subsistence 非常關鍵，但這一點常被當前許多 NTFP 研究忽略；那些研究往往集中在它們的 commercial potential。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“most research focuses on the ______ of the trees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“research on NTFPs … tends to focus on their commercial potential”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 commercial potential。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● most research= much of the current research● focuses on= tends to focus on● the trees= NTFPs / wild fruit trees in this context答案是 commercial potential。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "non-timber forest products",
+      "answerKey": "non-timber forest products",
+      "type": "Question Analysis",
+      "prompt": "“The purpose of the book: To provide information about 40 ______”",
+      "translation": "這本書的目的：提供關於甚麼的資訊？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Shanley and her colleagues decided to do more than just report their results to the union.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Shanley 和她的 colleagues 決定不只把研究結果報告給 union。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The caboclos who have used the book now have a much better understanding of which trees to sell to the loggers, and which to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用過這本書的 caboclos 現在更清楚哪些樹可以賣給 loggers，哪些樹應該保護。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段說明 research results 如何變成 book，以及這本書如何給 caboclos practical choices。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “provide information about” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the information it contains about…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常直接的定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its success is largely due to the fact that people with poor literacy skills can understand much of the information it contains about the non-timber forest products, thanks to its illustrations, anecdotes, stories and songs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的成功很大程度上是因為低識字能力者也能理解書中很多關於 non-timber forest products 的資訊，這要歸功於它的插圖、軼事、故事和歌曲。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“To provide information about ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the information it contains about the non-timber forest products”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案直接來自原文，為 non-timber forest products。"
+            },
+            {
+              "kind": "label",
+              "text": "字數檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“non-timber forest products” 中 non-timber 為連字符詞，通常算一個 word；整個答案為三個words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Fruit Book.pdf",
+    "sha256": "de0a23d30a6fa320ff7af90bb57b8acbcb68a17f71c0d87b18cf6ce2fe68f873",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 介紹書名、第二版的產生背景，以及它受到高度肯定的原因。首句說這本書正式叫Fruit Trees and Useful Plants in the Lives of Amazonians，但大家簡稱 “fruit book”。段尾引用Adalberto Verrisimo，說它把科學帶回最需要的人手上。這段功能是展示 fruit book 的地位和價值，也解釋為何連 Brazil’s environment minister 都為它寫 foreword。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 回到整個研究的起點。首句說 Shanley 的工作始於十年前，當時 Rural Workers’ Union of Paragominas 向她求助。段尾說，當地人想知道 forests 真正有多大價值。這段功能是交代問題背景：logging companies 即將接觸 caboclos，而他們 isolated and illiterate，可能不了解樹木價值，結果像下游社群一樣低價賣掉大片森林。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 具體說明 union 想透過研究弄清楚甚麼。首句說 Rural Workers’ Union 想知道在Rio Capim 採收 wild fruits 是否有 economic sense。段尾說，這套想法是否真的適用於 caboclos，當時仍 far from clear。這段功能是提出研究問題：保育森林並靠 fruit、game、medicinal plants是否比一次性賣木材更合理。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 描述 Shanley 進入社群、取得信任，以及開始收集科學資料的過程。首句說雖然Shanley 被邀請到 Rio Capim 工作，有些 caboclos 仍然懷疑她。段尾說 1993 和 1994 年，30 個家庭秤量所有從森林取用的東西，並記錄來源。這段功能是描述初期 field research，包括找出三種重要樹木 bacuri、uxi、piquia，以及建立可量化資料。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 轉到 logging 和 forest fire 後的變化。首句說經歷三次 logging sales 和 1997 年大火後，研究者得以研究 ecosystem 對 logging 和 disturbance 的反應。段尾說，到 1999 年，有些家庭一年只能吃到兩三次 game。這段功能是展示 logging 和 fire 如何令 forest fruit、fibre 和game consumption 大幅下降，並改變 caboclo diet。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 集中分析不同樹種對 game 的價值。首句說某些樹種的 loss 特別重要。段尾引用Shanley，說把 piquia trees 以幾美元賣給 loggers 並不合理，因為它們提供 prized fruit，也有flowers 吸引最多 game。這段功能是用數據比較 piquia、copaiba、uxi：piquia 下捕獲的 game 重量最高，顯示保留某些樹比賣掉更有長遠價值。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 推翻一個過度樂觀的 NTFP 論點。首句說 Shanley 必須告訴 union，Nature paper的 thesis 不能 whole-sale 套用到他們的 community。段尾用 uxi 為例：一戶家庭 1994 年收集3,654 個 uxi fruits，下一年卻一個也沒有。這段功能是指出 wild fruit trade 並非永遠比 timber sales 賺錢，因為某些樹的 fruiting patterns 很難預測。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 平衡地指出 wild fruit trees 仍然重要。首句說這不代表 wild fruit trees 不重要； Shanley 強調它們對 subsistence 很 critical。段尾說遠離市場的村民難以和靠近 urban markets的社群競爭，雖然仍可賣給 passing river boats。這段功能是分清 commercial potential 和subsistence value：即使商業化困難，森林資源對日常生活仍非常關鍵。"
+      },
+      {
+        "number": "I",
+        "summary": "Paragraph I 回到 fruit book 的製作和影響。首句說 Shanley 和 colleagues 不只把結果報告給union，還寫成 fruit book。段尾說 caboclos 使用這本書後，更清楚哪些樹可賣給 loggers，哪些樹應該保護。這段功能是說明書成功的原因：它透過 illustrations、anecdotes、stories 和 songs，讓低識字能力者也能理解 non-timber forest products 的資訊。"
+      }
+    ]
+  }
+}

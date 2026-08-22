@@ -1,0 +1,2159 @@
+{
+  "id": "p3-148-compliance-or-noncompliance-for-children",
+  "catalogueId": "p3-148",
+  "catalogueIds": [
+    "p3-148"
+  ],
+  "passage": 3,
+  "title": "Compliance Or Noncompliance For Children",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "C",
+    "B",
+    "B",
+    "C",
+    "B",
+    "E",
+    "D",
+    "F",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "NO",
+    "NO"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — sometimes disobey their parents’ instructions.",
+      "answerKey": "D — sometimes disobey their parents’ instructions.",
+      "type": "Multiple Choice",
+      "prompt": "“Children—especially boys—who receive a good education may…”",
+      "translation": "接受良好教育的孩子，尤其是男孩，可能會……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 children / boys / good education 之後會有甚麼情況，所以要找同時出現 education、boys、obey / disobey 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents found it difficult to recognise compliance, and some even overlooked their children’s noncompliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些父母覺得難以辨認孩子的服從行為，有些甚至忽略了孩子的不服從行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical coercion was somewhat less effective, while reasoning and verbal prohibition were ineffective unless both were combined with physical coercion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "身體強制的效果稍弱；推理和口頭禁止如果沒有配合身體強制，效果不佳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 講父母如何面對孩子服從與不服從，以及不同管教方法的效果。這和題目中的 obey / disobey 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“good education”"
+            },
+            {
+              "kind": "quote",
+              "text": "“boys”"
+            },
+            {
+              "kind": "quote",
+              "text": "“obey / disobey”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite receiving a good education, children did not always obey their parents, especially boys at certain ages.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite receiving a good education, children did not always obey their parents, especially boys at certain ages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管接受了良好教育，孩子並不總是服從父母，尤其是某些年齡的男孩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “did not always obey”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“not always obey” 等於 “sometimes disobey”。題目 D 說 “sometimes disobey their parents’ instructions”，正好把原文的否定句改寫成正面表達。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “always obey their parents” 和 “did not always obey” 方向相反。 B “be good at mathematics” 沒有原文支持。 C “achieve high scores at school” 也沒有提到。 D 最貼近原文。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — may overlook noncompliant behaviour.",
+      "answerKey": "C — may overlook noncompliant behaviour.",
+      "type": "Multiple Choice",
+      "prompt": "“When dealing with their children’s compliance and noncompliance, parents…”",
+      "translation": "在處理孩子的服從與不服從時，父母……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問父母對 compliance / noncompliance 的反應。定位時要找 parents、recognise、overlooked、noncompliance。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents found it difficult to recognise compliance, and some even overlooked their children’s noncompliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些父母覺得難以辨認孩子的服從行為，有些甚至忽略了孩子的不服從行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical coercion was somewhat less effective, while reasoning and verbal prohibition were ineffective unless both were combined with physical coercion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "身體強制的效果稍弱；推理和口頭禁止如果沒有配合身體強制，效果不佳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經高度相關，因為它直接說 parents 對 compliance 和 noncompliance 的辨認問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compliance and noncompliance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“overlook”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句有 “Some parents”、 “recognise compliance”、 “overlooked their children’s noncompliance”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents found it difficult to recognise compliance, and some even overlooked their children’s noncompliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些父母覺得難以辨認服從行為，有些甚至忽略了孩子的不服從行為。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“may overlook noncompliant behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能會忽略不服從行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“may overlook” 對應原文 “some even overlooked”。“noncompliant behaviour” 對應 “children’s noncompliance”。選項 A 說 “must recognise compliant behaviour”，原文沒有說父母必須這樣做。選項 B 的 teachers 沒有出現。選項 D 說 “pretend not to notice it”，意思是有意假裝看不見；原文只是 overlooked，沒有說父母故意裝作不知。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — may have positive effects.",
+      "answerKey": "B — may have positive effects.",
+      "type": "Multiple Choice",
+      "prompt": "“According to Henry Porter, noncompliance in children…”",
+      "translation": "根據 Henry Porter，孩子的不服從……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題指名 Henry Porter，所以人名是最強定位詞。找到 Henry Porter 後，只要讀他對noncompliance 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從；但隨著年齡增長，他們可能會學到更成熟的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using this compliance strategy with defiant children ensures that activities are completed almost every day in the same general order, so the child expects to do them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對反抗性孩子使用這種服從策略，可以確保活動幾乎每天都按大致相同的順序完成，讓孩子預期自己會做這些事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 C 段先談孩子不服從的發展變化，再談用 routine 促進服從。Henry Porter 的觀點很可能在前半段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Henry Porter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“noncompliance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“positive effects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggested that noncompliance can reflect development and may benefit children in some ways.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He suggested that noncompliance can reflect development and may benefit children in some ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為，不服從可以反映孩子的發展，而且可能在某些方面對孩子有益。"
+            },
+            {
+              "kind": "label",
+              "text": "題目選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“may have positive effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能有正面效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“may benefit children in some ways” 直接對應 “may have positive effects”。這裡的 benefit 不是說不服從永遠正確，只是說它可能反映發展，也可能有一定好處。 A “entirely harmful” 和原文方向相反。 C “requires medical assistance” 沒有提到。 D “should be treated by a specialist” 也沒有原文支援。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — become more skilful at negotiating.",
+      "answerKey": "B — become more skilful at negotiating.",
+      "type": "Multiple Choice",
+      "prompt": "“When children are growing up, they…”",
+      "translation": "當孩子成長時，他們……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 children grow older 後的變化。要找 grow older、sophisticated approaches、negotiating這類詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從；但隨著年齡增長，他們可能會學到更成熟的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using this compliance strategy with defiant children ensures that activities are completed almost every day in the same general order, so the child expects to do them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對反抗性孩子使用這種服從策略，可以確保活動幾乎每天都按大致相同的順序完成，讓孩子預期自己會做這些事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接處理 children grow older，所以本題答案位置很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“growing up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“become”"
+            },
+            {
+              "kind": "quote",
+              "text": "“negotiating”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“They become more skilful at negotiating or giving reasons for refusing, rather than directly opposing their parents.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They become more skilful at negotiating or giving reasons for refusing, rather than directly opposing their parents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們會變得更善於協商，或給出拒絕的理由，而不再直接反抗父母。"
+            },
+            {
+              "kind": "label",
+              "text": "題目選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“become more skilful at negotiating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "變得更善於協商。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原文直接重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “always refuse directly” 和原文相反，因為 older children 較少直接反抗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “learn to deceive” 沒有提到，原文是 negotiating / giving reasons，不含欺騙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “tend to keep silent” 沒有原文支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — Younger children may refuse directly.",
+      "answerKey": "C — Younger children may refuse directly.",
+      "type": "Multiple Choice",
+      "prompt": "“Which response to parental instructions is associated with older or younger children in the passage?”",
+      "translation": "文章把哪一種回應父母指示的方式，和年紀較大或較小的孩子連在一起？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考 younger / older children 的對比。要讀清楚哪一組孩子直接拒絕，哪一組孩子較會協商。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從；但隨著年齡增長，他們可能會學到更成熟的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using this compliance strategy with defiant children ensures that activities are completed almost every day in the same general order, so the child expects to do them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對反抗性孩子使用這種服從策略，可以確保活動幾乎每天都按大致相同的順序完成，讓孩子預期自己會做這些事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句同時有 younger 和 older，是本題核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“older”"
+            },
+            {
+              "kind": "quote",
+              "text": "“younger”"
+            },
+            {
+              "kind": "quote",
+              "text": "“refuse directly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“directly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說：younger children = sometimes express noncompliance directly。"
+            },
+            {
+              "kind": "label",
+              "text": "題目 C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Younger children may refuse directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年幼的孩子可能會直接拒絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“may refuse directly” 對應 “sometimes express noncompliance directly”。 A 說 older children prefer to refuse directly，和原文相反。 B 說 older children refuse to answer，沒有提到。 D 說 younger children may remain silent，也沒有提到。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — Older children tend to negotiate rather than express noncompliance directly.",
+      "answerKey": "B — Older children tend to negotiate rather than express noncompliance directly.",
+      "type": "Matching Features",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Henry Porter"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。先用人名 Henry Porter 定位，再找他的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從；但隨著年齡增長，他們可能會學到更成熟的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using this compliance strategy with defiant children ensures that activities are completed almost every day in the same general order, so the child expects to do them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對反抗性孩子使用這種服從策略，可以確保活動幾乎每天都按大致相同的順序完成，讓孩子預期自己會做這些事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段前半是 Henry Porter 的發展觀點，後半轉去 Wallace Friesen 的 routine strategy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches. They become more skilful at negotiating or giving reasons for refusing, rather than directly opposing their parents,’ said Henry Porter…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Henry Porter 說，孩子年幼時有時直接表達不服從；長大後，他們會學到更成熟的方法，例如協商或給出拒絕理由，而不是直接反抗父母。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Older children tend to negotiate rather than express noncompliance directly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年紀較大的孩子傾向協商，而非直接表達不服從。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“as they grow older” 對應 Older children。“more skilful at negotiating” 對應 tend to negotiate。“rather than directly opposing” 對應 rather than express noncompliance directly。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E — Arrange a child’s daily activities in the same order as much as possible.",
+      "answerKey": "E — Arrange a child’s daily activities in the same order as much as possible.",
+      "type": "Matching Features",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Wallace Friesen"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 Wallace Friesen 定位。這個人物在 Paragraph C 後半出現，和 routine strategy 有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從；但隨著年齡增長，他們可能會學到更成熟的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using this compliance strategy with defiant children ensures that activities are completed almost every day in the same general order, so the child expects to do them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對反抗性孩子使用這種服從策略，可以確保活動幾乎每天都按大致相同的順序完成，讓孩子預期自己會做這些事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句的 “same general order” 已經提示 routine / order 是本題核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Porter’s collaborator, Wallace Friesen, argued that a child’s daily activities should occur in the same order each day as much as possible.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Porter 的合作者 Wallace Friesen 認為，孩子每天的活動應盡可能每天按相同順序進行。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“Arrange a child’s daily activities in the same order as much as possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "盡可能把孩子每天的活動安排成相同順序。"
+            },
+            {
+              "kind": "label",
+              "text": "這是原文幾乎直接改寫："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“daily activities should occur” = arrange daily activities“in the same order each day” = in the same order“as much as possible” 原文與選項完全一致。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D — Arrange enjoyable activities to follow frequently resisted activities.",
+      "answerKey": "D — Arrange enjoyable activities to follow frequently resisted activities.",
+      "type": "Matching Features",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Steven Walson"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 Steven Walson 定位。Paragraph D 第一行直接出現這個人名。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Steven Walson argued that enjoyable activities should follow activities that children frequently resist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Steven Walson 博士認為，愉快活動應跟在孩子經常抗拒的活動之後。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, say, ‘As soon as you have finished cleaning your room, we can play that really fun game you wanted to play.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，應該說：「你一收拾好房間，我們就可以玩你想玩的那個很好玩的遊戲。」只看首尾句，D 段主題已經很清楚：把不喜歡的任務放在喜歡的活動前面。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文首句就是答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Steven Walson argued that enjoyable activities should follow activities that children frequently resist.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Steven Walson 博士認為，孩子喜歡的活動應跟在他們經常抗拒的活動之後。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Arrange enjoyable activities to follow frequently resisted activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "安排愉快活動跟在經常被抗拒的活動之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文完全對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enjoyable activities” 原字重現。“should follow” 對應 “to follow”。“activities that children frequently resist” 對應 “frequently resisted activities”。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "F — Use praise to encourage children to comply.",
+      "answerKey": "F — Use praise to encourage children to comply.",
+      "type": "Matching Features",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物： Paul Edith"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 Paul Edith 定位。Paragraph E 第一行直接出現這個人名。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychologist Paul Edith insisted that praise is the best way to encourage children to comply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學家 Paul Edith 堅稱，讚賞是鼓勵孩子服從的最佳方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, praise must be delivered in a way that encourages the child to repeat the behaviour without prompting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但讚賞必須以一種能鼓勵孩子在沒有提示下重複該行為的方式表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都集中在 praise，答案位置十分直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychologist Paul Edith insisted that praise is the best way to encourage children to comply.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Edith 認為，讚賞是鼓勵孩子服從的最佳方式。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 F："
+            },
+            {
+              "kind": "quote",
+              "text": "“Use praise to encourage children to comply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用讚賞來鼓勵孩子服從。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原文的直接改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“praise” 原字重現。“encourage children to comply” 原字重現。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Socialisation is a long process, while compliance is its starting point.”",
+      "translation": "社會化是一個漫長過程，而服從是它的起點。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN，題目問是否符合文章中的 claim。要找 socialisation、long process、compliance、starting point。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many scientists believe that socialisation is a long process, while compliance is its starting point.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多科學家認為，社會化是一個漫長過程，而服從是它的起點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The implication of committed compliance for emerging internalized regulators of conduct is discussed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章討論了全心投入式服從對兒童逐漸形成內在行為調節機制的意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接包含題目內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Socialisation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long process”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compliance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“starting point”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句幾乎完整重現題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many scientists believe that socialisation is a long process, while compliance is its starting point.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多科學家認為，社會化是一個漫長過程，而服從是它的起點。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Socialisation is a long process, while compliance is its starting point.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者的核心命題一致： socialisation = a long process compliance = its starting point題目省略了 “Many scientists believe that”，但文章開頭把這句作為全文理論框架。按閱讀題常規，這屬於同向支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Many parents find it difficult to recognise compliance or noncompliance.”",
+      "translation": "許多父母覺得難以辨認服從或不服從。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心量詞。題目用 “Many parents”，原文如果只說 some parents，便不足以直接支持many。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents found it difficult to recognise compliance, and some even overlooked their children’s noncompliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些父母覺得難以辨認孩子的服從行為，有些甚至忽略了孩子的不服從行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physical coercion was somewhat less effective, while reasoning and verbal prohibition were ineffective unless both were combined with physical coercion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "身體強制的效果稍弱；推理和口頭禁止如果沒有配合身體強制，效果不佳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句和題目高度相關，但要細看 some / many 的範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recognise compliance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“noncompliance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents found it difficult to recognise compliance…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some even overlooked their children’s noncompliance.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some parents found it difficult to recognise compliance, and some even overlooked their children’s noncompliance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些父母覺得難以辨認服從行為，有些甚至忽略了孩子的不服從行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支持兩件事： some parents found it difficult to recognise compliance有些父母難以辨認服從行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "some overlooked noncompliance有些父母忽略不服從行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Many parents”。Many 是較強的數量詞，表示很多父母。原文只給 “Some parents”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Some 表示有一部分，但文章沒有說這一部分多到可稱為 many。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，原文有相關背景，但缺少題目要求的數量程度。這不是 NO，因為原文沒有明確說 “only a few parents” 或 “not many parents”。但也不能選 YES，因為 “many” 缺乏原文支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以嚴格判斷是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易因為 “parents / recognise / noncompliance” 都出現而選 YES。真正控制答案的是量詞：題目 many，原文 some。IELTS Reading 不只看主題詞，也要看程度詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“As noncompliant children grow older, they find it easier to manage relationships with their peers.”",
+      "translation": "隨著不服從的孩子長大，他們更容易處理與同輩的關係。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個核心部分：第一，noncompliant children grow older；第二，manage relationships with peers。原文即使談成長和協商，也要看是否談 peers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從；但隨著年齡增長，他們可能會學到更成熟的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using this compliance strategy with defiant children ensures that activities are completed almost every day in the same general order, so the child expects to do them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對反抗性孩子使用這種服從策略，可以確保活動幾乎每天都按大致相同的順序完成，讓孩子預期自己會做這些事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段確實談 older children 的變化，但主題是拒絕父母要求的方式，不是同輩關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“grow older”"
+            },
+            {
+              "kind": "quote",
+              "text": "“manage relationships”"
+            },
+            {
+              "kind": "quote",
+              "text": "“peers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到 grow older："
+            },
+            {
+              "kind": "quote",
+              "text": "“as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但找不到 peers 或 peer relationships。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They become more skilful at negotiating or giving reasons for refusing, rather than directly opposing their parents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們會變得更善於協商，或給出拒絕的理由，而不再直接反抗父母。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 older children 會在拒絕父母時更善於 negotiating / giving reasons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目卻說他們更容易 manage relationships with their peers，即與同齡人相處更容易。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的對象是 “their parents”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的對象是 “their peers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是關係對象缺失。文章沒有談同輩關係、朋友關係、社交管理或 peer interaction。現實中較會協商可能有助於同輩關係，但這是文章外推論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Experts have never tried to instil compliance in children.”",
+      "translation": "專家從未嘗試在孩子身上培養服從。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “never”。只要原文說有些專家曾經嘗試 instil compliance，題目就和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When children are younger, they sometimes express noncompliance directly, but as they grow older they may learn more sophisticated approaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年幼時，有時會直接表達不服從；但隨著年齡增長，他們可能會學到更成熟的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using this compliance strategy with defiant children ensures that activities are completed almost every day in the same general order, so the child expects to do them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對反抗性孩子使用這種服從策略，可以確保活動幾乎每天都按大致相同的順序完成，讓孩子預期自己會做這些事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 段先講 noncompliance 的發展價值，之後提到專家和培養 compliance 的策略。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“never”"
+            },
+            {
+              "kind": "quote",
+              "text": "“instil compliance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many experts have held different views in recent years, and some have tried to instil compliance in children.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many experts have held different views in recent years, and some have tried to instil compliance in children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年許多專家持有不同看法，而且有些專家曾嘗試在孩子身上培養服從。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Experts have never tried…”原文說 “some have tried…”這是清楚相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“never tried” = 從未嘗試“some have tried” = 有些已經嘗試只要有 some have tried，就足以推翻 never。所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Psychologist Paul Edith denied the importance of knowing how to praise children in an encouraging way.”",
+      "translation": "心理學家 Paul Edith 否認懂得如何以鼓勵方式讚賞孩子的重要性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Paul Edith 和 praise。題目說 denied the importance，原文如果說 insisted / praise is best / praise must be delivered properly，就會形成相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychologist Paul Edith insisted that praise is the best way to encourage children to comply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學家 Paul Edith 堅稱，讚賞是鼓勵孩子服從的最佳方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, praise must be delivered in a way that encourages the child to repeat the behaviour without prompting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但讚賞必須以一種能鼓勵孩子在沒有提示下重複該行為的方式表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都直接支援 Paul Edith 重視 praise，而且重視 praise 的表達方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Edith”"
+            },
+            {
+              "kind": "quote",
+              "text": "“denied”"
+            },
+            {
+              "kind": "quote",
+              "text": "“praise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“encouraging way”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“insisted that praise is the best way”"
+            },
+            {
+              "kind": "quote",
+              "text": "“praise must be delivered in a way that encourages…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychologist Paul Edith insisted that praise is the best way to encourage children to comply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心理學家 Paul Edith 堅稱，讚賞是鼓勵孩子服從的最佳方法。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, praise must be delivered in a way that encourages the child to repeat the behaviour without prompting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但讚賞必須以一種能鼓勵孩子在沒有提示下重複該行為的方式表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Paul Edith “denied the importance”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Paul Edith “insisted” praise is the best way，而且 praise “must be delivered” properly。這代表他非常重視讚賞及其使用方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“denied the importance” 和 “insisted / must be delivered” 方向相反。所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Compliance Or Noncompliance For Children.pdf",
+    "sha256": "ac607f599a350889a069c560b26750e55132dfa35a0f45c8928da65abfd21b07",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句提出理論框架：許多科學家認為 socialisation 是長期過程，compliance 是起點。尾句說文章會討論 committed compliance 對兒童內在行為調節發展的意義。這段是學術引入段，主要交代 compliance、internalisation、mother-child affect 和不同 demand contexts 之間的研究關係。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說有些父母難以辨認 compliance，有些甚至忽略 noncompliance。尾句比較不同管教方法的效果，指出 physical coercion、reasoning、verbal prohibition 等方法成效有差異。這段應該集中講父母如何處理孩子服從和不服從，以及不同 disciplinary techniques 對孩子反應的影響。"
+      },
+      {
+        "number": "C",
+        "summary": "首句引入 Henry Porter 的觀點：年幼孩子有時直接表達不服從，長大後可能用較成熟的方法拒絕。尾句說 routine 讓孩子預期每天按大致相同順序完成活動。這段前半應該講noncompliance 的發展意義，後半轉入 Wallace Friesen 的 routine strategy。"
+      },
+      {
+        "number": "D",
+        "summary": "首句介紹 Steven Walson 的策略：孩子常抗拒的活動之後應接上 enjoyable activities。尾句給出具體說法：完成清理房間後，就可以玩想玩的遊戲。這段功能偏向實用建議，主要說明如何用活動排序和 positive reinforcement 減少 defiant behaviour，提升孩子完成不喜歡任務的動機。"
+      },
+      {
+        "number": "E",
+        "summary": "首句提出 Paul Edith 的看法：praise 是鼓勵孩子 comply 的最佳方法。尾句補充，讚賞必須用能促使孩子在無提示下重複該行為的方式表達。這段很短，主題集中在 praise strategy：讚賞能提供正面注意力，但表達方式要準確，才有鼓勵效果。"
+      }
+    ]
+  }
+}

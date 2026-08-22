@@ -1,0 +1,2027 @@
+{
+  "id": "p3-147-rainwater-harvesting",
+  "catalogueId": "p3-147",
+  "catalogueIds": [
+    "p3-147"
+  ],
+  "passage": 3,
+  "title": "Rainwater Harvesting",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "day labourers",
+    "nearby sugar-cane plantations",
+    "Three wells",
+    "1998",
+    "roofs of houses",
+    "rainwater storage tanks",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "day labourers",
+      "answerKey": "day labourers",
+      "type": "Short-answer Questions",
+      "prompt": "“What is the main source of livelihood for local people in Muthukandiya village?”",
+      "translation": "Muthukandiya 村民主要靠甚麼維生？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The villagers of Muthukandiya arrived in the 1970s as part of a government resettlement scheme.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Muthukandiya 的村民是在 1970 年代因政府重新安置計劃來到這裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women and children may spend several hours each day walking up to three miles (five kilometres) to fetch water for drinking, washing, and cooking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "婦女和兒童每天可能要花數小時，走最多三英里（五公里）去取飲用、洗滌和煮食用水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph B 會交代村民定居背景和生活困難。題目問 livelihood，即維生方式；這通常會出現在土地、農作、收入和工作相關句子中，所以 Paragraph B 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 main source of livelihood 和 local people。原文沒有直接寫 livelihood，但出現了近義概念 village economy relies on："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because crop production, which relies entirely on rainfall, is insufficient to support most families, the village economy relies on men and women working as day labourers in nearby sugar-cane plantations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於農作完全依賴降雨，而且不足以支撐大多數家庭，村莊經濟便依靠男女在附近甘蔗種植園做日薪工人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句先說 crop production is insufficient，即農作不足以支撐家庭。真正回答 livelihood 的部分在後半句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the village economy relies on men and women working as day labourers…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是村莊經濟依賴男女做日薪工人。題目問的是主要維生來源，所以答案要填職業身份或工作形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整意思是 working as day labourers，但題目限制最多三個字。最合適的答案是 day labourers，兩個字，直接取自原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“main source of livelihood”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the village economy relies on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： livelihood = 維生方式；village economy relies on = 村莊經濟所依靠的來源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "nearby sugar-cane plantations",
+      "answerKey": "nearby sugar-cane plantations",
+      "type": "Short-answer Questions",
+      "prompt": "“Where do adults work during the day to earn extra money?”",
+      "translation": "成年人白天在哪裡工作以賺取額外收入？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The villagers of Muthukandiya arrived in the 1970s as part of a government resettlement scheme.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Muthukandiya 的村民是在 1970 年代因政府重新安置計劃來到這裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women and children may spend several hours each day walking up to three miles (five kilometres) to fetch water for drinking, washing, and cooking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "婦女和兒童每天可能要花數小時，走最多三英里（五公里）去取飲用、洗滌和煮食用水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從村民定居背景說到水源困難，中間自然會交代村莊經濟如何運作。題目問 Where，所以要找 adults / men and women 的工作地點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 adults work、during the day、earn extra money。原文沒有 adults，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“men and women working as day labourers in nearby sugar-cane plantations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男女在附近甘蔗種植園做日薪工人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 men and women 對應題目的 adults；day labourers 對應白天工作和賺錢；nearby sugar-cane plantations 是工作地點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目問 Where，所以答案要是地點名詞短語。原文地點是："
+            },
+            {
+              "kind": "quote",
+              "text": "“nearby sugar-cane plantations”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "附近的甘蔗種植園。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個短語直接回答「在哪裡工作」。它有三個詞，其中 sugar-cane 是連字詞，在 IELTS 字數計算中通常當一個詞處理；整體符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“adults work during the day”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“men and women working as day labourers”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“nearby sugar-cane plantations”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "Three wells",
+      "answerKey": "Three wells",
+      "type": "Short-answer Questions",
+      "prompt": "“What has been dug to supply water for daily household use?”",
+      "translation": "為了供應日常家庭用水，人們挖了甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The villagers of Muthukandiya arrived in the 1970s as part of a government resettlement scheme.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Muthukandiya 的村民是在 1970 年代因政府重新安置計劃來到這裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women and children may spend several hours each day walking up to three miles (five kilometres) to fetch water for drinking, washing, and cooking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "婦女和兒童每天可能要花數小時，走最多三英里（五公里）去取飲用、洗滌和煮食用水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph B 講村莊生活條件，特別是家庭用水困難。題目問 “has been dug”，所以要找 dug / wells / domestic water 這類訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 dug 和 household use。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three wells have been dug to provide domestic water, but these run dry for much of the year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們挖了三口井來提供家庭用水，但這些井一年中大部分時間都會乾涸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What has been dug?”，答案應該是被挖出來的東西。原文主語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three wells”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "三口井。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面的 “to provide domestic water” 對應題目的 “to supply water for daily household use”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "domestic water 就是家庭用水。答案 Three wells 兩個字，直接取自原文，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“supply water for daily household use”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“provide domestic water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "domestic water = 家庭用水；supply = provide。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "1998",
+      "answerKey": "1998",
+      "type": "Short-answer Questions",
+      "prompt": "“In what year did planning begin for a new drought-mitigation project?”",
+      "translation": "新的旱災緩解項目是在甚麼年份開始規劃？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1998, communities in the district discussed water problems with Practical Action South Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1998 年，該地區的社區與 Practical Action South Asia 討論水問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It uses tanks to collect and store rain channelled by gutters and pipes as it runs off the roofs of houses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項技術使用水箱收集並儲存雨水；雨水從房屋屋頂流下，再由 gutters and pipes 引導進入系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph C 由「討論水問題」引出 rainwater harvesting 技術。題目問project planning begin 的年份，最可能在這段開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 year、planning begin、drought-mitigation project。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1998, communities in the district discussed water problems with Practical Action South Asia. What followed was a drought mitigation initiative…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1998 年，社區與 Practical Action South Asia 討論水問題。隨後出現的是一項旱災緩解 initiative。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字說 “planning began”，但先有 communities discussed water problems，然後 “What followed was a drought mitigation initiative”。題目的 planning begin 是對這個討論階段的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案只需要年份，所以填 1998。這是數字，完全符合 “NO MORE THAN THREE WORDS AND/OR A NUMBER”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“planning begin for a new drought-mitigation project”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“communities … discussed water problems” + “What followed was a drought mitigation initiative”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "discussed water problems 是項目形成前的規劃起點；drought mitigation initiative 對應drought-mitigation project。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "roofs of houses",
+      "answerKey": "roofs of houses",
+      "type": "Short-answer Questions",
+      "prompt": "“From where do the gutters and pipes collect rainwater?”",
+      "translation": "gutters and pipes 從哪裡收集雨水？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1998, communities in the district discussed water problems with Practical Action South Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1998 年，該地區的社區與 Practical Action South Asia 討論水問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It uses tanks to collect and store rain channelled by gutters and pipes as it runs off the roofs of houses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項技術使用水箱收集並儲存雨水；雨水從房屋屋頂流下，再由 gutters and pipes 引導進入系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 最後一句直接解釋 rainwater harvesting 技術如何運作。題目問 gutters and pipes從哪裡收集雨水，答案就在這句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 gutters and pipes 和 collect rainwater。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“rain channelled by gutters and pipes as it runs off the roofs of houses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雨水從房屋屋頂流下，經 gutters and pipes 被引導。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目問 From where，所以要找來源地點。原文中的來源是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the roofs of houses”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "房屋屋頂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於答案限制最多三個字，填 roofs of houses 最穩妥，剛好三個字。題目已經有 “from where”，答案不需要再加 from，也不需要加 the。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“collect rainwater”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“rain channelled … as it runs off”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "collect 是題目把原文 “channelled” 和 “runs off” 概括成收集過程。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "rainwater storage tanks",
+      "answerKey": "rainwater storage tanks",
+      "type": "Short-answer Questions",
+      "prompt": "“What enables families to obtain more water for domestic needs than those relying only on wells and ponds?”",
+      "translation": "甚麼讓家庭比只依賴 wells and ponds 的家庭得到更多家庭用水？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The community of Muthukandiya was involved throughout.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Muthukandiya 社區全程參與其中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their water is much cleaner, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的水也乾淨得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph E 講社區參與和實際成果。題目問更多 domestic water，應該看這段後半的 evaluation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 more water、domestic needs、wells and ponds。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evaluations show clearly that households with rainwater storage tanks have considerably more water for domestic needs than households relying entirely on wells and ponds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估清楚顯示，有 rainwater storage tanks 的家庭，比完全依賴 wells and ponds 的家庭，有多得多的家庭用水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What enables families…?”，即甚麼東西讓家庭取得更多水。原文主體是："
+            },
+            {
+              "kind": "quote",
+              "text": "“households with rainwater storage tanks”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有雨水儲存水箱的家庭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以使家庭有更多水的東西是 rainwater storage tanks。答案三個字，直接取自原文，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“obtain more water for domestic needs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“have considerably more water for domestic needs”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“those relying only on wells and ponds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“households relying entirely on wells and ponds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "only = entirely；obtain = have。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most government initiatives and other programmes have been at least partly unsuccessful.”",
+      "translation": "大多數政府 initiative 和其他 programme 至少有部分不成功。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題要判斷文章是否支持「政府及其他 programme 有明顯缺陷，所以不能算完全成功」。控制詞是 at least partly，意思很弱，只需要證明它們有某個重要部分做得不好，不需要證明整個programme 完全失敗。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite an indigenous tradition of rainwater harvesting and irrigation systems going back to the third century BC, policy-makers in modern times have often overlooked the value of such technologies, and it is only recently that officials have taken much interest in household-level structures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Sri Lanka 本土早有 rainwater harvesting 和 irrigation systems 傳統，可追溯至公元前三世紀，現代 policy-makers 卻常忽略這類技術的價值；直到最近，官員才較關注 household-level structures。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Practical Action South Asia’s project deliberately took a different approach, aiming to build up a local skills base among builders and users of the tanks, and to create structures and systems so that communities can manage their own rainwater harvesting schemes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Practical Action South Asia 的項目刻意採取不同做法，目標是在建造者和使用者之間建立本地技能基礎，並建立結構和系統，讓社區能管理自己的 rainwater harvesting schemes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph D 在對比兩種做法：過去 policy-makers / programmes 忽略或處理不足； Practical Action 則刻意建立本地技能和社區管理能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 government initiatives、other programmes、partly unsuccessful。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Government and other programmes have, however, been top-down in their conception and application, installing tanks free of charge without providing training in the skills needed to build and maintain them properly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，政府和其他 programmes 在構思和實施上一直採取 top-down 方式，免費安裝水箱，卻沒有提供正確建造和維護所需技能的 training。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Government and other programmes，對應題目中的 “government initiatives and other programmes”。原文說它們的問題有兩點：第一，top-down in their conception and application，即由上而下設計和實施，社區參與不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，without providing training in the skills needed to build and maintain them properly，即沒有教居民和建造者正確建造與維護水箱所需技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “at least partly unsuccessful” 是對這個缺陷的概括。因為 programmes 可能安裝了 tanks，但沒有提供必要 training；若沒有建造和維護技能，項目至少在能力建立和長期維護方面有缺口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：government initiatives and other programmes have been at least partly unsuccessful。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：government and other programmes were top-down and failed to provide training needed for proper building and maintenance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向一致。題目的 “at least partly” 很重要，它沒有說這些 programme 全面失敗，只說有部分不成功；原文的 training 缺失足以支持這個判斷。所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能覺得原文沒有直接寫 unsuccessful，便想選 NOT GIVEN。這題要看 “at least partly” 的弱化功能。原文已指出它們沒有提供必要 training，這已經支援「至少有部分不成功」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Masons were trained to construct parts of the rainwater-harvesting system.”",
+      "translation": "泥水匠接受訓練，學習建造 rainwater-harvesting system 的部分結構。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問兩件事：第一，masons 是否接受 training；第二，training 是否和建造系統某些部分有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要原文說 masons 接受了建造 tanks 的 training，而 tanks 又屬於整個 system 的一部分，題目就成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The community of Muthukandiya was involved throughout.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Muthukandiya 社區全程參與其中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their water is much cleaner, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的水也乾淨得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講社區如何參與項目，也交代實施細節和結果。題目問 masons trained，所以要在這段找 training 相關句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Masons、trained、construct、system。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two local masons received several days’ on-the-job training in building the 5,000-litre household storage tanks: surface tanks out of ferrocement and underground tanks out of brick.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位本地泥水匠接受了數天在職訓練，學習建造 5,000 公升的 household storage tanks：用ferrocement 建造地面水箱，用磚建造地下水箱。"
+            },
+            {
+              "kind": "label",
+              "text": "同段下一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each system, including tank, pipes, gutters and filters, cost US$195…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每套系統，包括 tank、pipes、gutters 和 filters，成本為 195 美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文明確說 Two local masons received ... training，所以 training 部分成立。訓練內容是building the 5,000-litre household storage tanks。而下一句把 tank 列為整個 system 的一部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each system, including tank, pipes, gutters and filters…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目說 “parts of the rainwater-harvesting system” 是合理概括。Masons 不一定建造整套system 的每一項，但他們受訓建造 tanks，而 tanks 屬於 system 的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：masons were trained to construct parts of the system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：two local masons were trained in building storage tanks；each system includes tank, pipes, gutters and filters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “parts” 很精準。如果它說 masons were trained to construct the whole system，證據會較弱；但它只說 parts，所以 building the tanks 已經足夠支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The cost of rainwater-harvesting systems was shared by local villagers and the local government.”",
+      "translation": "rainwater-harvesting systems 的成本由本地村民和 local government 分擔。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 cost sharing 的雙方是誰。題目已經給出一方：local villagers；另一方說是 local government。要核對原文真正付款或提供材料的一方是否為 local government。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The community of Muthukandiya was involved throughout.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Muthukandiya 社區全程參與其中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their water is much cleaner, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的水也乾淨得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 是項目 implementation 段，包含 cost、materials、training 和 outcomes。題目問cost sharing，應看中段金額和貢獻者句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 cost、shared、local villagers、local government。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each system, including tank, pipes, gutters and filters, cost US$195 – equivalent to a month’s income for an average village family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每套系統，包括 tank、pipes、gutters 和 filters，成本為 195 美元，相當於普通村莊家庭一個月收入。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just over half the cost was provided by the community, in the form of materials and unskilled labour. Practical Action South Asia contributed the rest, including cement, transport and payment for the skilled labour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "略多於一半的成本由社區提供，形式是材料和非技術勞動。Practical Action South Asia 則提供餘下部分，包括水泥、運輸和 skilled labour 的付款。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚列出兩方：第一方：the community這可以對應題目中的 local villagers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二方：Practical Action South Asia這是 NGO / development organization，不是 local government。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把第二方改成 local government。原文沒有說 local government 分擔成本；相反，它明確說剩下部分由 Practical Action South Asia contributed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：cost was shared by villagers and local government。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：just over half by community；the rest by Practical Action South Asia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "核心人物不一致。原文已明確給出另一方是 Practical Action South Asia，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 確實提到 government programmes，所以學生可能把 government 和 project funding 連起來。但 Paragraph E 的 cost evidence 清楚寫明 rest 是 Practical Action South Asia contributed。判斷 funding 題時，要以金額附近句子為準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Tanks increase both the amount and quality of water for domestic use.”",
+      "translation": "水箱增加了家庭用水的數量，也提升了水質。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題有兩個部分：amount 和 quality。兩部分都要有原文支持才可以 TRUE。若原文只說 more water，沒有說 cleaner water，就不夠；若只說 cleaner，沒有說 more，也不夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The community of Muthukandiya was involved throughout.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Muthukandiya 社區全程參與其中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their water is much cleaner, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的水也乾淨得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph E 從社區參與到項目效果。最後一句已經提示 quality，即水質更乾淨。題目還問 amount，所以要看最後幾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 amount、quality、domestic use、tanks。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evaluations show clearly that households with rainwater storage tanks have considerably more water for domestic needs than households relying entirely on wells and ponds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "評估清楚顯示，有 rainwater storage tanks 的家庭，比完全依賴 wells and ponds 的家庭，有多得多的家庭用水。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their water is much cleaner, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的水也乾淨得多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "第一句支援 amount："
+            },
+            {
+              "kind": "quote",
+              "text": "“considerably more water for domestic needs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是家庭用水量明顯更多。"
+            },
+            {
+              "kind": "label",
+              "text": "第二句支援 quality："
+            },
+            {
+              "kind": "quote",
+              "text": "“much cleaner”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是水質更乾淨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “both the amount and quality” 正好把這兩句合併。amount 對應 more water；quality 對應 cleaner water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：tanks increase amount and quality of domestic water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：households with tanks have considerably more water；their water is much cleaner。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩部分都被支持，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 both，這是控制詞。做 TRUE / FALSE / NOT GIVEN 時，看到 both 一定要檢查兩個條件是否都成立。這裡 amount 和 quality 都有證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A widow had to take a job in the rainwater-harvesting scheme so that she could send her daughter to school.”",
+      "translation": "一位寡婦必須在 rainwater-harvesting scheme 中工作，才能送女兒上學。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題涉及人物、動作和原因。人物是 widow；動作是 take a job in the rainwater-harvesting scheme；目的或結果是 send her daughter to school。要核對原文是否真的有「在 scheme 中工作」和「為了送女兒上學」這兩點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nandawathie, a widow in the village, has taken full advantage of the opportunities that rainwater harvesting has brought her family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nandawathie 是村中的一位寡婦，她充分利用了 rainwater harvesting 為家庭帶來的機會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And her daughter Sandamalee has more time for schoolwork.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的女兒 Sandamalee 也有更多時間做功課。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 是個人案例：一位 widow 因 rainwater harvesting 受惠，女兒也有更多學習時間。題目很可能來自這段，但要細看中間的因果鏈。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 widow、job、daughter、school。原文出現 widow 和 daughter："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nandawathie, a widow in the village…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nandawathie 是村中的一位寡婦。"
+            },
+            {
+              "kind": "quote",
+              "text": "“She is now thinking of building another tank in her garden so that she can grow more vegetables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她現在正考慮在花園裡再建一個水箱，好讓自己種更多蔬菜。"
+            },
+            {
+              "kind": "quote",
+              "text": "“And her daughter Sandamalee has more time for schoolwork.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的女兒 Sandamalee 有更多時間做功課。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的實際發展是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With a better water supply now close at hand, she began by growing a few vegetables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於現在附近有更好的水源，她先開始種一些蔬菜。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The income from selling these helped her to open a small shop on her doorstep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "賣蔬菜所得收入幫助她在家門口開了一間小店。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明她沒有 “take a job in the scheme”。她利用改善後的水源種菜、賣菜，再開小店。女兒方面，原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“her daughter Sandamalee has more time for schoolwork.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是女兒有更多時間做功課。原文沒有說她原本不能上學，也沒有說母親必須在 scheme 中工作才可送女兒上學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：widow took a job in the scheme to send daughter to school。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：widow used better water supply to grow vegetables and open a shop；daughter has more time for schoolwork。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 job 和 send daughter to school 兩個核心部分都和原文不符。原文提供了另一條清楚的生活改善鏈，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目借用了真實元素：widow、rainwater harvesting、daughter、schoolwork。這些字都在Paragraph F 出現。可是 IELTS 不只考單字重現，更考人物做了甚麼。這位 widow 的行動是 grow vegetables 和 open a shop，不是 take a job in the scheme。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Households that had benefited began contributing to maintenance and repair costs.”",
+      "translation": "已經受惠的家庭開始為 maintenance 和 repair costs 供款。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題要分清 agreed to contribute 和 actually began contributing。題目說 began contributing，表示供款已經開始。原文若只說同意供款，但後面說很難讓他們供款，題目就不成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The non-structural elements of the work, especially its financial and organisational aspects, present a bigger challenge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項工作的非結構性部分，尤其是財務和組織方面，帶來更大挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recovering costs from interventions that do not generate income directly will always be a difficult proposition, although this can be overcome if the process is explained more fully at the outset.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從不會直接產生收入的 intervention 中收回成本，一直都會是困難的事情；不過，如果一開始更充分解釋過程，這個問題可以克服。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都提示 financial challenge。題目問 maintenance and repair costs，所以 Paragraph H 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 households that had benefited、contributing、maintenance and repair costs。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A revolving fund was set up, with households that had already benefited agreeing to contribute a small monthly amount to pay for maintenance, repairs and new tanks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "項目設立了一個 revolving fund，已經受惠的家庭同意每月供款少量金額，用來支付maintenance、repairs 和 new tanks。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, it appears that the revolving fund concept was not fully understood and it has proved difficult to get households to contribute.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，revolving fund 的概念似乎未被充分理解，而且事實證明，要讓家庭供款很困難。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句中的 agreeing to contribute 只是「同意供款」。題目說 began contributing，意思是實際開始供款。這兩者不一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句更重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“it has proved difficult to get households to contribute”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示實際收款遇到困難。若家庭已經順利開始供款，作者不會說很難讓他們 contribute。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：benefited households began contributing to maintenance and repairs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：they agreed to contribute, but it was difficult to get them to contribute。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文後句削弱甚至推翻 “began contributing” 的說法，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 agreeing to contribute。學生看到 agreeing 很容易以為已經開始付錢。細讀時要看後面的 However：概念未被充分理解，實際上很難讓 households contribute。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Training two masons at once is much better than training only one.”",
+      "translation": "一次訓練兩位泥水匠，比只訓練一位好得多。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題包含比較：two masons at once vs only one。文章必須提供這個比較，才可以 TRUE 或FALSE。若原文只說訓練了兩位 masons，沒有評價和 one mason 的比較，就要判 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the short term, and on a small scale, the project has clearly been a success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "短期和小規模來看，這個 project clearly been a success。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Muthukandiya, the skills required to build and maintain storage tanks were taught fairly easily and can be shared by the two trained masons, who are now finding work with other development agencies in the district.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Muthukandiya，建造和維護 storage tanks 所需技能相當容易教授，並可由兩位 trained masons 分享；他們現在也在該 district 為其他 development agencies 工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 評估項目的成功和技術可持續性。最後一句出現 two trained masons，所以是題目定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 two masons、training、better than one。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the skills required to build and maintain storage tanks were taught fairly easily and can be shared by the two trained masons…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建造和維護 storage tanks 所需技能相當容易教授，並可由兩位 trained masons 分享。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說有 two trained masons。它也說技能可以由這兩位泥水匠分享，這支持「訓練兩位泥水匠有用」。但題目多加了一個比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“much better than training only one”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提到只訓練一位 mason 的效果，也沒有比較 one 和 two，更沒有使用 better / worse /more effective 這類比較語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目需要：training two masons is much better than training one。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供：two trained masons can share skills and now find work with other agencies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少 one-vs-two 的比較，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “two trained masons” 很容易選 TRUE。可是 “two” 只是定位詞，真正控制答案的是comparative structure：much better than only one。文章沒有這個比較，不能用常識補出答案。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Rainwater Harvesting.pdf",
+    "sha256": "49e2599e5b273d5f811819e3ebac9855ca0d1d7e66ba10952dd0d45cf581b739",
+    "pageCount": 26
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "首句說 southern Sri Lanka 經歷兩年 prolonged drought，被當地人形容為五十年來最嚴重；末句說估計有 1.6 million people 受影響。只看首尾句，可以先估這段建立全文問題背景：旱災範圍大、時間長，影響農作、牲畜、水井、兒童營養和上學。這段功能是說明為何後文的 rainwater harvesting 有實際需要，並把讀者帶入 drought mitigation 的主題。",
+        "label": "Opening Paragraph"
+      },
+      {
+        "number": "A",
+        "summary": "首句介紹 Muthukandiya 位於 Moneragala district，是 Sri Lanka southern “dry zone” 的drought-stricken areas 之一；末句說很多本地工業關閉，村民到城鎮找工作。只看首尾句，可以先看到這段把大旱災縮小到具體地區。中間提到 rainfall 不穩、tube wells 失效、rice 和 freshwater fish supply 被破壞，顯示 drought 對水、食物和就業都有連鎖打擊。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Muthukandiya 村民在 1970s 因政府 resettlement scheme 來到此地；末句說婦女和兒童每天可能花數小時走三英里取水。首尾句顯示這段重點是村莊的結構性困難：土地有了，但沒有irrigation system；農作靠 rainfall，收入不足；經濟依賴 day labour；生活用水井又長期乾涸。若題目問 livelihood、plantations、wells 或 domestic water，目標很可能在這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 1998 年，district communities 和 Practical Action South Asia 討論水問題；末句說rainwater harvesting 用 tanks 收集和儲存從屋頂經 gutters and pipes 流下的雨水。首尾句顯示這段正式引入解決方案：由社區討論水問題開始，之後發展成 low-cost rainwater harvesting technology。若題目問 project 開始年份、技術原理、雨水來自哪裡，這段就是核心。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Sri Lanka 早有 rainwater harvesting 和 irrigation 傳統，可追溯至 third century BC，但現代 policy-makers 常忽略這類技術；末句說 Practical Action South Asia 採取不同方法，培養本地技能和社區自主管理系統。首尾句顯示這段主要比較舊式 top-down programmes 和 Practical Action 的 community-based approach。若題目問 government programmes、training、maintenance 或 local skills，這段特別重要。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Muthukandiya community 全程參與；末句說有 tanks 的家庭水質也 much cleaner。只看首尾句，可以先估這段是項目實施細節和成效。中間提到 meetings、masons training、5,000-litre tanks、cost sharing、household maintenance training、village society，以及 37 families 已有storage tanks。這段同時支援 several short-answer 和 TRUE/FALSE 題，尤其是 masons、cost、water amount、water quality。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 widow Nandawathie 充分利用 rainwater harvesting 帶來的機會；末句說她的女兒Sandamalee 有更多時間做 schoolwork。首尾句顯示這段用個人例子展示項目好處。中間由better water supply close at hand 連到 growing vegetables、opening a shop、solar power、feeling safer、children less diarrhoea。這段不是技術解釋，主要是生活改善案例，尤其涉及income、safety、health 和 education time。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說短期、小規模來看，project clearly been a success，但挑戰在於 sustainable 和 expanding coverage；末句說兩位 trained masons 現在也為 district 其他 development agencies 工作。首尾句顯示這段評估技術層面的可持續性。它承認項目成功，但下一步是擴大。中間說 storage tank建造和維護技能容易傳授，兩位 mason 可分享技能。若題目問 trained masons 或是否可比較one vs two，這段要細讀。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 non-structural elements，尤其 financial and organisational aspects，帶來更大挑戰；末句說如果一開始更充分解釋，cost recovery 的困難可以克服。首尾句顯示這段從技術成功轉向資金與組織困難。中間提到 revolving fund，本來要求已受惠家庭每月小額供款，用於 maintenance、repairs 和 new tanks；但概念未被充分理解，讓 households contribute 變得困難。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Muthukandiya initiative 原本是 demonstration project，用來證明 community-based drought mitigation through rainwater harvesting 可行；末句說引入 larger tanks 的 feasibility 正在調查。首尾句顯示這段把單一村莊案例推到 broader replication：此項目不只服務本村，也用作示範，讓其他 organizations 參考同一 approach。若題目問 demonstration、feasible、other organizations 或 larger tanks，答案很可能在這段。"
+      },
+      {
+        "number": "J",
+        "summary": "這段只有一句，說要產生 interest、develop skills、organize management structures，需要大量effort and patience；rainwater harvesting technologies 可能還要一段時間，才可在沒有 external support 下快速自發擴散到 district villages。這段功能是全文收尾和限制評估：技術有前景，但自然擴散未必很快。作者最後把重點放在 social organisation、skills 和 external support，提醒讀者不要把成功示範直接等同大規模自動推廣。"
+      }
+    ]
+  }
+}

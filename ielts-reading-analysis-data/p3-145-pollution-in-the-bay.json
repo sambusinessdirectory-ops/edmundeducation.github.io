@@ -1,0 +1,1751 @@
+{
+  "id": "p3-145-pollution-in-the-bay",
+  "catalogueId": "p3-145",
+  "catalogueIds": [
+    "p3-145"
+  ],
+  "passage": 3,
+  "title": "Pollution! In the Bay",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "E",
+    "C",
+    "H",
+    "B",
+    "C",
+    "B",
+    "B",
+    "A",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Seagrass is more resistant to the bay’s salinity than expected.”",
+      "translation": "海草對海灣鹽度的承受能力比人們預期更高。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brian Lapointe, a marine scientist at the Harbour Branch Oceanographic Institution at Fort Pierce in Florida, disagrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "佛羅里達 Fort Pierce 的 Harbour Branch Oceanographic Institution 海洋科學家 Brian Lapointe不同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Lapointe adds that, because corals thrive only in waters where nutrient levels are low, restoring freshwater rich in nitrogen will do more damage to the reef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lapointe 博士補充說，由於珊瑚只在養分含量低的水域中茁壯生長，恢復富含 nitrogen 的淡水會對珊瑚礁造成更多傷害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 是 Brian Lapointe 對 Zieman 的反駁。Zieman 認為 salinity 是主因； Lapointe 的段落很可能會處理 seagrass 是否真的受鹽度傷害。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seagrass”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resistant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“salinity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He thinks seagrasses can tolerate much higher levels of salinity than the bay actually displays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為海草能承受比海灣實際鹽度高得多的鹽度水平。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “more resistant to the bay’s salinity than expected”，意思是海草沒有那麼容易被 Florida Bay 的鹽度殺死。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “can tolerate much higher levels of salinity than the bay actually displays”。這句的主語是seagrasses，核心動詞是 can tolerate，程度詞是 much higher levels。它清楚表示：海草的 salinity tolerance 高於 Florida Bay 目前呈現的鹽度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "seagrass is more resistant= seagrasses can tolerate much higher levels the bay’s salinity= the bay actually displays所以這項資訊位於 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The importance of identifying the cause of the controversy”",
+      "translation": "找出爭議原因的重要性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is causing such ecological change is a matter of much debate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "究竟是甚麼造成這種生態變化，仍是一個很有爭議的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they will then run off into the bay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這些水之後會流入海灣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段一開始就提出「原因有爭議」，結尾則把這個爭議連到 restoration plan 的freshwater flows。這正好對應題目中的 cause 和 controversy。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cause”"
+            },
+            {
+              "kind": "quote",
+              "text": "“controversy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“importance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the answer is of no small consequence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而這個答案影響重大。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is because the American government is planning to devote $8 billion over the next 30 years to revitalise the Everglades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是因為美國政府計劃在未來 30 年投入 80 億美元來復興 Everglades。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是「為何找出原因重要」，不是單純問「有沒有爭議」。Paragraph C 先說 cause is debated，再說 answer is of no small consequence，最後解釋原因：政府準備投入 $8 billion，並恢復 seasonal freshwater flows。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “identifying the cause” 對應原文 “What is causing such ecological change”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “importance” 對應 “of no small consequence”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “controversy” 對應 “a matter of much debate”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這項資訊在 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“Expensive proposals to solve the nitrogen problem”",
+      "translation": "解決 nitrogen 問題的昂貴方案。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this second hypothesis proves correct, the cure is to remove nitrogen from farmland or sewage discharges, or perhaps both.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果第二個假說被證實正確，解法就是從農地或污水排放中移除 nitrogen，或者兩者都處理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Either way, it is clear that when, on December 1st, 3,000 square miles of sea around the reef are designated as a ‘protective zone’ by the deputy secretary of commerce, Sam Bodman, this will do nothing to protect the reef from pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論如何，很明顯，當 12 月 1 日商務部副部長 Sam Bodman 把珊瑚礁周圍 3,000 平方英里的海域劃為「保護區」時，這對保護珊瑚礁免受污染沒有作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接說 remove nitrogen，最後一句說 protective zone 無法阻止 pollution。這段明顯是處理nitrogen pollution 的解決方案和限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Expensive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proposals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“solve the nitrogen problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“That would be costly.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“So too would be the replacement of cesspits with proper sewerage—one estimate puts the cost at $650m.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那會很昂貴。把 cesspits 換成 proper sewerage 也同樣昂貴，有一個估算把成本定為 6.5 億美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 提出兩類方案：第一，處理 farmland discharge："
+            },
+            {
+              "kind": "quote",
+              "text": "“Man-made wetlands … would need an algal culture … added to them to deal with discharges from farmlands. That would be costly.”"
+            },
+            {
+              "kind": "label",
+              "text": "第二，處理 sewage discharge："
+            },
+            {
+              "kind": "quote",
+              "text": "“So too would be the replacement of cesspits with proper sewerage—one estimate puts the cost at $650m.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “expensive proposals” 對應 “costly” 和 “$650m”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “solve the nitrogen problem” 對應 “remove nitrogen from farmland or sewage discharges”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Statistics showing ecological changes in both coral cover and species”",
+      "translation": "顯示 coral cover 和 coral species 都發生生態變化的數據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is at risk is the future of the bay’s extensive beds of seagrasses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面臨風險的是海灣大片海草床的未來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This has had a damaging effect on the animals that depend on the reef, such as crabs, turtles and nearly 600 species of fish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對依賴珊瑚礁的動物造成了破壞性影響，例如螃蟹、海龜和接近 600 種魚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 是生態受損背景段，重點包括 seagrasses、coral reefs 和依賴 reef 的動物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“statistics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coral cover”"
+            },
+            {
+              "kind": "quote",
+              "text": "“species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the 1980s, coral cover has dropped by 40%, and a third of the coral species have gone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1980 年代以來，珊瑚覆蓋率下降了 40%，三分之一的珊瑚物種已經消失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求同時包含兩類數據： coral cover coral species Paragraph B 的句子一次提供兩個數字： coral cover has dropped by 40%= 珊瑚覆蓋率下降 40%a third of the coral species have gone= 三分之一珊瑚物種消失這正好是 “statistics showing ecological changes in both coral cover and species”。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — Joseph Zieman",
+      "answerKey": "C — Joseph Zieman",
+      "type": "Matching People",
+      "prompt": "“The Everglades drainage system has increased the bay’s salinity.”",
+      "translation": "Everglades 的排水系統增加了海灣的鹽度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Joseph Zieman, a marine ecologist at the University of Virginia, thinks this is a good idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Virginia 大學的海洋生態學家 Joseph Zieman 認為這是一個好主意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And in a vicious circle, these turbid blooms block out sunlight, causing more seagrasses to die and yet more turbidity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在惡性循環中，這些混濁的 plankton blooms 擋住陽光，令更多海草死亡，造成更多混濁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是 Zieman 的觀點，而且會解釋他為何支持恢復淡水流入。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everglades drainage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased salinity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The blame, he says, lies with a century of drainage in the Everglades aimed at turning the marshes into farmland and areas for development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，問題出在 Everglades 長達一個世紀的排水工程，目的是把沼澤變成農地和發展區。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“This has caused the flow of fresh water into Florida Bay to dwindle, making the water in the bay, overall, more saline.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使流入 Florida Bay 的淡水減少，令海灣整體水體變得更鹹。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 drainage system increased the bay’s salinity。原文的因果鏈非常清楚： drainage in the Everglades→ freshwater flow into Florida Bay dwindled→ bay water became more saline這是 Joseph Zieman 的說法，因為前文用 “he says” 引出。人物對應是： Joseph Zieman = C所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — Brian Lapointe",
+      "answerKey": "B — Brian Lapointe",
+      "type": "Matching People",
+      "prompt": "“Restoring water with high nitrogen levels will cause further ecological damage.”",
+      "translation": "恢復富含 nitrogen 的水流會造成進一步生態破壞。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brian Lapointe, a marine scientist at the Harbour Branch Oceanographic Institution at Fort Pierce in Florida, disagrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "佛羅里達 Fort Pierce 的 Harbour Branch Oceanographic Institution 海洋科學家 Brian Lapointe不同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Lapointe adds that, because corals thrive only in waters where nutrient levels are low, restoring freshwater rich in nitrogen will do more damage to the reef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lapointe 博士補充說，由於珊瑚只在養分含量低的水域中茁壯生長，恢復富含 nitrogen 的淡水會對珊瑚礁造成更多傷害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示這段是 Lapointe 反對 restoration 的核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Restoring water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“high nitrogen levels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“further ecological damage”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“restoring freshwater rich in nitrogen will do more damage to the reef.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “water with high nitrogen levels” 對應原文 “freshwater rich in nitrogen”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “will cause further ecological damage” 對應 “will do more damage to the reef”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 Dr Lapointe 的觀點，因為句首是 “Dr Lapointe adds that”。人物答案是： Brian Lapointe = B所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "B — Brian Lapointe",
+      "answerKey": "B — Brian Lapointe",
+      "type": "Matching People",
+      "prompt": "“High nitrogen levels may be caused by nearby farmland.”",
+      "translation": "高 nitrogen 水平可能由附近農地造成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brian Lapointe, a marine scientist at the Harbour Branch Oceanographic Institution at Fort Pierce in Florida, disagrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋科學家 Brian Lapointe 不同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Lapointe adds that, because corals thrive only in waters where nutrient levels are low, restoring freshwater rich in nitrogen will do more damage to the reef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lapointe 補充說，恢復富含 nitrogen 的淡水會對珊瑚礁造成更多傷害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中講 Lapointe 的 nitrogen theory，題目中的 farmland 和 nitrogen 也在這段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“nitrogen levels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farmland”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Freshwater running off from well-fertilised farmlands, he says, caused a fivefold rise in nitrogen levels in the bay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，從施肥充足的農地流出的淡水，使海灣中的 nitrogen 水平增加了五倍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Freshwater running off from well-fertilised farmlands”，核心動詞是 “caused”，結果是 “a fivefold rise in nitrogen levels in the bay”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “High nitrogen levels” 對應 “a fivefold rise in nitrogen levels”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “may be caused by nearby farmland” 對應 “running off from well-fertilised farmlands”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這仍是 Brian Lapointe 的說法，因為句中有 “he says”，而 Paragraph E 開頭已經指明 he 是Brian Lapointe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — Bill Kruczynski",
+      "answerKey": "A — Bill Kruczynski",
+      "type": "Matching People",
+      "prompt": "“Sewage discharges, rather than nutrients from farmland, increase nitrogen levels.”",
+      "translation": "造成 nitrogen 增加的原因是污水排放，而非農地養分。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a plausible theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個看似合理的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Kruczynski thinks that increased nutrients arriving from local sewage discharges from the thousands of cesspits along the Florida Keys are part of the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kruczynski 博士認為，來自 Florida Keys 沿岸數千個 cesspits 的本地污水排放所帶來的增加養分，是問題的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 先承認 farmland nitrogen theory 有可信度，再引入 Kruczynski 的不同看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sewage discharges”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farmland”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Bill Kruczynski, of America’s Environmental Protection Agency, is convinced that nitrogen from farmlands is not the chief problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但美國 Environmental Protection Agency 的 Bill Kruczynski 確信，來自農地的 nitrogen 不是主要問題。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Kruczynski thinks that increased nutrients arriving from local sewage discharges … are part of the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kruczynski 博士認為，來自本地污水排放的增加養分是問題的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩部分： farmland nutrients are not the main cause sewage discharges increase nutrients / nitrogen-related pollution原文也有兩部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“nitrogen from farmlands is not the chief problem”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased nutrients arriving from local sewage discharges … are part of the problem”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都屬於 Bill Kruczynski 的觀點，所以人物是： Bill Kruczynski = A答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Everyone agrees that pouring water into the sea is harmless, even in Florida Bay.”",
+      "translation": "所有人都同意，把水倒進海裡是無害的，即使在 Florida Bay 也是如此。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pouring water into the sea sounds harmless enough.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把水倒入海中聽起來似乎相當無害。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is because researchers are divided over whether it will help or hinder the plants and animals that live in the bay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是因為研究者對於它會幫助還是阻礙海灣中的動植物有分歧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 已經形成清楚轉折：表面上 harmless，但在 Florida Bay 非常controversial。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everyone agrees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“harmless”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Florida Bay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is proving highly controversial”"
+            },
+            {
+              "kind": "quote",
+              "text": "“researchers are divided”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它正變得極具爭議；研究者意見分歧。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Everyone agrees”，這是一個極強的範圍詞，表示所有人都同意。原文說 “researchers are divided”，意思是研究者分成不同意見。這和 everyone agrees 直接衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “harmless”，原文第一句只是 “sounds harmless enough”，即「聽起來」無害。接著作者立即說在 Florida Bay 這件事 highly controversial。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是第一句 “sounds harmless enough”。這句只表面引入，不是作者最終立場。真正定案的是 “highly controversial” 和 “researchers are divided”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nitrogen enters the bay in water flowing off different types of crops.”",
+      "translation": "Nitrogen 透過從不同類型農作物流出的水進入海灣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a plausible theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個看似合理的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Kruczynski thinks that increased nutrients arriving from local sewage discharges from the thousands of cesspits along the Florida Keys are part of the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kruczynski 博士認為，來自 Florida Keys 沿岸數千個 cesspits 的本地污水排放所帶來的增加養分，是問題的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先談 farmland runoff，再談 sewage discharge，因此 Question 37 會定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nitrogen”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enters the bay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water flowing off crops”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water flowing off crops that are grown on the 750,000 acres of heavily fertilised farmland on the northern edge of the Everglades is rich in nitrogen, half of which ends up in the bay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 Everglades 北部邊緣 750,000 英畝重度施肥農地上的農作物流出的水富含 nitrogen，其中一半最終進入海灣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚支持一件事： water flowing off crops→ rich in nitrogen→ half ends up in the bay如果題目只寫 “Nitrogen enters the bay in water flowing off crops”，答案會很穩定地是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過本題加入了 “different types of crops”。原文只說 “crops that are grown on … farmland”，沒有說這些 crops 有不同種類，也沒有列出 crop types。文章可能暗示農地上有農作物，但未提供「不同類型」這個資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN 的判斷重點是：題目完整命題是否獲得支持。這裡原文支持 crop runoff 和 nitrogen entering the bay，但缺少 “different types” 這個具體細節。原文也沒有說沒有不同種類，所以不能判 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此按嚴格字面，答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Everglades restoration project will be effective regardless of the cause of pollution.”",
+      "translation": "無論污染原因是甚麼，Everglades restoration project 都會有效。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such claims and counterclaims make the impact of the restoration plan difficult to predict.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些互相矛盾的說法使 restoration plan 的影響難以預測。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If, however, nitrogen is the problem, increasing the flow of freshwater could make matters much worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，如果 nitrogen 才是問題，增加淡水流量可能會令情況惡化得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經說明：修復計劃是否有效，取決於真正原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“restoration project”"
+            },
+            {
+              "kind": "quote",
+              "text": "“effective”"
+            },
+            {
+              "kind": "quote",
+              "text": "“regardless of the cause”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“If increased salinity is the main problem, the bay’s ecology will benefit…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“If, however, nitrogen is the problem, increasing the flow of freshwater could make matters much worse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 salinity 是主因，海灣生態會受益；如果 nitrogen 是問題，增加淡水流量可能令情況更糟。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “regardless of the cause”，意思是不管原因是 salinity 還是 nitrogen，restoration project都會有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文給出條件式判斷： salinity main problem → benefit nitrogen problem → make matters much worse這兩個結果剛好說明 restoration project 並非在任何原因下都有效。它的效果取決於真正的ecological problem 是哪一個。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目和原文方向相反，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Humans have changed Florida Bay, and no one can recall what it was like before the 1950s.”",
+      "translation": "人類已經改變了 Florida Bay，而且沒有人知道它在 1950 年代以前是甚麼樣子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some argue, though, that there is a more fundamental flaw in the plans for the bay: the very idea of returning it to a Utopian ideal before man wrought his damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，有些人認為海灣計劃有一個更根本的缺陷：它想把海灣回復到人類造成破壞前的一種烏托邦式理想狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The bay that many people wish to re-create could have been nothing more than a changing phase in the bay’s history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多人希望重建的那個海灣，可能只不過是海灣歷史中一個變動階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段質疑 restoration 的目標，尤其是人類改變前的 Florida Bay 是否真的可知。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“before the 1950s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“humans changed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no one can recall”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobody knows what Florida Bay was like before the 1950s when engineers cut the largest canals in the Everglades and took most of the water away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人知道 Florida Bay 在 1950 年代以前是甚麼樣子；當時工程師在 Everglades 開鑿了最大的運河，並把大部分水帶走。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩部分： Humans have changed Florida Bay No one can recall / know what it was like before the 1950s原文支援第一部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“engineers cut the largest canals … and took most of the water away”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "工程師開鑿大型運河並抽走大部分水，這是人類改變水文環境的行為。"
+            },
+            {
+              "kind": "label",
+              "text": "原文支援第二部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobody knows what Florida Bay was like before the 1950s”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人知道 1950 年代前的 Florida Bay 是甚麼樣子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “no one can recall” 是 “Nobody knows” 的改寫。雖然 recall 更偏「記得」，在這裡它的功能是表達「無人能提供確定認知」。整體意思和原文一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Tourism makes a fundamental contribution to the economy of the Florida Bay area.”",
+      "translation": "旅遊業對 Florida Bay 一帶的經濟有根本性貢獻。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These arguments do not merely threaten to create ecological problems but economic ones as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些爭論不只可能造成生態問題，也可能造成經濟問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the plan to restore the Everglades makes problems in the bay and the reef worse, it could prove a very expensive mistake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Everglades restoration plan 令海灣和珊瑚礁問題惡化，那可能會證明是一個非常昂貴的錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph J 把 ecological risk 轉到 economic risk，而 Florida Keys tourism 是核心例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tourism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“economy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fundamental contribution”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The economy of the Florida Keys depends on tourism—the local tourist industry has an annual turnover of $2.5 billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Florida Keys 的經濟依賴旅遊業；當地旅遊業每年營業額達 25 億美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 tourism makes a fundamental contribution。原文用更強的說法："
+            },
+            {
+              "kind": "quote",
+              "text": "“depends on tourism”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 經濟依賴旅遊業annual turnover of $2.5 billion= 每年營業額 25 億美元這些資料足以支持 “fundamental contribution”。原文還列出旅遊活動：fishing-boat trips、manatee watching、scuba diving、snorkeling to view corals。這些都和 bay、reef 和 Florida Keys 的自然環境相關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Florida Bay area” 概括了文章最後一段談到的 Florida Keys、bay 和 reef 周邊經濟。由於文章明確說當地經濟 depends on tourism，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Pollution! In the Bay.pdf",
+    "sha256": "e60f8b5e80aaf4319328d2f3f1aeed5942fb9c1446665ccba4ba05a677250cd2",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句說把水倒入海中聽起來無害，最後一句說研究者對這樣做會幫助還是傷害海灣生物有分歧。只看首尾句，這段是全篇引入：Florida Bay 的 freshwater restoration 表面簡單，實際上極具爭議。文章會圍繞「向海灣注入淡水是否有益」展開，並預告後文有不同科學家的互相反駁。 Question 36 明顯會定位到這段，因為它問 everyone agrees 和 harmless。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說面臨風險的是海灣大片 seagrass beds 的未來；最後一句說 coral reef 衰退已傷害依賴珊瑚礁的動物。只看首尾句，這段功能是交代生態危機的嚴重性，範圍包括海草床、蝦、龍蝦、魚、珊瑚礁、海龜和約 600 種魚。中間有很重要的數據：coral cover dropped by 40%，a third of coral species have gone。Question 31 會來自這段。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說造成這種生態變化的原因仍有很大爭議；最後一句說恢復流入 Everglades 的淡水之後，水會流入 bay。只看首尾句，這段把「爭議原因」和「政府大型修復計劃」連接起來。重點不只是污染本身，還有找錯原因會令 $8 billion restoration plan 造成相反效果。Question 29 問 identifying the cause of the controversy 的重要性，目標很可能是這段。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句介紹 Joseph Zieman，說他認為恢復淡水流入是好主意；最後一句說混濁的 plankton blooms 擋住陽光，令更多 seagrasses 死亡，形成惡性循環。只看首尾句，這段是 Zieman 的觀點：問題源於淡水不足，Everglades 長期排水令 Florida Bay 鹽度上升，海草死亡後釋放養分，導致水變混濁。Questions 32 會定位到這段，因為它問 drainage system 和 salinity。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句介紹 Brian Lapointe，並明確說他不同意；最後一句說富含 nitrogen 的淡水會對 reef 造成更多傷害。只看首尾句，這段是反方觀點：Lapointe 認為 salinity 不是主要問題，反而是農地淡水runoff 帶來 nitrogen，造成 plankton blooms、turbidity、seagrass mortality，並傷害 coral reefs。 Questions 28、33、34 都集中在這段，因為它提到 salinity tolerance、farmland nitrogen 和restoration damage。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說 Lapointe 的理論有一定可信度；最後一句說 Kruczynski 認為 Florida Keys 沿岸大量cesspits 的 local sewage discharges 是問題一部分。只看首尾句，這段先承認 fertilised farmland runoff 含 nitrogen，接著引入 Bill Kruczynski 的不同看法：farmland nitrogen 不是 chief problem，某些遠離 nitrogen pollution 的珊瑚也在死亡，污水排放可能更關鍵。Questions 35 和 37 都會來自這段。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說這些互相矛盾的 claim and counterclaim 令 restoration plan 的影響難以預測；最後一句說若 nitrogen 是問題，增加 freshwater flow 可能令情況更差。只看首尾句，這段是全篇爭論的總結：如果 salinity 才是主要問題，修復計劃會有利；如果 nitrogen 才是主因，淡水增加可能加劇生態危機。Question 38 很可能定位到這段，因為它問 restoration project 是否無論原因都有效。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說若第二個 hypothesis 正確，解法是從 farmland 或 sewage discharges 移除 nitrogen；最後一句說把 reef 周圍海域劃為 protective zone 無法阻止 pollution。只看首尾句，這段談解決nitrogen 問題的實際方案和成本，包括人工濕地加 algal culture、取代 cesspits with proper sewerage，以及 $650m 成本。Question 30 明顯定位到這段，因為它問 expensive proposals。"
+      },
+      {
+        "number": "I",
+        "summary": "第一句說有些人認為 bay restoration plan 有更根本的缺陷：想回復人類破壞前的理想狀態；最後一句說人們想重建的 bay 可能只是歷史中一個變動階段。只看首尾句，這段質疑 restoration 的目標本身：沒有人知道 1950s 前 Florida Bay 真正是甚麼樣子。這段對 Question 39 很重要，因為題目問 humans changed the bay 和 no one can recall its earlier state。"
+      },
+      {
+        "number": "J",
+        "summary": "第一句說這些爭論不只可能造成生態問題，也可能造成經濟問題；最後一句說若 Everglades restoration 令 bay 和 reef 更糟，會是一個非常昂貴的錯誤。只看首尾句，這段把生態爭議連到Florida Keys 的旅遊經濟。中間提到 tourism、$2.5 billion annual turnover、fishing trips、manatee watching、scuba diving 和 snorkeling。Question 40 會定位到這段，因為它問 tourism 對經濟的貢獻。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Question 37 我會按嚴格 IELTS 字面判 NOT GIVEN：原文支援 “nitrogen-rich water from crops enters the bay”，但沒有交代 “different types of crops”。如果某份簡化答案把重點只放在 crop runoff，可能會判 TRUE；但就這題的完整 wording，different types 是缺失資料。"
+  ]
+}

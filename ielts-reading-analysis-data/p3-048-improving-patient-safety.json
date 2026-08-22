@@ -1,0 +1,963 @@
+{
+  "id": "p3-048-improving-patient-safety",
+  "catalogueId": "p3-048",
+  "catalogueIds": [
+    "p3-048"
+  ],
+  "passage": 3,
+  "title": "Improving Patient Safety",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "D",
+    "B",
+    "A",
+    "D",
+    "C",
+    "B",
+    "D",
+    "A",
+    "E",
+    "F",
+    "B",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — Richard Mawle",
+      "answerKey": "C — Richard Mawle",
+      "type": "Matching Features",
+      "prompt": "“Elderly people may have the same difficulty as children if the lids of containers require too much strength to open.”",
+      "translation": "如果容器蓋需要太大力氣才能打開，長者可能會遇到和兒童相似的困難。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features 題，要把 statement 配到提出相關觀點的人或機構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。首句指出 child protection 是改善安全的一個設計範疇；尾句直接提到older people、arthritis、same level of strength as a child。這段首尾已經顯示它處理兒童安全蓋和使用者力量問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Elderly people”、“same difficulty as children”、“too much strength”。掃描Paragraph 5，可以找到 Richard Mawle 的引述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many child-resistant packs are based on strength. They do not necessarily prevent a child from gaining access, but may prevent people with disabilities from opening them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多兒童安全包裝都以力量作基礎。它們不一定能阻止兒童打開，卻可能令殘疾人士無法打開。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Older people, especially those with arthritis, may have the same level of strength as a child,”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "he explained."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他解釋，長者，尤其是患有關節炎的人，力量可能和小孩相若。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “he” 指 Richard Mawle。題目中的 “Elderly people” 對應原文 “Older people”；“same difficulty as children” 對應 “same level of strength as a child”；“require too much strength” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“based on strength”。所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目提到 children，學生可能想選 Child Accident Prevention Trust。但這題重點不是兒童誤吞藥物，而是開蓋所需力量對長者造成困難。真正講 “same level of strength as a child” 的人是Richard Mawle。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "D — Karel van der Waarde",
+      "answerKey": "D — Karel van der Waarde",
+      "type": "Matching Features",
+      "prompt": "“Adapting packaging for the blind may disadvantage sighted people.”",
+      "translation": "為盲人或視障人士調整包裝，可能會令視力正常的人處於不利位置。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。首句說設計特徵會引發長篇討論；尾句提到 EU legislation 要求 Braille，並引用 Karel van der Waarde 對視障病人和 sighted patients 的看法。首尾句已經把問題鎖定到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “blind”、“sighted people”、“disadvantage”。原文沒有用 blind，而用了 “visually impaired patients”；“disadvantage” 對應 “reading … will be impaired”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“EU legislation requires that packaging must now include the name of the medicine in Braille but, according to Karel van der Waarde, … ‘it is not known how much visually impaired patients will benefit nor how much the reading of sighted patients will be impaired’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐盟法例要求包裝現在必須以盲文列出藥物名稱；但 Karel van der Waarde 指出，目前不清楚視障病人會受益多少，也不清楚視力正常病人的閱讀會受多大影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫很清楚",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adapting packaging for the blind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“include the name of the medicine in Braille”"
+            },
+            {
+              "kind": "quote",
+              "text": "“visually impaired patients”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“may disadvantage sighted people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“how much the reading of sighted patients will be impaired”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不是問 Braille 法例本身是否正確，而是問誰提出「視障人士可能受益，但視力正常人士閱讀可能受影響」這個疑慮。這是 Karel van der Waarde 的觀點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — Child Accident Prevention Trust",
+      "answerKey": "B — Child Accident Prevention Trust",
+      "type": "Matching Features",
+      "prompt": "“Specially designed lids cannot eliminate the possibility of children swallowing pills accidentally.”",
+      "translation": "特別設計的安全蓋不能完全消除兒童意外吞服藥物的可能性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。首句說 child protection 是設計師改善安全的範疇；段中提到 Child Accident Prevention Trust、children admitted to hospital、suspected poisoning、child-resistant closures。這段明顯處理兒童誤吞藥物和安全包裝。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “children swallowing pills accidentally”、“specially designed lids”、“cannot eliminate”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的對應是 “children admitted to hospital with suspected poisoning have swallowed medicines” 和 “child-resistant closures … are not fully child-proof”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the Child Accident Prevention Trust, seven out of 10 children admitted to hospital with suspected poisoning have swallowed medicines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Child Accident Prevention Trust，因疑似中毒入院的兒童中，有十分之七曾吞服藥物。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although child-resistant closures have reduced the number of incidents, they are not fully child-proof.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然兒童安全蓋已經減少事故數量，但它們並非完全防兒童打開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Specially designed lids” 對應 “child-resistant closures”；“cannot eliminate the possibility” 對應 “are not fully child-proof”；“children swallowing pills accidentally” 對應 CAPT 提供的兒童吞服藥物統計。因此最合理答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Richard Mawle 後面也批評 child-resistant packs，尤其是依靠力量的設計。但第 29 題的句子核心是「兒童誤吞藥物」和「child-resistant closures 仍非完全 child-proof」，這組資訊連在 Child Accident Prevention Trust 的統計之後，因此配 B 最準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — Thea Swayne",
+      "answerKey": "A — Thea Swayne",
+      "type": "Matching Features",
+      "prompt": "“Container design should consider situations, such as a drug being used at home.”",
+      "translation": "容器設計應考慮真實使用情境，例如藥物在家中被使用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。首句說 Thea Swayne 追蹤藥物從製造廠一路到 patients’ homes；最後一句說設計師關心 real world 中真正發生的事。首尾句直接顯示這段講真實使用情境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “situations”、“drug being used at home”、“container design should consider”。原文中有 “patients’ homes”、“Situations in which medicines are used include…” 和 “packaging should be designed for moments such as these”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Situations in which medicines are used include a parent giving a cough medicine to a child in the middle of the night and a busy pharmacist selecting one box from hundreds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藥物使用情境包括：家長半夜給孩子服用咳藥，以及繁忙藥劑師從數百個盒子中選出一盒藥。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is argued that packaging should be designed for moments such as these.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章指出，包裝應為這些時刻而設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容來自 Thea Swayne 所著書和她的觀點。題目中的 “drug being used at home” 對應 “a parent giving a cough medicine to a child in the middle of the night” 以及 “patients’ homes”。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "D — Karel van der Waarde",
+      "answerKey": "D — Karel van der Waarde",
+      "type": "Matching Features",
+      "prompt": "“Regulatory authorities should investigate multiple medicine containers together rather than individually.”",
+      "translation": "監管機構應該把多個藥物容器放在一起檢視，而非逐個獨立檢視。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。首句說更多證據可能很快會出現；最後一句提到 regulatory authorities一次只看一個盒子，沒有像藥劑師那樣同時看幾個盒子。尾句已經直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Regulatory authorities”、“multiple medicine containers together”、“individually”。原文的對應是 “regulatory authorities”、“one box at a time” 和 “not several together”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr van der Waarde is, however, sceptical about the legal requirements and says that many regulatory authorities do not have the resources to handle packaging information properly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，van der Waarde 博士對法律要求持懷疑態度，並指出很多監管機構沒有足夠資源妥善處理包裝資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“They do not look at the use of packaging in a practical context—they only see one box at a time and not several together as pharmacists would do,” he said."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，監管機構沒有在實際情境中看包裝如何被使用；他們一次只看一個盒子，而不像藥劑師那樣同時看到幾個盒子。題目把 “one box at a time and not several together” 轉成 “multiple medicine containers together rather than individually”。說話者是 Karel van der Waarde，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — Richard Mawle",
+      "answerKey": "C — Richard Mawle",
+      "type": "Matching Features",
+      "prompt": "“Information in a leaflet may not appear in the most useful order.”",
+      "translation": "單張中的資訊排列次序可能不是最有用的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。首句指出 Mr Mawle 參與改善 compliance 的設計項目，涉及packaging 和 PILs；最後一句直接質疑為甚麼公司資料放在單張開頭，而更重要的服藥警告放在後面。這段明顯講資訊排序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “leaflet”、“most useful order”、“information”。原文直接出現 “PILs”、“information presented”、“beginning of PILs”、“company details listed towards the beginning”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There can be an awful lot of junk at the beginning of PILs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "PILs 開頭可能有很多沒那麼有用的雜項資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, why are company details listed towards the beginning of a leaflet when what might be more important for the patient is that the medicine should not be taken with alcohol?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，為甚麼公司資料會列在單張較前位置，而對病人更重要的資訊可能是這種藥不可與酒精同服？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “may not appear in the most useful order” 對應原文：company details 放在前面，但對病人更重要的 warning 沒有優先出現。這是 Richard Mawle 的評論，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — marketing teams",
+      "answerKey": "B — marketing teams",
+      "type": "Notes Completion",
+      "prompt": "“First, 33 ______ prepare the proposal…”題目中的 “prepare the proposal” 對應原文 “A marketing team will prepare a brief”。brief 是設計簡介或提案要求。選項 B “marketing teams” 正確。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "analysis",
+          "title": "解卷分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案：B — marketing teams題目：“First, 33 ______ prepare the proposal…”題目中的 “prepare the proposal” 對應原文 “A marketing team will prepare a brief”。brief 是設計簡介或提案要求。選項 B “marketing teams” 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D — external designers",
+      "answerKey": "D — external designers",
+      "type": "Notes Completion",
+      "prompt": "“then pass it to 34 ______.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 over-the-counter medicines are “usually commissioned from design agencies”，接著 “the designers will come up with perhaps six or seven designs”。題目列表沒有 design agencies，但有 D “external designers”。因為 design agencies 是外部設計公司，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — consumers",
+      "answerKey": "A — consumers",
+      "type": "Notes Completion",
+      "prompt": "“Finally, the designs are tested by 35 ______.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “tested on a consumer group”。consumer group 即消費者小組，所以答案是 A"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“consumers”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “design engineers” 也和設計流程有關，但它出現在最後製造階段，不是 consumer testing。G“pharmacist” 在文章開頭出現，但沒有參與 OTC 設計測試流程。 36–37 Prescription-Only Medicines原文關鍵句：“In contrast, most designs for prescription-only products are created in-house. In some cases, this may simply involve applying a company’s house design … The chosen design is then handed over to design engineers who work out how the packaging will be produced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，大部分處方藥產品的設計由公司內部完成。有些情況只是套用公司的既定設計。選定設計之後，會交給設計工程師，由他們研究包裝如何生產。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "E — in-house designers",
+      "answerKey": "E — in-house designers",
+      "type": "Notes Completion",
+      "prompt": "“First, the design is created by 36 ______…”原文說 prescription-only products are “created in-house”。選項 E “in-house designers” 正確。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "analysis",
+          "title": "解卷分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案：E — in-house designers題目：“First, the design is created by 36 ______…”原文說 prescription-only products are “created in-house”。選項 E “in-house designers” 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "F — design engineers",
+      "answerKey": "F — design engineers",
+      "type": "Notes Completion",
+      "prompt": "“and then passed to 37 ______.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “The chosen design is then handed over to design engineers”。所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這組題的關鍵是對比 “over-the-counter medicines” 和 “prescription-only products”。前者通常由外部 design agencies 處理；後者多數在公司內部完成，再交給 design engineers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — the style of print",
+      "answerKey": "B — the style of print",
+      "type": "Multiple Choice",
+      "prompt": "“What design feature may cause an accident involving medicine containers?”",
+      "translation": "哪一項設計特徵可能造成與藥物容器相關的事故？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。首句提到 vincristine 注射錯誤，是 poor design 導致傷害的經典例子；最後一句說調查把部分責任歸因於 poor typography。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “accident”、“medicine containers”、“design feature”。原文對應 “classic examples of how poor design can contribute to harm” 和 “poor typography”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Investigations following these tragedies have attributed some blame to poor typography.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些悲劇之後的調查，把部分責任歸因於差劣的字體排印設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“typography” 指文字排版、字體樣式、字形呈現方式，最接近選項 B “the style of print”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “a print error” 指印刷錯誤，原文沒有說印錯。 B “the style of print” 正確，對應 poor typography。 C “wrong label” 原文沒有說貼錯標籤。 D “the shape of the bottle” 原文沒有提到瓶身形狀。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B — People have to pay more attention to the information.",
+      "answerKey": "B — People have to pay more attention to the information.",
+      "type": "Multiple Choice",
+      "prompt": "“What is one view of printing packaging only in black and white?”",
+      "translation": "有一種看法認為，只用黑白印刷包裝會有甚麼效果？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。首句說設計特徵會引起冗長討論；段中舉例 “all packaging were white with black lettering”。這是黑白包裝的直接定位點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “black and white”。原文用 “white with black lettering”。題目問 “one view”，所以要找someone argues / one argument is。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, one argument is that if all packaging were white with black lettering, people would have no choice but to read every box carefully.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，有一種論點認為，如果所有包裝都是白底黑字，人們就別無選擇，只能仔細閱讀每一個盒子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “People have to pay more attention to the information” 對應 “read every box carefully”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Consumers dislike these products” 原文沒有提到消費者不喜歡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “It makes all products look alike” 看似可能，但原文重點是逼使用者閱讀，不是外觀相似造成問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Sighted people may find it more helpful” 這和 Braille 句子附近有關，但不是 black and white的觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — to show that container design has made some progress",
+      "answerKey": "A — to show that container design has made some progress",
+      "type": "Multiple Choice",
+      "prompt": "“Why does the writer mention ‘popper’ and ‘pluspoint’?”",
+      "translation": "作者為甚麼提到 “popper” 和 “pluspoint”？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。首句說 RCA innovation exhibition 展示了多款 innovative objects；最後一句說製藥業的挑戰是採納基本設計標準。首尾句顯示這段從創新例子走向整個行業的設計挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “popper” 和 “pluspoint”。這兩個名字只在 Innovations 段落出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The RCA innovation exhibition this year revealed designs for a number of innovative objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年 RCA 創新展展示了多款創新物件的設計。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The popper’, by Hugo Glover, aims to help arthritis sufferers remove tablets from blister packs, and ‘pluspoint’, by James Cobb, is an adrenaline auto-injector that aims to overcome the fact that many patients do not carry their auto-injectors due to their prohibitive size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hugo Glover 設計的 “popper” 旨在幫助關節炎患者從 blister packs 中取出藥片；James Cobb 設計的 “pluspoint” 是一款腎上腺素自動注射器，旨在解決很多病人因尺寸過大而不攜帶自動注射器的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個例子都屬於 innovation，並且都針對真實使用者困難提出設計解決方法。後文也說 good design 的目標是 “make things more user-friendly as well as safer”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “to show that container design has made some progress” 正確。這些例子展示包裝和醫療用品設計正在向更安全、更易用方向發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “examples of inappropriate design” 錯，這兩個是正面創新例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “industry still needs further improvement” 和最後一句 challenge 有關，但 “popper” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pluspoint” 本身主要用來展示創新方向。 D “consumers should be better informed” 原文沒有把這兩個例子連到消費者資訊教育。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Improving Patient Safety.pdf",
+    "sha256": "8dc1579398e5828a67aa9653ae45113a74decdabf2775564760278de000caf50",
+    "pageCount": 17
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Packaging 問題引入第一句：“One of the most prominent design issues in pharmacy is that of drug packaging and patient information leaflets (PILs).”中文意思：藥劑業其中一個最突出的設計問題，就是藥物包裝和病人資訊單張。最後一句：“Many letters have appeared in The Journal’s letters pages over the years from pharmacists dismayed at the designs of packaging that are ‘accidents waiting to happen’.”中文意思：多年來，《The Journal》的讀者來信欄收到很多藥劑師來信，對一些像是「等著出事」的包裝設計感到震驚。段落功能：這段引入全文主題：藥物包裝和 PILs 的設計可能影響病人安全。"
+      },
+      {
+        "number": "2",
+        "summary": "包裝設計流程第一句：“Packaging design in the pharmaceutical industry is handled by either in-house teams or design agencies.”中文意思：製藥業的包裝設計由公司內部團隊或設計公司處理。最後一句：“The chosen design is then handed over to design engineers who work out how the packaging will be produced.”中文意思：選定的設計之後會交給設計工程師，由他們研究包裝如何生產。段落功能：這段講 over-the-counter medicines 和 prescription-only products 的設計流程。Questions 33–37主要來自這段。"
+      },
+      {
+        "number": "3",
+        "summary": "Thea Swayne 與真實使用情境第一句：“The author of the recently published ‘Information design for patient safety,’ Thea Swayne, tracked the journey of a medicine from a manufacturing plant, through distribution warehouses, pharmacies and hospital wards, to patients’ homes.”中文意思： Thea Swayne 在新近出版的《Information design for patient safety》中，追蹤藥物由製造廠、配送倉庫、藥房和醫院病房，一直到病人家中的旅程。最後一句：“As designers, we are interested in not what is supposed to happen in hospital wards, but what happens in the real world,” Ms Swayne said.中文意思： Swayne 說，作為設計師，他們關心的是現實世界中真正發生的事，而不只停留在醫院病房理論上應該發生的情況。段落功能：這段強調包裝設計要考慮真實使用場景，例如夜間在家中給孩子服藥、繁忙藥劑師從大量盒子中選藥。Question 30 來自這段。"
+      },
+      {
+        "number": "4",
+        "summary": "Poor typography 與醫療事故第一句：“Incidents in which vincristine has been injected intrathecally rather than intravenously are classic examples of how poor design can contribute to harm.”中文意思： vincristine 被錯誤地以鞘內注射方式注射，而非靜脈注射，是 poor design 如何造成傷害的經典例子。最後一句：“Investigations following these tragedies have attributed some blame to poor typography.”中文意思：這些悲劇之後的調查，把部分責任歸因於差劣的字體排印設計。段落功能：這段連接「設計問題」和「實際醫療傷害」。Question 38 的答案在這裡。"
+      },
+      {
+        "number": "5",
+        "summary": "Child protection 與 Richard Mawle第一句：“Child protection is another area that gives designers opportunities to improve safety.”中文意思：兒童保護是另一個設計師可以改善安全的範疇。最後一句：“Older people, especially those with arthritis, may have the same level of strength as a child,” he explained, and suggested that better designs could rely on cognitive skills (for example, making the opening of a container a three-step process) or be based on the physical size of hands.中文意思：他解釋，長者，尤其是患有關節炎的人，力量可能和小孩相若；他建議更好的設計可依靠認知能力，例如把開啟容器設計成三步流程，或按手掌大小設計。段落功能：這段講兒童安全蓋、兒童誤吞藥物、長者和殘疾人士使用困難。Questions 27 和 29 來自這段。"
+      },
+      {
+        "number": "6",
+        "summary": "PILs 資訊排序第一句：“Mr Mawle worked with GlaxoSmithKline on a project to improve compliance through design, which involved applying his skills to packaging and PILs.”中文意思： Mawle 曾與 GlaxoSmithKline 合作，參與一個透過設計改善病人依從性的項目，當中包括把他的設計技能應用到包裝和 PILs 上。最後一句：“For example, why are company details listed towards the beginning of a leaflet when what might be more important for the patient is that the medicine should not be taken with alcohol?”中文意思：例如，為甚麼公司資料會放在單張開頭，而對病人來說更重要的資訊，可能是這種藥不可與酒精同服？段落功能：這段講 PILs 資訊順序問題。Question 32 來自這段。"
+      },
+      {
+        "number": "7",
+        "summary": "顏色與 look-alike boxes第一句：“Look-alike boxes present a risk of selection errors and an obvious solution would be to use colours to highlight different strengths.”中文意思：外觀相似的盒子會帶來選藥錯誤風險，一個看似明顯的解決方法是用顏色標示不同劑量強度。最後一句：“Not only should strong colour contrasts be used, but designating a colour to a particular strength (colour coding) is not recommended because this could lead to the user not reading the text on a box.”中文意思：設計需要使用強烈顏色對比，但不建議把某一顏色固定代表某一劑量，因為這可能令使用者不閱讀盒上的文字。段落功能：這段講顏色設計既有幫助，也可能帶來新風險。"
+      },
+      {
+        "number": "8",
+        "summary": "黑白包裝、證據不足與 Braille第一句：“Design features can provide the basis for lengthy debates.”中文意思：設計特徵可以引發冗長討論。最後一句：“For example, EU legislation requires that packaging must now include the name of the medicine in Braille but, according to Karel van der Waarde, a design consultant to the pharmaceutical industry, ‘it is not known how much visually impaired patients will benefit nor how much the reading of sighted patients will be impaired’.”中文意思：例如，歐盟法例要求包裝現在必須以盲文列出藥物名稱；但製藥業設計顧問 Karel van der Waarde 指出，目前尚不清楚視障病人會受益多少，也不清楚視力正常病人的閱讀會受多大影響。段落功能：這段講設計原則的爭議，包括黑白包裝和 Braille。Questions 28 和 39 來自這段。"
+      },
+      {
+        "number": "9",
+        "summary": "PIL 測試與監管機構限制第一句：“More evidence might, however, soon be available.”中文意思：不過，更多證據可能很快會出現。最後一句：“They do not look at the use of packaging in a practical context—they only see one box at a time and not several together as pharmacists would do,” he said.中文意思：他說，監管機構沒有在實際情境中看包裝如何被使用；他們一次只看一個盒子，而不像藥劑師那樣同時看到多個盒子。段落功能：這段講測試、監管和實際使用情境之間的落差。Question 31 來自這段。"
+      },
+      {
+        "number": "10",
+        "summary": "Innovations第一句：“The RCA innovation exhibition this year revealed designs for a number of innovative objects.”中文意思：今年 RCA 創新展展示了多款創新物件的設計。最後一句：“The challenge for the pharmaceutical industry, as a whole, is to adopt such a standard.”中文意思：整個製藥業面對的挑戰，是採納這樣的標準。段落功能：這段用 “popper” 和 “pluspoint” 作創新例子，說明好設計可以更安全、更方便使用。Question 40來自這段。"
+      }
+    ]
+  }
+}

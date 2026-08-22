@@ -1,0 +1,1586 @@
+{
+  "version": "2026-08-22.1",
+  "sourceCount": 157,
+  "parsedSourceCount": 157,
+  "cachedSourceCount": 0,
+  "batchInventorySourceCount": 157,
+  "newUniqueAnalysisCount": 157,
+  "newCatalogueIdCount": 157,
+  "bundledDuplicateSourceCount": 0,
+  "uniqueAnalysisCount": 157,
+  "catalogueIds": [
+    "p3-003",
+    "p3-004",
+    "p3-005",
+    "p3-007",
+    "p3-008",
+    "p3-009",
+    "p3-014",
+    "p3-015",
+    "p3-016",
+    "p3-017",
+    "p3-020",
+    "p3-024",
+    "p3-025",
+    "p3-026",
+    "p3-027",
+    "p3-028",
+    "p3-029",
+    "p3-030",
+    "p3-031",
+    "p3-032",
+    "p3-033",
+    "p3-034",
+    "p3-035",
+    "p3-036",
+    "p3-037",
+    "p3-038",
+    "p3-039",
+    "p3-040",
+    "p3-041",
+    "p3-042",
+    "p3-043",
+    "p3-044",
+    "p3-045",
+    "p3-046",
+    "p3-047",
+    "p3-048",
+    "p3-049",
+    "p3-050",
+    "p3-051",
+    "p3-052",
+    "p3-053",
+    "p3-054",
+    "p3-055",
+    "p3-056",
+    "p3-057",
+    "p3-058",
+    "p3-059",
+    "p3-060",
+    "p3-061",
+    "p3-062",
+    "p3-063",
+    "p3-064",
+    "p3-065",
+    "p3-066",
+    "p3-067",
+    "p3-068",
+    "p3-069",
+    "p3-070",
+    "p3-071",
+    "p3-072",
+    "p3-073",
+    "p3-075",
+    "p3-076",
+    "p3-077",
+    "p3-078",
+    "p3-079",
+    "p3-080",
+    "p3-081",
+    "p3-082",
+    "p3-083",
+    "p3-084",
+    "p3-085",
+    "p3-086",
+    "p3-087",
+    "p3-088",
+    "p3-089",
+    "p3-090",
+    "p3-091",
+    "p3-092",
+    "p3-093",
+    "p3-094",
+    "p3-095",
+    "p3-096",
+    "p3-097",
+    "p3-098",
+    "p3-099",
+    "p3-100",
+    "p3-101",
+    "p3-102",
+    "p3-103",
+    "p3-104",
+    "p3-105",
+    "p3-106",
+    "p3-107",
+    "p3-108",
+    "p3-109",
+    "p3-110",
+    "p3-111",
+    "p3-112",
+    "p3-113",
+    "p3-114",
+    "p3-115",
+    "p3-117",
+    "p3-118",
+    "p3-120",
+    "p3-121",
+    "p3-122",
+    "p3-123",
+    "p3-124",
+    "p3-125",
+    "p3-126",
+    "p3-127",
+    "p3-128",
+    "p3-129",
+    "p3-130",
+    "p3-131",
+    "p3-132",
+    "p3-133",
+    "p3-134",
+    "p3-135",
+    "p3-136",
+    "p3-137",
+    "p3-138",
+    "p3-139",
+    "p3-140",
+    "p3-141",
+    "p3-142",
+    "p3-143",
+    "p3-144",
+    "p3-145",
+    "p3-146",
+    "p3-147",
+    "p3-148",
+    "p3-149",
+    "p3-150",
+    "p3-151",
+    "p3-152",
+    "p3-153",
+    "p3-154",
+    "p3-155",
+    "p3-156",
+    "p3-157",
+    "p3-158",
+    "p3-159",
+    "p3-160",
+    "p3-161",
+    "p3-162",
+    "p3-163",
+    "p3-164",
+    "p3-165",
+    "p3-166",
+    "p3-167",
+    "p3-168",
+    "p3-169",
+    "p3-170",
+    "p3-171",
+    "p3-172"
+  ],
+  "sources": [
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -What’s in Blood_.pdf",
+      "sha256": "1b6facad86b8efdc4f060c55e6089a5028c494ebc10c5c96c8ee7f7f8f0e20a5",
+      "articleId": "p3-003-whats-in-blood",
+      "catalogueIds": [
+        "p3-003"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Criminal Rehabilitation_ A Difficult Issue.pdf",
+      "sha256": "a1789ab774f7db9c386877a914f84dd3da3b7c2d4e12483400153896ef358a19",
+      "articleId": "p3-004-criminal-rehabilitation-a-difficult-issue",
+      "catalogueIds": [
+        "p3-004"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Destination Mars.pdf",
+      "sha256": "3ca15bb9f418d488e6a3fcd7ca0a67445e5083b7035075e99ac6a997f2a829ba",
+      "articleId": "p3-005-destination-mars",
+      "catalogueIds": [
+        "p3-005"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Australian Visa Application Process Explained.pdf",
+      "sha256": "a67fccb40770136453fdb513b378c3356abaf439263f14dfbb266d0f3adba182",
+      "articleId": "p3-007-the-australian-visa-application-process-explained",
+      "catalogueIds": [
+        "p3-007"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -TEAM BUILDING.pdf",
+      "sha256": "9ff103b8b0b25928ab212db62d4df7e17dabcdf4dd010451e8b6418dddb4becc",
+      "articleId": "p3-008-team-building",
+      "catalogueIds": [
+        "p3-008"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -PROBLEM SOLVING AND DECISION MAKING.pdf",
+      "sha256": "3ae7c74d2a9a8d2abf04d85e273c871e3eaf7cfbbb7d5301440b1ed6c69d1ec9",
+      "articleId": "p3-009-problem-solving-and-decision-making",
+      "catalogueIds": [
+        "p3-009"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -CLINICAL TRIALS.pdf",
+      "sha256": "16023c1de89674d90c22685195c054346a356fdcf7054a267b9415ffda65a058",
+      "articleId": "p3-014-clinical-trials",
+      "catalogueIds": [
+        "p3-014"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -GENEALOGY.pdf",
+      "sha256": "78a5fc6ccdd4c1ab84af9e4217df2d9d6a6234d862390597f9c87fd58b2871dc",
+      "articleId": "p3-015-genealogy",
+      "catalogueIds": [
+        "p3-015"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -A LIBRARY AT YOUR FINGERTIPS.pdf",
+      "sha256": "b84f9b5f486df4fec6375956121a48e847187f3fef9a368cd316c0f845e8b390",
+      "articleId": "p3-016-a-library-at-your-fingertips",
+      "catalogueIds": [
+        "p3-016"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -PSYCHOMETRICS.pdf",
+      "sha256": "7f07c52a37a529e51ddfc90da3021bb745f0bd3ab3df64f52c044246f6a1eefa",
+      "articleId": "p3-017-psychometrics",
+      "catalogueIds": [
+        "p3-017"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Unexpected Benefits to Human Brain.pdf",
+      "sha256": "076c0dc5d5b575041e10c850f4f6c1221d6917ac3ee844e27c61eefbf0adc5dd",
+      "articleId": "p3-020-unexpected-benefits-to-human-brain",
+      "catalogueIds": [
+        "p3-020"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The future of the World’s Language.pdf",
+      "sha256": "732a30044fdf1ba7dfdea2c9ee2f9cfda4d1c63541fb0a9bfe70b0b6bf46bced",
+      "articleId": "p3-024-the-future-of-the-worlds-language",
+      "catalogueIds": [
+        "p3-024"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Game of Tennis.pdf",
+      "sha256": "d75e850eb3cdce67b6ae24d3de0e1e7aba2e31abd617f7d21661b5337331c70a",
+      "articleId": "p3-025-the-game-of-tennis",
+      "catalogueIds": [
+        "p3-025"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Amateur Naturalists.pdf",
+      "sha256": "53d7fe80fc7d88e595f4fdd8c65dfb0761fad1eede8b1db9ec54b40b0a3ab2de",
+      "articleId": "p3-026-amateur-naturalists",
+      "catalogueIds": [
+        "p3-026"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -What is a dinosaur_.pdf",
+      "sha256": "dde9a845f181798dea2b6cdade34380248c77d2e2a0743818284e34107613497",
+      "articleId": "p3-027-what-is-a-dinosaur",
+      "catalogueIds": [
+        "p3-027"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Fruit Book.pdf",
+      "sha256": "de0a23d30a6fa320ff7af90bb57b8acbcb68a17f71c0d87b18cf6ce2fe68f873",
+      "articleId": "p3-028-the-fruit-book",
+      "catalogueIds": [
+        "p3-028"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Music_ Language We All Speak.pdf",
+      "sha256": "7b302a10963927dab54fadd869cd0cf537884a921ff04a48b5a1ac3c9ee7ce4c",
+      "articleId": "p3-029-music-language-we-all-speak",
+      "catalogueIds": [
+        "p3-029"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Talc Powder.pdf",
+      "sha256": "83915ecb3d3de6300b36587d34b7d377f4cc12932585e855b522ff83833b0730",
+      "articleId": "p3-030-talc-powder",
+      "catalogueIds": [
+        "p3-030"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Communicating Styles and Conflict.pdf",
+      "sha256": "2de85a9440c143de9813c242454baea110487d1b7a220537264c39a953821481",
+      "articleId": "p3-031-communicating-styles-and-conflict",
+      "catalogueIds": [
+        "p3-031"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Columbian Exchange.pdf",
+      "sha256": "afa91205f1b23f85a774d889a58ed4920931e5065eb4ce82128bba48c9b99f83",
+      "articleId": "p3-032-the-columbian-exchange",
+      "catalogueIds": [
+        "p3-032"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Travel Books.pdf",
+      "sha256": "49683a0e30195a63a14750b493fc9c176d2d896c77d622af9829ee310b34b1e0",
+      "articleId": "p3-033-travel-books",
+      "catalogueIds": [
+        "p3-033"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Mechanisms of Linguistic Change.pdf",
+      "sha256": "786a34071b053f308a6d8c4b2fa83a7cee0c3773a37778526b741ec3b5c3add8",
+      "articleId": "p3-034-mechanisms-of-linguistic-change",
+      "catalogueIds": [
+        "p3-034"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Honey bees in trouble.pdf",
+      "sha256": "fd000aa5ef590b8bcf3f7edc6a5c30e94be97cf5f7241f5226799c9773050fae",
+      "articleId": "p3-035-honey-bees-in-trouble",
+      "catalogueIds": [
+        "p3-035"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Internal Market_ Selling the inside.pdf",
+      "sha256": "f3103053391f2183e3d4307b7aca2a142c7d89a7e1d33559531485b8d67d2176",
+      "articleId": "p3-036-internal-market-selling-the-inside",
+      "catalogueIds": [
+        "p3-036"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Living Dunes.pdf",
+      "sha256": "b59d443b24b209fcd7ebb247c96122de906319b9ea5229aabe381c54da827bc3",
+      "articleId": "p3-037-living-dunes",
+      "catalogueIds": [
+        "p3-037"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Accidental Scientists.pdf",
+      "sha256": "363ee3ab563498a69c2964dc1b30b94f99698654cf4f880e24d161cbfec19674",
+      "articleId": "p3-038-accidental-scientists",
+      "catalogueIds": [
+        "p3-038"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Musical Maladies.pdf",
+      "sha256": "ce134078e86860808b35bbaef385379c41c637356a70e81bc4564eb66d9727a8",
+      "articleId": "p3-039-musical-maladies",
+      "catalogueIds": [
+        "p3-039"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -High speed photography.pdf",
+      "sha256": "c39b20c8afbef938ed8b28572268b3cede3967e614deced214465f0ee4f3c408",
+      "articleId": "p3-040-high-speed-photography",
+      "catalogueIds": [
+        "p3-040"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Source of Knowledge.pdf",
+      "sha256": "dc8d9d7bdcc8f84aa5f88bde87b0dafb779bfcd1bc8f685ee7552dfe01dc09cb",
+      "articleId": "p3-041-source-of-knowledge",
+      "catalogueIds": [
+        "p3-041"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -E-training.pdf",
+      "sha256": "c1ac2870404b70d62f577068f90c57538f84eca3e92cb2156dd4ee2a08d3b349",
+      "articleId": "p3-042-e-training",
+      "catalogueIds": [
+        "p3-042"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Significant Role of Mother Tongue in Education.pdf",
+      "sha256": "7cb991d5914a8067e47b39bf97fc5b1a7ccad53b170ee7a620a2accfb0f8b4cb",
+      "articleId": "p3-043-the-significant-role-of-mother-tongue-in-education",
+      "catalogueIds": [
+        "p3-043"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Monkeys and Forests.pdf",
+      "sha256": "4dc697b68dafee0e6e6e0c8de4e6683e3cf773166d44ddb88aa9cdc1bcaba341",
+      "articleId": "p3-044-monkeys-and-forests",
+      "catalogueIds": [
+        "p3-044"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Stealth Forces in weight Loss.pdf",
+      "sha256": "d44f6aa05ebdf7ec7cb76c33f0a391c51e3ca723be5b30a69668b8ff5d597a24",
+      "articleId": "p3-045-stealth-forces-in-weight-loss",
+      "catalogueIds": [
+        "p3-045"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Global Warming in New Zealand.pdf",
+      "sha256": "55e5552e628968633adf3cb0c8d462e9c8473316eb9813391c700b06606028db",
+      "articleId": "p3-046-global-warming-in-new-zealand",
+      "catalogueIds": [
+        "p3-046"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Motivating Drives.pdf",
+      "sha256": "a3d5fdc7723b48066ed9d91f3e24fcf96924abb9a3b97b417d45560ff7f0a71f",
+      "articleId": "p3-047-motivating-drives",
+      "catalogueIds": [
+        "p3-047"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Improving Patient Safety.pdf",
+      "sha256": "8dc1579398e5828a67aa9653ae45113a74decdabf2775564760278de000caf50",
+      "articleId": "p3-048-improving-patient-safety",
+      "catalogueIds": [
+        "p3-048"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Theory or Practice_ —What is the point of research carried out by biz schools_.pdf",
+      "sha256": "51a5169a5173270b9c8bb690bdc50ae35f55af488cf3ed70615a6221049c1038",
+      "articleId": "p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools",
+      "catalogueIds": [
+        "p3-049"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Robert Louis Stevenson.pdf",
+      "sha256": "010ed48eac1adb7c7304379628bc98cec9067aa84dfba1183d02f99ad35a4fc6",
+      "articleId": "p3-050-robert-louis-stevenson",
+      "catalogueIds": [
+        "p3-050"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -What Do Babies Know_.pdf",
+      "sha256": "1e239c4644626d7de53c2ab999f4ddb2bd277df1549c87ab920f022ab49ed77e",
+      "articleId": "p3-051-what-do-babies-know",
+      "catalogueIds": [
+        "p3-051"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -What is Meaning.pdf",
+      "sha256": "7f25756dd8dcaab3d5b8381ff8f9b6c02d7b525fcc91435530668ac442100f41",
+      "articleId": "p3-052-what-is-meaning",
+      "catalogueIds": [
+        "p3-052"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Can Hurricanes be Moderated or Diverted_.pdf",
+      "sha256": "83cbe7e4297e503a9ceea79726620e8eacbe0142cbd55b5fae54a1e93a811864",
+      "articleId": "p3-053-can-hurricanes-be-moderated-or-diverted",
+      "catalogueIds": [
+        "p3-053"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Quantitative Research in Education.pdf",
+      "sha256": "8b1b16eed57761cb74e05e3a42813af81a913cd3443684b8ac51a9cd9fe6e609",
+      "articleId": "p3-054-quantitative-research-in-education",
+      "catalogueIds": [
+        "p3-054"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Company Innovation.pdf",
+      "sha256": "693ecb731f47fc18aaf81dda92529868c36e9a4ba1b5c6a3f0f4c96b097ffb21",
+      "articleId": "p3-055-company-innovation",
+      "catalogueIds": [
+        "p3-055"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Olympic Torch.pdf",
+      "sha256": "3d3e5c095d451968e58ceb31e348e3a83d8262db3fcc311a43ec91a8930e7e3b",
+      "articleId": "p3-056-the-olympic-torch",
+      "catalogueIds": [
+        "p3-056"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Elephant Communication.pdf",
+      "sha256": "a44f9bee012d084bf9780f4cab0f459a5d7be2caf2887bb94955375ccdabc8bf",
+      "articleId": "p3-057-elephant-communication",
+      "catalogueIds": [
+        "p3-057"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Texting the Television.pdf",
+      "sha256": "6ad6a832c468cac4d941ef0422215c36586e709c71c1b503708c7338b85d0b02",
+      "articleId": "p3-058-texting-the-television",
+      "catalogueIds": [
+        "p3-058"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -PREPARING FOR THE THREAT.pdf",
+      "sha256": "93ae61e5d3bc0a83d2a09ed850d0c080147d9921d150b8a3920790bd95025341",
+      "articleId": "p3-059-preparing-for-the-threat",
+      "catalogueIds": [
+        "p3-059"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -CO- EDUCATIONAL VERSUS SINGLE SEX CLASSROOMS.pdf",
+      "sha256": "8cae29968ff23a7dbaa37527f02f532612ca2a3ccb080f48584b28018040624e",
+      "articleId": "p3-060-co-educational-versus-single-sex-classrooms",
+      "catalogueIds": [
+        "p3-060"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Constellation.pdf",
+      "sha256": "37f8ff68c67d765e5a8aea315dd153cebae6cab27771c1e9d0e2126ed7ba145b",
+      "articleId": "p3-061-constellation",
+      "catalogueIds": [
+        "p3-061"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The natural world.pdf",
+      "sha256": "dccee085441b20153825b270427bf0153de3321cb6e971bf9d20c16ea59fc16c",
+      "articleId": "p3-062-the-natural-world",
+      "catalogueIds": [
+        "p3-062"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -HAZARD MANAGEMENT.pdf",
+      "sha256": "da4677ec21e286e2832165dca961d0698da0176c80cbac646a318714a6756fc8",
+      "articleId": "p3-063-hazard-management",
+      "catalogueIds": [
+        "p3-063"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Low-Cost Lamps Light Rural India.pdf",
+      "sha256": "a634916e1ff24947ff4ebd76df899c2a8c07003be4827692179cbe4e7fb5041d",
+      "articleId": "p3-064-low-cost-lamps-light-rural-india",
+      "catalogueIds": [
+        "p3-064"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Rise of the Robots.pdf",
+      "sha256": "ea0cfd96c0ce9a4c15dc3994fe067ca5134648c209d79da3ddd51b9511ea55f5",
+      "articleId": "p3-065-rise-of-the-robots",
+      "catalogueIds": [
+        "p3-065"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Sunday Is a Fun Day for Modern Brits.pdf",
+      "sha256": "8255660244b0428a9c23d97f08105c3ae57706ae59704a162ba162a19c261112",
+      "articleId": "p3-066-sunday-is-a-fun-day-for-modern-brits",
+      "catalogueIds": [
+        "p3-066"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Teens Try to Change the World, One Purchase at a Time.pdf",
+      "sha256": "c3aee1873124bf755426931c544096579efb91177656e16bb1386307bbdb1b55",
+      "articleId": "p3-067-teens-try-to-change-the-world-one-purchase-at-a-time",
+      "catalogueIds": [
+        "p3-067"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Care in the Community.pdf",
+      "sha256": "d97929d8eb15a03cd40bd74fb3c8baf60c793954228f411d03352e09222c5f1e",
+      "articleId": "p3-068-care-in-the-community",
+      "catalogueIds": [
+        "p3-068"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -SPEECH DYSFLUENCY AND POPULAR FILLERS.pdf",
+      "sha256": "2a1649cec330d3edd9a48ca2fb5f1b1fe1c5734cf965edcc88fcc3854f74ab99",
+      "articleId": "p3-069-speech-dysfluency-and-popular-fillers",
+      "catalogueIds": [
+        "p3-069"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Beginnings of Art Therapy.pdf",
+      "sha256": "d7ed1d19061299f9173577385f2e3b6657f54736b41e7f24dcc85fef8b70b955",
+      "articleId": "p3-070-the-beginnings-of-art-therapy",
+      "catalogueIds": [
+        "p3-070"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Jack the Ripper_ A Bungled Investigation_.pdf",
+      "sha256": "162e30981181a39fbfa99dc5736a78d352a9bec91a1df16fa96345e86469ba0e",
+      "articleId": "p3-071-jack-the-ripper-a-bungled-investigation",
+      "catalogueIds": [
+        "p3-071"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Driverless cars.pdf",
+      "sha256": "aa3f6787d2d209d12f867c959fc67771b7cb5a3731abbcf312f42d712a15eb33",
+      "articleId": "p3-072-driverless-cars",
+      "catalogueIds": [
+        "p3-072"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -ALL YOU NEED TO KNOW ABOUT SNOW.pdf",
+      "sha256": "1303dab387ec71ebdd33ca1c3ba75624d8cf981cd73ad4e9883dd9cd6adbe377",
+      "articleId": "p3-073-all-you-need-to-know-about-snow",
+      "catalogueIds": [
+        "p3-073"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -TEAM-BASED LEARNING.pdf",
+      "sha256": "471921e98e8a0e3b48be55cff502b7e0a4ae28a08d84cd4b0d9b29426560a0ff",
+      "articleId": "p3-075-team-based-learning",
+      "catalogueIds": [
+        "p3-075"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The hemp revival.pdf",
+      "sha256": "adee1558dd931c6a5a1188cf14a4b1fd886b79fd649bb6c370ffee35f44b08c1",
+      "articleId": "p3-076-the-hemp-revival",
+      "catalogueIds": [
+        "p3-076"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Kids and Sport.pdf",
+      "sha256": "b01f7a1a40e5d81cf2f464de6bbb5cc6c80c26cda7ee2a9d0336c5a66a42b7f9",
+      "articleId": "p3-077-kids-and-sport",
+      "catalogueIds": [
+        "p3-077"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Are these two reporters on the same planet_.pdf",
+      "sha256": "efbdd100ade16682f4ea1d5cedfc3219f0d9f6da91fddfd5713eb04e10662bd5",
+      "articleId": "p3-078-are-these-two-reporters-on-the-same-planet",
+      "catalogueIds": [
+        "p3-078"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Mystery of the mummies.pdf",
+      "sha256": "e921cca6679052a84b984bd4df20f12ef9faddf8a39667c8c9a6dd2edb051ee8",
+      "articleId": "p3-079-mystery-of-the-mummies",
+      "catalogueIds": [
+        "p3-079"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -LONG-TERM FORECAST_ HOT AND DRY.pdf",
+      "sha256": "a4efeaddc413f5b564c51698a29b6f4a0c5113169f4a87a07dbb6b3c8d793f7c",
+      "articleId": "p3-080-long-term-forecast-hot-and-dry",
+      "catalogueIds": [
+        "p3-080"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Migrants and Refugees_ Racial Discrimination and Xenophobia.pdf",
+      "sha256": "3c01dae04ed371dc0bd66667cb8a2240a9183fc017ab7772dc3df459db424b8e",
+      "articleId": "p3-081-migrants-and-refugees-racial-discrimination-and-xenophobia",
+      "catalogueIds": [
+        "p3-081"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Population growth sentencing millions to hydrological poverty.pdf",
+      "sha256": "80868bf0221aa08482864c3fd12c8824c998eedd40dca7f46f1d3a3acbe38dae",
+      "articleId": "p3-082-population-growth-sentencing-millions-to-hydrological-poverty",
+      "catalogueIds": [
+        "p3-082"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -SLEEP.pdf",
+      "sha256": "79e0a6b9e3d599da93fd75d5b6f9b463481a6fb8a414ff61d33961801bbacf27",
+      "articleId": "p3-083-sleep",
+      "catalogueIds": [
+        "p3-083"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -LATCHKEY CHILDREN.pdf",
+      "sha256": "7a02f37c21cfc685b89c81896f865b922fd3de1dfa29440538feb2f86ae7fb0c",
+      "articleId": "p3-084-latchkey-children",
+      "catalogueIds": [
+        "p3-084"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Bismarck_ A Master of Political and Diplomatic Juggling_.pdf",
+      "sha256": "849c926721e584e1e08f6dd1ac851dbf9867d9ce97a708b9d6ac14c11d6b88ac",
+      "articleId": "p3-085-bismarck-a-master-of-political-and-diplomatic-juggling",
+      "catalogueIds": [
+        "p3-085"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Making a sound Investment Decision.pdf",
+      "sha256": "69b539143aad748d0a6aeb9a4d2bc57d9b5eb4463bf11238f6fcb3e17af930fa",
+      "articleId": "p3-086-making-a-sound-investment-decision",
+      "catalogueIds": [
+        "p3-086"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Austria_ The burgeoning budget holiday attraction.pdf",
+      "sha256": "e1b770501244cac11017204b1a391661c107b4ca3c48869d9c0a3fbbc27a5396",
+      "articleId": "p3-087-austria-the-burgeoning-budget-holiday-attraction",
+      "catalogueIds": [
+        "p3-087"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Continents Collide!.pdf",
+      "sha256": "869cbef786786bc1d081c6781733dcd80bee5348d7a05c17478a706df3ea03e6",
+      "articleId": "p3-088-continents-collide",
+      "catalogueIds": [
+        "p3-088"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Organisational Conflict and Change.pdf",
+      "sha256": "9d86cf7cdfab7f8987a7f8c85163a1cbd90442653ff7b57d39cb6c906ccc6dd2",
+      "articleId": "p3-089-organisational-conflict-and-change",
+      "catalogueIds": [
+        "p3-089"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Mother of All Languages.pdf",
+      "sha256": "5c6807ddf361ff21972c19ed7da6434151173dd6132e192feb3ebe3caa2df826",
+      "articleId": "p3-090-the-mother-of-all-languages",
+      "catalogueIds": [
+        "p3-090"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Waterfalls.pdf",
+      "sha256": "e6975fab0de57cebf22bb1f81501106e7f6ddbeba8253f09f85742a64a968c22",
+      "articleId": "p3-091-waterfalls",
+      "catalogueIds": [
+        "p3-091"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Year Without a Summer.pdf",
+      "sha256": "facee5ef0e1dadb49f3805ab8387afaf6a165324cc475a85dae0a33b63aa445a",
+      "articleId": "p3-092-the-year-without-a-summer",
+      "catalogueIds": [
+        "p3-092"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Cubism.pdf",
+      "sha256": "5d127a1a5cb6eba56f3f0c5c8b4088d5c5779044f60589b5dd564b3c003d9208",
+      "articleId": "p3-093-cubism",
+      "catalogueIds": [
+        "p3-093"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The International Space Station.pdf",
+      "sha256": "42f44e4c655ac5e602b84ef5c60c5f5ff58006efb667b9581ffcb7d4ebb3ec2c",
+      "articleId": "p3-094-the-international-space-station",
+      "catalogueIds": [
+        "p3-094"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Biggest Impact.pdf",
+      "sha256": "77e500989ba599d65bfff70d304da2983d30f3bccf7bd452dbee225eaa511544",
+      "articleId": "p3-095-the-biggest-impact",
+      "catalogueIds": [
+        "p3-095"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Immunisation Controversy.pdf",
+      "sha256": "935000fc9316517891695b6d0a79130846dc132b93eb9424dd09dccd8b634b64",
+      "articleId": "p3-096-the-immunisation-controversy",
+      "catalogueIds": [
+        "p3-096"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Are You Being Served_.pdf",
+      "sha256": "64be951c7d4cd37e464d721fc81f9cb1958cf1e56e1c3947e6aaf1384917b6f4",
+      "articleId": "p3-097-are-you-being-served",
+      "catalogueIds": [
+        "p3-097"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Are You Experienced_.pdf",
+      "sha256": "e64968fce62537cd0fe4cca49920461ea76ec83fb823368791599acf696cd69a",
+      "articleId": "p3-098-are-you-experienced",
+      "catalogueIds": [
+        "p3-098"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Can You Charm Your Way into Oxbridge_.pdf",
+      "sha256": "754f4492a88b398f1974588e2363064e6a32f2cf03ba326b359e4861c94ee3c6",
+      "articleId": "p3-099-can-you-charm-your-way-into-oxbridge",
+      "catalogueIds": [
+        "p3-099"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Do You Look Your Age_ .pdf",
+      "sha256": "0786f8293172edeb6328c656a6910331e050148b4e948295de2c0a78f030d53e",
+      "articleId": "p3-100-do-you-look-your-age",
+      "catalogueIds": [
+        "p3-100"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Fame Machine.pdf",
+      "sha256": "07c1073bc7790f24865ce00f2ff0d3cc6dd1305192f2632c1973f1be65dc00ca",
+      "articleId": "p3-101-the-fame-machine",
+      "catalogueIds": [
+        "p3-101"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Learning about the Past.pdf",
+      "sha256": "87e2c5caf24d59a443ccb6b7a5e38cad0676be132b81386e8dfd087584298834",
+      "articleId": "p3-102-learning-about-the-past",
+      "catalogueIds": [
+        "p3-102"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Black Gold.pdf",
+      "sha256": "8e4434879ecaaa38e3d0abcd18e2e009777a559aded2cb2872f59d4ede1e0d29",
+      "articleId": "p3-103-black-gold",
+      "catalogueIds": [
+        "p3-103"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Revolutionary Bridges of Robert Maillart.pdf",
+      "sha256": "7cd10f9ad6b259461a4c19caa84363008e2e10ee35ef70d7db1b818b07f1d625",
+      "articleId": "p3-104-the-revolutionary-bridges-of-robert-maillart",
+      "catalogueIds": [
+        "p3-104"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -‘talented’ or ‘gifted’_.pdf",
+      "sha256": "a085feb77482286f6a014420e1ed3362d2579f4b5e963cff7629a459e469c651",
+      "articleId": "p3-105-talented-or-gifted",
+      "catalogueIds": [
+        "p3-105"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -SAVING LANGUAGE.pdf",
+      "sha256": "02e644dcaced44e5b5b4a239bd0b17e2a2ec13f982f8dbac5ef5cfd3b4a24198",
+      "articleId": "p3-106-saving-language",
+      "catalogueIds": [
+        "p3-106"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Striking the right note.pdf",
+      "sha256": "532c8224520595f49fb4b3b20b87f598475e86bdf78867bee853ef35a2b05eca",
+      "articleId": "p3-107-striking-the-right-note",
+      "catalogueIds": [
+        "p3-107"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -THE ART OF HEALING.pdf",
+      "sha256": "84a974fc31e31650679c9337865fdc52926f01b037307cf613ab2da3459ed656",
+      "articleId": "p3-108-the-art-of-healing",
+      "catalogueIds": [
+        "p3-108"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Keep taking the tablets.pdf",
+      "sha256": "88322bc8ac153c05fc71477794a91f7db6483e4493d4cda294dcd7bcc802da7b",
+      "articleId": "p3-109-keep-taking-the-tablets",
+      "catalogueIds": [
+        "p3-109"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Quiet roads ahead.pdf",
+      "sha256": "fab7fbd1c3b914e5a3ff3ced5bd2eeb0abf0ecfd33f0f939f5539e37210dd15c",
+      "articleId": "p3-110-quiet-roads-ahead",
+      "catalogueIds": [
+        "p3-110"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Space_ The Final Archaeological Frontier.pdf",
+      "sha256": "b0655497df0c365b8ff317ba67cbc3eb5bd4db80c37ad793312374c611ea6945",
+      "articleId": "p3-111-space-the-final-archaeological-frontier",
+      "catalogueIds": [
+        "p3-111"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Painters of time.pdf",
+      "sha256": "815d6203ca10c9e1a71454ff71ec77c62666b916cf4a24f53644841c63041182",
+      "articleId": "p3-112-painters-of-time",
+      "catalogueIds": [
+        "p3-112"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The accidental rainforest.pdf",
+      "sha256": "9239050f5fdc627e3bd88c81be7ae46c59451f2bc4f8841c9725bb83ae5888b3",
+      "articleId": "p3-113-the-accidental-rainforest",
+      "catalogueIds": [
+        "p3-113"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Running on empty.pdf",
+      "sha256": "fb560f54befad7a188d29495c8d629423104bcdfd134e7672a4b78952e2d3281",
+      "articleId": "p3-114-running-on-empty",
+      "catalogueIds": [
+        "p3-114"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The creation of lasting memories.pdf",
+      "sha256": "8eeab43a95a45f940a2df7c3a5a39124ea54ec2b4205c2efa96ec06d799152de",
+      "articleId": "p3-115-the-creation-of-lasting-memories",
+      "catalogueIds": [
+        "p3-115"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Recovering a damaged reputation.pdf",
+      "sha256": "dd092e0df1388ee60664b0a9e23bc2563996115e64c746ea0164b6c085687727",
+      "articleId": "p3-117-recovering-a-damaged-reputation",
+      "catalogueIds": [
+        "p3-117"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Video game research.pdf",
+      "sha256": "98d101641156e6fb1f508c7ae41665c8e851c2fa8fd5f90d5ed82af31b64cf1c",
+      "articleId": "p3-118-video-game-research",
+      "catalogueIds": [
+        "p3-118"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Language diversity.pdf",
+      "sha256": "81758dde13de7b65b4d4e0f51a666726e3648dc88c5752b7879a37c686aa5535",
+      "articleId": "p3-120-language-diversity",
+      "catalogueIds": [
+        "p3-120"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Future of fish.pdf",
+      "sha256": "28762ec2d14c4154b4571ada78232bf9fc0ba2fc6b4d21d28d81929c81385776",
+      "articleId": "p3-121-the-future-of-fish",
+      "catalogueIds": [
+        "p3-121"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Pronunciation and physiognomy.pdf",
+      "sha256": "1cd8af7bd56de5759f71513cc251b4a9b023fb14d67ee0d96f984de055daff65",
+      "articleId": "p3-122-pronunciation-and-physiognomy",
+      "catalogueIds": [
+        "p3-122"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -FUELING THE FUTURE.pdf",
+      "sha256": "1bf341692f6661bd985f6dd4b8ed4fdfdce946dfdc78531efb43cef9a029337f",
+      "articleId": "p3-123-fueling-the-future",
+      "catalogueIds": [
+        "p3-123"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -GRAVITY.pdf",
+      "sha256": "a52b0f301934e37a53a13e42f574a1e283aacbc7f49598a0233b349b5194b810",
+      "articleId": "p3-124-gravity",
+      "catalogueIds": [
+        "p3-124"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Memory Decoding.pdf",
+      "sha256": "9b39cf79d9803edbac0b298a839cf1028b68527dd35318c563761764ec267f15",
+      "articleId": "p3-125-memory-decoding",
+      "catalogueIds": [
+        "p3-125"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Is Graffiti Art or Crime.pdf",
+      "sha256": "487dc7382234e01ea6127d7460c2e90744fcd28eb91e04763d5983b24eaf9820",
+      "articleId": "p3-126-is-graffiti-art-or-crime",
+      "catalogueIds": [
+        "p3-126"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -THE MPEMBA EFFECT.pdf",
+      "sha256": "dc33671e444b9c907b742006a8feaab486d98e1567fb81cebda5774bc7465282",
+      "articleId": "p3-127-the-mpemba-effect",
+      "catalogueIds": [
+        "p3-127"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Human remain in Green Sahara.pdf",
+      "sha256": "44a83226cdf65f244e6e1613a10bd50a119a97d72297dddf7c608177510125c3",
+      "articleId": "p3-128-human-remain-in-green-sahara",
+      "catalogueIds": [
+        "p3-128"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Bite That Heals.pdf",
+      "sha256": "f8ee9f7e95157b351daa11ff7c7fb7e7e14948517f8d3d85d9ca8180ad96d4d9",
+      "articleId": "p3-129-the-bite-that-heat",
+      "catalogueIds": [
+        "p3-129"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Detection of a meteorite Lake.pdf",
+      "sha256": "9083530a4b3c8e11bc4df8ad91a20451c299a74539abb6bb853cb49d6135352a",
+      "articleId": "p3-130-detection-of-a-meteorite-lake",
+      "catalogueIds": [
+        "p3-130"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Bondi Beach.pdf",
+      "sha256": "39dfac766df265bba5eca0af1079d6282132cfc7e92b57a018d64013551b1c64",
+      "articleId": "p3-131-bondi-beach",
+      "catalogueIds": [
+        "p3-131"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -How to handle the Sun.pdf",
+      "sha256": "ee32a042fb0ae9cb9219a1a15b5142207776ac3f07c48ec8b7b88a2782aed698",
+      "articleId": "p3-132-how-to-handle-the-sun",
+      "catalogueIds": [
+        "p3-132"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Carbon Capture and Storage.pdf",
+      "sha256": "6aa123b060fb6e881c5592624bbfaaff58536a85ca9755ab2b357c85d96b384d",
+      "articleId": "p3-133-carbon-capture-and-storage",
+      "catalogueIds": [
+        "p3-133"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Global Warming.pdf",
+      "sha256": "eabefd7c7ef15a67bb6e766a10edb30462c74d68bf74ee6aaec9181ba69612fc",
+      "articleId": "p3-134-global-warming",
+      "catalogueIds": [
+        "p3-134"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Extinct_ the Giant Deer.pdf",
+      "sha256": "6afd0458463f3bac2acab43e509d4e2be28faaf1eeb8c03c4b7d91657f598268",
+      "articleId": "p3-135-extinct-the-giant-deer",
+      "catalogueIds": [
+        "p3-135"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Nagymaros Dam.pdf",
+      "sha256": "1f7d517dcb8ddd0e52465d2e6e438ae527f0c4e361807d8da04c7ed34bcb00fc",
+      "articleId": "p3-136-the-nagymaros-dam",
+      "catalogueIds": [
+        "p3-136"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Discovery of Uranus.pdf",
+      "sha256": "900be42c916282fe84ce0c627a814675b454c30933394d6bca5635874613b49a",
+      "articleId": "p3-137-the-discovery-of-uranus",
+      "catalogueIds": [
+        "p3-137"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Beyond the blue line.pdf",
+      "sha256": "440b3e89378a20ad5eba73014afa244efb91119c565537dff8538c8940027ba5",
+      "articleId": "p3-138-beyond-the-blue-line",
+      "catalogueIds": [
+        "p3-138"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Dinosaurs Footprints and Extinction.pdf",
+      "sha256": "5ae9ab53e5b43242510282ca45ded338013d2415f89f2ad024675b7abdebb606",
+      "articleId": "p3-139-the-dinosaurs-footprints-and-extinction",
+      "catalogueIds": [
+        "p3-139"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Digital diet.pdf",
+      "sha256": "6c0630f7301434bec60c685b5b77f4f61c4252dd93be37fb80debf414e8f4426",
+      "articleId": "p3-140-digital-diet",
+      "catalogueIds": [
+        "p3-140"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The history of the guitar.pdf",
+      "sha256": "c7a4d01c16178c50d486712f17dfa6d7f86cd251653da488ea15c81b8323f2c0",
+      "articleId": "p3-141-the-history-of-the-guitar",
+      "catalogueIds": [
+        "p3-141"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The secret of the Yawn.pdf",
+      "sha256": "0bb427990a2bf5ed9e8466a4e815b52e113c364d92960f780e1831f07dd8e3f4",
+      "articleId": "p3-142-the-secret-of-the-yawn",
+      "catalogueIds": [
+        "p3-142"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Water Filter.pdf",
+      "sha256": "13a32548c8bc9b47dfe0b9391f7c65324a95b699e8624852ae76ca0023e08f8c",
+      "articleId": "p3-143-water-filter",
+      "catalogueIds": [
+        "p3-143"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Movie of Metropolis.pdf",
+      "sha256": "620bc06aa67615fee7ac66b8bb72934d044e30b041681964d14feeace1a45923",
+      "articleId": "p3-144-movie-of-metropolis",
+      "catalogueIds": [
+        "p3-144"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Pollution! In the Bay.pdf",
+      "sha256": "e60f8b5e80aaf4319328d2f3f1aeed5942fb9c1446665ccba4ba05a677250cd2",
+      "articleId": "p3-145-pollution-in-the-bay",
+      "catalogueIds": [
+        "p3-145"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Finding our way.pdf",
+      "sha256": "a1b241daef830ea80d860067810376589b055f4bf41e3d363aab89087848e832",
+      "articleId": "p3-146-finding-our-way",
+      "catalogueIds": [
+        "p3-146"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Rainwater Harvesting.pdf",
+      "sha256": "49e2599e5b273d5f811819e3ebac9855ca0d1d7e66ba10952dd0d45cf581b739",
+      "articleId": "p3-147-rainwater-harvesting",
+      "catalogueIds": [
+        "p3-147"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Compliance Or Noncompliance For Children.pdf",
+      "sha256": "ac607f599a350889a069c560b26750e55132dfa35a0f45c8928da65abfd21b07",
+      "articleId": "p3-148-compliance-or-noncompliance-for-children",
+      "catalogueIds": [
+        "p3-148"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Photovoltaics on the rooftop.pdf",
+      "sha256": "bced7691625d24f78352706aa8973c26e4db126c204c717539f2d24e05a31f48",
+      "articleId": "p3-149-photovoltaics-on-the-rooftop",
+      "catalogueIds": [
+        "p3-149"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Persuaders.pdf",
+      "sha256": "2890352d52e32ae652308563b62e8deb9cb5352b668049d8524148741dffa862",
+      "articleId": "p3-150-the-persuaders",
+      "catalogueIds": [
+        "p3-150"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Origin of Species & Continent Formation.pdf",
+      "sha256": "54ac9757fe7091b2c4181a8404697d2171bbac9083b4adffa274ba1d53e4a7ce",
+      "articleId": "p3-151-origin-of-species-continent-formation",
+      "catalogueIds": [
+        "p3-151"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Roller coaster.pdf",
+      "sha256": "5f7159dd5ae440b9e204980a3f562fd9632d81ae08c7cb3943e051b9a906d784",
+      "articleId": "p3-152-roller-coaster",
+      "catalogueIds": [
+        "p3-152"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Inspired by Mimicking Mother Nature.pdf",
+      "sha256": "62aaea612a7f8c70d02514b899a20b7ae45f89de2ba6268b64315d977dbbbb4e",
+      "articleId": "p3-153-inspired-by-mimicking-mother-nature",
+      "catalogueIds": [
+        "p3-153"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Memory and Age.pdf",
+      "sha256": "25dd50821617d4796ecc2d28da4bf9c14d379d919110e39b561e158fc119bf89",
+      "articleId": "p3-154-memory-and-age",
+      "catalogueIds": [
+        "p3-154"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Soviet’s New Working Week.pdf",
+      "sha256": "44ba6e0d1a91d2fdd9ea7cc29a22ff82808539abd21afa031a02ccf7d2425f93",
+      "articleId": "p3-155-soviets-new-working-week",
+      "catalogueIds": [
+        "p3-155"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Art in Iron and Steel.pdf",
+      "sha256": "996ce4133bd7de529d56770b3ee9de027e642fee4969d756cf712fe09cd36227",
+      "articleId": "p3-156-art-in-iron-and-steel",
+      "catalogueIds": [
+        "p3-156"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Mystery in Easter Island.pdf",
+      "sha256": "ddbfc21e1dd533458f51715ae23a97ad977e82aab0c9c071709e0d42d9fc44e4",
+      "articleId": "p3-157-mystery-in-easter-island",
+      "catalogueIds": [
+        "p3-157"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Save Endangered Language.pdf",
+      "sha256": "b0b058b5534abbe923cd8d48b04cda6332af2eec2ac6c5c0343062a82cc58259",
+      "articleId": "p3-158-save-endangered-language",
+      "catalogueIds": [
+        "p3-158"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Designed to Last.pdf",
+      "sha256": "f441073013430a0c1763745fa631bb31c9aa2f36cb35005036c1015d75090748",
+      "articleId": "p3-159-designed-to-last",
+      "catalogueIds": [
+        "p3-159"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Book review on Musicophilia.pdf",
+      "sha256": "7d6ddd10febd38ac5129aa403970392ede883aaaacee4e40e84b401a10255219",
+      "articleId": "p3-160-book-review-on-musicophilia",
+      "catalogueIds": [
+        "p3-160"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -What Are Dreams_.pdf",
+      "sha256": "a4c69c56595d821765aebb0b8c1e0fc09722ce62d848c54296a8f5801079241c",
+      "articleId": "p3-161-what-are-dreams",
+      "catalogueIds": [
+        "p3-161"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Water Treatment 2_ Reed Bed.pdf",
+      "sha256": "b1594ecf18eab435af62f386b2043ae00eddecefd0a95248a2fc2cca6a552775",
+      "articleId": "p3-162-water-treatment-2-reed-bed",
+      "catalogueIds": [
+        "p3-162"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Tele-working.pdf",
+      "sha256": "e18de11e5b7cfdb1849465be0b5f2e851639dc45133fb9ff2dd46e891dd5e0b5",
+      "articleId": "p3-163-tele-working",
+      "catalogueIds": [
+        "p3-163"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Impact of Environment to Children.pdf",
+      "sha256": "ec741af9442e1472b17de74d6e5438ff4b02879a71d6c538a738605978120bea",
+      "articleId": "p3-164-the-impact-of-environment-to-children",
+      "catalogueIds": [
+        "p3-164"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The return of monkey life.pdf",
+      "sha256": "dc449d5e1c6439ca51910f819c13ba5ba176b29f42a63de206722072a567906f",
+      "articleId": "p3-165-the-return-of-monkey-life",
+      "catalogueIds": [
+        "p3-165"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Alfred Nobel_ The man behind the Nobel Prize.pdf",
+      "sha256": "d8650063de5be75eb5fd9906f44c04fc7195e9eaca5ffb752c4702ef9ec2806e",
+      "articleId": "p3-166-alfred-nobel-the-man-behind-the-nobel-prize",
+      "catalogueIds": [
+        "p3-166"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The Flavour Industry.pdf",
+      "sha256": "9bb2f5f977cfb90aedd0b918f882c1defe99cb9dcb9bf8ca879258e67262c46d",
+      "articleId": "p3-167-the-flavour-industry",
+      "catalogueIds": [
+        "p3-167"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Growing up in New Zealand.pdf",
+      "sha256": "340942faaca48d7205a4cde7c345f0055b212028d8ea75e316ca3b7f322e70d4",
+      "articleId": "p3-168-growing-up-in-new-zealand",
+      "catalogueIds": [
+        "p3-168"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The fluoridation controversy.pdf",
+      "sha256": "aed42714dd68f73285d180951147643c29d85d4f50ace4c471a1e185b8b664d6",
+      "articleId": "p3-169-the-fluoridation-controversy",
+      "catalogueIds": [
+        "p3-169"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Mind Music.pdf",
+      "sha256": "8ce36280dafa7728abad2c1a9e3d73cc5bdc33d058201bd95c7b3bf28ec59c97",
+      "articleId": "p3-170-mind-music",
+      "catalogueIds": [
+        "p3-170"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -The importance of law.pdf",
+      "sha256": "05fa89336c046f33dc2d7f58eb34c5cb756baf37327dafeef273079c518b0282",
+      "articleId": "p3-171-the-importance-of-law",
+      "catalogueIds": [
+        "p3-171"
+      ],
+      "status": "parsed"
+    },
+    {
+      "filename": "Question Analysis Website Free Resource - Passage 3 -Why Do We Touch Strangers So Much_ A History Of The Handshake Offers Clues.pdf",
+      "sha256": "92f1b2a405882d538f9eb0f87e5a626e5ca28c8b0a4be93e14a509f190831a50",
+      "articleId": "p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues",
+      "catalogueIds": [
+        "p3-172"
+      ],
+      "status": "parsed"
+    }
+  ],
+  "bundledSourceDuplicates": []
+}

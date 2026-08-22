@@ -1,0 +1,669 @@
+{
+  "id": "p3-096-the-immunisation-controversy",
+  "catalogueId": "p3-096",
+  "catalogueIds": [
+    "p3-096"
+  ],
+  "passage": 3,
+  "title": "The Immunisation Controversy",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "vi",
+    "viii",
+    "i",
+    "ix",
+    "x",
+    "iv",
+    "iii",
+    "A",
+    "C",
+    "D",
+    "C",
+    "A",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "vi — Past successes",
+      "answerKey": "vi — Past successes",
+      "type": "Matching Headings",
+      "prompt": "Questions 27–33",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 27 — Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一個重點是："
+            },
+            {
+              "kind": "quote",
+              "text": "“vaccination, with such a long and distinguished track record”"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文列出具體成功例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smallpox … was eradicated … via immunisation programmes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "天花曾造成大量人類死亡，但透過免疫計劃已被徹底消滅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後又提到 polio、rubella、whooping cough、measles 等疾病，說它們 “are now, virtually, things of the past”。這段不是在討論疫苗爭議本身，也不是在分析 autism，而是先建立 vaccination 的歷史功績：它曾經大幅減少兒童死亡、延長壽命、消除或控制多種嚴重疾病。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以最能概括全段的是 vi Past successes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 ii Increasing outbreaks of disease。Paragraph B 確實提到很多疾病名稱，但它說的是這些疾病過去被疫苗控制，方向是成功，不是爆發增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 28 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一、二句先說，因為昔日大流行病已經離開人類記憶，一些人開始覺得vaccination 不再必要，甚至覺得副作用風險大於好處。真正控制 heading 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“many genetic disorders related to brain impairment emerge at around two years of age — that is, the same period in which babies receive vaccinations.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多和腦部 impairment 有關的 genetic disorders 會在約兩歲左右出現，而這正好也是嬰兒接種疫苗的時期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的邏輯是：兩件事在時間上相近，父母容易把後出現的 autism symptoms 和之前的vaccination 連在一起。原文最後也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“leading distraught parents to link one event to the other.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這令痛苦的父母把一件事和另一件事連起來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這段的主旨是「不幸的時間重疊造成誤會」，對應 viii An unfortunate coincidence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "v Autism on the rise 是中伏 heading。Paragraph C 提到 autism symptoms，但主旨不是 autism真的上升，而是症狀出現時間和疫苗時間重疊，造成錯誤歸因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 — Paragraph D"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一個詞組很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“This misattribution is compounded by the Internet”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種錯誤歸因又被互聯網進一步加劇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後原文說 Internet 上有 anti-vaccination lobby groups and websites，而且充滿："
+            },
+            {
+              "kind": "quote",
+              "text": "“unsubstantiated claims, fraudulent research, anecdotal evidence”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "未經證實的聲稱、欺詐性研究、個人軼事證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不只是說這些 evidence 有問題，更重要的是：Internet 令這些 claims 容易被傳播，authority被削弱，statistics 被忽略，hard science 被排除。最後一句也說，面對這種 propaganda，很多想保護孩子的父母很難不受影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以最能概括整段的是 i Easy publicity：anti-vaccination message 透過網絡和 propaganda 很容易取得曝光和影響力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "x Some dubious evidence 很有吸引力，因為段中真的有 fraudulent research 和 anecdotal evidence。不過這些是段內材料；整段更大的功能是說 Internet 如何放大錯誤歸因，讓anti-vaccination 觀點更容易宣傳出去。真正聚焦於一項有問題研究證據的是 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 30 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 開頭先明確反駁 anti-vaccinationists："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is no credible evidence whatsoever to support the anti-vaccinationists’ claims.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完全沒有可靠證據支持 anti-vaccinationists 的聲稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 heading 要看整段主軸。這段中間提供了一個最核心的 explanation："
+            },
+            {
+              "kind": "quote",
+              "text": "“The so-called increase in autism … merely results from more accurate diagnoses.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所謂 autism 增加，只是因為診斷變得更準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，作者並不是承認 vaccines 造成 autism，也不是承認 autism 因疫苗而上升。作者給出一個簡單解釋：以前被標籤為 “retarded” 或 “slow” 的孩子，現在更準確地被識別為 autism spectrum 中不同程度的個案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ix A simple explanation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 v Autism on the rise。原文有 “increase in autism”，但前面有 “so-called”，後面有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“merely results from more accurate diagnoses”。作者重點是解釋這個表面上升，並非支持autism 真正因疫苗增加。 Question 31 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 第一個主題句說：“The MMR controversy is a sad case.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "MMR 爭議是一個令人難過的案例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段重點是 1998 年那篇 high-profile paper。它聲稱 MMR vaccine 和 autism 有關，但後文指出多個問題："
+            },
+            {
+              "kind": "quote",
+              "text": "“the author was receiving funds from various groups engaged in a lawsuit against vaccine manufacturers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者收取了正在控告疫苗製造商的團體資金。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“the study was both ethically and methodologically faulty.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項研究在倫理和方法上都有問題。"
+            },
+            {
+              "kind": "label",
+              "text": "然後還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Data had been manipulated, and results misreported.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "數據被操控，結果被錯誤報告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這段最合適的 heading 是 x Some dubious evidence。它集中展示一項有問題、後來被撤回結論的研究如何造成巨大影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii Increasing outbreaks of disease 是真實中伏位，因為段末確實提到 North Dublin 的 measles outbreak。但 outbreak 是這篇 faulty paper 和 vaccination rates 下跌之後的後果；全段核心仍是那篇 dubious 1998 paper。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 32 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 開頭提出 anti-vaccinationists 的 key argument："
+            },
+            {
+              "kind": "quote",
+              "text": "“they have the right to choose their medication.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有權選擇自己的 medication。"
+            },
+            {
+              "kind": "label",
+              "text": "但作者馬上轉到公共衛生邏輯："
+            },
+            {
+              "kind": "quote",
+              "text": "“the success of immunisation programmes depends on a sufficiently high proportion of the population being immune”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "免疫計劃的成功取決於人口中有足夠高比例的人具有免疫力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 herd immunity 的概念：如果足夠多人免疫，疾病缺少 carriers，便難以傳播。相反，如果有足夠多 susceptible individuals，疾病便可以形成 transmission chain，所有人的安全都會受威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這段的核心是：vaccination 不是完全私人選擇；公共安全依賴整體群體參與。只要有太多漏洞，整個保護網都會受影響。因此 heading iv All or nothing 最貼切。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 iii Some real reasons。Paragraph G 有一個 anti-vaccinationists 的理由：freedom of choice。但整段真正要說明的是免疫計劃需要整體人口達到足夠免疫比例，這比單純列出理由更重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 33 — Paragraph H"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一個句子已經直接提示段落功能："
+            },
+            {
+              "kind": "quote",
+              "text": "“But there are other agendas at play.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但背後還有其他 agenda 在運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不再只處理家長的恐懼或網上 misinformation，而是揭示反疫苗運動背後的利益、姿態和宣傳動機。原文提到 anti-vaccinationists 可以把自己包裝成 moral crusaders，並指責支持immunisation 的人收取 big pharmaceutical companies 的利益。然後又列出 talk show hosts、women’s magazines、paid experts、lawyers、media celebrities，說他們都可從製造爭議中得益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後還提到 alternative medicine practitioners 和 snake-oil salesmen 反對 vaccination，因為他們相信自己的 pills, potions and unproven expensive treatments 更有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading 是 iii Some real reasons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “real reasons” 不是說他們的科學理由成立，而是說文章揭示了更深層的 agenda：道德姿態、媒體利益、商業利益和替代療法市場。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A, C, D",
+      "answerKey": "A, C, D",
+      "type": "Multiple Answers",
+      "prompt": "Questions 34–36",
+      "translation": "他們認為少量副作用風險大於疫苗好處。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： For which THREE reasons do anti-vaccinationists oppose vaccinations?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是 anti-vaccinationists 反對 vaccination 的理由。三個最穩陣答案是： A — Believing they cause problems Paragraph C 說一些人相信："
+            },
+            {
+              "kind": "quote",
+              "text": "“the small risk of adverse effects outweighs the benefits.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文也多次提到 anti-vaccinationists 聲稱 MMR vaccine 和 autism 有關。雖然作者明確反駁這些claims，但題目問的是他們反對疫苗的理由，不是問這些理由是否科學成立。因此 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — Wanting freedom of choice Paragraph G 原文很直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the key arguments of the anti-vaccinationists is that they have the right to choose their medication.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "anti-vaccinationists 的其中一個主要論點是，他們有權選擇自己的 medication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接對應 C Wanting freedom of choice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — Not believing drug manufacturers Paragraph H 說 anti-vaccinationists 指責支持免疫的人："
+            },
+            {
+              "kind": "quote",
+              "text": "“being in the pay of big pharmaceutical companies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "受大藥廠資助。"
+            },
+            {
+              "kind": "label",
+              "text": "並且說他們把這些公司看成："
+            },
+            {
+              "kind": "quote",
+              "text": "“dishonest and immoral”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不誠實和不道德。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 D Not believing drug manufacturers 是合理改寫。這裡不是單純不喜歡藥廠，而是把pharmaceutical companies 視為不可信、利益驅動、道德有問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼不選 G？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G Preferring alternative medicine 的確在 Paragraph H 出現相關意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“alternative medicine practitioners and snake-oil salesmen all oppose vaccination…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "替代療法從業者和賣假藥式推銷者都反對疫苗接種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但主語是 alternative medicine practitioners and snake-oil salesmen，不是一般anti-vaccinationists。題目問的是 anti-vaccinationists 的理由，因此最穩陣不選 G。這是一個主體轉換中伏位：原文提到某一群人反對疫苗，不代表這就是所有 anti-vaccinationists 的理由。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — most likely inherited",
+      "answerKey": "C — most likely inherited",
+      "type": "Multiple Choice",
+      "prompt": "Question 37",
+      "translation": "這很可能是由基因決定的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Autism is…答案主要在 Paragraph E。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“which is probably genetically determined”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “which” 指 autism 的三個主要等級，即 autism spectrum 相關情況。選項 C 的 most likely inherited 對應原文 probably genetically determined。兩者意思接近：如果某狀況genetically determined，即它很可能和遺傳／基因因素有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯，因為原文多次說沒有 credible evidence 支持 MMR vaccine 和 autism 有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，因為原文說 studies found no link between MMR and autism, “or even more subtle neurological problems”。這不是說 autism 本身是 very subtle neurological disorder。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為原文說 “so-called increase in autism” 只是 more accurate diagnoses 的結果。作者不接受「疫苗導致 autism 增加」這種說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 probably genetically determined。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — the cause of falling vaccination rates",
+      "answerKey": "A — the cause of falling vaccination rates",
+      "type": "Multiple Choice",
+      "prompt": "Question 38",
+      "translation": "1998 年，一篇高調論文把這種疫苗和 autism 聯繫起來。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The 1998 paper was…答案在 Paragraph F。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1998, a high-profile paper linked this vaccine to autism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文指出研究有問題：作者收取涉訟團體資金，研究在倫理和方法上都有 fault，data manipulated，results misreported。然後原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet vaccination rates in the UK had dropped to 80% in the subsequent years.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在隨後幾年，英國 vaccination rates 跌至 80%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “Yet” 很重要。它表示雖然該研究後來被推翻、同類研究也找不到 link，但它仍造成vaccination rates 下跌。選項 A 的 the cause of falling vaccination rates 是對這段因果的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，因為 medical journal 在 2004 年 formally retracted its conclusion，沒有 defend。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，因為 similar studies found no link whatsoever，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為作者收取的是 various groups engaged in a lawsuit against vaccine manufacturers 的資金，不是 patients。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 D。lawsuit 很容易令人想到 patients，但原文沒有說 funded by patients。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B — are supported by solid evidence",
+      "answerKey": "B — are supported by solid evidence",
+      "type": "Multiple Choice",
+      "prompt": "Question 39",
+      "translation": "二十多項 peer-reviewed studies 都沒有發現 MMR vaccine 和 autism 有關。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Vaccinations…整篇文章的作者立場非常清楚：vaccination 有長期成功紀錄，也有大量研究支持。Paragraph E說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over a score of peer-reviewed studies have found no link between the MMR vaccine and autism…”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the hard evidence presents an overwhelming case.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "硬證據呈現出壓倒性的論據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以選項 B are supported by solid evidence 最準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“solid evidence” 對應原文的 peer-reviewed studies 和 hard evidence。 A 有迷惑性，因為 Paragraph B 確實說 smallpox was eradicated。可是 A 寫的是 “have removed most smallpox from the world”，表達不夠貼原文；原文其實更強，說 smallpox 被完全 eradicated。更重要的是，題目問整體 vaccinations 的正確概括，B 比 A 更全面。 C 錯，因為文中提到的 websites 主要是 anti-vaccination lobby groups，不是 defending vaccination。 D 錯，因為作者認為 vaccination 仍然必要，特別是 herd immunity 需要高比例人口免疫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — are often supported by politicians",
+      "answerKey": "C — are often supported by politicians",
+      "type": "Multiple Choice",
+      "prompt": "Question 40",
+      "translation": "如果 creationists 和 alternative medicine practitioners 可以獲得體面地位，以及廣泛的公眾和政治支持……選項 C 的 are often supported by politicians 對應原文 political support。雖然原文不是說每一位 practitioner 都一定有 politician 支持，但選項 C 是四個選項中最能根據原文成立的一項。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Alternative medicine practitioners…答案在 Paragraph D。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If creationists and alternative medicine practitioners can gain respectability and widespread public and political support…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯，因為 Paragraph H 說 alternative medicine practitioners “all oppose vaccination”，不是認為vaccinations generally good。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，因為 “impersonal, intrusive, and uncaring” 是 anti-vaccinationists 對 modern medical science 的攻擊，不是原文對 alternative medicine practitioners 的描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為 Paragraph H 說他們提供的是 “unproven expensive treatments”，所以 cheap 的方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 B。原文有 “impersonal, intrusive, and uncaring”，但要看清楚它修飾的是 modern medical science，不是 alternative medicine practitioners。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Immunisation Controversy.pdf",
+    "sha256": "935000fc9316517891695b6d0a79130846dc132b93eb9424dd09dccd8b634b64",
+    "pageCount": 11
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "作者先用 Carl Sagan 的話引入 pseudoscience，然後指出 anti-vaccination movement 的嚴重後果：年幼兒童不必要地死亡。Example 已給答案 vii A sad consequence。"
+      },
+      {
+        "number": "B",
+        "summary": "回顧 vaccination 的歷史成就：smallpox 被 eradicated，polio、rubella、whooping cough、measles等疾病幾乎成為過去。這段重點是過去成功。"
+      },
+      {
+        "number": "C",
+        "summary": "解釋為何有人誤以為 vaccines 造成 autism。很多腦部相關 genetic disorders 會在約兩歲出現，而這剛好是嬰兒接種疫苗的時期。時間上的重疊令人誤會有因果關係。"
+      },
+      {
+        "number": "D",
+        "summary": "講 Internet 如何放大 anti-vaccination propaganda。網上有 lobby groups、websites、unsubstantiated claims、fraudulent research 和 anecdotal evidence，令家長更容易被影響。"
+      },
+      {
+        "number": "E",
+        "summary": "作者澄清沒有 credible evidence 支持 anti-vaccinationists 的 claims，並提出 autism 表面增加的簡單解釋：診斷更準確。"
+      },
+      {
+        "number": "F",
+        "summary": "集中講 1998 年一篇 high-profile paper。它聲稱 MMR 和 autism 有關，但後來被揭發研究有利益衝突、方法和倫理問題、數據被操控，結論最後被期刊撤回。"
+      },
+      {
+        "number": "G",
+        "summary": "處理 “free choice” 論點。作者指出 immunisation 要靠足夠多人免疫才能保護全體，因此個人選擇會影響公共安全。"
+      },
+      {
+        "number": "H",
+        "summary": "指出 anti-vaccination 背後還有其他 agenda：反大藥廠姿態、媒體製造爭議、paid experts、lawyers、celebrities、alternative medicine practitioners 等都可能從爭議中得益。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Questions 34–36 的三個答案順序不限。",
+    "我會選 A, C, D。G 雖然在文中有提到，但原文把它放在 alternative medicine practitioners and snake-oil salesmen 身上，主體較窄；題目問的是 anti-vaccinationists 的理由，所以更穩陣是 A, C, D。"
+  ]
+}

@@ -1,0 +1,1680 @@
+{
+  "id": "p3-131-bondi-beach",
+  "catalogueId": "p3-131",
+  "catalogueIds": [
+    "p3-131"
+  ],
+  "passage": 3,
+  "title": "Bondi Beach",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "tram",
+    "1954",
+    "beach volleyball",
+    "beach environment",
+    "wealthy people",
+    "Manly",
+    "Bondi",
+    "red-tiled roofs"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Bondi Beach was first named by British settlers.”",
+      "translation": "Bondi Beach 最初是由 British settlers 命名的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目要求我們判斷「Bondi 這個名字的來源或命名者」是否和文章一致。最重要的控制詞是 “first named” 和 “British settlers”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / Paragraph B Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach, Australia’s most famous beach, is located in the suburb of Bondi, in the Local Government Area of Waverley, seven kilometers from the centre of Sydney.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 是澳洲最著名的海灘，位於 Bondi 郊區、Waverley 地方政府區，距離 Sydney 市中心七公里。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are Aboriginal rock carvings on the northern end of the beach at Ben Buckler and south of Bondi Beach near McKenzies Beach on the coastal walk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在海灘北端 Ben Buckler，以及 Bondi Beach 南面 McKenzies Beach 附近的 coastal walk，可見Aboriginal 岩刻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 A 段會介紹 Bondi 的位置和 Aboriginal background。題目問名字來源，所以 A 段中間的 “Bondi / Boondi” 很值得掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Bondi Beach”、“named”、“British settlers”。原文沒有 “British settlers named it”，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Bondi’ or ‘Boondi’ is an Aboriginal word meaning water breaking over rocks or the sound of breaking waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Bondi” 或 “Boondi” 是一個 Aboriginal word，意思是水浪拍打岩石，或浪花破裂的聲音。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “is an Aboriginal word”。題目說名字由 British settlers 首先命名；原文把 Bondi /Boondi 的語源明確放在 Aboriginal language 之中。Paragraph B 最後一句也補強：“A number of place names within Waverley, most famously Bondi, have been based on words derived from Aboriginal languages of the Sydney region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Waverley 內有不少地名，最著名的是 Bondi，都是根據 Sydney 地區 Aboriginal languages 的詞語而來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：first named by British settlers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：Bondi / Boondi is an Aboriginal word；Bondi is based on Aboriginal languages這裡的衝突在「名字來源」。原文清楚指出 Bondi 這個名字來自 Aboriginal language，因此 “British settlers first named it” 和文章方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Aboriginal culture in Australia differs from European culture.”",
+      "translation": "澳洲 Aboriginal culture 和 European culture 不同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章有沒有比較 Aboriginal culture 和 European culture。題目中的核心關係是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“differs from”，即兩種文化之間有差異。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / Paragraph B Paragraph B 第一句：“The indigenous people of the area at the time of European settlement have generally been referred to as the Sydney people or the Eora (Eora means ‘the people’).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "European settlement 時，當地 indigenous people 通常被稱為 Sydney people 或 Eora；Eora 的意思是「the people」。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of place names within Waverley, most famously Bondi, have been based on words derived from Aboriginal languages of the Sydney region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Waverley 內不少地名，最著名的是 Bondi，都根據 Sydney 地區 Aboriginal languages 的詞語而來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 B 段會講 Aboriginal people、Eora、language group 和 place names。這段有 indigenous / European settlement 的背景，但未必有文化比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Aboriginal culture”、“European culture”、“differs”。原文可找到 Aboriginal languages、European settlement、indigenous people，但沒有 “culture differs” 這類比較句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關資料"
+            },
+            {
+              "kind": "label",
+              "text": "文章提供的相關內容是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The indigenous people of the area at the time of European settlement have generally been referred to as the Sydney people or the Eora…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "European settlement 時，當地 indigenous people 通常被稱為 Sydney people 或 Eora。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說明歐洲人到來時，當地原住民的稱呼。它沒有比較 Aboriginal culture 和 European culture 的差異。A 段提到 Aboriginal word 和 Aboriginal rock carvings，也只是原住民語言和文化遺跡，不足以建立「與 European culture 不同」這個比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說法在常識上可能合理，但 IELTS Reading 不能用常識補答案。文章有 Aboriginal background，也有 European settlement，但缺少直接文化比較。因此答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“The Bondi Beach area contains many contemporary hotels.”",
+      "translation": "Bondi Beach 一帶有很多現代／當代感的酒店。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Bondi Beach area 是否有 many hotels，以及是否和 modern / contemporary 形象相連。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach has a commercial area along Campbell Parade and adjacent side streets, featuring many popular cafes, restaurants, and hotels, with views of the contemporary beach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 在 Campbell Parade 和附近小街一帶有商業區，當中有很多受歡迎的 cafés、restaurants 和 hotels，並可看到當代感的海灘景觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These buildings are deeply influenced by British coastal towns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些建築深受英國海岸城鎮影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 G 段會講 Bondi 的現代商業區、酒店、餐飲和建築風格。題目中的hotels 和 contemporary 都在這段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Bondi Beach area”、“hotels”、“contemporary”。原文第一句直接出現 “commercial area”、“many popular cafes, restaurants, and hotels” 和 “contemporary beach”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach has a commercial area along Campbell Parade and adjacent side streets, featuring many popular cafes, restaurants, and hotels, with views of the contemporary beach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 在 Campbell Parade 和附近街道有商業區，裡面有許多受歡迎的咖啡店、餐廳和酒店，並能看到當代海灘景觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “commercial area … featuring many … hotels” 改寫成 “area contains many … hotels”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“contemporary” 在原文直接修飾 beach，但下一句 “It is depicted as wholly modern and European” 又把整個地區描寫成現代而歐式。因此題目說 contemporary hotels，雖然壓縮了原文的修飾關係，但整體方向仍由原文支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“contains” = “has / featuring”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many hotels” = “many popular … hotels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contemporary” = “contemporary beach / wholly modern”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Bondi’s seaside architecture reflects British influence in its characteristic red colour.”",
+      "translation": "Bondi 的海邊建築反映英國影響，並以其特色紅色呈現出來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 seaside architecture、British influence，以及 characteristic red colour 的證據。核心是Paragraph G 的建築描寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach has a commercial area along Campbell Parade and adjacent side streets, featuring many popular cafes, restaurants, and hotels, with views of the contemporary beach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 在 Campbell Parade 和附近街道有商業區，當中有許多受歡迎的咖啡店、餐廳和酒店，並能看到當代海灘景觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These buildings are deeply influenced by British coastal towns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些建築深受英國海岸城鎮影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，G 段明顯會講 Bondi 的現代建築和英國海岸城鎮影響。題目出現 architecture 和British influence，很自然定位這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “architecture”、“British influence”、“red colour”。原文中最接近 red colour 的短語是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“distinctive red-tiled roofs”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The valley running down to the beach is famous the world over for its view of distinctive red-tiled roofs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通向海灘的山谷因其獨特紅瓦屋頂景觀而聞名世界。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These buildings are deeply influenced by British coastal towns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些建築深受英國海岸城鎮影響。"
+            },
+            {
+              "kind": "label",
+              "text": "題目把兩句資料合併："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“distinctive red-tiled roofs” = characteristic red colour“These buildings are deeply influenced by British coastal towns” = reflects British influence這裡需要留意 “These buildings” 指前一句提到、有 red-tiled roofs 的建築。原文沒有逐字說「紅色本身來自英國」，但它把這些紅瓦屋頂建築放在 British coastal towns influence 下。題目沒有超出太遠，屬於可接受概括。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Living near the Bondi seashore is not beneficial for health.”",
+      "translation": "住在 Bondi 海邊對健康沒有好處。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章對 Bondi seaside 和 health 的方向。題目是否定句，重點是 “not beneficial for health”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E / Paragraph H Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People increasingly preferred relaxing by the seaside rather than living in unhealthy cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們愈來愈喜歡在海邊放鬆，多於住在不健康的城市。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People protested for their right to an unspoilt seaside and argued for a healthy life in Bondi.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們為享有未被破壞的海邊權利而抗議，並主張在 Bondi 過健康生活。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “health”、“seashore”、“beneficial”。原文有 “health, leisure and democracy”、“unhealthy cities”、“healthy life in Bondi”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“People increasingly preferred relaxing by the seaside rather than living in unhealthy cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們愈來愈偏好在海邊放鬆，而非住在不健康的城市。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“People protested for their right to an unspoilt seaside and argued for a healthy life in Bondi.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們為未受破壞的海濱抗議，並主張在 Bondi 過健康生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文方向是：seaside / Bondi 和健康、休閒、放鬆、healthy life 相連。題目說 living near the Bondi seashore is not beneficial for health，剛好和原文方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文並非只是沒有提及健康，它明確把 Bondi seaside 和 “healthy life” 連在一起。因此答案是FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 33–36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "tram",
+      "answerKey": "tram",
+      "type": "Question Analysis",
+      "prompt": "“At the end of the nineteenth century, which form of public transport did people use to reach Bondi?”",
+      "translation": "十九世紀末，人們用哪種公共交通到達 Bondi？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。要用 NO MORE THAN TWO WORDS AND/OR A NUMBER 回答。題目問 “which form of public transport”，所以答案應該是一個交通工具名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the 1900s, the beach became associated with health, leisure and democracy – a playground everyone could enjoy equally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1900 年代，這片海灘與健康、休閒和民主連在一起，成為人人都可平等享用的遊樂場。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advertising at the time referred to Bondi Beach as the ‘Playground of the Pacific’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時的廣告把 Bondi Beach 稱為 “Playground of the Pacific”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 D 段講 Bondi 如何由富人專屬地點變成大眾休閒空間。公共交通通常就是這種轉變的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “public transport”、“end of the nineteenth century”。原文有 1884，也有 “first form of public transport”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The first tramway reached the beach in 1884. Following this, the tram became Bondi’s first form of public transport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一條電車路線在 1884 年到達海灘。此後，tram 成為 Bondi 第一種公共交通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “which form”，答案是交通工具。原文給出 “the tram”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：tram = 1 word，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：tram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "1954",
+      "answerKey": "1954",
+      "type": "Question Analysis",
+      "prompt": "“When did British royalty first visit Bondi?”",
+      "translation": "英國王室何時首次到訪 Bondi？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “When”，答案通常是年份或日期。字數限制是 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach is the endpoint of the City to Surf Fun Run which is held each year in August.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 是每年八月舉行的 City to Surf Fun Run 的終點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, people still choose Bondi as their preferred destination rather than Manly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍然選擇 Bondi 作為首選目的地，而非 Manly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，F 段似乎講大型活動和 Bondi 作為目的地的吸引力。題目問 British royalty，所以要掃描 Royal / Queen / British Royal Family。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “British royalty”、“first visit”。原文有 “Royal Surf Carnival”、“Queen Elizabeth II”、“first visit to Australia in 1954”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“A Royal Surf Carnival was held at Bondi Beach for Queen Elizabeth II during her first visit to Australia in 1954.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1954 年 Queen Elizabeth II 首次到訪澳洲期間，Bondi Beach 為她舉辦了 Royal Surf Carnival。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 British royalty first visit Bondi。原文提到 Queen Elizabeth II 在 1954 年首次訪問澳洲，並於 Bondi 舉行 Royal Surf Carnival。文章沒有提供更早的 Bondi royal visit 資料，答案應取這個明確年份。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：1954 是一個 number，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：1954"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "beach volleyball",
+      "answerKey": "beach volleyball",
+      "type": "Question Analysis",
+      "prompt": "“Which Olympic event did Bondi host during the 2000 Sydney Olympic Games?”",
+      "translation": "Bondi 在 2000 Sydney Olympics 期間舉辦了哪項奧運項目？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 Olympic event，所以答案應該是運動項目名稱。字數限制是 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach hosted the beach volleyball competition at the 2000 Summer Olympics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 在 2000 年夏季奧運會舉辦了 beach volleyball competition。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People protested for their right to an unspoilt seaside and argued for a healthy life in Bondi.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們為未被破壞的海邊權利而抗議，並主張在 Bondi 過健康生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段首已直接提供 Olympic event；段尾則顯示這項賽事引起爭議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Olympic event”、“2000 Sydney Olympic Games”。原文第一句幾乎直接重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach hosted the beach volleyball competition at the 2000 Summer Olympics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 在 2000 年夏季奧運會舉辦了沙灘排球比賽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Which Olympic event”，原文的 event 是 “beach volleyball competition”。因為字數限制是NO MORE THAN TWO WORDS，填 “beach volleyball” 最合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：beach volleyball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "beach environment",
+      "answerKey": "beach environment",
+      "type": "Question Analysis",
+      "prompt": "“What would have been damaged if the stadium had been built for that Olympic event?”",
+      "translation": "如果為該奧運項目建造 stadium，甚麼會受到損害？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 “What”，需要名詞短語。題目中的 “that Olympic event” 指Q35 的 beach volleyball。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H / Paragraph I Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach hosted the beach volleyball competition at the 2000 Summer Olympics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 在 2000 年夏季奧運會舉辦了 beach volleyball competition。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘They’re prepared to risk lives and risk the Bondi beach environment for the sake of eight days of volleyball,’ said Stephen Uniacke, a construction lawyer involved in the campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與抗議的建築律師 Stephen Uniacke 說：「他們為了八天的排球，願意冒生命風險，也願意讓Bondi beach environment 承受風險。」H 段講 stadium 和爭議；I 段直接講 risk the environment。因此 Q36 要看 I 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “stadium”、“damaged”、“Olympic event”。原文沒有 damaged，但有 “risk the Bondi beach environment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They’re prepared to risk lives and risk the Bondi beach environment for the sake of eight days of volleyball…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們為了八天排球比賽，願意冒生命風險，也願意讓 Bondi 海灘環境受風險影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“would have been damaged” = “risk”"
+            },
+            {
+              "kind": "quote",
+              "text": "“that Olympic event” = “eight days of volleyball”"
+            },
+            {
+              "kind": "quote",
+              "text": "“what” = “Bondi beach environment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制是 NO MORE THAN TWO WORDS AND/OR A NUMBER。原文完整短語 “Bondi beach environment” 有三個 words，所以要縮成 beach environment。題目已經在問 Bondi，省略 Bondi 不影響答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：beach environment"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 37–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "wealthy people",
+      "answerKey": "wealthy people",
+      "type": "Question Analysis",
+      "prompt": "“Bondi Beach holds major sporting events every year and attracts many 37 ______ who choose to spend holidays there.”",
+      "translation": "Bondi Beach 每年舉辦大型體育活動，並吸引許多 ______ 選擇在那裡度假。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。空格前是 many，後面有 who choose，所以空格需要人物名詞複數或人物群體。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach is the endpoint of the City to Surf Fun Run which is held each year in August.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 是每年八月舉行的 City to Surf Fun Run 的終點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, people still choose Bondi as their preferred destination rather than Manly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍然選擇 Bondi 作為首選目的地，而非 Manly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段首句說 sporting event，後面應會講遊客、節日和目的地。題目 summary 明顯改寫 F 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “spend holidays there”。原文有 “spend Christmas Day at the beach”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Many wealthy people spend Christmas Day at the beach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 wealthy people 會在海灘度過 Christmas Day。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“spend holidays there” = “spend Christmas Day at the beach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many ______” = “Many wealthy people”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：wealthy people = 2 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：wealthy people"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "Manly",
+      "answerKey": "Manly",
+      "type": "Question Analysis",
+      "prompt": "“Local accommodation cannot meet the growing demand, so the nearby town of 38 ______was the first to provide a solution.”",
+      "translation": "本地住宿無法滿足增加的需求，所以附近的 ______ 鎮首先提供了解決方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。空格前有 “town of”，所以答案應該是地名。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach is the endpoint of the City to Surf Fun Run which is held each year in August.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 是每年八月 City to Surf Fun Run 的終點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, people still choose Bondi as their preferred destination rather than Manly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍然選擇 Bondi 作為首選目的地，而非 Manly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段尾直接出現 Manly，並與 destination preference 有關。題目中的 “nearby town” 很可能就是Manly。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “shortage of housing”、“addressed this problem”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, a shortage of housing developed as large numbers of people crowded to the seaside. Manly is a seaside town that addressed this problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，由於大量人群湧向海邊，住房短缺出現了。Manly 是一個處理了這個問題的海邊城鎮。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “Local accommodation cannot meet the growing demand” 改寫自 “a shortage of housing developed as large numbers of people crowded to the seaside”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “provide a solution” 改寫自 “addressed this problem”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “town of”，原文地名是 Manly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Manly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "Bondi",
+      "answerKey": "Bondi",
+      "type": "Question Analysis",
+      "prompt": "“Nevertheless, people still prefer 39 ______ as their destination.”",
+      "translation": "然而，人們仍然偏好 ______ 作為目的地。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。空格後是 “as their destination”，答案應該是地方名。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach is the endpoint of the City to Surf Fun Run which is held each year in August.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 是每年八月 City to Surf Fun Run 的終點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, people still choose Bondi as their preferred destination rather than Manly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍然選擇 Bondi 作為首選目的地，而非 Manly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎由段尾直接回答。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “prefer”、“destination”。原文有 “preferred destination”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“However, people still choose Bondi as their preferred destination rather than Manly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們仍然選擇 Bondi 作為他們偏好的目的地，而不是 Manly。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Nevertheless” = “However”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prefer” = “choose … as their preferred destination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“as their destination” = “as their preferred destination”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Bondi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "red-tiled roofs",
+      "answerKey": "red-tiled roofs",
+      "type": "Question Analysis",
+      "prompt": "“Its seaside buildings are famous for their distinctive 40 ______ and the pleasant scent of the sea.”",
+      "translation": "它的海邊建築因其獨特的 ______ 和宜人的海洋氣味而聞名。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。空格前是 “distinctive”，後面與 seaside buildings 有關，所以需要一個建築特色名詞。字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bondi Beach has a commercial area along Campbell Parade and adjacent side streets, featuring many popular cafes, restaurants, and hotels, with views of the contemporary beach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bondi Beach 在 Campbell Parade 和附近街道有商業區，當中有許多受歡迎的咖啡店、餐廳和酒店，並能看到當代海灘景觀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These buildings are deeply influenced by British coastal towns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些建築深受英國海岸城鎮影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 段講建築、視野、海洋氣味和英國海岸城鎮風格，所以 Q40 應定位於這段中後部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “distinctive” 和 “scent of the sea”。原文兩者都出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“...take advantage of the views and scent of the sea.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The valley running down to the beach is famous the world over for its view of distinctive red-tiled roofs.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The valley running down to the beach is famous the world over for its view of distinctive red-tiled roofs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "通向海灘的山谷因其獨特紅瓦屋頂景觀而聞名世界。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“are famous for” = “is famous the world over for”"
+            },
+            {
+              "kind": "quote",
+              "text": "“distinctive ______” = “distinctive red-tiled roofs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pleasant scent of the sea” = “scent of the sea”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：red-tiled roofs 通常計作兩個 words，因為 red-tiled 是 hyphenated compound。符合NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：red-tiled roofs"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Bondi Beach.pdf",
+    "sha256": "39dfac766df265bba5eca0af1079d6282132cfc7e92b57a018d64013551b1c64",
+    "pageCount": 19
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首尾句，A 段先交代 Bondi Beach 的位置：它是澳洲最著名的海灘，位於 Sydney 市中心七公里外的 Bondi suburb。段尾轉到 Aboriginal rock carvings，指出海灘北端和附近 coastal walk仍有原住民岩刻。這段功能是介紹 Bondi 的地理位置、名字來源和 Aboriginal heritage。中間對“Bondi / Boondi” 的解釋非常重要，因為它說這個名字來自 Aboriginal word，會影響 Q28。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說 European settlement 時，當地 indigenous people 通常被稱為 Sydney people 或Eora；最後一句指出 Waverley 內不少地名，尤其 Bondi，都根據 Sydney 地區 Aboriginal languages 的詞語而來。這段功能是補充 Bondi 一帶原住民身份和語言背景。中間有兩個 theory：Eora 可能是 Darug language group 的分支，也可能是獨立語言群。這段和 Q28、Q29 有關，但它沒有真正比較 Aboriginal 和 European culture。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說 1800 年代中期開始，Bondi Beach 已是 family outings and picnics 的熱門地點；最後一句說 Municipal Council 認為政府要介入，把海灘變成 public reserve。這段功能是講 Bondi 從私人 estate 走向公共空間的歷史。中間有 William Roberts、Edward Smith Hall、Francis O’Brien、Bondi Estate、O’Brien Estate 等土地轉手資料。若題目問 public access、picnic ground、amusement resort 或 government intervention，應定位這段。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說 1900s 的 Bondi Beach 與 health、leisure 和 democracy 連在一起，是人人可平等享用的 playground；最後一句說 1930s 廣告稱它為 “Playground of the Pacific”。這段功能是講Bondi 的大眾化和公共交通發展。中間提到 1884 年 tramway 到達海灘，tram 成為 Bondi 第一種public transport，令海灘不再只屬富人。Q33 直接由這段回答。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句指出人們愈來愈喜歡在海邊放鬆，多於住在不健康的城市；最後一句說 1938 年 Black Sunday 的大規模救援鞏固了 lifesaver 在 national imagination 中的地位。這段功能是講 sea bathing 的興起、公眾安全憂慮和 surf lifesaving 的重要性。中間提到 Bondi Surf Bathers’ Life Saving Club 於 1907 年成立，以及 freak waves 把數百人捲出海。Q32 的健康方向可用本段判斷。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 Bondi Beach 是每年八月 City to Surf Fun Run 的終點；最後一句指出雖然 Manly 曾處理住房短缺問題，人們仍然偏好 Bondi 作目的地。這段功能是講 Bondi 的大型活動、royal carnival、節日吸引力和住房壓力。中間有 Queen Elizabeth II 1954 年 Royal Surf Carnival、Sunday Markets、wealthy people spend Christmas Day，以及 shortage of housing。Q34、Q37、Q38、Q39 都集中在這段。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說 Bondi Beach 在 Campbell Parade 和附近街道有商業區，包含 cafés、restaurants 和hotels，並可看到 contemporary beach；最後一句說這些建築深受 British coastal towns 影響。這段功能是描寫現代 Bondi 的商業和 seaside architecture。中間提到 modern and European、svelte houses and apartments、views and scent of the sea、distinctive red-tiled roofs。Q30、Q31、Q40 主要定位在這段。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段首句說 Bondi Beach 在 2000 Summer Olympics 舉辦 beach volleyball competition；最後一句說人們為 unspoilt seaside 和 healthy life in Bondi 抗議。這段功能是講 Olympic volleyball stadium 帶來的社會和環境爭議。中間提到 temporary 10,000-seat stadium、warm-up courts、training courts，以及 campaigners opposed social and environmental consequences。Q35 可以直接在段首定位，Q36 需要連同 Paragraph I 判斷 environment risk。"
+      },
+      {
+        "number": "I",
+        "summary": "I 段首句引用 Stephen Uniacke，批評主辦方為八天 volleyball 冒生命和 Bondi beach environment 的風險；最後一句補充另一個 environmental concern：沙下挖出的土壤帶到表面後可能 acidify。這段功能是延續 H 段的反對聲音，聚焦 stadium development 的環境風險。雖然段落很短，但 “risk the Bondi beach environment” 是 Q36 的最直接證據。"
+      }
+    ]
+  }
+}

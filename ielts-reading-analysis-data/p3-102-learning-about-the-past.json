@@ -1,0 +1,1958 @@
+{
+  "id": "p3-102-learning-about-the-past",
+  "catalogueId": "p3-102",
+  "catalogueIds": [
+    "p3-102"
+  ],
+  "passage": 3,
+  "title": "Learning about the Past",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "A",
+    "C",
+    "B",
+    "fuelling a conflict",
+    "see themselves",
+    "classrooms",
+    "a single",
+    "rigid ideology",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — it didn’t fit in with the history of the Irish fighting British rule",
+      "answerKey": "A — it didn’t fit in with the history of the Irish fighting British rule",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "過去愛爾蘭學校很少教授 Irish Civil War，原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The Irish Civil War was not taught much in Ireland in the past because…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the past is a foreign country, the version that used to be taught in Irish schools had a simple landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果過去是一個異國，那麼以前愛爾蘭學校教授的那個版本，地貌非常簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The civil war was just an embarrassment, it was hardly mentioned,’ says Jimmy Joyce, who went to school in Dublin in the 1950s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jimmy Joyce 說：「內戰只是令人尷尬的事，幾乎沒有被提及。」他在 1950 年代於 Dublin 上學。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 的功能很清楚：它描述舊式愛爾蘭歷史課如何把複雜歷史簡化成單一民族受壓迫和反抗成功的故事。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Irish Civil War”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not taught much”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the past”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Awkward episodes, like the conflict between rival Irish nationalist groups in 1922–23, were airbrushed away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些尷尬事件，例如 1922–23 年 rival Irish nationalist groups 之間的衝突，被抹去了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先建立舊式歷史敘事："
+            },
+            {
+              "kind": "quote",
+              "text": "“For 750 years after the first invasion by an English king, Ireland suffered oppression.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從一位英格蘭國王首次入侵後的 750 年間，愛爾蘭一直遭受壓迫。"
+            },
+            {
+              "kind": "label",
+              "text": "接著又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then at Easter 1916, her brave sons rose against the tyrant…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後在 1916 年復活節，愛爾蘭勇敢的兒子們起來反抗暴君。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個版本的主線是：英國壓迫愛爾蘭，愛爾蘭民族英雄反抗英國。Irish Civil War 涉及的是 rival Irish nationalist groups 之間的衝突，也就是愛爾蘭民族主義陣營內部的衝突。它會破壞「愛爾蘭人團結反抗英國」這條簡單主線，所以被 airbrushed away。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說這件事不符合 Irish fighting British rule 的歷史敘事，正好概括原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 Irish people 不能理解原因，原文沒有這個意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說怕激怒 British，文章沒有提到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — as it was taught in Australia before the 1980s",
+      "answerKey": "A — as it was taught in Australia before the 1980s",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "John Howard 較支持怎樣教授歷史？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： John Howard favours teaching history…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以澳洲為例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New South Wales, where the subject is taught in its own right, Mr. Howard’s bid to promote a patriotic view of history meets strong resistance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 New South Wales，history 作為獨立科目教授；Howard 推動 patriotic view of history 的努力遇到強烈抵抗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 是澳洲例子，核心是 John Howard 想推動一種 patriotic / structured version of history，但教育界和州政府課程安排對它有阻力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Howard”"
+            },
+            {
+              "kind": "quote",
+              "text": "“favours”"
+            },
+            {
+              "kind": "quote",
+              "text": "“teaching history”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a ‘history summit’ he held last August, educators were urged to ‘reestablish a structured narrative’ about the nation’s past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他去年八月舉辦的 “history summit” 中，教育工作者被敦促重新建立關於國家過去的structured narrative。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was seen by liberal critics as a doomed bid to revive a romantic vision of white settlement in the 18th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自由派批評者認為，這是一個注定失敗的嘗試，想復興一種關於 18 世紀白人定居的浪漫化想像。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Howard 想 “reestablish a structured narrative”，批評者認為這是在 revive 一種 romantic vision of white settlement。後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The romantic story has been fading since the 1980s…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種浪漫化故事自 1980 年代以來一直逐漸淡出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 Howard 想恢復的是 1980s 以前較主流、較浪漫化、較 patriotic 的澳洲歷史敘事。選項 A說 “as it was taught in Australia before the 1980s”，正好對應這個意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說 as it is taught now，和原文中的 revisionist view、multicultural classrooms、state control、resistance 不配合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 as most other countries，文章沒有說 Howard 模仿多數國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — becoming opposed to the influence of western Christianity",
+      "answerKey": "C — becoming opposed to the influence of western Christianity",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "俄羅斯新的節日似乎顯示俄羅斯正在呈現怎樣的方向？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The new Russian holiday appears to demonstrate that Russia is…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia is a country where a relatively gentle (by world standards) effort to re-impose a sort of national ideology looks destined to fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲是一個國家；若以世界標準來看，重新施加某種 national ideology 的努力相對溫和，而且看起來注定失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the bonhomie of this week’s 25-minute chat between Mr. Putin and Pope Benedict XVI, the president is promoting a national day which signals ‘isolation and defensiveness’ towards western Christendom, says Andrei Zorin, a Russian historian.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "俄羅斯歷史學家 Andrei Zorin 說，儘管 Putin 和 Pope Benedict XVI 本週有 25 分鐘友好談話，總統正在推動的這個 national day，對 western Christendom 傳遞出「孤立和防衛」的訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段先把 Russia 和 Australia 對比，再用 new national day 顯示俄羅斯的國族敘事方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new Russian holiday”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demonstrate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Russia is…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“President Vladimir Putin has introduced a new national day – November 4…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“signals ‘isolation and defensiveness’ towards western Christendom”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Putin 引入新的 national day；這個節日向 western Christendom 傳出 isolation and defensiveness 的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "這個 national day 紀念的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the moment in 1612 when Russia, after a period of chaos, drove the Catholic Poles and Lithuanians out of Moscow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1612 年，俄羅斯經歷混亂後，把 Catholic Poles and Lithuanians 趕出 Moscow 的時刻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個歷史記憶把俄羅斯身份建立在抵抗西方天主教勢力上。最後 Zorin 的評語更直接：節日signals “isolation and defensiveness” towards western Christendom。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 中的 “western Christianity” 對應原文 “western Christendom”。“opposed to the influence”概括了 isolation and defensiveness 的方向，所以 C 最貼近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說 becoming less authoritative，原文沒有這個方向；Russia 段落反而講 toughly enforced ideology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有一定背景關聯，因為本段提到 ideology 和 foundation story；但題目問 new holiday 具體顯示甚麼，最直接證據落在 western Christendom 那句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — of the collapse of rule by white people",
+      "answerKey": "B — of the collapse of rule by white people",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "南非現在用不同方式教授歷史，原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： History in South Africa is now taught differently because…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In South Africa, where white rule collapsed, the authorities seem to have done a better job at forging a new national story and avoiding the trap of replacing one rigid ideology with another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 South Africa，white rule collapsed 之後，當局似乎較成功地建立新的 national story，並避免用另一種 rigid ideology 取代舊的一種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“December 16 was a day to remember white settlers clashing with the Zulus in 1838; now it is the Day of Reconciliation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "12 月 16 日原本是紀念白人定居者於 1838 年與 Zulus 衝突的日子；現在它是 Day of Reconciliation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段講 South Africa 在 white rule collapsed 之後重新設計歷史敘事和象徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“South Africa”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taught differently”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“where white rule collapsed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“post-apartheid lessons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new school curriculum”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強原因句是段落第一句的 “where white rule collapsed”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In South Africa, where white rule collapsed…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是背景原因。白人統治結束後，當局需要重新建立 national story，避免把舊的單一 ideology 換成另一種單一 ideology。接著 Linda Chisholm 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main message of the new school curriculum is inclusion and reconciliation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的學校課程主要訊息是 inclusion and reconciliation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “the collapse of rule by white people” 直接改寫 “white rule collapsed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “collapse of apartheid” 在現實知識上很接近，也與 “post-apartheid lessons” 有關；不過原文把原因明確寫成 “white rule collapsed”，所以 B 是最精準的文本答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 teachers are better than before，原文沒有這個比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "fuelling a conflict",
+      "answerKey": "fuelling a conflict",
+      "type": "Sentence Completion",
+      "prompt": "“Many Irish people thought a simple view of history was 31 ______ in Northern Ireland.”",
+      "translation": "很多愛爾蘭人認為，簡化的歷史觀在 Northern Ireland 正在 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These days, Irish history lessons are more sophisticated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，愛爾蘭的歷史課更 sophisticated，即更成熟、更細緻。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also at work was an even broader shift: a state that was rich, confident, and cosmopolitan saw less need to drum simple ideas into its youth, especially if those ideas risked encouraging violence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個更廣泛的轉變也在發揮作用：一個富裕、自信、世界化的國家，較少覺得有需要向年輕人灌輸簡單觀念，尤其當那些觀念可能鼓勵暴力時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段解釋愛爾蘭歷史課為何變得更複雜，題目中的 “simple view” 和 “Northern Ireland” 都會定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“simple view of history”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Northern Ireland”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, because in the 1980s, some people in Ireland became uneasy about the fact that a crude view of their national history was fuelling a conflict in the north of the island.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，因為在 1980 年代，愛爾蘭有些人開始對一件事感到不安：他們那種粗糙的 national history 觀點，正在推動島嶼北部的一場衝突。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的："
+            },
+            {
+              "kind": "quote",
+              "text": "“simple view of history”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “a crude view of their national history”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Northern Ireland”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “the north of the island”"
+            },
+            {
+              "kind": "quote",
+              "text": "“was ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “was fuelling a conflict”空格要填動詞短語，且不超過三個字。原文剛好提供： fuelling a conflict注意 spelling 要跟原文：fuelling 是英式拼法，雙 l。答案是 fuelling a conflict。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "see themselves",
+      "answerKey": "see themselves",
+      "type": "Sentence Completion",
+      "prompt": "“The things that are taught in history classes often tell us how countries and people 32______.”",
+      "translation": "歷史課教授的內容，常常告訴我們國家和人們如何 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As countries all over the world argue over ‘what to tell the children’ about their collective past, many will look to Ireland rather enviously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當世界各國都在爭論應向孩子講述怎樣的 collective past 時，很多國家會相當羨慕地看著愛爾蘭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experience of several countries suggests that, whatever educators and politicians might want, there is a limit to how far history lessons can diverge in their tone from society as a whole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個國家的經驗顯示，不管教育工作者和政治人物想怎樣做，歷史課的語氣與整體社會能偏離的程度有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 history curriculum 和 national self-image 的關係，因此很適合 Question 32。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“history classes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tell us how countries and people…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A history curriculum is often a telling sign of how a nation and its elites see themselves…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一套歷史課程常常是一個很有說明力的標誌，顯示一個國家及其精英如何看待自己。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "label",
+              "text": "題目把："
+            },
+            {
+              "kind": "quote",
+              "text": "“history classes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫成 “A history curriculum”"
+            },
+            {
+              "kind": "quote",
+              "text": "“countries and people”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "概括 “a nation and its elites”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tell us how…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對應 “is often a telling sign of how…”空格要接在 “how countries and people…” 後面，因此需要動詞短語。原文提供： see themselves答案是 see themselves。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "classrooms",
+      "answerKey": "classrooms",
+      "type": "Sentence Completion",
+      "prompt": "“The terms ‘multicultural’ and ‘aboriginal reconciliation’ can still be found in Australian 33______.”",
+      "translation": "“multicultural” 和 “aboriginal reconciliation” 這兩個詞仍可在澳洲的 ______ 中找到。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“Take Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以澳洲為例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New South Wales, where the subject is taught in its own right, Mr. Howard’s bid to promote a patriotic view of history meets strong resistance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 New South Wales，history 作為獨立科目教授；Howard 推動 patriotic view of history 的努力遇到強烈抵抗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講澳洲課程和政策語言的變化，題目中的兩個術語很罕見，定位會很快。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“multicultural”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aboriginal reconciliation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under Mr. Howard’s 11-year government, ‘multicultural’ and ‘aboriginal reconciliation’, two terms that once had currency, have faded from the policy lexicon, but not from classrooms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Howard 長達 11 年的政府下，“multicultural” 和 “aboriginal reconciliation” 這兩個曾經流行的詞，已經從政策詞彙中淡出，但沒有從課室中消失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “can still be found in Australian ______”。原文說 “but not from classrooms”，意思是這些詞雖然從 policy lexicon 淡出，但仍存在於 classrooms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “Australian”，空格需要一個地點或場景名詞。原文答案是： classrooms這題的中伏位是 “policy lexicon”。學生看到術語就可能填 policy lexicon；但原文說它們已從政策語言淡出，保留的地方是 classrooms。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "a single narrative",
+      "answerKey": "a single narrative",
+      "type": "Sentence Completion",
+      "prompt": "“Judy King says John Howard would like 34 ______ rather than look at history from different standpoints.”",
+      "translation": "Judy King 說，John Howard 想要 ______，而不想從不同角度看歷史。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Judy King, head of Riverside Girls High School in Sydney, has students from more than 40 ethnic groups at her school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sydney 的 Riverside Girls High School 校長 Judy King，學校裡有來自超過 40 個 ethnic groups的學生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘When you have only one side of the story, immigrants, women, and aborigines aren’t going to have an investment in it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「如果你只有故事的一面，移民、女性和 aborigines 都不會對它有投入感。」只看首尾句，這段明顯反對 one-sided history，支持多角度歷史教學。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Judy King”"
+            },
+            {
+              "kind": "quote",
+              "text": "“John Howard”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than different standpoints”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the prime minister wants a single narrative instead, then speaking as someone who’s taught history for 42 years he’ll have an absolute fight on his hands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果總理想要的是 a single narrative，那麼以一個教了 42 年歷史的人來說，他將會面對一場硬仗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “John Howard” 對應原文 “the prime minister”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rather than look at history from different standpoints” 對應前文："
+            },
+            {
+              "kind": "quote",
+              "text": "“We canvass all the terms for white settlement: colonialism, invasion, and genocide. Are all views valid? Yes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們會討論白人定居的所有用語：colonialism、invasion 和 genocide。所有觀點都有效嗎？是的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Judy King 認為，Howard 想要的東西是： a single narrative答案不超過三個字，完全符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "rigid ideology",
+      "answerKey": "rigid ideology",
+      "type": "Sentence Completion",
+      "prompt": "“In South Africa, changing a 35 ______ for another has been avoided.”",
+      "translation": "在 South Africa，把一種 ______ 換成另一種的做法已經被避免。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In South Africa, where white rule collapsed, the authorities seem to have done a better job at forging a new national story and avoiding the trap of replacing one rigid ideology with another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 South Africa，white rule collapsed 後，當局似乎較成功地建立新的 national story，並避免陷入用另一種 rigid ideology 取代舊的一種的陷阱。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“December 16 was a day to remember white settlers clashing with the Zulus in 1838; now it is the Day of Reconciliation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "12 月 16 日原本是紀念 1838 年白人定居者與 Zulus 衝突的日子；現在它是 Day of Reconciliation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“South Africa”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changing … for another”"
+            },
+            {
+              "kind": "quote",
+              "text": "“avoided”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“avoiding the trap of replacing one rigid ideology with another”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "避免用另一種 rigid ideology 取代舊的一種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句型是 “changing a ______ for another”。這對應原文 “replacing one rigid ideology with another”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目已經有 “a”，所以答案不需要填 “one rigid ideology”。最自然、最合文法的是： rigid ideology答案是 rigid ideology。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“As Ireland became richer, Irish people became less interested in simple ideas.”",
+      "translation": "隨著愛爾蘭變得更富裕，愛爾蘭人對簡單觀念的興趣降低。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These days, Irish history lessons are more sophisticated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，愛爾蘭歷史課更成熟、更細緻。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also at work was an even broader shift: a state that was rich, confident, and cosmopolitan saw less need to drum simple ideas into its youth, especially if those ideas risked encouraging violence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個更廣泛的轉變也在發揮作用：一個富裕、自信、世界化的國家，較少覺得有需要向年輕人灌輸簡單觀念，尤其當那些觀念可能鼓勵暴力時。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ireland became richer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less interested”"
+            },
+            {
+              "kind": "quote",
+              "text": "“simple ideas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a state that was rich, confident, and cosmopolitan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“saw less need to drum simple ideas into its youth”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的 “a state that was rich, confident, and cosmopolitan” 概括成 Ireland became richer。原文中的 state 指愛爾蘭國家或社會狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “became less interested in simple ideas” 對應 “saw less need to drum simple ideas into its youth”。這裡的 “drum … into” 指反覆灌輸。當一個國家覺得較少需要向年輕人灌輸simple ideas，就表示它對依賴簡化觀念來建立國族敘事的需要下降。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Ireland became richer= a state that was rich, confident, and cosmopolitan became less interested in simple ideas= saw less need to drum simple ideas into its youth整體方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most countries believe learning about history should allow students to think for themselves.”",
+      "translation": "大多數國家認為學習歷史應讓學生自行思考。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As countries all over the world argue over ‘what to tell the children’ about their collective past, many will look to Ireland rather enviously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當世界各國都在爭論應向孩子講述怎樣的 collective past 時，很多國家會相當羨慕地看著愛爾蘭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experience of several countries suggests that, whatever educators and politicians might want, there is a limit to how far history lessons can diverge in their tone from society as a whole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個國家的經驗顯示，不管教育工作者和政治人物想怎樣做，歷史課的語氣與整體社會能偏離的程度有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講不同國家對 history teaching 的不同理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most countries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“think for themselves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many states still see history teaching, and the inculcation of foundation myths, as a strategic imperative; others see it as an exercise in teaching children to think for themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多國家仍把歷史教學和灌輸 foundation myths 看作戰略需要；另一些國家則把它視為訓練孩子自行思考的練習。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “most countries” 是最重要的控制詞。Most 表示大多數，通常需要明確多數證據。原文提供的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many states still…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多國家仍然……"
+            },
+            {
+              "kind": "quote",
+              "text": "“others see it…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些國家認為……這裡有兩組國家，但文章沒有說哪一組是 majority。原文支援「有些國家認為歷史課應訓練孩子自己思考」，卻沒有足夠資料支持「大多數國家都這樣認為」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題也不能判 FALSE，因為原文沒有明確說大多數國家不支持自行思考。真正缺少的是比例資料：most。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The meanings of the words ‘settlement’ and ‘invasion’ are not the same.”",
+      "translation": "“settlement” 和 “invasion” 這兩個詞的意思不同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“Take Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以澳洲為例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In New South Wales, where the subject is taught in its own right, Mr. Howard’s bid to promote a patriotic view of history meets strong resistance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 New South Wales，history 作為獨立科目教授；Howard 推動 patriotic view of history 的努力遇到強烈抵抗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 講澳洲歷史教育中對白人到來的不同稱呼和解讀，所以這題定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“settlement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invasion”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The romantic story has been fading since the 1980s, when a liberal, revisionist view came to dominate curricula: one that replaced ‘settlement’ with ‘invasion’ and that looked for the first time at the stories of aborigines and women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種浪漫化故事自 1980 年代以來逐漸淡出；當時一種 liberal、revisionist view 開始主導課程：它用 “invasion” 取代 “settlement”，並首次關注 aborigines 和 women 的故事。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 revisionist view “replaced ‘settlement’ with ‘invasion’”。如果兩個詞意思相同，就沒有必要用一個詞取代另一個詞。這裡的 replacement 顯示視角和價值判斷改變："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“settlement” 聽起來較像定居、開拓；“invasion” 帶有入侵、佔領、傷害原住民的意味。題目說兩者 meanings are not the same，和原文的 replacement 關係一致。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A foundation story is an important part of history classes in Russia.”",
+      "translation": "在俄羅斯，foundation story 是歷史課或歷史教育中的重要部分。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3 + Paragraph 6 Paragraph 3 中的總框架句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many states still see history teaching, and the inculcation of foundation myths, as a strategic imperative…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多國家仍把歷史教學和灌輸 foundation myths 視為戰略需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 第一和最後一句也很重要。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia is a country where a relatively gentle (by world standards) effort to re-impose a sort of national ideology looks destined to fail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲是一個國家；若以世界標準看，重新施加某種 national ideology 的努力相對溫和，而且看似注定失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the president is promoting a national day which signals ‘isolation and defensiveness’ towards western Christendom…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "總統正在推動一個 national day，這個節日對 western Christendom 傳遞出「孤立和防衛」的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“foundation story”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Russia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文在 Paragraph 6 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Russia, by contrast, is a country where the general principle of a toughly enforced ideology, and a national foundation story, still seems natural to many people, including the country’s elite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，俄羅斯是一個這樣的國家：強力推行 ideology 和 national foundation story 的一般原則，對許多人來說仍顯得自然，包括該國精英。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要結合 Paragraph 3 的 general frame 和 Paragraph 6 的 Russia example。Paragraph 3 說許多國家把 history teaching 和 foundation myths 的灌輸視為 strategic imperative。Paragraph 6隨後把 Russia 作為強烈例子，說 national foundation story 在俄羅斯仍然被很多人，包括精英，視為自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 foundation story 是 Russian history classes 的 important part。雖然 Paragraph 6 主要用national holiday 例子呈現，但整篇文章都在討論 history teaching 和 curriculum；Russia 正是在這個框架下出現。原文說 national foundation story still seems natural to many people, including the elite，已經支援它在歷史教育和國族敘事中有重要位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The new South African history curriculum aims to include different standpoints and bring people together.”",
+      "translation": "新的 South African history curriculum 目標是包含不同觀點，並讓人們重新走近。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In South Africa, where white rule collapsed, the authorities seem to have done a better job at forging a new national story and avoiding the trap of replacing one rigid ideology with another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 South Africa，white rule collapsed 後，當局似乎較成功地建立新的 national story，並避免用另一種 rigid ideology 取代舊的一種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“December 16 was a day to remember white settlers clashing with the Zulus in 1838; now it is the Day of Reconciliation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "12 月 16 日原本是紀念 1838 年白人定居者與 Zulus 衝突的日子；現在它是 Day of Reconciliation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中講 South Africa 的新歷史課程和新 national story。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new South African history curriculum”"
+            },
+            {
+              "kind": "quote",
+              "text": "“include”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bring people together”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The main message of the new school curriculum is inclusion and reconciliation,’ says Linda Chisholm, who designed post-apartheid lessons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "設計 post-apartheid lessons 的 Linda Chisholm 說：「新的學校課程主要訊息是 inclusion and reconciliation。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “include different standpoints” 對應原文 “inclusion”。Paragraph 7 還說學生會處理primary sources，例如 oral history and documents，而不再只由 textbook 單向灌輸。這也支持多角度接觸歷史材料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “bring people together” 對應 “reconciliation”。Reconciliation 指和解、修復關係、讓曾經分裂的人群重新建立關係。最後一句的 Day of Reconciliation 也再次加強這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "include different standpoints= inclusion + handling primary sources bring people together= reconciliation"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Learning about the Past.pdf",
+    "sha256": "87e2c5caf24d59a443ccb6b7a5e38cad0676be132b81386e8dfd087584298834",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句用 “the past is a foreign country” 引入，說以前愛爾蘭學校教授的歷史版本非常簡單；最後一句引用 Jimmy Joyce，說內戰只是尷尬事件，幾乎沒有提及。只看首尾句，可以先估計這段會批評舊式 Irish history lessons 太單線：英國壓迫愛爾蘭、愛爾蘭英雄反抗、最後成功。這段會處理Irish Civil War 為何被淡化，所以 Question 27 明顯會定位到這裡。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說今天的 Irish history lessons 更 sophisticated；最後一句說富裕、自信、世界化的國家較少需要向年輕人灌輸簡單觀念，尤其當這些觀念可能鼓勵暴力時。只看首尾句，可以估計這段在解釋愛爾蘭歷史教育轉變的原因。中間提到 Northern Ireland conflict、Catholic church influence decline、national history 的 crude view。Questions 31 和 36 很可能來自這段。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說世界各國都在爭論應告訴孩子怎樣的 collective past；最後一句說歷史課的語氣不可能和整體社會差距太大。只看首尾句，這段從愛爾蘭轉向全球比較，說 history curriculum 反映一個國家和精英如何看待自己。它也提出兩種歷史教育目的：建立 foundation myths，或訓練孩子自己思考。Questions 32、37 和 39 會用到這段的大框架。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句 “Take Australia” 把例子轉到澳洲；最後一句說在 New South Wales，Howard 推動patriotic view of history 遇到強烈阻力。只看首尾句，可以看出這段講澳洲歷史教育的政治角力。中間有 John Howard、history summit、structured narrative、romantic vision of white settlement、revisionist view、settlement / invasion、multicultural、aboriginal reconciliation。Questions 28、33和 38 會定位到這段。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句介紹 Sydney 的 Judy King，她的學校有超過 40 個 ethnic groups 的學生；最後一句引用Tom Ying，說如果只有單方面故事，immigrants、women 和 aborigines 都不會投入其中。只看首尾句，可以估計這段從學校前線角度反駁 single narrative。它強調多族群課室不能只講一套故事，要 canvass 多種 terms 和 standpoints。Question 34 會直接定位到 Judy King 的話。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句把澳洲和俄羅斯作對比，說俄羅斯仍有很多人接受強硬 ideology 和 national foundation story；最後一句引用 Andrei Zorin，說新的 national day 對 western Christendom 發出 isolation and defensiveness 的訊號。只看首尾句，可以估計這段講俄羅斯如何用節日和歷史記憶建立國族故事。Questions 29 和 39 會定位到這段，尤其是 new national day 和 foundation story。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說在 South Africa，white rule collapsed 後，當局較成功地建立新的 national story，並避免用另一種 rigid ideology 取代舊 ideologies；最後一句說 December 16 從白人定居者和 Zulus 衝突的紀念日，重新定義成 Day of Reconciliation。只看首尾句，可以估計這段講南非如何把歷史教育轉向 inclusion 和 reconciliation。Questions 30、35 和 40 都會來自這段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "補充：Question 37 我會按嚴格 IELTS 字面判 NOT GIVEN。原文只說 “many states” 和 “others”，沒有說哪一邊佔 “most”。"
+  ]
+}

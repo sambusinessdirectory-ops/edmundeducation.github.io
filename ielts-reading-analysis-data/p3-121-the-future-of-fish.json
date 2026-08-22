@@ -1,0 +1,1965 @@
+{
+  "id": "p3-121-the-future-of-fish",
+  "catalogueId": "p3-121",
+  "catalogueIds": [
+    "p3-121"
+  ],
+  "passage": 3,
+  "title": "The Future of fish",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "YES",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "NO",
+    "D",
+    "C",
+    "A",
+    "B — controls",
+    "F — fishing techniques",
+    "D — fish catches",
+    "I — the land",
+    "H — marine reserves",
+    "C — failure"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“It is more than a thousand years since people started to catch fish for commercial use.”",
+      "translation": "人類開始為商業用途捕魚，至今已有一千多年。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷一個時間說法是否和作者觀點一致。控制詞是 “more than a thousand years” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“commercial use”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1第一句：“The face of the ocean has changed completely since the first commercial fishers cast their nets and hooks over a thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從一千多年前第一批商業漁民撒下漁網和魚鉤以來，海洋的面貌已完全改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unhappily, the sea trails far behind the land in terms of the area and the quality of protection given.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人遺憾的是，就受保護的面積和保護質素而言，海洋遠遠落後於陸地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會處理 commercial fishing 的歷史起點，以及現代海洋保護不足。題目問一千多年前的商業捕魚，所以第一句已是高價值位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “more than a thousand years” 和 “commercial use”。原文直接有 “commercial fishers”和 “over a thousand years ago”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The face of the ocean has changed completely since the first commercial fishers cast their nets and hooks over a thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從一千多年前第一批商業漁民撒下漁網和魚鉤以來，海洋的面貌已完全改變。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “people started to catch fish for commercial use”= 原文 “the first commercial fishers cast their nets and hooks”題目 “more than a thousand years”= 原文 “over a thousand years ago”判斷：題目和原文時間、主體、動作都一致。原文說一千多年前已有 commercial fishers，題目說商業捕魚開始至今超過一千年。因此答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“In general, open access to the oceans is still regarded as desirable.”",
+      "translation": "一般而言，人們仍認為海洋應該開放給大家自由進出和使用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問一種普遍觀念是否仍存在。控制詞是 “in general”、“open access”、“still regarded as desirable”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For centuries, as fishing and commerce have expanded, we have held onto the notion that the sea is different from the land.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數百年來，隨著捕魚和商業擴張，我們一直抱持一種觀念：海洋和陸地不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Areas off-limits to all exploitation cover something like one five-thousandth of the total area of the world’s seas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完全禁止任何開發的區域，大約只佔全球海洋總面積的五千分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 2 會解釋人類對海洋的開放觀念，以及這種觀念如何導致海洋保護面積極少。題目中的 open access 明顯和 “free to come and go” 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “open access”、“still”、“desirable”。原文沒有直接說 desirable，但有 “should be free”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“We still view it as a place where people and nations should be free to come and go at will, as well as somewhere that should be free for us to exploit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們仍把海洋視為一個人們和國家都應可自由來去的地方，也視為一個應可自由開發利用的地方。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“open access to the oceans”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “people and nations should be free to come and go at will”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still regarded as desirable”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “We still view it as… should be free”判斷：題目說「一般仍認為開放使用海洋是理想或應然狀態」。原文用 “we still view” 和 “should be free”表示這種觀念仍存在。因此答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "作者本身明顯不欣賞這種觀念，因為後文說我們因此不願保護海洋。不過題目問的是「這種觀念是否仍被普遍持有」，不是問作者是否支持它。原文支援題目命題，所以判 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“Sea fishing is now completely banned in the majority of protected areas.”",
+      "translation": "如今，在大多數海洋保護區內，海洋捕魚已被完全禁止。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 protected areas 裡面是否「大多數完全禁捕」。控制詞是 “completely banned” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“majority”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“For centuries, as fishing and commerce have expanded, we have held onto the notion that the sea is different from the land.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數百年來，隨著捕魚和商業擴張，我們一直抱持海洋和陸地不同的觀念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Areas off-limits to all exploitation cover something like one five-thousandth of the total area of the world’s seas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完全禁止任何開發的區域，大約只佔全球海洋總面積的五千分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到這段會談 sea protection 的不足。題目問 protected areas 和 complete ban，尾句的 “off-limits to all exploitation” 已經非常相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “protected areas”、“completely banned”、“majority”。原文有 “most marine protected areas allow some fishing to continue”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Worse still, most marine protected areas allow some fishing to continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更糟的是，大多數海洋保護區仍容許某些捕魚活動繼續進行。"
+            },
+            {
+              "kind": "label",
+              "text": "再看段尾："
+            },
+            {
+              "kind": "quote",
+              "text": "“Areas off-limits to all exploitation cover something like one five-thousandth of the total area of the world’s seas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完全禁止任何開發的區域，大約只佔全球海洋總面積的五千分之一。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：majority of protected areas = 大多數保護區"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：most marine protected areas = 大多數海洋保護區"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：completely banned"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：allow some fishing to continue判斷：題目說大多數保護區完全禁捕。原文清楚說大多數海洋保護區仍容許部分捕魚繼續。兩者方向相反。因此答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“People should be encouraged to reduce the amount of fish they eat.”",
+      "translation": "應鼓勵人們減少吃魚的數量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問作者有沒有提出「少吃魚」這個建議。控制詞是 “should be encouraged” 和 “reduce the amount of fish they eat”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are squandering the wealth of oceans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正在浪費海洋的財富。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reserves are a first resort, not a final resort when all else fails.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保護區應是優先採取的做法，不應等到所有其他方法失敗後才使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 是全文結論，會談危機和應採取的管理方法。題目問 should，所以要看作者最後提出甚麼建議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “fish they eat”、“reduce”、“should be encouraged”。原文中最接近的是 “humanity will lose a key source of protein”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“If we don’t break out of this cycle of failure, humanity will lose a key source of protein, and much more besides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們不打破這種失敗循環，人類將失去一個重要蛋白質來源，還會失去更多東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章確實提到 fish 作為人類 protein source 的重要性，但作者的建議是改革 fisheries management 和建立 marine reserves："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marine reserves lie at the heart of the reform.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋保護區位於改革的核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文沒有提出 “reduce the amount of fish they eat”。作者重點放在保護海洋、改革管理、建立reserves。文章提供了魚類對人類飲食重要的背景，仍未給出「鼓勵少吃魚」這個政策建議。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 overfishing 和資源衰退，現實上可能會想到少吃魚。不過 IELTS 判斷只能根據文章。本文講的是管理捕魚和保護海域，沒有把責任轉到 consumer diet 上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“The re-introduction of certain mammals to the Mediterranean is a straightforward task.”",
+      "translation": "把某些哺乳動物重新引入地中海是一件簡單直接的任務。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 re-introduction / recovery 是否容易。控制詞是 “straightforward task”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reserves cannot bring back what has died out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保護區不能帶回已經消失的東西。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that the sooner we act to protect marine life, the more certain our success will be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著我們越早行動保護海洋生物，成功的把握就越大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 4 會講保護的限制，以及為何需要及早行動。題目問re-introduction 是否 straightforward，所以很可能在這段討論 extinction / recovery 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “re-introduction”、“Mediterranean”、“mammals”。原文有 “reintroductions from elsewhere” 和 “The Mediterranean”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“We can never resurrect globally extinct species, and restoring locally extinct animals may require reintroductions from elsewhere, if natural dispersal from remaining populations is insufficient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們永遠無法復活全球已滅絕的物種；若剩餘族群的自然擴散不足，要恢復局部滅絕的動物，可能需要從其他地方重新引入。"
+            },
+            {
+              "kind": "label",
+              "text": "再看地中海例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Mediterranean sailed by Ulysses, the legendary king of ancient Greece, supported abundant monk seals, loggerhead turtles and porpoises.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "古希臘傳說國王 Ulysses 航行過的地中海，曾經有大量 monk seals、loggerhead turtles 和porpoises。"
+            },
+            {
+              "kind": "label",
+              "text": "最後關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their disappearance through hunting and overfishing has totally restructured food webs, and recovery is likely to be much harder to achieve than their destruction was.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們因捕獵和過度捕魚而消失，已完全重組了食物網；要恢復，很可能比破壞它們困難得多。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “straightforward task” = 簡單直接的任務原文 “recovery is likely to be much harder to achieve” = 復原很可能困難得多判斷：原文不只提到 reintroductions 可能需要外來來源，還明確說地中海相關物種消失後，恢復很可能非常困難。這和 “straightforward” 相反。因此答案是 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 32–34 Multiple Choice 要選最完整、最精確獲原文支持的選項；不能只看某個原字出現，要檢查選項和原文的主體、動作、時間和態度是否一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — Action to protect fish stocks is urgently needed.",
+      "answerKey": "D — Action to protect fish stocks is urgently needed.",
+      "type": "Question Analysis",
+      "prompt": "“What does the writer mean by the question, ‘How much time have we got?’ in the fifth paragraph?”",
+      "translation": "作者在第五段問 “How much time have we got?”，真正想表達甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考 rhetorical question，即反問句的功能。要看這句前後語氣，而不只看問題字面。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To some people, creating marine reserves is an admission of failure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些人來說，建立海洋保護區等於承認失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it all went wrong, as it inevitably had to, Europe sent its boats to other countries in order to obtain fish for far less than they were actually worth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當事情出錯，而且這幾乎不可避免時，歐洲便把漁船派到其他國家，以遠低於魚類真正價值的代價取得魚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 5 會批評某些人反對 marine reserves 的邏輯，並用歐洲政策失敗作例子。題目問的反問句就在批評傳統 fisheries management 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “How much time have we got?”。原句直接出現在 Paragraph 5。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀前後文"
+            },
+            {
+              "kind": "quote",
+              "text": "“Many fisheries managers are still wedded to the idea that one day their models will work, and politicians will listen to their advice. Just give the approach time, and success will be theirs. How much time have we got?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多漁業管理者仍固守一種想法：總有一天，他們的模型會有效，政治人物也會聽取他們的建議。只要給這種方法時間，他們就會成功。我們還有多少時間？"
+            },
+            {
+              "kind": "label",
+              "text": "後文馬上說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This approach has been tried and refined for the last 50 years. There have been few successes with which to feather the managers’ caps, but a growing litany of failure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種方法已被嘗試和改良了過去五十年。能讓管理者引以為傲的成功很少，失敗清單卻越來越長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： D “Action to protect fish stocks is urgently needed.”正確。反問句的功能是質疑「再給多些時間」這種說法。作者指出此方法已經試了五十年，成功很少，失敗很多，所以保護魚類資源的行動很急迫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “Fisheries policies are currently based on uncertain estimates.”有部分背景相近，因為後文提到 flawed models。不過這不是反問句的主要功能。反問句要表達的是時間已不多，不能再等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Accurate predictions will allow governments to plan properly.”這是 managers 可能相信的理想狀態，不是作者的批評重點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Fisheries managers should provide clearer information.”原文沒有把問題簡化成資訊不清楚。作者批評的是整套管理方法長期失效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — It was based on predictions which were inaccurate.",
+      "answerKey": "C — It was based on predictions which were inaccurate.",
+      "type": "Question Analysis",
+      "prompt": "“What is the writer’s comment on the Common Fisheries Policy?”",
+      "translation": "作者如何評論 Common Fisheries Policy？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看作者對 CFP 的評價。控制詞是 “Common Fisheries Policy”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To some people, creating marine reserves is an admission of failure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些人來說，建立海洋保護區等於承認失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it all went wrong, as it inevitably had to, Europe sent its boats to other countries in order to obtain fish for far less than they were actually worth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當事情出錯，而且幾乎必然會出錯時，歐洲把漁船派到其他國家，以遠低於魚類實際價值的代價取得魚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段是在批評傳統漁業管理的失敗。CFP 出現在這段中間，應該作為失敗例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Common Fisheries Policy”。原文直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The Common Fisheries Policy, the European Union’s instrument for the management of fisheries and aquaculture, exemplifies the worst pitfalls: flawed models, flawed advice, watered-down recommendations from government bureaucrats and then the disregard of much of this advice by politicians.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Common Fisheries Policy 是歐盟管理漁業和水產養殖的工具，它體現了最糟糕的陷阱：有缺陷的模型、有缺陷的建議、被政府官僚削弱的建議，然後政治人物又無視其中大部分建議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： C “It was based on predictions which were inaccurate.”最貼近原文。原文的 “flawed models” 指管理模型有問題；漁業模型通常用來估計或預測魚量、捕撈量和政策效果。選項 C 用 “predictions which were inaccurate” 概括 “flawed models / flawed advice”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “Measures that it advocated were hastily implemented.”原文說 recommendations 被 watered-down，很多 advice 又被 politicians disregard。這不是hastily implemented。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Officials exaggerated some of its recommendations.”原文是 watered-down recommendations，即建議被削弱，不是 exaggerated。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The policymakers acquired a good reputation.”原文剛好相反，說 few successes、growing litany of failure，CFP exemplifies the worst pitfalls。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A — The means of avoiding the worst outcomes needs to be prioritised.",
+      "answerKey": "A — The means of avoiding the worst outcomes needs to be prioritised.",
+      "type": "Question Analysis",
+      "prompt": "“What is the writer’s conclusion concerning the decline of marine resources?”",
+      "translation": "對於海洋資源下降，作者最後得出甚麼結論？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看全文結論，尤其是最後一段對 crisis 和 solution 的總結。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are squandering the wealth of oceans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正在浪費海洋的財富。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reserves are a first resort, not a final resort when all else fails.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保護區應是優先使用的方法，不能等到所有其他方法失效後才使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到最後一段的功能是警告海洋資源浪費，並把 marine reserves 放到優先位置。題目問 conclusion，所以 Paragraph 6 是核心段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “conclusion”、“decline of marine resources”、“avoiding worst outcomes”。原文中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“catastrophic mistake”、“heart of the reform”、“centre stage”、“first resort” 都很重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“We can go a long way to avoiding this catastrophic mistake with simple, common-sense management. Marine reserves lie at the heart of the reform.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要採用簡單、合乎常識的管理，我們可以在很大程度上避免這場災難性錯誤。海洋保護區位於改革的核心。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have to be placed centre stage as a fundamental underpinning for everything we do in the oceans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們必須被放在核心位置，作為我們在海洋中所有行動的根本支撐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： A “The means of avoiding the worst outcomes needs to be prioritised.”正確。原文說要避免 catastrophic mistake，而 marine reserves 必須 lie at the heart、placed centre stage、be a first resort。A 把這個意思概括為：避免最壞結果的方法需要優先處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Measures already taken to avoid a crisis are probably sufficient.”原文說現有方法失敗，marine reserves 不能只是 “here and there” 地執行。B 和作者態度不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “The situation is now so severe that there is no likely solution.”原文仍提出 simple, common-sense management 和 marine reserves，所以不是無解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It is no longer clear which measures would be most effective.”原文很清楚把 marine reserves 放在 heart / centre stage / first resort。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 35–40 Summary Completion 要先看空格前後文法、詞性、單複數和字數限制，再回文章找同義位置；這一組使用選項 A–J，所以答案要用對應字母和詞語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B — controls",
+      "answerKey": "B — controls",
+      "type": "Question Analysis",
+      "prompt": "“It was unnecessary to introduce 35 ______ of any kind, because large areas of the oceans were inaccessible.”",
+      "translation": "因為大片海洋區域難以被捕魚活動觸及，所以當時沒有必要引入任何形式的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “introduce”，後面有 “of any kind”，需要一個複數名詞或抽象管理措施。選項中最自然的是 “controls”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The face of the ocean has changed completely since the first commercial fishers cast their nets and hooks over a thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從一千多年前第一批商業漁民撒下漁網和魚鉤以來，海洋面貌已完全改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unhappily, the sea trails far behind the land in terms of the area and the quality of protection given.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人遺憾的是，就受保護面積和質素而言，海洋遠遠落後於陸地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段談捕魚歷史變化和保護不足。題目說 twentieth century 之前沒有必要引入某種措施，因此應回到本段中間的 nineteenth century 部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “unnecessary”、“large areas inaccessible”。原文對應 “little need” 和 “beyond the reach of fishing”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Fisheries intensified over the centuries, but even by the nineteenth century it was still felt, justifiably, that the plentiful resources of the sea were for the most part beyond the reach of fishing, and so there was little need to restrict fishing or create protected areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個世紀以來，漁業逐漸加強；但即使到十九世紀，人們仍有理由認為，海洋中豐富的資源大多超出捕魚活動可及範圍，因此幾乎沒有需要限制捕魚或建立保護區。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“large areas of the oceans were inaccessible”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “resources of the sea were for the most part beyond the reach of fishing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unnecessary to introduce ___”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “there was little need to restrict fishing or create protected areas”選項 B “controls” 可以概括 restrict fishing / create protected areas 這些管理限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B — controls。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "F — fishing techniques",
+      "answerKey": "F — fishing techniques",
+      "type": "Question Analysis",
+      "prompt": "“However, as 36 ______ improved, this situation changed…”",
+      "translation": "然而，隨著 ______ 改良，這種情況改變了。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後是 “improved”，需要一個可改良的複數名詞短語。選項中 “fishing techniques” 最符合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The face of the ocean has changed completely since the first commercial fishers cast their nets and hooks over a thousand years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從一千多年前第一批商業漁民撒下漁網和魚鉤以來，海洋面貌已完全改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unhappily, the sea trails far behind the land in terms of the area and the quality of protection given.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人遺憾的是，就保護面積和保護質素而言，海洋遠遠落後於陸地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見本段的重點是由古代捕魚轉到現代捕魚壓力。題目說 “this situation changed”，要找造成改變的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “improved”、“changed”。原文對應 “modern fishing technologies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The twentieth century heralded an escalation in fishing intensity that is unprecedented in the history of the oceans, and modern fishing technologies leave fish no place to hide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀帶來了海洋史上前所未有的捕魚強度升級；現代捕魚技術令魚類無處可藏。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“as ___ improved”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “modern fishing technologies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“this situation changed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 海洋資源不再大多超出捕魚可及範圍；現代技術令魚無處可避。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F “fishing techniques” 是 “fishing technologies” 的概括改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F — fishing techniques。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D — fish catches",
+      "answerKey": "D — fish catches",
+      "type": "Question Analysis",
+      "prompt": "“…and in the middle of the twentieth century, policies were introduced to regulate 37 ______.”",
+      "translation": "在二十世紀中期，政策被引入，用來規管 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “regulate”，需要一個可被政策管理的對象。從選項看，最合理的是 “fish catches”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5，並需要連到 Paragraph 6 的時間線索Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To some people, creating marine reserves is an admission of failure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些人來說，建立海洋保護區等於承認失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it all went wrong, as it inevitably had to, Europe sent its boats to other countries in order to obtain fish for far less than they were actually worth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當事情出錯，而且這幾乎不可避免時，歐洲把漁船派到其他國家，以遠低於魚類真正價值的代價取得魚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段批評傳統漁業管理和政策失敗。題目中的 “policies” 與 Common Fisheries Policy 及fisheries management 有關。時間 “middle of the twentieth century” 則可由 Paragraph 6 的1940s and 1950s 補足。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “middle of the twentieth century”、“policies”、“regulate”。原文相關短語包括"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“management of fisheries”、“This approach has been tried and refined for the last 50 years” 和“rational fisheries management envisioned by scientists in the 1940s and 1950s”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "quote",
+              "text": "“The Common Fisheries Policy, the European Union’s instrument for the management of fisheries and aquaculture…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Common Fisheries Policy 是歐盟用來管理漁業和水產養殖的工具。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一段："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they will not be sufficient if they are implemented only here and there to shore up the crumbling edifice of the ‘rational fisheries management’ envisioned by scientists in the 1940s and 1950s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果海洋保護區只是零散地用來支撐那套由 1940 年代和 1950 年代科學家構想、如今正在崩塌的「理性漁業管理」體系，它們仍不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“policies were introduced to regulate…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “Common Fisheries Policy” / “management of fisheries”被管理的核心對象是 fishing activity and catches，即捕魚量。選項中最貼近的是 D — fish catches。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “controls” 已更適合 Q35，因為 Q35 概括 restrict fishing / protected areas。Q37 問政策規管甚麼，D 的 “fish catches” 更貼 fisheries management 的實際對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "I — the land",
+      "answerKey": "I — the land",
+      "type": "Question Analysis",
+      "prompt": "“These policies have not succeeded. Today, by comparison with 38 ______ the oceans have very little legal protection.”",
+      "translation": "這些政策未能成功。今天，和 ______ 相比，海洋得到的法律保護很少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “by comparison with”，需要一個比較對象。文章反覆比較 sea 和 land，所以答案應是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the land”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“For centuries, as fishing and commerce have expanded, we have held onto the notion that the sea is different from the land.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數百年來，隨著捕魚和商業擴張，我們一直抱持海洋和陸地不同的觀念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Areas off-limits to all exploitation cover something like one five-thousandth of the total area of the world’s seas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完全禁止任何開發的區域，大約只佔全球海洋總面積的五千分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段比較 sea and land protection，題目正好問 “by comparison with”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “comparison”、“legal protection”、“oceans”。原文有 “compared to the sea” 和百分比比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“On land, protected areas have proliferated as human populations have grown. Here, compared to the sea, we have made greater headway in our struggle to maintain the richness and variety of wildlife and landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在陸地上，隨著人口增長，保護區大量增加。在這方面，和海洋相比，我們在維持野生生物和景觀的豐富及多樣性方面取得了更大進展。"
+            },
+            {
+              "kind": "label",
+              "text": "再看數字："
+            },
+            {
+              "kind": "quote",
+              "text": "“Twelve percent of the world’s land is now contained in protected areas, whereas the corresponding figure for the sea is only three-fifths of one percent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在全球 12% 的陸地位於保護區內，相對地，海洋相應比例只有五分之三個百分點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“by comparison with ___”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “compared to the sea” / land-sea comparison選項 I “the land” 正是比較對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 I — the land。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "H — marine reserves",
+      "answerKey": "H — marine reserves",
+      "type": "Question Analysis",
+      "prompt": "“Despite the doubts that many officials have about the concept of 39 ______, these should be at the heart of any action taken.”",
+      "translation": "儘管許多官員對 ______ 這個概念有所懷疑，它們仍應位於任何行動的核心。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後用 “these”，所以答案應是複數名詞。句子後半 “at the heart” 明顯對應最後一段的"
+            },
+            {
+              "kind": "quote",
+              "text": "“Marine reserves lie at the heart of the reform.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 和 Paragraph 6 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To some people, creating marine reserves is an admission of failure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些人來說，建立海洋保護區等於承認失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reserves are a first resort, not a final resort when all else fails.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保護區應是優先使用的方法，不能等到所有其他方法失效後才使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩句，已可見本文最後的爭論焦點是 marine reserves：有人懷疑或抗拒，作者卻主張優先使用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “doubts”、“concept”、“at the heart”。原文對應 “creating marine reserves is an admission of failure” 和 “Marine reserves lie at the heart of the reform.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“To some people, creating marine reserves is an admission of failure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對某些人來說，建立海洋保護區等於承認失敗。"
+            },
+            {
+              "kind": "label",
+              "text": "這就是題目說的 “doubts”。再看作者結論："
+            },
+            {
+              "kind": "quote",
+              "text": "“Marine reserves lie at the heart of the reform.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海洋保護區位於改革的核心。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“the concept of ___”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “creating marine reserves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“these should be at the heart”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “Marine reserves lie at the heart of the reform”所以答案是 H — marine reserves。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — failure",
+      "answerKey": "C — failure",
+      "type": "Question Analysis",
+      "prompt": "“The consequences of further 40 ______ are very serious, and may even affect our continuing existence.”",
+      "translation": "如果進一步 ______，後果會非常嚴重，甚至可能影響人類繼續生存。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “further”，後面接名詞。題目說後果嚴重並影響人類生存，應定位最後一段危機句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are squandering the wealth of oceans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正在浪費海洋的財富。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reserves are a first resort, not a final resort when all else fails.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保護區應是優先使用的方法，不能等到所有其他方法失效後才使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到作者在結論中強調危機和解決方案。題目說 “may even affect our continuing existence”，應找涉及 human life 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “consequences”、“very serious”、“continuing existence”。原文對應 “ramifications for human life itself”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“If we don’t break out of this cycle of failure, humanity will lose a key source of protein, and much more besides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們不打破這種失敗循環，人類將失去一個重要蛋白質來源，還會失去更多。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Disrupting natural ecosystem processes, such as water purification, nutrient cycling, and carbon storage, could have ramifications for human life itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "破壞水質淨化、養分循環和碳儲存等自然生態系統過程，可能會對人類生命本身產生重大影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“further ___”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= continuing “cycle of failure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may even affect our continuing existence”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “could have ramifications for human life itself”所以答案是 C — failure。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Future of fish.pdf",
+    "sha256": "28762ec2d14c4154b4571ada78232bf9fc0ba2fc6b4d21d28d81929c81385776",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，可以見到文章由「海洋面貌自一千多年前商業捕魚開始後已完全改變」開場，最後收在「海洋在保護面積和保護質素上遠遠落後於陸地」。本段功能是交代歷史轉變：十九世紀以前人們仍覺得海洋資源龐大，限制捕魚沒有迫切性；到二十世紀，捕魚強度和技術大幅提升，魚類已無處可避。Q27、Q35、Q36 主要依靠這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說數百年來，人類一直把海洋視為和陸地不同；尾句說完全禁止開發的海域只佔全球海洋約五千分之一。這段功能是比較陸地和海洋保護差距，也解釋人類為何遲遲不保護海洋。中間有open access、free to exploit、land protected areas、sea protected areas 等關鍵資訊。Q28、Q29、Q38 都可以先定位到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句指出人類遲來地意識到 natural refuges 對維持漁業和健康多樣的海洋生態系統很重要；尾句卻提醒保護也有限制。這段功能是替 marine reserves 建立正面價值，同時引出下一段的限制討論。中間說 marine reserves 單靠自己不能重建漁業，仍需要其他管理措施；不過，禁捕區是漁業改革中最後也最重要的一部分，能支撐其他努力。"
+      },
+      {
+        "number": "4",
+        "summary": "首句明確說 reserves 不能令已滅絕的東西復活；尾句總結，越早保護海洋生物，成功機會越高。這段功能是解釋保護的時間限制和生態復原困難。中間提到全球滅絕、局部滅絕、reintroductions、northern cod，以及 Mediterranean 的 monk seals、loggerhead turtles、porpoises。Q31 會定位這段，因為題目問 re-introduction 是否簡單。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說某些人把建立 marine reserves 視為承認失敗；尾句指出歐洲漁船最後到其他國家以過低代價取得魚類。這段功能是批評傳統 fisheries management 的失敗，尤其是模型、建議、官僚和政治執行之間層層失準。中間的 “How much time have we got?” 是作者的急迫反問。Q32 和 Q33明顯集中在這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說人類正在浪費海洋財富；尾句把 marine reserves 定義為 first resort，不應等到其他方法失敗後才使用。這段功能是全文結論：若不打破失敗循環，人類會失去蛋白質來源，甚至破壞水質淨化、養分循環和碳儲存等生命支撐功能。作者主張 marine reserves 必須放在改革核心。Q30、Q34、Q39、Q40 都會用到這段。"
+      }
+    ]
+  }
+}

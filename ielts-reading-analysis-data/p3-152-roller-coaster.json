@@ -1,0 +1,1533 @@
+{
+  "id": "p3-152-roller-coaster",
+  "catalogueId": "p3-152",
+  "catalogueIds": [
+    "p3-152"
+  ],
+  "passage": 3,
+  "title": "Roller coaster",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "chain",
+    "loop",
+    "gear",
+    "simple motor",
+    "ice",
+    "waxed slides",
+    "melt",
+    "wheels",
+    "coal",
+    "switchback track",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "chain",
+      "answerKey": "chain",
+      "type": "Table Completion",
+      "prompt": "Question 27",
+      "translation": "用來上坡的長線狀物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "表格提示："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long line for climbing uphill”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “long line” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The traditional lifting mechanism is a long length of chain running up the hill under the track.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統提升機制是一條很長的 chain，沿著山坡在軌道下方延伸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的核心名詞是 chain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“long length of chain” 是完整描述，但字數超過兩個字；表格要求的是物件名稱，所以填 chain 最安全。題目把原文的 long length of chain 改寫成 long line。 climbing uphill 對應 running up the hill。所以 27 是 chain。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "loop",
+      "answerKey": "loop",
+      "type": "Table Completion",
+      "prompt": "Question 28",
+      "translation": "那條線被固定成的形狀。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "表格提示："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shape to which the line is firmly connected”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “firmly connected” 對應原文的 fastened："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chain is fastened in a loop, which is wound around a gear at the top of the hill and another one at the bottom of the hill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條 chain 被固定成一個 loop，並繞在山頂的一個 gear 和山底的另一個 gear 上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "題目問的是 chain 被固定成甚麼形狀。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“fastened in a loop”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 loop。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● line = chain● firmly connected = fastened● shape = loop所以 28 是 loop。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "gear",
+      "answerKey": "gear",
+      "type": "Table Completion",
+      "prompt": "Question 29",
+      "translation": "位於山頂和山底的東西。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "表格提示："
+            },
+            {
+              "kind": "quote",
+              "text": "“On top and underneath the hill”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chain is fastened in a loop, which is wound around a gear at the top of the hill and another one at the bottom of the hill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chain 被固定成 loop，繞在山頂的一個 gear 和山底的另一個 gear 上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “on top and underneath the hill” 對應：● at the top of the hill● at the bottom of the hill原文說這兩個位置都有 gear。雖然意思上是兩個 gears，但原文使用的答案詞是 gear。IELTS 填空通常應抄原文詞形，所以寫 gear 最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 gear。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "simple motor",
+      "answerKey": "simple motor",
+      "type": "Table Completion",
+      "prompt": "Question 30",
+      "translation": "提供動力的東西。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "表格提示："
+            },
+            {
+              "kind": "quote",
+              "text": "“Provides power”"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The gear at the bottom of the hill is turned by a simple motor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "山底的 gear 由一個 simple motor 轉動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格說 “Provides power”，原文沒有直接用 provides power，但說 bottom gear 由 a simple motor 轉動。Motor 的功能正是提供動力，使 gear 和 chain loop 運行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合字數限制：simple motor 是兩個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 simple motor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "ice",
+      "answerKey": "ice",
+      "type": "Summary Completion",
+      "prompt": "“The earliest roller coasters may have originated in Russia as wooden slides covered with 31 ______.”",
+      "translation": "最早的過山車可能起源於俄羅斯，是覆蓋著 ______ 的木滑梯。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roller coasters have a long, fascinating history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過山車有漫長而迷人的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The French continued to expand on this idea, coming up with more complex track layouts, with multiple cars and all sorts of twists and turns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國人繼續發展這個概念，設計出更複雜的軌道布局、多車廂和各種轉彎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● earliest roller coasters● Russia● wooden slides● covered with原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The direct ancestors of roller coasters were monumental ice slides – long, steep wooden slides covered in ice…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過山車的直接祖先是大型冰滑梯，也就是又長又陡、覆蓋著冰的木滑梯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “covered with” 對應原文 “covered in”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案位置在 “covered in ice”，所以答案是 ice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 ice。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "waxed slides",
+      "answerKey": "waxed slides",
+      "type": "Summary Completion",
+      "prompt": "“The idea was introduced into France, where the slides were modified into 32______ because the warmer climate would 33 ______ the ice.”",
+      "translation": "這個概念被引入法國後，滑梯被改成 ______，因為較溫暖的氣候會令冰 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roller coasters have a long, fascinating history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過山車有漫長而迷人的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The French continued to expand on this idea, coming up with more complex track layouts, with multiple cars and all sorts of twists and turns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國人繼續發展這個概念，設計出更複雜的軌道、多車廂和各種轉彎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 France、warmer climate、ice 都在同一處出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The warmer climate of France tended to melt the ice, so the French started building waxed slides instead…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國較溫暖的氣候容易使冰融化，所以法國人開始改建蠟面滑梯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 slides were modified into ______。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 the French started building waxed slides instead。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“instead” 表示用 waxed slides 取代 ice slides。答案需要一個名詞短語，waxed slides 剛好是兩個字，符合限制。所以 32 是 waxed slides。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "melt",
+      "answerKey": "melt",
+      "type": "Summary Completion",
+      "prompt": "“because the warmer climate would 33 ______ the ice.”",
+      "translation": "因為較溫暖的氣候會 ______ 冰。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roller coasters have a long, fascinating history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過山車有漫長而迷人的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The French continued to expand on this idea, coming up with more complex track layouts, with multiple cars and all sorts of twists and turns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國人繼續發展這個概念，設計出更複雜的軌道、多車廂和各種轉彎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “warmer climate” 和 “ice”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The warmer climate of France tended to melt the ice…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國較溫暖的氣候容易使冰融化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前有 “would”，所以空格應填原形動詞。原文答案詞是 melt。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● would melt the ice● tended to melt the ice兩者意思相同，都是「使冰融化」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 melt。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "wheels",
+      "answerKey": "wheels",
+      "type": "Summary Completion",
+      "prompt": "“Later, 34 ______ were added to the sleds.”",
+      "translation": "後來，______ 被加到 sleds 上。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roller coasters have a long, fascinating history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過山車有漫長而迷人的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The French continued to expand on this idea, coming up with more complex track layouts, with multiple cars and all sorts of twists and turns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國人繼續發展這個概念，設計出更複雜的軌道、多車廂和各種轉彎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中有 “added to the sleds”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…eventually adding wheels to the sleds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後把輪子加到 sleds 上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整對應：● Later = eventually● were added = adding● to the sleds = to the sleds● answer = wheels題目使用被動語態，原文使用動名詞片語，但物件相同。答案是 wheels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 wheels。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "coal",
+      "answerKey": "coal",
+      "type": "Summary Completion",
+      "prompt": "“It was originally a railroad designed to transport 35 ______ between two mountains.”",
+      "translation": "它原本是一條鐵路，用來在兩座山之間運送 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In comparison to the world’s first roller coaster, there is perhaps an even greater debate over what was America’s first true coaster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比世界第一個過山車，關於美國第一個真正過山車是甚麼，也許有更大的爭議。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The railway went through a couple of minor track changes and name changes over the years, but managed to last from 1829 to 1937, over 100 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條鐵路多年來經歷過幾次小型軌道改動和名稱更改，但從 1829 年一直存在到 1937 年，超過一百年。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● originally● railroad● transport● two mountains原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Located in the Lehigh Valley, it was originally used to transport coal from the top of Mount Pisgah to the bottom of Mount Jefferson…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它位於 Lehigh Valley，原本用來把 coal 從 Mount Pisgah 山頂運到 Mount Jefferson 山腳。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “from the top of Mount Pisgah to the bottom of Mount Jefferson” 概括成 “between two mountains”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "被運送的東西是 coal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 coal。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "switchback track",
+      "answerKey": "switchback track",
+      "type": "Summary Completion",
+      "prompt": "“It was also called a switchback railroad because a 36 ______ at the top allowed riders to coast downhill backwards.”",
+      "translation": "它又稱為 switchback railroad，因為山頂有一條 ______，讓乘客倒後滑下坡。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In comparison to the world’s first roller coaster, there is perhaps an even greater debate over what was America’s first true coaster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比世界第一個過山車，關於美國第一個真正過山車是甚麼，也許有更大的爭議。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The railway went through a couple of minor track changes and name changes over the years, but managed to last from 1829 to 1937, over 100 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條鐵路多年來經歷幾次小型軌道改動和名稱更改，但從 1829 年一直存在到 1937 年，超過一百年。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最強定位詞是：● switchback railroad● at the top● coast down backwards原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was called a switchback railroad because a switchback track at the top allowed the riders to coast back down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它被稱為 switchback railroad，因為山頂有 switchback track，讓乘客可以滑回下方。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“This type of track featured a dead end where the steam engine would detach its cars, allowing riders to coast down backwards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類軌道有一個盡頭，蒸汽機車會在那裡脫離車廂，讓乘客倒後滑下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎照抄原文。空格前有 “a”，後面是 “at the top”，所以需要一個單數名詞短語。原文答案是switchback track，兩個字，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 switchback track。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The most exciting roller coaster in the world is in New Jersey.”",
+      "translation": "世界上最刺激的過山車位於 New Jersey。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“600 years ago, roller coaster pioneers never would have imagined the advancements that have been made to create the roller coasters of today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "600 年前，過山車先驅不可能想像到今天過山車已有這樣的進步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their combination of creativity and structural elements makes them one of the purest forms of architecture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "創意和結構元素的結合，使過山車成為最純粹的建築形式之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 是總引入，會用現代過山車例子展示技術進步和設計創意。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：● most exciting● in New Jersey原文找到 New Jersey："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tallest and fastest roller coaster in the world is the Kingda Ka, a coaster in New Jersey…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界上最高和最快的過山車是 Kingda Ka，它位於 New Jersey。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文給出的最高級是：● tallest● fastest題目給出的最高級是：● most exciting這裡不能把 tallest / fastest 自動推成 most exciting。速度和高度可以帶來刺激，但 “most exciting” 是主觀評價，文章沒有明確說 Kingda Ka 是世界上最刺激的過山車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文後面確實說過山車能產生 “intense thrills”，但這是泛指過山車的刺激感，沒有把 Kingda Ka評為 “the most exciting”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以原文資料不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生很容易看到 “tallest and fastest” 就推成 “most exciting”。在 TFNG 題中，最高、最"
+            },
+            {
+              "kind": "paragraph",
+              "text": "快、最大不能自動等於最刺激。題目加入了文章沒有明確判斷的評價詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The French added further innovations to the Russian ice slide, including both cars and tracks.”",
+      "translation": "法國人在俄羅斯冰滑梯的基礎上加入進一步創新，包括車廂和軌道。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Roller coasters have a long, fascinating history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過山車有漫長而迷人的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The French continued to expand on this idea, coming up with more complex track layouts, with multiple cars and all sorts of twists and turns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國人繼續發展這個概念，設計出更複雜的軌道布局、多車廂和各種轉彎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的功能很清楚：先講俄羅斯起源，再講法國如何把冰滑梯概念發展成更接近現代過山車的形式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● French● Russian ice slide● innovations● cars and tracks原文相關句有三組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most widespread account is that a few entrepreneurial Frenchmen imported the ice slide idea to France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最普遍的說法是，幾位有企業精神的法國人把冰滑梯概念引入法國。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1817, Les Montagnes Russes à Belleville … became the first roller coaster where the train was attached to the track…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1817 年，Les Montagnes Russes à Belleville 成為第一個 train 附著在 track 上的過山車。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The French continued to expand on this idea, coming up with more complex track layouts, with multiple cars and all sorts of twists and turns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國人繼續發展這個概念，設計出更複雜的軌道布局、多車廂和各種轉彎。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “added further innovations”。原文用 “continued to expand on this idea”，意思是繼續發展和改良。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “tracks” 對應：● train was attached to the track● more complex track layouts題目中的 “cars” 對應：● multiple cars所以題目整體意思與原文一致。法國人確實把俄羅斯冰滑梯概念引入法國，然後加入輪子、train attached to track、complex track layouts、multiple cars 等創新。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求每一項創新都在同一句出現。cars 和 tracks 分別由相鄰句子支持，這是跨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句整合，但推論距離很短，仍然可接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Switchback Railways began to gain popularity after the first was built in New York.”",
+      "translation": "第一個 Switchback Railway 在 New York 建成後，Switchback Railways 開始流行起來。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The coaster craze in America was just starting to build.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國的過山車熱潮剛開始形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regardless, Switchback Railways were very popular, and sparked many people, including Thompson, to design coasters that were bigger and better.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論如何，Switchback Railways 非常受歡迎，並激發許多人，包括 Thompson，去設計更大更好的過山車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段重點是美國過山車熱潮如何開始，並特別談 Switchback Railways 的流行。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Switchback Railways● popularity● first● New York原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The creation of the Switch Back Railway, by LaMarcus Thompson, gave roller coasters national attention.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "LaMarcus Thompson 創建的 Switch Back Railway 使過山車受到全國關注。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Originally built at New York’s Coney Island in 1884, Switchback Railways began popping up all over the country.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最初於 1884 年建於 New York 的 Coney Island，之後 Switchback Railways 開始在全國各地出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regardless, Switchback Railways were very popular…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論如何，Switchback Railways 非常受歡迎。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “began to gain popularity”。原文沒有逐字寫 gain popularity，但有兩個同向證據：● “gave roller coasters national attention”使過山車受到全國關注● “began popping up all over the country”開始在全國各地出現再加上 “were very popular”，完整支持「開始流行」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “after the first was built in New York” 對應原文 “Originally built at New York’s Coney Island in 1884”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也有一個早期 switchback railroad in Pennsylvania。Question 39 問的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 中 Thompson 的 Switch Back Railway 及其引起的全國熱潮，不是在問 America’s first true coaster 的爭議。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Great Depression affected amusement parks but did not diminish the importance of US roller coasters worldwide.”",
+      "translation": "Great Depression 影響了 amusement parks，但沒有削弱美國過山車在世界上的重要性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 1910s and 1920s were probably the best decades in roller-coaster history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1910 年代和 1920 年代可能是過山車史上最好的十年期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this very day, the number of roller coasters in America is just a tiny fraction of the number of roller coasters in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，美國過山車的數量也只是 1920 年代過山車數量的一小部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到明顯由盛轉衰的走向：開頭說 1910s 和 1920s 是黃金時代，結尾說今天的數量只剩很小部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Great Depression● affected amusement parks● did not diminish● US roller coasters原文直接提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, the Great Depression dealt a crushing blow to amusement parks all over America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，Great Depression 對全美的 amusement parks 造成沉重打擊。"
+            },
+            {
+              "kind": "label",
+              "text": "後面繼續說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most—nearly all—of America’s roller coasters were shut down.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國大部分，幾乎全部過山車都被關閉。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this very day, the number of roller coasters in America is just a tiny fraction of the number of roller coasters in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，美國過山車的數量也只是 1920 年代數量的一小部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的第一半 “The Great Depression affected amusement parks” 是原文支持的。原文甚至用"
+            },
+            {
+              "kind": "quote",
+              "text": "“crushing blow” 表示影響非常嚴重。真正控制答案的是第二半：“but did not diminish…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文方向剛好相反。Paragraph F 先說 Great Depression 造成沉重打擊，再說 World War II 使過山車被 neglect，最後說大部分美國過山車被關閉，今天數量只剩 1920s 的很小部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，文章沒有支持「沒有削弱」這個說法。它的證據方向是嚴重衰退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目加入 “worldwide importance”，文章沒有單獨討論全球地位。不過整句的核心判斷是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“did not diminish”。原文提供的不是穩定或未受削弱的畫面；它明確描述 “crushing blow”、shutdowns 和 tiny fraction。因此用 TFNG 規則判斷，題目方向和原文方向相反。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Roller coaster.pdf",
+    "sha256": "5f7159dd5ae440b9e204980a3f562fd9632d81ae08c7cb3943e051b9a906d784",
+    "pageCount": 21
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 600 年前的 roller coaster pioneers 不可能想像今天過山車的技術進步；尾句把過山車說成由 creativity 和 structural elements 結合而成，是一種純粹的 architecture。只看首尾句，可見本段是全文引入：先用 Kingda Ka 代表現代高度和速度，再把重點拉到設計創意、歷史演變和建築結構。這段大概會建立文章總主題，而非提供細節答案。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把 roller coaster 初看成像 passenger train；尾句說到頂端時 chain dog 會被釋放，train 開始下坡。只看首尾句，可以估計本段會解釋過山車如何運作，特別是車廂、軌道、上坡和下坡機制。中間應該會談 chain、gear、motor、chain dogs 等機械部件，所以 27–30 這類表格填空很可能在這段定位。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 roller coasters 有漫長而迷人的歷史；尾句說法國人繼續發展這個概念，設計更複雜的軌道、多車廂和各種轉彎。只看首尾句，可見本段主線是早期起源和法國改良：從俄羅斯冰滑梯開始，再到法國蠟滑梯、輪子、固定軌道和多車設計。這段會回答 earliest origin、ice、France、wheels等歷史填空題。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說關於美國第一個真正過山車是甚麼，有更大爭論；尾句說該鐵路經歷小改動和改名，從1829 年一直存在到 1937 年，超過一百年。首尾句顯示本段聚焦美國早期過山車候選：Mauch Chunk-Summit Hill and Switch Back Railroad。中間應該會交代它原本用途、煤炭運輸、Josiah White 的改造，以及 switchback track 的意思。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說美國的 coaster craze 正開始形成；尾句說 Switchback Railways 很受歡迎，並激發Thompson 等人設計更大更好的過山車。只看首尾句，可見本段處理美國過山車熱潮的興起： Coney Island、1884、Switch Back Railway、全國關注和大眾流行。這段特別適合定位 popularity、New York、Switchback Railways 相關 TRUE / FALSE / NOT GIVEN。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 1910s 和 1920s 可能是過山車史上最佳年代；尾句說直到今天，美國過山車數量仍只是1920s 的一小部分。首尾句形成明顯對比：先講黃金時代和技術突破，再講 Great Depression、World War II 後的大幅衰退。這段大概會回答關於 up-stop wheels、Great Depression、war、decline、shutdowns 和 today’s number 的判斷題。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1802 @@
+{
+  "id": "p3-153-inspired-by-mimicking-mother-nature",
+  "catalogueId": "p3-153",
+  "catalogueIds": [
+    "p3-153"
+  ],
+  "passage": 3,
+  "title": "Inspired by Mimicking Mother Nature",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "A",
+    "B",
+    "A",
+    "C",
+    "B",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN Level Map for Questions 27–32 Leve Meaning Main paragraph"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Levels",
+      "prompt": "“A synthesised plastic developed with a cement factory can recycle a waste gas.”",
+      "translation": "一種與水泥廠合作開發的合成塑膠，可以回收廢氣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ultimately, the most sophisticated application of biomimicry, according to Benyus, is when a company starts seeing itself as an organism in an economic ecosystem that must make thrifty use of limited resources and creates symbiotic relationships with other organisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Benyus，biomimicry 最成熟的應用，是公司開始把自己看成經濟生態系統中的一個生物體，必須節省地使用有限資源，並和其他生物體建立共生關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, Geoffrey Coates, a chemist at Cornell, has developed a biodegradable plastic synthesized from carbon dioxide and limonene … and is working with a cement factory to trap the factory’s waste CO₂ and use it as an ingredient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Cornell 的化學家 Geoffrey Coates 開發了一種由二氧化碳和 limonene 合成的可生物降解塑膠，並正與一間水泥廠合作，捕捉工廠排出的廢 CO₂，將它用作原料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段正是第三層：公司與其他工業流程形成資源連接，把某一流程的 waste 變成另一流程的 ingredient。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“synthesised plastic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cement factory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“waste gas”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“biodegradable plastic synthesized from carbon dioxide and limonene”"
+            },
+            {
+              "kind": "quote",
+              "text": "“working with a cement factory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“trap the factory’s waste CO₂ and use it as an ingredient”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “waste gas” 對應原文 “waste CO₂”。題目中的 “recycle” 對應原文 “trap … and use it as an ingredient”。這不是單純模仿某個自然形狀，也不是模仿某種生化配方本身；重點在於一間工廠的廢物變成另一項生產活動的原料。"
+            },
+            {
+              "kind": "label",
+              "text": "Level C 的定義是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Third level: creating symbiotic relationships with other organisms”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段說公司要像 economic ecosystem 中的 organism，並與其他 organisms 建立 symbiotic relationships。水泥廠的 waste CO₂ 被用來製造塑膠，正是這種工業共生關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Levels",
+      "prompt": "“Cosmetics companies produce a range of iridescent cosmetics.”",
+      "translation": "化妝品公司生產一系列帶有虹彩效果的化妝品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Benyus, who hopes companies will ultimately transcend mere product design to embrace nature on a more holistic level, breaks biomimicry into three tiers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Benyus 希望公司最終能超越單純產品設計，從更整體的層面接納自然；她把 biomimicry 分成三層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The layered structure of a butterfly wing or a peacock plume, which creates iridescent color by refracting light, is being mimicked by cosmetics giant L’Oréal in a soon-to-be-released line of eye shadow, lipstick, and nail varnish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蝴蝶翅膀或孔雀羽毛的層狀結構透過折射光線產生虹彩色，化妝品巨頭 L’Oréal 正在模仿這種結構，推出一系列眼影、唇膏和指甲油。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯介紹第一層 biomimicry：模仿自然的形狀、結構和幾何。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cosmetics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“iridescent”"
+            },
+            {
+              "kind": "quote",
+              "text": "“range”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“iridescent color”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cosmetics giant L’Oréal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a soon-to-be-released line of eye shadow, lipstick, and nail varnish”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a range of iridescent cosmetics” 對應原文 “a line of eye shadow, lipstick, and nail varnish”。它們的自然來源是 butterfly wing / peacock plume 的 layered structure。這裡最重要的是 “structure”：L’Oréal 模仿的不是蝴蝶或孔雀的行為，也不是它們的化學過程；它模仿的是層狀微結構如何折射光線。"
+            },
+            {
+              "kind": "label",
+              "text": "Level A 的定義是："
+            },
+            {
+              "kind": "quote",
+              "text": "“First level: mimicking nature’s precise and efficient shapes, structures and geometries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “layered structure” 完全符合 structures。因此答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Levels",
+      "prompt": "“Researchers have taken inspiration from nature to remove excess salt from water.”",
+      "translation": "研究人員從自然取得靈感，以去除水中多餘鹽分。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next level of biomimicry involves imitating natural processes and biochemical ‘recipes’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一層 biomimicry 涉及模仿自然過程和生物化學「配方」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They determined that the seaweed uses natural chemicals, called furanones, that jam the cell-to-cell signaling systems that allow bacteria to communicate and gather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們判定這種海藻使用名為 furanones 的天然化學物質，干擾細菌之間讓它們溝通和聚集的訊號系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示這段是第二層：自然過程、化學機制、生物方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“remove excess salt”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Engineers and scientists are now looking at the nasal glands of seabirds to solve the problem of desalination…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工程師和科學家正研究海鳥的鼻腺，以解決淡化海水的問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “remove excess salt from water” 是 “desalination” 的解釋。desalination 指把鹽分從水中移除，通常用於海水淡化。原文說工程師和科學家研究 seabirds 的 nasal glands，因為海鳥能處理鹽分問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不是在模仿海鳥的外形或結構外觀。真正被模仿的是海鳥身體處理鹽分的 natural process。"
+            },
+            {
+              "kind": "label",
+              "text": "Level B 的定義是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second level: imitating natural processes and biochemical ‘recipes’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Levels",
+      "prompt": "“DaimlerChrysler introduced a car modelled on a fish.”",
+      "translation": "DaimlerChrysler 推出一款以魚為模型的汽車。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s only recently that mainstream companies have begun to equate biomimicry with the bottom line.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到最近，主流公司才開始把 biomimicry 和盈利或商業效益聯繫起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the unique construction of its skin—numerous hexagonal, bony plates—provided a perfect model for designing a car of maximum strength with minimal weight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠皮膚的獨特構造，即大量六角形骨板，為設計一款強度最大而重量最小的汽車提供了完美模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段雖然出現在三層分類前，但內容清楚屬於形狀和結構模仿。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“DaimlerChrysler”"
+            },
+            {
+              "kind": "quote",
+              "text": "“car”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fish”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“DaimlerChrysler … introduced a prototype car modeled on a coral reef fish.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個關鍵模仿點："
+            },
+            {
+              "kind": "quote",
+              "text": "“the streamlined boxfish proved to be aerodynamically ideal”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "流線型箱魨被證明在空氣動力學上十分理想。"
+            },
+            {
+              "kind": "quote",
+              "text": "“the unique construction of its skin … provided a perfect model”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠獨特的皮膚構造提供了完美模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡模仿的是 fish 的 body shape 和 skin construction。shape、construction、hexagonal plates都屬於外形、結構和幾何。"
+            },
+            {
+              "kind": "label",
+              "text": "Level A 的定義是："
+            },
+            {
+              "kind": "quote",
+              "text": "“mimicking nature’s precise and efficient shapes, structures and geometries”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Levels",
+      "prompt": "“A manufacturing company becomes part of an economic ecosystem.”",
+      "translation": "一間製造公司成為經濟生態系統的一部分。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ultimately, the most sophisticated application of biomimicry, according to Benyus, is when a company starts seeing itself as an organism in an economic ecosystem…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Benyus，biomimicry 最成熟的應用，是公司開始把自己看成經濟生態系統中的一個生物體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, Geoffrey Coates … is working with a cement factory to trap the factory’s waste CO₂ and use it as an ingredient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如 Geoffrey Coates 正與一間水泥廠合作，捕捉工廠廢 CO₂，並將其用作原料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接命中題目中的 “economic ecosystem”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“manufacturing company”"
+            },
+            {
+              "kind": "quote",
+              "text": "“economic ecosystem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a company starts seeing itself as an organism in an economic ecosystem”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎是原文的直接改寫。Paragraph G 描述的是 biomimicry 的最高層次：公司不再只模仿一片葉、一隻魚或一種化學物質，而是把自身生產流程放入一個資源互用的系統。"
+            },
+            {
+              "kind": "label",
+              "text": "Level C 的定義是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Third level: creating symbiotic relationships with other organisms”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “creates symbiotic relationships with other organisms” 直接對應 Level C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "manufacturing inputs and outputs 形成 food web，waste products 又可成為另一個流程的ingredient。這正是 economic ecosystem 的意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Levels",
+      "prompt": "“Natural chemicals found in seaweed can prevent bacterial growth.”",
+      "translation": "海藻中的天然化學物質可以防止細菌生長。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next level of biomimicry involves imitating natural processes and biochemical ‘recipes’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一層 biomimicry 涉及模仿自然過程和生物化學「配方」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They determined that the seaweed uses natural chemicals, called furanones, that jam the cell-to-cell signaling systems that allow bacteria to communicate and gather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們判定海藻使用名為 furanones 的天然化學物質，干擾讓細菌互相溝通和聚集的細胞間訊號系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題有 seaweed、natural chemicals、bacterial growth，全部集中在 Paragraph F 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“seaweed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural chemicals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bacterial”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“seaweed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural chemicals, called furanones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bacteria to communicate and gather”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說研究者觀察一種生活在充滿 microbes 環境中的 seaweed，想知道它如何保持不被biofilms 覆蓋。答案是它使用 furanones，干擾細菌的 cell-to-cell signaling systems，使細菌不能有效溝通和聚集。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “prevent bacterial growth”，比原文略概括。原文更精準地說：這些 chemicals 阻礙細菌溝通和聚集，從而防止 bacterial colonies / biofilms 形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這屬於 natural biochemical recipe，不屬於外形或工業共生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Biomimicry is a completely new concept that has emerged only recently.”",
+      "translation": "Biomimicry 是一個完全新的概念，只是最近才出現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers and designers around the globe endeavor to create new technologies that, by honoring the tenets of life, are both highly efficient and often environmentally friendly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球研究者和設計師努力創造新科技，這些科技尊重生命原則，既高效，又常常環保。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What’s more, due to technological advancements and a newfound spirit of innovation among designers, there are now myriad ways to mimic Mother Nature’s best assets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，由於科技進步和設計師新近出現的創新精神，現在有無數方法可以模仿大自然最優秀的特質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會介紹 biomimicry 的歷史和現代發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“completely new concept”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only recently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And while biomimicry is not a new concept…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 biomimicry 並不是一個新概念……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “completely new” 和 “only recently”。原文直接說 “not a new concept”。這是明確衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還給例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leonardo da Vinci looked to nature to design his flying machines”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leonardo da Vinci 曾參考自然來設計飛行機器。"
+            },
+            {
+              "kind": "quote",
+              "text": "“pharmaceutical companies have long been mimicking plant compounds in synthetic drugs”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "製藥公司長久以來都在合成藥物中模仿植物化合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子進一步證明 biomimicry 有長歷史。現代的新地方在於 technological advancements 和更多方法，不等於概念本身剛出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Leonardo da Vinci was the first designer to mimic nature.”",
+      "translation": "Leonardo da Vinci 是第一位模仿自然的設計師。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers and designers around the globe endeavor to create new technologies…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "全球研究者和設計師努力創造新科技……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...there are now myriad ways to mimic Mother Nature’s best assets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在有無數方法可以模仿大自然最優秀的特質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段有 Leonardo da Vinci 例子，所以題目可以定位到 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leonardo da Vinci”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first designer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mimic nature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leonardo da Vinci looked to nature to design his flying machines, for example…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如 Leonardo da Vinci 曾參考自然來設計他的飛行機器。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 Leonardo da Vinci 是一個例子。它沒有說： the first designer最早的人the first to mimic nature第一個模仿自然的人before him no one did this在他之前沒有人這樣做題目中的 “first” 是極強限制詞。IELTS 中只要題目加入 first、only、all、never 等字，就要找原文有沒有同樣的排他或排序證據。Paragraph A 只提供 Leonardo 作為例子，用來說明 biomimicry 不是新概念。文章沒有比較他和其他設計師的先後次序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Scientists believe that biomimicry involves more than simply copying shapes from nature.”",
+      "translation": "科學家認為 biomimicry 涉及的不只是模仿自然形狀。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E / F / G Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Benyus … breaks biomimicry into three tiers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Benyus 把 biomimicry 分成三層。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ultimately, the most sophisticated application of biomimicry … is when a company starts seeing itself as an organism in an economic ecosystem…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "biomimicry 最成熟的應用，是公司把自己看成經濟生態系統中的一個生物體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些首句，已可推測文章把 biomimicry 寫成多層概念。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than”"
+            },
+            {
+              "kind": "quote",
+              "text": "“copying shapes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“biomimicry involves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵組合： Paragraph E:"
+            },
+            {
+              "kind": "quote",
+              "text": "“mimic nature’s precise and efficient shapes, structures, and geometries”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F:"
+            },
+            {
+              "kind": "quote",
+              "text": "“The next level … involves imitating natural processes and biochemical ‘recipes’”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G:"
+            },
+            {
+              "kind": "quote",
+              "text": "“the most sophisticated application … economic ecosystem … symbiotic relationships”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 biomimicry 涉及 more than simply copying shapes。Paragraph E 先承認第一層確實包括shapes, structures, geometries。接著 Paragraph F 引入第二層：imitating natural processes and biochemical recipes。Paragraph G 再引入第三層：公司像 economic ecosystem 中的 organism，與其他 organisms 建立 symbiotic relationships。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個清楚的三層結構：第一層：形狀、結構、幾何第二層：過程、生物化學配方第三層：生態系統和工業共生所以題目說 “more than simply copying shapes” 與原文方向一致。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Current findings can reduce energy consumption by up to 40%.”",
+      "translation": "目前的發現可以把能源消耗最多降低 40%。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We have a perfect storm happening right now,’ says Jay Harman…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jay Harman 說：「我們現在正遇上一場 perfect storm。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What we’re finding already with the tools and methodology we have right now is that we can reduce energy consumption by between 30 and 40 percent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們現在使用現有工具和方法已經發現，可以把能源消耗降低 30% 至 40%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句直接指向 current tools、current methodology 和 energy reduction。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Current findings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce energy consumption”"
+            },
+            {
+              "kind": "quote",
+              "text": "“40%”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“What we’re finding already … right now … reduce energy consumption by between 30 and 40 percent.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “current findings” 對應原文 “what we’re finding already … right now”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “up to 40%” 對應原文 “between 30 and 40 percent”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“up to 40%” 的意思是最高可達 40%。原文說 30 至 40%，所以 40% 是上限。兩者吻合。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“DaimlerChrysler’s prototype car modelled on a coral reef fish is a best-seller.”",
+      "translation": "DaimlerChrysler 以珊瑚礁魚為模型的 prototype car 是暢銷產品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s only recently that mainstream companies have begun to equate biomimicry with the bottom line.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到最近，主流公司才開始把 biomimicry 和商業效益聯繫起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...provided a perfect model for designing a car of maximum strength with minimal weight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它為設計一款強度最大、重量最小的汽車提供了完美模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 DaimlerChrysler 的 prototype car，但段落焦點是設計效果，不是市場銷售。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“DaimlerChrysler”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prototype car”"
+            },
+            {
+              "kind": "quote",
+              "text": "“best-seller”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“DaimlerChrysler … introduced a prototype car modeled on a coral reef fish.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但沒有找到： best-seller sales popular in market commercial success"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提供：這是一款 prototype car；它 modeled on a coral reef fish； boxfish 的外形在空氣動力學上理想；皮膚結構可用於設計高強度、低重量的汽車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了 “best-seller”。這需要銷售數據或市場反應，例如 sold well、commercial success、popular among consumers 等。文章完全沒有提供這類資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於原文沒有說它賣得好，也沒有說它賣得差，所以不能選 FALSE。最準確答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some major companies and communities are seeking solutions beyond their own industries.”",
+      "translation": "一些大型公司和社群正在尋找超出自身行業範圍的解決方案。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies and communities are flocking to Janine Benyus…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司和社群正紛紛找 Janine Benyus。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their objective is to marry industrial problems with natural solutions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的目標是把工業問題和自然解決方案結合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經很接近題目：companies and communities 尋找 natural solutions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies and communities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“solutions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“beyond their own industries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Companies and communities are flocking to Janine Benyus…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“companies such as Nike, Interface carpets, Novell, and Procter & Gamble”"
+            },
+            {
+              "kind": "quote",
+              "text": "“marry industrial problems with natural solutions”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Some major companies” 對應原文列出的 Nike、Interface carpets、Novell、Procter &Gamble。這些都是公司例子。題目中的 “communities” 原文也直接出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“beyond their own industries” 沒有逐字出現，但原文說他們要把 “industrial problems” 和 “natural solutions” 結合。也就是說，答案方向不是只在本行業內找傳統工程方案，而是從自然、生物學、生态系統中尋找解決方法。Biomimicry Guild 甚至 “seats biologists at the table with researchers and designers”，顯示解決方案來自跨領域合作。因此題目是原文的合理概括。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The British paint company Sto did not apply the microstructure of the lotus leaf to its products.”",
+      "translation": "英國油漆公司 Sto 沒有把蓮葉微結構應用到產品中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Benyus … breaks biomimicry into three tiers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Benyus 把 biomimicry 分成三層。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The layered structure of a butterfly wing or a peacock plume … is being mimicked by cosmetics giant L’Oréal…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蝴蝶翅膀或孔雀羽毛的層狀結構正被 L’Oréal 模仿，用於化妝品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 是第一層形狀與結構模仿，lotus leaf 和 Sto 也在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“British paint company Sto”"
+            },
+            {
+              "kind": "quote",
+              "text": "“microstructure of the lotus leaf”"
+            },
+            {
+              "kind": "quote",
+              "text": "“apply”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The microstructure of the lotus leaf … a discovery that the British paint company Sto has exploited in a line of building paints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蓮葉的微結構……這一發現已被英國油漆公司 Sto 用於一系列建築油漆。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “did not apply”。原文說 “has exploited”。在這裡 exploit 的意思是利用、應用、開發。原文還明確說 “in a line of building paints”，即用於一系列建築油漆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Sto did not apply lotus leaf microstructure.原文命題： Sto has exploited the discovery in building paints.兩者方向相反。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A Canadian brewery increased production by applying ZERI principles.”",
+      "translation": "一間加拿大啤酒廠透過應用 ZERI 原則增加了產量。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Zero Emissions Research and Initiatives (ZERI), a global network of scientists, entrepreneurs, and educators, has initiated eco-industrial projects that attempt to find ways to reuse all waste as raw materials for other processes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "ZERI 是一個由科學家、企業家和教育者組成的全球網絡，已啟動 eco-industrial projects，嘗試尋找方法把所有廢物重新用作其他流程的原材料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As more scientists and engineers begin to embrace biomimicry, natural organisms will come to be regarded as mentors, their processes deemed masterful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著更多科學家和工程師開始接受 biomimicry，自然生物會被視為導師，其過程會被看作高明典範。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段有 Canadian brewery 和 ZERI principles，但核心是 waste reuse，不是產量增加。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canadian brewery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ZERI principles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased production”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Storm Brewing in Newfoundland, Canada … is using spent grains, a by-product of the beer-making process, to make bread and grow mushrooms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加拿大 Newfoundland 的 Storm Brewing 正使用啤酒製造過程中的副產品 spent grains 來製作麵包和種植蘑菇。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的資訊是： Storm Brewing 在加拿大；它應用了 ZERI principles；它把 spent grains 用來做 bread 和 grow mushrooms；這是把 waste 重新用作 raw materials 的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資訊是： the brewery increased production啤酒廠增加了產量原文沒有說 beer production 增加，也沒有說 bread 或 mushrooms 的產量增加。它只說廢物被重新利用。這是 ZERI 原則的例子，但不等於產量提升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於原文沒有說產量沒有增加，也沒有提供相反數據，所以不能選 FALSE。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Inspired by Mimicking Mother Nature.pdf",
+    "sha256": "62aaea612a7f8c70d02514b899a20b7ae45f89de2ba6268b64315d977dbbbb4e",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "第一句說全球研究者和設計師努力創造新科技，這些科技尊重生命原則、高效且環保；最後一句說科技進步和設計師創新精神令模仿自然有很多方法。只看首尾句，可以先估計這段是全篇引入：biomimicry 並非新概念，但現代社會更需要低能源、低材料、低毒性的產品和製程。這段也會提供 Questions 33–35 的大背景，尤其是 “not a new concept” 和 “many ways to mimic nature”。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句引用 Jay Harman，說現在正出現一場 perfect storm；最後一句說現有工具和方法已能把能源消耗降低 30% 至 40%。只看首尾句，這段明顯轉向科技條件和能源效益。它會說明為甚麼現在 biomimicry 更可行：電腦能力和製造能力提升，令自然形狀可以被理解和生產。Question 36很可能定位到這段，因為題目問 current findings 和 reduce energy consumption up to 40%。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說 mainstream companies 最近才開始把 biomimicry 和 bottom line 聯繫起來；最後一句說 boxfish 的皮膚結構為設計強度高、重量低的汽車提供完美模型。只看首尾句，這段是一個商業應用例子：DaimlerChrysler 用珊瑚礁魚設計 prototype car。它主要展示模仿自然形狀和結構如何帶來實際設計價值。Questions 30 和 37 都會定位到這段，一題問 level，一題問 sales 是否有資料。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說公司和社群紛紛找 Janine Benyus，她是 Biomimicry 一書作者和 Biomimicry Guild 共同創辦人；最後一句說他們的目標是把 industrial problems 和 natural solutions 結合。只看首尾句，這段功能是介紹 Benyus 及其機構如何把生物學家、研究者和設計師放在一起工作。這段對Question 38 特別重要，因為題目問公司和社群是否尋求自己行業之外的解決方向。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說 Benyus 希望公司最終超越單純產品設計，從更整體層面接納自然，並把 biomimicry 分成三層；最後一句說 L’Oréal 正在模仿蝴蝶翅膀或孔雀羽毛的層狀結構，推出眼影、唇膏和指甲油。只看首尾句，這段介紹第一層 biomimicry：模仿自然的形狀、結構和幾何。lotus leaf、paint、butterfly wing、cosmetics 都屬於這一層。Questions 28、35、39 都很可能來自這段。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說第二層 biomimicry 涉及模仿自然過程和 biochemical recipes；最後一句說 seaweed 使用 furanones 干擾細菌溝通和聚集。只看首尾句，這段功能非常集中：從外形模仿進入過程和化學機制模仿。中間有 seabirds nasal glands 用於 desalination、abalone shell 啟發新製造方式、seaweed chemicals 防止 biofilms。Questions 29 和 32 幾乎直接來自這段；它們都屬於第二層。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說 Benyus 認為最成熟的 biomimicry，是公司把自己看成 economic ecosystem 中的organism；最後一句說 Geoffrey Coates 正與 cement factory 合作，捕捉 waste CO₂ 並用作材料。只看首尾句，這段是第三層 biomimicry：公司和公司之間建立像生態系統般的資源關係。重點是waste products 可以成為另一項 industrial activity 的 ingredients。Questions 27 和 31 明顯定位到這段。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說 ZERI 這個全球網絡已啟動 eco-industrial projects，嘗試把所有 waste 重新用作其他流程的 raw materials；最後一句說隨著更多科學家和工程師接受 biomimicry，自然生物會被視為mentors，其 processes 會被看成 masterful。只看首尾句，這段把第三層應用推廣到工業系統和未來製造。Storm Brewing 用 spent grains 做麵包和種蘑菇，是 reuse waste 的例子。Question 40 會定位到這段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "l A Mimicking nature’s shapes, structures and geometries Paragraph E, also Paragraph C B Imitating natural processes and biochemical recipes Paragraph F C Creating symbiotic relationships / using one process’s Paragraph G, also waste for another process Paragraph H"
+  ]
+}

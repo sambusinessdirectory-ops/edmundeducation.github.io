@@ -1,0 +1,2198 @@
+{
+  "id": "p3-110-quiet-roads-ahead",
+  "catalogueId": "p3-110",
+  "catalogueIds": [
+    "p3-110"
+  ],
+  "passage": 3,
+  "title": "Quiet roads ahead",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "G",
+    "D",
+    "J",
+    "B",
+    "I",
+    "C",
+    "asphalt",
+    "9 / 9 millimetres",
+    "concrete",
+    "E — air flow",
+    "J — drainage",
+    "G — sound energy",
+    "C — rubbish",
+    "A — frequencies"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "a description of the form in which Kuijpers’ road surface is taken to its destination",
+      "translation": "描述 Kuijpers 的路面被運送到目的地時，是以甚麼形態出現。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Compared with the complex manufacturing process, laying the surface is quite simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與複雜的製造過程相比，鋪設這種路面相當簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even the white lines are applied in the factory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至連白色道路標線也在工廠預先加上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph G 的功能是講 manufacturing 之後的鋪設和現場處理。第一句把焦點從製造轉到 laying the surface；最後一句提到工廠已經把白線加上，說明這段會講路面從工廠到現場使用的安排。題目中的 “taken to its destination” 正好指向這個運送和現場鋪設階段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“form”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taken to its destination”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找 transport / factory / site / rolled / drum / unrolled 這類字。Paragraph G 有一句非常集中："
+            },
+            {
+              "kind": "quote",
+              "text": "“It emerges from the factory rolled, like a carpet, onto a drum 1.5 metres in diameter.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 factory、rolled、like a carpet、drum，所以值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It emerges from the factory rolled, like a carpet, onto a drum 1.5 metres in diameter. On site, it is unrolled and stuck onto its foundation with bitumen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它從工廠出來時，是像地毯一樣被捲起，捲在一個直徑 1.5 米的滾筒上。到了現場，它會被攤開，並用瀝青黏在地基上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是路面送往目的地時的 form。原文答案不宜填材料名稱，也不需要講完整製造程序；判斷要落在 “rolled, like a carpet, onto a drum” 這個形態描述上。題目中的 “taken to its destination”對應原文的 “emerges from the factory” 和 “On site”。所以 Paragraph G 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the form in which … is taken to its destination”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“rolled, like a carpet, onto a drum”"
+            },
+            {
+              "kind": "quote",
+              "text": "“On site, it is unrolled…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： form = rolled like a carpet destination = on site taken = emerges from the factory and is transported to site"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也講 road surface，但它講的是如何製造平滑表面。Question 27 問的是運送時形態，所以不能停在 D。真正控制答案的是 rolled / drum / on site 這組 transport-stage 訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "an explanation of how Kuijpers makes a smooth road surface",
+      "translation": "解釋 Kuijpers 如何製造平滑的路面。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rougher the surface, the more likely it is that a tyre will vibrate and create noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "路面越粗糙，輪胎就越可能震動並產生噪音。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it sets, the 10-millimetre-thick sheet has a surface smoother than anything that can be achieved by conventional methods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它凝固後，這塊 10 毫米厚的薄層會形成一個比傳統方法所能做到的任何路面都更平滑的表面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph D 的功能：這段由「粗糙路面會造成輪胎震動」開始，到「新方法製造出更平滑表面」結束，所以它很可能回答 smooth road surface 的製造方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“how”"
+            },
+            {
+              "kind": "quote",
+              "text": "“makes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“smooth road surface”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph D，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“His secret is a special mould 3 metres wide and 50 metres long.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hot asphalt, mixed with small stones, is spread into the mould by a rail-mounted machine which flattens the asphalt mix with a roller.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子提供製作步驟：mould、hot asphalt、rail-mounted machine、roller、flattens。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His secret is a special mould 3 metres wide and 50 metres long. Hot asphalt, mixed with small stones, is spread into the mould by a rail-mounted machine which flattens the asphalt mix with a roller.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的秘密是一個 3 米闊、50 米長的特製模具。混有小石粒的熱瀝青會由一部裝在軌道上的機器鋪進模具中，該機器再用滾輪把瀝青混合物壓平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的核心動詞是 spread 和 flattens。special mould 提供固定形狀，rail-mounted machine 控制鋪設方式，roller 負責把 asphalt mix 壓平。最後一句再確認效果：凝固後，10-millimetre-thick sheet 比傳統方法更 smooth。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“how Kuijpers makes a smooth road surface”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“special mould”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hot asphalt … is spread into the mould”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flattens the asphalt mix with a roller”"
+            },
+            {
+              "kind": "quote",
+              "text": "“surface smoother than anything…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： makes = spread + flatten + set smooth road surface = surface smoother than conventional methods"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 提到 Kuijpers 想處理 “surface texture, hardness and ability to absorb sound”，這只是總結三個因素。Question 28 要的是 how，即具體方法，所以答案要到 Paragraph D 找manufacturing steps。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "J",
+      "answerKey": "J",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "something that has to be considered when evaluating Kuijpers’ proposal",
+      "translation": "評估 Kuijpers 的建議時，必須考慮的一項因素。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kuijpers believes he can cut noise by five decibels compared to the quietest of today’s roads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kuijpers 相信，與現時最安靜的道路相比，他可以再把噪音降低 5 分貝。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But for those affected by traffic noise there is hope of quieter times ahead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，對受交通噪音影響的人來說，未來仍有望迎來較安靜的日子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph J 是收結段：它先講預期效果，再講測試、推行和前景。題目問evaluating proposal，即評估方案成敗時要看甚麼；這通常會出現在收結段，尤其是講 success /depend / cost 的地方。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“considered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evaluating”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proposal”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接使用 evaluate，但 Paragraph J 有非常接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The success of Kuijpers’ design will depend on how much it eventually costs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “success” 和 “depend on” 就是評估 proposal 的語言。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The success of Kuijpers’ design will depend on how much it eventually costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kuijpers 這個設計能否成功，將取決於它最終需要多少成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “something that has to be considered”。原文說 “will depend on”。兩者的邏輯關係很近：如果成功取決於成本，評估這個 proposal 時便必須考慮 cost。這裡答案所在段落重點放在方案能否真正推行，技術如何運作只是背景。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has to be considered when evaluating”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“success … will depend on”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： evaluate proposal = judge whether the design will succeed has to be considered = success will depend on it something = eventual cost"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 也提到 five decibels、100-metre-long section、next roll-out road。這些都和 proposal有關，但題目問的是「評估時必須考慮的因素」。真正控制答案的是 cost，所以答案是 J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "various economic reasons for reducing road noise",
+      "translation": "多個減少道路噪音的經濟原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the World Health Organization, exposure to noise from road traffic over long periods can lead to stress-related health problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據世界衛生組織，長期暴露於道路交通噪音之下，可能導致與壓力相關的健康問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Houses become harder to sell where environmental noise is high, and people are not as efficient or productive at work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在環境噪音高的地方，房屋會變得較難出售，人們在工作上也沒有那麼有效率或有生產力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph B 是講 road noise 的後果。第一句講健康，最後一句講樓市和工作效率。題目問 economic reasons，所以要看同段中涉及金錢、成本、樓價和生產力的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“economic reasons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reducing road noise”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph B，可以找到 spend money、sound barriers、double glazing、Houses become harder to sell、productive at work。這些都屬於經濟層面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And where traffic noise exceeds a certain threshold, road builders have to spend money erecting sound barriers and installing double glazing in blighted homes. Houses become harder to sell where environmental noise is high, and people are not as efficient or productive at work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當交通噪音超過某個界線時，道路建設者就要花錢設置隔音屏障，並為受影響的住宅安裝雙層玻璃。在環境噪音高的地方，房屋較難出售，人們工作時也較低效、較沒有生產力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有三組 economic reasons：第一，road builders have to spend money，代表公共工程或建設成本增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Houses become harder to sell，代表房屋市場價值和流動性受影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，people are not as efficient or productive at work，代表工作效率和生產力下降。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“various economic reasons”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“spend money”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Houses become harder to sell”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not as efficient or productive at work”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： economic reasons = costs + property market impact + reduced productivity"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 第一個句子是 health problem，這只屬健康層面，沒有切中本題的 economic core。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目明確問 economic reasons，所以重點要落在後半段的 money、houses、productive。答案因此是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "a generalisation about the patterns of use of vehicles on major roads",
+      "translation": "關於大型道路上車輛使用模式的一個概括說法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kuijpers can even control the sounds that his resonators absorb, simply by altering their dimensions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kuijpers 甚至可以只透過改變共鳴器的尺寸，控制這些共鳴器所吸收的聲音。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On large highways, trucks tend to use the inside lane, so resonators here could be tuned to absorb sounds at around 600 hertz while those in other lanes could deal with higher frequency noise from cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在大型公路上，貨車通常使用內側車道，因此這裡的共鳴器可以調校至吸收約 600 赫茲的聲音，而其他車道的共鳴器則可處理來自汽車的較高頻噪音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph I 是講 resonators 如何按不同聲音頻率作調校。最後一句出現 “On large highways” 和 “trucks tend to use the inside lane”，這正好是題目中的 major roads和 patterns of use。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“patterns of use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vehicles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“major roads”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“On large highways, trucks tend to use the inside lane…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“large highways” 對應 major roads；“trucks tend to use the inside lane” 是一個關於車輛使用模式的 generalisation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“On large highways, trucks tend to use the inside lane…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在大型公路上，貨車通常使用內側車道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tend to” 很重要，表示通常如此、傾向如此。這正是 generalisation 的語氣。題目沒有問resonators 的物理原理，也沒有問 cars 和 trucks 的噪音頻率本身；題目問的是車輛在大型道路上的使用模式。因此答案要落在 I。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“patterns of use of vehicles on major roads”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“On large highways, trucks tend to use the inside lane”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： major roads = large highways vehicles = trucks patterns of use = tend to use the inside lane"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 前半說 cars peak at 1000 hertz and trucks generate 600 hertz。這是 vehicle noise frequencies。Question 31 要的是 use pattern，即車輛如何使用道路。真正定案的是 “trucks tend to use the inside lane”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "a summary of the different things affecting levels of noise on roads",
+      "translation": "總結影響道路噪音水平的不同因素。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Already, researchers in the Netherlands — one of the most densely populated countries in the world — are working to develop techniques for silencing the roads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在荷蘭這個世界上人口最稠密的國家之一，研究人員已經正在開發讓道路變安靜的技術。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He set out to tackle the three most important factors: surface texture, hardness and ability to absorb sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他著手處理三個最重要的因素：路面紋理、硬度，以及吸收聲音的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph C 的功能是引入荷蘭的減噪研究，並總結 Kuijpers 要處理的三個主要因素。題目問的是 “different things affecting levels of noise”，這正好對應 “three most important factors”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“summary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different things”"
+            },
+            {
+              "kind": "quote",
+              "text": "“affecting levels of noise”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C，最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the three most important factors: surface texture, hardness and ability to absorb sound.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句以列表方式總結三個影響 road noise 的因素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He set out to tackle the three most important factors: surface texture, hardness and ability to absorb sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他開始處理三個最重要的因素：路面紋理、硬度和吸音能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 He，即 Kuijpers。動詞 “tackle” 表示處理、應對。後面的三個名詞短語就是 road noise level 的控制因素： surface texture：路面粗糙或平滑程度hardness：路面硬度ability to absorb sound：吸音能力"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“different things affecting levels of noise”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the three most important factors”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： different things = three factors affecting levels of noise = factors Kuijpers set out to tackle in order to silence roads"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也總括 noise problem，但它主要講 tyres now account for more than half the noise。Question 32 問的是不同因素的 summary，所以 Paragraph C 的 three most important factors更精確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "asphalt",
+      "answerKey": "asphalt",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Diagram Label Completion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求：根據 cross section of Kuijpers’ proposed noise-reducing road，在圖中標示部件。這類題要先看圖中箭嘴位置，再回到文章找 road structure 的描述。手冊提醒，diagram label 要交代圖中位置關係，不能只看到文章有某個字就填。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先找描述結構的段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D / E Paragraph D 說上層路面如何製造；Paragraph E 說 “another layer below the asphalt”，所以它確認 asphalt 在上層，下面另有 rubber layer。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hot asphalt, mixed with small stones, is spread into the mould…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "混有小石粒的熱瀝青會被鋪進模具中。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To optimise the performance of his road surface … he then adds another layer below the asphalt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了優化路面表現，他之後在瀝青層下方再加另一層。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖中位置定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Question 33 的箭嘴指向最上面的 thin road surface / top sheet，答案應該是 asphalt。因為Paragraph D 先描述 “Hot asphalt”，Paragraph E 再說下方有 another layer below the asphalt，證明 asphalt 是上方主要路面材料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目限制是 NO MORE THAN ONE WORD AND/OR A NUMBER。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“asphalt” 是一個 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中上層 road surface= “Hot asphalt … spread into the mould”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “below the asphalt” 上方所指的 asphalt layer所以 33 = asphalt。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "9 / 9 millimetres",
+      "answerKey": "9 / 9 millimetres",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：標示 cross section 中某一層 stones 的大小。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先找 stones size"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The size of the stones used in the two layers is important, since they create pores of a specific size in the road surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩層所用石粒的大小很重要，因為它們會在路面中形成特定大小的孔隙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And in addition they make it easier for the water to drain away, which can make the road safer in wet weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，它們也令水更容易排走，這可以使道路在潮濕天氣下更安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 是講 stones 的 size、pores 和 drainage。Question 34 若指向 lower layer stones，就要在這段找下層石粒大小。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位數字"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目是 diagram label，數字通常很有定位力。Paragraph F 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those used in the top layer are just 4 or 5 millimetres across, while the ones below are approximately twice that size — about 9 millimetres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上層使用的石粒直徑只有 4 或 5 毫米；而下方的石粒約為其兩倍大小，大約 9 毫米。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果圖中 Question 34 指向下層較大的 stones，答案就是 9 millimetres。如果圖上已經印有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“millimetres” 或 “mm”，空格只需填 9。若圖上沒有單位，填 9 millimetres 也符合 “one word and/or a number”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the ones below= stones in the lower layer about 9 millimetres= 9 / 9 millimetres所以 34 = 9 / 9 millimetres。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "concrete",
+      "answerKey": "concrete",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：標示 cross section 中 foundation 的材料或部件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 foundation 描述"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The foundation itself uses an even more sophisticated technique to reduce noise further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地基本身使用了一種更精密的技術，以進一步減少噪音。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This flow will help flush out waste material and keep the pores in the outer layers clear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種水流有助沖走廢物，並保持外層孔隙暢通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 的功能是講 foundation 的減噪結構和排水清潔作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 35 若指向底部 foundation 或 base，就要在 Paragraph H 找材料名稱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 foundation 定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It consists of a sound-absorbing concrete base containing flask-shaped slots up to 10 millimetres wide and 30 millimetres deep…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它由一個吸音混凝土底座組成，當中有瓶形槽；這些槽最闊可達 10 毫米，深 30 毫米。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目若指向 foundation material / base，原文答案是 concrete。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“concrete” 是一個 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "foundation= sound-absorbing concrete base所以 35 = concrete。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "E — air flow",
+      "answerKey": "E — air flow",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 36",
+      "translation": "上下兩層的 stones 能減少由 ______ 造成的震盪。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目所在表格： upper and lower layers — component: stones Function: “reduce oscillations caused by 36 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先找 stones 的功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The size of the stones used in the two layers is important, since they create pores of a specific size in the road surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩層所用石粒大小很重要，因為它們在路面中形成特定大小的孔隙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And in addition they make it easier for the water to drain away, which can make the road safer in wet weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，它們也令水更容易排走，在潮濕天氣下令道路較安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 是 stones / pores 的功能段。題目說 upper and lower layers+ stones，所以目標段落很清楚是 F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 oscillations"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“stones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“oscillations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“caused by”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kuijpers says the surface can absorb any air that is passing through a tyre’s tread, damping oscillations that would otherwise create noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kuijpers 說，路面可以吸收穿過輪胎胎紋的空氣，從而減弱原本會造成噪音的震盪。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格問 oscillations caused by 甚麼。原文說路面吸收 “air that is passing through a tyre’s tread”，然後 “damping oscillations”。這裡的 cause 概念就是 tyre tread 中的 air movement / air flow。選項中最貼近的是 E air flow。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“air that is passing through a tyre’s tread”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“air flow”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： air passing through = air flow damping oscillations = reduce oscillations所以 36 = E — air flow。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “the engine” 來自 Paragraph A 的背景：engine noise 已被車輛設計師改善。可是本表格講stones and pores 的功能，原文機制是 tyre tread 中的 air flow，所以不能選 engine。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "J — drainage",
+      "answerKey": "J — drainage",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 37",
+      "translation": "stones 會形成 pores，而這些 pores 幫助 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目所在表格： upper and lower layers — component: stones Function: “create pores which help 37 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph F，因為這段講 stones 的大小如何形成 pores，以及 pores 帶來甚麼功能。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The size of the stones used in the two layers is important, since they create pores of a specific size in the road surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩層石粒大小很重要，因為它們會形成特定大小的孔隙。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 pores 的功能"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And in addition they make it easier for the water to drain away, which can make the road safer in wet weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，它們令水更容易排走，這可以使道路在潮濕天氣下更安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “they” 指前文的 stones / pores system。功能是讓水排走。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要填的是 help 之後的名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 J “drainage” = 排水，正好概括 “water to drain away”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“make it easier for the water to drain away”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“drainage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： water drains away = drainage所以 37 = J — drainage。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "H “pores” 容易吸引學生，因為題目原句有 create pores。不過空格在 “help ______” 後面，需要的是 pores 的功能。pores 是被 stones 創造出來的結構；drainage 才是這個結構幫助完成的功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "G — sound energy",
+      "answerKey": "G — sound energy",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 38",
+      "translation": "foundation 中的 slots 能把 ______ 轉化成熱。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目所在表格： foundation — component: slots Function: “convert 38 ______ to heat”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 foundation slots"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The foundation itself uses an even more sophisticated technique to reduce noise further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地基本身使用更精密的技術，以進一步減少噪音。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This flow will help flush out waste material and keep the pores in the outer layers clear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種水流有助沖走廢物，並保持外層孔隙暢通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 同時講 slots 的聲學功能和排水功能。題目這一行正好是 foundation / slots，所以定位到 H。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 convert 和 heat"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“slots”"
+            },
+            {
+              "kind": "quote",
+              "text": "“convert”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heat”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These cavities act like Helmholtz resonators — when sound waves of specific frequencies enter the top of a flask, they set up resonances inside and the energy of the sound dissipates into the concrete as heat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些空腔像 Helmholtz 共鳴器一樣運作：當特定頻率的聲波進入瓶形槽頂部時，它們會在內部產生共鳴，而聲音的能量會在混凝土中散失為熱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 convert ______ to heat。原文說 “the energy of the sound dissipates into the concrete as heat”。所以被轉化或散失成 heat 的，是 sound energy。選項 G 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the energy of the sound”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“sound energy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： energy of the sound = sound energy dissipates … as heat = convert … to heat所以 38 = G — sound energy。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “dissipation” 是過程名詞，不能自然填入 “convert ___ to heat”。D “resonators” 是 slots 的功能角色，也不適合當作被轉化成熱的對象。空格要的是 energy 的種類，因此 G 最精確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — rubbish",
+      "answerKey": "C — rubbish",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 39",
+      "translation": "foundation 中的 slots 有助移走 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目所在表格： foundation — component: slots Function: “help to remove 39 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 slots 的第二個功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H Paragraph H 前半講 slots / cavities / resonators 如何減噪，後半講它們如何幫助水流動並清潔路面孔隙。題目問 remove，所以要看後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 remove 的同義詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“remove”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接用 remove，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This flow will help flush out waste material and keep the pores in the outer layers clear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種水流有助沖走廢物，並保持外層孔隙暢通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“flush out” 就是 remove by water flow；“waste material” 對應 rubbish。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格中 “help to remove 39 ______” 需要填被移走的東西。原文被 flush out 的是 “waste material”。選項中最貼近的是 C rubbish。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文：“flush out waste material”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“remove rubbish”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： flush out = remove waste material = rubbish所以 39 = C — rubbish。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "J “drainage” 也在相關段落附近，但 drainage 是水流排走的功能。Question 39 問 “remove 甚麼”，空格需要一個被清走的物件。rubbish 才能接在 remove 後面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — frequencies",
+      "answerKey": "A — frequencies",
+      "type": "是 Matching Information。這類題不一定按文章順序，重點是先建立段落地圖",
+      "prompt": "Question 40",
+      "translation": "foundation 中的 slots 可以調整，以吸收不同的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目所在表格： foundation — component: slots Function: “can be adapted to absorb different 40 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找可調校功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kuijpers can even control the sounds that his resonators absorb, simply by altering their dimensions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kuijpers 甚至可以只透過改變共鳴器尺寸，控制它們所吸收的聲音。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On large highways, trucks tend to use the inside lane, so resonators here could be tuned to absorb sounds at around 600 hertz while those in other lanes could deal with higher frequency noise from cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在大型公路上，貨車通常使用內側車道，因此這裡的共鳴器可調校至吸收約 600 赫茲的聲音，而其他車道則可處理來自汽車的較高頻噪音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph I 是講 resonators 如何按聲音頻率調整。題目中的 “can be adapted to absorb different…” 直接對應 “altering their dimensions” 和 “absorb sounds at around 600 hertz / higher frequency noise”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 different"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“adapted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“absorb different”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This could prove especially useful since different vehicles produce noise at different frequencies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能特別有用，因為不同車輛會產生不同頻率的噪音。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“By varying the size of the Kuijpers resonators, it is possible to control which frequencies the concrete absorbs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過改變 Kuijpers 共鳴器的大小，就可以控制混凝土吸收哪些頻率。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "判斷答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 slots / resonators can be adapted to absorb different ______。原文說 different vehicles produce noise at different frequencies，並且可以 control which frequencies the concrete absorbs。所以空格填 frequencies。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be adapted”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“altering their dimensions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“varying the size”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“absorb different…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“different frequencies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“which frequencies the concrete absorbs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 = A — frequencies。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "I “lanes” 也在 Paragraph I 出現，而且最後一句談 trucks 用 inside lane。不過空格問的是resonators 吸收的對象。它們吸收的是某些 sound frequencies；lanes 只是說明不同車道可調校至不同頻率的應用場景。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Quiet roads ahead.pdf",
+    "sha256": "fab7fbd1c3b914e5a3ff3ced5bd2eeb0abf0ecfd33f0f939f5539e37210dd15c",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "文章段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "交代 road noise 的主要來源，指出 tyre-road surface noise 已成全球問題。"
+      },
+      {
+        "number": "B",
+        "summary": "說明 road traffic noise 帶來的健康、建築成本、樓價和工作效率問題。"
+      },
+      {
+        "number": "C",
+        "summary": "引入荷蘭研究與 Kuijpers 的方案，總結三個控制噪音的因素。"
+      },
+      {
+        "number": "D",
+        "summary": "解釋如何製造極平滑的 asphalt road surface。"
+      },
+      {
+        "number": "E",
+        "summary": "解釋 rubber layer 如何令路面較柔軟、減少震動。"
+      },
+      {
+        "number": "F",
+        "summary": "解釋兩層 stones 的大小、pores、吸收 air flow 及 drainage 功能。"
+      },
+      {
+        "number": "G",
+        "summary": "說明路面如何從工廠運到現場，以及如何鋪設。"
+      },
+      {
+        "number": "H",
+        "summary": "解釋 concrete foundation、flask-shaped slots、Helmholtz resonators、排水和清走 waste material。"
+      },
+      {
+        "number": "I",
+        "summary": "解釋 resonators 如何按不同 vehicle frequencies 調校，並提到 trucks 在大型公路的車道使用模式。"
+      },
+      {
+        "number": "J",
+        "summary": "說明減噪效果、測試、下一步 rollout，以及成本對成敗的影響。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "你貼出的題目中，diagram 只留下 “image” placeholder，我看不到箭嘴位置。因此 33–35 會按文章描述的 cross-section 上下結構判斷：上層是 asphalt；下層石粒約 9 millimetres；foundation 是concrete base。若你的原圖箭嘴位置有特別指向，最後仍要以圖中箭嘴為準。Diagram Label 題的標準做法，是看清圖的方向、部件、位置關係，再根據文章的結構順序定位。",
+    "文章段落地圖段落 功能A 交代 road noise 的主要來源，指出 tyre-road surface noise 已成全球問題。",
+    "B 說明 road traffic noise 帶來的健康、建築成本、樓價和工作效率問題。",
+    "C 引入荷蘭研究與 Kuijpers 的方案，總結三個控制噪音的因素。",
+    "D 解釋如何製造極平滑的 asphalt road surface。",
+    "E 解釋 rubber layer 如何令路面較柔軟、減少震動。",
+    "F 解釋兩層 stones 的大小、pores、吸收 air flow 及 drainage 功能。",
+    "G 說明路面如何從工廠運到現場，以及如何鋪設。",
+    "H 解釋 concrete foundation、flask-shaped slots、Helmholtz resonators、排水和清走 waste material。",
+    "I 解釋 resonators 如何按不同 vehicle frequencies 調校，並提到 trucks 在大型公路的車道使用模式。",
+    "J 說明減噪效果、測試、下一步 rollout，以及成本對成敗的影響。"
+  ]
+}

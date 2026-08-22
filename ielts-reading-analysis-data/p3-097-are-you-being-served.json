@@ -1,0 +1,723 @@
+{
+  "id": "p3-097-are-you-being-served",
+  "catalogueId": "p3-097",
+  "catalogueIds": [
+    "p3-097"
+  ],
+  "passage": 3,
+  "title": "Are You Being Served?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "C",
+    "C",
+    "B",
+    "outsourcing hub",
+    "chiefly domestic",
+    "tax-dodging",
+    "concentrated",
+    "foreign direct investment",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B — China",
+      "answerKey": "B — China",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "原來這個「世界工廠」旁邊還有一個相當大的飯堂，更有辦公大樓和購物中心。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“The world’s factory” refers to…這題要先看文章開頭。原文第一句說：“The world’s factory, it turns out, has a sizeable canteen attached, not to mention an office block and shopping mall.”"
+            },
+            {
+              "kind": "label",
+              "text": "這一句是比喻。文章之後馬上說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last month’s official revision of China’s gross domestic product…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "上個月中國國內生產總值的官方修訂……所以 “the world’s factory” 指的是 China。文章把中國稱為世界工廠，是因為中國常被視為全球製造業中心；但作者接著說中國還有 “canteen”, “office block”, “shopping mall”，其實是在暗示中國不只有製造業，也有龐大的服務業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯，因為 “the world’s factory” 不是指全世界生產的貨物總量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，因為文章這裡完全在講 China’s GDP，不是美國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是後一句的 China’s gross domestic product。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — numerous small companies",
+      "answerKey": "C — numerous small companies",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "然而，在許多這類企業中，營業額和利潤過去沒有被一套偏向量度工廠生產的統計系統捕捉到。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： It is not easy to measure the finances of…定位詞是 not easy to measure，應該找文章中和 “not captured”, “not measured”, “escape notice” 有關的句子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many of these businesses, however, turnover and profits have not previously been captured by a statistical system geared to measuring factory production.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The small, often private, companies that dominate these areas have also often been at pains to escape notice – and therefore taxes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主導這些領域的小型、通常是私人企業，也經常很努力避開注意，因此也避開稅務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以不容易量度的是 small, often private companies。選項 C 的 numerous small companies 是對這個意思的概括。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 也有補充例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than a million small trucking and removal companies are not.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過一百萬間小型貨運和搬運公司則不容易被量度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯，因為 large state-owned companies 通常較容易統計。原文甚至說 postal and telecoms services still state-controlled and thus readily measured。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，文章沒有說 foreign companies 的財務特別難量度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 最準確，因為小型私人企業數量多、分散，還有避稅動機。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — developing real estate requires services",
+      "answerKey": "C — developing real estate requires services",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "第三類活動是房地產，尤其在沿海城市興旺起來，內陸地區也越來越活躍，並吸引大量私人資金流入，其中也包括海外投機者。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Real estate has helped increase the size of the service economy because…定位詞是 Real estate。答案在 Paragraph 3。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third activity is real estate, booming particularly in the coastal cities and increasingly inland too, leading to an influx of private money – not least from overseas speculators.”"
+            },
+            {
+              "kind": "label",
+              "text": "但真正回答題目 “because” 的，是下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Property development has, in turn, boosted demand for architects, decorators, do-it-yourself stores and other building services.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "房地產開發進一步提高了對建築師、裝修人員、DIY 商店和其他建築服務的需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 real estate 為何會擴大 service economy。最直接原因是：地產開發需要一連串服務，例如設計、裝修、建材零售和建築相關服務。這正好對應選項 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 有一定相關性，但不夠精準。 Real estate 本身被列為第三類活動，但題目問 “has helped increase the size of the service economy because…”，重點在它如何帶動其他服務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 只符合其中一個細節。 原文確實提到 overseas speculators，但外資流入不是這題最直接的服務業增長機制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 完整對應 “boosted demand for … building services”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — accommodation",
+      "answerKey": "B — accommodation",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "中國家庭在教育上的花費比任何項目都多，除了住房之外。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The largest portion of household spending in China goes towards…定位詞是 household spending。答案在 Paragraph 6。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chinese families spend more on education than on anything except housing…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句很容易讀錯。它的意思是：教育開支很高，但 housing 仍然比 education 更高。題目問largest portion，即最大部分，所以答案要選 housing / accommodation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 accommodation 對應原文 housing。兩者都指住房、居住開支。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A education 錯，因為教育是第二高；原文有 “except housing” 這個限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C travel 錯，因為文章雖然說 tourism boom，但沒有說 travel 是家庭最大開支。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題最重要的控制詞是 except。看到 “more on education than on anything except housing”，要立即判斷 housing 排第一，education 排第二。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "outsourcing hub",
+      "answerKey": "outsourcing hub",
+      "type": "Sentence Completion",
+      "prompt": "China is not really a rival to India in the role of an 31 ______.答案在 Paragraph 4。原文說：“In a small way, for example, China is starting to rival India as an outsourcing hub…”",
+      "translation": "例如，中國正以較小規模開始和印度競爭外判中心的角色。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "所以 blank 要填： outsourcing hub這裡 “hub” 指中心、樞紐；“outsourcing hub” 即外判服務中心。題目前面已有 “an”，所以答案只填outsourcing hub，不要寫 “an outsourcing hub”。"
+            },
+            {
+              "kind": "label",
+              "text": "這句後面還有一個重要限制："
+            },
+            {
+              "kind": "quote",
+              "text": "“less for call-centres that require excellent English than for such tasks as preparing reports and patent filings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它較少是為了需要優秀英語的電話中心服務，更多是為了準備報告、專利申請文件等工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明中國和印度競爭 outsourcing hub 的方式比較有限，尤其不是在英語 call-centres 方面全面競爭。中伏位是 call-centres：它在同一句出現，但題目問的是 “role of an…”，文法上需要名詞短語，而最合適的是 outsourcing hub。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "chiefly domestic",
+      "answerKey": "chiefly domestic",
+      "type": "Sentence Completion",
+      "prompt": "Most tourism in China is 32 ______.定位詞是 tourism。答案在 Paragraph 6。原文說：“Richer households have also caused a tourism boom, which is still chiefly domestic…”",
+      "translation": "較富裕的家庭也帶來旅遊熱潮，而這股熱潮仍然主要是國內旅遊。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： chiefly domestic"
+            },
+            {
+              "kind": "quote",
+              "text": "“chiefly” = mainly，主要地。“domestic” = within the country，國內的。題目中的 Most tourism 對應原文的 chiefly domestic。這不是說中國人沒有海外旅遊；原文後半句也說：“though more mainlanders are venturing overseas as visa restrictions are lifted.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然隨著簽證限制放寬，越來越多內地人開始到海外旅遊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 “though” 後面只是補充海外旅遊增加。主句仍說旅遊熱潮 chiefly domestic，所以答案要保留chiefly。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "tax-dodging",
+      "answerKey": "tax-dodging",
+      "type": "Sentence Completion",
+      "prompt": "Many transactions in the real estate and leisure industries are in cash and that leads to 33 ______.答案在 Paragraph 7。原文說：“the GDP revision cannot capture activities such as kerbside lending and tax-dodging cash transactions in property or entertainment…”",
+      "translation": "GDP 修訂仍無法捕捉一些活動，例如路邊借貸，以及房地產或娛樂業中避稅的現金交易。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 real estate 對應原文 property。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 leisure industries 對應原文 entertainment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 cash 對應原文 cash transactions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 blank 要填： tax-dodging"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tax-dodging” 指避稅。題目把原文的 “tax-dodging cash transactions” 重新組成一句：很多交易用現金，結果導致 tax-dodging。中伏位在於不要填 cash transactions，因為題目已經說 “are in cash”。空格後面需要的是現金交易造成的問題，也就是 tax-dodging。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "concentrated",
+      "answerKey": "concentrated",
+      "type": "Sentence Completion",
+      "prompt": "Most private business in China is 34 ______ in the service sector.答案在 Paragraph 8。原文說：“China’s continuing suspicion of private business, which is mostly concentrated in the services sector.”",
+      "translation": "中國對私人企業仍然抱有疑心，而私人企業主要集中在服務業。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把原文改寫成： Most private business in China is concentrated in the service sector.所以答案填： concentrated原文完整詞組是 mostly concentrated。不過題目已經用 Most private business 表達了 mostly的意思，所以只填 concentrated 最順。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要注意文法。Blank 前面是 “is”，後面是 “in the service sector”，所以中間需要過去分詞 / 形容詞形式：concentrated。不要填 services sector，因為題目已經給了 “in the service sector”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "foreign direct investment",
+      "answerKey": "foreign direct investment",
+      "type": "Sentence Completion",
+      "prompt": "China has brought far less 35 ______ into services, slowing development of that sector.答案在 Paragraph 9。原文說：“Worse, though China took an early decision to invite foreign direct investment into manufacturing, it has been reluctant to open up services.”",
+      "translation": "更糟的是，雖然中國很早就決定吸引外國直接投資進入製造業，但它一直不太願意開放服務業。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "所以 blank 要填： foreign direct investment這裡的對比很清楚：manufacturing 很早吸引 foreign direct investment；services 開放較慢，所以服務業得到的外資較少，發展也受到限制。"
+            },
+            {
+              "kind": "label",
+              "text": "後面 Diana Farrell 的觀點也支持這個答案："
+            },
+            {
+              "kind": "quote",
+              "text": "“allowing more foreign investment in services could bring not just capital and technology but a competitive dynamic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "容許更多外資進入服務業，可以帶來資本和技術，也可以帶來競爭動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 brought far less … into services 來概括原文的 reluctant to open up services。答案必須用原文詞組，所以填 foreign direct investment 最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Officially, the largest sector in China is the service sector.",
+      "translation": "按官方數字，中國最大的經濟部門是服務業。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案在 Paragraph 1。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“services’ share of the economy has jumped by nine percentage points, to 41%, compared with 46% for manufacturing and 13% for primary industries…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "服務業佔經濟比例上升 9 個百分點，達到 41%；相比之下，製造業佔 46%，第一產業佔 13%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 largest sector 是 service sector。但官方數字顯示：● services = 41%● manufacturing = 46%● primary industries = 13%最大的是 manufacturing，不是 services。服務業雖然大幅上升，但仍低於製造業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於第一段一直強調 services sector 被低估、現在變大了，學生可能會以為服務業已經第一。但 IELTS 要看精確數字。41% 很大，仍然小於 46%。真正控制答案的是 compared with 46% for manufacturing。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Some of the newly discovered GDP comes from the education sector.",
+      "translation": "部分新發現的 GDP 來自教育 sector。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要把 Paragraph 3 和 Paragraph 4 連起來看。Paragraph 3 先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“most of the newly unearthed GDP comes from three categories.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大部分新發現的 GDP 來自三大類別。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意：原文說 most，不是 all。這已經留下其他服務活動的空間。接著 Paragraph 4 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is more to China’s services boom than dishing up stir-fries, shipping boxes and fitting out apartments.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國服務業繁榮不只包括餐飲、運輸和裝修公寓。"
+            },
+            {
+              "kind": "label",
+              "text": "然後原文列出更多服務業範圍："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent years have seen a surge in media and technology services… in financial services such as leasing; and in education and leisure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年媒體和科技服務、租賃等金融服務，以及教育和休閒服務都出現增長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只說 Some，範圍很保守。原文雖然說大部分 newly unearthed GDP 來自三大類，但也明確補充服務業繁榮還包括 education and leisure。因此，說有部分新發現或新增服務業活動來自教育 sector，是符合文章方向的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “most”。看到 most newly unearthed GDP comes from three categories，不要直接排除education。Most 只代表大部分，仍可有小部分來自其他服務業。題目用 some，剛好符合這種較小範圍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Dalian is a successful outsourcing centre for Japan and Korea.",
+      "translation": "大連是為日本和韓國服務的成功外判中心。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案在 Paragraph 4。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In October Microsoft took a stake in a Chinese software firm in Dalian, a city in north-east China with a thriving outsourcing industry preparing tax returns and software for companies from Japan and South Korea.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "十月，Microsoft 入股了大連一家中國軟件公司。大連位於中國東北，擁有蓬勃發展的外判產業，為日本和南韓公司準備報稅文件和軟件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 successful outsourcing centre 對應原文的 a thriving outsourcing industry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“thriving” 意思是興旺、蓬勃發展，所以可以改寫成 successful。題目中的 Japan and Korea 對應原文的 Japan and South Korea。所以答案是 TRUE。中伏位是題目用 “centre”，原文用 “industry”。這不是矛盾。題目把大連這個城市概括成outsourcing centre，是根據它有 thriving outsourcing industry 作出的合理改寫。另一個細節是Korea：原文說 South Korea，題目寫 Korea，通常在這種語境下可接受，因為它明顯指向同一個商業服務對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "As visa restrictions are lowered, Chinese people are expected to spend more than $300 billion on tourism.",
+      "translation": "隨著簽證限制放寬，中國人預計會在旅遊上花超過 3000 億美元。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案在 Paragraph 6。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Richer households have also caused a tourism boom, which is still chiefly domestic, though more mainlanders are venturing overseas as visa restrictions are lifted.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "較富裕的家庭也造成旅遊熱潮，而這股熱潮仍然主要是國內旅遊；不過，隨著簽證限制放寬，越來越多內地人到海外旅遊。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The World Travel & Tourism Council predicts that China’s annual tourism market will more than triple to $300 billion within a decade.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界旅遊及旅行理事會預測，中國每年的旅遊市場會在十年內增長超過三倍，達到 3000 億美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩個問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，原文說的是 to $300 billion，意思是達到 3000 億美元。題目說 more than $300 billion，變成超過 3000 億美元。數字方向不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，原文中 “as visa restrictions are lifted” 只解釋更多 mainlanders 出國旅遊，沒有說整個3000 億美元市場預測是由簽證限制放寬造成。3000 億美元指 China’s annual tourism market，而且前一句說旅遊仍然 chiefly domestic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 more than triple to $300 billion。這個 “more than” 修飾的是 triple，即增長倍數超過三倍；它不代表最終金額超過 $300 billion。題目把 “more than” 放到金額上，意思就變了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "China’s services sector is about the same size as Japan’s and South Korea’s.",
+      "translation": "中國服務業和日本、南韓的服務業大約一樣大。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案在 Paragraph 7。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“China’s services sector, on this basis, is well-developed and roughly as large as those of Japan and South Korea were at a similar stage of development…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以這個基準來看，中國服務業發展良好，而且大約相當於日本和南韓在相似發展階段時的服務業規模。"
+            },
+            {
+              "kind": "label",
+              "text": "這題最關鍵的是尾段限定："
+            },
+            {
+              "kind": "quote",
+              "text": "“were at a similar stage of development”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文比較的不是中國服務業和日本、南韓現在的服務業。原文比較的是：中國目前的服務業，和日本、南韓在相似發展階段時的服務業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目刪掉了這個限定，變成中國服務業和日本、南韓服務業現在大約同樣大。這超出了原文支援範圍，而且方向上會誤導讀者。"
+            },
+            {
+              "kind": "label",
+              "text": "後面原文也補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even so, the 41% of GDP claimed by services in China remains below the 60–75%typical in developed countries. It is smaller even than India’s 52%.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，中國服務業佔 GDP 的 41% 仍低於發達國家常見的 60–75%，甚至也低於印度的52%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這進一步顯示，中國服務業比例仍低於發達國家常見水平。日本和南韓屬於更成熟經濟體，因此題目說 “about the same size as Japan’s and South Korea’s” 不夠準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 roughly as large。這幾個字看似直接支援題目，但後面的 were at a similar stage of development 才是限制條件。IELTS Reading 很常把原文的限定拿走，令 statement 看似相同，實際比較對象已經改變。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Are You Being Served_.pdf",
+    "sha256": "64be951c7d4cd37e464d721fc81f9cb1958cf1e56e1c3947e6aaf1384917b6f4",
+    "pageCount": 14
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "講中國官方修訂 GDP 後，經濟規模比之前估計大 17%。新增部分主要來自 services sector，令服務業佔 GDP 的比例升至 41%，但 manufacturing 仍有 46%。"
+      },
+      {
+        "number": "2",
+        "summary": "解釋為何之前很多服務業活動沒有被準確統計。中國人變富後，需要更多餐廳、商店、醫院、英文班、美容院等。這些小型私人企業過去較難被統計，也常想避開稅務。"
+      },
+      {
+        "number": "3",
+        "summary": "列出新發現 GDP 的三大主要來源：wholesale, retail and catering；transport, storage, post and telecommunications；real estate。特別是 real estate 又帶動 architects、decorators、DIY stores等服務。"
+      },
+      {
+        "number": "4",
+        "summary": "指出服務業繁榮不只限於餐飲、運輸和地產，還包括 media, technology, financial services, education and leisure。這段也講中國開始以較小規模和印度競爭 outsourcing hub 的角色。"
+      },
+      {
+        "number": "5",
+        "summary": "講中國經濟增長帶來對 accountants, lawyers, bankers, consultants, marketing, advertising, PR等專業服務的需求，也提到新富階層帶來美容、保安、寵物沙龍等服務需求。"
+      },
+      {
+        "number": "6",
+        "summary": "集中講 private education 和 tourism。家庭教育開支非常高，只低於 housing；旅遊仍主要是domestic，但海外旅遊也因簽證限制放寬而增加。"
+      },
+      {
+        "number": "7",
+        "summary": "比較中國服務業比例和其他國家。官方 41% 仍低於發達國家常見的 60–75%，也低於印度的52%。同時，文章指出仍有大量未被 GDP revision 捕捉的地下或避稅活動。"
+      },
+      {
+        "number": "8",
+        "summary": "解釋服務業仍未完全發展的原因之一：中國偏重製造業，加上對私人企業有疑心，導致服務業規管混亂，例如 trucking licence 和 retail supply chains 問題。"
+      },
+      {
+        "number": "9",
+        "summary": "講中國很早吸引外資進入 manufacturing，但對 services 開放較慢。McKinsey 的 Diana Farrell認為，更多 foreign investment 能帶來資本、技術和競爭動力。"
+      }
+    ]
+  }
+}

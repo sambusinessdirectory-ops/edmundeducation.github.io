@@ -1,0 +1,1373 @@
+{
+  "id": "p3-161-what-are-dreams",
+  "catalogueId": "p3-161",
+  "catalogueIds": [
+    "p3-161"
+  ],
+  "passage": 3,
+  "title": "What Are Dreams?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "E",
+    "F",
+    "G",
+    "D",
+    "C",
+    "B",
+    "D",
+    "A",
+    "E",
+    "F",
+    "D",
+    "A",
+    "G",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Question Analysis",
+      "prompt": "Reference to the dreams of a versatile artist",
+      "translation": "哪一段提到一位多才多藝藝術家的夢？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找「哪一段包含這項資訊」，不一定按文章順"
+            },
+            {
+              "kind": "paragraph",
+              "text": "序。手冊對 Matching Features / Matching Information 的提醒是：先找稀有概念，再確認該段真的有題目要求的資訊功能；人物題尤其要分清人物身份和觀點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These may seem like vital mental functions, but no one has yet been able to say that REM sleep or dreaming is essential to life or even sanity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些看似是重要的心理功能，但仍沒有人能夠說 REM 睡眠或做夢對生命甚至精神健全是必需的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He’s a lawyer, a painter and the editor of a puzzle column in a popular Israeli newspaper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他是一名律師、畫家，也是以色列一份受歡迎報章的謎題專欄編輯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 的功能很清楚：它用一個人的個案質疑夢或 REM 是否必不可少。尾句列出 lawyer、painter、editor，這正好指向 “versatile artist”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “versatile artist”。原文沒有這個詞，但可以預期會出現多重身份，例如 painter、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lawyer、editor。掃描全文時，Paragraph E 的 “a lawyer, a painter and the editor” 最貼近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正證據句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Lavie says that Chamtzani, now 55, ‘is probably the most normal person I know and one of the most successful ones.’ He’s a lawyer, a painter and the editor of a puzzle column in a popular Israeli newspaper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Lavie 說，現年 55 歲的 Chamtzani「可能是我認識的人之中最正常、也最成功的人之一」。他是一名律師、畫家，也是一份以色列受歡迎報章的謎題專欄編輯。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“versatile” = 有多種身份和才能“artist” = painter“dreams of a versatile artist” 指 Yuval Chamtzani 這個沒有 REM sleep、沒有夢記憶，但仍是畫家兼多重職業人士的例子。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Question Analysis",
+      "prompt": "A discussion of whether mammals and birds dream",
+      "translation": "哪一段討論 mammals and birds 是否會做夢？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mystery of REM sleep is that even though it may not be essential, it is ubiquitous – at least in mammals and birds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "REM 睡眠的神秘之處在於，即使它未必必不可少，它也非常普遍，至少在哺乳類和鳥類中如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It seems likely that REM sleep is filling a basic physiological function and that dreams are a kind of epiphenomenon,’ Siegel says – an extraneous by-product, like foam on beer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Siegel 說：「REM 睡眠很可能在完成一種基本生理功能，而夢是一種伴隨現象」，即額外副產品，就像啤酒上的泡沫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已顯示 Paragraph F 會處理 REM 在動物中的普遍性，以及夢可能只是副產品。這正好對應 mammals and birds dream 的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “mammals and birds”。這是強定位詞，原文直接重現。掃描 Paragraph F 可見："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that doesn’t mean all mammals and birds dream…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that doesn’t mean all mammals and birds dream (or if they do, they’re certainly not talking about it).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這並不表示所有哺乳類和鳥類都會做夢；就算牠們真的會，牠們也肯定沒有把這件事說出來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“A discussion of whether…” = 原文先說 REM common in mammals and birds，再補充 does not mean all dream。所以 Paragraph F 正是在討論「有 REM」和「會做夢」之間的關係。答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "Dreams are associated with therapeutic benefits and well-being",
+      "translation": "哪一段說夢與治療好處和心理健康有關？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the function of dreams at night, they clearly can play a role in therapy during the day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論夢在夜間的功能是甚麼，它們顯然能在日間治療中發揮作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Dreaming is a mental-health activity,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「做夢是一種心理健康活動。」首尾句幾乎直接把答案框出來：第一句有 therapy，最後一句有 mental-health activity。這段一定處理 therapeutic benefits and well-being。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “therapeutic benefits”、“well-being”。原文對應字包括 “therapy”、“mental-health”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "、“less likely to remain depressed”、“diffuse strong emotions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據包括："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Dreams reveal stuff about you that you didn’t know was there,” she says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，夢會揭示一些關於你自己的東西，而那些東西是你原本不知道存在的。以及：“Dreaming is a mental-health activity,” she says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，做夢是一種心理健康活動。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“therapeutic benefits” = play a role in therapy“well-being” = mental-health activity / less likely to remain depressed / diffuse strong emotions所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "Use of advanced scientific technology to investigate the REM stage",
+      "translation": "哪一段提到用先進科學技術研究 REM 階段？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adult humans spend about a quarter of their sleep time in REM, much of it dreaming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成年人約四分之一睡眠時間處於 REM，其中很多時間都在做夢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It is as if the brain surveys the internal milieu and tries to figure out what it should be doing, and whether our actions conflict with who we are,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，大腦好像在檢視內在狀態，嘗試弄清自己應做甚麼，以及我們的行動是否與自我相衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph D 在處理 REM 中大腦活動和功能。中間若出現技術名稱，就很可能是本題答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “advanced scientific technology”、“REM stage”。原文沒有 advanced 這個字，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有具體技術名稱：PET and fMRI technology。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists using PET and fMRI technology to watch the dreaming brain have found that one of the most active areas during REM is the limbic system, which controls our emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家使用 PET 和 fMRI 技術觀察做夢中的大腦，發現 REM 期間最活躍的區域之一是控制情緒的 limbic system。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“advanced scientific technology” = PET and fMRI technology“investigate the REM stage” = watch the dreaming brain during REM所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "A question raised about the usefulness of research into dreams",
+      "translation": "哪一段提出關於 dream research 是否有用的疑問？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists still don’t know for sure, although they have lots of theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家仍未確定答案，雖然他們有很多理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That put a crimp in dream research; if dreams were meaningless nocturnal firings, what was the point of studying them?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這令夢研究受挫；如果夢只是夜間無意義的神經發放，那研究它們還有甚麼意義？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段討論夢的理論，尤其是懷疑夢有意義的理論。最後一句直接提出 research usefulness 的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “usefulness”、“research into dreams”。原文對應 “what was the point of studying"
+            },
+            {
+              "kind": "paragraph",
+              "text": "them?”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“That put a crimp in dream research; if dreams were meaningless nocturnal firings, what was the point of studying them?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使夢研究受到阻礙；如果夢只是夜間無意義的神經發放，那麼研究夢還有甚麼意義？"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“usefulness of research” = what was the point of studying them“dreams” = dreams / dream research所以答案是 C。 Questions 32–34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — A means of communicating with the gods and predicting the future",
+      "answerKey": "B — A means of communicating with the gods and predicting the future",
+      "type": "Question Analysis",
+      "prompt": "What were dreams regarded as by ancient people?",
+      "translation": "古人認為夢是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of years ago, dreams were seen as messages from the gods, and in many cultures, they are still considered prophetic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數千年前，夢被視為神明傳來的訊息；在很多文化中，夢至今仍被認為有預言性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, we weren’t sick just because of something our mothers did (or didn’t do), but because of some imbalance that might be cured with medication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，我們生病並非只因母親做了或沒做某些事，也可能因某種可用藥物治療的失衡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接處理 ancient people and dreams，因此本題答案在 Paragraph A 開頭。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “ancient people”。原文對應 “Thousands of years ago” 和 “ancient Greece”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of years ago, dreams were seen as messages from the gods, and in many cultures, they are still considered prophetic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數千年前，夢被視為神明傳來的訊息；在很多文化中，夢仍被視為有預言性。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“messages from the gods” = communicating with the gods“prophetic” = predicting the future所以答案是 B。錯項分析： A “superstitious and unreliable” 加入 unreliable，原文沒有這個評價。 C “medical relief for people with mental illness” 混入後文 Freud 和 cure mental illness，但古代段落說 sick people slept at temples to receive healing dreams，沒有特別限定 mental illness。 D “rules to follow…” 原文只是說病人在 Asclepius 神廟睡覺以接收 healing dreams，沒有 rules。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "D — Prefrontal cortex",
+      "answerKey": "D — Prefrontal cortex",
+      "type": "Question Analysis",
+      "prompt": "According to Paragraph D, which part of the brain controls reasoning?",
+      "translation": "根據 D 段，大腦哪個部分控制 reasoning / logical thinking？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落已由題目指定：Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adult humans spend about a quarter of their sleep time in REM, much of it dreaming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成年人約四分之一睡眠時間處於 REM，其中很多時間都在做夢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It is as if the brain surveys the internal milieu and tries to figure out what it should be doing, and whether our actions conflict with who we are,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，大腦好像在檢視內在狀態，嘗試弄清自己應做甚麼，以及我們的行動是否與自我相衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段功能是解釋 REM 中不同腦區的活躍程度和功能，因此要掃描 brain area names。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “reasoning”。原文未用 reasoning，但有 “logical thinking”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much less active is the prefrontal cortex, which is associated with logical thinking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "活躍程度低得多的是 prefrontal cortex，它與邏輯思考有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“reasoning” = logical thinking“which part of the brain” = prefrontal cortex所以答案是 D。錯項分析： A Anterior cingulate cortex 負責 detects discrepancies，即察覺不一致。 C Limbic system controls emotions，即控制情緒。 B Internal cortex 原文沒有這個腦區名稱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A — Brain temperature rises during REM sleep.",
+      "answerKey": "A — Brain temperature rises during REM sleep.",
+      "type": "Question Analysis",
+      "prompt": "What can be concluded from the reference to dreaming in animals?",
+      "translation": "從文章談到動物做夢，可得出甚麼結論？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mystery of REM sleep is that even though it may not be essential, it is ubiquitous – at least in mammals and birds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "REM 睡眠的神秘之處在於，即使它未必必不可少，它也很普遍，至少在哺乳類和鳥類中如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It seems likely that REM sleep is filling a basic physiological function and that dreams are a kind of epiphenomenon,’ Siegel says – an extraneous by-product, like foam on beer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Siegel 說，REM 睡眠很可能在完成一種基本生理功能，而夢則像伴隨現象，是額外副產品，就像啤酒泡沫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段談動物、REM、生理功能和體溫調節，所以答案應找 physiological function。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “animals”、“REM sleep”、“concluded”。原文可定位到 cold-blooded animals、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mammals and birds、REM heats up the brain。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“REM sleep heats up the brain and non-REM cools it off, Siegel says, and that could mean that the changing sleep cycles allow the brain to repair itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Siegel 說，REM 睡眠會令大腦升溫，而非 REM 睡眠會令大腦降溫；這可能表示交替的睡眠周期讓大腦進行自我修復。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Brain temperature rises” = REM sleep heats up the brain“during REM sleep” = REM sleep所以答案是 A。錯項分析： B 把方向放大了。原文說 mammals and birds regulate body temperature，且 REM 可能參與生理功能，沒有說 REM explains why mammals are warm-blooded。 C “Mammals are more likely…” 缺少比較對象，且原文說 mammals and birds 都普遍有 REM。 D 是玩笑式干擾。beer foam 是比喻，用來說 dreams may be a by-product，不是飲酒偏好。 Questions 35–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "E — Jerry Siegel",
+      "answerKey": "E — Jerry Siegel",
+      "type": "Question Analysis",
+      "prompt": "Dreams may accompany REM sleep as merely a trivial by-product",
+      "translation": "夢可能只是伴隨 REM 睡眠出現的微不足道副產品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句指出 REM 在 mammals and birds 中普遍存在；最後一句引用 Siegel，把 dreams 稱為epiphenomenon，並用 foam on beer 作比喻。這段的人名 Jerry Siegel 是最強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “trivial by-product”。原文對應 “epiphenomenon”、“extraneous by-product”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“foam on beer”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It seems likely that REM sleep is filling a basic physiological function and that dreams are a kind of epiphenomenon,’ Siegel says – an extraneous by-product, like foam on beer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Siegel 說：「REM 睡眠很可能在完成基本生理功能，而夢是一種伴隨現象」，即額外副產品，就像啤酒泡沫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“merely a trivial by-product” = a kind of epiphenomenon / extraneous by-product所以答案是 E — Jerry Siegel。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "F — Clara Hill",
+      "answerKey": "F — Clara Hill",
+      "type": "Question Analysis",
+      "prompt": "Exploring patients’ dreams can benefit treatment by revealing unconscious thoughts",
+      "translation": "探索病人的夢可以透過揭示潛藏想法而有助治療。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 dreams can play a role in therapy during the day；最後一句說 dreaming is a mental-health activity。這段明顯處理 therapy 和 well-being。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “patients’ dreams”、“treatment”、“revealing”。原文可見 Clara Hill、therapy、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "patient’s thinking、reveal stuff。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The University of Maryland’s Clara Hill, who has studied the use of dreams in therapy, says that dreams are a ‘backdoor’ into a patient’s thinking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "馬里蘭大學的 Clara Hill 研究夢在治療中的使用，她說夢是進入病人思想的一道「後門」。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Dreams reveal stuff about you that you didn’t know was there,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，夢會揭示一些關於你自己的東西，而那些東西是你原本不知道存在的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“exploring patients’ dreams” = use of dreams in therapy“benefit treatment” = play a role in therapy“revealing unconscious thoughts” = reveal stuff about you that you didn’t know was there /backdoor into patient’s thinking所以答案是 F — Clara Hill。注意：Freud 也談 unconscious desires，但 Q38 更精準考 Freud 的 childhood desires。Q36 的“patients’ dreams” 和 “therapy” 更貼 Clara Hill 這段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D — Eric Nofzinger",
+      "answerKey": "D — Eric Nofzinger",
+      "type": "Question Analysis",
+      "prompt": "Dreams help people cope with difficulties encountered during the day",
+      "translation": "夢能幫人處理日間遇到的困難或棘手問題。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說成年人很多 REM 時間都在做夢；最後一句引用 Eric Nofzinger，說大腦像在檢視內在狀態，嘗試判斷應做甚麼，以及行動是否與自我衝突。這段有 problem-solving 的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cope with difficulties”。原文沒有 difficulties，但有 “thorny problems”，意思是棘"
+            },
+            {
+              "kind": "paragraph",
+              "text": "手問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eric Nofzinger, director of the Sleep Neuroimaging Program at the University of Pittsburgh Medical Center, thinks that could be why people often figure out thorny problems in their dreams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "匹茲堡大學醫學中心睡眠神經影像項目主任 Eric Nofzinger 認為，這可能解釋了為何人們常常在夢中想通棘手問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“cope with difficulties” = figure out thorny problems“during the day” 是題目對 thorny problems 的日常化概括；原文重點在 dreams can help solve difficult problems。所以答案是 D — Eric Nofzinger。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — Sigmund Freud",
+      "answerKey": "A — Sigmund Freud",
+      "type": "Question Analysis",
+      "prompt": "Decoding dreams can reveal desires originating in childhood",
+      "translation": "解讀夢可以揭示源於童年的欲望。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句由古代夢的宗教觀開始；最後一句轉向 chemical imbalance and medication。中間介紹現代 dream science 的 Freud 起點，因此要找 Freud。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “desires”、“childhood”。這兩個字在 Freud 句子中直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern dream science really begins at the end of the 19th century with Sigmund Freud, who theorized that dreams were the expression of unconscious desires often stemming from childhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代夢科學真正始於十九世紀末的 Sigmund Freud；他提出理論，認為夢是無意識欲望的表達，而這些欲望往往源自童年。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“He believed that exploring these hidden emotions through analysis could help cure mental illness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他相信透過分析探索這些隱藏情緒，可以幫助治療精神疾病。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Decoding dreams” = exploring through analysis“reveal desires” = dreams were the expression of unconscious desires“originating in childhood” = stemming from childhood所以答案是 A — Sigmund Freud。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "G — Rosalind Cartwright",
+      "answerKey": "G — Rosalind Cartwright",
+      "type": "Question Analysis",
+      "prompt": "Dreaming helps regulate strong emotions",
+      "translation": "做夢有助調節強烈情緒。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說夢在 therapy 中有作用；最後一句說 dreaming is a mental-health activity。這段後半有Rosalind Cartwright 的心理健康研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “strong emotions”。原文直接出現 “strong emotions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“She thinks that dreaming helps diffuse strong emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她認為做夢有助化解強烈情緒。"
+            },
+            {
+              "kind": "label",
+              "text": "前文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cartwright has been studying depression in divorced men and women, and she is finding that‘good dreamers,’ people who have vivid dreams with strong storylines, are less likely to remain depressed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cartwright 一直研究離婚男女的抑鬱情況，她發現「好的做夢者」，即夢境鮮明且故事線強的人，較不容易持續抑鬱。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“regulate strong emotions” = diffuse strong emotions“well-being / mental health” = less likely to remain depressed所以答案是 G — Rosalind Cartwright。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — Allan Hobson",
+      "answerKey": "B — Allan Hobson",
+      "type": "Question Analysis",
+      "prompt": "Dreams seem to occur randomly and have limited research significance",
+      "translation": "夢似乎隨機出現，因此研究意義有限。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說科學家仍不確定夢的功能，但有很多理論；最後一句問如果夢只是 meaningless nocturnal firings，研究它們有甚麼意義。這段的核心人物是 Allan Hobson 和 Robert McCarley，但 “random” 明確指向 Hobson。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “random”。原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists like Harvard’s Allan Hobson, who believes that dreams are essentially random.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one side are scientists like Harvard’s Allan Hobson, who believes that dreams are essentially random.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一方是像哈佛的 Allan Hobson 這樣的科學家，他認為夢本質上是隨機的。"
+            },
+            {
+              "kind": "label",
+              "text": "後文再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“That put a crimp in dream research; if dreams were meaningless nocturnal firings, what was the point of studying them?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這令夢研究受挫；如果夢只是夜間無意義的神經發放，那研究它們還有甚麼意義？"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“occur randomly” = dreams are essentially random“limited research significance” = what was the point of studying them? / put a crimp in dream research所以答案是 B — Allan Hobson。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -What Are Dreams_.pdf",
+    "sha256": "a4c69c56595d821765aebb0b8c1e0fc09722ce62d848c54296a8f5801079241c",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以先看到這段由古代人對夢的理解開始：夢曾被視為神明訊息，在不少文化中仍有預言意味。尾句卻轉向現代醫學和腦化學，指出心理問題可能來自 biological or chemical imbalance，並可用 medication 處理。中間明顯會交代 Freud 如何把夢連到 unconscious desires、childhood 和 psychoanalysis。段落功能是建立夢研究的歷史轉折：由宗教、預言、精神分析，轉到較現代的生物化學解釋。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接說 Freud 之後，夢科學最重要事件是 1950s 發現 REM sleep；尾句用 “But what, exactly?” 提出疑問。只看首尾句，可以估計這段功能是介紹 REM 的發現，並為後文理論爭議鋪路。中間會提到 rapid eye movement、vivid dreams、EEG，以及 REM 中腦活動像清醒大腦。這段主要回答「REM 如何被發現」、「夢和 REM 的關係」及「夜間腦部活動比想像中活躍」這類問題。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說科學家仍不確定夢的功能，但有很多理論；尾句問如果夢只是 meaningless nocturnal firings，研究它們有何意義。這段功能是介紹 Allan Hobson 和 Robert McCarley 的activation-synthesis hypothesis：夢可能來自 REM 睡眠時 pons 發出的 nerve signals。只看首尾句，已可預期這段會處理一個較懷疑的立場：夢可能是 random、meaningless，因此 dream research 的價值被削弱。Question 31 和 40 很可能在此段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說成年人睡眠約四分之一是 REM，身體接近癱瘓但大腦很活躍；尾句引用 Eric Nofzinger，說大腦好像在檢視內在狀態，思考自己應做甚麼，以及行動是否與自我衝突。段落功能是用 PET、fMRI 等技術觀察 REM 中的 dreaming brain。中間會比較 limbic system、prefrontal cortex 和anterior cingulate cortex 的活躍程度，解釋夢為何情緒強、邏輯弱，以及為何可能幫人解決thorny problems。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 REM sleep 或 dreaming 看似有重要心理功能，但仍沒有人能證明它們對生命或精神健康必不可少；尾句列出 Yuval Chamtzani 雖沒有 REM sleep 和夢記憶，仍是 lawyer、painter 和puzzle column editor。這段功能是質疑「夢必不可少」這個想法。中間用 MAO inhibitors、SSRIs和個案研究說明：即使 REM 或夢減少甚至消失，人仍可正常生活。Question 27 的 versatile artist也在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 REM sleep 的神秘之處在於它雖未必 essential，卻在 mammals and birds 中普遍存在；尾句把 dreams 比作 beer foam，說夢可能只是附帶副產品。段落功能是討論動物、REM 和生理功能。中間會處理 mammals and birds 是否真的 dream、cold-blooded animals 是否有 REM，以及 Jerry Siegel 的體溫調節理論。這段是 Question 28、34、35 的主要來源，尤其要留意 REM heats up the brain 這句。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說無論夢在夜間有何功能，它們白天在 therapy 中顯然可發揮作用；尾句由 Rosalind Cartwright 總結，dreaming 是 mental-health activity。段落功能是把夢從夜間腦科學帶到日間治療與心理健康。中間有 Clara Hill 的 therapy 觀點、Schizophrenics 的夢質素、Cartwright 對divorced men and women 的 depression 研究，以及 good dreamers 較少長期抑鬱。Question 29、36、39 主要定位於此段。"
+      }
+    ]
+  }
+}

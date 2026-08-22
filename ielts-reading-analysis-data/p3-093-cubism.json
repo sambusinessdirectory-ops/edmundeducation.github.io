@@ -1,0 +1,1943 @@
+{
+  "id": "p3-093-cubism",
+  "catalogueId": "p3-093",
+  "catalogueIds": [
+    "p3-093"
+  ],
+  "passage": 3,
+  "title": "Cubism",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C — Delaunay",
+    "B — Cezanne",
+    "E — Léger",
+    "F — Picasso",
+    "C — Delaunay",
+    "D — Simultaneous Windows",
+    "C — Railway Crossing",
+    "F — Young Ladies of Avignon",
+    "A — Newspaper and Fruit Dish",
+    "B — Portrait of Picasso",
+    "E — The Bathers",
+    "D",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — Delaunay",
+      "answerKey": "C — Delaunay",
+      "type": "Matching Painters",
+      "prompt": "“Which painter led a new abstraction movement?”",
+      "translation": "哪位畫家引領了一個新的抽象藝術 movement？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gris ventured beyond the monochromatic (or single family of colours) employed by Picasso and Braque.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gris 走出了 Picasso 和 Braque 所採用的單色系方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His Simultaneous Windows is barely recognisable as a window—just a blend of prismatic hues with one prominent square, giving a hint of three-dimensionality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 Simultaneous Windows 幾乎看不出是一扇窗，只是一組棱鏡般的色彩混合，加上一個突出的方形，保留一點三維感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會由 Gris 的色彩探索，推到更抽象、更非具象的 Cubist 分支。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“led”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new abstraction movement”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接說 “led”，但有一個很接近的短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its main proponent was the Frenchman Robert Delaunay…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其主要倡導者是法國人 Robert Delaunay。"
+            },
+            {
+              "kind": "label",
+              "text": "同段前面有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Orphic Cubists, as they would later become known, were similarly exploratory, moving further towards abstraction…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些後來被稱為 Orphic Cubists 的藝術家同樣富有探索性，進一步走向抽象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵證據組是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Orphic Cubists, as they would later become known, were similarly exploratory, moving further towards abstraction while sharing Gris’s use of bright colours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些後來被稱為 Orphic Cubists 的藝術家同樣在探索，進一步走向抽象，同時也和 Gris 一樣使用明亮色彩。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Its main proponent was the Frenchman Robert Delaunay…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其主要倡導者是法國人 Robert Delaunay。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “led” 可以由 “main proponent” 支持。proponent 指倡導者、推動者。題目中的 “new abstraction movement” 對應 “Orphic Cubists” 和 “moving further towards abstraction”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C — Delaunay。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Gris。Paragraph 7 一開始講 Gris 的 vibrant hues，而 Orphic Cubists 也 sharing Gris’s use of bright colours；但真正被稱為 “main proponent” 的人是 Delaunay。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — Cezanne",
+      "answerKey": "B — Cezanne",
+      "type": "Matching Painters",
+      "prompt": "“Which painter was the most influential?”",
+      "translation": "哪位畫家最具影響力？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6，同時要回看 Paragraph 4–5 的 Cezanne 背景。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moving beyond those early years of Cubism, many other artists were exploring the same idea, but taking it in individual directions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "離開 Cubism 的早期階段後，許多其他藝術家也在探索同一想法，但各自走向個人方向。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a compatriot of Picasso, Gris became personally acquainted with him and painted his well-known Portrait of Picasso, now regarded as one of the best examples of the Cubist style.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為 Picasso 的同胞，Gris 與他本人相識，並畫下著名的 Portrait of Picasso；這幅畫現被視為Cubist style 的最佳例子之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段似乎在講其他 Cubist artists 的地位。但中間提到 Cezanne 對整個 Parisian art scene 的影響，這才是本題真正答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most influential”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 exact phrase，但有極強的程度表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cezanne’s pervading and almost universal influence on the Parisian art scene of that day…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cezanne 在當時巴黎藝術圈中具有滲透性、幾乎普遍的影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, conceivably they may have developed their own understanding of Cubism primarily through Cezanne’s pervading and almost universal influence on the Parisian art scene of that day…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，可以想像，他們也許主要透過 Cezanne 對當時巴黎藝術圈滲透性、幾乎普遍的影響，發展出自己對 Cubism 的理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個決定答案的訊號：第一，“primarily through Cezanne” 表示 Cezanne 是主要來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，“pervading and almost universal influence” 是很強的程度描述，表示他的影響遍佈巴黎藝術圈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “most influential” 是對這句的概括。文章中 Picasso 名氣最大，Braque 也被 credited as equal pioneer，但真正被描述為 almost universal influence 的人是 Cezanne。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B — Cezanne。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Picasso。文章開頭說 Picasso 和 Cubism 的連結很深，但 Q28 問 influence，而原文最強的 influence 描述落在 Cezanne 身上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "E — Léger",
+      "answerKey": "E — Léger",
+      "type": "Matching Painters",
+      "prompt": "“Which painter was affected by a global conflict?”",
+      "translation": "哪位畫家受到一場全球衝突影響？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Léger also followed a more personal form of Cubism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Léger 也追隨一種更個人化的 Cubism 形式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, in spite of its non-representational quality, is the suggestion of the harsh mechanisation and alienation of modern life, a theme which the artist’s experiences in World War One only accentuated, and which predates similar trends (such as pop art) by decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，儘管作品具有非具象特質，仍暗示了現代生活中嚴酷的機械化和疏離感；藝術家在第一次世界大戰中的經歷只會加強這個主題，而且這比類似趨勢如 pop art 早了幾十年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段很明確是在講 Léger，而且最後一句直接提到 World War One。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“global conflict”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“World War One”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是很直接的同義範圍：World War One 是全球性戰爭。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a theme which the artist’s experiences in World War One only accentuated…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個主題因藝術家在第一次世界大戰中的經歷而更加突出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “the artist” 指 Paragraph 8 第一句的 Léger。核心動詞是 “accentuated”，意思是加強、突顯。題目中的 “was affected by” 對應 “experiences in World War One … accentuated”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E — Léger。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是不要只看到 “modern life” 就選其他與現代性有關的畫家。題目問 global conflict，最有力定位詞是 World War One，只出現在 Léger 段落。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "F — Picasso",
+      "answerKey": "F — Picasso",
+      "type": "Matching Painters",
+      "prompt": "“Which painter is inevitably linked with an art movement?”",
+      "translation": "哪位畫家和一個藝術運動形成幾乎必然的聯繫？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Picasso’s name is mentioned, the concept of ‘Cubism’ usually springs to mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當提到 Picasso 的名字時，“Cubism” 這個概念通常會立刻浮現在腦海中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is Georges Braque who is now credited as an equal pioneer in this revolutionary art movement, but claiming that these two artists alone created cubism oversimplifies a very complex issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Georges Braque 現在也被視為這場革命性藝術運動的同等先驅；但聲稱只有這兩位藝術家創造了 Cubism，會過度簡化一個非常複雜的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接把 Picasso 和 Cubism 放在一起。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“inevitably linked”"
+            },
+            {
+              "kind": "quote",
+              "text": "“art movement”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Picasso’s name is mentioned, the concept of ‘Cubism’ usually springs to mind.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“springs to mind” 表示自然浮現、馬上想到。這就是題目 “inevitably linked” 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句：“When Picasso’s name is mentioned, the concept of ‘Cubism’ usually springs to mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提到 Picasso，人們通常馬上想到 Cubism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句建立的是名字和藝術運動之間的自動聯想。題目說 “is inevitably linked with an art movement”，正好概括這個現象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Paragraph 1 後面強調 Braque 也很重要，並提醒不可把 Cubism 簡化成 Picasso 和 Braque二人創造，但 Q30 問的是「一提到某人就會想到某 movement」的聯想關係。這個位置最直接支援Picasso。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 F — Picasso。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — Delaunay",
+      "answerKey": "C — Delaunay",
+      "type": "Matching Painters",
+      "prompt": "“Which painter was married?”",
+      "translation": "哪位畫家已婚？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gris ventured beyond the monochromatic (or single family of colours) employed by Picasso and Braque.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gris 走出了 Picasso 和 Braque 所採用的單色系方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His Simultaneous Windows is barely recognisable as a window—just a blend of prismatic hues with one prominent square, giving a hint of three-dimensionality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 Simultaneous Windows 幾乎看不出是一扇窗，只是一組棱鏡般的色彩混合，加上一個突出的方形，保留一點三維感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半講 Delaunay 和 Orphic Cubists，因此要在這裡掃描與家庭關係有關的字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“married”"
+            },
+            {
+              "kind": "label",
+              "text": "原文不一定用 married，但會用關係詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wife”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its main proponent was the Frenchman Robert Delaunay, who, together with his wife, regularly exhibited in Parisian salons with increasingly non-representational forms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其主要倡導者是法國人 Robert Delaunay；他和妻子經常在巴黎沙龍展出越來越非具象的形式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“together with his wife” 直接表示 Delaunay 有妻子，因此他 was married。這是典型的關係詞改寫："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：was married"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：with his wife所以答案是 C — Delaunay。這題不需要推得太遠。只要找到 wife，就能直接判斷婚姻狀態。注意 Q27 也選 Delaunay，因為Questions 27–31 指示說答案可以重複使用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — Simultaneous Windows",
+      "answerKey": "D — Simultaneous Windows",
+      "type": "Matching Paintings",
+      "prompt": "“Which painting is a confusing abstraction in many colours?”",
+      "translation": "哪幅畫是色彩豐富、難以辨認的抽象作品？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gris ventured beyond the monochromatic (or single family of colours) employed by Picasso and Braque.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gris 走出了 Picasso 和 Braque 使用的單色系方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His Simultaneous Windows is barely recognisable as a window—just a blend of prismatic hues with one prominent square, giving a hint of three-dimensionality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 Simultaneous Windows 幾乎看不出是一扇窗，只是一組棱鏡般的色彩混合，加上一個突出的方形，保留一點三維感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經把 many colours 和 abstract / barely recognisable 兩個方向放在同一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“confusing abstraction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many colours”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“barely recognisable as a window”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blend of prismatic hues”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“barely recognisable” 表示幾乎認不出；“prismatic hues” 表示棱鏡般的多彩色調。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句：“His Simultaneous Windows is barely recognisable as a window—just a blend of prismatic hues with one prominent square, giving a hint of three-dimensionality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 Simultaneous Windows 幾乎看不出是一扇窗，只是一組棱鏡般的色彩混合，加上一個突出的方形，稍微暗示三維感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “confusing abstraction” 對應 “barely recognisable as a window”。如果一幅名為Windows 的作品幾乎看不出 window，就表示它很抽象，甚至有點令人困惑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“many colours” 對應 “prismatic hues”。答案是 D — Simultaneous Windows。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — Railway Crossing",
+      "answerKey": "C — Railway Crossing",
+      "type": "Matching Paintings",
+      "prompt": "“Which painting is a darker view, ahead of its time?”",
+      "translation": "哪幅畫呈現較陰暗的觀點，而且早於同類潮流？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Léger also followed a more personal form of Cubism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Léger 也發展出較個人化的 Cubism 形式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, in spite of its non-representational quality, is the suggestion of the harsh mechanisation and alienation of modern life, a theme which the artist’s experiences in World War One only accentuated, and which predates similar trends (such as pop art) by decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，儘管作品具有非具象特質，仍暗示了現代生活中嚴酷的機械化和疏離感；藝術家在第一次世界大戰中的經歷只會加強這個主題，而且這比類似趨勢如 pop art 早了幾十年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句有 darker view 和 ahead of its time 的雙重證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“darker view”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ahead of its time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“harsh mechanisation and alienation of modern life”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predates similar trends … by decades”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…seen, for example, in his Railway Crossing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，可以在他的 Railway Crossing 中看到。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here … is the suggestion of the harsh mechanisation and alienation of modern life…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，可以看到現代生活中嚴酷機械化和疏離感的暗示。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“harsh” 和 “alienation” 使畫面主題變得沉重，對應題目 “a darker view”。“predates similar trends … by decades” 表示比類似潮流早幾十年，對應 “ahead of its time”。所以答案是 C — Railway Crossing。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F — Young Ladies of Avignon",
+      "answerKey": "F — Young Ladies of Avignon",
+      "type": "Matching Paintings",
+      "prompt": "“Which painting is probably the first of its kind?”",
+      "translation": "哪幅畫可能是同類作品中的第一個起點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his pre-war paintings, Braque began experimenting with this idea, which inevitably led to an association with Picasso, who had also been dabbling in rendering three-dimensional views as two-dimensional geometric shapes — for example, in his painting Young Ladies of Avignon —often labelled ‘proto-cubist’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在戰前作品中，Braque 開始實驗這種想法，這自然使他與 Picasso 聯繫起來；Picasso 也曾嘗試把三維視角轉換成二維幾何形狀，例如他的 Young Ladies of Avignon，這幅畫常被稱為proto-cubist。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some even consider this painting to be the true beginning of Cubism itself, as it inspired Braque to follow its lead, developing the movement towards its trademark features.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人甚至認為這幅畫才是 Cubism 本身真正的開始，因為它啟發 Braque 跟隨其方向，並把這個 movement 發展到具有標誌性特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 Young Ladies of Avignon 的早期地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“probably”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first of its kind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“often labelled ‘proto-cubist’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the true beginning of Cubism itself”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“proto-” 有早期、原型、雛形的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵句：“Some even consider this painting to be the true beginning of Cubism itself…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人甚至認為這幅畫才是 Cubism 本身真正的開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This painting” 指前句提到的 Young Ladies of Avignon。題目中的 “probably” 對應 “Some even consider”，帶有一種評價或觀點，而非所有人一致同意。“the first of its kind” 對應 “the true beginning of Cubism itself”。所以答案是 F — Young Ladies of Avignon。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — Newspaper and Fruit Dish",
+      "answerKey": "A — Newspaper and Fruit Dish",
+      "type": "Matching Paintings",
+      "prompt": "“Which painting is an intriguing and multi-chromatic view?”",
+      "translation": "哪幅畫是有趣、色彩豐富的作品？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gris ventured beyond the monochromatic (or single family of colours) employed by Picasso and Braque.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gris 走出了 Picasso 和 Braque 使用的單色系方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His Simultaneous Windows is barely recognisable as a window—just a blend of prismatic hues with one prominent square, giving a hint of three-dimensionality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的 Simultaneous Windows 幾乎看不出是一扇窗，只是一組棱鏡般的色彩混合，加上一個突出的方形，保留一點三維感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主題是顏色使用，Gris 和 Delaunay 都在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“intriguing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“multi-chromatic”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“interesting and sometimes unusual combinations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vibrant hues”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He combined vibrant hues in interesting and sometimes unusual combinations, such as in his still life, Newspaper and Fruit Dish.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他把鮮明色彩以有趣、有時甚至不尋常的方式組合起來，例如他的靜物畫 Newspaper and Fruit Dish。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vibrant hues” 對應 multi-chromatic / many-coloured。“interesting and sometimes unusual combinations” 對應 intriguing。所以答案是 A — Newspaper and Fruit Dish。中伏位是 Simultaneous Windows 也有 many colours。但 Q32 已經用它對應 “barely recognisable / prismatic hues”。Q35 的 “interesting and sometimes unusual combinations” 更直接指 Newspaper and Fruit Dish。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — Portrait of Picasso",
+      "answerKey": "B — Portrait of Picasso",
+      "type": "Matching Paintings",
+      "prompt": "“Which painting is very representative of its type?”",
+      "translation": "哪幅畫很能代表其藝術類型？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moving beyond those early years of Cubism, many other artists were exploring the same idea, but taking it in individual directions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "離開 Cubism 的早期階段後，許多其他藝術家也在探索同一想法，但各自走向個人方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a compatriot of Picasso, Gris became personally acquainted with him and painted his well-known Portrait of Picasso, now regarded as one of the best examples of the Cubist style.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為 Picasso 的同胞，Gris 與 Picasso 本人相識，並畫下著名的 Portrait of Picasso；這幅畫現在被視為 Cubist style 的最佳例子之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接給出 very representative 的證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“representative”"
+            },
+            {
+              "kind": "quote",
+              "text": "“type”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the best examples of the Cubist style”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…painted his well-known Portrait of Picasso, now regarded as one of the best examples of the Cubist style.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他畫下著名的 Portrait of Picasso；這幅畫現被視為 Cubist style 的最佳例子之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “very representative of its type” 是 “one of the best examples of the Cubist style” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“its type” = Cubist style。“very representative” = one of the best examples。所以答案是 B — Portrait of Picasso。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "E — The Bathers",
+      "answerKey": "E — The Bathers",
+      "type": "Matching Paintings",
+      "prompt": "“Which painting is an early painting which influenced another?”",
+      "translation": "哪幅早期畫作影響了另一幅作品？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Cezanne had died in 1906, but a year later several museums exhibited his paintings in a retrospective of the artist’s life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Cezanne 於 1906 年去世，但一年後多間博物館舉辦了回顧其一生作品的 retrospective。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is said to have inspired Picasso’s very similarly styled work, mentioned previously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據說它啟發了前文提到的 Picasso 那幅風格非常相似的作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句的 “It” 要回看前句，指 Cezanne 的 The Bathers。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“early painting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“influenced another”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is said to have inspired…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one of his most famous … paintings, The Bathers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "必要前文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…in one of his most famous (and unfinished) paintings, The Bathers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他最著名且未完成的作品之一 The Bathers 中。"
+            },
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is said to have inspired Picasso’s very similarly styled work, mentioned previously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據說它啟發了前文提到的 Picasso 那幅風格非常相似的作品。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It” 指 The Bathers。“influenced another” 對應 “inspired Picasso’s … work”。“another” 指前文提到的 Young Ladies of Avignon。所以答案是 E — The Bathers。中伏位是 Young Ladies of Avignon 也影響了 Braque；但 Q34 已經由 “true beginning of Cubism”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用了它。Q37 指 “early painting which influenced another”，在選項唯一使用一次的前提下， The Bathers 更精準，因為原文直接說它 inspired Picasso’s work。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "D — influenced an artist to move to a non-representational style",
+      "answerKey": "D — influenced an artist to move to a non-representational style",
+      "type": "Multiple Choice",
+      "prompt": "“The Cezanne Retrospective…”",
+      "translation": "Cezanne 回顧展有甚麼作用或特點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8，同時要聯繫 Paragraph 5 的 retrospective 背景。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Léger also followed a more personal form of Cubism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Léger 也發展出較個人化的 Cubism 形式。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, in spite of its non-representational quality, is the suggestion of the harsh mechanisation and alienation of modern life, a theme which the artist’s experiences in World War One only accentuated, and which predates similar trends (such as pop art) by decades.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，儘管作品具有非具象特質，仍暗示了現代生活中嚴酷的機械化和疏離感；藝術家在第一次世界大戰中的經歷只會加強這主題，而且比類似潮流早了幾十年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 8 講 Léger 走向個人化、非具象的 Cubism。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cezanne Retrospective”"
+            },
+            {
+              "kind": "label",
+              "text": "原文在 Paragraph 8 出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“As with most of his generation, he had seen the Cezanne 1907 retrospective, which enkindled interest in experimentation with geometric forms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和他那一代大多數人一樣，他看過 Cezanne 1907 年回顧展，這激發了他對幾何形式實驗的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“This eventually led to complete abstraction…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這最終導向完全抽象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A. was attended by Cezanne.錯。Paragraph 5 說 “Paul Cezanne had died in 1906, but a year later…”；Cezanne 1906 年已去世，1907 年回顧展不可能由他本人出席。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. showed his Cubist paintings.錯。文章說 Cezanne 的作品有 underlying geometry，並影響 Cubism，但沒有稱它們為 Cubist paintings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. was attended by very many people.缺乏支援。原文只說 young painters including Picasso and Braque would have seen these works，以及 Léger had seen it；沒有 very many people 的數量描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. influenced an artist to move to a non-representational style.正確。原文說 Léger 看過 Cezanne 1907 retrospective，這激發幾何形式實驗，並 “eventually led to complete abstraction”。Paragraph 8 最後又說 Railway Crossing 有 “non-representational quality”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — were not adequately recognised",
+      "answerKey": "D — were not adequately recognised",
+      "type": "Multiple Choice",
+      "prompt": "“Many Cubist innovators…”",
+      "translation": "許多 Cubist 創新者有甚麼情況？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moving beyond those early years of Cubism, many other artists were exploring the same idea, but taking it in individual directions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "離開 Cubism 初期後，許多其他藝術家也在探索同一想法，但各自走向個人方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a compatriot of Picasso, Gris became personally acquainted with him and painted his well-known Portrait of Picasso, now regarded as one of the best examples of the Cubist style.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gris 與 Picasso 同為西班牙人，並與他本人相識；他畫下著名的 Portrait of Picasso，現被視為Cubist style 的最佳例子之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段開頭已把焦點轉到 Picasso 和 Braque 之外的其他 artists。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many Cubist innovators”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“many other artists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“true innovators in their own right”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unfairly considered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“little recognised”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are often unfairly considered to have played less significant roles simply because they did not adhere to the strict perspectives of Braque or Picasso.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們常被不公平地視為角色較不重要，只因為他們沒有遵循 Braque 或 Picasso 的嚴格視角。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“…meaning that they must now be considered true innovators in their own right.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著他們如今必須被視為本身就是真正的創新者。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Juan Gris, for example, produced many interesting works, yet now remains little recognised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如 Juan Gris 創作了許多有趣作品，但如今仍然鮮少受到認可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “were not adequately recognised” 正好概括這些句子："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unfairly considered” = 被低估“less significant roles” = 地位被看輕“little recognised” = 認可不足A “preferred still-life painting” 只可能與 Gris 的 Newspaper and Fruit Dish 有關，不能概括 many innovators。 B “favoured monochrome” 與 Gris 和 Orphic Cubists 的 bright colours 相反。 C “invented names for their styles” 與 Paragraph 9 相反；那些名稱是 long after the events invented 的 constructs，不是這些 artists 自己發明。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — shows different views of a subject",
+      "answerKey": "C — shows different views of a subject",
+      "type": "Multiple Choice",
+      "prompt": "“Cubism…”",
+      "translation": "Cubism 的特徵是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Defining Cubism itself is difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要定義 Cubism 本身是困難的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The terms ‘multiple viewpoints’ and ‘mobile perspectives’ are often used — that is, the subject is captured from different angles, at different times, with the corresponding images fused into a single picture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們常用 “multiple viewpoints” 和 “mobile perspectives” 這些術語；也就是說，subject 從不同角度、不同時間被捕捉，再把相應圖像融合成一幅畫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段就是 Cubism 的定義段，最後一句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cubism”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“different views”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“multiple viewpoints”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different angles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different times”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fused into a single picture”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A. is fairly easily explained.錯。原文第一句說 “Defining Cubism itself is difficult.”，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. has cubes in incoherent order.只符合部分內容。原文說物件有時被拆成 square or cube-shaped pieces，並以less-than-coherent order 重新組合。可是 “sometimes” 很重要；Cubism 不能簡化成一定有 cubes。這個選項抓到局部細節，沒有概括整體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. shows different views of a subject.正確。原文說 “more than one view is presented at the same time”，又說 “the subject is captured from different angles, at different times”。這是 Cubism 的核心特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. was created by Picasso and Braque.錯。Paragraph 1 說把 Cubism 說成只由這兩人創造，會 “oversimplifies a very complex issue”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章也一直介紹 Cezanne、Gris、Delaunay、Léger 等人的角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Cubism.pdf",
+    "sha256": "5d127a1a5cb6eba56f3f0c5c8b4088d5c5779044f60589b5dd564b3c003d9208",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句說一提到 Picasso，人們通常立即想到 Cubism；最後一句說若聲稱 Picasso 和 Braque 二人單獨創造 Cubism，會過度簡化一個很複雜的問題。只看首尾句，可以先估計這段是全文引入： Cubism 和 Picasso 連結很深，但文章將會擴闊視角，提醒讀者 Cubism 的形成不能只歸功於Picasso 和 Braque。Question 30 會定位到這裡，因為題目問哪位畫家和某藝術運動有必然聯繫。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說 Cubism 本身很難定義；最後一句說 subject 會從不同角度、不同時間被捕捉，然後融合在同一幅畫中。只看首尾句，這段明顯是定義段：它解釋 Cubism 的基本視覺方法，包括把三維物件拆成片段、重新組合、多重視角、流動視角。Question 40 會來自這段，因為題目問 Cubism 的本質描述；正確重點在 different views of a subject。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說 Braque 在戰前作品中開始實驗這種想法，並自然與 Picasso 產生聯繫；最後一句說有些人甚至把 Picasso 的 Young Ladies of Avignon 視為 Cubism 真正起點，因為它啟發 Braque 發展出 Cubism 的標誌性特徵。只看首尾句，可以估計這段在講 Picasso 和 Braque 早期互相牽連，以及某幅 proto-cubist 作品的重要性。Question 34 會定位到這段，因為它問 probably the first of its kind。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說 Picasso 和 Braque 二人都受更早畫家影響，尤其是 Cezanne 後期作品；最後一句說Cezanne 是最早把畫布分成多個視角、並用幾何圖形呈現自然物件的畫家之一。只看首尾句，可以估計這段把 Cubism 的根源推前到 Cezanne。這段雖短，但功能重要：它削弱「Cubism 只由Picasso 和 Braque 開創」的簡化說法，並建立 Cezanne 作為前導人物的地位。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說 Cezanne 1906 年去世，但一年後多間博物館為他舉辦 retrospective；最後一句說 The Bathers 啟發了 Picasso 那幅風格非常相似的作品。只看首尾句，可以估計這段解釋 Cezanne retrospective 如何影響年輕 Parisian painters，尤其是 Picasso 和 Braque。中間會提到 The Bathers 的幾何、對稱、三角構圖。Question 37 會定位到這裡，因為它問哪幅早期作品影響另一幅作品。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說離開 Cubism 初期後，許多其他藝術家也在探索同一想法，但走向個人方向；最後一句說 Gris 的 Portrait of Picasso 現在被視為 Cubist style 最佳例子之一。只看首尾句，可以估計這段替「其他 Cubist innovators」平反：他們常被低估，但其實也應被視為真正創新者。Question 28、36、39 都與這段高度相關，因為它提到 Cezanne 的普遍影響、Gris 的低認可度，以及代表性Cubist 作品。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說 Gris 走出 Picasso 和 Braque 使用的 monochromatic 色彩方式；最後一句說 Delaunay的 Simultaneous Windows 幾乎看不出是窗，只剩 prismatic hues 和一個突出的 square，保留一點三維感。只看首尾句，可以估計這段主題是色彩和抽象。它先講 Gris 的 vibrant hues，再講Orphic Cubists、bright colours、Delaunay 和 increasingly non-representational forms。Questions 27、31、32、35 都會在這段找到答案。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說 Léger 也發展出較個人的 Cubism 形式；最後一句說他的 Railway Crossing 所呈現的機械化與疏離主題，比類似趨勢如 pop art 早了幾十年。只看首尾句，可以估計這段集中講 Léger：他受 1907 Cezanne retrospective 啟發，從幾何實驗走向 complete abstraction，並在作品中表現modern life 的機械感和疏離感。Questions 29、33、38 會定位到這段。"
+      },
+      {
+        "number": "9",
+        "summary": "第一句說 Cubism 顯然是一個複雜的藝術運動，而 Analytical、Synthetic、Orphic Cubism 這些名稱都是後來才發明的分類；最後一句說二十世紀初的 Parisian art scene 無疑是一段迷人的時期。只看首尾句，可以估計這段是全文總結：作者提醒我們，不應把 Cubism 整理成過度整齊的分類。它其實是 many individuals contributed 的 collective movement。這段尤其有助理解 Question 39和 40 的整體立場。"
+      }
+    ]
+  }
+}

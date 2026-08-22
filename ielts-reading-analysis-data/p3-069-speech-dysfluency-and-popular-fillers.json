@@ -1,0 +1,2011 @@
+{
+  "id": "p3-069-speech-dysfluency-and-popular-fillers",
+  "catalogueId": "p3-069",
+  "catalogueIds": [
+    "p3-069"
+  ],
+  "passage": 3,
+  "title": "SPEECH DYSFLUENCY AND POPULAR FILLERS",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "D",
+    "B",
+    "B",
+    "A",
+    "D",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Fillers are usually expressed as pauses and probably have no linguistic meaning although they may have a purpose.”",
+      "translation": "fillers 通常以停頓形式出現，可能沒有語言意義，但可能有某種用途。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1–2 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A speech dysfluency is any of various breaks, irregularities or sound-filled pauses that we make when we are speaking, which are commonly known as fillers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "speech dysfluency 是我們說話時出現的各種中斷、不規則或有聲停頓，通常稱為 fillers。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they can also provide a pause for thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它們也可以提供一個思考停頓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 1 開頭和 Paragraph 2 結尾，可以先估計這兩段會回答 filler 是甚麼、是否有意思、是否有功能。題目同時提到 pauses、no linguistic meaning 和 purpose，所以需要把Paragraph 1–2 合起來看。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● pauses● no linguistic meaning● purpose掃描原文時，對應字眼分別是：● “sound-filled pauses”● “not generally recognised as meaningful”● “provide a pause for thought”這三個片語分別回答題目的三部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“A speech dysfluency is any of various breaks, irregularities or sound-filled pauses that we make when we are speaking, which are commonly known as fillers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "speech dysfluency 是說話時出現的各種中斷、不規則或有聲停頓，通常稱為 fillers。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fillers are parts of speech that are not generally recognised as meaningful…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fillers 是 speech 的一部分，但一般不被認為有明確意思。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they can also provide a pause for thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它們也可以提供思考的停頓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 fillers “probably have no linguistic meaning”，原文說 “not generally recognised as meaningful”。這不是絕對說它們完全沒有任何功能，只是說它們一般不被視為有明確語義。題目又說 “although they may have a purpose”，原文正好用 “provide a pause for thought” 說明功能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “expressed as pauses” = “sound-filled pauses”● “probably have no linguistic meaning” = “not generally recognised as meaningful”● “may have a purpose” = “provide a pause for thought”所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “pauses”。原文的 fillers 不只包括 ‘uh’、‘um’ 這類聲音，也包括未完成句子、重複片語和自我修正。可是題目用 “usually” 和 “probably” 留有空間，沒有把 fillers 簡化成純粹靜默停頓，因此整體仍和原文一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In general, fillers vary across cultures.”",
+      "translation": "一般而言，fillers 會因文化而異。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in linguistics has shown that fillers change across cultures and that even the different English-speaking nations use different fillers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言學研究顯示，fillers 會隨文化而變，即使不同英語國家也會使用不同 fillers。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spanish speakers say ‘ehhh’, while in Latin America—but not Spain—‘este’ is used (normally meaning ‘this’).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spanish speakers 會說 ‘ehhh’，而在 Latin America 會用 ‘este’，但 Spain 不用；‘este’ 通常意思是「這個」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 的段落功能已非常明確：它比較不同文化、不同語言地區使用的 fillers。題目說 across cultures，直接定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 vary across cultures。原文直接用："
+            },
+            {
+              "kind": "quote",
+              "text": "“fillers change across cultures”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vary” 和 “change” 是直接近義詞；“across cultures” 完全重合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Research in linguistics has shown that fillers change across cultures and that even the different English-speaking nations use different fillers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言學研究顯示，fillers 會隨文化而變；甚至不同英語國家也會使用不同 fillers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “In general, fillers vary across cultures.”原文說 “fillers change across cultures”。意思完全一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面的例子進一步支持這句：Americans 用 ‘um’ 或 ‘em’，British 說 ‘uh’ 或 ‘eh’，Spanish speakers 說 ‘ehhh’，Latin America 還用 ‘este’。這些例子顯示 filler 使用確實會因文化或地區而不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的可轉移方法是：當題目用 in general 概括一個現象時，要找段落首句。這類段落常常先給總結句，再用例子證明。這題 Paragraph 3 第一 句就是總結句，後面例子只是用來強化答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Fillers are uncommon in everyday language.”",
+      "translation": "fillers 在日常語言中並不常見。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fillers are parts of speech that are not generally recognised as meaningful; they include speech problems, such as stuttering (repeating the first consonant of some words).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fillers 是 speech 的一部分，一般不被視為有明確意思；它們包括 speech problems，例如stuttering，也就是重複某些字開頭的第一個 consonant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they can also provide a pause for thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它們也可以提供思考停頓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段會講 fillers 的性質、常見場景和可能功能。題目問 everyday language 是否uncommon，所以要在這段找 everyday conversation / regularly 之類字眼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● uncommon● everyday language原文對應位置是："
+            },
+            {
+              "kind": "quote",
+              "text": "“they occur quite regularly in everyday conversation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 everyday 和 frequency，非常值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fillers are normally avoided on television and in films, but they occur quite regularly in everyday conversation, sometimes making up more than 20% of ‘words’ in speech.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fillers 通常會在電視和電影中被避免，但它們在日常對話中相當經常出現，有時甚至佔 speech中 “words” 的 20% 以上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 fillers are uncommon in everyday language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 they occur quite regularly in everyday conversation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確相反：● “uncommon” = 不常見● “occur quite regularly” = 相當經常出現原文還補充 “sometimes making up more than 20%”，進一步說明它們在 speech 中可能非常多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 media。原文確實說 fillers are normally avoided on television and in films。如果學生只看到這半句，可能以為 fillers 不常見。可是題目問 everyday language，不是 television and films。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是後半句 “but they occur quite regularly in everyday conversation”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“American men use ‘uh’ more than American women do.”",
+      "translation": "美國男性比美國女性更常用 ‘uh’。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman has discovered that as Americans get older, they use ‘uh’ more than ‘um’ and that men use ‘uh’ more than women no matter their age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liberman 發現，隨著 Americans 年齡增長，他們使用 ‘uh’ 會多於 ‘um’；而且不論年齡，男性使用‘uh’ 都比女性多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was an unexpected result because scientists used to think that fillers were more closely related to the length of a speaker’s pauses than to the speaker’s identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個意外結果，因為科學家過去認為 fillers 和說話者 pause 的長度關係較密切，而與說話者身份關係較小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 是關於 American filler use 的發現，尤其是 age、men、women 和speaker identity。題目有 American men / women / ‘uh’，直接定位到本段第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● American● men● women● ‘uh’原文第一句已經包含全部定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“men use ‘uh’ more than women no matter their age.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman has discovered that as Americans get older, they use ‘uh’ more than ‘um’ and that men use ‘uh’ more than women no matter their age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liberman 發現，Americans 年紀越大，使用 ‘uh’ 多於 ‘um’；而且不論年齡，男性使用 ‘uh’ 都多於女性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 American men use ‘uh’ more than American women do。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 men use ‘uh’ more than women no matter their age。這句位於 Americans 的語境中，所以 men / women 指 American men / American women。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “American men” = “men” in the context of Americans● “use ‘uh’ more than American women do” = “men use ‘uh’ more than women”● “no matter their age” 補充說明此模式在所有年齡層都成立所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要留意一句內有兩個比較。第一個比較是 older Americans use ‘uh’ more than ‘um’；第二個比較是 men use ‘uh’ more than women。Question 30 問第二個比較，不要把年齡比較和性別比較混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Younger Spaniards say ‘ehhh’ more often than older Spaniards.”",
+      "translation": "較年輕的 Spaniards 比較年長的 Spaniards 更常說 ‘ehhh’。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in linguistics has shown that fillers change across cultures and that even the different English-speaking nations use different fillers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言學研究顯示，fillers 會隨文化而變；甚至不同英語國家也會使用不同 fillers。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spanish speakers say ‘ehhh’, while in Latin America—but not Spain—‘este’ is used (normally meaning ‘this’).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spanish speakers 會說 ‘ehhh’，而 Latin America 使用 ‘este’，但 Spain 不使用；‘este’ 通常意思是「這個」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 明顯提到 Spanish speakers 和 ‘ehhh’，所以這題要先定位到這段。但題目加入younger / older 的年齡比較，原文是否有這個比較要細看。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● Spaniards / Spanish speakers● ‘ehhh’● younger / older掃描 Paragraph 3，只找到 “Spanish speakers say ‘ehhh’”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再掃描 Paragraph 5–7，確實有 young / old，但那部分談 American English 和 Germanic languages 的 ‘um’ / ‘uh’，沒有談 Spanish speakers 的 ‘ehhh’ 年齡差異。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spanish speakers say ‘ehhh’, while in Latin America—but not Spain—‘este’ is used (normally meaning ‘this’).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Spanish speakers 會說 ‘ehhh’，而 Latin America 會用 ‘este’，但 Spain 不用；‘este’ 一般意思是「這個」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只提供兩類資料： 1. Spanish speakers 使用 ‘ehhh’。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. Latin America 使用 ‘este’，Spain 不使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的是：● younger Spaniards● older Spaniards● younger > older in frequency of ‘ehhh’原文沒有講 Spaniards 的年齡差異，也沒有說年輕 Spaniards 比年長 Spaniards 更常說 ‘ehhh’。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡不能把後文 “women and younger people said ‘um’ more than ‘uh’” 套用到 Spanish speakers。後文研究的語言包括 British and Scottish English、German、Danish、Dutch and Norwegian，沒有包括 Spanish。即使一般語言變化常由 younger people 帶動，文章沒有把這點應用到 Spaniards and ‘ehhh’。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “young people”。文章後半確實很多次提到 young people，但那是 ‘um’ replacing ‘uh’的研究，不是 Spanish ‘ehhh’。題目把 Spanish filler 和 age comparison 放在一起，原文沒有提供這條關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In the past linguists did not think that fillers were related to the amount of time a speaker hesitated.”",
+      "translation": "過去語言學家不認為 fillers 和說話者猶豫的時間長短有關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman has discovered that as Americans get older, they use ‘uh’ more than ‘um’ and that men use ‘uh’ more than women no matter their age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liberman 發現，Americans 年紀越大越常用 ‘uh’ 多於 ‘um’；男性不論年齡都比女性更常用 ‘uh’。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was an unexpected result because scientists used to think that fillers were more closely related to the length of a speaker’s pauses than to the speaker’s identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個意外結果，因為科學家過去認為 fillers 和說話者 pause 的長度關係較密切，而與說話者身份關係較小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “In the past linguists did not think…”；Paragraph 5 最後一句直接有 “scientists used to think”，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● in the past● linguists / scientists● related● amount of time a speaker hesitated原文對應：● “used to think” = in the past thought● “length of a speaker’s pauses” = amount of time a speaker hesitated● “more closely related” = related"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was an unexpected result because scientists used to think that fillers were more closely related to the length of a speaker’s pauses than to the speaker’s identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個結果出乎意料，因為科學家過去認為 fillers 和說話者停頓的長度關係更密切，而和說話者身份的關係較小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 past linguists did not think fillers were related to hesitation time。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 scientists used to think fillers were more closely related to pause length.這是明確相反。原文不只說 linguists thought there was a relation，還說這個 relation 比 speaker identity 更重要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “amount of time a speaker hesitated” = “length of a speaker’s pauses”● 題目：did not think related● 原文：used to think more closely related所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “speaker’s identity”。原文說舊看法較重視 pause length，較少重視 speaker identity。題目如果說 “In the past linguists did not think fillers were related to speaker identity”，那會接近TRUE。可是本題說的是 hesitation time，因此和原文相反。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“During a coffee break Liberman was chatting with a small group of researchers.”",
+      "translation": "Liberman 在 coffee break 期間，和一小群 researchers 閒聊。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman mentioned his finding to fellow linguists in the Netherlands and this encouraged the group to look for a pattern outside American English.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liberman 把他的發現告訴 Netherlands 的 fellow linguists，這促使該團隊在 American English以外尋找模式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They studied British and Scottish English, German, Danish, Dutch and Norwegian and found that women and younger people said ‘um’ more than ‘uh’ in those languages as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們研究 British and Scottish English、German、Danish、Dutch 和 Norwegian，發現女性和年輕人在這些語言中也比起 ‘uh’ 更常說 ‘um’。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段提到 Liberman 和 fellow linguists，所以 Question 33 最可能定位於此。但題目加入 coffee break、chatting、small group，這些細節要檢查原文是否存在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● Liberman● coffee break● chatting● small group● researchers原文只有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman mentioned his finding to fellow linguists in the Netherlands…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 coffee break，也沒有 chatting 或 small group。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman mentioned his finding to fellow linguists in the Netherlands and this encouraged the group to look for a pattern outside American English.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liberman 把他的發現告訴 Netherlands 的 fellow linguists，這促使該團隊到 American English以外尋找模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援以下內容：● Liberman 有把 findings 告訴 other linguists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 那些 linguists 在 Netherlands。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 這促使該 group 做 further research。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目要求的內容更多：● during a coffee break● chatting● small group● researchers原文沒有說對話發生在 coffee break，也沒有描述談話方式是 chatting。至於 “the group”，只能知道有一個 group 被鼓勵去研究，不能推出這是一個 small group。文章也沒有使用 “researchers”這個身份細節來描述那次交流。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題是典型「相關背景存在，但核心細節缺失」。原文確實有 Liberman 和 fellow linguists 的交流，可是 coffee break、small group 這些都是題目新增資料。沒有明確衝突，所以不能選 FALSE；缺少證據，因此選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Fruehwald does not believe that there are age and gender differences related to ‘um’ and ‘uh’.”",
+      "translation": "Fruehwald 不相信 ‘um’ 和 ‘uh’ 的使用存在年齡和性別差異。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The University of Edinburgh sociolinguist Josef Fruehwald may have an answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Edinburgh 的 sociolinguist Josef Fruehwald 可能有答案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s just one of those things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這只是語言中常見的事情之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 是 Fruehwald 的觀點段。題目指名 Fruehwald，所以要在這段找他對 ‘um’ / ‘uh’、young people、women 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● Fruehwald● age and gender differences● ‘um’ and ‘uh’原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fact that young people and women prefer ‘um’ is not significant.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句很重要，因為它同時提到 young people、women、prefer ‘um’。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his view, ‘um’ and ‘uh’ are pretty much equivalent. The fact that young people and women prefer ‘um’ is not significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，‘um’ 和 ‘uh’ 基本上相等。年輕人和女性偏好 ‘um’ 這個事實並不重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Fruehwald does not believe there are age and gender differences。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “The fact that young people and women prefer ‘um’…”這裡的 “The fact that…” 表示他承認這件事存在：年輕人和女性偏好 ‘um’。他不同意的是這件事的重要性。他認為這個差異 “not significant”，即沒有太大意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷要分兩層：● 原文支持：young people and women prefer ‘um’● 原文也支持：Fruehwald thinks this is not significant● 題目卻說：he does not believe there are differences題目把「差異不重要」改成「差異不存在」，這和原文衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “not significant”。not significant 不是 no difference。它表示差異存在，但 Fruehwald 不認為這個差異本身需要特別解讀。做 TRUE / FALSE / NOT GIVEN 題時，這類 degree word 很關鍵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — popular with the media",
+      "answerKey": "D — popular with the media",
+      "type": "Multiple Choice",
+      "prompt": "“Fillers are not…”",
+      "translation": "fillers 並不怎樣？這題要找四個選項中哪一項和原文相反或沒有被原文支持。題幹的 “not” 很重要，正確選項應該是 fillers 不具備的特徵。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1–3 Paragraph 2 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fillers are parts of speech that are not generally recognised as meaningful; they include speech problems, such as stuttering (repeating the first consonant of some words).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fillers 是 speech 的一部分，一般不被視為有明確意思；它們包括 speech problems，例如stuttering。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But they can also provide a pause for thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它們也可以提供思考停頓。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in linguistics has shown that fillers change across cultures and that even the different English-speaking nations use different fillers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言學研究顯示，fillers 會隨文化而變；甚至不同英語國家也使用不同 fillers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題問 fillers 的一般特徵，要回到開首定義和功能段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項對應原文如下： A “give the speaker time to think” → “provide a pause for thought” B “phrases that are restated” → “repeated phrases” C “used across cultures” → “fillers change across cultures” D “popular with the media” → “normally avoided on television and in films”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fillers are normally avoided on television and in films, but they occur quite regularly in everyday conversation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "fillers 通常會在 television and films 中被避免，但在 everyday conversation 中相當經常出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 fillers are popular with the media。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 television and films normally avoid fillers。television and films 是 media 的例子；normally avoided 表示媒體不喜歡保留這些 fillers，因為它們讓 speech 顯得不流暢或不自然於正式製作中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “used to give the speaker time to think”原文說 “provide a pause for thought”，所以 A 有支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “phrases that are restated”原文說 fillers include “repeated phrases or syllables”，所以 B 有支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “used across cultures”原文說 fillers “change across cultures”，並列出 Americans、British、Spanish speakers、Latin America 的例子，所以 C 有支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有 D 和原文方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — ‘uh’ was followed by a shorter pause than ‘um’",
+      "answerKey": "B — ‘uh’ was followed by a shorter pause than ‘um’",
+      "type": "Multiple Choice",
+      "prompt": "Question 36",
+      "translation": "Mark Liberman 原本似乎認為甚麼？題目問 originally seemed，表示要找他的舊看法，而非後來的新發現。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“It had originally seemed to Mark Liberman that…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent linguistic research has suggested that the use of ‘uh’ and ‘um’ in English is connected to the speaker’s mental and emotional state.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期語言學研究指出，English 中 ‘uh’ 和 ‘um’ 的使用與說話者的 mental and emotional state 有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At least that’s what he used to think.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至少，那是他過去的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句 “used to think” 明確告訴我們：這段包含 Liberman 的原本看法。題目中的 originally seemed 對應 used to think。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● Mark Liberman● originally● ‘um’ / ‘uh’● pause原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘um’ generally comes before a longer or more important pause than ‘uh’.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the University of Pennsylvania linguist Mark Liberman, ‘um’ generally comes before a longer or more important pause than ‘uh’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 University of Pennsylvania 的 linguist Mark Liberman，‘um’ 一般出現在比 ‘uh’ 更長或更重要的 pause 之前。"
+            },
+            {
+              "kind": "label",
+              "text": "題目選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘uh’ was followed by a shorter pause than ‘um’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "‘uh’ 後面的 pause 比 ‘um’ 後面的 pause 短。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 ‘um’ comes before a longer pause than ‘uh’。換句話說：● ‘um’ → longer / more important pause● ‘uh’ → shorter / less important pause所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A 說 ‘um’ followed by a less significant pause than ‘uh’，方向反了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 ‘uh’ followed by a longer pause than ‘um’，方向也反了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 ‘um’ meant the speaker was sensitive，原文沒有這個說法。mental and emotional state 不等於 sensitive，也沒有說 ‘um’ 特別表示敏感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要注意 “comes before” 和選項的 “followed by” 是方向轉換。原文說 filler 在 pause 之前；選項說 filler 後接怎樣的 pause。兩者其實描述同一個順序：filler → pause。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B — depends on the characteristics of the speaker",
+      "answerKey": "B — depends on the characteristics of the speaker",
+      "type": "Multiple Choice",
+      "prompt": "Question 37",
+      "translation": "和語言學家過去的想法相反，現在認為 filler 的選擇和甚麼有關？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contrary to what linguists used to think, it is now believed that the choice of filler…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman has discovered that as Americans get older, they use ‘uh’ more than ‘um’ and that men use ‘uh’ more than women no matter their age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liberman 發現，Americans 年紀越大越常用 ‘uh’ 多於 ‘um’；男性不論年齡都比女性更常用 ‘uh’。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was an unexpected result because scientists used to think that fillers were more closely related to the length of a speaker’s pauses than to the speaker’s identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個意外結果，因為科學家過去認為 fillers 和說話者 pause 的長度關係更密切，而和說話者身份關係較小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是新舊觀點的轉折段。題目說 “Contrary to what linguists used to think”，正好對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● Contrary to what linguists used to think● choice of filler● speaker原文的關鍵對比是：● 舊想法：fillers related to length of pauses● 新發現：age and gender pattern● 概括：speaker’s identity"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Liberman has discovered that as Americans get older, they use ‘uh’ more than ‘um’ and that men use ‘uh’ more than women no matter their age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Liberman 發現，Americans 年紀越大，使用 ‘uh’ 多於 ‘um’；男性不論年齡都比女性更常用 ‘uh’。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the opposite is true of ‘um’. The young say ‘um’ more often than the old. And women say‘um’ more often than men at every age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 ‘um’ 的情況剛好相反。年輕人比年長者更常說 ‘um’。女性在每個年齡層都比男性更常說 ‘um’。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was an unexpected result because scientists used to think that fillers were more closely related to the length of a speaker’s pauses than to the speaker’s identity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個結果出乎意料，因為科學家過去認為 fillers 更接近 pause 長度，而非 speaker identity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “depends on the characteristics of the speaker” 正好概括 age、gender、speaker identity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“characteristics of the speaker” 是上位概念，包含：● age: young / old● gender: men / women● identity: speaker’s identity其他選項： A “may have led to disagreements” 原文沒有提到 disagreements。 C “has nothing to do with sex” 和原文相反，因為 men / women 差異很明顯。 D “only matters to older people” 範圍錯誤；文章同時講 young people、old people、men、women。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — a specific language change is so widespread",
+      "answerKey": "A — a specific language change is so widespread",
+      "type": "Multiple Choice",
+      "prompt": "Question 38",
+      "translation": "根據 Liberman，仍然成謎的是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Liberman, it’s still a puzzle why…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their conclusion is that it is simply a case of language change in progress and that women and younger people are leading the change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的結論是，這只是 ongoing language change 的一個例子，而女性和年輕人正在引領這個變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now this really is a mystery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這才真正是一個謎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 第一 句給出 language change，最後一句說 mystery。Question 38 問 puzzle，直接定位到本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● puzzle● mystery● why● language change原文最重要句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is strange, however, is that ‘um’ is replacing ‘uh’ across at least two continents and five Germanic languages. Now this really is a mystery.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is strange, however, is that ‘um’ is replacing ‘uh’ across at least two continents and five Germanic languages. Now this really is a mystery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正奇怪的是，‘um’ 正在至少兩個洲和五種 Germanic languages 中取代 ‘uh’。這才真正是一個謎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “it’s still a puzzle why…”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 mystery 的內容是：‘um’ replacing ‘uh’ 的趨勢竟然跨越兩個洲和五種 Germanic languages。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“a specific language change is so widespread.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某一個具體語言變化如此廣泛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文：● specific language change = ‘um’ replacing ‘uh’● so widespread = across at least two continents and five Germanic languages其他選項： B “the two fillers are comparable” 是 Fruehwald 的觀點，來自 Paragraph 8，不是 mystery。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “we have two options” 也是 Paragraph 8 的普通語言變化解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “‘um’ is preferred by women and young people” 原文說這不奇怪，因為 women and young people normally lead language change。真正奇怪的是跨語言、跨洲的廣泛程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — women play a more important role than men",
+      "answerKey": "D — women play a more important role than men",
+      "type": "Multiple Choice",
+      "prompt": "Question 39",
+      "translation": "關於語言隨時間自然變化這件事，文章指出甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Concerning the normal changes that all languages go through as time goes by…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their conclusion is that it is simply a case of language change in progress and that women and younger people are leading the change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的結論是，這只是正在進行中的語言變化，而女性和年輕人正在引領這個變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now this really is a mystery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這才真正是一個謎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段前半談普通語言變化，後半談這個案例特別奇怪之處。題目問 normal changes，因此應看前半，而非 mystery 句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● normal changes● language change● as time goes by● women / men原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women and young people are normally the pioneers of most language change.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Women and young people are normally the pioneers of most language change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "女性和年輕人通常是大多數語言變化的先鋒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問一般語言變化中誰扮演較重要角色。選項 D 說 women play a more important role than men。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 women are normally pioneers of most language change。pioneers 指先行者、引領者。這就支援 women 在語言變化中扮演重要角色，較男性更領先。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “old men are impossible to teach” 原文完全沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “men in general are very conservative” 原文沒有直接說男性保守。雖然男性較常用 ‘uh’，但不能擴大成所有男性保守。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “young men simply copy the speech of young women” 原文沒有說 copying。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 雖然沒有提到 young people，但在四個選項中，它最貼近 women leading language change的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “women and young people”。原文同時提兩類先鋒：女性和年輕人。選項 D 只取women 這一部分，但其他選項完全缺乏支援或加入過度推論，因此 D 是 best fit。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — is just a coincidence",
+      "answerKey": "D — is just a coincidence",
+      "type": "Multiple Choice",
+      "prompt": "Question 40",
+      "translation": "根據 Fruehwald，‘um’ 使用多於 ‘uh’ 這件事代表甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Fruehwald, the fact that ‘um’ is used more than ‘uh’…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The University of Edinburgh sociolinguist Josef Fruehwald may have an answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Edinburgh 的 sociolinguist Josef Fruehwald 可能有答案。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s just one of those things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這只是語言中常見的事情之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 介紹 Fruehwald 的解釋。最後一句 “just one of those things” 表示他把這件事看作普通語言現象，不認為有深層意義。Question 40 明確問 Fruehwald，所以定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● Fruehwald● ‘um’● ‘uh’● used more原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fact that young people and women prefer ‘um’ is not significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“People start using one more often until the other is no longer an option. It’s just one of those things.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his view, ‘um’ and ‘uh’ are pretty much equivalent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他看來，‘um’ 和 ‘uh’ 基本上相等。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fact that young people and women prefer ‘um’ is not significant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕人和女性偏好 ‘um’ 這件事並不重要。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“This often happens in language when there are two options. People start using one more often until the other is no longer an option. It’s just one of those things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當語言中有兩個選項時，這種情況經常發生。人們開始更常使用其中一個，直到另一個不再成為選項。這只是語言中常見的事情之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “is just a coincidence” 不是逐字對應，但它最貼近 Fruehwald 的態度：他不認為 ‘um’ 和‘uh’ 的偏好差異有重要語義，也不認為它證明兩者有不同含義。用考題語境理解，D 表示「這件事沒有深層意義，只是自然發生」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “proves that ‘um’ is less important” 和 “pretty much equivalent” 不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “shows that young people have low standards” 原文沒有批評年輕人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “shows that they have different meanings” 和原文相反；Fruehwald 說 ‘um’ 和 ‘uh’ are pretty much equivalent。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最符合 “not significant” 和 “just one of those things”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要注意 Fruehwald 的重點不是否認現象，而是降低它的重要性。他接受 young people and women prefer ‘um’，但認為這只是語言兩個選項競爭時常見的自然替換。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -SPEECH DYSFLUENCY AND POPULAR FILLERS.pdf",
+    "sha256": "2a1649cec330d3edd9a48ca2fb5f1b1fe1c5734cf965edcc88fcc3854f74ab99",
+    "pageCount": 27
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，這段是定義段。首句說 speech dysfluency 是說話時出現的 breaks、irregularities 或 sound-filled pauses，通常稱為 fillers。尾句列出大量例子，包括 unfinished words and sentences、repeated phrases、self-correction，以及 ‘huh’, ‘uh’, ‘um’, ‘like’, ‘you know’ 等。這段大概負責說明 filler 的範圍很廣，不限於單一聲音，也包括說話中斷、重複和修正。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 fillers 是 parts of speech，一般不被視為 meaningful。尾句補充它們也可以 provide a pause for thought。只看首尾句，可以先估計這段會處理 fillers 的地位和功能：它們常被視為無明確語義，也可能包括 stuttering 等 speech problems；媒體中通常避免，日常對話卻很常見。 Questions 27、29、35 都很可能定位到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說語言學研究顯示 fillers 會 across cultures 改變，不同英語國家也用不同 fillers。尾句說Latin America 會用 ‘este’，但 Spain 不用。這段功能很清楚：比較不同文化和不同語言地區的fillers。它會支援 Question 28，也會處理 Question 31 的 Spanish speakers / younger Spaniards，但要留意原文只講地區差異，沒有講年齡差異。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 recent linguistic research suggested ‘uh’ 和 ‘um’ 的使用與說話者 mental and emotional state 有關。尾句 “At least that’s what he used to think” 明顯帶出舊想法即將被修正。這段介紹Mark Liberman 的早期看法：‘um’ 通常出現在較長或較重要的 pause 之前。Question 36 會用到這段，尤其是 ‘um’ 和 ‘uh’ 的 pause 長短比較。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Liberman 發現，美國人年紀越大越常用 ‘uh’ 多於 ‘um’，男性無論年齡都比女性更常用‘uh’。尾句說這結果出乎意料，因為科學家過去以為 fillers 更接近 pause length，而非 speaker identity。這段是全文的研究轉折：filler choice 與年齡、性別有關。Questions 30、32、37 都主要定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Liberman 把發現告訴 Netherlands 的 fellow linguists，促使該團隊到 American English以外尋找模式。尾句說在 British and Scottish English、German、Danish、Dutch、Norwegian 中，女性和年輕人也比起 ‘uh’ 更常說 ‘um’。這段把研究從美式英語擴展到其他 Germanic languages。Question 33 會在此段附近，但 coffee break 和 small group 沒有文本支援。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說研究結論是 language change in progress，女性和年輕人正在 lead the change。尾句說真正神秘的是，‘um’ 正在至少兩個洲和五種 Germanic languages 中取代 ‘uh’。這段負責解釋研究意義：女性和年輕人通常是語言變化先鋒；可是這次變化跨越多語言、多地區，範圍異常廣。 Questions 38、39 很可能定位到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句引入 University of Edinburgh sociolinguist Josef Fruehwald，說他可能有答案。尾句用 “It’s just one of those things” 收結，表示他認為這類替換很平常，不必過度解讀。這段是 Fruehwald的第一個解釋：‘um’ 和 ‘uh’ 基本等同，年輕人和女性偏好 ‘um’ 這個事實本身不重要；語言有兩個選項時，一個慢慢取代另一個也很常見。"
+      },
+      {
+        "number": "9",
+        "summary": "首句轉向另一個問題：這種趨勢如何從一種語言傳到另一種語言？尾句說我們不能確定 ‘um’ 的情況是否真是如此，但這是一個 likely story。這段是 Fruehwald 的第二個解釋：English 可能影響了其他語言；既然很多國家會從 English 借 words and expressions，也可能借 fillers。這段主要支援跨語言傳播原因，不直接處理多數題目，但可補強 Question 38。"
+      }
+    ]
+  }
+}

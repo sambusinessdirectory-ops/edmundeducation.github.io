@@ -572,7 +572,7 @@ assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
 assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
 assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
 assert.match(scheduleJs, /schedule-clipboard\.mjs\?v=20260727-1/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260820-1"/);
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260822-1"/);
 assert.match(scheduleJs, /homeworkCatalogPromise = Promise\.all\(\[\s*import\(HOMEWORK_CATALOG_URL\),\s*loadVideoClassHomeworkResources\(\)/);
 assert.match(scheduleJs, /function mergeHomeworkCatalog\([\s\S]*?startsWith\("video-class-"\)[\s\S]*?\(videoClassResources \|\| \[\]\)\.forEach/);
 assert.match(scheduleJs, /if \(retryVideoClass \|\| refreshManualWriting\) \{[\s\S]*?retryVideoClass \? loadVideoClassHomeworkResources\(\)[\s\S]*?mergeHomeworkCatalog/);

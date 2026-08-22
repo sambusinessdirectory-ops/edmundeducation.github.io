@@ -1,0 +1,2044 @@
+{
+  "id": "p3-167-the-flavour-industry",
+  "catalogueId": "p3-167",
+  "catalogueIds": [
+    "p3-167"
+  ],
+  "passage": 3,
+  "title": "The Flavour Industry",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "E",
+    "B",
+    "G",
+    "C",
+    "A",
+    "D",
+    "F",
+    "B",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "Examples of companies that create natural flavours",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often this is ‘natural flavour’, but while the term may bring to mind images of fresh barley, hand-ground spices, and dried herbs being traded in a bustling street market, most of these natural sources are, in fact, engineered to culinary perfection in a set of factories and plants off the New Jersey Turnpike outside of New York.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些被加回去的味道通常就是「天然香料」；雖然這個詞可能令人想到新鮮大麥、手磨香料、乾香草在熱鬧市集買賣的畫面，但大部分天然來源其實是在紐約附近 New Jersey Turnpike 一帶的工廠和廠房中，被工程化地調校至烹飪上的完美狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sweet, summery burst of naturally squeezed orange juice, the wood-smoked aroma in barbeque sauces, and the creamy, buttery, fresh taste in many dairy products do not come from sun-drenched meadows or backyard grills but are formed in the labs and test tubes of these flavour industry giants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然鮮榨橙汁那種甜美、夏日般的爆發感，燒烤醬中的木煙香氣，以及許多乳製品中奶油般、新鮮的味道，並非來自陽光普照的草地或後院烤爐；它們是在這些香料業巨頭的實驗室和試管中形成的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 的功能是揭示 natural flavour 的工業來源，並指出這些味道由大型香料企業製造。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“create natural flavours”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找公司名稱，而公司名稱通常是大寫專有名詞。Paragraph E 中有一串公司名："
+            },
+            {
+              "kind": "quote",
+              "text": "“International Flavors & Fragrances, Haarmann & Reimer, Flavor Dynamics, Frutarom and Elan Chemical”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些就是答案位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, firms such as International Flavors & Fragrances, Haarmann & Reimer, Flavor Dynamics, Frutarom and Elan Chemical isolate and manufacture the tastes that are incorporated in much of what we eat and drink.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，International Flavors & Fragrances、Haarmann & Reimer、Flavor Dynamics、Frutarom和 Elan Chemical 等公司，會分離並製造被加入我們大量飲食中的味道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Examples of companies that create natural flavours”。原文的 “firms such as” 就是examples of companies；“isolate and manufacture the tastes” 對應 create natural flavours。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也講 flavourists 和 chemical creation，容易令人想到「創造香味」。不過 Question 28 問的是 company examples，公司名稱集中在 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "An instance of a multinational franchise responding to public pressure",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the 1980s, health watchdogs and nutritionists began turning their attention to cholesterol, a waxy steroid metabolite that we mainly consume from animal-sourced products such as cheese, egg yolks, beef, poultry, shrimp, and pork.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1980 年代，健康監察組織和營養學家開始把注意力轉向膽固醇；膽固醇是一種蠟質類固醇代謝物，我們主要從芝士、蛋黃、牛肉、家禽、蝦和豬肉等動物來源食品中攝取。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As public awareness of the issue grew, McDonald’s stopped cooking their French fries in a mixture of cottonseed oil and beef tallow, and in 1990, the restaurant chain began using 100%vegetable oil instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著公眾對這個問題的意識提高，麥當勞停止用棉籽油和牛脂混合物來炸薯條；到了 1990 年，這家連鎖餐廳改用 100% 植物油。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講健康關注，尾句講 McDonald’s 因公眾意識提高而更改做法。這段很明顯包含一個企業回應 public pressure 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“multinational franchise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“responding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“public pressure”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中沒有 “multinational franchise” 這個詞，但有 “McDonald’s” 和 “restaurant chain”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "McDonald’s 是大型連鎖品牌，符合題目所說的 franchise。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“public pressure” 對應原文 “As public awareness of the issue grew”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“As public awareness of the issue grew, McDonald’s stopped cooking their French fries in a mixture of cottonseed oil and beef tallow, and in 1990, the restaurant chain began using 100%vegetable oil instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著公眾對這個問題的意識提高，麥當勞停止用棉籽油和牛脂混合物來炸薯條；到了 1990 年，這家連鎖餐廳改用 100% 植物油。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “responding to public pressure” 是對 “As public awareness of the issue grew” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“an instance” 對應 McDonald’s fries 這個具體例子。“multinational franchise” 對應 McDonald’s / restaurant chain。所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也繼續講 McDonald’s fries，但 C 的重點是改用植物油後造成 taste dilemma。 Question 29 問的是「回應公眾壓力」，真正證據在 Paragraph B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "A statement on the health effects of natural flavours",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Should we be wary of the industrialisation of natural flavour?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們是否應該對天然香料的工業化保持警惕？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, while the natural flavour industry should not be considered the culprit, we might think of it as a willing accomplice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，天然香料行業不應被視為罪魁禍首；我們可以把它看成一個願意幫忙的同伴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出健康或風險疑問，尾句給出作者的總結立場。這段最可能提供 natural flavours 對健康影響的判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“health effects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural flavours”"
+            },
+            {
+              "kind": "label",
+              "text": "在 Paragraph G 中，最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural flavour on its own is not a health risk.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接談 natural flavour 與 health risk。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural flavour on its own is not a health risk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然香料本身並不構成健康風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是題目中的 “a statement on the health effects of natural flavours”。文章明確說，natural flavour 單獨來看不是健康風險。"
+            },
+            {
+              "kind": "label",
+              "text": "不過後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“It does play a role, however, in helping these processed foods to taste fresh and nutritious, even when they are not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它確實有一個作用：即使這些加工食品並不新鮮或有營養，它也能幫助它們吃起來像新鮮、有營養。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph G 一方面說 natural flavour 本身不是直接健康危害，另一方面說它會幫助加工食品變得更吸引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 有 obesity、heart disease、diabetes、cancers 等疾病，但那裡講的是 cholesterol，不是 natural flavours 的健康效果。Question 30 的主體是 natural flavours，所以要到 Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "An instance where a solution turns into a problem",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This substantially lowered the amount of cholesterol in McDonald’s fries, but it created a new dilemma.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這大幅降低了麥當勞薯條中的膽固醇含量，但也造成了一個新的難題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aside from a few preservatives, there are essentially three main ingredients: potato, soybean oil, and the mysterious component of ‘natural flavour’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了一些防腐劑之外，基本上有三種主要成分：馬鈴薯、大豆油，以及神秘的「天然香料」成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經非常直接：降低 cholesterol 是解決健康問題，但同時出現 new dilemma。這正是solution turns into a problem。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“solution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“turns into a problem”"
+            },
+            {
+              "kind": "quote",
+              "text": "“problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應的是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lowered the amount of cholesterol” = solution“created a new dilemma” = turned into a problem"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This substantially lowered the amount of cholesterol in McDonald’s fries, but it created a new dilemma.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這大幅降低了麥當勞薯條中的膽固醇含量，但也造成了一個新的難題。"
+            },
+            {
+              "kind": "label",
+              "text": "後文解釋這個新難題："
+            },
+            {
+              "kind": "quote",
+              "text": "“The beef tallow and cottonseed oil mixture gave the French fries a high cholesterol content, but it also gave them a rich aroma and ‘mouth-feel’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛脂和棉籽油混合物令薯條膽固醇較高，但也賦予它們濃郁香氣和口感。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Pure vegetable oil is bland in comparison.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，純植物油味道平淡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，改用植物油解決膽固醇問題，卻令味道和口感變差。這就是題目所說的「解決方案變成新問題」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 講 McDonald’s 改油，是 solution 的起點；Paragraph C 才明確說它造成 new dilemma。Matching Information 要找完整資訊功能，不能只找事件開頭。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "A place in the home where one may encounter the term “natural flavor”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Read through the nutritional information on the food in your freezer, refrigerator or kitchen pantry, and you are likely to find a simple, innocuous-looking ingredient recurring on a number of products: ‘natural flavour’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "細看你家中冰箱、雪櫃或廚房食品櫃裡食物的營養資料，你很可能會在不少產品上看到一種簡單、看似無害、反覆出現的成分：「天然香料」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The story of what natural flavour is, how it got into your food, and where it came from is the result of more complex processes than you might imagine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然香料到底是甚麼、它如何進入你的食物、它來自哪裡，背後的故事比你想像中涉及更複雜的過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段開頭直接列出家中位置，並引入 “natural flavour” 這個詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“place in the home”"
+            },
+            {
+              "kind": "quote",
+              "text": "“encounter the term”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural flavor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有三個 home places："
+            },
+            {
+              "kind": "quote",
+              "text": "“freezer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“refrigerator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“kitchen pantry”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意：題目用美式拼法 “flavor”，文章用英式拼法 “flavour”。IELTS 常會在拼法或詞形上做輕微變化，意思相同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Read through the nutritional information on the food in your freezer, refrigerator or kitchen pantry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "細看你家中冰箱、雪櫃或廚房食品櫃裡食物的營養資料……這句直接提供家中位置。題目只問 “A place in the home”，原文甚至給了三個：freezer、refrigerator、kitchen pantry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也講 packaged foods 和 ingredient labels，但沒有具體列出家中位置。Question 32的答案定位非常靠前，在 Paragraph A 第一行。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "Details about the transformation that takes place in processed grocery items",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural flavour also entered our diet through the rise of processed foods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然香料也透過加工食品的興起進入我們的飲食。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This process typically saps any original flavour from the product, and so, of course, flavour must be added back in as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程通常會耗掉產品原有的味道，所以當然也必須把味道重新加回去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 processed foods，尾句講 processing 如何破壞原有味道。這段最可能有 grocery items 被加工轉化的細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“transformation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“processed grocery items”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文不一定用 transformation 這個字，但 Paragraph D 有一串被動式動詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“coloured, bleached, stabilised, emulsified, dehydrated, odour-concealed, and sweetened”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些就是加工食品被改造的細節。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, however, foods are coloured, bleached, stabilised, emulsified, dehydrated, odour-concealed, and sweetened.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，食品經常會被上色、漂白、穩定化、乳化、脫水、掩蓋氣味，以及加甜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “transformation” 是對這一連串加工動作的概括。"
+            },
+            {
+              "kind": "quote",
+              "text": "“processed grocery items” 對應原文 “Processed foods” 和 “foods that have been boxed, bagged, canned or packaged”。後句再說：“This process typically saps any original flavour from the product…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程通常會耗掉產品原有的味道……所以 Paragraph D 不只是定義 processed foods，也列出加工過程如何改變食物本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也有 “engineered to culinary perfection”，看起來也像 transformation。不過Question 33 問的是 processed grocery items 的加工改造細節，完整清單在 Paragraph D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "A comparison of personal and technological abilities in flavor detection",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scientists—dubbed ‘flavourists’—who create the potent chemicals that send our olfactory senses into overdrive use a mix of techniques that have been refined over many years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些被稱為「香料師」的科學家會創造強效化學物質，令我們的嗅覺感官變得高度活躍；他們使用一套經多年打磨的混合技術。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flavourists, therefore, consider their work as much an art as a science, and flavourism requires a nose ‘trained’ with a delicate and poetic sense of balance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，香料師認為他們的工作既是科學，也是藝術；香料學需要一個受過訓練、具有細膩而詩意平衡感的鼻子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都和嗅覺、技術、科學和人的鼻子有關。這段很適合找 personal vs technological abilities的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“comparison”"
+            },
+            {
+              "kind": "quote",
+              "text": "“personal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“technological abilities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flavor detection”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 technological abilities 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“spectrometers, gas chromatographs, and headspace-vapour analysers”"
+            },
+            {
+              "kind": "label",
+              "text": "personal ability 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the human nose”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of it is dense, intricate chemistry: spectrometers, gas chromatographs, and headspace-vapour analysers can break down components of a flavour in amounts as minute as one part per billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一部分是密集而複雜的化學：光譜儀、氣相色譜儀和頂空蒸氣分析儀，可以把味道成分分解到十億分之一這麼微小的量。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not to be outdone, however, the human nose can isolate aromas down to three parts per trillion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，人類鼻子也毫不遜色，可以把香氣分辨到萬億分之三的程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句直接比較科技儀器和人類鼻子的偵測能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “personal abilities” = human nose。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“technological abilities” = spectrometers / gas chromatographs / analysers。“flavor detection” = break down components / isolate aromas。答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 有 labs and test tubes，也有 industrial flavour creation，但它沒有比較人類感官和科技儀器的偵測能力。Question 34 的 comparison 明確在 Paragraph F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "Examples of diet-related health conditions",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the 1980s, health watchdogs and nutritionists began turning their attention to cholesterol…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1980 年代，健康監察組織和營養學家開始把注意力轉向膽固醇……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As public awareness of the issue grew, McDonald’s stopped cooking their French fries in a mixture of cottonseed oil and beef tallow…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著公眾對這個問題的意識提高，麥當勞停止用棉籽油和牛脂混合物來炸薯條……這段從 cholesterol 和健康風險開始，最後說企業因此改變做法。它自然包含飲食相關健康問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“diet-related”"
+            },
+            {
+              "kind": "quote",
+              "text": "“health conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“examples”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的疾病例子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“obesity, heart disease, diabetes, and several cancers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nutritionists blamed cholesterol for contributing to the growing rates of obesity, heart disease, diabetes, and several cancers in Western societies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "營養學家認為膽固醇促成了西方社會肥胖、心臟病、糖尿病和幾種癌症比例上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Examples of diet-related health conditions”。原文列出四類健康狀況，而且它們和cholesterol、animal-sourced products、diet 有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也談 health risk，但沒有列出具體疾病例子。Question 35 問 examples，所以Paragraph B 的疾病清單最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "On their own, vegetable oils do not have a strong flavor.",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This substantially lowered the amount of cholesterol in McDonald’s fries, but it created a new dilemma.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這大幅降低了麥當勞薯條中的膽固醇含量，但也造成了一個新的難題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aside from a few preservatives, there are essentially three main ingredients: potato, soybean oil, and the mysterious component of ‘natural flavour’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了一些防腐劑之外，基本上有三種主要成分：馬鈴薯、大豆油，以及神秘的「天然香料」成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講植物油取代舊油脂後，味道出現問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“vegetable oils”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on their own”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strong flavor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pure vegetable oil is bland in comparison.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pure vegetable oil is bland in comparison.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，純植物油味道平淡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “On their own, vegetable oils do not have a strong flavor.”原文說 “Pure vegetable oil is bland”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“on their own” 對應 “pure”；“do not have a strong flavor” 對應 “bland”。兩者意思一致。所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用的是複數 “vegetable oils”，原文用單數 “Pure vegetable oil”。這裡不影響答案，因為文章討論的是作為替代方案的植物油本身味道平淡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Soybean oil is lower in cholesterol than cottonseed oil.",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相關段落主要是 Paragraph B 和 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“McDonald’s stopped cooking their French fries in a mixture of cottonseed oil and beef tallow, and in 1990, the restaurant chain began using 100% vegetable oil instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "麥當勞停止用棉籽油和牛脂混合物來炸薯條；到了 1990 年，這家連鎖餐廳改用 100% 植物油。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aside from a few preservatives, there are essentially three main ingredients: potato, soybean oil, and the mysterious component of ‘natural flavour’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了一些防腐劑之外，基本上有三種主要成分：馬鈴薯、大豆油，以及神秘的「天然香料」成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可以知道，文章確實提到 cottonseed oil 和 soybean oil，但要細讀是否有直接比較cholesterol。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Soybean oil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lower in cholesterol”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cottonseed oil”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描可找到： Paragraph B：cottonseed oil and beef tallow Paragraph C：soybean oil不過，文章沒有一個句子把 soybean oil 和 cottonseed oil 的 cholesterol level 直接比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This substantially lowered the amount of cholesterol in McDonald’s fries…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這大幅降低了麥當勞薯條中的膽固醇含量……這裡的 “This” 指的是上一段 McDonald’s 改用 100% vegetable oil。原文比較的是：舊做法：cottonseed oil + beef tallow mixture新做法：100% vegetable oil題目要求比較的是： soybean oil vs cottonseed oil這是不同的比較。舊配方中含有 beef tallow，而 beef tallow 是動物脂肪；文章沒有說 cottonseed oil 本身的 cholesterol 比 soybean oil 高。即使從常識上可能想到植物油不含膽固醇，IELTS"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Reading 不能用常識補入文章沒有寫出的比較。",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是看到 “lowered cholesterol” 和 “soybean oil” 就急著選 TRUE。可是 “lowered cholesterol” 是整個配方改變的結果，並非 soybean oil 與 cottonseed oil 之間的營養比較。題目缺少原文支援的核心比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Processed foods are becoming more popular in some Asian countries.",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural flavour also entered our diet through the rise of processed foods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然香料也透過加工食品的興起進入我們的飲食。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This process typically saps any original flavour from the product, and so, of course, flavour must be added back in as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程通常會耗掉產品原有的味道，所以當然也必須把味道重新加回去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句指出 processed foods 的 rise。這一段很可能包含加工食品普及或增長的資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Processed foods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“becoming more popular”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some Asian countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 “popular” 這個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“burgeoning industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developing countries such as China and India”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "China 和 India 都是亞洲國家例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They also represent a burgeoning industry in developing countries such as China and India.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們在中國和印度等發展中國家也代表一個迅速興起的產業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“burgeoning” 指迅速發展、快速增長。題目說 “becoming more popular” 是把 “burgeoning industry” 用較日常的方式改寫。加工食品產業在中國和印度快速增長，表示這類食品在這些市場變得更常見、更受消費市場接受。題目說 “some Asian countries”，原文舉例 “China and India”。範圍一致。所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "前一句 “the proportion is growing” 主要指 American diet，不能單靠那句回答 Asian countries。真正連到亞洲國家的句子是 “China and India” 那句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "All food processing involves the use of natural flavours.",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D 和 E。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural flavour also entered our diet through the rise of processed foods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然香料也透過加工食品的興起進入我們的飲食。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This process typically saps any original flavour from the product, and so, of course, flavour must be added back in as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程通常會耗掉產品原有的味道，所以當然也必須把味道重新加回去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 第一字 “Often” 也很重要，因為它控制範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“All”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food processing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural flavours”"
+            },
+            {
+              "kind": "quote",
+              "text": "“All” 是本題最危險的控制詞。做 TFNG 時，all、every、always 一定要核對原文是否真的給出完整範圍。原文相關句：“Sometimes, the processing involves adding a little sodium or sugar, and a few preservatives.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Often this is ‘natural flavour’…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes, the processing involves adding a little sodium or sugar, and a few preservatives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時，加工過程只是加入少量鈉或糖，以及一些防腐劑。"
+            },
+            {
+              "kind": "label",
+              "text": "之後又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often this is ‘natural flavour’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這通常是「天然香料」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “All food processing involves the use of natural flavours.”這個說法把範圍擴大到全部 food processing。原文沒有支持全部；相反，原文用 “Sometimes” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Often” 限制範圍。“Sometimes” 表示有些加工只是加鈉、糖、防腐劑。“Often” 表示很多情況會加入 natural flavour，但不等於全部。因此，題目的 “All” 與原文範圍衝突。所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 最後一句說 “flavour must be added back in”，看起來很絕對。不過下一段馬上用“Often this is ‘natural flavour’” 收窄範圍：加回去的 flavour 經常是 natural flavour，並非每一次都一定是 natural flavour。做 TFNG 時，程度詞比主題詞更關鍵。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — help make unhealthy foods taste better.",
+      "answerKey": "D — help make unhealthy foods taste better.",
+      "type": "Multiple Choice",
+      "prompt": "The writer of the reading passage concludes that natural flavours...",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Should we be wary of the industrialisation of natural flavour?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們是否應該對天然香料的工業化保持警惕？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, while the natural flavour industry should not be considered the culprit, we might think of it as a willing accomplice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，天然香料行業不應被視為罪魁禍首；我們可以把它看成一個願意幫忙的同伴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 writer concludes，所以要看結尾段。Paragraph G 的首句提出評價問題，尾句給出最終判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“concludes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural flavours”"
+            },
+            {
+              "kind": "quote",
+              "text": "“health”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unhealthy foods”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 有幾句非常關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural flavour on its own is not a health risk.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It does play a role, however, in helping these processed foods to taste fresh and nutritious, even when they are not.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“we might think of it as a willing accomplice.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nutritionists widely agree that the real assault on health in the last few decades stems from an‘unholy trinity’ of sugar, fat, and sodium in processed foods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "營養學家普遍同意，過去幾十年真正攻擊健康的是加工食品中糖、脂肪和鈉這個「邪惡三位一體」。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural flavour on its own is not a health risk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然香料本身並不構成健康風險。"
+            },
+            {
+              "kind": "label",
+              "text": "再接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“It does play a role, however, in helping these processed foods to taste fresh and nutritious, even when they are not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，它確實有一個作用：即使這些加工食品並不新鮮或有營養，它也能幫助它們吃起來像新鮮、有營養。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接支持 D。natural flavours 令 processed foods 吃起來更好、更像新鮮和有營養。由於前文已說 processed foods 的真正健康問題來自 sugar、fat、sodium，所以 D 的 “unhealthy foods” 對應這些加工食品。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. are the major cause of dietary health problems.錯。原文說真正的健康攻擊來自 sugar, fat, and sodium，不是 natural flavours。Natural flavour industry “should not be considered the culprit”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. are unhealthy, but not as bad as sugar, fat, and sodium.錯。原文說 “Natural flavour on its own is not a health risk.” 它不是「本身不健康但較輕微」；作者的判斷更細：它本身無直接健康風險，但會協助加工食品變得更吸引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. have health benefits that other ingredients tend to cancel out.錯。文章沒有說 natural flavours 有健康益處，也沒有說其他成分抵消其益處。這是無原文支援的說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. help make unhealthy foods taste better.正確。原文說 natural flavour helps processed foods “taste fresh and nutritious, even when they are not”。這正好是讓不健康或營養不足的加工食品吃起來更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很吸引人，因為整篇文章都在揭示 flavour industry 的工業化。不過作者結論其實很克制： natural flavour 不是主要罪魁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 也容易誤選，因為它提到 sugar, fat, sodium；但原文沒有說 natural flavour 本身 unhealthy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “willing accomplice”：它不是主犯，卻幫忙讓加工食品更像新鮮、有營養，從而更容易被消費者接受。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Flavour Industry.pdf",
+    "sha256": "9bb2f5f977cfb90aedd0b918f882c1defe99cb9dcb9bf8ca879258e67262c46d",
+    "pageCount": 21
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句把讀者帶到家中場景：查看冰格、雪櫃或食品櫃裡食物標籤，常會看到 “natural flavour”。尾句說這個簡單成分背後的來源和進入食物的過程比想像複雜。這段是引入段，功能是把日常食品標籤轉成一個值得追查的工業故事。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把時間定在 1980 年代，健康監察者和營養學家開始關注 cholesterol。尾句給出McDonald’s 的例子：因公眾意識提高，薯條改用 100% vegetable oil。只看首尾句，這段應該解釋健康壓力如何推動大型連鎖餐廳改變食物配方。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說這個改變降低了 McDonald’s 薯條的膽固醇，卻產生新難題。尾句列出現時薯條主要成分：potato、soybean oil 和 mysterious “natural flavour”。這段應該說明健康方案造成味道問題，植物油較平淡，因此 natural flavour 成為補救味道的關鍵。"
+      },
+      {
+        "number": "D",
+        "summary": "首句把話題從 McDonald’s 擴展到 processed foods，說 natural flavour 也透過加工食品進入飲食。尾句說加工過程通常會抽走食物原有味道，所以要把味道加回去。這段大概會定義processed foods，列出加工手段，並解釋 flavour industry 為何有市場需要。"
+      },
+      {
+        "number": "E",
+        "summary": "首句指出 “natural flavour” 令人想起天然市集，但實際上多數來源在 New Jersey Turnpike 附近工廠被工程化處理。尾句說橙汁、燒烤醬、乳製品的味道來自實驗室和試管。這段功能是揭示所謂自然味道的工業生產現實，也會列出相關公司。"
+      },
+      {
+        "number": "F",
+        "summary": "首句介紹 flavourists，即創造強效味道化學物的科學家。尾句說他們把工作視為科學和藝術，需要受訓鼻子和細膩平衡感。這段大概會比較儀器和人類嗅覺，說明味道檢測既靠化學設備，也靠人的感官訓練和藝術判斷。"
+      },
+      {
+        "number": "G",
+        "summary": "首句提出評價問題：我們是否應警惕 natural flavour 的工業化。尾句說 natural flavour industry 不應被視為主犯，但可以看成 willing accomplice。這段是結論段，應該會平衡說明：natural flavour本身不是主要健康風險，但會幫助加工食品吃起來更新鮮、更有營養感。"
+      }
+    ]
+  }
+}

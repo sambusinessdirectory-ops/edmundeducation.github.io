@@ -1,0 +1,1711 @@
+{
+  "id": "p3-060-co-educational-versus-single-sex-classrooms",
+  "catalogueId": "p3-060",
+  "catalogueIds": [
+    "p3-060"
+  ],
+  "passage": 3,
+  "title": "CO- EDUCATIONAL VERSUS SINGLE SEX CLASSROOMS",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 12,
+  "questionNumberStart": 29,
+  "answerKey": [
+    "C",
+    "B",
+    "A",
+    "stereotypes",
+    "Switzerland",
+    "converse",
+    "subjects",
+    "teachers",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 29,
+      "answer": "C — some children can thrive due to a more comfortable environment",
+      "answerKey": "C — some children can thrive due to a more comfortable environment",
+      "type": "Multiple Choice",
+      "prompt": "In single-sex classes…",
+      "translation": "在 single-sex classes 中，以下哪一項正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many potential advantages for children studying in single-sex schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 single-sex schools 學習的兒童有很多潛在好處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In surveys of over 1,000 single-sex schools, it was reported that the absence of the opposite sex was not missed, but the absence of boys or girls allowed students to have a more direct and serious approach to their education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在超過一千間 single-sex schools 的調查中，報告指出學生並不想念異性同學；缺少男生或女生反而讓學生能以更直接、更認真的方式面對教育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 主要介紹 single-sex schools 的學習環境優點。題目問 “In single-sex classes…”，所以這段自然是最重要的定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“single-sex classes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應的說法包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“single-sex schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“single-sex schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the absence of the opposite sex”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 2 時，最重要的證據句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some children succeed in single-sex schools because of the lack of social pressure – children are more able to learn and grow at their own pace without the pressure commonly found between the genders in coeducational schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些孩子在 single-sex schools 中能成功，是因為社交壓力較少；沒有 coeducational schools 中常見的性別之間的壓力，孩子更能按自己的步伐學習和成長。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的核心鏈條是：● Some children succeed有些孩子能成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● because of the lack of social pressure原因是社交壓力較少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● learn and grow at their own pace可以按自己的步伐學習和成長。"
+            },
+            {
+              "kind": "label",
+              "text": "這正好對應選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“some children can thrive due to a more comfortable environment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 thrive 對應原文的 “succeed” 和 “thrived”；“more comfortable environment” 對應 “lack of social pressure”、“close-knit environment” 和 “closer interaction with teachers”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. girls learn faster than boys原文只說男女學習方式不同，沒有說女生學得比男生快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. teachers need a wider variety of teaching styles than in a coeducational setting Paragraph 1 說 single-sex setting 中教師可 tailor particular teaching styles，也提到需要additional training，但沒有比較說 single-sex teachers 需要比 coeducational teachers 更多種教學方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. some children can thrive due to a more comfortable environment正確。它保留了 “some children” 這個範圍，也概括了 lack of social pressure 和 close-knit environment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. the opposite sex was not missed這句有原文字眼，確實來自最後一句。不過它是 survey 中的一個報告細節。題目要求四選一時， C 更完整地概括 single-sex classes 的學習優勢，而且範圍詞 “some children” 更精準。D 容易吸引人，因為字面重合度高；真正控制答案的是整段對 comfortable / low-pressure learning environment 的描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — may discourage males from studying certain subjects",
+      "answerKey": "B — may discourage males from studying certain subjects",
+      "type": "Multiple Choice",
+      "prompt": "Coeducational schools…",
+      "translation": "關於 coeducational schools，哪一項正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many western countries, the conventional view around thirty years ago was that coeducation would somehow break down gender stereotypes, but this hasn’t always proved to be the case.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在許多西方國家，大約三十年前的傳統看法是，coeducation 會以某種方式打破性別定型觀念，但實際情況並不總是如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-sex schools are flourishing once again as parents realise that allowing their son or daughter to learn in his or her own individual way is a very important consideration in choosing a school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Single-sex schools 再次興盛，因為家長意識到，讓兒子或女兒按自己的個別方式學習，是選校時非常重要的考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 3 比較 coeducation 的原先期望和現實問題。題目問coeducational schools，所以這段尤其重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coeducational schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discourage males”"
+            },
+            {
+              "kind": "quote",
+              "text": "“certain subjects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advocates of single-sex education argue that boys in coeducational settings are less likely to study the arts or advanced academic subjects just to avoid the social categorisation of certain subjects as being more in the feminine realm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Single-sex education 的支持者認為，在 coeducational settings 中，男生較少選讀藝術或進階學術科目，只是為了避免某些科目被社會歸類為較女性化的領域。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的主體是："
+            },
+            {
+              "kind": "quote",
+              "text": "“boys in coeducational settings”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即 coeducational schools/settings 中的男生。"
+            },
+            {
+              "kind": "label",
+              "text": "核心動作是："
+            },
+            {
+              "kind": "quote",
+              "text": "“are less likely to study the arts or advanced academic subjects”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即較不可能學習藝術或進階學術科目。"
+            },
+            {
+              "kind": "label",
+              "text": "原因是："
+            },
+            {
+              "kind": "quote",
+              "text": "“to avoid the social categorisation of certain subjects as being more in the feminine realm”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即避免被看作選了較女性化的科目。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“may discourage males from studying certain subjects”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原文的概括改寫。"
+            },
+            {
+              "kind": "quote",
+              "text": "“boys” → “males”"
+            },
+            {
+              "kind": "quote",
+              "text": "“are less likely to study” → “may discourage … from studying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the arts or advanced academic subjects” → “certain subjects”"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. allow boys and girls to get a more rounded picture of the opposite sex Paragraph 1 提到 coeducational school offering a more “rounded” education，Paragraph 7 也說學生能和異性談日常話題。不過 A 說 “a more rounded picture of the opposite sex”，文章沒有這種具體說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. may discourage males from studying certain subjects正確。它對應男生在 coeducational settings 中避開某些被視為女性化的科目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. are falling in popularity文章說 single-sex schools 變得更常見、再次興盛，但沒有直接提供 coeducational schools 整體人氣下跌的數據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. have fewer people involved in extracurricular teams and groups Paragraph 4 只說 single-sex schools 中 girls 更可能參與 leadership activities，沒有概括說coeducational schools 的 extracurricular 參與者較少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "A — must be offered the option of coeducational classes for their children",
+      "answerKey": "A — must be offered the option of coeducational classes for their children",
+      "type": "Multiple Choice",
+      "prompt": "Parents…",
+      "translation": "關於 parents，哪一項正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regardless of increased levels of academic performance and preference, a small percentage of people concerned about gender equality have opposed single-sex education on ethical grounds because it forces separation between the sexes on students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使 single-sex education 帶來較高學業表現和偏好，仍有少數關心性別平等的人基於倫理理由反對，因為它強迫學生按性別分開。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order for schools to run single-sex classrooms, they must also offer parents the opportunity to enrol their children in a traditional coeducational classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了讓學校能開設 single-sex classrooms，學校也必須給家長機會，讓他們把孩子送入傳統coeducational classroom。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 5 處理 single-sex classrooms 的倫理爭議和制度要求。題目主體是 Parents，最後一句直接提到 parents，所以定位清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parents”"
+            },
+            {
+              "kind": "quote",
+              "text": "“option”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coeducational classes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“they must also offer parents the opportunity to enrol their children in a traditional coeducational classroom.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有：● must● offer parents● opportunity● enrol their children● coeducational classroom"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“must be offered the option of coeducational classes for their children”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“must also offer parents the opportunity to enrol their children in a traditional coeducational classroom”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者幾乎逐項對應：● must be offered= must also offer parents● the option= the opportunity● coeducational classes= traditional coeducational classroom● for their children= enrol their children"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. must be offered the option of coeducational classes for their children正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. often push boys to succeed in language tasks原文沒有說 parents 推動男生在語文任務中成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. have reported that single-sex classrooms have helped their children with confidence issues Paragraph 7 說 parents have said a coeducational classroom helped confidence and shyness。C 把學校類型換成 single-sex classrooms，因此不合原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. have been influential in the academic performance of single-sex schools文章說家長在選校時考慮孩子的學習方式，也說 single-sex schools 再興盛，但沒有說 parents影響 single-sex schools 的 academic performance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "stereotypes",
+      "answerKey": "stereotypes",
+      "type": "Notes Completion",
+      "prompt": "Coeducational schools: Intended to reduce gender 32 ______, but may not have succeeded.",
+      "translation": "Coeducational schools 原本意圖減少 gender ______，但未必成功。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many western countries, the conventional view around thirty years ago was that coeducation would somehow break down gender stereotypes, but this hasn’t always proved to be the case.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在許多西方國家，大約三十年前的傳統看法是，coeducation 會以某種方式打破 gender stereotypes，但實際並不總是如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-sex schools are flourishing once again as parents realise that allowing their son or daughter to learn in his or her own individual way is a very important consideration in choosing a school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Single-sex schools 再次興盛，因為家長意識到讓孩子按自己的個別方式學習，是選校時非常重要的考慮。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coeducational schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce gender”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may not have succeeded”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“coeducation would somehow break down gender stereotypes, but this hasn’t always proved to be the case.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “reduce” 對應原文的 “break down”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“may not have succeeded” 對應 “hasn’t always proved to be the case”。空格前已有 “gender”，原文完整短語是 gender stereotypes。因此空格只需要填 stereotypes。答案是 1 個字，符合 NO MORE THAN TWO WORDS。所以 32 是 stereotypes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "Switzerland",
+      "answerKey": "Switzerland",
+      "type": "Notes Completion",
+      "prompt": "Coeducational schools: First introduced in 33 ______, but quickly spread.",
+      "translation": "Coeducational schools 最先在 ______ 引入，之後很快傳播開去。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is important to remember that coeducation is a modern concept, introduced into mainstream education less than fifty years ago, a development that has brought substantial changes to the societies in which this method is observed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "重要的是要記住，coeducation 是一個現代概念，進入主流教育不足五十年，這項發展為採用此方法的社會帶來了重大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys have also shown that a higher percentage of girls in the classroom lowers disruption and creates a better relationship between the students and the teacher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查也顯示，班上女生比例較高會減少課堂干擾，並在學生和教師之間建立較好關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 7 講 coeducation 的歷史、好處和課堂影響。題目問 first introduced，所以應看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“First introduced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“quickly spread”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was first introduced in Switzerland and spread quickly through most Western countries; it is certainly not without benefits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最先在 Switzerland 引入，並很快傳播到大多數西方國家；它當然並非沒有好處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子幾乎直接改寫原文：● First introduced in= was first introduced in● but quickly spread= spread quickly through most Western countries空格要填地點，原文地點是 Switzerland。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 Switzerland。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "converse",
+      "answerKey": "converse",
+      "type": "Notes Completion",
+      "prompt": "Coeducational schools: Allow students to 34 ______ more easily with the opposite sex about general topics.",
+      "translation": "Coeducational schools 讓學生更容易與異性就一般話題 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is important to remember that coeducation is a modern concept, introduced into mainstream education less than fifty years ago, a development that has brought substantial changes to the societies in which this method is observed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "重要的是要記住，coeducation 是一個現代概念，進入主流教育不足五十年，並為相關社會帶來重大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys have also shown that a higher percentage of girls in the classroom lowers disruption and creates a better relationship between the students and the teacher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查也顯示，班上女生比例較高會減少干擾，並改善學生與教師的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 coeducation 的好處，題目中的 opposite sex 和 general topics 明顯對應段中家長意見。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“opposite sex”"
+            },
+            {
+              "kind": "quote",
+              "text": "“general topics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“students”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parents have said that a coeducational classroom has been excellent for their children’s confidence, has helped them overcome shyness and has helped students converse about everyday topics with the opposite gender.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "家長表示，coeducational classroom 對孩子的自信非常有幫助，幫助他們克服害羞，也幫助學生與異性談論日常話題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “general topics” 對應原文 “everyday topics”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “opposite sex” 對應原文 “opposite gender”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “Allow students to”，所以答案應是動詞原形。原文提供的動詞是 converse。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整對應：● Allow students to converse= has helped students converse● more easily= helped / overcome shyness 的概括效果● about general topics= about everyday topics所以 34 是 converse。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "subjects",
+      "answerKey": "subjects",
+      "type": "Notes Completion",
+      "prompt": "Single-sex schools: Girls have greater interest in traditionally male-dominated 35 ______.",
+      "translation": "在 single-sex schools 中，女生對傳統上由男性主導的 ______ 更有興趣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With regard to those who may oppose gender segregation in schools, many advocates of the idea believe single-sex classes actually negate gender stereotypes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對於那些可能反對學校性別分隔的人，許多支持者認為 single-sex classes 實際上能抵消gender stereotypes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, a 2005 study released by Cambridge University showed that in single-sex rooms, as compared with traditional settings, girls are more interested in math and science, subjects generally preferred by boys in coeducational settings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，Cambridge University 於 2005 年發表的一項研究顯示，與傳統環境相比，在 single-sex rooms 中，女生對 math and science 更有興趣；這些科目通常在 coeducational settings 中較受男生偏好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater interest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“male-dominated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“girls are more interested in math and science, subjects generally preferred by boys in coeducational settings.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目空格前已有："
+            },
+            {
+              "kind": "quote",
+              "text": "“traditionally male-dominated”"
+            },
+            {
+              "kind": "label",
+              "text": "所以空格最自然需要一個名詞，形成："
+            },
+            {
+              "kind": "quote",
+              "text": "“traditionally male-dominated subjects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“math and science, subjects generally preferred by boys…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於題目規定 NO MORE THAN TWO WORDS，不能填 “math and science”，因為這是三個英文單字。文章提供的可用名詞是 subjects，也正好令句子成為："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls have greater interest in traditionally male-dominated subjects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “math and science”。這是原文的具體例子，但超出字數限制，而且放入題目後會變成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“traditionally male-dominated math and science”，語法也不如 “subjects” 自然。表格已經用“traditionally male-dominated” 概括了 “generally preferred by boys”，所以空格只需填上位名詞。所以 35 是 subjects。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "teachers",
+      "answerKey": "teachers",
+      "type": "Notes Completion",
+      "prompt": "Single-sex schools: Often have a better relationship with 36 ______.",
+      "translation": "Single-sex schools 中，學生通常與 ______ 有較好關係。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many potential advantages for children studying in single-sex schools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 single-sex schools 學習的兒童有很多潛在好處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In surveys of over 1,000 single-sex schools, it was reported that the absence of the opposite sex was not missed, but the absence of boys or girls allowed students to have a more direct and serious approach to their education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查指出，學生並不想念異性同學；缺少男生或女生反而讓學生以更直接、更認真的方式對待教育。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句可見本段在列出 single-sex schools 的優勢。題目表格右欄是 Single-sex schools，所以應回到本段找師生關係或互動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“better relationship”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-sex schools”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中意思最接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research done in a single-sex school concluded that students thrived in what often became a close-knit environment with closer interaction with teachers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一間 single-sex school 進行的研究得出結論：學生在一種常常變得緊密的環境中 thriving，並且與教師有更密切互動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “better relationship with…”；原文說 “closer interaction with teachers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“closer interaction” 可以合理概括為更密切的師生關係。空格要填對象，因此是 teachers。另外，Paragraph 7 也有 “better relationship between the students and the teacher”，但那一句出現在 coeducation benefits 的段落，且語境是 girls percentage in classroom。這題表格右欄屬於single-sex schools，Paragraph 2 的 “closer interaction with teachers” 更貼合。所以 36 是 teachers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Single-sex schools are becoming more popular again.",
+      "translation": "Single-sex schools 正再次變得更受歡迎。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 + Paragraph 3 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Across the Western world, an increasing number of parents are returning to more traditional divisions in their children’s education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在整個西方世界，越來越多家長正在回到孩子教育中較傳統的性別分流方式。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-sex schools are flourishing once again as parents realise that allowing their son or daughter to learn in his or her own individual way is a very important consideration in choosing a school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Single-sex schools 再次興盛，因為家長意識到讓兒子或女兒以自己的個別方式學習，是選校時非常重要的考慮。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-sex schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“becoming more popular again”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-sex schools are flourishing once again…”"
+            },
+            {
+              "kind": "label",
+              "text": "另一句支援："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-sex classrooms … have become significantly more common in most Western countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Single-sex classrooms 在大多數西方國家已明顯變得更常見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “becoming more popular again”。原文有兩個同方向訊號：● “increasing number of parents”家長數量增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “more common”更常見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “flourishing once again”再次興盛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都支援 single-sex schools / classrooms popularity 上升。題目中的 “again” 對應 “returning to more traditional divisions” 和 “once again”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Girls do not learn as well as boys through speaking.",
+      "translation": "女生透過說話／口語方式學習，不及男生學得好。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Across the Western world, an increasing number of parents are returning to more traditional divisions in their children’s education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在整個西方世界，越來越多家長正在回到孩子教育中較傳統的性別分流方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naturally, the resurgence of single-sex education has meant that many teachers have had to undergo additional training in techniques appropriate to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然地，single-sex education 的復興意味著許多教師必須接受額外訓練，學習適合這種環境的技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段在說 single-sex education 回潮，以及教師要適應男女學習方式差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 girls 如何學習，應看本段中間的 research sentence。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls”"
+            },
+            {
+              "kind": "quote",
+              "text": "“learn”"
+            },
+            {
+              "kind": "quote",
+              "text": "“through speaking”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that boys and girls have very different ways of learning, with research showing that boys learn better through movement, sound and touch, whereas girls learn better through visual and oral means.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，男生和女生有很不同的學習方式；研究顯示，男生透過 movement、sound and touch學得較好，女生則透過 visual and oral means 學得較好。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Girls do not learn as well as boys through speaking.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“girls learn better through visual and oral means.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“oral means” 指口頭／口語方式，與 speaking 或 spoken communication 有關。原文方向是女生在 oral means 方面學得好；題目說女生透過 speaking 學得不如男生。兩者方向相反。題目命題：● 主體：Girls● 動作：do not learn as well● 方式：through speaking原文命題：● 主體：girls● 動作：learn better● 方式：through visual and oral means因此答案是 FALSE。中伏位是 “sound” 和 “oral”。原文說男生透過 sound 學得較好，女生透過 oral means 學得較好。 sound 偏向聽覺刺激；oral means 偏向口頭語言方式。題目用 speaking 更接近 oral means，所以不能把它歸到男生那邊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Surveys have found that coeducational schools are preferred socially.",
+      "translation": "調查發現，從社交角度來看，coeducational schools 更受偏好。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7，並需要留意 Paragraph 2 和 Paragraph 4 的相關調查資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is important to remember that coeducation is a modern concept, introduced into mainstream education less than fifty years ago, a development that has brought substantial changes to the societies in which this method is observed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coeducation 是一個現代概念，進入主流教育不足五十年，並為採用它的社會帶來重大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys have also shown that a higher percentage of girls in the classroom lowers disruption and creates a better relationship between the students and the teacher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查也顯示，班上女生比例較高會減少干擾，並建立較好的師生關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coeducational schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“preferred socially”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中與 coeducation 社交好處相關的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parents have said that a coeducational classroom has been excellent for their children’s confidence, has helped them overcome shyness and has helped students converse about everyday topics with the opposite gender.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "家長表示，coeducational classroom 對孩子的自信很有幫助，幫助他們克服害羞，也幫助學生與異性談論日常話題。"
+            },
+            {
+              "kind": "label",
+              "text": "原文中與 surveys 相關的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys have also shown that a higher percentage of girls in the classroom lowers disruption and creates a better relationship between the students and the teacher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查也顯示，班上女生比例較高會減少干擾，並建立較好的師生關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要三個核心元素同時成立： 1. Surveys have found要有調查證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. coeducational schools are preferred要有「更受偏好」這個結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. socially偏好原因要落在社交層面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提供了 coeducation 的社交好處，例如 confidence、overcome shyness、converse with opposite gender。但這些是 “Parents have said”，不等同於 surveys have found a preference。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也有 surveys，但 surveys 的內容是 “a higher percentage of girls in the classroom lowers disruption and creates a better relationship between students and teacher”。這說的是課堂性別比例與 disruption / relationship 的關係，沒有說 coeducational schools are socially preferred。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，文章有相關背景：● coeducation 有社交好處；● surveys 有研究結果；● single-sex surveys 也提到異性不被想念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但文章沒有建立題目所需的結論：surveys found coeducational schools are preferred socially。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The majority of equal opportunity activists have argued that forcing gender separation on children is unethical.",
+      "translation": "大多數 equal opportunity activists 認為，強迫兒童性別分隔是不道德的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regardless of increased levels of academic performance and preference, a small percentage of people concerned about gender equality have opposed single-sex education on ethical grounds because it forces separation between the sexes on students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使 single-sex education 帶來較高學業表現和偏好，仍有少數關心 gender equality 的人基於倫理理由反對它，因為它強迫學生按性別分開。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order for schools to run single-sex classrooms, they must also offer parents the opportunity to enrol their children in a traditional coeducational classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了讓學校能開設 single-sex classrooms，學校也必須提供機會，讓家長可把孩子送入傳統coeducational classroom。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“majority”"
+            },
+            {
+              "kind": "quote",
+              "text": "“equal opportunity activists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“forcing gender separation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unethical”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“a small percentage of people concerned about gender equality have opposed single-sex education on ethical grounds because it forces separation between the sexes on students.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時含有：● small percentage● people concerned about gender equality● ethical grounds● forces separation between the sexes"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目把原文改寫成："
+            },
+            {
+              "kind": "quote",
+              "text": "“the majority of equal opportunity activists”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a small percentage of people concerned about gender equality”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“people concerned about gender equality” 可以理解為接近 equal opportunity activists / gender equality advocates 的群體。不過真正決定答案的是數量詞：● 題目：majority大多數。● 原文：a small percentage少數。這是明確數量衝突。題目其餘部分和原文有相當接近的地方：● forcing gender separation= forces separation between the sexes● unethical= on ethical grounds但量詞不一致。TRUE / FALSE / NOT GIVEN 題要逐項比較主體、動作、時間、程度和範圍。這題的程度詞直接相反，因此答案是 FALSE。中伏位是後半句。學生看到 “ethical grounds” 和 “forces separation” 可能很快想選 TRUE，但前面的 majority 才是控制答案的詞。文章說的反對者比例很小，題目說大多數，兩者不相容。 Final Answers 29. C 30. B 31. A 32. stereotypes 33. Switzerland 34. converse 35. subjects 36. teachers 37. TRUE 38. FALSE 39. NOT GIVEN 40. FALSE"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -CO- EDUCATIONAL VERSUS SINGLE SEX CLASSROOMS.pdf",
+    "sha256": "8cae29968ff23a7dbaa37527f02f532612ca2a3ccb080f48584b28018040624e",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說西方世界越來越多家長回到較傳統的教育性別分流，single-sex classrooms 在多數西方國家更常見；尾句說 single-sex education 復興後，許多教師需要接受額外訓練，學習適合這種環境的技巧。只看首尾句，可以先估計本段在介紹 single-sex education 回潮、男女學習方式不同，以及教師可按性別調整教學方式。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說在 single-sex schools 學習的兒童有很多潛在好處；尾句說調查顯示學生並不想念異性同學，缺少異性反而讓他們更直接、更認真地對待學習。只看首尾句，可見本段主題是 single-sex environment 的學習好處：社交壓力較少、學生可按自己步伐成長、師生互動較密切，整體學習氣氛較專注。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說三十年前，傳統看法認為 coeducation 可以打破 gender stereotypes，但結果不一定如此；尾句說 single-sex schools 再次興盛，因為家長意識到讓孩子按自己的方式學習非常重要。只看首尾句，可以估計本段會比較 coeducation 的理想與現實，重點在男女學生如何因性別標籤避開某些科目。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說在 single-sex secondary schools，男生略有較高表現；尾句說女孩較喜歡 single-sex schools，因為 coeducational environments 往往由男生主導，而這種情況常被教師延續。只看首尾句，可見本段處理學業表現、性別差異、領導活動參與，以及女生對 single-sex environment 的偏好。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說即使 single-sex education 帶來較高學業表現和偏好，仍有少數關心 gender equality 的人基於倫理理由反對；尾句說若學校要開設 single-sex classrooms，也必須讓家長有機會選擇傳統coeducational classroom。只看首尾句，可以估計本段是反對意見與政策限制：重點在 ethical grounds、forced separation 和 parent choice。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說對於反對學校性別分隔的人，許多支持者認為 single-sex classes 其實能抵消 gender stereotypes；尾句說 Cambridge University 2005 年研究發現，在 single-sex rooms 中，女生對math and science 更有興趣。只看首尾句，可見本段回應 stereotype 質疑，說明 single-sex settings 可能減少「某科目屬於某性別」的偏見。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 coeducation 是現代概念，進入主流教育不足五十年，並已為相關社會帶來重大變化；尾句說調查也顯示，班上女生比例較高可減少 disruption，並改善學生與教師的關係。只看首尾句，可見本段轉向 coeducation 的好處：它在瑞士開始並迅速傳播，家長認為它有助 confidence、克服害羞和與異性日常交談。"
+      },
+      {
+        "number": "8",
+        "summary": "首句也是全段唯一一句，說最好的 schooling type 取決於 individual child 以及孩子能 thrive 的environment，因此建議家長在作出重要決定前 seek advice and do research。只看這句可見文章結論：作者沒有把 single-sex 或 coeducation 絕對化，最終把選擇交回個別孩子的需要和成長環境。"
+      }
+    ]
+  }
+}

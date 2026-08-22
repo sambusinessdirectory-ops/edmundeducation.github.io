@@ -1,0 +1,1727 @@
+{
+  "id": "p3-140-digital-diet",
+  "catalogueId": "p3-140",
+  "catalogueIds": [
+    "p3-140"
+  ],
+  "passage": 3,
+  "title": "Digital diet",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "B",
+    "D",
+    "A",
+    "C",
+    "B",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "computer-chip level",
+    "multicore technology",
+    "shrink circuits",
+    "performance"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — Bill Weihl",
+      "answerKey": "D — Bill Weihl",
+      "type": "Question Analysis",
+      "prompt": "“Identified ways to optimise energy use in major parts of a company”",
+      "translation": "指出如何優化公司主要部分的能源使用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目沒有直接說 Google，但 “major parts of a company” 暗示要找某家公司中消耗能源最多的部分。人物選項中和大型互聯網公司最相關的是 Bill Weihl，因為他是Google’s green energy czar。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Internet giant Google, this reality has driven efforts such as the installation of a solar array that can provide 30 per cent of the peak power needs of its Mountain View, Calif., headquarters, as well as increased purchases of renewable energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對互聯網巨頭 Google 來說，這個現實推動了多項努力，例如安裝一組太陽能板，可供應其加州Mountain View 總部高峰用電需求的 30%，並增加購買可再生能源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Google will funnel some of its profits into a new effort, dubbed RE<C (for ‘renewable energy cheaper than coal,’ as Google translates it), to make sources such as solar-thermal, high-altitude wind and geothermal energy cheaper than coal ‘within years, not decades,’ according to Weihl.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Weihl 表示，Google 會把部分利潤投入一項名為 RE<C 的新計劃，即「可再生能源比煤便宜」，目標是在幾年內，而非幾十年內，令太陽熱能、高空風能和地熱等能源比煤更便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會講 Google 如何回應能源問題，包括總部能源、可再生能源，以及公司層面的能源策略。題目問 company 的 major parts，所以很適合先看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的詞是 “optimise energy use” 和 “major parts of a company”。原文未必用optimise，因此要留意 maximise efficiency、energy consumes、data centres 這些相關表達。掃描Paragraph C，可找到 Bill Weihl 的話："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are actively working to maximise the efficiency of our data centres, which account for most of the energy Google consumes worldwide.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We are actively working to maximise the efficiency of our data centres, which account for most of the energy Google consumes worldwide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正積極努力，把數據中心的效率提升到最高；這些數據中心佔 Google 全球能源消耗的大部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “We”，由 Bill Weihl 代表 Google 發言。核心動詞是 “are actively working to maximise”。答案的 “optimise energy use” 對應原文 “maximise the efficiency”。題目的 “major parts of a company” 對應原文 “data centres, which account for most of the energy Google consumes worldwide”。也就是說，data centres 是 Google 能源消耗的主要部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 27 = D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Pat Tiernan 也談 data centers，但他的重點是 Hewlett-Packard 的 virtualization consolidation； Question 27 問 “optimise energy use in major parts of a company”，最貼近 “maximise the efficiency of our data centres” 這句，所以是 Bill Weihl。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — Allyson Klein",
+      "answerKey": "B — Allyson Klein",
+      "type": "Question Analysis",
+      "prompt": "“Described a major innovation in a small but important computer component”",
+      "translation": "描述一項出現在細小但重要的電腦部件中的重大創新。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industry is also tackling the energy issue at the computer-chip level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個行業也正在電腦晶片層面處理能源問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chipmakers continue to shrink circuits on the nanoscale as well, which means a chip needs less electricity to deliver the same performance, she adds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她補充說，晶片製造商也繼續在納米尺度縮小電路，這意味著晶片只需較少電力，便能提供相同表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph E 談的是 computer-chip level。題目中的 “small but important computer component” 很自然指 chip，因為晶片體積小，但對電腦運算非常重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “innovation”、“computer component”。原文沒有 innovation，但有技術名詞"
+            },
+            {
+              "kind": "quote",
+              "text": "“multicore technology”。人名定位詞是 Allyson Klein。掃描 Paragraph E，找到：“But to save energy, chipmakers such as Intel and AMD have shifted to so-called multicore technology…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But to save energy, chipmakers such as Intel and AMD have shifted to so-called multicore technology, which packs multiple processors into one circuit rather than separating them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但為了節省能源，Intel 和 AMD 等晶片製造商已轉向所謂的多核心技術，把多個處理器放進同一個電路中，不再把它們分開。"
+            },
+            {
+              "kind": "label",
+              "text": "接著 Allyson Klein 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we moved to multicore—away from a linear focus on megahertz and gigahertz—and throttled down microprocessors, the energy savings were pretty substantial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們轉向多核心，不再線性地只追求 megahertz 和 gigahertz，並降低微處理器運作速度時，能源節省相當可觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “major innovation” 對應 “multicore technology”。“small but important computer component” 對應 computer chip / microprocessors。這段由 Allyson Klein 直接描述 multicore 轉變和節能效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 = B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Jonathan Koomey 提供的是全球電腦耗電預測，不是 chip innovation。Pat Tiernan 提到virtualization，那是 data centre consolidation 技術，也不屬於 chip-level innovation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D — Bill Weihl",
+      "answerKey": "D — Bill Weihl",
+      "type": "Question Analysis",
+      "prompt": "“Aimed to develop alternative energy sources in the near future”",
+      "translation": "目標是在不久將來發展替代能源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Internet giant Google, this reality has driven efforts such as the installation of a solar array that can provide 30 per cent of the peak power needs of its Mountain View, Calif., headquarters, as well as increased purchases of renewable energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對互聯網巨頭 Google 來說，這個現實推動了多項努力，例如安裝可提供總部高峰用電需求 30%的太陽能板，並增加購買可再生能源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Google will funnel some of its profits into a new effort, dubbed RE<C (for ‘renewable energy cheaper than coal,’ as Google translates it), to make sources such as solar-thermal, high-altitude wind and geothermal energy cheaper than coal ‘within years, not decades,’ according to Weihl.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Weihl 表示，Google 會把部分利潤投入 RE<C，目標是在幾年內令太陽熱能、高空風能和地熱等能源比煤更便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 會談 Google 對 renewable energy 的投資和目標。題目說alternative energy sources 和 near future，最後一句已經高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “alternative energy sources” 和 “near future”。原文對應詞包括 renewable energy、solar-thermal、high-altitude wind、geothermal energy，以及 within years, not decades。掃描Paragraph C，可找到 Weihl 的引述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Google will funnel some of its profits into a new effort, dubbed RE<C … to make sources such as solar-thermal, high-altitude wind and geothermal energy cheaper than coal ‘within years, not decades,’ according to Weihl.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Weihl 表示，Google 會把部分利潤投入 RE<C 這項新計劃，令太陽熱能、高空風能和地熱等能源在幾年內比煤更便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “alternative energy sources” 對應原文的 solar-thermal、high-altitude wind、geothermal energy。題目的 “near future” 對應 “within years, not decades”。這句由 “according to Weihl” 收尾，所以人物是 Bill Weihl。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 = D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 開頭的 solar array 也和可再生能源有關，但 Question 29 的 “develop alternative energy sources in the near future” 更精準地對應 RE<C 和 “within years, not decades”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — Jonathan Koomey",
+      "answerKey": "A — Jonathan Koomey",
+      "type": "Question Analysis",
+      "prompt": "“Estimated that computers would consume an astonishing amount of energy within a few years if current trends continued”",
+      "translation": "估計如果目前趨勢持續，電腦在幾年內會消耗驚人的能源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Telecommuting, Internet shopping and online meetings may save energy as compared with in-person alternatives, but as the digital age moves on, its green reputation is turning a lot browner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠程辦公、網上購物和網上會議，與親身進行的替代方式相比，可能會節省能源；但隨著數碼時代推進，它的綠色名聲正變得棕色得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, the power bill to run a computer over its lifetime will surpass the cost of buying the machine in the first place, giving Internet and computer companies a business reason to cut energy costs, as well as an environmental one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，一部電腦整個使用壽命中的電費，將會超過最初購買機器的成本，這給互聯網和電腦公司帶來削減能源成本的商業理由，也帶來環境理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph A 是文章總引入：數碼科技並沒有想像中綠色，能源成本龐大，並且會推動企業節能。題目中的 “computers would consume” 和 “current trends continued” 自然要看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “consume”、“within a few years”、“current trends continued”。掃描 Paragraph A，可找到 Jonathan Koomey："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2005 the computers of the world ate up 123 billion kilowatt-hours of energy, a number that will double by 2010 if present trends continue, according to Jonathan Koomey…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2005 the computers of the world ate up 123 billion kilowatt-hours of energy, a number that will double by 2010 if present trends continue, according to Jonathan Koomey, a staff scientist at Lawrence Berkeley National Laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lawrence Berkeley National Laboratory 的科學家 Jonathan Koomey 表示，2005 年全球電腦消耗了 1230 億千瓦時能源；如果目前趨勢持續，這個數字到 2010 年會翻倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “estimated” 對應 “according to Jonathan Koomey”。“within a few years” 對應 2005 到2010。 “current trends continued” 幾乎原字重現 “if present trends continue”。“astonishing amount of energy” 對應 123 billion kilowatt-hours 並且將 double。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 = A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到 U.S. e-mailing、number crunching 和 Web searches 的 61 billion kilowatt-hours，但題目問的是 “computers would consume … within a few years if current trends continued”，這一整組條件只對應 Jonathan Koomey 的預測。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — Pat Tiernan",
+      "answerKey": "C — Pat Tiernan",
+      "type": "Question Analysis",
+      "prompt": "“Described a powerful technique for consolidating computing resources”",
+      "translation": "描述一項可整合電腦資源的強大技術。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the meantime, the industry as a whole has employed a few tricks to save watts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，整個行業已採用幾種技巧來節省電力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such virtualization has allowed computer maker Hewlett-Packard to consolidate 86 data centers spread throughout the world to just three, with three backups, says Pat Tiernan, the firm’s vice president of social and environmental responsibility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hewlett-Packard 負責社會與環境責任的副總裁 Pat Tiernan 表示，這種虛擬化技術使這家電腦製造商把全球 86 個 data centers 整合成只有 3 個，另加 3 個備份中心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯是業界節電方法清單，最後一句直接談 consolidation 和 Pat Tiernan。這和題目幾乎完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “consolidating computing resources”。原文對應詞是 virtualization、consolidate、data centers。掃描 Paragraph D，可看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“using software to create multiple ‘virtual’ computers, rather than having to deploy several real ones.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such virtualization has allowed computer maker Hewlett-Packard to consolidate 86 data centers spread throughout the world to just three, with three backups, says Pat Tiernan…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pat Tiernan 表示，這種虛擬化技術讓 Hewlett-Packard 把遍佈全球的 86 個數據中心整合成只有3 個，另有 3 個備份。"
+            },
+            {
+              "kind": "quote",
+              "text": "“powerful technique” 對應 virtualization。它的做法是用 software create multiple “virtual”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "computers，因此不用部署多部真實電腦。題目中的 “consolidating computing resources” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“consolidate 86 data centers … to just three”。所以 31 = C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Bill Weihl 談 data centres efficiency，但沒有描述 virtualization consolidation。這題的控制詞是“consolidating”，一看到原文 “consolidate 86 data centers” 就應回到 Pat Tiernan。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — Allyson Klein",
+      "answerKey": "B — Allyson Klein",
+      "type": "Question Analysis",
+      "prompt": "“Reported that most computers fail to activate built-in power-management tools”",
+      "translation": "報告指出，大多數電腦沒有啟用內置的電源管理工具。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sleep modes and other power management tools built into most operating systems can offer savings today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數作業系統內置的睡眠模式和其他電源管理工具，今天已能帶來節能效果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The University of Oxford’s ClimatePrediction.net offers an opportunity to at least predict the consequences of all that coal burning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛津大學的 ClimatePrediction.net 至少提供一個機會，去預測所有燃煤所帶來的後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph G 先談現有電源管理工具，後面轉向 climate modelling。題目問 built-in power-management tools，所以答案應該在本段開頭附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “most computers”、“fail to activate”、“power-management tools”。原文沒有 fail，但有 “do not have such settings enabled”。掃描 Paragraph G，可找到 Allyson Klein："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet about 90 per cent of computers do not have such settings enabled, according to Klein.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet about 90 per cent of computers do not have such settings enabled, according to Klein.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Klein 表示，約 90% 的電腦沒有啟用這些設定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “such settings” 指前一句的 “Sleep modes and other power management tools built into most operating systems”。題目的 “most computers fail to activate” 對應原文 “about 90 per cent of computers do not have such settings enabled”。人物由 “according to Klein” 確定，是 Allyson Klein。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 = B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要處理代名詞 “such settings”。若只看該句，可能不知道 settings 是甚麼；必須回看前一句，確認它指 sleep modes 和 power management tools。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Cooling servers does not require an amount of energy comparable to that used for computing.”",
+      "translation": "冷卻伺服器不需要與運算用電相若的能源量。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the biggest energy sinks comes not from the computers themselves but from the air-conditioning needed to keep them from overheating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大的能源消耗來源之一，不來自電腦本身，而來自防止電腦過熱所需的空調。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For every kilowatt-hour of energy used for computing in a data centre, another kilowatt-hour is required to cool the furnace-like racks of servers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一個數據中心裡，每用一千瓦時能源進行運算，就需要另一千瓦時能源來冷卻像火爐般的伺服器架。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的功能就是比較 computing 和 cooling 的用電量。題目中的 cooling servers、comparable energy 都明顯定位到此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Cooling servers” 和 “computing”。原文直接有 “computing in a data centre” 和 “cool… racks of servers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For every kilowatt-hour of energy used for computing in a data centre, another kilowatt-hour is required to cool the furnace-like racks of servers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數據中心每用一度電做運算，就要另一度電冷卻伺服器架。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 cooling servers “does not require” comparable energy，即不需要相若能源。原文說 one kilowatt-hour for computing 對應 another kilowatt-hour for cooling，兩者同量，正正就是comparable。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：cooling 不需要相若能源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：cooling 需要和 computing 相同的能源量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 = FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用否定句 “does not require”，很容易被忽略。看到 cooling 和 computing 都出現，不代表TRUE；真正控制答案的是 “does not”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“It seems that the number of servers has a severe impact on Internet connection speeds.”",
+      "translation": "看來伺服器數量對互聯網連線或網頁傳送速度有重大影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Internet giant Google, this reality has driven efforts such as the installation of a solar array that can provide 30 per cent of the peak power needs of its Mountain View, Calif., headquarters, as well as increased purchases of renewable energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 Google 這個互聯網巨頭來說，這個現實推動了多項努力，包括太陽能板安裝和增加購買可再生能源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Google will funnel some of its profits into a new effort, dubbed RE<C … to make sources such as solar-thermal, high-altitude wind and geothermal energy cheaper than coal ‘within years, not decades,’ according to Weihl.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Weihl 表示，Google 會投入部分利潤於 RE<C，目標是在幾年內令多種可再生能源比煤更便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段談 Google 的能源壓力和應對措施。中間很可能會說 Google 為何需要大量伺服器，也就是速度和能源問題的連接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “number of servers” 和 “Internet connection speeds”。原文沒有 connection speeds，但有 “deliver Web pages within seconds” 和 “hundreds of thousands of computer servers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But to deliver Web pages within seconds, the firm must maintain hundreds of thousands of computer servers in cavernous buildings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但為了在數秒內傳送網頁，該公司必須在巨大的建築物中維持數十萬台電腦伺服器。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯是：若 Google 要讓網頁在數秒內送達，就必須維持數十萬台 servers。題目的"
+            },
+            {
+              "kind": "quote",
+              "text": "“Internet connection speeds” 是對 “deliver Web pages within seconds” 的概括；“number of servers has a severe impact” 對應 “must maintain hundreds of thousands of computer servers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “It seems” 令語氣較保守，並非要求文章直接說 “server number severely affects speed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文已清楚建立伺服器數量和快速傳送網頁之間的必要關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 = TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Internet connection speeds” 不是原文用詞；原文談的是 Web pages delivery within seconds。這裡可接受，因為兩者都指網頁服務速度。題目沒有說家庭寬頻速度，所以沒有越出原文太遠。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Several companies from other fields have joined the Internet industry in a collaborative effort to save energy.”",
+      "translation": "幾家來自其他領域的公司，與互聯網行業一起參與一項節能合作行動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such chips, more personal computers will meet various efficiency standards, such as Energy Star compliance (which mandates that a desktop consume no more than 65 watts).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有了這類晶片，更多個人電腦將符合各種效率標準，例如 Energy Star 合規要求，即桌上電腦耗電不得超過 65 瓦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Google, Intel and others have formed the Climate Savers Computing Initiative, an effort to cut power consumption from all computers by 50 per cent by 2010.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Google、Intel 和其他公司成立了 Climate Savers Computing Initiative，這項行動旨在 2010 年前把所有電腦的耗電量削減 50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 談效率標準和多家公司合作節能。題目中的 collaborative effort to save energy 直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “companies”、“collaborative effort”、“save energy”。原文最明顯的對應是 “Google, Intel and others have formed the Climate Savers Computing Initiative”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Google, Intel and others have formed the Climate Savers Computing Initiative, an effort to cut power consumption from all computers by 50 per cent by 2010.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Google、Intel 和其他公司成立了 Climate Savers Computing Initiative，目標是在 2010 年前把所有電腦的耗電量削減 50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “formed” 對應題目的 “joined … in a collaborative effort”。“cut power consumption” 對應 “save energy”。Google 在前文被稱為 Internet giant；Intel 在 Paragraph E 被放在 chipmakers such as Intel and AMD 的語境中，所以 Google 和 Intel 來自不同業務位置。再加上 “others”，題目的 “several companies” 可獲支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 = TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“from other fields” 不是原文逐字表達，但文章已把 Google 和 Intel 放在不同公司類型中：Google是 Internet giant，Intel 是 chipmaker。題目沒有要求列出所有公司名稱，因此 “Google, Intel and others” 足以支援 collaborative effort。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Government action is expected to help save energy in the near future.”",
+      "translation": "政府行動預計會在不久將來幫助節省能源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such chips, more personal computers will meet various efficiency standards, such as Energy Star compliance (which mandates that a desktop consume no more than 65 watts).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有了這些晶片後，更多個人電腦會符合各種能源效率標準，例如 Energy Star 要求桌上電腦耗電不得超過 65 瓦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And Google, Intel and others have formed the Climate Savers Computing Initiative, an effort to cut power consumption from all computers by 50 per cent by 2010.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Google、Intel 和其他公司成立了 Climate Savers Computing Initiative，目標是在 2010 年前將所有電腦耗電削減 50%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示 Paragraph F 主要談效率標準、採購規範和合作節能。題目問 government action，所以要掃描中間與 federal government 相關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Government action” 和 “near future”。原文有 “The federal government” 和 “may soon require”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The federal government, led by agencies such as NASA and the Department of Defense, may soon require all their purchases to meet the Electronic Product Environmental Assessment Tool standard.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由 NASA 和國防部等機構帶頭的聯邦政府，可能很快會要求所有採購都符合 Electronic Product Environmental Assessment Tool 標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“may soon require” 對應題目的 “is expected … in the near future”。這項要求出現在 efficiency standards 的段落中，並且前文提到 Energy Star 等標準，所以它與節省能源有關。政府透過採購要求推動電腦符合環保和效率標準，方向與題目一致。所以 36 = TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不用要求原文直接寫 “government action will save energy”。Paragraph F 的上下文已經是efficiency standards 和 power consumption reduction，政府採購標準自然屬於節能推動措施。 Questions 37–40 Summary Completion 要先看空格前後文法、詞性、單複數和字數限制，再回原文找同義段落；答案要符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "computer-chip level",
+      "answerKey": "computer-chip level",
+      "type": "Question Analysis",
+      "prompt": "“Efforts to save energy have also reached the 37 ______.”",
+      "translation": "節省能源的努力也已到達 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industry is also tackling the energy issue at the computer-chip level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個行業也正在電腦晶片層面處理能源問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chipmakers continue to shrink circuits on the nanoscale as well, which means a chip needs less electricity to deliver the same performance, she adds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她補充說，晶片製造商也繼續在納米尺度縮小電路，這意味著晶片只需較少電力便能提供相同表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 的主題就是節能進入 chip 層面。空格前 “reached the” 後面需要一個名詞短語，原文第一句正好提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞 “save energy” 對應原文 “tackling the energy issue”。“also reached” 對應 “also tackling… at”。原文答案短語是 “computer-chip level”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industry is also tackling the energy issue at the computer-chip level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個行業也在電腦晶片層面處理能源問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把 “tackling the energy issue at” 改寫成 “Efforts to save energy have also reached the”。因此空格應填原文中的位置層面：computer-chip level。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 = computer-chip level。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "multicore technology",
+      "answerKey": "multicore technology",
+      "type": "Question Analysis",
+      "prompt": "“Some firms have therefore switched to 38 ______, integrating several processors into a single circuit to achieve significant energy savings.”",
+      "translation": "因此，一些公司已轉向 ______，把幾個處理器整合進單一電路，以取得顯著節能效果。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industry is also tackling the energy issue at the computer-chip level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "行業也正在電腦晶片層面處理能源問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chipmakers continue to shrink circuits on the nanoscale as well, which means a chip needs less electricity to deliver the same performance, she adds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "晶片製造商也繼續在納米尺度縮小電路，令晶片以較少電力達到相同表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門談 chip-level energy saving。題目中的 “integrating several processors into a single circuit” 是強定位訊號，應回到 multicore 句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “several processors” 和 “single circuit”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“which packs multiple processors into one circuit rather than separating them.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But to save energy, chipmakers such as Intel and AMD have shifted to so-called multicore technology, which packs multiple processors into one circuit rather than separating them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但為了節能，Intel 和 AMD 等晶片製造商已轉向所謂的多核心技術，把多個處理器放進一個電路中，不再把它們分開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “integrating several processors into a single circuit” 對應原文 “packs multiple processors into one circuit”。空格前 “switched to” 對應原文 “shifted to”。所以答案是原文中的技術名稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 = multicore technology。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "shrink circuits",
+      "answerKey": "shrink circuits",
+      "type": "Question Analysis",
+      "prompt": "“Chipmakers also continue to 39 ______ at the nanoscale…”",
+      "translation": "晶片製造商也繼續在納米尺度 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industry is also tackling the energy issue at the computer-chip level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個行業也正在電腦晶片層面處理能源問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chipmakers continue to shrink circuits on the nanoscale as well, which means a chip needs less electricity to deliver the same performance, she adds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她補充說，晶片製造商也繼續在納米尺度縮小電路，這意味著晶片只需較少電力便能提供相同表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，Question 39 的答案幾乎直接出現。空格前有 “continue to”，後面需要動詞原形短語。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目直接重現 “Chipmakers also continue to” 和 “at the nanoscale”。掃描原文最後一句可找到完整對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chipmakers continue to shrink circuits on the nanoscale as well…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "晶片製造商也繼續在納米尺度縮小電路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目保留 “Chipmakers also continue to … at the nanoscale”，中間缺少的就是原文動詞短語"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shrink circuits”。答案符合 NO MORE THAN THREE WORDS。所以 39 = shrink circuits。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不能填 “nanoscale”，因為題目已經給出 “at the nanoscale”。空格需要的是動作，不是位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "performance",
+      "answerKey": "performance",
+      "type": "Question Analysis",
+      "prompt": "“…so chips use less energy while maintaining the same 40 ______.”",
+      "translation": "所以晶片在保持相同 ______ 的同時，使用較少能源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The industry is also tackling the energy issue at the computer-chip level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "行業也正在電腦晶片層面處理能源問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chipmakers continue to shrink circuits on the nanoscale as well, which means a chip needs less electricity to deliver the same performance, she adds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她補充說，晶片製造商也繼續在納米尺度縮小電路，這意味著晶片只需較少電力便能提供相同表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 40 和最後一句直接對應。題目中的 “use less energy” 對應原文 “needs less electricity”，而 “maintaining the same” 對應 “deliver the same”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “less energy” 和 “same”。原文有 “less electricity” 和 “same performance”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…which means a chip needs less electricity to deliver the same performance…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著晶片只需較少電力，就能提供相同表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “needs less electricity” 改成 “use less energy”，把 “deliver the same performance” 改成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“maintaining the same performance”。空格需要名詞，原文名詞是 performance。答案符合 NO MORE THAN THREE WORDS。所以 40 = performance。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Digital diet.pdf",
+    "sha256": "6c0630f7301434bec60c685b5b77f4f61c4252dd93be37fb80debf414e8f4426",
+    "pageCount": 21
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先承認 telecommuting、online shopping 和 online meetings 可能比實體活動省能源，但立即轉折說 digital age 的綠色名聲正在變「棕色」。末句說電腦一生的電費會超過購買成本，因此網絡和電腦公司同時有商業和環境理由去減少能源成本。只看首尾句，可以先看出全段功能是引入主題：數碼活動看似環保，其實耗電巨大，並且能源問題已變成企業成本問題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句指出最大能源消耗之一不來自電腦本身，而來自防止電腦過熱所需的空調。末句說在 data centre 中，每用一度電做 computing，就要再用一度電冷卻像火爐般的 server racks。只看首尾句，這段功能很清楚：它會解釋 data centre 的隱藏能源成本，尤其是 cooling servers。Question 33幾乎必然回到這段，因為題目正問 cooling 和 computing energy 是否相若。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Google 面對這個現實後，安裝 solar array，並增加 renewable energy purchases。末句說Google 會把部分利潤投入 RE<C，目標是在幾年內令 renewable energy cheaper than coal。只看首尾句，這段大概會介紹 Google 對能源問題的回應：一方面改善總部能源來源，另一方面針對data centres 的效率和未來替代能源。Bill Weihl 在中間出現，Questions 27、29、34 很可能在這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說整個行業暫時已使用幾種 tricks 去 save watts。末句說 virtualization 令 Hewlett-Packard把全球 86 個 data centers 合併為 3 個，再加 3 個備份。只看首尾句，這段會列舉業界節能方法，例如電壓轉換、冷卻安排、server 排列和 virtualization。最後一句的人名 Pat Tiernan 很重要，因為 Matching Features 題常用人物定位。Question 31 的 consolidating computing resources 很可能在這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 industry 也在 computer-chip level 處理能源問題。末句說 chipmakers 繼續在 nanoscale上縮小 circuits，令 chip 用較少電力達到相同 performance。只看首尾句，這段功能是由 data centre 層面轉到 chip 層面。段中會解釋 processing power 和 power consumption 一起上升，以及 multicore technology 如何節能。Questions 28 和 37–40 的 summary 全部高度可能定位在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說使用這些 chips 後，更多 personal computers 會符合 efficiency standards，例如 Energy Star。末句說 Google、Intel 和其他公司成立 Climate Savers Computing Initiative，目標是在 2010年前把所有電腦耗電減半。只看首尾句，這段會談標準、政府採購要求，以及企業合作行動。 Questions 35 和 36 很可能來自這段，因為它們問 collaborative effort 和 government action。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說大部分 operating systems 內置的 sleep modes 和 power management tools 今天已能節省能源。末句說 University of Oxford 的 ClimatePrediction.net 至少提供機會預測燃煤後果。只看首尾句，這段先講個人電腦現有節能工具，再轉到若不能關機，至少可把浪費的 computing cycles 用於氣候模型。Question 32 會看這段，因為題目問 most computers 是否沒有啟用power-management tools。"
+      },
+      {
+        "number": "H",
+        "summary": "首句介紹 CO2 Stats，這是一個可嵌入網站的免費工具，用來計算使用網站相關的 carbon dioxide emissions。末句引用 Alexander Wissner-Gross，說典型 carbon footprint 大約等同 1.5個人呼吸。只看首尾句，這段功能是提供另一種量化 digital carbon footprint 的工具和估算方式。 Alexander Wissner-Gross 只在此段出現，所以若 Matching 題問網站碳排放估算，就應定位到Paragraph H。 Question Analysis Matching Features 題應先找所有人物出現位置，建立人物觀點或行動表，再確認每個答案是否真的屬於該人物；手冊也提醒要分清 writer 評論和人物原話。"
+      }
+    ]
+  }
+}

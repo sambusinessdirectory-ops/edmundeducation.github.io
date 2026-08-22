@@ -1,0 +1,3260 @@
+{
+  "id": "p3-075-team-based-learning",
+  "catalogueId": "p3-075",
+  "catalogueIds": [
+    "p3-075"
+  ],
+  "passage": 3,
+  "title": "TEAM-BASED LEARNING",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 15,
+  "questionNumberStart": 26,
+  "answerKey": [
+    "exceeds",
+    "current",
+    "employers",
+    "financial",
+    "activities",
+    "candidates",
+    "environment",
+    "NOT GIVEN",
+    "NO",
+    "NO",
+    "YES",
+    "NO",
+    "D",
+    "F",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 26,
+      "answer": "exceeds",
+      "answerKey": "exceeds",
+      "type": "Summary Completion",
+      "prompt": "Question 26",
+      "translation": "這個行業對合資格申請人的需求 ______ 有技能 IT 人員的供應。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“the industry’s demand for qualified applicants 26 ______ the supply of skilled IT personnel.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Summary Completion，而且答案要從 box 選。空格位於主語 “the industry’s demand” 和受詞 “the supply” 之間，所以需要一個動詞。由於主語 demand 是單數名詞，動詞形式也要配合單數。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the globalisation of information technology (IT) and worldwide access to the Internet, people from all areas of learning are finding themselves using some form of information technology in the workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著資訊科技全球化，以及互聯網在世界各地都能使用，來自各學習領域的人都發現自己在工作場所需要使用某種資訊科技。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The corporate world has seen a boom in the use of IT tools but, conversely, a shortage of people with the IT skills to enter the workplace and be productive with minimal on-the-job training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業界見證了 IT 工具使用上的急速增長；相對地，具備 IT 技能、能進入職場並在最少在職培訓下提高生產力的人才卻短缺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 的功能：這段在建立背景，說 IT 已經廣泛進入工作場所，但人才供應跟不上企業需要。這和 summary 中的 “demand” 與 “supply” 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“demand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“qualified applicants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“supply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“skilled IT personnel”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接寫 demand exceeds supply，但有一組意思非常清楚的表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“The corporate world has seen a boom in the use of IT tools but, conversely, a shortage of people with the IT skills…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “boom” 指需求或使用量上升；“shortage” 指供應不足。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The corporate world has seen a boom in the use of IT tools but, conversely, a shortage of people with the IT skills to enter the workplace and be productive with minimal on-the-job training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業界使用 IT 工具急速增加，但具備 IT 技能、可以進入職場並在少量培訓下工作的人才短缺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這句改寫成： the industry’s demand for qualified applicants= 企業界對合資格 IT 人才的需求the supply of skilled IT personnel= 有技能 IT 人員的供應a shortage of people with IT skills= 供應少於需求所以空格需要填 exceeds。完整句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the industry’s demand for qualified applicants exceeds the supply of skilled IT personnel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個行業對合資格申請人的需求超過有技能 IT 人員的供應。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“demand … exceeds the supply”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a boom in the use of IT tools” + “a shortage of people with the IT skills”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： boom in use = 企業需求上升shortage = 供應不足需求上升加上供應不足 = demand exceeds supply"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選的是 extracts，因為它也是動詞，但意思是「抽取、提取」，完全不能描述 demand 和supply 的關係。這題真正要用的是經濟語境中的 exceed：需求超過供應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "current",
+      "answerKey": "current",
+      "type": "Summary Completion",
+      "prompt": "Question 27",
+      "translation": "儘管電腦科技目前已經在生活各方面廣泛使用……",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the 27 ______ widespread use of computer technology in all areas of life…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “the” 和 “widespread use” 之間，需要一個形容詞，修飾 “widespread use”。題目要表達的是：雖然現在電腦科技已經很普及，企業仍難以找到準備好工作的 IT 人才。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the globalisation of information technology (IT) and worldwide access to the Internet, people from all areas of learning are finding themselves using some form of information technology in the workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著資訊科技全球化，以及全球都能接觸互聯網，各個學習領域的人都發現自己在工作場所需要使用某種資訊科技。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The corporate world has seen a boom in the use of IT tools but, conversely, a shortage of people with the IT skills to enter the workplace and be productive with minimal on-the-job training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業界使用 IT 工具急速增加，但具備足夠 IT 技能、可以用最少培訓即時投入工作的人才短缺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段同時說明兩件事：第一，IT 已經普遍進入職場；第二，企業界仍缺乏可立即工作的人才。Question 27 位於 “Despite…” 之後，正好要填入第一個背景：現時科技使用普及。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“widespread use”"
+            },
+            {
+              "kind": "quote",
+              "text": "“computer technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all areas of life”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“globalisation of information technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worldwide access to the Internet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“people from all areas of learning … using some form of information technology in the workplace”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞共同表達：IT 現在已經非常普及。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句使用現在進行式："
+            },
+            {
+              "kind": "quote",
+              "text": "“people from all areas of learning are finding themselves using some form of information technology in the workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各個學習領域的人都發現自己正在工作場所使用某種資訊科技。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“are finding themselves” 表示這是現時正在發生的情況。summary 將這個現況概括為 “the current widespread use of computer technology”。所以答案是 current。"
+            },
+            {
+              "kind": "label",
+              "text": "完整句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the current widespread use of computer technology in all areas of life…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管目前電腦科技已在生活各方面廣泛使用……"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“current widespread use of computer technology”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“globalisation of information technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worldwide access to the Internet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“people … are finding themselves using … information technology”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： globalisation / worldwide access = widespread are finding themselves using = current use information technology = computer technology"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "previous 是一個真實干擾，因為後文 Paragraph 3 有 “In the past 10 years”。可是 Question 27對應的是 Paragraph 1 的現況背景，並非過去十年的合作項目研究。因此要選 current，不選previous。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "employers",
+      "answerKey": "employers",
+      "type": "Summary Completion",
+      "prompt": "Question 28",
+      "translation": "______ 難以招聘到教育背景已使他們能不經額外培訓便高效開始工作的人。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“28 ______ face difficulties recruiting people whose education has equipped them to commence working productively without further training.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在句首，後面是動詞 “face”，所以空格需要一個複數名詞，表示誰面對招聘困難。句子後半"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“recruiting people” 很重要，因為能進行招聘的人通常是 companies 或 employers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1–2 Paragraph 1 第一句：“With the globalisation of information technology (IT) and worldwide access to the Internet, people from all areas of learning are finding themselves using some form of information technology in the workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 IT 全球化和互聯網普及，各領域的人都發現自己在工作場所需要使用資訊科技。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The corporate world has seen a boom in the use of IT tools but, conversely, a shortage of people with the IT skills to enter the workplace and be productive with minimal on-the-job training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業界使用 IT 工具急速增加，但能以最少在職培訓立即投入工作的 IT 人才短缺。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent issue of the New York Times reports that many companies are looking for smart students who may have a budding interest in IT.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《紐約時報》最近一期報道，許多公司正在尋找可能對 IT 剛萌生興趣的聰明學生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段合起來顯示：面對人才短缺和招聘困難的是企業界和公司。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“recruiting people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“productive without further training”"
+            },
+            {
+              "kind": "quote",
+              "text": "“face difficulties”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a shortage of people with the IT skills to enter the workplace and be productive with minimal on-the-job training”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“many companies are looking for smart students…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“companies” 在 summary 中被概括成 employers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The corporate world has seen … a shortage of people with the IT skills to enter the workplace and be productive with minimal on-the-job training.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業界缺乏具備 IT 技能、可以進入職場並在最少在職培訓下提高生產力的人。"
+            },
+            {
+              "kind": "label",
+              "text": "summary 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“______ face difficulties recruiting people whose education has equipped them to commence working productively without further training.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把原文的 “shortage of people” 改寫成 “face difficulties recruiting people”。如果一個行業缺乏這類人才，招聘這類人才自然會困難。能夠招聘的人是 employers，即僱主。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 employers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“employers face difficulties recruiting people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the corporate world has seen … a shortage of people”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： corporate world / companies = employers shortage of people = difficulty recruiting people minimal on-the-job training = without further training"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "employees 很容易令人混淆，因為這篇文章一直講 workplace。可是 employees 是受聘者，不能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“recruit people”。真正進行招聘的是 employers，所以 Question 28 要填 employers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "financial",
+      "answerKey": "financial",
+      "type": "Summary Completion",
+      "prompt": "Question 29",
+      "translation": "一些商業機構現在向潛在員工提供收入和其他 ______ 誘因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several business organisations now offer income and other 29 ______ inducements to potential employees.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “other” 和 “inducements” 之間，需要形容詞，用來說明 inducements 的種類。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“income” 是重要提示，因為它指向金錢、薪酬、財務利益。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“A recent issue of the New York Times reports that many companies are looking for smart students who may have a budding interest in IT.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《紐約時報》最近一期報道，許多公司正在尋找可能對 IT 剛萌生興趣的聰明學生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea behind the team exercises is that the applicants get to see that they will be working with other smart people doing really interesting things, rather than sitting alone writing code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊練習背後的想法是讓申請人看到，他們將會和其他聰明人一起做非常有趣的事情，不會只是獨自坐著寫程式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 2 講企業如何吸引申請人：既有招聘誘因，也有團隊活動和工作環境展示。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“income”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inducements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“potential employees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“one American IT consulting company offers high salaries, annual bonuses, and immediate stock options to potential recruits.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有高薪、獎金、股票期權，全部屬於 financial rewards。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, one American IT consulting company offers high salaries, annual bonuses, and immediate stock options to potential recruits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一間美國 IT 顧問公司向潛在招聘對象提供高薪、年度獎金和即時股票期權。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的三個例子： high salaries = 高薪annual bonuses = 年度獎金immediate stock options = 即時股票期權全部都是金錢或財務利益。因此 summary 用 “income and other financial inducements” 來概括它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 financial。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“income and other financial inducements”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“high salaries, annual bonuses, and immediate stock options”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： high salaries = income bonuses / stock options = financial inducements potential employees = potential recruits"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "advantages 看似也可以表示好處，但放入句子會變成 “other advantages inducements”，文法不自然。空格需要形容詞修飾 inducements，所以 financial 最準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "activities",
+      "answerKey": "activities",
+      "type": "Summary Completion",
+      "prompt": "Question 30",
+      "translation": "他們也在甄選程序中加入團體 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“They also include group 30 ______ in their selection procedures…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “group” 後面，需要一個名詞複數。題目說的是 selection procedures，即公司甄選申請人的過程。因此要找公司在兩日參觀或面試安排中加入了甚麼 group-based elements。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent issue of the New York Times reports that many companies are looking for smart students who may have a budding interest in IT.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《紐約時報》最近一期報道，許多公司正在尋找可能對 IT 剛萌生興趣的聰明學生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea behind the team exercises is that the applicants get to see that they will be working with other smart people doing really interesting things, rather than sitting alone writing code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊練習背後的想法，是讓申請人看到他們將會和其他聰明人合作，做有趣的事情，而非只是獨自寫程式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 明顯講招聘過程：公司邀請申請人到公司，安排面試、團隊練習和社交活動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“group”"
+            },
+            {
+              "kind": "quote",
+              "text": "“selection procedures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“include”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This time includes interviews, team exercises and social events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段時間包括面試、團隊練習和社交活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “group activities” 概括了原文的 “team exercises”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This time includes interviews, team exercises and social events.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段時間包括面試、團隊練習和社交活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “team exercises” 是申請人一起完成的活動，所以 summary 改寫成 “group activities”。空格後面是 “in their selection procedures”，說明這些活動是招聘甄選的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 activities。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“group activities”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“team exercises”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： group = team activities = exercises selection procedures = interviews / two-day company visit / applicant assessment process"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "employment 也和招聘語境相關，但 “group employment” 不是原文意思，也不合文法。這題要用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“group + plural noun”，並且能對應 team exercises，所以答案是 activities。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "candidates",
+      "answerKey": "candidates",
+      "type": "Summary Completion",
+      "prompt": "Question 31",
+      "translation": "經常邀請多達四十名 ______ 到公司進行兩日參觀。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“often inviting up to forty 31 ______ to their company for the two-day visit.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面有 “up to forty”，所以需要一個可數名詞複數，表示被邀請到公司的人。題目語境是recruitment / selection，所以要找 “prospective applicants” 或 “potential recruits” 的概括詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent issue of the New York Times reports that many companies are looking for smart students who may have a budding interest in IT.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《紐約時報》最近一期報道，許多公司正在尋找可能對 IT 剛萌生興趣的聰明學生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea behind the team exercises is that the applicants get to see that they will be working with other smart people doing really interesting things, rather than sitting alone writing code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊練習背後的想法，是讓申請人看到他們將會與其他聰明人合作，做有趣的事情，而非只是獨自寫程式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 applicant recruitment。第一句講公司尋找學生，最後一句直接使用 applicants。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“up to forty”"
+            },
+            {
+              "kind": "quote",
+              "text": "“two-day visit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“company”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also brings in 25 to 40 prospective applicants at a time for a two-day visit to the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也會一次帶 25 至 40 名潛在申請人到公司進行兩日參觀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also brings in 25 to 40 prospective applicants at a time for a two-day visit to the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也會一次邀請 25 至 40 名潛在申請人到公司進行兩日參觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 把 “25 to 40” 改成 “up to forty”，意思相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prospective applicants” 指可能加入公司、正在應徵或被考慮的人。word box 中最自然的概括是candidates，即候選人、應徵者。所以答案是 candidates。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“up to forty candidates”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“25 to 40 prospective applicants”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： up to forty = 25 to 40 中的最高數量candidates = prospective applicants two-day visit = two-day visit to the company"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "employees 是常見錯項。這些人仍然只是 applicants / potential recruits，尚未正式受聘。因此他們是 candidates，不是 employees。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "environment",
+      "answerKey": "environment",
+      "type": "Summary Completion",
+      "prompt": "Question 32",
+      "translation": "公司可以展示真實的工作 ______，這種工作較可能涉及具挑戰性的合作項目，而非個人化任務。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目空格："
+            },
+            {
+              "kind": "quote",
+              "text": "“the reality of the working 32 ______ which is more likely to involve challenging co-operative projects than individualised tasks.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “working”，後面有關係代詞 “which”，所以需要一個名詞。題目語境講的是公司想展示工作實況，尤其是合作式工作，而非獨自寫程式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent issue of the New York Times reports that many companies are looking for smart students who may have a budding interest in IT.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《紐約時報》最近一期報道，許多公司正在尋找可能對 IT 剛萌生興趣的聰明學生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea behind the team exercises is that the applicants get to see that they will be working with other smart people doing really interesting things, rather than sitting alone writing code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊練習背後的想法，是讓申請人看到他們將會和其他聰明人一起做有趣的事情，而非獨自坐著寫程式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的後半正好解釋公司如何展示工作環境：團隊合作、有趣任務、不是孤立寫 code。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“working”"
+            },
+            {
+              "kind": "quote",
+              "text": "“challenging co-operative projects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“individualised tasks”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“challenging work environments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“working with other smart people doing really interesting things”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than sitting alone writing code”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some companies, trying to encourage students to attend interviews, provide good salary packages and challenging work environments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些公司為了鼓勵學生參加面試，會提供良好薪酬方案和具挑戰性的工作環境。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea behind the team exercises is that the applicants get to see that they will be working with other smart people doing really interesting things, rather than sitting alone writing code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊練習的目的，是讓申請人看到他們將會和其他聰明人合作，做非常有趣的事情，而非只是獨自坐著寫程式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “working environment” 由原文的 “challenging work environments” 直接改寫得來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 environment。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“working environment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“work environments”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“challenging co-operative projects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“working with other smart people doing really interesting things”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“individualised tasks”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“sitting alone writing code”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "employment 看似和工作有關，但 “working employment” 不自然，也沒有對應原文的 “work environments”。這題要填的是環境，所以答案是 environment。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The American Intercontinental University includes team-based learning in all its courses on all its campuses.”",
+      "translation": "American Intercontinental University 在所有校區的所有課程中都加入 team-based learning。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 YES / NO / NOT GIVEN，問的是作者觀點或文章陳述是否支持題目句子。題目有兩個非常強的範圍詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“all its courses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all its campuses”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要原文沒有提供這兩個 “all”，就不能判 YES。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the leaders in promoting team-based education is the American Intercontinental University (AIU), which has campuses worldwide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "推動 team-based education 的領導者之一是 American Intercontinental University，這所大學在世界各地都有校區。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This team-based learning gives students a sense of social and technical support within the group and first-hand experience of both potential successes and inherent problems encountered when working with others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 team-based learning 給學生一種在小組內獲得社交和技術支援的感覺，並讓他們親身經歷與他人合作時可能遇到的成功和內在問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 Paragraph 4 是 AIU 的例子段。它會說明 AIU 如何使用 team-based learning，以及這種模式的好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“American Intercontinental University”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all its courses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“all its campuses”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接提到 AIU："
+            },
+            {
+              "kind": "quote",
+              "text": "“AIU offers programmes in IT with a major portion of the curriculum based on team projects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AIU 提供 IT 課程，其中課程大部分內容以團隊項目為基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是最接近題目的證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“AIU offers programmes in IT with a major portion of the curriculum based on team projects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AIU 提供 IT 課程，其中課程大部分內容以團隊項目為基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只支持三件事： AIU offers programmes in IT. AIU 的 IT programmes 包含 team projects。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Team projects 佔 curriculum 的 major portion。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目多了兩個更大的範圍： all its courses all its campuses原文雖然說 AIU “has campuses worldwide”，但沒有說每一個校區的每一門課都使用team-based learning。原文也只提到 “programmes in IT”，沒有擴展至所有科目或所有課程。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： AIU includes team-based learning in all courses. AIU includes team-based learning on all campuses.原文有的證據： AIU has campuses worldwide. AIU offers IT programmes with a major portion based on team projects.缺失部分：沒有 “all courses”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 “all campuses”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有說非 IT 課程也採用此模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 NOT GIVEN。原文提供了 AIU 的相關例子，但資料範圍不足以支持題目的 “all”。這裡也不能判 NO，因為原文沒有說 AIU 只有部分課程或部分校區使用 team-based learning；它只是沒有交代完整範圍。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “campuses worldwide”。學生看到 worldwide，可能以為等同 all campuses。但worldwide 只表示 AIU 有全球校區，不等於所有校區都使用同一教學模式。IELTS 很常用 all 這類絕對詞測試範圍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The composition of teams is changed regularly.”",
+      "translation": "團隊成員組成會定期改變。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 team composition 是否 regularly changed。核心控制詞是 “changed regularly”。要判NO，需要原文提供相反資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In team-based learning, students spend a large part of their in-class time working in permanent and heterogeneous teams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 team-based learning 中，學生會花大量課堂時間在固定且多元組成的團隊中工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team activities concentrate on using rather than just learning concepts, whilst student grades are a combination of overall team performance and peer evaluation of individual team members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊活動集中於使用概念，而不只是學習概念；學生分數則結合整體團隊表現和同儕對個別成員的評核。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句已經非常有方向：這段會解釋 team-based learning 的隊伍結構。第一句中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“permanent” 正好與題目 “changed regularly” 形成衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：“composition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“teams”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changed regularly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 composition 這個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“permanent and heterogeneous teams”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “heterogeneous” 說成員背景多元；“permanent” 說團隊是固定的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In team-based learning, students spend a large part of their in-class time working in permanent and heterogeneous teams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 team-based learning 中，學生會花大量課堂時間在固定且多元組成的團隊中工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“permanent” 是決定答案的字。它表示固定、長期、不經常改動。題目說 “changed regularly”，意思是團隊組成經常或定期變動。兩者方向相反： permanent teams = 固定團隊changed regularly = 定期改變團隊組成"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“composition of teams is changed regularly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“permanent … teams”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向關係： regularly changed = 成員組合經常變permanent = 團隊固定答案判斷答案是 NO。原文不是只缺少資料；它用了 “permanent” 明確排除 “changed regularly” 的意思。這是一個清楚的反向證據。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“heterogeneous” 可能令人誤解。它表示團隊成員來自不同文化背景或技能水平，並不表示團隊成員會定期更換。這題真正控制答案的是 permanent，不是 heterogeneous。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Theoretical problems are the most important team activity.”",
+      "translation": "理論性問題是最重要的團隊活動。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷作者是否認為 team activity 最重要的是 theoretical problems。控制詞有兩個："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theoretical problems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the most important”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文如果把重點放在應用、實踐和真實情境，就會與題目方向不合。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6–7 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In team-based learning, students spend a large part of their in-class time working in permanent and heterogeneous teams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 team-based learning 中，學生會花大量課堂時間在固定且多元的團隊中工作。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team activities concentrate on using rather than just learning concepts, whilst student grades are a combination of overall team performance and peer evaluation of individual team members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊活動集中於使用概念，而不只是學習概念；學生分數結合整體團隊表現和同儕對個別成員的評核。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 中間句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team exercises then help the students to improve their problem-solving skills by applying theory to simulated real-world situations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊練習接著幫助學生透過把理論應用到模擬真實世界情境中，提升解難能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 6 的最後一句和 Paragraph 7 的答案句，可以看出作者重視的是 “using concepts” 和 “applying theory”，也就是把概念用出來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theoretical problems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most important”"
+            },
+            {
+              "kind": "quote",
+              "text": "“team activity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關詞不是 “theoretical problems”，而是："
+            },
+            {
+              "kind": "quote",
+              "text": "“using … concepts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“applying theory to simulated real-world situations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“application-oriented”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞都把焦點放在應用層面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team activities concentrate on using rather than just learning concepts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊活動集中於使用概念，而不只是學習概念。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team exercises then help the students to improve their problem-solving skills by applying theory to simulated real-world situations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊練習幫助學生把理論應用到模擬真實世界情境中，從而提升解難能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Theoretical problems are the most important team activity.”可是原文的重點是：使用概念應用理論解決模擬真實情境中的問題培養 practical application這些都指向應用型學習。文章沒有把抽象理論問題放在最高位置；它反覆強調把理論拿來使用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theoretical problems are the most important”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“concentrate on using … concepts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“applying theory to simulated real-world situations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向關係：題目偏向理論問題本身；原文偏向理論的應用和實際情境中的解難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 NO。原文清楚顯示團隊活動的重點在 application，即使用概念、應用理論和處理模擬真實情境。題目把重心放在 theoretical problems，與作者描述的教學重點不一致。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “theory” 這個字。Paragraph 7 確實出現 “applying theory”，但 “applying theory” 的意思是把理論用在情境中。只看到 theory 就選 YES，會忽略 apply 這個動詞。真正定案的不是 theory這個名詞，而是 applying 和 simulated real-world situations。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The team members participate in assessment of other team members.”",
+      "translation": "團隊成員會參與評核其他團隊成員。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 team members 是否會評核 other team members。題目中的 “assessment” 未必在原文中逐字出現，可能會以 evaluation 出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In team-based learning, students spend a large part of their in-class time working in permanent and heterogeneous teams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 team-based learning 中，學生會花大量課堂時間在固定且多元組成的團隊中工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team activities concentrate on using rather than just learning concepts, whilst student grades are a combination of overall team performance and peer evaluation of individual team members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊活動集中於使用概念，而不只是學習概念；學生分數則由整體團隊表現和同儕對個別成員的評核組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段最後一句直接提到 grades 和 peer evaluation，所以很可能回答 Question 36。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“team members”"
+            },
+            {
+              "kind": "quote",
+              "text": "“assessment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other team members”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“peer evaluation of individual team members”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "peer = 同儕，即同一組或同一課堂中的學生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "evaluation = assessment，即評核。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“student grades are a combination of overall team performance and peer evaluation of individual team members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生分數由整體團隊表現和同儕對個別團隊成員的評核組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “student grades”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "核心內容是 “a combination of…”：分數由兩部分組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一部分是 “overall team performance”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二部分是 “peer evaluation of individual team members”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“peer evaluation” 表示同輩互評。既然是 team-based learning 的 context，peer evaluation of individual team members 就表示學生會參與評核其他成員的表現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“team members participate in assessment of other team members”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“peer evaluation of individual team members”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： team members = peers assessment = evaluation other team members = individual team members being evaluated答案判斷答案是 YES。原文直接支援題目說法，只是把 “assessment” 改成 “evaluation”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要把 peer evaluation 理解成老師評核。facilitator 的 feedback 在 Paragraph 8 才出現； Question 36 的答案句講的是 peer evaluation，即學生之間的互相評核。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“International students prefer traditional classroom learning to team-based learning.”",
+      "translation": "國際學生比較喜歡傳統課堂學習，多於 team-based learning。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 YES / NO / NOT GIVEN，問作者觀點。題目把 international students 和 traditional classroom learning 放在比較關係中，並使用 “prefer”。我們要看作者對 international students 與team-based classrooms 的態度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team-based classrooms are especially beneficial in colleges with international students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在有國際學生的大學中，team-based classrooms 尤其有益。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This type of learning environment also allows students to express themselves freely in a team context, rather than feeling singled out, as they might when answering questions in a traditional classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種學習環境也讓學生可以在團隊語境中自由表達自己，不像在傳統課堂回答問題時那樣容易感到自己被單獨點出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，作者態度已經很清楚：這段會說 team-based classrooms 對國際學生或不適應傳統課堂的學生有好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“International students”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional classroom learning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prefer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team-based classrooms are especially beneficial in colleges with international students.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“team learning has an added advantage for students who are not comfortable in traditional classroom settings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "team learning 對不習慣傳統課堂環境的學生有額外好處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team-based classrooms are especially beneficial in colleges with international students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在有國際學生的大學中，team-based classrooms 尤其有益。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since social interaction plays an important role during teamwork, team learning has an added advantage for students who are not comfortable in traditional classroom settings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於社交互動在團隊合作中扮演重要角色，team learning 對不適應傳統課堂環境的學生有額外優勢。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“It allows students from different cultures to understand their differences and use them productively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它讓來自不同文化的學生理解彼此差異，並有效地利用這些差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 international students prefer traditional classroom learning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的評價方向相反：team-based classrooms 對有 international students 的 colleges especially beneficial，並且幫助不同文化學生互相理解、表達自己、處理新社交情境。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“International students prefer traditional classroom learning”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team-based classrooms are especially beneficial in colleges with international students”"
+            },
+            {
+              "kind": "quote",
+              "text": "“added advantage for students who are not comfortable in traditional classroom settings”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反向關係：題目把 traditional classroom 放在較受偏好的位置；原文把 team-based classrooms 描述為對國際學生特別有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 NO。雖然原文沒有提供問卷式 preference data，但題型問 writer’s views。作者明確給出正面評價：team-based classrooms 對國際學生尤其有益。因此題目說國際學生較偏好傳統課堂，與作者立場不符。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“prefer” 是中伏位。學生可能覺得原文沒有直接說 prefer，於是想選 NOT GIVEN。但這題問的是writer’s views。作者沒有中立地說兩種模式各有偏好；他明確強調 team-based learning 對international students 的好處，所以答案要判 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "D — individually, by their peers and as a team.",
+      "answerKey": "D — individually, by their peers and as a team.",
+      "type": "Sentence Endings",
+      "prompt": "“Students’ work is assessed …”",
+      "translation": "學生的表現會以個人形式、同儕互評形式，以及團隊形式被評核。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Students’ work is assessed individually, by their peers and as a team.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Sentence Endings。要同時檢查三件事：句尾是否符合原文意思；接上題幹後文法是否自然；是否完整概括 assessment 的方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 and Paragraph 8 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In team-based learning, students spend a large part of their in-class time working in permanent and heterogeneous teams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 team-based learning 中，學生會花大量課堂時間在固定且多元的團隊中工作。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team activities concentrate on using rather than just learning concepts, whilst student grades are a combination of overall team performance and peer evaluation of individual team members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊活動集中於使用概念，而不只是學習概念；學生分數結合整體團隊表現和同儕對個別成員的評核。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一、二句也補充個人測驗和團隊測驗："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team members must also study assigned material individually to ensure their preparation for classes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊成員也必須個別研讀指定材料，以確保自己為課堂做好準備。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual assessment tests determine whether students have read the assigned material, understand the concepts of the module and can apply them to given problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個人評核測驗會判斷學生是否閱讀了指定材料、理解了單元概念，並能把概念應用到指定問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students’ work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“assessed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“student grades”"
+            },
+            {
+              "kind": "quote",
+              "text": "“peer evaluation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual assessment tests”"
+            },
+            {
+              "kind": "quote",
+              "text": "“team assessment tests”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞全部集中在 Paragraph 6 和 Paragraph 8。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“student grades are a combination of overall team performance and peer evaluation of individual team members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生分數由整體團隊表現和同儕對個別團隊成員的評核組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供兩個評核方式： overall team performance = as a team peer evaluation = by their peers原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual assessment tests determine whether students have read the assigned material…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個人評核測驗會判斷學生是否閱讀了指定材料……這句提供第三個評核方式： individual assessment tests = individually所以答案 D 完整包含三層： individually by their peers as a team"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D individually, by their peers and as a team.正確。它完整概括 Paragraph 6 和 Paragraph 8 的 assessment system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B by individual tests and exams.只符合 “Individual assessment tests” 一部分，缺少 peer evaluation 和 team performance，所以不完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A to compete with other teams as judged by the facilitator.原文有 facilitator feedback，但沒有說 teams compete，也沒有說 facilitator 以競賽方式判勝負。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E in the development of communication skills.這是 Question 40 的 consensus 對應，不是 assessment 的完整方式。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students’ work is assessed…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“student grades are a combination of…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual assessment tests…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“team assessment tests…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“individually” = individual assessment tests“by their peers” = peer evaluation“as a team” = overall team performance / team assessment tests"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 是最吸引人的錯項，因為原文真的有 “Individual assessment tests”。可是題目問 Students’ work is assessed overall，不能只取個人測驗。要把 Paragraph 6 的 peer evaluation 和 overall team performance 一起帶入，D 才完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "F — to practise working as a group while putting theory into practice.",
+      "answerKey": "F — to practise working as a group while putting theory into practice.",
+      "type": "Sentence Endings",
+      "prompt": "“The teams make a joint presentation …”",
+      "translation": "團隊進行共同簡報，是為了練習小組合作，同時把理論付諸實踐。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“The teams make a joint presentation to practise working as a group while putting theory into practice.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要把 “make a joint presentation” 和一個合理目的配起來。定位重點是 “joint presentation”，所以首先要找原文中關於 team presentations 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team members must also study assigned material individually to ensure their preparation for classes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊成員也必須個別研讀指定材料，以確保自己為課堂做好準備。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team exercises that are application-oriented help students experience the practical application of concepts and learn from other students’ perspectives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以應用為導向的團隊練習幫助學生體驗概念的實際應用，並從其他學生的觀點中學習。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 8 的功能：這段會詳述 team-based learning 的不同評核與活動，包括個人準備、團隊討論、共同任務、應用概念和互相學習。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“joint presentation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team presentations (written or verbal) allow the team to focus and build cohesion, with team members sharing the responsibility for presenting and persuading the audience to accept their viewpoint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊簡報，無論書面或口頭，都讓團隊集中焦點並建立凝聚力，成員共同承擔展示內容和說服聽眾接受其觀點的責任。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team presentations (written or verbal) allow the team to focus and build cohesion…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊簡報讓團隊集中焦點並建立凝聚力。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“with team members sharing the responsibility for presenting and persuading the audience to accept their viewpoint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊成員共同承擔展示內容和說服聽眾接受其觀點的責任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明 joint presentation 的功能是練習共同工作、共同負責、組織觀點和向聽眾表達。Paragraph 8 最後一句再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team exercises that are application-oriented help students experience the practical application of concepts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以應用為導向的團隊練習幫助學生體驗概念的實際應用。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“to practise working as a group while putting theory into practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "練習小組合作，同時把理論付諸實踐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是最貼近原文的概括：joint presentation 訓練 group responsibility 和 cohesion； application-oriented exercises 則把 concepts 用在實際任務中。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F to practise working as a group while putting theory into practice.正確。它同時對應 team presentations 的 shared responsibility / build cohesion，以及application-oriented team exercises 的 practical application of concepts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E in the development of communication skills.這個選項很吸引，但它更直接對應 Question 40。原文說 consensus helps students learn critical communication skills。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C to see who has the strongest point of view in the group.原文說 persuading the audience，不是團隊內部比誰觀點最強。team presentation 目標是共同表達，不是內部競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A to compete with other teams as judged by the facilitator.原文有 facilitator feedback，但沒有 teams competing，也沒有比賽式評分。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“make a joint presentation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team presentations (written or verbal)”"
+            },
+            {
+              "kind": "quote",
+              "text": "“team members sharing the responsibility”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 F："
+            },
+            {
+              "kind": "quote",
+              "text": "“practise working as a group”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= build cohesion / sharing responsibility選項 F："
+            },
+            {
+              "kind": "quote",
+              "text": "“putting theory into practice”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= practical application of concepts / applying theory to simulated real-world situations"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E 是最容易誤選的答案，因為 presentation 本身也涉及 communication。可是原文把 “critical communication skills” 明確放在 “require consensus” 之後，所以 E 更適合 Question 40。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 39 的定位詞是 joint presentation，最貼近的是 shared responsibility、build cohesion 和application-oriented group work，因此選 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "E — in the development of communication skills.",
+      "answerKey": "E — in the development of communication skills.",
+      "type": "Sentence Endings",
+      "prompt": "“The need to achieve consensus assists …”",
+      "translation": "達成共識的需要有助於培養溝通技巧。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“The need to achieve consensus assists in the development of communication skills.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的定位詞非常清楚：consensus。要找原文中 “require consensus” 的句子，再看它帶來甚麼效果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team members must also study assigned material individually to ensure their preparation for classes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊成員也必須個別研讀指定材料，以確保自己為課堂做好準備。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Team exercises that are application-oriented help students experience the practical application of concepts and learn from other students’ perspectives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以應用為導向的團隊練習幫助學生體驗概念的實際應用，並從其他學生的觀點中學習。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 是 team-based learning 的活動細節段，包含 assessment、discussion、consensus、conflict handling、presentation 和 feedback。Question 40 的 consensus 一定要在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“consensus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additional team assessment tests present a problem for discussion and require consensus, helping students learn critical communication skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "額外的團隊評核測驗會提出一個問題讓學生討論，並要求他們達成共識，這有助學生學習重要的溝通技巧。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additional team assessment tests present a problem for discussion and require consensus, helping students learn critical communication skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "額外的團隊評核測驗提出一個問題讓學生討論，並要求達成共識，從而幫助學生學習重要的溝通技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的因果關係非常清楚： present a problem for discussion→ require consensus→ helping students learn critical communication skills consensus 指共識，即小組成員不能只是各說各話，還要通過討論達成共同答案。這個過程自然會訓練聆聽、表達、協商和處理分歧的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E in the development of communication skills.正確。它直接對應 “helping students learn critical communication skills”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C to see who has the strongest point of view in the group.這是中伏選項。達成共識不是比較誰最強勢，而是找出小組能共同接受的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F to practise working as a group while putting theory into practice.這更適合 Question 39 的 joint presentation / application-oriented team exercises。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H in getting to know new friends and colleagues. Paragraph 9 講 social situation，但 consensus 的直接功能是 communication skills，不是交朋友。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the need to achieve consensus assists…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“require consensus, helping students learn…”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the development of communication skills”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“learn critical communication skills”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： assists in the development = helps students learn communication skills = critical communication skills achieve consensus = require consensus"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很有迷惑性，因為 discussion 可能令人想到辯論或說服別人。但原文不是要找最強觀點，而是要求 consensus。consensus 的核心是共同決定、互相協調和達成一致。真正對應的結果是communication skills，所以選 E。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -TEAM-BASED LEARNING.pdf",
+    "sha256": "471921e98e8a0e3b48be55cff502b7e0a4ae28a08d84cd4b0d9b29426560a0ff",
+    "pageCount": 39
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 交代 IT 在工作場所普及，同時指出企業需要 IT 工具，卻缺乏能立即投入工作的1 IT 人才。 Paragraph 描述公司如何吸引有 IT 潛力的學生：高薪、獎金、股票期權、兩日公司參觀、面2 試、團隊活動和社交活動。 Paragraph 把企業界的 collaborative projects 和教育界的 team-based instruction 連接起來3 ，說明大學開始用團隊教育模式培訓 IT 畢業生。 Paragraph 以 American Intercontinental University 作例子，說明 team-based learning 如何4 在 IT 課程中使用，並對國際學生和不同教育背景的學生提供支援。 Paragraph 說明傳統大學課堂較少使用團隊教學，但 IT 工作環境需要 teamwork，因此學生5 要學習與不同人合作。 Paragraph 解釋 team-based learning 的基本設計：固定、多元背景團隊；活動重點在使用概6 念；成績由團隊表現和同儕評核組成。 Paragraph 說明老師由知識提供者轉為 facilitator，並講解團隊活動如何幫助學生把理論應7 用到模擬真實情境。 Paragraph 詳述個人測驗、團隊測驗、共識建立、衝突處理、團隊簡報、老師回饋和應用型活8 動。 Paragraph 說明 team-based classrooms 對國際學生、不習慣傳統課堂的學生和跨文化學生9 尤其有幫助。 Paragraph 總結 team-based learning 的目的：讓學生準備好進入全球化工作場所，並培養僱10 主未來更重視的技能。",
+        "label": "段落 段落功能"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "原文沒有 A、B、C 段落標籤，所以以下按自然段編為 Paragraph 1–10。"
+  ]
+}

@@ -1,0 +1,2042 @@
+{
+  "id": "p3-037-living-dunes",
+  "catalogueId": "p3-037",
+  "catalogueIds": [
+    "p3-037"
+  ],
+  "passage": 3,
+  "title": "Living Dunes",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "iv",
+    "vi",
+    "iii",
+    "vii",
+    "i",
+    "v",
+    "ix",
+    "linear",
+    "obstacle",
+    "acoustic",
+    "barchan",
+    "shape",
+    "tone",
+    "minerals"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "iv — Potential threat to industry and communication",
+      "answerKey": "iv — Potential threat to industry and communication",
+      "type": "Matching Headings",
+      "prompt": "Questions 27–33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 27 — Paragraph A"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph A 選最合適 heading。Matching Headings 題不能只抓某個例子，要看整段反覆談甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although no more than a pile of wind-blown sand, dunes can roll over trees and buildings, march relentlessly across highways, devour vehicles in their path, and threaten crops and factories in Africa, the Middle East, and China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然沙丘只不過是被風吹成的一堆沙，它們卻可以壓過樹木和建築物，不停跨越公路，吞沒路上的車輛，並威脅非洲、中東和中國的農作物及工廠。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Preventing sand dunes from overwhelming cities and agricultural areas has become a priority for the United Nations Environment Programme.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "防止沙丘吞沒城市和農業地區，已成為聯合國環境規劃署的優先事項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段主軸是「沙丘對人類生活、城市、交通和生產的威脅」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iv 的核心詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“threat”"
+            },
+            {
+              "kind": "quote",
+              "text": "“industry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“communication”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 communication，但有 “highways” 和 “vehicles”，對應交通運輸；有 “crops and factories”，對應農業和工業生產；有 “cities and agricultural areas”，對應人類聚居與生產地區。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“march relentlessly across highways”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不停地跨越公路。"
+            },
+            {
+              "kind": "quote",
+              "text": "“devour vehicles in their path”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "吞沒路上的車輛。"
+            },
+            {
+              "kind": "quote",
+              "text": "“threaten crops and factories”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "威脅農作物和工廠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾個例子共同指向 heading iv。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“communication” 在這裡不應狹義理解成電話或網絡，而可理解成 transport routes / roads，即人和貨物往來的交通通道。highways 和 vehicles 就是這個 heading 的證據。其他 heading 為何不合：● ii Causes of desertification：本段沒有解釋沙漠化成因，只講沙丘造成的破壞。● viii Habitat for rare species：本段沒有講物種棲息。● i Shaping and reforming：這是 Paragraph E 的主題，A 不講沙丘如何變形。所以 27 是 iv。 Question 28 — Paragraph B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vi — Differences and similarities"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 第一句：“Some of the most significant experimental measurements on sand movement were performed by Ralph Bagnold, a British engineer who worked in Egypt prior to World War II.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些關於沙粒移動最重要的實驗測量，是由二戰前在埃及工作的英國工程師 Ralph Bagnold 完成的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunes can also be composed of smaller dunes of different types, called complex dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘也可以由不同類型的小沙丘組成，稱為 complex dunes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段會講沙丘研究和沙丘類型。中間則詳細比較 barchan / crescentic dune 和 linear / seif dune。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vi 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Differences and similarities”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描本段，可以看到多處比較語言："
+            },
+            {
+              "kind": "quote",
+              "text": "“The crescentic barchan dune is the most common type of sand dune.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike crescentic dunes, linear dunes are longer than they are wide…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The linear dune is straighter than the crescentic dune…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子不斷比較兩類沙丘的形狀、長寬和特徵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段真正的結構是： 1. Bagnold recognised two basic dune types； 2. 第一類是 crescentic / barchan dune； 3. 第二類是 linear / longitudinal / seif dune； 4. 段落比較兩者的形狀、長寬和移動特徵； 5. 最後補充 complex dunes 可由不同小沙丘組成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading vi 能覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選的是 x Commonest type of dune。Paragraph B 確實說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The crescentic barchan dune is the most common type of sand dune.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新月形 barchan 沙丘是最常見的沙丘類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是這只是段落中的一個細節。整段不只介紹 commonest dune，也介紹 linear dune、seif、long ridges、complex dunes。Heading x 範圍太窄，無法覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 是 vi。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 29 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii — A combination of specific conditions is needed"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the complicated dynamics of dune formation, Bagnold noted that a sand dune generally needs the following three things to form…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管沙丘形成的動態很複雜，Bagnold 指出，一個沙丘一般需要以下三樣東西才會形成。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where these three variables merge, a sand dune forms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這三個變量結合時，沙丘就會形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經非常清楚：本段主題是「沙丘形成需要三個條件同時出現」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iii 的核心詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“combination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specific conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“needed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“needs the following three things”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Where these three variables merge”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩處直接支援 heading iii。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段列出的三個條件是： 1. “a large amount of loose sand in an area with little vegetation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：植被很少的地方有大量鬆散沙粒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. “a wind or breeze to move the grains of sand”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有風或微風能移動沙粒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. “an obstacle … that causes the sand to lose momentum and settle”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有障礙物令沙粒失去動量並沉積下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句 “these three variables merge” 正好對應 heading 的 “combination”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段不是單純說 wind，也不是只說 obstacle，而是三個因素結合才形成沙丘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 iii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 30 — Paragraph D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vii — A continuous cycling process"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the wind picks up the sand, the sand travels, but generally only about an inch or two above the ground, until an obstacle causes it to stop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當風吹起沙粒時，沙粒會移動，但通常只在離地約一兩英寸的高度移動，直到障礙物使它停下。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The repeating cycle of sand inching up the windward side to the dune crest, then slipping down the dune’s slip face, allows the dune to inch forward, migrating in the direction the wind blows.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙粒沿迎風面慢慢爬到沙丘脊，再從沙丘的滑落面滑下，這種反覆循環使沙丘慢慢向前移動，沿風吹方向遷移。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vii 的核心詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“continuous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cycling process”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The repeating cycle…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常強的對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 描述的是一個程序：● wind picks up sand；● obstacle causes it to stop；● heavy grains settle；● ridge forms；● wind moves sand up the pile；● pile becomes steep and collapses；● sand slips down slip face；● dune inches forward。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些步驟不是一次性事件，而是不斷重複。因此 heading vii “A continuous cycling process” 能準確概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 如 i Shaping and reforming 也和變化有關，但 Paragraph D 重點更細：它講的是沙粒上移、崩塌、滑落、前進的循環機制。Paragraph E 才是沙丘整體形狀和新沙丘形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 vii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 31 — Paragraph E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：i — Shaping and reforming"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depending on the speed and direction of the wind and the weight of the local sand, dunes will develop into different shapes and sizes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "視乎風速、風向和當地沙粒重量，沙丘會發展成不同形狀和大小。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others are born and race downwind, outpacing their parents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他新沙丘則會形成並順風快速移動，甚至超越它們的「母沙丘」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯在講沙丘如何形成不同形狀、改變、移動和產生新沙丘。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading i 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shaping and reforming”"
+            },
+            {
+              "kind": "label",
+              "text": "原文反覆出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“different shapes and sizes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“change shape”"
+            },
+            {
+              "kind": "quote",
+              "text": "“move with the wind”"
+            },
+            {
+              "kind": "quote",
+              "text": "“breed new dunes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞都指向 shaping / reforming。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "本段前半解釋風和沙如何影響沙丘外形："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stronger winds tend to make taller dunes; gentler winds tend to spread them out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較強的風往往形成較高的沙丘；較柔和的風則會把它們攤得更開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後半把沙丘形容成 “a curiously dynamic creature”，再說它可以："
+            },
+            {
+              "kind": "quote",
+              "text": "“grow, change shape, move with the wind and even breed new dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生長、改變形狀、隨風移動，甚至產生新沙丘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 heading i 的核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 i。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 32 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：v — An old superstition demystified"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand dunes can even be heard ‘singing’ in more than 30 locations worldwide, and in each place the sounds have their own characteristic frequency, or note.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在全球三十多個地方，人們甚至可以聽到沙丘「唱歌」；而且每個地方的聲音都有自己的特定頻率或音符。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stéphane Douady of the French national research agency CNRS and his colleagues have been delving deeper into dunes in Morocco, Chile, China and Oman, and believe they can now explain the exact mechanism behind this acoustic phenomenon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國國家科學研究中心 CNRS 的 Stéphane Douady 和同事深入研究 Morocco、Chile、China 和Oman 的沙丘，並相信他們現在能解釋這種聲學現象背後的精確機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading v 的核心是："
+            },
+            {
+              "kind": "quote",
+              "text": "“old superstition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demystified”"
+            },
+            {
+              "kind": "label",
+              "text": "本段中最強對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the thirteenth-century explorer Marco Polo encountered the weird and wonderful noises made by desert sand dunes, he attributed them to evil spirits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當十三世紀探險家 Marco Polo 遇到沙漠沙丘發出的奇異聲音時，他把這些聲音歸因於邪靈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 old superstition。段落最後說科學家能解釋 exact mechanism，這就是 demystified。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "本段先建立神秘感："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sound is unearthly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這聲音不像人間之聲。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The volume is also unnerving.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的音量也令人不安。"
+            },
+            {
+              "kind": "label",
+              "text": "然後轉向科學："
+            },
+            {
+              "kind": "quote",
+              "text": "“explain the exact mechanism behind this acoustic phenomenon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "解釋這種聲學現象背後的精確機制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此本段不是單純描述 singing dunes，而是把 Marco Polo 的 evil spirits 說法轉向現代聲學解釋。Heading v 能完整覆蓋這個轉變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 v。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 33 — Paragraph G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ix — Replicating the process in the laboratory"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The group hauled sand back to the laboratory and set it up in channels with automated pushing plates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究團隊把沙帶回實驗室，並把它放入配有自動推板的槽道中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mysterious dunes, it seems, aren’t quite ready yet to give up all of their secrets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，這些神秘沙丘還未完全交出所有秘密。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句直接講 laboratory，並說研究團隊把沙帶回去重現實驗條件。這和 heading ix 幾乎直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ix："
+            },
+            {
+              "kind": "quote",
+              "text": "“Replicating the process in the laboratory”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“hauled sand back to the laboratory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set it up in channels with automated pushing plates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The sands still sang”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sands still sang, proving that the dune itself was not needed to act as a resonating body for the sound…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些沙仍然會唱歌，證明沙丘本身並不需要作為聲音的共鳴體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明實驗室成功重現了 singing sand 的現象，並因此排除了某些舊理論。後文再解釋 grain size、shape、coating 等因素。因此本段主題不是 F 的「迷信被解釋」，而是實驗室重現和進一步分析。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 ix。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "linear",
+      "answerKey": "linear",
+      "type": "Sentence Completion",
+      "prompt": "The 34 ______ dune is said to have long ridges that can extend hundreds of miles.",
+      "translation": "______ 沙丘據說有很長的 ridge，可延伸數百英里。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the most significant experimental measurements on sand movement were performed by Ralph Bagnold, a British engineer who worked in Egypt prior to World War II.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些關於沙粒移動最重要的實驗測量，是由二戰前在埃及工作的英國工程師 Ralph Bagnold 完成的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunes can also be composed of smaller dunes of different types, called complex dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘也可以由不同類型的小沙丘組成，稱為 complex dunes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段負責介紹沙丘分類，因此題目問某種 dune 的 ridge 特徵時，應回到 Paragraph B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“long ridges”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hundreds of miles”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The linear dune is straighter than the crescentic dune with ridges as its prominent feature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "linear dune 比 crescentic dune 更直，ridge 是它最突出的特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike crescentic dunes, linear dunes are longer than they are wide—in fact, some are more than 100 miles (about 160 kilometres) long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 crescentic dunes 相比，linear dunes 的長度大於寬度；事實上，有些長達 100 多英里，約 160公里。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “long ridges” 來自："
+            },
+            {
+              "kind": "quote",
+              "text": "“with ridges as its prominent feature”"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “extend hundreds of miles” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“some are more than 100 miles … long”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格在 “The ___ dune” 之前，需要一個形容詞或類型名稱。文章原字是 linear，組成 “The linear dune”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不填 seif？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 確實說 linear dune 也叫 longitudinal 或 seif。不過題目句子說 “The ___ dune”，原文描述 ridge 和長度時直接使用的是 “The linear dune”。因此最穩答案是 linear。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 linear。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "obstacle",
+      "answerKey": "obstacle",
+      "type": "Sentence Completion",
+      "prompt": "According to Bagnold, an 35 ______ is needed to stop the sand from moving before a dune can form.",
+      "translation": "根據 Bagnold，在沙丘形成之前，需要一個 ______ 令沙停止移動。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the complicated dynamics of dune formation, Bagnold noted that a sand dune generally needs the following three things to form…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管沙丘形成的動態很複雜，Bagnold 指出，一個沙丘一般需要以下三樣東西才會形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where these three variables merge, a sand dune forms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這三個變量結合時，沙丘就會形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示 Paragraph C 是「形成條件」段。題目有 “According to Bagnold” 和 “needed”，直接對應這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“needed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stop the sand from moving”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before a dune can form”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第三個條件是："
+            },
+            {
+              "kind": "quote",
+              "text": "“and an obstacle, which could be as small as a rock or as big as a tree, that causes the sand to lose momentum and settle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及一個障礙物；它可以小如石頭，也可以大如樹木，能使沙粒失去動量並沉積下來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “to stop the sand from moving”。原文用更物理化的說法："
+            },
+            {
+              "kind": "quote",
+              "text": "“causes the sand to lose momentum and settle”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是沙粒失去動量並沉積。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lose momentum and settle” 就是停止繼續移動並落下來。空格前有 “an”，所以答案需要以母音音開頭的單數名詞。obstacle 正好符合文法和原文。所以 35 是 obstacle。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "acoustic",
+      "answerKey": "acoustic",
+      "type": "Sentence Completion",
+      "prompt": "Stéphane Douady believes the singing of dunes is not a spiritual phenomenon, but purely 36 ______.",
+      "translation": "Stéphane Douady 認為沙丘唱歌並非精神或靈異現象，而是純粹 ______ 現象。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand dunes can even be heard ‘singing’ in more than 30 locations worldwide, and in each place the sounds have their own characteristic frequency, or note.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在全球三十多個地方，人們甚至可以聽到沙丘「唱歌」；而且每個地方的聲音都有自己的特定頻率或音符。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stéphane Douady of the French national research agency CNRS and his colleagues have been delving deeper into dunes in Morocco, Chile, China and Oman, and believe they can now explain the exact mechanism behind this acoustic phenomenon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國國家科學研究中心 CNRS 的 Stéphane Douady 和同事深入研究多地沙丘，並相信他們現在能解釋這種聲學現象背後的精確機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stéphane Douady”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spiritual phenomenon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“singing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 spiritual 對應 Marco Polo 的看法："
+            },
+            {
+              "kind": "quote",
+              "text": "“he attributed them to evil spirits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他把這些聲音歸因於邪靈。"
+            },
+            {
+              "kind": "label",
+              "text": "Douady 的科學解釋對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“this acoustic phenomenon”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種聲學現象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩種解釋對比：● spiritual phenomenon：evil spirits● purely ______：acoustic phenomenon原文沒有直接寫 “purely acoustic”，但最後一句用 “acoustic phenomenon” 給出現代科學分類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "acoustic 指「聲學的、與聲音有關的」。因此空格應填 acoustic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 acoustic。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "barchan",
+      "answerKey": "barchan",
+      "type": "Summary Completion",
+      "prompt": "There are many different types of dunes, two of which are most commonly found in deserts throughout the world, the linear dune and the 37 ______ dune, sometimes also known as the crescentic dune.",
+      "translation": "世界各地沙漠中常見很多不同類型的沙丘，其中兩種是 linear dune 和 ______ dune；後者有時也稱為 crescentic dune。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the most significant experimental measurements on sand movement were performed by Ralph Bagnold…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些關於沙粒移動最重要的實驗測量，是由 Ralph Bagnold 完成的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunes can also be composed of smaller dunes of different types, called complex dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘也可以由不同類型的小沙丘組成，稱為 complex dunes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段是沙丘分類段，summary 也在講 dune types，因此目標段落清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“linear dune”"
+            },
+            {
+              "kind": "quote",
+              "text": "“crescentic dune”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“He recognised two basic dune types, the crescentic dune, which he called ‘barchan’ and the linear dune, which he called longitudinal or ‘seif’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認出兩種基本沙丘類型：crescentic dune，他稱之為 “barchan”；以及 linear dune，他稱之為longitudinal 或 “seif”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子已經有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the linear dune and the ___ dune, sometimes also known as the crescentic dune”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 crescentic dune 也叫 barchan，所以空格應填 barchan。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意題目說 “sometimes also known as the crescentic dune”，它是倒轉原文關係來考：原文：crescentic dune = barchan"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：barchan dune = also known as crescentic dune"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是一個字，符合 ONE WORD ONLY。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 barchan。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "shape",
+      "answerKey": "shape",
+      "type": "Summary Completion",
+      "prompt": "To produce singing sand in the laboratory, all the grains must have similar 38 ______.",
+      "translation": "要在實驗室中產生會唱歌的沙，所有沙粒必須有相似的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The group hauled sand back to the laboratory and set it up in channels with automated pushing plates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究團隊把沙帶回實驗室，並把它放進有自動推板的槽道中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mysterious dunes, it seems, aren’t quite ready yet to give up all of their secrets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，這些神秘沙丘還未完全交出所有秘密。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接有 laboratory，題目也有 laboratory，因此 Paragraph G 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce singing sand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“laboratory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“similar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“To make the booming sound, the grains have to be of a small range of sizes, all alike in shape: well-rounded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要產生這種轟鳴聲，沙粒的大小必須落在很小的範圍內，而且形狀都要相同：圓潤。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個條件： 1. “a small range of sizes”大小範圍很小，即尺寸相近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. “all alike in shape: well-rounded”形狀都相同，即都是圓潤的。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“all the grains must have similar ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “similar”，最自然對應 “all alike in shape”。所以答案是 shape。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何不填 sizes？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也提到 sizes，但 summary 後面 Question 39 立即考 “size of the grains can affect the tone of the sound”。這裡 Question 38 更明顯要取 “all alike in shape”。因此答案用 shape 最穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 shape。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "tone",
+      "answerKey": "tone",
+      "type": "Summary Completion",
+      "prompt": "And scientists have discovered that the size of the grains can affect the 39 ______ of the sound.",
+      "translation": "科學家發現，沙粒大小會影響聲音的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The group hauled sand back to the laboratory and set it up in channels with automated pushing plates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究團隊把沙帶回實驗室，並把它放進有自動推板的槽道中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mysterious dunes, it seems, aren’t quite ready yet to give up all of their secrets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，這些神秘沙丘還未完全交出所有秘密。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中段解釋 grain size 和聲音之間的關係，因此本題仍在 Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“size of the grains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“affect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sound”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Douady’s key discovery was that this synchronised frequency—which determines the tone of sound—is the result of the grain size.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Douady 的關鍵發現是，這種同步頻率是由沙粒大小造成的；而這種頻率決定聲音的音調。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The larger the grain, the lower the key.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙粒越大，音高越低。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 grain size 影響 synchronised frequency，而 frequency 又 determines the tone of sound。"
+            },
+            {
+              "kind": "label",
+              "text": "題目簡化成："
+            },
+            {
+              "kind": "quote",
+              "text": "“the size of the grains can affect the ______ of the sound”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最直接可填： tone因為原文有 “the tone of sound”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“key” 也和音高有關，但題目說 “of the sound”，與原文 “tone of sound” 更貼近。“frequency” 也在原文出現，不過題目是用更日常的方式概括聲音效果，而且後文 “lower the key”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "說明的也是 tone / pitch 變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 tone。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "minerals",
+      "answerKey": "minerals",
+      "type": "Summary Completion",
+      "prompt": "But the function of the varnish composed of a mixture of 40 ______ still remains puzzling.",
+      "translation": "但這層由多種 ______ 組成、像 varnish 一樣的塗層，其功能仍令人困惑。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The group hauled sand back to the laboratory and set it up in channels with automated pushing plates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究團隊把沙帶回實驗室，並把它放進有自動推板的槽道中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mysterious dunes, it seems, aren’t quite ready yet to give up all of their secrets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來，這些神秘沙丘還未完全交出所有秘密。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說仍有秘密未解，題目說 remains puzzling，兩者方向一致。答案應在本段後半與coating / varnish 相關的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“varnish”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mixture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“function”"
+            },
+            {
+              "kind": "quote",
+              "text": "“puzzling”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Douady also discovered that the singing grains had a smooth, varnish-like coating of minerals such as silicon, iron and manganese.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Douady 還發現，會唱歌的沙粒有一層光滑、像 varnish 的礦物塗層，例如 silicon、iron 和manganese。"
+            },
+            {
+              "kind": "label",
+              "text": "後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“He admits he is unsure exactly what role the coating plays in producing the noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他承認自己仍不確定這層塗層在產生聲音時究竟扮演甚麼角色。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “function … remains puzzling” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“unsure exactly what role the coating plays”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “role” 就是 function。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “varnish composed of a mixture of…” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“a smooth, varnish-like coating of minerals such as silicon, iron and manganese.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填 coating 的組成類別。silicon、iron 和 manganese 都是例子，上位詞是 minerals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 minerals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. iv 28. vi 29. iii 30. vii 31. i 32. v 33. ix 34. linear 35. obstacle 36. acoustic 37. barchan 38. shape 39. tone 40. minerals"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Living Dunes.pdf",
+    "sha256": "b59d443b24b209fcd7ebb247c96122de906319b9ea5229aabe381c54da827bc3",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說沙丘雖然只是風所吹成的沙堆，卻能壓過樹木和建築物；尾句說聯合國環境規劃署已把防止沙丘吞沒城市和農業區列為優先事項。只看首尾句，可以先估計本段主要講沙丘的破壞力和威脅。中間很可能會出現道路、車輛、農作物、工廠、城鎮等受影響對象，所以它偏向「沙丘對人類設施和經濟活動的威脅」。"
+      },
+      {
+        "number": "B",
+        "summary": "首句介紹 Ralph Bagnold 對沙粒移動作出重要實驗測量；尾句說沙丘也可以由不同類型的小沙丘組成，稱為 complex dunes。只看首尾句，可以先估計本段會介紹沙丘類型和分類。中間確實比較crescentic / barchan dune 和 linear / seif dune 的形狀、長寬、速度和 ridge 特徵，因此段落重心是不同類型沙丘之間的相似與差異。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說儘管沙丘形成的動態很複雜，Bagnold 指出沙丘一般需要三樣東西；尾句說當這三個變量結合時，沙丘就會形成。只看首尾句，可以清楚看到本段在列出沙丘形成的必要條件。中間會解釋 loose sand、wind / breeze 和 obstacle 三個因素，所以這段非常適合對應「特定條件的組合」這類 heading。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說風把沙吹起後，沙通常只在地面上方一兩英寸移動，直到遇到障礙物才停止；尾句說沙不斷沿迎風面上移到沙丘脊，再沿 slip face 滑落，使沙丘向風向逐步移動。只看首尾句，可以看出本段描述沙丘移動的循環程序。它不是靜態分類，而是一步一步解釋 sand grains 如何沉積、崩塌、再推動沙丘前進。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說沙丘形狀和大小取決於風速、風向和當地沙粒重量；尾句說有些「子沙丘」會在母沙丘背上被帶走，有些則會向下風處跑得比母沙丘更快。只看首尾句，可以估計本段講沙丘如何成形、變形、移動甚至產生新沙丘。段落語氣也把沙丘寫成動態生命體，因此 heading 應抓住 shaping、reforming、growing、changing 這組概念。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說全球超過三十個地點的沙丘甚至會「唱歌」，而且每個地點都有自己的頻率或音調；尾句說Stéphane Douady 和同事研究 Morocco、Chile、China、Oman 的沙丘後，相信可以解釋這種聲學現象的精確機制。只看首尾句，可以看到本段先提出神秘聲音，再轉向科學解釋。中間提到Marco Polo 把聲音歸因於 evil spirits，所以本段重點是舊迷信被科學逐步拆解。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說研究團隊把沙帶回實驗室，放進有自動推板的 channels 中；尾句說這些神秘沙丘似乎還未完全交出所有秘密。只看首尾句，可以先估計本段會說實驗室如何重現 singing sand 的現象，以及科學家已發現哪些條件、仍未完全理解哪些部分。段落中間集中講 grain size、shape、frequency、coating，因此最適合對應 laboratory replication。"
+      }
+    ]
+  }
+}

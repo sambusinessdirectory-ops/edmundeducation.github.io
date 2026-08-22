@@ -1,0 +1,999 @@
+{
+  "id": "p3-043-the-significant-role-of-mother-tongue-in-education",
+  "catalogueId": "p3-043",
+  "catalogueIds": [
+    "p3-043"
+  ],
+  "passage": 3,
+  "title": "The Significant Role of Mother Tongue in Education",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "A",
+    "B",
+    "D",
+    "I",
+    "D",
+    "J",
+    "F",
+    "C",
+    "YES",
+    "YES",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "YES"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — Bilingual children can make a valuable contribution to the wealth of a country.",
+      "answerKey": "C — Bilingual children can make a valuable contribution to the wealth of a country.",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "作者在第二段提出了甚麼觀點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“What point did the writer make in the second paragraph?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。第一句提到 “cultural, linguistic and economic resources of the nation are maximised”，即國家的文化、語言和經濟資源應被最大化。最後一句則引出現有研究，說要檢視兒童母語在教育發展中的角色。只看首尾句，可以先猜這段主要不是在講個別學生考試成績，而是在講 policy-makers 應如何看待多語學生和母語資源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求 “second paragraph”，所以定位段落已經給定。再掃描選項中的概念： A current studies misleading：第二段沒有說研究誤導。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B benefits some children more：第二段沒有比較哪些孩子受益更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C valuable contribution to wealth of a country：對應 “economic resources of the nation are maximised”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D law strengthened：第二段沒有談法律。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To waste the resources of the nation by discouraging children from developing their mother tongues is quite simply unintelligent from the point of view of national self-interest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從國家自身利益角度看，阻止兒童發展母語，等於浪費國家資源，這是相當不明智的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 children’s mother tongues 視為 national resources。前一句還把這些資源明確分成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cultural, linguistic and economic resources”。因此，作者的意思是：雙語兒童的語言和文化能力不只是私人能力，也可以成為國家的文化、語言和經濟資產。選項 C 用 “valuable contribution to the wealth of a country” 概括這個觀點。錯項分析： A 錯在 “misleading”。原文後面說 research is very clear，方向相反。 B 錯在 “some children more than others”，原文沒有這種受益比較。 D 錯在 “law”，第二段講教育政策和研究方向，沒有要求加強法律。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — to lend weight to his argument",
+      "answerKey": "A — to lend weight to his argument",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "作者為甚麼引用 Goethe 的話？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why does the writer refer to something that Goethe said?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。第一句 “In fact, the research is very clear.” 已經告訴我們這段會用研究證據支持作者立場。最後一句說 bilingual children may develop more flexibility in their thinking。段落功能是說明雙語發展的好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Goethe”。原文只有一次出現 Goethe，所以很容易定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 150 research studies conducted during the past 25 years strongly support what Goethe, the famous eighteenth-century German philosopher, once said: the person who knows only one language does not truly know that language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去二十五年間進行的超過一百五十項研究，強烈支持十八世紀著名德國哲學家 Goethe 曾經說過的話：只懂一種語言的人，其實並未真正懂得那種語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的結構是：研究證據 → 支持 Goethe 的名言 → 強化作者關於雙語能力的論點。作者不是用Goethe 引入新概念，也不是用 Goethe 反駁研究；他用這句名言增加論證力量。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。lend weight to his argument = 增強他的論點說服力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，原文說 research strongly support Goethe，不是 contradict。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，雙語好處在前面已經提出，Goethe 不是新概念入口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，Goethe 是十八世紀哲學家，不是更新 current thinking 的現代研究者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — they go on to do much better throughout their time at school.",
+      "answerKey": "B — they go on to do much better throughout their time at school.",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "作者認為，當年幼兒童有穩固母語基礎時，會怎樣？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“The writer believes that when young children have a firm grasp of their mother tongue…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。第一句直接說 “The level of development of children’s mother tongue is a strong predictor of their second language development.” 最後一句說兩種語言可以互相滋養。首尾句已經顯示：母語發展與 school language / second language 發展有正面關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “firm grasp of their mother tongue” 對應原文的 “a solid foundation in their mother tongue”。這是最強同義定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children who come to school with a solid foundation in their mother tongue develop stronger literacy abilities in the school language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "帶著穩固母語基礎入學的兒童，會在學校語言中發展出更強的讀寫能力。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When parents and other caregivers … are able to spend time with their children and tell stories or discuss issues with them in a way that develops their mother tongue, children come to school well-prepared to learn the school language and succeed educationally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當父母和其他照顧者能花時間與孩子相處，用能發展母語的方式講故事或討論問題，孩子入學時就會準備好學習學校語言，並在教育上取得成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “firm grasp” = “solid foundation”。選項 B 的 “do much better throughout their time at school” 是對 “develop stronger literacy abilities” 和 “succeed educationally” 的概括。原文沒有說他們教導長輩，也沒有說只會讀文化背景故事，更沒有比較他們和家人、同輩的關係。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的說法比原文稍微概括，但它抓住核心方向：母語基礎強 → school language literacy 強 →educational success。這是四個選項中唯一有完整支援的一項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "D — They fear that the programmes will use up valuable time in the school day.",
+      "answerKey": "D — They fear that the programmes will use up valuable time in the school day.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "為甚麼有些人懷疑母語教學計劃？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Why are some people suspicious about mother tongue-based teaching programmes?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。第一句已經直接講 “Some educators and parents are suspicious…”；最後一句則用 Foyer programme 展示雙語和三語教育好處。這段先講疑慮，再講研究回應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “suspicious” 和 “mother tongue-based teaching programmes”。原文第一句直接重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some educators and parents are suspicious of mother tongue-based teaching programmes because they worry that they take time away from the majority language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些教育工作者和家長懷疑母語教學計劃，因為他們擔心這些計劃會佔用學習主流語言的時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 “use up valuable time in the school day” 對應 “take time away from the majority language”。也就是說，他們擔心母語教學佔用了原本可以用來學主流語言的課堂時間。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯，原文沒有說孩子兩種語言都會讀得慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，原文沒有說孩子會混淆兩種語言的詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，原文沒有說孩子會對課堂較不感興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確，因為它概括了 “take time away”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "I — ability",
+      "answerKey": "I — ability",
+      "type": "Summary Completion",
+      "prompt": "“bilingual children acquire the 31 ______ to converse in the majority language remarkably quickly.”",
+      "translation": "雙語兒童很快取得用主流語言交談的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people marvel at how quickly bilingual children seem to ‘pick up’ conversational skills in the majority language at school…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人驚訝於雙語兒童在學校似乎能多快掌握主流語言的會話技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “acquire the”，後面是 “to converse”，需要一個名詞。選項 I “ability” 放進去最自然： acquire the ability to converse。原文的 “pick up conversational skills” 被改寫成 “acquire the ability to converse”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — rate",
+      "answerKey": "D — rate",
+      "type": "Summary Completion",
+      "prompt": "“The fact that competence in the mother tongue can be lost at a similar 32 ______ is less well understood.”",
+      "translation": "母語能力也可以以相似的 ______ 流失，這一點較少人理解。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, educators are often much less aware of how quickly children can lose their ability to use their mother tongue…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，教育工作者往往較少意識到，兒童可以多快失去使用母語的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “lost at a similar ___” 對應原文 “how quickly”。選項 D “rate” 表示速度、速率，最適合： at a similar rate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "J — area",
+      "answerKey": "J — area",
+      "type": "Summary Completion",
+      "prompt": "“This phenomenon depends, to a certain extent, on the proportion of people with the same linguistic background who have settled in a particular 33 ______.”",
+      "translation": "這種現象在某程度上取決於有相同語言背景的人，在某一特定 ______ 聚居的比例。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extent and rapidity of language loss will vary according to the concentration of families from a particular linguistic group in the neighbourhood.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "語言流失的程度和速度，會因某一特定語言群體家庭在社區中的集中程度而有所不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “neighbourhood” 被 summary 改寫成 “particular area”。選項 J “area” 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F — family",
+      "answerKey": "F — family",
+      "type": "Summary Completion",
+      "prompt": "“If this proportion is low, children are likely to lose the active use of their mother tongue and thus no longer employ it even with 34 ______…”",
+      "translation": "如果這個比例低，兒童很可能失去主動使用母語的能力，因此甚至不再和 ______ 使用母語。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“They may retain receptive skills in the language but they will use the majority language in speaking with their peers and siblings and in responding to their parents.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可能仍保留對該語言的理解能力，但和同輩及兄弟姊妹說話、回應父母時，會使用主流語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“peers and siblings” 加上 “parents” 都屬於家庭和身邊人脈。summary 用 “even with family” 概括parents and siblings。選項 F 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — dislocation",
+      "answerKey": "C — dislocation",
+      "type": "Summary Completion",
+      "prompt": "“It follows that adolescent children in these circumstances experience a sense of 35 ______ in relation to all aspects of their lives.”",
+      "translation": "由此可見，在這些情況下，青少年會在生活各方面經歷一種 ______ 感。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the time children become adolescents, the linguistic division between parents and children has become an emotional chasm. Pupils frequently become alienated from the cultures of both home and school with predictable results.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "到兒童成為青少年時，父母與孩子之間的語言分隔已變成情感鴻溝。學生經常會疏離家庭文化和學校文化，其後果可以預見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“alienated from the cultures of both home and school” 表示疏離、失去歸屬、夾在兩邊都難以安放。選項 C “dislocation” 最能概括這種心理和文化上的失位感。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Less than half of the children who attend kindergarten in Toronto have English as their mother tongue.”",
+      "translation": "在多倫多讀幼稚園的兒童中，少於一半以英語為母語。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。第一句講人口流動令學校更多元；最後一句講學生保留文化和語言時，會被某些人視為較難融入主流。段落功能是用 Toronto 作例子說明語言多元。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Toronto”、“kindergarten”、“English”。這些字在第一段直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To illustrate, in the city of Toronto in Canada, 58 per cent of kindergarten pupils come from homes where English is not the usual language of communication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在加拿大多倫多市，58% 的幼稚園學生來自英語並非日常溝通語言的家庭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 58% 的幼稚園學生家中通常不使用英語，剩下大約 42% 來自通常使用英語的家庭。42% 少於一半。題目把 “English is not the usual language of communication” 改寫成 “English as their mother tongue”。在本文語境中，home language / mother tongue 是同一組討論焦點，因此答案為 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “mother tongue”，原文用 “usual language of communication”。嚴格來說，兩個詞不是字典式完全相同，但全文正是在討論家庭語言、母語和學校語言之間的關係，所以這是合理改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Research proves that learning the host country language at school can have an adverse effect on a child’s mother tongue.”",
+      "translation": "研究證明，在學校學習所在國家的語言，可能對兒童母語造成負面影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。第一句說雙語兒童在學校很快掌握主流語言會話能力；最後一句說學生可能疏離家庭和學校兩邊的文化。首尾句已經顯示：這段從 majority language acquisition 轉到mother tongue loss 及文化疏離。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “host country language at school”、“adverse effect”、“mother tongue”。原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“majority language at school” 對應 host country language，用 “lose their ability to use their mother tongue” 對應 adverse effect。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Many people marvel at how quickly bilingual children seem to ‘pick up’ conversational skills in the majority language at school…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人驚訝於雙語兒童在學校似乎能多快掌握主流語言的日常會話能力。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, educators are often much less aware of how quickly children can lose their ability to use their mother tongue, even in the home context.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，教育工作者往往較少意識到，兒童可以多快失去使用母語的能力，甚至在家庭情境中也會如此。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“children can lose their ability to communicate in their mother tongue within 2–3 years of starting school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童在入學後兩至三年內，可能會失去用母語溝通的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “adverse effect” 對應 “lose their ability to use their mother tongue”。“host country language” 對應 “majority language”。“at school” 和 “starting school” 都在原文中出現。作者的觀點是：兒童在學校快速掌握主流語言的同時，若母語社區支援不足，母語主動使用能力可能很快流失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不能只看 “pick up conversational skills” 這半句。那一句本身是正面能力；真正決定答案的是後面的 “However” 轉折，以及 “lose their ability to use their mother tongue”。IELTS 常在轉折後放答案方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The Foyer programme is accepted by the French education system.”",
+      "translation": "Foyer programme 被法國教育制度接受。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。第一句講有些家長和教育工作者擔心母語教學會佔用主流語言時間；最後一句提到比利時的 Foyer programme 發展三種語言，展示雙語和三語教育好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Foyer programme” 和 “French education system”。原文有 Foyer programme，也有French，但沒有 “French education system”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within Europe, the Foyer programme in Belgium, which develops children’s speaking and literacy abilities in three languages (their mother tongue, Dutch and French), most clearly illustrates the benefits of bilingual and trilingual education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在歐洲，比利時的 Foyer programme 發展兒童三種語言，即母語、荷蘭語和法語的口語及讀寫能力，最清楚展示了雙語和三語教育的好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 Foyer programme 在 Belgium，並且包含 French 作為其中一種語言。它沒有說該programme 被 French education system 接受，也沒有說法國教育部、法國學校制度或法國政府如何看待這個 programme。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “French” 從「課程中的一種語言」轉成 “French education system”。這是不同概念。原文有 French 這個字，但它指語言，不指法國教育制度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Bilingual children are taught to tell the time earlier than monolingual children.”",
+      "translation": "雙語兒童比單語兒童更早被教導看時間。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。第一句說這種跨語言轉移很容易理解；最後一句說中學生研究正在提供有趣發現。段落功能是解釋 skills transfer，不是比較教學年齡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “tell the time”。原文有同一短語，所以位置很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pupils who know how to tell the time in their mother tongue understand the concept of telling the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "懂得用母語說時間的學生，已經理解了看時間這個概念。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to tell the time in the majority language, they do not need to relearn the concept.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了用主流語言說時間，他們不需要重新學習這個概念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說：如果孩子已經用母語理解了 tell the time 這個概念，他們用主流語言表達時不需要重新學概念。它沒有比較 bilingual children 和 monolingual children 誰更早學會，也沒有說雙語兒童被教得較早。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “tell the time” 原字重現，學生容易急著選 YES。真正控制答案的是 “earlier than monolingual children” 這個比較。原文沒有比較時間早晚，所以不能選 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Bilingual children can apply reading comprehension strategies acquired in one language when reading in the other.”",
+      "translation": "雙語兒童可以把在一種語言中學到的閱讀理解策略，應用到另一種語言的閱讀中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。第一句說 “It is easy to understand how this happens”，承接上一段的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Transfer across languages”。最後一句說相關研究值得擴展。整段重點是概念和技能如何跨語言轉移。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “reading comprehension strategies”、“one language”、“the other”。原文沒有直接用reading comprehension strategies，但有 “distinguish the main idea from the supporting details of a written passage or story” 和 “distinguishing fact from opinion”。這些正是閱讀理解策略。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Similarly, at more advanced stages, there is transfer across languages in other skills such as knowing how to distinguish the main idea from the supporting details of a written passage or story, and distinguishing fact from opinion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣，在較高階段，其他技能也會在語言之間轉移，例如知道如何分辨一篇文章或故事的主旨和支持細節，以及分辨事實和意見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “apply reading comprehension strategies” 對應原文的："
+            },
+            {
+              "kind": "quote",
+              "text": "“distinguish the main idea from the supporting details”"
+            },
+            {
+              "kind": "quote",
+              "text": "“distinguishing fact from opinion”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是閱讀理解常用策略。原文也明確說 “transfer across languages”，即技能可以從一種語言轉移到另一種語言。因此答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有逐字出現 “main idea” 或 “fact from opinion”，而是用上位概念 “reading comprehension strategies” 概括。要看懂這種題，關鍵是把具體技能提升成類別：分辨主旨細節、分辨事實意見，都屬於 reading comprehension strategies。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Significant Role of Mother Tongue in Education.pdf",
+    "sha256": "7cb991d5914a8067e47b39bf97fc5b1a7ccad53b170ee7a620a2accfb0f8b4cb",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "多元語言學生帶來的教育及政治爭議第一句：“One consequence of population mobility is an increasing diversity within schools.”中文意思：人口流動帶來的一個結果，是學校內部的多元性日益增加。最後一句：“If students retain their culture and language, they are viewed as less capable of identifying with the mainstream culture and learning the mainstream language of the society.”中文意思：如果學生保留自己的文化和語言，他們就會被視為較難認同主流文化，也較難學習社會的主流語言。段落功能：這段交代背景：學校變得更具語言和文化多元性，但部分政治團體把這種多元視為威脅。 Question 36 來自這段。"
+      },
+      {
+        "number": "2",
+        "summary": "母語是國家資源，不應浪費第一句：“The challenge for educators and policy-makers is to shape the evolution of national identity in such a way that the rights of all citizens (including schoolchildren) are respected, and the cultural, linguistic and economic resources of the nation are maximised.”中文意思：教育工作者和政策制定者面對的挑戰，是塑造國家身份的發展方式，使所有公民，包括學生的權利都受到尊重，同時讓國家的文化、語言和經濟資源得到最大發揮。最後一句：“A first step in providing an appropriate education for culturally and linguistically diverse children is to examine what the existing research says about the role of children’s mother tongues in their educational development.”中文意思：為文化和語言多元的兒童提供合適教育，第一步是檢視現有研究對兒童母語在教育發展中的角色有何說法。段落功能：這段把 mother tongue 從「問題」重新定位成 national resources，亦引出研究證據。Question 27來自這段。"
+      },
+      {
+        "number": "3",
+        "summary": "研究支持雙語發展的好處第一句：“In fact, the research is very clear.”中文意思：事實上，研究結果非常清楚。最後一句：“Research suggests that bilingual children may also develop more flexibility in their thinking as a result of processing information through two different languages.”中文意思：研究指出，雙語兒童由於透過兩種不同語言處理資訊，也可能發展出更靈活的思維。段落功能：這段說明雙語或多語發展能提升語言理解、語言使用和思維彈性。Question 28 來自這段。"
+      },
+      {
+        "number": "4",
+        "summary": "母語基礎能幫助第二語言和學校語言發展第一句：“The level of development of children’s mother tongue is a strong predictor of their second language development.”中文意思：兒童母語發展程度，是預測其第二語言發展的重要指標。最後一句：“Transfer across languages can be two-way: both languages nurture each other when the educational environment permits children access to both languages.”中文意思：語言之間的遷移可以是雙向的：當教育環境容許兒童接觸兩種語言時，兩種語言會互相滋養。段落功能：這段解釋母語能力如何支援 school language，並提出 skills transfer。Question 29 主要來自這段。"
+      },
+      {
+        "number": "5",
+        "summary": "對母語教學的疑慮與研究回應第一句：“Some educators and parents are suspicious of mother tongue-based teaching programmes because they worry that they take time away from the majority language.”中文意思：有些教育工作者和家長懷疑母語教學計劃，因為他們擔心這些計劃會佔用學習主流語言的時間。最後一句：“Within Europe, the Foyer programme in Belgium, which develops children’s speaking and literacy abilities in three languages (their mother tongue, Dutch and French), most clearly illustrates the benefits of bilingual and trilingual education (see Cummins, 2000).”中文意思：在歐洲，比利時的 Foyer programme 發展兒童三種語言，即母語、荷蘭語和法語的口語和讀寫能力，最清楚展示了雙語和三語教育的好處。段落功能：這段先提出反對者的疑慮，再用研究和 Foyer programme 回應。Questions 30 和 38 來自這段。"
+      },
+      {
+        "number": "6",
+        "summary": "概念和閱讀技巧可跨語言轉移第一句：“It is easy to understand how this happens.”中文意思：這種情況如何發生，其實很容易理解。最後一句：“Studies of secondary school pupils are providing interesting findings in this area, and it would be worth extending this research.”中文意思：針對中學生的研究正在這方面提供有趣發現，而這項研究值得進一步擴展。段落功能：這段具體解釋 transfer across languages：例如時間概念、分辨主旨和細節、分辨事實和意見。 Questions 39 和 40 來自這段。"
+      },
+      {
+        "number": "7",
+        "summary": "多數語言學得快，母語也可能流失得快第一句：“Many people marvel at how quickly bilingual children seem to ‘pick up’ conversational skills in the majority language at school (although it takes much longer for them to catch up with native speakers in academic language skills).”中文意思：很多人驚訝於雙語兒童在學校似乎能多快掌握主流語言的日常會話能力，不過他們要在學術語言能力上追上母語者，則需要更長時間。最後一句：“Pupils frequently become alienated from the cultures of both home and school with predictable results.”中文意思：學生經常會疏離家庭文化和學校文化，其後果也是可以預見的。段落功能：這段講語言流失，尤其是兒童進入主流語言學校後，若社區母語環境不足，母語主動使用能力可能很快下降。Questions 31–35 和 37 來自這段。"
+      }
+    ]
+  }
+}

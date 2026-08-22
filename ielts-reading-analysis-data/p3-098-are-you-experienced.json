@@ -1,0 +1,1911 @@
+{
+  "id": "p3-098-are-you-experienced",
+  "catalogueId": "p3-098",
+  "catalogueIds": [
+    "p3-098"
+  ],
+  "passage": 3,
+  "title": "Are You Experienced?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "A",
+    "A",
+    "C",
+    "sleep deprivation",
+    "emotional attachment",
+    "cheapest product",
+    "buying experience",
+    "living longer",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — buy a nice, fast car",
+      "answerKey": "C — buy a nice, fast car",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "這題的關鍵是 least likely to，即「最不可能」。我們要找 Beattie 的價值觀，而不只是找他做過甚麼。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Trevor Beattie 最不可能做哪一件事？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How we spend our money is changing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們花錢的方式正在改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says that buying a Porsche is the saddest thing in the history of money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，買 Porsche 是金錢史上最悲哀的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 會用 Beattie 說明一種新的消費心態：人們不再只重視昂貴物品，開始重視體驗。題目指名 Trevor Beattie，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Trevor Beattie / least likely / Porsche / MiG jet / advertising。掃描 Paragraph 1，可以找到三組資料： 1. “advertising supremo” 2. “flights in a MiG jet” 3. “buying a Porsche is the saddest thing…”這三組資料分別對應 A、B、C。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trevor Beattie, the advertising supremo, has earned millions by devising original and controversial publicity campaigns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Trevor Beattie 是廣告界高手，靠構思原創且具爭議性的宣傳活動賺了數百萬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支持 A：他很可能想出好的廣告方法。"
+            },
+            {
+              "kind": "label",
+              "text": "原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“instead lavishing his fortune on such ephemeral things as flights in a MiG jet, or flying his mum on Concorde.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他反而把財富花在短暫體驗上，例如乘坐 MiG 噴射機，或帶母親乘坐 Concorde。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支持 B：他可能乘坐 military plane，因為 MiG jet 是軍用噴射機類型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says that buying a Porsche is the saddest thing in the history of money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為買 Porsche 是金錢史上最悲哀的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Porsche 正是 nice, fast car 的典型例子。既然他如此負面地評價買 Porsche，C 就是最不可能的行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 B 都是原文支持的行為或能力；題目問 least likely，所以要選和 Beattie 價值觀相反"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的選項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — most people have enough things",
+      "answerKey": "A — most people have enough things",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "這題問原因，不是問 experience economy 有哪些例子。要找 “because / with / due to” 一類原因訊號。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：為甚麼 experience economy 在 Britain 成長？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beattie is not alone in prizing memories above materialism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Beattie 並非唯一重視回憶多於物質的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With our basic needs satisfied – the disposable income of Britons is double what it was in 1980– we are becoming increasingly choosy about how we spend our money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於我們的基本需要已經得到滿足，而且英國人的可支配收入是 1980 年的兩倍，我們對如何花錢變得愈來愈挑剔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段會解釋從 materialism 轉向 memories / experiences 的原因。Question 28 問Britain 的 experience economy 為何成長，應定位到這段尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 experience economy / grown / Britain / because。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are all symptomatic of the growing ‘experience economy’…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“With our basic needs satisfied…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句一前一後，正好連接「現象」和「原因」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are all symptomatic of the growing ‘experience economy’, which has evolved out of a culture of mass affluence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是正在成長的 experience economy 的症狀；這種經濟形態從大眾富裕文化中發展出來。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“With our basic needs satisfied – the disposable income of Britons is double what it was in 1980– we are becoming increasingly choosy about how we spend our money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當基本需要已得到滿足，而且英國人的可支配收入比 1980 年翻了一倍，人們開始更挑剔地選擇如何花錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 most people have enough things 對應原文 basic needs satisfied 和 mass affluence。也就是說，當人們已經不缺基本物品時，他們開始把錢花在更有記憶價值的體驗上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “people like new ideas” 太籠統，原文沒有把 experience economy 的成長原因歸結為喜歡新意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “buying things has become too expensive” 方向不合原文；文章說人們更富裕，可支配收入更高，沒有說物品太貴導致轉向體驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — are changing the way they present themselves",
+      "answerKey": "A — are changing the way they present themselves",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "題目問 shopping malls 對 experience economy 的反應。要找 Bluewater 以及商場如何改變定位。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Bluewater 這類 shopping malls 正在做甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even that most acquisitional of pursuits, shopping, has had to wake up to the experience economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使購物這種最重視獲取物品的活動，也不得不面對 experience economy 的到來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experience of shopping is just as important to us as what we end up taking home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購物體驗對我們來說，和最後帶回家的東西同樣重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句清楚提示：這段講 shopping 如何轉向 experience。題目提到 shopping malls such as Bluewater，所以答案應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Shopping malls / Bluewater / experience economy。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shopping malls such as Bluewater have acknowledged the arrival of the experience economy by restyling themselves as destinations for a family day out.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接包含 Bluewater 和改變動作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shopping malls such as Bluewater have acknowledged the arrival of the experience economy by restyling themselves as destinations for a family day out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bluewater 這類商場已承認 experience economy 的到來，方法是把自己重新塑造成家庭一日遊的目的地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“restyling themselves” 是答案核心，意思是重新包裝、重新定位自己的形象。選項 A 的 changing the way they present themselves 正好概括這點。 B 說它們很慢才認出消費者行為變化。原文用 “have acknowledged”，沒有說 slow。 C 說它們不滿 experience economy。原文沒有負面態度，反而說它們已配合這個趨勢。所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位在 B",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "商場過去以 shopping 為主，現在要 wake up to experience economy，但 “wake up"
+            },
+            {
+              "kind": "paragraph",
+              "text": "to” 在這裡指意識到並回應趨勢，沒有足夠證據說它們反應遲鈍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — selling customers things that remind them of their experiences",
+      "answerKey": "C — selling customers things that remind them of their experiences",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "這題問 experience 和 sales 如何連接。要找商家如何把顧客的體驗轉化成購買行為。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Retailers 更重視 experiences 後，仍希望透過甚麼方式達成銷售？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is to foster an emotional attachment between company and consumer, and hope that‘guests’ will want to acquire a memento that reminds them of the warm fuzzy feelings they had during the experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個想法是建立公司和消費者之間的情感連結，並希望「客人」想要購買一件紀念品，讓他們想起體驗中產生的溫暖愉快感覺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Visitors to Apple’s six British stores are encouraged to use an ‘online concierge’ to help them to plan their trip, showing that progressive companies have bought fully into the hospitality concept.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Apple 六間英國店的訪客被鼓勵使用 online concierge 來計劃行程，這顯示進步公司已完全接受hospitality concept。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段一開頭直接講 emotional attachment 和 memento，非常適合回答 Question 30。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 experiences / still aim to make sales / remind them。原文中的 acquire a memento和 reminds them 是最直接訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is to foster an emotional attachment between company and consumer, and hope that‘guests’ will want to acquire a memento that reminds them of the warm fuzzy feelings they had during the experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商家的想法是先建立公司和消費者之間的情感連結，再希望「客人」購買一件紀念品，讓他們想起體驗時的溫暖愉快感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “selling customers things that remind them of their experiences” 對應原文：● selling customers things = acquire a memento● remind them = reminds them● their experiences = feelings they had during the experience A “better marketing techniques” 太籠統，文章講的是具體的 memento。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “calling customers guests” 只是零售體驗語言的一部分，不能完整說明銷售如何發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "sleep deprivation",
+      "answerKey": "sleep deprivation",
+      "type": "Sentence Completion",
+      "prompt": "“James Gilmore thinks that people become more creative when subjected to 31 ______”",
+      "translation": "James Gilmore 認為，人們在受到甚麼影響時會變得更有創意。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型要求",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS，所以答案最多兩個詞，且必須來自原文。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘experience economy’ was first predicted in a 1998 article in the Harvard Business Review by James Gilmore, an American business consultant who advocates, among other things, sleep deprivation as an idea booster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“experience economy” 最早由美國商業顧問 James Gilmore 在 1998 年 Harvard Business Review 的文章中預測；他主張的事情之一，是把 sleep deprivation 視為提升創意的方式。最後一句：“Just as we moved from a goods to a service economy, now we are shifting from a service to an experience economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像我們曾從 goods economy 轉向 service economy，現在我們正從 service economy 轉向experience economy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提 James Gilmore 和 sleep deprivation，題目也指名 James Gilmore，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 James Gilmore / creative / subjected to。原文沒有 creative 這個字，但有 idea booster，即提升想法、刺激創意的東西。原文句子中的答案詞是 sleep deprivation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“James Gilmore, an American business consultant who advocates, among other things, sleep deprivation as an idea booster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "James Gilmore 是一位美國商業顧問；在他主張的事情中，包括把睡眠剝奪視為激發創意的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “people become more creative” 對應原文 “idea booster”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“when subjected to” 對應 “advocates … sleep deprivation”。答案應填原文名詞短語：sleep deprivation。字數檢查：sleep / deprivation，共兩個詞，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "emotional attachment",
+      "answerKey": "emotional attachment",
+      "type": "Sentence Completion",
+      "prompt": "“Starbucks is a company that has managed to develop an 32 ______ with its customers.”",
+      "translation": "Starbucks 是一間成功和顧客建立某種關係的公司。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型要求",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格前有 “an”，答案應是可接 an 的名詞片語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is to foster an emotional attachment between company and consumer, and hope that‘guests’ will want to acquire a memento that reminds them of the warm fuzzy feelings they had during the experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個想法是建立公司與消費者之間的情感連結，並希望「客人」想購買一件紀念品，讓他們想起體驗時的溫暖感覺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Visitors to Apple’s six British stores are encouraged to use an ‘online concierge’ to help them to plan their trip, showing that progressive companies have bought fully into the hospitality concept.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Apple 英國店訪客被鼓勵使用 online concierge 計劃行程，顯示進步公司已完全接受 hospitality concept。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 開頭直接講 emotional attachment，後面列出 Starbucks、Apple、Innocent，所以這題定位到此。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Starbucks / develop / customers。掃描同段可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The hippest companies of the moment – Starbucks, Apple and, on a smaller scale, the drinks company Innocent – are all admired within the business industry for their ability to connect emotionally with their consumers…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和段首 “emotional attachment” 是同一概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is to foster an emotional attachment between company and consumer…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個想法是建立公司和消費者之間的情感連結。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“develop an ______ with its customers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“foster an emotional attachment between company and consumer”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● develop = foster● with its customers = between company and consumer● emotional attachment = 情感連結所以答案是 emotional attachment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：emotional / attachment，共兩個詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "cheapest product",
+      "answerKey": "cheapest product",
+      "type": "Sentence Completion",
+      "prompt": "“Pine and Gilmore’s books suggest that not all consumers focus on buying the 33 ______”",
+      "translation": "Pine and Gilmore 的書指出，並非所有消費者都只關注購買甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型要求",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格前有 “the”，答案應是名詞片語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The conveyor belt of business publishing also attests to the increasing importance of the customer experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商業出版物接連出現，也證明 customer experience 愈來愈重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The buying experience is critical (which is why we have not all switched to Internet shopping or no-frills airlines).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購買體驗非常關鍵，這也解釋了為何我們沒有全部轉向網上購物或廉價航空。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談商業書籍如何強調 customer experience。題目提到 Pine and Gilmore’s books，所以應找這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Pine and Gilmore / not all consumers / focus on buying。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“They all preach the same gospel: that, contrary to what companies think, not all consumers are focused on bagging the cheapest product.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目幾乎同形。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They all preach the same gospel: that, contrary to what companies think, not all consumers are focused on bagging the cheapest product.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些書都傳達同一套觀點：和一些公司想法相反，並非所有消費者都專注於搶到最便宜的產品。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“not all consumers focus on buying the ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“not all consumers are focused on bagging the cheapest product”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bagging” 在這裡可理解為買到、拿到。所以答案是 cheapest product。字數檢查：cheapest / product，共兩個詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "buying experience",
+      "answerKey": "buying experience",
+      "type": "Sentence Completion",
+      "prompt": "“Internet shopping lacks the 34 ______”",
+      "translation": "網上購物缺少甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型要求",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格前有 “the”，答案應是名詞片語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The conveyor belt of business publishing also attests to the increasing importance of the customer experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商業出版物大量出現，也證明 customer experience 變得愈來愈重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The buying experience is critical (which is why we have not all switched to Internet shopping or no-frills airlines).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購買體驗非常關鍵，這也解釋了為何我們沒有全部轉向網上購物或廉價航空。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接把 buying experience 和 Internet shopping 放在一起，所以答案很集中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Internet shopping / lacks。原文沒有 “lacks” 這個字，但說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The buying experience is critical (which is why we have not all switched to Internet shopping…)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 Internet shopping 在 buying experience 方面不如實體或體驗式消費吸引。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The buying experience is critical (which is why we have not all switched to Internet shopping or no-frills airlines).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購買體驗很關鍵；這正是我們沒有全部轉向網上購物或廉價航空的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這句改寫成 “Internet shopping lacks the ______”。空格需要填原文中 Internet shopping較弱或缺少的東西，也就是 buying experience。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● lacks = does not provide enough of / cannot fully offer● buying experience is critical = buying experience 是顧客仍然重視的部分● Internet shopping = 缺少這種體驗感的例子之一答案是 buying experience。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "living longer",
+      "answerKey": "living longer",
+      "type": "Sentence Completion",
+      "prompt": "“People have time for more experiences partly because they are 35 ______”",
+      "translation": "人們有時間追求更多體驗，部分原因是他們正在怎樣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型要求",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格在 “they are” 後面，答案應是現在分詞片語或形容詞片語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most notable aspect of the experience economy is how much we are prepared to pay for a purely non-material experience, such as a day in a spa or a trip to Prague.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experience economy 最顯著的一點，是我們願意為純粹非物質體驗付出多少錢，例如 spa day或 Prague trip。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now that we are living longer, we have more time to try different things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於我們活得更久，我們有更多時間嘗試不同事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句幾乎直接回答 Question 35。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 time / more experiences / partly because。原文尾句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“living longer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“try different things”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三個訊號和題目完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now that we are living longer, we have more time to try different things.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於我們活得更久，我們有更多時間嘗試不同事情。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have time for more experiences partly because they are ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“we are living longer”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 living longer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：living / longer，共兩個詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In Britain, the total amount of money spent on buying things has gone down in the last ten years.”",
+      "translation": "在英國，過去十年用於購買物品的總金額下降了。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather than upgrading our car or television, we’ll spend the cash in coffee shops, hotels, restaurants, sports clubs, and theme parks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比升級汽車或電視，我們會把錢花在咖啡店、酒店、餐廳、運動俱樂部和主題公園。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That money has migrated to restaurants, leisure and budget travel, as well as mobile phone calls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那筆錢已轉移到餐廳、休閒、廉價旅遊，以及手機通話上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講英國人的消費重心由 goods 轉向 experiences / services。題目問Britain、buying things、last ten years，所以定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Britain / total amount / buying things / last ten years。原文中最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The amount that British people spend on retail goods as a proportion of consumer spending has gone down in the past ten years.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目高度相似，但最重要的限制是 as a proportion of consumer spending。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The amount that British people spend on retail goods as a proportion of consumer spending has gone down in the past ten years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國人花在零售商品上的金額，在整體消費支出中所佔的比例，在過去十年下降了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說的是 the total amount of money，即總金額。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 as a proportion of consumer spending，即佔整體消費支出的比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩件事不能直接互換。比例下降，可能代表總額下降，也可能代表總消費增加得更快，令 retail goods 的比例下降。文章沒有提供 retail goods 的絕對總額數字，也沒有說總金額是否下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被看成 FALSE，因為題目加入了 “total amount”。但按嚴格 IELTS 判斷，原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有提供總金額升跌，只提供比例下降。缺少總額資料時，應判 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some shopping malls have a cinema to enhance people’s shopping experience.”",
+      "translation": "有些商場設有電影院，以提升人們的購物體驗。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even that most acquisitional of pursuits, shopping, has had to wake up to the experience economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使購物這種最重視獲取物品的活動，也不得不面對 experience economy 的到來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experience of shopping is just as important to us as what we end up taking home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "購物體驗對我們來說，和最後帶回家的東西同樣重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段專門講商場和店舖如何把購物變成體驗，因此 Question 37 應回到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 shopping malls / cinema / shopping experience。原文沒有直接用 “cinema”，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“take in a film”，意思是看電影。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Shopping malls such as Bluewater have acknowledged the arrival of the experience economy by restyling themselves as destinations for a family day out. You can browse, dine, and take in a film; shopping is optional.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bluewater 這類商場已承認 experience economy 的到來，方法是把自己重新塑造成家庭一日遊目的地。你可以逛逛、用餐、看一場電影；購物反而可以只是選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “have a cinema” 對應原文 “take in a film”。雖然原文沒有直接寫 cinema，但商場可以讓人看電影，就支援有電影設施或相關安排。題目中的 “enhance people’s shopping experience”對應整段主旨：商場把自己變成 family day out destination，shopping is optional。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只等 “cinema” 原字出現。“take in a film” 在英式語境中就是去看電影。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“iPods are often criticised for being too expensive.”",
+      "translation": "iPod 經常因太昂貴而受到批評。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is to foster an emotional attachment between company and consumer, and hope that‘guests’ will want to acquire a memento that reminds them of the warm fuzzy feelings they had during the experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個想法是建立公司與消費者之間的情感連結，並希望「客人」想購買一件紀念品，讓他們想起體驗中的溫暖愉快感覺。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Visitors to Apple’s six British stores are encouraged to use an ‘online concierge’ to help them to plan their trip, showing that progressive companies have bought fully into the hospitality concept.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Apple 英國店訪客被鼓勵使用 online concierge 計劃行程，顯示進步公司已完全接受 hospitality concept。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 Apple、iPod、品牌情感和高價仍被接受。題目有 iPods，所以定位到本段中後部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 iPods / criticised / expensive。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Magazine reviews of the Apple iPod, which always criticise its battery life and exorbitant price tag…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“exorbitant price tag” 就是「價格過高」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Magazine reviews of the Apple iPod, which always criticise its battery life and exorbitant price tag, are inevitably forgiving because of the iPod’s iconic design and an enduring affection for the company’s perceived ability to do things differently.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Apple iPod 的雜誌評論總是批評它的電池壽命和過高價格，但由於 iPod 的標誌性設計，以及人們長久喜愛 Apple 被認為能與眾不同的能力，這些評論最終往往仍然寬容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “often criticised” 對應原文 “always criticise”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“being too expensive” 對應 “exorbitant price tag”。“exorbitant” 表示價格高得過分。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Apple is considered to be a creative company.”",
+      "translation": "Apple 被認為是一間有創意的公司。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The idea is to foster an emotional attachment between company and consumer, and hope that‘guests’ will want to acquire a memento that reminds them of the warm fuzzy feelings they had during the experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個想法是建立公司和消費者之間的情感連結，並希望顧客購買能提醒他們體驗感受的紀念品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Visitors to Apple’s six British stores are encouraged to use an ‘online concierge’ to help them to plan their trip, showing that progressive companies have bought fully into the hospitality concept.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Apple 英國店訪客被鼓勵使用 online concierge 計劃行程，顯示進步公司已完全接受 hospitality concept。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講 Apple 如何通過品牌、設計和店舖體驗與顧客建立感情。題目中的 creative 不一定原字出現，要找 “do things differently” 這類概念。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Apple / creative / considered。原文沒有 “creative”，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“iconic design”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perceived ability to do things differently”"
+            },
+            {
+              "kind": "quote",
+              "text": "“progressive companies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中 perceived ability to do things differently 最貼近 “considered to be creative”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Magazine reviews of the Apple iPod… are inevitably forgiving because of the iPod’s iconic design and an enduring affection for the company’s perceived ability to do things differently.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "iPod 的評論往往最後仍然寬容，原因是 iPod 有標誌性設計，而且人們長久喜愛 Apple 被認為能以不同方式做事的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“perceived ability” 表示「被認為具有的能力」。“do things differently” 在商業語境中可概括為創新、有創意、不按常規。再加上 “iconic design”，原文足以支持 Apple 被視為 creative company。所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接寫 “creative”，但 IELTS 很常用概括改寫。這裡 “creative” 不是憑常識補入"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，而是由 “iconic design” 和 “perceived ability to do things differently” 支撐。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Companies believe there is a clear limit to how much people will pay for ‘experience’.”",
+      "translation": "公司相信，人們願意為 experience 付出多少錢，是有明確上限的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 / Paragraph 9 Paragraph 7 第一段首句講公司如何建立 emotional attachment，並希望顧客購買紀念品。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most notable aspect of the experience economy is how much we are prepared to pay for a purely non-material experience, such as a day in a spa or a trip to Prague.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experience economy 最顯著的一點，是我們願意為純粹非物質體驗付出多少錢，例如 spa day或 Prague trip。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 40 問 companies believe 和 clear limit，所以需要找公司是否有明確講「上限」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Companies believe / clear limit / how much people will pay / experience。原文中有一些接近內容：● “people will pay a premium to buy into their world”● “how much we are prepared to pay for a purely non-material experience”● £2 smoothie, £2 million Rolling Stones concert, £100,000 space trip但沒有 “clear limit” 或公司相信某個上限的說法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“people will pay a premium to buy into their world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們願意支付溢價，進入這些公司的品牌世界。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most notable aspect of the experience economy is how much we are prepared to pay for a purely non-material experience…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "experience economy 最顯著的一點，是人們願意為純粹非物質體驗付出相當多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子都顯示人們願意為 experience 付較高價錢。可是題目問的是：公司是否相信 there is a clear limit。文章沒有提供公司對「明確上限」的看法，也沒有說這個上限存在或不存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章多次提到價格，例如 £2 million、£100,000、£2 smoothie。這些是例子和價格點，不"
+            },
+            {
+              "kind": "paragraph",
+              "text": "能自動變成 “clear limit”。題目加入了 companies believe 和 clear limit 兩個核心資訊，文章沒有交代。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Are You Experienced_.pdf",
+    "sha256": "e64968fce62537cd0fe4cca49920461ea76ec83fb823368791599acf696cd69a",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，這段是全文引入。首句說我們花錢的方式正在改變，在新的 experience economy 中，人們付錢去做事，不再只為擁有物品。尾句用 Trevor Beattie 的 Porsche 評語收結，說買 Porsche 是金錢史上最悲哀的事。這段大概會用 Beattie 作例子，說明有錢人可以選擇買昂貴物品，卻更重視獨特經歷。Question 27 會定位到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Beattie 並非唯一重視 memories 多於 materialism 的人。尾句指出，因基本需要已滿足，而且 Britons 的 disposable income 比 1980 年高出一倍，人們對花錢方式愈來愈挑剔。只看首尾句，可估計這段會解釋 experience economy 成長的原因：富裕、基本需要已滿足、消費者想要更特別的體驗。Question 28 很可能在這段，因為它問 experience economy 為何在 Britain 成長。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說人們不再只是升級汽車或電視，反會把錢花在 coffee shops、hotels、restaurants、sports clubs 和 theme parks。尾句說原本花在 retail goods 的錢，已轉到 restaurants、leisure、budget travel 和 mobile phone calls。這段功能是提供消費轉移的證據：從物品轉向休閒、旅遊、餐飲、手機通話等體驗或服務。Question 36 會用到這段，但要細分 total amount 和 proportion。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說即使 shopping 這種最具 acquisitional 色彩的活動，也必須面對 experience economy。尾句說 shopping experience 和最後帶回家的東西同樣重要。只看首尾句，可以判斷這段講零售空間如何改造自己：商場變成 family day out destination，店舖加入 coffee shops 和 bookshops。 Questions 29 和 37 很可能定位於此，尤其是 Bluewater、film、shopping optional 這些訊號。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 experience economy 這個概念最早由 James Gilmore 在 1998 年 Harvard Business Review 文章中預測。尾句說我們正從 service economy 轉向 experience economy，就像以前從goods economy 轉到 service economy。這段功能是交代理論來源和商業書籍背景，並介紹 Pine和 Gilmore 的核心觀點。Question 31 會在這段找 “sleep deprivation”；有關 experience economy理論的題也會回到這裡。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說公司若想在市場上突圍，需要提供的不只 goods and services，還有 experiences。尾句說在 Toys “R” Us，shoppers 被稱為 guests。這段功能是把理論應用到 retail stores：公司變成events 的策劃者，顧客進入店舖後被沉浸在品牌體驗中。它支援 “companies are stagers of events” 和 “customers as guests” 這類理解，但 Question 30 真正答案在下一段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說企業的目標是建立 company 和 consumer 之間的 emotional attachment，並希望 guests購買紀念品。尾句說 Apple 英國店訪客可使用 online concierge 計劃行程，顯示進步公司已完全接受 hospitality concept。這段功能是講體驗如何轉化為品牌感情和銷售，包括 Starbucks、Apple、Innocent、iPod 和 premium price。Questions 30、32、38、39 都很可能在這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 business publishing 的大量書籍也證明 customer experience 愈來愈重要。尾句指出buying experience 很關鍵，這解釋了為何我們沒有全部轉向 Internet shopping 或 no-frills airlines。這段功能是講商業思想如何普及：不同商業書都指出顧客不只追求最低價，購買過程本身也很重要。Questions 33 和 34 會定位到這段，因為 cheapest product 和 buying experience 原文直接出現。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 experience economy 最顯著的一點，是人們願意為純粹非物質體驗付出很多，例如 spa day 或 Prague trip。尾句說現在人們活得更久，因此有更多時間嘗試不同事情。這段功能是總結experience economy 背後的社會趨勢：全球化、多元文化、壽命延長、休閒活動增加、有錢和有時間。Question 35 會直接定位到尾句；Question 40 也可能需要回看這段。"
+      }
+    ]
+  }
+}

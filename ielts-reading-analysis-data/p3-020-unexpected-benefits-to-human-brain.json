@@ -1,0 +1,1937 @@
+{
+  "id": "p3-020-unexpected-benefits-to-human-brain",
+  "catalogueId": "p3-020",
+  "catalogueIds": [
+    "p3-020"
+  ],
+  "passage": 3,
+  "title": "Unexpected Benefits to Human Brain",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "D",
+    "C",
+    "B",
+    "D",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "C",
+    "D",
+    "B",
+    "E",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "D — Introduction of the background of this passage",
+      "answerKey": "D — Introduction of the background of this passage",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "第一段的主要目的甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is the main purpose of paragraph one?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題屬於 段落功能題。題目問的是整段用途，不是問段中某個人物或遊戲名稱的細節。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“James Paul Gee, professor of education at the University of Wisconsin-Madison, played his first video game years ago when his six-year-old son Sam was playing Pajama Sam: No Need to Hide When It’s Dark Outside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wisconsin-Madison 大學教育學教授 James Paul Gee 多年前第一次玩電子遊戲，當時他的六歲兒子 Sam 正在玩 Pajama Sam: No Need to Hide When It’s Dark Outside。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When he saw how well the game held Sam’s attention, he wondered what sort of beast a more mature video game might be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他看到這個遊戲如此能吸引 Sam 的注意力時，他開始好奇，更成熟的電子遊戲到底會是怎樣的一種東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷：這段透過 Gee 的個人經歷，引出文章會討論「電子遊戲可能有學習和思考價值」這個主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的關鍵是： main purpose這表示不能只找人名或遊戲名，要看段落在全文中的功能。Paragraph 1 提到 Gee、Sam 和Pajama Sam，但這些都服務於一個更大的功能：建立文章背景。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案方向"
+            },
+            {
+              "kind": "label",
+              "text": "段中說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He wanted to play the game so he could support Sam’s problem solving.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他想玩這個遊戲，是為了支持 Sam 解決問題。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though Pajama Sam is not an ‘educational game’, it is replete with the types of problems psychologists study when they study thinking and learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Pajama Sam 不是一款「教育遊戲」，但它充滿心理學家研究思考和學習時會關注的問題類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句已經把全文主題拉出來：電子遊戲表面上是娛樂，實際上可能包含思考、學習、解難元素。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Introduction of Professor James Paul Gee.太窄。文章確實介紹了 Gee，但目的不是寫他的生平或學術背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Introduction of the video game: Pajamas Sam.太窄。Pajama Sam 只是引入例子，不是全文主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Introduction of types of video games.不符合。第一段沒有分類 video games。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Introduction of the background of this passage.正確。第一段用一個故事建立背景：為甚麼一位教育學教授會開始思考電子遊戲和學習之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文main purpose 段落整體功能background of this Gee 因兒子玩遊戲而開始思考 video games and learning passage introduction personal anecdote 引入主題"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — Even there is a certain proportion of violence in most video games; scientists",
+      "answerKey": "C — Even there is a certain proportion of violence in most video games; scientists",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "作者在第二段想表達甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "and psychologists see its benefits of children’s intellectual abilities.題目問： What does the author want to express in the second paragraph?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題仍然是 段落主旨 / 作者意圖題。第二段有一個明顯結構：先講負面看法，再講科學家看見好處。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video and computer games, like many other popular, entertaining and addicting kid’s activities, are looked down upon by many parents as time-wasters, and worse, parents think that these games rot the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲和電腦遊戲像許多受歡迎、有娛樂性、容易令人上癮的兒童活動一樣，被很多家長看低，認為它們浪費時間；更糟的是，家長認為這些遊戲會損害大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video games may actually teach kids high-level thinking skills that they will need in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲實際上可能教會孩子未來需要的高層次思考能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句是家長負面看法；尾句是作者真正想帶出的正面論點。這表示第二段不是單純批評電子遊戲，而是先承認常見批評，再轉入文章主旨：電子遊戲可能有認知好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 author wants to express，所以要找作者在段落最後站在哪一邊。定位詞包括： parents violent video games scientists and psychologists benefits smart high-level thinking原文中最重要的轉向句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many scientists and psychologists, like James Paul Gee, find that video games actually have many benefits – the main one being making kids smart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多科學家和心理學家，例如 James Paul Gee，認為電子遊戲其實有很多好處；主要好處是令孩子更聰明。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "第二段前半有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Violent video games are readily blamed by the media and some experts as the reason why some youth become violent or commit extreme anti-social behavior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "媒體和一些專家很容易把暴力電子遊戲歸咎為某些青少年變得暴力或做出極端反社會行為的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "可是後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many scientists and psychologists… find that video games actually have many benefits…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多科學家和心理學家認為電子遊戲其實有許多好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 C 最完整，因為它同時包含兩部分： 1. 遊戲中確實有一定比例的暴力內容； 2. 科學家和心理學家仍看到它對孩子智力能力的好處。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Video games are widely considered harmful for children’s brains.這只抓到第二段開頭的家長觀點，沒有覆蓋作者後面想強調的 benefits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Most violent video games are the direct reason for juvenile delinquency.太強。原文說媒體和一些專家 blame violent video games，不代表作者同意它們是 direct reason。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它概括了第二段的完整轉折：有暴力爭議，但仍有認知好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Many parents regard video games as time-wasters, which rot children’s brains.這也是段落開頭內容，但不夠完整。作者的中心不止是家長如何看電子遊戲。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 / 選項 C 原文certain proportion of violence as many as 89% of games contain some violent content scientists and psychologists Many scientists and psychologists benefits actually have many benefits children’s intellectual abilities making kids smart / high-level thinking skills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — Video games improve the brain ability in various aspects.",
+      "answerKey": "B — Video games improve the brain ability in various aspects.",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "第四段正確提到了甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is correctly mentioned in paragraph four?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題是 細節選項題。題目問 “correctly mentioned”，所以要逐項檢查選項是否得到 Paragraph 4支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video games give your child’s brain a real workout.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲能讓孩子的大腦得到真正的鍛鍊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, a reason given by experts as to why fighter pilots of today are more skillful is that this generation’s pilots are being weaned on video games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，專家提出今天的戰機機師更熟練的一個原因，是這一代機師從小受到電子遊戲影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提出「大腦鍛鍊」；中間列出多種能力；最後用戰機機師作例子。這段主旨就是電子遊戲訓練不同方面的腦部和操作能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項的定位詞包括： schools abstract and high level thinking brain ability surgeons fighter pilots Paragraph 4 中最密集的證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the mental skills trained by video games include: following instructions, problem solving, logic, hand-eye coordination, fine motor and spatial skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲訓練的一些心智能力包括：遵從指示、解難、邏輯、手眼協調、精細動作能力和空間能力。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research also suggests that people can learn iconic, spatial, and visual attention skills from video games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究也指出，人們可以從電子遊戲中學到圖像、空間和視覺注意力方面的能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出的能力非常多，包括：● following instructions● problem solving● logic● hand-eye coordination● fine motor skills● spatial skills● visual attention skills● surgical skills 的相關性● fighter pilots 的 skillfulness因此 B 的 “various aspects” 最能概括整段內容。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Some schools use video games to teach students abstract and high level thinking.錯。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These skills are not even taught at school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技能甚至沒有在學校教授。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 把原文方向改錯了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Video games improve the brain ability in various aspects.正確。它概括了 Paragraph 4 列出的多種 mental skills。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Some surgeons have better skills because they play more video games.過度直接。原文說 video game experience is related to better surgical skills，Jacob Benjamin found a direct link between gaming skill and laparoscopic surgery skill。這是「相關 / link」，選項用 because 變成直接因果，太強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Skillful fighter pilots in this generation love to play video games.原文說這一代機師 are being weaned on video games，即從小接觸電子遊戲；沒有說他們 love to play。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B 原文improve brain give your child’s brain a real workout ability various aspects following instructions, problem solving, logic, hand-eye coordination, spatial skills, visual attention skills brain ability mental skills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "D — Video games help increase the speed of players’ reaction effectively",
+      "answerKey": "D — Video games help increase the speed of players’ reaction effectively",
+      "type": "Question Analysis",
+      "prompt": "Question 31",
+      "translation": "三位研究者做的實驗預期 / 結論是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is the expectation of the experiment the three researchers did?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題定位到最後一段，因為最後一段明確提到三位作者： Daphne Bavelier, Alexandre Pouget, and C. Shawn Green"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an upcoming study in the journal Current Biology, authors Daphne Bavelier, Alexandre Pouget, and C. Shawn Green report that video games could provide a potent training regimen for speeding up reactions in many types of real-life situations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在即將刊登於 Current Biology 的研究中，Daphne Bavelier、Alexandre Pouget 和 C. Shawn Green 報告指出，電子遊戲可以成為一種強效訓練方式，加快人們在多種真實生活情境中的反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The action game players were up to 25 percent faster at coming to a conclusion and answered just as many questions correctly as their strategy game playing peers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "動作遊戲玩家作出結論的速度快最多 25%，而回答正確的題目數量與玩策略遊戲的同伴一樣多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接提到 speeding up reactions，尾句用實驗結果支持這點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “three researchers” 對應： Daphne Bavelier, Alexandre Pouget, and C. Shawn Green題目中的 “experiment” 對應： tested dozens of 18- to 25-year-olds split the subjects into two groups played 50 hours asked to make quick decisions"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "最重要的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“video games could provide a potent training regimen for speeding up reactions in many types of real-life situations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲可以成為強效訓練方式，用來加快人在多種真實生活情境中的反應速度。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The action game players were up to 25 percent faster…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "動作遊戲玩家快最多 25%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接支持 D：電子遊戲能有效提升玩家反應速度。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Gamers have to make the best use of the limited resource.這是 Paragraph 5 的資源管理內容，不是最後一段三位研究者的實驗主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Gamers with better math skills will win in the end.這和 Paragraph 6 的 quantitative analysis 有關，原文沒有說數學能力較好的人最後會贏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Strategy game players have better ability to make quick decisions.相反。實驗中 faster 的是 action game players，不是 strategy game players。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "直接對應 “speeding up reactions” 和 “25 percent faster”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D 原文increase the speeding up / 25 percent faster speed players’ reaction reactions / coming to a conclusion effectively potent training regimen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Most video games are popular because of their violent content.",
+      "translation": "大多數電子遊戲受歡迎，是因為它們有暴力內容。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心 because。題目不是單純說「很多電子遊戲有暴力內容」，而是說「受歡迎的原因是暴力內容」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video and computer games… are looked down upon by many parents as time-wasters…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲和電腦遊戲被很多家長看低，認為浪費時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video games may actually teach kids high-level thinking skills that they will need in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲實際上可能教會孩子未來需要的高層次思考能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理兩件事：社會對電子遊戲的負面看法，以及科學家看到的好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： most video games popular because violent content原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent content analyses of video games show that as many as 89% of games contain some violent content…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期對電子遊戲內容的分析顯示，多達 89% 的遊戲含有某些暴力內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只支援「很多遊戲有暴力內容」。它沒有說「遊戲因暴力內容而受歡迎」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀命題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題包含兩層： 1. 大多數 video games 受歡迎； 2. 受歡迎的原因是 violent content。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的是：● 有很多遊戲 contain some violent content；● 家長和媒體把 violent games 和青少年暴力聯繫起來；● 科學家仍看到遊戲的認知好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供：● 玩家為甚麼喜歡這些遊戲；● popularity 的原因；● violent content 是否增加遊戲吸引力；● most video games 的受歡迎原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最大中伏位是 “89%”。學生看到 89% 很容易以為「大多數遊戲有暴力」就等於「大多數遊戲因暴力受歡迎」。這是兩個不同命題：原文提供 題目要求多數遊戲含有某些暴力內容 多數遊戲受歡迎的原因是暴力內容content analysis popularity cause有暴力元素 因暴力而受歡迎原文沒有建立「暴力內容 → 受歡迎」這條因果鏈，所以不能選 TRUE。原文也沒有明確說暴力內容完全不影響受歡迎程度，所以不宜選 FALSE。最穩定答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The action game players minimized the percentage of making mistakes in the experiment.",
+      "translation": "在實驗中，動作遊戲玩家把犯錯百分比降到最低。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an upcoming study… video games could provide a potent training regimen for speeding up reactions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究指出，電子遊戲可以成為加快反應的強效訓練方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The action game players were up to 25 percent faster at coming to a conclusion and answered just as many questions correctly as their strategy game playing peers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "動作遊戲玩家作出結論的速度快最多 25%，而正確回答的題目數量與策略遊戲玩家一樣多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： action game players mistakes experiment原文沒有用 mistakes，但用相反角度說："
+            },
+            {
+              "kind": "quote",
+              "text": "“answered just as many questions correctly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這等於從正確率角度描述表現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“answered just as many questions correctly as their strategy game playing peers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們答對的題目數量和玩策略遊戲的同伴一樣多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點是：● action game players 更快；● accuracy 沒有下降；● 他們答對的數量和 strategy game players 一樣多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “minimized the percentage of making mistakes”，意思接近「錯誤率更低」或「犯錯比例被降至最低」。可是原文沒有說 action game players 犯錯更少；原文說他們答對數量與另一組一樣多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目把 “same accuracy while faster” 改成 “minimized mistakes”，方向過了原文。答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文minimized the percentage of making answered just as many questions mistakes correctly lower mistakes same number correct as strategy group accuracy advantage no loss of accuracy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "真正吸引人的地方是 “just as many questions correctly”。有些學生會理解成「沒有因加速而多犯錯」，這是可以的；可是題目用了 minimized，表示錯誤比例更低或被降至最低。原文最多支持「速度更快，準確度維持」，不支持「錯誤率最低」。因此 FALSE 比 NOT GIVEN 更貼近，因為原文提供的是 same correctness，不是 fewer mistakes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "It would be a good idea for schools to apply video games in their classrooms.",
+      "translation": "學校在課室中應用電子遊戲會是一個好主意。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相關段落主要是 Paragraph 4 和 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video games give your child’s brain a real workout.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲能真正鍛鍊孩子的大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“James Paul Gee… says that playing a video game is similar to working through a science problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "James Paul Gee 說，玩電子遊戲類似於解決一個科學問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都和學習有關，但題目問的是 classroom application，即學校是否應在課堂中使用電子遊戲。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： schools apply classrooms good idea原文有一處提到 school："
+            },
+            {
+              "kind": "quote",
+              "text": "“These skills are not even taught at school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技能甚至沒有在學校教授。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說學校沒有教授某些高階思考技能。它沒有說學校應該把電子遊戲引入課室。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀是否有 recommendation"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章確實說 video games 可以訓練：● problem solving● logic● hand-eye coordination● spatial skills● visual attention skills● hypothesis testing● goal-driven learning可是文章沒有說：● schools should use video games；● teachers should apply games；● classrooms should include video games；● this would be a good idea。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了教育政策或教學建議，但原文只討論遊戲本身可能帶來的能力訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷這題是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供「電子遊戲有學習好處」的背景，但沒有推到「學校應該在課室使用」。IELTS Reading 判斷中，相關背景不等於題目命題成立。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "最大中伏位是 Paragraph 4 的："
+            },
+            {
+              "kind": "quote",
+              "text": "“These skills are not even taught at school.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句容易令人推想：既然學校不教，而遊戲能教，那學校應該用遊戲。這個推論很自然，但文章沒有直接提出 classroom application，所以不能選 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Those people who are addicted to video games have lots of dopamine in their brains.",
+      "translation": "那些沉迷電子遊戲的人腦中有很多 dopamine。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易出現爭議，因為原文確實提到 dopamine，但題目加入了 “addicted people” 和 “lots of dopamine in their brains”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Video games change your brain,’ according to University of Wisconsin psychologist Shawn Green.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wisconsin 大學心理學家 Shawn Green 表示：「電子遊戲會改變你的大腦。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much like exercise can build muscle, the powerful combination of concentration and rewarding surges of neurotransmitters like dopamine, which strengthens neural circuits, can build the player’s brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像運動能鍛鍊肌肉一樣，專注力與像 dopamine 這類神經傳遞物質帶來的獎賞性湧現相結合，能強化神經迴路，並鍛鍊玩家的大腦。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： addicted dopamine lots brains原文中的對應詞只有："
+            },
+            {
+              "kind": "quote",
+              "text": "“rewarding surges of neurotransmitters like dopamine”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像 dopamine 這類神經傳遞物質的獎賞性湧現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀原文支持到哪一步"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是：● playing video games involves concentration；● rewards in gameplay may produce dopamine surges；● dopamine-like neurotransmitter surges can strengthen neural circuits；● this can build the player’s brain.可是題目說的是：● people who are addicted to video games；● have lots of dopamine in their brains。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩個缺失：第一，原文沒有討論「addicted people」這個群體。P2 說 video games are “addicting kid’s activities”，形容活動容易令人上癮；它沒有說已經沉迷的人有甚麼腦內化學特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，原文說的是 “surges”，即遊戲獎賞過程中的短暫湧現或上升，不等於「腦中長期有大量dopamine」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷因此答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文可以支持「電子遊戲過程中 dopamine-like neurotransmitters 會有 rewarding surges」，但不能支持「沉迷電子遊戲的人腦中有很多 dopamine」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫檢查",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文是否支持addicted to video 沒有討論沉迷者群體games have lots of 沒有說 lots；只說 rewarding surges dopamine in their brains 原文談 neural circuits / player’s brain，但沒有說腦中 dopamine 數量長期較多dopamine 有出現，但只是定位詞，不足以定案"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最大的中伏位是看見 dopamine 就選 TRUE。IELTS Reading 不能只靠單字重現。真正要看的是整句命題：題目講「沉迷者」和「大量 dopamine」，原文講「玩遊戲時的獎賞性 dopamine surges」。這兩者距離太大，所以答案應判 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "C — Shawn Green",
+      "answerKey": "C — Shawn Green",
+      "type": "Matching Features",
+      "prompt": "Video games as other daily life skills alter the brain’s physical structure.",
+      "translation": "電子遊戲像其他日常生活技能一樣，會改變大腦的物理結構。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Video games change your brain,’ according to University of Wisconsin psychologist Shawn Green.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wisconsin 大學心理學家 Shawn Green 表示：「電子遊戲會改變你的大腦。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much like exercise can build muscle… dopamine… can build the player’s brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像運動能鍛鍊肌肉一樣，專注和 dopamine 等神經傳遞物質的獎賞性湧現可以鍛鍊玩家的大腦。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： brain physical structure daily life skills原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video games change the brain’s physical structure the same way as do learning to read, playing the piano, or navigating using a map.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲會改變大腦的物理結構，方式就像學習閱讀、彈鋼琴或用地圖導航一樣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀配對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句前面明確有 reporting phrase： according to University of Wisconsin psychologist Shawn Green所以這是 Shawn Green 的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文alter the brain’s physical change the brain’s physical structure structure as other daily life skills learning to read, playing the piano, navigating using a map video games Video games"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D — Daphne Bavelier",
+      "answerKey": "D — Daphne Bavelier",
+      "type": "Matching Features",
+      "prompt": "Brain is ready to make decisions without hesitation when players are immersed in playing stressful games.",
+      "translation": "當玩家投入壓力大的遊戲時，大腦會準備好快速作決定。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The players learn to manage resources that are limited, and decide the best use of resources, the same way as in real life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玩家學會管理有限資源，並決定如何最好地使用資源，就像現實生活一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young gamers force themselves to read to get instructions, follow storylines of games, and get information from the game texts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕玩家會迫使自己閱讀，以獲取指示、跟隨遊戲故事線，以及從遊戲文字中取得資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段涵蓋遊戲如何訓練現實決策、彈性策略、快速反應和長遠目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： stressful games decisions brain without hesitation原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to researchers at the University of Rochester, led by Daphne Bavelier, a cognitive scientist, games simulating stressful events such as those found in battle or action games could be a training tool for real-world situations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Rochester 大學由認知科學家 Daphne Bavelier 領導的研究人員所說，模擬壓力事件的遊戲，例如戰鬥或動作遊戲，可以成為真實世界情境的訓練工具。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study suggests that playing action video games primes the brain to make quick decisions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該研究指出，玩動作電子遊戲會使大腦準備好作快速決定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀配對"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “Brain is ready” 對應原文的："
+            },
+            {
+              "kind": "quote",
+              "text": "“primes the brain”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "prime 在這裡表示讓大腦預先準備好、進入可快速反應的狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “without hesitation” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“make quick decisions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文沒有逐字說 without hesitation，但意思上是快速決策。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於原文明確說這項研究由 Daphne Bavelier 領導，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文stressful games games simulating stressful events battle or action games stressful games brain is ready primes the brain make decisions without make quick decisions hesitation"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — James Paul Gee",
+      "answerKey": "B — James Paul Gee",
+      "type": "Matching Features",
+      "prompt": "The purpose-motivated experience that video games offer plays an essential role in studying.",
+      "translation": "電子遊戲提供的目標導向經驗，在學習中有基本作用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“James Paul Gee, professor of education at the University of Wisconsin-Madison, says that playing a video game is similar to working through a science problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wisconsin-Madison 大學教育學教授 James Paul Gee 說，玩電子遊戲類似於解決科學問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In higher levels of a game, players usually fail the first time around, but they keep on trying until they succeed and move on to the next level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在遊戲較高關卡中，玩家第一次通常會失敗，但他們會持續嘗試，直到成功並進入下一關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： purpose-motivated experience essential role studying原文直接句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video games are goal-driven experiences, says Gee, which are fundamental to learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gee 說，電子遊戲是目標導向的經驗，而這對學習十分基本。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀配對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “purpose-motivated” 是對原文 “goal-driven” 的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “plays an essential role in studying” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“fundamental to learning”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fundamental 表示基本的、根本的；learning 對應 studying。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 reporting phrase 是 “says Gee”，所以答案是 James Paul Gee。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文purpose-motivated goal-driven experience that video games Video games are …offer experiences essential role fundamental studying learning"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "E — Steven Johnson",
+      "answerKey": "E — Steven Johnson",
+      "type": "Matching Features",
+      "prompt": "Players are good at tackling prompt issues with future intentions.",
+      "translation": "玩家擅長處理眼前即時問題，同時保留未來目標。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The players learn to manage resources that are limited…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玩家學會管理有限資源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young gamers force themselves to read to get instructions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕玩家會迫使自己閱讀，以獲得指示。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談的是玩家在遊戲中如何處理多重任務：資源、策略、即時反應、長遠目標、閱讀資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： prompt issues future intentions原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Steven Johnson, author of Everything Bad is Good For You: How Today’s Popular Culture, says gamers must deal with immediate problems while keeping their long-term goals on their horizon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Steven Johnson，Everything Bad is Good For You: How Today’s Popular Culture 的作者，說玩家必須處理即時問題，同時把長遠目標保持在視野之中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀配對"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “prompt issues” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“immediate problems”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "prompt 在這裡接近 immediate，即即時的、眼前的。"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “future intentions” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“long-term goals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "long-term goals 指長遠目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子中明確說 “Steven Johnson… says”，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文tackling prompt issues deal with immediate problems future intentions long-term goals good at must deal with / keeping … on their horizon players gamers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — The writer’s opinion",
+      "answerKey": "A — The writer’s opinion",
+      "type": "Matching Features",
+      "prompt": "It helps children broaden their horizon in many aspects and gain self-confidence.",
+      "translation": "它幫助孩子在許多方面拓展視野，並建立自信。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many games are played online and involve cooperation with other online players in order to win.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多遊戲在線上進行，並需要與其他線上玩家合作才能取勝。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such games indirectly teach children about aspects of life on earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類遊戲間接教導孩子關於地球生活不同面向的知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段沒有引用具名研究者。它是作者在前面專家觀點之後作出的概括補充。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： self-confidence many aspects broaden horizon原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Video and computer games also help children gain self-confidence…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子遊戲和電腦遊戲也幫助孩子建立自信。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“many games are based on history, city building, governance and so on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多遊戲以歷史、城市建設、治理等為基礎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such games indirectly teach children about aspects of life on earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類遊戲間接教導孩子關於地球生活不同面向的知識。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀配對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “gain self-confidence” 是原文直接重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “broaden their horizon in many aspects” 對應： history, city building, governance and so on aspects of life on earth這些例子都表示孩子可以透過遊戲接觸不同生活、社會和世界知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於此段沒有 “according to…” 或 “says…” 連到任何專家，因此配對應為 The writer’s opinion。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文gain self-confidence gain self-confidence broaden their horizon teach children about aspects of life in many aspects history, city building, governance and so on It helps children Video and computer games also help children"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Unexpected Benefits to Human Brain.pdf",
+    "sha256": "076c0dc5d5b575041e10c850f4f6c1221d6917ac3ee844e27c61eefbf0adc5dd",
+    "pageCount": 30
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖Paragrap 段落功能 關鍵內容 最可能h 對應題",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "P1 用 James Paul Gee 和兒子玩 Gee；Sam；Pajama Sam；problem Q28 Pajama Sam 的經歷，引出文 solving；attention；mature video game章背景。 P2 先交代家長和媒體對電子遊 time-wasters；rot the brain；violent Q29,戲的負面看法，再轉入科學家 games；89%；benefits；making kids Q32",
+        "label": "目"
+      },
+      {
+        "number": "2",
+        "summary": "P3 引入 Shawn Green 的觀點： Shawn Green；change your brain； Q35,電子遊戲會改變腦部結構，類 physical structure；dopamine；neural Q36似閱讀、彈琴、看地圖等學習 circuits活動。 P4 詳列電子遊戲訓練的多種能 real workout；problem solving；logic； Q30力，並舉外科醫生和戰機機師 hand-eye coordination；spatial skills；作例子。 Jacob Benjamin；surgery；fighter pilots P5 說明遊戲訓練資源管理、彈性 limited resources；change tactics； Q37,改變策略和快速決策；引用 stressful events；quick decisions； Q39 Daphne Bavelier 和 Steven soldiers；surgeons；immediate",
+        "label": "認為遊戲有智力好處。 smart；high-level thinking"
+      },
+      {
+        "number": "3",
+        "summary": "P6 James Paul Gee 把玩遊戲比 science problem；hypothesis； Q38作做科學問題：提出假設、測 goal-driven；fundamental to learning；試、失敗、再嘗試。 math skills；fail and try again P7 作者總結其他好處：線上合 cooperation；self-confidence；history； Q40作、自信、歷史、城市建設、治 city building；governance；aspects of",
+        "label": "Johnson。 problems；long-term goals"
+      },
+      {
+        "number": "4",
+        "summary": "P8 介紹 Bavelier、Pouget 和 Current Biology；50 hours；Call of Duty Q31, Green 的實驗：動作遊戲玩家 2；Unreal Tournament；The Sims 2；25 Q33決策速度更快，準確度沒有下 percent faster；correctly降。",
+        "label": "理等生活知識。 life"
+      },
+      {
+        "number": "5",
+        "summary": "Q35 特別說明： 按你貼出的文本嚴格判斷，我會選 NOT GIVEN。原文只說遊戲過程中有 dopamine surges，沒有說「沉迷電子遊戲的人腦中有大量 dopamine」。這題如果某些答案表標 TRUE，證據鏈其實偏鬆。三、逐題精析",
+        "label": "40 A"
+      }
+    ]
+  }
+}

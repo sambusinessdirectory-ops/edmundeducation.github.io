@@ -1,0 +1,840 @@
+{
+  "id": "p3-005-destination-mars",
+  "catalogueId": "p3-005",
+  "catalogueIds": [
+    "p3-005"
+  ],
+  "passage": 3,
+  "title": "Destination Mars",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "technological innovations",
+    "launch window",
+    "human body",
+    "lose density",
+    "microbial exchange",
+    "alertness",
+    "Bacterial infections",
+    "micro-meteoroids",
+    "frozen water",
+    "dangerous occupations"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "FALSE, TRUE, FALSE, NOT GIVEN",
+      "answerKey": "FALSE, TRUE, FALSE, NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The greatest advantage of Mars is that it has many basic minerals.",
+      "translation": "Mars 最大優勢是它有很多基本礦物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "27 FALSE"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 Skim 時，Paragraph 1 第一段開頭已說 Mars 是最接近且有潛在宜居性的星球。段落後半將 Mars和 moon 比較，最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is any extraterrestrial site where humankind will ultimately settle, it must be Mars.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果有任何地球以外的地方最終會讓人類定居，那一定是 Mars。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“greatest advantage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“basic minerals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有用 greatest advantage，但有一個更強的提示詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most importantly”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most importantly, studies have found that this planet has vast reserves of frozen water, and there are other basic minerals as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的是，研究發現這個星球有大量 frozen water，而且也有其他 basic minerals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心在 Most importantly。它指向 Mars 最重要的優勢是 vast reserves of frozen water。basic minerals 也有提到，但原文用的是 and there are other basic minerals as well，意思是「另外也有其他基本礦物」。所以 minerals 是附加優勢，真正被標成最重要的是 frozen water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE題目把 greatest advantage 放在 basic minerals 上；原文把 most important 放在 frozen water上。兩者核心重點相衝，所以是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 basic minerals 原文確實有出現，所以很吸引人。但 IELTS 這類題不能只看名詞有沒有重現，要看程度詞。真正控制答案的是 Most importantly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "28 TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Settlement of the moon would be more expensive."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在月球定居會更昂貴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 Paragraph 1 先說 Mars 有固體地面、薄大氣、類似地球的重力和光照條件，也有水和礦物。然後把 moon 作對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Settlement of the moon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more expensive”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Settlement of the moon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more costly”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Settlement of the moon would be much easier, but since there are no resources there, it would ultimately be more costly and of little use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在月球定居會容易得多，但由於那裡沒有資源，最終會更昂貴，而且用途不大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 more expensive 對應原文的 more costly。這是直接同義改寫。原文也交代原因： moon 沒有資源，所以雖然較容易到達和定居，長遠成本會更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE題目說月球定居更昂貴，原文說 ultimately more costly，意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "句子前半說 moon settlement would be much easier，學生容易被 easier 吸引，以為月球較好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目問的是 cost，真正答案要看後半句 more costly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "29 FALSE"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "The magnetosphere burns up objects."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "magnetosphere 會把物體燒毀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 Paragraph 5 第一敘述抵達 Mars 後問題增加，因為 Mars 缺乏足夠保護。段落重點是 Mars 表面危險：UV radiation、micro-meteoroids、solar flares 和 high-energy particles。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞非常明確："
+            },
+            {
+              "kind": "quote",
+              "text": "“magnetosphere”"
+            },
+            {
+              "kind": "quote",
+              "text": "“burns up objects”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the absence of a thick protective atmosphere or magnetosphere to burn up or deflect objects, respectively…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於缺少厚厚的保護性大氣層或 magnetosphere，無法分別把物體燒毀或偏轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的關鍵是 respectively，意思是「按前後次序分別對應」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以配對是：前面名詞 後面功能thick protective burn up atmosphere objects magnetosphere deflect objects也就是說，atmosphere 的功能是 burn up objects；magnetosphere 的功能是 deflect objects。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE題目把 magnetosphere 的功能說成 burn up objects，但原文把 burn up 分配給 atmosphere，把deflect 分配給 magnetosphere。配對錯了，所以是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的陷阱在 respectively。很多學生看到 burn up 和 magnetosphere 在同一句出現，就會急著選 TRUE。細讀時一定要把 A/B 和 C/D 逐一配對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "30 NOT GIVEN"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "A one-way expedition to Mars is better."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單程 Mars 探險比較好。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7 Paragraph 7 第一一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most exciting option is to attempt that on the very first trip – in other words, making it a oneway journey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最令人興奮的選擇，是在第一次旅程就嘗試做到這一點，也就是進行單程旅程。"
+            },
+            {
+              "kind": "label",
+              "text": "段落最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…raise issues of whether such a settlement is humanly feasible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這引發了一個問題：這樣的定居在人類層面上是否可行。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“one-way expedition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“better”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應到："
+            },
+            {
+              "kind": "quote",
+              "text": "“oneway journey”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advantage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“offset by the difficulties”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The advantage is that the duration of space travel is immediately halved, reducing the technological, biological, and financial challenges.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的優勢是太空旅行時間立即減半，從而減少科技、生物和財政方面的挑戰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句確實說 one-way journey 有 advantage。可是下一句馬上補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“This very strong argument is somewhat offset by the difficulties in establishing a permanent presence…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個很強的論點，在一定程度上被建立永久存在所帶來的困難抵消。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文接著提到 unmanned spacecraft 供應、永久與 Earth 隔離、和同一批同伴困在 Martian living quarters 內的心理影響。這些內容都說明 one-way journey 有優勢，也有重大困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：NOT GIVEN題目說 is better，這是一個總體評價。原文只說它有優勢，並且指出這些優勢被困難部分抵消。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有最後判定 one-way expedition 整體上更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“The most exciting option” 和 “The advantage is…” 很容易令人想選 TRUE。但 exciting / has advantages 不等於 overall better。IELTS 這類題要留意題目是否把「有優點」升級成「整體較好」。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "technological innovations",
+      "answerKey": "technological innovations",
+      "type": "Table Completion",
+      "prompt": "Questions 31–35",
+      "translation": "這樣一趟旅程所需的食物、水、氧氣和生命維持系統，對目前的火箭科技來說太重。因此需要科技創新。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "31 technological innovations題目表格： inadequate rocketry → Scientists would need 31 ______目標段落：Paragraph 2原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Food, water, oxygen, and life-support systems for such a journey would be too heavy for current rocket science. Technological innovations would be necessary…”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文inadequate rocketry too heavy for current rocket science Scientists would need would be necessary technological innovations technological innovations答案符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "32 launch window題目表格： infrequent 32 ______ → once every 15 years目標段落：Paragraph 2原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The different orbits of Mars and Earth mean that they most closely approach each other every 26 months, but this event itself fluctuates on a 15-year cycle. This means that only once in that time does a launch window open.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mars 和 Earth 的不同軌道意味著它們每 26 個月最接近一次，但這個事件本身又有 15 年週期的波動。這表示在那段時間內，只有一次 launch window 會開啟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：launch window"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文infrequent only once in that time once every 15 15-year cycle years launch window launch window"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中 associated fact 是 once every 15 years，所以答案不能寫 26 months。26 months 是Mars 和 Earth 較接近的頻率；15-year cycle 才控制 launch window。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "33 human body題目表格： effect of space on 33 ______ → Bones 34 ______目標段落：Paragraph 3原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble is, even then, the journey to Mars and back would take over a year, and the human body suffers profoundly when left in micro-gravity for that length of time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題是，即使如此，往返 Mars 的旅程也會超過一年；人體長時間處於 micro-gravity 之中，會受到嚴重影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：human body"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 effect of space on 對應原文的 the human body suffers profoundly。所以空格需要填被影響的對象：human body。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "34 lose density題目表格： Bones 34 ______目標段落：Paragraph 3原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These gradually shrink and weaken, while bones lose their density, and lungs their aerobic capacity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些肌肉會逐漸萎縮和變弱，同時骨骼會流失密度，肺部會失去有氧能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：lose density"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整短語是 lose their density，但題目要求 NO MORE THAN TWO WORDS，所以答案要寫成 lose density。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “their density”，因為放回句子會變成 “Bones their density”，文法不完整。這題要用動詞短語完成句子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "35 microbial exchange題目表格： disease → Lack of gravity facilitates 35 ______目標段落：Paragraph 4原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coughs and sneezes spray fluids into the air, which, without gravity to pull them down to surfaces, simply float as airborne particles in those cramped confines, causing easy microbial exchange between crew members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "咳嗽和打噴嚏會把液體噴到空氣中；沒有重力把它們拉到表面時，這些液體會在狹窄空間中以空氣懸浮粒子的形式漂浮，令船員之間容易出現 microbial exchange。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：microbial exchange"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文Lack of gravity without gravity to pull them down facilitates causing easy microbial exchange microbial exchange"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "alertness",
+      "answerKey": "alertness",
+      "type": "Two Examples",
+      "prompt": "Questions 36–40",
+      "translation": "可是這些人需要完整的 physical strength 和 alertness，才能應付許多必要的操作任務。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "36 alertness類別： human attributes needed for important space activities題目已給：Physical strength另一個答案：36 ______目標段落：Paragraph 3原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet these people will need their full physical strength and alertness for the many operational duties required.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已給 Physical strength，所以另一個 human attribute 就是 alertness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "37 Bacterial infections類別： specific medical conditions which could occur in space題目已給：fungal attack另一個答案：37 ______目標段落：Paragraph 4原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bacterial infections and fungal attacks can be prevalent…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bacterial infections 和 fungal attacks 可能會很普遍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意題目給的是 fungal attack，原文是 fungal attacks。Q37 對應同一句中的另一個 medical condition：Bacterial infections。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "38 micro-meteoroids類別： solid objects which could strike astronauts on Mars題目已給：high-energy particles另一個答案：38 ______目標段落：Paragraph 5原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…astronauts will be exposed, to potentially lethal UV radiation, micro-meteoroids, solar flares, and high-energy particles…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "太空人會暴露於可能致命的 UV radiation、micro-meteoroids、solar flares 和 high-energy particles 之下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在列表中，最貼近「可能撞擊太空人的固體物件」的是 micro-meteoroids。UV radiation 和 solar flares 屬於輻射或太陽活動，不符合 solid objects。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "39 frozen water類別： useful substances inside Martian caves題目已給：vital minerals另一個答案：39 ______目標段落：Paragraph 6原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“An additional benefit is the potential access to vital minerals, and most importantly of all, the possibility of frozen water.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個好處是有可能取得 vital minerals；最重要的是，也可能取得 frozen water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已給 vital minerals，所以另一個 useful substance 是 frozen water。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 還提到 cave formations 和 lava tubes，但那些是地形或保護空間，不是 useful substances。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "40 dangerous occupations類別： high-risk activities happening now on Earth題目已給：extreme sports另一個答案：40 ______目標段落：Paragraph 8原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“And today, people regularly practise extreme sports, or work in dangerous occupations, all of which significantly lower their life expectancy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而今天，人們也經常從事 extreme sports，或在 dangerous occupations 中工作；這些都會顯著降低他們的預期壽命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：dangerous occupations"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文high-risk activities happening now on Earth today, people regularly practise… or work in…extreme sports extreme sports dangerous occupations dangerous occupations"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Destination Mars.pdf",
+    "sha256": "3ca15bb9f418d488e6a3fcd7ca0a67445e5083b7035075e99ac6a997f2a829ba",
+    "pageCount": 13
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 介紹 Mars 比 moon 更適合成為人類定居地，核心優勢是 frozen water 和其他資1 源。 Paragraph 說明前往 Mars 的距離、物資重量、科技限制和 launch timing 問題。",
+        "label": "Paragraph 首尾句可見功能"
+      },
+      {
+        "number": "2",
+        "summary": "Paragraph 說明長時間 micro-gravity 對 human body 的損害。",
+        "label": "2"
+      },
+      {
+        "number": "3",
+        "summary": "Paragraph 說明密封太空船內的 disease / microbes 風險。",
+        "label": "3"
+      },
+      {
+        "number": "4",
+        "summary": "Paragraph 說明抵達 Mars 後，表面環境有 radiation、particles、micro-meteoroids 等危險。",
+        "label": "4"
+      },
+      {
+        "number": "5",
+        "summary": "Paragraph 說明 Martian caves / lava tubes 可能提供保護、礦物和 frozen water。",
+        "label": "5"
+      },
+      {
+        "number": "6",
+        "summary": "Paragraph 討論 one-way journey 的吸引力，也指出永久定居的困難。",
+        "label": "6"
+      },
+      {
+        "number": "7",
+        "summary": "Paragraph 解釋支持者認為冒險前往 Mars 的理由：探索風險與人類命運。 8",
+        "label": "7"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1633 @@
+{
+  "id": "p3-089-organisational-conflict-and-change",
+  "catalogueId": "p3-089",
+  "catalogueIds": [
+    "p3-089"
+  ],
+  "passage": 3,
+  "title": "Organisational Conflict and Change",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "A",
+    "C",
+    "D",
+    "change and complexity",
+    "variety of perspectives",
+    "harmony",
+    "conflict",
+    "organisational performance",
+    "resistance and conflict",
+    "factually accurate",
+    "complete rationality",
+    "security",
+    "ill-feeling or malice"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — are similar to living things",
+      "answerKey": "C — are similar to living things",
+      "type": "Multiple Choice",
+      "prompt": "“Organisations”",
+      "translation": "題目問文章如何描述 organisations。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations, also, are analogous to organisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織也和生物相似。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The message was clear: respond to change, or fail to thrive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訊息很清楚：回應變化，否則便無法蓬勃發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 明顯把 organisations 和 organisms 作類比。這段不是單純講公司制度，也不只是講破產，而是把組織放進「生長、成熟、受傷、死亡」的生命週期框架。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只有 “Organisations”，所以定位詞很寬。掃描時要找 organisations 第一次被定義或描述的位置。Paragraph 2 第一個字就是 Organisations，後面緊接 “analogous to organisms”，這就是最強答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations, also, are analogous to organisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織也類似於生物。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“They similarly grow, mature, suffer injury and crises, and may well die (for example, become bankrupt).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們同樣會成長、成熟、受傷、遇到危機，也很可能死亡，例如破產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “are similar to living things” 正好改寫 “are analogous to organisms”。organisms 指生物體；living things 是較日常的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “should be broken into divisions” 來自後文 “their break-up into smaller divisions was one attempt”，但那只是某些 former government monopolies 的應對例子，不能概括所有organisations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “need stable structures” 和原文方向相反。原文說 stable structures and static systems 曾經令組織強大，現在可能 contribute to their decline。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “must be responsible” 原文沒有這個重點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — is sometimes welcome",
+      "answerKey": "A — is sometimes welcome",
+      "type": "Multiple Choice",
+      "prompt": "“Conflict”",
+      "translation": "題目問作者對 conflict 的看法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the big problem is that change promotes resistance among people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，大問題是變化會在人們之中引起抵抗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It thus seems strange to argue that conflict is not necessarily unwelcome, and can, in fact, be necessary, yet that is exactly what I propose.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，主張衝突並非一定不受歡迎，甚至可以是必要的，聽起來似乎奇怪；但這正是我提出的觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 先說變革引起 resistance，再把 resistance 連到 conflict。尾句直接提出作者立場：conflict can be necessary。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Conflict。Paragraph 3 多次出現 conflict，而且有 “not necessarily unwelcome” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“necessary” 這兩個判斷詞。這些詞直接控制答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“It thus seems strange to argue that conflict is not necessarily unwelcome, and can, in fact, be necessary, yet that is exactly what I propose.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，主張衝突並非一定不受歡迎，甚至事實上可以是必要的，聽起來似乎奇怪；但這正是我提出的觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “is sometimes welcome” 對應 “not necessarily unwelcome” 和 “can … be necessary”。如果 conflict 有時是必要的，就表示在某些情況下可以被接受，甚至對組織有價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “is usually good” 太強。原文前面清楚說 conflict 常有 negative connotations，也經常 produces negative results，所以不能說通常是好的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “should be removed” 和後文 Paragraph 6 的 “conflict management … not conflict removal” 不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “comes and goes” 和原文 “since change is constant, so too is conflict” 不合。原文強調 conflict持續存在，並非時有時無。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — lead to wrong decisions",
+      "answerKey": "C — lead to wrong decisions",
+      "type": "Multiple Choice",
+      "prompt": "“Groupthink can”",
+      "translation": "題目問 groupthink 可能造成甚麼後果。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next fact that we must accept is that such gatherings are often affected by ‘groupthink’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們必須接受的下一個事實是，這類聚會經常受 groupthink 影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, this is not a method likely to optimise the chances of making the best decision.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很清楚，這種方法不太可能令作出最佳決策的機會最大化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 明顯在批評 groupthink。尾句直接說它不利於 best decision，所以Question 29 應回到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 Groupthink。原文把 groupthink 定義為："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is when tightly-knit cohorts of workers uncritically accept the feelings of the group…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思是緊密群體不加批判地接受群體感覺。掃描後要特別看結果句，例如 “Individual dissent is squashed” 和 “not … making the best decision”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual dissent is squashed, leaving decision-making not as a product of a pool of thinking individuals, all with valuable insights, but merely a collective desire to promote harmony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個人異議被壓下去，結果決策不再來自一群有思考能力、各自擁有寶貴見解的人；決策只剩下一種促進和諧的集體願望。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, this is not a method likely to optimise the chances of making the best decision.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很清楚，這種方法不太可能提高作出最佳決策的機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “lead to wrong decisions” 是對 “not likely to optimise the chances of making the best decision” 的合理概括。原文沒有逐字說 wrong decisions，但如果一種方法壓制異議、只追求和諧，並降低最佳決策機會，它自然可能導致較差決策。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “be better than fighting” 和原文方向不合。原文把 “fighting it out” 放在括號中，意思是有爭論、有交鋒；作者沒有說 groupthink 更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “produce valuable insights” 和原文相反。原文說 valuable insights 被壓下去，決策不再來自thinking individuals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “optimise chances” 直接取了原文字眼，但刪走了 not likely to。這是典型原字陷阱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "D — a warning sign",
+      "answerKey": "D — a warning sign",
+      "type": "Multiple Choice",
+      "prompt": "“Very little conflict is often”",
+      "translation": "題目問非常少的 conflict 通常代表甚麼。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, when these two facts are brought together, they lead to the interesting conclusion that some degree of conflict is necessary in order to produce better decision-making and, ultimately, higher organisational performance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當這兩個事實合在一起時，會得出一個有趣結論：某種程度的衝突是必要的，因為它能帶來更好的決策，最終帶來更高的組織表現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The focus thus shifts to conflict management (reducing conflict or creating it, as deemed optimum for the organisation), not conflict removal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，焦點轉向衝突管理，即按組織最理想的需要減少或創造衝突，而非消除衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是全文論點核心：some conflict is necessary。題目問 very little conflict，明顯對應本段中間的 “very low levels or an absence of conflict”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 very little conflict。原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“very low levels or an absence of conflict”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接近義改寫。答案句中還有 “may actually be worrying”，這會指向 warning sign。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extending this further, somewhat paradoxically, very low levels or an absence of conflict may actually be worrying, indicating a lack of staff involvement or interest, or suggesting that problems are being hidden, new ideas are being stifled and morale is low.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進一步說，有點矛盾的是，衝突水平很低或完全沒有衝突，實際上可能令人擔心，表示員工缺乏投入或興趣，也可能暗示問題被隱藏、新想法被壓制、士氣低落。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “a warning sign” 對應 “may actually be worrying” 和後面一串負面指標。very little conflict表面看似和平，但在作者看來可能透露組織內部有問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “better for organisations” 和原文不合，因為 very low levels may be worrying。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “good for morale” 和原文相反；原文說 morale is low。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “constructive” 原文說 some conflict can be constructive，但 very little conflict 在此代表危險訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "change and complexity",
+      "answerKey": "change and complexity",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 31",
+      "translation": "新時代有不斷增加的甚麼。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“new age, with growing 31 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand this, we must first accept one crucial fact: in this new era of increasing change and complexity, accurate and considered decision-making is critical, and can no longer be considered the province of just one person.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要理解這點，我們首先要接受一個關鍵事實：在這個變化和複雜性不斷增加的新時代，準確而深思熟慮的決策十分重要，也不能再被視為只屬於一個人的範圍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, decision-making in modern organisations is now based on group discussions, meetings, and presentations, all to allow the exchange of a variety of perspectives from appropriately qualified people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，現代組織的決策現在建基於小組討論、會議和簡報，讓合資格人士交換多種觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中 “new age” 對應原文 “new era”。“growing” 對應原文 “increasing”。所以空格要找"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“increasing” 後面的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文答案短語：“increasing change and complexity”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不斷增加的變化和複雜性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為圖表已有 “growing”，如果填 “increasing change and complexity” 會重複。空格應填名詞部分：change and complexity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制：change / and / complexity，共三個詞，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "variety of perspectives",
+      "answerKey": "variety of perspectives",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 32",
+      "translation": "小組討論、會議等能提供一個／一種甚麼。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“group discussions, meeting, etc. able to provide a 32 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand this, we must first accept one crucial fact: in this new era of increasing change and complexity, accurate and considered decision-making is critical, and can no longer be considered the province of just one person.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要理解這點，我們首先要接受一個關鍵事實：在變化和複雜性不斷增加的新時代，準確而深思熟慮的決策非常重要，也不能再只由一個人負責。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, decision-making in modern organisations is now based on group discussions, meetings, and presentations, all to allow the exchange of a variety of perspectives from appropriately qualified people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，現代組織的決策建基於小組討論、會議和簡報，讓合資格人士交換多種觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖表中的 “group discussions, meeting, etc.” 直接對應原文 “group discussions, meetings, and presentations”。接著要找這些活動的功能。原文用 “allow the exchange of…” 表示目的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…all to allow the exchange of a variety of perspectives from appropriately qualified people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切都是為了讓合資格人士交換多種觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表寫 “able to provide a ______”，原文寫 “allow the exchange of a variety of perspectives”。因為空格前已有 “a”，答案應填 variety of perspectives，形成 “provide a variety of perspectives”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制：variety / of / perspectives，共三個詞，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "harmony",
+      "answerKey": "harmony",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 33",
+      "translation": "很多人只想要甚麼。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people only want to have 33 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next fact that we must accept is that such gatherings are often affected by ‘groupthink’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們必須接受的下一個事實是，這些聚會經常受 groupthink 影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, this is not a method likely to optimise the chances of making the best decision.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很清楚，這種方法不太可能提高作出最佳決策的機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 解釋 groupthink 如何破壞決策。圖表下方的 “Many people only want to have…” 對應 groupthink 中人們追求和諧、壓制異議的心理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是圖中的 Many people only want。原文沒有逐字重複，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“merely a collective desire to promote harmony”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “merely” 對應 “only”，而 “harmony” 就是大家想維持的狀態。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual dissent is squashed, leaving decision-making not as a product of a pool of thinking individuals, all with valuable insights, but merely a collective desire to promote harmony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個人異議被壓下去，結果決策不再來自一群有思考能力、各自擁有寶貴見解的人；它只剩下一種促進和諧的集體願望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表把 “a collective desire to promote harmony” 簡化成 “Many people only want to have______”。空格後要接名詞，答案是 harmony。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意不要填 “collective desire”。圖表句子會變成 “Many people only want to have collective desire”，文法和意思都不自然。真正要填的是 people want to have 的狀態：harmony。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "conflict",
+      "answerKey": "conflict",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 34",
+      "translation": "加入甚麼。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“add 34 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, when these two facts are brought together, they lead to the interesting conclusion that some degree of conflict is necessary in order to produce better decision-making and, ultimately, higher organisational performance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當這兩個事實結合起來時，會得出一個有趣結論：某種程度的衝突是必要的，因為它能產生更好的決策，最終帶來更高的組織表現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The focus thus shifts to conflict management (reducing conflict or creating it, as deemed optimum for the organisation), not conflict removal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，焦點轉向衝突管理，即按組織需要減少或創造衝突，而非消除衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中 “add” 對應原文最後一句的 “creating it”。代名詞 it 指的是 conflict。這裡的流程是： groupthink 只追求 harmony，所以要加入某種程度的 conflict，令討論更有質素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The focus thus shifts to conflict management (reducing conflict or creating it, as deemed optimum for the organisation), not conflict removal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，焦點轉向衝突管理：按組織最理想的狀況減少衝突或創造衝突，而非追求把衝突完全移除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表中的 “add” 就是 “creating it” 的圖像化改寫。it 指 conflict，所以答案是 conflict。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "organisational performance",
+      "answerKey": "organisational performance",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 35",
+      "translation": "甚麼會被提升。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“35 ______ is increased.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, when these two facts are brought together, they lead to the interesting conclusion that some degree of conflict is necessary in order to produce better decision-making and, ultimately, higher organisational performance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當這兩個事實結合起來時，會得出一個有趣結論：某種程度的衝突是必要的，因為它能帶來更好的決策，最終帶來更高的組織表現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The focus thus shifts to conflict management (reducing conflict or creating it, as deemed optimum for the organisation), not conflict removal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，焦點轉向衝突管理，即按組織需要減少或創造衝突，而非完全消除衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖表最後寫 “is increased”。原文中對應 “increased” 的概念是 “higher”。要找 “higher” 後面的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文答案短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“higher organisational performance”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更高的組織表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於圖表已經寫 “is increased”，所以答案不應再填 higher。最自然的完整句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“organisational performance is increased.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 organisational performance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制：organisational / performance，共兩個詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "resistance and conflict",
+      "answerKey": "resistance and conflict",
+      "type": "Short-answer Questions",
+      "prompt": "“What can even rational people still produce?”",
+      "translation": "即使是理性的人，仍然可能產生甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, this is the contradiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，這就是矛盾所在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People find it difficult to argue with those who agree with them, and this means resistance is reduced, communication is enhanced and insights into the situation will emerge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們很難和同意自己的人爭辯；這意味著抵抗會減少，溝通會提升，對情況的洞察也會出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 講 change agents 如何處理變革帶來的情緒和 resistance。題目有 “even rational people”，應找同段中 “rational” 原字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 rational people。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“even the most level-headed, open-minded, and rational of people”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是非常強的定位句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Change must happen, causing significant resistance and conflict, some of which is constructive and necessary, but some of which impedes progress. These feelings can originate from even the most level-headed, open-minded, and rational of people…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "變革必須發生，並造成顯著的抵抗和衝突；其中一些具建設性且必要，另一些會阻礙進展。這些感受甚至可以來自最冷靜、開明和理性的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What can even rational people still produce?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “These feelings” 指上一句的 resistance and conflict。因為字數限制最多三個詞，答案應填 resistance and conflict。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "factually accurate",
+      "answerKey": "factually accurate",
+      "type": "Short-answer Questions",
+      "prompt": "“What sort of information should a change agent agree with?”",
+      "translation": "change agent 應該同意哪一類資料？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, this is the contradiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，這就是矛盾所在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People find it difficult to argue with those who agree with them, and this means resistance is reduced, communication is enhanced and insights into the situation will emerge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們很難和同意自己的人爭辯；這代表 resistance 會減少，communication 會提升，並會出現對情況的洞察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半列出 change agents 的策略。題目問 agree with，應找 concur / agree 相關字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 agree with。原文沒有用 agree 作動詞，但有近義詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“concur with”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "concur with 即同意、贊同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another strategy is to concur with what is factually accurate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個策略是同意那些在事實上準確的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What sort of information…?”，答案要是資料的性質。原文 “what is factually accurate” 中，核心答案是 factually accurate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果填 “what is factually accurate”，雖然字數是四個詞，超過 NO MORE THAN THREE WORDS。填 factually accurate 剛好符合限制，也保留原文意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "complete rationality",
+      "answerKey": "complete rationality",
+      "type": "Short-answer Questions",
+      "prompt": "“What quality does not constantly come from people?”",
+      "translation": "人們不會一直呈現哪一種品質？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third strategy for change agents is to always remind themselves of two basic facts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "change agents 的第三個策略，是時刻提醒自己兩個基本事實。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, when encountering difficulties in implementing change, there is a good chance that the stakeholders are merely protecting such beliefs, and this should also be taken into account.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當推行變革遇到困難時，很可能 stakeholders 只是在保護這些 beliefs；這一點也應納入考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 change agents 應理解人的心理限制。題目問一種不會 constantly 出現的 quality，應找 at all times 或 rationality。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 constantly / quality / people。原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“not to expect complete rationality from those around them at all times”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“at all times” 對應 constantly。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The first is not to expect complete rationality from those around them at all times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一點是不要期待身邊的人在所有時候都展現完全理性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What quality does not constantly come from people?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說不要期待 “complete rationality … at all times”。所以答案是 complete rationality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制：complete / rationality，共兩個詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "security",
+      "answerKey": "security",
+      "type": "Short-answer Questions",
+      "prompt": "“People often construct beliefs to enhance what feeling?”",
+      "translation": "人們經常建構 beliefs，是為了增強甚麼感覺？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third strategy for change agents is to always remind themselves of two basic facts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "change agents 的第三個策略，是時刻提醒自己兩個基本事實。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, when encountering difficulties in implementing change, there is a good chance that the stakeholders are merely protecting such beliefs, and this should also be taken into account.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，當推行變革遇到困難時，很可能 stakeholders 只是在保護這些 beliefs；這一點也要納入考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半講 beliefs 的本質。題目中的 construct beliefs 對應原文 “constructions of the mind”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 construct beliefs / enhance what feeling。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are often constructions of the mind, serving to maximise the security of the self.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“maximise” 對應 enhance。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The other basic fact is that human beliefs are not necessarily encapsulations of the truth. Instead, they are often constructions of the mind, serving to maximise the security of the self.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個基本事實是，人類的 beliefs 並不一定是真理的概括。更準確地說，它們常是心智建構，用來最大化自我的安全感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what feeling?”，答案是 security。原文完整片語是 “the security of the self”，但 NO MORE THAN THREE WORDS 限制下，最合適填 security。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 security 不是保安或安全措施，而是心理上的安全感。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "ill-feeling or malice",
+      "answerKey": "ill-feeling or malice",
+      "type": "Short-answer Questions",
+      "prompt": "“What emotions can produce unhealthy conflict?”",
+      "translation": "哪些情緒會產生不健康的衝突？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experienced change agent realises that everyone’s perspective needs to be examined with an open mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有經驗的 change agent 明白，每個人的觀點都需要以開放態度檢視。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not easy, but it is certainly possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不容易，但肯定是可能做到的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 healthy conflict 和 destructive conflict 的分界。題目問 unhealthy conflict，所以要找負面emotions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 emotions / unhealthy conflict。原文沒有 unhealthy 這個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“ill-feeling or malice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“such emotions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“constructive, rather than destructive, paths”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ill-feeling 和 malice 就是會令 conflict 走向 destructive 的情緒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conflicting viewpoints should be promoted in a healthy way, where people are disarmed and not reacting as a result of ill-feeling or malice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "互相衝突的觀點應以健康方式被推動；在這種情況下，人們會放下戒心，也不會因惡感或惡意而反應。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, when such emotions emerge, the important point is to understand that such reactions are natural…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，當這些情緒出現時，重要的是要理解這些反應是自然的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“such emotions” 指前一句的 ill-feeling or malice。題目問哪些 emotions can produce unhealthy conflict，答案就是 ill-feeling or malice。字數限制方面，ill-feeling 是一個連字符詞，or 是一詞，malice 是一詞；合共三個詞，符合要求。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Organisational Conflict and Change.pdf",
+    "sha256": "9d86cf7cdfab7f8987a7f8c85163a1cbd90442653ff7b57d39cb6c906ccc6dd2",
+    "pageCount": 21
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，這段是全文背景引入。首句說 change is a natural process，先從人類生命歷程說起：出生、成長、成熟、衰退、死亡。尾句說 life is change，而且是前所未有的方式。這段大概會處理「現代世界變化加速」這個大前提，尤其有 global change、lifestyle change、personal change和 technological advance。後文討論組織變革和衝突時，會以這段作概念基礎。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 organisations are analogous to organisms，即組織類似生物。尾句說訊息很清楚： respond to change, or fail to thrive。這段把 Paragraph 1 的「生命會變」轉到「組織也會變」。中間提到組織會 grow、mature、suffer injury and crises，甚至 die；過去令組織強大的 stable structures 和 static systems，今日可能造成 decline。Question 27 會直接定位到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句用 However 轉折，指出 change 的大問題是會引起 resistance。尾句說雖然 conflict 聽起來負面，但作者正提出 conflict 可以 necessary。這段是文章主題轉折：變革帶來不適、抵抗和衝突；衝突常有負面結果，例如資源被分散、判斷被扭曲、協調下降、惡感產生。不過作者開始建立本文核心立場：conflict 不一定要完全視為壞事。Question 28 定位於此。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說在 increasing change and complexity 的新時代，準確而深思熟慮的決策非常重要。尾句說現代組織的決策基於 group discussions、meetings、presentations，以便讓合資格人士交換多種觀點。這段主要解釋為何現代決策不能只靠一個人：資訊太多、所需知識太多，所以需要群體討論。Flow chart 的 31 和 32 來自這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說下一個必須接受的事實是，這些 gatherings 經常受 groupthink 影響。尾句明確說這種方法不太可能增加作出最佳決策的機會。這段解釋 groupthink 的問題：緊密群體會不加批判地接受群體感覺，個人異議被壓下去，決策變成追求 harmony 的集體願望。Question 29 和 flow chart 的33 會定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說把前面兩個 facts 合在一起，會得出有趣結論：一定程度的 conflict 對 better decision-making 和 higher organisational performance 是 necessary。尾句說重點轉向 conflict management，即按組織需要減少或創造衝突，而非單純消除衝突。這段是 “The Case for Conflict” 的核心：太少衝突也令人擔心，可能代表員工缺乏投入、問題被隱藏、創意被壓制、士氣低落。Question 30、34、35 都在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說這就是矛盾所在：change 必須發生，會造成 resistance and conflict；其中一些具建設性，另一些會阻礙進展。尾句說同意準確事實可減少 resistance、提升 communication，並帶出insight。這段開始從理論轉到 change agents 的應對策略：先聆聽所有人，包括最憤怒和最難相處的人；再同意 factually accurate 的部分。Questions 36 和 37 會定位到這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 change agents 的第三個策略，是提醒自己兩個基本事實。尾句說當推行 change 遇到困難時，stakeholders 很可能在保護自己的 beliefs，這也要納入考慮。這段核心是心理層面：不要期待身邊人時刻 complete rationality；human beliefs 也未必等於 truth，很多時是 mind 的constructions，用來最大化 self 的 security。Questions 38 和 39 來自這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說有經驗的 change agent 明白，每個人的 perspective 都需要以 open mind 檢視。尾句說理解這些 reactions 從何而來、如何處理，就可以走向 constructive paths。這段作為總結，強調healthy conflict 應被 promoted；人們要放下戒心，不應因 ill-feeling or malice 而反應。當這些情緒出現時，理解與處理它們就成為關鍵。Question 40 會定位到這段。"
+      }
+    ]
+  }
+}

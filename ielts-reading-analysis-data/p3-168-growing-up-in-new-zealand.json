@@ -1,0 +1,1284 @@
+{
+  "id": "p3-168-growing-up-in-new-zealand",
+  "catalogueId": "p3-168",
+  "catalogueIds": [
+    "p3-168"
+  ],
+  "passage": 3,
+  "title": "Growing up in New Zealand",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "A",
+    "D",
+    "B",
+    "C",
+    "C",
+    "D",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Findings from studies like GUiNZ will inform public policy.”",
+      "translation": "像 GUiNZ 這類研究的發現會為公共政策提供依據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has long been known that the first one thousand days of life are the most critical in ensuring a person’s healthy future; precisely what happens during this period to any individual has been less well documented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們早已知道，人生首一千日對確保一個人日後健康最為關鍵；但在這段期間，每個個體到底發生甚麼，記錄相對不足。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born between March 2009 and May 2010, the 6,846 babies recruited came from a densely populated area of New Zealand, and it is hoped they will be followed until they reach the age of 21.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究招募了 6,846 名於 2009 年 3 月至 2010 年 5 月出生的嬰兒，他們來自新西蘭一個人口稠密地區，研究希望追蹤他們直到 21 歲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 是研究背景和設計：為何要研究首一千日，以及研究會追蹤哪些孩子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目講 public policy，所以要回到這段開頭附近找研究目的。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 public policy / findings / studies like GUiNZ。原文沒有直接用 “findings”，但有"
+            },
+            {
+              "kind": "quote",
+              "text": "“quantifiable data” 和 “public health and education policies”。掃描 Paragraph 1，可找到：“To allocate resources appropriately, public health and education policies need to be based upon quantifiable data, so the New Zealand Ministry of Social Development began a longitudinal study of these early days…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了恰當分配資源，公共健康和教育政策需要建基於可量化資料，因此新西蘭社會發展部開始了一項關於這些早期日子的縱向研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Findings from studies like GUiNZ 對應原文的 quantifiable data，即研究產生的可量化資料。題目中的 will inform public policy 對應原文的 public health and education policies need to be based upon quantifiable data。原文清楚說政策需要這些資料作基礎，而GUiNZ 正是為了產生這些資料而開始，所以方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於題目用 “findings” 改寫原文的 “quantifiable data”。不要只等原字重現；這裡考的是概念改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Exactly 6,846 babies formed the GUiNZ cohort.”",
+      "translation": "GUiNZ cohort 正好由 6,846 名嬰兒組成。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 / Paragraph 3 Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born between March 2009 and May 2010, the 6,846 babies recruited came from a densely populated area of New Zealand…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究招募了 6,846 名於 2009 年 3 月至 2010 年 5 月出生的嬰兒，他們來自新西蘭一個人口稠密地區。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of the 6,846 babies, the majority were identified as European New Zealanders…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這 6,846 名嬰兒中，大多數被識別為 European New Zealanders。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost 50% of the children had more than one ethnicity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近 50% 的兒童有多於一個族裔身份。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 1 和 3 的首尾句，可以見到 6,846 這個數字反覆出現。Paragraph 1 交代招募人數，Paragraph 3 以這個總數分析族裔構成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Exactly 6,846 babies / cohort。原文直接出現 the 6,846 babies recruited 和 Of the 6,846 babies。雖然原文沒有在同一句寫 “formed the cohort”，但 Paragraph 4 說前三份報告在描述 the cohort before birth、at nine months、at two years，這個 cohort 指的就是前文的 6,846名嬰兒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born between March 2009 and May 2010, the 6,846 babies recruited came from a densely populated area of New Zealand…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究招募了 6,846 名嬰兒，他們於 2009 年 3 月至 2010 年 5 月出生，來自新西蘭一個人口稠密地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 formed the GUiNZ cohort 是概括說法。文章的描述鏈條是：先招募 6,846 名嬰兒，之後多次以 “the 6,846 babies” 及 “the cohort” 指代這批研究對象。題目加上 Exactly，需要小心數字是否只是約數。原文用的是精確數字 6,846，不是 “about 6,846” 或 “nearly 6,846”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “cohort” 一字。學生如果不熟悉 cohort，可能以為文章沒有說。其實 cohort 在研究語境中指「同一批被追蹤研究的人」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“GUiNZ will probably end when the children reach ten.”",
+      "translation": "GUiNZ 大概會在孩子十歲時結束。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has long been known that the first one thousand days of life are the most critical in ensuring a person’s healthy future…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們早已知道，人生首一千日對確保一個人日後健康最關鍵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…it is hoped they will be followed until they reach the age of 21.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究希望追蹤他們直到 21 歲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 已經把研究追蹤年期交代得很清楚。題目提到 “end when the children reach ten”，所以要找原文的追蹤終點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 end / reach ten。原文沒有 “end” 或 “ten”，但有同類概念 followed until they reach the age of 21。這正好是研究持續到甚麼年齡的答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…it is hoped they will be followed until they reach the age of 21.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究希望追蹤他們直到 21 歲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 probably end when the children reach ten，原文說 hoped they will be followed until 21。兩者在年齡上直接衝突：10 歲與 21 歲不一致。這不是資料不足，因為文章已明確提供另一個年齡終點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是題目用了 “probably”。但即使用 “probably”，仍然不能越過原文。原文的預期是 21 歲，所以 10 歲這個說法和文章不符。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Eventually, there will be 21 reports in GUiNZ.”",
+      "translation": "最終 GUiNZ 會有 21 份報告。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 / Paragraph 9 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2014, four reports, collectively known as Growing Up in New Zealand (GUiNZ), had been published…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2014 年，已有四份統稱為 GUiNZ 的報告出版。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to descriptive reports, future reports will focus on children who move in and out of vulnerability to see how these transitions affect their later life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了描述性報告外，未來報告會聚焦那些進出脆弱狀態的兒童，以了解這些轉變如何影響他們日後生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句給我們兩個資訊：目前已有四份報告，未來還會有更多報告。但它們沒有交代最終總數。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Eventually / 21 reports。文章有 21，但在 Paragraph 1："
+            },
+            {
+              "kind": "quote",
+              "text": "“…followed until they reach the age of 21.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 21 指孩子年齡，不是報告數量。文章亦有 four reports 和 future reports，但沒有說最終會有 21 份。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "相關原文一："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2014, four reports… had been published…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2014 年已有四份報告出版。"
+            },
+            {
+              "kind": "label",
+              "text": "相關原文二："
+            },
+            {
+              "kind": "quote",
+              "text": "“…it is hoped they will be followed until they reach the age of 21.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究希望追蹤孩子直到 21 歲。"
+            },
+            {
+              "kind": "label",
+              "text": "相關原文三："
+            },
+            {
+              "kind": "quote",
+              "text": "“…future reports will focus on children who move in and out of vulnerability…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未來報告會聚焦於進出脆弱狀態的兒童。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 21 從「年齡」轉成「報告數量」，文章沒有支援這個轉換。雖然研究追蹤到 21 歲，並不代表每歲一份報告，也不代表總數一定是 21。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是數字 21 的原字重現。IELTS 很常用同一數字引人誤判；要看數字修飾的是甚麼名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文是 age of 21，題目是 21 reports，名詞不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“So far, GUiNZ has shown New Zealanders today to be rather similar to those of 25 years ago.”",
+      "translation": "到目前為止，GUiNZ 顯示今日新西蘭人和 25 年前的人相當相似。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2014, four reports, collectively known as Growing Up in New Zealand (GUiNZ), had been published…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2014 年，已有四份統稱為 GUiNZ 的報告出版。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…showing New Zealand to be a complex, changing country, with the participants and their families being markedly different from those of previous generations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些報告顯示新西蘭是一個複雜、正在改變的國家，參與者及其家庭和以往世代明顯不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 很明顯是已出版報告的總結。題目中的 “So far” 對應 “By 2014, four reports… had been published”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 So far / shown / similar / 25 years ago。原文沒有 “25 years ago”，但有 previous generations。最重要的答案詞是 markedly different，因為它直接判斷今日參與者和以前世代的關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the participants and their families being markedly different from those of previous generations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與者及其家庭和以往世代明顯不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 rather similar，原文說 markedly different。這是清楚相反。雖然題目用了 “25 years ago”，而原文用 “previous generations”，兩者都在比較今日與過去。真正決定答案的是 similar /different 的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “changing country”。如果只粗略看到新西蘭正在改變，已經應該警覺：題目說相似，原文說改變和不同，方向不一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Parents who took part in GUiNZ believe New Zealand is a good place to raise children.”",
+      "translation": "參與 GUiNZ 的父母相信新西蘭是一個適合養育孩子的好地方。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before we are born, published in 2010, describes the hopes, dreams, and realities that prospective parents have.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2010 年出版的 Before we are born 描述準父母的希望、夢想和現實。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such information will be useful for public health campaigns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資料會對公共健康宣傳有用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 會講父母在孩子出生前的想法和現實資料。題目提到 parents believe，所以最可能先查這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Parents / believe / New Zealand / good place / raise children。Paragraph 5 有parents、hopes、dreams、realities，但掃描後沒有找到 “good place to raise children” 或相近評價。原文提到父母年齡、關係狀態、是否在新西蘭長大、計劃生育、孕期行為等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀資料是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "相關原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“It shows that the average age of parents having a child was 30, and around two-thirds of parents were in legally binding relationships.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告顯示，父母生育孩子的平均年齡是 30 歲，約三分之二父母處於具法律約束力的關係中。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, one-third of the children were born to either a mother or a father who did not grow up in New Zealand…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，三分之一兒童的母親或父親並非在新西蘭長大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資料都是人口、家庭和背景描述，沒有說父母是否認為新西蘭適合養育孩子。即使 “hopes, dreams” 看起來像父母想法，文章仍未提供題目所需的評價句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “hopes, dreams”。這些字令人以為父母表達了對新西蘭的正面看法，但原文沒有把希望和夢想具體連到 “New Zealand is a good place to raise children”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A — Report 1",
+      "answerKey": "A — Report 1",
+      "type": "Report Classification",
+      "prompt": "“This is unique because it contains interviews with both parents.”",
+      "translation": "這份報告很獨特，因為它包含對父母雙方的訪問。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first three reports of GUiNZ are descriptive, portraying the cohort before birth, at nine months, and at two years of age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "GUiNZ 前三份報告是描述性報告，分別描繪 cohort 出生前、九個月及兩歲時的情況。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fourth report, which is more analytical, explores the definition of vulnerability for children in their first one thousand days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四份報告較分析性，探討兒童首一千日中 vulnerability 的定義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 unique / interviews / both parents。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Already, the first report, Before we are born, has made history as it contains interviews with the children’s mothers and fathers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一份報告 Before we are born 已創下歷史，因為它包含對兒童母親和父親的訪問。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mothers and fathers” 對應題目 “both parents”。“has made history” 對應 “unique”。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — Report 4",
+      "answerKey": "D — Report 4",
+      "type": "Report Classification",
+      "prompt": "“This looks at how children might be at risk.”",
+      "translation": "這份報告探討兒童可能如何處於風險之中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fourth report evaluates twelve environmental risk factors that increase the likelihood of poor developmental outcomes for children…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四份報告評估十二項環境風險因素，這些因素會增加兒童出現較差發展結果的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The factors include being born to an adolescent mother; having one or both parents on income-tested benefits; and living in cramped conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些因素包括母親是青少年、父母一方或雙方領取入息審查福利，以及居住環境擠迫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 risk。原文直接有 risk factors，並且說這些因素會 increase the likelihood of poor developmental outcomes。題目 “how children might be at risk” 是對 “environmental risk factors”的概括。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — Report 2",
+      "answerKey": "B — Report 2",
+      "type": "Report Classification",
+      "prompt": "“This suggests having a child may lead to financial hardship.”",
+      "translation": "這份報告暗示生孩子可能會導致經濟困難。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now we are born is the second report.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Now we are born 是第二份報告。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of the babies were put in childcare while their mothers worked or studied, and the providers varied by ethnicity…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多嬰兒在母親工作或讀書時被送去 childcare，而照顧者類型因族裔而異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 financial hardship / child / income。Paragraph 6 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“While 54% of them were living in accommodation their families owned, their parents had almost all experienced a drop in income, sometimes a steep one, mostly due to mothers’ not working.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 54% 嬰兒住在家庭自置居所，但幾乎所有父母都經歷收入下降，有時跌幅很大，主要因為母親沒有工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“drop in income, sometimes a steep one” 對應 “financial hardship”。這是第二份報告，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — Report 3",
+      "answerKey": "C — Report 3",
+      "type": "Report Classification",
+      "prompt": "“Information for this came from direct observations of children.”",
+      "translation": "這份報告的資料來自對兒童的直接觀察。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now we are two, the third report, provides more insights into the children’s development –physically, emotionally, behaviourally, and cognitively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三份報告 Now we are two 對兒童在身體、情緒、行為和認知方面的發展提供更多洞見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Digital exposure was high… by contrast, 66% had books read to them each day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數碼接觸程度很高；相對之下，66% 每日有人讀書給他們聽。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 direct observations。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Information was collected both from direct observations of the children and from parental interviews.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料同時來自對兒童的直接觀察，以及父母訪問。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援題目。因為它屬於第三份報告 Now we are two，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "C — Report 3",
+      "answerKey": "C — Report 3",
+      "type": "Report Classification",
+      "prompt": "“This shows many children use electronic devices.”",
+      "translation": "這份報告顯示許多兒童使用電子設備。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now we are two, the third report, provides more insights into the children’s development…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三份報告 Now we are two 提供更多兒童發展方面的洞見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Digital exposure was high: one in seven two-year-olds had used a laptop or a children’s computer, and 80% watched TV or DVDs daily; by contrast, 66% had books read to them each day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數碼接觸程度很高：七分之一兩歲兒童曾用 laptop 或兒童電腦，80% 每日看電視或 DVD；相對地，66% 每日有人讀書給他們聽。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 electronic devices。原文的 laptop / children’s computer / TV / DVDs 都屬於電子或數碼媒介。題目 “many children use electronic devices” 概括原文的 “Digital exposure was high”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是第三份報告，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — Report 4",
+      "answerKey": "D — Report 4",
+      "type": "Report Classification",
+      "prompt": "“This was modelled on criteria used in Western Europe.”",
+      "translation": "這份報告以西歐使用過的準則為模型。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fourth report evaluates twelve environmental risk factors that increase the likelihood of poor developmental outcomes for children and draws on experiences in Western Europe, where the specific factors were collated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四份報告評估十二項環境風險因素，這些因素會增加兒童出現較差發展結果的可能性；它借鑑西歐經驗，這些特定因素是在西歐整理出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The factors include being born to an adolescent mother…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些因素包括母親是青少年等。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Western Europe / modelled on criteria。原文用 draws on experiences in Western Europe 和 specific factors were collated。題目把 “draws on” 改寫成 “modelled on”，把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“specific factors” 改寫成 “criteria”。意思一致，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — Report 4",
+      "answerKey": "D — Report 4",
+      "type": "Report Classification",
+      "prompt": "“This suggests having a teenage mother could negatively affect a child.”",
+      "translation": "這份報告暗示有一位青少年母親可能會對孩子造成負面影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fourth report evaluates twelve environmental risk factors that increase the likelihood of poor developmental outcomes for children…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四份報告評估十二項環境風險因素，這些因素會增加兒童出現較差發展結果的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The factors include being born to an adolescent mother…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些因素包括出生於青少年母親。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 teenage mother / negatively affect。原文沒有 “teenage mother”，但有 adolescent mother，意思就是青少年母親。原文沒有 “negatively affect” 這幾個字，但有 increase the likelihood of poor developmental outcomes，即增加較差發展結果的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“having a teenage mother could negatively affect a child”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“being born to an adolescent mother” 是十二項 risk factors 之一，而 risk factors 會增加 poor developmental outcomes 的可能性。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Growing up in New Zealand.pdf",
+    "sha256": "340942faaca48d7205a4cde7c345f0055b212028d8ea75e316ca3b7f322e70d4",
+    "pageCount": 17
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看第一句和最後一句，這段明顯是文章的研究背景與研究目的。第一句指出人生首一千日對健康未來極重要，但個人層面到底發生甚麼仍缺乏充足記錄。最後一句交代研究對象：2009 至2010 年出生的 6,846 名嬰兒，來自新西蘭一個人口稠密地區，研究希望追蹤到他們 21 歲。可先估計這段會回答研究目的、政策用途、樣本數和追蹤年期。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說到 2014 年已有四份報告，統稱 Growing Up in New Zealand (GUiNZ)。尾句指出這些報告顯示新西蘭是一個複雜、正在改變的國家，參與者及其家庭和以往世代明顯不同。只看首尾句，可合理推斷這段是總覽研究初步成果，不會深入講每份報告細節。它很可能支援關於「so far」「today compared with previous generations」「New Zealand changing」的判斷題。"
+      },
+      {
+        "number": "3",
+        "summary": "首句直接列出 6,846 名嬰兒中，多數被識別為 European New Zealanders，但亦有 Maori、Pacific和 Asian。尾句補充近一半兒童有多於一個族裔身份。只看首尾句，可以看出這段主要描述cohort 的族裔構成，重點在多元性和混合身份。它通常不會回答報告內容題，反而可能支援新西蘭人口結構複雜、與舊世代不同這類宏觀理解。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說前三份 GUiNZ 報告是描述性，分別描繪出生前、九個月和兩歲時的 cohort。尾句說第四份報告較分析性，探討兒童首一千日中 vulnerability 的定義。只看首尾句，可以建立四份報告的基本分類：Report 1、2、3 是不同年齡階段的描述；Report 4 是風險／脆弱性分析。這段對Questions 34–40 特別重要，因為它提供四份報告的總框架。"
+      },
+      {
+        "number": "5",
+        "summary": "首句指出 Before we are born 於 2010 年出版，描述準父母的希望、夢想和現實。尾句說孕期行為資料會對公共健康宣傳有用。只看首尾句，可推測這段聚焦 Report 1：父母背景、孕期情況、家庭計劃、出生前資料。中間很可能包含父母年齡、關係狀態、是否在新西蘭長大、懷孕行為等細節。這段也可能支援「訪問父母」和「public health campaigns」相關題目。"
+      },
+      {
+        "number": "6",
+        "summary": "首句指出 Now we are born 是第二份報告。尾句說很多嬰兒在母親工作或讀書時被放到childcare，而照顧者類型會因族裔不同而變化。只看首尾句，可估計這段是 Report 2：出生後九個月左右的嬰兒健康、餵哺、家庭收入、免疫、母親產後情緒、 childcare。若題目提到 breastfeeding、income drop、post-natal depression、childcare 或 babies’ health，大概率要回到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句指出 Now we are two 第三份報告提供更多兒童發展洞見，包括身體、情緒、行為和認知。尾句用對比方式說兩歲兒童數碼接觸很高，80% 每日看電視或 DVD，但 66% 每日有人讀書給他們聽。只看首尾句，可知道這段是 Report 3，重點是兩歲兒童的發展、觀察資料、語言、獨立性、數碼接觸和閱讀習慣。Questions 37–38 很可能在這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說第四份報告評估十二項環境風險因素，這些因素會增加兒童出現較差發展結果的可能性，並借鑑西歐經驗。尾句列出例子，包括母親是 adolescent mother、父母領取 income-tested benefits、居住環境擠迫。只看首尾句，可判斷這段是 Report 4 的核心：兒童 vulnerability、risk factors、Western Europe criteria、poor developmental outcomes。Questions 35、39、40 幾乎都可由這段定位。"
+      },
+      {
+        "number": "9",
+        "summary": "首句和尾句其實是同一句：未來除了描述性報告，也會聚焦那些進出 vulnerability 狀態的兒童，研究這些轉變如何影響他們日後生活。只看這句，可以推測這段是展望 future reports，而非已出版四份報告的內容。若題目問未來研究方向、vulnerability transitions 或 later life，才會用到它。它沒有提供報告總數，也沒有說最終會有多少份報告。"
+      },
+      {
+        "number": "10",
+        "summary": "首句指出到目前為止 GUiNZ 十分成功，參與者流失率很低，即使移居海外者多數仍提供資料。尾句說 GUiNZ 所描繪的新西蘭及其人民面貌確實很有啟發。只看首尾句，可知最後一段是整體評價與收結：研究維持參與度高，資料持續性好，成果揭示國家面貌。這段適合支援研究成功度、dropout rate 和資料持續收集，不太會支援個別報告內容。"
+      }
+    ]
+  }
+}

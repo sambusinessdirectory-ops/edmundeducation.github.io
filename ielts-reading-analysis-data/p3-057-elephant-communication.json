@@ -1,0 +1,2177 @@
+{
+  "id": "p3-057-elephant-communication",
+  "catalogueId": "p3-057",
+  "catalogueIds": [
+    "p3-057"
+  ],
+  "passage": 3,
+  "title": "Elephant Communication",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "hammer",
+    "massive",
+    "pad",
+    "sinus cavities",
+    "trunks and feet",
+    "infrasonic",
+    "ecology",
+    "seismic signals",
+    "auditory communication",
+    "mate",
+    "ground",
+    "A",
+    "A (最接近；題目選項設計不算理想，詳見分析)"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "hammer",
+      "answerKey": "hammer",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 28",
+      "translation": "內耳中的 ______ 骨。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中文字："
+            },
+            {
+              "kind": "quote",
+              "text": "“28 ______ bones in inner ear”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Diagram Label Completion。答案限制是 NO MORE THAN TWO WORDS。圖中箭嘴指向大象耳朵附近，題目已經給了 bones in inner ear，所以空格應該填一個能修飾 bones 的名詞或形容詞。重點是找原文中描述 inner ear 和 bone 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As might be expected, African elephants’ ability to detect seismic sound may have something to do with their ears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如人們可能預期的，非洲象偵測 seismic sound 的能力可能和牠們的耳朵有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, it may be a sign that suggests elephants can use seismic sounds to communicate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這可能是一個跡象，顯示大象可以使用 seismic sounds 來溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 2 的功能：這段從 ears 入手，解釋大象接收 seismic sound的能力可能有耳部結構上的基礎。因此，圖中問 inner ear bones，應該優先定位到這一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是：● bones● inner ear● ear掃描 Paragraph 2，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The hammer bone in an elephant’s inner ear is proportionally huge for a mammal, but it is rather normal for animals that use vibrational signals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大象內耳中的 hammer bone，以哺乳動物比例來說非常巨大；但對使用震動訊號的動物而言，這種大小又相當正常。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時有 hammer bone 和 inner ear，所以就是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 The hammer bone in an elephant’s inner ear。圖上已經給了 bones in inner ear，所以空格只需要填 hammer，形成 hammer bones in inner ear。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一個小心位：原文是 hammer bone，單數；圖中用 bones，可能是圖表為了配合 label 格式而用了複數。IELTS 填空時要按圖上空格位置填入原文字詞，不需要自行改成其他形式。答案欄只寫 hammer 最穩陣。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖上： bones in inner ear原文： The hammer bone in an elephant’s inner ear對應關係：● inner ear = inner ear；● bones = bone；● 空格要求具體是哪一種 bone；● 原文提供 hammer bone。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 hammer。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易寫 hammer bone。可是圖中空格後面已經有 bones，如果填 hammer bone，就會變成hammer bone bones，結構重複。這類 diagram 題要先看空格前後已有甚麼字，再決定答案詞要填完整短語，還是只填其中一部分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "massive",
+      "answerKey": "massive",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 29",
+      "translation": "一個 ______ 身體。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中文字："
+            },
+            {
+              "kind": "quote",
+              "text": "“29. an ______ body”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Diagram Label Completion。箭嘴指向大象身體軀幹，空格後面已有 body，所以答案應該是形容詞，用來描述 body 的特徵。圖中出現 article an 可能令文法看起來奇怪，但真正答題要以原文描述為準。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other aspects of elephant anatomy also support the existence of this ability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大象解剖結構中的其他方面，也支持這種能力的存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The front of the skull is riddled with sinus cavities, which might function as resonating chambers for ground vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "頭骨前部布滿 sinus cavities，這些空腔可能作為地面震動的 resonating chambers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以估計 Paragraph 3 的功能是列出大象身體不同結構，解釋牠們如何支援接收或傳遞 ground vibrations。圖中 Q29、Q30、Q31 都在問身體結構，所以 Paragraph 3 是主要目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是：● body● 圖中箭嘴指向身體軀幹；● 需要找描述大象身體整體大小或功能的詞。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, their massive bodies, which enable them to produce low-frequency sounds almost as powerful as the sound of a jet during takeoff, serve as ideal frames for receiving ground vibrations and transmitting them to the inner ear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，牠們龐大的身體使牠們能產生幾乎像噴射機起飛時一樣強大的低頻聲音，並作為接收地面震動、再把震動傳送到內耳的理想框架。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中描述 body 的詞是 massive。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "massive bodies 指「龐大的身體」。這正好對應圖中的 body label。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖上寫 an ______ body，但原文是 their massive bodies。實際填答案時，考生不需要被 article影響。答案必須來自文章；文章提供的精準詞是 massive。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖上： an ______ body原文： their massive bodies對應關係：● body = bodies；● 空格要填 body 的特徵；● massive = very large / huge / 龐大的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 massive。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易錯的是填 enormous。原文確實有 an enormous brain，但 enormous 修飾的是 brain，不是 body。圖中箭嘴指向大象身體軀幹，所以要找 body 的描述；答案只能是 massive。這題提醒學生：圖表題不能只看到形容詞就填，要看箭嘴指向哪個部位。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "pad",
+      "answerKey": "pad",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 30",
+      "translation": "腳趾和脂肪 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中文字："
+            },
+            {
+              "kind": "quote",
+              "text": "“toe and fatty 30 ______”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Diagram Label Completion。箭嘴指向腳部位置，圖中文字已給 toe and fatty，所以空格很可能是腳部某個結構。答案限制是 NO MORE THAN TWO WORDS，而空格前已有 fatty，所以答案通常只需要填名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other aspects of elephant anatomy also support the existence of this ability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大象解剖結構中的其他方面，也支持這種能力的存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The front of the skull is riddled with sinus cavities, which might function as resonating chambers for ground vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "頭骨前部布滿 sinus cavities，這些空腔可能作為地面震動的 resonating chambers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 是解剖結構段，先講 body，再講 toes and pad，最後講 brain and skull。圖中 Q30 指向腳部，因此應該在這段中間找 toe / feet / pad 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞：● toe● fatty● 圖中腳部箭嘴原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, the elephant’s toe bones are set on a fatty pad, which might help focus vibrations from the ground into the bone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，大象的 toe bones 位於一個 fatty pad 上，這可能有助於把來自地面的震動集中到骨頭中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文短語是 a fatty pad。圖中文字已經給了 fatty，空格位於 fatty 後面，所以答案只需填 pad。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也有 toe bones，但圖上已經出現 toe。如果填 toe bones，圖中文字會變成 toe and fatty toe bones，意思和結構都錯。真正要補的是 fatty 後面的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖上： toe and fatty ______原文： toe bones are set on a fatty pad對應關係：● toe = toe bones；● fatty ______ = fatty pad；● 空格後缺名詞；● 答案是 pad。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能會把答案寫成 fatty pad，因為這是原文完整短語。不過圖中已經有 fatty，填 fatty pad會造成重複。這類題一定要把答案放回圖中文字檢查一次：toe and fatty pad 自然，toe and fatty fatty pad 就不自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "sinus cavities",
+      "answerKey": "sinus cavities",
+      "type": "Diagram Label Completion",
+      "prompt": "Question 31",
+      "translation": "大型腦部／頭骨中有很多 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "圖中文字："
+            },
+            {
+              "kind": "quote",
+              "text": "“big sized brain skull with many 31 ______”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Diagram Label Completion。箭嘴指向頭部或頭骨前方。圖中文字有 brain、skull、many，所以答案應該是頭骨內或頭骨前方的複數結構。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other aspects of elephant anatomy also support the existence of this ability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大象解剖結構中的其他方面，也支持這種能力的存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The front of the skull is riddled with sinus cavities, which might function as resonating chambers for ground vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "頭骨前部布滿 sinus cavities，這些空腔可能作為地面震動的 resonating chambers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 最後一句直接談 skull，而且有 riddled with，表示「布滿」。圖中問 skull with many______，高度吻合這一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● brain● skull● many● 圖中頭部箭嘴原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, the elephant has an enormous brain that sits in the cranial cavity behind the eyes in line with the auditory canal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，大象有一個巨大的腦，位於眼睛後方的 cranial cavity 中，並與 auditory canal 成一直線。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The front of the skull is riddled with sinus cavities, which might function as resonating chambers for ground vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "頭骨前部布滿 sinus cavities，這些空腔可能作為地面震動的 resonating chambers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要分清三個相似部件：第一，enormous brain 是大腦本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，cranial cavity 是大腦所在的腔室。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，sinus cavities 是頭骨前部布滿的多個空腔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中文字有 skull with many，而原文說 The front of the skull is riddled with sinus cavities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "riddled with 表示大量分布，正好對應 many。因此答案是 sinus cavities。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖上： skull with many ______原文： The front of the skull is riddled with sinus cavities對應關係：● skull = skull；● with many = riddled with；● blank = sinus cavities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 sinus cavities。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易混淆的是 resonating chambers。原文說 sinus cavities might function as resonating chambers，也就是 sinus cavities 的功能可能是共鳴室。圖中問的是頭骨中「有很多」甚麼，答案要填實際結構，不宜填功能名稱。因此 sinus cavities 比 resonating chambers 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "trunks and feet",
+      "answerKey": "trunks and feet",
+      "type": "Summary Completion",
+      "prompt": "Question 32",
+      "translation": "O’Connell-Rodwell 提出，大象可能用牠們的 ______ 來「聆聽」，而這些部位含有兩種 nerve endings。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Connell-Rodwell … proposes that elephants are ‘listening’ with their 32 ______, which contain two kinds of nerve endings…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 their，後面有 which contain two kinds of nerve endings，所以答案應該是複數身體部位。字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It remains unclear how the elephants detect such vibrations, but O’Connell-Rodwell suggests that the pachyderms may be ‘listening’ with their trunks and feet instead of their ears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大象如何偵測這些震動仍未清楚，但 O’Connell-Rodwell 提出，這些厚皮動物可能用牠們的trunks and feet，而非耳朵，在「聆聽」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We’re raising questions that have never even been considered before.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們正在提出一些以前甚至從未被考慮過的問題。」只看首尾句，可以判斷 Paragraph 4 的功能是提出新的感應假說：大象可能不是單靠耳朵，而是透過身體其他部位感應震動。題目中的 listening 和 nerve endings 都在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● listening● their● nerve endings● two kinds原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both trunk and feet contain two types of nerve endings that are sensitive to pressure –one detects infrasonic vibrations and the other responds to higher-frequency vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "trunk 和 feet 都含有兩種對壓力敏感的 nerve endings；其中一種偵測 infrasonic vibrations，另一種對較高頻率的震動有反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文第一句已說大象可能 listening with their trunks and feet。Summary 的句子是 listening with their ______，所以答案直接是 trunks and feet。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面的 which contain two kinds of nerve endings 也確認答案。原文說 Both trunk and feet contain two types of nerve endings，完全對應 summary 的後半句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： listening with their ______原文： listening with their trunks and feet Summary： which contain two kinds of nerve endings原文： Both trunk and feet contain two types of nerve endings所以答案是 trunks and feet。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能只填 trunks 或 feet，因為前一句先講 trunk 很 versatile，後面又講 feet。但 summary用 which contain two kinds of nerve endings，對應原文的 Both trunk and feet。兩個部位都需要保留，答案才完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "infrasonic",
+      "answerKey": "infrasonic",
+      "type": "Summary Completion",
+      "prompt": "Question 33",
+      "translation": "這些 nerve endings 對 ______ 頻率和稍高頻率都有反應。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“… nerve endings that respond to both 33 ______ frequencies and slightly higher frequencies.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格後面已有 frequencies，所以答案應該是一個形容詞或修飾詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制是 NO MORE THAN THREE WORDS，但文法上只需要一個詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It remains unclear how the elephants detect such vibrations, but O’Connell-Rodwell suggests that the pachyderms may be ‘listening’ with their trunks and feet instead of their ears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大象如何偵測這些震動仍未清楚，但 O’Connell-Rodwell 提出，這些厚皮動物可能用牠們的trunks and feet，而非耳朵，在「聆聽」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We’re raising questions that have never even been considered before.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們正在提出一些以前甚至從未被考慮過的問題。」Paragraph 4 是 nerve endings 的主段落，Q33 緊接 Q32，所以仍然定位在這一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● nerve endings● frequencies● higher frequencies原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both trunk and feet contain two types of nerve endings that are sensitive to pressure –one detects infrasonic vibrations and the other responds to higher-frequency vibrations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "trunk 和 feet 都含有兩種對壓力敏感的 nerve endings；其中一種偵測 infrasonic vibrations，另一種對較高頻率的震動有反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的兩組訊號是：● infrasonic vibrations；● higher-frequency vibrations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把第二項改寫成 slightly higher frequencies，並把第一項設成空格：both ______frequencies and slightly higher frequencies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為空格後已有 frequencies，所以不能填 infrasonic vibrations。最合文法的填法是infrasonic，形成 infrasonic frequencies。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： both ______ frequencies and slightly higher frequencies原文： one detects infrasonic vibrations and the other responds to higher-frequency vibrations對應關係：● infrasonic vibrations = infrasonic frequencies；● higher-frequency vibrations = slightly higher frequencies；● 空格後已有 frequencies，因此填 infrasonic。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "容易錯的是填 low-frequency sounds。Paragraph 1 確實提到 low-frequency sounds /infrasounds，但這題直接問 nerve endings 的兩種反應，答案句在 Paragraph 4。Summary 的文法也不容許填 low-frequency sounds，因為後面已經有 frequencies。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "ecology",
+      "answerKey": "ecology",
+      "type": "Summary Completion",
+      "prompt": "Question 34",
+      "translation": "O’Connell-Rodwell 的研究位於 geophysics、neurophysiology 和 ______ 的交界。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Connell-Rodwell’s work lies at the intersection of geophysics, neurophysiology and 34 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 geophysics, neurophysiology and，所以答案應該是一個學科名稱。字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It remains unclear how the elephants detect such vibrations, but O’Connell-Rodwell suggests that the pachyderms may be ‘listening’ with their trunks and feet instead of their ears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大象如何偵測這些震動仍未清楚，但 O’Connell-Rodwell 提出，這些厚皮動物可能用牠們的trunks and feet，而非耳朵，在「聆聽」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We’re raising questions that have never even been considered before.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們正在提出一些以前甚至從未被考慮過的問題。」這段最後部分是 O’Connell-Rodwell 對自己研究性質的概括，所以 summary 問研究位於哪些學科交界時，仍然在 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● intersection● geophysics● neurophysiology原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Our work is really at the interface of geophysics, neurophysiology and ecology,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「我們的工作其實位於 geophysics、neurophysiology 和 ecology 的交界。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 interface 對應 summary 的 intersection。兩者都表示「交界、交會處」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出的三個學科是： 1. geophysics； 2. neurophysiology； 3. ecology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 已給前兩個，所以空格要填第三個：ecology。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： lies at the intersection of原文： is really at the interface of Summary： geophysics, neurophysiology and ______原文： geophysics, neurophysiology and ecology所以答案是 ecology。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 seismic communication 或 vibrational signals。它們是研究內容，不是這句列出的學科名稱。這題應跟著並列結構找答案：A, B and C，空格就是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "seismic signals",
+      "answerKey": "seismic signals",
+      "type": "Summary Completion",
+      "prompt": "Question 35",
+      "translation": "大型陸生動物也能傳送和接收 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“… a large land animal could also send and receive 35 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 send and receive，答案應該是可以被傳送和接收的訊號類名詞。字數限制是 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have long known that seismic communication is widespread among small animals, such as spiders, scorpions, insects and quite a lot of vertebrate species like white-lipped frogs, blind mole rats, kangaroo rats and golden moles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家早已知道 seismic communication 在小型動物中十分普遍，例如蜘蛛、蠍子、昆蟲，以及不少脊椎動物如白唇蛙、盲鼴鼠、袋鼠鼠和金鼴鼠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I find it so fascinating, and it got me thinking that perhaps auditory communication is not the only thing that is going on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我覺得這非常迷人，這也令我思考，也許 auditory communication 並不是唯一正在發生的溝通方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 5 的功能是：先說 seismic communication 在小動物中已知很普遍，再解釋 O’Connell-Rodwell 如何把這個想法推到大象這種大型陸生動物身上。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● large land animal● send and receive● seismic原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, O’Connell-Rodwell was the first to argue that a giant land animal could also send and receive seismic signals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，O’Connell-Rodwell 是第一個提出大型陸生動物也可以傳送和接收 seismic signals 的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 a large land animal 對應原文 a giant land animal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 could also send and receive 和原文完全一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格直接填 seismic signals。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： a large land animal原文： a giant land animal Summary： could also send and receive ______原文： could also send and receive seismic signals答案是 seismic signals。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 seismic communication。這個短語在段首出現，但空格前是 send and receive，原文中能和這個動詞搭配的是 seismic signals。Reading 填空題要特別看搭配，不只看主題詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "auditory communication",
+      "answerKey": "auditory communication",
+      "type": "Summary Completion",
+      "prompt": "Question 36",
+      "translation": "這可能證明除了 ______ 之外，還存在其他溝通方式。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“… which might prove the existence of communication methods other than 36 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 other than，所以答案應該是一種被排除在外、用來作比較的溝通方式。字數限制是NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have long known that seismic communication is widespread among small animals…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家早已知道 seismic communication 在小型動物中十分普遍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I find it so fascinating, and it got me thinking that perhaps auditory communication is not the only thing that is going on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我覺得這非常迷人，這也令我思考，也許 auditory communication 並非唯一正在發生的溝通方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落最後一句直接談「除了聽覺溝通以外，可能還有別的溝通方式」，因此 Q36 應定位到這句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● communication methods● other than● planthopper● female call原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I used to place a male planthopper on a stem and replay the calling sound of a female…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我以前會把雄性 planthopper 放在一根莖上，然後播放雌性的叫聲。"
+            },
+            {
+              "kind": "label",
+              "text": "以及最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I find it so fascinating, and it got me thinking that perhaps auditory communication is not the only thing that is going on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我覺得這非常迷人，這也令我思考，也許 auditory communication 並非唯一正在發生的溝通方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 auditory communication is not the only thing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "auditory 指聽覺的；auditory communication 就是靠聲音或聽覺進行的溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把這句改寫成 communication methods other than ______。意思是：除了某種溝通方式之外，還有其他方法。原文中被拿來對照的溝通方式就是 auditory communication。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： communication methods other than ______原文： auditory communication is not the only thing對應關係：● not the only thing = there are other methods；● auditory communication = the method being contrasted；● blank = auditory communication。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 auditory communication。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 seismic communication。這段的主題確實是 seismic communication，但 summary 的語法是 other than ______，即「除了某方法之外」。原文說 O’Connell-Rodwell 開始懷疑聽覺溝通之外還有其他方式，所以空格要填被拿來對比的 auditory communication。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "mate",
+      "answerKey": "mate",
+      "type": "Summary Completion",
+      "prompt": "Question 37",
+      "translation": "尤其當大象群在尋找 ______，或警告有捕食者時，這種長距離溝通非常重要。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“… especially when elephant herds are seeking a 37 ______, or are warning of predators.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 a，所以答案應該是單數名詞。題目同時提到 warning of predators，表示答案應該位於同一段中另一個 survival situation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have confirmed that an elephant’s capacity to communicate over long distances is essential for survival, especially in places like Etosha, where more than 2,400 savanna elephants range over a land bigger than New Jersey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家已確認，大象長距離溝通的能力對生存非常重要，尤其是在 Etosha 這類地方；那裡有超過 2,400 隻 savanna elephants，在比 New Jersey 還大的土地上活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the sight of a predator, older elephants in the herd will clump together to form a protective group before fleeing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一見到捕食者，群中的年長大象會聚集起來形成保護群體，然後才逃走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 6 解釋長距離溝通的 survival value。段落一開始講 survival，結尾講 predator response；中間應該會有 mate 和 predator alerts 兩種情境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● long distances● essential● seeking● warning of predators原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is already difficult for an elephant to find a mate in such a vast wilderness, and elephant reproductive biology only complicates the search.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在如此廣闊的荒野中，大象要找到 mate 已經很困難，而大象的繁殖生物學只會令這個搜尋更複雜。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Breeding herds also use low-frequency sounds to send alerts regarding predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繁殖群也會使用低頻聲音來發出有關捕食者的警報。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把原文兩個 survival situations 合併： 1. find a mate； 2. send alerts regarding predators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目寫 seeking a ______，原文是 find a mate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "seeking 和 find 在這裡形成同義轉換：seek 是尋找，find 是找到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格答案是 mate。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： seeking a ______原文： find a mate Summary： warning of predators原文： send alerts regarding predators所以答案是 mate。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 reproductive biology。原文提到 reproductive biology，但它是令尋找 mate 更複雜的原因，不是大象要尋找的對象。題目空格前是 seeking a，所以答案要是「尋找的對象」，也就是mate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "ground",
+      "answerKey": "ground",
+      "type": "Summary Completion",
+      "prompt": "Question 38",
+      "translation": "最後，2002 年研究結果顯示，大象可以透過 ______ 偵測 warning calls。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, the results of our 2002 study showed us that elephants could detect warning calls through the 38 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 through the，所以答案應該是一個位置或媒介名詞。題目有 2002 study，這是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We now know that elephants can respond to warning calls in the air, but can they detect signals transmitted solely through the ground?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們現在知道大象能對空氣中的 warning calls 作出反應，但牠們能否偵測只透過地面傳送的訊號呢？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The outcomes of our 2002 study revealed that elephants could indeed sense warning signals through the ground,’ O’Connell-Rodwell observes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Connell-Rodwell 觀察到：「我們 2002 年研究的結果顯示，大象確實能透過地面感應 warning signals。」只看首尾句，Paragraph 7 的功能非常清楚：提出 ground-transmitted signals 的問題，然後用2002 study 回答。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● 2002 study● warning calls● through the原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The outcomes of our 2002 study revealed that elephants could indeed sense warning signals through the ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們 2002 年研究的結果顯示，大象確實能透過地面感應 warning signals。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 through the ground 和 summary 的 through the ______ 逐字對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格只需要填 ground。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary： the results of our 2002 study showed us原文： The outcomes of our 2002 study revealed Summary： detect warning calls原文： sense warning signals Summary： through the ______原文： through the ground所以答案是 ground。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 air。段落第一句先說大象已知能對 air 中的 warning calls 作反應，接著轉入真正實驗問題：牠們能否偵測 through the ground 傳送的訊號。Q38 問的是 2002 study 的結果，所以答案要跟最後一句的 through the ground。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — when a threatening predator appears.",
+      "answerKey": "A — when a threatening predator appears.",
+      "type": "Multiple Choice",
+      "prompt": "“According to the passage, when does an elephant need long-distance communication for survival?”",
+      "translation": "根據文章，大象甚麼時候需要長距離溝通以維持生存？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Multiple Choice。題幹有三個控制點： 1. According to the passage：必須回到文章證據； 2. long-distance communication：要找 long distances / low-frequency sounds； 3. for survival：要找與生存直接相關的情境。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have confirmed that an elephant’s capacity to communicate over long distances is essential for survival, especially in places like Etosha, where more than 2,400 savanna elephants range over a land bigger than New Jersey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家已確認，大象長距離溝通的能力對生存非常重要，尤其是在 Etosha 這類地方；那裡有超過 2,400 隻 savanna elephants，在比 New Jersey 還大的土地上活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the sight of a predator, older elephants in the herd will clump together to form a protective group before fleeing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一見到捕食者，群中的年長大象會聚集起來形成保護群體，然後才逃走。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段專門解釋長距離溝通的 survival importance。第一句直接有communicate over long distances 和 essential for survival；最後一句講 predator 出現時的群體保護反應。因此 Q39 應該在 Paragraph 6。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● long-distance communication● survival● predator● mate原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Breeding herds also use low-frequency sounds to send alerts regarding predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繁殖群也會使用低頻聲音來發出有關捕食者的警報。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even though adult elephants have no enemies other than human beings, baby elephants are vulnerable and are susceptible to attacks by lions and hyenas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然成年大象除了人類以外沒有天敵，但幼象很脆弱，容易受到獅子和鬣狗攻擊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章說大象的長距離溝通對生存重要，其中一個情境是 predator alerts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "send alerts regarding predators 的意思是「發出關於捕食者的警告」。接著文章解釋原因：baby elephants 容易受到 lions and hyenas 攻擊，所以 warning communication 與 survival 直接有關。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“when a threatening predator appears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當有威脅性的捕食者出現時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文的 send alerts regarding predators 和 At the sight of a predator。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A — when a threatening predator appears.正確。原文說 breeding herds use low-frequency sounds to send alerts regarding predators，又說看到 predator 時，older elephants 會組成 protective group。這是與 survival 最直接相連的情境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — when young elephants meet humans.原文只說 adult elephants have no enemies other than human beings，沒有說 young elephants meet humans，也沒有說長距離溝通用於這種情境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — when older members of the herd want to flee from the group.原文說 older elephants clump together to form a protective group before fleeing。牠們是聚在一起保護群體，並非從群體中逃離。這個選項把動作關係改錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — when a male elephant is in estrus.原文有 reproductive biology 和 find a mate，但沒有 male elephant is in estrus 這個說法。題目問 survival，D 把 mate-search 背景改成文章沒有提供的生理狀態。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "need long-distance communication for survival原文： capacity to communicate over long distances is essential for survival選項 A： when a threatening predator appears原文： send alerts regarding predators At the sight of a predator因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最有迷惑性的是 D，因為 Paragraph 6 確實提到 find a mate 和 reproductive biology。但 D 的male elephant is in estrus 並沒有原文支援。Reading MCQ 要看選項是否保留原文關係；「尋找配偶困難」不能直接改成「雄象處於 estrus」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — The outcome was clearly contrary to the original expectation.",
+      "answerKey": "A — The outcome was clearly contrary to the original expectation.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the author’s attitude towards the experiment using three different recordings in the last paragraph?”",
+      "translation": "作者對最後一段使用三種不同錄音的實驗抱甚麼態度？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "但要注意：A 是四個選項中最接近的一項；更精準的原文意思是「結果的清晰程度超出預期」。"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Multiple Choice，而且問 attitude。因此不能只找實驗器材或錄音種類，要細讀最後一段中的評價詞，例如：● expected● fascinating● unfamiliar● didn’t expect● clear-cut這題的難度在於：四個選項都不算完美。原文真正表達的是「部分結果符合研究者原先預期，但結果清楚到令她意外」。如果必須在 A–D 中選一個，A 最接近出題方向，因為它抓到 unexpected和 clear 兩個元素；不過 contrary 一字比原文強。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last year, an experiment was set up in the hope of solving that problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，一項實驗被設計出來，希望解決那個問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I didn’t expect the results to be that clear-cut.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我沒有預期結果會如此清楚明確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 8 的功能：這段描述一項後續實驗，並在結尾給出研究者對結果的反應。題目問 attitude，所以最後一句尤其重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● experiment● three different recordings● attitude● last paragraph原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It used three different recordings—the 1994 warning call from Mushara, an anti-predator call recorded by scientist Joyce Poole in Kenya and an artificial warbling tone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實驗使用三種不同錄音：1994 年 Mushara 的 warning call、科學家 Joyce Poole 在 Kenya 錄下的 anti-predator call，以及人工製造的 warbling tone。"
+            },
+            {
+              "kind": "label",
+              "text": "後面是態度句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The data I’ve observed to this point imply that the elephants were responding the way I always expected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，我觀察到的數據顯示，大象的反應方式和我一直預期的相符。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the fascinating finding is that the anti-predator call from Kenya, which is unfamiliar to them, caused them to gather around, tense up and rumble aggressively as well—but they didn’t always flee.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，令人著迷的發現是，來自 Kenya、對牠們來說並不熟悉的 anti-predator call，也使牠們聚集、緊張起來，並發出具攻擊性的 rumble，但牠們並不總是逃走。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“I didn’t expect the results to be that clear-cut.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我沒有預期結果會如此清楚明確。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀態度"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段有兩層態度，學生很容易只看其中一層。"
+            },
+            {
+              "kind": "label",
+              "text": "第一層："
+            },
+            {
+              "kind": "quote",
+              "text": "“the elephants were responding the way I always expected”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：整體而言，大象反應方向和 O’Connell-Rodwell 的預期一致。這一句會排除 B 和 C，因為資料不是混亂到無法取得，也不是明顯不準確。"
+            },
+            {
+              "kind": "label",
+              "text": "第二層："
+            },
+            {
+              "kind": "quote",
+              "text": "“the fascinating finding” 和 “I didn’t expect the results to be that clear-cut.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：她覺得其中一個發現很吸引，而且結果清楚程度超出預期。clear-cut 指界線清楚、結果明確。這不是「資料不清楚」，而是「結果比預期更清楚」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，最精準的態度應該是： surprised by the clarity of the results即「對結果如此清楚感到驚訝」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是四個選項中沒有這個說法。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A — The outcome was clearly contrary to the original expectation.這是最接近出題意圖的一項，但要小心它的措辭。原文並沒有說整個 outcome 和原先expectation 完全相反；相反，原文說 responding the way I always expected。不過，最後一句 I didn’t expect the results to be that clear-cut 顯示結果的清晰程度出乎預期。若考試要求四選一，A 抓到「出乎預期」和「clear」兩點，所以可視為 intended answer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — The data could not be obtained clearly.錯。原文說 The data I’ve observed，而且結果 clear-cut。這和「資料無法清楚取得」方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — The result was somewhat inconclusive or inaccurate.錯。clear-cut 的意思剛好是清楚、明確，不支持 inconclusive。雖然大象 didn’t always flee，但牠們有 gather around、tense up、rumble aggressively 等清楚反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — The result would be unfamiliar to the public.錯。原文的 unfamiliar to them 指的是 Kenya anti-predator call 對大象來說不熟悉，不是對public 不熟悉。這是典型的代詞指涉錯項。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文真正支持的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“I didn’t expect the results to be that clear-cut.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更準確意思：結果清楚明確的程度超出預期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A： clearly contrary to the original expectation對應得不完全貼合。它把「清晰程度超出預期」寫成「結果與原先預期相反」。所以這題若按嚴格閱讀標準，A 的 wording 偏重；但 A 仍是四個選項中唯一接近原文驚訝態度的一項。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最大的中伏位是 D。原文說 which is unfamiliar to them，其中 them 指大象。選項 D 把unfamiliar 轉移到 public，主體完全改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個中伏位是 C。學生看到 they didn’t always flee，可能覺得結果不一致。但原文用clear-cut 評價結果，所以不能把「不一定逃走」理解成「結果不清楚」。牠們雖然不總是逃走，仍然有聚集、緊張和 aggressive rumbling 這些明確反應。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Elephant Communication.pdf",
+    "sha256": "a44f9bee012d084bf9780f4cab0f459a5d7be2caf2887bb94955375ccdabc8bf",
+    "pageCount": 32
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 介紹 O’Connell-Rodwell 到 Namibia 研究大象溝通，並點出核心發現：大象能用1 人類聽不到的低頻聲音作長距離溝通。 Paragraph 從耳朵結構入手，指出大象內耳的 hammer bone 特別巨大，可能與接收震動訊2 號有關。 Paragraph 詳細說明大象身體結構如何支援 seismic sound：massive bodies、toe bones、3 fatty pad、enormous brain、sinus cavities。 Paragraph 討論大象可能透過 trunks and feet 感應震動，並指出其 nerve endings 可偵測不4 同頻率的震動。 Paragraph 把大象研究放入 broader scientific context：小型動物早已被證實會 seismic 5 communication，而 O’Connell-Rodwell 首次提出大型陸生動物也能傳送和接收seismic signals。 Paragraph 解釋長距離溝通對大象生存的重要性，尤其涉及尋找 mate 和 predator warnings 6 。 Paragraph 介紹 2002 年實驗，測試大象是否能只透過 ground 接收 warning signals，結果7 顯示牠們確實可以。 Paragraph 介紹使用三種錄音的後續實驗，尤其是 unfamiliar Kenyan anti-predator call 引8 發大象反應，結果比研究者預期更清楚。",
+        "label": "段落 段落功能"
+      }
+    ]
+  }
+}

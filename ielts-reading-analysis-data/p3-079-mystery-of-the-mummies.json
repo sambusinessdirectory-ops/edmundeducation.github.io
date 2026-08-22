@@ -1,0 +1,1359 @@
+{
+  "id": "p3-079-mystery-of-the-mummies",
+  "catalogueId": "p3-079",
+  "catalogueIds": [
+    "p3-079"
+  ],
+  "passage": 3,
+  "title": "Mystery of the mummies",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "stock market instability",
+    "real estate",
+    "hunt for foreclosures",
+    "mortgage repayments",
+    "their money",
+    "such bargains",
+    "to overborrow",
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "stock market instability",
+      "answerKey": "stock market instability",
+      "type": "Short-answer Questions",
+      "prompt": "Question 27",
+      "translation": "投資者正在厭倦甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What are investors getting fed up with?"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As investors tire of stock market instability, the idea of owning a piece of real estate is gaining in popularity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於投資者厭倦股市不穩，擁有一份房地產的想法正越來越受歡迎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here are some tips from successful real-estate mogul Janet Anderson on how to start building up your property portfolio.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以下是成功房地產大亨 Janet Anderson 提供的一些建議，教你如何開始建立自己的物業投資組合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “getting fed up with” 對應原文的 tire of。掃描 Paragraph 1 第一行就找到 “investors tire of…” 這個結構。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“investors tire of stock market instability”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以投資者厭倦的是 stock market instability。這是三個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● getting fed up with = tire of● investors = investors● answer = stock market instability所以 27 是 stock market instability。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "real estate",
+      "answerKey": "real estate",
+      "type": "Short-answer Questions",
+      "prompt": "Question 28",
+      "translation": "Janet Anderson 從事物業買賣。Paragraph 1 用哪個另一個說法形容這類業務？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Janet Anderson is involved in the sale of property. What is another phrase used in paragraph 1 to describe this type of business?"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As investors tire of stock market instability, the idea of owning a piece of real estate is gaining in popularity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於投資者厭倦股市不穩，擁有一份房地產的想法正越來越受歡迎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here are some tips from successful real-estate mogul Janet Anderson on how to start building up your property portfolio.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以下是成功房地產大亨 Janet Anderson 提供的一些建議，教你如何開始建立自己的物業投資組合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “sale of property” 其實是在問 property business 的另一種講法。Paragraph 1 同時出現：● “real estate”● “real-estate mogul”● “property portfolio”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最貼近 “sale of property / property business” 的詞是 real estate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“real-estate mogul” 是形容 Janet Anderson 這個人，即「房地產大亨」；若只問業務類型，答案取real estate 最自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● property = real estate● involved in the sale of property = real-estate business context所以 28 是 real estate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "hunt for foreclosures",
+      "answerKey": "hunt for foreclosures",
+      "type": "Short-answer Questions",
+      "prompt": "Question 29",
+      "translation": "在物業市場中，找出 bargain 的最佳方法之一是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is one of the best ways to identify a bargain in the property market?"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Janet, one of the best ways to identify a bargain is to hunt for foreclosures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Janet 認為，找出筍盤的最佳方法之一，就是尋找被銀行收回的物業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a house with a market value nearing $1,000,000 … went for $450,000; that’s a whopping 55% discount.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一間市值接近一百萬美元的房屋，以四十五萬美元成交；這是高達 55% 的折扣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎照抄原文：● one of the best ways● identify a bargain原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the best ways to identify a bargain is to hunt for foreclosures.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填的是方法，所以要保留動詞短語 hunt for foreclosures。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果只填 “foreclosures”，意思也接近，但題目問 “What is one of the best ways”，動作短語更完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 hunt for foreclosures。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "mortgage repayments",
+      "answerKey": "mortgage repayments",
+      "type": "Short-answer Questions",
+      "prompt": "Question 30",
+      "translation": "未能支付哪一種款項會令房屋被收回？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Failure to meet which payments can cause your home to be repossessed?"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Janet, one of the best ways to identify a bargain is to hunt for foreclosures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Janet 認為，找出筍盤的最佳方法之一，就是尋找被銀行收回的物業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a house with a market value nearing $1,000,000 … went for $450,000; that’s a whopping 55% discount.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一間市值接近一百萬美元的房屋以四十五萬美元成交，折扣達 55%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “repossessed” 直接在原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Foreclosures are properties banks have repossessed because their owners were unable to meet the mortgage repayments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Foreclosures 是銀行已收回的物業，原因是業主未能支付按揭還款。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “which payments”，所以答案要是一種付款項目。原文說業主未能 meet the mortgage repayments，因此房屋被 repossessed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 mortgage repayments。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "their money",
+      "answerKey": "their money",
+      "type": "Short-answer Questions",
+      "prompt": "Question 31",
+      "translation": "對於被收回的物業，銀行想快速取回甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What do banks want to get back quickly on foreclosed properties?"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Janet, one of the best ways to identify a bargain is to hunt for foreclosures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Janet 認為，找出筍盤的最佳方法之一，就是尋找被銀行收回的物業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a house with a market value nearing $1,000,000 … went for $450,000; that’s a whopping 55% discount.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一間市值接近一百萬美元的房屋以四十五萬美元成交，折扣達 55%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “banks want to get back quickly” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“They want to cut their losses and get their money back as quickly as possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "銀行想減少損失，並盡快取回自己的錢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what”，答案就是銀行想 get back 的東西：their money。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● quickly = as quickly as possible● get back = get back● banks = they所以 31 是 their money。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "such bargains",
+      "answerKey": "such bargains",
+      "type": "Short-answer Questions",
+      "prompt": "Question 32",
+      "translation": "建立人脈是找到甚麼的好方法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Developing networks is an excellent way to find what?"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Janet, one of the best ways to identify a bargain is to hunt for foreclosures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Janet 認為，找出筍盤的最佳方法之一，就是尋找被銀行收回的物業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a house with a market value nearing $1,000,000 … went for $450,000; that’s a whopping 55% discount.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一間市值接近一百萬美元的房屋以四十五萬美元成交，折扣達 55%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “Developing networks” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Developing a network – making connections with city clerks and bank employees who know which properties are about to be sold – can be an excellent way to identify such bargains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建立人脈，即和知道哪些物業即將出售的市政職員和銀行員工建立聯繫，可以是找出這類筍盤的好方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “identify” 改寫成 “find”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的答案短語是 such bargains，指前文那些銀行想快速出售、可能低價成交的foreclosures。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 such bargains。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "to overborrow",
+      "answerKey": "to overborrow",
+      "type": "Short-answer Questions",
+      "prompt": "Question 33",
+      "translation": "根據 Anderson，首次投資者可能犯的最大判斷錯誤是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is the biggest error of judgement first-time investors can make, according to Anderson?"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s also important to be realistic though and not stretch yourself too far financially.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，保持現實也很重要，不要在財務上把自己拉得太盡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s more of your money on the table and, therefore, should anything go wrong, you’re in for a big financial hit.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表你投入了更多自己的錢；因此，一旦出問題，你會面對很大的財務打擊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “biggest error of judgement” 對應原文的 “biggest mistake”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Anderson” 對應 Janet 的說法。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Janet says the biggest mistake you can make is to borrow too much—in other words, to overborrow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Janet 說，你能犯的最大錯誤就是借太多錢；換句話說，就是過度借貸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先用普通說法 “borrow too much”，再用解釋性短語 “to overborrow”。題目問 biggest error，可以直接填 to overborrow。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● biggest error of judgement = biggest mistake● borrow too much = overborrow所以 33 是 to overborrow。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Banks demand larger deposits from first-time property investors.",
+      "translation": "銀行會向首次物業投資者要求較大首期。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s also important to be realistic though and not stretch yourself too far financially.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "保持現實也很重要，不要在財務上把自己拉得太盡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s more of your money on the table and, therefore, should anything go wrong, you’re in for a big financial hit.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表你投入了更多自己的錢；因此，一旦出事，你會面對很大的財務打擊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● first-time investors● demand● larger deposits原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“For first-time investors, lenders usually demand bigger down payments because you haven’t got a proven track record.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對首次投資者來說，貸款方通常會要求較大首期，因為你沒有已被證明的往績。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Banks” 對應原文的 “lenders”。在按揭語境中，銀行是典型貸款方，所以這個概括可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“larger deposits” 對應 “bigger down payments”。“first-time property investors” 對應 “first-time investors”，因為全文語境就是 property investment。題目和原文方向一致，所以 34 是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "By making a larger deposit, investors can limit their personal financial risk.",
+      "translation": "投資者付較大首期，可以限制自己的個人財務風險。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s also important to be realistic though and not stretch yourself too far financially.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "保持現實也很重要，不要在財務上把自己拉得太盡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s more of your money on the table and, therefore, should anything go wrong, you’re in for a big financial hit.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這代表你投入了更多自己的錢；因此，一旦出問題，你會面對很大的財務打擊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● larger deposit● financial risk● limit原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s more of your money on the table and, therefore, should anything go wrong, you’re in for a big financial hit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那表示你有更多自己的錢押在裡面；因此，若任何事情出錯，你會受到很大的財務打擊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 larger deposit 可以 limit risk。原文的方向相反：較大首期代表更多自己的錢已投入交易，一旦出事，損失會更大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：● 題目：larger deposit → lower / limited personal risk● 原文：bigger down payment → more money exposed → big financial hit if things go wrong原文提供相反方向，所以 35 是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "There are a lot of long-term costs to take into consideration before purchasing a rental property.",
+      "translation": "購買出租物業前，有很多長期成本要考慮。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Her business partner, James Nylles, is in complete agreement on this point.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的生意拍檔 James Nylles 在這一點上完全同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Failure to factor these in when calculating how much you can afford to part with in mortgage repayments can lead to disaster.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果計算自己能負擔多少按揭還款時沒有把這些成本算進去，可能會導致災難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● long-term costs● rental property● take into consideration原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also highlights the fact that the mortgage payments and deposits are only part of the long-term cost of buying a rental property.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也強調，按揭還款和首期只是購買出租物業長期成本的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also the cost of repairs, administration and maintenance, property manager’s fees, insurance and so on…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "還有維修、行政、保養、物業經理費、保險等等成本。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出多項成本：● repairs● administration● maintenance● property manager’s fees● insurance題目中的 “a lot of long-term costs” 正好概括這一串項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“take into consideration” 對應原文的 “factor these in”。所以 36 是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Banks require you to hold a lot of money in reserve to meet your long-term property maintenance costs.",
+      "translation": "銀行要求你持有很多 reserve money，以應付長期物業維修成本。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Her business partner, James Nylles, is in complete agreement on this point.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的生意拍檔 James Nylles 在這一點上完全同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Failure to factor these in when calculating how much you can afford to part with in mortgage repayments can lead to disaster.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果計算自己能負擔多少按揭還款時沒有把這些成本算進去，可能會導致災難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● banks require● money in reserve● maintenance costs原文找到 reserve 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also the cost of repairs, administration and maintenance, property manager’s fees, insurance and so on, all of which require you to hold a significant amount of money in reserve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "還有維修、行政、保養、物業經理費、保險等等成本；這些都令你需要持有一大筆備用資金。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說你需要 hold a significant amount of money in reserve。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過題目多加了一個主體：Banks require you。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “require” 由這些成本造成：● repairs● administration● maintenance● fees● insurance文章沒有說銀行要求你持有 reserve money。銀行在 Paragraph 3 被提到的要求是 bigger down payments；reserve money 這部分由長期成本本身造成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以資料鏈是：● 原文有：long-term costs require reserve money● 原文沒有：banks require reserve money沒有明確相反資料，但缺少 “banks” 這個核心要求來源，所以 37 是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Many investors are tempted to pay more than they should for their investment properties.",
+      "translation": "很多投資者會受誘惑，為投資物業付出高於合理水平的價錢。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the biggest traps for first-time investors, according to Nylles, is the temptation to pay over the odds to get the property you desire.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nylles 認為，首次投資者最大的陷阱之一，是為了得到想要的物業而被誘惑付出過高價錢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…if the tiny flat gets you a better return on your investment then the choice is a no-brainer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果那個細單位能帶來更好的投資回報，那選擇它就是很容易決定的事。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● tempted● pay more than they should● investment properties原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the temptation to pay over the odds”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被誘惑去付出高於合理水平的價錢。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Buyers often get carried away…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "買家經常變得太投入、失去冷靜。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “pay more than they should” 對應原文 “pay over the odds”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Many investors” 對應原文 “Buyers often get carried away”。雖然原文用 buyers，不直接用investors，但全文語境是 first-time property investors。所以 38 是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "At the moment, house prices are extremely high in general.",
+      "translation": "目前整體樓價非常高。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the biggest traps for first-time investors, according to Nylles, is the temptation to pay over the odds to get the property you desire.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nylles 認為，首次投資者最大的陷阱之一，是被誘惑而為想要的物業付出過高價錢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…if the tiny flat gets you a better return on your investment then the choice is a no-brainer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果細單位帶來較好投資回報，那選擇它就是很容易的決定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● at the moment● house prices● extremely high原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The good news, however, is that the housing market is not very hot at the moment, which means the danger of overpaying is not so great.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "好消息是，目前樓市不算很熾熱，這代表付出過高價錢的風險沒有那麼大。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 house prices are extremely high in general。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 housing market is not very hot at the moment，並補充 danger of overpaying is not so great。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 “extremely high” 的方向不相容。原文呈現的是市場沒有很熱、過度付款風險較低；題目卻說整體樓價極高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "There are a lot of urban renewal projects that have been earmarked by the government.",
+      "translation": "有很多已被政府指定的都市更新項目。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And last of all, do your homework.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，要做好資料搜集。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Invest in a good location and you will maximize your rental income.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "投資在好地點，你就能把租金收入最大化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● urban renewal● earmarked● government原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Look out for areas which are earmarked for government investment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要留意那些已被指定接受政府投資的地區。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urban renewal areas are often very attractive since house and rental prices in such places are low right now but can be expected to rise in the not too distant future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "都市更新地區通常很有吸引力，因為這些地方目前樓價和租金較低，但不久將來可望上升。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到：● areas earmarked for government investment● urban renewal areas are often attractive不過題目加入兩個原文沒有明確提供的元素： 1. a lot of：數量很多2. urban renewal projects that have been earmarked by the government：把 urban renewal projects 和 government earmarking 直接綁在一起文章只叫投資者留意已被指定作政府投資的地區，並說 urban renewal areas 通常吸引。它沒有說有很多 such projects，也沒有明確說大量都市更新項目已被政府 earmarked。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. stock market instability 28. real estate 29. hunt for foreclosures 30. mortgage repayments 31. their money 32. such bargains 33. to overborrow 34. YES 35. NO 36. YES 37. NOT GIVEN 38. YES 39. NO 40. NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Mystery of the mummies.pdf",
+    "sha256": "e921cca6679052a84b984bd4df20f12ef9faddf8a39667c8c9a6dd2edb051ee8",
+    "pageCount": 20
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說投資者厭倦股市不穩，因此擁有房地產的想法越來越受歡迎；尾句介紹成功房地產大亨Janet Anderson，並說她會分享如何建立 property portfolio。只看首尾句，可以先估計本段是全文引入：投資者由股票轉向房地產，文章將提供入門建議。這段很可能回答 investors fed up with what、real estate、property portfolio、Janet Anderson 身份等直接題。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Janet 認為找 bargain 的其中一個最佳方法是 hunt for foreclosures；尾句舉例，一間市值接近一百萬美元的房屋，在 fire-sale auction 中以四十五萬美元成交，折扣達 55%。只看首尾句，可見本段會解釋 foreclosures 是甚麼、銀行為何急售，以及如何透過人脈找到低價物業。 Questions 29–32 幾乎都集中在這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句提醒投資者要現實，不能在財務上把自己拉得太盡；尾句說對首次投資者來說，貸款方通常要求較大首期，一旦出事，財務打擊會很大。只看首尾句，可見本段主題是 borrowing risk，尤其是 first-time investors、larger down payments 和 overborrow。這段會回答 Question 33，也支援Questions 34–35 的判斷。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Janet 的生意拍檔 James Nylles 完全同意這一點；尾句說若計算可負擔 mortgage repayments 時沒有把維修、管理、保險等成本算進去，可能造成災難。只看首尾句，可以估計本段集中在 rental property 的長期成本。這段會回答 Questions 36–37：文章支持有大量長期成本，但是否由銀行要求 reserve 要再細讀。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Nylles 認為首次投資者最大陷阱之一，是被誘惑而付出高於合理水平的價錢；尾句說如果tiny flat 帶來較高投資回報，選擇它就是 no-brainer。只看首尾句，可見本段主題是不要受情緒或競投氣氛影響，要用商業角度看物業。這段支援 Question 38，也支援 Question 39，因為它提到當前 housing market 不算 very hot。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說最後一點是 do your homework；尾句說投資在好地點能最大化 rental income。只看首尾句，可以判斷本段處理 location research：投資前要了解地區、政府投資、urban renewal、local amenities、安全和本地經濟。這段會回答 Question 40，但要留意題目說 “a lot of urban renewal projects”，原文有相關概念，未必有數量證據。"
+      }
+    ]
+  }
+}

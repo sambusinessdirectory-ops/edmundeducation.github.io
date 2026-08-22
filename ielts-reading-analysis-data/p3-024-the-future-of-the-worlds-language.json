@@ -1,0 +1,857 @@
+{
+  "id": "p3-024-the-future-of-the-worlds-language",
+  "catalogueId": "p3-024",
+  "catalogueIds": [
+    "p3-024"
+  ],
+  "passage": 3,
+  "title": "The future of the World’s Language",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D — minority",
+    "J —disappearance",
+    "C — funding",
+    "B — significance",
+    "F — difference",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "A",
+    "A",
+    "D",
+    "B",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — minority",
+      "answerKey": "D — minority",
+      "type": "Summary Completion",
+      "prompt": "“Most of the world’s languages are spoken by only a 27 ______ of people.”",
+      "translation": "世界上大部分語言只由一小部分人使用。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In short, 95 per cent of the world’s languages are spoken by only 5 per cent of its population…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡單來說，世界上 95% 的語言只由 5% 的人口使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Most of the world’s languages” 對應原文 “95 per cent of the world’s languages”。題目中的 “only a ___ of people” 對應原文 “only 5 per cent of its population”。5% 明顯是少數，因此答案是 minority。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● 95 per cent of the world’s languages = most of the world’s languages● only 5 per cent of its population = a minority of people所以 27 是 D — minority。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "J — disappearance",
+      "answerKey": "J — disappearance",
+      "type": "Summary Completion",
+      "prompt": "“However, Professor Turin set up a project WOLP to prevent 28 ______ of the languages.”",
+      "translation": "Turin 教授成立 WOLP，是為了防止語言消失。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mark Turin, a university professor, has launched WOLP (World Oral Literature Project) to prevent languages from reaching the brink of extinction.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學教授 Mark Turin 創立了 WOLP，目的是防止語言走到滅絕邊緣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“reaching the brink of extinction” 指到達滅絕邊緣。題目把這個意思概括成 prevent the ___ of the languages，即防止語言消失。選項中最貼近 extinction 的是 disappearance。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● reaching the brink of extinction= approaching disappearance= 接近消失／滅絕所以 28 是 J — disappearance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — funding",
+      "answerKey": "C — funding",
+      "type": "Summary Completion",
+      "prompt": "“The project provides the community with 29 ______ to enable people to record their endangered languages.”",
+      "translation": "這個項目向社群提供資金，讓人們能記錄瀕危語言。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He is trying to encourage indigenous communities to collaborate with anthropologists around the world to record what he calls ‘oral literature’ through video cameras, voice recorders and other multimedia tools by awarding grants from a £30,000 pot…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他嘗試鼓勵原住民社群與世界各地的人類學家合作，透過攝影機、錄音機和其他多媒體工具記錄他所稱的「口述文學」；做法是從一筆 30,000 英鎊的資金中提供 grants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “provides the community with ___” 對應原文 “awarding grants”。grants 指資助、補助金，所以答案是 funding。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● awarding grants= providing funding= 提供資助所以 29 是 C — funding。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — significance",
+      "answerKey": "B — significance",
+      "type": "Summary Completion",
+      "prompt": "“The oral tradition has great cultural 30 ______.”",
+      "translation": "口述傳統具有重大的文化意義。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For many of these communities, the oral tradition is at the heart of their culture.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多這些社群來說，口述傳統位於其文化的核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“at the heart of their culture” 表示它不是邊緣元素，而是文化核心。題目把這個意思改寫成 “great cultural significance”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● at the heart of their culture= has great cultural significance= 具有重要文化意義所以 30 是 B — significance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "F — difference",
+      "answerKey": "F — difference",
+      "type": "Summary Completion",
+      "prompt": "“An important 31 ______ exists between languages spoken by few people and languages with celebrated written traditions.”",
+      "translation": "少數人使用的語言和擁有著名書面傳統的語言之間，有一個重要差異。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike the languages with celebrated written traditions, such as Sanskrit, Hebrew and Ancient Greek, few indigenous communities have recorded their own languages or ever had them recorded until now.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 Sanskrit、Hebrew、Ancient Greek 等擁有著名書面傳統的語言相比，少數 indigenous communities 曾經記錄自己的語言，或曾讓自己的語言被記錄下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Unlike” 是最重要的訊號，表示後面在作對比。題目中的 “languages spoken by few people” 對應indigenous communities 的語言；“languages with celebrated written traditions” 原文直接重現。兩者之間存在的，是 difference。所以 31 是 F — difference。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Turin argued that anthropologists and linguists usually think carefully before selecting an area to research.”",
+      "translation": "Turin 認為人類學家和語言學家通常會仔細思考，才選擇研究地區。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At random, Turin chose a ‘pin’ to document.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Turin 隨機選了一個「圖釘」所代表的語言來記錄。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Turin 自己的說法："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Many of the choices made by anthropologists and linguists working on these traditional fieldwork projects are quite random,” he admits."
+            },
+            {
+              "kind": "paragraph",
+              "text": "他承認，從事這些傳統田野研究項目的人類學家和語言學家所作的很多選擇，其實相當隨機。題目說 “usually think carefully”，原文說 “quite random”。兩者方向相反。反向改寫：● think carefully before selecting= carefully planned choice● quite random= chosen without careful systematic selection所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “usually” 加強了命題範圍，但原文的 “many … are quite random” 明確指出很多選擇並不經過仔細規劃。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Turin concluded that the Thangmi language had few similarities with other languages.”",
+      "translation": "Turin 得出結論，Thangmi 語言和其他語言相似之處很少。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 5–6原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Continuing his work with the Thangmi community in the 1990s, Turin began to record the language he was hearing, realising that the language and its culture were not only entirely undocumented but also known to few outside the tiny community.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1990 年代，Turin 繼續與 Thangmi 社群合作，開始記錄他聽到的語言，並意識到這種語言及其文化不但完全沒有被記錄，也很少被小社群以外的人知道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說的是：● Thangmi language entirely undocumented；● its culture known to few outside the community。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它沒有比較 Thangmi 和其他語言的相似程度。後面也只說 Turin 寫 grammar、製作 trilingual word list、字典在學校使用，仍然沒有提到 similarities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據是：● Thangmi had few similarities with other languages；● 或 Thangmi was very different from other languages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供這個比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“entirely undocumented” 容易令人誤以為這種語言很獨特、和其他語言差異很大。但undocumented 只是「未被記錄」，不等於「與其他語言相似度低」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Turin concluded that the 1,000-page document he had written was inappropriate for the Thangmi community.”",
+      "translation": "Turin 得出結論，他寫的 1,000 頁文件不適合 Thangmi 社群使用。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I wrote 1,000 pages of grammar in English that nobody could use—but I realised that wasn’t enough. It wasn’t enough for me, it wasn’t enough for them. It simply wasn’t going to work as something for the community.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我用英文寫了 1,000 頁語法，沒有人能使用；但我意識到這並不足夠。對我來說不夠，對他們來說也不夠。它根本不能成為一個對社群有效的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “inappropriate for the Thangmi community” 對應原文 “nobody could use” 和 “wasn’t going to work as something for the community”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● inappropriate for the community= not useful / not workable for the community= nobody could use it所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some Nepalese schools lack resources to devote to language teaching.”",
+      "translation": "一些尼泊爾學校缺乏用於語言教學的資源。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That small dictionary is still sold in local schools for a modest 20 rupees, and used as part of a wider cultural regeneration process to educate children about their heritage and language.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "那本小字典仍然在當地學校以低廉的 20 盧比售賣，並作為更廣泛的文化復興過程一部分，用來教育孩子認識自己的傳統和語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提到 local schools，也提到 educate children about heritage and language，但沒有說學校缺乏資源。20 rupees 表示字典價格低廉，不能推出學校資源不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據是：● schools lack resources；● resources for language teaching are insufficient；● 或 schools cannot afford materials。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供這些資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Multiple Choice",
+      "prompt": "“Why does Turin say people do PhDs on the apostrophe in French?”",
+      "translation": "為甚麼 Turin 說有人會研究 French apostrophe 作博士論文？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are more linguists in universities around the world than there are spoken languages—but most of them aren’t working on this issue.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界各地大學裡的語言學家比口頭語言的數量還多，但他們大多沒有研究這個問題。"
+            },
+            {
+              "kind": "label",
+              "text": "接著 Turin 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“People do PhDs on the apostrophe in French, yet we still don’t know how many languages are spoken.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人以法文撇號作博士研究，但我們仍然不知道世界上到底有多少語言正在被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句不是單純批評 French，也不是在比較 research methods。它的功能是指出：語言學界有很多研究人員，但不少研究集中於非常細微、已高度研究的題目；相比之下，瀕危語言和世界語言多樣性的基本資料仍未完整。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“He believes that researchers have a limited role in the research of languages.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項 wording 稍闊，但在四個選項中最接近原文：Turin 的意思是，研究者在瀕危語言和世界語言多樣性這個重要議題上的投入有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： B “He compares the methods of research into languages.”原文沒有比較研究方法，只是批評研究焦點太狹窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “He thinks research should result in a diverse cultural outlook.”原文談 linguistic diversity 的資料不完整，沒有說研究一定要帶來 cultural outlook。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “He holds that research into French should focus on more general aspects.” French apostrophe 只是例子，Turin 的重點不在 French research 本身。他真正批評的是語言學研究資源沒有投放到瀕危語言記錄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Multiple Choice",
+      "prompt": "“What is discussed in the ninth paragraph?”",
+      "translation": "第九段討論甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9 Paragraph 9 開頭："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, despite the struggles facing initiatives such as the World Oral Literature Project, there are historical examples that point to the possibility that language restoration is no mere academic pipe dream.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 World Oral Literature Project 這類計劃面對不少困難，歷史上仍有一些例子指出，語言復興並非純粹的學術幻想。"
+            },
+            {
+              "kind": "label",
+              "text": "然後原文舉 Hebrew 為例："
+            },
+            {
+              "kind": "quote",
+              "text": "“The revival of a modern form of Hebrew in the 19th century is often cited as one of the best proofs that languages long dead, belonging to small communities, can be resurrected and embraced by a large number of people.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "19 世紀現代希伯來語的復興，常被視為最佳證據之一，說明長期死亡、屬於小社群的語言也能復活，並被大量人口接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是提供 historical example，說明 endangered 或 long-dead languages 有復興可能。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Factors that lead people to believe endangered languages can survive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。Hebrew 的復興例子使人相信語言恢復有可能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： B 說有人不信任 language revival，原文沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說研究方法改善 language restoration，原文沒有講方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 WOLP 在 Israel 的 initiatives，原文只是舉 Hebrew / Israel 作歷史例子，沒有說 WOLP 在Israel 做項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Multiple Choice",
+      "prompt": "“What are the prospects for the WOLP?”",
+      "translation": "WOLP 的前景如何？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 11原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the meantime, the race is on to collect and protect as many of the languages as possible…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，人們正在爭分奪秒地收集和保護盡可能多的語言。"
+            },
+            {
+              "kind": "label",
+              "text": "但 Turin 也很 realistic："
+            },
+            {
+              "kind": "quote",
+              "text": "“We have to be wholly realistic. A project like ours is in no position, and was not designed, to keep languages alive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們必須完全現實。像我們這樣的項目沒有能力，也不是為了讓語言保持活著而設計。"
+            },
+            {
+              "kind": "label",
+              "text": "然後說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only people who can help languages survive are the people in those communities themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一能幫助語言存活的人，是那些社群成員自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾句合起來表示：WOLP 可以記錄、收集、保護語言資料，也可以提醒社群語言的重要性；但它不能單靠自己令語言繼續作為日常活語存在。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has a chance of protecting endangered languages.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。這和 “collect and protect as many of the languages as possible” 對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A 說它籌不到足夠資金，原文沒有這個結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說它會 help keep languages alive，太強。原文清楚說 WOLP “was not designed to keep languages alive”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說它會被大量人接受，這是 Paragraph 9 Hebrew 的情況，不是 WOLP 的前景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Multiple Choice",
+      "prompt": "“What is Turin’s main point about globalisation?”",
+      "translation": "Turin 對全球化的主要觀點是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I call it the globalisation paradox: on the one hand globalisation and rapid socioeconomic change are the things that are eroding and challenging diversity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我稱它為全球化悖論：一方面，全球化和快速社會經濟變化正在侵蝕並挑戰多樣性。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But on the other, globalisation is providing us with new and very exciting tools and facilities to get to places to document those things that globalisation is eroding.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但另一方面，全球化也為我們提供新的、非常令人興奮的工具和設施，讓我們可以到達不同地方，記錄那些正被全球化侵蝕的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明確指出 globalisation 有兩面：● disadvantages：eroding and challenging diversity；● advantages：providing tools and facilities for documentation。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Globalisation has both advantages and disadvantages.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A 只講 globalisation 是語言瀕危主因，沒有涵蓋工具和機會的一面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說應更批判地看 globalisation，太籠統，而且忽略正面功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說首要任務是保護 identity，這和文章整體主題有關，但不是 Turin 對 globalisation 的主要point。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Multiple Choice",
+      "prompt": "“What does Turin suggest that members of communities should do?”",
+      "translation": "Turin 建議社群成員應該做甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 11原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only people who can help languages survive are the people in those communities themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一能幫助語言存活的人，是那些社群成員自己。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They need to be reminded that it’s good to speak their own language and I think we can help them do that—becoming modern doesn’t mean you have to lose your language.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們需要被提醒：說自己的語言是好的；我認為我們可以幫助他們做到這一點——變得現代化並不表示必須失去自己的語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支持選項 C。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Keep up with modern society without losing their language.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "跟上現代社會，同時不要失去自己的語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 “becoming modern doesn’t mean you have to lose your language” 的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “Learn other languages.”原文沒有建議社群成員學其他語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Only have a sense of identity.”原文提到 sense of identity，但不是只要身份感；重點是繼續說自己的語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Join the race to protect as many languages as possible but be realistic.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“race is on” 是作者描述 WOLP 和相關工作者正在做的事，不是對每個社群成員的具體建議。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The future of the World’s Language.pdf",
+    "sha256": "732a30044fdf1ba7dfdea2c9ee2f9cfda4d1c63541fb0a9bfe70b0b6bf46bced",
+    "pageCount": 17
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "介紹全球語言消失危機：世界有 6,500 種仍在使用的語言，其中約一半預計本世紀末會消失。語言分布極不平均：95% 的語言只由 5% 人口使用。最後引出 Mark Turin 創立 WOLP，希望防止語言瀕臨滅絕。"
+      },
+      {
+        "number": "2",
+        "summary": "介紹 WOLP 的做法：鼓勵 indigenous communities 與 anthropologists 合作，用 video cameras、voice recorders 等工具記錄 oral literature，並透過 grants 提供資助。目標是建立 digital archive。"
+      },
+      {
+        "number": "3",
+        "summary": "說明 oral tradition 的文化價值。對很多社群來說，口述傳統是文化核心。這些故事不只用來溝通，也有創造性。這段同時把 indigenous languages 和 Sanskrit、Hebrew、Ancient Greek 等有著名書面傳統的語言作比較。"
+      },
+      {
+        "number": "4",
+        "summary": "交代 Turin 的研究起點。他在 Nepal 教書時，因 Leiden University 教授牆上一張標示未記錄語言的地圖，隨機選中 Thangmi tribe 作研究。他承認很多 fieldwork choices 都相當 random。"
+      },
+      {
+        "number": "5",
+        "summary": "講 Turin 對 Thangmi language 的早期記錄工作。他寫了 1,000 頁英文 grammar，但發現社群無法使用，所以後來製作 Thangmi、Nepali、English 三語詞表。"
+      },
+      {
+        "number": "6",
+        "summary": "說明那本小字典是 Thangmi 語言第一次出版，並在當地學校售賣和使用。這段也交代 Nepal 語言多樣性，以及 Thangmi 語言因 Nepali 普及和長者離世而面臨傳承危機。"
+      },
+      {
+        "number": "7",
+        "summary": "Turin 批評很多 linguists 未投入瀕危語言研究。他指出，世界語言多樣性的圖像仍不完整，但不少學者卻研究極細微的題目，例如 French apostrophe。"
+      },
+      {
+        "number": "8",
+        "summary": "說明語言瀕危也代表文化世界觀瀕危。Turin 希望與 indigenous people 合作，記錄 myths and folklore，但這類研究在 Western universities 以外較難取得資助。"
+      },
+      {
+        "number": "9",
+        "summary": "提供語言復興的歷史例子：Hebrew 在 19 世紀復興，20 世紀成為 Ottoman and British Palestine猶太人口的主要語言，現時在 Israel 有超過七百萬人使用。這段用來說明語言復興並非純學術幻想。"
+      },
+      {
+        "number": "10",
+        "summary": "討論 globalisation paradox。全球化一方面侵蝕語言和文化多樣性，另一方面也提供新工具和新設施，讓人可以到不同地方記錄正在消失的文化。"
+      },
+      {
+        "number": "11",
+        "summary": "總結 WOLP 的限制和希望。Turin 承認很多語言仍會消失，WOLP 本身無法直接令語言存活；真正能令語言繼續使用的是社群成員本身。不過，WOLP 可以提醒他們：現代化不等於要失去自己的語言。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1632 @@
+{
+  "id": "p3-149-photovoltaics-on-the-rooftop",
+  "catalogueId": "p3-149",
+  "catalogueIds": [
+    "p3-149"
+  ],
+  "passage": 3,
+  "title": "Photovoltaics on the rooftop",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "B",
+    "D",
+    "G",
+    "B",
+    "H",
+    "F",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“examples of countries where electricity use is greater during the day than at night”",
+      "translation": "哪一段提到一些國家／地方，白天用電比晚上多。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The photovoltaics-powered home remains connected to the power lines, but no storage is required on-site; only a box of electronics (the inverter) to provide the interface between the photovoltaics and the grid network.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 photovoltaics 供電的住宅仍然連接電力線，但家中不需要現場儲電；只需一個電子盒，即inverter，用來連接 photovoltaics 和電網。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This occurs in places like California in the US and Japan, where air-conditioning loads for offices and factories are large but heating loads for homes are small.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況出現在美國 California 和 Japan 等地方；當地辦公室和工廠的冷氣用電負荷大，但住宅取暖負荷小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 明顯在解釋 photovoltaic system 和電力需求配合。尾句直接列出地點例子，所以很適合回答 Question 28。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “countries / electricity use / greater during the day than at night”。原文沒有逐字寫"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater during the day than at night”，但有：“during the day”"
+            },
+            {
+              "kind": "quote",
+              "text": "“excess power”"
+            },
+            {
+              "kind": "quote",
+              "text": "“factories and offices that need daytime power”"
+            },
+            {
+              "kind": "quote",
+              "text": "“places like California in the US and Japan”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字共同指向日間用電需求較高的地區。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the day, when the home may not be using much electricity, excess power from the solar array is fed back to the grid, to factories and offices that need daytime power. At night, power flows the opposite way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白天，住宅本身可能用電不多，太陽能陣列產生的多餘電力會回送到電網，供需要日間電力的工廠和辦公室使用。晚上，電力則向相反方向流動。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“This occurs in places like California in the US and Japan…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況出現在美國 California 和 Japan 等地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “factories and offices that need daytime power” 概括成 “electricity use is greater during the day than at night”。原文中的 California 和 Japan 就是例子。雖然 California 嚴格來說是美國一個州，題目用 countries 作概括，答案仍然由 Paragraph B 支援，因為原文列出 “California in the US and Japan”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“a detailed description of an experiment that led to photovoltaics being promoted throughout the country”",
+      "translation": "哪一段詳細描述一個實驗，而這個實驗後來促成 photovoltaics 在全國推廣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the US effort dropping away, the Japanese Sunshine Project came to the fore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著美國方面的努力減弱，日本 Sunshine Project 開始變得突出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With no insurmountable problems identified, the Japanese have used the experience gained from this station to begin their own massive residential photovoltaics campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於沒有發現無法克服的問題，日本利用從這個測試站取得的經驗，開始自己的大型住宅photovoltaics 推廣活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯講日本實驗站和後續大型推廣。題目中的 “experiment” 對應 test station；“promoted throughout the country” 對應 massive residential campaign。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “experiment / detailed description / promoted / throughout the country”。Paragraph D裡的強定位詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“test station”"
+            },
+            {
+              "kind": "quote",
+              "text": "“18 ‘dummy’ homes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“well-controlled test conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“massive residential photovoltaics campaign”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都指向一個具體實驗設施及後來推廣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“A large residential test station was installed on Rokko Island beginning in 1986.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1986 年開始，Rokko Island 上安裝了一個大型住宅測試站。"
+            },
+            {
+              "kind": "label",
+              "text": "細節句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This installation consists of 18 ‘dummy’ homes, each equipped with its own 2–5-kilowatt photovoltaic system…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個設施包含 18 間 dummy homes，每間都配有自己的 2–5 kW photovoltaic system。"
+            },
+            {
+              "kind": "label",
+              "text": "結果句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With no insurmountable problems identified, the Japanese have used the experience gained from this station to begin their own massive residential photovoltaics campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於沒有發現無法克服的問題，日本利用從這個測試站取得的經驗，開始大型住宅 photovoltaics推廣活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “experiment” 是對 “large residential test station” 的概括；“led to photovoltaics being promoted” 對應 “used the experience gained … to begin … massive residential photovoltaics campaign”。Paragraph D 同時有詳細實驗描述和後續推廣結果，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“the negative effects of using conventional means of generating electricity”",
+      "translation": "哪一段提到傳統發電方式的負面影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is good news, not only for the photovoltaic industry but for everyone concerned with the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對 photovoltaic 行業是好消息，對所有關心環境的人也是好消息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These targets mean that all sources of greenhouse gas emissions including residential electricity use will receive closer attention in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些目標意味著所有 greenhouse gas emissions 來源，包括住宅用電，未來都會受到更密切關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph G 會把 photovoltaics 和環境問題連起來。題目問conventional electricity generation 的負面影響，很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “negative effects / conventional means / generating electricity”。原文沒有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“conventional means” 這幾個字，但有 “fossil fuels to generate electricity”。傳統發電方式在這裡指 fossil-fuel-based electricity generation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "關鍵證據：“The use of fossil fuels to generate electricity is not only costly in financial terms, but also in terms of environmental damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 fossil fuels 發電，不單在金錢上成本高，也會造成環境損害。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gases produced by the burning of fossil fuels in the production of electricity are a major contributor to the greenhouse effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在發電過程中燃燒 fossil fuels 所產生的氣體，是 greenhouse effect 的主要貢獻者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “conventional means of generating electricity” 對應 “use of fossil fuels to generate electricity”。“negative effects” 則由 “costly in financial terms” 和 “environmental damage” 支援，其中 environmental damage 和 greenhouse effect 是最主要答案訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“an explanation of the photovoltaic system”",
+      "translation": "哪一段解釋 photovoltaic system 如何運作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The photovoltaics-powered home remains connected to the power lines, but no storage is required on-site; only a box of electronics (the inverter) to provide the interface between the photovoltaics and the grid network.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 photovoltaics 供電的住宅仍然連接電力線，但家中不需要現場儲電；只需一個 inverter，用來連接 photovoltaics 和電網。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This occurs in places like California in the US and Japan, where air-conditioning loads for offices and factories are large but heating loads for homes are small.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況出現在美國 California 和 Japan 等地方；當地辦公室和工廠冷氣用電負荷大，但住宅取暖負荷小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 已經顯示它會解釋電網、inverter、白天與夜晚的電力流動。這正是photovoltaic system 的運作說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “photovoltaic system / explanation”。原文有 “Figure 1 illustrates the system”，並且詳細說明："
+            },
+            {
+              "kind": "quote",
+              "text": "“remains connected to the power lines”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inverter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grid network”"
+            },
+            {
+              "kind": "quote",
+              "text": "“excess power … fed back to the grid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“At night, power flows the opposite way”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the day, when the home may not be using much electricity, excess power from the solar array is fed back to the grid…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白天，住宅可能用電不多，太陽能陣列產生的多餘電力會回送到電網。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“At night, power flows the opposite way. The grid network effectively provides storage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "晚上，電力向相反方向流動。電網實際上提供了儲存功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從硬件 “inverter” 講到 grid network，再講日夜電力流向，是全篇最完整的系統說明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 只簡單介紹 photovoltaics 是安裝在屋頂的 appliance；真正的 system explanation在 Paragraph B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“the long-term benefits of using photovoltaics”",
+      "translation": "哪一段提到使用 photovoltaics 的長遠好處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is likely that in the future, governments will develop building codes that attempt to constrain the energy demands of new housing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未來政府很可能制定 building codes，嘗試限制新住宅的能源需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, everyone living on the planet stands to gain from the more benign environmental impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，地球上每一個人都會從較溫和的環境影響中得益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 “in the future”，尾句有 “everyone … stands to gain”，所以這段很適合回答 long-term benefits。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “long-term benefits”。原文未必用 “long-term”，但有 “in the future”、“soon compensated”、“savings on energy bills”、“everyone … stands to gain”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although there is an initial cost in attaching the system to the rooftop, the householder’s outlay is soon compensated with the savings on energy bills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然把系統安裝到屋頂有初期成本，但住戶的支出很快會由能源賬單節省補回。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, everyone living on the planet stands to gain from the more benign environmental impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，地球上每個人都會因較溫和的環境影響而得益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “long-term benefits” 包括兩層：住戶長遠節省能源開支，以及全球環境受益。Paragraph H 正正從未來政策講到住戶和地球層面的好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“a large campaign inspired by a country’s successful example”",
+      "translation": "哪一段提到一個大型推廣活動，而它受到某個國家成功例子的啟發。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s ‘one-million-roof program’ was prompted by the experience gained in the Rokko Island test site and the success of the German 1,000-roof program.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的 “one-million-roof program” 受到 Rokko Island 測試場經驗，以及德國 1,000-roof program成功的推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under this program, entire new suburban developments are using photovoltaics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個計劃下，整個新郊區發展項目都在使用 photovoltaics。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 明顯講日本大型推廣計劃。首句直接說它受到德國成功計劃啟發。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “large campaign / inspired / successful example”。原文對應如下："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one-million-roof program” = large campaign“was prompted by” = inspired by / caused by“success of the German 1,000-roof program” = a country’s successful example"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "關鍵證據：“Japan’s ‘one-million-roof program’ was prompted by the experience gained in the Rokko Island test site and the success of the German 1,000-roof program.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本的 “one-million-roof program” 受到 Rokko Island 測試場經驗，以及德國 1,000-roof program成功的推動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “a country’s successful example” 指德國 1,000-roof program 的成功；“a large campaign” 指日本 one-million-roof program。Paragraph E 只講德國計劃本身及刺激其他歐洲國家；Paragraph F 才明確講日本大型計劃由德國成功例子推動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Photovoltaics are used to store electricity.”",
+      "translation": "Photovoltaics 是用來儲存電力的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The photovoltaics-powered home remains connected to the power lines, but no storage is required on-site; only a box of electronics (the inverter) to provide the interface between the photovoltaics and the grid network.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 photovoltaics 供電的住宅仍然連接電力線，但家中不需要現場儲電；只需 inverter 連接photovoltaics 和電網。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This occurs in places like California in the US and Japan, where air-conditioning loads for offices and factories are large but heating loads for homes are small.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種情況出現在美國 California 和 Japan 等地方，當地辦公室和工廠冷氣用電需求大，住宅取暖需求小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段一開始已出現 “no storage is required on-site”，非常適合判斷 storage 題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “store electricity / storage”。原文直接有 “no storage is required on-site” 和 “The grid network effectively provides storage.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“The photovoltaics-powered home remains connected to the power lines, but no storage is required on-site…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 photovoltaics 供電的住宅仍然連接電力線，但家中不需要現場儲電。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The grid network effectively provides storage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電網實際上提供了儲存功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 photovoltaics 用來儲電。原文說現場不需要儲電，並且由 grid network 實際提供儲存功能。Photovoltaics 的功能是把 sunlight 轉成 energy；storage 角色落在 grid network 身上。因此題目和原文衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “storage” 出現就選 TRUE，但要看 storage 的主語。原文的 storage 由"
+            },
+            {
+              "kind": "paragraph",
+              "text": "grid network 提供，沒有說 photovoltaics 本身儲電。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Since the 1970s, the US government has provided continuous support for the use of photovoltaics on homes.”",
+      "translation": "自 1970s 起，美國政府一直持續支持住宅 photovoltaics 使用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first systematic exploration of the use of photovoltaics on homes began in the US during the 1970s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "住宅 photovoltaics 使用的第一次系統性探索，於 1970s 在美國開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A change in US government priorities in the early 1980s halted this program.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1980s 初期，美國政府優先事項改變，使這個計劃停止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經看到時間衝突：1970s 開始，early 1980s 停止。題目說 continuous support，很可能不成立。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Since the 1970s / US government / continuous support”。原文有 “began in the US during the 1970s”，以及 “US government priorities … halted this program”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“A change in US government priorities in the early 1980s halted this program.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1980s 初期，美國政府優先事項改變，使這個計劃停止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題有三個部分：主體：US government時間：since the 1970s程度：continuous support對象：photovoltaics on homes原文確實說 1970s 在美國開始系統研究，但最後一句說 early 1980s 計劃被停止。這直接否定"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“continuous support”。如果一個 program 被 halted，就不能說政府從 1970s 起一直持續支持。答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 開頭的 “began in the US during the 1970s” 很吸引，但題目問的是是否"
+            },
+            {
+              "kind": "paragraph",
+              "text": "continuous。判斷要落在尾句的 “halted this program”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The solar-powered house on Rokko Island is uninhabited.”",
+      "translation": "Rokko Island 上的太陽能房屋無人居住。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the US effort dropping away, the Japanese Sunshine Project came to the fore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著美國方面的努力減弱，日本 Sunshine Project 開始變得突出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With no insurmountable problems identified, the Japanese have used the experience gained from this station to begin their own massive residential photovoltaics campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於沒有發現無法克服的問題，日本利用這個測試站的經驗，開始大型住宅 photovoltaics 推廣活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 Rokko Island test station，會有房屋是否真有人住的資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Rokko Island / house / uninhabited”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“18 ‘dummy’ homes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“non-existent occupants”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是強定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“This installation consists of 18 ‘dummy’ homes, each equipped with its own 2–5-kilowatt photovoltaic system…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個設施包含 18 間 dummy homes，每間都配有自己的 2–5 kW photovoltaic system。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of these simulated homes have their own electrical appliances… providing a lavish lifestyle for the non-existent occupants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一些模擬住宅有自己的電器，例如電視、雪櫃和冷氣機，這些電器由電腦控制開關，為不存在的住戶提供奢華生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“dummy homes”、“simulated homes”、“non-existent occupants” 都表示這些房屋用來測試，並沒有真實住戶。題目用 singular “house”，原文講 18 間，但意思一致：Rokko Island 的solar-powered test houses 沒有人居住。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文提到電視、雪櫃、冷氣機，可能讓人以為有人生活。可是後面說 “non-existent"
+            },
+            {
+              "kind": "paragraph",
+              "text": "occupants”，說明家電只是模擬住宅負載。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In 1994, the Japanese government was providing half the money required for installing photovoltaics on homes.”",
+      "translation": "1994 年，日本政府為住宅安裝 photovoltaics 提供所需費用的一半。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan’s ‘one-million-roof program’ was prompted by the experience gained in the Rokko Island test site and the success of the German 1,000-roof program.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日本 one-million-roof program 受到 Rokko Island 測試經驗和德國 1,000-roof program 成功推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under this program, entire new suburban developments are using photovoltaics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個計劃下，整個新郊區發展項目都在使用 photovoltaics。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 講日本推廣計劃和政府補貼，所以 Question 37 應定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “1994 / Japanese government / half the money”。原文直接有 “1994”、“government subsidy of 50 percent”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“The program made a modest start in 1994 when 539 systems were installed with a government subsidy of 50 percent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個計劃於 1994 年 modest start，當時安裝了 539 個系統，並有 50% 政府補貼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “half the money required” 對應 “government subsidy of 50 percent”。50% 就是一半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “installing photovoltaics on homes”，原文的 program 是 residential photovoltaics campaign，且 539 systems 指住宅安裝系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有逐字說 subsidy，但 “providing half the money required” 就是補貼 50% 的意"
+            },
+            {
+              "kind": "paragraph",
+              "text": "思。數字和政府資助方向完全一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Germany, Italy, the Netherlands and Australia all have strict goals with regard to greenhouse gas emissions.”",
+      "translation": "Germany、Italy、the Netherlands 和 Australia 都有關於 greenhouse gas emissions 的嚴格目標。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is good news, not only for the photovoltaic industry but for everyone concerned with the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對 photovoltaic 行業是好消息，對所有關心環境的人也是好消息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These targets mean that all sources of greenhouse gas emissions including residential electricity use will receive closer attention in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些目標意味著所有 greenhouse gas emissions 來源，包括住宅用電，未來都會受到更密切關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段確實提到 greenhouse gas emissions 和 targets，但未必列出具體國家。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Germany, Italy, the Netherlands and Australia / strict goals / greenhouse gas emissions”。原文有 “many governments are now proposing stringent targets”，但沒有 Italy、the Netherlands、Australia。Germany 在 Paragraph E 出現，但那裡講 rooftop program，不是greenhouse gas emissions targets。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“To deal with this problem, many governments are now proposing stringent targets on the amount of greenhouse gas emissions permitted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了處理這個問題，許多政府現在正提出對 greenhouse gas emissions 容許量的嚴格目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只支援 “many governments” 和 “stringent targets”。題目進一步指定四個國家：Germany、Italy、the Netherlands、Australia，並說它們 all have strict goals。文章沒有提供這四國名單，也沒有逐一確認它們都有這些目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Germany 在前文出現過，greenhouse gas targets 在 Paragraph G 出現過。把不同段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的相關字拼起來，仍然無法證明四個指定國家都有嚴格排放目標。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Residential electricity use is the major source of greenhouse gas emissions.”",
+      "translation": "住宅用電是 greenhouse gas emissions 的主要來源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is good news, not only for the photovoltaic industry but for everyone concerned with the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對 photovoltaic 行業是好消息，對所有關心環境的人也是好消息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These targets mean that all sources of greenhouse gas emissions including residential electricity use will receive closer attention in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些目標意味著所有 greenhouse gas emissions 來源，包括住宅用電，未來都會受到更密切關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 會講 emissions 和 residential electricity use，但題目中的 “the major source” 是程度詞，必須細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “residential electricity use / major source / greenhouse gas emissions”。原文直接出現"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“including residential electricity use”，也有 “a major contributor to the greenhouse effect”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "相關證據一：“Gases produced by the burning of fossil fuels in the production of electricity are a major contributor to the greenhouse effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在發電過程中燃燒 fossil fuels 所產生的氣體，是 greenhouse effect 的主要貢獻者。"
+            },
+            {
+              "kind": "label",
+              "text": "相關證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“These targets mean that all sources of greenhouse gas emissions including residential electricity use will receive closer attention in the future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些目標意味著所有 greenhouse gas emissions 來源，包括住宅用電，未來都會受到更密切關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章說 fossil-fuel electricity production 產生的氣體是 greenhouse effect 的 major contributor。文章也說 residential electricity use 是將來會受到關注的 emissions source 之一。可是它沒有說residential electricity use 是 “the major source”，也沒有把住宅用電和其他來源作排名比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “including residential electricity use” 提升成 “the major source”。原文只支持「住"
+            },
+            {
+              "kind": "paragraph",
+              "text": "宅用電會受到關注」，沒有支持「住宅用電排第一或最主要」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Energy-saving measures must now be included in the design of all new homes and improvements to buildings.”",
+      "translation": "所有新住宅和建築改善工程現在都必須在設計中包含節能措施。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is likely that in the future, governments will develop building codes that attempt to constrain the energy demands of new housing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未來政府很可能制定 building codes，嘗試限制新住宅的能源需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, everyone living on the planet stands to gain from the more benign environmental impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，地球上每個人都會從較溫和的環境影響中得益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句中的 “in the future” 和 “likely” 已提示這是未來可能發展；題目說 “must now”，時間和語氣都要小心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “must now / all new homes / improvements to buildings / energy-saving measures”。原文對應詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the future”"
+            },
+            {
+              "kind": "quote",
+              "text": "“likely”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may be stipulated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may also be conditional”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is likely that in the future, governments will develop building codes that attempt to constrain the energy demands of new housing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "未來政府很可能制定 building codes，嘗試限制新住宅的能源需求。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the use of photovoltaics or the equivalent may be stipulated to lessen demands on the grid network…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，使用 photovoltaics 或同等措施可能會被規定，以減少對電網的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Approvals for building renovations may also be conditional upon taking such energy-saving measures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建築翻新工程的批准，也可能以採取這類節能措施為條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “must now be included” 和 “all new homes and improvements”。原文說的是 “likely in the future”、“may be stipulated”、“may also be conditional”。這些都是未來可能性，沒有說現在已經必須，也沒有說所有新屋和所有改建工程都已受此規定約束。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了原文中的 energy-saving measures 和 building renovations 概念，但把時間由"
+            },
+            {
+              "kind": "paragraph",
+              "text": "future 改成 now，把語氣由 may / likely 改成 must。IELTS 判斷題中，時間和強制程度常常直接決定 TRUE / FALSE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Photovoltaics on the rooftop.pdf",
+    "sha256": "bced7691625d24f78352706aa8973c26e4db126c204c717539f2d24e05a31f48",
+    "pageCount": 21
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以先猜這段是全文引入。首句說過去城市屋主在電力供應方式上選擇不多，尾句解釋 solar energy 透過 photovoltaics 轉換陽光成能源，並安裝在屋頂。這段功能是介紹rooftop photovoltaics 作為家庭供電新選擇。它會支援關於 photovoltaics 基本定義的題目，但未詳細講系統如何運作。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 photovoltaic-powered home 仍然連接電網，且家中不需要現場儲電，只需 inverter 連接photovoltaics 和 grid。尾句說在 California 和 Japan 這類地方，日間辦公室和工廠冷氣用電大，住宅取暖需求小，太陽能尤其有價值。這段功能是解釋系統運作、電力流向、電網儲能角色，以及日間用電需求大的地區例子。Questions 28、31、34 很可能定位到這裡。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說美國在 1970s 開始系統探索住宅 photovoltaics。尾句說 1980s 初期美國政府優先事項改變，令這個計劃停止。只看首尾句，可見這段是美國早期研究史：住宅實驗站、不同氣候區、dummy houses、能源使用監測。它會支援關於美國 1970s 開始研究及政府是否持續支持的題目，尤其 Question 35。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說美國努力減弱後，日本 Sunshine Project 變得突出。尾句說日本利用 Rokko Island test station 的經驗，開始大型 residential photovoltaics campaign。這段明顯描述日本實驗站：18 間dummy homes、2–5 kW 系統、模擬家電負載、電腦控制和測試環境。它會支援關於實驗細節、Rokko Island 房屋是否有人居住，以及實驗如何導致全國推廣的題目。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說德國於 1990 年開始重要的 1,000-roof program，目標是在 1,000 間私人住宅屋頂安裝photovoltaics。尾句說這個計劃的成功刺激其他歐洲國家推出類似項目。這段功能是講德國補貼式推廣：政府資助通常佔 70% 系統成本，計劃受歡迎到擴展至 2,000 多戶。它主要支援德國rooftop programme 的成功和影響。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說日本 one-million-roof program 受到 Rokko Island 測試經驗和德國 1,000-roof program 成功啟發。尾句說在這計劃下，整個新郊區發展項目都使用 photovoltaics。這段功能是講日本大型全國推廣計劃，包括 2000 年 70,000 戶、2010 年 1 million 戶的目標，以及 1994 年 539 系統獲50% 政府補貼的 modest start。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 photovoltaic 行業和關心環境的人都會視這些計劃為好消息。尾句說所有 greenhouse gas emissions 來源，包括 residential electricity use，未來都會受到更密切關注。這段功能是轉向環境理由：傳統 fossil fuels 發電有金錢成本，也造成環境損害；燃燒 fossil fuels 產生的氣體是greenhouse effect 的主要貢獻者。Questions 30、38、39 會用到這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句預測未來政府可能制定 building codes，以限制新住宅能源需求。尾句說地球上每個人都會因更溫和的環境影響而得益。這段功能是展望未來政策和長遠好處：新屋或翻新工程或需加入photovoltaics 或同等節能措施；住戶雖有初期成本，但之後可由能源賬單節省補回，環境亦受益。 Questions 32、40 很可能定位到這裡。"
+      }
+    ]
+  }
+}

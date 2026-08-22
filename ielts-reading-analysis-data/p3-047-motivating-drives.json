@@ -1,0 +1,2141 @@
+{
+  "id": "p3-047-motivating-drives",
+  "catalogueId": "p3-047",
+  "catalogueIds": [
+    "p3-047"
+  ],
+  "passage": 3,
+  "title": "Motivating Drives",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "A",
+    "D",
+    "B",
+    "C",
+    "A",
+    "E",
+    "F",
+    "NO",
+    "NOT GIVEN",
+    "NO",
+    "YES",
+    "NO",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — Researchers have tended to be too theoretical in their studies.",
+      "answerKey": "C — Researchers have tended to be too theoretical in their studies.",
+      "type": "Question Analysis",
+      "prompt": "Question 27",
+      "translation": "根據文章，關於 motivation 的研究，作者告訴我們甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： According to the passage, what are we told about the study of motivation?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have been researching ways to motivate employees for many years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來，科學家一直研究如何激勵員工。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, such research has limitations: it can be like studying the movement of a car without examining its engine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這類研究有局限：它可能像研究一輛車的移動，卻沒有檢查它的引擎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 的功能：它介紹 motivation 研究的歷史背景，並指出過往研究方式有不足。這段不是在講四種 drives 的內容，而是在評價「研究方法本身」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞是： study of motivation原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have been researching ways to motivate employees…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of this work focuses on relationships and seeks to build a comprehensive model…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類研究很多都集中於關係，並試圖建立一個完整模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著作者用 car / engine 比喻指出問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of this work focuses on relationships and seeks to build a comprehensive model for further study.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究中有很多集中於各種關係，並試圖建立一個可供進一步研究的完整模型。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, such research has limitations: it can be like studying the movement of a car without examining its engine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這類研究有局限：它可能像研究車的移動，卻沒有檢查引擎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個比喻的意思是：研究者可能只觀察外部關係和模型，卻沒有深入研究真正推動 motivation 的內在機制。選項 C 說 researchers have tended to be too theoretical，意思是研究太偏理論、太重模型，較少觸及內在驅動原因。這正好概括 car without engine 的批評。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A The theory of motivating employees has only recently started to attract attention in organisations.錯。原文第一句說 scientists have been researching this “for many years”，所以不是最近才開始受關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It is very important for managers to know how to motivate their subordinates because it is related to the salary of employees.錯。Paragraph 2 說 motivation related to emotions and behaviour，不是 salary。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Researchers have tended to be too theoretical in their studies.正確。comprehensive model 和 car without engine 都顯示作者覺得過往研究偏重外部模型，缺少真正驅動機制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The goal of employee motivation is to increase the profits of organisations.錯。文章說 productive teams 和 organisational development，沒有把 goal 收窄成 profits。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 沒有逐字出現 “theoretical”，所以學生可能不敢選。但 IELTS MCQ 很常用比喻改寫。原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“studying the movement of a car without examining its engine” 就是在批評研究停留在表層模型，沒有深入到內部驅動來源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — Satisfying employees’ drives can lead to positive changes in behaviour.",
+      "answerKey": "A — Satisfying employees’ drives can lead to positive changes in behaviour.",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "從文章可推斷，研究人的 drives 有甚麼意義？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What can be inferred from the passage about the study of people’s drives?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph 2、Paragraph 7、Paragraph 9 Paragraph 2 引出四種 drives："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent studies have identified four motivational drives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近期研究找出了四種 motivational drives。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 說研究這些 drives 的作用："
+            },
+            {
+              "kind": "quote",
+              "text": "“the article explains how independent drives influence employees’ behaviour and how organisational levers boost employee motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該文章解釋了不同 drives 如何影響員工行為，以及組織手段如何提升員工動力。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“The key to successfully motivating employees is to meet all drives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成功激勵員工的關鍵，是滿足所有 drives。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目關鍵詞： people’s drives inferred原文不是只在一段說完答案，而是分散在全文：四種 drives 影響 motivation、behaviour、commitment、effort、cooperative attitude 等。"
+            },
+            {
+              "kind": "label",
+              "text": "最直接的定位句是 Paragraph 7："
+            },
+            {
+              "kind": "quote",
+              "text": "“independent drives influence employees’ behaviour”"
+            },
+            {
+              "kind": "label",
+              "text": "以及 Paragraph 9："
+            },
+            {
+              "kind": "quote",
+              "text": "“The key to successfully motivating employees is to meet all drives.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文邏輯是： 1. 人有四種 motivational drives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. 這些 drives 影響員工 behaviour。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. 組織可以用 levers 提升 motivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4. 成功激勵員工需要滿足所有 drives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，滿足員工 drives 可以帶來較好的 motivation，並對行為造成正面影響。選項 A 的 “positive changes in behaviour” 是對這條邏輯的合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Satisfying employees’ drives can lead to positive changes in behaviour.正確。對應 “drives influence employees’ behaviour” 和 “organisational levers boost employee motivation”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Satisfying employees’ drives will negatively affect their emotions.錯。文章沒有說 negative affect；整篇方向是提升 motivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Satisfying employees’ drives can increase companies’ production.過度推論。Paragraph 1 有 productive teams，但沒有直接說滿足 drives 會增加 production。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Satisfying employees’ drives will result in employees’ outstanding performance.過強。文章提到 performance、effort、commitment，但沒有保證必然導致 outstanding performance。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 和 D 都很吸引，因為文章確實談 productivity、performance、effort。但題目問 inferred from study of drives，最穩陣的推論應落在 behaviour / motivation 層面。A 的範圍最貼原文，也沒有過度承諾結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D — Financial incentive and recognition",
+      "answerKey": "D — Financial incentive and recognition",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "根據第三段，要優化員工表現，需要甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： According to paragraph three, what is needed to optimise employees’ performance?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to acquire must be met to optimise both acquisition and achievement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要優化獲取和成就，必須滿足 drive to acquire。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Successful organisations and leaders need to focus not only on material rewards but also on other organisational levers that drive motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成功的組織和領導者需要關注物質獎勵，也要關注其他能推動 motivation 的組織手段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段處理的是「獲得」這種 drive，特別是獎勵、認可、福利、職涯機會等如何推動員工表現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： optimise employees’ performance原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“optimise both acquisition and achievement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outstanding performance is recognised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits and career opportunities”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾個短語都與表現、獲得回報、被認可有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This involves how outstanding performance is recognised and what benefits and career opportunities are provided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這涉及優秀表現如何被認可，以及組織提供甚麼福利和職涯機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供兩組核心因素： 1. recognition：優秀表現被認可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. benefits / career opportunities：福利、獎賞和職涯機會。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes, however, a written letter of appreciation generates more motivation than a thousand-dollar cheque…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時，一封書面感謝信比一張一千美元支票更能產生 motivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句不是完全否定金錢獎勵，而是說非金錢認可有時更有力量。選項 D 的 “Financial incentive and recognition” 把物質獎勵和認可兩方面都包含進去，因此是四個選項中最貼近原文的一項。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A The drive to acquire and the achievement element有原文字眼，但太抽象，也沒有回答第三段真正列出的具體手段。原文後面清楚講 recognised、benefits、career opportunities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Outstanding performance and recognition只抓到 “outstanding performance is recognised” 的表面字眼。可是 outstanding performance 是被認可的對象，不是用來激勵員工的手段本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Career fulfilment and a thousand-dollar cheque錯。原文說 letter of appreciation 有時比 cheque 更能激勵，不是說 cheque 是必要答案。career fulfilment 也不是第三段的原文重點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Financial incentive and recognition正確。financial incentive 對應 benefits / cheque / material rewards；recognition 對應 recognised/ letter of appreciation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最易卡在 A 和 D。A 看似貼近第一句，但它沒有把 “how performance is recognised” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“benefits / career opportunities” 這些具體 motivators 說出來。D 雖然沒有涵蓋 career opportunities 的全部意思，但在四個選項中，它最能概括「物質回報 + 認可」這條主線。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — It can help employees feel that their work is meaningful to their companies.",
+      "answerKey": "B — It can help employees feel that their work is meaningful to their companies.",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "根據第五段，drive to comprehend 如何幫助員工有更好表現？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： According to paragraph five, how does “the drive to comprehend” help employees perform better?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to comprehend motivates many employees to higher performance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to comprehend 會激勵很多員工達到更高表現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a job does not provide them with personal meaning and fulfilment, they will leave the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一份工作不能給他們個人意義和滿足感，他們便會離開公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段主軸是：員工需要理解工作的意義，需要被挑戰，需要成長；如果工作空洞、單調、沒有個人意義，員工會離開。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： drive to comprehend perform better原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“motivates many employees to higher performance”"
+            },
+            {
+              "kind": "label",
+              "text": "接著文章解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“setting stretch goals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stimulation that challenges them or allows them to grow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“personal meaning and fulfilment”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations need to ensure that the various job roles provide employees with stimulation that challenges them or allows them to grow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織需要確保不同工作角色能給員工刺激，讓他們受到挑戰，或讓他們成長。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees don’t want to do meaningless things or monotonous jobs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "員工不想做沒有意義的事情，也不想做單調工作。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a job does not provide them with personal meaning and fulfilment, they will leave the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果工作不能給他們個人意義和滿足感，他們便會離開公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句合起來說明：drive to comprehend 的重點是讓員工覺得工作有意義、有挑戰、有成長空間。選項 B 的核心字是 “meaningful”，雖然它寫成 “meaningful to their companies”，沒有完全保留原文的 personal meaning，但四個選項之中，只有 B 抓到 “meaningless things” 和 “personal meaning and fulfilment” 這條核心線。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A It can help employees better understand the development of their organisations.錯。comprehend 在這裡不是理解公司發展史或組織發展方向，而是工作本身要有意義、有刺激、有挑戰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It can help employees feel that their work is meaningful to their companies.正確。這是對 “personal meaning and fulfilment” 的概括。題目重點落在 meaningful work。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C It can help employees set higher goals.有干擾性。原文確實提到 stretch goals，但這只是其中一個例子。整段真正的核心較闊：工作要有挑戰、有成長、有意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D It can provide employees with repetitive tasks.錯。原文說 employees don’t want monotonous jobs。repetitive tasks 正好接近 monotonous jobs，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很容易令人誤選，因為原文有 “stretch goals”。可是 stretch goals 只是說明 challenge 對performance 有影響；整段後半反覆強調 meaningless、monotonous、personal meaning、fulfilment。B 雖然措辭略概括，但比 C 更能覆蓋整段主旨。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — Employees think it is very important to voice their own opinions.",
+      "answerKey": "C — Employees think it is very important to voice their own opinions.",
+      "type": "Question Analysis",
+      "prompt": "Question 31",
+      "translation": "根據第六段，關於 drive to defend，哪一項正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： According to paragraph six, which of the following is true about “drive to defend”?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to defend is often the hardest lever to pull.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to defend 通常是最難啟動的槓桿。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If their company merges with another, they may show concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們的公司與另一家公司合併，他們可能會表現出擔憂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段會處理「防衛」這種 drive 的難度，以及員工面對公平、資源分配、公司連結變動時的反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： drive to defend原文整段都在解釋它。最重要的答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This drive manifests itself as a quest to create and promote justice, fairness, and the ability to express ourselves freely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 drive 表現為追求創造和推動正義、公平，以及自由表達自己的能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個核心內容： 1. justice：正義2. fairness：公平3. ability to express ourselves freely：自由表達自己的能力選項 C 說： Employees think it is very important to voice their own opinions."
+            },
+            {
+              "kind": "paragraph",
+              "text": "“voice their own opinions” 對應 “express ourselves freely”。員工希望能自由表達，這正是 drive to defend 的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Organisational resources are the most difficult to allocate.錯。原文說 drive to defend 是 hardest lever to pull，不是說 resources 最難分配。resource allocation 是用來滿足這種 drive 的 organisational lever。 B It is more difficult to implement than the drive to comprehend.有干擾性。原文確實有 “often the hardest lever to pull”，但選項把 often 省略，又指定和 drive to comprehend 比較。這使選項的精準度下降。IELTS 單選題要選最直接、最少變形的一項。 C Employees think it is very important to voice their own opinions.正確。對應 “ability to express ourselves freely”。 D Employees think it is very important to feel connected to a company after a merger.有相關字，但不精準。原文說 drive to defend can be met through a sense of connection，並說公司合併時 employees may show concern。它沒有說 merger 之後最重要的是重新建立 company connection。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 和 D 都有原文影子。B 抓到 hardest lever；D 抓到 merger 和 connection。可是 C 直接對應“express ourselves freely”，改寫距離最短。這題要記住：選項有原文字眼不代表最精準，真正要看它有沒有改變程度、比較關係或因果關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "A — Employees will be motivated if they feel that they belong to the company.",
+      "answerKey": "A — Employees will be motivated if they feel that they belong to the company.",
+      "type": "Question Analysis",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to bond is also key to driving motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to bond 也是推動 motivation 的關鍵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees show the greatest commitment when this internal motivation influences the direction, intensity and persistence of their decisions and behaviour within the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這種內在 motivation 影響員工在公司內決策和行為的方向、強度與持續性時，他們會表現出最大的 commitment。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的定位詞： belong to the company原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“employees want to feel that they belong and are an essential part of the organisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "員工希望感覺自己有所歸屬，並且是組織中不可或缺的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This sense of belonging motivates them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種歸屬感會激勵他們。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 employees will be motivated if they feel that they belong to the company。原文說sense of belonging motivates them。兩者幾乎是直接改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷A 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "feel that they belong= feel that they belong to the company motivates them= employees will be motivated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E — If employees find their work insufficiently challenging, they will leave the",
+      "answerKey": "E — If employees find their work insufficiently challenging, they will leave the",
+      "type": "Question Analysis",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "company."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to comprehend motivates many employees to higher performance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to comprehend 會激勵許多員工達到更高表現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a job does not provide them with personal meaning and fulfilment, they will leave the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一份工作不能給他們個人意義和滿足感，他們會離開公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中討論有挑戰、有成長、有意義的工作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E 的定位詞： insufficiently challenging leave the company原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“stimulation that challenges them or allows them to grow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“meaningless things or monotonous jobs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“they will leave the company”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Organisations need to ensure that the various job roles provide employees with stimulation that challenges them or allows them to grow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織需要確保不同工作角色能給員工刺激，讓他們受到挑戰，或讓他們成長。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees don’t want to do meaningless things or monotonous jobs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "員工不想做沒有意義的事情，也不想做單調工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a job does not provide them with personal meaning and fulfilment, they will leave the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果工作不能給他們個人意義和滿足感，他們便會離開公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E 用 “insufficiently challenging” 概括了 lack of stimulation、monotonous jobs、lack of personal meaning 這一組概念。雖然原文最後一句直接說的是 personal meaning and fulfilment，但前文已說明 challenge / growth 是 drive to comprehend 的重要部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷E 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "stimulation that challenges them↔ sufficiently challenging work monotonous jobs / no personal meaning↔ insufficiently challenging or meaningful work they will leave the company= they will leave the company"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F — Employees will worry if their company merges with another company.",
+      "answerKey": "F — Employees will worry if their company merges with another company.",
+      "type": "Question Analysis",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to defend is often the hardest lever to pull.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to defend 通常是最難啟動的槓桿。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If their company merges with another, they may show concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們的公司與另一家公司合併，他們可能會表現出擔憂。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 的定位詞： worry company merges原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“If their company merges with another, they may show concern.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“show concern” 的意思是表現出擔心、關注、不安。選項 F 的 “will worry” 是比較直接的改寫。唯一要留意的是程度：原文是 “may show concern”，語氣較保守；選項用 “will worry” 稍強。不過在這組多選題中，F 是唯一直接對應 merger concern 的選項，因此成立。判斷F 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "merges with another= merges with another company show concern= worry / feel worried其餘選項為何不選？ B If employees have an opportunity to join a training and development programme, their motivation will be enhanced.原文說 job roles should challenge employees or allow them to grow，但沒有提到 training and development programme。這是合理職場推論，缺乏原文直接支援。 C If employees’ working goals are aligned with organisational objectives, their motivation will be reinforced.原文有 direction、intensity、persistence of decisions and behaviour within the company，但沒有說 working goals aligned with organisational objectives。這個選項把管理學常識放進文章，原文沒有明示。 D If employees’ motivation is very low, companies should find a way to increase their salary as their first priority.錯。Paragraph 3 明確說 written letter of appreciation 有時比 thousand-dollar cheque 更有motivation，而且成功組織要關注 material rewards 之外的 organisational levers。salary as first priority 不符合文章方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "— YES / NO / NOT GIVEN",
+      "prompt": "Increasing pay can lead to high work motivation.",
+      "translation": "加薪可以帶來高度工作 motivation。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3、Paragraph 9 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to acquire must be met to optimise both acquisition and achievement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要優化獲取和成就，必須滿足 drive to acquire。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Successful organisations and leaders need to focus not only on material rewards but also on other organisational levers that drive motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成功的組織和領導者需要關注物質獎勵，也要關注其他推動 motivation 的組織手段。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“The key to successfully motivating employees is to meet all drives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成功激勵員工的關鍵，是滿足所有 drives。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： increasing pay high work motivation原文沒有 pay increase，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“a thousand-dollar cheque”"
+            },
+            {
+              "kind": "quote",
+              "text": "“material rewards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reward system”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以要回到 Paragraph 3 檢查作者對金錢獎勵的態度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes, however, a written letter of appreciation generates more motivation than a thousand-dollar cheque…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時，一封書面感謝信比一張一千美元支票更能產生 motivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句很關鍵。作者不是把金錢獎勵放在最高位置；他反而指出非金錢認可有時更能激勵員工。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Successful organisations and leaders need to focus not only on material rewards but also on other organisational levers that drive motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成功的組織和領導者需要關注物質獎勵，也要關注其他推動 motivation 的組織手段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 increasing pay can lead to high work motivation，將加薪本身寫成能帶來高 motivation 的原因。可是文章的立場是：物質獎勵只是其中一部分，甚至有時不如 appreciation letter。到了最後一段，作者更明確說要 meet all drives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：加薪可以帶來高 motivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：金錢獎勵不是唯一重點；非金錢認可有時更有效；成功 motivation 要滿足所有 drives。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向相沖，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 “benefits”、“thousand-dollar cheque”、“reward system” 就以為 money 一定能帶來高 motivation。真正控制答案的是 “more motivation than a thousand-dollar cheque” 和 “not only on material rewards”。題目把其中一個外在 reward 放大成高 motivation 的主要來源，這超出作者立場。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "— YES / NO / NOT GIVEN",
+      "prompt": "The study shows that local companies benefit more than global companies.",
+      "translation": "研究顯示，本地公司比全球公司得益更多。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two studies examined the relationships between the four drives and motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩項研究考察了四種 drives 和 motivation 之間的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using surveys of employees at Fortune 500 companies and two other global businesses (P company and H company), the article explains how independent drives influence employees’ behaviour and how organisational levers boost employee motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該文章使用對 Fortune 500 公司和另外兩家全球企業 P company、H company 員工的調查，解釋不同 drives 如何影響員工行為，以及組織手段如何提升員工 motivation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： local companies global companies benefit more原文有 global businesses，但沒有 local companies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fortune 500 companies and two other global businesses”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fortune 500 公司和另外兩家全球企業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明研究樣本包含大型企業和全球企業。文章沒有提到 local companies，也沒有比較 local companies 和 global companies 誰 benefit more。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目要求三個資料點： 1. local companies 2. global companies 3. local benefit more than global原文只提供 global businesses。沒有 local companies，也沒有 benefit comparison。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “global businesses” 後，不要自行補出 local companies 作比較。IELTS 的 comparison 題一定要有兩邊資料和比較關係。這裡只有一邊，沒有比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "— YES / NO / NOT GIVEN",
+      "prompt": "Employees achieve the greatest commitment if their drive to comprehend is met.",
+      "translation": "如果員工的 drive to comprehend 被滿足，他們會達到最高 commitment。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4、Paragraph 8 Paragraph 4 第一題相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to bond is also key to driving motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to bond 也是推動 motivation 的關鍵。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“The studies show that the drive to bond is most strongly associated with commitment…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，drive to bond 與 commitment 的關係最強。"
+            },
+            {
+              "kind": "label",
+              "text": "同一句後半："
+            },
+            {
+              "kind": "quote",
+              "text": "“…while the drive to comprehend is most related to how much effort employees devote to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而 drive to comprehend 與員工投入多少 effort 最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： greatest commitment drive to comprehend原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“drive to bond is most strongly associated with commitment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drive to comprehend is most related to … effort”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The studies show that the drive to bond is most strongly associated with commitment, while the drive to comprehend is most related to how much effort employees devote to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，drive to bond 與 commitment 的關係最強；drive to comprehend 則與員工投入多少effort 最相關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句把兩個 drive 和兩個 outcome 清楚配對： Drive Most related to drive to bond commitment drive to effort comprehend題目把 commitment 配給 drive to comprehend，這和原文配對不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題： comprehend → greatest commitment原文命題： bond → commitment comprehend → effort原文提供相反配對，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易因為 “comprehend motivates many employees to higher performance” 而選 YES。可是題目問的是 commitment，不是 performance 或 effort。Paragraph 8 已經明確分工：bond 對commitment 最強，comprehend 對 effort 最強。題目把兩個 outcome 混在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "— YES / NO / NOT GIVEN",
+      "prompt": "Employees in the former company showed an unusual attitude during the merger of two companies.",
+      "translation": "在兩家公司合併期間，前一家公司員工表現出一種不尋常態度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The studies show that the drive to bond is most strongly associated with commitment, while the drive to comprehend is most related to how much effort employees devote to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，drive to bond 與 commitment 最相關，而 drive to comprehend 與員工投入多少 effort最相關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the drive to defend, a study of the merger of P company and H company shows that employees in the former company showed an unusually cooperative attitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 drive to defend，一項研究 P company 和 H company 合併的個案顯示，前一家公司員工表現出異常合作的態度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： former company unusual attitude merger原文有完全對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“merger of P company and H company”"
+            },
+            {
+              "kind": "quote",
+              "text": "“employees in the former company”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unusually cooperative attitude”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the drive to defend, a study of the merger of P company and H company shows that employees in the former company showed an unusually cooperative attitude.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 drive to defend，一項研究 P company 和 H company 合併的個案顯示，前一家公司員工表現出異常合作的態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “unusual attitude” 對應原文 “unusually cooperative attitude”。題目沒有要求說出 attitude的具體種類，只說 unusual attitude，因此完全成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題： former company employees showed unusual attitude during merger。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： employees in former company showed unusually cooperative attitude in merger study。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “unusually cooperative attitude” 簡化成 “unusual attitude”。這不是錯，因為 unusual attitude 是上位概括；原文中的 cooperative 則是更具體的態度類型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "— YES / NO / NOT GIVEN",
+      "prompt": "The two studies were conducted to analyse the relationship between natural drives and employees’ attitudes.",
+      "translation": "這兩項研究是為了分析 natural drives 與員工 attitudes 之間的關係。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two studies examined the relationships between the four drives and motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩項研究考察了四種 drives 與 motivation 之間的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the article explains how independent drives influence employees’ behaviour and how organisational levers boost employee motivation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該文章解釋不同 drives 如何影響員工行為，以及組織手段如何提升員工 motivation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： two studies relationship natural drives employees’ attitudes原文直接對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two studies examined the relationships between the four drives and motivation.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文清楚說研究對象是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the relationships between the four drives and motivation”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "四種 drives 和 motivation 之間的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“how independent drives influence employees’ behaviour”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同 drives 如何影響員工行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把研究目標改成： natural drives and employees’ attitudes這裡有兩個問題：第一，原文用的是 four drives / independent drives，不是 natural drives。雖然四種 drives 可理解為 basic human motivators，但原文沒有用 natural drives 作為研究框架。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，也是更重要的一點：原文說研究 motivation 和 behaviour，題目改成 employees’ attitudes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "attitude 不是原文中定義的研究目標。文章後面確實出現 cooperative attitude，但那只是 merger study 中的一個發現，不是兩項研究的總體目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：研究目的 = natural drives 與 employees’ attitudes 的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：研究目的 = four drives 與 motivation 的關係；並解釋 drives 如何影響 behaviour、levers 如何boost motivation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究目標被改錯，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被 “cooperative attitude” 誤導。Paragraph 8 最後確實出現 attitude，但它只是 P company / H company merger 的其中一項結果。Question 39 問的是兩項研究的總體研究目的，應回到 Paragraph 7 第一句，而不是只抓 Paragraph 8 的單一例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "— YES / NO / NOT GIVEN",
+      "prompt": "A reward system causes a company to lose profits.",
+      "translation": "獎勵制度會導致公司失去利潤。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The studies show that the drive to bond is most strongly associated with commitment, while the drive to comprehend is most related to how much effort employees devote to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，drive to bond 與 commitment 最相關，而 drive to comprehend 與員工投入多少 effort最相關。"
+            },
+            {
+              "kind": "label",
+              "text": "中間句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to acquire can be satisfied by a reward system that ties rewards to performance, and gives the best people opportunities for advancement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to acquire 可以透過一套把 rewards 和 performance 連繫起來的 reward system 滿足，並給最優秀的人晉升機會。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： reward system lose profits原文有 reward system，但沒有 profits / lose profits / financial loss。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drive to acquire can be satisfied by a reward system that ties rewards to performance…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "drive to acquire 可以透過把獎勵與表現連繫起來的獎勵制度滿足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句告訴我們 reward system 的功能：滿足 drive to acquire。它沒有討論 company profit，也沒有說 reward system 會令公司虧損或利潤下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題： reward system causes a company to lose profits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： reward system can satisfy drive to acquire by tying rewards to performance and advancement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者談的是不同層面。原文沒有 profit outcome，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為 reward system 涉及金錢，就推斷公司會 lose profits。現實中獎勵制度可能增加成本，也可能提高績效，但 IELTS Reading 只看文章。這篇文章只說 reward system 如何滿足 acquire drive，沒有提供 profit evidence。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Motivating Drives.pdf",
+    "sha256": "a3d5fdc7723b48066ed9d91f3e24fcf96924abb9a3b97b417d45560ff7f0a71f",
+    "pageCount": 30
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "介紹員工 motivation 研究背景，並指出過去研究有局限。"
+      },
+      {
+        "number": "2",
+        "summary": "定義 motivation 的重要性，並引出四種 drives。"
+      },
+      {
+        "number": "3",
+        "summary": "解釋 drive to acquire：員工需要獲得獎勵、認可、福利和職涯機會，但金錢並非唯一動力。"
+      },
+      {
+        "number": "4",
+        "summary": "解釋 drive to bond：員工想有歸屬感，這會提高 commitment。"
+      },
+      {
+        "number": "5",
+        "summary": "解釋 drive to comprehend：員工需要有挑戰、有成長、有意義的工作。"
+      },
+      {
+        "number": "6",
+        "summary": "解釋 drive to defend：員工重視公平、正義、自由表達，也會關心公司合併帶來的連結感變化。"
+      },
+      {
+        "number": "7",
+        "summary": "介紹兩項研究：研究四種 drives 與motivation 的關係，並用 Fortune 500、P company、H company 作調查。"
+      },
+      {
+        "number": "8",
+        "summary": "報告研究發現：bond 與 commitment最相關；comprehend 與 effort 最相關；acquire 可由 reward system 滿足；defend 在合併研究中有例子。"
+      },
+      {
+        "number": "9",
+        "summary": "總結：成功激勵員工的關鍵是同時滿足四種 drives。"
+      }
+    ]
+  }
+}

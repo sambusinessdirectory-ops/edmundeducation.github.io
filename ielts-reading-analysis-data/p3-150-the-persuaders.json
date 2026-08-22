@@ -1,0 +1,1427 @@
+{
+  "id": "p3-150-the-persuaders",
+  "catalogueId": "p3-150",
+  "catalogueIds": [
+    "p3-150"
+  ],
+  "passage": 3,
+  "title": "The Persuaders",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "A",
+    "C",
+    "C",
+    "J",
+    "F",
+    "K",
+    "J",
+    "D",
+    "aisles",
+    "experiments",
+    "loyalty card",
+    "commodities",
+    "group"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B — To make customers spend more time shopping.",
+      "answerKey": "B — To make customers spend more time shopping.",
+      "type": "Question Analysis",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：根據 Paragraph B，超市引入 shopping baskets 的目的可能是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We spend more time in supermarkets than we intend to, buy 75 per cent of our food from them and end up with products that we did not realize we wanted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們在超市逗留的時間比原本打算更長，75% 的食物都從超市購買，最後還買了自己原本不知道想要的產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Low-turnover products—clothes and electrical goods—are stocked at the back while high-turnover items command positions at the front.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "周轉率低的商品，如衣服和電器，會放在店鋪後方；周轉率高的商品則佔據前方位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph B 在講超市如何安排購物工具、通道和商品位置，以增加購買量。題目問 baskets，所以要在這段前半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “baskets”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, when Sainsbury introduced shopping baskets into its 1950s stores, it was a stroke of marketing genius.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Sainsbury 在 1950 年代的店舖引入購物籃，這是一項行銷天才之舉。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正證據在下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now shoppers could browse and pick up items they previously would have ignored.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，購物者可以慢慢瀏覽，並拿起以前可能會忽略的商品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項 B 說 “make customers spend more time shopping”。原文沒有逐字說 baskets make people spend more time，但 “browse” 本身表示顧客不只快速買完離開，而是有更多空間和機會慢慢看、拿起商品。四個選項中，B 最貼近這個 marketing genius 的目的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“browse” = spend more time looking around while shopping“pick up items previously ignored” = buy / consider more than originally planned錯項分析： A “convenient shopping environment” 只抓到表面便利，沒有抓到 marketing genius 的銷售目的。 C “reduce congestion” 原文沒有提到擠塞。 D “carry the large number of items” 看似合理，但原文後面講 trolleys 時才更接近 carrying capacity；baskets 的重點是讓人 browse and pick up ignored items。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — They sell the right product to the right customer at the right time.",
+      "answerKey": "A — They sell the right product to the right customer at the right time.",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：根據文章，最好的 salespeople 具備甚麼能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probably all of us could make a sale if the product was something we truly believed in, but professional salespeople are in a different league—the best of them can always sell different items to suitable customers at the right time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果產品是我們真正相信的東西，我們大概人人都能賣出；但專業銷售員屬於另一個層次，其中最優秀的人總能在合適時間，把不同商品賣給合適顧客。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The seller, therefore, attempts to tease out what these conditions are and then explains how their product’s benefits can meet these requirements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，銷售員會嘗試引出這些條件，然後解釋自己產品的好處如何滿足這些要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 明顯在講 professional salespeople 的核心能力：了解顧客需求，再把產品和需求對接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “best salespeople”。原文直接有 “the best of them”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The best of them can always sell different items to suitable customers at the right time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最好的銷售員總能在合適時間，把不同商品賣給合適顧客。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“different items” = the right product“suitable customers” = the right customer“at the right time” = at the right time A 幾乎是原文的直接改寫。錯項分析： B “explain a product’s instructions clearly” 原文沒有說明 instructions。 C “professional knowledge” 可能有關，但不是這句定義的 best quality。 D “persuade customers to buy whatever they are selling” 太絕對；原文強調 suitable customers and right time，不是甚麼都硬賣。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — Salespeople help buyers define their needs and choose suitable products.",
+      "answerKey": "C — Salespeople help buyers define their needs and choose suitable products.",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Richard Hession 的看法是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Richard Hession, author of Be a Great Salesperson, says it is human nature to prefer to speak rather than listen, and good salespeople pander to this.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Be a Great Salesperson》的作者 Richard Hession 說，人性上較喜歡說話多於聆聽，而好的銷售員會迎合這一點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Never will the words ‘if you buy’ be used, but rather ‘when you buy’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們絕不會用 “if you buy” 這種說法，而會用 “when you buy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph I 講兩個技巧：先讓買家多說話，讓對方感覺得到 consultation；再用語言預設成交。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Richard Hession”。人名直接把我們帶到 Paragraph I。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They ask punters about their needs and offer to work with them to achieve their objectives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們會詢問顧客的需要，並提出與顧客合作，以達成顧客的目標。"
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, the buyer feels they are receiving a ‘consultation’ rather than a sales pitch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，買家會覺得自己正在接受一次「諮詢」，而不是聽一場銷售說辭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說銷售員幫買家 define their needs and choose suitable products。這是對原文 “ask about needs”、“work with them”、“achieve objectives” 和 “consultation” 的合理概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“ask punters about their needs” = help buyers define their needs“work with them to achieve their objectives” = help them choose / reach suitable outcome“consultation” = not just a direct sales pitch, but need-based guidance錯項分析： A “pretend to be friendly” 語氣太負面，原文沒有說 pretend。 B “salespeople should talk at length” 方向不對；原文說人喜歡說話，好的銷售員會讓顧客說。 D “excellent interpersonal skills” 太籠統；C 更能精準概括 Hession 的具體內容。所以答案是 C。 Questions 30–35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "How supermarkets keep consumers in the store longer",
+      "translation": "哪一段說明超市如何令消費者在店內逗留更久？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句已經很直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stone believes supermarkets work hard to ‘stall’ us because the more time we spend in them, the more we buy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stone 認為超市努力拖慢我們，因為我們在店內逗留越久，買得越多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Loyal shoppers could be paying 30% more by sticking to their favourite shops for essential commodities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "忠誠顧客若堅持在最喜歡的店購買基本商品，可能多付 30%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “keep consumers in the store longer”。原文對應 “stall us” 和 “the more time we"
+            },
+            {
+              "kind": "paragraph",
+              "text": "spend”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, great efforts are made to make the environment pleasant. Stores play music to relax us and some even pipe air from the in-store bakery around the shop.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，超市會大力營造愉快環境。店內會播放音樂讓我們放鬆，有些甚至會把店內麵包店的氣味導入整間店。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“keep consumers in the store longer” = stall us“how” = pleasant environment, music, bakery smell, aromas所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "J",
+      "answerKey": "J",
+      "type": "Question Analysis",
+      "prompt": "How salespeople build a close relationship with buyers",
+      "translation": "哪一段說明銷售員如何與買家建立親近關係？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph J"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Rob Yeung, a senior consultant at business psychologists Kiddy and Partner, says most salespeople will build up a level of rapport by asking questions about hobbies, family and lifestyle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商業心理學公司 Kiddy and Partner 的高級顧問 Dr Rob Yeung 說，多數銷售員會透過詢問興趣、家庭和生活方式，建立某種程度的融洽關係。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At its most extreme, appearing empathetic can even include the salesperson attempting to‘mirror’ the body language of the buyer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在最極端的情況下，表現同理心甚至可以包括銷售員嘗試「鏡像模仿」買家的肢體語言。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “close relationship”。原文對應 “build up a level of rapport”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落同時提到問私人生活、配合對方表達風格、回應笑話、提供對方想要的 detail，甚至模"
+            },
+            {
+              "kind": "paragraph",
+              "text": "仿 body language。這些都服務於 rapport。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“close relationship” = rapport“build” = build up“buyers” = client / buyer所以答案是 J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Question Analysis",
+      "prompt": "How humorous advertisements make a lasting impression",
+      "translation": "哪一段說明幽默廣告如何令人記得更久？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advertisers play on our need to be safe (commercials for insurance), to belong (fashion adverts make customers feel part of a group) and for self-esteem (aspirational adverts).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "廣告商會利用我們對安全、歸屬感和自尊的需要，例如保險廣告利用安全感，時裝廣告令顧客感到自己屬於某個群體，勵志式廣告則利用自尊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Combine humor with sexual imagery – as in Wonderbra’s ‘Hello Boys’ ads—and you are on to a winner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把幽默和性感影像結合起來，例如 Wonderbra 的 “Hello Boys” 廣告，就很容易成功。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “humorous advertisements” 和 “lasting impression”。原文對應 “funny ads were"
+            },
+            {
+              "kind": "paragraph",
+              "text": "remembered for longer”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Heiman Chung, writing in the International Journal of Advertising, found that funny ads were remembered for longer than straight ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heiman Chung 在 International Journal of Advertising 撰文指出，幽默廣告比直接平鋪直敘的廣告更令人記得長久。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“humorous advertisements” = funny ads“lasting impression” = remembered for longer所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "K",
+      "answerKey": "K",
+      "type": "Question Analysis",
+      "prompt": "Methods salespeople use to secure an order",
+      "translation": "哪一段說明銷售員用甚麼方法確保成交？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph K"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the method used, all salespeople work towards one aim: ‘closing the deal’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論使用哪種方法，所有銷售員都朝著同一目標努力：成交。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only afterwards might you wonder why you proved such a pushover.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能要到事後，你才會疑惑自己為何那麼容易被說服。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “secure an order”。原文對應 “closing the deal” 和 “closing signals”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“The buyer is not asked ‘Are you interested?’ as this can invite a negative response. Instead, the seller takes it for granted that the deal is effectively done: when the salesman asks you for a convenient delivery date or asks what colour you want, you will probably respond accordingly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "銷售員不會問「你有興趣嗎？」因為這可能引出否定回答。相反，銷售員會假定交易其實已經完成：當銷售員問你方便的送貨日期，或問你想要甚麼顏色，你很可能會順著回答。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“secure an order” = closing the deal“methods” = avoid yes/no interest question; assume success; ask delivery date / colour所以答案是 K。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "J",
+      "answerKey": "J",
+      "type": "Question Analysis",
+      "prompt": "How questions help salespeople",
+      "translation": "哪一段說明提問如何幫助銷售員？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph J"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 第一眼就看到 “asking questions about hobbies, family and lifestyle”，最後一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句又提到 mirror body language。這段功能是講如何透過提問和模仿建立關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “questions help salespeople”。原文直接說提問有 “double benefit”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This has the double benefit of making the salesperson likeable while furnishing him or her with more information about the client’s wants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有雙重好處：一方面令銷售員更討人喜歡，另一方面為銷售員提供更多有關客戶想要甚麼的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“questions help salespeople” = double benefit“help” = make salesperson likeable + provide information“buyers” = clients所以答案是 J。注意 Paragraph I 也有 ask punters about their needs，但 Paragraph J 對“questions help” 的功能解釋更完整，因為它明確寫出 double benefit。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "How different customer groups generate different profits",
+      "translation": "哪一段說明不同顧客群帶來不同利潤？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research has shown that 75 percent of profit comes from just 30 percent of customers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究顯示，75% 的利潤只來自 30% 的顧客。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“RFID allows retailers to follow products into people’s homes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "RFID 讓零售商可以追蹤商品進入人們家中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “different customer groups” 和 “different profits”。原文對應 “75 percent of profit”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和 “30 percent of customers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句就是段首句。它清楚說明不是所有顧客貢獻同等利潤；少數顧客提供大量利潤。下"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一句 “elite shoppers” 進一步確認這是顧客分群。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“different customer groups” = 30 percent of customers / elite shoppers“generate different profits” = 75 percent of profit comes from just 30 percent所以答案是 D。 Questions 36–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "aisles",
+      "answerKey": "aisles",
+      "type": "Question Analysis",
+      "prompt": "“The width of 36 ______ in supermarkets is designed to maximise profits.”",
+      "translation": "超市內 ______ 的寬度／安排被設計成可以最大化利潤。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 從顧客在超市逗留更久和購買更多開始，最後講商品在店內前後位置的安"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排。這段重點是 supermarket design and layout。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “maximise profits”。原文直接有 “maximize profits”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Merlin Stone, IBM Professor of Relationship Marketing at Bristol Business School, says aisles are laid out to maximize profits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bristol Business School 的 IBM 關係行銷教授 Merlin Stone 說，超市通道的安排是為了最大化利潤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “The width of”，空格後是 “in supermarkets”，需要一個名詞複數。原文 “aisles are laid out” 提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“are laid out to maximize profits” = is designed to maximise profits“aisles” = supermarket walkways / 通道答案符合 NO MORE THAN TWO WORDS，所以填：aisles。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "experiments",
+      "answerKey": "experiments",
+      "type": "Question Analysis",
+      "prompt": "“Research in 37 ______ has shown that pleasant aromas can encourage people to buy more products.”",
+      "translation": "在 ______ 中的研究顯示，愉快氣味可鼓勵人們購買更多產品。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 首句說超市會 “stall” 顧客；中間提到 music、bakery air、fake aromas 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pleasant smells；最後講 loyalty card 和 loyal shoppers 可能多付錢。因此氣味研究應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “pleasant aromas”。原文對應 “pleasant smells”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In experiments, pleasant smells are effective in increasing our spending.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在實驗中，愉快氣味被證明能有效增加我們的消費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “pleasant smells” 改寫成 “pleasant aromas”，把 “increasing our spending” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“encourage people to buy more products”。空格前是 “Research in”，所以填原文中的 “experiments”。答案符合字數限制：experiments。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "loyalty card",
+      "answerKey": "loyalty card",
+      "type": "Question Analysis",
+      "prompt": "“In addition to creating a comfortable environment, the 38 ______ is another tool supermarkets use to reward regular customers.”",
+      "translation": "除了營造舒適環境外，______ 是超市用來獎勵固定顧客的另一種工具。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 前半說超市用 pleasant environment、music 和 smell 延長顧客逗留；後半轉"
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 loyalty card。因此 “another tool” 應在段落後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “reward regular customers”。原文對應 “rewarded for their fidelity”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The other success story from the supermarkets’ perspective is the loyalty card. Punters may assume that they are being rewarded for their fidelity, but all the while they are trading information about their shopping habits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從超市角度看，另一個成功例子是會員／忠誠卡。顧客可能以為自己因忠誠而獲得獎勵，但同時他們其實在交出自己的購物習慣資料。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“regular customers” = loyal shoppers / fidelity“reward” = being rewarded“tool” = loyalty card空格前有 “the”，答案可填名詞短語 loyalty card。符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "commodities",
+      "answerKey": "commodities",
+      "type": "Question Analysis",
+      "prompt": "“For example, loyal customers may spend 30% more in their favourite shops on essential 39______.”",
+      "translation": "例如，忠誠顧客可能在自己喜歡的店鋪購買基本 ______ 時多花 30%。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 最後一句正好提到 loyal shoppers、30% more 和 essential commodities，所"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以答案在段尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “30% more” 和 “essential”。這兩個詞在原文幾乎直接重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Loyal shoppers could be paying 30% more by sticking to their favourite shops for essential commodities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "忠誠顧客如果堅持在自己喜歡的店鋪購買基本商品，可能會多付 30%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給了 “essential”，所以空格只需填 “commodities”。如果填 “essential commodities”，句子會變成 “essential essential commodities”，文法和意思都不自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：commodities。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "group",
+      "answerKey": "group",
+      "type": "Question Analysis",
+      "prompt": "“Clothing advertisements appeal to buyers’ desire to belong to a 40 ______; a survey of 4,000 campaigns found that advertisements featuring celebrities were more effective.”",
+      "translation": "服裝廣告會迎合買家想歸屬於某個 ______ 的需要；一項 4,000 個廣告活動的調查發現，有名人的廣告更有效。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 首句列出廣告會利用 safety、belonging 和 self-esteem；後面講 celebrities、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "humor 和 sexual imagery。題目中的 Clothing advertisements / belong / celebrities 全部集中在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “belong”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“to belong (fashion adverts make customers feel part of a group)”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advertisers play on our need to be safe (commercials for insurance), to belong (fashion adverts make customers feel part of a group) and for self-esteem (aspirational adverts).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "廣告商會利用我們對安全、歸屬感和自尊的需要；例如保險廣告利用安全感，時裝廣告令顧客覺得自己屬於某個群體，勵志式廣告利用自尊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Clothing advertisements” = fashion adverts“buyers’ desire to belong” = our need to belong“belong to a ___” = feel part of a group答案符合字數限制：group。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Persuaders.pdf",
+    "sha256": "2890352d52e32ae652308563b62e8deb9cb5352b668049d8524148741dffa862",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首尾句，可以先看到文章由「我們長期生活在被 powerful images、catchy soundbites 和offers 包圍的時代」開始，最後收束到「最謹慎的人也可能被 manipulation」。這段功能是總論persuasion 的力量：政治人物、超市、銷售員和廣告人都懂得使用 image-making 和psychological tricks。它不是處理某一個行業細節，而是為全篇建立大主題：現代說服技術無處不在，而且非常專業。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說我們在超市逗留比預期久，買了大量食物，也買了原本不知道自己想要的東西；尾句說低周轉商品放後方，高周轉商品放前方。只看首尾句，可見本段集中解釋 supermarket layout 如何誘導購物。中間出現 baskets、trolleys、aisles、profit maximisation 和 product placement。這段很可能回答「購物籃、手推車、通道設計、商品位置」相關題目，尤其是 Q27 和 Q36。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Stone 認為超市努力 “stall” 顧客，因為顧客逗留越久，買得越多；尾句說 loyal shoppers可能因常去同一間店買基本商品而多付 30%。本段功能是講超市如何延長顧客停留時間，以及如何用氣味、音樂和 loyalty card 影響消費。中間的 bakery smell、fake aromas、pleasant smells、casino experiment 和 loyalty card 都是高價值定位詞。Q30、Q37、Q38、Q39 主要在這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 75% profit 來自 30% customers；尾句說 RFID 讓 retailers 可以追蹤產品進入人們家中。只看首尾句，可以估計這段由不同顧客利潤差異開始，延伸到 data gathering 和 personalised advertising。它不再只是講店內環境，而是講顧客資料如何被收集、分類和利用。關鍵詞包括reward cards、elite shoppers、personalized ads、RFID。Q35 的 customer groups and profits 明顯在這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說不論我們多自以為看穿廣告伎倆，ad industry still wins；尾句說 emotional responses to adverts dominate over cognition。這段功能是說明廣告如何依產品性質選擇理性或情感訴求。中間用 Laurette Dube 的研究分出 cognitive foundations 和 affect：bleach 這類功能性產品用informative appeals；情感型產品則打動 feelings。段落尾部清楚把重點放到 emotion stronger than logic，為後面 celebrity、humour、sexual imagery 作鋪墊。"
+      },
+      {
+        "number": "F",
+        "summary": "首句列出廣告會利用我們對 safety、belonging 和 self-esteem 的需要；尾句說 humor 加 sexual imagery 會非常成功。只看首尾句，可以估計本段處理廣告的情感按鈕：安全感、歸屬感、自尊、名人、幽默和性感元素。中間提到 celebrity ads 比沒有名人的廣告有效 10%，funny ads remembered for longer。這段是 Q32 和 Q40 的主要位置，因為它同時有 humorous advertisements 和 fashion adverts / group。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 slice-of-life ads 是另一種 tried and tested method，描繪你想要但仍覺熟悉的生活；尾句說廣告被稱為 business world 的 nervous system。這段功能是介紹另一類廣告技術：生活片段、自我形象與品牌認同，以及 sensory information 對產品熟悉感的作用。中間有 self-image tallies with brand、behaviorist theories、salivation and chocolate bar。它主要補充廣告如何透過認同感和感官刺激影響消費，不是本題組主要答案來源。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說普通人若真心相信產品也可能賣出東西，但 professional salespeople 另有層次；尾句說seller 會找出買家的要求，再解釋產品好處如何滿足要求。只看首尾句，這段功能是轉入salespeople 的基本心理技術。它把銷售描述成提升 buyer 對需求的感知，再把產品 benefits 對接 buyer requirements。Q28 的 best salespeople quality 直接來自這段，因為首句明確講 the best of them。"
+      },
+      {
+        "number": "I",
+        "summary": "首句引入 Richard Hession，說人性上較喜歡說話多於聆聽，好的銷售員會迎合這一點；尾句說銷售員避免用 “if you buy”，會說 “when you buy”。只看首尾句，可以見到本段講 sales consultation和 assumed success。中間提到銷售員問買家 needs，讓買家覺得自己得到 consultation，不只是被推銷。Q29 的 Hession view 主要在這段，也和 Q34 的 questions 有局部關係。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說 Dr Rob Yeung 認為多數銷售員會透過問 hobbies、family、lifestyle 來 build rapport；尾句說最高程度甚至會 mirror buyer’s body language。只看首尾句，這段功能是講 salesperson 如何拉近距離和模仿顧客。中間的 double benefit 很重要：問題可令 salesperson likeable，也可取得client wants 資訊。這段是 Q31 和 Q34 的核心，因為兩題分別問 close relationship 和 questions help salespeople。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說不論使用哪種方法，所有 salespeople 都朝同一目標：closing the deal；尾句說顧客事後可能才疑惑自己為何那麼容易被說服。只看首尾句，可以知道本段處理成交技巧。中間有 closing signals、assuming success、avoid “Are you interested?”、ask delivery date / colour。這些技巧都屬於 secure an order。Q33 明顯定位到這段，因為 “closing the deal” 就是把訂單拿下來。"
+      }
+    ]
+  }
+}

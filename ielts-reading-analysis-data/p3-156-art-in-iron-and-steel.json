@@ -1,0 +1,1799 @@
+{
+  "id": "p3-156-art-in-iron-and-steel",
+  "catalogueId": "p3-156",
+  "catalogueIds": [
+    "p3-156"
+  ],
+  "passage": 3,
+  "title": "Art in Iron and Steel",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "E",
+    "B",
+    "F",
+    "A",
+    "E",
+    "B",
+    "F",
+    "D",
+    "A",
+    "Abraham Darby III",
+    "stone",
+    "Severn River",
+    "Coalbrookdale museum"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "The first connection between art and engineering.",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long before Sheeler, other artists, too, had seen the beauty and humanity in works of engineering and technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早在 Sheeler 之前，其他藝術家也已經在工程和科技作品中看見美感與人性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The metal structure, simply but appropriately called Iron Bridge, still spans the river and still beckons engineers, artists, and tourists to gaze upon and walk across it, as if on a pilgrimage to a revered place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座金屬結構簡單而貼切地被稱為 Iron Bridge，至今仍橫跨河流，仍吸引工程師、藝術家和遊客前來觀看並走過它，彷彿前往一個受尊崇之地朝聖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 會把讀者帶到比 Sheeler 更早的歷史例子，並展示工程作品如何吸引藝術目光。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first connection”、“art” 和 “engineering”。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 中有兩個強訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long before Sheeler”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the world’s first iron bridge”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, in the late eighteenth century, Abraham Darby III cast on the banks of the Severn River the large ribs that formed the world’s first iron bridge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，十八世紀晚期，Abraham Darby III 在 Severn River 河岸鑄造了大型肋架，形成世界第一座鐵橋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段同時有「早期藝術家」、「工程與科技的美」、「世界第一座鐵橋」。題目中的 “first connection”可以理解成藝術和工程最早、最具象徵性的連接例子。Paragraph A 只是宏觀提出 art and engineering 的關係複雜；Paragraph C 才提供具體歷史場景和早期工程藝術化的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "Small artistic objects and built structures are brought together.",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the nineteenth century, the railroads captured the imagination of artists, and the steam engine in the distance of a landscape became as much a part of it as the herd of cows in the foreground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十九世紀，鐵路吸引了藝術家的想像；風景遠處的蒸汽火車，變得和前景中的牛群一樣，都是風景的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the twentieth century, engineering, technology, and industry were very well established as subjects for artists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了二十世紀，工程、科技和工業已經穩固地成為藝術家的創作題材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph E 講的是工程、科技和工業如何逐步進入藝術主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “built structures” 可對應 railway stations、cathedrals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “small artistic objects” 較可能指傳統藝術題材，例如 water lilies。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Impressionist Claude Monet painted man-made structures like railway stations and cathedrals as well as water lilies.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "印象派畫家 Claude Monet 既畫鐵路站和大教堂這類人造建築，也畫睡蓮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把兩類題材放在一起： railway stations and cathedrals= built structures= 建築物、人造結構water lilies= 較細小、傳統、自然的藝術題材= 睡蓮題目說 “brought together”，並非說它們在同一幅畫中同時出現；重點是同一位藝術家和同一段藝術史敘述把大型人造結構與較傳統的藝術題材並列起來。Paragraph E 最完整地支持這項資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "The working conditions were recorded by the artist as an exciting subject.",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human worker may have appeared to be but a cog in the wheel of industry, yet photographers could reveal the beauty of line and composition in a worker doing something as common as using a wrench to turn a bolt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類工人也許看似只是工業機器中的一個齒輪，但攝影師可以在一名工人做著像用扳手轉螺栓這樣普通的事情時，揭示線條和構圖之美。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist also composed oil paintings of the plant, giving them titles such as American Landscape and Classic Landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位藝術家也為這座工廠創作油畫，並給它們取名為 American Landscape 和 Classic Landscape。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 的功能是把工業工作和工廠環境轉化成藝術題材。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “recorded by the artist” 對應 “photograph it”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“exciting subject” 對應原文的 “most thrilling subject”。原文關鍵句：“The world’s largest car factory captured the imagination of Sheeler, who described it as the most thrilling subject he ever had to work with.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座世界最大的汽車工廠抓住了 Sheeler 的想像力；他形容它是自己曾處理過最令人激動的題材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “recorded” 不是一般記錄文字，而是用攝影和繪畫記錄工廠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Sheeler was chosen to photograph it” 對應 recorded by the artist。“most thrilling subject” 對應 exciting subject。“River Rouge plant” 和 “worker using a wrench” 對應 industrial working context。 Paragraph H 也有工人和工作風險，但沒有 “most thrilling subject” 這個直接對應。Question 29的核心字是 exciting / thrilling，所以 Paragraph B 更準。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "An artist’s depictions of unfinished engineering projects",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“American-born Joseph Pennell illustrated many European travel articles and books.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出生於美國的 Joseph Pennell 為許多歐洲旅遊文章和書籍繪製插圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He is perhaps best known among engineers for his depiction of the Panama Canal as it neared completion and his etchings of the partially completed Hell Gate and Delaware River bridges.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在工程師之中，他最著名的或許是他描繪即將完工的 Panama Canal，以及他為尚未完全建成的Hell Gate 和 Delaware River bridges 所作的蝕刻畫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段是 Joseph Pennell 的藝術生涯介紹，尤其集中在工程建設題材。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “unfinished engineering projects”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“under construction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“neared completion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“partially completed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pennell, who early in his career made drawings of buildings under construction and shrouded in scaffolding…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pennell 在早年職業生涯中曾繪畫正在施工、被腳手架包圍的建築。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“his etchings of the partially completed Hell Gate and Delaware River bridges”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他為尚未完全建成的 Hell Gate 和 Delaware River bridges 所作的蝕刻畫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unfinished” 在題目中沒有原字重現，但 “under construction” 和 “partially completed” 都表示工程尚未完成。“depictions” 對應 drawings / etchings / depiction。所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "Two examples of famous bridges which became the iconic symbols of those cities",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Works of engineering and technology are sometimes viewed as the antitheses of art and humanity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工程和科技作品有時被視為藝術與人性的對立面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The relationship between art and engineering has seldom been easy or consistent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術與工程之間的關係很少是簡單或一致的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 是全文導入，先提出工程和藝術之間的緊張關係，然後舉出可被讚美的工程地標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“two examples”"
+            },
+            {
+              "kind": "quote",
+              "text": "“famous bridges”"
+            },
+            {
+              "kind": "quote",
+              "text": "“iconic symbols”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cities”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Brooklyn and Golden Gate bridges”"
+            },
+            {
+              "kind": "quote",
+              "text": "“embody the spirits of their respective cities”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the same time, landmark megastructures such as the Brooklyn and Golden Gate bridges are almost universally hailed as majestic human achievements as well as great engineering monuments that have come to embody the spirits of their respective cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，像 Brooklyn Bridge 和 Golden Gate Bridge 這類地標性巨型結構，幾乎普遍被讚譽為宏偉的人類成就，也被視為偉大的工程紀念物，並且已經體現了各自城市的精神。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “iconic symbols of those cities” 是對 “embody the spirits of their respective cities” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Brooklyn Bridge 和 Golden Gate Bridge 正好是 two examples。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "人物 E — Joseph Pennell",
+      "answerKey": "人物 E — Joseph Pennell",
+      "type": "Matching Features",
+      "prompt": "who commented that engineering constructions can be beautiful and that engineers are architects",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pennell has often been quoted as saying, ‘Great engineering is great art,’ a sentiment that he expressed repeatedly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pennell 常被引用的一句話是：「偉大的工程就是偉大的藝術」；他曾多次表達這種看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That process is memorialized in every completed dam, skyscraper, bridge, or other great achievement of engineering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程被每一座完工的大壩、摩天大樓、橋樑，或其他偉大工程成就紀念下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 是 Pennell 的工程美學觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “engineering constructions can be beautiful” 對應 “Great engineering is great art”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“engineers are architects” 對應 “engineers are the greatest architects”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“He wrote of his contemporaries, ‘I understand nothing of engineering, but I know that engineers are the greatest architects and the most pictorial builders since the Greeks.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他談到同時代的人時寫道：「我對工程一無所知，但我知道工程師是自希臘人以來最偉大的建築師，也是最具畫面感的建造者。」這一句直接支援題目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“engineers are the greatest architects” 對應 engineers are architects。“Great engineering is great art” 對應 engineering constructions can be beautiful。所以答案是 人物 E — Joseph Pennell。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "人物 B — Michael Rooker",
+      "answerKey": "人物 B — Michael Rooker",
+      "type": "Matching Features",
+      "prompt": "who made a romantic depiction of an old bridge in one painting",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Coalbrookdale, the reflection of the ironwork in the water completes the semicircular structure to form a wide-open eye into the future that is now the past.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Coalbrookdale，鐵結構倒映在水中，使半圓形結構完整起來，形成一隻望向未來的大眼；只是那個未來如今已成過去。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surrounding area at the same time radiates out from the bridge and pales behind it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "周圍地區同時從橋向外延展，並在橋的背後變得黯淡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯描述一幅關於 Iron Bridge 的藝術作品，語氣帶有詩意和田園感。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “romantic depiction” 對應原文的 “bucolic depiction”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“one painting” 對應 “his 1792 painting”。人名是 Michael Rooker。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This is how Michael Rooker saw Iron Bridge in his 1792 painting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 Michael Rooker 在他 1792 年的畫作中所看見的 Iron Bridge。"
+            },
+            {
+              "kind": "label",
+              "text": "前文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One artist’s bucolic depiction shows pedestrians and horsemen on the bridge, as if on a woodland trail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位藝術家的田園式描繪展示了橋上的行人和騎馬者，彷彿他們正走在林間小徑上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bucolic” 指田園式、鄉野牧歌式，和題目的 “romantic depiction” 很接近。所以答案是 人物 B — Michael Rooker。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "人物 F — Lewis Hine",
+      "answerKey": "人物 F — Lewis Hine",
+      "type": "Matching Features",
+      "prompt": "who produced artworks demonstrating the courage of workers on site",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If Pennell experienced the wonder of work in the aggregate, Lewis Hine focused on the individuals who engaged in the work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Pennell 感受到的是整體工作帶來的奇觀，Lewis Hine 則聚焦於參與工作的個體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, perhaps more than anything, the photos evoke Pennell’s ‘The Wonder of Work’ and inspire admiration for the bravery and skill that bring a great engineering project to completion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，最重要的是，這些照片喚起 Pennell 所說的 “The Wonder of Work”，並激發人們對完成偉大工程所需的勇氣和技術的敬佩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經指出 Hine 的焦點是 workers，以及作品帶出 bravery and skill。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“courage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“workers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on site”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“workers suspended on cables hundreds of feet in the air”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sitting on a high girder eating lunch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bravery and skill”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He put his own life at risk to capture workers suspended on cables hundreds of feet in the air and sitting on a high girder eating lunch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他冒著生命危險，拍攝懸吊在數百英尺高空電纜上的工人，以及坐在高處鋼樑上吃午餐的工人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些畫面直接展示工地工人的危險處境和膽量。最後一句再明確說照片 “inspire admiration for the bravery and skill”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 人物 F — Lewis Hine。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "人物 D — Christian Schussele",
+      "answerKey": "人物 D — Christian Schussele",
+      "type": "Matching Features",
+      "prompt": "who produced portraits involving engineers, inventions, and historical figures",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the nineteenth century, the railroads captured the imagination of artists, and the steam engine in the distance of a landscape became as much a part of it as the herd of cows in the foreground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十九世紀，鐵路吸引了藝術家的想像；風景遠處的蒸汽火車，也變成畫面的一部分，就像前景中的牛群一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the twentieth century, engineering, technology, and industry were very well established as subjects for artists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了二十世紀，工程、科技和工業已經穩固地成為藝術家的創作題材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講的是科技、工程和工業如何成為藝術主題，當中包括畫家和肖像畫家。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“portraits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“engineers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inventions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“historical figures”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接出現 “Portrait painters such as Christian Schussele”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Portrait painters such as Christian Schussele found subjects in engineers and inventors – and their inventions – as well as in the American founding fathers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像 Christian Schussele 這樣的肖像畫家，會從工程師、發明家及其發明中尋找題材，也會描繪美國開國元勳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 historical figures 對應 American founding fathers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "engineers、inventors、inventions 都是原文直接重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 人物 D — Christian Schussele。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "人物 A — Charles Sheeler",
+      "answerKey": "人物 A — Charles Sheeler",
+      "type": "Matching Features",
+      "prompt": "who produced paintings of a factory and gave them ambitious titles",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human worker may have appeared to be but a cog in the wheel of industry, yet photographers could reveal the beauty of line and composition in a worker doing something as common as using a wrench to turn a bolt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類工人也許看似只是工業機器中的一個齒輪，但攝影師可以在一名工人做著像用扳手轉螺栓這樣普通的事情時，揭示線條和構圖之美。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist also composed oil paintings of the plant, giving them titles such as American Landscape and Classic Landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位藝術家也為這座工廠創作油畫，並給它們取名為 American Landscape 和 Classic Landscape。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句清楚指向工廠、攝影、油畫和藝術化命名。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“paintings of a factory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gave them titles”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“oil paintings of the plant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“titles such as American Landscape and Classic Landscape”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Henry Ford’s enormous River Rouge plant opened in 1927 to produce the Model A, the painter/photographer Charles Sheeler was chosen to photograph it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Henry Ford 巨大的 River Rouge 工廠在 1927 年開幕、用來生產 Model A 時，畫家兼攝影師Charles Sheeler 被選中為它拍攝照片。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The artist also composed oil paintings of the plant, giving them titles such as American Landscape and Classic Landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位藝術家也為這座工廠創作油畫，並給它們取名為 American Landscape 和 Classic Landscape。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “ambitious titles” 指 American Landscape 和 Classic Landscape 這類把工廠提升為宏大景觀的標題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 人物 A — Charles Sheeler。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "Abraham Darby III",
+      "answerKey": "Abraham Darby III",
+      "type": "Summary Completion",
+      "prompt": "Question 37",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目空格： built by the engineer 37 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。這段介紹 Coalbrookdale、世界第一座鐵橋，以及工程與藝術的早期交會。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Long before Sheeler, other artists, too, had seen the beauty and humanity in works of engineering and technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早在 Sheeler 之前，其他藝術家也已經在工程和科技作品中看見美感與人性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The metal structure, simply but appropriately called Iron Bridge, still spans the river and still beckons engineers, artists, and tourists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座金屬結構簡單而貼切地被稱為 Iron Bridge，至今仍橫跨河流，仍吸引工程師、藝術家和遊客。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用空格前後定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “built by the engineer”，所以需要一個人名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 內最明顯的人名是 “Abraham Darby III”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, in the late eighteenth century, Abraham Darby III cast on the banks of the Severn River the large ribs that formed the world’s first iron bridge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，十八世紀晚期，Abraham Darby III 在 Severn River 河岸鑄造了大型肋架，形成世界第一座鐵橋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “cast … the large ribs that formed the world’s first iron bridge” 概括成 “built by the engineer”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填人名，且不超過三個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Abraham Darby III = 3 words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 Abraham Darby III。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "stone",
+      "answerKey": "stone",
+      "type": "Summary Completion",
+      "prompt": "Question 38",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目空格： materials such as 38 ______ and timber"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph C，因為 summary 正在講 Iron Bridge 和 earlier bridges 的材料對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用空格前後定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格後面是 “and timber”，所以答案很可能是另一種建橋材料。"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph C，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“classic stone and timber bridges”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a dramatic departure from the classic stone and timber bridges that dotted the countryside…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與遍佈鄉郊的傳統石橋和木橋形成了戲劇性的不同。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“earlier bridges in the countryside were constructed using materials such as 38 ______ and timber.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期鄉郊橋樑使用例如 ______ 和木材這些材料建成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “stone and timber” 對應題目 “______ and timber”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案只需填第一個材料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 stone。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "Severn River",
+      "answerKey": "Severn River",
+      "type": "Summary Completion",
+      "prompt": "Question 39",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目空格： spans the 39 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph C。這段提供 Iron Bridge 的地點、建造者、材料突破和持續吸引力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用空格前後定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “spans the”，所以需要一個地理名詞，通常是 river。"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“on the banks of the Severn River”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still spans the river”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Abraham Darby III cast on the banks of the Severn River…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Abraham Darby III 在 Severn River 河岸鑄造……原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The metal structure, simply but appropriately called Iron Bridge, still spans the river…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這座金屬結構，即 Iron Bridge，至今仍橫跨這條河。"
+            },
+            {
+              "kind": "label",
+              "text": "Summary 需要完整地點名稱："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first Iron Bridge, which spans the 39 ______…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於前文已給出河名 “Severn River”，而 “the river” 回指這條河，所以最合適答案是 Severn River。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Severn River = 2 words，符合 no more than three words。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "Coalbrookdale museum",
+      "answerKey": "Coalbrookdale museum",
+      "type": "Summary Completion",
+      "prompt": "Question 40",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目空格： exhibited locally in the 40 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。這段描述 Iron Bridge 在藝術作品中的呈現，以及相關作品的展示地點。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Coalbrookdale, the reflection of the ironwork in the water completes the semicircular structure…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Coalbrookdale，鐵結構倒映在水中，使半圓形結構完整起來……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surrounding area at the same time radiates out from the bridge and pales behind it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "周圍地區同時從橋向外延展，並在橋的背後變得黯淡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段集中描寫 Iron Bridge 的藝術呈現，並提到一幅雕版畫和其他 renderings 的展示地點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用空格前後定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有 “paintings and engravings”、“collected and exhibited locally”，所以要找 museum 或gallery 一類地點。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A colored engraving of the scene hangs in the nearby Coalbrookdale museum, along with countless other contemporary renderings of the bridge…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一幅描繪該場景的彩色雕版畫掛在附近的 Coalbrookdale museum 中，旁邊還有無數同時代關於這座橋的描繪作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Numerous spectacular paintings and engravings … are collected and exhibited locally” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“hangs in the nearby Coalbrookdale museum”"
+            },
+            {
+              "kind": "quote",
+              "text": "“along with countless other contemporary renderings”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填展示地點，因此是 Coalbrookdale museum。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Coalbrookdale museum = 2 words，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Art in Iron and Steel.pdf",
+    "sha256": "996ce4133bd7de529d56770b3ee9de027e642fee4969d756cf712fe09cd36227",
+    "pageCount": 18
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句指出工程和科技作品有時被視為藝術與人性的對立面。尾句說藝術和工程的關係向來很少簡單或一致。這段是全文框架，會先呈現人們對工業、機械、科技的負面聯想，再用大型橋樑等例子說明工程也可被視為宏偉的人類成就。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把焦點放到工業中的工人，說攝影師可在普通工序中呈現線條和構圖之美。尾句提到Charles Sheeler 為工廠創作油畫，並取名 American Landscape、Classic Landscape。這段大概會說明藝術家如何把工廠和工業勞動轉化成有美感、有格局的藝術題材。"
+      },
+      {
+        "number": "C",
+        "summary": "首句回到 Sheeler 之前，說其他藝術家早已在工程和科技中看到美與人性。尾句說 Iron Bridge至今仍吸引工程師、藝術家和遊客，像朝聖一樣前來觀看。這段應該介紹 Coalbrookdale 和世界第一座鐵橋，展示早期藝術與工程交會的歷史例子。"
+      },
+      {
+        "number": "D",
+        "summary": "首句描寫 Iron Bridge 倒映在水中，形成一隻望向未來的眼。尾句說周圍景物從橋向外延展，同時在橋後變淡。這段很可能細看 Michael Rooker 的畫作，描述橋、河、人物、馬、船和岸邊景物如何構成田園式畫面，並把鐵橋放在景觀中心。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說十九世紀鐵路吸引藝術家想像，遠處蒸汽火車已成為風景的一部分。尾句說到二十世紀，工程、科技和工業已穩固成為藝術主題。這段是歷史拓展段，應該會列舉 Monet、Schussele 等藝術家，把鐵路站、大教堂、工程師、發明家和發明納入藝術題材。"
+      },
+      {
+        "number": "F",
+        "summary": "首句介紹 Joseph Pennell 是出生於美國的插畫家，曾為歐洲旅行文章和書籍作畫。尾句說他因Panama Canal，以及未完成的 Hell Gate 和 Delaware River bridges 蝕刻畫而為工程師熟知。這段大概會以人物生平方式介紹 Pennell 對施工中工程項目的興趣。"
+      },
+      {
+        "number": "G",
+        "summary": "首句引用 Pennell 的核心看法：“Great engineering is great art.” 尾句說每一座完工的大壩、摩天樓、橋樑或工程成就都紀念了工程過程。這段應該會解釋 Pennell 的藝術觀：他欣賞工程的規模、建造過程和視覺力量，並稱這種震撼為 “The Wonder of Work”。"
+      },
+      {
+        "number": "H",
+        "summary": "首句把 Pennell 的整體工程奇觀和 Lewis Hine 對個別工人的關注作對照。尾句說 Hine 的照片令人敬佩完成偉大工程所需的勇氣和技術。這段大概會講 Hine 拍攝 Empire State Building 工人，突出高空工作、缺乏現代安全裝備，以及工人的膽量和技能。"
+      }
+    ]
+  }
+}

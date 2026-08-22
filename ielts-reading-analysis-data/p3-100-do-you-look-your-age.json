@@ -1,0 +1,1219 @@
+{
+  "id": "p3-100-do-you-look-your-age",
+  "catalogueId": "p3-100",
+  "catalogueIds": [
+    "p3-100"
+  ],
+  "passage": 3,
+  "title": "Do You Look Your Age?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "B",
+    "B",
+    "A",
+    "1,826 twins",
+    "nutrition",
+    "liver and kidneys",
+    "low-fat",
+    "moisturiser",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — Spending a long time in the sun",
+      "answerKey": "C — Spending a long time in the sun",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：根據調查，哪一個 social factor 會令人看起來更老？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標範圍是 Paragraph 2–3，答案句在 Paragraph 3。Paragraph 2 第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last month, the University of Southern Denmark published a report, The Influence of Environmental Factors on Facial Ageing, which showed that how we live can affect how old we look.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "上個月，南丹麥大學發表一份關於環境因素如何影響面部老化的報告，顯示生活方式會影響我們看起來幾歲。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depression and sun exposure were the biggest factors in making you look old before your time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "抑鬱和日曬是令人看起來比實際年齡更老的最大因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 “more than four children” 對應 Paragraph 2；B 的 “high BMI” 和 C 的 “sun” 都在 Paragraph 3。真正和 “look older” 直接連起來的是 “sun exposure”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sun exposure piled on at least an extra year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "日曬至少會令外表年齡增加一年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “Spending a long time in the sun” 對應原文 “sun exposure”。這是直接改寫。A 的問題是，原文說 having children 令男性年輕一歲，四個或以上孩子只是取消這個好處，沒有說令人更老。B 剛好方向相反，原文說 high BMI “take a whole year off”，即看起來年輕一年。所以答案是C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — Not eating enough protein",
+      "answerKey": "B — Not eating enough protein",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：哪一個 nutritional factor 會令人看起來更老？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 4。第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is possibly the biggest change we can make fairly easily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是我們比較容易作出的最大改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most smokers don’t drink anywhere near enough water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數吸煙者喝水遠遠不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段開始進入 nutrition，並列出可以改變外貌老化的飲食因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “nutritional factors” 和 “look older”。原文直接列出："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are four main factors that prematurely age us: smoking, too much alcohol, lack of fresh fruit and vegetables, and insufficient protein intake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有四個主要因素會令我們提早老化：吸煙、過量飲酒、缺少新鮮蔬果，以及蛋白質攝取不足。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Not eating enough protein” 對應原文 “insufficient protein intake”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “Eating lots of fruit and vegetables” 方向相反，原文說缺少新鮮蔬果才會令人提早老化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Eating lots of meat” 原文沒有提到，不能自行把 meat 和 protein intake 連成答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — It helps keep type II muscle fibres in better condition.",
+      "answerKey": "B — It helps keep type II muscle fibres in better condition.",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：運動如何令人看起來更年輕？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 7。第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’ve come to think of exercise as a pure slimming pursuit and women tend to be rather scared of lifting weights, but building lean tissue through weight-bearing exercise is key to keeping the years at bay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們逐漸把運動看成純粹瘦身的追求，女性也往往害怕舉重；但透過負重運動建立精瘦組織，是延緩年齡痕跡的關鍵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, these type II fibres deteriorate because they simply don’t get enough stimuli.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，這些第二型肌肉纖維會退化，因為它們得不到足夠刺激。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 有非常強的定位詞 “type II muscle fibres”。原文也直接出現 “type II muscle fibres”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Exercise can help reduce the effects of ageing by slowing down the decline of type II muscle fibres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "運動可以透過減慢第二型肌肉纖維的衰退，幫助減少老化影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 “keep type II muscle fibres in better condition” 是對 “slowing down the decline” 的合理改寫。A “making them feel happier” 原文沒有提到。C “increases oxygen flow” 原文也沒有說。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — People don’t use them early enough.",
+      "answerKey": "A — People don’t use them early enough.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：skincare products 的主要問題是甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 8。第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost every skin cream promises to make you look younger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎每一款護膚霜都承諾能令你看起來更年輕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A good routine should start early because maintenance is much easier than repair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "良好的護膚程序應該早開始，因為保養比修復容易得多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “main problem” 和 “skincare products”。原文中有一句非常關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem is not that products don’t work, but that people start using them too late and then do not spend enough money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題並非產品沒有作用；真正的問題是人們太遲開始使用，之後投入的金錢也不足。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “People don’t use them early enough” 對應 “people start using them too late”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說人們花太多錢，原文方向相反，原文說 “do not spend enough money”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說大部分護膚產品沒有作用，原文已明確排除這點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "1,826 twins",
+      "answerKey": "1,826 twins",
+      "type": "Sentence Completion",
+      "prompt": "“The Danish survey used photographs of 31 ______”",
+      "translation": "丹麥調查使用了 31 ______ 的照片。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。第一句介紹 University of Southern Denmark 的報告；最後一句說having children 對男性和女性外貌年齡的不同影響。只看首尾句，已可判斷本段講 Danish survey 的設計和結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Danish survey” 和 “photographs”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In it, 1,826 twins were photographed and then ten female nurses aged between 25 and 46 years were asked to guess how old the ‘models’ were.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這項研究中，1,826 對雙胞胎被拍照，然後十位年齡介乎 25 至 46 歲的女護士被要求猜測這些「模特兒」幾歲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格前是 “photographs of”，所以要填被拍攝的人。原文答案是 “1,826 twins”。符合 NO MORE THAN THREE WORDS。答案是 1,826 twins。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "nutrition",
+      "answerKey": "nutrition",
+      "type": "Sentence Completion",
+      "prompt": "“The greatest difference people can make relatively easily is with 32 ______”",
+      "translation": "人們相對容易作出的最大改變是在 32 ______ 方面。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標位置是 NUTRITION section / Paragraph 4。標題是 “NUTRITION”，第一句緊接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is possibly the biggest change we can make fairly easily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能是我們比較容易作出的最大改變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “greatest difference” 對應原文 “biggest change”；題目中的 “relatively easily” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fairly easily”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“This” 指向小標題 NUTRITION。也就是說，文章認為較容易作出的大改變是在營養／飲食方面。答案要用文章中的字，填 nutrition 最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "liver and kidneys",
+      "answerKey": "liver and kidneys",
+      "type": "Sentence Completion",
+      "prompt": "“The human body uses the 33 ______ to get rid of toxins.”",
+      "translation": "人體使用 33 ______ 來清除毒素。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。這段討論吸煙、毒素、水分，以及身體如何處理毒素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “toxins”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every time you inhale cigarette smoke, you’re taking toxins into the body which have to be diffused and detoxified by the liver and kidneys…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每次吸入香煙煙霧時，你都把毒素帶入身體，而這些毒素必須由肝臟和腎臟分散並解毒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子是 “uses the ______ to get rid of toxins”。原文中的處理器官是 “the liver and kidneys”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格最多三字，所以答案是 liver and kidneys。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "low-fat",
+      "answerKey": "low-fat",
+      "type": "Sentence Completion",
+      "prompt": "“A 34 ______ diet makes people look much older.”",
+      "translation": "34 ______ 飲食會令人看起來老很多。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。第一句說 essential fatty acids 經常在 diet-obsessed culture 中被忽略；最後一句講壓力和營養素支援腺體功能。只看首尾句，可以估計本段會講脂肪、節食和外貌老化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “diet” 和 “looking old”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the worst things you can do in terms of looking old is to go on a low-fat diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從看起來變老的角度來看，其中一件最糟糕的事就是進行低脂飲食。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已有 “A ______ diet”，所以空格只需要形容 diet 的字。原文是 “low-fat diet”，答案填 low-fat。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "moisturiser",
+      "answerKey": "moisturiser",
+      "type": "Sentence Completion",
+      "prompt": "“People should use 35 ______ on the back of the neck.”",
+      "translation": "人們應該在後頸使用 35 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。第一句講皮膚變透明後要調整 make-up 和 hair colour；最後一句提到後頸護理。後頸是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “back of the neck”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Don’t forget to apply moisturiser around the back of the neck…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要忘記在後頸周圍塗保濕霜。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “use” 改寫原文 “apply”。空格需要物件名詞，答案是 moisturiser。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A person’s social class can affect how old they look.”",
+      "translation": "一個人的社會階級會影響他看起來幾歲。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。第一句說生活方式會影響我們看起來幾歲；最後一句講 children 對外貌年齡的影響。這段明顯在列舉 social factors。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “social class”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They showed that belonging to a high social class can make us look up to four years younger…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果顯示，屬於較高社會階級可以令我們看起來年輕最多四歲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 social class “can affect” perceived age。原文說 high social class can make people look younger。這正是影響外貌年齡的一種方式。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Having children makes men and women look younger.”",
+      "translation": "有孩子會令男性和女性都看起來更年輕。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。段末直接講 children 對男女的不同影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Having children”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having children was found to make men look a full year younger, though it had no effect on women…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究發現，有孩子會令男性看起來年輕整整一歲，但對女性沒有影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 men and women 都看起來更年輕。原文只支持 men，並明確說 women “no effect”。題目把只適用於男性的結果擴大到男女兩方，因此答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Smokers need to drink more water than non-smokers.”",
+      "translation": "吸煙者需要比非吸煙者喝更多水。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。第一句說 nutrition 是容易改變的大因素；最後一句說大多數吸煙者喝水不足。這段確實會談 smoking 和 water。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “smokers” 和 “water”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most smokers don’t drink anywhere near enough water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數吸煙者喝水遠遠不足。"
+            },
+            {
+              "kind": "label",
+              "text": "前文也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…toxins into the body which have to be diffused and detoxified by the liver and kidneys, and they’re dependent on plenty of fresh water to carry toxins away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入身體的毒素需要由肝臟和腎臟處理，並依靠大量新鮮水分把毒素帶走。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支持「吸煙者需要足夠水分」和「多數吸煙者喝水不足」。題目加入了一個比較：smokers need to drink more water than non-smokers。文章沒有提供非吸煙者需要多少水，也沒有直接比較兩組人的水分需求。相關資料存在，核心比較缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some people don’t get enough fatty acids because they are slimming.”",
+      "translation": "有些人因為減肥或節食，沒有攝取足夠脂肪酸。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。第一句說 essential fatty acids 是 diet-obsessed culture 中常被忽略的東西；中段又說 low-fat diet 會令人看起來更老。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “fatty acids” 和 “slimming”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The other really important thing, and one we tend to miss out on in our diet-obsessed culture, is adequate intake of essential fatty acids…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一件真正重要、但我們在迷戀節食的文化中往往忽略的事，是充足攝取必需脂肪酸。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the worst things you can do in terms of looking old is to go on a low-fat diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從看起來變老的角度來看，其中一件最糟糕的事就是進行低脂飲食。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “because they are slimming” 可理解成正在節食或減肥。原文的 “diet-obsessed culture”和 “low-fat diet” 支持這個方向。原文也明確說人們往往 miss out on adequate intake of essential fatty acids。題目用 “some people” 範圍較保守，和原文的 “we tend to miss out” 不衝突。因此答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most skin creams contain vitamins that are good for the skin.”",
+      "translation": "大部分護膚霜含有對皮膚有益的維他命。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8，因為題目提到 skin creams。第一句說幾乎每款護膚霜都承諾令人看起來年輕；最後一句說護膚程序要早開始。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “skin creams” 和 “vitamins”。原文有 skin cream，但在這段沒有 vitamins。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost every skin cream promises to make you look younger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎每款護膚霜都承諾能令你看起來更年輕。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem is not that products don’t work, but that people start using them too late and then do not spend enough money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題並非產品沒有作用；真正控制答案的是人們開始使用得太遲，投入也不足。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章提到 skin creams 的承諾和使用時間，但沒有說它們是否含有 vitamins，也沒有說大部分產品的成分。vitamin C、B vitamins 等詞出現在 nutrition / stress 的段落中，並非 skin creams 的成分說明。題目把「維他命」和「護膚霜成分」連在一起，原文沒有提供這條關係。因此答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Do You Look Your Age_ .pdf",
+    "sha256": "0786f8293172edeb6328c656a6910331e050148b4e948295de2c0a78f030d53e",
+    "pageCount": 14
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說很難準確猜出一個人的實際年齡；尾句說雖然有些社會因素不能控制，但仍有其他方法可減慢年齡留下的痕跡。只看首尾句，可以先判斷這是全文導入段：文章不會單純談「實際年齡」，重點會放在 perceived age，即外表看起來幾歲。後文很可能按不同因素分類，例如社會背景、飲食、運動和護膚，逐一說明哪些因素令人看起來更老或更年輕。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 University of Southern Denmark 的報告顯示，生活方式會影響我們看起來幾歲；尾句說有孩子會令男性看起來年輕一歲，但對女性沒有影響，四個或以上孩子又會抵消好處。只看首尾句，可以估計這段是社會因素研究段，尤其有 survey、twins、nurses、social class 和 children 等數據。這段很適合定位 Danish survey、photographs、social class、children 相關題目。"
+      },
+      {
+        "number": "3",
+        "summary": "首句直接指出 depression 和 sun exposure 是令人看起來過早變老的最大因素；尾句說Christensen 報告總結，看起來老一歲比實際年齡大一歲對健康更危險。只看首尾句，可以判斷這段繼續講社會或生活因素的量化結果，包括 depression、sun exposure、smoking 和 BMI。這段很適合處理「哪個因素令人看起來更老」以及 TRUE / FALSE / NOT GIVEN 中關於 social class、children、BMI、smoking 的題目。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 nutrition 可能是我們較容易作出的大改變；尾句說多數吸煙者喝水遠遠不足。只看首尾句，可以估計本段由飲食總論開始，列出令外貌提早老化的主要營養因素，例如 smoking、alcohol、缺少 fruit and vegetables，以及 protein intake 不足。段末聚焦吸煙、毒素、肝腎和水分，因此這段很適合定位 protein、toxins、liver and kidneys、smokers 和 water 題目。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說真正快速有效的大改變，是多吃 fresh fruit and vegetables；尾句說如果一定要煮食， steaming 至少可保留部分 vitamins and minerals。只看首尾句，可以判斷這段集中講新鮮蔬果與皮膚狀態。中間應該會解釋為何缺乏蔬果會令皮膚失去 freshness、translucency 和 hydration。這段較可能支援營養細節題，但本題直接答案較少，主要補強 nutrition section 的整體邏輯。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說另一個重要卻常在 diet-obsessed culture 中被忽略的，是 essential fatty acids 的充足攝取；尾句說壓力時可用 vitamin C、magnesium、iodine、selenium、zinc 和 B vitamins 支援 adrenal和 thyroid glands。只看首尾句，可以判斷這段講脂肪酸、低脂飲食與壓力對外貌老化的影響。它很適合定位 fatty acids、low-fat diet、dieting / slimming、stress、thyroid 和 adrenal 相關題目。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說我們常把運動看成純粹瘦身方法，女性也往往害怕舉重；尾句說 type II fibres 會惡化，因為它們得不到足夠刺激。只看首尾句，可以判斷本段集中講 exercise 對抗老化的真正原因：不是只靠減肥，而是透過 weight-bearing exercise 和 resistance work 保持肌肉狀態，尤其是 type II muscle fibres。這段直接對應 exercise 如何令人看起來年輕的選擇題。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說幾乎每款 skin cream 都承諾令人看起來更年輕；尾句說護膚程序應早開始，因為maintenance 比 repair 容易。只看首尾句，可以估計本段處理護膚產品和使用時機。它的核心應該不是單純批評產品無效，而是說很多人開始太遲，或護膚投入不足。這段會直接回答 skincare products 的 main problem，也能處理 skin creams 是否含 vitamins 這類資料缺失題。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說年紀增長時皮膚會更透明，因此要相應調整 make-up 和 hair colour；尾句提醒要在後頸塗moisturiser，以避免 sagging。只看首尾句，可以判斷這段是實用護膚建議段，重點包括foundation、hair colour、grey hair、highlights 和 neck care。這段最適合定位 back of the neck、moisturiser 和 sagging 題目，也補充護膚不只在面部，後頸也需要保養。"
+      }
+    ]
+  }
+}

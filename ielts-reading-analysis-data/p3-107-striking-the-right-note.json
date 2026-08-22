@@ -1,0 +1,1962 @@
+{
+  "id": "p3-107-striking-the-right-note",
+  "catalogueId": "p3-107",
+  "catalogueIds": [
+    "p3-107"
+  ],
+  "passage": 3,
+  "title": "Striking the right note",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "ability",
+    "note",
+    "relative",
+    "music lessons",
+    "tone",
+    "words",
+    "pitch",
+    "cultures",
+    "D — Marvin",
+    "B — Deutsch",
+    "A — Levitin",
+    "E — Freimer",
+    "C — Gregersen"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "ability",
+      "answerKey": "ability",
+      "type": "Summary Completion",
+      "prompt": "“Research is being conducted into the mysterious musical 28 ______ some people possess known as perfect pitch.”",
+      "translation": "研究正在探討某些人擁有、稱為 perfect pitch 的神秘音樂 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，要從 box 選字。空格前有 “mysterious musical”，後面有 “some people possess”，所以空格需要一個名詞，表示某種人能擁有的能力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The uncanny, if sometimes distracting, ability to name a solitary note out of the blue, without any other notes for reference, is a prized musical talent – and a scientific mystery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種令人驚奇、有時也令人分心的能力，是在沒有任何其他音符作參考時，突然說出單一音符名稱；它是一種珍貴的音樂才能，也是一個科學謎團。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hearing and naming the pitch go hand in hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聽到音高和說出音高名稱幾乎同時發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 是 absolute pitch 的定義段。它會說明這種能力是甚麼，以及它為何特別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“mysterious musical”"
+            },
+            {
+              "kind": "quote",
+              "text": "“some people possess”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perfect pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“ability”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a prized musical talent”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a scientific mystery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Musicians with perfect pitch…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the … ability to name a solitary note…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 ability 就是題目要填的字。題目把原文的 “a prized musical talent – and a scientific mystery” 改寫成 “mysterious musical ability”。空格要接在 adjective “musical” 後面，box 裡最合適的名詞也是 ability。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“mysterious musical ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a prized musical talent – and a scientific mystery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ability to name a solitary note”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： mysterious = scientific mystery musical = musical talent ability = ability所以 28 是 ability。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "note",
+      "answerKey": "note",
+      "type": "Summary Completion",
+      "prompt": "“Musicians with this talent are able to name and sing a 29 ______ without reference to another…”",
+      "translation": "有這種才能的音樂人能在沒有另一個參考音的情況下，說出並唱出一個 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，所以需要單數可數名詞。題目中的 “without reference to another” 是很強的定位線索，應回到 absolute pitch 的定義句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The uncanny, if sometimes distracting, ability to name a solitary note out of the blue, without any other notes for reference, is a prized musical talent – and a scientific mystery.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種令人驚奇、有時令人分心的能力，是在沒有任何其他音符作參考時，突然說出單一音符名稱；它是一種珍貴音樂才能，也是一個科學謎團。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hearing and naming the pitch go hand in hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聽到音高和說出音高名稱幾乎同時發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段功能非常清楚：解釋 perfect pitch 的能力內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without reference to another”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“ability to name a solitary note out of the blue, without any other notes for reference”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “a solitary note” 的意思是「單一音符」。題目把它改成 “a ______ without reference to another”，即「不靠另一個音作參考」。空格需要的就是 note。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目多了 “sing”，而原文主要說 name a solitary note。不過整段說 musicians with perfect pitch can play pieces by ear and transcribe music brilliantly，並且 hearing and naming the pitch go hand in hand。Notes 題重點在可辨認的對象：單一音符。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a ______ without reference to another”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a solitary note … without any other notes for reference”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： without reference to another = without any other notes for reference a note = a solitary note所以 29 是 note。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "relative",
+      "answerKey": "relative",
+      "type": "Summary Completion",
+      "prompt": "“…and it is this that separates them from the majority who have only 30 ______ pitch.”",
+      "translation": "正是這一點把他們和大多數只擁有 ______ pitch 的人區分開來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面已有 “pitch”，所以空格需要形容詞。題目說 “the majority”，即大多數音樂人，應定位到與 perfect pitch 對比的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By contrast, most musicians follow not the notes, but the relationship between them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，大多數音樂人注意的重點是音符之間的關係，並非單獨音符本身。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Useful, but much less mysterious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種能力很有用，但神秘感低得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 是對比段：它把多數音樂人的能力和 absolute pitch 分開。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“majority”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only ___ pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is relative pitch.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說，大多數音樂人認得兩個音之間相隔多少 tones，但若要說較高的音是 E，通常要先知道較低的音是 C。這種能力叫 relative pitch。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “the majority who have only ___ pitch” 對應原文 “most musicians” 和 “This is relative pitch”。空格後已有 pitch，所以只填 relative。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the majority who have only relative pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“most musicians…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“This is relative pitch.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 relative。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 Paragraph 1 多次出現 pitch，想填 pitch。可是題目空格後已有 pitch，填 pitch 會變成 “pitch pitch”，文法錯誤。這題先靠文法排除，再靠 Paragraph 2 的對比關係定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "music lessons",
+      "answerKey": "music lessons",
+      "type": "Summary Completion",
+      "prompt": "“The research aims to find out whether this skill is the product of genetic inheritance or early exposure to 31 ______ or, as some researchers believe, a combination of both.”",
+      "translation": "研究想知道這種技能究竟來自遺傳，還是早期接觸 ______，又或者像部分研究者認為的那樣，是兩者結合。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “early exposure to”，後面要接一個名詞或名詞短語。題目中的 “genetic inheritance” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“combination of both” 提示我們要找 nature / nurture 的爭論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句：“For centuries, absolute pitch has been thought of as the preserve of the musical elite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個世紀以來，absolute pitch 一直被視為音樂精英才擁有的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And their work may finally settle a decades-old debate about whether absolute pitch depends on melodious genes – or early music lessons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的研究可能最終解決一場持續數十年的爭論：absolute pitch 究竟取決於音樂天賦相關基因，還是早期音樂課。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段會處理 perfect pitch 是稀有天賦、基因、訓練，還是兩者互動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetic inheritance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“early exposure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“combination of both”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“melodious genes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“early music lessons”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一句的結構是："
+            },
+            {
+              "kind": "quote",
+              "text": "“whether absolute pitch depends on melodious genes – or early music lessons”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “melodious genes” 改寫成 “genetic inheritance”，把 “early music lessons” 改寫成 “early exposure to music lessons”。空格要從 box 中選擇，唯一符合的是 music lessons。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "genetic inheritance = melodious genes early exposure to music lessons = early music lessons combination of both = later paragraphs 的 nature and nurture所以 31 是 music lessons。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "tone",
+      "answerKey": "tone",
+      "type": "Summary Completion",
+      "prompt": "“One research team sought a link between perfect pitch and 32 ______ languages in order to explain the high number of Asian speakers with perfect pitch.”",
+      "translation": "一個研究團隊試圖找出 perfect pitch 和 ______ languages 之間的關係，以解釋亞洲語言使用者中較高的 perfect pitch 人數。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “languages” 前面，需要形容詞或名詞作定語。題目說 Asian speakers，應定位到Deutsch 關於 Vietnamese 和 Mandarin 的研究。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Music psychologist Diana Deutsch at the University of California in San Diego is the leading voice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加州大學聖地牙哥分校的音樂心理學家 Diana Deutsch 是這方面研究的主要聲音。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A third of the world’s population – chiefly people in Asia and Africa – speak tone languages, in which a word’s meaning can vary depending on the pitch a speaker uses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界三分之一人口，主要在亞洲和非洲，使用聲調語言；在這些語言中，一個詞的意思會隨說話者使用的音高而改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段把 absolute pitch 和 tone languages 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“languages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Asian speakers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perfect pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“speakers of tone languages use it every day”"
+            },
+            {
+              "kind": "quote",
+              "text": "“speak tone languages”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “tone languages” 是固定短語，中文可理解為「聲調語言」。在這類語言中，pitch 會影響詞義。題目空格後已有 languages，所以空格只填 tone。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a link between perfect pitch and tone languages”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“speakers of tone languages use it every day”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 tone。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 pitch。雖然 tone languages 的定義和 pitch 有關，但固定搭配是 tone languages。題目空格後是 languages，box 中能形成自然短語的只有 tone。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "words",
+      "answerKey": "words",
+      "type": "Summary Completion",
+      "prompt": "“Speakers of Vietnamese and Mandarin were asked to recite 33 ______ on different occasions…”",
+      "translation": "越南語和普通話使用者被要求在不同場合朗讀 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在動詞 “recite” 後面，需要名詞作受詞。題目中的 Vietnamese、Mandarin、different occasions 都是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Deutsch and her colleagues asked seven native Vietnamese speakers and 15 native Mandarin speakers to read out lists of words on different days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Deutsch 和同事要求七位越南語母語者及十五位普通話母語者，在不同日子讀出詞表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By recording these recited lists and taking the average pitch for each whole word, the researchers compared the pitches used by each person to say each word on different days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者記錄這些朗讀的詞表，計算每個完整詞的平均音高，再比較每個人在不同日子說同一個詞時使用的音高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段是實驗方法段，直接處理 words、different days、pitch comparison。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vietnamese”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mandarin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recite”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different occasions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“native Vietnamese speakers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“native Mandarin speakers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“read out lists of words”"
+            },
+            {
+              "kind": "quote",
+              "text": "“on different days”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說受試者 “read out lists of words”。題目用 “recite” 改寫 “read out”，用 “different occasions”改寫 “different days”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Box 中可填的是 words。若填 “pitch”，句子會變成 recite pitch，意思不自然；若填 “note”，也不符合語言實驗，因為受試者讀的是詞語。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "recite = read out different occasions = different days words = lists of words 的核心名詞所以 33 是 words。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "pitch",
+      "answerKey": "pitch",
+      "type": "Summary Completion",
+      "prompt": "“…and the results were then compared in terms of 34 ______.”",
+      "translation": "然後，研究結果按 ______ 來比較。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “in terms of” 後面，需要名詞。題目要求找比較標準。上一題已定位到 Paragraph 5，這題答案也在同一實驗方法句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Deutsch and her colleagues asked seven native Vietnamese speakers and 15 native Mandarin speakers to read out lists of words on different days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Deutsch 和同事要求七位越南語母語者及十五位普通話母語者，在不同日子讀出詞表。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By recording these recited lists and taking the average pitch for each whole word, the researchers compared the pitches used by each person to say each word on different days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者記錄這些朗讀的詞表，計算每個完整詞的平均音高，再比較每個人在不同日子說同一個詞時使用的音高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 的最後一句已經直接提到比較標準：pitch。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“results were compared”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in terms of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“taking the average pitch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compared the pitches used”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說研究者比較的是每個人不同日子說同一詞時所使用的 pitches。題目把這個意思概括成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“compared in terms of ______”。空格要填比較的維度，即 pitch。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“compared in terms of pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“taking the average pitch…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compared the pitches…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 pitch。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "33 和 34 很容易交換。33 問受試者讀出甚麼，所以是 words；34 問研究者比較甚麼，所以是pitch。做 Notes Completion 時，要看動詞：recite 接 words，compare in terms of 接 pitch。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "cultures",
+      "answerKey": "cultures",
+      "type": "Summary Completion",
+      "prompt": "“A separate study found that the approach to teaching music in many Asian 35 ______emphasised playing by ear whereas the US method was based on the relative pitch approach.”",
+      "translation": "另一項研究發現，許多亞洲 ______ 中的音樂教學方法強調憑耳朵演奏；美國方法則較偏向相對音感。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “many Asian”，後面有 “emphasised playing by ear”，需要複數名詞。題目把Gregersen 的研究和文化差異連起來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 11第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For one thing, those with absolute pitch started lessons, on average, when they were five years old, while those without absolute pitch started around the age of eight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，有 absolute pitch 的人平均五歲開始上音樂課；沒有 absolute pitch 的人則大約八歲開始。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There’s a distinct cultural difference,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「這裡有明顯的文化差異。」只看首尾句，Paragraph 11 會談音樂課開始年齡和文化差異。題目中的 “Asian” 和 “US method”正好符合這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asian”"
+            },
+            {
+              "kind": "quote",
+              "text": "“playing by ear”"
+            },
+            {
+              "kind": "quote",
+              "text": "“US”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relative pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the type of music lessons favoured in Asia, and by many of the Asian families in his study, such as the Suzuki method, often focus on playing by ear and learning the names of musical notes, while those more commonly used in the US tend to emphasise learning scales in a relative pitch way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在亞洲以及他研究中的許多亞洲家庭中較受偏好的音樂課，例如 Suzuki method，往往重視憑耳朵演奏和學習音符名稱；美國較常用的方法則傾向於以相對音感方式學習音階。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文中的 “favoured in Asia” 和 “Asian families” 概括成 “many Asian cultures”。接著原文最後一句 “There’s a distinct cultural difference” 明確支持 cultures 這個概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Box 中能填入 “many Asian ______” 的最佳答案是 cultures。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "many Asian cultures = in Asia / Asian families / cultural difference emphasised playing by ear = focus on playing by ear US method = those more commonly used in the US relative pitch approach = relative pitch way所以 35 是 cultures。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "D — Marvin",
+      "answerKey": "D — Marvin",
+      "type": "Matching Features",
+      "prompt": "“Absolute pitch is not a clear-cut issue.”",
+      "translation": "Absolute pitch 並非一個界線非常清楚、非有即無的問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求找出哪位科學家認為 absolute pitch 不是 clear-cut，即不是只有「有」和「沒有」兩種狀態。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For centuries, absolute pitch has been thought of as the preserve of the musical elite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個世紀以來，absolute pitch 一直被視為音樂精英才擁有的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And their work may finally settle a decades-old debate about whether absolute pitch depends on melodious genes – or early music lessons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的研究可能最終解決一場持續數十年的爭論：absolute pitch 究竟取決於音樂天賦相關基因，還是早期音樂課。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段開始質疑 absolute pitch 作為稀有天賦的傳統看法，也引入研究者對它的不同理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not a clear-cut issue”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 clear-cut，但有一個意思非常接近的短語："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Absolute pitch is not an all-or-nothing feature,” says Marvin…"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“‘Absolute pitch is not an all-or-nothing feature,’ says Marvin, a music theorist at the University of Rochester in New York State.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "紐約州羅徹斯特大學的音樂理論家 Marvin 說：「Absolute pitch 並非全有全無的特徵。」"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“all-or-nothing” 表示一件事只有兩種狀態：要麼完全有，要麼完全沒有。題目中的 “not a clear-cut issue” 正好把這個意思改寫成「界線不清楚」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not a clear-cut issue= not an all-or-nothing feature人物對應： Marvin = D所以 36 是 D — Marvin。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B — Deutsch",
+      "answerKey": "B — Deutsch",
+      "type": "Matching Features",
+      "prompt": "“Anyone can acquire perfect pitch.”",
+      "translation": "任何人都有可能獲得 perfect pitch。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Anyone” 範圍很大，要找哪位學者主張我們都具備獲得 absolute pitch 的潛能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Deutsch predicts that further studies will reveal absolute pitch – in its imperfect, latent form –inside all of us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Deutsch 預測，進一步研究會發現 absolute pitch 以不完美、潛在的形式存在於我們每個人之中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s very likely that scientists will end up concluding that we’re all born with the potential to acquire very fine-grained absolute pitch. It’s really just a matter of life getting in the way.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「科學家很可能最後會得出結論：我們天生都有獲得非常精細 absolute pitch 的潛能。真正的問題只是生活中各種因素干擾了它。」只看首尾句，Paragraph 12 清楚呈現 Deutsch 的整體預測：absolute pitch 潛能可能人人都有。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anyone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“acquire perfect pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“inside all of us”"
+            },
+            {
+              "kind": "quote",
+              "text": "“we’re all born with the potential to acquire”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “we’re all born with the potential to acquire…”；這裡的 “we all” 對應題目 “Anyone”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“potential to acquire” 對應 “can acquire”。題目把 Deutsch 的說法簡化成 “Anyone can acquire perfect pitch”。這是一個概括式選項。更精準地說，Deutsch 認為每個人都可能天生具備潛能；她沒有說每個人在任何條件下都一定能成功。不過在五位科學家中，這個觀點最明顯屬於 Deutsch。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Anyone = all of us / we all can acquire = born with the potential to acquire perfect pitch = absolute pitch所以 37 是 B — Deutsch。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Levitin 也說 “why we don’t all have absolute pitch”，看似接近人人都有的概念。不過 Levitin 的語氣是提出 mystery；Deutsch 才明確預測 “we’re all born with the potential to acquire”。題目問正面主張，所以選 Deutsch。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — Levitin",
+      "answerKey": "A — Levitin",
+      "type": "Matching Features",
+      "prompt": "“It’s actually surprising that not everyone has absolute pitch.”",
+      "translation": "令人驚訝的是，並非人人都有 absolute pitch。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找哪位科學家覺得「為何我們不是人人都有 absolute pitch」才是真正謎團。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“surprising” 可能用 “mystery” 改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7第一句：“Deutsch isn’t the only researcher turning up everyday evidence of absolute pitch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Deutsch 並非唯一找到日常 absolute pitch 證據的研究者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given studies like these, the real mystery is why we don’t all have absolute pitch, says cognitive psychologist Daniel Levitin of McGill University in Montreal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蒙特利爾 McGill University 的認知心理學家 Daniel Levitin 說，考慮到這類研究，真正的謎團是為甚麼我們並非人人都有 absolute pitch。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，答案幾乎已經出現。Paragraph 7 先說日常證據越來越多，最後由 Levitin 提出反問式觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“surprising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not everyone has absolute pitch”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the real mystery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“why we don’t all have absolute pitch”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “the real mystery” 指真正令人費解的地方。題目把它改寫成 “actually surprising”。兩者意思接近：如果很多日常證據顯示人們可能有 pitch memory，那令人不解的地方就變成「為何不是人人都有」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "actually surprising = the real mystery not everyone has absolute pitch = why we don’t all have absolute pitch人物對應： Daniel Levitin = A所以 38 是 A — Levitin。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "E — Freimer",
+      "answerKey": "E — Freimer",
+      "type": "Matching Features",
+      "prompt": "“Absolute pitch is genetic.”",
+      "translation": "Absolute pitch 和基因有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找支持 genetic explanation 的人物。題目說得很短，但原文可能用 genes、families、relatives、familial aggregation 等詞來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the past decade, researchers have confirmed that absolute pitch often runs in families.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去十年，研究者已確認 absolute pitch 常在家庭中出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is clearly a familial aggregation of absolute pitch,’ Freimer says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Freimer 說：「Absolute pitch 明顯有家族聚集現象。」只看首尾句，可以判斷 Paragraph 8 主要講 genetic / family evidence。Freimer 在段末直接被引用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetic”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可能對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“runs in families”"
+            },
+            {
+              "kind": "quote",
+              "text": "“right genes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relatives”"
+            },
+            {
+              "kind": "quote",
+              "text": "“familial aggregation”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nelson Freimer … is just completing a study that he says strongly suggests the right genes help create this brand of musical genius.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nelson Freimer 正完成一項研究；他說，這項研究強烈顯示合適的基因有助形成這種音樂天才。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that relatives of people with absolute pitch were far more likely to develop the skill than people who simply had the music lessons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現，absolute pitch 擁有者的親屬，比單純上過早期音樂課的人更可能發展出這種技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句建立了 Freimer 的立場：absolute pitch 有明顯遺傳或家族因素。題目 “Absolute pitch is genetic” 是較簡短的概括。嚴格來說，Freimer 支持的是 genes help create，後文也提到childhood music lessons 的作用；但在五位科學家中，最清楚的 genetic claim 來自 Freimer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物對應： Freimer = E所以 39 是 E — Freimer。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C — Gregersen",
+      "answerKey": "C — Gregersen",
+      "type": "Matching Features",
+      "prompt": "“The important thing is the age at which music lessons are started.”",
+      "translation": "重要的是開始上音樂課的年齡。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找哪位研究者強調 music lessons 的 timing，尤其是五歲和八歲的差異。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10 + Paragraph 11 Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, researchers are finding more and more evidence suggesting music lessons are critical to the development of absolute pitch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者確實找到越來越多證據，顯示音樂課對 absolute pitch 的發展很關鍵。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While that might suggest a genetic tendency towards absolute pitch in the Asian population, Gregersen says that the type and timing of music lessons probably explains much of the difference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這可能暗示亞洲人口中有 absolute pitch 的遺傳傾向，但 Gregersen 說，音樂課的種類和時間很可能解釋了很大部分差異。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 11 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For one thing, those with absolute pitch started lessons, on average, when they were five years old, while those without absolute pitch started around the age of eight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "首先，有 absolute pitch 的人平均五歲開始上課；沒有 absolute pitch 的人則大約八歲開始。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“music lessons are started”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“timing of music lessons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“started lessons… when they were five years old”"
+            },
+            {
+              "kind": "quote",
+              "text": "“started around the age of eight”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Gregersen 的核心說法是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the type and timing of music lessons probably explains much of the difference.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “timing” 就包括開始上課的年齡。下一段用五歲和八歲的對比說明 timing 的具體意思：有absolute pitch 的學生較早開始音樂訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “timing of music lessons” 改寫成 “the age at which music lessons are started”。這是直接而精準的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人物對應： Gregersen = C所以 40 是 C — Gregersen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 28. ability 29. note 30. relative 31. music lessons 32. tone 33. words 34. pitch 35. cultures 36. D 37. B 38. A 39. E 40. C"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Striking the right note.pdf",
+    "sha256": "532c8224520595f49fb4b3b20b87f598475e86bdf78867bee853ef35a2b05eca",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹一種令人驚奇、有時令人分心的能力：不用任何參考音，也能說出單一音符名稱；尾句說聽到音高和說出名稱幾乎同時發生。只看首尾句，可以推測本段在定義 perfect pitch / absolute pitch 的核心特徵：能直接辨認 pitch。這段很可能提供 ability、note、pitch 等 summary 答案。"
+      },
+      {
+        "number": "2",
+        "summary": "首句以 By contrast 開始，說大多數音樂人跟隨的是音符之間的關係；尾句說這種能力有用，但神秘感較低。只看首尾句，可見本段用 relative pitch 對比 absolute pitch。段落大概會說明一般音樂人需靠參考音來判斷另一個音，這可幫助學生區分 absolute pitch 和 relative pitch。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說幾個世紀以來，absolute pitch 被認為屬於音樂精英；尾句說新研究可能解決長久爭論：這種能力究竟來自基因，還是早期音樂課。只看首尾句，這段會把主題從「稀有天賦」轉向「研究爭議」。中間應該會提到研究顯示它可能比想像更常見，也可能有不同程度。"
+      },
+      {
+        "number": "4",
+        "summary": "首句引入 Diana Deutsch，說她是研究中的主要聲音；尾句說世界三分之一人口使用 tone languages，這類語言中，詞義會因說話者使用的 pitch 而改變。只看首尾句，可以估計本段把absolute pitch 和語言連起來，特別是 Vietnamese、Mandarin 等聲調語言，為後面的實驗鋪路。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Deutsch 和同事要求七位越南語母語者及十五位普通話母語者，在不同日子讀出詞表；尾句說研究者記錄朗讀內容，計算每個詞的平均 pitch，再比較同一人不同日子說同一詞時用的pitch。只看首尾句，這段明顯描述實驗方法，適合定位 words、different days、pitch comparison等答案。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說兩組受試者對同一詞展示出非常一致的 pitch，日與日之間常少於四分之一音差；尾句說Deutsch 認為，無論這些人有沒有音樂訓練，他們都展示了精準使用 pitch 的能力。只看首尾句，可見本段是實驗結果與解釋：聲調語言使用者日常也可能展現某種 absolute pitch。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Deutsch 不是唯一找到日常 absolute pitch 證據的研究者；尾句引用 Levitin，說真正的mystery 是為何我們並非人人都有 absolute pitch。只看首尾句，這段會擴大證據範圍：除了聲調語言，熟悉歌曲的起唱音高也可能顯示 absolute memory。Levitin 的觀點很可能對應人物配對題。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說過去十年，研究者確認 absolute pitch 常在家庭中出現；尾句引用 Freimer，說 absolute pitch 明顯有 familial aggregation，即家族聚集現象。只看首尾句，這段主題偏向遺傳證據。中間會交代 Freimer 的 tone tests，以及親屬比單純早期學音樂者更可能發展這種能力。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Freimer 認為有些兒童可能天生較容易發展 absolute pitch；尾句說許多研究者現在用nature and nurture 的配合，解釋 absolute pitch 為何有不同程度。只看首尾句，這段把 genetics和 childhood music lessons 合併理解。它承接 Freimer 的基因說，也開始指出音樂訓練的重要性。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說研究者找到越來越多證據，顯示 music lessons 對 absolute pitch 發展很關鍵；尾句說Gregersen 認為，music lessons 的種類和開始時間，很可能解釋 Asian students 和 non-Asian students 之間的差距。只看首尾句，這段會處理音樂教育、亞洲學生比例和文化／訓練方式差異。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說有 absolute pitch 的人平均五歲開始學音樂，沒有 absolute pitch 的人平均八歲開始；尾句引用 Gregersen，說這裡有明顯的 cultural difference。只看首尾句，可見本段細化音樂課因素：年齡、教學方法和文化差異都重要。這段很可能回答 Question 35 和 Question 40。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說 Deutsch 預測，更多研究會發現每個人內在都有 imperfect、latent form 的 absolute pitch；尾句說我們很可能天生具備獲得 fine-grained absolute pitch 的潛力，只是生活因素干擾了它。只看首尾句，這是全文結論：Deutsch 認為 absolute pitch 可能人人都有潛能，Western relative pitch emphasis 只是遮蔽了它。"
+      }
+    ]
+  }
+}

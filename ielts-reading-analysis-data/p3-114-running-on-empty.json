@@ -1,0 +1,1890 @@
+{
+  "id": "p3-114-running-on-empty",
+  "catalogueId": "p3-114",
+  "catalogueIds": [
+    "p3-114"
+  ],
+  "passage": 3,
+  "title": "Running on empty",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "iii",
+    "vi",
+    "ii",
+    "vii",
+    "viii",
+    "iv",
+    "C",
+    "A",
+    "B",
+    "C",
+    "B",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "iii — Traditional explanations",
+      "answerKey": "iii — Traditional explanations",
+      "type": "Matching Headings",
+      "prompt": "Paragraph A 的 heading",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For almost a century, scientists have presumed, not unreasonably, that fatigue—or exhaustion—in athletes originates in the muscles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接近一個世紀以來，科學家一直有相當合理的假設：運動員的 fatigue 或 exhaustion 源自肌肉。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, muscles tire because they hit a physical limit: they either run out of fuel or oxygen or they drown in toxic by-products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，肌肉之所以疲倦，是因為它們達到某種 physical limit：它們要麼耗盡 fuel 或 oxygen，要麼被 toxic by-products 淹沒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph A 是在交代舊有的疲勞解釋。第一句有 “For almost a century”和 “scientists have presumed”，表示這是長期以來的科學看法。最後一句則具體說明這套看法如何解釋 muscle fatigue。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可比對的 headings 包括： iii Traditional explanations vi A new hypothesis i Avoiding tiredness in athletes Paragraph A 的定位訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“for almost a century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists have presumed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Precise explanations have varied”"
+            },
+            {
+              "kind": "quote",
+              "text": "“limitations theory”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字都指向傳統理論和舊有解釋。它沒有提出新的 brain-based theory，也沒有講如何避免tiredness。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Precise explanations have varied but all have been based on the ‘limitations theory’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "具體解釋雖然各有不同，但全部都建基於 “limitations theory”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是 heading 的真正證據。Heading iii “Traditional explanations” 概括本段很準確，因為本段不是講某一次實驗，也不是講新發現，而是說明長久以來的標準觀點：肌肉因達到生理限制而疲倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “A new hypothesis” 不適合 Paragraph A，因為新假說在 Paragraph B 才出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i “Avoiding tiredness in athletes” 也不準確；本段沒有教 athletes 如何避免疲勞，只是在解釋傳統科學看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "vi — A new hypothesis",
+      "answerKey": "vi — A new hypothesis",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B 的 heading",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past few years, however, Timothy Noakes and Alan St Clair Gibson from the University of Cape Town, South Africa, have examined this standard theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在過去幾年，來自南非 University of Cape Town 的 Timothy Noakes 和 Alan St Clair Gibson 重新檢視了這套 standard theory。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ‘central governor’ theory remains controversial, but it does explain many puzzling aspects of athletic performance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 “central governor” theory 仍具爭議，但它確實能解釋 athletic performance 中許多令人困惑的方面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句用 however 轉折，表示本段開始挑戰前一段的 traditional explanations。尾句直接命名"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“central governor” theory。只看首尾句，Paragraph B 明顯是新假說登場。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 是：“A new hypothesis”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 中最強的訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“new theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“central governor theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fatigue … begins in the brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain … paces the muscles”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hypothesis” 即未完全定論、仍在接受檢驗的理論性想法。原文說這套 theory remains controversial，所以它非常符合 “new hypothesis”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The essence of their new theory is that the brain, using a mix of physiological, subconscious and conscious cues, paces the muscles to keep them well back from the brink of exhaustion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的新理論核心是：大腦使用 physiological、subconscious 和 conscious cues 的混合訊號，為肌肉設定 pace，使肌肉遠離 exhaustion 的邊緣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整支援 heading vi。新理論把疲勞來源從肌肉極限轉向 brain regulation。題目中的 “new hypothesis” 對應原文的 “new theory” 和 “central governor theory”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “Puzzling evidence raises a question” 較適合 Paragraph C，因為 C 段用 lactic acid paradox 提出疑問。Heading iv “Interpreting the findings” 則較適合 Paragraph F，因為 F 段解讀cyclists experiment 的結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "ii — Puzzling evidence raises a question",
+      "answerKey": "ii — Puzzling evidence raises a question",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C 的 heading",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent discovery that Noakes calls the ‘lactic acid paradox’ made him start researching this area seriously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 稱為 “lactic acid paradox” 的近期發現，使他開始認真研究這個領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously, Noakes deduced, something else was making them tire before they hit either of these physiological limits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 推論，很明顯有其他因素令他們在達到這些 physiological limits 之前已經疲倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯在講一個 paradox，即令人困惑的現象。最後一句把問題打開：既然 lactic acid 和 oxygen 都未達極限，那麼究竟是甚麼令受試者疲倦？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading ii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Puzzling evidence raises a question”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的關鍵定位詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“lactic acid paradox”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fatigued even though lactic acid levels remain low”"
+            },
+            {
+              "kind": "quote",
+              "text": "“oxygen content … [not] too low”"
+            },
+            {
+              "kind": "quote",
+              "text": "“something else was making them tire”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“paradox” 本身就表示表面上矛盾、令人不解的現象。這正好對應 “puzzling evidence”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵證據：“But when research subjects exercise in conditions simulating high altitude, they become fatigued even though lactic acid levels remain low. Nor has the oxygen content of their blood fallen too low for them to keep going.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當研究受試者在模擬高海拔的條件下運動時，他們會疲倦，雖然 lactic acid levels 仍然很低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且，他們血液中的 oxygen content 也沒有低到令他們無法繼續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句造成疑問：如果傳統理論說疲勞來自 lactic acid build-up 或 oxygen shortage，為何兩者都未達極限時，人仍然疲倦？因此，heading ii “Puzzling evidence raises a question” 最能概括本段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Traditional explanations” 只可作為本段被挑戰的背景，不能概括 Paragraph C 的主功能。Paragraph C 的焦點已轉向 paradox 和 unanswered question。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "vii — Description of a new test",
+      "answerKey": "vii — Description of a new test",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D 的 heading",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probing further, Noakes conducted an experiment with seven cyclists who had sensors taped to their legs to measure the nerve impulses travelling through their muscles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了進一步探查，Noakes 用七名 cyclists 進行實驗；他們腿上貼有 sensors，用來測量穿過muscles 的 nerve impulses。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The amount used varies, but in endurance tasks such as this cycling test the body calls on about 30%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用比例會變化，但在這類 cycling test 的 endurance tasks 中，身體大約會使用 30%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯在描述 experiment / test 的設計和背景。它提到 participants、sensors、measuring nerve impulses、cycling test。這些都是 test description 的典型內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading vii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Description of a new test”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 的定位訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“conducted an experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seven cyclists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sensors taped to their legs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“measure the nerve impulses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cycling test”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字直接指向測試設計，而非測試結果。若 heading 問 results，應等到 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probing further, Noakes conducted an experiment with seven cyclists who had sensors taped to their legs to measure the nerve impulses travelling through their muscles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了進一步探查，Noakes 進行了一個有七名 cyclists 參與的實驗；他們腿上貼有 sensors，用來測量肌肉中的 nerve impulses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完成了 “new test” 的基本描述：誰做、找誰做、用甚麼儀器、測量甚麼。後文補充 body never uses 100% of available muscle fibres，為下一段理解結果作鋪墊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii “Surprising results in an endurance test” 較適合 Paragraph E，因為 E 段才說 “found exactly the opposite”。Paragraph D 還未給出 surprising result。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "viii — Surprising results in an endurance test",
+      "answerKey": "viii — Surprising results in an endurance test",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E 的 heading",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Noakes reasoned that if the limitations theory was correct and fatigue was due to muscle fibres hitting some limit, the number of fibres used for each pedal stroke should increase as the fibres tired and the cyclist’s body attempted to compensate by recruiting an ever-larger proportion of the total.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 推想，如果 limitations theory 正確，而 fatigue 是由 muscle fibres 達到某種 limit 造成，那麼隨著 fibres 疲倦，cyclist 的身體應會招募越來越多 fibres，每次 pedal stroke 使用的 fibres數量應該增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As fatigue set in, the electrical activity in the cyclists’ legs declined – even during sprinting, when they were striving to cycle as fast as they could.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 fatigue 出現時，cyclists 腿部的 electrical activity 下降；即使在 sprinting、他們努力盡快踩車時也是如此。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句提出預期結果，最後一句給出實際相反結果。只看首尾句，已經可判斷這段重點是endurance test 的 surprising results。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading viii 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surprising results in an endurance test”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 的關鍵訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“should increase”"
+            },
+            {
+              "kind": "quote",
+              "text": "“found exactly the opposite”"
+            },
+            {
+              "kind": "quote",
+              "text": "“electrical activity … declined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“even during sprinting”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“exactly the opposite” 是本段最重要的轉折。它說明實驗結果和 Noakes 根據 old theory 所預測的方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“But his team found exactly the opposite.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但他的團隊發現結果完全相反。"
+            },
+            {
+              "kind": "label",
+              "text": "後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“As fatigue set in, the electrical activity in the cyclists’ legs declined – even during sprinting, when they were striving to cycle as fast as they could.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "疲勞開始時，cyclists 腿部的 electrical activity 下降；即使他們正在 sprinting，努力踩到最快，也出現這種下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的主線是 expected result vs actual result。根據 limitations theory，body 應該使用更多 fibres 來補償疲倦；實驗卻發現 electrical activity 下降。這就是 surprising result。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "iv — Interpreting the findings",
+      "answerKey": "iv — Interpreting the findings",
+      "type": "Matching Headings",
+      "prompt": "Paragraph F 的 heading",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To Noakes, this was strong evidence that the old theory was wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 Noakes 來說，這是 old theory 錯誤的有力證據。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, he believes, is proof that the brain is regulating the pace of the workout to hold the cyclists well back from the point of catastrophic exhaustion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他相信，這證明 brain 正在調節 workout 的 pace，使 cyclists 遠離 catastrophic exhaustion 的臨界點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 不再描述 test，也不再報告 new data。它在解讀 Paragraph E 的findings：Noakes 如何理解 electrical activity 下降，以及這如何支持 central governor theory。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "Heading iv 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interpreting the findings”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 的定位訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To Noakes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strong evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“he believes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proof that the brain is regulating”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些語言都顯示作者正在呈現 Noakes 對結果的 interpretation。它不是 test setup，也不是 raw result。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The cyclists may have felt completely exhausted,” he says, “but their bodies actually had considerable reserves that they could theoretically tap by using a greater proportion of the resting fibres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，cyclists 也許感到完全耗盡，但他們的身體其實仍有相當多 reserves；理論上，只要使用更多 resting fibres，就可以動用這些 reserves。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是 Noakes 的解讀：感覺 exhausted 不等於身體資源已全部用完。最後一句再把這點連到brain regulation。因此 heading iv “Interpreting the findings” 最貼切。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 已經屬於 Paragraph E 的 surprising results；Paragraph F 的重點是這些結果代表甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — both the Limitations Theory and the Central Governor Theory",
+      "answerKey": "C — both the Limitations Theory and the Central Governor Theory",
+      "type": "Classification",
+      "prompt": "Lactic acid is produced in muscles during exercise.",
+      "translation": "Lactic acid 在運動時於肌肉中產生。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent discovery that Noakes calls the ‘lactic acid paradox’ made him start researching this area seriously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 稱為 “lactic acid paradox” 的近期發現，使他開始認真研究這個領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously, Noakes deduced, something else was making them tire before they hit either of these physiological limits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 推論，很明顯有其他因素令受試者在達到這兩種 physiological limits 前已經疲倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的功能是用 lactic acid paradox 挑戰舊理論。題目提到 lactic acid，所以先定位到 C段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lactic acid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“during exercise”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lactic acid is a by-product of exercise…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“by-product” 即副產品，意思是某個過程中產生的物質。這和 “is produced during exercise” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Lactic acid is a by-product of exercise, and its accumulation is often cited as a cause of fatigue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lactic acid 是 exercise 的副產品，而它的 accumulation 經常被引用為 fatigue 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要小心分兩層：第一層：lactic acid is a by-product of exercise。這是基本生理事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二層：its accumulation is often cited as a cause of fatigue。這才是 limitations theory 常用的fatigue explanation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目只寫第一層，即 lactic acid 在運動時產生。Central governor theory 沒有否認 muscles 中有生理變化；Paragraph I 還說 governor 會監察 physiological signals from the muscles。因此，若statement 只停在 “lactic acid is produced”，它可歸入 both。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，若題目說 “lactic acid build-up directly causes fatigue”，那會更貼近 limitations theory，也就是 Question 39 的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — the Limitations Theory",
+      "answerKey": "A — the Limitations Theory",
+      "type": "Classification",
+      "prompt": "Athletes can keep going until they use up all their available resources.",
+      "translation": "運動員可以一直撐到用盡所有可用資源。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For almost a century, scientists have presumed, not unreasonably, that fatigue—or exhaustion—in athletes originates in the muscles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接近一個世紀以來，科學家一直推定運動員的 fatigue 或 exhaustion 源自 muscles。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, muscles tire because they hit a physical limit: they either run out of fuel or oxygen or they drown in toxic by-products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，肌肉疲倦是因為達到 physical limit：要麼耗盡 fuel 或 oxygen，要麼被 toxic by-products 淹沒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “use up all their available resources”，這和 Paragraph A 的 “run out of fuel or oxygen” 非常接近，因此目標是 Limitations Theory。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“keep going”"
+            },
+            {
+              "kind": "quote",
+              "text": "“use up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“available resources”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“run out of fuel or oxygen”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hit a physical limit”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 resources 是概括詞，原文中的 fuel、oxygen 屬於具體例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“muscles tire because they hit a physical limit: they either run out of fuel or oxygen or they drown in toxic by-products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肌肉之所以疲倦，是因為達到 physical limit：它們耗盡 fuel 或 oxygen，或被 toxic by-products 淹沒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Limitations Theory 的核心是：fatigue 出現於 muscles 達到生理極限。題目說 athletes 可以繼續直到資源用完，這正好符合 old theory 的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Central Governor Theory 的看法相反。Paragraph F 說 cyclists felt exhausted，但 bodies still had considerable reserves。Paragraph K 也說身體會 keep something back。因此 Q35 不屬於 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — the Central Governor Theory",
+      "answerKey": "B — the Central Governor Theory",
+      "type": "Classification",
+      "prompt": "Mental processes control the symptoms of tiredness.",
+      "translation": "心理／大腦過程控制 tiredness 的 symptoms。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past few years, however, Timothy Noakes and Alan St Clair Gibson from the University of Cape Town, South Africa, have examined this standard theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，過去幾年，Timothy Noakes 和 Alan St Clair Gibson 重新檢視這套 standard theory。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ‘central governor’ theory remains controversial, but it does explain many puzzling aspects of athletic performance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 “central governor” theory 仍具爭議，但它能解釋 athletic performance 中許多令人困惑的方面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 是 central governor theory 的主要介紹段。題目有 “mental processes” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“symptoms of tiredness”，正好對應本段的 brain、emotional response 和 distressing sensations。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“mental processes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“control”"
+            },
+            {
+              "kind": "quote",
+              "text": "“symptoms of tiredness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“emotional response which begins in the brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“brain … paces the muscles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“creates the distressing sensations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“symptoms of tiredness” 對應原文的 “distressing sensations we interpret as unbearable muscle fatigue”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“When the brain decides it’s time to quit, it creates the distressing sensations we interpret as unbearable muscle fatigue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當大腦決定是時候停止時，它會製造 distressing sensations，而我們把這些感覺理解成難以忍受的 muscle fatigue。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說明：tiredness 的感覺不是單純由肌肉極限直接推出，而是由 brain 產生並調節。題目中的 “mental processes control” 對應 “the brain decides” 和 “creates the distressing sensations”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 central governor theory 的核心，並不屬於 limitations theory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — both the Limitations Theory and the Central Governor Theory",
+      "answerKey": "C — both the Limitations Theory and the Central Governor Theory",
+      "type": "Classification",
+      "prompt": "The physiological signals from an athlete’s muscles are linked to fatigue.",
+      "translation": "運動員肌肉中的 physiological signals 和 fatigue 有關。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the central governor theory does not mean that what’s happening in the muscles is irrelevant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 central governor theory 並不表示 muscles 中發生的事 irrelevant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A large number of signals are probably involved, but, unlike the limitations theory, the central governor theory suggests that these physiological factors are not the direct determinants of fatigue, but simply information to take into account.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很可能涉及大量 signals；但與 limitations theory 相比，central governor theory 認為這些physiological factors 不是 fatigue 的直接決定因素，只是需要納入考慮的資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在比較兩套理論如何看待 muscle signals。這正好是 Q37 的核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“physiological signals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“muscles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“linked to fatigue”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“monitors physiological signals from the muscles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“set the level of fatigue”"
+            },
+            {
+              "kind": "quote",
+              "text": "“physiological factors”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字直接出現在 Paragraph I。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The governor constantly monitors physiological signals from the muscles, along with other information, to set the level of fatigue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 governor 會持續監察來自 muscles 的 physiological signals，以及其他資訊，用來設定fatigue level。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明 physiological signals 和 fatigue level 有關。下一句又把它和 limitations theory 比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“unlike the limitations theory, the central governor theory suggests that these physiological factors are not the direct determinants of fatigue, but simply information to take into account.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 limitations theory 相比，central governor theory 認為這些 physiological factors 並非疲勞的直接決定因素，而是需要納入考慮的資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡說明兩套理論都關注 physiological factors，只是解釋方式不同：limitations theory 把它們看作 direct determinants；central governor theory 把它們看作 brain 評估時使用的 information。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — the Central Governor Theory",
+      "answerKey": "B — the Central Governor Theory",
+      "type": "Classification",
+      "prompt": "The brain plans and regulates muscle performance in advance of a run.",
+      "translation": "大腦會在跑步前預先計劃並調節 muscle performance。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conscious factors can also intervene.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "conscious factors 也可以介入。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That, Noakes says, is because the central governor knows you have farther to go in the longer run and has programmed itself to dole out fatigue symptoms accordingly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 說，這是因為 central governor 知道在較長距離中你還要跑更遠，所以已經按此設定自己，分配 fatigue symptoms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph J 講大腦如何根據 planned workout 調整 pacing。題目中的 “in advance of a run” 對應原文的 planned workout 和 programmed itself。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“brain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“regulates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in advance of a run”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“central regulator evaluates the planned workout”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sets a pacing strategy accordingly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“programmed itself”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字明確指向 central governor theory。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Noakes believes that the central regulator evaluates the planned workout, and sets a pacing strategy accordingly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 認為 central regulator 會評估 planned workout，並相應設定 pacing strategy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “evaluates” 對應題目 “plans”；“sets a pacing strategy” 對應 “regulates muscle performance”。後面的 10-kilometre / 5-kilometre 例子說明，距離不同會令第一公里的感覺不同，因為 central governor 已根據距離分配 fatigue symptoms。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Limitations Theory 沒有 brain planning 的概念，因此 Q38 屬於 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — the Limitations Theory",
+      "answerKey": "A — the Limitations Theory",
+      "type": "Classification",
+      "prompt": "Athletes’ performance during a race may be affected by lactic acid build-up.",
+      "translation": "比賽期間，athletes 的 performance 可能受到 lactic acid build-up 影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph C輔助段落：Paragraph H Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent discovery that Noakes calls the ‘lactic acid paradox’ made him start researching this area seriously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 稱為 “lactic acid paradox” 的近期發現，使他開始認真研究這個領域。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously, Noakes deduced, something else was making them tire before they hit either of these physiological limits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Noakes 推論，很明顯有其他因素令他們在達到這兩種 physiological limits 前已經疲倦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 講 lactic acid 作為 old theory 中常見 fatigue explanation，H 段則用 end spurt 反駁lactic acid poisoning 的解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lactic acid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“build-up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“affected performance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“its accumulation is often cited as a cause of fatigue”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fatigue is caused by muscles poisoning themselves with lactic acid”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“build-up” 對應 “accumulation”。題目說 performance affected，是對 fatigue 影響比賽表現的概括。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“Lactic acid is a by-product of exercise, and its accumulation is often cited as a cause of fatigue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lactic acid 是 exercise 的副產品，而它的 accumulation 經常被引用為 fatigue 的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Noakes believes the end spurt makes no sense if fatigue is caused by muscles poisoning themselves with lactic acid as this would cause racers to slow down rather than enable them to sprint for the finish line.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但 Noakes 認為，如果 fatigue 是由 muscles 被 lactic acid 毒害造成，end spurt 便說不通，因為這應令 racers 慢下來，而非讓他們衝向終點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Q39 說 lactic acid build-up 可能影響 athletes’ performance。這正是 limitations theory 的傳統方向：toxic by-products 或 lactic acid accumulation 造成 fatigue，進而影響 performance。Central governor theory 在 H 段用 end spurt 解釋反駁這種直接原因說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — the Central Governor Theory",
+      "answerKey": "B — the Central Governor Theory",
+      "type": "Classification",
+      "prompt": "Humans are genetically programmed to keep some energy reserves.",
+      "translation": "人類被設計成保留部分 energy reserves。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“St Clair Gibson believes there is a good reason why our bodies are designed to keep something back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "St Clair Gibson 認為，我們的身體被設計成保留一些東西，是有充分理由的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In ancient times, and still today, life would be too dangerous if our bodies allowed us to become so tired that we couldn’t move quickly when faced with an unexpected need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在古代，直到今天也一樣，如果身體容許我們累到面對突發需要時無法快速移動，生命會太危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph K 明顯是在解釋為甚麼 central governor 會讓身體保留 reserves：這是一種安全和生存機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“programmed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“keep”"
+            },
+            {
+              "kind": "quote",
+              "text": "“energy reserves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“bodies are designed to keep something back”"
+            },
+            {
+              "kind": "quote",
+              "text": "“something left in the tank”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unexpected need”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“left in the tank” 是比喻，意思是仍有剩餘能量或能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“That way, there’s always something left in the tank for an emergency.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣一來，身體總會在緊急情況下留下一些儲備。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚支援 Q40。題目中的 “genetically programmed” 是對 “our bodies are designed to keep something back” 的概括；“energy reserves” 對應 “something left in the tank”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與 Central Governor Theory 的核心一致：brain / body system 會避免讓運動員真的耗盡所有reserves，因為遇到 emergency 時仍需要行動能力。Limitations Theory 則傾向說身體會到達physical limit 才疲勞，不包含這種保留能量的保護設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Running on empty.pdf",
+    "sha256": "fb560f54befad7a188d29495c8d629423104bcdfd134e7672a4b78952e2d3281",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 首句說，接近一個世紀以來，科學家一直推定 athletes 的 fatigue 或 exhaustion 源自 muscles。尾句說，肌肉疲倦是因為達到 physical limit：耗盡 fuel 或 oxygen，或被 toxic by-products 淹沒。只看首尾句，可以估計本段主要交代傳統解釋，也就是 limitations theory。這段的功能是建立舊理論框架，讓後文的新理論有對比基礎。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句用 however 轉折，說 Timothy Noakes 和 Alan St Clair Gibson 重新檢查standard theory。尾句說 central governor theory 雖仍具爭議，但能解釋不少 athletic performance 的奇怪現象。只看首尾句，可以估計本段正在提出新假說：fatigue 未必像汽車耗盡汽油，重點轉向 brain 如何控制 pace、製造 fatigue sensations，並保護身體避免災難性耗竭。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句提到 Noakes 稱為 “lactic acid paradox” 的近期發現，使他開始認真研究這個領域。尾句說，很明顯有其他因素令受試者在達到 physiological limits 前已感疲倦。只看首尾句，這段大概會提供一個令人困惑的證據：在模擬 high altitude 條件下，人會疲勞，但 lactic acid 和oxygen 都未達傳統理論預期的極限，因此舊解釋出現問題。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句說 Noakes 進一步進行實驗，找來七名 cyclists，並在他們腿上貼 sensors 測量muscles 中的 nerve impulses。尾句說，在這類 cycling endurance test 中，身體大約使用 30%muscle fibres。只看首尾句，這段功能是描述新實驗的設計和基本生理背景：研究者想量度運動時肌肉纖維使用情況，以測試 limitations theory 是否成立。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說，如果 limitations theory 正確，當 muscle fibres 疲倦時，每次 pedal stroke使用的 fibres 數量應該增加。尾句說，實驗結果相反：fatigue 出現後，cyclists 腿部 electrical activity 下降，即使 sprinting 時也如此。只看首尾句，可以估計這段重點是 endurance test 的意外結果。它直接挑戰舊理論，因為身體沒有招募更多 fibres 來補償疲勞。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說，對 Noakes 來說，這是 old theory 錯誤的有力證據。尾句說，他相信這證明brain 正在調節 workout 的 pace，讓 cyclists 遠離 catastrophic exhaustion。只看首尾句，這段功能是解讀 Paragraph E 的實驗結果。重點不在實驗步驟本身，而在 Noakes 如何從結果推論出brain regulates pace，並保留身體 reserve capacity。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句說，更多證據來自 fatigued muscles 其實沒有耗盡任何 critical substance。尾句說，即使 marathon 結束時，ATP 仍有 resting norm 的 80–90%，glycogen 也從未降至零。只看首尾句，這段會進一步削弱 limitations theory。若肌肉疲勞源於 fuel 完全耗盡，理應見到 ATP 或glycogen 到底；實際數據顯示身體仍有資源。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句說，central regulator 的另一項支持證據，是 top athletes 通常能在 race 結尾跑得最快。尾句說，當 brain 知道終點將近，便稍微放鬆警戒，讓 athlete 使用部分儲存 reserves。只看首尾句，可以估計這段用 end spurt 解釋新理論。舊理論下，結尾應最接近肌肉耗竭；新理論下，brain 因終點接近而容許更高輸出。"
+      },
+      {
+        "number": "I",
+        "summary": "Paragraph I 首句說，central governor theory 並不代表 muscles 中發生的事 irrelevant。尾句說，生理因素在 central governor theory 中是 information to take into account。只看首尾句，可以估計這段在澄清新理論：它沒有完全排除 muscle signals。比較準確的理解是，muscle signals 仍重要，但它們提供資料給 brain 評估 fatigue level，並非直接單獨決定疲勞。"
+      },
+      {
+        "number": "J",
+        "summary": "Paragraph J 首句說 conscious factors can also intervene。尾句說，central governor 知道較長距離還有更遠路要跑，所以會按情況分配 fatigue symptoms。只看首尾句，這段會把新理論從純生理擴展到 conscious planning。運動員對 planned workout 的認知會影響 pacing strategy，例如10-kilometre run 的第一公里，感覺會比 5-kilometre run 的第一公里容易。"
+      },
+      {
+        "number": "K",
+        "summary": "Paragraph K 首句說 St Clair Gibson 認為身體被設計成保留一些能量，有充分理由。尾句說，若身體容許我們累到遇上突發需要時無法快速移動，生命會太危險。只看首尾句，可以估計這段是新理論的演化解釋：central governor 保留 reserves，可能是保命機制。古代和今天一樣，人類需要在危急時仍有能力迅速反應。"
+      }
+    ]
+  }
+}

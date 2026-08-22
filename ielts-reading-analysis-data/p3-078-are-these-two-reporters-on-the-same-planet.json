@@ -1,0 +1,1096 @@
+{
+  "id": "p3-078-are-these-two-reporters-on-the-same-planet",
+  "catalogueId": "p3-078",
+  "catalogueIds": [
+    "p3-078"
+  ],
+  "passage": 3,
+  "title": "Are these two reporters on the same planet?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "C",
+    "A",
+    "B",
+    "A",
+    "C",
+    "B",
+    "G",
+    "E",
+    "C",
+    "A",
+    "D",
+    "C",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "C — D. Suzuki",
+      "answerKey": "C — D. Suzuki",
+      "type": "Matching People",
+      "prompt": "“Our patterns of consumption are using up the ecological capital of the planet.”",
+      "translation": "我們的消費模式正在耗盡地球的生態資本。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句是銀行戶口比喻："
+            },
+            {
+              "kind": "quote",
+              "text": "“If we inherit a bank account with a thousand dollars that earns 5% interest annually, we could withdraw fifty dollars or less each year forever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們繼承一個有一千美元、每年有 5% 利息的戶口，我們每年提取五十美元或以下，就可以永遠提取下去。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是作者的結論："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a dangerous deception to believe that the human-created artifice called economies can keep the indicators rising as the life support systems of the planet continue to decline.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地球生命支援系統持續下降時，仍相信人類創造出來、名為經濟的人工制度可以讓指標一直上升，是一種危險的自欺。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是 “ecological capital”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“we are using up the ecological capital of the planet (biodiversity, air, water and soil) rather than living off the interest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正在耗用地球的生態資本，包括生物多樣性、空氣、水和土壤，而非只靠利息生活。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句由本文作者 Dr David Suzuki 說出，因為 Paragraph 9 是作者用銀行戶口比喻反駁"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gee 的段落。題目中的 “Our patterns of consumption” 對應原文的 “we are using up”；“ecological capital of the planet” 是原文原詞重現。因此答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — R. Kaplan",
+      "answerKey": "A — R. Kaplan",
+      "type": "Matching People",
+      "prompt": "“Crises beginning in the Third World will spread to developed countries.”",
+      "translation": "從第三世界開始的危機將會蔓延到已發展國家。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kaplan believes what he has seen in Africa and Southeast Asia is the beginning of a global pattern of disintegration of social, political and economic infrastructure under the impact of ecological degradation, population pressure and disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kaplan 認為，他在 Africa 和 Southeast Asia 看到的現象，是在生態退化、人口壓力和疾病影響下，全球社會、政治和經濟基礎設施解體模式的開端。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has also generated a great deal of discussion and controversy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也引發了大量討論和爭議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “beginning”、“spread” 和 “developed countries” 要找原文中的全球擴散語言。原"
+            },
+            {
+              "kind": "label",
+              "text": "文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“As ecosystems collapse, this scenario could sweep the planet, first in Eastern Europe and then in the industrialised countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著生態系統崩潰，這種情境可能席捲全球，先到 Eastern Europe，然後到工業化國家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “Africa and Southeast Asia” 概括成 Third World；把 “industrialised countries” 改寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "成 developed countries；把 “could sweep the planet” 改寫成 will spread。雖然 will 比 could 更肯定，但題目在 matching opinions 中概括 Kaplan 的預測方向，最貼合的人物仍是 Kaplan。答案是A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — M. Gee",
+      "answerKey": "B — M. Gee",
+      "type": "Matching People",
+      "prompt": "“Scientific progress will enable the planet to sustain increased population.”",
+      "translation": "科學進步將使地球能夠承受更多人口。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gee’s outlook rests on a tiny minority of scientists who have faith in the boundless potential of science and technology to overcome the physical constraints of air, water and soil so that a much larger population can be sustained.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gee 的觀點依靠一小部分科學家，他們相信科學和科技有無邊潛力，可以克服空氣、水和土壤的物理限制，令更多人口得以維持。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gee is ignoring basic economic as well as scientific reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gee 正忽視基本的經濟現實和科學現實。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “scientific progress”、“sustain increased population” 很直接對應原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“science and technology” 以及 “a much larger population can be sustained”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文不是作者 Suzuki 的認同，而是他在描述 Gee 的依據。題目問 opinions 要配人物，所"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以應看該觀點屬於誰。這裡的主體是 “Gee’s outlook”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫如下",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "scientific progress = science and technology enable = overcome constraints so that increased population = a much larger population can be sustained = can be sustained所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "A — R. Kaplan",
+      "answerKey": "A — R. Kaplan",
+      "type": "Matching People",
+      "prompt": "“Social and political infrastructure worldwide could collapse.”",
+      "translation": "全球社會和政治基礎設施可能崩潰。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經直接說 Kaplan 看到的是 “global pattern of disintegration”。最後一句說這個觀點引起爭議。這段正是 Kaplan 把局部危機推演成全球崩解的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “social and political infrastructure” 和 “collapse”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the beginning of a global pattern of disintegration of social, political and economic infrastructure…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會、政治和經濟基礎設施全球性解體模式的開端。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “could collapse” 概括原文的 “disintegration”。雖然題目少了 economic"
+            },
+            {
+              "kind": "paragraph",
+              "text": "infrastructure，但 social and political infrastructure 都在原文中直接出現。這是 Kaplan 的觀點，因為句子以 “Kaplan believes” 開頭。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — D. Suzuki",
+      "answerKey": "C — D. Suzuki",
+      "type": "Matching People",
+      "prompt": "“Earth’s life support systems are at critical risk.”",
+      "translation": "地球的生命支援系統正處於重大風險之中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9 和 Paragraph 10。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...as the life support systems of the planet continue to decline.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當地球生命支援系統持續下降時。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also blinds the public to the urgency and credibility of warnings that an environmental crisis confronts us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也令公眾看不見警告的迫切性和可信度：環境危機正擺在我們面前。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “life support systems” 是強定位詞。這個片語直接出現在 Paragraph 9，由"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Suzuki 使用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“continue to decline” 加上 “environmental crisis confronts us” 支援 “at critical risk”。這不"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是 Gee 的樂觀立場；Kaplan 也講 ecosystems collapse，但 “life support systems” 和全文最後的危機警告都由 Suzuki 提出。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — M. Gee",
+      "answerKey": "B — M. Gee",
+      "type": "Matching People",
+      "prompt": "“Environmental problems are not a threat to progress.”",
+      "translation": "環境問題不會威脅人類進步。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Gee 輕輕帶過 Third World debt 和兒童死亡等問題。最後一句說他認為人口越多，越會有更多 Einsteins 讓生活變好。只看首尾句，可以看出這段是在批評 Gee 對危機的輕視。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “environmental problems”、“threat” 和 “progress”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He does acknowledge the threats of loss of topsoil and forests, pollution of the air and contamination of water. However, he concludes that there is little evidence they are serious enough to halt or even reverse human progress.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他確實承認表土和森林流失、空氣污染和水污染這些威脅。不過，他總結說，幾乎沒有證據顯示它們嚴重到足以停止甚至逆轉人類進步。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “little evidence they are serious enough to halt or even reverse human progress”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡化成 “not a threat to progress”。這是 Gee 的立場，雖然 Suzuki 明顯不同意。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "G — has been accompanied by a fall in tariffs",
+      "answerKey": "G — has been accompanied by a fall in tariffs",
+      "type": "Phrase Completion",
+      "prompt": "“The growth of world trade has been accompanied by a fall in tariffs.”",
+      "translation": "世界貿易增長伴隨著關稅下降。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Gee 的結論主要依靠 economic indicators。最後一句說 tariffs 從 1947 年約 40% 降至今日 5%。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “world trade” 和 “tariffs”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“World trade has done even better, growing by 6 per cent annually, while tariffs have fallen from about 40 per cent of a product’s price in 1947 to 5 per cent today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界貿易表現更好，每年增長 6%；同時，關稅從 1947 年約佔產品價格 40%，降至今天 5%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“growing” 對應 “growth”；“tariffs have fallen” 對應 “a fall in tariffs”。所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "E — shows a correlation, not cause and effect",
+      "answerKey": "E — shows a correlation, not cause and effect",
+      "type": "Phrase Completion",
+      "prompt": "“The relationship between population and standard of living shows a correlation, not cause and effect.”",
+      "translation": "人口和生活水平之間的關係顯示的是相關性，不是因果關係。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Gee 相信科技可以支撐更大人口；最後一句說他忽視基本經濟和科學現實。中間正好會處理 population 和 living standards 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “population”、“living standards” 和 “correlation”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the relationship between changes in living standards and population is a correlation, not proof of causal connection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，生活水平變化與人口之間的關係只是相關性，並非因果連結的證明。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “standard of living” 對應原文 “living standards”；“cause and effect” 對應 “causal"
+            },
+            {
+              "kind": "paragraph",
+              "text": "connection”。答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "C — cannot continue to expand indefinitely",
+      "answerKey": "C — cannot continue to expand indefinitely",
+      "type": "Phrase Completion",
+      "prompt": "“Natural resources and the economy cannot continue to expand indefinitely.”",
+      "translation": "自然資源和經濟不能無限擴張。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The value system that dominates most of the popular media promotes the delusion that resources and the economy can continue to expand indefinitely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主導大眾媒體的價值系統推動一種錯覺，以為資源和經濟可以無限擴張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說這種價值系統也令公眾看不見環境危機警告的迫切性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目直接出現 “Natural resources and the economy”。原文是 “resources and the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "economy”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說相信它們能 “continue to expand indefinitely” 是 delusion，即錯覺。題目要完成的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句子應採用作者真正立場：它們不能無限擴張。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A — political corruption",
+      "answerKey": "A — political corruption",
+      "type": "Multiple Choice",
+      "prompt": "Question 37",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：以下哪一項不是 Kaplan 所說、導致潛在全球不穩定的關鍵因素？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2–3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 講 Kaplan 的恐怖未來圖像；Paragraph 3 把這種圖像擴展成全球模式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Kaplan 的因素包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“exploding human population and surrounding environmental degradation”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人口爆炸及周邊環境惡化。"
+            },
+            {
+              "kind": "quote",
+              "text": "“As society is destabilised by the AIDS epidemic…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會因 AIDS epidemic 而變得不穩。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“ecological degradation, population pressure and disease”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生態退化、人口壓力和疾病。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “collapse of ecosystems” 對應 “As ecosystems collapse”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “population explosion” 對應 “exploding human population”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “malnutrition and disease” 中的 disease 對應 AIDS epidemic / disease；malnutrition 在 Gee的段落出現，是干擾點，但 D 至少包含 Kaplan 的 disease。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “political corruption” 在 Kaplan 的危機鏈中沒有出現。原文講 government control evaporates，但沒有說 political corruption 是成因。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "D — economic growth",
+      "answerKey": "D — economic growth",
+      "type": "Multiple Choice",
+      "prompt": "Question 38",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Gee 樂觀的主要來源是甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4–6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 介紹 Gee 反駁 Kaplan；Paragraph 5 列出社會進步統計；Paragraph 6 明說 Gee 的結論依賴經濟指標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "最強定位句在 Paragraph 6："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gee’s conclusions rest heavily on economic indicators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gee 的結論很大程度依靠經濟指標。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gee pronounces the fivefold increase in the world economy since 1950 to be the cause of this good news.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gee 認為 1950 年以來世界經濟增長五倍，是這些好消息的原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 科技進步是 Gee 的信念背景之一，但題目問 main source，文章反覆強調 economic"
+            },
+            {
+              "kind": "paragraph",
+              "text": "indicators、world economy、gross output、world trade。C 生活水平上升是他用來展示結果的證據；D economic growth 更能概括他的根本樂觀來源。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — His views are closer to those of Kaplan.",
+      "answerKey": "C — His views are closer to those of Kaplan.",
+      "type": "Multiple Choice",
+      "prompt": "Question 39",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：我們可以推斷本文作者 Suzuki 的觀點如何？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8–10。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 開始直接批評 Gee，說他依靠一小部分過分相信科技的人，並且忽視基本經濟和科學現實。Paragraph 9 用銀行戶口比喻說明人類正在消耗 ecological capital。Paragraph 10 則警告大眾媒體令人看不見 environmental crisis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文有幾句非常清楚："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gee is ignoring basic economic as well as scientific reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gee 正忽視基本經濟和科學現實。"
+            },
+            {
+              "kind": "quote",
+              "text": "“we are using up the ecological capital of the planet…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正在耗用地球的生態資本。"
+            },
+            {
+              "kind": "quote",
+              "text": "“an environmental crisis confronts us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "環境危機正擺在我們面前。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Suzuki 明顯不同意 Gee 的樂觀經濟增長論。Kaplan 的圖像較極端，但他至少承認 planet"
+            },
+            {
+              "kind": "paragraph",
+              "text": "is finite、consumption 有巨大後果，並警告 ecological destruction 的後果。Suzuki 的立場較接近Kaplan 的危機警告。答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說他不同意 Gee 和 Kaplan 兩人，過度絕對；B 說他支持 Gee，和全文批評方向相反；D 說兩人都對，也不符合作者對 Gee 的強烈批評。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — to alert us to an environmental crisis",
+      "answerKey": "A — to alert us to an environmental crisis",
+      "type": "Multiple Choice",
+      "prompt": "Question 40",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：作者寫這篇文章的主要目的。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全文最後段是關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 10 第一、最後一句已清楚總結作者目的：媒體價值系統推動無限增長錯覺，也令公眾看不見環境危機警告的迫切性和可信度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "最直接證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also blinds the public to the urgency and credibility of warnings that an environmental crisis confronts us.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也令公眾看不見警告的迫切性和可信度：環境危機正擺在我們面前。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “to alert us to an environmental crisis” 正好概括這句。B “to educate the media” 太窄，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者批評 media value system，但目標是提醒公眾危機。C “to create uncertainty” 不準確，作者態度很明確。D “to challenge current economic theory” 只是文章其中一部分，全文主旨仍是環境危機警告。答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Are these two reporters on the same planet_.pdf",
+    "sha256": "efbdd100ade16682f4ea1d5cedfc3219f0d9f6da91fddfd5713eb04e10662bd5",
+    "pageCount": 13
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說不少書籍、文章和電視節目都質疑全球暖化、人口過剩、森林砍伐和臭氧層耗損等危機是否真實；尾句說兩篇報章評論展示了人們對地球關鍵議題的巨大分歧。只看首尾句，可以先判斷本段是導入段，功能是建立全文爭議框架：後文會比較兩種截然不同的環境與發展觀點，一方較悲觀，另一方較樂觀。"
+      },
+      {
+        "number": "2",
+        "summary": "首句介紹第一篇評論來自 Robert Kaplan，並說它引起恐懼和否認；尾句描寫政府控制瓦解、邊界崩潰、難民流動和部族衝突。只看首尾句，可推測本段主要呈現 Kaplan 的末日式預測。他把人口爆炸、環境惡化、AIDS、難民和社會失序連成一套危機圖像，重點是「局部地區已經出現未來全球可能面對的混亂」。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Kaplan 認為他在 Africa 和 Southeast Asia 看到的現象，是全球社會、政治和經濟基礎設施解體的開端；尾句說這個觀點引起大量討論和爭議。只看首尾句，可以估計本段會把 Kaplan 的局部觀察擴展成全球預測。段中很可能出現 ecosystems collapse、industrialised countries、finite planet、consumption 等關鍵詞，是 Questions 29 和 31 的核心段落。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Marcus Gee 宣稱 Kaplan 的視野 “dead wrong”；尾句說 Gee 認為 Kaplan 誇大了很多危機，錯過了廣泛進步的整體模式。只看首尾句，可以判斷本段是 Gee 對 Kaplan 的反駁。它會列出健康、教育、識字、糧食、壽命、經濟增長等正面數據，同時承認仍有問題，但整體方向偏向人類進步和經濟增長。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Gee 聚焦於兒童死亡率下降、壽命上升、糧食生產和成人識字率增加；尾句說世界大多數人的生活幾乎在每一類別都穩步改善。只看首尾句，可以估計本段進一步整理 Gee 的樂觀證據。它不是新人物觀點，而是加強 Gee 的核心論證：統計數字顯示人類處境正在改善，因此他相信Kaplan 的危機敘述過分悲觀。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Gee 的結論很大程度依靠 economic indicators；尾句說關稅從 1947 年約 40% 降至今日5%。只看首尾句，可以判斷本段集中講經濟數據，包括 global economy、gross output、world trade 和 tariffs。這段很適合定位 Questions 34 和 38，因為題目問 world trade 的變化，以及 Gee樂觀的主要來源。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Gee 輕輕帶過 Third World debt 和每天 22,000 名兒童死於容易預防疾病這類事實；尾句說他認為人口永遠不會有限制，因為更多人意味著更多 Einsteins。只看首尾句，可以看到作者開始批評 Gee：Gee 承認土壤流失、森林消失、污染和水污染，但仍認為它們不足以阻止人類進步。這段是 Question 33 的關鍵段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Gee 的觀點依靠一小部分相信科學與科技潛力無邊的科學家；尾句說 Suzuki 認為 Gee正忽視基本經濟和科學現實。只看首尾句，可以判斷這段轉向作者 Suzuki 的反駁。他指出，Gee把人口增長和生活水平上升的同步出現視作證明，但作者提醒：那只是 correlation，不是因果證明。Questions 30、35 和 39 都可定位到這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句用銀行戶口比喻：若本金一千元、年息 5%，每年只提五十元或以下就可永續；尾句說當地球生命支援系統持續下降時，仍相信經濟指標能一直上升，是危險的自欺。只看首尾句，可以估計本段是作者的核心反駁段：人類正在消耗 ecological capital，而不是只用「利息」。Questions 28 和32 會在這段找到最直接證據。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說大眾媒體主導的價值系統推動一種錯覺，以為資源和經濟可以無限擴張；尾句說它也令公眾看不見環境危機警告的迫切性和可信度。只看首尾句，可以判斷這是全文總結段。作者把問題提升到 media value system：媒體讓人相信無限增長，結果削弱了社會對環境危機的警覺。 Questions 36 和 40 的主旨判斷會用到這段。"
+      }
+    ]
+  }
+}

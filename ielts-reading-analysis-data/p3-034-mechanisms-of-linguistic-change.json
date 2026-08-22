@@ -1,0 +1,823 @@
+{
+  "id": "p3-034-mechanisms-of-linguistic-change",
+  "catalogueId": "p3-034",
+  "catalogueIds": [
+    "p3-034"
+  ],
+  "passage": 3,
+  "title": "Mechanisms of Linguistic Change",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "sound laws",
+    "fashion",
+    "imperfect",
+    "principle of ease",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "C",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "sound laws",
+      "answerKey": "sound laws",
+      "type": "Summary Completion",
+      "prompt": "“Large-scale regular changes are usually called 27 ______.”",
+      "translation": "大規模且有規律的變化通常稱為甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時，Paragraph B 首句已經說",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“When we study the pronunciation of a language over any period of a few generations or more, we find there are always large-scale regularities in the changes…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們研究一種語言在幾代或更長時間內的發音時，會發現變化中總是有大規模規律。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目定位詞是 Large-scale regular changes。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such regular changes are often called sound laws.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類有規律的變化通常稱為 sound laws。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫很直接",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● Large-scale regular changes = Such regular changes● are usually called = are often called● 答案詞 = sound laws所以答案是 sound laws。字數是兩個詞，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "fashion",
+      "answerKey": "fashion",
+      "type": "Summary Completion",
+      "prompt": "“First, one person may imitate another’s pronunciation, especially that of a person with prestige, so imitation involves an element of 28 ______.”",
+      "translation": "第一，一個人可能模仿另一個人的發音，尤其是有 prestige 的人的發音，因此 imitation 含有甚麼元素？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C Paragraph C 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also possible that fashion plays a part in the process of change.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fashion 也可能在變化過程中發揮作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目定位詞是 imitate / prestige。原文中間說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It certainly plays a part in the spread of change: one person imitates another, and people with the most prestige are most likely to be imitated…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它確實在變化的傳播中發揮作用：一個人模仿另一個人，而最有 prestige 的人最可能被模仿。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “imitation involves an element of…” 對應原文 “fashion plays a part”。這裡的 fashion 不是衣服潮流，而是社會上被視為時髦、有地位、值得模仿的發音方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 fashion。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "imperfect",
+      "answerKey": "imperfect",
+      "type": "Summary Completion",
+      "prompt": "“Second, children’s imitations of adult speech may be 29 ______…”",
+      "translation": "第二，兒童對成人 speech 的模仿可能是怎樣的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D Paragraph D 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A less specific variant of the argument is that children’s imitation is imperfect: they copy their parents’ speech, but never reproduce it exactly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個論點的一個較不具體版本是：兒童的模仿是不完美的；他們模仿父母的 speech，但永遠不會完全複製。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目詞 children’s imitations 和 adult speech 對應原文 “children’s imitation” 和"
+            },
+            {
+              "kind": "quote",
+              "text": "“parents’ speech”。答案詞就在冒號前：“children’s imitation is imperfect”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童的模仿是不完美的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “copy their parents’ speech” 概括成 “imitations of adult speech”，但答案詞不變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 imperfect。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "principle of ease",
+      "answerKey": "principle of ease",
+      "type": "Summary Completion",
+      "prompt": "“Finally, random variations in pronunciation may reflect the 30 ______, or minimisation of effort.”",
+      "translation": "最後，發音中的 random variations 可能反映甚麼，也就是 minimisation of effort？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E Paragraph E 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One such force which is often invoked is the principle of ease, or minimization of effort.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種常被引用的力量是 principle of ease，也就是 minimization of effort。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目定位詞是 minimisation of effort。原文幾乎逐字出現 “minimization of effort”，並且在前面給出同位語："
+            },
+            {
+              "kind": "quote",
+              "text": "“the principle of ease”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格在 “the ______, or minimisation of effort” 之前，所以要填與 minimisation of effort 同義的完整名詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 principle of ease。字數三個詞，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It is impossible for modern people to determine the pronunciation of words in an earlier age.”",
+      "translation": "現代人不可能判斷早期語言中詞語的發音。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A Paragraph A 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The changes that have caused the most disagreement are those in pronunciation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最引起爭議的變化是發音方面的變化。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These various kinds of evidence, combined with a knowledge of the mechanisms of speech-production, can often give us a very good idea of the pronunciation of an earlier age, though absolute certainty is never possible.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些不同種類的證據，加上對 speech-production mechanisms 的認識，通常可以讓我們對早期發音有很好的概念，雖然絕對確定永遠不可能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目定位詞是 impossible 和 earlier age。原文真正控制答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“can often give us a very good idea”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 modern people 不可能 determine earlier pronunciation；原文說研究者通常 可以得到很好的概念。雖然原文補充 “absolute certainty is never possible”，但這只是說不能達到百分百確定，不等於完全無法判斷。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與方向比較",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● 題目：impossible to determine● 原文：can often give us a very good idea● 題目把「不能絕對確定」放大成「完全不可能判斷」所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A major change in Russian pronunciation was related to changes in the status of social groups.”",
+      "translation": "俄語發音中的一項重要變化，和社會群體地位變化有關。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C Paragraph C 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also possible that fashion plays a part in the process of change.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fashion 也可能參與變化過程。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 中間有關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a social group rises or falls in status, its pronunciation may also gain or lose prestige.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當某個社會群體的地位上升或下降時，它的發音也可能獲得或失去 prestige。"
+            },
+            {
+              "kind": "label",
+              "text": "緊接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Russian, a pronunciation formerly considered desirable later became an undesirable accent, so people tried to disguise it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在俄語中，一種以前被視為 desirable 的發音，後來變成 undesirable accent，所以人們試圖掩飾它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句要合起來讀。前一句建立一般規則：social group status 的升跌會影響 pronunciation 的prestige。後一句馬上給 Russian example：某種俄語發音由 desirable 變成 undesirable，甚至令人要 disguise it。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “related to changes in the status of social groups” 對應原文 “When a social group rises or falls in status”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Russian pronunciation” 對應原文 “In Russian, a pronunciation…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“major” 雖然不是原文字眼，但 “formerly considered desirable later became an undesirable accent” 是明顯的社會評價逆轉，足以支援題目所說的 significant change。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Children learn speech from adults but do not reproduce it exactly.”",
+      "translation": "兒童從成人身上學 speech，但不會完全複製。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D Paragraph D 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A less specific variant of the argument is that children’s imitation is imperfect: they copy their parents’ speech, but never reproduce it exactly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個論點的一個較不具體版本是：兒童的模仿是不完美的；他們模仿父母的 speech，但永遠不會完全複製。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎是原文直接改寫：● Children learn speech from adults = they copy their parents’ speech● do not reproduce it exactly = never reproduce it exactly● adults = parents 是成人中的具體例子原文下一句 “This is true” 也確認作者接受這個描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Casual inaccuracies in pronunciation will not have a major influence on language change.”",
+      "translation": "偶然、隨機的發音不準，不會對語言變化造成重大影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, however, cannot explain changes in pronunciation unless it can be shown that there is some systematic trend in the failures of imitation: if they are merely random deviations they will cancel one another out and there will be no net change in the language.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這不能解釋發音變化，除非能證明 imitation failures 中有某種系統性趨勢；如果它們只是random deviations，它們會互相抵消，語言中不會出現淨變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目定位詞是 casual inaccuracies。原文對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“merely random deviations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “will not have a major influence on language change” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“they will cancel one another out and there will be no net change in the language”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，隨機偏差會抵消，不能形成真正的語言變化。只有 systematic trend 才可能帶來change。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The word scant can be pronounced more easily than skamt.”",
+      "translation": "scant 比 skamt 更容易發音。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E Paragraph E 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One such force which is often invoked is the principle of ease, or minimization of effort.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種常被引用的力量是 principle of ease，也就是 minimization of effort。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the word scant was once skamt, but the /m/ has been changed to /n/ under the influence of the following /t/. Greater efficiency has hereby been achieved…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，scant 這個詞曾經是 skamt，但 /m/ 受後面 /t/ 的影響變成 /n/。這樣就達到了更高效率。"
+            },
+            {
+              "kind": "label",
+              "text": "後面解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“because /n/ and /t/ are articulated in the same place…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 /n/ 和 /t/ 在同一個位置發音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “can be pronounced more easily”，原文說 “Greater efficiency has hereby been achieved”。這是直接同義改寫：● more easily = with greater efficiency / less effort● scant = /n/ before /t/● skamt = /m/ before /t/由於 /n/ 和 /t/ 發音位置相同，scant 的發音比 skamt 更有效率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The silent [g] in gnat will eventually disappear from its spelling.”",
+      "translation": "gnat 中不發音的 [g] 最終會從拼寫中消失。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F Paragraph F 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Assimilation is not the only way in which we change our pronunciation in order to increase efficiency.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "assimilation 不是我們為了提高效率而改變發音的唯一方法。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 中間說："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one time there was a [t] in words like castle and Christmas, and an initial [k] in words like knight and know.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾經，castle 和 Christmas 這類詞中有 [t] 音；knight 和 know 這類詞開頭有 [k] 音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 silent [g] in gnat 和 disappear from its spelling。原文確實談到拼寫與發音不完全一致的例子，例如 castle、Christmas、knight、know，但沒有提到：● gnat；● silent [g]；● spelling will eventually change；● 某個字母會從拼寫中消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 pronunciation 中某些 consonants 消失或不再讀出，沒有預測 future spelling change。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了未來拼寫變化，原文沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The pronunciation of temporary does not always reflect its full spelling.”",
+      "translation": "temporary 的發音不一定完整反映它的拼寫。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes a whole syllable is dropped out when two successive syllables begin with the same consonant (haplology): a recent example is temporary, which in Britain is often pronounced as if it were tempory.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時候，當連續兩個 syllables 以相同 consonant 開頭時，整個 syllable 會被省略，這叫haplology；近代例子是 temporary，在英國常被讀成像 tempory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “does not always reflect its full spelling” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“often pronounced as if it were tempory”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "temporary 的拼寫比 tempory 多一個 syllable 感覺；原文說英國常見發音會省略其中一部分，所以發音不一定完整反映 spelling。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意題目用 “not always”，語氣很保守。原文用 “often pronounced as if…” 也支援這種保守說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "C — A large-scale trend in pronunciation over a given period",
+      "answerKey": "C — A large-scale trend in pronunciation over a given period",
+      "type": "Matching Statements",
+      "prompt": "“As a consequence, ‘b’ will be pronounced as ‘p’”",
+      "translation": "結果是，b 會被讀成 p。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…all the [b] consonants in a certain position (for example at the end of a word) may change into [p] consonants.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個位置上的所有 [b] consonants，例如在詞尾，可能會變成 [p] consonants。"
+            },
+            {
+              "kind": "label",
+              "text": "這句前面說的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“large-scale regularities in the changes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "變化中的大規模規律。"
+            },
+            {
+              "kind": "label",
+              "text": "後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such regular changes are often called sound laws.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類規律性變化通常稱為 sound laws。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，b 變 p 的例子不是單一發音錯誤，也不是某一個詞的偶然簡化；它屬於某個語言或方言在特定時期出現的大規模發音趨勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B — Assimilation of a sound under the influence of a neighbouring one",
+      "answerKey": "B — Assimilation of a sound under the influence of a neighbouring one",
+      "type": "Matching Statements",
+      "prompt": "“The pronunciation of [mt] changed to [nt]”",
+      "translation": "[mt] 的發音變成 [nt]。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E原文先定義 assimilation："
+            },
+            {
+              "kind": "quote",
+              "text": "“Assimilation is the changing of a sound under the influence of a neighbouring one.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Assimilation 是一個 sound 受到鄰近 sound 影響而改變。"
+            },
+            {
+              "kind": "label",
+              "text": "接著給出 scant 的例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, the word scant was once skamt, but the /m/ has been changed to /n/ under the influence of the following /t/.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，scant 曾經是 skamt，但 /m/ 受後面 /t/ 的影響變成 /n/。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 [mt] → [nt] 正是這個例子：● /m/ changes to /n/；● following /t/ 是 neighbouring sound；● under the influence of the following /t/ = under the influence of a neighbouring one。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 也和這個例子有關，因為原文確實解釋 /n/ 和 /t/ 在同一位置發音。不過 Q39 的句子問的是這種 sound change 屬於哪種機制；B 直接命名為 assimilation，因此最貼合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — The speaker can pronounce it with less effort",
+      "answerKey": "A — The speaker can pronounce it with less effort",
+      "type": "Matching Statements",
+      "prompt": "“The omission of ‘t’ from the pronunciation of Christmas”",
+      "translation": "Christmas 發音中省略 t。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F Paragraph F 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Assimilation is not the only way in which we change our pronunciation in order to increase efficiency.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "assimilation 不是我們為了提高效率而改變發音的唯一方法。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consonant clusters are often simplified. At one time there was a [t] in words like castle and Christmas…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "consonant clusters 常常被簡化。曾經，castle 和 Christmas 這類詞中有 [t] 音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 Christmas 省略 [t] 屬於 consonant cluster simplification。Paragraph F 的大框架是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“increase efficiency”，即用更少 effort 發音。因此選項 A “The speaker can pronounce it with less effort” 最合適。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● omission of ‘t’ = consonant cluster simplified● pronounce with less effort = increase efficiency● Christmas = 原文直接例子所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Mechanisms of Linguistic Change.pdf",
+    "sha256": "786a34071b053f308a6d8c4b2fa83a7cee0c3773a37778526b741ec3b5c3add8",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以看到本段處理「過去發音如何被重建」。首句說最有爭議的語言變化是pronunciation changes；尾句說多種證據配合 speech-production knowledge，通常能讓我們對earlier pronunciation 有很好的概念，但 absolute certainty 永遠不可能。這段功能是介紹歷史發音研究的證據來源與限制：可以推得相當可靠，仍未達到絕對確定。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說，只要研究一種語言幾代以上的 pronunciation，就會發現 large-scale regularities。尾句說沒有 universal sound laws，只有特定語言或方言在特定時期的 particular sound laws。這段功能是定義和限制 “sound laws”：它們描述大規模、規律性的發音變化，例如 long [a:] 變成 long [e:]，或 word-final [b] 變成 [p]。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接提出 fashion 可能參與 change；最後一句說十七、十八世紀 accepted English pronunciation 的一些變化，可能源於當時 middle classes 權力和財富上升，並逐步影響upper-class speech。這段功能是說明社會因素如何推動發音變化：人會模仿有 prestige 的人或群體，社會地位升跌會影響某種 pronunciation 的 prestige。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說，有一種較不具體的說法：children’s imitation is imperfect。尾句說，如果 imitation failures只是 random deviations，它們會互相抵消，語言不會有 net change。這段功能是評估「模仿不完美」是否能解釋發音變化。作者承認兒童和成人發音會有偏差，但強調只有 systematic trend 才可能帶來真正語言變化。"
+      },
+      {
+        "number": "E",
+        "summary": "首句提出一種常被引用的力量：principle of ease, or minimization of effort。最後一句用 football pronounced as foopball 作近代例子。這段功能是介紹 assimilation：一個 sound 受 neighbouring sound 影響而改變，使 articulation 更有效率。scant 由 skamt 變來，因 /n/ 和 /t/ 發音位置相同，比 /m/ 接 /t/ 更省力。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 assimilation 並非唯一提升發音效率的方法；最後一句說 temporary 在英國常被讀成tempory，這屬於 haplology 的近例。這段功能是列出其他 simplification：word-final consonants可消失，consonant clusters 可簡化，whole syllable 也可能被刪去。castle、Christmas、knight、know 和 temporary 都是拼寫保留較多，實際發音較簡化的例子。"
+      }
+    ]
+  }
+}

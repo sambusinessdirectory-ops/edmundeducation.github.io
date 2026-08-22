@@ -1,7 +1,7 @@
 // Lightweight availability index. JSON-backed articles are listed here without
 // placing their full question analysis in the catalogue page's initial payload.
 window.EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY = Object.freeze({
-  "version": "2026-08-20.1",
+  "version": "2026-08-22.1",
   "dataDirectory": "/ielts-reading-analysis-data/",
   "articles": {
     "mungo-man": {
@@ -2379,6 +2379,1262 @@ window.EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY = Object.freeze({
       "file": "p2-175-nanotechnology-its-development-and-uses.json",
       "version": "2026-08-20.1",
       "catalogueId": "p2-175"
+    },
+    "p3-003-whats-in-blood": {
+      "id": "p3-003-whats-in-blood",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-003-whats-in-blood.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-003"
+    },
+    "p3-004-criminal-rehabilitation-a-difficult-issue": {
+      "id": "p3-004-criminal-rehabilitation-a-difficult-issue",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-004-criminal-rehabilitation-a-difficult-issue.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-004"
+    },
+    "p3-005-destination-mars": {
+      "id": "p3-005-destination-mars",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-005-destination-mars.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-005"
+    },
+    "p3-007-the-australian-visa-application-process-explained": {
+      "id": "p3-007-the-australian-visa-application-process-explained",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-007-the-australian-visa-application-process-explained.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-007"
+    },
+    "p3-008-team-building": {
+      "id": "p3-008-team-building",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-008-team-building.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-008"
+    },
+    "p3-009-problem-solving-and-decision-making": {
+      "id": "p3-009-problem-solving-and-decision-making",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-009-problem-solving-and-decision-making.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-009"
+    },
+    "p3-014-clinical-trials": {
+      "id": "p3-014-clinical-trials",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-014-clinical-trials.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-014"
+    },
+    "p3-015-genealogy": {
+      "id": "p3-015-genealogy",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-015-genealogy.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-015"
+    },
+    "p3-016-a-library-at-your-fingertips": {
+      "id": "p3-016-a-library-at-your-fingertips",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-016-a-library-at-your-fingertips.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-016"
+    },
+    "p3-017-psychometrics": {
+      "id": "p3-017-psychometrics",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-017-psychometrics.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-017"
+    },
+    "p3-020-unexpected-benefits-to-human-brain": {
+      "id": "p3-020-unexpected-benefits-to-human-brain",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-020-unexpected-benefits-to-human-brain.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-020"
+    },
+    "p3-024-the-future-of-the-worlds-language": {
+      "id": "p3-024-the-future-of-the-worlds-language",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-024-the-future-of-the-worlds-language.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-024"
+    },
+    "p3-025-the-game-of-tennis": {
+      "id": "p3-025-the-game-of-tennis",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-025-the-game-of-tennis.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-025"
+    },
+    "p3-026-amateur-naturalists": {
+      "id": "p3-026-amateur-naturalists",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-026-amateur-naturalists.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-026"
+    },
+    "p3-027-what-is-a-dinosaur": {
+      "id": "p3-027-what-is-a-dinosaur",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-027-what-is-a-dinosaur.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-027"
+    },
+    "p3-028-the-fruit-book": {
+      "id": "p3-028-the-fruit-book",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-028-the-fruit-book.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-028"
+    },
+    "p3-029-music-language-we-all-speak": {
+      "id": "p3-029-music-language-we-all-speak",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-029-music-language-we-all-speak.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-029"
+    },
+    "p3-030-talc-powder": {
+      "id": "p3-030-talc-powder",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-030-talc-powder.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-030"
+    },
+    "p3-031-communicating-styles-and-conflict": {
+      "id": "p3-031-communicating-styles-and-conflict",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-031-communicating-styles-and-conflict.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-031"
+    },
+    "p3-032-the-columbian-exchange": {
+      "id": "p3-032-the-columbian-exchange",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-032-the-columbian-exchange.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-032"
+    },
+    "p3-033-travel-books": {
+      "id": "p3-033-travel-books",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-033-travel-books.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-033"
+    },
+    "p3-034-mechanisms-of-linguistic-change": {
+      "id": "p3-034-mechanisms-of-linguistic-change",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-034-mechanisms-of-linguistic-change.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-034"
+    },
+    "p3-035-honey-bees-in-trouble": {
+      "id": "p3-035-honey-bees-in-trouble",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-035-honey-bees-in-trouble.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-035"
+    },
+    "p3-036-internal-market-selling-the-inside": {
+      "id": "p3-036-internal-market-selling-the-inside",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-036-internal-market-selling-the-inside.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-036"
+    },
+    "p3-037-living-dunes": {
+      "id": "p3-037-living-dunes",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-037-living-dunes.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-037"
+    },
+    "p3-038-accidental-scientists": {
+      "id": "p3-038-accidental-scientists",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-038-accidental-scientists.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-038"
+    },
+    "p3-039-musical-maladies": {
+      "id": "p3-039-musical-maladies",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-039-musical-maladies.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-039"
+    },
+    "p3-040-high-speed-photography": {
+      "id": "p3-040-high-speed-photography",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-040-high-speed-photography.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-040"
+    },
+    "p3-041-source-of-knowledge": {
+      "id": "p3-041-source-of-knowledge",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-041-source-of-knowledge.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-041"
+    },
+    "p3-042-e-training": {
+      "id": "p3-042-e-training",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-042-e-training.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-042"
+    },
+    "p3-043-the-significant-role-of-mother-tongue-in-education": {
+      "id": "p3-043-the-significant-role-of-mother-tongue-in-education",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-043-the-significant-role-of-mother-tongue-in-education.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-043"
+    },
+    "p3-044-monkeys-and-forests": {
+      "id": "p3-044-monkeys-and-forests",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-044-monkeys-and-forests.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-044"
+    },
+    "p3-045-stealth-forces-in-weight-loss": {
+      "id": "p3-045-stealth-forces-in-weight-loss",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-045-stealth-forces-in-weight-loss.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-045"
+    },
+    "p3-046-global-warming-in-new-zealand": {
+      "id": "p3-046-global-warming-in-new-zealand",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-046-global-warming-in-new-zealand.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-046"
+    },
+    "p3-047-motivating-drives": {
+      "id": "p3-047-motivating-drives",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-047-motivating-drives.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-047"
+    },
+    "p3-048-improving-patient-safety": {
+      "id": "p3-048-improving-patient-safety",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-048-improving-patient-safety.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-048"
+    },
+    "p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools": {
+      "id": "p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-049"
+    },
+    "p3-050-robert-louis-stevenson": {
+      "id": "p3-050-robert-louis-stevenson",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-050-robert-louis-stevenson.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-050"
+    },
+    "p3-051-what-do-babies-know": {
+      "id": "p3-051-what-do-babies-know",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-051-what-do-babies-know.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-051"
+    },
+    "p3-052-what-is-meaning": {
+      "id": "p3-052-what-is-meaning",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-052-what-is-meaning.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-052"
+    },
+    "p3-053-can-hurricanes-be-moderated-or-diverted": {
+      "id": "p3-053-can-hurricanes-be-moderated-or-diverted",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-053-can-hurricanes-be-moderated-or-diverted.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-053"
+    },
+    "p3-054-quantitative-research-in-education": {
+      "id": "p3-054-quantitative-research-in-education",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-054-quantitative-research-in-education.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-054"
+    },
+    "p3-055-company-innovation": {
+      "id": "p3-055-company-innovation",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-055-company-innovation.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-055"
+    },
+    "p3-056-the-olympic-torch": {
+      "id": "p3-056-the-olympic-torch",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-056-the-olympic-torch.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-056"
+    },
+    "p3-057-elephant-communication": {
+      "id": "p3-057-elephant-communication",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-057-elephant-communication.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-057"
+    },
+    "p3-058-texting-the-television": {
+      "id": "p3-058-texting-the-television",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-058-texting-the-television.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-058"
+    },
+    "p3-059-preparing-for-the-threat": {
+      "id": "p3-059-preparing-for-the-threat",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-059-preparing-for-the-threat.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-059"
+    },
+    "p3-060-co-educational-versus-single-sex-classrooms": {
+      "id": "p3-060-co-educational-versus-single-sex-classrooms",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-060-co-educational-versus-single-sex-classrooms.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-060"
+    },
+    "p3-061-constellation": {
+      "id": "p3-061-constellation",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-061-constellation.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-061"
+    },
+    "p3-062-the-natural-world": {
+      "id": "p3-062-the-natural-world",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-062-the-natural-world.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-062"
+    },
+    "p3-063-hazard-management": {
+      "id": "p3-063-hazard-management",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-063-hazard-management.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-063"
+    },
+    "p3-064-low-cost-lamps-light-rural-india": {
+      "id": "p3-064-low-cost-lamps-light-rural-india",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-064-low-cost-lamps-light-rural-india.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-064"
+    },
+    "p3-065-rise-of-the-robots": {
+      "id": "p3-065-rise-of-the-robots",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-065-rise-of-the-robots.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-065"
+    },
+    "p3-066-sunday-is-a-fun-day-for-modern-brits": {
+      "id": "p3-066-sunday-is-a-fun-day-for-modern-brits",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-066-sunday-is-a-fun-day-for-modern-brits.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-066"
+    },
+    "p3-067-teens-try-to-change-the-world-one-purchase-at-a-time": {
+      "id": "p3-067-teens-try-to-change-the-world-one-purchase-at-a-time",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-067-teens-try-to-change-the-world-one-purchase-at-a-time.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-067"
+    },
+    "p3-068-care-in-the-community": {
+      "id": "p3-068-care-in-the-community",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-068-care-in-the-community.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-068"
+    },
+    "p3-069-speech-dysfluency-and-popular-fillers": {
+      "id": "p3-069-speech-dysfluency-and-popular-fillers",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-069-speech-dysfluency-and-popular-fillers.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-069"
+    },
+    "p3-070-the-beginnings-of-art-therapy": {
+      "id": "p3-070-the-beginnings-of-art-therapy",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-070-the-beginnings-of-art-therapy.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-070"
+    },
+    "p3-071-jack-the-ripper-a-bungled-investigation": {
+      "id": "p3-071-jack-the-ripper-a-bungled-investigation",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-071-jack-the-ripper-a-bungled-investigation.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-071"
+    },
+    "p3-072-driverless-cars": {
+      "id": "p3-072-driverless-cars",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-072-driverless-cars.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-072"
+    },
+    "p3-073-all-you-need-to-know-about-snow": {
+      "id": "p3-073-all-you-need-to-know-about-snow",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-073-all-you-need-to-know-about-snow.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-073"
+    },
+    "p3-075-team-based-learning": {
+      "id": "p3-075-team-based-learning",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-075-team-based-learning.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-075"
+    },
+    "p3-076-the-hemp-revival": {
+      "id": "p3-076-the-hemp-revival",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-076-the-hemp-revival.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-076"
+    },
+    "p3-077-kids-and-sport": {
+      "id": "p3-077-kids-and-sport",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-077-kids-and-sport.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-077"
+    },
+    "p3-078-are-these-two-reporters-on-the-same-planet": {
+      "id": "p3-078-are-these-two-reporters-on-the-same-planet",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-078-are-these-two-reporters-on-the-same-planet.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-078"
+    },
+    "p3-079-mystery-of-the-mummies": {
+      "id": "p3-079-mystery-of-the-mummies",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-079-mystery-of-the-mummies.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-079"
+    },
+    "p3-080-long-term-forecast-hot-and-dry": {
+      "id": "p3-080-long-term-forecast-hot-and-dry",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-080-long-term-forecast-hot-and-dry.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-080"
+    },
+    "p3-081-migrants-and-refugees-racial-discrimination-and-xenophobia": {
+      "id": "p3-081-migrants-and-refugees-racial-discrimination-and-xenophobia",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-081-migrants-and-refugees-racial-discrimination-and-xenophobia.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-081"
+    },
+    "p3-082-population-growth-sentencing-millions-to-hydrological-poverty": {
+      "id": "p3-082-population-growth-sentencing-millions-to-hydrological-poverty",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-082-population-growth-sentencing-millions-to-hydrological-poverty.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-082"
+    },
+    "p3-083-sleep": {
+      "id": "p3-083-sleep",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-083-sleep.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-083"
+    },
+    "p3-084-latchkey-children": {
+      "id": "p3-084-latchkey-children",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-084-latchkey-children.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-084"
+    },
+    "p3-085-bismarck-a-master-of-political-and-diplomatic-juggling": {
+      "id": "p3-085-bismarck-a-master-of-political-and-diplomatic-juggling",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-085-bismarck-a-master-of-political-and-diplomatic-juggling.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-085"
+    },
+    "p3-086-making-a-sound-investment-decision": {
+      "id": "p3-086-making-a-sound-investment-decision",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-086-making-a-sound-investment-decision.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-086"
+    },
+    "p3-087-austria-the-burgeoning-budget-holiday-attraction": {
+      "id": "p3-087-austria-the-burgeoning-budget-holiday-attraction",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-087-austria-the-burgeoning-budget-holiday-attraction.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-087"
+    },
+    "p3-088-continents-collide": {
+      "id": "p3-088-continents-collide",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-088-continents-collide.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-088"
+    },
+    "p3-089-organisational-conflict-and-change": {
+      "id": "p3-089-organisational-conflict-and-change",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-089-organisational-conflict-and-change.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-089"
+    },
+    "p3-090-the-mother-of-all-languages": {
+      "id": "p3-090-the-mother-of-all-languages",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-090-the-mother-of-all-languages.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-090"
+    },
+    "p3-091-waterfalls": {
+      "id": "p3-091-waterfalls",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-091-waterfalls.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-091"
+    },
+    "p3-092-the-year-without-a-summer": {
+      "id": "p3-092-the-year-without-a-summer",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-092-the-year-without-a-summer.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-092"
+    },
+    "p3-093-cubism": {
+      "id": "p3-093-cubism",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-093-cubism.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-093"
+    },
+    "p3-094-the-international-space-station": {
+      "id": "p3-094-the-international-space-station",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-094-the-international-space-station.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-094"
+    },
+    "p3-095-the-biggest-impact": {
+      "id": "p3-095-the-biggest-impact",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-095-the-biggest-impact.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-095"
+    },
+    "p3-096-the-immunisation-controversy": {
+      "id": "p3-096-the-immunisation-controversy",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-096-the-immunisation-controversy.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-096"
+    },
+    "p3-097-are-you-being-served": {
+      "id": "p3-097-are-you-being-served",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-097-are-you-being-served.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-097"
+    },
+    "p3-098-are-you-experienced": {
+      "id": "p3-098-are-you-experienced",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-098-are-you-experienced.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-098"
+    },
+    "p3-099-can-you-charm-your-way-into-oxbridge": {
+      "id": "p3-099-can-you-charm-your-way-into-oxbridge",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-099-can-you-charm-your-way-into-oxbridge.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-099"
+    },
+    "p3-100-do-you-look-your-age": {
+      "id": "p3-100-do-you-look-your-age",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-100-do-you-look-your-age.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-100"
+    },
+    "p3-101-the-fame-machine": {
+      "id": "p3-101-the-fame-machine",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-101-the-fame-machine.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-101"
+    },
+    "p3-102-learning-about-the-past": {
+      "id": "p3-102-learning-about-the-past",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-102-learning-about-the-past.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-102"
+    },
+    "p3-103-black-gold": {
+      "id": "p3-103-black-gold",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-103-black-gold.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-103"
+    },
+    "p3-104-the-revolutionary-bridges-of-robert-maillart": {
+      "id": "p3-104-the-revolutionary-bridges-of-robert-maillart",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-104-the-revolutionary-bridges-of-robert-maillart.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-104"
+    },
+    "p3-105-talented-or-gifted": {
+      "id": "p3-105-talented-or-gifted",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-105-talented-or-gifted.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-105"
+    },
+    "p3-106-saving-language": {
+      "id": "p3-106-saving-language",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-106-saving-language.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-106"
+    },
+    "p3-107-striking-the-right-note": {
+      "id": "p3-107-striking-the-right-note",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-107-striking-the-right-note.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-107"
+    },
+    "p3-108-the-art-of-healing": {
+      "id": "p3-108-the-art-of-healing",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-108-the-art-of-healing.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-108"
+    },
+    "p3-109-keep-taking-the-tablets": {
+      "id": "p3-109-keep-taking-the-tablets",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-109-keep-taking-the-tablets.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-109"
+    },
+    "p3-110-quiet-roads-ahead": {
+      "id": "p3-110-quiet-roads-ahead",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-110-quiet-roads-ahead.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-110"
+    },
+    "p3-111-space-the-final-archaeological-frontier": {
+      "id": "p3-111-space-the-final-archaeological-frontier",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-111-space-the-final-archaeological-frontier.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-111"
+    },
+    "p3-112-painters-of-time": {
+      "id": "p3-112-painters-of-time",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-112-painters-of-time.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-112"
+    },
+    "p3-113-the-accidental-rainforest": {
+      "id": "p3-113-the-accidental-rainforest",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-113-the-accidental-rainforest.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-113"
+    },
+    "p3-114-running-on-empty": {
+      "id": "p3-114-running-on-empty",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-114-running-on-empty.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-114"
+    },
+    "p3-115-the-creation-of-lasting-memories": {
+      "id": "p3-115-the-creation-of-lasting-memories",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-115-the-creation-of-lasting-memories.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-115"
+    },
+    "p3-117-recovering-a-damaged-reputation": {
+      "id": "p3-117-recovering-a-damaged-reputation",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-117-recovering-a-damaged-reputation.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-117"
+    },
+    "p3-118-video-game-research": {
+      "id": "p3-118-video-game-research",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-118-video-game-research.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-118"
+    },
+    "p3-120-language-diversity": {
+      "id": "p3-120-language-diversity",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-120-language-diversity.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-120"
+    },
+    "p3-121-the-future-of-fish": {
+      "id": "p3-121-the-future-of-fish",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-121-the-future-of-fish.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-121"
+    },
+    "p3-122-pronunciation-and-physiognomy": {
+      "id": "p3-122-pronunciation-and-physiognomy",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-122-pronunciation-and-physiognomy.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-122"
+    },
+    "p3-123-fueling-the-future": {
+      "id": "p3-123-fueling-the-future",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-123-fueling-the-future.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-123"
+    },
+    "p3-124-gravity": {
+      "id": "p3-124-gravity",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-124-gravity.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-124"
+    },
+    "p3-125-memory-decoding": {
+      "id": "p3-125-memory-decoding",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-125-memory-decoding.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-125"
+    },
+    "p3-126-is-graffiti-art-or-crime": {
+      "id": "p3-126-is-graffiti-art-or-crime",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-126-is-graffiti-art-or-crime.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-126"
+    },
+    "p3-127-the-mpemba-effect": {
+      "id": "p3-127-the-mpemba-effect",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-127-the-mpemba-effect.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-127"
+    },
+    "p3-128-human-remain-in-green-sahara": {
+      "id": "p3-128-human-remain-in-green-sahara",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-128-human-remain-in-green-sahara.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-128"
+    },
+    "p3-129-the-bite-that-heat": {
+      "id": "p3-129-the-bite-that-heat",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-129-the-bite-that-heat.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-129"
+    },
+    "p3-130-detection-of-a-meteorite-lake": {
+      "id": "p3-130-detection-of-a-meteorite-lake",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-130-detection-of-a-meteorite-lake.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-130"
+    },
+    "p3-131-bondi-beach": {
+      "id": "p3-131-bondi-beach",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-131-bondi-beach.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-131"
+    },
+    "p3-132-how-to-handle-the-sun": {
+      "id": "p3-132-how-to-handle-the-sun",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-132-how-to-handle-the-sun.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-132"
+    },
+    "p3-133-carbon-capture-and-storage": {
+      "id": "p3-133-carbon-capture-and-storage",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-133-carbon-capture-and-storage.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-133"
+    },
+    "p3-134-global-warming": {
+      "id": "p3-134-global-warming",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-134-global-warming.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-134"
+    },
+    "p3-135-extinct-the-giant-deer": {
+      "id": "p3-135-extinct-the-giant-deer",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-135-extinct-the-giant-deer.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-135"
+    },
+    "p3-136-the-nagymaros-dam": {
+      "id": "p3-136-the-nagymaros-dam",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-136-the-nagymaros-dam.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-136"
+    },
+    "p3-137-the-discovery-of-uranus": {
+      "id": "p3-137-the-discovery-of-uranus",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-137-the-discovery-of-uranus.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-137"
+    },
+    "p3-138-beyond-the-blue-line": {
+      "id": "p3-138-beyond-the-blue-line",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-138-beyond-the-blue-line.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-138"
+    },
+    "p3-139-the-dinosaurs-footprints-and-extinction": {
+      "id": "p3-139-the-dinosaurs-footprints-and-extinction",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-139-the-dinosaurs-footprints-and-extinction.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-139"
+    },
+    "p3-140-digital-diet": {
+      "id": "p3-140-digital-diet",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-140-digital-diet.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-140"
+    },
+    "p3-141-the-history-of-the-guitar": {
+      "id": "p3-141-the-history-of-the-guitar",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-141-the-history-of-the-guitar.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-141"
+    },
+    "p3-142-the-secret-of-the-yawn": {
+      "id": "p3-142-the-secret-of-the-yawn",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-142-the-secret-of-the-yawn.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-142"
+    },
+    "p3-143-water-filter": {
+      "id": "p3-143-water-filter",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-143-water-filter.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-143"
+    },
+    "p3-144-movie-of-metropolis": {
+      "id": "p3-144-movie-of-metropolis",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-144-movie-of-metropolis.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-144"
+    },
+    "p3-145-pollution-in-the-bay": {
+      "id": "p3-145-pollution-in-the-bay",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-145-pollution-in-the-bay.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-145"
+    },
+    "p3-146-finding-our-way": {
+      "id": "p3-146-finding-our-way",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-146-finding-our-way.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-146"
+    },
+    "p3-147-rainwater-harvesting": {
+      "id": "p3-147-rainwater-harvesting",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-147-rainwater-harvesting.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-147"
+    },
+    "p3-148-compliance-or-noncompliance-for-children": {
+      "id": "p3-148-compliance-or-noncompliance-for-children",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-148-compliance-or-noncompliance-for-children.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-148"
+    },
+    "p3-149-photovoltaics-on-the-rooftop": {
+      "id": "p3-149-photovoltaics-on-the-rooftop",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-149-photovoltaics-on-the-rooftop.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-149"
+    },
+    "p3-150-the-persuaders": {
+      "id": "p3-150-the-persuaders",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-150-the-persuaders.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-150"
+    },
+    "p3-151-origin-of-species-continent-formation": {
+      "id": "p3-151-origin-of-species-continent-formation",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-151-origin-of-species-continent-formation.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-151"
+    },
+    "p3-152-roller-coaster": {
+      "id": "p3-152-roller-coaster",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-152-roller-coaster.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-152"
+    },
+    "p3-153-inspired-by-mimicking-mother-nature": {
+      "id": "p3-153-inspired-by-mimicking-mother-nature",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-153-inspired-by-mimicking-mother-nature.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-153"
+    },
+    "p3-154-memory-and-age": {
+      "id": "p3-154-memory-and-age",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-154-memory-and-age.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-154"
+    },
+    "p3-155-soviets-new-working-week": {
+      "id": "p3-155-soviets-new-working-week",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-155-soviets-new-working-week.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-155"
+    },
+    "p3-156-art-in-iron-and-steel": {
+      "id": "p3-156-art-in-iron-and-steel",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-156-art-in-iron-and-steel.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-156"
+    },
+    "p3-157-mystery-in-easter-island": {
+      "id": "p3-157-mystery-in-easter-island",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-157-mystery-in-easter-island.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-157"
+    },
+    "p3-158-save-endangered-language": {
+      "id": "p3-158-save-endangered-language",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-158-save-endangered-language.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-158"
+    },
+    "p3-159-designed-to-last": {
+      "id": "p3-159-designed-to-last",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-159-designed-to-last.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-159"
+    },
+    "p3-160-book-review-on-musicophilia": {
+      "id": "p3-160-book-review-on-musicophilia",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-160-book-review-on-musicophilia.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-160"
+    },
+    "p3-161-what-are-dreams": {
+      "id": "p3-161-what-are-dreams",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-161-what-are-dreams.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-161"
+    },
+    "p3-162-water-treatment-2-reed-bed": {
+      "id": "p3-162-water-treatment-2-reed-bed",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-162-water-treatment-2-reed-bed.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-162"
+    },
+    "p3-163-tele-working": {
+      "id": "p3-163-tele-working",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-163-tele-working.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-163"
+    },
+    "p3-164-the-impact-of-environment-to-children": {
+      "id": "p3-164-the-impact-of-environment-to-children",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-164-the-impact-of-environment-to-children.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-164"
+    },
+    "p3-165-the-return-of-monkey-life": {
+      "id": "p3-165-the-return-of-monkey-life",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-165-the-return-of-monkey-life.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-165"
+    },
+    "p3-166-alfred-nobel-the-man-behind-the-nobel-prize": {
+      "id": "p3-166-alfred-nobel-the-man-behind-the-nobel-prize",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-166-alfred-nobel-the-man-behind-the-nobel-prize.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-166"
+    },
+    "p3-167-the-flavour-industry": {
+      "id": "p3-167-the-flavour-industry",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-167-the-flavour-industry.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-167"
+    },
+    "p3-168-growing-up-in-new-zealand": {
+      "id": "p3-168-growing-up-in-new-zealand",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-168-growing-up-in-new-zealand.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-168"
+    },
+    "p3-169-the-fluoridation-controversy": {
+      "id": "p3-169-the-fluoridation-controversy",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-169-the-fluoridation-controversy.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-169"
+    },
+    "p3-170-mind-music": {
+      "id": "p3-170-mind-music",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-170-mind-music.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-170"
+    },
+    "p3-171-the-importance-of-law": {
+      "id": "p3-171-the-importance-of-law",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-171-the-importance-of-law.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-171"
+    },
+    "p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues": {
+      "id": "p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues",
+      "passage": 3,
+      "source": "json",
+      "file": "p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues.json",
+      "version": "2026-08-22.1",
+      "catalogueId": "p3-172"
     }
   }
 });

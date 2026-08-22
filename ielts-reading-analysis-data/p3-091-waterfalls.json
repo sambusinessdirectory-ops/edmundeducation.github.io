@@ -1,0 +1,1373 @@
+{
+  "id": "p3-091-waterfalls",
+  "catalogueId": "p3-091",
+  "catalogueIds": [
+    "p3-091"
+  ],
+  "passage": 3,
+  "title": "Waterfalls",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "pebbles and grit",
+    "resistant rock bed",
+    "retreat",
+    "eddies and whirlpools",
+    "undercutting",
+    "geological features",
+    "Canada",
+    "underwater barriers",
+    "unstable rock"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Niagara, Victoria, and Angel Falls are on international boundaries.”",
+      "translation": "Niagara、Victoria 和 Angel Falls 都位於國際邊界上。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 1。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Waterfalls are places where rivers or streams direct their flow over vertical drops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "瀑布是河流或溪流流過垂直落差的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, the remoteness and inaccessibility of the highest waterfall, Angel Falls, located deep in the Venezuelan jungle, have not stopped it from becoming one of the country’s top tourist attractions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，世界最高的 Angel Falls 位於委內瑞拉叢林深處，位置偏遠且難以到達，但這仍沒有阻止它成為該國頂級旅遊景點之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道本段在介紹著名瀑布和地理位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是三個瀑布名稱：Niagara、Victoria、Angel。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Niagara Falls, on the border of Canada and America…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Niagara Falls 位於加拿大和美國邊界上。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Victoria Falls, which straddles the international boundary between Zimbabwe and Zambia…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Victoria Falls 橫跨 Zimbabwe 和 Zambia 之間的國際邊界。"
+            },
+            {
+              "kind": "label",
+              "text": "Angel Falls 的句子則說它："
+            },
+            {
+              "kind": "quote",
+              "text": "“located deep in the Venezuelan jungle”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "位於委內瑞拉叢林深處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說三個瀑布都在 international boundaries。原文支持 Niagara 和 Victoria 在邊界上，但Angel Falls 只被描述為位於委內瑞拉叢林深處。題目把前兩個瀑布的邊界特徵套到三個瀑布上，和原文不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題有一個很典型的範圍中伏位：題目列出三個項目，只要其中一個不符合，整句便不能判TRUE。Angel Falls 缺少 international boundary 這個資訊，而且原文給出的地理描述是Venezuelan jungle。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Landslides can create waterfalls faster than erosion.”",
+      "translation": "山泥傾瀉可以比侵蝕更快地形成瀑布。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 2。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many possible causes of waterfalls, but a common one is differences in rock type.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "瀑布有很多可能成因，其中一個常見成因是岩石類型差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These glaciers may have disappeared, but their feeder rivers can continue to flow as waterfalls into the remaining depressions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些冰川可能已經消失，但它們的支流仍可繼續以瀑布形式流入留下的低陷地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯是瀑布成因段，所以 landslides 和 erosion 都應在此定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “landslides” 和 “erosion”。原文先講一般侵蝕過程："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water cuts into this, resulting in minor turbulence at the boundary, stirring up pebbles and grit from the riverbed, which increases the erosive capacity of the current.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水流切入較軟岩層，在邊界形成輕微湍流，攪動河床中的卵石和砂礫，增加水流的侵蝕能力。"
+            },
+            {
+              "kind": "label",
+              "text": "後面再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other more abrupt causes of waterfalls are earthquakes or landslides, which create fault lines in the land, or divert watercourses, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他較突然的瀑布成因包括地震和山泥傾瀉，前者可在土地中形成斷層線，後者則可改變水道。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “more abrupt”。abrupt 表示突然、急速發生。題目說 landslides can create waterfalls faster than erosion，對應原文 “Other more abrupt causes”。與前面靠水流逐步侵蝕形成瀑布的過程相比，landslides 屬於較突然的成因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有說所有 landslides 都一定形成瀑布，只說 can create waterfalls faster，語氣較保守，和原文 “causes of waterfalls” 及 “more abrupt” 一致。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Glaciers have produced the most waterfalls.”",
+      "translation": "冰川造成了最多瀑布。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 2。第一句說瀑布有很多可能成因，最後一句說冰川留下的depressions 仍可讓 feeder rivers 以瀑布形式流入。這段確實有 glaciers，但題目問的是 “most waterfalls”，需要數量比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Glaciers” 和 “most”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additionally, during past ice ages, glaciers scoured out many deep basins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，在過去的冰河時期，冰川沖刷出許多深盆地。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“These glaciers may have disappeared, but their feeder rivers can continue to flow as waterfalls into the remaining depressions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些冰川可能已消失，但它們的支流仍可繼續以瀑布形式流入留下的低陷地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 glaciers scoured out many deep basins，並能間接造成 waterfalls。題目說 glaciers have produced the most waterfalls。many 只表示很多；the most 要求和其他成因比較，表示冰川造成的數量最多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有比較 glaciers、rock type differences、earthquakes 和 landslides 各自造成多少瀑布。它只說 rock type differences 是 common cause，glaciers 也可造成許多深盆地。缺少「最多」這個比較證據，所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 most。學生看到 many 容易覺得答案是 TRUE，但 many 不等於 most。IELTS 很常用這種程度詞差異考細讀。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A tiered waterfall has the largest steps.”",
+      "translation": "tiered waterfall 擁有最大的石階。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 3。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously then, waterfalls come in a variety of shapes and sizes, as different as the local geology in which they are found, and this has resulted in an abundance of descriptive terms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，瀑布有各種形狀和大小，差異就像當地地質一樣多，因而產生大量描述詞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the falling water remains in contact with the rock face, it often widens and is called a ‘horsetail waterfall’, while if it does not touch the rock face at all, it is a ‘plunge waterfall’ — often the most picturesque.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果下落的水仍接觸岩壁，它通常會變寬，稱為 horsetail waterfall；如果完全不接觸岩壁，則稱為 plunge waterfall，通常最具畫面感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段是瀑布類型定義段，tiered waterfall 應在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “tiered waterfall” 和 “largest steps”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...a ‘cascade’ descends a series of rock steps. If these steps are very distinct, it is a ‘tiered waterfall’, and if each step is larger still, of approximately the same size, and with a significant pool of water at each base, it is known as a ‘multi-step waterfall’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cascade 是沿著一連串岩石階級下降的瀑布。如果這些階級非常分明，就是 tiered waterfall；如果每一級更大、大小大致相同，且每一級底部都有明顯水池，則稱為 multi-step waterfall。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "tiered waterfall 的特徵是 steps are very distinct，即階級清楚分明。largest steps 的概念出現在後一句：“if each step is larger still”，這描述的是 multi-step waterfall。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 multi-step waterfall 的 larger steps 放到 tiered waterfall 上。兩者都是 stepped 類型，但定義不同：tiered 重在 distinct；multi-step 重在 each step larger still、size similar、base pools significant。因此答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Niagara is a Grade Ten waterfall.”",
+      "translation": "Niagara 是十級瀑布。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 4。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regardless of such differences, all waterfalls have in common a vertical height and average flow of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不論這些差異如何，所有瀑布都共同具有垂直高度和平均水流量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This gives rise to rock shelters behind the falling water, which steadily become larger until the roof collapses, and the waterfall retreats significantly upstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這會在落水後方形成岩石遮蔽處，這些空間會逐漸變大，直到頂部倒塌，瀑布便會明顯向上游後退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段前半談 power scale，後半談 retreat。Question 31 問 grading，所以應看本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Niagara” 和 “Grade Ten”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These features, taken together, are a measure of the waterfall’s power, quantified using a ten-point logarithmic scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些特徵合起來可衡量瀑布的力量，並用十分制對數量表量化。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Giant falls, such as Niagara, are graded at the very top of this scale, and smaller falls, which may occur in town creeks, at the bottom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像 Niagara 這樣的巨型瀑布被評在這個量表的最高端，而可能出現在城鎮溪流中的小型瀑布則位於最低端。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “ten-point logarithmic scale”，即十分制量表；Niagara 被評為 “at the very top of this scale”。十分制量表最高端自然是 Grade Ten。題目把 “at the very top of this scale” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Grade Ten”。這裡雖然原文沒有逐字寫 “Grade Ten”，但推論距離很短：ten-point scale + very top = ten。答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "pebbles and grit",
+      "answerKey": "pebbles and grit",
+      "type": "Diagram Completion",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置：左圖寫著 “movement of 32 ______”，箭嘴指向水流下方被攪動的碎屑。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。第一句說常見成因是 rock type differences；最後一句說 glaciers 可留下 basins，使河流以瀑布形式流入。段落中間正好描述 common formation，所以 diagram 左圖應定位到 Paragraph 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖上字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖上有 “current”、“softer rock”、“movement of”。文章相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The water cuts into this, resulting in minor turbulence at the boundary, stirring up pebbles and grit from the riverbed, which increases the erosive capacity of the current.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水流切入較軟岩層，在邊界形成輕微湍流，攪動河床中的卵石和砂礫，增加水流的侵蝕能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 “movement of ______” 對應原文 “stirring up pebbles and grit”。被攪動、移動的物件是pebbles and grit。答案符合 NO MORE THAN THREE WORDS，所以填 pebbles and grit。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "resistant rock bed",
+      "answerKey": "resistant rock bed",
+      "type": "Diagram Completion",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置：左圖的 33 箭嘴指向上方較硬、較平整的岩層；圖中較軟部分已標示為 “softer rock”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍是 Paragraph 2。這段從 rock type differences 開始，正好解釋左圖上下岩層差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖上字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中已有 “softer rock”，所以空格 33 很可能是與 softer rock 相對的硬岩層。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When a river flows over a resistant rock bed, erosion is slow, but with the complex geological faulting of the Earth’s surface, softer patches of rock can be exposed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當河流流過抗侵蝕的岩床時，侵蝕速度較慢；但由於地球表面複雜的地質斷裂，較軟的岩石區可被暴露出來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中的上方岩層正是 resistant rock bed。它和下方 softer rock 形成對比，解釋為何水流在較軟位置切入，逐步產生落差。答案不超過三字，所以填 resistant rock bed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "retreat",
+      "answerKey": "retreat",
+      "type": "Diagram Completion",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置：右圖標題是 “34 ______ of Waterfalls”，下方畫出 plunge pool、upper lip eventually falls 和undercutting。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。第一句談瀑布高度和流量；最後一句直接說瀑布向上游後退："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the waterfall retreats significantly upstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "瀑布會明顯向上游後退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "右圖整體顯示瀑布邊緣逐漸被削弱、頂部倒塌、瀑布向後移，所以主題應是 retreat。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖上字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖上有 “Plunge pool forms”、“Upper lip eventually falls”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“An interesting consequence is that such falls are in the process of retreat…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個有趣的結果是，這類瀑布正處於後退過程中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "標題 “______ of Waterfalls” 需要名詞。原文名詞是 retreat。整個右圖描述的正是 waterfall retreat 的過程，所以答案是 retreat。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "eddies and whirlpools",
+      "answerKey": "eddies and whirlpools",
+      "type": "Diagram Completion",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置：右圖左側寫著 “continuous 35 ______”，箭嘴指向 plunge pool 內水流旋動、碎屑打磨的位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。這段中間解釋 plunge pool 如何形成，和圖中 “Plunge pool forms” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖上字定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖上有 continuous，文章沒有直接用 continuous，但有意思相近的 “never-ending”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the never-ending eddies and whirlpools, these pieces scour out a deep underwater basin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在不停旋動的 eddies and whirlpools 中，這些碎塊會沖刷出一個深的水下盆地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖上的 “continuous” 對應原文 “never-ending”；空格需要填被 continuous 形容的東西。原文是eddies and whirlpools，即渦流和旋渦。答案三字以內，所以填 eddies and whirlpools。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "undercutting",
+      "answerKey": "undercutting",
+      "type": "Diagram Completion",
+      "prompt": "Question 36",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖中位置：右圖右下方寫著 “36 ______ occurs.” 箭嘴指向落水後方、較軟岩層被掏空的位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 4。最後一句說 rock shelters 擴大、roof collapses、瀑布後退；這正好是右圖中的 upper lip eventually falls。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖上字定位"
+            },
+            {
+              "kind": "label",
+              "text": "圖中箭嘴指向 lower face。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the softer material at the lower face suffers undercutting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下方面層的較軟材料會受到底部掏蝕。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中句式是 “______ occurs”，需要一個名詞或動名詞。原文的答案詞是 undercutting，表示底部被水流掏空。這個動作會造成 rock shelters，最後 upper lip / roof collapses。答案是undercutting。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "geological features",
+      "answerKey": "geological features",
+      "type": "Short-answer Questions",
+      "prompt": "“What are gorges and rock formations examples of?”",
+      "translation": "gorges 和 rock formations 是甚麼的例子？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 5。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, to people at large, a waterfall seems fixed and forever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，對一般人而言，瀑布看似固定而永恆。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Victoria Falls is a prime example, with its lower reaches characterised by spectacular islands, gorges, and rock formations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Victoria Falls 是一個典型例子，其下游以壯觀的島嶼、峽谷和岩石構造為特色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談瀑布 retreat path 中可能出現的地形，題目中的 gorges and rock formations 正在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “gorges” 和 “rock formations”。往前讀可找到上位概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since this motion is towards higher elevations or through more hilly terrain, a host of geological features can lie in the waterfall’s retreating path.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於這種移動朝向較高海拔或更丘陵的地形，瀑布後退路徑上可以存在大量地質特徵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一句列出 Victoria Falls 的 lower reaches 有 islands、gorges、rock formations。這些都是前一句 “a host of geological features” 的例子。題目問 “examples of what”，答案需要上位名詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 geological features。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "Canada",
+      "answerKey": "Canada",
+      "type": "Short-answer Questions",
+      "prompt": "“Who has benefited from the erosion at Niagara Falls?”",
+      "translation": "誰從 Niagara Falls 的侵蝕／後退中受益？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 6。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This retreat occasionally causes problems, as can be seen with Niagara Falls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種後退有時會造成問題，Niagara Falls 就是一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For this reason, the exposed ridges of the falls have been extensively strengthened, and underwater barriers installed to divert the strongest river currents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，瀑布外露的脊狀岩層已被大幅加固，並安裝了水下屏障，以改變最強河流流向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談 Niagara retreat 的後果，包括邊界和侵蝕控制。Question 38 的 benefited 應對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“advanced at the expense of”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “erosion at Niagara Falls” 和 “benefited”。原文說：“Since the Niagara River marks the border of Canada and America, as agreed in 1819, the detectable retreat of these falls since that time technically means that the Canadian frontier has advanced at the expense of America…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Niagara River 按 1819 年協議標示加拿大和美國邊界，自那時以來瀑布可偵測的後退，從技術上說意味著加拿大邊境在美國受損的情況下向前推進。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“at the expense of America” 表示美國一方受損；“Canadian frontier has advanced” 表示加拿大一方在邊界上得利。題目問 who has benefited，最自然答案是 Canada。如果答案表要求更貼原文字眼，Canadian frontier 也可解釋為原文直接承受 “advanced” 的主體，但一般 short-answer題問 who 時，填 Canada 更順。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "underwater barriers",
+      "answerKey": "underwater barriers",
+      "type": "Short-answer Questions",
+      "prompt": "“What is used to control some of Niagara’s water movements?”",
+      "translation": "用甚麼控制 Niagara 某些水流移動？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 6。首句指出 Niagara retreat 造成問題；尾句直接提到控制最強河流currents 的方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “control”、“water movements” 和 “Niagara”。原文尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“For this reason, the exposed ridges of the falls have been extensively strengthened, and underwater barriers installed to divert the strongest river currents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，瀑布外露的脊狀岩層已被大幅加固，並安裝了水下屏障，以改變最強河流流向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “control some of Niagara’s water movements” 對應原文 “divert the strongest river currents”。用來做到這件事的是 underwater barriers。答案不超過兩字，所以填 underwater barriers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 exposed ridges。exposed ridges 被 strengthened，用來限制侵蝕；真正用來 divert currents 的是 underwater barriers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "unstable rock",
+      "answerKey": "unstable rock",
+      "type": "Short-answer Questions",
+      "prompt": "“On what geological parts of American Falls did the 1969 project focus?”",
+      "translation": "1969 年工程集中處理 American Falls 的哪些地質部分？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 7。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most ambitious erosion-control measure took place in 1969 on Niagara’s American Falls, whose retreat was nibbling away at American territory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有野心的侵蝕控制措施於 1969 年在 Niagara 的 American Falls 進行，因為該瀑布的後退正在一點一點侵蝕美國領土。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five months later, the temporary dam was destroyed with explosives, returning water to the falls with the inexorable erosion process considerably slowed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五個月後，臨時水壩被炸藥摧毀，水流重新回到瀑布，而不可避免的侵蝕過程已被大幅減慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段是 1969 project 的完整描述，所以 Question 40 直接定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “1969 project”、“American Falls” 和 “geological parts”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The then completely dry and exposed river bottom and cliff face allowed a team of US Army engineers to use bolts, cement and brackets to strengthen any unstable rock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時完全乾涸並外露的河床和崖面，使一隊美國陸軍工程師能夠使用螺栓、水泥和支架來加固任何不穩定岩石。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “On what geological parts ... did the project focus?” 這裡要看工程師實際 strengthen 的對象。river bottom and cliff face 是讓工程師能施工的外露位置；工程的處理對象是 “any unstable rock”。題目限制 NO MORE THAN TWO WORDS，答案正好是 unstable rock。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果學生填 river bottom 或 cliff face，問題在於它們是施工場地，不是加固目標。真正被 bolts、cement and brackets 處理的是 unstable rock。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Waterfalls.pdf",
+    "sha256": "e6975fab0de57cebf22bb1f81501106e7f6ddbeba8253f09f85742a64a968c22",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句定義 waterfalls 是河流或溪流流過垂直落差的位置；尾句說 Angel Falls 雖然位於委內瑞拉叢林深處、偏遠難到，仍成為該國頂級旅遊景點之一。只看首尾句，可以估計本段是全文導入：先說瀑布的基本定義，再用 Niagara、Victoria 和 Angel Falls 三個著名例子展示瀑布的旅遊吸引力、規模和地理位置。這段很適合定位 international boundaries、tourist attractions 和 famous falls 類題目。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說瀑布成因很多，其中一個常見原因是 rock type 的差異；尾句說冰川雖已消失，但 feeder rivers 仍可流入留下的 depressions，形成瀑布。只看首尾句，可以判斷本段是成因段：會解釋resistant rock、softer rock、erosion、turbulence、pebbles and grit 如何逐步形成瀑布，也會補充earthquakes、landslides 和 glaciers 等較突然或歷史性的成因。這段是 Questions 28、29 和diagram 32、33 的核心。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說瀑布因當地 geology 不同而有各種形狀和大小，並產生大量描述詞；尾句說水流完全不接觸岩壁時稱為 plunge waterfall，通常最具畫面感。只看首尾句，可以估計本段是分類段，會定義cataract、cascade、tiered waterfall、multi-step waterfall、horsetail waterfall 和 plunge waterfall。這段適合處理瀑布類型、step 大小、形狀差異等題目，特別是 Question 30。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說不論瀑布形狀如何不同，它們都有 vertical height 和 average flow of water；尾句說岩頂倒塌後，瀑布會明顯向上游後退。只看首尾句，可以判斷本段先講瀑布 power 的量度，再講大型瀑布常見的 plunge pool 和 retreat 過程。段中會出現 rubble、eddies and whirlpools、undercutting、rock shelters、roof collapses 等 diagram 關鍵詞。Questions 31、34、35、36 都主要來自這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說對一般人而言，瀑布看似固定而永恆；尾句說 Victoria Falls 下游以壯觀的 islands、gorges和 rock formations 為特色。只看首尾句，可以估計本段會修正「瀑布不動」這種直覺，說明erosion 雖慢，但強力瀑布在合適岩層上可每年後退超過一米。它也會說明瀑布後退路徑上可出現多種 geological features，因此 Question 37 應定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說瀑布後退有時會造成問題，Niagara Falls 就是例子；尾句說 exposed ridges 被加固， underwater barriers 被安裝以改變最強水流方向。只看首尾句，可以判斷本段講 Niagara retreat的政治和實際問題：邊界、基建、侵蝕控制和水流轉向。Question 38 問誰從 erosion 中受益， Question 39 問用甚麼控制水流，兩題都應在這段找。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說最有野心的侵蝕控制措施發生於 1969 年 Niagara’s American Falls，因其後退正在侵蝕美國領土；尾句說五個月後臨時水壩被炸毀，水流回到瀑布，侵蝕過程已被大幅減慢。只看首尾句，可以判斷本段是 1969 工程案例段：會描述如何 dammed river branch、令 Horseshoe Falls 吸收excess flow、露出 river bottom and cliff face，然後用 bolts、cement 和 brackets 加固 unstable rock。Question 40 來自本段。"
+      }
+    ]
+  }
+}

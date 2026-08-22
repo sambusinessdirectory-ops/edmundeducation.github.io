@@ -1,0 +1,2033 @@
+{
+  "id": "p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools",
+  "catalogueId": "p3-049",
+  "catalogueIds": [
+    "p3-049"
+  ],
+  "passage": 3,
+  "title": "Theory or Practice? —What is the point of research carried out by biz schools?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "A",
+    "A",
+    "B",
+    "D",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "C",
+    "D",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — to evaluate how the paper influences the field",
+      "answerKey": "C — to evaluate how the paper influences the field",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "在第二段中，AACSB 給出的建議是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： In the second paragraph, the recommendation given by AACSB is…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate, which first flared during the 1950s, was reignited in August, when AACSB International, the most widely recognised global accrediting agency for business schools, announced it would consider changing the way it evaluates research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場辯論最早在 1950 年代爆發；到了八月，AACSB International 宣布會考慮改變評估研究的方式，於是這場辯論再次被點燃。AACSB 是最廣受認可的全球商學院認證機構。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New criteria, such as average incomes, student placement in top firms and business collaborations, would now be considered just as important as academic publications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的評估標準，例如平均收入、學生進入頂尖公司的情況，以及商業合作，現在會被視為和學術出版一樣重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 2 主要講 AACSB 想改變 research evaluation。題目直接說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“second paragraph” 和 “recommendation”，所以目標段落非常明確。這題要找的不是整篇文章的總觀點，而是 AACSB 在第二段提出的具體改革方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：“recommendation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“AACSB”"
+            },
+            {
+              "kind": "quote",
+              "text": "“second paragraph”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph 2，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most controversial recommendation in AACSB’s draft report … is that the schools should be required to demonstrate the value of their faculties’ research not simply by listing its citations in journals, but by demonstrating the impact it has in the professional world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AACSB 草擬報告中最具爭議的建議，是學校應被要求展示其教師研究的價值；這不應只透過列出期刊引用來做到，還要展示研究在專業世界中的影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句真正控制答案的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“not simply by listing its citations in journals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不能只列出期刊引用。"
+            },
+            {
+              "kind": "quote",
+              "text": "“but by demonstrating the impact it has in the professional world”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "還要展示它在專業世界中的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "題目選項 C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“to evaluate how the paper influences the field”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “paper” 概括 research output；“influences the field” 對應 “impact … in the professional world”。雖然原文更準確地說 research 對 professional world 的 impact，不只是一篇 paper 對academic field 的引用影響，但在四個選項中，C 最貼近 AACSB 的新評估方向。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. to focus only on listing citations of research papers.這與原文相反。原文特別說 “not simply by listing its citations”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. to consider the quantity of academic publications.原文要加入 professional impact、income、student placement 和 collaborations，不是只看publication quantity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. to evaluate how the paper influences the field.正確。它概括了 “demonstrating the impact it has in the professional world”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. to maintain the traditional academic models.原文說 AACSB 考慮 changing evaluation，並且引用研究批評 traditional academic models，所以 D 不合方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 27 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — to make full use of faculty members’ strengths",
+      "answerKey": "A — to make full use of faculty members’ strengths",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "AACSB 為甚麼提出這個建議？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Why does AACSB put forward the recommendation?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“AACSB justifies its stance by saying that it wants schools and faculty to play to their strengths, whether those strengths lie in pedagogy, research with practical applications or scholarly endeavour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AACSB 為自己的立場辯護，說它希望學校和教師能發揮各自強項；這些強項可以在教學法、具實務應用的研究，或純學術探究方面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So it seems legitimate to ask for what purpose it is undertaken.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，詢問這些研究到底為了甚麼目的而進行，看來是合理的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 在解釋 AACSB 的理由。題目問 “Why”，所以要找原因句，而第一句已經直接用 “justifies its stance by saying…” 提供理據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“AACSB”"
+            },
+            {
+              "kind": "quote",
+              "text": "“put forward the recommendation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Why”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最直接的定位句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“AACSB justifies its stance by saying that it wants schools and faculty to play to their strengths…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “justifies” 就是題目 “Why” 的答案訊號。它告訴我們 AACSB 如何解釋自己的建議。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文重點在："
+            },
+            {
+              "kind": "quote",
+              "text": "“schools and faculty to play to their strengths”"
+            },
+            {
+              "kind": "quote",
+              "text": "“play to one’s strengths” 是固定表達，意思是發揮自身強項、根據自己的優勢行事。AACSB 並非要求所有商學院只走同一條學術出版路線，而是希望不同學校和教師根據自己的優勢定位：有些強於 teaching，有些強於 practical applications，有些強於 scholarly endeavour。選項 A：“to make full use of faculty members’ strengths”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應 “faculty to play to their strengths”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. to make full use of faculty members’ strengths.正確。這是原文第一句直接提供的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. to reinforce universities’ pyramid structure. Paragraph 3 提到 traditional pyramid structure，但那是描述傳統學術體系，不是 AACSB 的改革目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. to push professors to publish competitive papers.這是傳統學術制度對教授的要求，與 AACSB 想加入 professional impact 的改革方向不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. to reduce costs of research in universities.原文提到 research is expensive 和 $320m，但 AACSB 的理由不是單純省錢，而是要求研究目的與學校強項、教育使命相配合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — to characterise research as irrelevant to company performance",
+      "answerKey": "A — to characterise research as irrelevant to company performance",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "作者為甚麼提到《Strategy & Leadership》這本期刊？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Why does the author mention the journal Strategy & Leadership?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of the trouble is that the journals labour under a similar ethos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "部分問題在於，這些期刊也受類似的價值觀支配。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Universities that prepare students for our changing future have little choice but to adapt to new trends and standards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些要幫學生準備面對未來變化的大學，幾乎只能適應新的趨勢和標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 7 是結尾批評：academic journals 的運作方式和真實職場有距離，而大學需要適應新標準。題目問 Strategy & Leadership，應該在本段中間找引用目的。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Strategy & Leadership”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“A paper in a 2006 issue of Strategy & Leadership commented that ‘research is not designed with managers’ needs in mind, nor is it communicated in the journals they read. For the most part, it has become a self-referential closed system irrelevant to corporate performance.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Strategy & Leadership》2006 年某一期中的一篇文章評論說：「研究設計時沒有把管理者的需要放在心上，也沒有刊登在管理者會閱讀的期刊中。大部分情況下，它已變成一個自我參照的封閉系統，與企業表現無關。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者引用這篇文章，是為了支持前文對 academic research 的批評："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the research is highly quantitative, hypothesis-driven and esoteric.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大部分研究高度量化、由假設驅動，而且艱深難懂。"
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, it is almost universally unread by real-world managers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果，真實世界中的管理者幾乎普遍不讀它。"
+            },
+            {
+              "kind": "label",
+              "text": "Strategy & Leadership 的引用進一步把批評說得更強："
+            },
+            {
+              "kind": "quote",
+              "text": "“irrelevant to corporate performance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "與企業表現無關。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“to characterise research as irrelevant to company performance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應 “irrelevant to corporate performance”。“company performance” 是 “corporate performance” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. to characterise research as irrelevant to company performance.正確。這是引用的核心目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. to suggest that managers don’t read research papers.原文確實說 managers 不讀，但 Strategy & Leadership 引文的總結點更集中在 “irrelevant to corporate performance”。B 只抓到其中一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. to describe students’ expectations for universities.學生期待在前段和結尾有提及，但 Strategy & Leadership 引文主要針對 research 與 managers/ corporate performance 的距離。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. to exemplify high-quality research papers.作者引用它不是為了讚揚高品質研究，而是借它批評研究脫離管理實務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B, D",
+      "answerKey": "B, D",
+      "type": "Choose TWO letters",
+      "prompt": "Questions 30–31",
+      "translation": "以下哪兩項和 Jeffrey Pfeffer 及 Christina Fong 的觀點一致？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Which TWO statements are consistent with Jeffrey Pfeffer and Christina Fong’s views?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類題要特別小心：兩個答案都必須各自有原文支援，不能用一個模糊句子一次包辦兩個答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate, which first flared during the 1950s, was reignited in August, when AACSB International, the most widely recognised global accrediting agency for business schools, announced it would consider changing the way it evaluates research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場辯論最早在 1950 年代爆發；到了八月，AACSB International 宣布會考慮改變研究評估方式，於是這場辯論再次被點燃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New criteria, such as average incomes, student placement in top firms and business collaborations, would now be considered just as important as academic publications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的標準，例如平均收入、學生進入頂尖公司的情況和商業合作，現在會被視為和學術出版一樣重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講 AACSB 改革背景。中間提到 Pfeffer 和 Fong 的 2002 study，因此這兩題要在本段中段定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jeffrey Pfeffer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Christina Fong”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The news followed rather damning criticism in a 2002 study by Jeffrey Pfeffer, a Stanford professor, and Christina Fong of Washington University, which questioned whether business education in its current guise was sustainable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這消息出現在一項相當嚴厲的批評之後；該批評來自 Stanford 教授 Jeffrey Pfeffer 和Washington University 的 Christina Fong 在 2002 年所做的研究，該研究質疑目前形式的商業教育是否可持續。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study found that traditional academic models were not adequately preparing students for the kinds of careers they faced today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該研究發現，傳統學術模式未能充分幫學生準備好面對今日所需的職業。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀兩個答案"
+            },
+            {
+              "kind": "label",
+              "text": "第一個重點："
+            },
+            {
+              "kind": "quote",
+              "text": "“questioned whether business education in its current guise was sustainable”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示他們對現行商業教育有很強的批評，認為它目前的形式有問題，甚至可持續性都值得懷疑。選項 B “Business education is not doing its job well” 是合理概括。"
+            },
+            {
+              "kind": "label",
+              "text": "第二個重點："
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional academic models were not adequately preparing students for the kinds of careers they faced today”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接對應選項 D “Students are ill-prepared by universities for their careers.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not adequately preparing students” = students are ill-prepared“careers they faced today” = their careers選項逐項分析A. Students should pay less to attend universities.原文沒有說學費應降低。文章第一段提到 students pay tuition，但 Pfeffer 和 Fong 的研究沒有提出減學費。 B. Business education is not doing its job well.正確。它概括 “damning criticism” 和 “questioned whether business education … was sustainable”。 C. Professors should not focus on writing papers.文章整體討論教授發表論文的問題，但 Pfeffer 和 Fong 這兩人的觀點沒有直接說 professors should not focus on papers。這是把後文 AACSB 的改革方向過度套入他們的研究。 D. Students are ill-prepared by universities for their careers.正確。它直接對應 “not adequately preparing students for the kinds of careers they faced today”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E. A recognised accrediting agency can evaluate research effectively. AACSB 是 recognised accrediting agency，但這不是 Pfeffer 和 Fong 的觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30–31 是 B 和 D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        30,
+        31
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The debate about the usefulness of academic research for business practices is a recent one.",
+      "translation": "關於 academic research 對 business practices 是否有用的辯論，是近年才出現的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate, which first flared during the 1950s, was reignited in August, when AACSB International, the most widely recognised global accrediting agency for business schools, announced it would consider changing the way it evaluates research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場辯論最早在 1950 年代爆發；到了八月，AACSB International 宣布會考慮改變研究評估方式，於是這場辯論再次被點燃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New criteria, such as average incomes, student placement in top firms and business collaborations, would now be considered just as important as academic publications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的評估標準，例如平均收入、學生進入頂尖公司的情況和商業合作，現在會被視為和學術出版一樣重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句已經能看到時間線：這場 debate 最早在 1950s 已經 flared，近年只是 reignited。題目說 recent one，時間關係要特別小心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“debate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recent one”"
+            },
+            {
+              "kind": "quote",
+              "text": "“usefulness of academic research for business practices”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一段最後一句先引出："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether academic research produces anything useful to business practice … are questions that can provoke vigorous arguments on campus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學術研究是否能產出對商業實踐有用的東西，會在校園中引起激烈爭論。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 開頭接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate, which first flared during the 1950s…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場辯論最早在 1950 年代爆發……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題有兩部分： 1. debate 是關於 academic research 對 business practice 是否有用； 2. 這場 debate 是 recent one。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援第一部分，因為第一段明確說這類問題會 provoke vigorous arguments。可是第二部分和原文時間資料相衝：原文說 “first flared during the 1950s”，即最早在 1950 年代已經爆發。後來"
+            },
+            {
+              "kind": "quote",
+              "text": "“reignited in August” 表示近期再次被點燃，而非近期才開始。判斷時要留意：● “first flared during the 1950s” = 起源很早；● “reignited” = 重新被點燃；● “recent one” = 近期才出現的辯論。原文給出相反時間線，所以答案是 FALSE。中伏位是 “reignited in August”。學生可能看到 August，就以為這是近期新辯論。其實 “reignited”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本身包含「舊問題再次燃起」的意思，真正控制答案的是 “first flared during the 1950s”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "AACSB’s draft report was not reviewed externally.",
+      "translation": "AACSB 的草擬報告沒有被外部人士審閱或評論。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The debate, which first flared during the 1950s, was reignited in August, when AACSB International, the most widely recognised global accrediting agency for business schools, announced it would consider changing the way it evaluates research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場辯論最早在 1950 年代爆發；到了八月，AACSB International 宣布會考慮改變研究評估方式，於是這場辯論再次被點燃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New criteria, such as average incomes, student placement in top firms and business collaborations, would now be considered just as important as academic publications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的評估標準，例如平均收入、學生進入頂尖公司的情況和商業合作，現在會被視為和學術出版一樣重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講 AACSB 的 draft report 和它的 controversial recommendation。題目中的 “draft report” 是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“AACSB’s draft report”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reviewed externally”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most controversial recommendation in AACSB’s draft report (which was sent round to administrators for their comment) is that…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AACSB 草擬報告中最具爭議的建議是……而這份草擬報告已被傳送給 administrators，讓他們提出意見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“was not reviewed externally”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“was sent round to administrators for their comment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示草擬報告確實被送給其他相關人士看，並邀請他們給意見。這已經和 “not reviewed” 的說法相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡要特別留意 “for their comment”。它不是單純傳閱，而是請對方評論。題目用 “reviewed externally” 概括「被外部或相關行政人員審閱、給意見」這個過程。雖然原文沒有直接用externally，但 “sent round to administrators for their comment” 足以反駁「沒有被審閱或評論」這個命題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：● AACSB draft report● 沒有外部 review/comment原文命題：● AACSB draft report● sent round to administrators● for their comment兩者不相容，所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “administrators” 的身份。即使不確定他們是否完全外部人士，題目更核心的說法是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“not reviewed”。原文明確出現 “for their comment”，已經足以推翻「沒有被評論」的方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Business schools in the US spend more than 320 million dollars yearly on research.",
+      "translation": "美國商學院每年在研究上花費超過 3.2 億美元。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“AACSB justifies its stance by saying that it wants schools and faculty to play to their strengths, whether those strengths lie in pedagogy, research with practical applications or scholarly endeavour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AACSB 為自己的立場辯護，說它希望學校和教師能發揮各自強項；這些強項可以在教學法、具實務應用的研究，或純學術探究方面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So it seems legitimate to ask for what purpose it is undertaken.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，詢問這些研究到底為了甚麼目的而進行，看來是合理的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段在解釋研究的目的和成本。題目有數字 “320 million dollars”，非常容易定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“US”"
+            },
+            {
+              "kind": "quote",
+              "text": "“320 million dollars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“yearly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“research”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“And research of any kind is expensive—AACSB points out that business schools in America alone spend more than $320m a year on it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何種類的研究都很昂貴——AACSB 指出，單是美國商學院每年就在研究上花費超過 3.2 億美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目和原文幾乎逐字對應：● Business schools in the US= business schools in America alone● spend more than 320 million dollars= spend more than $320m● yearly= a year● on research= on it；這裡 it 指前面的 research要留意代名詞 “it”。原文前半句說 “research of any kind is expensive”，所以後面的 “on it” 指research。代名詞指涉清楚後，題目命題完全成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Many universities pursue professional outputs.",
+      "translation": "許多大學追求 professional outputs。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a school chose to specialise in professional outputs rather than academic outputs, it could redirect such a large sum of money into more fruitful programmes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一所學校選擇專注 professional outputs，而非 academic outputs，它就可以把這麼大筆資金轉到更有成果的課程上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The AACSB asks universities to explain why research is the most critical component of traditional education.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AACSB 要求大學解釋，為甚麼 research 是傳統教育中最關鍵的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 4 提出一種假設方案：如果學校選擇 professional outputs，就能重新分配資源。題目說 “Many universities pursue…”，這涉及現實中的數量和實際做法，需要特別檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many universities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pursue professional outputs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a school chose to specialise in professional outputs rather than academic outputs…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一所學校選擇專注 professional outputs，而非 academic outputs……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的第一個字 “If” 非常重要。它表示假設情況，而非文章已確認的事實。原文是在說：如果某所學校選擇走 professional outputs 的方向，它可以如何重新分配資金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它沒有說：● many universities 已經這樣做；● most universities 正在追求 professional outputs；● professional outputs 已成為大學主流；● 有多少大學選擇這條路。"
+            },
+            {
+              "kind": "label",
+              "text": "文章後面只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though many universities resisted the report…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然許多大學抗拒這份報告……這個 “many universities” 說的是抗拒報告，不是追求 professional outputs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，原文提供了 professional outputs 的假設可能性，但沒有提供 “many universities pursue”這個現實情況。沒有明確相反資料說大學沒有追求 professional outputs，所以不能選 FALSE。資料缺少，答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “If a school chose…”。IELTS Reading 中，假設句不能直接當成事實句。題目把hypothetical option 改成 many universities’ actual behaviour，這一步缺少文本證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "A greater number of publications benefits professors and students alike.",
+      "translation": "更多 publications 對教授和學生同樣有利。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5–6 Paragraph 5 第一、最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one level, the question is simple to answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，這個問題很容易回答。"
+            },
+            {
+              "kind": "quote",
+              "text": "“For professors, the mantra is often ‘publish or perish’. Their careers depend on being seen in the right journals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對教授而言，常見信條是「發表，否則消亡」。他們的職業發展取決於能否出現在正確期刊中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一、最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But at a certain point, one has to wonder whether this research is being done for the benefit of the university or for the students the university aims to teach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但到了某個階段，人們必須思考，這些研究到底是為大學利益服務，還是為大學想教育的學生服務。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Students seeking to enter careers outside academia find this cycle frustrating, and often see their professors as being part of the ‘Ivory Tower’ of academia, operating in a self-contained community that has little influence on the outside world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "希望進入學術界以外職業的學生覺得這個循環令人沮喪，並常把教授視為學術「象牙塔」的一部分，運作於一個自我封閉、對外部世界影響很小的群體中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“greater number of publications”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits professors and students alike”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 有 professors 的利益："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research is also about cementing schools’ and professors’ reputations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究也關乎鞏固學校和教授的聲譽。"
+            },
+            {
+              "kind": "quote",
+              "text": "“For professors, the mantra is often ‘publish or perish’. Their careers depend on being seen in the right journals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對教授而言，常見信條是「發表，否則消亡」。他們的職業發展取決於能否出現在正確期刊中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 轉向學生："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students seeking to enter careers outside academia find this cycle frustrating…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想進入學術界以外職業的學生覺得這個循環令人沮喪。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “benefits professors and students alike”，意思是教授和學生同樣受益。原文的方向更複雜：教授方面： publications 能鞏固 reputations，也關乎 careers。這支持教授受益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "學校方面： more publications attract funding，對大學也可能有利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生方面： Paragraph 6 明確說 students outside academia find this cycle frustrating。這與 “benefits students” 衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“More publications will attract greater funding, which will in turn be spent on better publications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更多出版會吸引更多資金，而這些資金又會被花在更好的出版上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這形成一個自我循環，學生覺得它脫離職業需要。題目把 benefits 延伸到 students alike，但原文說學生感到 frustrated，並且覺得教授處於 Ivory Tower。這是明確反方向資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — their jobs depend on it",
+      "answerKey": "C — their jobs depend on it",
+      "type": "Sentence Endings",
+      "prompt": "Most professors support academic research because their jobs depend on it.",
+      "translation": "大多數教授支持學術研究，因為他們的工作或職業發展取決於它。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one level, the question is simple to answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，這個問題很容易回答。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For professors, the mantra is often ‘publish or perish’. Their careers depend on being seen in the right journals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對教授而言，常見信條是「發表，否則消亡」。他們的職業發展取決於能否出現在正確期刊中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已可看到 professors 支持 academic research 的直接原因：career depends on publication。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“professors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“support academic research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For professors, the mantra is often ‘publish or perish’. Their careers depend on being seen in the right journals.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“publish or perish” 是學術界常見說法，意思是教授必須不斷發表研究，否則職業發展會受到威脅。下一句直接說：“Their careers depend on being seen in the right journals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “their jobs depend on it” 是對 “their careers depend on…” 的概括改寫。這裡的 “it” 指academic research / publication。雖然原文用 “careers” 而非 “jobs”，意思非常接近：工作前途、升遷、職業生存都和發表研究掛鉤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項不合： A 講 society progresses，對應 Question 39。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 講 school rankings and government funds，對應 schools。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 講 students into top business firms，較接近 AACSB 的 professional criteria，不是教授支持研究的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "D — they care about their school rankings and government funds",
+      "answerKey": "D — they care about their school rankings and government funds",
+      "type": "Sentence Endings",
+      "prompt": "Schools support academic research because they care about their school rankings and government funds.",
+      "translation": "學校支持學術研究，因為它們重視學校聲譽／排名，以及政府資金。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one level, the question is simple to answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，這個問題很容易回答。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For professors, the mantra is often ‘publish or perish’. Their careers depend on being seen in the right journals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對教授而言，常見信條是「發表，否則消亡」。他們的職業發展取決於能否出現在正確期刊中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段前半談 research 對 knowledge 和 society 的價值，後半談 research publications 的 practical uses，其中包括學校聲譽和 funding。題目主體是 Schools，所以要看 “Schools gain…” 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Schools”"
+            },
+            {
+              "kind": "quote",
+              "text": "“support academic research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research is also about cementing schools’ and professors’ reputations. Schools gain kudos from their faculties’ publication records—which journals publish their research, and how often. In some cases, such as with government-funded schools in Britain, it can affect how much money they receive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究也關乎鞏固學校和教授的聲譽。學校會從教師的出版紀錄中獲得榮譽，具體包括研究刊登在哪些期刊，以及刊登頻率。在某些情況下，例如英國由政府資助的學校，這還會影響它們獲得多少資金。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩個理由： 1. reputations / kudos學校透過 faculty publications 增加聲譽、名望。選項 D 的 “school rankings” 雖然不是原文字眼，但可概括學校聲譽和被外界評價的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. government funds原文說 government-funded schools in Britain 的資金可能受影響，對應選項 D 的"
+            },
+            {
+              "kind": "quote",
+              "text": "“government funds”。接回題幹後：“Schools support academic research because they care about their school rankings and government funds.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與原文意思吻合：學校支持 academic research，不只因追求知識，也因 publication records影響聲譽和資金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — it progresses as we learn innovative ways of doing things",
+      "answerKey": "A — it progresses as we learn innovative ways of doing things",
+      "type": "Sentence Endings",
+      "prompt": "Our society needs academic research because it progresses as we learn innovative ways of doing things.",
+      "translation": "社會需要學術研究，因為當我們學會用新方法做事時，社會就會進步。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On one level, the question is simple to answer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在某個層面上，這個問題很容易回答。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For professors, the mantra is often ‘publish or perish’. Their careers depend on being seen in the right journals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對教授而言，常見信條是「發表，否則消亡」。他們的職業發展取決於能否出現在正確期刊中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先回答 academic research 為何重要，再談其聲譽和職業作用。題目主體是 “Our society”，所以要找 society 相關句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our society”"
+            },
+            {
+              "kind": "quote",
+              "text": "“needs academic research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our society progresses because we learn how to do things in new ways, a process that depends heavily on academic research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的社會之所以進步，是因為我們學會用新的方式做事，而這個過程在很大程度上依賴學術研究。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的邏輯非常直接：● Our society progresses社會會進步；● because we learn how to do things in new ways因為我們學會用新的方式做事；● a process that depends heavily on academic research這個過程高度依賴 academic research。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“it progresses as we learn innovative ways of doing things”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中：● it progresses = Our society progresses● innovative ways = new ways● doing things = do things所以 A 完整接上題幹。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： B 講 trends and standards changing，對應 Question 40。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 講 professors’ jobs，對應 Question 37。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 講 school rankings and funds，對應 Question 38。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 講 top business firms，屬於 AACSB 新標準的一部分，但不是 society needs research 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — the trends and standards are changing",
+      "answerKey": "B — the trends and standards are changing",
+      "type": "Sentence Endings",
+      "prompt": "Universities resisting the AACSB should change because the trends and standards are changing.",
+      "translation": "那些抗拒 AACSB 的大學應該改變，因為趨勢和標準正在改變。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of the trouble is that the journals labour under a similar ethos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "部分問題在於，這些期刊也受類似的價值觀支配。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Universities that prepare students for our changing future have little choice but to adapt to new trends and standards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些要幫學生準備面對變化中未來的大學，幾乎只能適應新的趨勢和標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目提到 “Universities resisting the AACSB”，這和 Paragraph 7 最後兩句直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Universities resisting the AACSB”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should change”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though many universities resisted the report, today’s world continues to change. Universities that prepare students for our changing future have little choice but to adapt to new trends and standards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然許多大學抗拒這份報告，今天的世界仍然持續改變。那些要幫學生準備面對變化中未來的大學，幾乎只能適應新的趨勢和標準。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題幹說 “Universities resisting the AACSB should change because…”。原文給出完整因果鏈：● many universities resisted the report很多大學抗拒報告；● today’s world continues to change世界持續改變；● have little choice but to adapt幾乎只能適應；● new trends and standards新趨勢和新標準。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“the trends and standards are changing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正好概括最後一句的 “adapt to new trends and standards”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A 是 society 和 research 的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 是 professors 的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 是 schools 支持 research 的聲譽和資金理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 只涉及 student placement in top firms，是 AACSB 新 criteria 的例子之一，不能概括大學為何必須改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. C 28. A 29. A 30. B 31. D 32. FALSE 33. FALSE 34. TRUE 35. NOT GIVEN 36. FALSE 37. C 38. D 39. A 40. B"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Theory or Practice_ —What is the point of research carried out by biz schools_.pdf",
+    "sha256": "51a5169a5173270b9c8bb690bdc50ae35f55af488cf3ed70615a6221049c1038",
+    "pageCount": 28
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說學生上大學和其他學術機構，是為了準備自己的未來；尾句說商學院研究是否對商業實踐有用，以及商學院是否有責任做這類研究，會在校園中引起激烈爭論。只看首尾句，可以先看到全文核心矛盾：大學一方面要做 academic research，另一方面也要幫學生準備 real world careers。這段負責引入「理論研究 vs 實務訓練」的主題。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說這場辯論最早在 1950s 爆發，最近因 AACSB 考慮改變研究評估方式而再次被點燃；尾句說平均收入、學生進入頂尖公司的情況和商業合作等新標準，會被視為和 academic publications一樣重要。只看首尾句，可見本段介紹 AACSB 的改革建議：研究價值不能只靠期刊引用衡量，也要看它在 professional world 的影響。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 AACSB 為自己的立場辯護，表示希望學校和教師發揮各自強項；尾句說美國商學院每年花超過 3.2 億美元做研究，因此詢問研究目的似乎合理。只看首尾句，可估計本段會解釋 AACSB的理據：不同學校可以重視 teaching、practical research 或 scholarly endeavour，但昂貴研究必須說明其用途。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說如果學校選擇專注 professional outputs 而非 academic outputs，就可把大筆資金轉到更有成果的課程上；尾句說 AACSB 要求大學解釋為何 research 是傳統教育中最關鍵的部分。只看首尾句，可見本段提供替代方案：與其把錢全投向高階研究，也可投資 career centre、職業技能訓練和業界人士授課。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說在某個層面上，這個問題很容易回答；尾句說教授常面對 “publish or perish”，職業發展取決於能否出現在正確期刊。只看首尾句，可見本段為 academic research 辯護，同時指出另一面：研究能擴展知識、推動社會進步，也能建立學校和教授聲譽，影響資金和教授 career prospects。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說到某個階段，人們必須思考研究到底是為大學利益服務，還是為學生服務；尾句說想進入academia 以外職業的學生，常覺得這個出版循環令人沮喪，並視教授身處 “Ivory Tower”。只看首尾句，可見本段轉向批評：更多 publications 可能帶來更多 funding 和聲譽，但學生未必直接受益，尤其是希望進入職場的人。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說部分問題在於 journals 也受類似 ethos 支配；尾句說雖然很多大學抗拒這份報告，世界仍在改變，準備學生面向未來的大學幾乎只能適應新趨勢和新標準。只看首尾句，可見結尾指出學術期刊研究常高度量化、艱深、與管理實務脫節；AACSB 認為高等教育若要面向未來，就要與professional world 重新連接。"
+      }
+    ]
+  }
+}

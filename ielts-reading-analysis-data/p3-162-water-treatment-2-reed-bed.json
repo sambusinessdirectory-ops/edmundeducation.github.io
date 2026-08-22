@@ -1,0 +1,1190 @@
+{
+  "id": "p3-162-water-treatment-2-reed-bed",
+  "catalogueId": "p3-162",
+  "catalogueIds": [
+    "p3-162"
+  ],
+  "passage": 3,
+  "title": "Water Treatment 2: Reed Bed",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "sludge",
+    "sand",
+    "gravel",
+    "H",
+    "F",
+    "A",
+    "B",
+    "D",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The reed bed system is a conventional method for water treatment in urban areas.”",
+      "translation": "蘆葦床系統是城市地區污水處理的傳統方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有三個核心元素：reed bed system、conventional method、urban areas。要選 TRUE，原文必須說蘆葦床是城市傳統污水處理方法；要選 FALSE，原文需要給出相反或不相容的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In recent years, it has been shown that plants—or, more accurately, their roots—play a crucial part in purifying dirty water before it enters seas and rivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年研究顯示，植物，或者更準確地說植物根部，在污水進入海洋和河流之前，對淨化污水有關鍵作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The conventional mechanism of water purification used in big cities where there are large volumes of water to be purified is inappropriate in rural areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大城市用來處理大量污水的傳統淨水機制，並不適合鄉郊地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能是介紹天然根系淨水，並把城市傳統處理方法和鄉郊替代方案分開。題目有 conventional 和 urban areas，所以 Paragraph 1 是最合理的定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “conventional method” 和 “urban areas”。原文對應 “conventional mechanism” 和 “big cities”。另外，題目的 “reed bed system” 對應前文的 “subsurface flow wetlands (SSFW)” 和 “natural way of water purification”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nowadays subsurface flow wetlands (SSFW) are a common alternative in Europe for the treatment of wastewater in rural areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，地下流濕地系統在歐洲是鄉郊地區污水處理的一種常見替代方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說 SSFW 是 rural areas 的 common alternative。下一句又說 big cities 使用conventional mechanism，但這個 conventional mechanism 在 rural areas 不合適。題目把 reed bed system 說成 urban areas 的 conventional method，剛好和原文結構不符。原文中的conventional mechanism 指大城市的大型傳統處理方式；reed bed / SSFW 被放在 rural areas 的alternative 位置。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "urban areas = big cities conventional method = conventional mechanism reed bed system = SSFW / natural wetland treatment題目將兩個不同概念合併：城市的 conventional mechanism 和鄉郊的 SSFW alternative。文章方向和題目方向相衝，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Processes in the reed roots help break down pollutants.”",
+      "translation": "蘆葦根部中的過程有助分解污染物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否支持 “reed roots + processes + break down pollutants” 這條命題。要留意題目中的 “break down” 未必原字出現，可能會改寫成 degrade 或 remove。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The common reed has the ability to transfer oxygen from its leaves, down through its stem and rhizomes, and out via its root system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通蘆葦能把氧氣從葉片向下輸送，經過莖和根莖，再經由根系釋出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These systems are so effective because, within their root zones, natural biological, physical and chemical processes interact with one another to degrade or remove a good range of pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些系統之所以有效，是因為在根區之內，自然的生物、物理和化學過程互相作用，從而降解或移除多種污染物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 2 是講蘆葦根系的淨水原理。第一句說氧氣如何到達根系；最後一句直接提到 root zones、processes 和 pollutants，所以這段高度吻合題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “reed roots”、“processes”、“break down pollutants”。原文中最直接的對應是 “root zones”、“natural biological, physical and chemical processes” 和 “degrade or remove pollutants”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“within their root zones, natural biological, physical and chemical processes interact with one another to degrade or remove a good range of pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在它們的根區之內，自然的生物、物理和化學過程互相作用，降解或移除多種污染物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “help break down pollutants”。原文的 “degrade” 就是分解、降解；“remove” 是移除。題目沒有說只有一種過程，也沒有說所有污染物都能處理；原文說 “a good range of pollutants”，範圍上也吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "processes in the reed roots = processes within their root zones break down = degrade pollutants = pollutants題目意思和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Escherichia coli is the most difficult bacterium to eliminate.”",
+      "translation": "大腸桿菌是最難消除的細菌。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心不只是 Escherichia coli 有沒有出現，還要看原文有沒有比較 “most difficult”。“most”是最高級，要求文章提供難度排名或比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dirty water from households, farms and factories consumes a lot of oxygen in the water, which will lead to the death of aquatic creatures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自家庭、農場和工廠的污水會消耗水中大量氧氣，這會導致水生生物死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their remains foul the bottom of the pool.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們的殘骸會弄污池底。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 3 講污水對水生環境的破壞，以及某些水生植物和 algae 的淨水或污染影響。題目提到 Escherichia coli，這是非常強的專有名詞定位詞，所以要在本段中找細菌例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“They remove excess nutrients from the water as well as oil and bacteria such as Escherichia coli and Salmonella.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們能從水中移除過量養分，也能移除油污和細菌，例如大腸桿菌和沙門氏菌。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只告訴我們：bulrushes 和 rushes 能移除某些細菌，包括 Escherichia coli 和 Salmonella。原文沒有比較 Escherichia coli 和 Salmonella 哪一種更難移除，也沒有說 Escherichia coli 是所有bacteria 中最難消除的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了 “most difficult” 這個比較。原文只提供 “such as Escherichia coli and Salmonella” 作例子。例子不等於排名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有 Escherichia coli，但缺少 difficulty comparison。沒有比較資料時，不能選 TRUE；原文也沒有說 Escherichia coli 容易消除，所以不能選 FALSE。答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "sludge",
+      "answerKey": "sludge",
+      "type": "Diagram Completion",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Rhizome zone — 31 ______ as a substrate"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A vertical flow (downflow) reed bed is a sealed, gravel-filled trench with reeds growing in it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "垂直流，也就是下流式蘆葦床，是一條密封、填滿碎石、並長有蘆葦的溝槽。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In vertical flow reed beds, the wastewater is applied to the top of the reed bed, flows down through a rhizome zone with sludge as a substrate, then through a root zone with sand as a substrate, followed by a layer of gravel for drainage, and is collected in an underdrainage system of large stones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在垂直流蘆葦床中，污水從蘆葦床頂部加入，向下流經以污泥作基質的根莖區，再經過以沙作基質的根區，然後經過用於排水的一層碎石，最後被收集到由大石組成的地下排水系統中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞是 “Rhizome zone” 和 “substrate”。原文直接有 “a rhizome zone with sludge as a substrate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“with sludge as a substrate” 的意思是「以污泥作基質」。空格後已經有 “as a substrate”，所以只需填材料名詞。答案是 sludge，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "sand",
+      "answerKey": "sand",
+      "type": "Diagram Completion",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Root zone — 32 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 7，因為本題圖表描述的是同一個 vertical-flow reed bed 的不同層次。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 vertical flow reed bed 是 sealed, gravel-filled trench。最後一句按順序列出 rhizome zone、root zone、gravel drainage layer 和 underdrainage system。圖表的 Root zone 就對應這個順序中的第二層。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Root zone”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“then through a root zone with sand as a substrate”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後經過以沙作基質的根區。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要填 Root zone 對應的材料。原文直接說 root zone 的 substrate 是 sand。答案只需填 sand。若填 “sand as a substrate” 會超過三個詞，而且圖表要求的是材料，不需要整個介詞短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "gravel",
+      "answerKey": "gravel",
+      "type": "Diagram Completion",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Drainage layer — 33 ______ for drainage"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。這段最後一句是由上至下的結構描述，正好對應 diagram 的三層： rhizome zone、root zone、drainage layer。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Drainage layer” 和 “for drainage”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“followed by a layer of gravel for drainage”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著是一層用於排水的碎石。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格後已有 “for drainage”，所以答案應該是材料 “gravel”。注意不要填 “large stones”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“large stones” 出現在下一個部分：underdrainage system，不是圖表中的 drainage layer。答案是gravel。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "H — it can deal with more heavily polluted water",
+      "answerKey": "H — it can deal with more heavily polluted water",
+      "type": "Matching Advantages",
+      "prompt": "“The advantage of the downflow system is 34 ______”",
+      "translation": "下流式系統的優點是 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vertical flow reed bed systems are much more effective than horizontal flow reed beds not only in reducing biochemical oxygen demand (BOD) and suspended solids (SS) levels but also in reducing ammonia levels and eliminating smells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "垂直流蘆葦床系統比水平流蘆葦床有效得多，不只可降低生化需氧量和懸浮固體，也可降低氨含量並消除氣味。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A vertical reed bed system works more efficiently than a horizontal reed bed system, but it requires more management, and its reed beds are often operated for a few days, then rested, so several beds and a distribution system are needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "垂直蘆葦床系統比水平蘆葦床系統運作更有效率，但它需要更多管理，而且蘆葦床通常運作幾天後便要休息，所以需要多個床和一套分配系統。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要找 downflow system 的 advantage。Paragraph 9 中有一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are capable of handling much stronger effluents containing heavily polluted matter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們能處理強度高得多、含有嚴重污染物的污水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 H 說 “it can deal with more heavily polluted water”。這正好對應原文 “handling much stronger effluents containing heavily polluted matter”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "deal with = handle more heavily polluted water = much stronger effluents containing heavily polluted matter所以 Q34 答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "35 F，36 A",
+      "answerKey": "35 F，36 A",
+      "type": "Matching Advantages",
+      "prompt": "“however, its disadvantages are 35 ______ and 36 ______.”",
+      "translation": "不過，它的缺點是 ______ 和 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F — it does not operate continuously A — it requires several beds"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9。這段第一句先說 vertical system 的強項，最後一句轉入 “but”，開始說缺點。所以最後一句是 Q35–36 的核心位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 disadvantages。原文最後一句的 “but it requires more management” 是轉折訊號，後面就是缺點："
+            },
+            {
+              "kind": "quote",
+              "text": "“its reed beds are often operated for a few days, then rested, so several beds and a distribution system are needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的蘆葦床通常運作幾天後便要休息，所以需要多個床和一套分配系統。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“operated for a few days, then rested” 表示系統不能一直連續運作，所以對應 F “it does not operate continuously”。“so several beds … are needed” 表示需要幾個床，所以對應 A “it requires several beds”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "operated for a few days, then rested = does not operate continuously several beds … are needed = requires several beds因此答案是 F 和 A。由於題目只是用 “and” 並列兩個缺點，35 / 36 的順序通常可互換。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        35,
+        36
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "37 B，38 D",
+      "answerKey": "37 B，38 D",
+      "type": "Matching Advantages",
+      "prompt": "“The two advantages of the horizontal system are 37 ______ and 38 ______.”",
+      "translation": "水平流系統的兩個優點是 ______ 和 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B — it is easier to construct D — it doesn’t need much attention"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph 6 和 Paragraph 9 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These systems work particularly well for low-strength effluents or effluents that have undergone some form of pretreatment and play an invaluable role in tertiary treatment and the polishing of effluents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些系統特別適合低強度污水，或已經過某種預處理的污水，並在三級處理和污水精處理中有寶貴作用。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The downside of horizontal reed beds is that they use up lots of land space and they do take quite a long time to produce clean water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水平蘆葦床的缺點是佔用大量土地，而且確實需要很長時間才能產生乾淨水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 最後一句則提供比較：vertical system requires more management，並且需要operated / rested / several beds / distribution system。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 horizontal system 的 advantages，但選項中 B 和 D 沒有在 passage 中以完全相同字眼出現。要用比較法判斷： Vertical system：sealed trench、多層結構、more management、operated then rested、several beds and distribution system needed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Horizontal system：long reed bed，liquid slowly flows horizontally through，沒有提到 distribution system 或輪流休息。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “it doesn’t need much attention” 最有直接比較支援。Paragraph 9 說 vertical system “requires more management”。既然題目要求和 downflow system 比較，horizontal system 的對應優點就是不需要那麼多管理或照看。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “it is easier to construct” 在這份文字中屬於較間接的 best fit。文章描述 horizontal system 時，只說它用一條 long reed bed，液體水平慢慢流過；描述 vertical system 時，則有 sealed trench、60 cm deep bed、rhizome zone、root zone、gravel drainage layer、underdrainage system、several beds 和 distribution system。從設計複雜度比較，B 是剩餘選項中最能配合 horizontal system 的優點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他選項： C “built on a gradient” 原文沒有說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “produces less sludge” 原文沒有說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G “needs a deeper bed” 不屬於 horizontal 的優點，而且 60 cm deep 是 vertical bed 的描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q37–38 答案是 B 和 D。B 的證據較間接；若老師要求完全逐字證據，這題要特別留意版本是否有刪句或改寫。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        37,
+        38
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "B and D",
+      "answerKey": "B and D",
+      "type": "Choose TWO correct",
+      "prompt": "“What are the TWO advantages of the natural water purification system mentioned in the passage?”",
+      "translation": "文章提到天然淨水系統有哪兩個優點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "letters"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案 B — It has low operating costs."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The natural way of water purification has many advantages over the conventional mechanism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然淨水方法比傳統機制有很多優點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural reed-bed systems provide a biologically proven, environmentally friendly, and visually unobtrusive way of treating wastewater and have the extra virtue of frequently being better than mechanical wastewater treatment systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然蘆葦床系統提供了一種經生物證實、環境友善、視覺上不突兀的污水處理方法，並且還常常比機械污水處理系統更佳。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 advantage 定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The natural way requires less expenditure for installation, operation and maintenance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "天然方法在安裝、運作和維護上需要較少開支。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 “low operating costs”。原文有 “less expenditure for … operation and maintenance”。這直接支持 operating costs low。Paragraph 11 也補充 reed-bed systems 在中長期多數情況下 “more cost-effective to install”，進一步支持成本優勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以其中一個答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案 D — It is visually attractive."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 10，因為本段集中列出 natural way 的 advantages。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "D 的定位詞是 “visually attractive”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Besides, it looks attractive and can improve the surrounding landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，它看起來吸引，也能改善周邊景觀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “It is visually attractive” 對應原文 “it looks attractive”。這是直接同義改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以第二個答案是 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他選項A “It uses micro-organisms.”文章確實提過 bacteria、algae、fungi 和 microorganisms 會消化污物，但這是處理機制，不是Paragraph 10 所列的 natural water purification advantages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “It helps prevent flooding.”文章提到 floodplains 是天然蘆葦床的棲息地之一，但沒有說這套系統能防止 flooding。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “It can function in all climates.”文章沒有提到 all climates，也沒有討論氣候限制或全球氣候適應性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 Q39–40 答案是 B 和 D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Water Treatment 2_ Reed Bed.pdf",
+    "sha256": "b1594ecf18eab435af62f386b2043ae00eddecefd0a95248a2fc2cca6a552775",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說近年研究顯示，植物根部在污水進入河流和海洋前，對淨化污水有關鍵作用。尾句指出大城市處理大量污水的 conventional mechanism 不適合 rural areas。只看首尾句，可以估計本段是全文導入：先介紹天然濕地／蘆葦床淨水的背景，再建立城市傳統處理方法和鄉郊替代方法的對比。這段很可能支援 TRUE / FALSE / NOT GIVEN 中有關 conventional、urban、rural、alternative 的題目。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 common reed 能把氧氣從葉、莖、根莖一路輸送到根系外。尾句說根區內的 natural biological, physical and chemical processes 會互相作用，降解或移除多種污染物。只看首尾句，可以判斷本段重點是蘆葦根部如何令淨水有效：氧氣傳輸促進微生物群落，根區內多種自然過程共同處理污水。這段很適合定位 roots、microorganisms、processes、pollutants、degrade /remove 類題目。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說家庭、農場和工廠污水會消耗水中大量氧氣，導致水生生物死亡。尾句說 algae 夏天自由生長、冬天死亡後，其殘骸會污染池底。只看首尾句，可以估計本段在講水污染對生態的影響，以及不同水生植物在淨水上的作用。中間應會列舉能吸收養分、油污和細菌的植物，也可能提到個別細菌名稱，因此適合找 Escherichia coli、Salmonella、algae 等細節題。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說人工蘆葦床可以用 horizontal 和 downflow 兩種方式淨水。尾句提到 specialised designs可保留微生物、處理農業與部分工業污水，以及控制 diffuse pollution。只看首尾句，可以判斷本段是總覽段：介紹人工蘆葦床的兩大流向系統，並擴展到歐洲不同濕地設計和應用。這段未必直接給單一答案，但會幫助學生理解後文 horizontal-flow 和 vertical-flow 的比較框架。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說水只是 slightly polluted 時會使用 horizontal system。尾句說 dense planting 可能限制氧氣擴散到水中。只看首尾句，可以推測本段集中解釋 horizontal-flow wetlands 的基本類型和運作方式，包括 free-water surface-flow 與 sub-surface water-flow。這段尤其適合定位 horizontal、slightly polluted、FWF、SSF、effluent、sand / gravel bed 等詞。它也提供 horizontal system 的限制：密集種植可能影響 oxygen diffusion。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說這些系統特別適合 low-strength effluents 或已經 pretreatment 的污水，並在 tertiary treatment 和 polishing effluents 中很有價值。尾句說 horizontal reed beds 的缺點是佔用大量土地，而且需要很長時間產生乾淨水。只看首尾句，可以知道本段繼續講 horizontal system：先說適用場景和功能，再指出 land space 和 time 的缺點。這段對 horizontal system 優缺點題很重要。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 vertical flow，也就是 downflow reed bed，是一條密封、填滿 gravel、長有蘆葦的溝槽。尾句詳細說明污水從上方進入後，依次經過 rhizome zone、root zone、gravel layer，最後進入underdrainage system。只看首尾句，可以判斷本段是結構／流程段，最適合圖表填充題。題目若問不同層的 substrate 或 drainage material，答案很可能按這句的順序出現。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 effluent 流到床面，慢慢滲過不同層，進入 outlet pipe。尾句說沒有 standing water，所以應該沒有 unpleasant smells。只看首尾句，可以推測本段補充 vertical/downflow 系統的實際運作效果：污水經不同層處理後，再進入水平流床，細菌、藻類、真菌和其他微生物會消化污物。這段尤其與 smells、microorganisms、outlet pipe、standing water 等細節相關。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 vertical flow reed bed systems 在降低 BOD、SS、ammonia 和消除氣味方面，比horizontal flow reed beds 有效得多。尾句說 vertical system 雖然效率較高，但需要更多管理，常要運作幾天後休息，所以需要幾個床和 distribution system。只看首尾句，可以判斷本段是兩種系統的核心比較段：vertical 的效率、污染承受能力和服務壽命較佳，但管理和連續運作方面較麻煩。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說天然淨水方法比 conventional mechanism 有很多優點。尾句說 natural reed-bed systems是生物上經驗證、環保、視覺上不突兀的污水處理方法，還常常優於機械污水處理系統。只看首尾句，可以判斷本段主題是天然淨水的優點：成本、維護、景觀、環境友善和視覺效果。這段非常適合定位 final multiple-answer 題中 advantages of the natural water purification system。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說從中長期來看，reed-bed systems 在多數情況下比其他污水處理系統更具安裝成本效益。尾句說它們天然地對環境有利，能保護地下水、水壩、小溪、河流和河口。只看首尾句，可以知道這是全文收結：再次強調 reed-bed systems 的長期 cost-effectiveness 和 environmental soundness。這段可補強 Q39–40 的 low costs / environmental benefit，但若選項問 flooding 或all climates，這裡沒有提供相關證據。"
+      }
+    ]
+  }
+}

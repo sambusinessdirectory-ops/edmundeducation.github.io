@@ -1,0 +1,687 @@
+{
+  "id": "p3-071-jack-the-ripper-a-bungled-investigation",
+  "catalogueId": "p3-071",
+  "catalogueIds": [
+    "p3-071"
+  ],
+  "passage": 3,
+  "title": "Jack the Ripper: A Bungled Investigation?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "DNA testing",
+    "for identification purposes",
+    "victims",
+    "focused mainly on",
+    "removed",
+    "law enforcement agencies",
+    "evade capture",
+    "murder scene",
+    "the publication of",
+    "modern forensic techniques",
+    "new-found",
+    "standard practice",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "DNA testing",
+      "answerKey": "DNA testing",
+      "type": "Diagram Completion",
+      "prompt": "“DNA is left unexamined as no 27 ______ is yet available to analyse it.”",
+      "translation": "DNA 沒有被檢驗，因為當時還沒有可用的 ______ 去分析它。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the means to thoroughly analyse such evidence through DNA testing was still light-years away.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過 DNA testing 徹底分析這類證據的方法，當時仍然遙不可及。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要填的是「分析 DNA 的方法」。題目中的 “no ___ is yet available” 對應原文 “was still light-years away”，即技術仍未出現、未能使用。原文直接給出 “DNA testing”，而且字數是兩字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不宜填 “forensic science”，因為 forensic science 是大範圍學科；題目問的是分析 DNA 的具體方法。答案是 DNA testing。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "for identification purposes",
+      "answerKey": "for identification purposes",
+      "type": "Diagram Completion",
+      "prompt": "“Fingerprints are not used 28 ______.”",
+      "translation": "指紋當時沒有被用作 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the letter he outlined for the first time the possibility of using fingerprints for identification purposes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那封信中，他首次提出使用指紋作識別用途的可能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Fingerprints are not used...” 對應原文 “using fingerprints...”。空格前有 “used”，所以後面需要一個用途短語。原文 “for identification purposes” 正好接在 using fingerprints 後面，意思是「作識別用途」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的陷阱是只填 “identification”。雖然意思接近，但題目要求用 passage words，且原文完整片語是 for identification purposes，三字剛好符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "victims",
+      "answerKey": "victims",
+      "type": "Diagram Completion",
+      "prompt": "“Only one of the Ripper’s 29 ______ is photographed at the crime scene.”",
+      "translation": "Ripper 的 ______ 當中，只有一人曾在 crime scene 被拍照。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the officers leading the investigation at the time saw fit to photograph only one of the Ripper’s victims, a certain Mary Kelly, at the crime scene.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時負責調查的警員認為只需要在犯罪現場拍攝 Ripper 的其中一名受害者，即 Mary Kelly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎直接改寫原文： Only one of the Ripper’s ___= only one of the Ripper’s victims因為前面有 “one of”，後面需要複數名詞，所以答案要填 victims，不是 victim。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "focused mainly on",
+      "answerKey": "focused mainly on",
+      "type": "Diagram Completion",
+      "prompt": "“Images taken are 30 ______ capturing the victim’s eyes.”",
+      "translation": "拍下來的影像主要 ______ 捕捉受害者的眼睛。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even more bizarrely, photographs of the victim focused mainly on her eyes to the neglect of all else.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "更奇怪的是，受害者的照片主要集中在她的眼睛，忽略了其他所有部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “Images taken are”，後面是 “capturing the victim’s eyes”。因此空格要填一個動詞短語，令句子變成「影像主要集中於捕捉眼睛」。原文中的 “focused mainly on her eyes” 被題目改成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“focused mainly on capturing the victim’s eyes”。所以答案是 focused mainly on。不能填 “her eyes”，因為題目後面已經給了 “the victim’s eyes”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "removed",
+      "answerKey": "removed",
+      "type": "Diagram Completion",
+      "prompt": "“Vital written evidence is 31 ______ on the orders of a police investigator.”",
+      "translation": "重要書面證據在一名警方調查人員命令下被 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, before it could be properly analysed, the investigating officer ordered that it be removed...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，在它能被正式分析之前，負責調查的警員下令把它移除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 written evidence 指牆上那段 “semi-illiterate message”。題目說 “on the orders of a police investigator”，對應原文 “the investigating officer ordered”。真正要填的是被命令做的動作： removed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要小心，不要填 “properly analysed”。那是它原本應該接受的處理；題目問的是實際發生的結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "law enforcement agencies",
+      "answerKey": "law enforcement agencies",
+      "type": "Diagram Completion",
+      "prompt": "“Investigators representing rival 32 ______ fail to exchange information.”",
+      "translation": "代表互相競爭的 ______ 的調查人員未能交換資訊。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A final problem was the lack of co-operation not just between the Press and the police but also between law enforcement agencies themselves.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一個問題是合作不足；這不只存在於報界和警方之間，也存在於執法機構彼此之間。"
+            },
+            {
+              "kind": "label",
+              "text": "後面再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“...infighting and rivalry between the City and Metropolitan Police Forces served to delay exchange of information...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "City Police 和 Metropolitan Police Forces 之間的內鬥和競爭，延誤了資訊交換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rival” 對應原文 “rivalry”；“fail to exchange information” 對應 “delay exchange of information”。空格要填調查人員所屬的機構類別，所以最自然答案是 law enforcement agencies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些答案表可能接受 Police Forces，因為原文具體提到 City and Metropolitan Police Forces。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過按題目句子 “Investigators representing rival ___” 的語法，law enforcement agencies 最順。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "evade capture",
+      "answerKey": "evade capture",
+      "type": "Note Completion",
+      "prompt": "“What is so startling about the Ripper case is how the murderer managed to 33 ______ against the odds.”",
+      "translation": "Ripper 案最令人震驚的是，兇手竟然在種種不利條件下成功 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...why did the Ripper evade capture and why was no one even charged with the five murders attributed to the Ripper?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 Ripper 能逃避拘捕？為甚麼五宗被歸於他名下的謀殺案，甚至沒有人被起訴？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “the murderer managed to...” 需要接動詞短語。原文直接使用 “evade capture”，即逃避拘捕。答案是 evade capture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題不應填 “charged”，因為 charged 是後半問題：沒有人被控。題目問 murderer managed to do something，動作屬於兇手，所以是 evade capture。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "murder scene",
+      "answerKey": "murder scene",
+      "type": "Note Completion",
+      "prompt": "“Often a 34 ______ was disturbed, destroying vital evidence within it.”",
+      "translation": "一個 ______ 經常被破壞，令其中的重要證據遭毀。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was a rudimentary awareness of the need to keep a murder scene intact to preserve vital clues...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時已有基本意識，知道需要保持 murder scene 完整，以保存重要線索。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文反向改寫： keep a murder scene intact= 保持謀殺現場完整was disturbed= 被干擾、被破壞原文說理想做法是保持 murder scene intact；題目說實際上 often a murder scene was disturbed。空格答案要填被保護或被破壞的地方，所以是 murder scene。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "the publication of",
+      "answerKey": "the publication of",
+      "type": "Note Completion",
+      "prompt": "“Only after 35 ______ a book by Hans Gross were more scientific investigative methods introduced.”",
+      "translation": "直到 Hans Gross 的一本書 ______ 之後，更科學的調查方法才被引入。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, it was only with the publication of Hans Gross’ ‘A Handbook for Examining Magistrates, Police Officials, Military Police, etc.’ in 1893 that the foundation for forensic science was laid.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，直到 1893 年 Hans Gross 的《給裁判官、警務人員、憲兵等的檢查手冊》出版，forensic science 的基礎才被奠定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “only with” 改成 “Only after”。空格後已有 “a book by Hans Gross”，所以要填能接上 “a book” 的片語：the publication of。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "完整意思是： Only after the publication of a book by Hans Gross..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "modern forensic techniques",
+      "answerKey": "modern forensic techniques",
+      "type": "Note Completion",
+      "prompt": "“Until then there was a lack of knowledge of 36 ______.”",
+      "translation": "在那之前，人們缺乏對 ______ 的認識。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was too late, however, to help the Ripper investigation, whose investigators lacked knowledge of modern forensic techniques.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，這對 Ripper 調查已經太遲；該案的調查人員缺乏現代鑑證技術知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “there was a lack of knowledge of...” 對應原文 “investigators lacked knowledge of...”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案直接跟在 of 後面：modern forensic techniques。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題字數剛好三字，完全符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "new-found",
+      "answerKey": "new-found",
+      "type": "Note Completion",
+      "prompt": "“In 1896 Sir Francis Galton used a 37 ______ method known as dactyloscopy.”",
+      "translation": "1896 年，Sir Francis Galton 使用了一種稱為 dactyloscopy 的 ______ 方法。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using the new-found method of ‘dactyloscopy’ (later known as fingerprinting), he employed the technique to successfully identify criminals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他使用這種新發現的方法 “dactyloscopy”（後來稱為 fingerprinting），成功識別罪犯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已提供 “method known as dactyloscopy”，所以空格要填形容詞。原文形容該方法為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“new-found method”。題目已有 method，不需重複，所以答案只填 new-found。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "standard practice",
+      "answerKey": "standard practice",
+      "type": "Note Completion",
+      "prompt": "“Crime scene photography was rarely 38 ______, for example.”",
+      "translation": "例如，犯罪現場攝影當時很少屬於 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Photographing the crime scene was not exactly standard practice at the time but it was a known procedure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "拍攝犯罪現場在當時並不算標準常規，但它已經是一種已知程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “rarely” 是對 “not exactly” 的概括。空格要填的是 photography 當時未成為甚麼： standard practice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的重點在對比： not exactly standard practice= rarely standard practice / not commonly standard practice答案是 standard practice。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A and D",
+      "answerKey": "A and D",
+      "type": "Choose TWO",
+      "prompt": "Questions 39–40",
+      "translation": "有限的鑑證知識很可能影響了 Ripper 案的結果。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "supported statements"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Limited forensic knowledge probably affected the outcome of the Ripper case."
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持：YES目標段落是 Paragraph 3 和 Paragraph 4。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“forensic science was barely in its infancy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "鑑證科學幾乎仍在嬰兒期。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“investigators lacked knowledge of modern forensic techniques”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查人員缺乏現代鑑證技術知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 也說 fingerprint identification 的發展 “arrived just too late for the Ripper investigators”。這些資料合起來支持 A：當時 forensic knowledge 和相關技術不足，確實可能影響案件結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A 是正確選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The Ripper murders convinced the police of a need for more sophisticated investigative methods."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ripper 謀殺案令警方相信需要更先進的調查方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持：NO原文說 Hans Gross 的書在 1893 年奠定 forensic science 基礎，也說 fingerprinting 到 1896 年才被實踐。但文章沒有說「Ripper murders convinced the police」。這個選項加入了警方心理轉變和制度反思，原文沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 不受支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Disagreement existed amongst the police as to what information should be released to the Press."
+            },
+            {
+              "kind": "paragraph",
+              "text": "警方內部就應向報界公開甚麼資訊存在分歧。"
+            },
+            {
+              "kind": "label",
+              "text": "支持：NO Paragraph 7 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“police distrust of the Press led to limited information being released to the newspapers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "警方不信任報界，因此只向報紙公開有限資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡說的是 police distrust of the Press，沒有提到警方內部對公開資訊範圍有 disagreement。C把「警方與報界之間的互不信任」改成「警方內部分歧」，關係變了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 C 不受支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Whilst rivalry existed amongst the police, they were united in their dislike of the Press."
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然警方之間存在競爭，但他們對報界的不信任是一致的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持：YES Paragraph 7 提到兩件事：第一，警方與報界之間缺乏合作："
+            },
+            {
+              "kind": "quote",
+              "text": "“police distrust of the Press led to limited information being released to the newspapers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "警方不信任報界，因此公開給報紙的資訊有限。"
+            },
+            {
+              "kind": "label",
+              "text": "第二，警方機構之間也有 rivalry："
+            },
+            {
+              "kind": "quote",
+              "text": "“infighting and rivalry between the City and Metropolitan Police Forces served to delay exchange of information”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "City Police 和 Metropolitan Police Forces 之間的內鬥和競爭，延誤了資訊交換。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 把這兩點合起來：警隊之間有 rivalry；但文章用整體的 “police distrust of the Press” 描述警方對報界的態度。因此 D 是另一個受支持選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E The police investigating the Ripper murders made good use of what techniques were available to them at the time."
+            },
+            {
+              "kind": "paragraph",
+              "text": "調查 Ripper 謀殺案的警方善用了當時已有的技術。"
+            },
+            {
+              "kind": "label",
+              "text": "支持：NO Paragraph 5 明確批評："
+            },
+            {
+              "kind": "quote",
+              "text": "“their failure to apply known investigative methods to the crime scene certainly smacked of incompetence”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們未能把已知調查方法應用到犯罪現場，確實帶有無能的意味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文又提到只拍了一名受害者、照片主要集中眼睛、書面證據被移除。這些都指向警方沒有善用已知方法。E 與文章方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 E 不受支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "6. 最終答案整理27 DNA testing 28 for identification purposes 29 victims 30 focused mainly on 31 removed 32 law enforcement agencies 33 evade capture 34 murder scene 35 the publication of 36 modern forensic techniques 37 new-found 38 standard practice 39 A 40 D"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Jack the Ripper_ A Bungled Investigation_.pdf",
+    "sha256": "162e30981181a39fbfa99dc5736a78d352a9bec91a1df16fa96345e86469ba0e",
+    "pageCount": 13
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "本段提出全文核心疑問：Jack the Ripper 的案件震動社會，兇手殘暴程度前所未見，警方措手不及；最後提出問題：為甚麼他能逃避拘捕，甚至沒有人被控五宗相關謀殺？這是全文的總問題。"
+      },
+      {
+        "number": "2",
+        "summary": "本段先提出陰謀論，例如 Prince Albert Victor 被懷疑是 Ripper，但作者隨即指出沒有 tangible evidence 支持。最後一句說 Ripper 逃脫警方可能有更平凡的原因。這段功能是排除sensationalist theory，轉向實際調查失誤。"
+      },
+      {
+        "number": "3",
+        "summary": "本段講 1888 年 forensic science 尚在起步階段，DNA testing 遙不可及；Hans Gross 的書到1893 年才為 forensic science 奠基，對 Ripper 案已太遲。這段主題是：現代鑑證知識不足，導致證據不能被有效分析。"
+      },
+      {
+        "number": "4",
+        "summary": "本段講 fingerprint identification 的發展也來得太遲。Henry Faulds 1880 年提出用 fingerprints 作identification purposes 的可能，Francis Galton 到 1896 年才把 dactyloscopy 實踐於罪犯識別。這段主題是：指紋技術未能趕上 Ripper investigation。"
+      },
+      {
+        "number": "5",
+        "summary": "本段開始批評警方即使有已知方法，也沒有善用。Crime scene photography 當時雖非標準常規，但已是 known procedure；警方只拍攝 Mary Kelly 一名受害者，照片還 focused mainly on her eyes。這段主題是：已知調查方法沒有正確應用。"
+      },
+      {
+        "number": "6",
+        "summary": "本段講 deliberate tampering with evidence。牆上有一段 semi-illiterate message，但在正式分析前，investigating officer 下令移除，因為怕牽涉 Jews 並引起 racial repercussions。這段主題是：書面證據被移除，可能毀掉關鍵線索。"
+      },
+      {
+        "number": "7",
+        "summary": "本段講 lack of co-operation。警方和 Press 之間互不信任，資訊有限；law enforcement agencies之間也有 infighting and rivalry，City and Metropolitan Police Forces 的矛盾延誤了資訊交換。這段主題是：合作不足令調查受阻。"
+      }
+    ]
+  }
+}

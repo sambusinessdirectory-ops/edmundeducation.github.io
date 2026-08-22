@@ -1,0 +1,831 @@
+{
+  "id": "p3-065-rise-of-the-robots",
+  "catalogueId": "p3-065",
+  "catalogueIds": [
+    "p3-065"
+  ],
+  "passage": 3,
+  "title": "Rise of the Robots",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "C",
+    "C",
+    "C",
+    "a celestial database",
+    "image",
+    "rows of pixels",
+    "entertain",
+    "five years ago",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — provide information about the stars",
+      "answerKey": "A — provide information about the stars",
+      "type": "Multiple Choice",
+      "prompt": "The Celestron SkyScout can...",
+      "translation": "Celestron SkyScout 可以做到甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 — CELESTRON SKYSCOUT"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 時看段落首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Backyard stargazing goes seriously hi-tech with the Celestron SkyScout...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有了 Celestron SkyScout，後院觀星變得非常高科技。"
+            },
+            {
+              "kind": "label",
+              "text": "這句已經提示本段講觀星科技。再看段落核心內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“The SkyScout is a hand-held viewing device that is capable of finding and identifying more than 6,000 celestial objects visible to the naked eye...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SkyScout 是一部手提觀看裝置，能找出並識別超過 6,000 個肉眼可見的天體。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“...point the device at any visible object in the sky, press a button, and then listen to a commentary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用者把裝置指向天空中任何可見物件，按下按鈕，然後聆聽解說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，題目關鍵詞是 Celestron SkyScout 和 can。原文中的 “capable of finding and identifying” 直接說明功能。A 的 “provide information about the stars” 對應原文 “identifying” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“listen to a commentary”。它不只找到星體，也會提供解說。 B 說 tell you where in the world you are。原文確實有 GPS technology，但 GPS 在這裡用來配合 celestial database 找星，不等於裝置主要功能是告訴你身處世界哪裡。 C 說 find objects in the sky that are not normally visible。原文清楚說 “visible to the naked eye”，即肉眼可見的天體。C 把可見天體改成平常不可見的物件，方向不符合原文。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — is being produced as a limited edition",
+      "answerKey": "C — is being produced as a limited edition",
+      "type": "Multiple Choice",
+      "prompt": "The Seiko Spectrum e-paper watch...",
+      "translation": "Seiko Spectrum e-paper watch 有甚麼特點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 — SEIKO SPECTRUM E-PAPER WATCH"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“The Seiko Spectrum is no ordinary wristwatch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Seiko Spectrum 不是普通手錶。"
+            },
+            {
+              "kind": "label",
+              "text": "段落最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seiko is releasing only 500 of the watches next month, priced at about £1,250 – so you’d better lose no time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Seiko 下個月只會發售 500 隻這款手錶，售價約 £1,250，所以你最好不要拖延。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目關鍵詞是 Seiko Spectrum e-paper watch。答案位於段落最後一句，因為 “only 500” 直接表示數量有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 is being produced as a limited edition。雖然原文沒有直接使用 “limited edition” 這個詞，但 “releasing only 500” 明確支援「限量發售」的意思。"
+            },
+            {
+              "kind": "label",
+              "text": "A 說 cannot be bent。原文剛好相反："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because e-paper is so flexible and thin, it allows the display to curve round the wrist...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 e-paper 非常柔軟和薄，所以顯示屏可以沿手腕彎曲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 can be used for surfing the Internet。這個功能出現在 Nokia N91 段落：“surf the web”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Seiko watch 段落沒有提到上網。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — is programmable",
+      "answerKey": "C — is programmable",
+      "type": "Multiple Choice",
+      "prompt": "The Electrolux Trilobite 2.0 robot vacuum cleaner...",
+      "translation": "Electrolux Trilobite 2.0 robot vacuum cleaner 有甚麼特點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 — ELECTROLUX TRILOBITE 2.0 ROBOT VACUUM CLEANER"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Next time you are expecting visitors, do not bother to vacuum first – wait until they arrive, and then entertain them with this little gadget.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下次有客人來，不用先吸塵；等他們到達後，用這個小裝置娛樂他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句用幽默方式引出 robot vacuum cleaner。真正功能在中後段："
+            },
+            {
+              "kind": "quote",
+              "text": "“You can also programme it to glide around while you’re at work or after you’ve gone to bed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你也可以預先設定它，在你上班時或睡覺後四處滑行清潔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目關鍵詞是 Trilobite 2.0。C 的 is programmable 直接對應原文 “You can also programme it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說 asks permission before moving from room to room。原文提到 magnetic strips placed in doorways act as a wall，防止它離開房間，但沒有說它會請求許可。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 uses lasers to help it avoid objects。原文說的是 ultrasound："
+            },
+            {
+              "kind": "quote",
+              "text": "“...navigates its way around your floors using ultrasound, just like a bat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它像蝙蝠一樣使用超聲波在地板上導航。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 把 ultrasound 改成 lasers，科技類型錯了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — can run",
+      "answerKey": "C — can run",
+      "type": "Multiple Choice",
+      "prompt": "The Honda Asimo robot...",
+      "translation": "Honda Asimo robot 可以做到甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 — HONDA ASIMO ROBOT"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 首句",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“Need an extra pair of hands around the office?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "辦公室需要多一雙手幫忙嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是幽默引入，表示 Asimo 可以幫忙做 office tasks。真正答案句在後面："
+            },
+            {
+              "kind": "quote",
+              "text": "“It can walk and run at a fair pace, and push a cart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它可以以不錯的速度行走和跑步，並能推手推車。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 can run，直接對應原文 “run”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說 has two pairs of hands。原文開首 “extra pair of hands” 是 idiom，意思是「多一個幫手」，不是說 Asimo 真有兩對手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 uses lasers to help it recognise its surroundings。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using multiple sensors, Asimo has the ability to recognise the surrounding environment...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Asimo 使用多種感應器，能認識周圍環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文是 multiple sensors，沒有說 lasers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "a celestial database",
+      "answerKey": "a celestial database",
+      "type": "Sentence Completion",
+      "prompt": "“The SkyScout uses GPS and 31 ______ to help you find a star.”",
+      "translation": "SkyScout 使用 GPS 和 ______ 來幫你找星星。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 — CELESTRON SKYSCOUT原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using GPS technology and a substantial celestial database, the camcorder-sized SkyScout enables stargazers to point the device at any visible object in the sky...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SkyScout 使用 GPS technology 和一個龐大的天體資料庫，讓觀星者可以把裝置指向天空中任何可見物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “uses GPS” 對應原文 “Using GPS technology”。空格後面要接另一個工具或資料來源。原文提供的是 “a substantial celestial database”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於題目限制 NO MORE THAN THREE WORDS，完整片語 “a substantial celestial database”有四個字，超出限制。最自然、文法最順的答案是 a celestial database。如果答案表偏向保留形容詞，也可能見到 substantial celestial database，但填進句子後少了冠詞，文法較不自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題真正考的是：SkyScout 不只靠 GPS，還靠 celestial database 辨認天體。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "image",
+      "answerKey": "image",
+      "type": "Sentence Completion",
+      "prompt": "“The Seiko Spectrum does not need battery power to retain the 32 ______.”",
+      "translation": "Seiko Spectrum 不需要電池電力去維持 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 — SEIKO SPECTRUM E-PAPER WATCH原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seiko says the e-paper display not only produces far better contrast than an LCD screen, but requires no power to retain an image, so the batteries last longer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Seiko 表示，e-paper display 不只比 LCD screen 產生更佳對比度，而且不需要電力去維持影像，因此電池更耐用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “does not need battery power” 對應原文 “requires no power”。題目中的 “retain the...”對應原文 “retain an image”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為題目已有 “the”，答案只需填 image。若填 “an image”，句子會變成 “retain the an image”，文法錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 image。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "rows of pixels",
+      "answerKey": "rows of pixels",
+      "type": "Sentence Completion",
+      "prompt": "“HDTV uses more 33 ______ than conventional TV.”",
+      "translation": "HDTV 比傳統電視使用更多 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 — HIGH-DEFINITION TV原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the high-definition TV set itself, which uses either 720 or 1,080 visible rows of pixels ... compared with the 576 rows of pixels used in current sets.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "高清電視機本身使用 720 或 1,080 條可見像素行，而現時電視機使用 576 條像素行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “more”，所以要找比較數量。原文比較的是 720 / 1,080 和 576。比較對象是 rows of pixels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不能填 “visible rows of pixels”，因為有四個字，超出 NO MORE THAN THREE WORDS。答案rows of pixels 剛好三字，並且完整表達比較對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 rows of pixels。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "entertain",
+      "answerKey": "entertain",
+      "type": "Sentence Completion",
+      "prompt": "“The Trilobite 2.0 could be used to 34 ______ guests.”",
+      "translation": "Trilobite 2.0 可以用來 ______ 客人。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 — ELECTROLUX TRILOBITE 2.0 ROBOT VACUUM CLEANER原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Next time you are expecting visitors, do not bother to vacuum first – wait until they arrive, and then entertain them with this little gadget.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "下次有客人來，不用先吸塵；等他們到達後，用這個小裝置娛樂他們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “guests” 對應原文 “visitors / them”。空格需要動詞，因為前面是 “could be used to”。原文動詞是 entertain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不能填 “entertain them”，因為題目後面已有 “guests”。完整句應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Trilobite 2.0 could be used to entertain guests.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 entertain。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "five years ago",
+      "answerKey": "five years ago",
+      "type": "Sentence Completion",
+      "prompt": "“Asimo first appeared 35 ______.”",
+      "translation": "Asimo 首次出現於 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 — HONDA ASIMO ROBOT原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The machine has come a long way since its first incarnation five years ago.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部機器自五年前首次形態出現以來，已經進步了很多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “first appeared” 對應原文 “first incarnation”。incarnation 在這裡指「首次版本／最早形態」。原文直接給出時間：five years ago。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 five years ago。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Nokia N91 is strong.”",
+      "translation": "Nokia N91 很堅固。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3 — NOKIA N91原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The robust little phone, resplendent in its stainless steel case, is the first Nokia to be equipped with a hard drive (4 GB)...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部堅固的小手機配有亮眼的不鏽鋼機殼，是第一部配備 4 GB 硬碟的 Nokia 手機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “strong” 對應原文 “robust”。robust 指堅固、耐用、強壯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：Nokia N91 is strong.原文命題：Nokia N91 is a robust little phone.兩者意思一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“E-paper can be torn easily.”",
+      "translation": "E-paper 很容易被撕破。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 — SEIKO SPECTRUM E-PAPER WATCH原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because e-paper is so flexible and thin, it allows the display to curve round the wrist along with the watch band...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 e-paper 非常柔軟和薄，所以顯示屏可以和錶帶一起沿手腕彎曲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 e-paper flexible and thin，但 flexible / thin 不等於 “can be torn easily”。柔軟和薄只說明它可以彎曲，沒有提供耐撕裂程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據是： e-paper 容易撕破。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的是： e-paper 柔軟、薄、可以彎曲、顯示屏可沿手腕曲線延伸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有說它容易撕裂，也沒有說它不容易撕裂。資料不足，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“HDTV is filmed differently from conventional TV.”",
+      "translation": "HDTV 的拍攝方式和傳統電視不同。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 — HIGH-DEFINITION TV原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When you watch a programme filmed in the HD format, you will see a much sharper, clearer and more vibrant image.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你觀看以 HD format 拍攝的節目時，你會看到更銳利、更清晰、更鮮明的影像。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is due partly to the way a programme is filmed, but also to the high-definition TV set itself...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部分是由節目的拍攝方式造成，也和高清電視機本身有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 HDTV is filmed differently。原文用 “filmed in the HD format” 和 “due partly to the way a programme is filmed” 表示 HD 節目在拍攝格式上有差異。雖然原文沒有逐字寫 “differently from conventional TV”，但 “HD format” 和 current sets 的對比已支援這個判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Trilobite 2.0 looks just like the original design.”",
+      "translation": "Trilobite 2.0 看起來和原本設計一模一樣。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 — ELECTROLUX TRILOBITE 2.0 ROBOT VACUUM CLEANER原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Electrolux introduced the original Trilobite in 2001, it was voted among the 100 most innovative designs...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Electrolux 在 2001 年推出原版 Trilobite 時，它被選為 100 個最創新的設計之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有提到 original Trilobite 和 Trilobite 2.0，但沒有比較兩者外觀。它只說原版在 2001 年推出，並獲選為創新設計之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求的是外觀比較： looks just like the original design= 外觀和原版完全一樣原文沒有提供 looks、appearance、same design、similar shape 等資料，也沒有明確指出它們外觀相同或不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Asimo is available for export.”",
+      "translation": "Asimo 可供出口。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 — HONDA ASIMO ROBOT原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Honda plans to start using Asimo’s receptionist functions at its Wako Building in Japan early in 2006, and it is hoped it will become available for leasing afterwards.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Honda 計劃在 2006 年初於日本 Wako Building 開始使用 Asimo 的接待功能，並希望之後可供租賃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有三個重點：第一，Honda 計劃先在日本 Wako Building 使用 Asimo 的 receptionist functions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，之後希望它可供 leasing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，文章沒有提到 export。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “available for export”，需要原文提供「出口」或「向海外供應」資料。原文只提到 Japan、leasing、afterwards，沒有提到出口安排，也沒有說會售往其他國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此資料不足，答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "6. 最終答案整理27 A 28 C 29 C 30 C 31 a celestial database 32 image 33 rows of pixels 34 entertain 35 five years ago 36 TRUE 37 NOT GIVEN 38 TRUE 39 NOT GIVEN 40 NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Rise of the Robots.pdf",
+    "sha256": "ea0cfd96c0ce9a4c15dc3994fe067ca5134648c209d79da3ddd51b9511ea55f5",
+    "pageCount": 14
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Introduction文章開首用 “wonderful times” 和 “developing in leaps and bounds” 介紹科技產品快速發展，然後說明下文會介紹即將突破的新科技。這段是總引子，通常不直接出答案。"
+      },
+      {
+        "number": "2",
+        "summary": "CELESTRON SKYSCOUT本段介紹 SkyScout：一部手提觀星裝置，可以找出和識別超過 6,000 個肉眼可見的天體。它使用GPS 和 celestial database，並可用 “locate” feature 以 illuminated arrows 引導使用者找到星體或行星。"
+      },
+      {
+        "number": "3",
+        "summary": "NOKIA N91本段介紹 Nokia N91：一部 multimedia mobile phone，可以播放音樂、拍照、上網、下載影片、儲存聯絡資料等。重點包括 robust little phone、stainless steel case、4 GB hard drive、最多可儲存3,000 首歌。"
+      },
+      {
+        "number": "4",
+        "summary": "SEIKO SPECTRUM E-PAPER WATCH本段介紹 Seiko Spectrum e-paper watch。它的重點是 e-paper display：柔軟、薄、可以沿手腕彎曲；不需要電力維持影像，所以電池較耐用。文章也提到只發售 500 隻，價格約 £1,250。"
+      },
+      {
+        "number": "5",
+        "summary": "HIGH-DEFINITION TV本段介紹 HDTV。HDTV 的影像更 sharp、clear、vibrant，原因包括拍攝方式和電視機本身。 HDTV 使用 720 或 1,080 visible rows of pixels，而現時電視機使用 576 rows of pixels。"
+      },
+      {
+        "number": "6",
+        "summary": "ELECTROLUX TRILOBITE 2.0 ROBOT VACUUM CLEANER本段介紹 Trilobite 2.0 robot vacuum cleaner。它用 ultrasound 導航，發出 ultrasonic pulses 建立房間地圖，可避免撞到物件，也可預先設定在你上班或睡覺後自動清潔。開首還用幽默語氣說它可用來 entertain visitors。"
+      },
+      {
+        "number": "7",
+        "summary": "HONDA ASIMO ROBOT本段介紹 Honda Asimo robot。它是第二代 humanoid robot，可做 reception duties、serve drinks、act as an information guide、make deliveries，也能 walk and run。它用 multiple sensors 認識周圍環境，Honda 計劃先在日本 Wako Building 使用其接待功能。"
+      }
+    ]
+  }
+}

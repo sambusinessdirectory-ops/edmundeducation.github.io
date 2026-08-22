@@ -1,0 +1,2190 @@
+{
+  "id": "p3-040-high-speed-photography",
+  "catalogueId": "p3-040",
+  "catalogueIds": [
+    "p3-040"
+  ],
+  "passage": 3,
+  "title": "High speed photography",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "A",
+    "D",
+    "B",
+    "regular intervals",
+    "sequence",
+    "time",
+    "longer sequence",
+    "slowed down proportionately",
+    "A",
+    "C",
+    "G",
+    "E",
+    "F"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — too slow to be visible to human eyes",
+      "answerKey": "C — too slow to be visible to human eyes",
+      "type": "Question Analysis",
+      "prompt": "Mushroom這題是 matching features。題目不是問 mushroom 是甚麼，而是問 mushroom 在文章中被用來代表哪一種攝影難題或攝影特點。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One such technique is called fast motion, professionally known as time-lapse photography.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種技術稱為 fast motion，專業名稱是 time-lapse photography。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Objects and events that would normally take several minutes, days or even months can be viewed to completion in seconds after being sped up by factors of tens to millions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些本來需要幾分鐘、幾天，甚至幾個月才完成的物件和事件，在被加速數十倍至數百萬倍後，可以在幾秒內看完整個過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph B 的功能：這段講的是 time-lapse photography，即把很慢的自然過程拍成看起來較快的影像。這和 mushroom 很可能有關，因為 mushroom growth 通常是慢速生長過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞是： Mushroom在 Paragraph B 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The life cycle of a mushroom, for example, is too gradual to follow to the human eye.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，蘑菇的生命週期太逐步、太緩慢，以致人眼難以追蹤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接包含 mushroom，而且有關鍵形容詞 too gradual。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“too gradual to follow to the human eye”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 gradual 指「逐漸發生、變化緩慢」。如果一個過程太 gradual，人眼不是完全看不到物件，而是難以直接追蹤整個變化過程。題目選項 C 寫： too slow to be visible to human eyes雖然 “visible” 比 “follow” 稍微寬一點，但在這組選項中，C 最準確對應原文的 slow natural process。蘑菇並非移動太快，它的生長過程太慢，所以需要 time-lapse 把時間壓縮。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 題目選項too gradual too slow to follow to the human eye to be visible to human eyes life cycle of a mushroom Mushroom"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 Paragraph B 的技術名稱叫 fast motion。學生可能看到 fast 就以為 mushroom 對應「太快」。其實 fast motion / time-lapse 的作用，是把原本很慢的事情加速呈現。原始事件慢，最後影像快。判斷時要分清 原本的自然速度 和 攝影處理後的播放效果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — too fast to be perceived",
+      "answerKey": "A — too fast to be perceived",
+      "type": "Question Analysis",
+      "prompt": "Hummingbird這題要求把 hummingbird 和文章中對應的 feature 配對。Hummingbird 是一種 organism，定位非常清楚。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another commonly used technique is high-speed photography, the science of taking pictures of very fast phenomena.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種常用技術是 high-speed photography，即拍攝非常快速現象的科學。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why high-speed cameras have become such a mainstay of biology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 high-speed cameras 成為生物學重要支柱的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 的功能：這段解釋 high-speed photography 如何拍攝 very fast phenomena，並說明它在 biology 裡為何重要。Hummingbird 出現在這段，很可能用來展示「動作太快，肉眼或普通攝影難以捕捉」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞是： Hummingbird Paragraph C 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Imagine a hummingbird hovering almost completely still in the air, feeding on nectar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "想像一隻蜂鳥幾乎完全停在空中，正在吸食花蜜。"
+            },
+            {
+              "kind": "label",
+              "text": "接著最重要的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But a hummingbird flaps its wings up to 80 times every second.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但是蜂鳥每秒最多拍動翅膀 80 次。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But a hummingbird flaps its wings up to 80 times every second. The only way to truly capture this motion is with cameras that will, in effect, slow down time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但是蜂鳥每秒最多拍動翅膀 80 次。真正捕捉這種動作的唯一方法，是使用實際上能把時間放慢的相機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的邏輯非常清楚： 1. Hummingbird wings move extremely fast. 2. 普通人眼難以真正看清細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. High-speed camera 把影像拍得很密，之後以正常速度播放，令 motion 看起來變慢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 hummingbird 對應選項 A： too fast to be perceived"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "快到難以被感知。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 題目選項flaps its wings up to 80 times every too fast second truly capture this motion be perceived / seen clearly slow down time use high-speed photography to reveal fast movement"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被 “hovering almost completely still” 誤導。蜂鳥在空中看似靜止，但它能停在空中正是因為翅膀高速拍動。題目問 feature，重點不在整隻鳥的位置是否靜止，真正控制答案的是翅膀動作 up to 80 times every second。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D — adjust the filming speed to make it interesting",
+      "answerKey": "D — adjust the filming speed to make it interesting",
+      "type": "Question Analysis",
+      "prompt": "Frog這題同樣是 matching features。Frog 在文章中不只代表「動作很快」，還牽涉到後製時的播放速度調整，所以要小心不要只看到一半。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Things become even more complicated when filming a frog catching its prey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拍攝青蛙捕捉獵物時，事情會變得更加複雜。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Voilà, the scientists can now sit back and enjoy watching without having to go through the pain of waiting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣，科學家就可以坐下來享受觀看過程，而不用經歷漫長等待的痛苦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph E 的功能：這段講 frog prey-catching 的拍攝問題，以及如何讓觀看效果更好。第一句強調 complicated，最後一句強調 enjoy watching without waiting，說明答案很可能和「調整播放速度，改善觀看體驗」有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是： Frog Paragraph E 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frogs can snatch up prey in a few thousandths of a second—striking out with elastic tongues.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "青蛙可以在幾千分之一秒內抓住獵物，用有彈性的舌頭迅速伸出去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句確實說 frog catching prey 很快。不過題目選項中還有 D： adjust the filming speed to make it interesting所以要繼續讀後文，看 frog 段落真正強調的處理方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet one problem still remains—viewers would become bored if they watched the frog swim in slow motion for too long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而仍有一個問題：如果觀眾長時間看青蛙以慢動作游泳，他們會感到沉悶。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The solution is a simple one—adjust the playback speed, which is also called by some the film speed adjustment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "解決方法很簡單：調整播放速度，有些人也稱之為 film speed adjustment。"
+            },
+            {
+              "kind": "label",
+              "text": "再看後製處理："
+            },
+            {
+              "kind": "quote",
+              "text": "“...at a later editing stage this high frame rate will only be preserved for the prey-catching part, while the swimming part will be converted to the normal speed at 24 frames per second.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後期剪輯階段，這種高 frame rate 只會保留在捕獵部分；游泳部分則會轉換成每秒 24 格的正常速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的重點是：frog 捕獵部分太快，需要高 frame rate 慢放；游泳部分如果也慢放太久，觀眾會悶，所以要調整 playback speed。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 題目選項viewers would become bored make it interesting adjust the playback speed adjust the filming speed high frame rate preserved for prey-catching slow motion kept only where useful part swimming part converted to normal speed avoid boring slow-motion viewing"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “too fast to be perceived” 很吸引，因為 frog 捕獵確實 “50 times faster than an eye blink”。但題目要每個 organism 對應最具代表性的 feature。Hummingbird 已經對應「太快」，frog 段落真正多出來的獨特處理方法是 adjust playback speed，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — position the camera where the animal will pass",
+      "answerKey": "B — position the camera where the animal will pass",
+      "type": "Question Analysis",
+      "prompt": "Bat這題的定位非常明確。Bat 只集中出現在 Paragraph F。",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes taking a good picture or shooting a good film is not just about technology; it also requires patience, as in the case of bats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時，拍一張好照片或拍一段好影片不只靠科技，也需要耐性，蝙蝠就是這樣的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although advanced triggering devices now allow unmanned shooting, it still may take several nights to get a truly high-quality film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然先進的觸發裝置現在可以進行無人拍攝，但要拍到真正高質素的影片，仍可能需要好幾個晚上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 的功能：拍攝 bats 的關鍵在於 patience、triggering device 和unmanned shooting。這段會說明拍攝位置和自動觸發方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： Bat Paragraph F 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Photographers or film-makers often place a camera near the bat cave, on the path of the flying bats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "攝影師或拍片者通常會把相機放在蝙蝠洞附近，也就是飛行蝙蝠會經過的路徑上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應選項 B。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的關鍵是："
+            },
+            {
+              "kind": "quote",
+              "text": "“place a camera near the bat cave, on the path of the flying bats”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩個位置資訊： 1. near the bat cave：靠近蝙蝠洞2. on the path of the flying bats：在蝙蝠飛行會經過的路徑上選項 B 寫： position the camera where the animal will pass"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把相機放在動物會經過的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原文的直接概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 題目選項place a camera position the camera on the path of the flying where the animal will pass bats bats animal"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 後半有 unmanned shooting，所以學生可能想找「沒有人工操作」的選項。但 Q30的選項中，與 bat 最直接對應的是 B。Unmanned shooting 會在 Q40 再考。這提醒學生：同一段可以服務不同題目；要看題目問 organism feature 還是 paragraph information。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "regular intervals",
+      "answerKey": "regular intervals",
+      "type": "— Summary Completion",
+      "prompt": "To present a naturally slow process to an audience, photographers take each picture with a 31 ______ before taking the next picture.",
+      "translation": "為了向觀眾呈現自然界中很慢的過程，攝影師每拍一張照片後，會隔一個固定時間再拍下一張。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One such technique is called fast motion, professionally known as time-lapse photography.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種技術稱為 fast motion，專業名稱是 time-lapse photography。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Objects and events that would normally take several minutes, days or even months can be viewed to completion in seconds after being sped up by factors of tens to millions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些本來需要幾分鐘、幾天，甚至幾個月才完成的物件和事件，在被加速數十倍至數百萬倍後，可以在幾秒內看完整個過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 正是講 naturally slow process 如何用 time-lapse 呈現，所以 Q31 應在這段找拍攝方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： naturally slow process each picture before taking the next picture原文中對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a series of photographs is taken at regular intervals”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一系列照片會以固定間隔拍攝。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "完整證據句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The principle used to present its growth is simple: a series of photographs is taken at regular intervals and arranged as a moving-image film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用來呈現其生長的原理很簡單：以固定間隔拍攝一系列照片，然後把它們排列成動態影像影片。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有： take each picture with a ______ before taking the next picture這在意思上對應： taken at regular intervals也就是每張照片之間有固定時間間隔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查字數限制：NO MORE THAN THREE WORDS"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：regular intervals"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：2 words，符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文take each picture a series of photographs is taken with a ___ before taking the next picture at regular intervals naturally slow process growth / slow natural event"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，所以有些答案表可能把答案寫成 regular interval。不過 passage 原文片語是regular intervals。若按「從文章抽詞」原則，最穩陣是保留原文複數；若按句子文法，單數形式也可理解。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "sequence",
+      "answerKey": "sequence",
+      "type": "— Summary Completion",
+      "prompt": "When these pictures are finally shown on screen in sequence at a normal motion picture rate, audiences see a 32 ______ that is faster than what it naturally is.",
+      "translation": "當這些圖片最後按順序以正常電影播放速度顯示時，觀眾會看到一個比自然速度更快的影像序列。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One such technique is called fast motion, professionally known as time-lapse photography.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種技術稱為 fast motion，專業名稱是 time-lapse photography。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Objects and events that would normally take several minutes, days or even months can be viewed to completion in seconds after being sped up by factors of tens to millions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些本來需要幾分鐘、幾天，甚至幾個月才完成的物件和事件，在加速後可以在幾秒內看完整個過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 slow natural process 透過照片序列變成 sped-up viewing，所以 Q32 應該在 “played back at normal speed” 附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： shown on screen in sequence normal motion picture rate faster than what it naturally is原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When played back at normal speed, the sequence appears continuous and sped up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當以正常速度播放時，這個序列看起來連續，而且被加速。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“When played back at normal speed, the sequence appears continuous and sped up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當以正常速度播放時，這個序列看起來連續，而且被加速。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，後面是 “that is faster than what it naturally is”。最自然對應是： a sequence原文中的 sequence 指前面那一系列照片被排列後形成的影像序列。這個 sequence 看起來"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sped up”，所以題目說它比自然速度更快。答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：sequence"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合要求。文法：a sequence，正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文shown on screen in sequence played back at a normal motion picture rate at normal speed audiences see a sequence the sequence appears faster than what it naturally is sped up"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有些學生可能想填 moving-image film，因為前一句有 “arranged as a moving-image film”。但Q32 後半句說 “that is faster than what it naturally is”，真正對應的是 “the sequence appears continuous and sped up”。所以 sequence 更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "time",
+      "answerKey": "time",
+      "type": "— Summary Completion",
+      "prompt": "This technique can make audiences feel as if 33 ______ is shrunk.",
+      "translation": "這種技術會讓觀眾感覺好像時間被縮短了。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One such technique is called fast motion, professionally known as time-lapse photography.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種技術稱為 fast motion，專業名稱是 time-lapse photography。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Objects and events that would normally take several minutes, days or even months can be viewed to completion in seconds after being sped up by factors of tens to millions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些本來需要幾分鐘、幾天，甚至幾個月才完成的物件和事件，在被加速後可以在幾秒內看完整個過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向同一個概念：time-lapse 把長時間壓縮成短時間觀看。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： shrunk原文中沒有 shrunk 的被動形式，但有非常接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Put simply: we are shrinking time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡單來說：我們正在縮小時間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Put simply: we are shrinking time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡單來說：我們正在縮小時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把主動句改成類似被動感覺： audiences feel as if time is shrunk也就是觀眾感覺時間被壓縮了。空格只需要名詞，所以答案是 time。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：time"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：as if time is shrunk，正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 題目shrinking time time is shrunk Put simply This technique can make audiences feel"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題非常直接，但仍要留意：空格不是填 shrinking time，因為題目已經有 “is shrunk”。若填"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shrinking time”，句子會變成 “as if shrinking time is shrunk”，文法和意思都不對。Summary completion 必須看空格前後文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "longer sequence",
+      "answerKey": "longer sequence",
+      "type": "— Summary Completion",
+      "prompt": "On the other hand, to demonstrate how fast things move, the movement is exposed on a 34 ______ of film, and then projected on screen at normal playback speed.",
+      "translation": "另一方面，為了展示快速物件如何移動，這些動作會被拍在一段較長的影片序列上，然後以正常播放速度投射到螢幕上。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another commonly used technique is high-speed photography, the science of taking pictures of very fast phenomena.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種常用技術是 high-speed photography，即拍攝非常快速現象的科學。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why high-speed cameras have become such a mainstay of biology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 high-speed cameras 成為生物學重要支柱的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Q34 講 “how fast things move”，這正好對應 Paragraph C 的 “very fast phenomena”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： movement exposed on a ___ of film projected on screen normal playback speed原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To do this, a longer sequence of film is captured at a high sampling frequency, or frame rate, which is much higher than the rate at which it will be projected on screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了做到這一點，一段較長的影片序列會以很高的 sampling frequency，也就是 frame rate，被拍攝下來；這個拍攝速度遠高於它之後在螢幕上投射的速度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前後是： on a ______ of film原文直接有： a longer sequence of film所以答案是 longer sequence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的技術原理是：拍攝時捕捉更多 frame，形成一段 longer sequence；播放時用正常速度放映，原本很快的動作就會顯得慢下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：longer sequence"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：2 words，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：on a longer sequence of film，正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文movement is exposed film is captured on a ___ of film a longer sequence of film normal playback speed projected on screen at a lower / normal rate"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 high sampling frequency 或 frame rate。這些詞在同一句出現，但題目空格後面有 “of film”，所以答案需要能接成 “a ___ of film”。longer sequence 才能自然接上 “of film”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "slowed down proportionately",
+      "answerKey": "slowed down proportionately",
+      "type": "— Summary Completion",
+      "prompt": "This makes viewers feel time is 35 ______.",
+      "translation": "這會令觀眾感覺時間被按比例放慢了。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another commonly used technique is high-speed photography, the science of taking pictures of very fast phenomena.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種常用技術是 high-speed photography，即拍攝非常快速現象的科學。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why high-speed cameras have become such a mainstay of biology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 high-speed cameras 成為生物學重要支柱的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Q35 繼續考 high-speed photography 的播放效果，因此仍定位 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： viewers feel time is原文有非常接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“When replayed at normal speed, time appears to be slowed down proportionately.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當以正常速度重播時，時間看起來會被按比例放慢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“time appears to be slowed down proportionately”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "viewers feel time is ______兩者結構非常接近。題目把 “appears to be” 改成 “viewers feel”，意思都是觀看者感受到的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填的就是： slowed down proportionately答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：slowed down proportionately"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：3 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：time is slowed down proportionately，正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文viewers feel appears time is time appears to be slowed down proportionately slowed down proportionately"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題答案不能只填 slowed down 嗎？如果只填 slowed down，意思基本成立，但原文完整片語是 slowed down proportionately。題目容許三個字，所以應保留 proportionately，因為它表示「按比例地」，正好反映 high frame rate 和 normal playback speed 之間的比例關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "— Matching Information",
+      "prompt": "a description of photography’s application in various fields",
+      "translation": "描述 photography 在不同領域中的應用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Photography gained the interest of many scientists and artists from its inception.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "攝影從一開始就引起了許多科學家和藝術家的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Various technological improvements and techniques have even made it possible to visualise events that are too fast or too slow for the human eye.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各種技術改良和技巧甚至使我們能夠看見對人眼來說太快或太慢的事件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph A 是全文引言：先講 photography 引起不同人群興趣，再引出它如何超越人眼限制。中間自然會列出不同 applications。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： application various fields原文沒有直接說 “various fields”，但列出多個應用群體和用途："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have used photography…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Artists are equally interested…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Military, police, and security forces use photography…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Photography is used by amateurs…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 逐步列出："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have used photography to record and study movements…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家用攝影記錄和研究動作。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Artists are equally interested…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術家同樣感興趣。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Military, police, and security forces use photography for surveillance, recognition and data storage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "軍隊、警察和保安部門使用攝影進行監視、識別和資料儲存。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Photography is used by amateurs to preserve memories, to capture special moments, to tell stories, to send messages, and as a source of entertainment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "業餘人士使用攝影保存回憶、捕捉特別時刻、講述故事、傳遞訊息，並作為娛樂來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 “photography’s application in various fields”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文application used / use photography various fields scientists, artists, military, police, security forces, amateurs description paragraph lists several purposes"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也談 photography 的未來和價值，但它沒有列出不同領域的具體用途。Q36 的控制詞是 application in various fields，所以最合適是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "— Matching Information",
+      "prompt": "a reference to why high-speed photography has a significant role in biology",
+      "translation": "提到 high-speed photography 為甚麼在生物學中有重要角色。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another commonly used technique is high-speed photography, the science of taking pictures of very fast phenomena.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種常用技術是 high-speed photography，即拍攝非常快速現象的科學。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why high-speed cameras have become such a mainstay of biology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 high-speed cameras 成為生物學重要支柱的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經非常明確。第一句定義 high-speed photography，最後一句直接說它是 biology 的mainstay。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： high-speed photography significant role biology原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“high-speed cameras have become such a mainstay of biology”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "mainstay 指支柱、核心支持。這對應題目的 “significant role”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 先列出生物研究應用："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the many applications is found in biological research into birds, bats and even spider silk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多應用之一是在對鳥類、蝙蝠，甚至蜘蛛絲的生物研究中。"
+            },
+            {
+              "kind": "label",
+              "text": "接著用 hummingbird 說明："
+            },
+            {
+              "kind": "quote",
+              "text": "“But a hummingbird flaps its wings up to 80 times every second.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜂鳥每秒最多拍動翅膀 80 次。"
+            },
+            {
+              "kind": "label",
+              "text": "再解釋："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only way to truly capture this motion is with cameras that will, in effect, slow down time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正捕捉這種動作的唯一方法，是使用能實際上把時間放慢的相機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is why high-speed cameras have become such a mainstay of biology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 high-speed cameras 成為生物學重要支柱的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Paragraph C 不只提到 biology，也解釋了原因：生物動作常常太快，high-speed cameras 能捕捉細節。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文significant role mainstay high-speed high-speed cameras photography in biology of biology / biological research why That is why"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也有 bats，而 bats 屬於生物；但 Q37 問的是 why high-speed photography has a significant role in biology。Paragraph C 有完整原因和總結句 “That is why… mainstay of biology”，所以答案是 C，不是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "— Matching Information",
+      "prompt": "a traditional wisdom that assures readers of the prospects of photography",
+      "translation": "用一句傳統智慧來讓讀者相信 photography 的前景。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Is it science? Is it art?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它是科學嗎？它是藝術嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No matter what future it may hold, photography will continue to develop because it has repeatedly demonstrated in many aspects of our lives that ‘a picture is worth a thousand words.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論未來如何，攝影都會繼續發展，因為它已經在生活許多方面反覆證明「一圖勝千言」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 是全文總結。它思考 photography 的本質和未來，最後用 proverb /traditional wisdom 收束。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： traditional wisdom prospects of photography原文中最像 traditional wisdom 的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a picture is worth a thousand words”"
+            },
+            {
+              "kind": "label",
+              "text": "這是一句諺語式表達。Prospects 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“photography will continue to develop”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No matter what future it may hold, photography will continue to develop…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論未來如何，攝影都會繼續發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接談 future / prospects。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘a picture is worth a thousand words’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一圖勝千言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一句傳統智慧，用來支持作者對 photography 未來的信心：攝影會繼續發展，因為它在生活中有強大表達力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文traditional wisdom “a picture is worth a thousand words” assures readers no matter what future it may hold, photography will continue to develop prospects of future / continue to develop photography"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也講 photography 的用途，似乎能說明它有前景；但 Q38 的核心是 traditional wisdom。只有 Paragraph G 有諺語式句子，所以答案必須是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "— Matching Information",
+      "prompt": "a reference to how film is processed before final release",
+      "translation": "提到影片在最終發布前如何被處理。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Things become even more complicated when filming a frog catching its prey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "拍攝青蛙捕捉獵物時，事情會變得更加複雜。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Voilà, the scientists can now sit back and enjoy watching without having to go through the pain of waiting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣，科學家就可以坐下來享受觀看過程，而不用經歷漫長等待的痛苦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的功能是講 frog footage 如何處理，令科學家既能看清 prey-catching，又不用長時間看慢動作游泳。這自然牽涉 editing / processing。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： processed before final release原文中沒有 “final release”，但有非常接近的處理階段："
+            },
+            {
+              "kind": "quote",
+              "text": "“at a later editing stage”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後期剪輯階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 film before final viewing / release 的處理過程。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The film will originally be shot at a high frame rate … but at a later editing stage this high frame rate will only be preserved for the prey-catching part, while the swimming part will be converted to the normal speed at 24 frames per second.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "影片最初會以高 frame rate 拍攝，但在後期剪輯階段，這種高 frame rate 只會保留在捕獵部分；游泳部分會轉換成每秒 24 格的正常速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完整說明了 film processing： 1. originally shot at high frame rate 2. later editing stage 3. high frame rate preserved only for prey-catching 4. swimming converted to normal speed所以 Q39 對應 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文film is processed editing stage / converted before final at a later editing stage release how high frame rate preserved for one part, normal speed for another"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也講 film captured at high frame rate and projected on screen，但它講的是high-speed photography 的基本原理；Paragraph E 明確說 later editing stage 和 converted to normal speed，這才是「最終觀看前如何處理影片」的資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "— Matching Information",
+      "prompt": "a description of filming without human effort",
+      "translation": "描述不需要人手操作的拍攝方式。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes taking a good picture or shooting a good film is not just about technology; it also requires patience, as in the case of bats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時，拍好照片或影片不只靠科技，也需要耐性，蝙蝠就是這樣的例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although advanced triggering devices now allow unmanned shooting, it still may take several nights to get a truly high-quality film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然先進的觸發裝置現在可以進行無人拍攝，但要拍到真正高質素的影片，仍可能需要好幾個晚上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接出現 unmanned shooting，所以 Paragraph F 是最明確答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： without human effort原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“unmanned shooting”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無人拍攝。"
+            },
+            {
+              "kind": "label",
+              "text": "另外，前面也描述了自動觸發過程："
+            },
+            {
+              "kind": "quote",
+              "text": "“every time a bat breaks the triggering beam, the camera fires…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每次蝙蝠打斷觸發光束，相機就會拍攝。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The camera must be hard-wired to a triggering device so that every time a bat breaks the triggering beam, the camera fires and it will keep doing so through the night until the camera’s battery runs out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相機必須以線路連接到觸發裝置，這樣每次蝙蝠打斷觸發光束，相機就會拍攝，並會整晚持續這樣做，直到電池耗盡。"
+            },
+            {
+              "kind": "label",
+              "text": "這句說明不需要人每次按快門。後面再總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although advanced triggering devices now allow unmanned shooting…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然先進的觸發裝置現在可以進行無人拍攝……題目中的 “without human effort” 對應原文 “unmanned shooting”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文filming shooting without human effort unmanned description triggering device, beam, camera fires automatically"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“without human effort” 不代表整個拍攝過程完全不用人。原文仍說 photographers place a camera near the bat cave，並且要把相機接到 triggering device。真正無人的是 拍攝觸發階段：蝙蝠飛過、打斷光束，相機自動拍攝。因此答案仍是 F。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -High speed photography.pdf",
+    "sha256": "c39b20c8afbef938ed8b28572268b3cede3967e614deced214465f0ee4f3c408",
+    "pageCount": 31
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "總述 photography 的歷史興趣、不同用途，以及科技如何讓人看見肉眼太快或太慢的事件。"
+      },
+      {
+        "number": "B",
+        "summary": "解釋 fast motion / time-lapse photography：用來拍攝自然界中太慢、肉眼難以追蹤的過程。"
+      },
+      {
+        "number": "C",
+        "summary": "解釋 high-speed photography：用來拍攝非常快的現象，特別在生物研究中重要。"
+      },
+      {
+        "number": "D",
+        "summary": "進一步說明 high-speed cameras如何 freeze motion，並用 cheetah slow-motion footage 作例子。"
+      },
+      {
+        "number": "E",
+        "summary": "用 frog catching prey 說明 filming speed adjustment：拍攝後在editing stage 調整播放速度，避免觀眾沉悶。"
+      },
+      {
+        "number": "F",
+        "summary": "說明拍攝 bats 需要耐性和camera-triggering device，可讓相機在無人操作下拍攝。"
+      },
+      {
+        "number": "G",
+        "summary": "總結 photography 的未來和價值，用傳統智慧 “a picture is worth a thousand words” 作結。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提醒：Q31 原文精確片語是 regular intervals。若你的答案表寫 regular interval，那是因為題目空格前已有 “a”，用單數形式令句子更順；但從 passage 直接抽出的原文片語是 regular intervals。三、逐題精析"
+  ]
+}

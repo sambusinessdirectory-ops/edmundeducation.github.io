@@ -1,0 +1,1429 @@
+{
+  "id": "p3-128-human-remain-in-green-sahara",
+  "catalogueId": "p3-128",
+  "catalogueIds": [
+    "p3-128"
+  ],
+  "passage": 3,
+  "title": "Human remain in Green Sahara",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "a detailed map",
+    "radiocarbon dating",
+    "9,000 years old",
+    "teeth",
+    "peaceful",
+    "injuries",
+    "protein",
+    "strenuous",
+    "hunting",
+    "cow species",
+    "transitional"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Hettwer accidentally found human remains in the desert.”",
+      "translation": "Hettwer 在沙漠中意外發現人類遺骸。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mike Hettwer, a photographer accompanying the team, headed off by himself toward a trio of small dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mike Hettwer 是隨隊攝影師，他獨自走向三個小沙丘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘I found some bones,’ Hettwer said, when the team had regrouped. ‘But they’re not dinosaurs. They’re human.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隊伍重新集合時，Hettwer 說：「我找到一些骨頭。但它們不是恐龍骨頭，是人類的。」只看首尾句，可以先猜 Paragraph B 是「發現人類骨骼」的段落。第一句說 Hettwer 只是攝影師，獨自走向沙丘；最後一句說他發現的是 human bones。這和題目中的 Hettwer、found、human remains 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Hettwer”, “human remains”, “accidentally”。原文沒有直接使用 accidentally，但有幾個相關訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“He crested the first slope and stared in amazement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他爬上第一個坡頂，驚訝地看著眼前景象。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The dunes were spilling over with bones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘上滿是骨頭。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “accidentally found”，重點是發現是否帶有偶然性。原文中 Hettwer 的身份是photographer，不是考古學家或專門負責挖掘的人；他 “headed off by himself”，只是自己走向沙丘；看到骨頭時 “stared in amazement”，表示發現出乎意料。這些細節合起來支援 “accidentally”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "accidentally found= headed off by himself + stared in amazement + found some bones human remains= “They’re human” bones判斷題目命題和原文資訊一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本題原文沒有直接寫 “accidentally”。但 TRUE / FALSE / NOT GIVEN 不要求逐字相同。這裡的偶然性由人物身份、行動方式和 “stared in amazement” 共同支撐，推論距離很短，可以接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Sereno and Garcea had cooperated on archaeological projects before.”",
+      "translation": "Sereno 和 Garcea 以前曾在考古項目上合作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the spring of 2005, Sereno contacted Elena Garcea, an archaeologist at the University of Cassino, in Italy, inviting her to accompany him on a return to the site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2005 年春天，Sereno 聯絡意大利 Cassino 大學的考古學家 Elena Garcea，邀請她陪同他返回該遺址。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She agreed to join him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她同意加入他。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先看到這段在講 Sereno 邀請 Garcea 加入隊伍。題目問兩人是否曾經合作，要看中間句是否交代 prior cooperation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sereno”, “Garcea”, “cooperated”, “before”。原文最直接的反向證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“But she had never heard of Paul Sereno.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但她從未聽過 Paul Sereno。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說兩人 “had cooperated … before”，這需要原文支援兩個人之前認識並一起做過考古項目。原文卻說 Garcea “had never heard of Paul Sereno”。如果她連 Sereno 這個人都未聽過，就不可能曾和他合作。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "had cooperated before= 以前合作過、彼此應已認識had never heard of Paul Sereno= 連這個人都未聽過這不是資料不足，而是有明確反向證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文直接排除過往合作的可能，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “archaeological projects” 很容易令人聯想到 Garcea 豐富的考古經驗。原文的確說她在 Sudan 和 Libyan Desert 做過三十年 excavations，但這只是她自己的經驗，沒有包含 Sereno。真正控制答案的是 “had never heard of Paul Sereno”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The rock engravings found in the Green Sahara are similar to those found elsewhere.”",
+      "translation": "Green Sahara 發現的岩石雕刻與其他地方發現的岩石雕刻相似。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落：全文快速掃描後，沒有段落以 rock engravings 作主題。Paragraph E 提到artifacts、fishhooks、harpoons；Paragraph J 提到 bones、DNA、teeth 和 burials。這些都和考古發現有關，但不等於 rock engravings。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “rock engravings”, “similar”, “elsewhere”。掃描全文，可見："
+            },
+            {
+              "kind": "quote",
+              "text": "“artifacts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fishhooks and harpoons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“animal bone”"
+            },
+            {
+              "kind": "quote",
+              "text": "“skeletons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“teeth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“DNA”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但沒有 “rock engravings” 或同義概念，例如 carvings on rocks、rock art、petroglyphs。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要兩層資訊：第一，Green Sahara 有 rock engravings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，它們與 elsewhere 的 rock engravings 相似。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有提供這兩點。即使 Paragraph E 提到 artifacts，也只是說他們 collected scores of artifacts，並具體列出 fishhooks and harpoons carved from animal bone。這裡的 “carved” 是指用動物骨頭製成魚鉤和魚叉，不能改寫成 rock engravings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷文章沒有足夠資料判斷題目真假，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“carved from animal bone” 容易誤導。它有 carved 這個詞，但對象是 fishhooks and harpoons，材料是 animal bone。題目問 rock engravings，即岩石上的雕刻，原文沒有這項發現，也沒有和其他地方比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "a detailed map",
+      "answerKey": "a detailed map",
+      "type": "Short-answer Questions",
+      "prompt": "“What did Sereno and Garcea produce during the initial weeks before excavation?”",
+      "translation": "Sereno 和 Garcea 在最初幾星期製作了甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS AND/OR A NUMBER"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the next three weeks, Sereno and Garcea – along with five American excavators, five Tuareg guides, and five soldiers from Niger’s army, sent to protect the camp from bandits—made a detailed map of the site, which they dubbed Gobero, after the Tuareg name for the area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接下來三星期，Sereno 和 Garcea 連同五名美國挖掘人員、五名 Tuareg 嚮導，以及五名被派來保護營地免受強盜襲擊的 Niger 士兵，為該遺址製作了一份詳細地圖；他們按當地 Tuareg 名稱把它稱為 Gobero。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apparently the Kiffian fishermen weren’t just going after small fry: Scattered near the dunes were the remains of Nile perch, a beast of a fish that can weigh nearly 300 pounds, as well as crocodile and hippo bones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然 Kiffian 漁民捕捉的不只是小魚：沙丘附近散落著 Nile perch 的遺骸，這種魚可重近 300 磅，此外還有鱷魚和河馬骨頭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句已能看到答案。題目問 “produce”，原文用 “made”；題目問 initial weeks，原文用 “Over the next three weeks”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sereno and Garcea”, “initial weeks”, “produce”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“made a detailed map of the site”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“made” 對應 “produce”。空格答案要回答 What，所以需要名詞短語。原文中可直接抄 “a detailed map”。三個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "produce= made during the initial weeks= Over the next three weeks"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：a detailed map"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "radiocarbon dating",
+      "answerKey": "radiocarbon dating",
+      "type": "Short-answer Questions",
+      "prompt": "“Why did Sereno send one tooth from each of four skulls to the laboratory?”",
+      "translation": "Sereno 為甚麼把四個 skulls 中各一顆 tooth 送到實驗室？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS AND/OR A NUMBER"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sereno flew home with the most important skeletons and artifacts and immediately began planning for the next field season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sereno 帶著最重要的骨骼和文物飛回家，並立即開始計劃下一個田野季節。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At least now the scientists knew who was who.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至少現在科學家知道誰是誰了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 講分析帶回的 skeletons and artifacts，並用結果區分 Kiffian 和Tenerian。題目問 tooth sent to lab，答案應在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “one tooth”, “four skulls”, “laboratory”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the meantime, he carefully removed one tooth from each of four skulls and sent them to a lab for radiocarbon dating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其間，他小心地從四個 skulls 中各取出一顆 tooth，並把它們送往實驗室作 radiocarbon dating。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Why，即目的。原文中 “for radiocarbon dating” 直接回答目的。答案兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "to the laboratory= to a lab Why did he send them?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= for radiocarbon dating"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：radiocarbon dating"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "9,000 years old",
+      "answerKey": "9,000 years old",
+      "type": "Short-answer Questions",
+      "prompt": "“How old were the larger, tightly bundled burials?”",
+      "translation": "那些較大型、緊緊捆束的 burials 有多古老？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS AND/OR A NUMBER"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sereno flew home with the most important skeletons and artifacts and immediately began planning for the next field season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sereno 帶著最重要的骨骼和文物飛回家，並立即開始計劃下一個田野季節。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At least now the scientists knew who was who.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至少現在科學家知道誰是誰了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是透過 radiocarbon dating 區分兩組 burial 年代。題目中的 tightly bundled burials 是非常強的定位短語。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “tightly bundled burials”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The results pegged the age of the tightly bundled burials at roughly 9,000 years old, the heart of the Kiffian era.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果把 tightly bundled burials 的年代定在約 9,000 年前，正值 Kiffian era 的核心時期。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 How old，答案是年齡。原文 “roughly 9,000 years old” 直接提供。由於字數限制，填"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“9,000 years old” 最穩妥。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "How old were…?= pegged the age at…larger, tightly bundled burials= tightly bundled burials"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：9,000 years old"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段後一句有 “6,000 years old”，但那是 “smaller ‘sleeping’ skeletons” 的年代，屬於 Tenerian period。題目問 tightly bundled burials，所以不能拿 6,000 年作答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "teeth",
+      "answerKey": "teeth",
+      "type": "Short-answer Questions",
+      "prompt": "“Which part of the remains did scientists examine to determine the genetic origins of the Kiffian and Tenerian?”",
+      "translation": "科學家檢查遺骸的哪一部分，以判斷 Kiffian 和 Tenerian 的 genetic origins？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS AND/OR A NUMBER"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Back in Arizona, Stojanowski continues to analyze the Gobero bones for clues to the Green Saharans’ health and diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "回到 Arizona 後，Stojanowski 繼續分析 Gobero 的骨頭，以尋找 Green Saharans 的健康和飲食線索。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gobero is at the end of its life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gobero 已經到了其生命週期的末端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph J 是研究後續和遺址時間壓力的結尾段。題目問 genetic origins，所以要掃描 DNA、teeth 等字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “genetic origins”, “Kiffian and Tenerian”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other scientists are trying to derive DNA from the teeth, which could reveal the genetic origins of the Kiffian and Tenerian – and possibly link them to descendants living today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他科學家正嘗試從 teeth 中提取 DNA；這可能揭示 Kiffian 和 Tenerian 的 genetic origins，甚至可能把他們和今天仍在世的後代連繫起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 remains 的哪一部分。原文說 “derive DNA from the teeth”。答案是 teeth，一個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "determine the genetic origins= reveal the genetic origins part of the remains= teeth"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：teeth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "peaceful",
+      "answerKey": "peaceful",
+      "type": "Summary Completion",
+      "prompt": "“Judging from the bones, the Kiffian appeared to be 34 ______, hardworking people…”",
+      "translation": "從骨頭判斷，Kiffian 似乎是 34 ______、勤勞的人。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even at the site, Arizona State University bioarchaeologist Chris Stojanowski could begin to piece together some clues.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使在遺址現場，Arizona State University 的 bioarchaeologist Chris Stojanowski 已能開始拼湊一些線索。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘This guy had a much less strenuous lifestyle,’ he said, ‘which you might expect of a herder.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「這個人的生活方式辛勞程度低得多，這正是你可能在牧民身上預期看到的。」首尾句顯示本段用骨頭推斷生活方式。題目中的 “Judging from the bones” 直接來自本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Judging from the bones”, “Kiffian”, “hardworking people”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Judging by the bones, the Kiffian appeared to be a peaceful, hardworking people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從骨頭判斷，Kiffian 似乎是一群和平、勤勞的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “be”，後面接 “hardworking people”，所以需要形容詞。原文直接提供 “peaceful”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Judging from the bones= Judging by the bones appeared to be= appeared to be"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：peaceful"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "injuries",
+      "answerKey": "injuries",
+      "type": "Summary Completion",
+      "prompt": "“…because no 35 ______ were found on their heads or forearms.”",
+      "translation": "因為在他們的頭部或前臂沒有發現 35 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H。這段前半講 Kiffian 的身體特徵和生活方式。題目空格前有 “no”，後面是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“were found”，所以答案需要複數名詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “heads or forearms”。原文句子：“‘The lack of head and forearm injuries suggests they weren’t doing much fighting,’ he told me.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他告訴我：「缺少頭部和前臂 injuries，表示他們沒有太多打鬥。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “The lack of head and forearm injuries” 改成 “no ______ were found on their heads or forearms”。空格應填 injuries。答案一個詞，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The lack of injuries= no injuries were found head and forearm= heads or forearms"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：injuries"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “fighting”。Fighting 是由 injuries 推出的結果；空格的文法需要可被 found 的名詞。原文真正可被發現的是 injuries。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "protein",
+      "answerKey": "protein",
+      "type": "Summary Completion",
+      "prompt": "“Their huge leg muscles suggest that their diet contained plenty of 36 ______…”",
+      "translation": "他們巨大的腿部肌肉顯示，他們的飲食含有大量 36 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H。這段中段有 Stojanowski 指著 femur 上的 ridge，推斷 Kiffian 的肌肉、飲食和生活方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “huge leg muscles”, “diet”, “plenty of”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This individual had huge leg muscles, which means he was eating a lot of protein and had a strenuous lifestyle — both consistent with a fishing way of life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個人有巨大的腿部肌肉，這意味著他吃了很多 protein，而且生活方式很辛勞；兩者都符合漁民的生活方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “diet contained plenty of” 對應原文 “eating a lot of”。空格需要不可數名詞。答案是protein。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "diet contained plenty of= was eating a lot of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：protein"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "strenuous",
+      "answerKey": "strenuous",
+      "type": "Summary Completion",
+      "prompt": "“…and that their lifestyle was 37 ______.”",
+      "translation": "並且他們的生活方式是 37 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H，與 Question 36 同一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “lifestyle”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“This individual had huge leg muscles, which means he was eating a lot of protein and had a strenuous lifestyle — both consistent with a fishing way of life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個人有巨大的腿部肌肉，意味著他吃很多蛋白質，而且生活方式很辛勞；兩者都符合漁民生活方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “was”，所以需要形容詞。原文直接給出 “strenuous”。答案一個詞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lifestyle was strenuous= had a strenuous lifestyle"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：strenuous"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段最後有 “much less strenuous lifestyle”，那是 Tenerian male 的情況。題目這裡仍在講Kiffian 的 huge leg muscles，所以答案要用 Kiffian 的 “strenuous”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "hunting",
+      "answerKey": "hunting",
+      "type": "Summary Completion",
+      "prompt": "“By contrast, Stojanowski believed the Tenerian preferred herding to 38 ______.”",
+      "translation": "相比之下，Stojanowski 認為 Tenerian 較偏向 herding，而非 38 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stojanowski’s assessment that the Tenerian were herders fits the prevailing view among scholars of life in the Sahara 6,000 years ago, when drier conditions favored herding over hunting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stojanowski 認為 Tenerian 是牧民，這符合學者對 6,000 年前 Sahara 生活的主流看法；當時較乾燥的環境使 herding 比 hunting 更有利。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps, Sereno reasoned, the Tenerian at Gobero were a transitional group that had not fully adopted herding and still relied heavily on hunting and fishing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sereno 推想，Gobero 的 Tenerian 也許是一個 transitional group，尚未完全採用 herding，仍大量依靠 hunting and fishing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段集中討論 Tenerian 的 herding、hunting 和 fishing 之間的關係。題目中的 herding to ____ 正好在首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “herding”, “preferred”, “Tenerian”。原文使用："
+            },
+            {
+              "kind": "quote",
+              "text": "“favored herding over hunting”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “preferred herding to ______” 改寫原文 “favored herding over hunting”。英文結構上： prefer A to B= favor A over B所以空格是 hunting。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：hunting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "cow species",
+      "answerKey": "cow species",
+      "type": "Summary Completion",
+      "prompt": "“However, only a few bones from animals such as a 39 ______ were found…”",
+      "translation": "然而，只找到少數來自某些動物的骨頭，例如 39 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I。首句說主流觀點認為 Tenerian 是 herders；中間卻提出疑問：如果是herders，herds 在哪裡？題目中的 “However” 對應這個質疑轉向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “only a few bones”, “animals”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the hundreds of animal bones that had turned up at the site, none belonged to goats or sheep, and only three came from a cow species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在遺址出土的數百塊動物骨頭中，沒有一塊屬於山羊或綿羊，只有三塊來自一種 cow species。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “only a few bones”，原文更精確地說 “only three”。題目說 “animals such as a ______”，原文可抄 “cow species”。兩個詞，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "only a few bones= only three animals such as a cow species= came from a cow species"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：cow species"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 goats 或 sheep。原文說 none belonged to goats or sheep，即完全沒有山羊或綿羊骨頭。真正有少量骨頭的是 cow species。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "transitional",
+      "answerKey": "transitional",
+      "type": "Summary Completion",
+      "prompt": "“…leading Sereno to suggest that the Tenerian at Gobero were a 40 ______ group at the time.”",
+      "translation": "這使 Sereno 提出，當時 Gobero 的 Tenerian 是一個 40 ______ group。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN TWO WORDS"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I。末句是段落結論，正好提出 Sereno 的推測。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sereno”, “Tenerian at Gobero”, “group”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps, Sereno reasoned, the Tenerian at Gobero were a transitional group that had not fully adopted herding and still relied heavily on hunting and fishing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sereno 推想，Gobero 的 Tenerian 也許是一個 transitional group，尚未完全採用 herding，仍大量依靠 hunting and fishing。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a”，後面是 “group”，所以需要形容詞。原文直接提供 “transitional”。答案一個詞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sereno suggest= Sereno reasoned were a ______ group= were a transitional group"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：transitional"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被 “herders” 吸引，但 summary 已經說 “However”。Sereno 的真正結論比 “they were herders” 更有保留：他認為他們可能處於過渡狀態，未完全採用 herding，仍依靠 hunting and fishing。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Human remain in Green Sahara.pdf",
+    "sha256": "44a83226cdf65f244e6e1613a10bd50a119a97d72297dddf7c608177510125c3",
+    "pageCount": 17
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "F",
+        "summary": "首句說 Sereno 帶著最重要的骨骼和文物回家，並計劃下一個 field season。末句說科學家終於知道 who was who。只看首尾句，可推測本段功能是用 radiocarbon dating 區分 Kiffian 和Tenerian。中間會講他從四個 skulls 各取一顆牙送去 lab，結果顯示 tightly bundled burials 約9,000 年，sleeping skeletons 約 6,000 年。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 2006 年秋天，他們帶著更大的挖掘隊和六位額外科學家回到 Gobero。末句提到一具男性骨架被埋葬時手指放在口中。只看首尾句，可見本段主要描寫第二次挖掘和新謎團。Garcea 希望挖掘約 80 個 burials，Tenerian skeletons 特別令人困惑。這段偏向過渡，將研究焦點帶到骨骼細節和文化解釋。"
+      },
+      {
+        "number": "H",
+        "summary": "首句引入 Arizona State University bioarchaeologist Chris Stojanowski，說他在現場已能拼出一些線索。末句比較 Tenerian male 的 femur，指出其生活方式較不辛苦，可能符合 herder。只看首尾句，可判斷本段功能是用 bones 推測 Kiffian 和 Tenerian 的生活方式。中間關鍵包括 Kiffian peaceful、hardworking、缺少 head and forearm injuries、吃大量 protein、生活 strenuous。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Stojanowski 認為 Tenerian 是 herders，這符合 6,000 年前 Sahara 在乾燥條件下herding 優於 hunting 的主流觀點。末句說 Sereno 推測 Gobero 的 Tenerian 可能是 transitional group，尚未完全採用 herding，仍大量依靠 hunting and fishing。只看首尾句，可知本段討論Tenerian 是否真的是牧民，以及動物骨頭證據不足帶來的疑問。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說回到 Arizona 後，Stojanowski 繼續分析 Gobero bones，以找出 Green Saharans 的健康和飲食線索。末句引用 Garcea 說 Gobero 已到生命週期末端。只看首尾句，可見本段是結尾段：研究仍在繼續，包括 DNA、genetic origins、未挖掘 burials；同時風沙正在侵蝕遺址，時間緊迫。這段會回答 genetics / teeth 題。"
+      }
+    ]
+  }
+}

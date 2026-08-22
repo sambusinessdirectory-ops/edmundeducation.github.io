@@ -1,0 +1,1742 @@
+{
+  "id": "p3-025-the-game-of-tennis",
+  "catalogueId": "p3-025",
+  "catalogueIds": [
+    "p3-025"
+  ],
+  "passage": 3,
+  "title": "The Game of Tennis",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "viii",
+    "i",
+    "xi",
+    "ix",
+    "ii",
+    "vi",
+    "v",
+    "developed",
+    "popular",
+    "dilapidated",
+    "influenced",
+    "resurgence",
+    "constructio"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "viii — Early Development",
+      "answerKey": "viii — Early Development",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game started to form into something recognizable in the 11th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項運動在十一世紀開始形成某種可辨認的樣子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A tennis historian, Roger Morgan, has theorized that the game owes its origins to games played in medieval streets, which is a nice idea but as the streets were also used as sewers, it couldn’t have been much fun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "網球史學家 Roger Morgan 提出理論，認為這項運動源於中世紀街道上的遊戲；這個想法雖然有趣，但由於當時街道也被當作下水道使用，玩起來大概不會太愉快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph B 主要處理 tennis 的早期形成和起源。第一句直接說started to form，最後一句也談另一種 origins theory，所以整段核心是早期發展。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 是： Early Development"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早期發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 中有多個支援 early development 的訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“It started as handball…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它一開始是手球。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Gradually… more enjoyable rules were adopted…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "逐漸地，較有趣的規則被採納。"
+            },
+            {
+              "kind": "quote",
+              "text": "“by the 14th century the game had spread from cloister to castle…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了十四世紀，這項運動已經由修道院迴廊傳到城堡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案原因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的時間線很清楚： 1. 11th century：開始形成可辨認的遊戲； 2. 最初是 monks 玩的 handball； 3. 規則逐步改變； 4. 場地特徵逐漸被加入、拆除或修改； 5. 到 14 世紀傳到 nobility。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是一項運動由初始形式逐漸變成成熟遊戲的過程，所以 Early Development 能覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他 headings x — Tennis and the Pope 很吸引，因為 Paragraph B 確實提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The monks enjoyed the game so much that the Pope banned the playing of it…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "修士太喜歡這項遊戲，以致教宗禁止他們玩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過 Pope 只是段落中的一個細節，不能概括整段。Paragraph B 從 11 世紀起源、手球、修士、規則變化、場地修改、傳到貴族，再到其他起源理論，範圍明顯比 Pope 更大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "i — The Golden Age of Tennis",
+      "answerKey": "i — The Golden Age of Tennis",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph C 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 16th and 17th centuries were the heyday of tennis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十六和十七世紀是 tennis 的全盛時期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern real tennis is virtually indistinguishable from the game played in those days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代 real tennis 幾乎和當時所玩的遊戲沒有分別。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經非常強。heyday 就是鼎盛期、全盛時期。最後一句指出現代 real tennis 和那個時期的形式幾乎一樣，表示那時候的 tennis 已經相當成熟。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i 是： The Golden Age of Tennis"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "網球的黃金時代。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的直接證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 16th and 17th centuries were the heyday of tennis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十六和十七世紀是 tennis 的全盛時期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heyday 和 Golden Age 是非常直接的同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案原因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 不只是說 tennis 很古老，而是集中描述它最興盛的時期："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was played by the nobility of France and Britain…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國和英國貴族都玩這項運動。"
+            },
+            {
+              "kind": "quote",
+              "text": "“there were reputedly 1,800 courts in Paris alone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據說單在巴黎就有 1,800 個球場。"
+            },
+            {
+              "kind": "quote",
+              "text": "“royalty being famous players”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "皇室成員也是著名玩家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些細節共同支援 Golden Age：大量球場、貴族參與、皇室熱衷，這些都說明 tennis 在當時非常流行和有社會地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他 headings vi — Tournament Tennis 不合適，因為 Paragraph C 沒有重點講巡迴賽、職業賽或正式比賽制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv — The Different Names of Tennis 是 Paragraph A 的內容，Paragraph C 沒有集中談名稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vii — Tennis During the War 也不合適，戰爭出現在 Paragraph H，並且只是影響復興的其中一個因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "xi — Tennis Equipment",
+      "answerKey": "xi — Tennis Equipment",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph D 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Originally, the game was played with the bare hand and later with a glove; then someone had the bright idea of attaching cord or tendons to the fingers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，這項運動是徒手玩的，後來改用手套；之後有人想到把繩線或腱狀物附在手指上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This method has been used throughout history, although other substances such as hair or wool were used for the centre, and the balls were a good deal lighter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種製球方法在歷史上一直被使用，不過球心也曾用過頭髮或羊毛等其他材料，而且那些球輕得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講手、手套、球拍雛形；末句講球的製作方法和材料。整段明顯圍繞 equipment，即器材。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading xi 是： Tennis Equipment"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "網球器材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 裡有大量器材詞：● bare hand● glove● cord or tendons● frame● handle● racket● ball● core of cork● cloth● string● felt這些詞都指向 equipment。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案原因"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 分成兩部分：第一部分講球拍如何由手演變出來："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a short step from there to attaching these cords to a frame and adding a handle to make a racket.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由此再把這些繩線固定在框架上並加上手柄，就很快形成了球拍。"
+            },
+            {
+              "kind": "label",
+              "text": "第二部分講球如何製作："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ball… is made with a core of cork, covered with cloth, tightly bound in string and covered in felt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種球以軟木為核心，外面包布，再用線緊緊纏住，最後覆上毛氈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading Tennis Equipment 能概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他 headings viii — Early Development 表面上也有發展過程，但 Paragraph D 的發展不是整項運動的起源，而是器材的演變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii — Court Construction Techniques 不合適，因為這段沒有講球場建造。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii — Modern Lawn Tennis 也不合適，Paragraph D 講的是 real tennis 的器材歷史，不是 lawn tennis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 xi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "ix — Other Descendants of Tennis",
+      "answerKey": "ix — Other Descendants of Tennis",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph E 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The influence of real tennis can most clearly be seen in the Basque games known by the catchall name of pelota.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "real tennis 的影響最清楚可見於統稱為 pelota 的巴斯克球類運動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Squash, though, derives from a game known as rackets which was developed in the debtor prisons of 17th- and 18th-century Britain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於 squash，它源自一種稱為 rackets 的遊戲；這種遊戲是在十七和十八世紀英國的債務人監獄中發展出來的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 real tennis 對 pelota 的影響；末句講 squash 的來源。這段不是只講一項運動，而是講其他運動和 tennis 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 是： Other Descendants of Tennis"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "網球的其他後代運動。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 中的關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probably most racket sports owe something to real tennis to some extent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大概多數球拍運動在某種程度上都受到 real tennis 的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句用 most racket sports 作概括，正好支援 “Other Descendants”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案原因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的內容包括：● Basque pelota；● 不同形式的 pelota；● court、ball、racket 的相似；● squash；● rackets；● debtor prisons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都不是 real tennis 本身的直接歷史，而是其他運動如何受它影響或與它有淵源。因此 Other Descendants of Tennis 是最能概括全段的 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他 headings xii — Tennis and Prisons 很容易令人誤選，因為最後一句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“debtor prisons of 17th- and 18th-century Britain”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十七和十八世紀英國的債務人監獄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是 prisons 只用來說明 squash 的來源，不是整段主題。整段更大範圍是 real tennis 對 pelota、squash 和其他 racket sports 的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "ii — Modern Lawn Tennis",
+      "answerKey": "ii — Modern Lawn Tennis",
+      "type": "Matching Headings",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph F 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As we have seen above, tennis of one kind or another has been played in France as far back as the 12th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如上所述，各種形式的 tennis 早在十二世紀已經在法國有人玩。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wooden rackets are now an anachronism, to the lament of the purists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "木製球拍現在已經成為過時之物，這令傳統主義者感到惋惜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句由古老 tennis 帶入，然後轉到 late nineteenth century 的 lawn tennis；最後一句談現代球拍材料和傳統木拍的消失。這段核心是 modern lawn tennis 的興起和變化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 是： Modern Lawn Tennis"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現代草地網球。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 的直接定位句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was not until the late nineteenth century, though, that lawn tennis became popular.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，直到十九世紀後期，lawn tennis 才開始流行。"
+            },
+            {
+              "kind": "label",
+              "text": "後面還提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1877 the All England Club held a tournament later to be known as Wimbledon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1877 年，All England Club 舉辦了一場後來被稱為 Wimbledon 的錦標賽。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案原因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 主要說明 lawn tennis 的誕生和現代化：● Major Walter Wingfield 設計一種比 croquet 更有活力的活動；● 這項活動結合 badminton 和 real tennis；● 原名 Sphairistike；● 1877 年出現 Wimbledon；● 球場由 hourglass shape 改成 rectangular court；● 服裝和器材改變；● 球拍材料由木製發展到 graphite and other compounds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些內容全部指向 lawn tennis 的現代形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他 headings vi — Tournament Tennis 有一定吸引力，因為段中提到 Wimbledon。不過 Wimbledon 只是lawn tennis 發展的一個事件，整段還講 Wingfield、規則、場地形狀、服裝和器材。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "xi — Tennis Equipment 也有一點吸引力，因為最後談球拍材料，但它只是後半段一個細節。整段主題更大，是 modern lawn tennis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "vi — Tournament Tennis",
+      "answerKey": "vi — Tournament Tennis",
+      "type": "Matching Headings",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph G 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nowadays there is a real tennis circuit as there is for lawn tennis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今 real tennis 像 lawn tennis 一樣，也有巡迴賽制度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact real tennis is now probably played at a higher standard than at any other time in its history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，real tennis 現在的比賽水平可能比歷史上任何時期都高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接講 circuit，即巡迴賽；最後一句講比賽水平。這段明顯聚焦現今 real tennis 的職業比賽系統和競技水平。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 是： Tournament Tennis"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "錦標賽／賽事網球。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 中有多個 tournament-related words："
+            },
+            {
+              "kind": "quote",
+              "text": "“circuit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“top professionals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“players travel round the world”"
+            },
+            {
+              "kind": "quote",
+              "text": "“top competitions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是比賽和職業巡迴賽的語義範圍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案原因"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The top professionals are as fit and skilled as their lawn tennis counterparts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "頂尖職業球員和 lawn tennis 的對應球員一樣健壯、技術高超。"
+            },
+            {
+              "kind": "quote",
+              "text": "“these players travel round the world playing the top competitions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些球員會環遊世界參加頂級比賽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子顯示 real tennis 現在有 professional circuit、top competitions 和 international travel，正好對應 Tournament Tennis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他 headings v — The Real Tennis Revival 更適合 Paragraph H，因為 H 講 renaissance、re-emergence、new courts 和 future bright。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "i — The Golden Age of Tennis 講的是 16、17 世紀，不是 nowadays。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ii — Modern Lawn Tennis 是 Paragraph F，Paragraph G 回到 real tennis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "v — The Real Tennis Revival",
+      "answerKey": "v — The Real Tennis Revival",
+      "type": "Matching Headings",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph H 選最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the mid-nineteenth century there was a renaissance in tennis and a flurry of court construction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀中期，tennis 出現復興，並掀起一陣球場建設熱潮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The future again looks bright for real tennis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "real tennis 的未來再次看起來光明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 renaissance，最後一句說 future again looks bright。整段核心是 real tennis 的復興。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 是： The Real Tennis Revival"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "real tennis 的復興。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 有多個 revival 訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“renaissance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“re-emergence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“has again begun to grow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new courts have been springing up”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部支援 revival。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案原因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 先說十九世紀中期出現 renaissance，再說第一次世界大戰打斷這次 re-emergence："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately the coming of the First World War cut short tennis’ re-emergence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不幸的是，第一次世界大戰的到來中斷了 tennis 的重新興起。"
+            },
+            {
+              "kind": "label",
+              "text": "之後又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the last 25 years tennis has again begun to grow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去二十五年，tennis 又再次開始增長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 again 非常重要，表示復興不只一次。新球場在 US、France、Australia、UK 出現，也有人談到 Holland、Russia、South Africa 的球場建設。這些都是 real tennis revival 的具體證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "排除其他 headings vii — Tennis During the War 容易令人誤選，因為段中提到 First World War。不過戰爭只是中斷復興的一個事件，不是整段主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iii — Court Construction Techniques 也不合適。Paragraph H 有 court construction，但沒有講建造技術，只講新球場出現和建造成本高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "developed",
+      "answerKey": "developed",
+      "type": "Summary Completion",
+      "prompt": "“The game started in Italy and France and the rules 35 ______ into the game played today.”",
+      "translation": "這項運動起源於意大利和法國，規則逐漸 ______ 成今天所玩的遊戲。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格詞性判斷空格前是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the rules”"
+            },
+            {
+              "kind": "label",
+              "text": "空格後是："
+            },
+            {
+              "kind": "quote",
+              "text": "“into the game played today”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格需要一個過去式動詞，形成： the rules developed into the game最自然的選字是 developed。"
+            },
+            {
+              "kind": "label",
+              "text": "原文定位目標段落：Paragraph B原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gradually, as monks travelled to other monasteries, more enjoyable rules were adopted, more bizarre rules were abandoned…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著修士逐漸前往其他修道院，較有趣的規則被採納，較古怪的規則被放棄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明規則經過逐步選擇、採納和淘汰，最後變成後來的遊戲形式。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the rules developed into the game played today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“more enjoyable rules were adopted, more bizarre rules were abandoned”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● developed into = gradually changed and formed into；● rules adopted / abandoned = 規則經過調整；● the game played today = recognizable form of tennis / modern real tennis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 developed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "popular",
+      "answerKey": "popular",
+      "type": "Summary Completion",
+      "prompt": "“The most 36 ______ period of play was about four to five hundred years ago…”",
+      "translation": "大約四、五百年前，是這項運動最 ______ 的時期。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格詞性判斷空格前是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most”"
+            },
+            {
+              "kind": "label",
+              "text": "空格後是："
+            },
+            {
+              "kind": "quote",
+              "text": "“period of play”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格需要形容詞。從 box 中看，popular 最合適： The most popular period of play原文定位目標段落：Paragraph C原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 16th and 17th centuries were the heyday of tennis.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "十六和十七世紀是 tennis 的全盛時期。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was played by the nobility of France and Britain and there were reputedly 1,800 courts in Paris alone…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "法國和英國貴族都玩這項運動，據說單在巴黎就有 1,800 個球場。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most popular period”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the heyday of tennis”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● heyday = 全盛期、最興旺時期；● popular period = 很多人玩、社會地位高、球場多；● four to five hundred years ago = 16th and 17th centuries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 popular。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "dilapidated",
+      "answerKey": "dilapidated",
+      "type": "Summary Completion",
+      "prompt": "“…with hundreds of courts in use, albeit some rather 37 ______.”",
+      "translation": "當時有數以百計的球場在使用，雖然其中一些相當 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格詞性判斷空格前是："
+            },
+            {
+              "kind": "quote",
+              "text": "“some rather”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡需要一個形容詞，用來形容 courts 的狀態。box 中 dilapidated 合適，意思是破舊、失修的。"
+            },
+            {
+              "kind": "label",
+              "text": "原文定位目標段落：Paragraph C原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“there were reputedly 1,800 courts in Paris alone at this time though a lot of these would have been quite ramshackle structures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "據說當時單在巴黎就有 1,800 個球場，不過其中很多可能是相當簡陋破舊的建築。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“some rather dilapidated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“quite ramshackle structures”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● dilapidated = 破舊、失修；● ramshackle = 搖搖欲墜、簡陋破爛；● courts = structures。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 dilapidated。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "influenced",
+      "answerKey": "influenced",
+      "type": "Summary Completion",
+      "prompt": "“Tennis has 38 ______ the development of other games including Basque pelota and the more recognisable lawn tennis.”",
+      "translation": "tennis 已經 ______ 其他運動的發展，包括 Basque pelota 和較多人認識的 lawn tennis。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格詞性判斷空格前是："
+            },
+            {
+              "kind": "quote",
+              "text": "“has”"
+            },
+            {
+              "kind": "label",
+              "text": "空格後是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the development of other games”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格需要過去分詞。box 中 influenced 最合適： has influenced the development原文定位目標段落：Paragraph E原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The influence of real tennis can most clearly be seen in the Basque games known by the catchall name of pelota.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "real tennis 的影響最清楚可見於統稱為 pelota 的巴斯克球類運動。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph F："
+            },
+            {
+              "kind": "quote",
+              "text": "“Major Walter Wingfield… devised an activity that was a hybrid of badminton and real tennis.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Walter Wingfield 設計了一種結合 badminton 和 real tennis 的活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋 lawn tennis 也與 real tennis 有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tennis has influenced the development of other games”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The influence of real tennis…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“a hybrid of badminton and real tennis”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● influence → influenced；● other games → Basque pelota, lawn tennis, squash；● development → owe something to real tennis / hybrid of badminton and real tennis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 influenced。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "resurgence",
+      "answerKey": "resurgence",
+      "type": "Summary Completion",
+      "prompt": "“Today the ‘old’ form of tennis is enjoying a 39 ______ with a professional tournament circuit and competitions played around the world…”",
+      "translation": "今天，這種「舊」形式的 tennis 正在經歷一場 ______，並有職業巡迴賽和世界各地的比賽。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格詞性判斷空格前是："
+            },
+            {
+              "kind": "quote",
+              "text": "“is enjoying a”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格需要單數名詞。box 中 resurgence 最合適，意思是復興、重新興起。"
+            },
+            {
+              "kind": "label",
+              "text": "原文定位目標段落：Paragraph H原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the mid-nineteenth century there was a renaissance in tennis and a flurry of court construction.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀中期，tennis 出現復興，並掀起一陣球場建設熱潮。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the last 25 years tennis has again begun to grow.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去二十五年，tennis 又再次開始增長。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“is enjoying a resurgence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“there was a renaissance”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“has again begun to grow”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● resurgence = renewed growth / revival；● renaissance = 復興；● again begun to grow = 再次開始增長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 resurgence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "construction",
+      "answerKey": "construction",
+      "type": "Summary Completion",
+      "prompt": "“…new courts are appearing despite high 40 ______ costs.”",
+      "translation": "雖然 ______ 成本高昂，新球場仍然正在出現。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "空格詞性判斷空格前是："
+            },
+            {
+              "kind": "quote",
+              "text": "“high”"
+            },
+            {
+              "kind": "label",
+              "text": "空格後是："
+            },
+            {
+              "kind": "quote",
+              "text": "“costs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格需要一個名詞作修飾語，形成： high construction costs意思是高昂的建設成本。"
+            },
+            {
+              "kind": "label",
+              "text": "原文定位目標段落：Paragraph H原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The high cost of building courts inhibits growth to some extent…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "建造球場的高昂成本在某種程度上限制了增長。"
+            },
+            {
+              "kind": "label",
+              "text": "後面接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“but new courts have been springing up in the US, France, Australia and the UK…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但新球場正在美國、法國、澳洲和英國出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“despite high construction costs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The high cost of building courts inhibits growth…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● construction costs = cost of building courts；● despite = although high cost inhibits growth, new courts still appear；● new courts are appearing = new courts have been springing up。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 construction。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Game of Tennis.pdf",
+    "sha256": "d75e850eb3cdce67b6ae24d3de0e1e7aba2e31abd617f7d21661b5337331c70a",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "介紹 real tennis 在不同國家的名稱，並指出它是最古老的 racket games。"
+      },
+      {
+        "number": "B",
+        "summary": "交代 tennis 由 11 世紀修道院手球逐步發展而成，並提到早期規則、教宗禁令和起源理論。"
+      },
+      {
+        "number": "C",
+        "summary": "描述 16、17 世紀 tennis 的鼎盛期：大量球場、貴族和皇室參與。"
+      },
+      {
+        "number": "D",
+        "summary": "說明 tennis 的器材發展，包括手套、球拍和手工縫製的球。"
+      },
+      {
+        "number": "E",
+        "summary": "說明 real tennis 對其他運動的影響，包括 Basque pelota 和 squash。"
+      },
+      {
+        "number": "F",
+        "summary": "介紹 lawn tennis 的興起、Wingfield、Wimbledon，以及現代球場、服裝和球拍材料的變化。"
+      },
+      {
+        "number": "G",
+        "summary": "描述現今 real tennis 的職業巡迴賽、專業球員和比賽水平。"
+      },
+      {
+        "number": "H",
+        "summary": "說明 real tennis 在十九世紀中期和近二十五年的復興，以及新球場建設。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "n全文段落地圖段落 功能A 介紹 real tennis 在不同國家的名稱，並指出它是最古老的 racket games。",
+    "B 交代 tennis 由 11 世紀修道院手球逐步發展而成，並提到早期規則、教宗禁令和起源理論。",
+    "C 描述 16、17 世紀 tennis 的鼎盛期：大量球場、貴族和皇室參與。",
+    "D 說明 tennis 的器材發展，包括手套、球拍和手工縫製的球。",
+    "E 說明 real tennis 對其他運動的影響，包括 Basque pelota 和 squash。",
+    "F 介紹 lawn tennis 的興起、Wingfield、Wimbledon，以及現代球場、服裝和球拍材料的變化。",
+    "G 描述現今 real tennis 的職業巡迴賽、專業球員和比賽水平。",
+    "H 說明 real tennis 在十九世紀中期和近二十五年的復興，以及新球場建設。"
+  ]
+}

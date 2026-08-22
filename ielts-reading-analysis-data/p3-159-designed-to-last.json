@@ -1,0 +1,1690 @@
+{
+  "id": "p3-159-designed-to-last",
+  "catalogueId": "p3-159",
+  "catalogueIds": [
+    "p3-159"
+  ],
+  "passage": 3,
+  "title": "Designed to Last",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "A",
+    "C",
+    "C",
+    "B",
+    "D",
+    "E",
+    "F",
+    "H",
+    "C",
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "A — People feel guilty when they throw things away easily.",
+      "answerKey": "A — People feel guilty when they throw things away easily.",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “conscience time” 在 Paragraph B 暗示甚麼。這是 Multiple Choice 題，要找出短語在上下文中的功能。Multiple Choice 題不能只看某一個字，要選最完整、最貼近原文的選項；Golden Manual 也提醒 MCQ 要處理題幹、Skim、Scan、Read、正確選項和錯項邊界。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Domestic power tools, such as electric drills, are a typical example of such waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "家用電動工具，例如電鑽，是這種浪費的典型例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In its design, manufacture, packaging, transportation, and disposal, a power tool consumes many times its own weight in resources, all for a shorter active lifespan than that of the average small insect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在設計、製造、包裝、運輸和棄置過程中，一件電動工具消耗的資源是自身重量的許多倍，結果只是換來比一般小昆蟲更短的實際使用壽命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段功能是用 electric drills 具體說明浪費有多嚴重。它會先指出這類工具是浪費例子，再用資源消耗和極短使用壽命作強烈對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞是 “conscience time”。引號內短語通常定位力很強。掃描 Paragraph B，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most will serve ‘conscience time’, gathering dust on a shelf in the garage; people are reluctant to admit that they have wasted their money.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most will serve ‘conscience time’, gathering dust on a shelf in the garage; people are reluctant to admit that they have wasted their money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數工具會經歷一段「良心時間」，在車房架子上積塵；人們不願承認自己浪費了金錢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“conscience” 指良心或內疚感。工具已經很少使用，但人們沒有立刻丟掉，因為丟掉就等於承認自己買錯、浪費金錢。因此 “conscience time” 指一段心理緩衝期：東西其實閒置了，但主人用「先放著」減輕內疚。選項 A 說 People feel guilty when they throw things away easily，意思最接近。原文沒有直接說guilty，但 “reluctant to admit that they have wasted their money” 正好說明這種內疚心理。錯項邊界： B 說車房架子需要清潔，這只抓住 “gathering dust” 的表面畫面，沒有抓到心理原因。C 說消費者不知道 waste problem，原文剛好顯示他們心裡知道浪費了錢。D 說工具使用後應放在正確位置，原文沒有談收納規則。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — character",
+      "answerKey": "C — character",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：在 mass production 之前，人們擁有物件是為了展示自己的甚麼。這題要回到 Paragraph C，因為該段首句已經說要理解 wastefulness，就要看 consumer motivation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand why we have become so wasteful, we should look to the underlying motivation of consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要理解我們為何變得如此浪費，我們應該看消費者背後的動機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the novelty fades we simply renew the excitement by buying more new stuff: what John Thackara of Doors of Perception, a network for sharing ideas about the future of design, calls the ‘schlock of the new’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當新鮮感消退時，我們便只是透過購買更多新東西來重新製造興奮感；這就是 Doors of Perception 的 John Thackara 所說的「新之劣質迷戀」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph C 的功能是解釋消費心理：人為何買物、為何丟物、為何不斷追逐 novelty。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Prior to mass production” 和 “owned things to show their…”。原文沒有直接寫prior to mass production，但有 “For most of human history” 以及 “In a world of mass production”。掃描 Paragraph C 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“People own things to give expression to who they are and to show what group of people they feel they belong to.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People own things to give expression to who they are and to show what group of people they feel they belong to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們擁有物件，是為了表達自己是怎樣的人，也為了顯示自己覺得屬於哪一類群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“who they are” 對應個人身份、性格、個性或 character。題目選項中，C character 最貼近 “who they are”。同段後面說，在大部分人類歷史中，人和物件有 intimate relationship，物件常由自己製作、家人傳下來，或由附近認識的工匠製造。這些細節支持「物件承載個人和社群身份」這個方向。錯項邊界： A quality 指品質，但原文重點不是展示物件質素。B status 可能被 “what group” 誘導，但 group belonging 不必然等於社會地位。D history 是物件擁有 history / narrative，不是人們用物件展示自己的 history。題目問 “their…”，最合適是 character。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — object stories that relate personally and meaningfully to their owners",
+      "answerKey": "C — object stories that relate personally and meaningfully to their owners",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “narrative” 在 Paragraph C 指甚麼。這是詞義題，但不能用字典解釋，要讀前後文。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand why we have become so wasteful, we should look to the underlying motivation of consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要理解我們為何變得如此浪費，我們應該看消費者背後的動機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the novelty fades we simply renew the excitement by buying more new stuff: what John Thackara of Doors of Perception, a network for sharing ideas about the future of design, calls the ‘schlock of the new’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當新鮮感消退時，我們便只是透過購買更多新東西來重新製造興奮感；這就是 John Thackara 所稱的「新之劣質迷戀」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示本段會解釋舊式物件關係和現代 novelty culture 的差異。“narrative” 很可能出現在舊式物件關係的部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "直接掃 “narrative”，找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chapman points out that all these factors gave objects a history – a narrative – and an emotional connection that today’s mass production cannot match.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chapman points out that all these factors gave objects a history – a narrative – and an emotional connection that today’s mass production cannot match.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chapman 指出，所有這些因素都令物件擁有一段歷史、一個故事，以及一種今天大量生產無法相比的情感連結。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “all these factors” 指前文提到的因素：自己製作、家人傳承、認識附近的專門製造者。這些因素令物件不只是一件可替換商品，也帶有個人經歷、家庭記憶、製作者關係和使用痕跡。因此narrative 在這裡可理解為「物件和擁有者之間的故事」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 最準確，因為它說 object stories that relate personally and meaningfully to their owners，正好對應 “history – a narrative – and an emotional connection”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項邊界： A 把 narrative 拉到 novelty culture，但原文 narrative 屬於 mass production 之前的 personal connection。B 說 buying new products 的動機，這是段落後半的 consumerist culture，不是narrative。D 說 manufacturers created image，原文講的是物件和擁有者的歷史連結，並非製造商塑造形象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — freshness",
+      "answerKey": "B — freshness",
+      "type": "Question Analysis",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：沒有 personal connection 時，人們買新東西是為了甚麼。答案仍在 Paragraph C 後半。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To understand why we have become so wasteful, we should look to the underlying motivation of consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若要理解我們為何變得如此浪費，我們應該看消費者背後的動機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the novelty fades we simply renew the excitement by buying more new stuff: what John Thackara of Doors of Perception, a network for sharing ideas about the future of design, calls the ‘schlock of the new’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當新鮮感消退時，我們便只是透過購買更多新東西來重新製造興奮感；這就是 John Thackara 所說的「新之劣質迷戀」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已可預測答案會和 novelty / newness / excitement 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Without a personal connection” 和 “buy new stuff”。原文有非常接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without these personal connections, consumerist culture instead idolizes novelty.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Without these personal connections, consumerist culture instead idolizes novelty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "失去這些個人連結後，消費文化改為崇拜新奇感。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“We know we can’t buy happiness, but the chance to remake ourselves with glossy, box-fresh products seems irresistible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們知道自己買不到幸福，但用閃亮、剛開箱般全新的產品重新塑造自己的機會，似乎令人難以抗拒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “buy new stuff for…” 對應原文的 “idolizes novelty” 和 “box-fresh products”。選項中沒有novelty，但 B freshness 最接近。freshness 在這裡不是食物新鮮，而是「剛買、全新、剛開箱」的吸引力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項邊界： A sharing 沒有出現。C collection 也沒有；人們不是為了收藏而買，重點在購買時的新鮮刺激。D family members 屬於前文家族傳承的舊式物件關係，和 modern novelty culture 方向不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D — emotional connections make us keep objects for longer.",
+      "answerKey": "D — emotional connections make us keep objects for longer.",
+      "type": "Question Analysis",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 old jeans 和 teddy bear 兩個例子用來說明甚麼。這是例子功能題，要看例子前後的主題句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a sustainable designer, Chapman’s solution is what he calls ‘emotionally durable design’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為一名可持續設計師，Chapman 的解決方案是他所稱的「情感上耐久的設計」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stahel says this is what sustainable design needs to do.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stahel 說，這正是可持續設計需要做到的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示：Paragraph D 不是單純講牛仔褲或玩具熊，而是用它們解釋 emotionally durable design。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “old jeans” 和 “teddy bear”。Paragraph D 中兩者都出現。old jeans 例子後面有："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is like they are sharing your life story.”"
+            },
+            {
+              "kind": "label",
+              "text": "teddy bear 例子後面有："
+            },
+            {
+              "kind": "quote",
+              "text": "“As adults, our teddy bear connects us to our childhoods, and this protects it from obsolescence.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is like they are sharing your life story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們就像正在分享你的人生故事。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“As adults, our teddy bear connects us to our childhoods, and this protects it from obsolescence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成年後，我們的玩具熊把我們和童年連接起來，而這種連結使它免於過時淘汰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "old jeans 經過長時間穿著和清洗，才有 “right feel”。teddy bear 即使破舊，我們也不急著買新的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩個例子共同說明：物件和個人記憶、人生故事、童年情感連在一起時，人會更願意保留它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說產品只因 practical utility 被使用，和 emotionally durable 相反。B 說 producers 應製造更特別的產品吸引消費者，太像 marketing，原文重點在長期情感關係。C 說 Chapman childhood poor，文章沒有這項資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E — slowly",
+      "answerKey": "E — slowly",
+      "type": "Question Analysis",
+      "prompt": "“Tim Cooper claims that although sustainable design proceeds 33 ________, the coming problems are pushing the movement.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Summary Completion。Golden Manual 提醒 Summary Completion 要先看空格前後文法，再掃描同義段落，並確認答案詞性和原文改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是動詞 “proceeds”，後面要填副詞。選項中可作副詞的是 properly、locally、slowly、quickly。意思上要對應 “although”，即雖然發展慢，但問題正在推動它。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not simply about making durable items that people want to keep.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不單純是製造人們想保留的耐用品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He thinks sustainable design has been ‘surprisingly slow to take off’ but says looming environmental crises and resource depletion are pushing it to the top of the agenda.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為可持續設計「起步慢得令人驚訝」，但也說迫近的環境危機和資源耗盡正在把它推到議程最前列。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Tim Cooper”、“sustainable design”、“proceeds”。Paragraph E 出現 “Tim Cooper”和 “sustainable design has been ‘surprisingly slow to take off’”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“surprisingly slow to take off” 意思是「起步慢得令人驚訝」。summary 將 “slow to take off” 改寫成“proceeds slowly”。所以 33 = E slowly。錯項邊界： G quickly 和原文方向相反。A properly 在 Paragraph E 出現於 “properly costing”，但那是另一句內容，不能填進 “proceeds ___”。C locally 屬於 Paragraph H 的 multi-local society，不屬於 Tim Cooper 這句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F — speed",
+      "answerKey": "F — speed",
+      "type": "Question Analysis",
+      "prompt": "“In agreement with Tim Cooper, Thackara believes that the origins of the looming environmental crises are weight and 34 ________.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “weight and”，所以需要一個和 weight 並列的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thackara agrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thackara 同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We have simply added information technology to the industrial era and hastened the developed world’s metabolism, Thackara argues.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thackara 認為，我們只是把資訊科技加到工業時代之上，並加快了已發展世界的新陳代謝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承接 Cooper，末句提到 metabolism。這段很可能解釋 Thackara 對危機根源的判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Thackara”、“origins”、“environmental crises”、“weight”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“For him, the roots of impending environmental collapse can be summarized in two words: weight and speed.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For him, the roots of impending environmental collapse can be summarized in two words: weight and speed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對他來說，迫近的環境崩潰的根源可以用兩個詞概括：重量和速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “origins of the looming environmental crises” 對應 “roots of impending environmental collapse”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 = F speed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項邊界： B energy 在同段出現，但它是移動物品時消耗的內容，不是 two words 其中之一。D economy和 H metabolism 在後面出現，但 34 的並列結構 “weight and ___” 已直接鎖定 speed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "H — metabolism",
+      "answerKey": "H — metabolism",
+      "type": "Question Analysis",
+      "prompt": "“Technology, which was assumed to have a positive effect on society, actually accelerates the world’s 35 ________.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “accelerates the world’s”，後面需要名詞。題目把原文 “hastened” 改成 “accelerates”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thackara agrees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thackara 同意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We have simply added information technology to the industrial era and hastened the developed world’s metabolism, Thackara argues.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thackara 認為，我們只是把資訊科技加到工業時代之上，並加快了已發展世界的新陳代謝。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Technology”、“positive effect”、“accelerates”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Information Age was supposed to lighten our economies and reduce our impact on the environment, but the reverse seems to be happening.”"
+            },
+            {
+              "kind": "label",
+              "text": "再看末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“hastened the developed world’s metabolism”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We have simply added information technology to the industrial era and hastened the developed world’s metabolism, Thackara argues.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Thackara 認為，我們只是把資訊科技加到工業時代之上，並加快了已發展世界的新陳代謝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Technology… actually accelerates” 對應原文 “information technology… hastened”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the world’s” 對應原文 “the developed world’s”。所以 35 = H metabolism。錯項邊界： D economy 看似接近，因為原文有 economies，但題目動詞是 accelerates，真正被加快的是metabolism。G quickly 是副詞，文法上不能放在 “world’s ___” 後面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "C — locally",
+      "answerKey": "C — locally",
+      "type": "Question Analysis",
+      "prompt": "“To address this, Manzini proposes a ‘multi-local society’, which means that every resource should be located and redeployed 36 ________.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前 “located and redeployed” 需要副詞。題目中的 “multi-local society” 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Manzini says a crucial step would be to redesign our globalized world into what he calls the‘multi-local society’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Manzini 說，關鍵一步是把我們全球化的世界重新設計成他所稱的「多本地社會」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These local hubs would then be connected to national and global networks to allow the most efficient use and flow of materials.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些本地樞紐之後會連接到全國和全球網絡，以便最有效地使用和流動材料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “multi-local society”、“every resource”。原文下一句直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“His vision is that every resource, from food to electricity generation, should as far as possible be sourced and distributed locally.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His vision is that every resource, from food to electricity generation, should as far as possible be sourced and distributed locally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的願景是，每一種資源，從食物到發電，都應盡可能在本地取得並在本地分配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “located and redeployed” 概括原文 “sourced and distributed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 = C locally。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項邊界： A properly 來自 Paragraph E，不屬於 Manzini 的 multi-local society。E slowly 是 sustainable design 發展速度。B energy 是資源種類之一，但文法和意思都不合空格。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“People often buy things that are seldom used and throw them away.”",
+      "translation": "人們常常買一些很少使用的東西，然後把它們丟掉。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "YES / NO / NOT GIVEN 題要逐項比較題目命題和原文命題；YES 需要方向一致，NO 需要明確衝突，NOT GIVEN 是缺少核心資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Domestic power tools, such as electric drills, are a typical example of such waste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "家用電動工具，例如電鑽，是這種浪費的典型例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In its design, manufacture, packaging, transportation, and disposal, a power tool consumes many times its own weight in resources, all for a shorter active lifespan than that of the average small insect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一件電動工具在設計、製造、包裝、運輸和棄置中消耗大量資源，實際使用壽命卻比一般小昆蟲更短。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “seldom used” 和 “throw them away”。Paragraph B 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“these things are thrown away having been used, on average, for just ten minutes.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However much DIY the purchaser plans to do, the truth is that these things are thrown away having been used, on average, for just ten minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不論購買者原本計劃做多少 DIY，事實是這些東西平均只使用了十分鐘便被丟掉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：People動作：buy things, seldom use them, throw them away程度：often原文命題：主體：purchasers of domestic power tools動作：tools are thrown away after only ten minutes’ use功能：a typical example of such waste"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“used… for just ten minutes” 對應 “seldom used”。“thrown away” 原字重現。“typical example” 支持題目中 “often” 的概括方向。所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用了 “things” 而原文例子是 power tools。這不是範圍錯誤，因為 Paragraph B 明確說power tools 是 “typical example of such waste”，用例子說明更大的 throwaway culture。題目沒有說所有東西都這樣，只說 people often buy things，方向可接受。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "“In a post-throwaway society, we will pay extra money after disposing of electronic goods.”",
+      "translation": "在後拋棄型社會中，我們會在棄置電子產品之後支付額外費用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We will spend less on material goods and more on services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們會少花錢在物質商品上，多花錢在服務上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As consumers become increasingly concerned about the environment, many big businesses are eagerly adopting sustainable design and brushing up their green credentials to please their customers and stay one step ahead of the competition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著消費者越來越關心環境，許多大企業正急切採用可持續設計，改善自身綠色形象，以取悅顧客並在競爭中領先一步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示 Paragraph J 會談未來消費模式、服務、企業和環保商業策略。題目提到post-throwaway society 和 electronic goods，應掃描這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“electronic goods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extra money”"
+            },
+            {
+              "kind": "quote",
+              "text": "“after disposing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Electronic goods will be designed to be recyclable, with the extra cost added to the retail price as prepayment.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Electronic goods will be designed to be recyclable, with the extra cost added to the retail price as prepayment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電子產品將被設計成可回收，而額外成本會加入零售價中，作為預先付款。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 after disposing，即棄置之後付款。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “added to the retail price as prepayment”，即購買時已經把額外成本放進售價，屬於預先付款。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有明確時間衝突：題目時間：after disposal原文時間：prepayment at retail purchase所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目和原文都有 electronic goods、extra cost、disposal / recyclable，表面很像。真正控制答案的是時間詞。看到 “extra cost” 不夠，還要看它何時支付。原文 “prepayment” 直接否定了 “after disposing”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "“Some businesses have jumped on the sustainability bandwagon.”",
+      "translation": "一些企業已經加入可持續發展這股潮流。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We will spend less on material goods and more on services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們會少花錢在物質商品上，多花錢在服務上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As consumers become increasingly concerned about the environment, many big businesses are eagerly adopting sustainable design and brushing up their green credentials to please their customers and stay one step ahead of the competition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著消費者越來越關心環境，許多大企業正急切採用可持續設計，改善自身綠色形象，以取悅顧客並在競爭中領先一步。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “businesses”、“sustainability bandwagon”。原文沒有 bandwagon，但有 “many big businesses”、“eagerly adopting sustainable design”、“brushing up their green credentials”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As consumers become increasingly concerned about the environment, many big businesses are eagerly adopting sustainable design and brushing up their green credentials to please their customers and stay one step ahead of the competition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著消費者越來越關心環境，許多大企業正急切採用可持續設計，改善自身綠色形象，以取悅顧客並在競爭中領先一步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “jumped on the sustainability bandwagon” 是較口語的概括，意思是加入一個流行趨勢。原文說 many big businesses eagerly adopting sustainable design，並改善 green credentials，以迎合顧客和競爭需要。這和「加入可持續潮流」方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Some businesses動作：joined sustainability trend原文命題：主體：many big businesses動作：eagerly adopting sustainable design and improving green credentials Some 比 many 保守，因此範圍沒有過大。答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“bandwagon” 有時帶少許貶義，似乎暗示企業是跟風。原文 “brushing up their green credentials to please customers and stay one step ahead of the competition” 也確實帶出商業動機。題目沒有說所有企業都虛偽，只說一些企業加入潮流，因此可判 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Companies will spend less on repairs in the future.”",
+      "translation": "公司將來會在維修方面花更少錢。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "可能目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We will spend less on material goods and more on services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們會少花錢在物質商品上，多花錢在服務上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As consumers become increasingly concerned about the environment, many big businesses are eagerly adopting sustainable design and brushing up their green credentials to please their customers and stay one step ahead of the competition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著消費者越來越關心環境，許多大企業正急切採用可持續設計，改善自身綠色形象，以取悅顧客並在競爭中領先一步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談未來消費、租用、共享、回收和企業策略，所以 “companies” 和 “future” 可能引導我們看Paragraph J。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “companies”、“repairs”、“future”、“spend less”。掃描 Paragraph J，可以找到businesses、services、rent、disposal、recyclable、extra cost、retail price、competition，但沒有repairs。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph J 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We will spend less on material goods and more on services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們會少花錢在物質商品上，多花錢在服務上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “we”，指 consumers，不是 companies。它也沒有說 repairs。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consumer durables will be sold with plans already in place for their disposal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "耐用消費品出售時，已經會有棄置安排。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句談 disposal plans，不涉及 repair costs。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句講 businesses adopting sustainable design，但沒有說它們將來會少花錢維修產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目需要的核心資料是：companies’ future repair spending decreases。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有企業採用 sustainable design、回收、棄置安排、租用和服務，但沒有提供 repairs，也沒有比較公司在維修上的開支會增加或減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 “more durable”、 “rent more”、 “disposal plans” 就推測產品更耐用後維修成本會下降。這是合理想像，但文章沒有明示。IELTS YES / NO / NOT GIVEN 題不能用常識補出missing evidence。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Designed to Last.pdf",
+    "sha256": "f441073013430a0c1763745fa631bb31c9aa2f36cb35005036c1015d75090748",
+    "pageCount": 18
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先介紹 Jonathan Chapman，身份是英國 Brighton 大學的 sustainable designer，所以這段一開始已經把焦點放在「設計」和「可持續」兩個主題上。末句說我們和 consumer durables 的短暫關係造成巨量浪費，由此可估計全段功能是引入 throwaway culture 的問題。讀者合理地可以先看到：文章會討論西方消費文化造成的環境浪費，並引出一批設計師嘗試用更耐用、更值得保留或更易回收的產品去回應這個問題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句以 domestic power tools，例如 electric drills，作為浪費的典型例子。末句把 power tool 的製造、包裝、運輸和棄置所消耗的資源，對比它比小昆蟲更短的 active lifespan。只看首尾句，已可估計這段會用具體產品說明浪費有多荒謬。它不是抽象談環保，而是把問題壓縮到一件很常見的家用工具：買回來、很少使用、放在車房、最後進 landfill。Questions 28 和 37 很可能會回到這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說若要理解人們為何如此浪費，要看 consumer motivation。末句說當 novelty 消退，人們便用購買更多新東西重新製造興奮感。只看這兩句，這段大概會解釋 throwaway culture 的心理根源：人們買東西不只是為了功能，也想表達身份、歸屬感和自我形象。後來大量生產削弱了物件和人的個人連結，消費文化便把焦點推向 novelty。Questions 29、30、31 幾乎都可以先定位到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接指出 Chapman 的方案叫 “emotionally durable design”。末句說 sustainable design 需要做到 teddy-bear factor 這件事。只看首尾句，段落功能已相當清楚：它會解釋一種設計理念，重點是讓人和物件建立情感關係，使物件不容易被淘汰。中間的 old jeans 和 teddy bear 很可能是例子，不是主題本身。Question 32 問舊牛仔褲和 teddy bear 的作用，目標段落自然是 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 sustainable design 不只是製造人們想保留的耐用品。末句說環境危機和資源耗盡正在把這個議題推到議程頂端。只看首尾句，可以估計這段會把討論由單件產品擴大到整個生產、能源使用和棄置系統。Tim Cooper 的觀點很可能在這段出現，因為段落轉向 broader system / culture。Question 33 提到 Tim Cooper 和 sustainable design proceeds slowly，應先掃這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句 “Thackara agrees” 顯示這段承接上一段 Tim Cooper 的環境危機討論。末句說我們只是把資訊科技加到工業時代之上，並加快 developed world’s metabolism。只看首尾句，讀者能先看到這段會解釋 environmental collapse 的根源，並批評 Information Age 原本應該減輕環境負擔，結果反而令經濟運轉更快。Question 34 的 weight and speed，以及 Question 35 的 metabolism，明顯屬於這段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說一旦理解問題，解方並不複雜：減少浪費和能源使用，少搬運物品，多用人。末句說Manzini 相信可以做到，而且他並不孤單。只看首尾句，這段大概由 diagnosis 轉到 cure。它會先列出大方向，再用 Manzini 的比喻說明轉型很困難，像飛機飛行中換引擎，但仍有可能。這段主要是 transition paragraph，帶出後面 multi-local society 的具體方案。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Manzini 認為關鍵一步是把全球化世界重新設計成 “multi-local society”。末句說這些 local hubs 會連接到 national and global networks，以便最有效地使用和流動材料。只看首尾句，這段功能是解釋 multi-local society 的定義：資源盡量本地取得和本地分配，同時保留更大網絡作協調。Question 36 的 locally 很可能在這裡找到。"
+      },
+      {
+        "number": "I",
+        "summary": "首句用問題開場：post-throwaway consumerism 會是甚麼模樣？末句列出 energy-saving light bulbs、more efficient washing machines、locally produced groceries 和 less packaging。只看首尾句，這段顯然開始描述未來消費方式的具體樣子。它先用問句引入將來圖像，再用簡單日常例子說明 sustainable products 會怎樣進入生活。這段較像總覽，為 Paragraph J 更詳細的ownership / rental / recycling 改變鋪路。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說我們會少花錢買 material goods，多花錢買 services。末句說大企業正急切採用sustainable design，改善 green credentials，以迎合顧客並保持競爭優勢。只看首尾句，可以推測這段處理 post-throwaway society 的消費模式轉變：少擁有，多共享、多租用，產品出售時已安排棄置或回收成本。Questions 38、39、40 很可能在這段，因為它提到 future consumerism、prepayment、business behaviour 和 competition。 Question Analysis"
+      }
+    ]
+  }
+}

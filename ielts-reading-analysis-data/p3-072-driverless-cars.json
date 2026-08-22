@@ -1,0 +1,2017 @@
+{
+  "id": "p3-072-driverless-cars",
+  "catalogueId": "p3-072",
+  "catalogueIds": [
+    "p3-072"
+  ],
+  "passage": 3,
+  "title": "Driverless cars",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "A",
+    "A",
+    "B",
+    "C",
+    "B",
+    "C — Jason Steiner",
+    "B — Susie Greenacre",
+    "C — Jason Steiner",
+    "A — John Reynolds",
+    "C — Jason Steiner",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — Potentially, fully automated taxis are more cost-effective than normal taxis.",
+      "answerKey": "D — Potentially, fully automated taxis are more cost-effective than normal taxis.",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "以下哪一項說法準確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Which of the following statements is accurate?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To date, Uber has provided a chauffeur-driven taxi service for American clients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至今，Uber 為美國客戶提供的是由司機駕駛的的士服務。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For car users and Uber, it is a win-win situation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對汽車使用者和 Uber 來說，這是一個雙贏局面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 會說明 Uber 由傳統有人駕駛服務轉向 driverless taxis 的原因，尤其是雙方可得到的好處。題目問哪一項 accurate，D 提到 cost-effective，最可能在這段找到支援。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目選項 D 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“fully automated taxis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more cost-effective”"
+            },
+            {
+              "kind": "quote",
+              "text": "“normal taxis”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hiring a driverless cab means that the client does not have to pay for the cost of the driver in the cab fee.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聘用一輛無人駕駛的士，代表客戶不需要在車費中支付司機成本。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only cost incurred by clients is for fuel, plus wear and tear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "客戶需要承擔的成本只有燃油，加上車輛損耗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句建立了清楚的成本鏈： driverless cab→ 沒有司機成本→ 客戶只需支付 fuel 和 wear and tear→ 乘車成本有機會比傳統有人駕駛的士低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “more cost-effective” 概括原文的成本優勢。原文沒有逐字說 cheaper，但 “does not have to pay for the cost of the driver” 已經直接支援「更具成本效益」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A. Driverless cars conform to safety regulations. Paragraph 4 說現行法律仍要求有 full licence driver 坐在方向盤後，代表 A 和原文不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. There is an obvious market for fully automated cars.原文只說 Uber believes car owners will embrace the idea，這是 Uber 的看法，不足以證明市場obvious。Paragraph 5 還說 Uber 似乎沒有完全信心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. Human drivers are no competition for driverless cars.原文說 robot drivers generally safer，但法律仍要求人類司機，沒有說人類司機完全沒有競爭力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 27 是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — will prove controversial",
+      "answerKey": "A — will prove controversial",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "Uber 正投資一項怎樣的技術？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Uber is investing in a technology that…"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要看全文對該技術的總體反應，主要目標段落是 Paragraph 2–5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 第一、最後一句顯示 Uber 投入 driverless taxis 的商業動機；Paragraph 3 第一、最後一句顯示 car industry 感到 alarm；Paragraph 4 第一、最後一句顯示 safety 和 legal liability； Paragraph 5 最後一句說這項技術是 doomed venture 還是 universally welcomed depends entirely on your viewpoint。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些段落合起來呈現的是爭議性，而不是單一正面結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uber”"
+            },
+            {
+              "kind": "quote",
+              "text": "“investing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“technology”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Venturing into the realms of driverless cars is therefore a new direction which will require massive investment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入無人駕駛汽車領域，因此是 Uber 的新方向，並且需要大量投資。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph 3："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not everyone, however, will benefit from this technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，並非所有人都會從這項技術受益。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from the commercial aspect, there is also the issue of safety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了商業層面，還有安全問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文多次顯示這項技術會引起不同立場： 1. Uber 和 car users 可能受益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. Car industry 感到 alarm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. Taxi drivers 可能失去生計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4. Legislative authorities 有 safety concerns。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "5. 法律責任可能變成 lawsuits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 A 說 “will prove controversial”，即會引起爭議。這正好概括全文不同持份者的分歧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： B. has been tried and tested Paragraph 2 說 “technology has yet to catch up with the idea of a fully autonomous vehicle”，表示技術仍未成熟到完全自動車階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. is unlikely to prove cost-effective Paragraph 2 說客戶不用支付司機成本，Uber 也可把司機從 payroll 移除，成本方向其實偏正面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. will be universally welcomed Paragraph 5 直接說是否 universally welcomed depends entirely on your viewpoint，Paragraph 6 的 John Reynolds 明確反對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — They have become a reality in many countries.",
+      "answerKey": "A — They have become a reality in many countries.",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "關於 driverless cars，哪一項不正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is NOT true about driverless cars?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph 1–4。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Driverless cars may be set to become a reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無人駕駛汽車可能即將成為現實。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“technology has yet to catch up with the idea of a fully autonomous vehicle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "技術仍未追上 fully autonomous vehicle 這個想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩處，已經可以判斷：文章說它「可能」成為現實，也說技術尚未完全到位。選項 A 說它已在 many countries 成為現實，方向過強。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "label",
+              "text": "A 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“become a reality”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文只出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“may be set to become a reality”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 may 很重要，表示可能性，不是既成事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也沒有 “many countries” 這項資料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案與其他選項"
+            },
+            {
+              "kind": "label",
+              "text": "A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have become a reality in many countries.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含兩個要求： 1. driverless cars 已經成為現實； 2. 這件事發生在 many countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有支援這兩點。相反，文章開首用 “may be set to become a reality”，Paragraph 2 又說fully autonomous vehicle 的技術仍未完全追上概念。因此 A 是 NOT true。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項有原文支援： B. They may improve road safety. Paragraph 4 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst robot drivers, on the whole, are generally safer than their human counterparts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整體而言，機械司機通常比人類司機更安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. They will reduce the cost of travelling. Paragraph 2 說客戶不需要支付司機成本，只需承擔燃油和損耗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. They will endanger jobs. Paragraph 2 說 taxi drivers 會從 Uber payroll 移除；Paragraph 6 的 John Reynolds 也提到livelihoods。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — It currently doesn’t favour fully automated cars.",
+      "answerKey": "B — It currently doesn’t favour fully automated cars.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "關於現行法律，可以怎樣說？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What can be said about current legislation?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from the commercial aspect, there is also the issue of safety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了商業層面，還有安全問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consortium of researchers put it, ‘If self-driving cars cut the roughly 40,000 annual US traffic fatalities in half, the car makers might get not 20,000 thank-you notes, but 20,000 lawsuits.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一個研究者聯盟所說，如果自動駕駛汽車把美國每年約 40,000 宗交通死亡減半，汽車製造商可能收到的不是 20,000 封感謝信，實際可能是 20,000 宗訴訟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 4 集中在安全、法律、責任風險。題目問 legislation，目標段落非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“current legislation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fully automated cars”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Currently, no matter how much automation a car has, the law still requires a driver with a full licence behind the wheel before it can travel on public roads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，不管汽車有多少自動化功能，法律仍要求有一名持有完整駕照的司機坐在方向盤後，汽車才可以在公共道路上行駛。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the law”，也就是現行法律。核心動詞是 “still requires”，表示目前仍然要求人類司機在場。這直接限制 fully automated cars，因為真正的 fully automated car 不需要人類司機在方向盤後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，current legislation 目前不支持完全自動車自由上路。選項 B “currently doesn’t favour fully automated cars” 最貼近。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A. It is in favour of driverless cars.原文方向相反，法律仍要求人類司機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. It currently doesn’t favour fully automated cars.正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. It is keeping up with technology.原文沒有說法律正在跟上科技；現行規則仍要求人類司機，反映法律仍限制完全自動化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. It already accommodates driverless cars."
+            },
+            {
+              "kind": "paragraph",
+              "text": "“already accommodates” 表示已經容許或配合，和 “law still requires a driver” 不合。所以 30 是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — The introduction of driverless cars will threaten their livelihoods.",
+      "answerKey": "C — The introduction of driverless cars will threaten their livelihoods.",
+      "type": "Multiple Choice",
+      "prompt": "Question 31",
+      "translation": "汽車製造商一般持有甚麼看法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is the general view held by car manufacturers?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not everyone, however, will benefit from this technology. The car industry is an obvious example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，並非所有人都會從這項技術受益。汽車業就是明顯例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, the industry is dragging its feet over the manufacture and introduction of fully automated vehicles onto the market for commercial reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，基於商業原因，汽車業在 fully automated vehicles 的製造和推出市場方面拖慢腳步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段談的是 car industry 對 driverless cars 的防備心態，尤其是商業利益受威脅。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“car manufacturers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“general view”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not surprisingly, the industry views the concept of self-driving cars with a sense of growing alarm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫不令人意外，汽車業以日益加深的警覺感看待 self-driving cars 這個概念。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such technology could well prove the death knell for private car ownership.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種技術很可能成為私人汽車擁有模式的喪鐘。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 car industry 感到 “growing alarm”，原因是 driverless taxis / self-driving cars 可能令私人汽車擁有變得不再必要。一旦 private car ownership 下降，汽車製造商的核心商業模式會受到威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 “threaten their livelihoods”。這裡的 livelihoods 可理解為汽車業賴以生存的商業收入和市場需求。它概括了 “death knell for private car ownership” 和 “commercial reasons”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A. Driverless cars are more dangerous than non-automated cars.安全疑慮在 Paragraph 4 出現，但那是 legislative authorities 和研究者責任問題，並非 car manufacturers 的主要商業立場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B. Fully automated cars are too expensive to manufacture.原文沒有說製造成本太高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. Technology is still too underdeveloped to manufacture driverless cars. Paragraph 2 確實說 technology has yet to catch up，但 Paragraph 3 明確指出 car industry 拖慢推出是 “for commercial reasons”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — He reserves judgement as to whether fully automated cars will become a",
+      "answerKey": "B — He reserves judgement as to whether fully automated cars will become a",
+      "type": "Multiple Choice",
+      "prompt": "Question 32",
+      "translation": "關於作者對 driverless cars 的看法，可以怎樣說？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reality.題目問： What can be said about the writer’s opinion of driverless cars?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, Uber is now undertaking an aggressive hiring campaign for taxi drivers to meet the demand for its taxi app.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，Uber 現在正積極招聘的士司機，以應付其的士 app 的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether Uber is pursuing a doomed venture or is about to introduce a technology that will be universally welcomed depends entirely on your viewpoint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uber 正在追求一項注定失敗的事業，還是即將推出一項會受到普遍歡迎的技術，完全取決於你的觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到作者保持開放態度：一方面指出 Uber 正投資 driverless cars，另一方面也指出 Uber 仍在聘請司機，並把最終判斷留給不同 viewpoint。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“writer’s opinion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“driverless cars”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最明確的作者態度句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether Uber is pursuing a doomed venture or is about to introduce a technology that will be universally welcomed depends entirely on your viewpoint.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供兩個極端可能： 1. doomed venture：注定失敗的計劃； 2. universally welcomed technology：受普遍歡迎的新科技。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者沒有明確選其中一方，只說 depends entirely on your viewpoint。這表示作者在這篇文章中保留判斷，呈現不同立場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “reserves judgement as to whether fully automated cars will become a reality” 最貼近這種語氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A. He is uninterested in, but sceptical about, the development of such technology.文章明顯深入討論該技術，不能說 uninterested。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C. He believes that such a technology will never become a reality.原文用 may、depends on your viewpoint，沒有下這種定論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D. He is critical of Uber’s plans to introduce fully automated cars.作者呈現 Uber、car industry、drivers、residents、teacher 等多方觀點，沒有單方面批評 Uber。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — Jason Steiner",
+      "answerKey": "C — Jason Steiner",
+      "type": "Matching People",
+      "prompt": "This person is willing to give up control of their vehicle because they appreciate the benefits of fully automated cars.",
+      "translation": "這個人願意放棄自己控制車輛，因為欣賞 fully automated cars 的好處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jason Steiner, a schoolteacher in a Pittsburgh secondary school, is inclined to agree with Susie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jason Steiner 是 Pittsburgh 一所中學的老師，他傾向同意 Susie 的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would be slightly wary, though, of being completely dependent on a robot-driven car when it had to react to unexpected obstacles in the road.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，如果要完全依賴一輛 robot-driven car 去應對路上的突發障礙，我會有點警惕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Jason 是支持但帶保留的人。他傾向同意 driverless cars 的好處，同時仍有安全疑慮。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“willing to give up control”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fully automated cars”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst I’m not averse to driving, I would swap the stressful daily commute by car for a driverless journey if I had the chance!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我不抗拒開車，但如果有機會，我會把壓力大的每日開車通勤，換成一次無人駕駛旅程。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“It just takes the pressure off driving.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它可以減輕駕駛壓力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jason 說自己 “not averse to driving”，即他並不討厭開車。不過在 daily commute 這個情境下，他願意改乘 driverless journey，原因是它 “takes the pressure off driving”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “give up control of their vehicle” 對應 “swap the stressful daily commute by car for a driverless journey”。題目中的 “appreciate the benefits” 對應 “takes the pressure off driving”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Susie 也非常支持無人駕駛，但 Question 34 更直接對應她 “never want to drive again”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 33 的「因為欣賞 fully automated cars 的好處而願意在某些情境下交出控制權」更貼近Jason。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "B — Susie Greenacre",
+      "answerKey": "B — Susie Greenacre",
+      "type": "Matching People",
+      "prompt": "This person would have no regrets about giving up driving entirely in favour of being driven by a fully automated car.",
+      "translation": "這個人若完全放棄開車、改由 fully automated car 接送，也不會後悔。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Susie Greenacre, a resident of Pittsburgh, has no such reservations about driverless cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pittsburgh 居民 Susie Greenacre 對 driverless cars 沒有這些保留。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I think if I could just hop in a driverless car which would take me anywhere I wanted, I would never want to drive again!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我想，如果我可以直接坐進一輛無人駕駛車，讓它帶我去任何我想去的地方，我便再也不想開車了。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“no regrets”"
+            },
+            {
+              "kind": "quote",
+              "text": "“giving up driving entirely”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fully automated car”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would never want to drive again!”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“never want to drive again” 比 “give up driving entirely” 更強。Susie 的語氣非常明確：她不只願意試用 driverless car，更說如果可以讓車帶她去任何地方，她便不想再駕駛。她的前一句也支援這種態度：“I’m all for it. Driverless cars have my backing, any day!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我完全支持。Driverless cars 任何時候都得到我的支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “would have no regrets about giving up driving entirely”，這是對 Susie 態度的合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — Jason Steiner",
+      "answerKey": "C — Jason Steiner",
+      "type": "Matching People",
+      "prompt": "This person is aware that the new technology of driverless cars may not provide an adequate substitute for a human driver.",
+      "translation": "這個人意識到 driverless cars 這項新技術，可能未必能完全取代人類司機。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jason Steiner, a schoolteacher in a Pittsburgh secondary school, is inclined to agree with Susie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jason Steiner 是 Pittsburgh 一所中學的老師，他傾向同意 Susie 的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would be slightly wary, though, of being completely dependent on a robot-driven car when it had to react to unexpected obstacles in the road.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，如果要完全依賴 robot-driven car 來應對道路上的突發障礙，我會有點警惕。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“may not provide an adequate substitute”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human driver”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接說 human driver substitute，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“slightly wary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“completely dependent on a robot-driven car”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unexpected obstacles in the road”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jason 的疑慮很清楚：在一般情況下，他願意乘坐 driverless journey；可是遇到 unexpected obstacles，他對完全依賴 robot-driven car 有保留。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這句概括成：無人駕駛技術可能未必完全足以取代人類司機。這是短距離推論，因為如果robot-driven car 面對突發障礙的反應令人擔心，就代表它仍可能不如人類司機靈活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A — John Reynolds",
+      "answerKey": "A — John Reynolds",
+      "type": "Matching People",
+      "prompt": "This person believes that those affected adversely by new technology should be protected from its effects.",
+      "translation": "這個人認為，受到新科技不利影響的人應得到保護。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Reynolds, a Pittsburgh taxi driver, is angry at Uber’s attitude towards fully automated technology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pittsburgh 的士司機 John Reynolds 對 Uber 對 fully automated technology 的態度感到憤怒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I guess I’m biased, being a taxi driver myself, but it’s difficult to see it objectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我想我自己是的士司機，所以有偏見，但要客觀看待這件事很難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 John 是受直接影響的一方。他的觀點圍繞 livelihoods 和保障。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“affected adversely”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new technology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protected”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“there should be some safeguards in place to protect those potentially affected by the introduction of new technologies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應該設有一些保障措施，以保護那些可能受到新科技引入影響的人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “protected from its effects” 對應原文 “safeguards in place to protect”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “those affected adversely” 對應原文 “those potentially affected”。"
+            },
+            {
+              "kind": "label",
+              "text": "John 前文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are completely disregarding individual livelihoods, such as mine…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們完全忽視個人生計，例如我的生計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明他擔心新科技損害司機和汽車業相關人士的生活。因此 Question 36 明確對應 John Reynolds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — Jason Steiner",
+      "answerKey": "C — Jason Steiner",
+      "type": "Matching People",
+      "prompt": "This person enjoys driving but only under favourable conditions.",
+      "translation": "這個人喜歡或至少不抗拒開車，但只在較理想情況下如此。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jason Steiner, a schoolteacher in a Pittsburgh secondary school, is inclined to agree with Susie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jason Steiner 是 Pittsburgh 一所中學的老師，他傾向同意 Susie。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would be slightly wary, though, of being completely dependent on a robot-driven car when it had to react to unexpected obstacles in the road.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，如果要完全依賴 robot-driven car 去應對道路上的突發障礙，我會有點警惕。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“enjoys driving”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only under favourable conditions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst I’m not averse to driving, I would swap the stressful daily commute by car for a driverless journey if I had the chance!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我不抗拒開車，但如果有機會，我會把壓力大的每日開車通勤，換成一次無人駕駛旅程。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“not averse to driving” 表示他不討厭駕駛，甚至可以接受駕駛。題目用 “enjoys driving” 稍微概括得較正面，但在三位人物中，只有 Jason 同時表示自己不排斥開車，又明確不想承受 stressful daily commute。“only under favourable conditions” 對應的是：他願意駕駛，但不想面對壓力大的通勤。當駕駛變成 stressful daily commute，他寧願選 driverless journey。 Susie 是完全想放棄駕駛；John 則主要談工作和保障。因此 37 最貼近 Jason。所以 37 是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Driverless technology will have to overcome legal and safety obstacles to become completely viable.",
+      "translation": "Driverless technology 若要完全可行，必須克服法律和安全障礙。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from the commercial aspect, there is also the issue of safety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了商業層面，還有安全問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consortium of researchers put it, ‘If self-driving cars cut the roughly 40,000 annual US traffic fatalities in half, the car makers might get not 20,000 thank-you notes, but 20,000 lawsuits.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一個研究者聯盟所說，如果自動駕駛汽車把美國每年約 40,000 宗交通死亡減半，汽車製造商可能收到的不是 20,000 封感謝信，實際可能是 20,000 宗訴訟。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“legal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“safety obstacles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“viable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文安全相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst a fully automated car could respond to most eventualities in the course of a trip, would it be capable of responding to unforeseen events, such as changes in route or unexpected diversions?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 fully automated car 可能能應付旅途中大部分情況，但它是否有能力應對不可預見事件，例如路線改變或突發改道？"
+            },
+            {
+              "kind": "label",
+              "text": "法律相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Currently, no matter how much automation a car has, the law still requires a driver with a full licence behind the wheel before it can travel on public roads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，不管汽車自動化程度有多高，法律仍要求有一名持有完整駕照的司機坐在方向盤後，汽車才可在公共道路上行駛。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有兩個核心部分： 1. safety obstacles 2. legal obstacles原文第一句 “the issue of safety” 直接支援 safety obstacles；後面提到 unforeseen events、route changes、unexpected diversions，說明技術仍面對安全情境挑戰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "法律方面，原文說現行法律仍要求持牌司機在方向盤後，這正好是 fully automated cars 上路的legal obstacle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “will have to overcome… to become completely viable”，雖然原文沒有逐字說 completely viable，但整段的意思就是：若安全和法律問題未解決，fully automated cars 難以正式上路和普遍使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Uber has shown complete confidence in its investment in driverless cars.",
+      "translation": "Uber 對自己投資 driverless cars 顯示出完全信心。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Interestingly, Uber is now undertaking an aggressive hiring campaign for taxi drivers to meet the demand for its taxi app.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有趣的是，Uber 現在正積極招聘的士司機，以應付其的士 app 的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether Uber is pursuing a doomed venture or is about to introduce a technology that will be universally welcomed depends entirely on your viewpoint.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uber 正在追求一項注定失敗的事業，還是即將推出一項會受普遍歡迎的技術，完全取決於你的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uber”"
+            },
+            {
+              "kind": "quote",
+              "text": "“complete confidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“investment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It seems that even Uber is less than confident that driverless taxis will soon become a reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "看來連 Uber 也沒有十足信心認為 driverless taxis 很快會成為現實。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “complete confidence”，是非常強的程度詞。原文說 “less than confident”，意思是信心不足或沒有完全信心。這是明確相反方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Uber has shown complete confidence.原文命題： Even Uber is less than confident.兩者直接衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前一句 “aggressive hiring campaign for taxi drivers” 也支援這點：如果 Uber 正積極聘請人類司機，代表它仍需要傳統有人駕駛服務來滿足需求，無人駕駛的士未能即時取代現有模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "The safety issues with driverless technology are likely to be resolved fairly quickly.",
+      "translation": "Driverless technology 的安全問題很可能會相當快地解決。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apart from the commercial aspect, there is also the issue of safety.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了商業層面，還有安全問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a consortium of researchers put it, ‘If self-driving cars cut the roughly 40,000 annual US traffic fatalities in half, the car makers might get not 20,000 thank-you notes, but 20,000 lawsuits.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如一個研究者聯盟所說，即使 self-driving cars 可把美國每年約 40,000 宗交通死亡減半，汽車製造商可能面對的仍可能是訴訟。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“safety issues”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resolved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fairly quickly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有 safety issues："
+            },
+            {
+              "kind": "quote",
+              "text": "“there is also the issue of safety”"
+            },
+            {
+              "kind": "label",
+              "text": "也有技術疑問："
+            },
+            {
+              "kind": "quote",
+              "text": "“would it be capable of responding to unforeseen events…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它是否能應對不可預見事件……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說明安全問題存在，也說 legislative authorities share these safety concerns。不過題目問的是解決速度："
+            },
+            {
+              "kind": "quote",
+              "text": "“are likely to be resolved fairly quickly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這需要原文提供時間預測，例如 soon、quickly、in the near future、within a short time 等。文章沒有提供這類資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也沒有說安全問題會長期無法解決。它只指出存在安全疑慮和法律責任問題。因此不能選FALSE；因為 FALSE 需要原文明確提供相反方向，例如安全問題不可能很快解決。文章沒有這樣定論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料清單：原文有：● 安全問題存在；● 無人車能否處理 unforeseen events 仍有疑問；● legislative authorities share safety concerns；● 法律責任可能導致 lawsuits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少：● safety issues 會否解決；● 解決需時多久；● 是否 fairly quickly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. D 28. A 29. A 30. B 31. C 32. B 33. C 34. B 35. C 36. A 37. C 38. TRUE 39. FALSE 40. NOT GIVEN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Driverless cars.pdf",
+    "sha256": "aa3f6787d2d209d12f867c959fc67771b7cb5a3731abbcf312f42d712a15eb33",
+    "pageCount": 26
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 driverless cars 可能即將成為現實，至少 Uber 高層似乎這樣相信；尾句說 Uber Advanced Technologies Centre 的終極目標是研究 mapping、vehicle safety 和 autonomy technology。只看首尾句，可以估計本段功能是介紹 Uber 正投入無人駕駛技術研發，並把文章焦點放在「driverless cars 是否會成真」。這段偏向背景引入，適合定位 Uber、research centre、autonomy technology 等資料。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Uber 至今提供的是 chauffeur-driven taxi service；尾句說對 car users 和 Uber 來說， driverless taxis 是 win-win situation。只看首尾句，可以估計本段會講 Uber 從有人駕駛的士轉向無人駕駛的士的商業邏輯。中間應該會出現投資風險、技術現況、成本節省、車主或乘客利益，以及 Uber 可從 payroll 移除司機等內容。"
+      },
+      {
+        "number": "3",
+        "summary": "首句用轉折指出，並非所有人都會從這項技術受益，car industry 是明顯例子；尾句說汽車業基於商業理由拖慢 fully automated vehicles 的製造和推出。只看首尾句，可見本段處理反對或受威脅的一方：汽車製造業擔心自動駕駛會削弱私人汽車擁有模式，因此對技術抱有 growing alarm。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說除了商業層面，還有 safety issue；尾句引用研究者指出，即使 self-driving cars 可把美國每年約 40,000 宗交通死亡減半，汽車製造商可能收到的不是感謝信，而是訴訟。只看首尾句，可以估計本段集中在安全和法律障礙：自動車能否處理突發事件、現行法律是否容許、責任如何分配，都是關鍵問題。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說有趣的是，Uber 現在正積極聘請 taxi drivers 以應付 app 需求；尾句說 Uber 的計劃到底是 doomed venture，還是 universally welcomed technology，完全取決於觀點。只看首尾句，可見本段在平衡全文語氣：連 Uber 自己也似乎未完全確定無人駕駛的士能否很快成真，作者沒有直接替讀者定案。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Pittsburgh taxi driver John Reynolds 對 Uber 對 fully automated technology 的態度感到憤怒；尾句說他承認自己是 taxi driver，可能有偏見，也難以客觀看待。只看首尾句，可以估計本段是受威脅工作者的觀點：他擔心個人生計、大型汽車製造商利益，以及新科技推出時缺少對受影響者的保障。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Pittsburgh 居民 Susie Greenacre 對 driverless cars 沒有這些保留；尾句說若她能直接坐進一輛 driverless car 去任何地方，她便再也不想開車。只看首尾句，可見本段是支持者觀點：她討厭 rush-hour traffic，覺得 driverless cars 能減少駕駛壓力。她的態度非常正面，適合定位 no regrets / never drive again 類題目。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Pittsburgh secondary school teacher Jason Steiner 傾向同意 Susie；尾句說他會稍微擔心完全依賴 robot-driven car，尤其當它需要應對路上 unexpected obstacles。只看首尾句，可見本段是較溫和的支持者：他不抗拒開車，但願意用無人駕駛取代壓力大的通勤；同時保留安全疑慮，特別是突發障礙處理能力。"
+      }
+    ]
+  }
+}

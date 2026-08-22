@@ -1,0 +1,1824 @@
+{
+  "id": "p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues",
+  "catalogueId": "p3-172",
+  "catalogueIds": [
+    "p3-172"
+  ],
+  "passage": 3,
+  "title": "Why Do We Touch Strangers So Much? A History Of The Handshake Offers Clues",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "religious ceremonies",
+    "fidelity",
+    "two kisses",
+    "400 years",
+    "swine flu",
+    "social contacts",
+    "germs"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Shaking hands is an indicator of hospitality.”",
+      "translation": "握手是一種表示友善接待或好意的訊號。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 / Paragraph 4 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a lot that can be conveyed in a handshake, a kiss, or a hug.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "握手、親吻或擁抱可以傳達很多意思。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Touching strangers, however, can also transmit other, less beneficial consequences, such as the spread of disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，觸碰陌生人也可能傳播其他較不利的後果，例如疾病傳播。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 1 首尾句，可以先猜這段是總引入：touch greeting 有社交含義，也有疾病風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 handshake 是否表示 hospitality，和 “can be conveyed” 以及後面 “signal friendship” 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shaking hands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“indicator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hospitality”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 hospitality，但 Paragraph 1 中間有："
+            },
+            {
+              "kind": "quote",
+              "text": "“such a greeting was used to signal friendship”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類問候曾被用來表示友誼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout history, such a greeting was used to signal friendship, finalize a business transaction, or indicate religious devotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "縱觀歷史，這類問候曾被用來表示友誼、完成商業交易，或表明宗教虔誠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “indicator” 對應原文 “signal / indicate”。“hospitality” 雖然不是原字，但在這裡可理解成一種友好接待、善意互動。原文說 handshake、kiss、hug 這類 greeting 可以 signal friendship，即傳達友善關係。題目把 friendship 概括成 hospitality，意思方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷上，這題可選 TRUE。要留意：原文不是說 handshake 只有一個意思，它同時可表示friendship、business transaction、religious devotion。題目只提出其中一種友善功能，沒有說這是唯一功能，所以沒有過度概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Evidence showed that the handshake started as a sign of peace.”",
+      "translation": "證據顯示握手最初是和平的標誌。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A popular theory on the handshake’s origin is that it began as a gesture of peace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於握手起源，一個流行理論認為它開始時是一種和平手勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the literary canon, it stretches to the Iliad and the Odyssey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在文學經典中，它可以追溯到《伊利亞特》和《奧德賽》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 會講 handshake 的古代起源、和平理論和歷史出現位置。題目有 evidence、started、sign of peace，明顯應該在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“started”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sign of peace”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先有 “gesture of peace”，但真正控制答案的是下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far, there has not been any reliable evidence to prove this assumption.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，沒有任何可靠證據可以證明這個假設。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Evidence showed”，即證據已經證明。原文說 “there has not been any reliable evidence”，意思剛好相反：這只是 popular theory / assumption，尚未有可靠證據證明。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義及反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Evidence showed = 有證據證明原文： not been any reliable evidence = 沒有可靠證據"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "started as a sign of peace原文： began as a gesture of peace = 只是流行理論內容所以答案是 FALSE。這題最大中伏位是 “gesture of peace” 原字附近出現。學生容易看到 peace就選 TRUE，但真正判斷點是 “not been any reliable evidence”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“When shaking hands, people often rolled up their sleeves.”",
+      "translation": "握手時，人們經常捲起袖子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A popular theory on the handshake’s origin is that it began as a gesture of peace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於握手起源，一個流行理論認為它開始時是一種和平手勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the literary canon, it stretches to the Iliad and the Odyssey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在文學經典中，它可以追溯到《伊利亞特》和《奧德賽》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段是 handshake origin 和古代 evidence 的段落。題目中的 sleeves 是很具體的身體動作，因此應該掃描同段中與 weapon、sleeve、shaking hands 相關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“shaking hands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rolled up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sleeves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到最接近的一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Grasping hands proved one was not holding a weapon—and shaking them was a way to ensure a partner had nothing hiding up their sleeve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "握住雙手可以證明自己沒有拿武器，而搖動雙手則是一種確認對方袖子裡沒有藏東西的方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提到 “nothing hiding up their sleeve”，即袖子裡沒有藏東西。可是題目說 “people often rolled up their sleeves”，即人們經常捲起袖子。這個動作原文沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章提供的是：握手或搖手可能用來檢查對方沒有藏武器；袖子裡可能藏東西；這仍然只是流行理論的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有提供：人們有沒有捲起袖子；這個動作是否 often 發生；捲袖子是否是握手儀式的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。這題不能選 FALSE，因為原文沒有說人們沒有捲袖子；它只是完全沒有交代 rolled up their sleeves 這個具體動作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The use of a handshake in different situations can be unpredictable.”",
+      "translation": "握手在不同場合中的用途或意思可能難以預測。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The handshake’s catch-all utility, used in friendship, romance, and business alike, makes interpretation difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "握手用途廣泛，可用於友誼、浪漫關係和商業場合，這令解讀變得困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The handshake continues to be a popular image today because we too see it as a complex and ambiguous motif,’ writes art historian Glenys Davies in an analysis of its use in classical art.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "藝術史學家 Glenys Davies 寫道：「握手至今仍是一個受歡迎的圖像，因為我們也把它看成一個複雜而含糊的主題。」首尾句都指向同一件事：handshake 意義複雜、用途廣泛、難以解讀。題目中的 different situations 對應 friendship, romance, business alike。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“different situations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unpredictable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文未必用 unpredictable，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“makes interpretation difficult”"
+            },
+            {
+              "kind": "quote",
+              "text": "“complex and ambiguous”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令解讀困難；複雜而含糊。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The handshake’s catch-all utility, used in friendship, romance, and business alike, makes interpretation difficult.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "握手用途很廣，友誼、浪漫和商業都可使用，因此令解讀變得困難。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “can be unpredictable”，可理解成在不同場景中很難準確預測或判斷其意思。原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“interpretation difficult” 和 “ambiguous” 表達相同方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different situations= friendship, romance, and business alike can be unpredictable= makes interpretation difficult / complex and ambiguous所以答案是 TRUE。這題真正控制答案的是 “interpretation difficult”，不是單純看到 friendship、romance、business 三個場景。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In America, handshakes became prevalent because they represented equality and freedom.”",
+      "translation": "在美國，握手變得流行，因為它代表平等和自由。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In America, it is likely that the handshake’s popularity was propelled by 18th-century Quakers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國，握手的流行很可能由十八世紀的 Quakers 推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘In their place, Quakers put the practice of the handshake, extended to everyone regardless of station, as we still do,’ writes historian Michael Zuckerman.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史學家 Michael Zuckerman 寫道：「Quakers 以握手取代那些禮節，並把握手擴展至所有人，不論地位，就像我們今天仍然這樣做。」這段明顯講美國握手流行的社會原因：避免階級差異，採用較民主的問候方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“In America”"
+            },
+            {
+              "kind": "quote",
+              "text": "“popularity / prevalent”"
+            },
+            {
+              "kind": "quote",
+              "text": "“equality and freedom”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“eschew hierarchy and social rank”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a more democratic form of greeting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extended to everyone regardless of station”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "避開階級和社會地位；更民主的問候方式；不論地位都適用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In their efforts to eschew hierarchy and social rank, they found the handshake a more democratic form of greeting than the then-common bow, curtsy, or hat doffing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們努力避開階級和社會地位，因此認為握手比當時常見的鞠躬、屈膝禮或脫帽禮更民主。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 equality 對應 “eschew hierarchy and social rank” 以及 “regardless of station”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Freedom 沒有逐字出現，但 “democratic form of greeting” 可以合理概括為更平等、較少受階級禮節束縛的社交方式。整句方向與原文一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。中伏位是題目用了較抽象的 “equality and freedom”，原文用具體社會語言： hierarchy、social rank、democratic、regardless of station。這是 IELTS 常見的抽象概括改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Research conducted in 2015 showed that exactly 25% of participants smelled their hands after a handshake.”",
+      "translation": "2015 年研究顯示，正正 25% 的參與者在握手後聞自己的手。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There may be a scientific explanation for its lasting power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "握手持久存在，可能有科學解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They theorized that a handshake might be unconsciously used to detect chemical signals, and possibly as a means of communication—just as other animals do by smelling each other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們推測，握手可能被無意識地用來偵測化學訊號，亦可能是一種溝通方式，就像其他動物透過嗅聞彼此來溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 2015 年研究和 sniffing hands，所以 Question 32 明顯定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“2015 study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“25%”"
+            },
+            {
+              "kind": "quote",
+              "text": "“smelled their hands”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a 2015 study, researchers in Israel filmed hundreds of strangers shaking hands and found nearly a quarter of participants sniffed their hands afterwards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項 2015 年研究中，以色列研究人員拍攝數百名陌生人握手，發現接近四分之一的參與者之後會嗅自己的手。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “exactly 25%”，原文說 “nearly a quarter”。“a quarter” 是 25%，但 “nearly” 表示接近，未必等於正正 25%。IELTS 很喜歡考 exact / approximately / nearly 這種程度詞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義及衝突",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "exactly 25% = 正正 25%原文： nearly a quarter = 接近四分之一兩者在精確程度上有衝突。原文沒有支持 exactly，所以答案是 FALSE。這題最重要的字不是25%，而是 exactly 和 nearly 的差別。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People often smell their hands to spot poisonous chemicals.”",
+      "translation": "人們經常嗅自己的手，是為了發現有毒化學物質。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There may be a scientific explanation for its lasting power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "握手持久存在，可能有科學解釋。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They theorized that a handshake might be unconsciously used to detect chemical signals, and possibly as a means of communication—just as other animals do by smelling each other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們推測，握手可能被無意識地用來偵測化學訊號，亦可能是一種溝通方式，就像其他動物透過嗅聞彼此來溝通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段確實有 smell hands 和 chemical signals，但題目多了 poisonous 這個限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“smell their hands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“poisonous chemicals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“detect chemical signals”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "偵測化學訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They theorized that a handshake might be unconsciously used to detect chemical signals, and possibly as a means of communication—just as other animals do by smelling each other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們推測握手可能被無意識地用來偵測化學訊號，也可能作為一種溝通方式，就像其他動物互相嗅聞一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 chemical signals，但沒有說 poisonous chemicals。chemical signals 可以是與氣味、身體狀態或溝通有關的訊號，不等於有毒物質。文章也沒有說人們是 “often” 有意識地嗅手來避免毒物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資料： people smell hands for the purpose of spotting poisonous chemicals原文提供的資料： some participants sniffed hands researchers theorized this might detect chemical signals possibly communication缺失的是 poisonous chemicals 和這個具體目的。因此答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "religious ceremonies",
+      "answerKey": "religious ceremonies",
+      "type": "Summary Completion",
+      "prompt": "“In the past, Christians used cheek kisses in 34 ______.”",
+      "translation": "過去，基督徒在 ______ 中使用 cheek kisses。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The kiss-as-greeting has a similarly rich history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為問候的親吻同樣有豐富歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Middle Ages, a kiss was used as a sign of fidelity and to seal agreements like property transfers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在中世紀，親吻被用作忠誠的標誌，也用來確認協議，例如財產轉讓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從 early Christianity 講到 Middle Ages，正好對應 summary 的開頭兩句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Christians”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the past”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was incorporated into early Christianity and used in religious ceremonies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它被納入早期基督教，並用於宗教儀式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “in”，後面需要名詞短語。原文 “religious ceremonies” 剛好是名詞短語，兩個字，符合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“no more than THREE WORDS”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：religious ceremonies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "fidelity",
+      "answerKey": "fidelity",
+      "type": "Summary Completion",
+      "prompt": "“In the Middle Ages, the kiss-as-greeting was used to show 35 ______ or to seal agreements.”",
+      "translation": "在中世紀，作為問候的親吻被用來表示 ______，或確認協議。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The kiss-as-greeting has a similarly rich history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為問候的親吻同樣有豐富歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Middle Ages, a kiss was used as a sign of fidelity and to seal agreements like property transfers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在中世紀，親吻被用作忠誠的標誌，也用來確認協議，例如財產轉讓。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Middle Ages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“show”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seal agreements”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“as a sign of fidelity and to seal agreements”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “used to show ______” 對應原文 “used as a sign of fidelity”。“show” 是 “as a sign of” 的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案只需要名詞： fidelity"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：忠誠；忠信。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "two kisses",
+      "answerKey": "two kisses",
+      "type": "Summary Completion",
+      "prompt": "“It is common for people in Paris to exchange 36 ______.”",
+      "translation": "在巴黎，人們通常交換 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, a swift kiss on the cheek, known in French as ‘la bise’, is a standard greeting in much of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日，一種快速的臉頰親吻，法語稱為 la bise，是世界許多地方的標準問候。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The reduction in social contacts of a physical nature is advised,’ he said. ‘That includes the practice of the bise.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「建議減少具有身體接觸性質的社交接觸。這包括 bise 這種做法。」這段先列出不同地方 kiss 數量，再講疾病時暫停。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paris”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exchange”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Paris, two kisses are common.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在巴黎，兩吻很常見。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “exchange”，後面需要可被交換的名詞短語。原文 “two kisses” 是兩個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：two kisses"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "400 years",
+      "answerKey": "400 years",
+      "type": "Summary Completion",
+      "prompt": "“People believe that in the 14th century, the cheek kiss may have been suspended, and it remained so for 37 ______.”",
+      "translation": "人們相信在 14 世紀，臉頰親吻可能曾被暫停，並維持這狀態 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, a swift kiss on the cheek, known in French as ‘la bise’, is a standard greeting in much of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日，一種快速的臉頰親吻，法語稱為 la bise，是世界許多地方的標準問候。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The reduction in social contacts of a physical nature is advised,’ he said. ‘That includes the practice of the bise.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「建議減少具有身體接觸性質的社交接觸。這包括 bise 這種做法。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“14th century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suspended”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remained so”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is thought that during the plague in the 14th century, la bise may have stopped and was not revived until 400 years later, after the French Revolution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們認為，在 14 世紀瘟疫期間，la bise 可能曾經停止，直到 400 年後、法國大革命之後才恢復。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “remained so for” 對應原文 “was not revived until 400 years later”。空格需要時間長度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：400 years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "swine flu",
+      "answerKey": "swine flu",
+      "type": "Summary Completion",
+      "prompt": "“In 2009, because of 38 ______, cheek kisses were also suspended temporarily.”",
+      "translation": "2009 年，由於 ______，臉頰親吻也曾暫時停止。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, a swift kiss on the cheek, known in French as ‘la bise’, is a standard greeting in much of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日，一種快速的臉頰親吻，法語稱為 la bise，是世界許多地方的標準問候。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The reduction in social contacts of a physical nature is advised,’ he said. ‘That includes the practice of the bise.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「建議減少具有身體接觸性質的社交接觸。這包括 bise 這種做法。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“2009”"
+            },
+            {
+              "kind": "quote",
+              "text": "“temporarily paused / suspended”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2009, la bise was temporarily paused as swine flu became a concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2009 年，由於 swine flu 成為令人關注的問題，la bise 曾被暫時停止。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “because of” 對應原文 “as”。空格需要疾病名稱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：swine flu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "social contacts",
+      "answerKey": "social contacts",
+      "type": "Short-answer Questions",
+      "prompt": "“What did the French Health Minister advise people to avoid to prevent the spread of coronavirus?”",
+      "translation": "法國衛生部長建議人們避免甚麼，以防止冠狀病毒傳播？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, a swift kiss on the cheek, known in French as ‘la bise’, is a standard greeting in much of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今日，一種快速的臉頰親吻，法語稱為 la bise，是世界許多地方的標準問候。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The reduction in social contacts of a physical nature is advised,’ he said. ‘That includes the practice of the bise.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「建議減少具有身體接觸性質的社交接觸。這包括 bise 這種做法。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“French Health Minister”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coronavirus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advised”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the end of February, the French Health Minister advised against it as the coronavirus cases increased.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二月底，隨著冠狀病毒病例增加，法國衛生部長建議避免這種做法。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文直接引用他的話："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reduction in social contacts of a physical nature is advised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建議減少具有身體接觸性質的社交接觸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What did ... advise people to avoid?” 原文答的是 “social contacts of a physical nature”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於題目限制 NO MORE THAN TWO WORDS，不能填完整四個字以上的 phrase，所以最合適答案是： social contacts補充：如果題目設計重點放在前一句 “advised against it”，it 指的是 la bise / the bise。但這題問法較接近部長引述句，因此 social contacts 是較穩定的填法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "germs",
+      "answerKey": "germs",
+      "type": "Short-answer Questions",
+      "prompt": "“What can be transferred through a handshake?”",
+      "translation": "甚麼可以透過握手被轉移／傳播？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a 1929 study, a nurse named Leila Given wrote an article in the American Journal of Nursing lamenting the loss of the last generation’s ‘finger-tipping and the high handshake’ customs in favour of a handshake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項 1929 年研究中，一位名叫 Leila Given 的護士在《美國護理期刊》撰文，哀嘆上一代的"
+            },
+            {
+              "kind": "quote",
+              "text": "“finger-tipping and the high handshake” 習俗被一般握手取代。最後一句：“‘At least our bacteria would then stay at home,’ she wrote.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她寫道：「至少我們的細菌就會留在自己家裡。」這段明顯講 handshake 和細菌傳播。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“transferred”"
+            },
+            {
+              "kind": "quote",
+              "text": "“handshake”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有兩個相關位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“hands ‘are agents of bacterial transfer’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "手是細菌轉移的媒介。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“a handshake could easily spread germs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "握手可以很容易傳播 germs。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What can be transferred through a handshake?” 最直接答案來自 “spread germs”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：germs"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：病菌；細菌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也有 “bacterial transfer” 和 “our bacteria”，所以 bacteria 也有文本支援。不過如果只填一個，我會選 germs，因為它直接出現在 “a handshake could easily spread germs” 這句。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Why Do We Touch Strangers So Much_ A History Of The Handshake Offers Clues.pdf",
+    "sha256": "92f1b2a405882d538f9eb0f87e5a626e5ca28c8b0a4be93e14a509f190831a50",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句說 handshake、kiss、hug 可以傳達很多意思；最後一句提醒 touching strangers 也可能帶來疾病傳播。只看首尾句，這段大概是整篇文章的總引入：身體接觸式問候既有社交功能，也有公共衛生風險。它暫時未集中講 handshake 的歷史細節，重點是建立大方向：touch greetings 可以表示友好、交易、宗教虔誠，但同時可能傳播疾病。Questions 27 和後面 disease / germs 題可先留意這段。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句提到 COVID-19 恐懼上升，法國叫市民暫停 cheek kisses；最後一句說 handshake 和cheek kiss 歷史悠久，不容易停止。只看首尾句，這段功能是把文章帶到現代疫情背景，說明古老問候習俗和公共衛生之間的衝突。這段會幫我們知道：文章不是單純講禮儀歷史，也會連到coronavirus、elbow bump、暫停親吻等現代應對。Questions 38、39 可能在後文繼續發展這條線。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句提出一個流行理論：handshake 起源於和平手勢；最後一句說它在文學傳統中延伸到《伊利亞特》和《奧德賽》。只看首尾句，這段似乎會講 handshake 的古代起源和證據。中間很可能處理「是否有可靠證據」以及古代圖像、墓碑、石板等例子。Questions 28、29 明顯會定位到這段，因為題目問 origin、peace、sleeves。要特別留意理論和證據之間是否一致。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說 handshake 在友情、浪漫和商業中都有廣泛用途，令解讀困難；最後一句引用 Glenys Davies，指 handshake 至今仍是複雜而含糊的圖像。只看首尾句，這段功能是解釋 handshake意義多變，所以不能單一理解。它不是講起源，也不是講公共衛生，而是講 interpretation difficult /complex / ambiguous。Question 30 的 “different situations” 和 “unpredictable” 很可能來這段，因為段落核心正是用途多、意思難定。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說在美國，handshake 的流行可能由 18 世紀 Quakers 推動；最後一句說 Quakers 把handshake 用於所有人，不論地位。只看首尾句，這段重點是美國 handshake 普及的社會原因： Quakers 想避開階級和社會等級，選擇更民主的問候方式。這段最適合處理 Question 31，因為題目問 America、prevalent、equality and freedom。要留意原文用的是 democratic、regardless of station 這類同義改寫。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說 handshake 的持久力量可能有科學解釋；最後一句說 handshake 可能像其他動物互相嗅聞一樣，用來偵測 chemical signals 和溝通。只看首尾句，這段會由歷史轉入科學研究，特別是2015 年以色列研究。中間應該有參與者握手後嗅手的數據。Questions 32、33 都會定位到這段：一題考 nearly a quarter 和 exactly 25% 的差別，另一題考 chemical signals 是否等於 poisonous chemicals。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說 kiss-as-greeting 也有豐富歷史；最後一句說中世紀時 kiss 可表示忠誠，也可用來確認財產轉讓等協議。只看首尾句，這段開始從 handshake 轉到 cheek kiss 的歷史。它先講 early Christianity 和 religious ceremonies，再講 Middle Ages 的 fidelity 和 agreements。Questions 34、35 的 summary 空格很明顯來這段，因為空格前後有 Christians、Middle Ages、seal agreements 等定位詞。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說今日 swift kiss on the cheek，即法語 la bise，是世界許多地方的標準問候；最後一句引用法國衛生部長，表示建議減少 physical social contacts，包括 bise。只看首尾句，這段功能很完整：先介紹 cheek kiss 今日在不同地方的做法，再講疫情或疾病時它會暫停。中間有 Paris、Provence、Loire Valley、Egypt、plague、swine flu、coronavirus。Questions 36–39 幾乎全部集中在這段。"
+      },
+      {
+        "number": "9",
+        "summary": "第一句提到 Val Curtis 的書，說 kiss 和 handshake 作為問候的一個可能原因，是表示對方值得信任，可以共同承擔 germs；最後一句說這種做法會隨公共衛生關注而時興時衰。只看首尾句，這段是理論解釋：touch greeting 不只代表友好，也代表「我信任你到可以分享細菌」。它連接歷史禮儀和公共衛生風險，尤其有助理解整篇文章題目 Why Do We Touch Strangers So Much?"
+      },
+      {
+        "number": "10",
+        "summary": "第一句說 1929 年 Leila Given 在護理期刊中哀嘆舊式問候被 handshake 取代；最後一句引用她的建議：美國人可改用當時中國式的自我握手，讓 bacteria 留在自己家裡。只看首尾句，這段把焦點放到握手的細菌傳播風險。中間應該會出現 hands、bacterial transfer、spread germs 等字眼。 Question 40 很可能在這段，因為題目問 handshake 可以轉移甚麼。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "（40 寫 bacteria 也有原文支援，但 germs 更直接對應 “spread germs”。）"
+  ]
+}

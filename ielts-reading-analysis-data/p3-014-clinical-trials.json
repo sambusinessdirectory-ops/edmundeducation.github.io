@@ -1,0 +1,1742 @@
+{
+  "id": "p3-014-clinical-trials",
+  "catalogueId": "p3-014",
+  "catalogueIds": [
+    "p3-014"
+  ],
+  "passage": 3,
+  "title": "CLINICAL TRIALS",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "tooth loss",
+    "preventative properties",
+    "exhibiting symptoms",
+    "common diet",
+    "C",
+    "B",
+    "A",
+    "C",
+    "pre-clinical",
+    "sequence",
+    "optimum",
+    "complex",
+    "withdrawal"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "tooth loss",
+      "answerKey": "tooth loss",
+      "type": "Sentence Completion",
+      "prompt": "“In advanced cases of scurvy sufferers may experience 28 ______ along with numerous other symptoms.”",
+      "translation": "在嚴重 scurvy 個案中，患者除了許多其他症狀外，可能會出現甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The benefits of vitamins to our well-being are now familiar to most; however, when the link between diets lacking in citrus fruits and the development of the affliction ‘scurvy’ in sailors was first discovered by James Lind in 1747, the concept of vitamins was yet to be discovered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在大多數人都知道 vitamins 對健康有益；不過，1747 年 James Lind 首次發現 sailors 缺乏citrus fruits 的飲食和 scurvy 之間的關係時，vitamins 這個概念仍未被發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additional symptoms include depression, liver spots on the skin – particularly arms and legs –loss of colour in the face and partial immobility; high incidence of the ailment aboard ships took an enormous toll on the crew’s ability to complete essential tasks while at sea.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他症狀包括 depression、皮膚上的 liver spots，尤其在手臂和腿部、臉色失去血色，以及局部行動不便；船上 scurvy 高發，嚴重影響船員在海上完成必要工作的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會介紹 scurvy 的病因、症狀和對 sailors 的影響。題目問 advanced cases 的症狀，所以 Paragraph 1 是最合理位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “advanced cases”● “scurvy”● “symptoms”原文沒有用 “advanced cases”，但用了意思相近的 “in extreme cases”。這是本題最重要的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scurvy, which causes softening of the gums, oral bleeding and, in extreme cases, tooth loss, is now known to present as a result of lack of Vitamin C in the diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scurvy 會造成牙齦變軟、口腔出血；在極端情況下，還會導致 tooth loss。現在已知它是由飲食中缺乏 Vitamin C 引起的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “advanced cases” = “extreme cases”● “may experience” = “causes”● 答案短語 = “tooth loss”題目說 “along with numerous other symptoms”，原文在同段後面確實列出其他症狀，例如depression、liver spots、loss of colour、partial immobility。空格只需要填 advanced / extreme cases 的具體症狀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：tooth loss 兩個詞，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 tooth loss。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "preventative properties",
+      "answerKey": "preventative properties",
+      "type": "Sentence Completion",
+      "prompt": "“Fruit ads were mistakenly heralded as having 29 ______ in incidents of scurvy prior to the identification of vitamins.”",
+      "translation": "在 vitamins 被確認之前，水果中的酸性成分被錯誤地認為對 scurvy 有甚麼作用？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這裡題目中的 “Fruit ads” 應是排版或輸入錯誤。按原文內容，應理解為 fruit acids / acids in the fruit。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Suggestions that citrus fruit may lower the incidence or indeed prevent scurvy had been made as early as 1600.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "早在 1600 年，已有人提出 citrus fruit 可能降低 scurvy 發病率，甚至預防 scurvy。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, while the correlation between consuming citrus fruit and avoidance of scurvy was established, the preventative properties were attributed to the presence of acids in the fruit and not what would later be identified as vitamin content.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，雖然食用 citrus fruit 和避免 scurvy 之間的 correlation 已經建立，人們當時把 preventative properties 歸因於水果中的 acids，而非後來被確認的 vitamin content。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段焦點是 citrus fruit 預防 scurvy 的早期理解，以及當時對原因的錯誤歸因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “prior to the identification of vitamins”● “mistakenly”● “fruit acids”● “incidents of scurvy”原文對應：● “not what would later be identified as vitamin content”● “attributed to the presence of acids in the fruit”● “preventative properties”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the preventative properties were attributed to the presence of acids in the fruit and not what would later be identified as vitamin content.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們把這種預防作用歸因於水果中的 acids，而沒有歸因於後來被確認的 vitamin content。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “preventative properties”，意思是預防性質、預防功效。題目問 acids were mistakenly heralded as having what。原文說人們把 scurvy prevention 歸因於 acids，所以答案就是原文名詞短語： preventative properties"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “mistakenly heralded as having” = “were attributed to”● “prior to the identification of vitamins” = “not what would later be identified as vitamin content”● “fruit acids” = “presence of acids in the fruit”字數檢查：preventative properties 兩個詞，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 preventative properties。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "exhibiting symptoms",
+      "answerKey": "exhibiting symptoms",
+      "type": "Sentence Completion",
+      "prompt": "“Lind’s subjects for the first clinical trial were seamen who were at the time of 30 ______ the condition in question.”",
+      "translation": "Lind 第一個 clinical trial 的 subjects 是當時已經怎樣呈現該疾病的 sailors？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句題目文字略不順，因為原文完整短語是 “already exhibiting symptoms of scurvy”。在 NO MORE THAN TWO WORDS 限制下，答案應取核心兩詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lind’s subjects for his trial consisted of twelve sailors already exhibiting symptoms of scurvy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lind 的 trial subjects 是十二名已經出現 scurvy symptoms 的 sailors。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The preventative qualities of citrus fruit against scurvy were not truly recognised until 1800, though throughout the latter part of the 1700s, lemon juice was increasingly administered as a cure for sailors already afflicted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Citrus fruit 對 scurvy 的預防性質直到 1800 年才真正被承認，不過在 1700 年代後期，lemon juice 越來越多被用作治療已經患病 sailors 的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 詳細描述 Lind 的 trial subjects、分組、治療內容和結果。題目問 subjects 的狀態，所以答案在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “Lind’s subjects”● “first clinical trial”● “seamen”● “condition in question”原文直接出現 “Lind’s subjects” 和 “twelve sailors”。“seamen” 是 “sailors” 的改寫；“condition in question” 指 scurvy。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lind’s subjects for his trial consisted of twelve sailors already exhibiting symptoms of scurvy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lind 的 trial subjects 是十二名已經出現 scurvy symptoms 的 sailors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文改寫成：● “subjects” = “subjects”● “seamen” = “sailors”● “condition in question” = “scurvy”● “were at the time…” = “already”答案短語應保留原文 “exhibiting symptoms”。如果完整填 “exhibiting symptoms of scurvy” 會超過兩個詞，因此在限制下只能填： exhibiting symptoms所以答案是 exhibiting symptoms。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "common diet",
+      "answerKey": "common diet",
+      "type": "Sentence Completion",
+      "prompt": "“All groups in Lind’s experiment were given a 31 ______ along with specific rations which were varied for each control group.”",
+      "translation": "Lind 的實驗中，所有組別都有一個甚麼相同，另外每組再有不同 ration？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lind’s subjects for his trial consisted of twelve sailors already exhibiting symptoms of scurvy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lind 的 trial subjects 是十二名已經出現 scurvy symptoms 的 sailors。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The preventative qualities of citrus fruit against scurvy were not truly recognised until 1800, though throughout the latter part of the 1700s, lemon juice was increasingly administered as a cure for sailors already afflicted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Citrus fruit 對 scurvy 的預防性質直到 1800 年才真正被承認，不過在 1700 年代後期，lemon juice 越來越多被用作治療已患病 sailors 的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段詳細交代 Lind trial 的設計。題目問所有 groups 共同獲得的內容，應回到分組設計句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “All groups”● “specific rations”● “varied”● “control group”原文中對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“These individuals were split into six groups; each pair had a common diet.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著列出不同 rations：cider、elixir of vitriol、vinegar、seawater、oranges and a lemon、barley water。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These individuals were split into six groups; each pair had a common diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些人被分成六組；每一對都有相同的飲食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “All groups… were given a ______ along with specific rations”。原文說 “each pair had a common diet”，後文再列每一 pair 的不同 ration。由此可見，各組共同基礎是 common diet，不同的是額外給予的 substance。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “All groups” = “each pair”● “were given” = “had”● “specific rations varied” =後文 pair 1 至 pair 6 的不同補充物● 答案 = “common diet”字數檢查：common diet 兩個詞，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 common diet。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — resources fundamental to the experiment were used up.",
+      "answerKey": "C — resources fundamental to the experiment were used up.",
+      "type": "Multiple Choice",
+      "prompt": "“The first clinical trial was conducted for only 5 days because…”",
+      "translation": "第一個 clinical trial 只進行五天，原因是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lind’s subjects for his trial consisted of twelve sailors already exhibiting symptoms of scurvy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lind 的 trial subjects 是十二名已經出現 scurvy symptoms 的 sailors。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The preventative qualities of citrus fruit against scurvy were not truly recognised until 1800, though throughout the latter part of the 1700s, lemon juice was increasingly administered as a cure for sailors already afflicted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Citrus fruit 對 scurvy 的預防性質直到 1800 年才真正被承認，不過在 1700 年代後期，lemon juice 越來越多被用作治療已患病 sailors 的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 是 Lind trial 的完整描述。題目問 trial 為何只做五天，所以應找experiment duration 和 abort reason。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “only 5 days”● “first clinical trial”● “because”原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the trial having to be aborted after day five, when supplies of fruit were depleted…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 day five 和原因 when supplies were depleted。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the trial having to be aborted after day five, when supplies of fruit were depleted…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 trial 在第五天後因 fruit supplies 耗盡而不得不停止……選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“resources fundamental to the experiment were used up.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對實驗非常重要的資源被用完了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “resources fundamental to the experiment” 指 fruit supplies，因為 fruit 是其中一組treatment 的核心材料。原文 “were depleted” 對應選項 “were used up”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除： A “that period of time was the planned protocol.”原文說 “had to be aborted”，表示被迫停止，不是原本 protocol 設計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the subjects in the relevant control group had already recovered.”原文只說其中一人恢復到能 return to work，並非整組 recovered，也不是停止試驗的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “those taking part in the trial were too sick to continue.”原文沒有說 subjects 太病而無法繼續。停止原因是 fruit supplies depleted。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — ineffective substitutes were often made available.",
+      "answerKey": "B — ineffective substitutes were often made available.",
+      "type": "Multiple Choice",
+      "prompt": "“The impact of findings from the trial were not used to full potential because…”",
+      "translation": "trial findings 沒有被充分運用，原因是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lind’s subjects for his trial consisted of twelve sailors already exhibiting symptoms of scurvy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lind 的 trial subjects 是十二名已經出現 scurvy symptoms 的 sailors。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The preventative qualities of citrus fruit against scurvy were not truly recognised until 1800, though throughout the latter part of the 1700s, lemon juice was increasingly administered as a cure for sailors already afflicted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Citrus fruit 對 scurvy 的預防性質直到 1800 年才真正被承認，不過在 1700 年代後期，lemon juice 越來越多被用作治療已患病 sailors 的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半說 trial results 的 immediate impact 有限，正好對應題目 “not used to full potential”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “impact”● “findings”● “not used to full potential”原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The immediate impact on sailors’ health and incidence of scurvy on board ship was, however, limited…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目中的 impact limited。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The immediate impact on sailors’ health and incidence of scurvy on board ship was, however, limited as Lind and other physicians remained convinced that the curative effect was acid based.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這些發現對 sailors health 和船上 scurvy incidence 的即時影響有限，因為 Lind 和其他physicians 仍相信治療效果來自 acids。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, while consumption of citrus fruit was recommended, it was often replaced by cheaper acid supplements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，雖然 citrus fruit consumption 被建議使用，它卻經常被較便宜的 acid supplements 取代。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“ineffective substitutes were often made available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們經常提供無效的替代品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 citrus fruit 被 cheaper acid supplements 取代。由於真正有效的是 citrus fruit / later vitamin content，不是單純 acid supplements，所以這些 substitutes 導致 findings 沒有充分發揮作用。選項 B 是對這個結果的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除： A “Lind failed to recommend consumption of citrus fruit.”原文說 “consumption of citrus fruit was recommended”，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “other physicians were unconvinced by his evidence.”原文問題在他們把 curative effect 理解為 acid based，沒有說他們完全不相信 trial evidence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the trial was not conducted over a long enough period to be valid.”原文沒有說 trial invalid。雖然 trial 五天停止，但 findings 顯示 fruit group 顯著改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A — low volunteer rate.",
+      "answerKey": "A — low volunteer rate.",
+      "type": "Multiple Choice",
+      "prompt": "“One of the greatest hindrances to clinical testing today is…”",
+      "translation": "今天 clinical testing 最大障礙之一是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A new pharmaceutical for treatment of a disease such as cancer typically takes a period of 6 years or more before reaching the stage of clinical trial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種治療 cancer 等疾病的新 pharmaceutical，通常需要 6 年或以上才到達 clinical trial 階段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Criteria for selection is rigorous and trials where subjects are required to be suffering from the disease in question, experience tremendous recruitment difficulties as individuals already vulnerable due to the effects of their condition, are often reluctant to potentially put their health at higher levels of risk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "selection criteria 十分嚴格；而那些要求 subjects 正患有相關疾病的 trials，會遇到非常大的recruitment difficulties，因為這些人已因病情而 vulnerable，通常不願意讓自己的健康承受更高風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 的後半明顯講 trial recruitment problem。題目問 greatest hindrance，應定位到這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “greatest hindrances”● “clinical testing today”原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the greatest barriers to clinical trial procedures is availability of subjects willing to participate.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the greatest barriers to clinical trial procedures is availability of subjects willing to participate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "clinical trial procedures 最大障礙之一，是是否有願意參與的 subjects。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“low volunteer rate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "志願者參與率低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “availability of subjects willing to participate” 正是 low volunteer rate 的意思。後文"
+            },
+            {
+              "kind": "quote",
+              "text": "“tremendous recruitment difficulties” 進一步確認招募參與者很困難。選項排除： B “the poor success rate.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 P4 確實說 1000 drugs 中只有 1 個進入 clinical trial，但題目問 greatest hindrance to clinical testing today；P5 直接點名 greatest barriers 是 participant availability。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the strict protocol.” P6 提到 strict protocol，但沒有說它是 greatest hindrance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “shortage of laboratory staff.”原文沒有提到 laboratory staff shortage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — subjects exhibiting no symptoms of the illness are not used.",
+      "answerKey": "C — subjects exhibiting no symptoms of the illness are not used.",
+      "type": "Multiple Choice",
+      "prompt": "“Clinical testing for HIV and cancer drugs differs from usual procedures because…”",
+      "translation": "HIV 和 cancer drugs 的 clinical testing 和一般 procedures 有何不同？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clinical trials are conducted in line with a strict protocol and the stages of a trial are generally defined by five distinct phases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clinical trials 會按照 strict protocol 進行，而 trial stages 通常分為五個 distinct phases。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The former involves a single administration of a drug at a pre-determined level to one group of subjects, and the second involves administration of a pre-determined sequence of dosages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前者是向一組 subjects 一次性給予預定 level 的藥物；後者則是按預定 sequence of dosages 給藥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹 Phase 0、Phase 1 和 SAD/MAD。題目提到 HIV and cancer drugs，應找 Phase 1 的例外做法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞很強：● “HIV”● “cancer drugs”● “differs from usual procedures”原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, for HIV and cancer drugs, this stage is conducted using patients suffering from the condition in question.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說一般 Phase 1："
+            },
+            {
+              "kind": "quote",
+              "text": "“If no concerns are raised, the drug then enters Phase 1 of trial where a modest selection … of usually healthy volunteers, is exposed to the drug.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有出現問題，藥物進入 Phase 1，通常會讓一小組 healthy volunteers 接觸該藥物。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說例外："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, for HIV and cancer drugs, this stage is conducted using patients suffering from the condition in question.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，對 HIV 和 cancer drugs 來說，這一階段會使用正患有相關疾病的 patients。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“subjects exhibiting no symptoms of the illness are not used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有該疾病症狀的 subjects 不會被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應原文：一般 Phase 1 用 healthy volunteers；HIV/cancer drugs 用 patients suffering from the condition。換言之，healthy / symptom-free volunteers 不適用於這類試驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除： A “the clinical trial phase is much longer.”原文沒有說 HIV/cancer trials 更長。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the MAD instead of the SAD approach is used during Phase I.”原文只介紹 SAD 和 MAD 兩種 Phase I variations，沒有說 HIV/cancer 必用 MAD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “effectiveness is more rigorously tested than safety.” Phase 1 仍主要關注 safety；原文沒有說 HIV/cancer 在這階段更重 effectiveness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "pre-clinical",
+      "answerKey": "pre-clinical",
+      "type": "Flowchart Completion",
+      "prompt": "Question 36",
+      "translation": "Phase 0 使用 10–15 名 subjects，確認哪個階段所作出的假設是準確的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase 0 — 10-15 subjects tested to confirm assumptions made in the 36 ______ stages were accurate.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clinical trials are conducted in line with a strict protocol and the stages of a trial are generally defined by five distinct phases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clinical trials 會按照 strict protocol 進行，而 trial stages 通常分為五個 distinct phases。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The former involves a single administration of a drug at a pre-determined level to one group of subjects, and the second involves administration of a pre-determined sequence of dosages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前者是向一組 subjects 一次性給予預定 level 的藥物；後者則是按預定 sequence of dosages 給藥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 開始介紹 clinical testing phases；Phase 0 在這段中段出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “Phase 0”● “10-15 subjects”● “confirm assumptions”● “accurate”原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase 0 involves a first-in-human trial … with the purpose of ascertaining that the drug’s effect is, in fact, the same as predicted in pre-clinical studies.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase 0 involves a first-in-human trial … with the purpose of ascertaining that the drug’s effect is, in fact, the same as predicted in pre-clinical studies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Phase 0 是 first-in-human trial，目的在確認藥物效果是否真的和 pre-clinical studies 中預測的一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文改寫成：● “confirm assumptions … were accurate” = “ascertaining … the same as predicted”● “stages” = “studies”● 答案 = “pre-clinical”字數檢查：pre-clinical 是 hyphenated word，符合 ONE WORD ONLY。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 pre-clinical。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "sequence",
+      "answerKey": "sequence",
+      "type": "Flowchart Completion",
+      "prompt": "Question 37",
+      "translation": "Phase I 有兩種方法：一種是一次性接觸藥物，另一種涉及一個甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase I — 2 different approaches may be used. One involving one-off exposure to the drug the other involving a 37 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clinical trials are conducted in line with a strict protocol and the stages of a trial are generally defined by five distinct phases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clinical trials 會按照 strict protocol 進行，而 trial stages 通常分為五個 distinct phases。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The former involves a single administration of a drug at a pre-determined level to one group of subjects, and the second involves administration of a pre-determined sequence of dosages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前者是向一組 subjects 一次性給予預定 level 的藥物；後者則是按預定 sequence of dosages 給藥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Phase I 的 two different approaches，明顯對應 SAD 和 MAD。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “Phase I”● “2 different approaches”● “one-off exposure”● “the other”原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are two main variations of Phase I testing, these being SAD … and MAD…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面解釋 former 和 second。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The former involves a single administration of a drug at a pre-determined level to one group of subjects, and the second involves administration of a pre-determined sequence of dosages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前者涉及向一組 subjects 一次性給予預定 level 的藥物；後者涉及按預定的 dosage sequence給藥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “one-off exposure” 對應原文 “single administration”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “the other involving a ______” 對應原文 “a pre-determined sequence of dosages”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 ONE WORD ONLY，完整答案不能填 “pre-determined sequence of dosages”，只能填核心名詞： sequence所以答案是 sequence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "optimum",
+      "answerKey": "optimum",
+      "type": "Flowchart Completion",
+      "prompt": "Question 38",
+      "translation": "Phase II 可能有兩個 sub-stages，用來確定甚麼 quantities 和 usefulness？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase II — May involve two sub-stages to establish 38 ______ quantities and usefulness.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phases 0 and 1 are geared towards establishing the safety of a pharmaceutical and once this has been confirmed, drugs pass into Phase II testing where, while safety continues to be monitored, the drug’s effectiveness is also assessed using a larger group of subjects, ranging from twenty up to three hundred.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Phases 0 and 1 主要為了 establish 藥物安全性；一旦安全性確認，藥物進入 Phase II。Phase II中 safety 仍會被監測，同時用 20 至 300 人的較大 subjects group 評估藥物 effectiveness。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where research indicates that a pharmaceutical has passed all requirements of Phases 0, I, II and III, submissions to relevant regulatory and licensing bodies are then made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當研究顯示某 pharmaceutical 已通過 Phases 0、I、II 和 III 的所有要求後，就會向相關regulatory and licensing bodies 提交申請。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 詳細介紹 Phase II 和 Phase III。題目問 Phase II sub-stages，定位在中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “Phase II”● “two sub-stages”● “quantities”● “usefulness”原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase II(a) may be concerned with establishing optimum dosage levels and Phase II(b) to evaluate effectiveness.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In some trials, Phase II is regarded as involving two sub-stages, in that Phase II(a) may be concerned with establishing optimum dosage levels and Phase II(b) to evaluate effectiveness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一些 trials 中，Phase II 被視為包含兩個 sub-stages：Phase II(a) 可能處理 optimum dosage levels 的建立，Phase II(b) 則評估 effectiveness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目改寫：● “two sub-stages” = “two sub-stages”● “quantities” = “dosage levels”● “usefulness” = “effectiveness”● 答案 = “optimum”空格在 “______ quantities” 前，需要形容詞。原文 “optimum dosage levels” 對應 “optimum quantities”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 optimum。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "complex",
+      "answerKey": "complex",
+      "type": "Flowchart Completion",
+      "prompt": "Question 39",
+      "translation": "Phase III 是所有 stages 中最怎樣、最漫長、最昂貴的一個？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase III — The most 39 ______, protracted and costly of all stages.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phases 0 and 1 are geared towards establishing the safety of a pharmaceutical and once this has been confirmed, drugs pass into Phase II testing where, while safety continues to be monitored, the drug’s effectiveness is also assessed using a larger group of subjects, ranging from twenty up to three hundred.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Phases 0 and 1 主要為了 establish 藥物安全性；一旦安全性確認，藥物進入 Phase II，繼續監測safety，也用較大 subjects group 評估 effectiveness。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where research indicates that a pharmaceutical has passed all requirements of Phases 0, I, II and III, submissions to relevant regulatory and licensing bodies are then made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當研究顯示某 pharmaceutical 已通過 Phases 0、I、II 和 III 的所有要求後，就會向相關regulatory and licensing bodies 提交申請。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 Phase III 的描述，所以要在 Paragraph 7 後半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “Phase III”● “most”● “protracted”● “costly”原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase III is the most expensive, time-consuming and complex stage of the trial process…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase III is the most expensive, time-consuming and complex stage of the trial process, often involving as many as 3000 patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Phase III 是 trial process 中最 expensive、最 time-consuming、最 complex 的 stage，常涉及多達 3000 名 patients。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文三個形容詞換了順序和近義詞：● “costly” = “expensive”● “protracted” = “time-consuming”● 空格剩下 = “complex”題目句是 “The most ______, protracted and costly”。因此要填與原文第三個特徵對應的形容詞： complex所以答案是 complex。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "withdrawal",
+      "answerKey": "withdrawal",
+      "type": "Flowchart Completion",
+      "prompt": "Question 40",
+      "translation": "Phase IV 中，上市後繼續監測；如果發現嚴重問題，有時可能導致甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Phase IV — Precautionary monitoring continues post-launch. Any serious issues uncovered can, on occasion, result in 40 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final phase of clinical testing, Phase IV, is conducted over a lengthy period of time post-launch for general usage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Clinical testing 的 final phase，即 Phase IV，會在藥物 launch 後、general usage 階段進行很長時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Identification of harmful effects at this stage, on occasion, has led to withdrawal of a drug from the market; for example, as was the case with cerivastin, a cholesterol-lowering drug, which was later found to have an adverse effect on muscle reaction which, on occasion, had fatal consequences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這一階段發現 harmful effects，有時會導致藥物從市場 withdrawal；例如 cerivastin 這種降膽固醇藥，後來被發現會對 muscle reaction 有 adverse effect，有時甚至帶來 fatal consequences。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段專門講 Phase IV 的 post-launch monitoring 和 possible withdrawal。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● “Phase IV”● “post-launch”● “serious issues”● “result in”原文對應：● “post-launch”● “harmful effects”● “has led to withdrawal”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Identification of harmful effects at this stage, on occasion, has led to withdrawal of a drug from the market…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這一階段發現 harmful effects，有時會導致藥物從市場撤回。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “serious issues uncovered” 對應原文 “Identification of harmful effects”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “can, on occasion, result in” 對應原文 “on occasion, has led to”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填結果名詞，且 ONE WORD ONLY： withdrawal所以答案是 withdrawal。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -CLINICAL TRIALS.pdf",
+    "sha256": "16023c1de89674d90c22685195c054346a356fdcf7054a267b9415ffda65a058",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一段由 vitamins 的現代常識開場，再回到 James Lind 於 1747 年發現 citrus fruits 和 scurvy的關係。段落後半主要列出 scurvy 的症狀，包括 gums softening、oral bleeding、tooth loss、depression、liver spots、loss of colour 和 partial immobility。只看首尾句，可以估計這段功能是介紹 scurvy 的背景、病因和嚴重影響。Questions 28 會定位到這段，因為它問 advanced cases 的症狀。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段說早在 1600 年，已有人提出 citrus fruit 可能降低或預防 scurvy，但真正按科學實驗方式研究的是 Lind。段末指出，當時雖然建立了 citrus fruit 和 avoiding scurvy 的 correlation，人們卻把預防作用歸因於 fruit acids，而非後來才被確認的 vitamin content。這段功能是交代錯誤理解：效果是真的，但原因被錯誤歸到 acids。Question 29 很可能來自這段。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段詳細描述 Lind 的 clinical trial：12 名已有 scurvy symptoms 的 sailors 分成 6 組，每組common diet，但額外 rations 不同，例如 cider、elixir of vitriol、vinegar、seawater、oranges and lemon、barley water。後半說試驗五天後因 fruit supplies 耗盡而停止，只有 fruit group 明顯改善。段末講 trial impact 有限，因為 physicians 仍相信 curative effect 是 acid based。Questions 30–33 主要定位在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段由歷史轉到現代，說 clinical trial findings 進入 mainstream medicine 仍然是 arduous and lengthy process。clinical trial 只是新藥從 research 到 launch 其中一小步；平均每 1000 個conceived drugs 只有 1 個進入 clinical trial。段末列出 trial 前必須完成的 stages：discovery、purification、characterisation、laboratory testing。這段功能是介紹現代新藥研發流程和 trial 前準備。Question 36 會用到 pre-clinical studies 的背景。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段說一種 cancer treatment pharmaceutical 通常要 6 年或以上才到 clinical trial，再需約 8年從 clinical trial 到 general approval。段落後半轉向最大障礙之一：availability of subjects willing to participate。因 selection criteria 嚴格，加上患病者本身已 vulnerable，所以 recruitment difficulties 很大。這段功能是說明現代 clinical testing 的時間成本和招募困難。Question 34 的low volunteer rate 來自這段。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段介紹 clinical trials 的 strict protocol 和 five phases。Phase 0 是 first-in-human trial，通常小規模，目的在確認藥物效果是否和 pre-clinical studies 預測一致。Phase 1 通常用 healthy volunteers，但 HIV 和 cancer drugs 會用患病 patients。段末介紹 SAD 和 MAD：single ascending dose 是一次給藥，multiple ascending dose 是按 sequence of dosages 給藥。 Questions 35–37 主要定位到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段先說 Phases 0 and 1 主要為了 establish safety；Phase II 繼續監測 safety，也用更大群體評估 effectiveness。Phase II 有時分為 II(a) 和 II(b)，分別處理 optimum dosage levels 和effectiveness。接著 Phase III 被描述為 most expensive, time-consuming and complex，涉及多達 3000 patients，並和現有 approved alternatives 比較。Questions 38–39 主要來自這段。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段介紹 Phase IV，即藥物 launch 後長期進行的 final phase。它本質上是 safety net，繼續監測 drug properties 和 side-effects，找出 pre-launch testing timeframe 未能發現的 long term adverse reactions。段末以 cerivastin 為例，說 post-launch harmful effects 可導致 drug withdrawal from the market。這段功能是說明上市後監察和撤藥風險。Question 40 會定位到這段。"
+      }
+    ]
+  }
+}

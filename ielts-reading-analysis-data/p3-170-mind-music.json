@@ -1,0 +1,858 @@
+{
+  "id": "p3-170-mind-music",
+  "catalogueId": "p3-170",
+  "catalogueIds": [
+    "p3-170"
+  ],
+  "passage": 3,
+  "title": "Mind Music",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "G",
+    "A",
+    "F",
+    "H",
+    "wrist",
+    "emotions",
+    "entertained",
+    "challenging",
+    "D",
+    "A",
+    "B",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：哪一段有「會變成 earworms 的歌曲共有特徵」？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。首句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“One factor that makes some songs stick might be repetition.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：令某些歌曲黏在腦中的其中一個因素可能是重複。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Songs with earworm potential appear to share certain features: a repeating pattern of ups and downs in pitch, and an irregular musical interval.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有 earworm 潛力的歌曲似乎有某些共同特徵：音高上下起伏的重複模式，以及不規則"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的音程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 characteristics common 和 songs that become earworms。原文對應是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "share certain features 和 songs with earworm potential。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “characteristics common to songs” 被原文改寫成 “share certain features”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“become earworms” 則對應 “earworm potential”。後面列出的 “repeating pattern of ups and downs in pitch” 和 “irregular musical interval” 正正是特徵描述，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：哪一段有「研究 earworms 的理由 / justification」？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。首句提出 earworms 的現象和研究熱潮："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ever had a song stuck in your head, playing on an endless loop?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：你有沒有試過一首歌卡在腦中，不斷循環播放？"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Much of what is known about them comes from surveys, questionnaires, diaries and lab experiments.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：目前關於它們的大部分知識來自調查、問卷、日記和實驗室實驗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 justification for research。原文沒有直接說 justification，但有一個明確理"
+            },
+            {
+              "kind": "label",
+              "text": "由："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some neuroscientists and cognitive psychologists are studying earworms to explore the mysteries of memory and the part of the brain that is beyond our conscious control.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的意思是：神經科學家和認知心理學家研究 earworms，是為了探索記憶的奧秘，以及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大腦中不受意識控制的部分。題目的 “justification” 即「為何這項研究有價值」。原文給出的理由是：earworms 可幫助研究 memory 和 unconscious / beyond conscious control 的大腦活動，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：哪一段描述大腦對 known songs 和 unknown songs 的反應？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers say they can’t pinpoint a spot in the brain where earworms live.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究者說，他們不能準確指出 earworms 在大腦中的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the same subjects listened to unfamiliar music and were asked to recall it, there was activity in the left frontal portions of the brain instead.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當同一批受試者聽陌生音樂並被要求回想時，活躍位置改為大腦左 frontal portions。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 brain’s reaction, known, unknown songs。原文對應 familiar music 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "unfamiliar music。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說，當受試者聽 familiar music 的開首幾個音符時，右 frontal、superior temporal"
+            },
+            {
+              "kind": "paragraph",
+              "text": "portions 和 supplementary motor area 會活躍。當他們聽 unfamiliar music 並嘗試 recall 時，活躍位置轉到 left frontal portions。題目要的是 known / unknown songs 的腦部反應比較，Paragraph F 完整提供這個對比，所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：哪一段有「計劃研究不同年齡組別 earworms 出現頻率」？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph H。首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers plan to test their results in reverse by playing ringtones from songs of both the earworm and non-earworm variety for volunteers several times a day to see which ones get stuck.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究者計劃反向測試，每天多次向志願者播放 earworm 和 non-earworm 類歌曲鈴聲"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，看哪類會卡住。"
+            },
+            {
+              "kind": "label",
+              "text": "尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could be that they don’t play music as often as younger people do.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：可能原因是他們不像年輕人那樣經常播放音樂。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 proposed research, frequency, different age groups。原文對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“recruit survey participants for a study looking at whether people at different stages of life experience earworms differently.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different stages of life 就是不同人生階段，即不同年齡組。experience earworms differently"
+            },
+            {
+              "kind": "paragraph",
+              "text": "包括出現頻率差異。後面 Halpern 提出 older people 可能知道更多歌，但初步回應顯示他們earworms 較少，進一步確認本段在談年齡差異。所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "wrist",
+      "answerKey": "wrist",
+      "type": "Summary Completion",
+      "prompt": "“They proved this by asking volunteers to record the rhythm of music using a monitor on their 32 ______.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B，因為 summary 開頭提到 Goldsmiths concluded imagined"
+            },
+            {
+              "kind": "paragraph",
+              "text": "music is similar to recordings，這正是 Paragraph B 首句內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 volunteers, record the rhythm, monitor on their。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers had 17 volunteers tap to the beat of any earworm they heard during a four-day period while a device attached to their wrist recorded their movements.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "device attached to their wrist = 裝在手腕上的裝置。題目把 “device” 改寫成 “monitor”，把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“recorded their movements” 改寫成 “record the rhythm”。空格前是 “on their”，答案需要身體部位，而且 ONE WORD ONLY，所以答案是 wrist。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "emotions",
+      "answerKey": "emotions",
+      "type": "Summary Completion",
+      "prompt": "“those who hear earworms more frequently have brains that may deal with 33 ______differently from other people.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍然定位 Paragraph B，因為上一句講 Goldsmiths 研究，後一句轉到 brain structures。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 hear earworms more frequently, brains, deal with。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“people who report hearing earworms often, and find them most intrusive, have slightly different brain structures, with more gray matter in areas associated with processing emotions.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“processing emotions” 中文意思是處理情緒。題目用 “deal with” 改寫 “processing”。空格"
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要名詞，且要從原文取一字，所以填 emotions。注意答案要用複數，因為原文就是 emotions。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "entertained",
+      "answerKey": "entertained",
+      "type": "Summary Completion",
+      "prompt": "“Dr Stewart also believes that the brain is 34 ______ by earworms when it is not focused on a task.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。首句講 low cognitive load 時 earworms 常出現，這正好對應題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目 “not focused on a task”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Dr Stewart, brain, not focused on a task。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Stewart likens earworms to ‘sonic screen savers’ that keep the mind entertained while it is otherwise unoccupied.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“otherwise unoccupied” 對應題目的 “not focused on a task”；“keep the mind entertained”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對應 “the brain is entertained by earworms”。題目改了語法，由 active 變 passive，所以答案是entertained。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "challenging",
+      "answerKey": "challenging",
+      "type": "Summary Completion",
+      "prompt": "“a reduction in the occurrence of earworms was found to be directly related to how 35 ______the task was.”",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍在 Paragraph C。本段講 task difficulty 和 earworms frequency 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 reduction, occurrence of earworms, task。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr Stewart observed that the more challenging the activity, the less likely the volunteers were to hear the music.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the more challenging the activity = 活動越有挑戰；the less likely = 越不可能聽到腦中音"
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂。題目把這個比較句改寫成 “reduction … related to how ______ the task was”。空格前是 how，後面是 the task was，需要形容詞，所以答案是 challenging。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "D — John Seabrook",
+      "answerKey": "D — John Seabrook",
+      "type": "Matching Researchers",
+      "prompt": "“Some musicians create music that is intentionally memorable.”",
+      "translation": "有些音樂人會刻意創作容易被記住的音樂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G，因為本段首句講 repetition 令歌曲 stuck，後面談 pop songs 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hooks。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 intentionally memorable。原文沒有直接說 memorable，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“producers pump pop songs full of aural ‘hooks’, the punchy melodic phrases designed to target the brain and leave it wanting more.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句由 John Seabrook 說出。他指出 producers 會把 pop songs 填滿 hooks，這些旋律"
+            },
+            {
+              "kind": "paragraph",
+              "text": "短語是 designed to target the brain and leave it wanting more，即有意設計成吸引大腦、令人想繼續聽。題目中的 intentionally memorable 概括了 designed hooks 的功能，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A — Lauren Stewart",
+      "answerKey": "A — Lauren Stewart",
+      "type": "Matching Researchers",
+      "prompt": "“People are unable to completely regulate how they think.”",
+      "translation": "人不能完全控制自己的思考方式。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A，因為本段介紹 earworms 與 conscious control 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 completely regulate how they think。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The idea that we have full control over our thought processes is an illusion,’ says psychologist Lauren Stewart…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“full control over our thought processes” = 完全控制思想過程；“is an illusion” = 這種想法"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只是幻覺。題目用 “unable to completely regulate” 改寫 “full control … is an illusion”。說這句的人是 Lauren Stewart，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — Ira Hyman",
+      "answerKey": "B — Ira Hyman",
+      "type": "Matching Researchers",
+      "prompt": "“We can remember songs without knowing that we have heard them.”",
+      "translation": "我們可以記起某些歌，即使自己沒有意識到曾聽過。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。首句講 recent exposure，尾句講邊做其他事邊聽音樂更容易之"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後出現 earworms。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 without knowing, heard them。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even tunes you may have heard but didn’t pay attention to can worm their way into your subconscious, says Ira Hyman…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“heard but didn’t pay attention to” 即聽過但沒有留意；“worm their way into your"
+            },
+            {
+              "kind": "paragraph",
+              "text": "subconscious” 即進入潛意識。題目的 “without knowing that we have heard them” 概括了這種未有 conscious attention 的記憶。提出這點的是 Ira Hyman，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — Andrea Halpern",
+      "answerKey": "C — Andrea Halpern",
+      "type": "Matching Researchers",
+      "prompt": "“Thinking about music has a similar effect on the brain to hearing music.”",
+      "translation": "想像音樂和真正聽音樂，對大腦有相似影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F，因為本段整體講 brain networks 和 imaging studies。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 thinking about music, similar effect, hearing music。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Imaging studies by Andrea Halpern … have shown that deliberately imagining music and actually listening to music activate many of the same neurological networks.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“deliberately imagining music” 對應 thinking about music；“actually listening to music” 對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "應 hearing music；“activate many of the same neurological networks” 表示啟動許多相同神經網絡。研究者是 Andrea Halpern，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — Ira Hyman",
+      "answerKey": "B — Ira Hyman",
+      "type": "Matching Researchers",
+      "prompt": "“Earworms are more persistent when only a short section of the song is constantly replayed.”",
+      "translation": "當歌曲只有短片段不斷重播時，earworms 會更持久。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph E。首句已直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some earworms are just fragments of a song that repeat like a broken record.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有些 earworms 只是歌曲片段，像壞掉唱片一樣重複。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句提到 Zeigarnik effect 和 unfinished thoughts，表示本段圍繞「未完成、片段、重複」對記憶的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 short section, constantly replayed, more persistent。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, when the mind hits a part of a song it can’t remember, it loops back rather than moving on. That could make an earworm even more entrenched, Dr Hyman says.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“fragments of a song” 對應 short section；“repeat like a broken record” 和 “loops back” 對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "應 constantly replayed；“more entrenched” 對應 more persistent。這個觀點由 Dr Hyman 說出，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Mind Music.pdf",
+    "sha256": "8ce36280dafa7728abad2c1a9e3d73cc5bdc33d058201bd95c7b3bf28ec59c97",
+    "pageCount": 9
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先讀每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用「有沒有試過一首歌在腦中不斷重播？」引入 earworms，並交代科學名稱 involuntary musical images。尾句說目前資料多來自 surveys、questionnaires、diaries 和 lab experiments。只看首尾句，已可估計本段是全文導入：介紹 earworms 是甚麼、為何值得研究、研究受限於它們出現時間難預測。這段最可能對應「研究原因、研究價值、意識控制」類題目。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Goldsmiths 研究發現腦中的音樂傾向與真實錄音接近。尾句轉到另一項 Goldsmiths 研究：常受 earworms 困擾的人，在處理情緒相關腦區有較多 grey matter。只看首尾句，可先判斷本段集中講兩個實證結果：一是 imagined music 和 actual recordings 的節奏相近；二是頻密earworms 與 emotion-processing brain structures 有關。這段很可能是 summary completion 的答案區。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出 earworms 常在 low cognitive load 的時間出現，例如洗澡、穿衣、步行、做家務。尾句說歌曲往往配合人的情緒，心情 energised and upbeat 時，腦中音樂也較可能 uptempo。只看首尾句，可見本段重點是 earworms 出現的情境：當大腦不忙時容易出現，任務越有挑戰越少出現，同時歌曲選擇並非隨機，會跟 mood 對應。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說被大腦固定住的歌曲通常是近期聽過的歌，所以 heavy radio play 的歌曲常在 earworm charts 上名列前茅。尾句說一項未發表研究發現，一邊做其他事一邊聽音樂的人，較容易之後出現該歌曲 earworm。首尾句提示本段功能：解釋 exposure，尤其是 recently heard 和 unattended listening，如何讓歌曲進入 subconscious，之後在腦中重現。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說有些 earworms 只是歌曲片段，像壞掉唱片一樣重複。尾句提到 Zeigarnik effect：未完成的想法和活動比完成的更壓在心上，但 interrupted songs 的實驗結果 mixed。只看首尾句，可先估本段討論「片段重播」和「未完成感」如何令 earworms 更持久。這段特別適合處理「短片段反覆播放」或「unfinished music」相關題目。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說研究者仍不能指出 earworms 在大腦中的確切位置。尾句說當受試者聽 unfamiliar music並嘗試回想時，左 frontal portions of the brain 會活躍。首尾句顯示本段主題是 brain imaging：想像音樂、聽熟悉音樂、聽陌生音樂，會啟動不同但相關的 neurological networks。這段很可能回答「known and unknown songs 的腦部反應」和「imagining vs listening」類題目。"
+      },
+      {
+        "number": "G",
+        "summary": "首句指出有些歌之所以黏腦，其中一個因素可能是 repetition。尾句說有 earworm potential 的歌曲似乎有共同特徵：pitch 的上下重複模式，以及 irregular musical interval。只看首尾句，可判斷本段由「重複造成熟悉和期待」進入「流行歌 hooks」和「共同旋律特徵」分析。這段明顯對應歌曲本身的 characteristics，以及有人刻意設計 memorable hooks 的題目。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說研究者計劃反向測試：每天多次播放 earworm 與 non-earworm 類歌曲鈴聲，看哪類會卡在腦中。尾句說目前少量回應顯示 older people earworms 較少，可能因為他們較少播放音樂。首尾句提示本段是 future research：一方面測試哪些歌更易 stuck，另一方面研究不同 life stages /age groups 的 earworm frequency。這段很適合定位 proposed research 題。"
+      }
+    ]
+  }
+}
