@@ -5,6 +5,9 @@
   "compatibility_date": "2026-07-14",
   "workers_dev": true,
   "preview_urls": false,
+  "triggers": {
+    "crons": ["*/5 * * * *"]
+  },
   "ratelimits": [
     {
       "name": "ADMIN_LOGIN_RATE_LIMITER",
@@ -17,6 +20,8 @@
   ],
   "vars": {
     "ALLOWED_ORIGIN": "https://edmundeducation.com",
+    "SITE_BASE_URL": "https://edmundeducation.com",
+    "GOOGLE_OAUTH_REDIRECT_URI": "https://edmund-schedule-system.edmundeducation.workers.dev/v1/admin/gmail/oauth/callback",
     "SUPABASE_URL": "https://ookkxzgpdclzrrhfmvqx.supabase.co",
     "SUPABASE_ANON_KEY": "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x"
   }
