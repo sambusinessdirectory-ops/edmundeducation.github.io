@@ -52,9 +52,9 @@ begin
   end if;
 
   if coalesce(p_bookmarked, false) then
-    insert into public.learning_portal_bookmarks(student_id, system_key, item_key, title, detail, href)
+    insert into public.learning_portal_bookmarks as saved_bookmark(student_id, system_key, item_key, title, detail, href)
     values (v_student_id, p_system_key, p_item_key, p_title, coalesce(p_detail, ''), p_href)
-    on conflict (student_id, system_key, item_key) do update
+    on conflict on constraint learning_portal_bookmarks_pkey do update
       set title = excluded.title, detail = excluded.detail, href = excluded.href, updated_at = now();
     return query select p_item_key, true;
   else

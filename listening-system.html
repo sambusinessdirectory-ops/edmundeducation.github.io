@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="listening-system.css?v=20260822-practice1">
+  <link rel="stylesheet" href="listening-system.css?v=20260822-practice1-3">
 </head>
 <body>
   <a class="skip-link" href="#listening-main">跳至主要內容</a>
@@ -97,6 +97,20 @@
       <section class="practice-workspace panel" data-practice-workspace hidden aria-labelledby="practice-workspace-title"></section>
     </section>
   </main>
+  <aside class="floating-audio-player" data-floating-audio hidden aria-label="浮動錄音播放器">
+    <div><small>目前錄音</small><strong data-floating-part>Part 1</strong></div>
+    <button type="button" data-floating-back aria-label="後退十秒">−10 秒</button>
+    <button type="button" data-floating-toggle>▶ 播放</button>
+    <button type="button" data-floating-forward aria-label="前進十秒">+10 秒</button>
+    <input type="range" data-floating-seek min="0" max="1" value="0" step="0.1" aria-label="錄音播放位置">
+    <time data-floating-time>00:00 / 00:00</time>
+  </aside>
+  <aside class="answer-analysis-dialog" data-answer-analysis-dialog hidden role="dialog" aria-label="答案解析">
+    <button type="button" data-analysis-dialog-close aria-label="關閉解析">×</button>
+    <p class="eyebrow" data-analysis-dialog-number>第 1 題</p>
+    <h3>答案：<span data-analysis-dialog-answer></span></h3>
+    <p data-analysis-dialog-copy></p>
+  </aside>
   <div class="toast" data-toast hidden role="status" aria-live="polite"></div>
   <noscript><p>請啟用 JavaScript 使用英語聆聽系統。</p></noscript>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
@@ -104,7 +118,8 @@
   <script src="listening-system-catalog.js?v=20260810-1"></script>
   <script src="listening-practice-1-data.js?v=20260822-1"></script>
   <script src="listening-practice-1-transcript.js?v=20260822-1"></script>
+  <script src="listening-practice-1-analysis.js?v=20260822-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="listening-system.js?v=20260822-practice1-2"></script>
+  <script type="module" src="listening-system.js?v=20260822-practice1-3"></script>
 </body>
 </html>

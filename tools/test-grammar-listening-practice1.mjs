@@ -53,6 +53,7 @@ assert.match(grammarSystem, /learning_portal_set_bookmark/);
 
 const listening = loadWindowData("listening-practice-1-data.js", "EDMUND_IELTS_LISTENING_PRACTICE_1");
 const transcript = loadWindowData("listening-practice-1-transcript.js", "EDMUND_IELTS_LISTENING_PRACTICE_1_TRANSCRIPT");
+const analysis = loadWindowData("listening-practice-1-analysis.js", "EDMUND_IELTS_LISTENING_PRACTICE_1_ANALYSIS");
 assert.equal(listening.parts.length, 4);
 const questionNumbers = listening.parts.flatMap((part) => part.questions.flatMap((question) => question.numbers || [question.number]));
 assert.deepEqual(Array.from(questionNumbers), Array.from({ length: 40 }, (_, index) => index + 1));
@@ -67,11 +68,20 @@ for (const part of [1, 2, 3, 4]) {
   assert(Array.isArray(transcript[String(part)]) && transcript[String(part)].length >= 30, `Part ${part} transcript is incomplete`);
   assert(transcript[String(part)].every((row) => row.en.trim() && row.zh.trim()), `Part ${part} transcript must be bilingual`);
 }
+assert.deepEqual(Object.keys(analysis).map(Number), Array.from({ length: 40 }, (_, index) => index + 1));
+assert(Object.values(analysis).every((item) => item.answer && item.explanation.length >= 45), "All 40 answers need substantive PDF-sourced analysis");
 
 const listeningSystem = read("listening-system.js");
 assert.match(listeningSystem, /bindTranscriptSync/);
 assert.match(listeningSystem, /data-toggle-translation/);
 assert.match(listeningSystem, /learning_portal_set_bookmark/);
+assert.match(listeningSystem, /togglePartAnswers/);
+assert.doesNotMatch(listeningSystem, /input\.value\s*=\s*question\.answer/, "Showing answers must never overwrite student inputs");
+assert.doesNotMatch(listeningSystem, /scrollIntoView\(\{ block: "nearest"/, "Transcript sync must not force-scroll the viewport");
+assert.match(listeningSystem, /data-bookmark-item=.*transcript/);
+assert.match(listeningSystem, /practice1:analysis:q/);
+assert.match(listeningSystem, /const TEXT_SCALES = Object\.freeze\(\[0\.5, 0\.75, 1, 1\.25, 1\.5, 1\.75, 2, 2\.25, 2\.5, 2\.75, 3\]\)/);
+assert.match(listeningSystem, /data-floating-seek/);
 assert.match(listeningSystem, /listening-translated-blank/);
 assert.match(listeningSystem, /rawText\.split\(\/\(\\\{\\\{\\d\+\\\}\\\}\)\//, "Part 1 must split answer tokens before adding word-bookmark HTML");
 assert.match(listeningSystem, /segment\.match\(\/\^\\\{\\\{\(\\d\+\)\\\}\\\}\$\//, "Part 1 answer tokens must be recognized only as complete text segments");
@@ -87,6 +97,7 @@ const bookmarkSql = read("supabase-learning-portal-bookmarks-20260822.sql");
 assert.match(bookmarkSql, /enable row level security/);
 assert.match(bookmarkSql, /select auth\.uid\(\)/);
 assert.match(bookmarkSql, /security definer/);
+assert.match(bookmarkSql, /on conflict on constraint learning_portal_bookmarks_pkey/);
 assert.match(read("supabase-unified-bookmark-directory-20260821.sql"), /learning_portal_bookmarks/);
 
 console.log("Grammar, night invitation, IELTS Listening Practice 1, transcripts, and secure bookmarks verified.");
