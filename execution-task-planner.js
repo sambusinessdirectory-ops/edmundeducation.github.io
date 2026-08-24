@@ -20,12 +20,15 @@
     next: $("[data-next-date]"), day: $("[data-date-day]"), month: $("[data-date-month]"),
     heading: $("[data-date-heading]"), capacity: $("[data-capacity]"), addTen: $("[data-add-ten]"),
     active: $("[data-active-tasks]"), archive: $("[data-archive-list]"), archiveCount: $("[data-archive-count]"),
-    status: $("[data-status]"), hourGrid: $("[data-hour-grid]")
+    status: $("[data-status]"), hourGrid: $("[data-hour-grid]"),
+    dayWritingTotal: $("[data-day-writing-total]"), completionRate: $("[data-completion-rate]"),
+    completionCopy: $("[data-completion-copy]"), priorityToggle: $("[data-priority-toggle]"),
+    prioritySave: $("[data-priority-save]")
   };
   const state = {
     role: "", token: "", user: null, date: initialDate(), capacity: 10,
     active: new Map(), archived: [], hourBlocks: new Map(), busy: false,
-    timerTick: 0, thinking: null, hourSaveTimers: new Map(),
+    timerTick: 0, thinking: null, hourSaveTimers: new Map(), daySummary: {}, priorityMode: false,
     requestedTask: new URLSearchParams(location.search).get("task") || ""
   };
 
@@ -145,6 +148,19 @@
     chevron.className = "task-chevron";
     chevron.textContent = "⌄";
     summary.append(number, copy, chevron);
+    if (record?.tag_keys?.length) {
+      const tags = document.createElement("span");
+      tags.className = "summary-tags";
+      record.tag_keys.forEach((key) => {
+        const tag = config.taskTags.find((item) => item.key === key);
+        if (!tag) return;
+        const dot = document.createElement("i");
+        dot.dataset.tagKey = tag.key;
+        dot.title = tag.label;
+        tags.append(dot);
+      });
+      copy.append(tags);
+    }
     return summary;
   }
 
@@ -176,6 +192,33 @@
       const current = state.thinking.baseSeconds + Math.max(0, Math.floor((Date.now() - state.thinking.startedAt) / 1000));
       state.thinking.timerNode.textContent = `思考 ${formatDuration(current)}`;
     }
+    const daySeconds = [...state.active.values(), ...state.archived].reduce((sum, record) => sum + effectiveElapsed(record), 0);
+    elements.dayWritingTotal.textContent = formatDuration(daySeconds);
+  }
+
+  function parseDuration(value) {
+    const text = String(value || "").trim();
+    if (!/^(?:\d+:)?[0-5]?\d:[0-5]\d$/.test(text)) return null;
+    const parts = text.split(":").map(Number);
+    return parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
+  }
+
+  function safeHtml(value) {
+    return String(value || "").replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character]));
+  }
+
+  function printStep20(record) {
+    const step20 = String(record?.answers?.q20 || record?.step20 || "").trim();
+    if (!step20) { showStatus("這項工作尚未填寫 Step 20。", "error"); return null; }
+    const steps = step20.split(/\r?\n/).map((step) => step.trim()).filter(Boolean);
+    const popup = window.open("", "execution-step20-pdf", "width=920,height=760");
+    if (!popup) { showStatus("請允許彈出視窗，才能匯出 Step 20 PDF。", "error"); return null; }
+    popup.document.open();
+    popup.document.write(`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>${safeHtml(record.task_date || state.date)} - Task ${Number(record.slot_number) || ""} - ${safeHtml(record.title)}</title><link rel="stylesheet" href="${location.origin}/execution-step20-print.css?v=20260824-1"></head><body><header class="step20-print-header"><small>EDMUND EXECUTION · BABY STEPS REFERENCE</small><h1>${safeHtml(record.title)}</h1><p>${safeHtml(record.task_date || state.date)} · Task ${Number(record.slot_number) || ""}</p></header><ol class="step20-print-list">${steps.map((step) => `<li>${safeHtml(step)}</li>`).join("")}</ol><p class="step20-print-footer">20. 列出完成這項工作所需的每一個步驟。</p></body></html>`);
+    popup.document.close();
+    popup.focus();
+    window.setTimeout(() => popup.print(), 250);
+    return popup;
   }
 
   function buildTaskForm(slot, record, details) {
@@ -191,6 +234,8 @@
     const timerValue = document.createElement("strong");
     timerValue.dataset.taskTimer = String(slot);
     timerValue.textContent = formatDuration(effectiveElapsed(record));
+    timerValue.tabIndex = record?.writing_timer_started_at ? -1 : 0;
+    timerValue.title = record?.writing_timer_started_at ? "計時中" : "按此手動調整時間";
     timerCopy.append(timerLabel, timerValue);
     const startTimer = document.createElement("button");
     startTimer.type = "button";
@@ -198,6 +243,10 @@
     startTimer.textContent = record?.writing_timer_started_at ? "計時中…" : "▶ 開始計時";
     startTimer.disabled = Boolean(record?.writing_timer_started_at);
     timerBar.append(timerCopy, startTimer);
+    timerValue.addEventListener("click", () => editTaskTime(slot, form, buttons, timerValue));
+    timerValue.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") { event.preventDefault(); editTaskTime(slot, form, buttons, timerValue); }
+    });
     const titleLabel = document.createElement("label");
     titleLabel.className = "title-field";
     const titleCopy = document.createElement("span");
@@ -231,7 +280,33 @@
       textarea.addEventListener("focus", () => startThinkingTimer(slot, index + 1, form, buttons, textarea, thinking, record));
       textarea.addEventListener("blur", () => stopThinkingTimer(textarea));
       field.append(heading, textarea);
+      if (index === 19) {
+        const exportStep = document.createElement("button");
+        exportStep.type = "button";
+        exportStep.className = "export-step20";
+        exportStep.textContent = "匯出 Step 20 PDF";
+        exportStep.addEventListener("click", async () => {
+          try { printStep20(await saveTask(slot, form, buttons)); }
+          catch (_) { /* saveTask already reports validation errors */ }
+        });
+        field.append(exportStep);
+      }
       questionGrid.append(field);
+    });
+    const tagPicker = document.createElement("fieldset");
+    tagPicker.className = "task-tag-picker";
+    const tagLegend = document.createElement("legend");
+    tagLegend.textContent = "Homework 標籤（可多選）";
+    tagPicker.append(tagLegend);
+    const selectedTags = new Set(record?.tag_keys || []);
+    config.taskTags.forEach((tag) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.tagKey = tag.key;
+      button.textContent = tag.label;
+      button.setAttribute("aria-pressed", String(selectedTags.has(tag.key)));
+      button.addEventListener("click", () => toggleTaskTag(slot, form, buttons, tag, button, selectedTags));
+      tagPicker.append(button);
     });
     const actions = document.createElement("div");
     actions.className = "task-form-actions";
@@ -279,7 +354,7 @@
       stars.append(star);
     }
     rating.append(legend, ratingHint, stars);
-    form.append(timerBar, titleLabel, questionGrid, rating, actions);
+    form.append(timerBar, titleLabel, questionGrid, tagPicker, rating, actions);
     form.addEventListener("submit", (event) => {
       event.preventDefault();
       saveTask(slot, form, buttons)
@@ -339,6 +414,20 @@
     return answers;
   }
 
+  function syncTaskButtons(form, buttons, record) {
+    buttons.forEach((button) => { button.disabled = false; });
+    const running = Boolean(record?.writing_timer_started_at);
+    const start = form.querySelector(".start-timer");
+    const stop = form.querySelector(".stop-timer");
+    const move = form.querySelector(".move-task");
+    if (start) {
+      start.disabled = running;
+      start.textContent = running ? "計時中…" : "▶ 開始計時";
+    }
+    if (stop) stop.disabled = !running;
+    if (move) move.disabled = state.date === MAX_DATE;
+  }
+
   async function saveTask(slot, form, buttons, options = {}) {
     let title = String(form.elements.title.value || "").trim();
     if (!title && options.allowDefaultTitle) {
@@ -369,7 +458,7 @@
       if (!options.quiet) showStatus(error?.message || "未能儲存工作，請稍後再試。", "error");
       throw error;
     } finally {
-      buttons.forEach((button) => { button.disabled = false; });
+      syncTaskButtons(form, buttons, state.active.get(slot));
     }
   }
 
@@ -380,12 +469,78 @@
       const rows = await rpc(config.plannerTaskTimerRpc, { p_task_id: saved.id, p_action: action, ...authParams() });
       const timer = Array.isArray(rows) ? rows[0] : null;
       if (!timer?.id) throw new Error("未能更新計時器");
-      await loadDay(action === "start" ? "工作報告計時已開始。" : `計時已停止：${formatDuration(timer.writing_elapsed_seconds)}。`, { focusSlot: slot, openSlot: slot });
+      const merged = { ...(state.active.get(slot) || saved), ...timer };
+      state.active.set(slot, merged);
+      const timerNode = form.querySelector(`[data-task-timer="${slot}"]`);
+      const startButton = form.querySelector(".start-timer");
+      const stopButton = form.querySelector(".stop-timer");
+      timerNode.textContent = formatDuration(effectiveElapsed(merged));
+      timerNode.tabIndex = merged.writing_timer_started_at ? -1 : 0;
+      timerNode.title = merged.writing_timer_started_at ? "計時中" : "按此手動調整時間";
+      startButton.disabled = Boolean(merged.writing_timer_started_at);
+      startButton.textContent = merged.writing_timer_started_at ? "計時中…" : "▶ 開始計時";
+      stopButton.disabled = !merged.writing_timer_started_at;
+      showStatus(action === "start" ? "工作報告計時已開始。" : `計時已停止：${formatDuration(timer.writing_elapsed_seconds)}。`);
     } catch (error) {
       if (error?.message !== "Task title is required") showStatus(error?.message || "未能更新計時器。", "error");
     } finally {
-      buttons.forEach((button) => { button.disabled = false; });
+      syncTaskButtons(form, buttons, state.active.get(slot));
     }
+  }
+
+  async function editTaskTime(slot, form, buttons, timerNode) {
+    const record = state.active.get(slot);
+    if (record?.writing_timer_started_at || timerNode.querySelector("input")) return;
+    try {
+      const saved = await saveTask(slot, form, buttons);
+      const input = document.createElement("input");
+      input.className = "timer-edit-input";
+      input.value = formatDuration(saved.writing_elapsed_seconds);
+      input.setAttribute("aria-label", "手動調整工作報告撰寫時間，格式為時分秒");
+      timerNode.textContent = "";
+      timerNode.append(input);
+      input.focus(); input.select();
+      let finished = false;
+      const finish = async (save) => {
+        if (finished || !input.isConnected) return;
+        const seconds = parseDuration(input.value);
+        if (save && seconds === null) { showStatus("請以 HH:MM:SS 或 MM:SS 格式輸入時間。", "error"); input.focus(); return; }
+        finished = true;
+        if (save) {
+          const total = await rpc(config.plannerTaskTimeSetRpc, { p_task_id: saved.id, p_elapsed_seconds: seconds, ...authParams() });
+          const merged = { ...saved, writing_elapsed_seconds: Number(total) || 0, writing_timer_started_at: null };
+          state.active.set(slot, merged); timerNode.textContent = formatDuration(total); refreshTimers(); showStatus("撰寫時間已手動更新。");
+        } else timerNode.textContent = formatDuration(saved.writing_elapsed_seconds);
+      };
+      input.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") { event.preventDefault(); finish(true).catch((error) => showStatus(error.message, "error")); }
+        if (event.key === "Escape") { event.preventDefault(); finish(false); }
+      });
+      input.addEventListener("blur", () => finish(true).catch((error) => showStatus(error.message, "error")));
+    } catch (_) { /* validation already reported */ }
+  }
+
+  async function toggleTaskTag(slot, form, buttons, tag, button, selected) {
+    const wasSelected = selected.has(tag.key);
+    try {
+      const saved = await saveTask(slot, form, buttons);
+      wasSelected ? selected.delete(tag.key) : selected.add(tag.key);
+      const result = await rpc(config.plannerTaskTagsRpc, { p_task_id: saved.id, p_tag_keys: [...selected], ...authParams() });
+      const record = { ...saved, tag_keys: Array.isArray(result) ? result : [...selected] };
+      state.active.set(slot, record);
+      button.setAttribute("aria-pressed", String(selected.has(tag.key)));
+      applyTagEdges(form.closest(".task-card"), record.tag_keys);
+      showStatus("工作標籤已更新。");
+    } catch (error) {
+      wasSelected ? selected.add(tag.key) : selected.delete(tag.key);
+      showStatus(error?.message || "未能更新工作標籤。", "error");
+    }
+  }
+
+  function applyTagEdges(card, keys = []) {
+    card.dataset.tagged = String(Boolean(keys.length));
+    if (keys.length) card.dataset.tagEdge = keys[0];
+    else delete card.dataset.tagEdge;
   }
 
   async function rateTask(slot, form, buttons, value, stars, hint) {
@@ -431,16 +586,70 @@
 
   function renderActive() {
     elements.active.replaceChildren();
-    for (let slot = 1; slot <= state.capacity; slot += 1) {
+    const occupied = [...state.active.keys()].sort((a, b) => (state.active.get(a)?.priority_order || a) - (state.active.get(b)?.priority_order || b));
+    const empty = Array.from({ length: state.capacity }, (_, index) => index + 1).filter((slot) => !state.active.has(slot));
+    [...occupied, ...empty].forEach((slot) => {
       const record = state.active.get(slot) || null;
       const details = document.createElement("details");
       details.className = "task-card";
       details.dataset.slot = String(slot);
       details.dataset.saved = String(Boolean(record));
+      if (record) details.dataset.taskId = record.id;
+      applyTagEdges(details, record?.tag_keys || []);
       details.append(makeSummary(slot, record));
       details.addEventListener("toggle", () => { if (details.open) buildTaskForm(slot, record, details); });
       elements.active.append(details);
-    }
+    });
+    updatePriorityMode();
+  }
+
+  function updatePriorityMode() {
+    elements.active.dataset.prioritizing = String(state.priorityMode);
+    elements.priorityToggle.setAttribute("aria-pressed", String(state.priorityMode));
+    elements.priorityToggle.textContent = state.priorityMode ? "取消排列" : "⇅ Prioritization";
+    elements.prioritySave.hidden = !state.priorityMode;
+    elements.addTen.disabled = state.priorityMode || state.capacity >= 1000;
+    elements.active.querySelectorAll(".task-card").forEach((card) => {
+      const draggable = state.priorityMode && card.dataset.saved === "true";
+      card.draggable = draggable;
+      if (!draggable) return;
+      card.open = false;
+      card.addEventListener("dragstart", priorityDragStart);
+      card.addEventListener("dragover", priorityDragOver);
+      card.addEventListener("drop", priorityDrop);
+      card.addEventListener("dragend", priorityDragEnd);
+    });
+  }
+
+  function priorityDragStart(event) {
+    event.currentTarget.classList.add("is-dragging");
+    event.dataTransfer.effectAllowed = "move";
+    event.dataTransfer.setData("text/plain", event.currentTarget.dataset.taskId);
+  }
+  function priorityDragOver(event) {
+    const target = event.currentTarget;
+    if (!state.priorityMode || target.dataset.saved !== "true") return;
+    event.preventDefault();
+    const dragging = elements.active.querySelector(".is-dragging");
+    if (!dragging || dragging === target) return;
+    const bounds = target.getBoundingClientRect();
+    elements.active.insertBefore(dragging, event.clientY < bounds.top + bounds.height / 2 ? target : target.nextSibling);
+  }
+  function priorityDrop(event) { event.preventDefault(); }
+  function priorityDragEnd() { elements.active.querySelectorAll(".task-card").forEach((card) => card.classList.remove("is-dragging")); }
+
+  async function savePriorities() {
+    const ids = [...elements.active.querySelectorAll('.task-card[data-saved="true"]')].map((card) => card.dataset.taskId);
+    elements.prioritySave.disabled = true;
+    try {
+      await rpc(config.plannerPrioritiesRpc, { p_task_date: state.date, p_task_ids: ids, ...authParams() });
+      ids.forEach((id, index) => {
+        const record = [...state.active.values()].find((item) => item.id === id);
+        if (record) record.priority_order = index + 1;
+      });
+      state.priorityMode = false; updatePriorityMode(); showStatus("新的工作優先次序已儲存。");
+    } catch (error) { showStatus(error?.message || "未能儲存優先次序。", "error"); }
+    finally { elements.prioritySave.disabled = false; }
   }
 
   function renderDayPlanner() {
@@ -524,6 +733,7 @@
     state.archived.forEach((record) => {
       const details = document.createElement("details");
       details.className = "archive-item";
+      applyTagEdges(details, record.tag_keys || []);
       const summary = document.createElement("summary");
       const title = document.createElement("strong");
       title.textContent = record.title;
@@ -533,6 +743,19 @@
       summary.append(title, meta);
       const content = document.createElement("div");
       content.className = "archive-content";
+      if (record.tag_keys?.length) {
+        const tags = document.createElement("div");
+        tags.className = "archive-tags";
+        record.tag_keys.forEach((key) => {
+          const tag = config.taskTags.find((item) => item.key === key);
+          if (!tag) return;
+          const chip = document.createElement("span");
+          chip.textContent = tag.label;
+          chip.dataset.tagKey = tag.key;
+          tags.append(chip);
+        });
+        content.append(tags);
+      }
       questions.forEach((question, index) => {
         const answer = String(record.answers?.[`q${index + 1}`] || "").trim();
         if (!answer) return;
@@ -578,17 +801,21 @@
     showStatus("");
     try {
       const params = { p_task_date: state.date, ...authParams() };
-      const [capacity, activeRows, archivedRows, hourRows] = await Promise.all([
+      const [capacity, activeRows, archivedRows, hourRows, daySummary] = await Promise.all([
         rpc(config.plannerCapacityRpc, params),
         rpc(config.plannerTasksLoadRpc, { ...params, p_status: "active" }),
         rpc(config.plannerTasksLoadRpc, { ...params, p_status: "archived" }),
-        rpc(config.plannerHourBlocksLoadRpc, params)
+        rpc(config.plannerHourBlocksLoadRpc, params),
+        rpc(config.plannerDaySummaryRpc, params)
       ]);
       state.capacity = Math.max(10, Math.min(1000, Number(capacity) || 10));
       state.active = new Map((Array.isArray(activeRows) ? activeRows : []).map((row) => [Number(row.slot_number), row]));
       state.archived = Array.isArray(archivedRows) ? archivedRows : [];
       state.hourBlocks = new Map((Array.isArray(hourRows) ? hourRows : []).map((row) => [Number(row.hour_number), row]));
+      state.daySummary = daySummary || {};
       elements.capacity.textContent = String(state.capacity);
+      elements.completionRate.textContent = `${Number(state.daySummary.completion_rate || 0).toFixed(Number(state.daySummary.completion_rate || 0) % 1 ? 1 : 0)}%`;
+      elements.completionCopy.textContent = `${Number(state.daySummary.completed_tasks || 0)} / ${Number(state.daySummary.created_tasks || 0)} 完成`;
       renderActive();
       renderArchive();
       renderDayPlanner();
@@ -614,7 +841,7 @@
       showStatus(error?.message || "未能讀取這一天的工作。", "error");
     } finally {
       state.busy = false;
-      elements.addTen.disabled = state.capacity >= 1000;
+      elements.addTen.disabled = state.priorityMode || state.capacity >= 1000;
     }
   }
 
@@ -641,6 +868,8 @@
   elements.next.addEventListener("click", () => { state.date = shiftDate(state.date, 1); loadDay(); });
   elements.dateInput.addEventListener("change", () => { state.date = clampDate(elements.dateInput.value); loadDay(); });
   elements.addTen.addEventListener("click", addTen);
+  elements.priorityToggle.addEventListener("click", () => { state.priorityMode = !state.priorityMode; renderActive(); });
+  elements.prioritySave.addEventListener("click", savePriorities);
 
   (async () => {
     setConnection("正在連接", "checking");

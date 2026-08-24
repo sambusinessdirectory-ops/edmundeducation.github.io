@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="execution-dashboard.css?v=20260824-2">
+  <link rel="stylesheet" href="execution-dashboard.css?v=20260824-4">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body data-system="execution">
@@ -60,6 +60,27 @@
         <article><span>中位撰寫時間</span><strong data-median-time>00:00</strong><small>Median</small></article>
         <article><span>平均難度</span><strong data-average-rating>—</strong><small>滿分 5 星</small></article>
         <article><span>累積完成</span><strong data-completed-total>0</strong><small>已封存工作</small></article>
+        <article><span>累積撰寫時間</span><strong data-writing-total>00:00</strong><small>所有工作報告</small></article>
+      </section>
+
+      <section class="analytics-panel rate-panel">
+        <div class="panel-heading"><div><span class="eyebrow">DAILY COMPLETION RATE</span><h2>每日完成率</h2><p>當日完成工作 ÷ 當日建立工作。</p></div><div class="period-controls" data-metrics-periods><button type="button" data-metrics-period="week" aria-pressed="true">每週</button><button type="button" data-metrics-period="month" aria-pressed="false">每月</button><button type="button" data-metrics-period="year" aria-pressed="false">每年</button><button type="button" data-metrics-period="all" aria-pressed="false">全部</button></div></div>
+        <div class="chart-wrap"><svg data-completion-chart role="img" aria-label="每日工作完成率圖表" viewBox="0 0 900 360"></svg></div><p class="chart-caption">Y 軸：完成率 (%)　·　X 軸：日期</p>
+      </section>
+
+      <section class="analytics-panel time-panel">
+        <div class="panel-heading"><div><span class="eyebrow">WRITING TIME</span><h2>每日工作報告撰寫時間</h2></div><label class="total-line-toggle"><input type="checkbox" data-cumulative-toggle> 顯示累積總時間</label></div>
+        <div class="chart-wrap"><svg data-time-chart role="img" aria-label="每日工作報告撰寫時間圖表" viewBox="0 0 900 360"></svg></div><p class="chart-caption">Y 軸：時間　·　X 軸：日期</p>
+      </section>
+
+      <section class="analytics-panel step20-panel">
+        <div class="panel-heading"><div><span class="eyebrow">BABY STEPS LIBRARY</span><h2>Step 20 行動步驟庫</h2><p>每項工作獨立匯出；「逐份匯出全部」會沿用同一列印視窗逐項前進。</p></div><button class="panel-action" type="button" data-export-all-step20>逐份匯出全部 PDF</button></div>
+        <div class="step20-list" data-step20-list></div>
+      </section>
+
+      <section class="analytics-panel tag-panel">
+        <div class="panel-heading"><div><span class="eyebrow">HOMEWORK TAG INDEX</span><h2>標籤工作目錄</h2><p>跨日期查看每一個 Homework 標籤下的工作。</p></div></div>
+        <div class="tag-tabs" data-tag-tabs></div><div class="tagged-list" data-tagged-list></div><div class="pagination" data-tag-pagination></div>
       </section>
 
       <section class="analytics-panel chart-panel">
@@ -94,8 +115,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script src="execution-system-config.js?v=20260824-4"></script>
+  <script src="execution-system-config.js?v=20260824-6"></script>
   <script src="execution-system-data.js?v=20260824-1"></script>
-  <script src="execution-dashboard.js?v=20260824-2"></script>
+  <script src="execution-dashboard.js?v=20260824-4"></script>
 </body>
 </html>

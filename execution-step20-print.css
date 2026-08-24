@@ -1,0 +1,14 @@
+@page{size:A4;margin:18mm}
+*{box-sizing:border-box}
+body{margin:0;color:#211c33;font-family:Georgia,"Noto Serif TC","Times New Roman",serif}
+.step20-print-header{padding:28px;border-radius:22px;background:linear-gradient(135deg,#251d50,#5d4ab3);color:#fff}
+.step20-print-header small{font:700 11px system-ui,sans-serif;letter-spacing:.12em}
+.step20-print-header h1{margin:9px 0 0;font-size:28px;line-height:1.25}
+.step20-print-header p{margin:10px 0 0;color:rgba(255,255,255,.78);font:700 12px system-ui,sans-serif}
+.step20-print-meta{margin:16px 0 24px;color:#746d83;font:700 12px system-ui,sans-serif}
+.step20-print-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.step20-print-tags span{padding:5px 8px;border-radius:999px;background:#f0ecfb}
+.step20-print-list{display:grid;gap:10px;padding-left:30px}
+.step20-print-list li{padding:12px 14px;border:1px solid #ded7ec;border-radius:12px;line-height:1.55;break-inside:avoid}
+.step20-print-copy{margin-top:24px;padding:26px;border:1px solid #ddd4ed;border-radius:22px;background:#fbf8ff;white-space:pre-wrap;font:600 17px/1.8 system-ui,sans-serif}
+.step20-print-footer{margin-top:26px;padding-top:12px;border-top:1px solid #ddd;color:#777;font:700 10px system-ui,sans-serif}

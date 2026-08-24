@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="execution-task-planner.css?v=20260824-3">
+  <link rel="stylesheet" href="execution-task-planner.css?v=20260824-5">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body data-system="execution">
@@ -62,10 +62,11 @@
       <section class="planner-board">
         <div class="board-heading">
           <div><span class="eyebrow">ACTIVE TASKS</span><h2 data-date-heading></h2><p>每一天預設 10 個工作格式；只會儲存您實際填寫的內容。</p></div>
-          <div class="board-actions"><span><strong data-capacity>10</strong> 個位置</span><button type="button" data-add-ten>＋ 再加 10 個</button></div>
+          <div class="board-actions"><span><strong data-capacity>10</strong> 個位置</span><button type="button" data-priority-toggle>⇅ Prioritization</button><button type="button" data-priority-save hidden>儲存優先次序</button><button type="button" data-add-ten>＋ 再加 10 個</button></div>
         </div>
         <div class="status-message" data-status role="status" hidden></div>
         <div class="task-grid" data-active-tasks></div>
+        <div class="day-writing-total"><span>本日工作報告撰寫總時間</span><strong data-day-writing-total>00:00:00</strong></div>
         <section class="day-planner" aria-labelledby="day-planner-title">
           <div class="day-planner-heading">
             <div><span class="eyebrow">24-HOUR DAY PLANNER</span><h3 id="day-planner-title">Day Planner</h3><p>在每個時段寫下安排，再按數字標籤連結上方的工作。</p></div>
@@ -76,7 +77,7 @@
       </section>
 
       <section class="archive-board">
-        <div class="board-heading"><div><span class="eyebrow">COMPLETED ARCHIVE</span><h2>當日完成封存</h2><p>按「這項工作完成」後，內容會完整保存於這裏。</p></div><strong class="archive-count" data-archive-count>0</strong></div>
+        <div class="board-heading"><div><span class="eyebrow">COMPLETED ARCHIVE</span><h2>當日完成封存</h2><p>按「這項工作完成」後，內容會完整保存於這裏。</p></div><div class="archive-summary"><strong class="completion-rate" data-completion-rate>0%</strong><span data-completion-copy>0 / 0 完成</span><strong class="archive-count" data-archive-count>0</strong></div></div>
         <div class="archive-list" data-archive-list></div>
       </section>
     </section>
@@ -85,8 +86,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script src="execution-system-config.js?v=20260824-4"></script>
+  <script src="execution-system-config.js?v=20260824-6"></script>
   <script src="execution-system-data.js?v=20260824-1"></script>
-  <script src="execution-task-planner.js?v=20260824-3"></script>
+  <script src="execution-task-planner.js?v=20260824-5"></script>
 </body>
 </html>

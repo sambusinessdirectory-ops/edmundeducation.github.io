@@ -27,6 +27,23 @@
     plannerThinkingLogsRpc: "execution_system_planner_thinking_logs_load",
     plannerHourBlocksLoadRpc: "execution_system_planner_hour_blocks_load",
     plannerHourBlockSaveRpc: "execution_system_planner_hour_block_save",
-    plannerCompletedTasksRpc: "execution_system_planner_completed_tasks_load"
+    plannerCompletedTasksRpc: "execution_system_planner_completed_tasks_load",
+    plannerTaskTagsRpc: "execution_system_planner_task_tags_set",
+    plannerTaskTimeSetRpc: "execution_system_planner_task_time_set",
+    plannerPrioritiesRpc: "execution_system_planner_priorities_save",
+    plannerDaySummaryRpc: "execution_system_planner_day_summary",
+    plannerStep20Rpc: "execution_system_planner_step20_load",
+    plannerTaggedTasksRpc: "execution_system_planner_tagged_tasks_load",
+    plannerMetricsRpc: "execution_system_planner_metrics_load",
+    taskTags: Object.freeze([
+      Object.freeze({ key: "reluctant", label: "唔想做...", color: "#ab12e6", textColor: "#ffffff" }),
+      Object.freeze({ key: "favourite", label: "我最喜愛功課", color: "#ff3473", textColor: "#25182b" }),
+      Object.freeze({ key: "teacher-added", label: "老師新加", color: "#920909", textColor: "#ffffff" }),
+      Object.freeze({ key: "well-done", label: "Well done!", color: "#ffd591", textColor: "#25182b" }),
+      Object.freeze({ key: "break-15", label: "每15分鐘休息一次", color: "#a1ff80", textColor: "#25182b" }),
+      Object.freeze({ key: "prepare-materials", label: "準備材料", color: "#32cd32", textColor: "#143714" }),
+      Object.freeze({ key: "hardest-today", label: "本日最難", color: "#7f1734", textColor: "#ffffff" }),
+      Object.freeze({ key: "easiest-today", label: "本日最簡單", color: "#74c9f1", textColor: "#173b51" })
+    ])
   });
 })();

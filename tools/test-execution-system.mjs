@@ -6,14 +6,16 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const read = (file) => readFile(path.join(root, file), "utf8");
-const [html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, thinkingHtml, thinkingCss, thinkingJs, home, nav] = await Promise.all([
+const [html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, prioritySql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, step20PrintCss, thinkingHtml, thinkingCss, thinkingJs, home, nav] = await Promise.all([
   read("execution-system.html"), read("execution-system.css"), read("execution-system.js"),
   read("execution-system-data.js"), read("execution-system-config.js"), read("supabase-execution-system.sql"),
   read("supabase-execution-system-persistent-tools.sql"),
   read("supabase-execution-system-planner-analytics.sql"),
   read("supabase-execution-system-thinking-day-planner.sql"),
+  read("supabase-execution-system-priority-tags-metrics.sql"),
   read("execution-task-planner.html"), read("execution-task-planner.css"), read("execution-task-planner.js"),
   read("execution-dashboard.html"), read("execution-dashboard.css"), read("execution-dashboard.js"),
+  read("execution-step20-print.css"),
   read("execution-thinking-log.html"), read("execution-thinking-log.css"), read("execution-thinking-log.js"),
   read("index.html"), read("shared-system-nav.js")
 ]);
@@ -60,6 +62,12 @@ assert.match(plannerJs, /plannerTaskRatingRpc/);
 assert.match(plannerJs, /plannerTaskReactivateRpc/);
 assert.match(plannerJs, /plannerThinkingRecordRpc/);
 assert.match(plannerJs, /plannerHourBlockSaveRpc/);
+assert.match(plannerJs, /plannerPrioritiesRpc/);
+assert.match(plannerJs, /plannerTaskTagsRpc/);
+assert.match(plannerJs, /plannerTaskTimeSetRpc/);
+assert.match(plannerJs, /匯出 Step 20 PDF/);
+assert.match(plannerJs, /step20-print-list/);
+assert.match(plannerJs, /本日工作報告撰寫總時間|dayWritingTotal/);
 assert.match(plannerJs, /移到明天/);
 assert.match(plannerJs, /重新啟動這項工作/);
 assert.match(plannerJs, /plannerCapacityRpc/);
@@ -77,9 +85,17 @@ assert.match(dashboardHtml, /data-period="year"/);
 assert.match(dashboardHtml, /data-period="all"/);
 assert.match(dashboardJs, /plannerAnalyticsRpc/);
 assert.match(dashboardJs, /plannerCompletedTasksRpc/);
+assert.match(dashboardJs, /plannerMetricsRpc/);
+assert.match(dashboardJs, /plannerStep20Rpc/);
+assert.match(dashboardJs, /plannerTaggedTasksRpc/);
+assert.match(dashboardHtml, /data-completion-chart/);
+assert.match(dashboardHtml, /data-time-chart/);
+assert.match(dashboardHtml, /Step 20 行動步驟庫/);
+assert.match(dashboardHtml, /標籤工作目錄/);
 assert.match(dashboardJs, /createElementNS\("http:\/\/www\.w3\.org\/2000\/svg"/);
 assert.match(dashboardCss, /\.chart-axis/);
 assert.match(dashboardCss, /\.completed-log/);
+assert.match(step20PrintCss, /@page/);
 
 assert.match(thinkingHtml, /思考時間紀錄/);
 assert.match(thinkingHtml, /data-question-bars/);
@@ -111,9 +127,18 @@ assert.match(thinkingSql, /enable row level security/i);
 assert.match(thinkingSql, /revoke all on table public\.execution_system_planner_thinking_logs/i);
 assert.match(thinkingSql, /grant execute on function public\.execution_system_planner_thinking_logs_load\(date, date, uuid, uuid\) to authenticated/i);
 assert.doesNotMatch(thinkingSql, /pg_catalog\.(?:coalesce|least|greatest|extract)\s*\(/i, "PostgreSQL special forms cannot be schema-qualified");
+assert.match(prioritySql, /add column if not exists tag_keys text\[\]/i);
+assert.match(prioritySql, /add column if not exists priority_order integer/i);
+assert.match(prioritySql, /execution_system_planner_priorities_save/i);
+assert.match(prioritySql, /execution_system_planner_step20_load/i);
+assert.match(prioritySql, /execution_system_planner_tagged_tasks_load/i);
+assert.match(prioritySql, /execution_system_planner_metrics_load/i);
+assert.match(prioritySql, /grant execute on function public\.execution_system_planner_metrics_load\(text,date,uuid,uuid\) to authenticated/i);
+assert.match(prioritySql, /revoke all on function public\.execution_system_planner_metrics_load/i);
+assert.match(prioritySql, /set search_path = ''/i);
 
 const secret = "Execution?PsychologyHelps!5194?Yes!@";
-assert.doesNotMatch([html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, thinkingHtml, thinkingCss, thinkingJs].join("\n"), new RegExp(secret.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), "plaintext administrator password must never be committed");
+assert.doesNotMatch([html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, prioritySql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, thinkingHtml, thinkingCss, thinkingJs].join("\n"), new RegExp(secret.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), "plaintext administrator password must never be committed");
 for (const fn of ["execution_system_admin_login", "execution_system_admin_me", "execution_system_admin_logout"]) {
   assert.match(sql, new RegExp(`security definer[\\s\\S]*?set search_path = ''[\\s\\S]*?${fn}|${fn}[\\s\\S]*?security definer[\\s\\S]*?set search_path = ''`, "i"));
 }
