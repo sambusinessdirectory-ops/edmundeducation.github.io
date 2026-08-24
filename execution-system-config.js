@@ -22,6 +22,11 @@
     plannerTaskRatingRpc: "execution_system_planner_task_rating",
     plannerTaskMoveRpc: "execution_system_planner_task_move_tomorrow",
     plannerTaskReactivateRpc: "execution_system_planner_task_reactivate",
-    plannerAnalyticsRpc: "execution_system_planner_analytics_load"
+    plannerAnalyticsRpc: "execution_system_planner_analytics_load",
+    plannerThinkingRecordRpc: "execution_system_planner_thinking_record",
+    plannerThinkingLogsRpc: "execution_system_planner_thinking_logs_load",
+    plannerHourBlocksLoadRpc: "execution_system_planner_hour_blocks_load",
+    plannerHourBlockSaveRpc: "execution_system_planner_hour_block_save",
+    plannerCompletedTasksRpc: "execution_system_planner_completed_tasks_load"
   });
 })();

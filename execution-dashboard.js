@@ -10,10 +10,12 @@
   const elements = {
     loading: $("[data-loading]"), dashboard: $("[data-dashboard]"), connection: $("[data-connection-status]"), user: $("[data-user-pill]"),
     all: $("[data-all-total]"), week: $("[data-week-total]"), month: $("[data-month-total]"), year: $("[data-year-total]"),
-    average: $("[data-average-time]"), median: $("[data-median-time]"), rating: $("[data-average-rating]"), chart: $("[data-task-chart]"),
-    periods: $("[data-period-controls]"), tools: $("[data-tool-ranking]"), steps: $("[data-step-ranking]"), status: $("[data-status]")
+    average: $("[data-average-time]"), median: $("[data-median-time]"), rating: $("[data-average-rating]"), completed: $("[data-completed-total]"), chart: $("[data-task-chart]"),
+    periods: $("[data-period-controls]"), tools: $("[data-tool-ranking]"), steps: $("[data-step-ranking]"), status: $("[data-status]"),
+    completedMonth: $("[data-completed-month]"), completedLog: $("[data-completed-log]"),
+    previousMonth: $("[data-previous-month]"), nextMonth: $("[data-next-month]")
   };
-  const state = { role: "", token: "", user: null, period: "week", reference: today() };
+  const state = { role: "", token: "", user: null, period: "week", reference: today(), completedMonth: `${today().slice(0, 7)}-01` };
 
   function today() {
     const now = new Date();
@@ -60,6 +62,15 @@
     const minutes = Math.floor((value % 3600) / 60);
     const remainder = value % 60;
     return hours ? `${hours}:${String(minutes).padStart(2, "0")}:${String(remainder).padStart(2, "0")}` : `${minutes}:${String(remainder).padStart(2, "0")}`;
+  }
+  function shiftMonth(value, amount) {
+    const [year, month] = value.split("-").map(Number);
+    const date = new Date(Date.UTC(year, month - 1 + amount, 1));
+    return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}-01`;
+  }
+  function formatMonth(value) {
+    const [year, month] = value.split("-").map(Number);
+    return new Intl.DateTimeFormat("zh-HK", { year: "numeric", month: "long" }).format(new Date(Date.UTC(year, month - 1, 1, 12)));
   }
   function tableById(id) { return tables.find((table) => table.id === id); }
   function stepCopy(tableId, index) {
@@ -124,6 +135,7 @@
       elements.average.textContent = formatDuration(summary.average_seconds);
       elements.median.textContent = formatDuration(summary.median_seconds);
       elements.rating.textContent = Number(summary.average_rating) ? `${Number(summary.average_rating).toFixed(2)} ★` : "—";
+      elements.completed.textContent = String(summary.completed_tasks || 0);
       renderChart(Array.isArray(data?.series) ? data.series : []);
       renderRanking(elements.tools, Array.isArray(data?.achievement_tables) ? data.achievement_tables : [], "table");
       renderRanking(elements.steps, Array.isArray(data?.achievement_steps) ? data.achievement_steps : [], "step");
@@ -133,6 +145,40 @@
       elements.status.textContent = error?.message || "未能載入執行數據。"; elements.status.hidden = false;
     }
   }
+  function renderCompleted(rows) {
+    elements.completedLog.replaceChildren();
+    elements.completedMonth.textContent = formatMonth(state.completedMonth);
+    elements.nextMonth.disabled = state.completedMonth >= `${today().slice(0, 7)}-01`;
+    if (!rows.length) {
+      const empty = document.createElement("p");
+      empty.className = "completed-empty";
+      empty.textContent = "這個月份暫時沒有完成工作。";
+      elements.completedLog.append(empty);
+      return;
+    }
+    rows.forEach((row) => {
+      const item = document.createElement("a");
+      item.className = "completed-item";
+      item.href = `execution-task-planner.html?date=${encodeURIComponent(row.task_date)}&task=${encodeURIComponent(row.id)}`;
+      const date = document.createElement("time");
+      date.textContent = new Intl.DateTimeFormat("zh-HK", { month: "2-digit", day: "2-digit" }).format(new Date(`${row.task_date}T12:00:00+08:00`));
+      const copy = document.createElement("div");
+      const title = document.createElement("strong"); title.textContent = row.title;
+      const meta = document.createElement("small");
+      meta.textContent = `Task ${row.slot_number} · 撰寫 ${formatDuration(row.writing_elapsed_seconds)} · 思考 ${formatDuration(row.thinking_elapsed_seconds)} · ${row.difficulty_rating ? `${row.difficulty_rating} 星` : "未評難度"}`;
+      const arrow = document.createElement("span"); arrow.textContent = "↗";
+      copy.append(title, meta); item.append(date, copy, arrow); elements.completedLog.append(item);
+    });
+  }
+  async function loadCompleted() {
+    try {
+      const rows = await rpc(config.plannerCompletedTasksRpc, { p_month: state.completedMonth, ...authParams() });
+      renderCompleted(Array.isArray(rows) ? rows : []);
+    } catch (error) {
+      elements.status.textContent = error?.message || "未能載入完成工作紀錄。";
+      elements.status.hidden = false;
+    }
+  }
   elements.periods.addEventListener("click", (event) => {
     const button = event.target.closest("[data-period]");
     if (!button || button.dataset.period === state.period) return;
@@ -140,13 +186,15 @@
     elements.periods.querySelectorAll("button").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
     loadAnalytics();
   });
+  elements.previousMonth.addEventListener("click", () => { state.completedMonth = shiftMonth(state.completedMonth, -1); loadCompleted(); });
+  elements.nextMonth.addEventListener("click", () => { state.completedMonth = shiftMonth(state.completedMonth, 1); loadCompleted(); });
   (async () => {
     try {
       await ensureAuth();
       if (!await validateSession()) { location.replace("execution-system.html"); return; }
       elements.user.hidden = false; elements.user.textContent = state.role === "admin" ? `${state.user.name} · 管理員` : state.user.name;
       elements.loading.hidden = true; elements.dashboard.hidden = false;
-      await loadAnalytics();
+      await Promise.all([loadAnalytics(), loadCompleted()]);
     } catch (error) {
       elements.connection.textContent = "連線失敗"; elements.connection.dataset.state = "error";
       elements.loading.querySelector("h1").textContent = "暫時未能開啟數據儀表板";

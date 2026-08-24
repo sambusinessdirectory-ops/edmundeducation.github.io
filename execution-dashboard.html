@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="execution-dashboard.css?v=20260824-1">
+  <link rel="stylesheet" href="execution-dashboard.css?v=20260824-2">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body data-system="execution">
@@ -37,6 +37,7 @@
       <div class="edmund-system-header__actions">
         <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
         <span class="user-pill" data-user-pill hidden></span>
+        <a class="header-button" href="execution-thinking-log.html">思考時間紀錄</a>
         <a class="header-button" href="execution-task-planner.html">工作構思簿</a>
         <a class="header-button" href="execution-system.html">返回執行清單</a>
       </div>
@@ -58,6 +59,7 @@
         <article><span>平均撰寫時間</span><strong data-average-time>00:00</strong><small>Mean</small></article>
         <article><span>中位撰寫時間</span><strong data-median-time>00:00</strong><small>Median</small></article>
         <article><span>平均難度</span><strong data-average-rating>—</strong><small>滿分 5 星</small></article>
+        <article><span>累積完成</span><strong data-completed-total>0</strong><small>已封存工作</small></article>
       </section>
 
       <section class="analytics-panel chart-panel">
@@ -78,6 +80,13 @@
         <article class="analytics-panel"><div class="panel-heading"><div><span class="eyebrow">I DID IT</span><h2>「我做到了」工具排行</h2></div></div><ol class="ranking-list" data-tool-ranking></ol></article>
         <article class="analytics-panel"><div class="panel-heading"><div><span class="eyebrow">TOP STEPS</span><h2>最常完成步驟</h2></div></div><ol class="ranking-list" data-step-ranking></ol></article>
       </section>
+      <section class="analytics-panel completed-panel">
+        <div class="panel-heading completed-heading">
+          <div><span class="eyebrow">COMPLETED TASK LOG</span><h2>完成工作總紀錄</h2><p>按月份回顧所有已完成工作；點選項目可返回當日工作構思簿。</p></div>
+          <div class="month-controls"><button type="button" data-previous-month>← 上月</button><strong data-completed-month></strong><button type="button" data-next-month>下月 →</button></div>
+        </div>
+        <div class="completed-log" data-completed-log></div>
+      </section>
       <p class="status-message" data-status role="status" hidden></p>
     </section>
   </main>
@@ -85,8 +94,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script src="execution-system-config.js?v=20260824-3"></script>
+  <script src="execution-system-config.js?v=20260824-4"></script>
   <script src="execution-system-data.js?v=20260824-1"></script>
-  <script src="execution-dashboard.js?v=20260824-1"></script>
+  <script src="execution-dashboard.js?v=20260824-2"></script>
 </body>
 </html>

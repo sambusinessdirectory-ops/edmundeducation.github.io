@@ -43,6 +43,7 @@ const htmlPages = [
   "execution-system.html",
   "execution-task-planner.html",
   "execution-dashboard.html",
+  "execution-thinking-log.html",
   "exam-resources.html",
   "flashcards.html",
   "false-friends-system.html",

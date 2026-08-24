@@ -20,11 +20,18 @@
     next: $("[data-next-date]"), day: $("[data-date-day]"), month: $("[data-date-month]"),
     heading: $("[data-date-heading]"), capacity: $("[data-capacity]"), addTen: $("[data-add-ten]"),
     active: $("[data-active-tasks]"), archive: $("[data-archive-list]"), archiveCount: $("[data-archive-count]"),
-    status: $("[data-status]")
+    status: $("[data-status]"), hourGrid: $("[data-hour-grid]")
   };
-  const state = { role: "", token: "", user: null, date: initialDate(), capacity: 10, active: new Map(), archived: [], busy: false, timerTick: 0 };
+  const state = {
+    role: "", token: "", user: null, date: initialDate(), capacity: 10,
+    active: new Map(), archived: [], hourBlocks: new Map(), busy: false,
+    timerTick: 0, thinking: null, hourSaveTimers: new Map(),
+    requestedTask: new URLSearchParams(location.search).get("task") || ""
+  };
 
   function initialDate() {
+    const requested = new URLSearchParams(location.search).get("date");
+    if (/^\d{4}-\d{2}-\d{2}$/.test(String(requested || ""))) return clampDate(requested);
     const now = new Date();
     return clampDate(`${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`);
   }
@@ -128,6 +135,7 @@
     copy.className = "task-summary-copy";
     const title = document.createElement("strong");
     title.textContent = record?.title || `Task ${slot}`;
+    if (record) title.className = "saved-task-title";
     const subtitle = document.createElement("small");
     subtitle.textContent = record
       ? `已儲存 · ${formatDuration(effectiveElapsed(record))} · ${record.difficulty_rating ? `${record.difficulty_rating} 星難度` : "未評難度"}`
@@ -164,6 +172,10 @@
       const record = state.active.get(Number(node.dataset.taskTimer));
       if (record) node.textContent = formatDuration(effectiveElapsed(record));
     });
+    if (state.thinking?.timerNode) {
+      const current = state.thinking.baseSeconds + Math.max(0, Math.floor((Date.now() - state.thinking.startedAt) / 1000));
+      state.thinking.timerNode.textContent = `思考 ${formatDuration(current)}`;
+    }
   }
 
   function buildTaskForm(slot, record, details) {
@@ -203,13 +215,22 @@
       const field = document.createElement("label");
       field.className = "question-field";
       if (index >= 25) field.dataset.reflection = "true";
-      const label = document.createElement("span");
+      const heading = document.createElement("span");
+      heading.className = "question-heading";
+      const label = document.createElement("b");
       label.textContent = `${index + 1}. ${question.text}`;
+      const thinking = document.createElement("em");
+      thinking.className = "thinking-time-pill";
+      thinking.dataset.thinkingTimer = `${slot}:${index + 1}`;
+      thinking.textContent = `思考 ${formatDuration(Number(record?.thinking_seconds?.[`q${index + 1}`]) || 0)}`;
+      heading.append(label, thinking);
       const textarea = document.createElement("textarea");
       textarea.name = `q${index + 1}`;
       textarea.value = String(record?.answers?.[`q${index + 1}`] || "");
       textarea.maxLength = 5000;
-      field.append(label, textarea);
+      textarea.addEventListener("focus", () => startThinkingTimer(slot, index + 1, form, buttons, textarea, thinking, record));
+      textarea.addEventListener("blur", () => stopThinkingTimer(textarea));
+      field.append(heading, textarea);
       questionGrid.append(field);
     });
     const actions = document.createElement("div");
@@ -268,6 +289,47 @@
     details.append(form);
   }
 
+  async function startThinkingTimer(slot, questionNumber, form, buttons, textarea, timerNode, record) {
+    if (state.thinking?.textarea === textarea) return;
+    if (state.thinking) await stopThinkingTimer(state.thinking.textarea);
+    const startedAt = Date.now();
+    try {
+      const saved = record?.id ? record : await saveTask(slot, form, buttons, { allowDefaultTitle: true, quiet: true });
+      const current = state.active.get(slot) || record || saved;
+      const baseSeconds = Math.max(0, Number(current?.thinking_seconds?.[`q${questionNumber}`]) || 0);
+      state.thinking = { textarea, timerNode, taskId: saved.id, questionNumber, startedAt, baseSeconds, slot };
+      textarea.closest(".question-field")?.classList.add("is-thinking");
+      timerNode.textContent = `思考 ${formatDuration(baseSeconds)}`;
+      // A quick click-away can occur while a new task is being saved. Record that
+      // interval immediately instead of leaving a hidden timer running.
+      if (document.activeElement !== textarea) await stopThinkingTimer(textarea);
+    } catch (error) {
+      showStatus(error?.message || "未能開始記錄思考時間。", "error");
+    }
+  }
+
+  async function stopThinkingTimer(textarea) {
+    const session = state.thinking;
+    if (!session || session.textarea !== textarea) return;
+    state.thinking = null;
+    textarea.closest(".question-field")?.classList.remove("is-thinking");
+    const elapsed = Math.max(1, Math.min(86400, Math.round((Date.now() - session.startedAt) / 1000)));
+    session.timerNode.textContent = `思考 ${formatDuration(session.baseSeconds + elapsed)}`;
+    try {
+      const total = await rpc(config.plannerThinkingRecordRpc, {
+        p_task_id: session.taskId, p_question_number: session.questionNumber,
+        p_elapsed_seconds: elapsed, ...authParams()
+      });
+      session.timerNode.textContent = `思考 ${formatDuration(total)}`;
+      const record = state.active.get(session.slot);
+      if (record) {
+        record.thinking_seconds = { ...(record.thinking_seconds || {}), [`q${session.questionNumber}`]: Number(total) || 0 };
+      }
+    } catch (error) {
+      showStatus(error?.message || "未能儲存這段思考時間。", "error");
+    }
+  }
+
   function answersFromForm(form) {
     const answers = {};
     questions.forEach((_, index) => {
@@ -277,11 +339,15 @@
     return answers;
   }
 
-  async function saveTask(slot, form, buttons) {
-    const title = String(form.elements.title.value || "").trim();
+  async function saveTask(slot, form, buttons, options = {}) {
+    let title = String(form.elements.title.value || "").trim();
+    if (!title && options.allowDefaultTitle) {
+      title = `Task ${slot}`;
+      form.elements.title.value = title;
+    }
     if (!title) {
       form.elements.title.focus();
-      showStatus("請先填寫工作名稱。", "error");
+      if (!options.quiet) showStatus("請先填寫工作名稱。", "error");
       throw new Error("Task title is required");
     }
     buttons.forEach((button) => { button.disabled = true; });
@@ -295,9 +361,12 @@
       });
       const row = Array.isArray(rows) ? rows[0] : null;
       if (!row?.id) throw new Error("Saved task was not returned");
-      return row;
+      const previous = state.active.get(slot) || {};
+      const merged = { ...previous, ...row, status: "active", thinking_seconds: previous.thinking_seconds || {} };
+      state.active.set(slot, merged);
+      return merged;
     } catch (error) {
-      showStatus(error?.message || "未能儲存工作，請稍後再試。", "error");
+      if (!options.quiet) showStatus(error?.message || "未能儲存工作，請稍後再試。", "error");
       throw error;
     } finally {
       buttons.forEach((button) => { button.disabled = false; });
@@ -367,10 +436,79 @@
       const details = document.createElement("details");
       details.className = "task-card";
       details.dataset.slot = String(slot);
+      details.dataset.saved = String(Boolean(record));
       details.append(makeSummary(slot, record));
       details.addEventListener("toggle", () => { if (details.open) buildTaskForm(slot, record, details); });
       elements.active.append(details);
     }
+  }
+
+  function renderDayPlanner() {
+    elements.hourGrid.replaceChildren();
+    for (let hour = 0; hour < 24; hour += 1) {
+      const record = state.hourBlocks.get(hour) || { plan_text: "", task_slots: [] };
+      const selected = new Set((record.task_slots || []).map(Number));
+      const block = document.createElement("article");
+      block.className = "hour-block";
+      if (record.plan_text || selected.size) block.dataset.filled = "true";
+      const time = document.createElement("time");
+      time.textContent = `${String(hour).padStart(2, "0")}:00`;
+      const content = document.createElement("div");
+      content.className = "hour-content";
+      const textarea = document.createElement("textarea");
+      textarea.maxLength = 2000;
+      textarea.rows = 2;
+      textarea.placeholder = "寫下這個小時要做的事情…";
+      textarea.value = record.plan_text || "";
+      const tags = document.createElement("div");
+      tags.className = "hour-tags";
+      const tagLabel = document.createElement("span");
+      tagLabel.textContent = "連結工作";
+      const tagList = document.createElement("div");
+      tagList.className = "hour-tag-list";
+      for (let slot = 1; slot <= state.capacity; slot += 1) {
+        const tag = document.createElement("button");
+        tag.type = "button";
+        tag.textContent = String(slot);
+        tag.title = state.active.get(slot)?.title || `Task ${slot}`;
+        tag.setAttribute("aria-label", `連結 Task ${slot}`);
+        tag.setAttribute("aria-pressed", String(selected.has(slot)));
+        tag.addEventListener("click", () => {
+          selected.has(slot) ? selected.delete(slot) : selected.add(slot);
+          tag.setAttribute("aria-pressed", String(selected.has(slot)));
+          block.dataset.filled = String(Boolean(textarea.value.trim() || selected.size));
+          queueHourSave(state.date, hour, textarea.value, selected, 0);
+        });
+        tagList.append(tag);
+      }
+      tags.append(tagLabel, tagList);
+      textarea.addEventListener("input", () => {
+        block.dataset.filled = String(Boolean(textarea.value.trim() || selected.size));
+        queueHourSave(state.date, hour, textarea.value, selected, 700);
+      });
+      textarea.addEventListener("blur", () => queueHourSave(state.date, hour, textarea.value, selected, 0));
+      content.append(textarea, tags);
+      block.append(time, content);
+      elements.hourGrid.append(block);
+    }
+  }
+
+  function queueHourSave(date, hour, text, selected, delay) {
+    const slots = [...selected].sort((a, b) => a - b);
+    if (date === state.date) state.hourBlocks.set(hour, { plan_text: text, task_slots: slots });
+    const key = `${date}:${hour}`;
+    window.clearTimeout(state.hourSaveTimers.get(key));
+    state.hourSaveTimers.set(key, window.setTimeout(async () => {
+      state.hourSaveTimers.delete(key);
+      try {
+        await rpc(config.plannerHourBlockSaveRpc, {
+          p_task_date: date, p_hour_number: hour, p_plan_text: text,
+          p_task_slots: slots, ...authParams()
+        });
+      } catch (error) {
+        showStatus(error?.message || `未能儲存 ${String(hour).padStart(2, "0")}:00 的安排。`, "error");
+      }
+    }, delay));
   }
 
   function renderArchive() {
@@ -390,7 +528,8 @@
       const title = document.createElement("strong");
       title.textContent = record.title;
       const meta = document.createElement("small");
-      meta.textContent = `Task ${record.slot_number} · ${formatDuration(record.writing_elapsed_seconds)} · ${record.difficulty_rating ? `${record.difficulty_rating} 星難度` : "未評難度"} · 完成於 ${formatTimestamp(record.completed_at)}`;
+      const thinkingTotal = Object.values(record.thinking_seconds || {}).reduce((sum, value) => sum + Math.max(0, Number(value) || 0), 0);
+      meta.textContent = `Task ${record.slot_number} · 撰寫 ${formatDuration(record.writing_elapsed_seconds)} · 思考 ${formatDuration(thinkingTotal)} · ${record.difficulty_rating ? `${record.difficulty_rating} 星難度` : "未評難度"} · 完成於 ${formatTimestamp(record.completed_at)}`;
       summary.append(title, meta);
       const content = document.createElement("div");
       content.className = "archive-content";
@@ -439,20 +578,28 @@
     showStatus("");
     try {
       const params = { p_task_date: state.date, ...authParams() };
-      const [capacity, activeRows, archivedRows] = await Promise.all([
+      const [capacity, activeRows, archivedRows, hourRows] = await Promise.all([
         rpc(config.plannerCapacityRpc, params),
         rpc(config.plannerTasksLoadRpc, { ...params, p_status: "active" }),
-        rpc(config.plannerTasksLoadRpc, { ...params, p_status: "archived" })
+        rpc(config.plannerTasksLoadRpc, { ...params, p_status: "archived" }),
+        rpc(config.plannerHourBlocksLoadRpc, params)
       ]);
       state.capacity = Math.max(10, Math.min(1000, Number(capacity) || 10));
       state.active = new Map((Array.isArray(activeRows) ? activeRows : []).map((row) => [Number(row.slot_number), row]));
       state.archived = Array.isArray(archivedRows) ? archivedRows : [];
+      state.hourBlocks = new Map((Array.isArray(hourRows) ? hourRows : []).map((row) => [Number(row.hour_number), row]));
       elements.capacity.textContent = String(state.capacity);
       renderActive();
       renderArchive();
+      renderDayPlanner();
       refreshTimers();
       setConnection("已安全連接", "online");
       if (successMessage) showStatus(successMessage);
+      if (!options.focusSlot && state.requestedTask) {
+        const requested = [...state.active.values()].find((row) => String(row.id) === state.requestedTask);
+        if (requested) options = { ...options, focusSlot: Number(requested.slot_number), openSlot: Number(requested.slot_number) };
+        state.requestedTask = "";
+      }
       if (options.focusSlot) {
         const target = elements.active.querySelector(`[data-slot="${options.focusSlot}"]`);
         if (target && options.openSlot) {
@@ -480,6 +627,7 @@
       state.capacity = Math.max(10, Math.min(1000, Number(capacity) || state.capacity));
       elements.capacity.textContent = String(state.capacity);
       renderActive();
+      renderDayPlanner();
       showStatus("已增加 10 個空白工作格式。這些空位不會產生不必要的資料。 ");
     } catch (error) {
       showStatus(error?.message || "未能增加工作格式。", "error");

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="執行動力系統思考時間紀錄：查看 27 個工作構思問題的專注時段與累積思考時間。">
+  <meta name="theme-color" content="#2b554f">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="思考時間紀錄">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>思考時間紀錄｜執行動力系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/execution-thinking-log.html">
+  <link rel="manifest" href="/pwa-manifests/execution.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
+  <link rel="stylesheet" href="execution-thinking-log.css?v=20260824-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body data-system="execution">
+  <a class="skip-link" href="#thinking-main">跳至主要內容</a>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="execution">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>思考時間紀錄</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <a class="header-button" href="execution-task-planner.html">工作構思簿</a>
+        <a class="header-button" href="execution-dashboard.html">數據儀表板</a>
+        <a class="header-button" href="execution-system.html">返回執行清單</a>
+      </div>
+    </div>
+  </header>
+  <main id="thinking-main">
+    <section class="loading-card" data-loading><span>◷</span><h1>正在整理思考紀錄…</h1><p>只會讀取目前帳戶的私人計時資料。</p></section>
+    <section class="thinking-shell" data-thinking-app hidden>
+      <header class="thinking-hero"><div><span class="eyebrow">THINKING TIME JOURNAL</span><h1>思考時間紀錄</h1><p>每次游標進入 1–27 的構思欄位，系統便記錄該段專注思考時間。</p></div><div class="hero-clock"><strong data-total-time>00:00:00</strong><span>篩選期內思考時間</span></div></header>
+      <section class="filter-panel" aria-label="日期篩選"><label>開始日期<input type="date" min="2026-01-01" max="2050-12-31" data-from-date></label><label>結束日期<input type="date" min="2026-01-01" max="2050-12-31" data-to-date></label><button type="button" data-load-log>更新紀錄</button></section>
+      <section class="summary-grid" aria-label="思考時間摘要"><article><span>專注時段</span><strong data-session-total>0</strong><small>次自動記錄</small></article><article><span>涉及工作</span><strong data-task-total>0</strong><small>份工作構思</small></article><article><span>最常思考</span><strong data-top-question>—</strong><small data-top-question-copy>尚未有紀錄</small></article></section>
+      <section class="log-panel question-panel"><div class="panel-heading"><div><span class="eyebrow">QUESTION BREAKDOWN</span><h2>1–27 項思考時間</h2><p>比較每個構思問題的累積用時。</p></div></div><div class="question-bars" data-question-bars></div></section>
+      <section class="log-panel session-panel"><div class="panel-heading"><div><span class="eyebrow">SESSION LOG</span><h2>逐段計時日誌</h2><p>按時間倒序列出每次進入及離開文字欄位的紀錄。</p></div></div><div class="session-log" data-session-log></div></section>
+      <p class="status-message" data-status role="status" hidden></p>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
+  <script src="execution-system-config.js?v=20260824-4"></script>
+  <script src="execution-system-data.js?v=20260824-1"></script>
+  <script src="execution-thinking-log.js?v=20260824-1"></script>
+</body>
+</html>
