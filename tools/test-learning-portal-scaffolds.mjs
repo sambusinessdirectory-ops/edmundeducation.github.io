@@ -71,10 +71,11 @@ assert.equal(homepageCards.length, 25, "homepage should append exactly 25 learni
 assert.deepEqual(homepageCards.map((match) => match[1]), expected.map(([, , href]) => href));
 assert.deepEqual(homepageCards.map((match) => match[2].trim()), expected.map(([, , , lines]) => lines.join("<br>")));
 const allCardStarts = [...home.matchAll(/<a class="category(?:\s|\")/g)].map((match) => match.index);
-assert.equal(allCardStarts.length, 56, "homepage must contain 56 linked category cards");
+assert.equal(allCardStarts.length, 57, "homepage must contain 57 linked category cards");
 homepageCards.forEach((match, index) => assert.equal(allCardStarts.indexOf(match.index) + 1, index < 20 ? index + 30 : index + 31));
 assert.match(home, /href="song-appreciation\.html"[^>]*>[\s\S]*?Song Appreciation<br>英文歌<br>聆聽練習/);
 assert.match(home, /href="bookmark-directory\.html"[^>]*>[\s\S]*?學生使用<br>書簽總目錄/);
+assert.match(home, /href="execution-system\.html"[^>]*>[\s\S]*?執行動力系統/);
 assert.match(home, /homepage-game-card[\s\S]*?href="eddy-carrot-patch\/"[\s\S]*?homepage-mascot-card[\s\S]*?href="mascot-introduction\.html"/, "Mascot Introduction must sit directly below Eddie's Farm");
 
 const videoSetsSource = home.match(/const videoSets = (\{[\s\S]*?\n    \});/)?.[1] || "";

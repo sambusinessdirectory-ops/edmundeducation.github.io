@@ -40,6 +40,7 @@ const htmlPages = [
   "english-joke-collection.html",
   "english-study.html",
   "error-identifier-system.html",
+  "execution-system.html",
   "exam-resources.html",
   "flashcards.html",
   "false-friends-system.html",

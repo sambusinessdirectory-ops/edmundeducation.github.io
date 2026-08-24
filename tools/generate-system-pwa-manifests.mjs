@@ -33,7 +33,7 @@ const shortNames = Object.freeze({
   "english-humour-writing": "英文幽默寫作", "english-joke-collection": "英文笑話", "argument-learning": "論證學習",
   "fragmented-reading": "碎片閱讀", "song-appreciation": "英文歌聆聽", "precise-language": "精準措詞",
   "false-friends": "同形異義詞", "english-in-shows": "影視英文", "ted-talk-english": "Ted Talk 英文",
-  "poem-english": "詩句賞識", "bookmark-directory": "學生書簽總目錄"
+  "poem-english": "詩句賞識", "bookmark-directory": "學生書簽總目錄", execution: "執行動力"
 });
 assert.deepEqual(Object.keys(shortNames).sort(), systems.map(({ id }) => id).sort(), "every app needs an intentional short name");
 assert.equal(new Set(Object.values(shortNames)).size, systems.length, "installed app short names must be distinct");
@@ -50,8 +50,8 @@ const appNames = Object.freeze({
 });
 
 const customIconApps = new Set(Object.keys(appNames));
-const themeColors = Object.freeze({ "parent-communication": "#72598f" });
-const backgroundColors = Object.freeze({ "parent-communication": "#f3edfb" });
+const themeColors = Object.freeze({ "parent-communication": "#72598f", execution: "#221d36" });
+const backgroundColors = Object.freeze({ "parent-communication": "#f3edfb", execution: "#f4f0e9" });
 const defaultIcons = Object.freeze([
   { src: "/assets/icons/icon-192x192.png", sizes: "192x192", type: "image/png", purpose: "any" },
   { src: "/assets/icons/edmundeducation-logo-512.png", sizes: "512x512", type: "image/png", purpose: "any" },

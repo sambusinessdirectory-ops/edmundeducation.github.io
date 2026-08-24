@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 執行動力系統：八套循序心理執行清單。">
+  <meta name="theme-color" content="#221d36">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="執行動力系統">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>執行動力系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/execution-system.html">
+  <link rel="manifest" href="/pwa-manifests/execution.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
+  <link rel="stylesheet" href="execution-system.css?v=20260824-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body data-system="execution">
+  <a class="skip-link" href="#execution-main">跳至主要內容</a>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="execution">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>執行動力系統</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="execution-main">
+    <section class="login-shell" data-login-view>
+      <div class="login-story" aria-hidden="true">
+        <span class="eyebrow">START · CONTINUE · COMPLETE</span>
+        <h1>把下一步<br><em>變得清楚。</em></h1>
+        <p>八套循序心理執行清單，逐步拆開拖延、孤單、臨門一腳和回覆恐懼。</p>
+        <div class="story-points"><span>01 看清阻力</span><span>02 完成下一步</span><span>03 累積執行證據</span></div>
+      </div>
+      <div class="login-card">
+        <span class="eyebrow">WELCOME BACK</span>
+        <h2>登入執行動力系統</h2>
+        <div class="role-tabs" role="tablist" aria-label="登入身份">
+          <button type="button" role="tab" aria-selected="true" data-role-tab="student">學生登入</button>
+          <button type="button" role="tab" aria-selected="false" data-role-tab="admin">管理員</button>
+        </div>
+        <form data-login-form novalidate>
+          <label><span data-name-label>學生名稱</span><input name="username" autocomplete="username" required></label>
+          <label><span>密碼</span><input name="password" type="password" autocomplete="current-password" required></label>
+          <p class="form-error" data-login-error role="alert" hidden></p>
+          <button class="primary-button" type="submit" data-login-button>進入系統 <span aria-hidden="true">→</span></button>
+        </form>
+        <p class="privacy-note">管理員密碼只會傳送至受保護的驗證程序，不會儲存在此網頁。</p>
+      </div>
+    </section>
+
+    <section class="app-shell" data-app-view hidden>
+      <header class="hero-panel">
+        <div>
+          <span class="eyebrow">CARD 57 · EXECUTION PSYCHOLOGY</span>
+          <h1>執行動力系統</h1>
+          <p>每次只處理眼前一步。完成後，下一步才會出現。</p>
+        </div>
+        <div class="overall-progress" aria-label="整體進度">
+          <strong data-overall-percent>0%</strong><span>全部工具進度</span>
+        </div>
+      </header>
+
+      <nav class="table-selector" data-table-selector aria-label="選擇執行工具"></nav>
+
+      <section class="workspace-card">
+        <div class="workspace-heading">
+          <div><span class="tool-number" data-tool-number>01</span><h2 data-tool-title></h2><p data-tool-subtitle></p></div>
+          <button class="reset-button" type="button" data-reset>重設本表</button>
+        </div>
+        <div class="progress-block">
+          <div class="progress-copy"><span data-progress-copy>0 / 0</span><strong data-progress-percent>0%</strong></div>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-progress-track><span data-progress-bar></span></div>
+        </div>
+        <div class="checklist" data-checklist></div>
+        <div class="completion-card" data-completion hidden>
+          <span aria-hidden="true">✓</span><div><strong>這份清單已完成</strong><p>您已走完所有步驟。可以重設後再次練習。</p></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div class="dialog-backdrop" data-reset-dialog hidden>
+    <section class="confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="reset-dialog-title">
+      <span class="dialog-mark" aria-hidden="true">↺</span>
+      <h2 id="reset-dialog-title">重設這份清單？</h2>
+      <p>所有剔選和填寫內容會清除，並由第一步重新開始。</p>
+      <div><button type="button" data-cancel-reset>取消</button><button type="button" data-confirm-reset>確認重設</button></div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
+  <script src="execution-system-config.js?v=20260824-1"></script>
+  <script src="execution-system-data.js?v=20260824-1"></script>
+  <script src="execution-system.js?v=20260824-1"></script>
+</body>
+</html>

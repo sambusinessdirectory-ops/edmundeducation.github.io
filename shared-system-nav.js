@@ -63,7 +63,8 @@
     { id: "english-in-shows", href: "english-in-shows-system.html", zh: "影視英文學習系統", en: "English in Shows" },
     { id: "ted-talk-english", href: "ted-talk-english-system.html", zh: "Ted Talk 英文學習系統", en: "Ted Talk English" },
     { id: "poem-english", href: "poem-english-system.html", zh: "詩句賞識系統", en: "Poem English" },
-    { id: "bookmark-directory", href: "bookmark-directory.html", zh: "學生書簽總目錄", en: "Bookmark Directory" }
+    { id: "bookmark-directory", href: "bookmark-directory.html", zh: "學生書簽總目錄", en: "Bookmark Directory" },
+    { id: "execution", href: "execution-system.html", zh: "執行動力系統", en: "Execution Psychology" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -110,6 +111,7 @@
     "ted-talk-english": "edmund-learning-portal-ted-talk-english-session-v1",
     "poem-english": "edmund-learning-portal-poem-english-session-v1",
     "bookmark-directory": "edmund-bookmark-directory-session-v1",
+    execution: "edmund-execution-system-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });

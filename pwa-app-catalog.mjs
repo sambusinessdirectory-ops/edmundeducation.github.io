@@ -440,5 +440,14 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "學生書簽總目錄｜EdmundEducation",
     "shortName": "學生書簽總目錄",
     "manifest": "/pwa-manifests/bookmark-directory.webmanifest"
+  },
+  {
+    "id": "execution",
+    "href": "execution-system.html",
+    "zh": "執行動力系統",
+    "en": "Execution Psychology",
+    "name": "執行動力系統｜EdmundEducation",
+    "shortName": "執行動力",
+    "manifest": "/pwa-manifests/execution.webmanifest"
   }
 ].map(Object.freeze));
