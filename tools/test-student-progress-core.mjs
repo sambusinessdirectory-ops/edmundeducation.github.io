@@ -63,6 +63,7 @@ test("source order matches the requested portal priority", () => {
     "flashcards",
     "writingPractice",
     "sentenceStructure",
+    "readingComprehension",
     "speaking",
     "phrasalVerbs",
     "idioms",

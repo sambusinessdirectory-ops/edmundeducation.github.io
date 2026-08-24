@@ -12,7 +12,7 @@ import {
   normalizeProgressSnapshot,
   progressPolyline,
   resolveProgressRange
-} from "./student-progress-core.js?v=20260820-false-friends1";
+} from "./student-progress-core.js?v=20260824-reading1";
 import {
   buildStudentProgressPrintDocument,
   normalizeProgressExportSelection,

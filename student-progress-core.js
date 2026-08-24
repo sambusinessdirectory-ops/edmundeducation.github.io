@@ -52,6 +52,17 @@ export const STUDENT_PROGRESS_SOURCES = Object.freeze([
     activitySeries: [{ key: "questions", label: "完成題目", color: "#0f6bdc" }]
   },
   {
+    id: "readingComprehension",
+    labelZh: "閱讀理解",
+    labelEn: "Reading Comprehension",
+    href: "reading-comprehension.html",
+    color: "#256b5f",
+    activityTitle: "完成閱讀理解題目走勢",
+    activityUnit: "道題目",
+    primaryMetric: "questions",
+    activitySeries: [{ key: "questions", label: "完成題目", color: "#256b5f" }]
+  },
+  {
     id: "speaking",
     labelZh: "Speaking 說話練習",
     labelEn: "Speaking System",

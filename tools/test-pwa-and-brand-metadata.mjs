@@ -71,6 +71,7 @@ const htmlPages = [
   "privacy-policy.html",
   "proverb-system.html",
   "quotes-system.html",
+  "reading-comprehension.html",
   "reading-logic-system.html",
   "recorded.html",
   "resources.html",
