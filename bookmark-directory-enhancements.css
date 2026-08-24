@@ -1,7 +1,16 @@
 .bookmark-card {
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
   min-height: 250px;
   transition: .2s transform, .2s box-shadow;
+}
+
+.bookmark-type-badge {
+  width: fit-content;
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: #5c4312;
+  background: #fff0b4;
+  font: 850 11px/1.2 system-ui, sans-serif;
 }
 
 .bookmark-card:hover {

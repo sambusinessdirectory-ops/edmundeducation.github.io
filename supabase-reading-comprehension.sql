@@ -52,6 +52,8 @@ create index if not exists reading_comprehension_attempts_student_started_idx
   on public.reading_comprehension_attempts (student_id, started_at desc);
 create index if not exists reading_comprehension_results_student_submitted_idx
   on public.reading_comprehension_question_results (student_id, submitted_at desc);
+create index if not exists reading_comprehension_results_attempt_student_idx
+  on public.reading_comprehension_question_results (attempt_id, student_id);
 
 alter table public.reading_comprehension_attempts enable row level security;
 alter table public.reading_comprehension_question_results enable row level security;
@@ -183,7 +185,7 @@ begin
     if v_attempt.status <> 'in_progress' then return public._reading_comprehension_attempt_payload(v_attempt.id); end if;
     update public.reading_comprehension_attempts attempt
     set answers = attempt.answers || coalesce(p_answers, '{}'::jsonb),
-        duration_ms = pg_catalog.greatest(attempt.duration_ms, coalesce(p_duration_ms, 0)),
+        duration_ms = greatest(attempt.duration_ms, coalesce(p_duration_ms, 0)),
         updated_at = pg_catalog.now()
     where attempt.id = v_attempt.id
     returning * into v_attempt;
@@ -191,7 +193,7 @@ begin
 
   if coalesce(p_submit, false) then
     for v_question in 1..13 loop
-      v_answer := pg_catalog.nullif(pg_catalog.btrim(v_attempt.answers ->> ('q' || v_question::text)), '');
+      v_answer := nullif(pg_catalog.btrim(v_attempt.answers ->> ('q' || v_question::text)), '');
       if v_answer is not null then
         v_correct := public._reading_comprehension_correct_answer(v_question);
         insert into public.reading_comprehension_question_results as result(
@@ -215,7 +217,7 @@ begin
       update public.reading_comprehension_attempts attempt
       set status = case when coalesce(p_force_submit, false) then 'force_submitted' else 'submitted' end,
           force_submit = coalesce(p_force_submit, false),
-          duration_ms = pg_catalog.greatest(attempt.duration_ms, coalesce(p_duration_ms, 0)),
+          duration_ms = greatest(attempt.duration_ms, coalesce(p_duration_ms, 0)),
           completed_at = pg_catalog.now(), updated_at = pg_catalog.now()
       where attempt.id = v_attempt.id;
     end if;

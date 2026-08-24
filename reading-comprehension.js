@@ -7,10 +7,11 @@ const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 
 const state = {
   supabase: null, token: "", user: null, view: "login", data: null, analysis: null,
-  attemptId: null, answers: {}, results: {}, bookmarks: new Set(), activeAnalysis: 0,
+  attemptId: null, answers: {}, results: {}, bookmarks: new Set(), activeAnalysis: 0, activeSkimming: 0,
   timerRunning: false, durationMs: 0, timerStartedAt: 0, timerHandle: 0, autosaveHandle: 0,
   timerMode: "stopwatch", countdownMinutes: 20, forceSubmit: false, submitting: false,
-  wordIndex: 0, toastHandle: 0, dashboard: null
+  answerTimings: {}, scanAssignments: {}, wordIndex: 0, toastHandle: 0, dashboard: null,
+  audioItem: null, audioSetup: false, audioStopAt: null, passageTab: 1
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -27,9 +28,7 @@ const el = {
   skimmingDialog: $('[data-skimming-dialog]'), analysisDialog: $('[data-analysis-dialog]'), toast: $('[data-toast]')
 };
 
-function escapeHtml(value) {
-  return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;");
-}
+function escapeHtml(value) { return String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#39;"); }
 function setConnection(text, status) { el.connection.textContent = text; el.connection.dataset.state = status; }
 function setStatus(text = "", status = "") { el.loginStatus.textContent = text; el.loginStatus.dataset.state = status; }
 function showToast(message) { clearTimeout(state.toastHandle); el.toast.textContent = message; el.toast.hidden = false; state.toastHandle = setTimeout(() => { el.toast.hidden = true; }, 3600); }
@@ -64,7 +63,6 @@ async function validateToken(token) {
   window.EdmundSystemNav?.rememberStudentSession({ token: state.token, id: state.user.id, name: state.user.name, role: "student" }); return true;
 }
 async function login(username, password) { const rows = await rpc("flashcard_student_login", { p_name: username, p_password: password }); const row = Array.isArray(rows) ? rows[0] : null; return row?.session_token ? validateToken(String(row.session_token)) : false; }
-
 async function loadArticleData() {
   if (state.data && state.analysis) return;
   const [dataResponse, analysisResponse] = await Promise.all([fetch(DATA_URL, { cache: "no-store" }), fetch(ANALYSIS_URL, { cache: "no-store" })]);
@@ -72,10 +70,9 @@ async function loadArticleData() {
   [state.data, state.analysis] = await Promise.all([dataResponse.json(), analysisResponse.json()]);
 }
 async function loadBookmarks() {
-  try { const rows = await rpc("learning_portal_list_bookmarks", { p_token: state.token, p_system_key: "reading-comprehension" }); state.bookmarks = new Set((Array.isArray(rows) ? rows : []).map((row) => String(row.item_key))); }
+  try { const rows = await rpc("learning_portal_list_bookmarks", { p_token: state.token, p_system_key: "reading-comprehension" }); state.bookmarks = new Set((Array.isArray(rows) ? rows : []).map((row) => String(row.item_key))); updateBookmarkControls(); }
   catch (error) { console.warn("Reading bookmarks unavailable", error); }
 }
-
 async function handleLogin(event) {
   event.preventDefault(); const form = new FormData(el.loginForm); const username = String(form.get("username") || "").trim(); const password = String(form.get("password") || "");
   if (!username || !password) return setStatus("請輸入用戶名稱及密碼。", "error");
@@ -91,15 +88,21 @@ async function restoreSession() {
 async function logout() { pauseTimer(); el.audio.pause(); await saveAttempt(false, false, true); window.EdmundSystemNav?.forgetStudentSession(); clearSession(); try { await state.supabase?.auth.signOut(); } catch {} setConnection("已連線", "online"); showView("login"); }
 
 function formatDuration(ms) { const seconds = Math.max(0, Math.floor(Number(ms || 0) / 1000)); return `${Math.floor(seconds / 60)} 分 ${String(seconds % 60).padStart(2, "0")} 秒`; }
-function formatClock(ms) { const seconds = Math.max(0, Math.floor(ms / 1000)); return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`; }
+function formatClock(ms) { const seconds = Math.max(0, Math.floor(Number(ms || 0) / 1000)); return `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(seconds % 60).padStart(2, "0")}`; }
 function currentDuration() { return state.durationMs + (state.timerRunning ? Date.now() - state.timerStartedAt : 0); }
 function updateTimer() {
   const elapsed = currentDuration(); const limit = state.countdownMinutes * 60000; const shown = state.timerMode === "countdown" ? Math.max(0, limit - elapsed) : elapsed; el.timer.textContent = formatClock(shown);
   if (state.timerMode === "countdown" && elapsed >= limit && state.timerRunning) { pauseTimer(); if (state.forceSubmit) { showToast("時間已到，系統正在自動提交答案。"); submitAnswers(true, true); } else showToast("時間已到；你仍可繼續完成或自行提交。"); }
 }
-function startTimer() { if (state.timerRunning || state.results.finalized) return; state.timerRunning = true; state.timerStartedAt = Date.now(); el.timerToggle.textContent = "暫停"; updateTimer(); }
-function pauseTimer() { if (!state.timerRunning) return; state.durationMs += Date.now() - state.timerStartedAt; state.timerRunning = false; state.timerStartedAt = 0; el.timerToggle.textContent = "繼續"; updateTimer(); }
-function resetAttemptState() { state.attemptId = null; state.answers = {}; state.results = {}; state.durationMs = 0; state.timerStartedAt = 0; state.timerRunning = false; clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); }
+function startTimer() { if (state.timerRunning || state.results.finalized) return; state.timerRunning = true; state.timerStartedAt = Date.now(); el.timerToggle.textContent = "❚❚ 暫停"; el.timerToggle.classList.add("is-running"); updateTimer(); }
+function pauseTimer() { if (!state.timerRunning) { el.timerToggle.textContent = state.durationMs ? "▶ 繼續" : "▶ 開始"; return; } state.durationMs += Date.now() - state.timerStartedAt; state.timerRunning = false; state.timerStartedAt = 0; el.timerToggle.textContent = state.durationMs ? "▶ 繼續" : "▶ 開始"; el.timerToggle.classList.remove("is-running"); updateTimer(); }
+function resetAttemptState() { state.attemptId = null; state.answers = {}; state.results = {}; state.answerTimings = {}; state.durationMs = 0; state.timerStartedAt = 0; state.timerRunning = false; state.audioStopAt = null; el.timerToggle.textContent = "▶ 開始"; el.timerToggle.classList.remove("is-running"); clearInterval(state.timerHandle); clearInterval(state.autosaveHandle); }
+function recordAnswerTime(number, value) {
+  if (!state.timerRunning || state.answerTimings[number] || !String(value || "").trim()) return;
+  const timestamp = Math.round(currentDuration()); const previous = state.answerTimings[number - 1]?.timestamp || 0;
+  state.answerTimings[number] = { timestamp, questionMs: Math.max(0, timestamp - previous) }; renderAnswerTime(number);
+}
+function renderAnswerTime(number) { const row = state.answerTimings[number]; const node = $(`[data-answer-time="${number}"]`); if (node && row) { node.hidden = false; node.textContent = `作答時間 ${formatClock(row.timestamp)} · 本題用時 ${formatClock(row.questionMs)}`; } }
 
 function renderChart(container, days, metric, formatter) {
   const rows = Array.isArray(days) ? days.slice(-31) : []; if (!rows.length) { container.innerHTML = '<p class="empty-state">暫未有記錄。</p>'; return; }
@@ -116,15 +119,23 @@ async function loadDashboard() {
   const attempts = Array.isArray(snapshot.attempts) ? snapshot.attempts : [];
   el.history.innerHTML = attempts.length ? attempts.map((row) => `<article class="history-row"><span><strong>${escapeHtml(row.title || "Albert Einstein")}</strong><br><small>${escapeHtml(new Date(row.started_at).toLocaleString("zh-HK"))}</small></span><span>${Number(row.correct_count || 0)} / ${Number(row.answered_count || 0)} 題正確<br><small>${escapeHtml(formatDuration(row.duration_ms))} · ${row.status === "in_progress" ? "進行中" : "已提交"}</small></span></article>`).join("") : '<p class="empty-state">尚未有練習記錄。</p>';
 }
-async function openDashboard() { pauseTimer(); if (state.attemptId && !state.results.finalized) await saveAttempt(false, false, true); showView("dashboard"); el.welcome.textContent = `您好，${state.user.name}！請選擇閱讀練習。`; await loadDashboard(); }
+function selectPassageTab(number, updateUrl = true) {
+  state.passageTab = number; $$('[data-passage-tab]').forEach((button) => button.setAttribute("aria-selected", String(Number(button.dataset.passageTab) === number))); $$('[data-passage-page]').forEach((page) => { page.hidden = Number(page.dataset.passagePage) !== number; });
+  if (updateUrl) { const url = new URL(location.href); url.searchParams.set("passage", String(number)); history.replaceState({}, "", url); }
+}
+async function openDashboard() { pauseTimer(); if (state.attemptId && !state.results.finalized) await saveAttempt(false, false, true); closePopovers(); showView("dashboard"); el.welcome.textContent = `您好，${state.user.name}！請選擇閱讀練習。`; selectPassageTab(Math.max(1, Math.min(3, Number(new URLSearchParams(location.search).get("passage")) || state.passageTab)), false); await loadDashboard(); updateBookmarkControls(); }
 
-function renderWords(text) {
-  let html = ""; let last = 0; const regex = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu; let match;
-  while ((match = regex.exec(text))) { html += escapeHtml(text.slice(last, match.index)); html += `<span class="spoken-word" data-word-index="${state.wordIndex++}">${escapeHtml(match[0])}</span>`; last = regex.lastIndex; }
+function interactiveWords(text, context, spoken = false) {
+  let html = ""; let last = 0; let localIndex = 0; const regex = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu; let match;
+  while ((match = regex.exec(text))) {
+    const key = `word:${ARTICLE_ID}:${context}:w${localIndex++}`; const classes = ["interactive-word", spoken ? "spoken-word" : "", state.bookmarks.has(key) ? "is-bookmarked" : ""].filter(Boolean).join(" ");
+    html += escapeHtml(text.slice(last, match.index)); html += `<span class="${classes}" data-word-key="${escapeHtml(key)}" data-word-context="${escapeHtml(context)}"${spoken ? ` data-word-index="${state.wordIndex++}"` : ""}>${escapeHtml(match[0])}</span>`; last = regex.lastIndex;
+  }
   return html + escapeHtml(text.slice(last));
 }
 function renderPassage() {
-  state.wordIndex = 0; el.passage.innerHTML = state.data.paragraphs.map((paragraph) => `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><span class="paragraph-label">PARAGRAPH ${paragraph.number}</span><div class="passage-text-block">${renderWords(paragraph.text)}</div><div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div><button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · 第 ${paragraph.number} 段</button></section>`).join("");
+  state.wordIndex = 0; el.passage.innerHTML = state.data.paragraphs.map((paragraph) => `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">PARAGRAPH ${paragraph.number}</span><span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button></div><div class="passage-text-block">${interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div><div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div><button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · 第 ${paragraph.number} 段</button></section>`).join("");
+  renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
 function renderQuestions() {
@@ -132,24 +143,26 @@ function renderQuestions() {
   el.questions.innerHTML = state.data.questions.map((question) => {
     const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}</p>` : ""; group = question.group;
     const options = question.type === "choice" ? `<div class="choice-list">${question.options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="radio" name="q${question.number}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ""}</span></label>`; }).join("")}</div>` : `<input class="answer-input" name="q${question.number}" autocomplete="off" maxlength="100" placeholder="${escapeHtml(question.placeholder || "輸入答案")}">`;
-    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${escapeHtml(question.prompt)}</p><p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>${options}<div class="question-actions"><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div></section>`;
-  }).join("");
+    const scanButtons = state.data.paragraphs.map((p) => `<button type="button" data-scan-choice="${question.number}:${p.number}">P${p.number}</button>`).join("");
+    return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}"><p class="question-prompt"><span class="question-number">${question.number}</span>${interactiveWords(question.prompt, `q${question.number}`)}</p><p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>${options}<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small></section>`;
+  }).join(""); updateScanControls();
 }
 function collectAnswers() { const form = new FormData(el.questionForm); state.data.questions.forEach((question) => { const value = String(form.get(`q${question.number}`) || "").trim(); if (value) state.answers[`q${question.number}`] = value; else delete state.answers[`q${question.number}`]; }); return state.answers; }
-function restoreAnswers() { Object.entries(state.answers).forEach(([key, value]) => { const nodes = $$(`[name="${CSS.escape(key)}"]`); nodes.forEach((node) => { if (node.type === "radio") node.checked = node.value === value; else node.value = value; }); }); }
 function lockQuestionForm(locked) { $$('input[name^="q"]', el.questionForm).forEach((node) => { node.disabled = locked; }); $('[data-submit-partial]').disabled = locked; $('[type="submit"]', el.questionForm).disabled = locked; }
 function applyResults(payload) {
   const list = payload?.question_results || payload?.results || []; const mapped = Array.isArray(list) ? Object.fromEntries(list.map((row) => [Number(row.question_number), row])) : {};
   Object.entries(mapped).forEach(([number, row]) => { const target = $(`[data-question-result="${number}"]`); if (!target) return; target.textContent = row.correct ? `✓ 正確 · ${row.correct_answer}` : `✗ 答案：${row.correct_answer}`; target.className = `question-result ${row.correct ? "is-correct" : "is-wrong"}`; });
   if (payload?.status && payload.status !== "in_progress") { state.results.finalized = true; pauseTimer(); lockQuestionForm(true); el.submissionStatus.textContent = `已提交：${payload.correct_count || 0} / ${payload.answered_count || 0} 題正確。`; }
 }
-async function saveAttempt(submit = false, force = false, silent = false) {
-  if (!state.token || !state.data || state.submitting || state.results.finalized) return null; collectAnswers(); state.submitting = true;
+async function saveAttempt(submit = false, force = false, silent = false, retry = true) {
+  if (!state.token || !state.data || state.submitting || state.results.finalized) return null; collectAnswers(); if (!submit && !Object.keys(state.answers).length && currentDuration() === 0) return null; state.submitting = true;
   try {
     const payload = await rpc("reading_comprehension_save_attempt", { p_token: state.token, p_attempt_id: state.attemptId, p_article_id: ARTICLE_ID, p_answers: state.answers, p_duration_ms: Math.round(currentDuration()), p_submit: submit, p_force_submit: force });
     if (payload?.attempt_id) state.attemptId = String(payload.attempt_id); applyResults(payload); if (!silent) showToast(submit ? "答案已安全提交。" : "進度已儲存。"); return payload;
-  } catch (error) { console.warn("Attempt save failed", error); if (!silent) showToast("暫時未能儲存，請檢查連線後再試。"); return null; }
-  finally { state.submitting = false; }
+  } catch (error) {
+    if (retry && state.attemptId && (error?.code === "P0002" || error?.code === "42883")) { state.attemptId = null; state.submitting = false; return saveAttempt(submit, force, silent, false); }
+    console.warn("Attempt save failed", error); if (!silent) showToast("暫時未能儲存，請檢查連線後再試。"); return null;
+  } finally { state.submitting = false; }
 }
 async function submitAnswers(partial = false, force = false) {
   collectAnswers(); const count = Object.keys(state.answers).length;
@@ -157,53 +170,94 @@ async function submitAnswers(partial = false, force = false) {
   el.submissionStatus.textContent = "正在提交答案…"; const payload = await saveAttempt(true, force); if (payload && payload.status === "in_progress") el.submissionStatus.textContent = `已批改 ${payload.answered_count || count} 題；可繼續完成其餘題目。`;
 }
 
+function showPopover(node) { closePopovers(node); node.hidden = false; requestAnimationFrame(() => node.classList.add("is-visible")); }
+function closePopover(node) { if (!node || node.hidden) return; node.classList.remove("is-visible"); node.hidden = true; }
+function closePopovers(except = null) { [el.skimmingDialog, el.analysisDialog].forEach((node) => { if (node !== except) closePopover(node); }); }
 function openSkimming(number) {
-  const overview = state.analysis?.paragraphOverview?.paragraphs?.find((item) => Number(item.number) === number); $('[data-skimming-kicker]').textContent = `PARAGRAPH ${number}`; $('[data-skimming-title]').textContent = `Skimming Tips · 第 ${number} 段`; $('[data-skimming-content]').innerHTML = `<p>${escapeHtml(overview?.summary || "暫未有段落提示。")}</p>`; el.skimmingDialog.showModal();
+  state.activeSkimming = number; const overview = state.analysis?.paragraphOverview?.paragraphs?.find((item) => Number(item.number) === number); $('[data-skimming-kicker]').textContent = `PARAGRAPH ${number}`; $('[data-skimming-title]').textContent = `Skimming Tips · 第 ${number} 段`; $('[data-skimming-content]').innerHTML = `<p>${escapeHtml(overview?.summary || "暫未有段落提示。")}</p>`; $('[data-skimming-bookmark]').textContent = state.bookmarks.has(`${ARTICLE_ID}:skimming:${number}`) ? "★ 已收藏這段提示" : "☆ 收藏這段提示"; showPopover(el.skimmingDialog);
 }
-function renderAnalysisBlocks(sections) {
-  return (sections || []).map((section) => `<section class="analysis-section"><h3>${escapeHtml(section.title)}</h3>${(section.blocks || []).map((block) => block.kind === "quote" ? `<blockquote class="analysis-quote">${escapeHtml(block.text)}</blockquote>` : block.kind === "label" ? `<strong>${escapeHtml(block.text)}</strong>` : `<p>${escapeHtml(block.text)}</p>`).join("")}</section>`).join("");
-}
+function renderAnalysisBlocks(sections) { return (sections || []).map((section) => `<section class="analysis-section"><h3>${escapeHtml(section.title)}</h3>${(section.blocks || []).map((block) => block.kind === "quote" ? `<blockquote class="analysis-quote">${escapeHtml(block.text)}</blockquote>` : block.kind === "label" ? `<strong>${escapeHtml(block.text)}</strong>` : `<p>${escapeHtml(block.text)}</p>`).join("")}</section>`).join(""); }
 function openAnalysis(number) {
   const question = state.analysis.questions.find((item) => Number(item.number) === number); if (!question) return;
-  state.activeAnalysis = number; $('[data-analysis-kicker]').textContent = `QUESTION ${number}`; $('[data-analysis-title]').textContent = `第 ${number} 題答案解析`; $('[data-analysis-answer]').textContent = `正確答案：${question.answer}`; $('[data-analysis-content]').innerHTML = renderAnalysisBlocks(question.sections);
-  el.analysisDialog.querySelector('[data-analysis-bookmark]').textContent = state.bookmarks.has(`${ARTICLE_ID}:q${number}`) ? "★ 已收藏這題解析" : "☆ 收藏這題解析"; el.analysisDialog.showModal();
+  state.activeAnalysis = number; $('[data-analysis-kicker]').textContent = `QUESTION ${number}`; $('[data-analysis-title]').textContent = `第 ${number} 題答案解析`; $('[data-analysis-answer]').textContent = `正確答案：${question.answer}`; $('[data-analysis-content]').innerHTML = renderAnalysisBlocks(question.sections); $('[data-analysis-bookmark]').textContent = state.bookmarks.has(`${ARTICLE_ID}:q${number}`) ? "★ 已收藏這題解析" : "☆ 收藏這題解析"; showPopover(el.analysisDialog);
+}
+async function setBookmark(item, bookmarked) {
+  await rpc("learning_portal_set_bookmark", { p_token: state.token, p_system_key: "reading-comprehension", p_item_key: item.key, p_title: item.title, p_detail: item.detail, p_href: item.href, p_bookmarked: bookmarked });
+  if (bookmarked) state.bookmarks.add(item.key); else state.bookmarks.delete(item.key); updateBookmarkControls();
+}
+function updateBookmarkControls() { const saved = state.bookmarks.has(`${ARTICLE_ID}:passage`); $$('[data-passage-bookmark]').forEach((button) => { button.textContent = saved ? "★ 已收藏文章" : "☆ 收藏文章"; }); $$('[data-word-key]').forEach((word) => word.classList.toggle("is-bookmarked", state.bookmarks.has(word.dataset.wordKey))); }
+async function togglePassageBookmark(button) {
+  const key = `${ARTICLE_ID}:passage`; const bookmarked = !state.bookmarks.has(key); button.disabled = true;
+  try { await setBookmark({ key, title: "[文章] Albert Einstein", detail: "IELTS Reading · Passage 1 · Practice 69 · 閱讀文章及 13 題練習", href: `reading-comprehension.html?passage=1&article=${ARTICLE_ID}` }, bookmarked); showToast(bookmarked ? "已收藏這篇閱讀文章。" : "已移除文章書簽。"); } catch (error) { console.warn(error); showToast("書簽暫時未能儲存。"); } finally { button.disabled = false; }
+}
+async function toggleSkimmingBookmark() {
+  const number = state.activeSkimming; const overview = state.analysis?.paragraphOverview?.paragraphs?.find((item) => Number(item.number) === number); if (!number) return; const key = `${ARTICLE_ID}:skimming:${number}`; const bookmarked = !state.bookmarks.has(key); const button = $('[data-skimming-bookmark]'); button.disabled = true;
+  try { await setBookmark({ key, title: `[Skimming] Albert Einstein · 第 ${number} 段`, detail: overview?.summary || "段落速讀提示", href: `reading-comprehension.html?article=${ARTICLE_ID}#paragraph-${number}` }, bookmarked); button.textContent = bookmarked ? "★ 已收藏這段提示" : "☆ 收藏這段提示"; showToast(bookmarked ? "已收藏這段 Skimming 提示。" : "已移除提示書簽。"); } catch (error) { console.warn(error); showToast("書簽暫時未能儲存。"); } finally { button.disabled = false; }
 }
 async function toggleAnalysisBookmark() {
   const number = state.activeAnalysis; const question = state.analysis.questions.find((item) => Number(item.number) === number); if (!question) return; const key = `${ARTICLE_ID}:q${number}`; const bookmarked = !state.bookmarks.has(key); const button = $('[data-analysis-bookmark]'); button.disabled = true;
-  try { await rpc("learning_portal_set_bookmark", { p_token: state.token, p_system_key: "reading-comprehension", p_item_key: key, p_title: `Albert Einstein · 第 ${number} 題解析`, p_detail: `正確答案：${question.answer}。${question.sections?.[0]?.blocks?.map((block) => block.text).join(" ").slice(0, 260) || ""}`, p_href: `reading-comprehension.html?article=${ARTICLE_ID}#question-${number}`, p_bookmarked: bookmarked }); if (bookmarked) state.bookmarks.add(key); else state.bookmarks.delete(key); button.textContent = bookmarked ? "★ 已收藏這題解析" : "☆ 收藏這題解析"; showToast(bookmarked ? "已收藏這題解析。" : "已移除這題解析書簽。"); }
-  catch (error) { console.warn(error); showToast("書簽暫時未能儲存。"); } finally { button.disabled = false; }
+  try { await setBookmark({ key, title: `[答案解析] Albert Einstein · 第 ${number} 題`, detail: `正確答案：${question.answer}。${question.sections?.[0]?.blocks?.map((block) => block.text).join(" ").slice(0, 260) || ""}`, href: `reading-comprehension.html?article=${ARTICLE_ID}#question-${number}` }, bookmarked); button.textContent = bookmarked ? "★ 已收藏這題解析" : "☆ 收藏這題解析"; showToast(bookmarked ? "已收藏這題解析。" : "已移除這題解析書簽。"); } catch (error) { console.warn(error); showToast("書簽暫時未能儲存。"); } finally { button.disabled = false; }
+}
+async function toggleWordBookmark(word) {
+  const key = word.dataset.wordKey; const bookmarked = !state.bookmarks.has(key); const context = word.dataset.wordContext; const label = word.textContent.trim(); word.classList.toggle("is-pending", true);
+  try { await setBookmark({ key, title: `[閱讀重點] ${label}`, detail: `Albert Einstein · ${context.startsWith("p") ? `第 ${context.slice(1)} 段` : `第 ${context.slice(1)} 題`} · 點選字詞`, href: `reading-comprehension.html?article=${ARTICLE_ID}#${context.startsWith("p") ? `paragraph-${context.slice(1)}` : `question-${context.slice(1)}`}` }, bookmarked); word.classList.toggle("is-bookmarked", bookmarked); showToast(bookmarked ? `已收藏重點字詞「${label}」。` : `已移除重點字詞「${label}」。`); } catch (error) { console.warn(error); showToast("字詞書簽暫時未能儲存。"); } finally { word.classList.remove("is-pending"); }
 }
 
+function paragraphAudioRange(number) {
+  if (!state.audioItem) return null; const explicit = state.audioItem.paragraphs?.find((row) => Number(row.number) === number); if (explicit) return explicit;
+  const counts = state.data.paragraphs.map((p) => (p.text.match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu) || []).length); const from = counts.slice(0, number - 1).reduce((a, b) => a + b, 0); const to = from + counts[number - 1] - 1; const words = state.audioItem.words || []; return words[from] && words[to] ? { number, start: words[from].start, end: words[to].end } : null;
+}
+function playParagraph(number) { const range = paragraphAudioRange(number); if (!range) return showToast("本段朗讀暫時未能載入。"); state.audioStopAt = Number(range.end); el.audio.currentTime = Number(range.start); el.audio.play().catch(() => showToast("瀏覽器未能開始播放，請再按一次。")); }
 function setupAudio() {
-  const item = AUDIO_MANIFEST[ARTICLE_ID] || AUDIO_MANIFEST.items?.[ARTICLE_ID]; if (!item?.src) return;
-  el.audio.src = item.src; el.audioToggle.disabled = false; el.audioBack.disabled = false; el.audioSeek.disabled = false;
+  const item = AUDIO_MANIFEST[ARTICLE_ID] || AUDIO_MANIFEST.items?.[ARTICLE_ID]; if (!item?.src) return; state.audioItem = item; el.audio.src = item.src; el.audioToggle.disabled = false; el.audioBack.disabled = false; el.audioSeek.disabled = false; if (state.audioSetup) return; state.audioSetup = true;
   el.audio.addEventListener("loadedmetadata", () => { el.audioSeek.max = String(el.audio.duration || 1); updateAudioDisplay(); });
-  el.audio.addEventListener("timeupdate", () => { el.audioSeek.value = String(el.audio.currentTime); updateAudioDisplay(); syncWord(item); });
+  el.audio.addEventListener("timeupdate", () => { if (state.audioStopAt !== null && el.audio.currentTime >= state.audioStopAt) { state.audioStopAt = null; el.audio.pause(); } el.audioSeek.value = String(el.audio.currentTime); updateAudioDisplay(); syncWord(item); });
   el.audio.addEventListener("play", () => { el.audioToggle.textContent = "❚❚ 暫停朗讀"; }); el.audio.addEventListener("pause", () => { el.audioToggle.textContent = "▶ 朗讀全文"; });
-  el.audio.addEventListener("ended", () => { $$('.spoken-word.is-active').forEach((node) => node.classList.remove('is-active')); });
+  el.audio.addEventListener("ended", () => { state.audioStopAt = null; $$('.spoken-word.is-active').forEach((node) => node.classList.remove("is-active")); });
 }
 function updateAudioDisplay() { el.audioTime.textContent = `${formatClock(el.audio.currentTime * 1000)} / ${formatClock((el.audio.duration || 0) * 1000)}`; }
-function syncWord(item) { if (!el.sync.checked) return; const words = item.words || []; const time = el.audio.currentTime; let index = words.findIndex((word) => time >= Number(word.start) && time < Number(word.end)); if (index < 0) return; const current = $('.spoken-word.is-active'); const target = $(`[data-word-index="${index}"]`); if (current !== target) { current?.classList.remove('is-active'); target?.classList.add('is-active'); target?.scrollIntoView({ block: "center", behavior: "smooth" }); } }
+function syncWord(item) { if (!el.sync.checked) return; const words = item.words || []; const time = el.audio.currentTime; const index = words.findIndex((word) => time >= Number(word.start) && time < Number(word.end)); if (index < 0) return; const current = $('.spoken-word.is-active'); const target = $(`[data-word-index="${index}"]`); if (current !== target) { current?.classList.remove("is-active"); target?.classList.add("is-active"); target?.scrollIntoView({ block: "center", behavior: "smooth" }); } }
+
+function scanStorageKey() { return `edmund-reading-scan-v1:${state.user?.id || "student"}:${ARTICLE_ID}`; }
+function loadScanAssignments() { try { state.scanAssignments = JSON.parse(localStorage.getItem(scanStorageKey()) || "{}") || {}; } catch { state.scanAssignments = {}; } }
+function saveScanAssignments() { try { localStorage.setItem(scanStorageKey(), JSON.stringify(state.scanAssignments)); } catch {} }
+function assignScan(question, paragraph) { state.scanAssignments[question] = paragraph; saveScanAssignments(); updateScanControls(); renderScanTags(); }
+function updateScanControls() { $$('[data-scan-question]').forEach((button) => { const p = state.scanAssignments[button.dataset.scanQuestion]; button.textContent = p ? `Scan：P${p}` : "Scan：選擇段落"; button.classList.toggle("has-scan", Boolean(p)); }); $$('[data-scan-choice]').forEach((button) => { const [q, p] = button.dataset.scanChoice.split(":"); button.classList.toggle("is-selected", Number(state.scanAssignments[q]) === Number(p)); }); }
+function renderScanTags() { $$('[data-scan-tags]').forEach((container) => { const paragraph = Number(container.dataset.scanTags); const questions = Object.entries(state.scanAssignments).filter(([, p]) => Number(p) === paragraph).map(([q]) => Number(q)).sort((a, b) => a - b); container.innerHTML = questions.map((q) => `<span class="scan-question-tag" title="第 ${q} 題的 Scan 段落">${q}</span>`).join(""); }); }
 
 async function openExercise() {
-  await loadArticleData(); resetAttemptState(); renderPassage(); renderQuestions(); setupAudio(); showView("exercise"); startTimer(); state.timerHandle = setInterval(updateTimer, 250); state.autosaveHandle = setInterval(() => saveAttempt(false, false, true), 15000);
-  const hashQuestion = Number(location.hash.match(/question-(\d+)/)?.[1]); if (hashQuestion) setTimeout(() => $(`#question-${hashQuestion}`)?.scrollIntoView({ behavior: "smooth" }), 200);
+  await loadArticleData(); resetAttemptState(); loadScanAssignments(); renderPassage(); renderQuestions(); setupAudio(); updateBookmarkControls(); showView("exercise"); updateTimer(); state.timerHandle = setInterval(updateTimer, 250); state.autosaveHandle = setInterval(() => saveAttempt(false, false, true), 15000);
+  const hashTarget = location.hash ? document.getElementById(location.hash.slice(1)) : null; if (hashTarget) setTimeout(() => hashTarget.scrollIntoView({ behavior: "smooth" }), 200);
 }
 
 el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openDashboard); $('[data-open-exercise]').addEventListener("click", openExercise); $('[data-back-dashboard]').addEventListener("click", openDashboard); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
 $('[data-password-toggle]').addEventListener("click", (event) => { const input = $('input[name="password"]', el.loginForm); const shown = input.type === "text"; input.type = shown ? "password" : "text"; event.currentTarget.textContent = shown ? "顯示" : "隱藏"; event.currentTarget.setAttribute("aria-pressed", String(!shown)); });
 el.progressToggle.addEventListener("click", () => { const open = el.progressToggle.getAttribute("aria-expanded") === "true"; el.progressToggle.setAttribute("aria-expanded", String(!open)); el.progressPanel.hidden = open; el.progressLabel.textContent = open ? "展開 ＋" : "收合 −"; });
+$$('[data-passage-tab]').forEach((button) => button.addEventListener("click", () => selectPassageTab(Number(button.dataset.passageTab))));
+document.addEventListener("click", (event) => { const button = event.target.closest('[data-passage-bookmark]'); if (button) togglePassageBookmark(button); });
 el.translationButton.addEventListener("click", () => { const open = el.translationButton.getAttribute("aria-expanded") === "true"; el.translationButton.setAttribute("aria-expanded", String(!open)); el.translationPanel.hidden = open; });
 function updateTranslations() { const all = el.translationAll.checked; $$('[data-translation-paragraph]').forEach((checkbox) => { if (all) checkbox.checked = true; checkbox.disabled = all; }); $$('[data-translation-copy]').forEach((copy) => { const selected = $(`[data-translation-paragraph="${copy.dataset.translationCopy}"]`).checked; copy.hidden = !(all || selected); }); }
 el.translationAll.addEventListener("change", updateTranslations); $$('[data-translation-paragraph]').forEach((node) => node.addEventListener("change", updateTranslations));
+$('[data-hide-translations]').addEventListener("click", () => { el.translationAll.checked = false; $$('[data-translation-paragraph]').forEach((checkbox) => { checkbox.checked = false; checkbox.disabled = false; }); updateTranslations(); showToast("已隱藏所有文章翻譯。"); });
 $('[data-question-translations]').addEventListener("change", (event) => { $$('[data-question-translation]').forEach((node) => { node.hidden = !event.currentTarget.checked; }); });
-el.passage.addEventListener("click", (event) => { const button = event.target.closest('[data-skimming]'); if (button) openSkimming(Number(button.dataset.skimming)); });
-el.questions.addEventListener("click", (event) => { const button = event.target.closest('[data-reveal]'); if (button) openAnalysis(Number(button.dataset.reveal)); });
-el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark);
+el.passage.addEventListener("click", (event) => { const paragraphAudio = event.target.closest('[data-play-paragraph]'); if (paragraphAudio) return playParagraph(Number(paragraphAudio.dataset.playParagraph)); const button = event.target.closest('[data-skimming]'); if (button) return openSkimming(Number(button.dataset.skimming)); const word = event.target.closest('[data-word-key]'); if (word) toggleWordBookmark(word); });
+el.questions.addEventListener("click", (event) => {
+  const word = event.target.closest('[data-word-key]'); if (word) return toggleWordBookmark(word);
+  const choice = event.target.closest('[data-scan-choice]'); if (choice) { const [q, p] = choice.dataset.scanChoice.split(":").map(Number); assignScan(q, p); return; }
+  const scan = event.target.closest('[data-scan-question]'); if (scan) { const chooser = $(`[data-scan-chooser="${scan.dataset.scanQuestion}"]`); chooser.hidden = !chooser.hidden; return; }
+  const reveal = event.target.closest('[data-reveal]'); if (reveal) return openAnalysis(Number(reveal.dataset.reveal));
+  const row = event.target.closest('.choice-list label'); if (row) { const radio = $('input[type="radio"]', row); if (radio && !radio.checked) { radio.checked = true; radio.dispatchEvent(new Event("change", { bubbles: true })); } }
+});
+el.questionForm.addEventListener("input", (event) => { const match = event.target.name?.match(/^q(\d+)$/); if (match) recordAnswerTime(Number(match[1]), event.target.value); });
+el.questionForm.addEventListener("change", (event) => { const match = event.target.name?.match(/^q(\d+)$/); if (match) recordAnswerTime(Number(match[1]), event.target.value); });
+el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);
 el.timerToggle.addEventListener("click", () => state.timerRunning ? pauseTimer() : startTimer());
-el.timerMode.addEventListener("change", () => { state.timerMode = el.timerMode.value; const countdown = state.timerMode === "countdown"; el.countdownLabel.hidden = !countdown; el.forceLabel.hidden = !countdown; el.timerModeLabel.textContent = countdown ? "倒數計時" : "正計時"; updateTimer(); });
+el.timerMode.addEventListener("change", () => { state.timerMode = el.timerMode.value; const countdown = state.timerMode === "countdown"; el.countdownLabel.hidden = !countdown; el.forceLabel.hidden = !countdown; el.timerModeLabel.textContent = countdown ? "倒數計時（選用）" : "計時（選用）"; updateTimer(); });
 el.countdownMinutes.addEventListener("change", () => { state.countdownMinutes = Math.max(1, Math.min(180, Number(el.countdownMinutes.value) || 20)); el.countdownMinutes.value = String(state.countdownMinutes); updateTimer(); }); el.forceSubmit.addEventListener("change", () => { state.forceSubmit = el.forceSubmit.checked; });
-el.audioToggle.addEventListener("click", () => el.audio.paused ? el.audio.play().catch(() => showToast("瀏覽器未能開始播放，請再按一次。")) : el.audio.pause()); el.audioBack.addEventListener("click", () => { el.audio.currentTime = Math.max(0, el.audio.currentTime - 5); }); el.audioSeek.addEventListener("input", () => { el.audio.currentTime = Number(el.audioSeek.value); }); el.audioRate.addEventListener("change", () => { el.audio.playbackRate = Number(el.audioRate.value); });
+el.audioToggle.addEventListener("click", () => { state.audioStopAt = null; if (el.audio.ended) el.audio.currentTime = 0; return el.audio.paused ? el.audio.play().catch(() => showToast("瀏覽器未能開始播放，請再按一次。")) : el.audio.pause(); }); el.audioBack.addEventListener("click", () => { state.audioStopAt = null; el.audio.currentTime = Math.max(0, el.audio.currentTime - 5); }); el.audioSeek.addEventListener("input", () => { state.audioStopAt = null; el.audio.currentTime = Number(el.audioSeek.value); }); el.audioRate.addEventListener("change", () => { el.audio.playbackRate = Number(el.audioRate.value); });
+$$('[data-close-popover]').forEach((button) => button.addEventListener("click", () => closePopover(button.closest('[role="dialog"]'))));
+document.addEventListener("pointerdown", (event) => { [el.skimmingDialog, el.analysisDialog].forEach((popover) => { if (!popover.hidden && !popover.contains(event.target) && !event.target.closest('[data-skimming],[data-reveal]')) closePopover(popover); }); });
+document.addEventListener("keydown", (event) => { if (event.key === "Escape") closePopovers(); });
 document.addEventListener("visibilitychange", () => { if (document.hidden) { pauseTimer(); saveAttempt(false, false, true); } }); window.addEventListener("pagehide", () => { pauseTimer(); saveAttempt(false, false, true); });
 
 (async function init() {

@@ -14,6 +14,7 @@
     summary: document.querySelector("[data-summary]"),
     search: document.querySelector("[data-search]"),
     filter: document.querySelector("[data-filter]"),
+    typeFilter: document.querySelector("[data-type-filter]"),
     list: document.querySelector("[data-list]")
   };
 
@@ -92,6 +93,18 @@
     );
   }
 
+  function bookmarkType(item) {
+    if (item.systemKey !== "reading-comprehension") return "other";
+    const title = String(item.title || "");
+    if (/^\[Skimming\]/i.test(title)) return "skimming";
+    if (/^\[答案解析\]/.test(title) || /第\s*\d+\s*題解析/.test(title)) return "analysis";
+    return "reading-content";
+  }
+
+  function bookmarkTypeLabel(item) {
+    return { "reading-content": "文章與重點字詞", skimming: "Skimming Tips", analysis: "答案解析" }[bookmarkType(item)] || "學習書簽";
+  }
+
   function openInlineReader(card, reader, button, href, title) {
     const opening = reader.hidden;
     document.querySelectorAll(".bookmark-card.is-reading").forEach((otherCard) => {
@@ -124,6 +137,9 @@
     card.className = "bookmark-card";
     const systemLabel = document.createElement("em");
     systemLabel.textContent = item.systemLabel || "EdmundEducation";
+    const typeLabel = document.createElement("span");
+    typeLabel.className = "bookmark-type-badge";
+    typeLabel.textContent = bookmarkTypeLabel(item);
     const title = document.createElement("h2");
     title.textContent = item.title || "私人書簽";
     const content = document.createElement("section");
@@ -154,15 +170,17 @@
       original.textContent = "前往原系統位置 ↗";
       actions.append(read, original);
     }
-    card.append(systemLabel, title, content, time, actions, reader);
+    card.append(systemLabel, typeLabel, title, content, time, actions, reader);
     return card;
   }
 
   function render() {
     const query = el.search.value.trim().toLocaleLowerCase();
     const system = el.filter.value;
+    const type = el.typeFilter.value;
     const rows = state.items.filter((item) => (
       (system === "all" || item.systemKey === system)
+      && (type === "all" || bookmarkType(item) === type)
       && (!query || `${item.systemLabel} ${item.title} ${item.detail}`.toLocaleLowerCase().includes(query))
     ));
     el.summary.textContent = `共 ${state.items.length} 個私人書簽 · 顯示 ${rows.length} 個`;
@@ -210,6 +228,7 @@
   el.logout.addEventListener("click", () => { clear(); state.items = []; show("login"); });
   el.search.addEventListener("input", render);
   el.filter.addEventListener("change", render);
+  el.typeFilter.addEventListener("change", render);
 
   (async () => {
     try {
