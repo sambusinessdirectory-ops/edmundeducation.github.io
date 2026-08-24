@@ -17,6 +17,11 @@
     plannerCapacityAddRpc: "execution_system_planner_capacity_add",
     plannerTasksLoadRpc: "execution_system_planner_tasks_load",
     plannerTaskSaveRpc: "execution_system_planner_task_save",
-    plannerTaskArchiveRpc: "execution_system_planner_task_archive"
+    plannerTaskArchiveRpc: "execution_system_planner_task_archive",
+    plannerTaskTimerRpc: "execution_system_planner_task_timer",
+    plannerTaskRatingRpc: "execution_system_planner_task_rating",
+    plannerTaskMoveRpc: "execution_system_planner_task_move_tomorrow",
+    plannerTaskReactivateRpc: "execution_system_planner_task_reactivate",
+    plannerAnalyticsRpc: "execution_system_planner_analytics_load"
   });
 })();

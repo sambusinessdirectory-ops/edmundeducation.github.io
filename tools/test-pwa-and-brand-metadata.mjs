@@ -42,6 +42,7 @@ const htmlPages = [
   "error-identifier-system.html",
   "execution-system.html",
   "execution-task-planner.html",
+  "execution-dashboard.html",
   "exam-resources.html",
   "flashcards.html",
   "false-friends-system.html",

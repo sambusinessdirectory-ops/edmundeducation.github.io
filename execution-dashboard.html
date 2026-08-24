@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="執行動力系統數據儀表板：查看任務撰寫時間、任務總數及我做到了排行榜。">
+  <meta name="theme-color" content="#221d36">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="執行數據">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>數據儀表板｜執行動力系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/execution-dashboard.html">
+  <link rel="manifest" href="/pwa-manifests/execution.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
+  <link rel="stylesheet" href="execution-dashboard.css?v=20260824-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body data-system="execution">
+  <a class="skip-link" href="#dashboard-main">跳至主要內容</a>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="execution">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>執行數據儀表板</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <a class="header-button" href="execution-task-planner.html">工作構思簿</a>
+        <a class="header-button" href="execution-system.html">返回執行清單</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="dashboard-main">
+    <section class="loading-card" data-loading><span>57</span><h1>正在整理您的執行數據…</h1><p>只會讀取目前帳戶的私人紀錄。</p></section>
+    <section class="dashboard-shell" data-dashboard hidden>
+      <header class="dashboard-hero">
+        <div><span class="eyebrow">EXECUTION ANALYTICS</span><h1>數據儀表板</h1><p>把「我做到了」與任務規劃變成清楚、可追蹤的成長軌跡。</p></div>
+        <div class="hero-total"><strong data-all-total>0</strong><span>累積任務</span></div>
+      </header>
+
+      <section class="summary-grid" aria-label="任務摘要">
+        <article><span>本週撰寫</span><strong data-week-total>0</strong><small>份工作報告</small></article>
+        <article><span>本月撰寫</span><strong data-month-total>0</strong><small>份工作報告</small></article>
+        <article><span>本年撰寫</span><strong data-year-total>0</strong><small>份工作報告</small></article>
+        <article><span>平均撰寫時間</span><strong data-average-time>00:00</strong><small>Mean</small></article>
+        <article><span>中位撰寫時間</span><strong data-median-time>00:00</strong><small>Median</small></article>
+        <article><span>平均難度</span><strong data-average-rating>—</strong><small>滿分 5 星</small></article>
+      </section>
+
+      <section class="analytics-panel chart-panel">
+        <div class="panel-heading">
+          <div><span class="eyebrow">TASKS WRITTEN</span><h2>任務撰寫趨勢</h2></div>
+          <div class="period-controls" data-period-controls>
+            <button type="button" data-period="week" aria-pressed="true">每週</button>
+            <button type="button" data-period="month" aria-pressed="false">每月</button>
+            <button type="button" data-period="year" aria-pressed="false">每年</button>
+            <button type="button" data-period="all" aria-pressed="false">全部</button>
+          </div>
+        </div>
+        <div class="chart-wrap"><svg data-task-chart role="img" aria-label="按時間統計撰寫任務數量的 X Y 軸圖表" viewBox="0 0 900 360"></svg></div>
+        <p class="chart-caption">Y 軸：任務數量　·　X 軸：所選時段</p>
+      </section>
+
+      <section class="leaderboard-grid">
+        <article class="analytics-panel"><div class="panel-heading"><div><span class="eyebrow">I DID IT</span><h2>「我做到了」工具排行</h2></div></div><ol class="ranking-list" data-tool-ranking></ol></article>
+        <article class="analytics-panel"><div class="panel-heading"><div><span class="eyebrow">TOP STEPS</span><h2>最常完成步驟</h2></div></div><ol class="ranking-list" data-step-ranking></ol></article>
+      </section>
+      <p class="status-message" data-status role="status" hidden></p>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
+  <script src="execution-system-config.js?v=20260824-3"></script>
+  <script src="execution-system-data.js?v=20260824-1"></script>
+  <script src="execution-dashboard.js?v=20260824-1"></script>
+</body>
+</html>

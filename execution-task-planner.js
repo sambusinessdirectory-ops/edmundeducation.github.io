@@ -22,7 +22,7 @@
     active: $("[data-active-tasks]"), archive: $("[data-archive-list]"), archiveCount: $("[data-archive-count]"),
     status: $("[data-status]")
   };
-  const state = { role: "", token: "", user: null, date: initialDate(), capacity: 10, active: new Map(), archived: [], busy: false };
+  const state = { role: "", token: "", user: null, date: initialDate(), capacity: 10, active: new Map(), archived: [], busy: false, timerTick: 0 };
 
   function initialDate() {
     const now = new Date();
@@ -129,7 +129,9 @@
     const title = document.createElement("strong");
     title.textContent = record?.title || `Task ${slot}`;
     const subtitle = document.createElement("small");
-    subtitle.textContent = record ? `已儲存 · ${formatTimestamp(record.updated_at)}` : "空白工作格式 · 按此填寫";
+    subtitle.textContent = record
+      ? `已儲存 · ${formatDuration(effectiveElapsed(record))} · ${record.difficulty_rating ? `${record.difficulty_rating} 星難度` : "未評難度"}`
+      : "空白工作格式 · 按此填寫";
     copy.append(title, subtitle);
     const chevron = document.createElement("span");
     chevron.className = "task-chevron";
@@ -143,11 +145,47 @@
     return new Intl.DateTimeFormat("zh-HK", { dateStyle: "medium", timeStyle: "short" }).format(new Date(value));
   }
 
+  function effectiveElapsed(record) {
+    const stored = Math.max(0, Number(record?.writing_elapsed_seconds) || 0);
+    if (!record?.writing_timer_started_at) return stored;
+    return stored + Math.max(0, Math.floor((Date.now() - new Date(record.writing_timer_started_at).getTime()) / 1000));
+  }
+
+  function formatDuration(seconds) {
+    const value = Math.max(0, Math.floor(Number(seconds) || 0));
+    const hours = Math.floor(value / 3600);
+    const minutes = Math.floor((value % 3600) / 60);
+    const remainder = value % 60;
+    return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(remainder).padStart(2, "0")}`;
+  }
+
+  function refreshTimers() {
+    document.querySelectorAll("[data-task-timer]").forEach((node) => {
+      const record = state.active.get(Number(node.dataset.taskTimer));
+      if (record) node.textContent = formatDuration(effectiveElapsed(record));
+    });
+  }
+
   function buildTaskForm(slot, record, details) {
     if (details.querySelector(".task-form")) return;
     const form = document.createElement("form");
     form.className = "task-form";
     form.noValidate = true;
+    const timerBar = document.createElement("div");
+    timerBar.className = "task-timer-bar";
+    const timerCopy = document.createElement("div");
+    const timerLabel = document.createElement("span");
+    timerLabel.textContent = "工作報告撰寫時間";
+    const timerValue = document.createElement("strong");
+    timerValue.dataset.taskTimer = String(slot);
+    timerValue.textContent = formatDuration(effectiveElapsed(record));
+    timerCopy.append(timerLabel, timerValue);
+    const startTimer = document.createElement("button");
+    startTimer.type = "button";
+    startTimer.className = "start-timer";
+    startTimer.textContent = record?.writing_timer_started_at ? "計時中…" : "▶ 開始計時";
+    startTimer.disabled = Boolean(record?.writing_timer_started_at);
+    timerBar.append(timerCopy, startTimer);
     const titleLabel = document.createElement("label");
     titleLabel.className = "title-field";
     const titleCopy = document.createElement("span");
@@ -176,6 +214,16 @@
     });
     const actions = document.createElement("div");
     actions.className = "task-form-actions";
+    const stopTimer = document.createElement("button");
+    stopTimer.type = "button";
+    stopTimer.className = "stop-timer";
+    stopTimer.textContent = "■ 停止計時";
+    stopTimer.disabled = !record?.writing_timer_started_at;
+    const move = document.createElement("button");
+    move.type = "button";
+    move.className = "move-task";
+    move.textContent = "→ 移到明天";
+    move.disabled = state.date === MAX_DATE;
     const save = document.createElement("button");
     save.type = "submit";
     save.className = "save-task";
@@ -184,12 +232,36 @@
     archive.type = "button";
     archive.className = "archive-task";
     archive.textContent = "✓ 這項工作完成";
-    archive.addEventListener("click", () => archiveTask(slot, form, [save, archive]));
-    actions.append(save, archive);
-    form.append(titleLabel, questionGrid, actions);
+    const buttons = [startTimer, stopTimer, move, save, archive];
+    startTimer.addEventListener("click", () => changeTaskTimer(slot, form, buttons, "start"));
+    stopTimer.addEventListener("click", () => changeTaskTimer(slot, form, buttons, "stop"));
+    move.addEventListener("click", () => moveTaskTomorrow(slot, form, buttons));
+    archive.addEventListener("click", () => archiveTask(slot, form, buttons));
+    actions.append(stopTimer, move, save, archive);
+
+    const rating = document.createElement("fieldset");
+    rating.className = "difficulty-rating";
+    const legend = document.createElement("legend");
+    legend.textContent = "這項工作的難度";
+    const ratingHint = document.createElement("span");
+    ratingHint.textContent = record?.difficulty_rating ? `${record.difficulty_rating} / 5` : "尚未評分";
+    const stars = document.createElement("div");
+    stars.className = "rating-stars";
+    for (let value = 1; value <= 5; value += 1) {
+      const star = document.createElement("button");
+      star.type = "button";
+      star.textContent = "★";
+      star.dataset.rating = String(value);
+      star.setAttribute("aria-label", `${value} 星難度`);
+      star.setAttribute("aria-pressed", String(value <= Number(record?.difficulty_rating || 0)));
+      star.addEventListener("click", () => rateTask(slot, form, buttons, value, stars, ratingHint));
+      stars.append(star);
+    }
+    rating.append(legend, ratingHint, stars);
+    form.append(timerBar, titleLabel, questionGrid, rating, actions);
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-      saveTask(slot, form, [save, archive])
+      saveTask(slot, form, buttons)
         .then(() => loadDay("工作構思已永久儲存。"))
         .catch(() => {});
     });
@@ -227,6 +299,48 @@
     } catch (error) {
       showStatus(error?.message || "未能儲存工作，請稍後再試。", "error");
       throw error;
+    } finally {
+      buttons.forEach((button) => { button.disabled = false; });
+    }
+  }
+
+  async function changeTaskTimer(slot, form, buttons, action) {
+    try {
+      const saved = await saveTask(slot, form, buttons);
+      buttons.forEach((button) => { button.disabled = true; });
+      const rows = await rpc(config.plannerTaskTimerRpc, { p_task_id: saved.id, p_action: action, ...authParams() });
+      const timer = Array.isArray(rows) ? rows[0] : null;
+      if (!timer?.id) throw new Error("未能更新計時器");
+      await loadDay(action === "start" ? "工作報告計時已開始。" : `計時已停止：${formatDuration(timer.writing_elapsed_seconds)}。`, { focusSlot: slot, openSlot: slot });
+    } catch (error) {
+      if (error?.message !== "Task title is required") showStatus(error?.message || "未能更新計時器。", "error");
+    } finally {
+      buttons.forEach((button) => { button.disabled = false; });
+    }
+  }
+
+  async function rateTask(slot, form, buttons, value, stars, hint) {
+    try {
+      const saved = await saveTask(slot, form, buttons);
+      const rating = await rpc(config.plannerTaskRatingRpc, { p_task_id: saved.id, p_rating: value, ...authParams() });
+      stars.querySelectorAll("button").forEach((star) => star.setAttribute("aria-pressed", String(Number(star.dataset.rating) <= Number(rating))));
+      hint.textContent = `${rating} / 5`;
+      showStatus(`已記錄 ${rating} 星工作難度。`);
+    } catch (error) {
+      if (error?.message !== "Task title is required") showStatus(error?.message || "未能儲存難度評分。", "error");
+    }
+  }
+
+  async function moveTaskTomorrow(slot, form, buttons) {
+    try {
+      const saved = await saveTask(slot, form, buttons);
+      buttons.forEach((button) => { button.disabled = true; });
+      const rows = await rpc(config.plannerTaskMoveRpc, { p_task_id: saved.id, ...authParams() });
+      const moved = Array.isArray(rows) ? rows[0] : null;
+      if (!moved?.id) throw new Error("未能移動工作");
+      await loadDay(`工作已移到明天 ${moved.task_date} 的 Task ${moved.slot_number}。`);
+    } catch (error) {
+      if (error?.message !== "Task title is required") showStatus(error?.message || "未能把工作移到明天。", "error");
     } finally {
       buttons.forEach((button) => { button.disabled = false; });
     }
@@ -276,7 +390,7 @@
       const title = document.createElement("strong");
       title.textContent = record.title;
       const meta = document.createElement("small");
-      meta.textContent = `Task ${record.slot_number} · 完成於 ${formatTimestamp(record.completed_at)}`;
+      meta.textContent = `Task ${record.slot_number} · ${formatDuration(record.writing_elapsed_seconds)} · ${record.difficulty_rating ? `${record.difficulty_rating} 星難度` : "未評難度"} · 完成於 ${formatTimestamp(record.completed_at)}`;
       summary.append(title, meta);
       const content = document.createElement("div");
       content.className = "archive-content";
@@ -292,9 +406,29 @@
         row.append(questionText, answerText);
         content.append(row);
       });
+      const reactivate = document.createElement("button");
+      reactivate.type = "button";
+      reactivate.className = "reactivate-task";
+      reactivate.textContent = "↶ 重新啟動這項工作";
+      reactivate.addEventListener("click", () => reactivateTask(record, reactivate));
+      content.append(reactivate);
       details.append(summary, content);
       elements.archive.append(details);
     });
+  }
+
+  async function reactivateTask(record, button) {
+    button.disabled = true;
+    try {
+      const rows = await rpc(config.plannerTaskReactivateRpc, { p_task_id: record.id, ...authParams() });
+      const restored = Array.isArray(rows) ? rows[0] : null;
+      if (!restored?.id) throw new Error("未能重新啟動工作");
+      await loadDay(`工作已重新啟動於 Task ${restored.slot_number}。`, { focusSlot: restored.slot_number, openSlot: restored.slot_number });
+    } catch (error) {
+      showStatus(error?.message || "未能重新啟動工作。", "error");
+    } finally {
+      button.disabled = false;
+    }
   }
 
   async function loadDay(successMessage = "", options = {}) {
@@ -316,9 +450,17 @@
       elements.capacity.textContent = String(state.capacity);
       renderActive();
       renderArchive();
+      refreshTimers();
       setConnection("已安全連接", "online");
       if (successMessage) showStatus(successMessage);
-      if (options.focusSlot) elements.active.querySelector(`[data-slot="${options.focusSlot}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (options.focusSlot) {
+        const target = elements.active.querySelector(`[data-slot="${options.focusSlot}"]`);
+        if (target && options.openSlot) {
+          target.open = true;
+          buildTaskForm(Number(options.openSlot), state.active.get(Number(options.openSlot)), target);
+        }
+        target?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
     } catch (error) {
       console.warn("Execution planner could not load the selected date", error);
       setConnection("連線失敗", "error");
@@ -364,6 +506,7 @@
       elements.user.textContent = state.role === "admin" ? `${state.user.name} · 管理員` : state.user.name;
       elements.loading.hidden = true;
       elements.app.hidden = false;
+      state.timerTick = window.setInterval(refreshTimers, 1000);
       await loadDay();
     } catch (error) {
       console.warn("Execution planner initialization failed", error);
