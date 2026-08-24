@@ -27,12 +27,30 @@ assert.match(source, /\.mode-card\.status-mode-red[\s\S]*?#fff1f2[\s\S]*?#fecdd3
 assert.match(source, /\.mode-card\.status-mode-green[\s\S]*?#f0fdf4[\s\S]*?#bbf7d0/);
 
 const rangePattern = /data-start-mode="range" data-range-start="(\d+)"(?: data-range-end="(\d+)")? data-range-label="([^"]+)"/g;
-const actualRanges = [...modesMarkup.matchAll(rangePattern)].map(match => ({
-  start: Number(match[1]),
-  end: match[2] ? Number(match[2]) : 0,
-  label: match[3]
-}));
-const expectedRanges = [
+function rangesFromMarkup(markup) {
+  return [...markup.matchAll(rangePattern)].map(match => ({
+    start: Number(match[1]),
+    end: match[2] ? Number(match[2]) : 0,
+    label: match[3]
+  }));
+}
+
+function assertContiguousRanges(ranges, message) {
+  for (let index = 1; index < ranges.length; index += 1) {
+    assert.equal(ranges[index].start, ranges[index - 1].end + 1, message);
+  }
+}
+
+const thirtyRangeMarkup = sourceBetween(
+  '<div class="mode-block" data-range-section="30">',
+  '<div class="mode-block" data-range-section="10">'
+);
+const tenRangeMarkup = sourceBetween(
+  '<div class="mode-block" data-range-section="10">',
+  '<section class="deck-card hidden" data-deck-view>'
+);
+const actualThirtyRanges = rangesFromMarkup(thirtyRangeMarkup);
+const expectedThirtyRanges = [
   { start: 1, end: 30, label: "1-30 張卡" },
   { start: 31, end: 60, label: "31-60 張卡" },
   { start: 61, end: 90, label: "61-90 張卡" },
@@ -45,11 +63,46 @@ const expectedRanges = [
   { start: 271, end: 300, label: "271-300 張卡" },
   { start: 301, end: 0, label: "餘下卡片" }
 ];
-assert.deepEqual(actualRanges, expectedRanges);
-for (let index = 1; index < actualRanges.length; index += 1) {
-  assert.equal(actualRanges[index].start, actualRanges[index - 1].end + 1, "Card ranges must not overlap or leave gaps");
-}
-assert.doesNotMatch(modesMarkup, /data-range-start="21"|21-60 張卡/);
+assert.deepEqual(actualThirtyRanges, expectedThirtyRanges);
+assertContiguousRanges(actualThirtyRanges, "30-card ranges must not overlap or leave gaps");
+assert.doesNotMatch(thirtyRangeMarkup, /data-range-start="21"|21-60 張卡/);
+
+const expectedTenRanges = Array.from({ length: 20 }, (_, index) => {
+  const start = (index * 10) + 1;
+  const end = start + 9;
+  return { start, end, label: `第 ${start}–${end} 項` };
+}).concat({ start: 201, end: 0, label: "其餘項目" });
+const actualTenRanges = rangesFromMarkup(tenRangeMarkup);
+assert.deepEqual(actualTenRanges, expectedTenRanges);
+assertContiguousRanges(actualTenRanges, "10-item ranges must not overlap or leave gaps");
+actualTenRanges.slice(0, -1).forEach(range => {
+  assert.equal(range.end - range.start + 1, 10, `${range.label} must contain exactly 10 items`);
+});
+const visibleTenRangeLabels = [...tenRangeMarkup.matchAll(/data-range-label="([^"]+)">\s*([^<]+)\s*<span>/g)]
+  .map(match => match[2].trim());
+assert.deepEqual(visibleTenRangeLabels, expectedTenRanges.map(range => range.label));
+assert.equal((tenRangeMarkup.match(/class="mode-card range-card"/g) || []).length, 21);
+assert.match(source, /\[data-range-section="10"\] \.mode-card\.range-card:not\(:disabled\) \{[\s\S]*?#fde047[\s\S]*?#facc15[\s\S]*?#eab308/);
+assert.match(source, /\[data-range-section="10"\] \.mode-card\.range-card:not\(:disabled\) span \{\s*color: #713f12;/);
+assert.match(source, /\.mode-card:disabled,\s*\.mode-card\.range-card:disabled \{[\s\S]*?#d7dde6[\s\S]*?#b7c1cf/);
+
+const refreshDeckStartPanel = sourceBetween("function refreshDeckStartPanel()", "function openDeckStart(");
+assert.match(refreshDeckStartPanel, /querySelectorAll\("\[data-deck-start\] \[data-start-mode='range'\]"\)/);
+assert.match(refreshDeckStartPanel, /button\.disabled = count === 0 \|\| rangeStart > count;/);
+const rangeHelperSource = sourceBetween("function cardIndexesForRange(", "function isDeckRangeFullyGreen(");
+const cardIndexesForRange = Function(`${rangeHelperSource}; return cardIndexesForRange;`)();
+assert.deepEqual(cardIndexesForRange(7, 1, 10), [0, 1, 2, 3, 4, 5, 6]);
+assert.deepEqual(cardIndexesForRange(15, 11, 20), [10, 11, 12, 13, 14]);
+assert.deepEqual(cardIndexesForRange(200, 191, 200), Array.from({ length: 10 }, (_, index) => index + 190));
+assert.deepEqual(cardIndexesForRange(200, 201, 0), []);
+assert.deepEqual(cardIndexesForRange(201, 201, 0), [200]);
+assert.deepEqual(cardIndexesForRange(205, 201, 0), [200, 201, 202, 203, 204]);
+assert.deepEqual(cardIndexesForRange(237, 201, 0), Array.from({ length: 37 }, (_, index) => index + 200));
+assert.deepEqual(cardIndexesForRange(30, 31, 40), []);
+const rangeCompletionSource = sourceBetween("function isDeckRangeFullyGreen(", "function setSession(");
+assert.match(rangeCompletionSource, /cardIndexesForRange\(cards\.length, rangeStart, rangeEnd\)/);
+const startDeckSessionRange = sourceBetween("function startDeckSession(", "function startRedCrossSession(");
+assert.match(startDeckSessionRange, /order = cardIndexesForRange\(cards\.length, rangeStart, rangeEnd\);/);
 
 const modeLabel = sourceBetween("function modeLabel(", "function hideReviewPanel()");
 assert.match(modeLabel, /if \(mode === "red-only"\) return "只練習紅卡";/);

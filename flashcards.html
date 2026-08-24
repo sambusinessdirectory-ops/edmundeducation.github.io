@@ -2359,6 +2359,37 @@
         0 26px 36px rgba(5,150,105,0.24);
     }
 
+    [data-range-section="10"] .mode-card.range-card:not(:disabled) {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.40) 0%, rgba(255,255,255,0.10) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #fde047 0%, #facc15 56%, #eab308 100%);
+      color: #422006;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.46),
+        inset 0 -10px 18px rgba(161,98,7,0.12),
+        0 8px 0 #a16207,
+        0 20px 30px rgba(202,138,4,0.22);
+    }
+
+    [data-range-section="10"] .mode-card.range-card:not(:disabled) span {
+      color: #713f12;
+    }
+
+    [data-range-section="10"] .mode-card.range-card.range-completed:not(:disabled) {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.48) 0%, rgba(255,255,255,0.14) 38%, rgba(255,255,255,0) 39%),
+        linear-gradient(180deg, #fef08a 0%, #fde047 52%, #facc15 100%);
+      filter: saturate(1.12) brightness(1.03);
+    }
+
+    [data-range-section="10"] .mode-card.range-card:not(:disabled):hover {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.52),
+        inset 0 -10px 18px rgba(161,98,7,0.12),
+        0 10px 0 #a16207,
+        0 26px 36px rgba(202,138,4,0.28);
+    }
+
     .study-top {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -4325,7 +4356,7 @@
               </button>
             </div>
           </div>
-          <div class="mode-block">
+          <div class="mode-block" data-range-section="30">
             <div class="mode-grid">
               <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="1" data-range-end="30" data-range-label="1-30 張卡">
                 1-30 張卡
@@ -4370,6 +4401,94 @@
               <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="301" data-range-label="餘下卡片">
                 餘下卡片
                 <span>練習第 301 張之後的所有卡。</span>
+              </button>
+            </div>
+          </div>
+          <div class="mode-block" data-range-section="10">
+            <div class="mode-grid">
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="1" data-range-end="10" data-range-label="第 1–10 項">
+                第 1–10 項
+                <span>按原定次序練習第 1 至 10 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="11" data-range-end="20" data-range-label="第 11–20 項">
+                第 11–20 項
+                <span>按原定次序練習第 11 至 20 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="21" data-range-end="30" data-range-label="第 21–30 項">
+                第 21–30 項
+                <span>按原定次序練習第 21 至 30 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="31" data-range-end="40" data-range-label="第 31–40 項">
+                第 31–40 項
+                <span>按原定次序練習第 31 至 40 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="41" data-range-end="50" data-range-label="第 41–50 項">
+                第 41–50 項
+                <span>按原定次序練習第 41 至 50 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="51" data-range-end="60" data-range-label="第 51–60 項">
+                第 51–60 項
+                <span>按原定次序練習第 51 至 60 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="61" data-range-end="70" data-range-label="第 61–70 項">
+                第 61–70 項
+                <span>按原定次序練習第 61 至 70 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="71" data-range-end="80" data-range-label="第 71–80 項">
+                第 71–80 項
+                <span>按原定次序練習第 71 至 80 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="81" data-range-end="90" data-range-label="第 81–90 項">
+                第 81–90 項
+                <span>按原定次序練習第 81 至 90 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="91" data-range-end="100" data-range-label="第 91–100 項">
+                第 91–100 項
+                <span>按原定次序練習第 91 至 100 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="101" data-range-end="110" data-range-label="第 101–110 項">
+                第 101–110 項
+                <span>按原定次序練習第 101 至 110 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="111" data-range-end="120" data-range-label="第 111–120 項">
+                第 111–120 項
+                <span>按原定次序練習第 111 至 120 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="121" data-range-end="130" data-range-label="第 121–130 項">
+                第 121–130 項
+                <span>按原定次序練習第 121 至 130 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="131" data-range-end="140" data-range-label="第 131–140 項">
+                第 131–140 項
+                <span>按原定次序練習第 131 至 140 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="141" data-range-end="150" data-range-label="第 141–150 項">
+                第 141–150 項
+                <span>按原定次序練習第 141 至 150 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="151" data-range-end="160" data-range-label="第 151–160 項">
+                第 151–160 項
+                <span>按原定次序練習第 151 至 160 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="161" data-range-end="170" data-range-label="第 161–170 項">
+                第 161–170 項
+                <span>按原定次序練習第 161 至 170 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="171" data-range-end="180" data-range-label="第 171–180 項">
+                第 171–180 項
+                <span>按原定次序練習第 171 至 180 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="181" data-range-end="190" data-range-label="第 181–190 項">
+                第 181–190 項
+                <span>按原定次序練習第 181 至 190 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="191" data-range-end="200" data-range-label="第 191–200 項">
+                第 191–200 項
+                <span>按原定次序練習第 191 至 200 項。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="201" data-range-label="其餘項目">
+                其餘項目
+                <span>練習第 201 項之後的所有項目。</span>
               </button>
             </div>
           </div>
@@ -190474,13 +190593,20 @@ window.EDMUND_FLASHCARD_SEED = {
       return cards.every((_, index) => green.has(String(index)) && !red.has(String(index)));
     }
 
+    function cardIndexesForRange(cardCount, rangeStart = 1, rangeEnd = 0) {
+      const count = Math.max(0, Math.trunc(Number(cardCount) || 0));
+      const startIndex = Math.max(0, Math.trunc(Number(rangeStart || 1)) - 1);
+      const endIndex = rangeEnd
+        ? Math.min(count - 1, Math.trunc(Number(rangeEnd)) - 1)
+        : count - 1;
+      if (!count || startIndex >= count || endIndex < startIndex) return [];
+      return Array.from({ length: endIndex - startIndex + 1 }, (_, offset) => startIndex + offset);
+    }
 
     function isDeckRangeFullyGreen(deckId, rangeStart = 1, rangeEnd = 0, studentName = currentUser?.name) {
       const cards = getDeckCards(deckId);
       if (!studentName || !cards.length) return false;
-      const startIndex = Math.max(0, Number(rangeStart || 1) - 1);
-      const endIndex = rangeEnd ? Math.min(cards.length - 1, Number(rangeEnd) - 1) : cards.length - 1;
-      const indexes = cards.map((_, index) => index).filter(index => index >= startIndex && index <= endIndex);
+      const indexes = cardIndexesForRange(cards.length, rangeStart, rangeEnd);
       if (!indexes.length) return false;
       const familiarity = getDeckFamiliarity(deckId, studentName);
       const green = new Set(familiarity.green);
@@ -195209,9 +195335,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const allIndexes = cards.map((_, index) => index);
       let order = mode === "random" ? shuffle(allIndexes) : allIndexes;
       if (mode === "range") {
-        const startIndex = Math.max(0, Number(rangeStart || 1) - 1);
-        const endIndex = rangeEnd ? Math.min(cards.length - 1, Number(rangeEnd) - 1) : cards.length - 1;
-        order = allIndexes.filter(index => index >= startIndex && index <= endIndex);
+        order = cardIndexesForRange(cards.length, rangeStart, rangeEnd);
         if (!order.length) {
           if (status) status.textContent = "這個範圍暫時未有卡片。";
           return;
