@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="execution-system.css?v=20260824-1">
+  <link rel="stylesheet" href="execution-system.css?v=20260824-2">
   <script defer src="/pwa-register.js"></script>
 </head>
 <body data-system="execution">
@@ -74,8 +74,11 @@
           <h1>執行動力系統</h1>
           <p>每次只處理眼前一步。完成後，下一步才會出現。</p>
         </div>
-        <div class="overall-progress" aria-label="整體進度">
-          <strong data-overall-percent>0%</strong><span>全部工具進度</span>
+        <div class="hero-actions">
+          <a class="planner-link" href="execution-task-planner.html"><span aria-hidden="true">✎</span><strong>工作構思簿</strong><small>日期任務 · 完成封存</small></a>
+          <div class="overall-progress" aria-label="整體進度">
+            <strong data-overall-percent>0%</strong><span>全部工具進度</span>
+          </div>
         </div>
       </header>
 
@@ -90,6 +93,7 @@
           <div class="progress-copy"><span data-progress-copy>0 / 0</span><strong data-progress-percent>0%</strong></div>
           <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-progress-track><span data-progress-bar></span></div>
         </div>
+        <p class="interaction-hint"><kbd>Enter</kbd> 完成下一步 · 在清單空白位置按滑鼠右鍵返回一步</p>
         <div class="checklist" data-checklist></div>
         <div class="completion-card" data-completion hidden>
           <span aria-hidden="true">✓</span><div><strong>這份清單已完成</strong><p>您已走完所有步驟。可以重設後再次練習。</p></div>
@@ -110,8 +114,8 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script src="execution-system-config.js?v=20260824-1"></script>
+  <script src="execution-system-config.js?v=20260824-2"></script>
   <script src="execution-system-data.js?v=20260824-1"></script>
-  <script src="execution-system.js?v=20260824-1"></script>
+  <script src="execution-system.js?v=20260824-2"></script>
 </body>
 </html>

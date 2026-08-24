@@ -21,7 +21,10 @@
     reset: $("[data-reset]"), completion: $("[data-completion]"), resetDialog: $("[data-reset-dialog]"),
     cancelReset: $("[data-cancel-reset]"), confirmReset: $("[data-confirm-reset]")
   };
-  const state = { role: "student", user: null, token: "", tableId: tables[0].id };
+  const state = {
+    role: "student", user: null, token: "", tableId: tables[0].id,
+    achievements: new Map(), achievementBusy: new Set(), achievementsLoaded: false
+  };
 
   function setConnection(text, mode) {
     elements.connection.textContent = text;
@@ -45,6 +48,71 @@
     const { data, error } = await client.rpc(name, params);
     if (error) throw error;
     return data;
+  }
+
+  function authRpcParams() {
+    return state.role === "admin"
+      ? { p_student_token: null, p_admin_token: state.token }
+      : { p_student_token: state.token, p_admin_token: null };
+  }
+
+  function achievementKey(tableId, stepIndex) {
+    return `${tableId}:${stepIndex}`;
+  }
+
+  async function loadAchievements() {
+    if (!state.token) return;
+    try {
+      const rows = await rpc(config.achievementLoadRpc, authRpcParams());
+      state.achievements.clear();
+      (Array.isArray(rows) ? rows : []).forEach((row) => {
+        state.achievements.set(achievementKey(String(row.table_id), Number(row.step_index)), Number(row.success_count) || 0);
+      });
+      state.achievementsLoaded = true;
+      render();
+    } catch (error) {
+      console.warn("Execution achievement counters could not be loaded", error);
+      setConnection("計數暫未同步", "error");
+    }
+  }
+
+  async function adjustAchievement(tableId, stepIndex, delta, control) {
+    const key = achievementKey(tableId, stepIndex);
+    if (state.achievementBusy.has(key)) return;
+    state.achievementBusy.add(key);
+    control.querySelectorAll("button").forEach((button) => { button.disabled = true; });
+    const errorLabel = control.querySelector(".achievement-error");
+    if (errorLabel) errorLabel.remove();
+    try {
+      const value = await rpc(config.achievementAdjustRpc, {
+        p_table_id: tableId,
+        p_step_index: stepIndex,
+        p_delta: delta,
+        ...authRpcParams()
+      });
+      const count = Math.max(0, Math.min(99999, Number(value) || 0));
+      state.achievements.set(key, count);
+      const output = control.querySelector(".achievement-count strong");
+      if (output) output.textContent = count.toLocaleString("en-US");
+      const minus = control.querySelector(".achievement-minus");
+      const plus = control.querySelector(".achievement-button");
+      if (minus) minus.disabled = count === 0;
+      if (plus) plus.disabled = count === 99999;
+      setConnection("已安全連接", "online");
+    } catch (error) {
+      console.warn("Execution achievement counter update failed", error);
+      const message = document.createElement("span");
+      message.className = "achievement-error";
+      message.textContent = "未能儲存，請再試。";
+      control.append(message);
+    } finally {
+      state.achievementBusy.delete(key);
+      const count = state.achievements.get(key) || 0;
+      const minus = control.querySelector(".achievement-minus");
+      const plus = control.querySelector(".achievement-button");
+      if (minus) minus.disabled = count === 0;
+      if (plus) plus.disabled = count === 99999;
+    }
   }
 
   function saveSession() {
@@ -177,6 +245,28 @@
           });
           copy.append(note);
         }
+        const achievement = document.createElement("div");
+        achievement.className = "achievement-control";
+        achievement.dataset.achievementKey = achievementKey(table.id, index);
+        const count = state.achievements.get(achievementKey(table.id, index)) || 0;
+        const achieved = document.createElement("button");
+        achieved.type = "button";
+        achieved.className = "achievement-button";
+        achieved.textContent = "👍 我做到了";
+        achieved.disabled = count >= 99999;
+        achieved.addEventListener("click", () => adjustAchievement(table.id, index, 1, achievement));
+        const output = document.createElement("span");
+        output.className = "achievement-count";
+        output.innerHTML = `累積 <strong>${count.toLocaleString("en-US")}</strong> 次`;
+        const minus = document.createElement("button");
+        minus.type = "button";
+        minus.className = "achievement-minus";
+        minus.textContent = "−1";
+        minus.setAttribute("aria-label", `將「${row.text}」的做到次數減一`);
+        minus.disabled = count <= 0;
+        minus.addEventListener("click", () => adjustAchievement(table.id, index, -1, achievement));
+        achievement.append(achieved, output, minus);
+        copy.append(achievement);
         item.append(toggle, copy);
         list.append(item);
       });
@@ -212,6 +302,7 @@
     elements.logout.hidden = false;
     setConnection("已安全連接", "online");
     render();
+    if (!state.achievementsLoaded) loadAchievements();
   }
 
   async function validateStudent(token) {
@@ -311,7 +402,25 @@
     elements.reset.focus();
   });
   elements.resetDialog.addEventListener("click", (event) => { if (event.target === elements.resetDialog) elements.cancelReset.click(); });
-  document.addEventListener("keydown", (event) => { if (event.key === "Escape" && !elements.resetDialog.hidden) elements.cancelReset.click(); });
+  elements.checklist.addEventListener("contextmenu", (event) => {
+    if (event.target.closest("textarea,input,select,button,a")) return;
+    const current = tableState(state.tableId);
+    if (current.completed <= 0) return;
+    event.preventDefault();
+    current.completed -= 1;
+    saveTableState(state.tableId, current);
+    render();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !elements.resetDialog.hidden) return elements.cancelReset.click();
+    if (event.key !== "Enter" || event.repeat || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+    if (elements.appView.hidden || !elements.resetDialog.hidden) return;
+    if (event.target.closest("textarea,input,select,button,a,[contenteditable=true]")) return;
+    const next = elements.checklist.querySelector('.step-row[data-state="next"] .step-toggle:not(:disabled)');
+    if (!next) return;
+    event.preventDefault();
+    next.click();
+  });
 
   (async () => {
     setConnection("正在連接", "checking");

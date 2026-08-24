@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="執行動力系統工作構思簿：按日期規劃、拆解及封存任務。">
+  <meta name="theme-color" content="#221d36">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="工作構思簿">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; form-action 'self'">
+  <title>工作構思簿｜執行動力系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/execution-task-planner.html">
+  <link rel="manifest" href="/pwa-manifests/execution.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
+  <link rel="stylesheet" href="execution-task-planner.css?v=20260824-1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body data-system="execution">
+  <a class="skip-link" href="#planner-main">跳至主要內容</a>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="execution">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>工作構思簿</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <a class="header-button" href="execution-system.html">返回執行清單</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="planner-main">
+    <section class="loading-card" data-loading><span class="loading-mark">57</span><h1>正在開啟工作構思簿…</h1><p>系統正核對您的帳戶及任務資料。</p></section>
+
+    <section class="planner-shell" data-planner-app hidden>
+      <header class="planner-hero">
+        <div><span class="eyebrow">DATE-ORIENTED EXECUTION PLANNER</span><h1>工作構思簿</h1><p>先把工作想清楚，再一步一步完成。做完的任務會留在封存紀錄。</p></div>
+        <div class="hero-date"><strong data-date-day>24</strong><span data-date-month>2026 · 08</span></div>
+      </header>
+
+      <section class="date-toolbar" aria-label="選擇規劃日期">
+        <button type="button" data-previous-date aria-label="前一日">← 前一日</button>
+        <label><span>規劃日期</span><input type="date" min="2026-01-01" max="2050-12-31" data-date-input></label>
+        <button type="button" data-next-date aria-label="下一日">下一日 →</button>
+      </section>
+
+      <section class="planner-board">
+        <div class="board-heading">
+          <div><span class="eyebrow">ACTIVE TASKS</span><h2 data-date-heading></h2><p>每一天預設 10 個工作格式；只會儲存您實際填寫的內容。</p></div>
+          <div class="board-actions"><span><strong data-capacity>10</strong> 個位置</span><button type="button" data-add-ten>＋ 再加 10 個</button></div>
+        </div>
+        <div class="status-message" data-status role="status" hidden></div>
+        <div class="task-grid" data-active-tasks></div>
+      </section>
+
+      <section class="archive-board">
+        <div class="board-heading"><div><span class="eyebrow">COMPLETED ARCHIVE</span><h2>當日完成封存</h2><p>按「這項工作完成」後，內容會完整保存於這裏。</p></div><strong class="archive-count" data-archive-count>0</strong></div>
+        <div class="archive-list" data-archive-list></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
+  <script src="execution-system-config.js?v=20260824-2"></script>
+  <script src="execution-system-data.js?v=20260824-1"></script>
+  <script src="execution-task-planner.js?v=20260824-1"></script>
+</body>
+</html>

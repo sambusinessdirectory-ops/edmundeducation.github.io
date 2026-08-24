@@ -6,9 +6,11 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const read = (file) => readFile(path.join(root, file), "utf8");
-const [html, css, js, dataSource, configSource, sql, home, nav] = await Promise.all([
+const [html, css, js, dataSource, configSource, sql, persistentSql, plannerHtml, plannerCss, plannerJs, home, nav] = await Promise.all([
   read("execution-system.html"), read("execution-system.css"), read("execution-system.js"),
   read("execution-system-data.js"), read("execution-system-config.js"), read("supabase-execution-system.sql"),
+  read("supabase-execution-system-persistent-tools.sql"),
+  read("execution-task-planner.html"), read("execution-task-planner.css"), read("execution-task-planner.js"),
   read("index.html"), read("shared-system-nav.js")
 ]);
 
@@ -31,12 +33,34 @@ assert.match(html, /data-role-tab="student"/);
 assert.match(html, /data-role-tab="admin"/);
 assert.match(html, /data-progress-track/);
 assert.match(html, /data-reset-dialog/);
+assert.match(html, /href="execution-task-planner\.html"/);
 assert.match(js, /status === "locked"/);
 assert.match(js, /localStorage\.setItem\(progressKey\(\)/);
+assert.match(js, /event\.key !== "Enter"/);
+assert.match(js, /addEventListener\("contextmenu"/);
+assert.match(js, /execution_system_step_achievement_adjust|achievementAdjustRpc/);
 assert.match(css, /\.step-toggle[^}]*border-radius:50%/);
+assert.match(css, /\.achievement-control/);
+
+assert.match(plannerHtml, /工作構思簿/);
+assert.match(plannerHtml, /min="2026-01-01"/);
+assert.match(plannerHtml, /max="2050-12-31"/);
+assert.match(plannerHtml, /再加 10 個/);
+assert.match(plannerJs, /before-each-item/);
+assert.match(plannerJs, /plannerTaskArchiveRpc/);
+assert.match(plannerJs, /plannerCapacityRpc/);
+assert.match(plannerCss, /\.task-card/);
+
+assert.match(persistentSql, /check \(success_count between 0 and 99999\)/i);
+assert.match(persistentSql, /check \(task_date between date '2026-01-01' and date '2050-12-31'\)/i);
+assert.match(persistentSql, /least\(99999/i);
+assert.match(persistentSql, /least\(1000/i);
+assert.match(persistentSql, /enable row level security/i);
+assert.match(persistentSql, /revoke all on table public\.execution_system_step_achievements/i);
+assert.match(persistentSql, /execution_system_planner_task_archive/i);
 
 const secret = "Execution?PsychologyHelps!5194?Yes!@";
-assert.doesNotMatch([html, css, js, dataSource, configSource, sql].join("\n"), new RegExp(secret.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), "plaintext administrator password must never be committed");
+assert.doesNotMatch([html, css, js, dataSource, configSource, sql, persistentSql, plannerHtml, plannerCss, plannerJs].join("\n"), new RegExp(secret.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), "plaintext administrator password must never be committed");
 for (const fn of ["execution_system_admin_login", "execution_system_admin_me", "execution_system_admin_logout"]) {
   assert.match(sql, new RegExp(`security definer[\\s\\S]*?set search_path = ''[\\s\\S]*?${fn}|${fn}[\\s\\S]*?security definer[\\s\\S]*?set search_path = ''`, "i"));
 }

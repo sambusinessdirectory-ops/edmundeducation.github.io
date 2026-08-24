@@ -41,6 +41,7 @@ const htmlPages = [
   "english-study.html",
   "error-identifier-system.html",
   "execution-system.html",
+  "execution-task-planner.html",
   "exam-resources.html",
   "flashcards.html",
   "false-friends-system.html",

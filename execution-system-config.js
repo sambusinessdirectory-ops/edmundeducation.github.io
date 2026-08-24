@@ -10,6 +10,13 @@
     studentProfileRpc: "flashcard_student_session_profile",
     adminLoginRpc: "execution_system_admin_login",
     adminMeRpc: "execution_system_admin_me",
-    adminLogoutRpc: "execution_system_admin_logout"
+    adminLogoutRpc: "execution_system_admin_logout",
+    achievementLoadRpc: "execution_system_step_achievements_load",
+    achievementAdjustRpc: "execution_system_step_achievement_adjust",
+    plannerCapacityRpc: "execution_system_planner_day_capacity",
+    plannerCapacityAddRpc: "execution_system_planner_capacity_add",
+    plannerTasksLoadRpc: "execution_system_planner_tasks_load",
+    plannerTaskSaveRpc: "execution_system_planner_task_save",
+    plannerTaskArchiveRpc: "execution_system_planner_task_archive"
   });
 })();
