@@ -449,5 +449,14 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "執行動力系統｜EdmundEducation",
     "shortName": "執行動力",
     "manifest": "/pwa-manifests/execution.webmanifest"
+  },
+  {
+    "id": "reading-comprehension",
+    "href": "reading-comprehension.html",
+    "zh": "閱讀理解學習系統",
+    "en": "Reading Comprehension",
+    "name": "閱讀理解學習系統｜EdmundEducation",
+    "shortName": "閱讀理解",
+    "manifest": "/pwa-manifests/reading-comprehension.webmanifest"
   }
 ].map(Object.freeze));
