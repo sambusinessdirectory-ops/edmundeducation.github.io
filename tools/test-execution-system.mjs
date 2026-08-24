@@ -6,13 +6,14 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const read = (file) => readFile(path.join(root, file), "utf8");
-const [html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, prioritySql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, step20PrintCss, thinkingHtml, thinkingCss, thinkingJs, home, nav] = await Promise.all([
+const [html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, prioritySql, metricsHotfixSql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, step20PrintCss, thinkingHtml, thinkingCss, thinkingJs, home, nav] = await Promise.all([
   read("execution-system.html"), read("execution-system.css"), read("execution-system.js"),
   read("execution-system-data.js"), read("execution-system-config.js"), read("supabase-execution-system.sql"),
   read("supabase-execution-system-persistent-tools.sql"),
   read("supabase-execution-system-planner-analytics.sql"),
   read("supabase-execution-system-thinking-day-planner.sql"),
   read("supabase-execution-system-priority-tags-metrics.sql"),
+  read("supabase-execution-system-metrics-window-hotfix.sql"),
   read("execution-task-planner.html"), read("execution-task-planner.css"), read("execution-task-planner.js"),
   read("execution-dashboard.html"), read("execution-dashboard.css"), read("execution-dashboard.js"),
   read("execution-step20-print.css"),
@@ -133,12 +134,15 @@ assert.match(prioritySql, /execution_system_planner_priorities_save/i);
 assert.match(prioritySql, /execution_system_planner_step20_load/i);
 assert.match(prioritySql, /execution_system_planner_tagged_tasks_load/i);
 assert.match(prioritySql, /execution_system_planner_metrics_load/i);
+assert.match(prioritySql, /cumulative_points/i);
+assert.doesNotMatch(prioritySql, /'cumulative_seconds'\s*,\s*sum\s*\(/i, "window functions must be calculated before the JSON aggregate");
+assert.match(metricsHotfixSql, /cumulative_points/i);
 assert.match(prioritySql, /grant execute on function public\.execution_system_planner_metrics_load\(text,date,uuid,uuid\) to authenticated/i);
 assert.match(prioritySql, /revoke all on function public\.execution_system_planner_metrics_load/i);
 assert.match(prioritySql, /set search_path = ''/i);
 
 const secret = "Execution?PsychologyHelps!5194?Yes!@";
-assert.doesNotMatch([html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, prioritySql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, thinkingHtml, thinkingCss, thinkingJs].join("\n"), new RegExp(secret.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), "plaintext administrator password must never be committed");
+assert.doesNotMatch([html, css, js, dataSource, configSource, sql, persistentSql, analyticsSql, thinkingSql, prioritySql, metricsHotfixSql, plannerHtml, plannerCss, plannerJs, dashboardHtml, dashboardCss, dashboardJs, thinkingHtml, thinkingCss, thinkingJs].join("\n"), new RegExp(secret.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), "plaintext administrator password must never be committed");
 for (const fn of ["execution_system_admin_login", "execution_system_admin_me", "execution_system_admin_logout"]) {
   assert.match(sql, new RegExp(`security definer[\\s\\S]*?set search_path = ''[\\s\\S]*?${fn}|${fn}[\\s\\S]*?security definer[\\s\\S]*?set search_path = ''`, "i"));
 }

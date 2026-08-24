@@ -260,11 +260,15 @@ begin
     select buckets.bucket, coalesce(grouped.total,0)::integer total, coalesce(grouped.completed,0)::integer completed,
       case when coalesce(grouped.total,0)=0 then 0 else pg_catalog.round(100.0*grouped.completed/grouped.total,1) end rate,
       coalesce(grouped.seconds,0)::bigint seconds from buckets left join grouped using(bucket)
+  ), cumulative_points as (
+    select points.*,
+      sum(points.seconds) over(order by points.bucket) as cumulative_seconds
+    from points
   ) select coalesce(pg_catalog.jsonb_agg(pg_catalog.jsonb_build_object(
     'date',bucket,'label',case v_unit when 'day' then pg_catalog.to_char(bucket,'MM/DD') when 'month' then pg_catalog.to_char(bucket,'YYYY-MM') else pg_catalog.to_char(bucket,'YYYY') end,
     'total',total,'completed',completed,'rate',rate,'seconds',seconds,
-    'cumulative_seconds',sum(seconds) over(order by bucket)
-  ) order by bucket),'[]'::jsonb) into v_points from points;
+    'cumulative_seconds',cumulative_seconds
+  ) order by bucket),'[]'::jsonb) into v_points from cumulative_points;
   return pg_catalog.jsonb_build_object('period',p_period,'points',v_points,'total_writing_seconds',v_total);
 end;
 $$;
