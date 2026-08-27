@@ -29,7 +29,8 @@ is not evidence that it has been uploaded. Record verified uploads below.
 2026-08-28: also p1-012 and p1-014 through p1-017.
 2026-08-28 (next set): p1-018 through p1-021, p1-023, p1-024,
 p1-026 through p1-032, p1-034 and p1-035 (15 articles / 120 paragraphs).
-30 of 436 articles; 231 paragraphs; 406 articles remain. Next: p1-036.
+2026-08-28 (following set): p1-036 through p1-050 (15 articles / 121 paragraphs).
+45 of 436 articles; 352 paragraphs; 391 articles remain. Next: p1-051.
 Database content and English-source hashes match the validated local rows exactly.
 Authenticated RPC reads passed; anonymous requests and invalid student tokens
 were rejected. All synthetic test records were rolled back. Direct client table
@@ -52,8 +53,27 @@ source's terminology. The banana passage (p1-034) retains the original time
 frame of its forecasts. The river passage (p1-035) preserves the source's dam
 location wording without guessing an upstream/downstream correction.
 
-For the latest set, all 30 database rows (text, source hashes and publication
-flags) were compared against validated local payloads and matched exactly.
+The p1-036–p1-050 set preserves the food-advertising review's distinction between
+evidence and conclusive proof, and the competing interpretations of ant teaching.
+Notes in p1-038, p1-040–p1-042 and p1-045 identify specialist naming, historical
+context or source claims; p1-048 records an internal inconsistency in the original
+classification discussion. Two passages particularly need an English-source
+editorial review (not performed as part of this translation task):
+
+- p1-049 conflates Watkin Tench with transported convicts and gives an incorrect
+  departure year. The Australian Dictionary of Biography identifies him as a
+  marine officer sailing in 1787. The translation marks the problematic assertions
+  as statements in the source; its JSON editorial notes include the reference.
+- p1-050 overgeneralizes radiocarbon dating to any object. Its treatment of Angkor
+  chronology and biographical claims also needs review. The translation preserves
+  the supplied narrative and labels the overgeneralization as a source statement;
+  its JSON notes cite the GNS laboratory and UNESCO rather than silently replacing
+  the English text, questions or answer keys.
+
+For the latest set, all 45 database rows were checked against validated local
+payloads: per-paragraph English/Chinese text checksums, paragraph order/count,
+titles, remaining content metadata, English-source hashes and publication flags
+all matched. The database contains exactly 45 published translation rows.
 Authenticated RPC reads were tested for all 15 newly added articles, alongside
 anonymous/invalid-token rejection and the withheld-article check, in a rolled-back
 transaction. Translation, catalogue, portal and reading-enhancement tests passed.
