@@ -1,5 +1,46 @@
 # Email v2: activation and debugging
 
+## Attachment reliability update (emailVersion 3)
+
+Migration `20260827123503_email_atomic_submission.sql` adds an additive, private
+receipt table and new RPCs. Deploy this migration, then the Worker, then the web
+pages. Existing jobs and their snapshots are not modified or resent.
+
+Applied on 2026-08-27. Before/after activation: 4 jobs, 4 logs, 1 PDF and 741,626
+signature-image bytes, unchanged; zero new submission receipts. The Worker release
+is `e2d20742-6ac3-42b5-a184-311432fd6790` (emailVersion 3).
+Security advisors flag the three service RPCs' intentional `anon` execution grants:
+each requires BOTH the server-only service secret and a valid custom admin session.
+The receipt table's RLS-with-no-policy notice is intentional: direct access is
+revoked from all API roles. Do not add public table policies to silence it.
+
+- The designer sends a single multipart `POST /v1/admin/email/templates/:slot/submit`.
+  Saving the template/files, creating immutable queue snapshots and jobs, and
+  storing the receipt all commit in one transaction. Failure rolls them all back.
+- The request ID and canonical payload hash protect both duplicate uploads and
+  duplicate queue entries. The draft revision prevents stale-tab overwrites.
+- An interrupted response is recovered using the original request ID. A replay
+  uses the same form and ID, never a newly generated send request.
+- `GET /v1/admin/email/requests/:id` reads the receipt. The explicit `POST .../resolve`
+  returns an existing receipt or creates a cancellation fence while holding the
+  same transaction lock. A late upload can never commit after that fence.
+- Browser session storage retains only pending request metadata, scoped to a
+  hash of the administrator session. The recovery panel blocks a fresh send until
+  the old result is known. Do not automatically send historical unfinished drafts.
+- Upload/navigation warnings reduce accidental interruption. `waitUntil` retains
+  in-flight server work for Cloudflare's grace period, but the DB receipt/fence is
+  the correctness guarantee, not a claim that every disconnected upload succeeds.
+- HTTP audit checkpoints are buffered and flushed in one bounded background call;
+  they cannot hold up a successful receipt. `submit_committed` and job creation
+  events are persisted in the same DB transaction. UI timelines sort by timestamps.
+- Database calls have a timeout; uncertain outcomes must be recovered, not treated
+  as proof that nothing was saved. Gmail acceptance still does not prove inbox delivery.
+
+Regression checks (synthetic files and mail transport only):
+`npm ci --prefix tools/email-qa --ignore-scripts`, then set `EMAIL_QA_MODULES` to its
+absolute `node_modules` path and run `tools/test-email-atomic-submission.mjs` and
+`tools/test-email-submit-ui.mjs`. Both also run before GitHub Pages publication.
+
 ## Activation status
 
 Production database activation was approved and applied on **2026-08-27** (migration
