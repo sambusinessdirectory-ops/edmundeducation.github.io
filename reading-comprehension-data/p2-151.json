@@ -1,0 +1,266 @@
+{
+  "id": "p2-151",
+  "catalogueId": "p2-151",
+  "title": "Health in the Wild",
+  "sourceHeading": "Health in the Wild",
+  "passage": 2,
+  "practice": 151,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-151-health-in-the-wild",
+  "source": {
+    "filename": "Practice 151 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "977d0170a3435615f94a7fd509fcad0a2082712bdf3996a3c87dcc54d6155c9c"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "For the past decade Dr Engel, a lecturer in environmental sciences at Britain’s Open University, has been collating examples of self-medicating behaviour in wild animals. She recently published a book on the subject. In a talk at the Edinburgh Science Festival earlier this month, she explained that the idea that animals can treat themselves has been regarded with some scepticism by her colleagues in the past. But a growing number of animal behaviourists now think that wild animals can and do deal with their own medical needs."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "One example of self-medication was discovered in 1987. Michael Huffman and Mohamedi Seifu, working in the Mahale Mountains National Park in Tanzania, noticed that local chimpanzees suffering from intestinal worms would dose themselves with the pith of a plant called Vernonia. This plant produces poisonous chemicals called terpenes. Its pith contains a strong enough concentration to kill gut parasites, but not so strong as to kill chimps (nor people, for that matter; locals use the pith for the same purpose). Given that the plant is known locally as “goat-killer”, however, it seems that not all animals are as smart as chimps and humans. Some consume it indiscriminately and succumb."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Since the Vernonia-eating chimps were discovered, more evidence has emerged suggesting that animals often eat things for medical rather than nutritional reasons. Many species, for example, consume dirt, a behaviour known as geophagy. Historically, the preferred explanation was that soil supplies minerals such as salt. But geophagy occurs in areas where the earth is not a useful source of minerals, and also in places where minerals can be more easily obtained from certain plants that are known to be rich in them. Clearly, the animals must be getting something else out of eating earth."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The current belief is that soil—and particularly the clay in it—helps to detoxify the defensive poisons that some plants produce in an attempt to prevent themselves from being eaten. Evidence for the detoxifying nature of clay came in 1999, from an experiment carried out on macaws by James Gilardi and his colleagues at the University of California, Davis. Macaws eat seeds containing alkaloids, a group of chemicals that has some notoriously toxic members, such as strychnine. In the wild, the birds are frequently seen perched on eroding riverbanks eating clay. Dr Gilardi fed one group of macaws a mixture of harmless alkaloid and clay, and a second group just the alkaloid. Several hours later, the macaws that had eaten the clay had 60% less alkaloid in their bloodstreams than those that had not, suggesting that the hypothesis is correct."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Other observations also support the idea that clay is detoxifying. Towards the tropics, the amount of toxic compounds in plants increases—and so does the amount of earth eaten by herbivores. Elephants lick clay from mud holes all year round, except in September when they are bingeing on fruit which, because it has evolved to be eaten, is not toxic. And the addition of clay to the diets of domestic cattle increases the amount of nutrients that they can absorb from their food by 10–20%."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "A third instance of animal self-medication is the use of mechanical scours to get rid of gut parasites. In 1972 Richard Wrangham, a researcher at the Gombe Stream Reserve in Tanzania, noticed that chimpanzees were eating the leaves of a tree called Aspilia. The chimps chose the leaves carefully by testing them in their mouths. Having chosen a leaf, a chimp would fold it into a fan and swallow it. Some of the chimps were noticed wrinkling their noses as they swallowed these leaves, suggesting the experience was unpleasant. Later, undigested leaves were found on the forest floor."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Dr Wrangham rightly guessed that the leaves had a medicinal purpose—this was, indeed, one of the earliest interpretations of a behaviour pattern as self-medication. However, he guessed wrong about what the mechanism was. His (and everybody else’s) assumption was that Aspilia contained a drug, and this sparked more than two decades of phytochemical research to try to find out what chemical the chimps were after. But by the 1990s, chimps across Africa had been seen swallowing the leaves of 19 different species that seemed to have few suitable chemicals in common. The drug hypothesis was looking more and more dubious."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "It was Dr Huffman who got to the bottom of the problem. He did so by watching what came out of the chimps, rather than concentrating on what went in. He found that the egested leaves were full of intestinal worms. The factor common to all 19 species of leaves swallowed by the chimps was that they were covered with microscopic hooks. These caught the worms and dragged them from their lodgings."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Following that observation, Dr Engel is now particularly excited about how knowledge of the way that animals look after themselves could be used to improve the health of livestock. People might also be able to learn a thing or two, and may, indeed, already have done so. Geophagy, for example, is a common behaviour in many parts of the world. The medical stalls in African markets frequently sell tablets made of different sorts of clays, appropriate to different medical conditions."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Africans brought to the Americas as slaves continued this tradition, which gave their owners one more excuse to despise them. Yet, as Dr Engel points out, Rwandan mountain gorillas eat a type of clay rather similar to kaolinite – the main ingredient of many patent medicines sold over the counter in the West for digestive complaints. Dirt can sometimes be good for you, and to be “as sick as a parrot” may, after all, be a state to be desired."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 14–17 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n14 Dr Engel has spent ten years studying animal self-medication.\n15 Animals usually need to travel long distances to find medicinal plants.\n16 Birds such as macaws are seen eating clay because it forms part of their natural diet.\n17 According to Dr Engel, it is exciting that research into animal self-medication could help in\nthe development of new painkillers."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nComplete the notes below using NO MORE THAN ONE WORD from the passage.\nWrite your answers in boxes 18–22 on your answer sheet.\n Date           Name                 Animal           Food                   Mechanism\n\n                                                                             Contained chemicals\n                Michael Huffman                       18\n                                                                             named 19\n 1987           and Mohamedi         Chimpanzee       _________________\n                                                                             _________________,\n                Seifu                                 of Vernonia\n                                                                             which can kill parasites\n\n                                                                             Clay can 21\n                                                      Seeds (contain 20\n                James Gilardi and                                            _________________\n 1999                                Macaw            _________________)\n                his colleagues                                               the poisonous contents\n                                                      and clay\n                                                                             in food\n\n                                                      Leaves with tiny 22    Such leaves can catch\n                Richard\n 1972                                Chimpanzee       _________________      and expel worms from\n                Wrangham\n                                                      on their surface       intestines"
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nComplete the summary below using words from the box.\nWrite your answers, A–H, in boxes 23–26 on your answer sheet.\n\n\nThough often doubted, the self-medicating behaviour of animals has been supported\nby an increasing amount of evidence. One piece of evidence particularly deals with\n23 _________________, a soil-consuming behaviour commonly found across animal\nspecies, because the earth, often clay, can neutralize the 24 _________________\ncontent of their diet. Such behaviour can also be found among humans in Africa,\nwhere people purchase 25 _________________ at market stalls as a kind of\nmedication for their illnesses. Another example of this is found in chimps eating\nleaves of an often 26 _________________ taste but with no apparent medicinal value\nuntil its unique structure came to light.\n\n\n A                                      mineral\n\n B                                      plants\n\n C                                      unpleasant\n\n D                                      toxic\n\n E                                      clay tablets\n\n F                                      nutritional\n\n G                                      geophagy\n\n H                                      harmless"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Dr Engel has spent ten years studying animal self-medication.",
+      "translation": "Dr Engel 花了十年研究動物自我醫療。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Animals usually need to travel long distances to find medicinal plants.",
+      "translation": "動物通常需要走很遠，才找到有醫療用途的植物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Birds such as macaws are seen eating clay because it forms part of their natural diet.",
+      "translation": "像 macaws 這類鳥被看見吃 clay，是因為 clay 是牠們天然飲食的一部分。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "According to Dr Engel, it is exciting that research into animal self-medication could help in the development of new painkillers.",
+      "translation": "根據 Dr Engel，動物自我醫療研究令人興奮，是因為它可能幫助開發新的止痛藥。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "1987 年，Michael Huffman 和 Mohamedi Seifu 發現黑猩猩會吃 Vernonia 的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "它含有名為 ______ 的化學物，可以殺死寄生蟲。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "Macaw 吃含有 ______ 的種子，以及 clay。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "Clay 可以 ______ 食物中的有毒成分。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "表面有微小 ______ 的葉子。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________, a soil-consuming behaviour commonly found across animal species, because the earth, often clay, can neutralize the 24 _________________ content of their diet. Such behaviour can also be found among humans in Africa, where people purchase 25 _________________ at market stalls as a kind of medication for their illnesses. Another example of this is found in chimps eating leaves of an often 26 _________________ taste but with no apparent medicinal value until its unique structure came to light.",
+      "translation": "其中一項證據特別涉及 ______，這是一種在多種動物中常見的吃泥土行為。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "因為泥土，通常是 clay，可以中和牠們飲食中的 ______ 成分。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "這種行為也可在人類身上看到；在非洲，人們會在市場攤檔購買 ______，作為治療疾病的一種藥物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "另一個例子是黑猩猩吃一種味道常常 ______ 的葉子；直到其特殊結構被發現前，這些葉子看似沒有明顯藥用價值。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-151/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-151/page-6.jpg"
+  ]
+}

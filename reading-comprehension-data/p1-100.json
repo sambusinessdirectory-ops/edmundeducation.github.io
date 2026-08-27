@@ -1,0 +1,229 @@
+{
+  "id": "p1-100",
+  "catalogueId": "p1-100",
+  "title": "India’s Modern Women",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 100,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-100-indias-modern-women",
+  "source": {
+    "filename": "Practice 100 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "44568932cf014964b1bb3dd39a931dc9cc4b20f7a8caf9e5123b4a4df605e206"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "India’s Modern Women The country’s younger generation is shedding submissive attitudes, seeking careers and longing for wealth. And marketers are paying attention. When the first American music videos and popular TV shows began appearing in Indian homes in the early 1990s thanks to satellite and cable, many pundits predicted Indian society would never be the same. For the first time, female viewers saw independent, successful women and fun, sensitive guys. Sex and divorce were openly discussed in these TV imports, and couples kissed passionately, although such scenes were still taboo in Indian TV shows and movies."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Indeed, the impact on younger generations of Indian women has been profound. Whereas Indian women have traditionally been submissive to parents and husbands and valued frugality and modesty, a number of sociological studies show that young Indian females now prize financial independence, freedom to decide when to marry and have children, and glamorous careers. A generation back, women would make sacrifices and save. Today, the attitude is ‘spend, spend, spend’. It is OK for a woman to want something for herself, and people will accept it if she goes out into a man’s world making a statement."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Because today’s young women are the key consumer group of tomorrow, these shifts have big implications for marketing companies. And the trends come out clearly in two recent studies. One study examined 3,400 unmarried women aged 19–22 of different income and social levels. Altogether, the project involved 40 focus groups in five large urban areas and five smaller cities. In some cases, the researchers lived with the women for a while to study them more closely. The researchers supplemented this data with interviews of journalists, teachers, and psychologists."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Among the findings: – Guilt-free materialism. 51% of young single women in major urban areas say it is necessary to have a big house and big car to be happy. In smaller cities, 86% agree with this statement. This shows that the less women have, the greater their aspirations. One woman interviewed was making just $200 a year but said she wants to own a jet plane. A typical comment in recent interviews was, ‘I want money, fame, and success.’"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "– Parental ties. Traditionally, parents regarded girls as somebody else’s future property. They arranged marriages for their daughters, and then the daughters would go away and take care of their in-laws, so parents needed sons and doted on them. However, today’s young women are rebelling against that. 67% say they plan to take care of their parents in their old age—and that means they need money. The company Unilever played on that sentiment with a recent controversial—but successful—ad for its Fair and Lovely line of beauty products. A daughter came home and found that her parents had no sugar for coffee because they couldn’t afford it. She became an airline hostess after using the Fair and Lovely products to make herself beautiful. She then visited her parents and took them to a first-class restaurant."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "– Marital freedom. Now, many women say they will marry when they are ready—not when their parents decide to marry them off. 65% say dating is essential, and they also want to become financially independent before they marry. 76% say they want to maintain that independence afterwards. 60% say they will decide how to spend their own salaries. What is more, 76% say they will decide when to have children. They now regard this as entirely the woman’s decision. In big metro areas, 24% say they never want children, and that number reaches 40% in smaller cities."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "– Individualism. Female role models in Indian culture used to personify perfection. Now, 62% of girls say it is OK if they have faults and people see them. They do not want to be seen as Mrs. Perfect. Popular TV role models are like Phoebe in ‘Friends’—women who commit blunders."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "– Careerism. A decade ago, most young women saw themselves as housewives. After that, most said they wanted to be teachers or doctors. If they had a profession at all, it had to be a noble cause. Now, it is about glamour, money, and fame. A surprising 45% of young single females say they would like to be journalists. This may be because prominent female Indian journalists, especially TV reporters, are seen as very glamorous. Another 39% say they would like to be managers, 38% are interested in design, and 20% think they want to be teachers. Interestingly, 13% say they would like to be in the military. The percentage of those saying they want to be a full-time housewife is minuscule."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "– Modern husbands. The relationship with a husband used to be one of awe. Now, women want a partner and an equal relationship. A recent Whirlpool ad shows a man washing the family clothes before his wife comes home from work, while a Samsung home appliance ad shows a husband and wife cooking together."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text refers to six main findings from a survey of young Indian women.\nWhich finding contains each of the following pieces of information?\n1 _________________ Young Indian women who want more tend to be poorer.\n2 _________________ Few young Indian women want to be housewives.\n3 _________________ Most young Indian women want to take care of their retired parents.\n4 _________________ Most young Indian women want to be financially independent."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\n5 _________________ are freely talked about on American TV shows.\nYoung women are considered to be the future’s most important 6 _________________ by many\ncompanies.\nMost young Indian women surveyed agree that 7 _________________ before marriage is\nnecessary.\nIn the past, young Indian women who wanted careers were most likely to consider teaching or\nbecoming doctors because each of these is considered to be 8 _________________"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n9 _________________ The effect of American culture on young Indian women was not forecast\nwhen satellite and cable TV arrived in India.\n10 _________________ Researchers used three methods to get their data.\n11 _________________ Most young Indian women are aiming for perfection.\n12 _________________ Most of the best journalists on TV in India are women.\n\n13 _________________ Modern men and women in India cook together."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Young Indian women who want more tend to be poorer.",
+      "translation": "越想要更多東西的年輕印度女性，往往較貧窮。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Few young Indian women want to be housewives.",
+      "translation": "很少年輕印度女性想做家庭主婦。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Most young Indian women want to take care of their retired parents.",
+      "translation": "大多年輕印度女性想照顧退休後的父母。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Most young Indian women want to be financially independent.",
+      "translation": "大多年輕印度女性想在金錢上獨立。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "_________________ are freely talked about on American TV shows. Young women are considered to be the future’s most important 6 _________________ by many companies. Most young Indian women surveyed agree that 7 _________________ before marriage is necessary. In the past, young Indian women who wanted careers were most likely to consider teaching or becoming doctors because each of these is considered to be 8 _________________",
+      "translation": "__________ 在美國電視節目中被自由討論。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "許多公司認為年輕女性是未來最重要的__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "大多數受訪年輕印度女性同意，婚前__________是必要的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "過去，想要事業的年輕印度女性最可能考慮教書或成為醫生，因為這些職業都被視為__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ The effect of American culture on young Indian women was not forecast when satellite and cable TV arrived in India.",
+      "translation": "當衛星和有線電視進入印度時，美國文化對年輕印度女性的影響並沒有被預測到。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Researchers used three methods to get their data.",
+      "translation": "研究者用了三種方法來取得資料。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Most young Indian women are aiming for perfection.",
+      "translation": "大多年輕印度女性都以完美為目標。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Most of the best journalists on TV in India are women.",
+      "translation": "印度電視上大多數最優秀的記者都是女性。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Modern men and women in India cook together.",
+      "translation": "現代印度男女會一起做飯。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-100/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-100/page-6.jpg"
+  ]
+}

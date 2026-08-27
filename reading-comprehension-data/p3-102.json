@@ -1,0 +1,244 @@
+{
+  "id": "p3-102",
+  "catalogueId": "p3-102",
+  "title": "Learning about the Past",
+  "sourceHeading": "Learning about the Past",
+  "passage": 3,
+  "practice": 102,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-102-learning-about-the-past",
+  "source": {
+    "filename": "Practice 102 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "a0b1e929e15c666fd5ec5d37ca81af3a1b02883a0390141dc839041b985284cd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "If the past is a foreign country, the version that used to be taught in Irish schools had a simple landscape. For 750 years after the first invasion by an English king, Ireland suffered oppression. Then at Easter 1916, her brave sons rose against the tyrant; their leaders were shot but their cause prevailed, and Ireland (or 26 of her 32 counties) lived happily ever after. Awkward episodes, like the conflict between rival Irish nationalist groups in 1922–23, were airbrushed away. “The civil war was just an embarrassment, it was hardly mentioned,” says Jimmy Joyce, who went to school in Dublin in the 1950s."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "These days, Irish history lessons are more sophisticated. They deal happily with facts that have no place in a plain tale of heroes and tyrants: like the fact that hundreds of thousands of Irish people, Catholic and Protestant, fought for Britain during the two world wars. Why the change? First, because in the 1980s, some people in Ireland became uneasy about the fact that a crude view of their national history was fuelling a conflict in the north of the island. Then came a fall in the influence of the Catholic church, whose authority had rested on a deft fusion between religion and patriotism. Also at work was an even broader shift: a state that was rich, confident, and cosmopolitan saw less need to drum simple ideas into its youth, especially if those ideas risked encouraging violence."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "As countries all over the world argue over “what to tell the children” about their collective past, many will look to Ireland rather enviously. Its seamless transition from a nationalist view of history to an open-minded one is an exception. A history curriculum is often a telling sign of how a nation and its elites see themselves: as victims of colonialism or practitioners (either repentant or defiant) of imperial power. In the modern history of Mexico, for example, a big landmark was the introduction, 15 years ago, of textbooks that were a bit less anti-American. Many states still see history teaching, and the inculcation of foundation myths, as a strategic imperative; others see it as an exercise in teaching children to think for themselves. The experience of several countries suggests that, whatever educators and politicians might want, there is a limit to how far history lessons can diverge in their tone from society as a whole."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Take Australia. John Howard, the conservative prime minister, has made history one of his favourite causes. At a “history summit” he held last August, educators were urged to “reestablish a structured narrative” about the nation’s past. This was seen by liberal critics as a doomed bid to revive a romantic vision of white settlement in the 18th century. The romantic story has been fading since the 1980s, when a liberal, revisionist view came to dominate curricula: one that replaced “settlement” with “invasion” and that looked for the first time at the stories of aborigines and women. How much difference have Australia’s policy battles made to what children in that cosmopolitan land are taught? Under Mr. Howard’s 11-year government, “multicultural” and “aboriginal reconciliation”, two terms that once had currency, have faded from the policy lexicon, but not from classrooms. Australia’s curricula are controlled by the states, not from Canberra. Most states have rolled Australian history into social studies courses, often rather muddled. In New South Wales, where the subject is taught in its own right, Mr. Howard’s bid to promote a patriotic view of history meets strong resistance."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Judy King, head of Riverside Girls High School in Sydney, has students from more than 40 ethnic groups at her school. “It’s simply not possible to present one story to them, and nor do we,” she says. “We canvass all the terms for white settlement: colonialism, invasion, and genocide. Are all views valid? Yes. What’s the problem with that? If the prime minister wants a single narrative instead, then speaking as someone who’s taught history for 42 years he’ll have an absolute fight on his hands.” Tom Ying, head of history at Burwood Girls High School in Sydney, grew up as a Chinese child in the white Australia of the 1950s. In a school where most students are from non-English-speaking homes, he welcomes an approach that includes the dark side of European settlement. “When you have only one side of the story, immigrants, women, and aborigines aren’t going to have an investment in it.”"
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Australia is a country where a relatively gentle (by world standards) effort to re-impose a sort of national ideology looks destined to fail. Russia, by contrast, is a country where the general principle of a toughly enforced ideology, and a national foundation story, still seems natural to many people, including the country’s elite. In a telling sign of how he wants Russians to imagine their past, President Vladimir Putin has introduced a new national day – November 4 – to replace the old Revolution Day holiday on November 7. What the new date recalls is the moment in 1612 when Russia, after a period of chaos, drove the Catholic Poles and Lithuanians out of Moscow. Despite the bonhomie of this week’s 25-minute chat between Mr. Putin and Pope Benedict XVI, the president is promoting a national day which signals “isolation and defensiveness” towards western Christendom, says Andrei Zorin, a Russian historian."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "In South Africa, where white rule collapsed, the authorities seem to have done a better job at forging a new national story and avoiding the trap of replacing one rigid ideology with another. “The main message of the new school curriculum is inclusion and reconciliation,” says Linda Chisholm, who designed post-apartheid lessons. “We teach pupils to handle primary sources, like oral history and documents, instead of spoon-feeding them on textbooks,” adds Aled Jones, a history teacher at Bridge House School in Cape Province. It helps that symbols and anniversaries have been redefined with skill. December 16 was a day to remember white settlers clashing with the Zulus in 1838; now it is the Day of Reconciliation."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in the appropriate box on your answer sheet.\n\n\n27 The Irish Civil War was not taught much in Ireland in the past because\n A it didn’t fit in with the history of the Irish fighting British rule.\n B the Irish people couldn’t understand why it happened.\n C the Irish didn’t want to anger the British.\n\n\n28 John Howard favours teaching history\n A as it was taught in Australia before the 1980s.\n B as it is taught in Australia now.\n C as it is taught in most other countries.\n\n\n29 The new Russian holiday appears to demonstrate that Russia is\n A becoming less authoritative\n B strongly enforcing a link between ideology and history.\n C becoming opposed to the influence of western Christianity.\n\n\n30 History in South Africa is now taught differently because\n A of the collapse of apartheid.\n B of the collapse of rule by white people.\n C teachers are better than before."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\n\n\nMany Irish people thought a simple view of history was 31\n_________________ in Northern Ireland.\nThe things that are taught in history classes often tell us how countries and\npeople 32 _________________\nThe terms “multicultural” and “aboriginal reconciliation” can still be found\nin Australian 33 _________________\nJudy King says John Howard would like 34 _________________ rather than\nlook at history from different standpoints.\nIn South Africa, changing a 35 _________________ for another has been\navoided."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write:\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n36 _________________ As Ireland became richer, Irish people became less interested in\nsimple ideas.\n37 _________________ Most countries believe learning about history should allow students to\nthink for themselves.\n38 _________________ The meanings of the words “settlement” and “invasion” are not the\nsame.\n39 _________________ A foundation story is an important part of history classes in Russia.\n40 _________________ The new South African history curriculum aims to include different\nstandpoints and bring people together."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The Irish Civil War was not taught much in Ireland in the past because",
+      "translation": "過去愛爾蘭學校很少教授 Irish Civil War，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "John Howard favours teaching history",
+      "translation": "John Howard 較支持怎樣教授歷史？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The new Russian holiday appears to demonstrate that Russia is",
+      "translation": "俄羅斯新的節日似乎顯示俄羅斯正在呈現怎樣的方向？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "History in South Africa is now taught differently because",
+      "translation": "南非現在用不同方式教授歷史，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "很多愛爾蘭人認為，簡化的歷史觀在 Northern Ireland 正在 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "歷史課教授的內容，常常告訴我們國家和人們如何 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "“multicultural” 和 “aboriginal reconciliation” 這兩個詞仍可在澳洲的 ______ 中找到。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "Judy King 說，John Howard 想要 ______，而不想從不同角度看歷史。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "在 South Africa，把一種 ______ 換成另一種的做法已經被避免。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ As Ireland became richer, Irish people became less interested in simple ideas.",
+      "translation": "隨著愛爾蘭變得更富裕，愛爾蘭人對簡單觀念的興趣降低。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Most countries believe learning about history should allow students to think for themselves.",
+      "translation": "大多數國家認為學習歷史應讓學生自行思考。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ The meanings of the words “settlement” and “invasion” are not the same.",
+      "translation": "“settlement” 和 “invasion” 這兩個詞的意思不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ A foundation story is an important part of history classes in Russia.",
+      "translation": "在俄羅斯，foundation story 是歷史課或歷史教育中的重要部分。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ The new South African history curriculum aims to include different standpoints and bring people together.",
+      "translation": "新的 South African history curriculum 目標是包含不同觀點，並讓人們重新走近。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-102/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-102/page-6.jpg"
+  ]
+}

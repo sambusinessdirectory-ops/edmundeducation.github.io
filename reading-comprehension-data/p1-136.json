@@ -1,0 +1,271 @@
+{
+  "id": "p1-136",
+  "catalogueId": "p1-136",
+  "title": "Intelligence and Giftedness",
+  "sourceHeading": "Intelligence and Giftedness",
+  "passage": 1,
+  "practice": 136,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-136-intelligence-and-giftedness",
+  "source": {
+    "filename": "Practice 136 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "5ca8db890c663af0d14c301b2f0a36a5d6095eec49a356b798bfe768eb4ede17"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In 1904 the French minister of education, facing limited resources for schooling, sought a way to separate the unable from the merely lazy. Alfred Binet got the job of devising selection principles and his brilliant solution put a stamp on the study of intelligence and was the forerunner of intelligence tests still used today. He developed a thirty-problem test in 1905, which tapped several abilities related to intellect, such as judgement and reasoning. The test determined a given child’s ‘mental age’. A norm had previously been established for children of a given physical age (for example, five-year-olds get ten items correct on average); therefore, a child with a mental age of five should score 10, which would mean that he or she was functioning pretty much as others of that age. The child’s mental age was then compared to their physical age."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "A large disparity in the wrong direction (e.g., a child of nine with a mental age of four) might suggest inability rather than laziness and mean he or she was earmarked for special schooling. Binet, however, denied that the test was measuring intelligence; its purpose was simply diagnostic, for selection only. This message was, however, lost and caused many problems and misunderstandings later."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Although Binet’s test was popular, it was a bit inconvenient to deal with a variety of physical and mental ages. So in 1912, Wilhelm Stern suggested simplifying this by reducing the two to a single number: he divided the mental age by the physical age and multiplied the result by 100. An average child, irrespective of age, would score 100. A number much lower than 100 would suggest the need for help, and one much higher would suggest a child well ahead of their peers."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "This measurement is what is now termed the IQ (for intelligence quotient) score and it has evolved to be used to show how a person, adult or child, performs in relation to others. The term IQ was coined by Lewis M. Terman, professor of psychology and education at Stanford University, in 1916. He had constructed an enormously influential revision of Binet’s test, called the Stanford-Binet test, versions of which are still widely administered."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The field studying intelligence and developing tests eventually coalesced into a sub-field of psychology called psychometrics (psycho for ‘mind’ and metrics for ‘measurements’). The practical side of psychometrics (the development and use of tests) became widespread quite early. By 1917, when Einstein published his grand theory of relativity, mass-scale testing was already in use. Germany’s unrestricted submarine warfare (which led to the sinking of the Lusitania in 1915) provoked the United States to finally enter the First World War in the same year. The military had to build up an army very quickly; it had two million inductees to sort out. Who would become officers and who would become enlisted men? Psychometricians developed two intelligence tests that helped sort all these people out, at least to some extent. This was the first major use of testing to decide who lived and who died, as officers were a lot safer on the battlefield. The tests themselves were given under horrendously bad conditions, and the examiners seemed to lack common sense; a lot of recruits simply had no idea what to do and in several sessions most inductees scored zero! The examiners also came up with the quite astounding conclusion from the testing that the average American adult’s intelligence was equal to that of a thirteen-year-old!"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Intelligence testing reinforced political and social prejudice. Its results were used to argue that Jews ought to be kept out of the United States because they were so intellectually inferior that they would pollute the racial mix, and blacks ought not to be allowed to breed at all. And so abuse and test bias controversies continued to plague psychometrics."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Measurement is fundamental to science and technology. Science often advances in leaps and bounds when measurement devices improve. Psychometrics has long tried to develop ways to gauge psychological qualities such as intelligence and more specific abilities, anxiety, extroversion, emotional stability, compatibility with a marriage partner, and so on. Their scores are often given enormous weight. A single IQ measurement can take on a life of its own if teachers and parents see it as definitive. This became a major issue in the 1970s, when court cases were launched to stop anyone from making important decisions based on IQ test scores. The main criticism was and still is that current tests don’t really measure intelligence. Whether intelligence can be measured at all is still controversial: some say it cannot; others say that IQ tests are psychology’s greatest accomplishments."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe reading passage has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 1–4 on your answer sheet.\n1 IQ is only one measure of human characteristics.\n2 A discussion of the method behind Professor Stern’s test\n3 The limitations of Binet’s IQ test\n4 The term ‘IQ’ was coined by a professor."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 5–8 on your answer sheet.\n5 Professor Binet devised the test to\n  A identify those who did not perform satisfactorily.\n  B select the best-performing children.\n  C measure intelligence.\n  D establish a standard measure of intelligence.\n6 The test was designed according to\n  A mathematics.\n  B age.\n  C reading ability.\n  D gender.\n7 What did the US Army use intelligence tests to select?\n  A Officers.\n  B Ordinary soldiers.\n  C Examiners.\n  D Submarine crews.\n8 What is the main purpose of the passage?\n  A To give credit to Binet’s contribution to IQ testing.\n  B To prove that a particular theory is feasible.\n  C To discuss the validity and limitations of intelligence testing.\n  D To outline the history of intelligence testing."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in the reading passage?\nIn boxes 9–13 on your answer sheet, write\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n\n\n9 Part of Professor Binet’s intention in designing the test was misunderstood.\n10 Age as a factor was completely overlooked in Wilhelm Stern’s simplified test.\n11 Einstein was a counterexample to the conclusions drawn from IQ tests.\n12 IQ tests may lead to racial discrimination.\n13 The writer regards the goal of measuring intelligence as largely meaningless."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "IQ is only one measure of human characteristics.",
+      "translation": "IQ 只是量度人類特質的其中一種方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A discussion of the method behind Professor Stern’s test",
+      "translation": "討論 Stern 教授測驗背後的方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The limitations of Binet’s IQ test",
+      "translation": "Binet 智力測驗的限制。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The term ‘IQ’ was coined by a professor.",
+      "translation": "“IQ” 這個術語由一位教授創造。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Professor Binet devised the test to",
+      "translation": "Binet 教授設計這個測驗，是為了……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "The test was designed according to",
+      "translation": "這個測驗是根據甚麼設計的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "What did the US Army use intelligence tests to select?",
+      "translation": "美國軍隊用智力測驗來挑選甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "What is the main purpose of the passage?",
+      "translation": "本文的主要目的 是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Part of Professor Binet’s intention in designing the test was misunderstood.",
+      "translation": "Binet 教授設計測驗時的部分意圖被誤解了。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Age as a factor was completely overlooked in Wilhelm Stern’s simplified test.",
+      "translation": "在 Wilhelm Stern 的簡化測驗中，年齡這個因素被完全忽略。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Einstein was a counterexample to the conclusions drawn from IQ tests.",
+      "translation": "Einstein 是反駁 IQ 測驗結論的一個反例。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "IQ tests may lead to racial discrimination.",
+      "translation": "IQ 測驗可能導致種族歧視。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "The writer regards the goal of measuring intelligence as largely meaningless.",
+      "translation": "作者認為量度智力這個目標大致上沒有意義。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-136/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-136/page-5.jpg"
+  ]
+}

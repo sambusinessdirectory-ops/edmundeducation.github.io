@@ -26,6 +26,7 @@ export function renderEmailHtml(job, imageSource = '') {
 }
 
 export const EMAIL_STAGES = Object.freeze({
+  submission_started:'已開始儲存及排隊', submit_committed:'儲存及排隊已完成（可憑要求 ID 恢復結果）', submission_cancelled:'未完成要求已安全取消；不會稍後重寄',
   writing_submitted: '學生已提交寫作；建立管理員通知',
   request_received: '網站已收到要求', authentication: '管理員身分驗證', upload_parsed: '圖片及附件已讀取',
   validation: '內容、檔案類型與大小驗證', template_saved: '草稿已儲存', preview_approved: '預覽已確認',

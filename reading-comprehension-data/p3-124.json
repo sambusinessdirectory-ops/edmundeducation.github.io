@@ -1,0 +1,358 @@
+{
+  "id": "p3-124",
+  "catalogueId": "p3-124",
+  "title": "GRAVITY",
+  "sourceHeading": "Gravity",
+  "passage": 3,
+  "practice": 124,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-124-gravity",
+  "source": {
+    "filename": "Practice 124 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "2606c4c7b6499f54b633b4d26b1d4049dd94dd483870cc8cbddd8a91b5b0add8"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Without forces of gravitation, Earth and other planets would be unable to stay in their orbits around the Sun. The Moon would be unable to orbit the Earth, tidal waves would not occur and the convection of hot air or water would be impossible. Gravitation is a phenomenon that allows objects to attract other matter. Its physics has been explained by the theory of relativity and Newton’s law of universal gravitation, although attempts to explain gravity date back to ancient times. In the fourth century BC, the Greek philosopher Aristotle developed the hypothesis that all objects were drawn into their correct position by crystalline spheres and that a physical mass would fall towards the Earth in direct proportion to its weight."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "In the late 16th century Galileo deduced that while gravitation propels all objects to the ground at the same rate, air resistance resulted in heavier objects appearing to fall more quickly; his theories contradicted earlier belief systems established by Aristotle and others, paving the way for formulation of modern theories. Although the two terms are now used interchangeably in everyday speech, they have distinct meanings in scientific usage. The first relates to the influence exerted by different objects which allow them to attract other objects, whereas ‘gravity’ refers specifically to the force possessed by such objects which facilitates gravitation. Certain scientific theories hold that gravitation may be initiated by a combination of factors and not simply the existence of gravity alone; though doubts have been raised regarding some of these theories."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Gravity is directly proportional to mass; thus, a smaller object possesses less gravity. To illustrate, the Moon is a quarter of the Earth’s size and possesses only 1/6 of its gravity. The mass of the Earth itself is not spread out proportionally, being flatter at the poles than the equator as a result of its rotation; gravity and gravitational pull in different locations throughout the world also vary. In the 1960s, as a result of research into the worldwide gravity fields, it was discovered, inexplicably, that areas around and including the Hudson Bay area of Canada appeared to possess significantly lower levels of gravity than other parts of the globe; the reasons for this dissimilarity have since been extensively investigated resulting in two explanations."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The original theory attributed this anomaly to activity which occurs 100–200 kilometres below the Earth’s surface within the layer known as the ‘mantle’. The mantle consists of hot molten rock, known as magma, which flows beneath the Earth’s surface and causes convection currents. These convection currents can result in the lowering of the continental plates which make up the Earth’s surface; as a result, when this occurs, the mass in that area and its gravity is also reduced. Research findings indicated that such activity had occurred in the Hudson Bay region."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "More recently a second conjecture suggested that, in fact, lower levels of gravity in the area are a result of occurrences during the Ice Age. The Laurentide Ice Sheet, which covered most of Canada and the northern tip of the USA until it melted 10,000 years ago, is thought to have been 3.2 km thick in most parts and 3.7 km thick over two areas of Hudson Bay. The sheer weight of the ice layer depressed the Earth’s surface beneath it. Once the ice melted, a deep indentation remained, and the area around Hudson Bay was thinner because material had been pushed towards the edges of the ice sheet."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Extensive investigation has since been carried out by the Harvard-Smithsonian Center for Astrophysics using data collected by satellites during the Gravity Recovery and Climate Experiment (GRACE) between 2002 and 2006. The satellites are placed 220 km apart and orbit 500 km above Earth. The satellites are extremely sensitive to even minor differences in the gravitational pull of the areas they pass over. When the first satellite enters an area with lower gravity, it moves slightly away from the Earth and farther from the satellite following it. These movements allow scientists to create maps of gravitational fields. The GRACE findings also allowed scientists to estimate the appearance of Hudson Bay over 10,000 years ago, prior to the great thaw. The areas possessing the lowest gravity today correlate with the areas covered in the thickest layers of ice at that time."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Researchers now believe that both theories regarding reduced gravity levels in the Hudson Bay region are accurate and that the area’s characteristics are a result of both magma activity and the impact of the Laurentide Ice Sheet. It has been estimated that the former accounts for 55–75% of the gravity reduction and that pressure resulting from the latter accounts for 25–45%."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The effects of the Laurentide Ice Sheet are reversible due to the Earth’s layers’ capability to ‘rebound’ in response to removal of the weight which once restricted it. The return to the original position, however, is an extremely slow process; it is estimated that the area around Hudson Bay will take a further 5,000 years to recover the altitude it once possessed prior to the Laurentide Ice Sheet. The rebound activity in the area is also measurable through observation of sea levels; unlike the rest of the world, sea levels are not rising in the area as a result of melting icecaps, but are dropping as the land recovers its previous form."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Research conducted into the Laurentide Ice Sheet has significant implications on a global scale. The increased knowledge of how that particular area has changed over time and the long-term implications of activity during the Ice Age pave the way to a better understanding of how current changes elsewhere will manifest themselves over the long term."
+    }
+  ],
+  "instructions": {
+    "g26": "Questions 26–31",
+    "g32": "Questions 32–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g26",
+      "start": 26,
+      "end": 31,
+      "text": "Questions 26–31\nReading Passage 3 has nine paragraphs A–I.\nChoose the correct heading for paragraphs B, C and E–H from the list of headings below.\nWrite the correct number i–x in boxes 26–31 on your answer sheet.\n\n                         List of Headings\n\n i                       Return to previous form\n\n ii                      Substantiating a hypothesis\n\n iii                     Historic theories\n\n iv                      The general rule of gravity and an exception\n\n v                       The initial explanation\n\n vi                      How proximity to the poles affected Hudson Bay\n\n vii                     Scientific definition and contemporary views\n\n viii                    Relevance to our future\n\n ix                      An alternative viewpoint\n\n x                       Consolidating theories\n\n Example                 Answer\n\n Paragraph D             v\n\n Paragraph I             viii\n\n\n26 Paragraph B\n27 Paragraph C\n28 Paragraph E\n29 Paragraph F\n30 Paragraph G\n31 Paragraph H"
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 36,
+      "text": "Questions 32–36\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 32–36 on your answer sheet, write:\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n\n\n32 Differentiation between gravity and gravitational pull is generally only made by academics in\nthe field.\n33 Gravity levels in areas around the equator are significantly higher than around the poles.\n34 It was first believed that lower gravity levels in Hudson Bay could be attributed to its location\nbetween the poles and the equator.\n35 Molten rock activity within the magma layer has had less of an impact on gravity levels in the\nHudson Bay area than the Laurentide Ice Sheet.\n36 The GRACE project’s main focus was areas of Canada and North America once thought to\nbe covered by the Laurentide Ice Sheet."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete the sentences below with words from the box below.\nWrite the correct letter A–J in boxes 37–40 on your answer sheet.\n A                                crystalline spheres\n\n B                                mass\n\n C                                3.2 km\n\n D                                continental plates\n\n E                                gravity fields\n\n F                                warming\n\n G                                3.5 km\n\n H                                mantle layers\n\n I                                convection currents\n\n J                                air resistance\n\n\nThe impact of 37 _________________ on objects falling to the ground was not\nconsidered by Aristotle.\nInvestigations of 38 _________________ first led to the discovery of the unusual\ngravity levels in Hudson Bay.\nThe Earth’s surface has been observed to sink as a direct result of 39\n_________________.\nThe largest part of the Laurentide Ice Sheet was 40 _________________ thick."
+    }
+  ],
+  "questions": [
+    {
+      "number": 26,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "Paragraph H",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Differentiation between gravity and gravitational pull is generally only made by academics in the field.",
+      "translation": "gravity 和 gravitational pull 之間的區分，一般只有該領域的學者或科學人員才會作出。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Gravity levels in areas around the equator are significantly higher than around the poles.",
+      "translation": "赤道附近地區的 gravity levels 明顯高於兩極附近地區。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "It was first believed that lower gravity levels in Hudson Bay could be attributed to its location between the poles and the equator.",
+      "translation": "最初人們認為 Hudson Bay 的低 gravity levels 可歸因於它位於 poles 和 equator 之間的位置。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Molten rock activity within the magma layer has had less of an impact on gravity levels in the Hudson Bay area than the Laurentide Ice Sheet.",
+      "translation": "magma layer 中的 molten rock activity 對 Hudson Bay gravity levels 的影響，比 Laurentide Ice Sheet 小。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "The GRACE project’s main focus was areas of Canada and North America once thought to be covered by the Laurentide Ice Sheet.",
+      "translation": "GRACE project 的主要焦點，是加拿大和北美那些曾被認為由 Laurentide Ice Sheet 覆蓋的地區。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "Aristotle 沒有考慮 ______ 對落向地面的物體造成的影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "對 ______ 的研究，最初導致人們發現 Hudson Bay 的異常 gravity levels。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "人們觀察到 Earth’s surface 會因 ______ 的直接作用而下沉。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "Laurentide Ice Sheet 的最大部分厚度為 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-124/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-124/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-124/page-6.jpg"
+  ]
+}

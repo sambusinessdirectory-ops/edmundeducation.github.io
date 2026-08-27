@@ -1,0 +1,254 @@
+{
+  "id": "p2-089",
+  "catalogueId": "p2-089",
+  "title": "AC or DC: The War of Currents",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 89,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-089-ac-or-dc-the-war-of-currents",
+  "source": {
+    "filename": "Practice 89 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "a265db370894bce3c2d02fffea88f4f4fcebd54ae6cac4eaccaf0027b4dd1e5d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "AC or DC: The War of Currents Electricity can be delivered in either alternating current (AC) or direct current (DC), and in the late 1880s in America, with electricity delivery in its infancy, it initially seemed clear which system was superior. Thomas Edison, a home-grown American inventor, heavily favoured DC from the start. Yet the limitations of his system would become increasingly obvious, as would the advantages of AC, and despite Edison’s best efforts, his crusade would ultimately be lost."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "In 1879, Edison’s team at Menlo Park had improved the electric light bulb, but Edison needed an efficient electricity distribution system to capitalise on this. Thus, in 1880, he founded the Edison Illuminating Company and constructed a generating station providing 110 volts of direct current. Yet such a system has drawbacks. Because of the low voltage, a correspondingly higher current flows, and the electrical resistance of the transmission wires significantly reduces the voltage over distance. Whatever thickness of wire is used, there is a natural limitation in the distance over which the electricity can be economically transmitted."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "There are, however, benefits to using DC. It can allow storage batteries to be directly connected to the electricity grid, giving extra power to meet sudden short-term peaks of demand, or backup during a breakdown in supply. Furthermore, during Edison’s time, there were no practical AC motors, only DC ones. Also, most of the load consisted of incandescent light bulbs, which ran well on DC. Perhaps most importantly, Edison had the patents (legal rights) to many associated DC devices which he and his team had invented, such as meters, telegraphic devices, and household machinery. Thus, the widespread adoption of DC across America would see him gain considerably from patent royalties."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Still, all such inventions were somewhat useless when DC electricity could only be delivered to customers within a few kilometres of the generating source. To overcome this problem, the best answer is to transform—or step up—the voltage to very high levels for transmission, and then transform it down to safe levels for customer use. This also allows thinner and less expensive wires, but there was no low-cost technology to transform voltage—unless one used AC. It was the brilliant physicist and prolific inventor Nikola Tesla who had extensively researched this system."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Tesla, a penniless immigrant from Serbia, worked for a year at Edison’s Menlo lab. He had actually proposed the AC system to Edison, but Edison, an empirical experimenter with little formal education, dismissed it as impractical. Tesla, with the mathematical training and formal theoretical knowledge, was able to understand AC’s potential, even inventing an AC polyphase electric induction motor. Tesla soon felt he was not being given due credit or enough financial compensation from Edison, and a direct confrontation led him to resign immediately, after which he was reduced to working as a labourer for a few years to make ends meet."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "But Tesla was not the first to advocate AC. The system was being trialled in many European countries, with considerable success. One of the converts to the cause was a university-trained electrical engineer named George Westinghouse, and he was willing to invest in the idea. He formed a company and purchased the patents for AC-based transformer technology from its European inventors, as well as those for Tesla’s AC polyphase electric motor, among others. This eventually led him to hire Tesla himself to help commercialise AC and promote it as a better system. A bitter feud known as the ‘War of Currents’ was set to begin."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Edison’s first strike was to claim that high-voltage systems were too dangerous to use. Certainly they were dangerous, but Westinghouse countered that such risks could be minimised and were considerably outweighed by the benefits. Edison’s next strike was to use his influence on various American state governments to limit power transmission to low voltages, effectively eliminating AC from the competition. When this failed, Edison was prepared to conduct public electrocutions of animals using AC — even on a rogue elephant no longer wanted by its circus owners. In the battle of public opinion, this was even filmed."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The next logical step was to show AC’s deadliness to human beings themselves. Edison, realising that he was losing the war, again used his influence on government, this time to promote the use of AC for the execution of prisoners. Thus, in 1890, the first ‘electric chair’ was constructed in anticipation of an impending death sentence. Westinghouse countered by hiring the best lawyers of the day to defend the prisoner in question, as well as to prevent the system from being used for execution. Although he failed in both respects, the results were unexpected. Despite a botched execution and the horror of the spectators, the electric chair would remain, but AC would not be stigmatised as the killer Edison had hoped."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Meanwhile, AC’s range and efficiency led to Westinghouse being awarded high-prestige engineering projects, such as the Ames Hydro-electric Generating Plant (1891), and another project at Niagara Falls, culminating in the greatest public relations victory in 1893: the contract to illuminate the Columbian Exposition in Chicago. Here, Tesla and Westinghouse showed the wonders of AC power with various electrical exhibits, such as fluorescent lamps and Tesla’s AC motors, to an awestruck audience and widespread press attention. After that, the war was effectively won, and AC would take over almost completely."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nComplete the table.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nDirect Current\n\n Advantages                                            Disadvantages\n\n Supply can be supplemented with 14                    Wire resistance lowers the 15\n _________________                                     _________________\n\n Could power 16 _________________ motors (the only\n                                                       Supply distance is limited.\n kind available then)\n\n                                                       Wires used are thick and 17\n Generated income for Edison\n                                                       _________________"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 20,
+      "text": "Questions 18–20\nChoose THREE answers from the list and write the correct letter, A–F, next to the questions.\nWhich THREE strategies, A–F, did Edison use to discredit AC current?\n A Hired lawyers.\n B Pressured politicians.\n C Invented many DC devices.\n D Used movie cameras.\n E Scared people.\n F Invented the electric chair."
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nAnswer the questions.\nChoose the correct letter, A, B, or C.\n A                                Edison and Tesla\n\n B                                Edison and Westinghouse\n\n C                                Tesla and Westinghouse\nWho\n21 ___________ favoured AC?\n22 ___________ started a company?\n23 ___________ had a face-to-face fight?\n24 ___________ invented many devices?\n25 ___________ owned many patents?\n\n26 ___________ was well educated?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "電力供應可以用 __________ 補充。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "電線電阻會降低 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "可以驅動 __________ 摩打，即當時唯一可用的摩打種類。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "所用電線又厚又 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "Edison 用哪三種策略去抹黑 AC 電流？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "Edison 用哪三種策略去抹黑 AC 電流？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "Edison 用哪三種策略去抹黑 AC 電流？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "___________ favoured AC?",
+      "translation": "誰支持 AC？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "___________ started a company?",
+      "translation": "誰創立公司？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "___________ had a face-to-face fight?",
+      "translation": "誰有正面衝突？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "___________ invented many devices?",
+      "translation": "誰發明了很多裝置？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "___________ owned many patents?",
+      "translation": "誰擁有很多專利？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "___________ was well educated?",
+      "translation": "誰受過良好教育？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-089/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-089/page-6.jpg"
+  ]
+}

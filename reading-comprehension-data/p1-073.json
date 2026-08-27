@@ -1,0 +1,258 @@
+{
+  "id": "p1-073",
+  "catalogueId": "p1-073",
+  "title": "PLEASE HOLD THE LINE",
+  "sourceHeading": "Please Hold the Line",
+  "passage": 1,
+  "practice": 73,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-073-please-hold-the-line",
+  "source": {
+    "filename": "Practice 73  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "8c03f513b26a801fe5317b8d1b7ba9dc5ebb2bae46d92e3b55ee2c4c659bc063"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Nearly all of us know what it’s like to be put on ‘musical hold’. Call almost any customer service number, and you can expect to hear at least a few bars of boring elevator music before an operator picks up. The question is: do you hang up or do you keep holding? That may depend on your gender and what type of music is playing, according to research by James Kellaris, an associate professor of marketing at the University of Cincinnati."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Kellaris, who has studied the effects of music on consumers for more than 12 years, teamed with Sigma Research Management Group to evaluate the effects of ‘hold music’ for a company that operates a customer service line."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The researchers tested four types of ‘on-hold’ music with 71 of the company’s clients, 30 of them women. Light jazz, classical, rock and the company’s current format of adult alternative (a mix of contemporary styles) were all tested. The sample included individual consumers and clients from small- and large-business segments. Participants were asked to imagine calling a customer assistance line and being placed on hold. They were then exposed to ‘on-hold’ music via headsets and asked to estimate how long it played. Their reactions and comments were also solicited and quantified by the researchers."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Service providers, of course, do not want customers to wait on hold; if they do, however, companies want the experience to be pleasant. Kellaris’ conclusions may hold some distressing news for companies. No matter what music was played, the time spent ‘on hold’ was generally overestimated. The actual wait in the study was 6 minutes, but the average estimate was 7 minutes and 6 seconds. He did find some good news for the client who hired him. Their current adult-alternative format is probably the best choice. Two things made it a good choice. First, it did not produce strongly positive or negative reactions. Second, men and women were less polarised in their reactions to this type of music."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Kellaris’ other findings, however, make the picture of musical hold a little less clear: time spent ‘on hold’ seemed slightly shorter when light jazz was played, but the effect of music format differed for men and women. Among men, the wait seemed shortest when classical music was played. Among women, the wait seemed longest when classical music was played. This may be related to differences in attention levels and musical preferences."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In general, classical music evoked the most positive reactions among males; light jazz evoked the most positive reactions (and shortest waiting time estimates) among females. Rock was the least preferred by both gender groups and produced the longest waiting time estimates. ‘The rock music’s driving beat kind of aggravates people calling customer assistance with a problem,’ said Kellaris. ‘The more positive the reaction to the music, the shorter the waiting time seemed to be. So maybe time does tend to fly when you’re having fun, even if you’re on musical hold,’ Kellaris joked."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "But unfortunately for companies operating on-hold lines, men and women have different ideas about what music is ‘fun’. ‘The possible solution,’ Kellaris joked, ‘might be for the recorded message to say: if you’re a male, please press one; if you’re a female, please press two. If you are in a bad mood, please hang up and try later.’"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–2",
+    "g3": "Questions 3–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 2,
+      "text": "Questions 1–2\nChoose the correct letter A–D.\n1 The researchers concluded that …\n  A subjects underestimated the time spent ‘on hold’.\n  B it is better for companies not to use any ‘on-hold’ music.\n  C light jazz was the most acceptable music overall.\n  D both gender and type of music influence callers’ reactions.\n2 The researchers recommended that …\n  A their client continue to play alternative music.\n  B four types of music should be offered to people ‘on hold’.\n  C advertising is preferable to music.\n  D women can be kept waiting for longer than men."
+    },
+    {
+      "id": "g3",
+      "start": 3,
+      "end": 7,
+      "text": "Questions 3–7\nChoose the type of music from the list A–D below which corresponds to the findings of the study.\n\n                                             Types of music\n\n A                                           light jazz\n\n B                                           alternative\n\n C                                           classical\n\n D                                           rock\nExample\nlongest waiting time estimate for women C\n3 _________________ music preferred by men\n4 _________________ longest waiting time estimate (both sexes)\n5 _________________ music to avoid while callers are on hold\n6 _________________ music to use if clients are mostly women\n7 _________________ best choice of ‘on-hold’ music overall"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nDo the following statements agree with the claims of the writer?\nWrite:\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n8 _________________ Businesses want to minimise the time spent ‘on hold’.\n9 _________________ The research sample consisted of real clients of a company.\n10 _________________ The sample consisted of equal numbers of men and women.\n11 _________________ Advertising is considered a poor alternative to ‘on-hold’ music.\n12 _________________ The customer service company surveyed was playing classical music.\n13 _________________ Researchers asked subjects only to estimate the length of time they waited ‘on\nhold’."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The researchers concluded that …",
+      "translation": "研究人員得出的結論是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The researchers recommended that …",
+      "translation": "研究人員建議……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g3",
+      "type": "choice",
+      "prompt": "_________________ music preferred by men",
+      "translation": "男性較喜歡的音樂。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g3",
+      "type": "choice",
+      "prompt": "_________________ longest waiting time estimate (both sexes)",
+      "translation": "男女合計最長的等待時間估計。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g3",
+      "type": "choice",
+      "prompt": "_________________ music to avoid while callers are on hold",
+      "translation": "顧客等候時應避免播放的音樂。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g3",
+      "type": "choice",
+      "prompt": "_________________ music to use if clients are mostly women",
+      "translation": "如果客戶大多是女性，應使用的音樂。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g3",
+      "type": "choice",
+      "prompt": "_________________ best choice of ‘on-hold’ music overall",
+      "translation": "整體而言最好的 on-hold music 選擇。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Businesses want to minimise the time spent ‘on hold’.",
+      "translation": "企業希望盡量減少顧客被放在電話等候中的時間。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ The research sample consisted of real clients of a company.",
+      "translation": "研究樣本由一間公司的真實客戶組成。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ The sample consisted of equal numbers of men and women.",
+      "translation": "研究樣本由相同數量的男性和女性組成。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Advertising is considered a poor alternative to ‘on-hold’ music.",
+      "translation": "廣告被認為是 on-hold music 的差劣替代品。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ The customer service company surveyed was playing classical music.",
+      "translation": "被調查的 customer service company 當時播放的是 classical music。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Researchers asked subjects only to estimate the length of time they waited ‘on hold’.",
+      "translation": "研究人員只要求受試者估計自己 on hold 等了多久。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-073/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-073/page-5.jpg"
+  ]
+}

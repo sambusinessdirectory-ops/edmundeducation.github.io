@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="listening-system.css?v=20260827-study1">
+  <link rel="stylesheet" href="listening-system.css?v=20260827-import1">
 </head>
 <body>
   <a class="skip-link" href="#listening-main">跳至主要內容</a>
@@ -116,7 +116,7 @@
       <p data-admin-report-status role="status"></p><div class="admin-report-wrap" data-admin-report></div>
     </section>
   </main>
-  <aside class="row-audio-player panel" data-row-player hidden aria-label="單行重播"><div><strong data-row-title></strong><small>只播放這一行 · 可重複播放</small></div><audio controls preload="metadata" data-row-audio></audio><label>速度<select data-row-speed><option>.25</option><option>.5</option><option>.75</option><option selected>1</option><option>1.25</option><option>1.5</option><option>1.75</option><option>2</option></select></label><button type="button" class="secondary-button" data-row-close aria-label="關閉單行重播">×</button></aside>
+  <aside class="row-audio-player panel" data-row-player hidden aria-label="單行重播"><div><strong data-row-title></strong><small>只播放這一行 · 可重複播放</small></div><audio controls preload="metadata" data-row-audio></audio><label>速度<select data-row-speed><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="1.75">1.75×</option><option value="2">2×</option></select></label><button type="button" class="secondary-button" data-row-close aria-label="關閉單行重播">×</button></aside>
   <dialog class="listening-recorder" data-recorder-dialog aria-labelledby="recorder-title">
     <div class="recorder-heading"><div><p class="eyebrow">READ IT ALOUD</p><h2 id="recorder-title">朗讀錄音練習</h2></div><button type="button" class="secondary-button" data-recorder-close>關閉</button></div>
     <h3 data-recording-context></h3><p class="recording-transcript" data-recording-transcript></p><button type="button" class="secondary-button" data-recording-model>▶ 重聽這一行</button>
@@ -151,12 +151,12 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js" integrity="sha384-xuasJXVcyv3hZq0eYpelEkBC8l4yufatZXDsKuyCU2rqfhDCb+ftuE/mSfZAteiK" crossorigin="anonymous"></script>
-  <script src="listening-system-catalog.js?v=20260810-1"></script>
+  <script src="listening-system-catalog.js?v=20260827-import1"></script>
   <script src="listening-practice-1-data.js?v=20260822-1"></script>
   <script src="listening-practice-1-transcript.js?v=20260822-1"></script>
   <script src="listening-practice-1-analysis.js?v=20260822-1"></script>
   <script src="listening-practice-1-timings.js?v=20260822-1"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="listening-system.js?v=20260827-study1"></script>
+  <script type="module" src="listening-system.js?v=20260827-import1"></script>
 </body>
 </html>

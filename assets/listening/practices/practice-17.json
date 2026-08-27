@@ -1,0 +1,3645 @@
+{
+  "schemaVersion": 1,
+  "practice": 17,
+  "title": "IELTS Listening Practice 17",
+  "source": {
+    "file": "IELTS Listening - Practice - 17.pdf",
+    "sha256": "e1925ea83af01539c1feebc5e8c7a37c4b6f9a1a0103f88c97f253de93d07fd3",
+    "pageCount": 69,
+    "corrections": [
+      {
+        "question": 12,
+        "originalAnswer": "A",
+        "answer": "B",
+        "reason": "Original question option B and detailed analysis agree: developers will construct houses on the existing lower-school site."
+      },
+      {
+        "question": 14,
+        "originalAnswer": "C",
+        "answer": "A",
+        "reason": "Original question option A and detailed analysis agree: parents should discuss the serving point in advance."
+      },
+      {
+        "question": 15,
+        "originalAnswer": "D",
+        "answer": "C",
+        "reason": "Summary key gives D, which is not an option. The transcript and detailed analysis confirm pupils can eat in the existing canteen (C)."
+      },
+      {
+        "question": 16,
+        "originalAnswer": "A",
+        "answer": "D",
+        "reason": "World Adventures serves a different country's cuisine each day; detailed analysis confirms D."
+      },
+      {
+        "question": 17,
+        "originalAnswer": "B",
+        "answer": "A",
+        "reason": "Street Life asks pupils for suggestions; detailed analysis confirms A."
+      },
+      {
+        "question": 19,
+        "originalAnswer": "C",
+        "answer": "C",
+        "reason": "The original two-answer question and detailed analysis specify new acting and piano lessons (C and B, either order)."
+      },
+      {
+        "question": 20,
+        "originalAnswer": null,
+        "answer": "B",
+        "reason": "Missing from summary key; detailed analysis explicitly gives C and B for Questions 19–20."
+      }
+    ]
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nCopying Photos to Digital Format\nName of company: Picturerep\nRequirements\n● Maximum size of photos is 30 cm, minimum size 4 cm.\n● Photos must not be in a 1 __________ or an album.\nCost\n● The cost for 360 photos is £2 __________, including one disk.\n● Before the completed order is sent, 3 __________ is required.\nServices included in the price\n● Photos can be placed in a folder, e.g. with the name 4 __________.\n● The 5 __________ and contrast can be improved if necessary.\n● Photos which are very fragile will be scanned by 6 __________.\nSpecial restore service, costs extra\n● It may be possible to remove an object from a photo, or change the 7\n__________.\n● A photo which is not correctly in 8 __________ cannot be fixed.\nOther information\n● Orders are completed within 9 __________.\n● Send the photos in a box, not 10 __________.",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Photos must not be in a 1 __________ or an album.",
+          "translation": "",
+          "answer": "frame",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● The cost for 360 photos is £2 __________, including one disk.",
+          "translation": "",
+          "answer": "195",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● Before the completed order is sent, 3 __________ is required.",
+          "translation": "",
+          "answer": "payment",
+          "alternatives": [
+            "payments"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● Photos can be placed in a folder, e.g. with the name 4 __________.",
+          "translation": "",
+          "answer": "Grandparents",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● The 5 __________ and contrast can be improved if necessary.",
+          "translation": "",
+          "answer": "colour",
+          "alternatives": [
+            "color"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● Photos which are very fragile will be scanned by 6 __________.",
+          "translation": "",
+          "answer": "hand",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● It may be possible to remove an object from a photo, or change the 7 __________.",
+          "translation": "",
+          "answer": "background",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "● A photo which is not correctly in 8 __________ cannot be fixed.",
+          "translation": "",
+          "answer": "focus",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "● Orders are completed within 9 __________.",
+          "translation": "",
+          "answer": "ten days",
+          "alternatives": [
+            "10 days"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "● Send the photos in a box, not 10 __________.",
+          "translation": "",
+          "answer": "plastic",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–15\nChoose the correct letter, A, B or C.\n11. Dartfield House school used to be\nA. a tourist information centre.\nB. a private home.\nC. a local council building.\n12. What is planned with regard to the lower school?\nA. All buildings on the main site will be improved.\nB. The lower school site will be used for new homes.\nC. Additional school buildings will be constructed on the lower school\nsite.\n13. The catering has been changed because of\nA. long queuing times.\nB. changes to the school timetable.\nC. dissatisfaction with the menus.",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "14. Parents are asked to\nA. help their children to decide in advance which serving point to use.\nB. make sure their children have enough money for food.\nC. advise their children on healthy food to eat.\n15. What does the speaker say about the existing canteen?\nA. Food will still be served there.\nB. Only staff will have access to it.\nC. Pupils can take their food into it.",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Questions 16–18\nWhat comment does the speaker make about each of the following serving\npoints in the Food Hall?\nChoose THREE answers from the box and write the correct letter, A–D, next\nto Questions 16–18.\nComments\nA. pupils help to plan menus\nB. only vegetarian food\nC. different food every week\nD. daily change in menu\nFood available at serving points in Food Hall\n16. World Adventures __________\n17. Street Life __________\n18. Speedy Italian __________\nQuestions 19 and 20\nChoose TWO letters, A–E.\nWhich TWO optional after-school lessons are new?\nA. swimming\nB. piano\nC. acting\nD. cycling\nE. theatre sound and lighting",
+          "page": 8
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "Dartfield House school used to be",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "a tourist information centre.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a private home.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a local council building.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "What is planned with regard to the lower school?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "All buildings on the main site will be improved.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The lower school site will be used for new homes.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Additional school buildings will be constructed on the lower school site.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "The catering has been changed because of",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "long queuing times.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "changes to the school timetable.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "dissatisfaction with the menus.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "Parents are asked to",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "help their children to decide in advance which serving point to use.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "make sure their children have enough money for food.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "advise their children on healthy food to eat.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "What does the speaker say about the existing canteen?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "Food will still be served there.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Only staff will have access to it.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Pupils can take their food into it.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "World Adventures",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "pupils help to plan menus",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "only vegetarian food",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "different food every week",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "daily change in menu",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Street Life",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "pupils help to plan menus",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "only vegetarian food",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "different food every week",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "daily change in menu",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Speedy Italian",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "pupils help to plan menus",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "only vegetarian food",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "different food every week",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "daily change in menu",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            19,
+            20
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO optional after-school lessons are new?",
+          "translation": "",
+          "answers": [
+            "C",
+            "B"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "swimming",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "piano",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "acting",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "cycling",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "theatre sound and lighting",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21–24\nChoose the correct letter, A, B or C.\nAssignment on Sleep and Dreams\n21. Luke read that one reason why we often forget dreams is that\nA. our memories cannot cope with too much information.\nB. we might otherwise be confused about what is real.\nC. we do not think they are important.\n22. What do Luke and Susie agree about dreams predicting the future?\nA. It may just be due to chance.\nB. It only happens with certain types of event.\nC. It happens more often than some people think.\n23. Susie says that a study on pre-school children having a short nap in the\nday\nA. had controversial results.\nB. used faulty research methodology.\nC. failed to reach any clear conclusions.\n24. In their last assignment, both students had problems with\nA. statistical analysis.\nB. making an action plan.\nC. self-assessment.",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nComplete the flow chart below.\nWrite ONE WORD ONLY for each answer.\nResearch Plan\n● Decide on research question: relationship between hours of sleep and\nnumber of dreams.\n● Choose participants from the 25 __________ department.\n● Use 26 __________ questionnaires because participants will complete\nthem just after waking.\n● Check ethical guidelines because the experiment involves 27\n__________.\n● Make sure participants are not put under unnecessary 28 __________.\n● Analyse the data and present the results in a 29 __________.\n● Finally, 30 __________ the research.",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "Luke read that one reason why we often forget dreams is that",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "our memories cannot cope with too much information.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "we might otherwise be confused about what is real.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "we do not think they are important.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "What do Luke and Susie agree about dreams predicting the future?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "It may just be due to chance.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "It only happens with certain types of event.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "It happens more often than some people think.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "Susie says that a study on pre-school children having a short nap in the day",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "had controversial results.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "used faulty research methodology.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "failed to reach any clear conclusions.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "In their last assignment, both students had problems with",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "statistical analysis.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "making an action plan.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "self-assessment.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 3,
+          "number": 25,
+          "prompt": "● Choose participants from the 25 __________ department.",
+          "translation": "",
+          "answer": "history",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 3,
+          "number": 26,
+          "prompt": "● Use 26 __________ questionnaires because participants will complete",
+          "translation": "",
+          "answer": "paper",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 3,
+          "number": 27,
+          "prompt": "● Check ethical guidelines because the experiment involves 27 __________.",
+          "translation": "",
+          "answer": "humans",
+          "alternatives": [
+            "people"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 3,
+          "number": 28,
+          "prompt": "● Make sure participants are not put under unnecessary 28 __________.",
+          "translation": "",
+          "answer": "stress",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 3,
+          "number": 29,
+          "prompt": "● Analyse the data and present the results in a 29 __________.",
+          "translation": "",
+          "answer": "graph",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 3,
+          "number": 30,
+          "prompt": "● Finally, 30 __________ the research.",
+          "translation": "",
+          "answer": "evaluate",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nHealth Benefits of Dance\nRecent findings\n● All forms of dance produce various hormones associated with feelings of\nhappiness.\n● Dancing with others has a more positive impact than dancing alone.\n● An experiment on university students suggested that dance increases 31\n__________.\n● For those with mental illness, dance could be used as a form of 32\n__________.\nBenefits of dance for older people\n● accessible for people with low levels of 33 __________\n● reduces the risk of heart disease\n● better 34 __________ reduces the risk of accidents\n● improves 35 __________ function by making it work faster\n● improves participants’ general well-being\n● gives people more 36 __________ to take exercise\n● can lessen the feeling of 37 __________, very common in older people",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "Benefits of Zumba\n● A study at The University of Wisconsin showed that doing Zumba for 40\nminutes uses up as many 38 __________ as other quite intense forms of\nexercise.\n● The American Journal of Health Behavior study showed that:\n○ women suffering from 39 __________ benefited from doing\nZumba.\n○ Zumba became a 40 __________ for the participants.",
+          "page": 14
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● An experiment on university students suggested that dance increases 31 __________.",
+          "translation": "",
+          "answer": "creativity",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● For those with mental illness, dance could be used as a form of 32 __________.",
+          "translation": "",
+          "answer": "therapy",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● accessible for people with low levels of 33 __________",
+          "translation": "",
+          "answer": "fitness",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● better 34 __________ reduces the risk of accidents",
+          "translation": "",
+          "answer": "balance",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● improves 35 __________ function by making it work faster",
+          "translation": "",
+          "answer": "brain",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● gives people more 36 __________ to take exercise",
+          "translation": "",
+          "answer": "motivation",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● can lessen the feeling of 37 __________, very common in older people",
+          "translation": "",
+          "answer": "isolation",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "minutes uses up as many 38 __________ as other quite intense forms of",
+          "translation": "",
+          "answer": "calories",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "○ women suffering from 39 __________ benefited from doing",
+          "translation": "",
+          "answer": "obesity",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "○ Zumba became a 40 __________ for the participants.",
+          "translation": "",
+          "answer": "habit",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "EMPLOYEE: Hello, Picturerep. Can I help you?",
+        "zh": "Employee：您好，這裡是 Picturerep。請問有什麼可以幫您？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "WOMAN: Oh, hi. I saw your advertisement about copying pictures to disk and I’d like a bit more information about what you do.",
+        "zh": "Woman：哦，你好。我看到你們關於把照片複製到光碟上的廣告， 想多了解一下你們的服務。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "EMPLOYEE: Sure. What would you like to know?",
+        "zh": "Employee：當然可以。您想知道哪方面？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "WOMAN: Well, I’ve got a box full of old family photos that’s been up in the attic for years, some of them must be 50 or 60 years old, and I’d like to get them converted to digital format.",
+        "zh": "Woman：嗯，我有一整箱舊家庭照片，一直放在閣樓裡很多年了，有些肯定有五六十年歷史，我想把它們轉成數位格式。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "EMPLOYEE: Sure, we can do that for you.",
+        "zh": "Employee：當然，我們可以為您處理。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "WOMAN: Right. And what about size?",
+        "zh": "Woman：好的。那尺寸方面呢？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "The photos are all sorts of sizes – are there any restrictions?",
+        "zh": "這些照片大小不一，有什麼限制嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "EMPLOYEE: Well the maximum size of photo we can do with our normal service is 30 centimetres.",
+        "zh": "Employee：普通服務能處理的照片最大尺寸是 30 公分。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "And each picture must be at least 4 centimetres, that’s the minimum we can cope with.",
+        "zh": "每張照片至少要有 4 公分，這是我們能處理的最小尺寸。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "WOMAN: That should be fine.",
+        "zh": "Woman：那應該沒問題。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "And some of them are in a frame – should I take them out before I send them?",
+        "zh": "其中有些放在相框裡，寄給你們之前需要取出來嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "EMPLOYEE: Yes please, we can’t copy them otherwise.",
+        "zh": "Employee：是的，麻煩您取出來， 否則我們無法複製。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "And also the photos must all be separate, they mustn’t be stuck into an album.",
+        "zh": "而且照片必須都是分開的，不能貼在相簿裡。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "WOMAN: OK, that’s not a problem.",
+        "zh": "Woman：好的，沒問題。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "So can you give me an idea of how much this will cost?",
+        "zh": "那你能大概告訴我費用是多少嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "I’ve got about 360 photos I think.",
+        "zh": "我想我大約有 360 張照片。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "EMPLOYEE: We charge £195 for 300 to 400 photos for the basic service.",
+        "zh": "Employee：基本服務中，300 到 400 張照片的收費是 195 英鎊。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "WOMAN: OK. And does that include the disk?",
+        "zh": "Woman：好的。這包括光碟嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "EMPLOYEE: Yes, one disk – but you can get extra ones for £5 each.",
+        "zh": "Employee：包括一張光碟，不過如果想加購，每張 5 英鎊。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "WOMAN: That’s good. So do I need to pay when I send you the photos?",
+        "zh": "Woman：很好。那我寄照片時需要付款嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "EMPLOYEE: No, we won’t need anything until we’ve actually copied the pictures.",
+        "zh": "Employee：不用。我們實際複製完照片之前不需要付款。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "Then we’ll let you know how much it is, and once we’ve received the payment, we’ll send the parcel off to you.",
+        "zh": "之後我們會通知您總費用，收到付款後，就會把包裹寄給您。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "WOMAN: Right.",
+        "zh": "Woman：好的。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "EMPLOYEE: Is there anything else you’d like to ask about our services?",
+        "zh": "Employee：關於我們的服務，您還有其他問題嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "WOMAN: Yes. I’ve roughly sorted out the photos into groups, according to what they’re about – so can you keep them in those groups when you copy them.",
+        "zh": "Woman：有。我已經大致按照內容把照片分成幾組了，你們複製時可以保持這些分組嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "EMPLOYEE: Sure. We’ll save each group in a different folder on the disk and if you like, you can suggest a name for each folder.",
+        "zh": "Employee：當然。我們會把每一組存在光碟上的不同資料夾裡。如果您願意，也可以為每個資料夾命名。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "WOMAN: So I could have one called “Grandparents” for instance?",
+        "zh": "Woman：例如我可以有一個資料夾叫 “Grandparents” 嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "EMPLOYEE: Exactly.",
+        "zh": "Employee：正是如此。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "WOMAN: And do you do anything besides scan the photos?",
+        "zh": "Woman：除了掃描照片之外，你們還會做其他處理嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "Like, can you make any improvements?",
+        "zh": "比如可以改善照片品質嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "EMPLOYEE: Yes, in the standard service each photo is checked, and we can sometimes touch up the colour a bit, or improve the contrast – that can make a big difference.",
+        "zh": "Employee：可以。標準服務中，每張照片都會被檢查，我們有時可以稍微修正色彩，或改善對比度，這可能會有很大差別。",
+        "sourcePages": [
+          23,
+          24
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "WOMAN: OK. And some of the photos are actually quite fragile – they won’t get damaged in the process, will they?",
+        "zh": "Woman：好的。有些照片其實相當脆弱，處理過程中不會損壞吧？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "EMPLOYEE: No, if any look particularly fragile, we’d do them by hand.",
+        "zh": "Employee：不會。如果有些看起來特別脆弱，我們會手工處理。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "We do realise how precious these old photos can be.",
+        "zh": "我們很清楚這些舊照片可能有多珍貴。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "WOMAN: Sure.",
+        "zh": "Woman：好的。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "EMPLOYEE: And another thing is we can make changes to a photo if you want – so if you want to remove an object from a photo, or maybe alter the background, we can do that.",
+        "zh": "Employee：另外，如果您願意，我們也可以對照片做修改。例如， 如果您想從照片中移除某個物件，或改變背景，我們都可以做。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "WOMAN: Really? I might be interested in that.",
+        "zh": "Woman：真的嗎？我可能會對這項服務感興趣。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "I’ll have a look through the photos and see.",
+        "zh": "我會先看看照片再決定。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "Oh, and talking of fixing photos – I’ve got a few that aren’t properly in focus.",
+        "zh": "哦，說到修復照片，我有幾張照片沒有對好焦。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "Can you do anything to make that better?",
+        "zh": "你們能改善這種問題嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "EMPLOYEE: No, I’m afraid that’s one thing we can’t do.",
+        "zh": "Employee：很抱歉，這一點我們做不到。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "WOMAN: OK.",
+        "zh": "Woman：好的。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "EMPLOYEE: Any other information I can give you?",
+        "zh": "Employee：還有其他需要我提供的資訊嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "WOMAN: Er … oh, how long will it all take?",
+        "zh": "Woman：呃……哦，整個過程需要多久？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "EMPLOYEE: We aim to get the copying done in ten days.",
+        "zh": "Employee：我們的目標是在十天內完成複製。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "WOMAN: Fine. Right, well I’ll get the photos packed up in a box and post them off to you.",
+        "zh": "Woman：好的。那我會把照片裝進盒子裡，寄給你們。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "EMPLOYEE: Right. If you’ve got a strong cardboard box, that’s best.",
+        "zh": "Employee：好的。如果您有堅固的紙板箱，那最好。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "We’ve found that plastic ones sometimes break in the post.",
+        "zh": "我們發現塑膠箱有時會在郵寄途中破裂。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "WOMAN: OK. Right, thanks for your help. Bye.",
+        "zh": "Woman：好的。謝謝你的幫忙，再見。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "EMPLOYEE: Bye.",
+        "zh": "Employee：再見。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-050"
+      }
+    ],
+    "2": [
+      {
+        "en": "Good morning and thank you for coming here today.",
+        "zh": "早安，感謝大家今天來到這裡。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "I’d like to bring you up to date with changes in the school that will affect your children.",
+        "zh": "我想向大家介紹學校最新的變化，這些變化會影響到你們的孩子。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "As you know, the school buildings date from various times: some from the 1970s, some from the last five years, and of course Dartfield House is over a century old.",
+        "zh": "如你們所知，學校建築年代各不相同：有些建於 1970 年代， 有些是過去五年內建成的，當然 Dartfield House 已有一百多年歷史。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "It was commissioned by a businessman, Neville Richards, and intended as his family home, but he died before it was completed.",
+        "zh": "它是由商人 Neville Richards 委託建造的，原本打算作為他的家庭住宅，但他在完工前去世了。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "His heir chose to sell it to the local council, who turned it into offices.",
+        "zh": "他的繼承人選擇把它賣給地方議會，地方議會把它改成了辦公室。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "A later plan to convert it into a tourist information centre didn’t come about, through lack of money, and instead it formed the nucleus of this school when it opened 40 years ago.",
+        "zh": "後來曾計畫把它改成遊客資訊中心，但因缺乏資金沒有實現；相反，40 年前學校開辦時，它成為了學校的核心建築。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "The school has grown as the local population has increased, and I can now give you some news about the lower school site, which is separated from the main site by a road.",
+        "zh": "隨著當地人口增加，學校也不斷擴大。現在我可以告訴大家一些關於低年級校區的消息， 它與主校區隔著一條路。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "Planning permission has been granted for development of both sites.",
+        "zh": "兩個校區的開發計畫都已獲得規劃許可。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "The lower school will move to new buildings that will be constructed on the main site.",
+        "zh": "低年級學校將搬到主校區新建的建築裡。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "Developers will construct houses on the existing lower school site.",
+        "zh": "開發商會在現有低年級校區上建造住宅。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "Work on the new school buildings should start within the next few months.",
+        "zh": "新校舍工程應該會在接下來幾個月內開始。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "A more imminent change concerns the catering facilities and the canteen.",
+        "zh": "一項更迫近的變化涉及餐飲設施和食堂。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "The canteen is always very busy throughout the lunch period – in fact it’s often full to capacity, because a lot of our pupils like the food that’s on offer there.",
+        "zh": "午餐時間食堂一直非常忙，事實上經常滿座，因為許多學生喜歡那裡提供的食物。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "But there’s only one serving point, so most pupils have to wait a considerable time to be served.",
+        "zh": "但那裡只有一個供餐點，所以大多數學生必須等很久才能取餐。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "This is obviously unsatisfactory, as they may have hardly finished their lunch before afternoon lessons start.",
+        "zh": "這顯然不理想，因為下午課開始前，他們可能才剛吃完午餐。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "So we’ve had a new Food Hall built, and this will come into use next week.",
+        "zh": "因此，我們建了一個新的 Food Hall，下週將投入使用。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "It’ll have several serving areas, and I’ll give you more details about those in a minute.",
+        "zh": "那裡會有幾個供餐區，我稍後會提供更多細節。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "But one thing we ask you to do, to help in the smooth running of the Food Hall, is to discuss with your children each morning which type of food they want to eat that day, so they can go straight to the relevant serving point.",
+        "zh": "不過為了幫助 Food Hall 順利運作，我們請各位每天早上和孩子討論當天想吃哪類食物， 這樣他們就可以直接前往相關供餐點。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "There won’t be any junk food – everything on offer will be healthy – and there’s no change to the current system of paying for lunches by topping up your child’s electronic payment card online.",
+        "zh": "那裡不會有垃圾食品，所有提供的食物都會是健康的；午餐付款方式也不變，仍是透過線上為孩子的電子支付卡充值。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "You may be wondering what will happen to the old canteen.",
+        "zh": "你們可能會想知道舊食堂會怎麼處理。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "We’ll still have tables and chairs in there, and pupils can eat food from the Food Hall or lunch they’ve brought from home.",
+        "zh": "那裡仍會保留桌椅，學生可以在那裡吃從 Food Hall 買來的食物，或自己從家裡帶的午餐。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "Eventually we may use part of the canteen for storage, but first we’ll see how many pupils go in there at lunchtime.",
+        "zh": "最終我們可能會把食堂的一部分用作儲藏空間，但會先觀察午餐時間有多少學生會去那裡。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "OK, back to the serving points in the Food Hall, which will all have side dishes, desserts and drinks on sale, as well as main courses.",
+        "zh": "好，回到 Food Hall 的供餐點。 每個供餐點除了主菜，也會出售配菜、甜點和飲料。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "One serving point we call World Adventures.",
+        "zh": "其中一個供餐點叫做 World Adventures。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "This will serve a different country’s cuisine each day, maybe Chinese one day and Lebanese the next.",
+        "zh": "這裡每天會供應不同國家的菜餚，可能一天是中國菜，隔天是黎巴嫩菜。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "The menus will be planned for a week at a time, so pupils will know what’s going to be available the whole of that week.",
+        "zh": "菜單會一次規劃一週，所以學生會知道整週有哪些選擇。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "Street Life is also international, with food from three particular cultures.",
+        "zh": "Street Life 也是國際化的，提供來自三種特定文化的食物。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "We’ll ask pupils to make suggestions, so perhaps sometimes there’ll be food from Thailand, Ethiopia and Mexico, and then one of them will be replaced by Jamaican food for a week or two.",
+        "zh": "我們會請學生提出建議，所以有時可能會有泰國、衣索比亞和墨西哥食物，然後其中一種會被牙買加食物取代一兩週。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "The Speedy Italian serving point will cater particularly for the many pupils who don’t eat meat or fish: they can be sure that all the food served there is suitable for them.",
+        "zh": "Speedy Italian 供餐點會特別照顧許多不吃肉或魚的學生； 他們可以確定那裡提供的所有食物都適合他們。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "There’ll be plenty of variety, so they shouldn’t get bored with the food.",
+        "zh": "菜色會很多樣，所以他們不應該會吃膩。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "OK, that’s all on the new Food Hall.",
+        "zh": "好的，關於新的 Food Hall 就介紹到這裡。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "Now after-school lessons.",
+        "zh": "接下來是課後課程。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "These are very popular with pupils, particularly swimming – in fact there’s a waiting list for lessons.",
+        "zh": "這些課程很受學生歡迎，尤其是游泳課，事實上已經有候補名單。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "Cycling is another favourite, and I’m delighted that dozens of pupils make use of the chance to learn to ride in off-road conditions.",
+        "zh": "騎自行車也是另一項熱門課程，我很高興有數十名學生利用這個機會學習在越野環境中騎車。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "It means that more and more cycle to and from school every day.",
+        "zh": "這意味著每天有越來越多學生騎車上下學。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "As you know, we have a well-equipped performance centre, and we’re going to start drama classes in there, too.",
+        "zh": "如你們所知，我們有一個設備完善的表演中心，也會在那裡開設戲劇課。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-036"
+      },
+      {
+        "en": "Pupils will be able to join in just for fun or work up to taking part in a play – we hope to put on at least one a year.",
+        "zh": "學生可以只是為了好玩而參加，也可以逐步準備參與戲劇演出；我們希望每年至少上演一齣戲。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-037"
+      },
+      {
+        "en": "We already teach a number of pupils to use the sound and lighting systems in the centre.",
+        "zh": "我們已經在教一些學生使用表演中心的音響和燈光系統。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-038"
+      },
+      {
+        "en": "And a former pupil has given a magnificent grand piano to the school, so a few pupils will be able to learn at the school instead of going to the local college, as many of them do at the moment.",
+        "zh": "另外，一位校友捐了一架漂亮的三角鋼琴給學校，所以少數學生可以在學校學鋼琴，而不用像目前許多人那樣去當地學院上課。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-039"
+      }
+    ],
+    "3": [
+      {
+        "en": "SUSIE: So Luke, for our next psychology assignment we have to do something on sleep and dreams.",
+        "zh": "Susie：Luke，我們下一個心理學作業要做和睡眠及夢有關的內容。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "LUKE: Right. I’ve just read an article suggesting why we tend to forget most of our dreams soon after we wake up.",
+        "zh": "Luke：對。我剛讀了一篇文章， 裡面說明為什麼我們醒來後很快會忘記大部分夢境。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "I mean, most of my dreams aren’t that interesting anyway, but what it said was that if we remembered everything, we might get mixed up about what actually happened and what we dreamed.",
+        "zh": "我的意思是，反正我的大多數夢也沒那麼有趣；但文章說，如果我們記得所有夢境，可能會混淆實際發生的事和夢到的事。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "So it’s a sort of protection. I hadn’t heard that idea before.",
+        "zh": "所以這是一種保護。我以前沒聽過這種說法。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "I’d always assumed that it was just that we didn’t have room in our memories for all that stuff.",
+        "zh": "我一直以為只是因為我們的記憶沒有空間容納所有那些內容。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "SUSIE: Me too. What do you think about the idea that our dreams may predict the future?",
+        "zh": "Susie：我也是。你怎麼看夢可能預知未來這種想法？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "LUKE: It’s a belief that you get all over the world.",
+        "zh": "Luke：這是世界各地都有的一種信念。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "SUSIE: Yeah, lots of people have a story of it happening to them, but the explanation I’ve read is that for each dream that comes true, we have thousands that don’t, but we don’t notice those, we don’t even remember them.",
+        "zh": "Susie：是啊，很多人都有夢境成真的故事，但我讀到的解釋是， 每有一個夢成真，就有成千上萬個夢沒有成真，只是我們不注意那些，也根本不記得。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "We just remember the ones where something in the real world, like a view or an action, happens to trigger a dream memory.",
+        "zh": "我們只記得那些現實世界中某個景象或動作剛好觸發夢境記憶的情況。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "LUKE: Right. So it’s just a coincidence really.",
+        "zh": "Luke：對。所以其實只是巧合。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "Something else I read about is what they call segmented sleeping.",
+        "zh": "我還讀到另一個概念，叫分段睡眠。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "That’s a theory that hundreds of years ago, people used to get up in the middle of the night and have a chat or something to eat, then go back to bed. So I tried it myself.",
+        "zh": "這個理論說，幾百年前，人們常常半夜起床聊聊天或吃點東西，然後再回去睡覺。所以我自己也試了一下。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "SUSIE: Why?",
+        "zh": "Susie：為什麼？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "LUKE: Well it’s meant to make you more creative.",
+        "zh": "Luke：嗯，據說這會讓人更有創造力。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "I don’t know why. But I gave it up after a week.",
+        "zh": "我不知道為什麼。不過我一週後就放棄了。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "It just didn’t fit in with my lifestyle.",
+        "zh": "它實在不適合我的生活方式。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "SUSIE: But most pre-school children have a short sleep in the day don’t they?",
+        "zh": "Susie：但大多數學齡前兒童白天都會小睡一下，對吧？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "There was an experiment some students did here last term to see at what age kids should stop having naps.",
+        "zh": "上學期有些學生在這裡做了一個實驗，想看看孩子應該在幾歲停止午睡。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "But they didn’t really find an answer.",
+        "zh": "但他們並沒有真正找到答案。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "They spent a lot of time working out the most appropriate methodology, but the results didn’t seem to show any obvious patterns.",
+        "zh": "他們花了很多時間制定最合適的方法，但結果似乎沒有顯示出任何明顯模式。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "LUKE: Right. Anyway, let’s think about our assignment.",
+        "zh": "Luke：明白。不管怎樣，我們來想想自己的作業吧。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "Last time I had problems with the final stage, where we had to describe and justify how successful we thought we’d been.",
+        "zh": "上次我在最後階段遇到問題， 就是我們必須描述並說明自己認為做得有多成功。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "I struggled a bit with the action plan too.",
+        "zh": "行動計畫我也有點吃力。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "SUSIE: I was OK with the planning, but I got marked down for the self-assessment as well.",
+        "zh": "Susie：我在計畫部分還可以，但自我評估也被扣分了。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "And I had big problems with the statistical stuff, that’s where I really lost marks.",
+        "zh": "而且我在統計部分遇到很大問題，那裡真的丟了很多分。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "LUKE: Right.",
+        "zh": "Luke：明白。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "SUSIE: So shall we plan what we have to do for this assignment?",
+        "zh": "Susie：那我們要不要規劃一下這次作業要做什麼？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "LUKE: OK.",
+        "zh": "Luke：好。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "SUSIE: First, we have to decide on our research question.",
+        "zh": "Susie：首先，我們要決定研究問題。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "So how about “Is there a relationship between hours of sleep and number of dreams?”",
+        "zh": "那「睡眠時間和夢的數量之間是否有關係？」怎麼樣？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "LUKE: OK. Then we need to think about who we’ll do the study on. About 12 people?",
+        "zh": "Luke：可以。接著我們要想研究對象是誰。大約 12 個人？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "SUSIE: Right. And shall we use other psychology students?",
+        "zh": "Susie：對。那要用其他心理學學生嗎？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "LUKE: Let’s use people from a different department. What about history?",
+        "zh": "Luke：我們用其他系的人吧。歷史系怎麼樣？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "SUSIE: Yes, they might have interesting dreams! Or literature students?",
+        "zh": "Susie：可以，他們可能會做有趣的夢！或者文學系學生？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "LUKE: I don’t really know any.",
+        "zh": "Luke：我不太認識文學系的人。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "SUSIE: OK, forget that idea.",
+        "zh": "Susie：好，那就算了。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "Then we have to think about our methodology.",
+        "zh": "接著我們要考慮研究方法。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "So we could use observation, but that doesn’t seem appropriate.",
+        "zh": "我們可以用觀察法，但這似乎不太合適。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "LUKE: No. It needs to be self-reporting I think.",
+        "zh": "Luke：對。我覺得需要自我報告。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "And we could ask them to answer questions online.",
+        "zh": "我們可以讓他們在線上回答問題。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "SUSIE: But in this case, paper might be better as they’ll be doing it straight after they wake up … in fact while they’re still half-asleep.",
+        "zh": "Susie：但這種情況下，紙本可能更好，因為他們會在剛醒來後立刻填寫……事實上，那時他們可能還半睡半醒。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "LUKE: Right. And we’ll have to check the ethical guidelines for this sort of research.",
+        "zh": "Luke：對。而且我們要查看這類研究的倫理準則。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "SUSIE: Mm, because our experiment involves humans, so there are special regulations.",
+        "zh": "Susie：嗯，因為我們的實驗涉及人類，所以有特殊規定。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "LUKE: Yes, I had a look at those for another assignment I did.",
+        "zh": "Luke：是的，我之前做另一個作業時看過那些。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "There’s a whole section on risk assessment, and another section on making sure they aren’t put under any unnecessary stress.",
+        "zh": "裡面有一整節是關於風險評估，還有另一節是確保參與者不會承受任何不必要壓力。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "SUSIE: Let’s hope they don’t have any bad dreams!",
+        "zh": "Susie：希望他們不要做惡夢！",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "LUKE: Yeah.",
+        "zh": "Luke：是啊。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "SUSIE: Then when we’ve collected all our data we have to analyse it and calculate the correlation between our two variables, that’s time sleeping and number of dreams and then present our results visually in a graph.",
+        "zh": "Susie：然後收集完所有資料後， 我們要分析它，計算兩個變項， 也就是睡眠時間和夢的數量之間的相關性，接著用圖表呈現結果。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "LUKE: Right. And the final thing is to think about our research and evaluate it.",
+        "zh": "Luke：對。最後一件事是思考我們的研究並進行評估。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "So that seems quite straightforward.",
+        "zh": "這樣看起來相當清楚。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "SUSIE: Yeah. So now let’s …",
+        "zh": "Susie：是啊。那現在我們……",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-051"
+      }
+    ],
+    "4": [
+      {
+        "en": "Dancing is something that humans do when they want to have a good time.",
+        "zh": "跳舞是人類想要享受愉快時光時會做的事情。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "It’s a universal response to music, found in all cultures.",
+        "zh": "它是對音樂的一種普遍反應，存在於所有文化中。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "But what’s only been discovered recently is that dancing not only makes us feel good, it’s also extremely good for our health.",
+        "zh": "但直到最近人們才發現，跳舞不僅讓我們感覺良好，對健康也非常有益。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Dancing, like other forms of exercise, releases hormones, such as dopamine, which make us feel relaxed and happy.",
+        "zh": "跳舞和其他運動形式一樣，會釋放多巴胺等荷爾蒙，使我們感到放鬆和快樂。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "And it also reduces feelings of stress or anxiety.",
+        "zh": "它也能減少壓力或焦慮感。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "Dancing is also a sociable activity, which is another reason it makes us feel good.",
+        "zh": "跳舞也是一種社交活動，這也是它讓我們感覺良好的另一個原因。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "One study compared people’s enjoyment of dancing at home in front of a video with dancing in a group in a studio.",
+        "zh": "一項研究比較了人們在家跟著影片跳舞，以及在舞蹈教室集體跳舞時的愉悅感。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "The people dancing in a group reported feeling happier, whereas those dancing alone did not.",
+        "zh": "集體跳舞的人表示感覺更快樂， 而獨自跳舞的人則沒有。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "In another experiment, university researchers at York and Sheffield took a group of students and sent each of them into a lab where music was played for five minutes.",
+        "zh": "在另一項實驗中，York 和 Sheffield 的大學研究人員找了一組學生，讓每個人進入實驗室， 聽五分鐘音樂。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Each had to choose from three options: to sit and listen quietly to the music, to cycle on an exercise bike while they listened, or to get up and dance.",
+        "zh": "每個人必須從三個選項中選一個：坐著安靜聽音樂、一邊聽一邊騎健身車，或起身跳舞。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "All were given cognitive tasks to perform before and after.",
+        "zh": "所有人在前後都要完成認知任務。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "The result showed that those who chose to dance showed much more creativity when doing problem-solving tasks.",
+        "zh": "結果顯示，選擇跳舞的人在解決問題任務中展現出更多創造力。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "Doctor Lovatt at the University of Hertfordshire believes dance could be a very useful way to help people suffering from mental health problems.",
+        "zh": "Hertfordshire 大學的 Lovatt 博士認為，舞蹈可能是幫助有心理健康問題者的一種非常有用的方法。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "He thinks dance should be prescribed as therapy to help people overcome issues such as depression.",
+        "zh": "他認為舞蹈應被作為一種治療方式，用來幫助人們克服憂鬱症等問題。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "It’s well established that dance is a good way of encouraging adolescent girls to take exercise but what about older people?",
+        "zh": "眾所周知，舞蹈是鼓勵青春期女孩運動的好方法，那老年人呢？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "Studies have shown that there are enormous benefits for people in their sixties and beyond.",
+        "zh": "研究顯示，舞蹈對 60 多歲及以上的人有巨大益處。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "One of the great things about dance is that there are no barriers to participation.",
+        "zh": "舞蹈的一大優點是參與沒有門檻。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "Anyone can have a go, even those whose standard of fitness is quite low.",
+        "zh": "任何人都可以嘗試，即使體能水準相當低的人也可以。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Dance can be especially beneficial for older adults who can’t run or do more intense workouts, or for those who don’t want to.",
+        "zh": "對無法跑步或做更高強度訓練的老年人，或不想做那些運動的人來說，舞蹈尤其有益。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "One 2015 study found that even a gentle dance workout helps to promote a healthy heart.",
+        "zh": "一項 2015 年研究發現，即使是溫和的舞蹈運動，也有助於促進心臟健康。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "And there’s plenty of evidence which suggests that dancing lowers the risk of falls, which could result in a broken hip, for example, by helping people to improve their balance.",
+        "zh": "還有大量證據表明，跳舞可以透過幫助改善平衡，降低跌倒風險，例如避免可能導致髖部骨折的跌倒。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "There are some less obvious benefits of dance for older people too.",
+        "zh": "舞蹈對老年人也有一些不太明顯的益處。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "One thing I hadn’t realised before researching this topic was that dance isn’t just a physical challenge.",
+        "zh": "在研究這個主題之前，我沒有意識到舞蹈不只是身體上的挑戰。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "It also requires a lot of concentration because you need to remember different steps and routines.",
+        "zh": "它還需要大量專注力，因為你需要記住不同舞步和動作組合。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "For older people, this kind of activity is especially important because it forces their brain to process things more quickly and to retain more information.",
+        "zh": "對老年人來說，這類活動尤其重要，因為它迫使大腦更快處理資訊，並保留更多資訊。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "Current research also shows that dance promotes a general sense of well-being in older participants, which can last up to a week after a class.",
+        "zh": "目前研究也顯示，舞蹈能提升老年參與者的整體幸福感，而且這種感覺可在課後持續長達一週。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "Participants report feeling less tired and having greater motivation to be more active and do daily activities such as gardening or walking to the shops or a park.",
+        "zh": "參與者表示自己感覺不那麼疲倦，也更有動力保持活躍，去做園藝、步行去商店或公園等日常活動。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "Ballroom or country dancing, both popular with older people, have to be done in groups.",
+        "zh": "交誼舞或鄉村舞都很受老年人歡迎，而且都需要集體進行。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "They require collaboration and often involve touching a dance partner, all of which encourages interaction on the dance floor.",
+        "zh": "這些舞蹈需要合作，也常涉及與舞伴的肢體接觸，這些都會促進舞池中的互動。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "This helps to develop new relationships and can reduce older people’s sense of isolation, which is a huge problem in many countries.",
+        "zh": "這有助於發展新關係，並能減少老年人的孤立感，而這在許多國家都是嚴重問題。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "I also looked at the benefits of Zumba.",
+        "zh": "我也研究了 Zumba 的益處。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "Fifteen million people in 180 countries now regularly take a Zumba class, an aerobic workout based on Latin American dance moves.",
+        "zh": "現在 180 個國家有 1500 萬人定期上 Zumba 課，這是一種以拉丁美洲舞步為基礎的有氧運動。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "John Porcari, a professor of exercise and sport science at the University of Wisconsin, analysed a group of women who were Zumba regulars and found that a class lasting 40 minutes burns about 370 calories.",
+        "zh": "Wisconsin 大學運動與體育科學教授 John Porcari 分析了一組經常跳 Zumba 的女性，發現一堂 40 分鐘課大約能消耗 370 卡路里。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-033"
+      },
+      {
+        "en": "This is similar to moderately intense exercises like step aerobics or kickboxing.",
+        "zh": "這與踏板有氧或踢拳等中等偏高強度運動相似。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-034"
+      },
+      {
+        "en": "A study in the American Journal of Health Behavior showed that when women with obesity did Zumba three times a week for 16 weeks, they lost an average of 1.2 kilos and lowered their percentage of body fat by 1%.",
+        "zh": "《American Journal of Health Behavior》的一項研究顯示，患有肥胖症的女性每週做三次 Zumba、持續 16 週後，平均減重 1.2 公斤，體脂率下降 1%。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-035"
+      },
+      {
+        "en": "More importantly, the women enjoyed the class so much that they made it a habit and continued to attend classes at least once a week – very unusual for an aerobic exercise programme.",
+        "zh": "更重要的是，這些女性非常喜歡課程，以至於把它變成習慣，並繼續每週至少上一次課；這對有氧運動課程來說非常少見。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-036"
+      },
+      {
+        "en": "Dance is never going to compete with high-intensity workouts when it comes to physical fitness gains, but its popularity is likely to keep on rising because it’s such a fun way to keep fit.",
+        "zh": "在提升體能方面，舞蹈永遠不會與高強度訓練競爭，但它的受歡迎程度可能會持續上升，因為它是一種非常有趣的健身方式。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-037"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "frame",
+      "explanation": "題目寫： “Photos must not be in a _____ or an album.” 女士說有些照片： “are in a frame” 並問寄出前是否要取出。Employee 回： “Yes please, we can’t copy them otherwise.” 接著再補充照片也不能黏在 album 裡。 所以要求是： 不能放在 frame 裡 + 不能黏在 album 裡答案是 frame。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "2": {
+      "answer": "195",
+      "explanation": "題目寫： “The cost for 360 photos is £ _____, including one disk.” 女士約有 360 photos。 Employee 說： “We charge £195 for 300 to 400 photos for the basic service.” 360 落在 300–400 張這一價格區間內，所以費用是 £195。 後面又確認： “Yes, one disk” 所以題目的兩項資訊完全吻合。 答案是 195。 中伏位：額外 disk 每張 £5，但題目已寫 including one disk，所以不需要把 £5 加進去。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "3": {
+      "answer": "payment / payments",
+      "explanation": "題目寫： “Before the completed order is sent, _____ is required.” Employee 解釋付款流程： “we won’t need anything until we’ve actually copied the pictures.” 完成後會通知金額： “once we’ve received the payment, we’ll send the parcel off to you.” 所以順序是： 先完成照片處理 → 收到 payment → 才寄出 completed order 答案是 payment。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "4": {
+      "answer": "Grandparents",
+      "explanation": "題目寫： “Photos can be placed in a folder, e.g. with the name _____.” Employee 說每組照片可放在不同 folder，女士舉例： “So I could have one called ‘Grandparents’ for instance?” Employee 回： “Exactly.” 所以題目中的 example folder name 就是 Grandparents。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "5": {
+      "answer": "colour / color",
+      "explanation": "題目寫： “The _____ and contrast can be improved if necessary.” 錄音說 standard service 可以： “touch up the colour a bit, or improve the contrast” 所以： colour + contrast 答案是 colour；美式拼法 color 亦可。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "6": {
+      "answer": "hand",
+      "explanation": "題目寫： “Photos which are very fragile will be scanned by _____.” 女士擔心 fragile photos 會受損。 Employee 說： “if any look particularly fragile, we’d do them by hand.” 所以答案是 hand。 by hand = 以人工方式處理，比一般機器流程更小心。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "7": {
+      "answer": "background",
+      "explanation": "題目寫： “It may be possible to remove an object from a photo, or change the _____.” 錄音說： “if you want to remove an object from a photo, or maybe alter the background, we can do that.” remove an object 與題目直接一致；alter = change。 所以答案是 background。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "8": {
+      "answer": "focus",
+      "explanation": "題目寫： “A photo which is not correctly in _____ cannot be fixed.” 女士說： “I’ve got a few that aren’t properly in focus.” 並問能否修正。 Employee 回： “No, I’m afraid that’s one thing we can’t do.” 所以 out-of-focus 問題無法修復。 答案是 focus。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "9": {
+      "answer": "ten days / 10 days",
+      "explanation": "題目寫： “Orders are completed within _____.” 女士問整個 process 要多久。 Employee 說： “We aim to get the copying done in ten days.” 所以答案是 ten days / 10 days。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "10": {
+      "answer": "plastic",
+      "explanation": "題目寫： “Send the photos in a box, not _____.” Employee 建議： “If you’ve got a strong cardboard box, that’s best.” 原因是： “plastic ones sometimes break in the post.” 題目已經寫 “in a box”，空格是在排除哪種材質，所以答案是 plastic。",
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    "11": {
+      "answer": "B — a private home",
+      "explanation": "題目問 Dartfield House 原本是甚麼。 錄音說它由 businessman Neville Richards 委託興建： “intended as his family home” 雖然他去世後，地方議會把它改作 offices；之後也曾有 tourist information centre 的計畫，但沒有實現。 因此時間線是： 原始用途： family home → 後來：council offices → tourist centre 計畫未實行 → 最後成為學校一部分所以答案是 B — a private home。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "12": {
+      "answer": "B — The lower school site will be used for new homes",
+      "explanation": "錄音說： “The lower school will move to new buildings … on the main site.” 現有 lower school site 之後： “Developers will construct houses on the existing lower school site.” 所以舊 lower school 土地將改建住宅。 答案是 B。 中伏位：新校舍確實會興建，但位置在 main site，不是 lower school site。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "13": {
+      "answer": "A — long queuing times",
+      "explanation": "題目問 catering 為甚麼要改變。 錄音說舊 canteen 很受歡迎，問題不在 menu： “there’s only one serving point” 結果： “most pupils have to wait a considerable time to be served.” 甚至可能剛吃完午餐，下午課就開始。 所以新 Food Hall 的目的，是減少長時間排隊。 答案是 A。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "14": {
+      "answer": "A — help their children to decide in advance which serving point to use",
+      "explanation": "Speaker 請家長每天早上： “discuss with your children … which type of food they want to eat that day” 目的： “so they can go straight to the relevant serving point.” 所以家長要提前和孩子決定食物類型，讓孩子到校後知道去哪個 serving point。 答案是 A。 B 不合，因為付款制度沒有改變；C 也不合，所有供應食物本身都會是 healthy。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "15": {
+      "answer": "C — Pupils can take their food into it",
+      "explanation": "題目問舊 canteen 之後會怎樣使用。 錄音說： “We’ll still have tables and chairs in there” 學生可以在裡面吃： “food from the Food Hall or lunch they’ve brought from home.” 所以它不再是主要 serving place，但仍可作為用餐空間。 答案是 C。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "16": {
+      "answer": "D — daily change in menu",
+      "explanation": "World Adventures： “This will serve a different country’s cuisine each day” 例如： “Chinese one day and Lebanese the next.” 所以每天主題 cuisine 都會改變。 答案是 D — daily change in menu。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "17": {
+      "answer": "A — pupils help to plan menus",
+      "explanation": "Street Life 提供三種文化的食物。 Speaker 說： “We’ll ask pupils to make suggestions” 之後某一 cuisine 甚至會被另一種替代。 所以學生會參與 menu ideas。 答案是 A。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "18": {
+      "answer": "B — only vegetarian food",
+      "explanation": "Speedy Italian 主要為： “pupils who don’t eat meat or fish” 並保證： “all the food served there is suitable for them.” 因此所有食物都適合 vegetarian pupils。 答案是 B。",
+      "sourcePages": [
+        57,
+        58
+      ]
+    },
+    "19": {
+      "answer": "C and B",
+      "explanation": "C — acting Speaker 說： “we’re going to start drama classes” “going to start” 清楚表示這是新課程。 所以 acting / drama = C。 B — piano Speaker 說以前很多學生需要去 local college 學 piano。 現在： “a former pupil has given a magnificent grand piano to the school” 所以： “a few pupils will be able to learn at the school instead” 這是新的 school-based piano lesson 安排。 因此 B — piano 也是新項目。 中伏位： ● swimming 已經很熱門，甚至有 waiting list ● cycling 已是 favourite ● sound and lighting： “We already teach …” 所以真正新增的是：C acting + B piano",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "20": {
+      "answer": "C and B",
+      "explanation": "C — acting Speaker 說： “we’re going to start drama classes” “going to start” 清楚表示這是新課程。 所以 acting / drama = C。 B — piano Speaker 說以前很多學生需要去 local college 學 piano。 現在： “a former pupil has given a magnificent grand piano to the school” 所以： “a few pupils will be able to learn at the school instead” 這是新的 school-based piano lesson 安排。 因此 B — piano 也是新項目。 中伏位： ● swimming 已經很熱門，甚至有 waiting list ● cycling 已是 favourite ● sound and lighting： “We already teach …” 所以真正新增的是：C acting + B piano",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "21": {
+      "answer": "B — we might otherwise be confused about what is real",
+      "explanation": "Luke 讀到的解釋是： “if we remembered everything, we might get mixed up about what actually happened and what we dreamed.” 也就是如果夢境全部被保存得像真實記憶一樣，人可能難以分辨： real events vs dream events 所以忘記夢可能具有一種 protective function。 答案是 B。 中伏位：A 是 Luke 原本自己一直以為的說法： “I’d always assumed that…” 題目問的是他剛讀到的理由。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "22": {
+      "answer": "A — It may just be due to chance",
+      "explanation": "Susie 解釋： 每一個「成真」的夢背後： “we have thousands that don’t” 我們只會記得剛好與現實重合的那幾個。 Luke 總結： “So it’s just a coincidence really.” coincidence = chance。 所以答案是 A。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "23": {
+      "answer": "C — failed to reach any clear conclusions",
+      "explanation": "研究想知道孩子應該幾歲停止 daytime naps。 Susie 說： “they didn’t really find an answer.” 雖然 methodology 花了很多時間設計，但： “the results didn’t seem to show any obvious patterns.” 所以研究方法不一定有問題；真正結果是沒有得到明確結論。 答案是 C。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "24": {
+      "answer": "C — self-assessment",
+      "explanation": "題目問兩人在上一份 assignment 中共同有問題的部分。 Luke 說： “the final stage, where we had to describe and justify how successful we thought we’d been.” 這就是 self-assessment。 Susie 說： “I got marked down for the self-assessment as well.” 所以兩人都在 self-assessment 出現問題。 答案是 C。 中伏位： ● action plan：Luke 有問題，Susie 說 planning OK ● statistics：Susie 有大問題，但 Luke 沒有說自己也有",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "25": {
+      "answer": "history",
+      "explanation": "他們先想 psychology students，但 Luke 建議找不同 department： “What about history?” Susie 一度提出 literature students，但 Luke 不認識： “OK, forget that idea.” 所以最後選定的是 history department。 答案是 history。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "26": {
+      "answer": "paper",
+      "explanation": "題目寫： “Use **_____ questionnaires because participants will complete them just after waking.” Luke 先想到 online。 Susie 覺得： “in this case, paper might be better” 原因是受試者剛醒： “while they’re still half-asleep.” 所以答案是 paper。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "27": {
+      "answer": "humans / people",
+      "explanation": "題目寫： “Check ethical guidelines because the experiment involves _____.” Susie 說： “our experiment involves humans, so there are special regulations.” 答案是 humans；people 亦可接受。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "28": {
+      "answer": "stress",
+      "explanation": "題目寫： “Make sure participants are not put under unnecessary _____.” Luke 說 ethics guidelines 有一節是： “making sure they aren’t put under any unnecessary stress.” 所以答案是 stress。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "29": {
+      "answer": "graph",
+      "explanation": "資料收集後，他們會算： “the correlation between our two variables” 然後： “present our results visually in a graph.” 所以答案是 graph。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "30": {
+      "answer": "evaluate",
+      "explanation": "最後： “think about our research and evaluate it.” 所以 final stage 是評估整項研究。 答案是 evaluate。",
+      "sourcePages": [
+        64,
+        65
+      ]
+    },
+    "31": {
+      "answer": "creativity",
+      "explanation": "大學生實驗比較： ● 坐著聽音樂 ● 騎 exercise bike ● 起來跳舞三組都做 cognitive tasks。 結果： “those who chose to dance showed much more creativity when doing problem-solving tasks.” 所以 dance 增加的是 creativity。 答案是 creativity。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "32": {
+      "answer": "therapy",
+      "explanation": "Dr Lovatt 認為 dance 可以幫助有 mental health problems 的人： “dance should be prescribed as therapy” 例如協助處理 depression。 所以答案是 therapy。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "33": {
+      "answer": "fitness",
+      "explanation": "題目寫： “accessible for people with low levels of _____” 錄音說： “Anyone can have a go, even those whose standard of fitness is quite low.” 所以答案是 fitness。 這正是 dance 對 older adults 很適合的原因之一：即使不適合跑步或高強度 workout，也可以參與。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "34": {
+      "answer": "balance",
+      "explanation": "題目寫： “better _____ reduces the risk of accidents” 錄音談 older people 的 falls： “dancing lowers the risk of falls … by helping people to improve their balance.” 所以： better balance → lower risk of falling → fewer accidents / injuries 答案是 balance。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "35": {
+      "answer": "brain",
+      "explanation": "題目寫： “improves _____ function by making it work faster” Dance 需要： “remember different steps and routines” 因此： “it forces their brain to process things more quickly” 也能 retain more information。 所以這裡談的是 brain function。 答案是 brain。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "36": {
+      "answer": "motivation",
+      "explanation": "錄音說 older participants： “have greater motivation to be more active” 並願意做 gardening、walking to shops 等日常活動。 所以答案是 motivation。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "37": {
+      "answer": "isolation",
+      "explanation": "群體舞蹈需要 collaboration、與舞伴互動，能： “develop new relationships” 並： “reduce older people’s sense of isolation” 所以答案是 isolation。 這裡的核心因果是： group dancing → social interaction → new relationships → less isolation",
+      "sourcePages": [
+        68
+      ]
+    },
+    "38": {
+      "answer": "calories",
+      "explanation": "University of Wisconsin 研究發現： “a class lasting 40 minutes burns about 370 calories.” 並指出效果與 step aerobics / kickboxing 類似。 題目問： “uses up as many _____ as other quite intense forms of exercise.” 所以答案是 calories。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "39": {
+      "answer": "obesity",
+      "explanation": "American Journal of Health Behavior 的研究對象是： “women with obesity” 她們每週做三次 Zumba，16 週後： ● 平均減重 1.2 kg ● body fat 降低 1% 所以答案是 obesity。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "40": {
+      "answer": "habit",
+      "explanation": "這一題真正值得多看一層。 研究不只發現 Zumba 可以幫助減重，更重要的結果是： “the women enjoyed the class so much that they made it a habit” 而且： “continued to attend classes at least once a week” 題目寫： “Zumba became a _____ for the participants.” 所以答案直接是 habit。 但這題的深層重點在 exercise adherence：很多人開始運動容易，長期持續更難。這批女性因為真的喜歡 Zumba，所以從短期研究活動變成固定生活習慣。Speaker 甚至說這種持續參與： “very unusual for an aerobic exercise programme.” 因此 Zumba 的優勢不只在消耗 calories，也在於參與者願意長期堅持。 答案是 habit。",
+      "sourcePages": [
+        69
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 328.5159375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2017%20part%201.mp3",
+        "audioSha256": "d9503150df08278d4206c54eb0dfc7d6becfda9b4ded44810decfba2c39ef63c",
+        "transcriptSha256": "427f36bfc56a2905587cdfcd9939bc52894ea07ca19dbba18cd6bbde9a776b88",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9987,
+        "lines": [
+          {
+            "start": 35.8,
+            "end": 37.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 38.26,
+            "end": 46.82,
+            "coverage": 0.9892
+          },
+          {
+            "start": 47.46,
+            "end": 49.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 49.68,
+            "end": 63.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 63.74,
+            "end": 65.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 65.8,
+            "end": 68.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 69.1,
+            "end": 73.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 74.4,
+            "end": 80.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.88,
+            "end": 86.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 86.2,
+            "end": 87.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.92,
+            "end": 92.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 93.28,
+            "end": 95.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.28,
+            "end": 100.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 101.36,
+            "end": 103.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 103.9,
+            "end": 107.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 108.24,
+            "end": 111.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.5,
+            "end": 118.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.52,
+            "end": 122.34,
+            "coverage": 0.963
+          },
+          {
+            "start": 122.86,
+            "end": 127.52,
+            "coverage": 0.9762
+          },
+          {
+            "start": 127.52,
+            "end": 132.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.0,
+            "end": 136.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.9,
+            "end": 143.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.9,
+            "end": 144.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 191.4,
+            "end": 194.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 195.68,
+            "end": 205.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 206.12,
+            "end": 213.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.22,
+            "end": 217.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.6,
+            "end": 218.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 219.98,
+            "end": 223.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 224.5,
+            "end": 226.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 227.1,
+            "end": 237.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 237.82,
+            "end": 245.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 246.0,
+            "end": 250.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 250.82,
+            "end": 253.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 254.26,
+            "end": 254.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 255.24,
+            "end": 266.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.64,
+            "end": 269.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.92,
+            "end": 272.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 272.98,
+            "end": 279.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.36,
+            "end": 282.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.74,
+            "end": 285.76,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 286.3,
+            "end": 286.94,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 287.78,
+            "end": 289.38,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 290.86,
+            "end": 293.54,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 294.14,
+            "end": 296.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.32,
+            "end": 303.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 303.84,
+            "end": 307.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 308.16,
+            "end": 311.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.64,
+            "end": 316.28,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 316.92,
+            "end": 317.26,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      },
+      "2": {
+        "duration": 436.715125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2017%20Part%202.mp3",
+        "audioSha256": "692fa61baf6adf1cee5e03421ea884fef703ced00e6d476edfbdc25299a71924",
+        "transcriptSha256": "9e776d82ef5a82117e405aac5b991c23bb3262117e2ac76e57b7c0de668a37a2",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9985,
+        "lines": [
+          {
+            "start": 53.62,
+            "end": 57.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 57.54,
+            "end": 63.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 64.18,
+            "end": 77.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.82,
+            "end": 86.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.7,
+            "end": 92.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 93.46,
+            "end": 106.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.32,
+            "end": 119.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.42,
+            "end": 124.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 125.34,
+            "end": 130.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.62,
+            "end": 136.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 137.12,
+            "end": 141.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.52,
+            "end": 148.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 149.34,
+            "end": 160.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.28,
+            "end": 168.16,
+            "coverage": 0.9351
+          },
+          {
+            "start": 169.18,
+            "end": 176.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 177.0,
+            "end": 183.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 184.32,
+            "end": 189.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 190.42,
+            "end": 204.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 205.66,
+            "end": 218.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 219.94,
+            "end": 223.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 224.12,
+            "end": 231.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 232.54,
+            "end": 240.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.96,
+            "end": 292.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.18,
+            "end": 296.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.92,
+            "end": 305.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.84,
+            "end": 314.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 316.28,
+            "end": 321.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 322.98,
+            "end": 336.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.88,
+            "end": 351.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.64,
+            "end": 357.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 358.3,
+            "end": 361.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.02,
+            "end": 363.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 364.72,
+            "end": 372.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 373.06,
+            "end": 381.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 382.7,
+            "end": 386.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 387.34,
+            "end": 394.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 395.18,
+            "end": 403.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 404.98,
+            "end": 410.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 411.16,
+            "end": 423.58,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 388.075125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2017%20Part%203.mp3",
+        "audioSha256": "257653fcb0ef3c7b3957a7c710915ac4c09f38df10e1bd9613f5a195f4d23fde",
+        "transcriptSha256": "b36fc89be2a90dae628b5e833c1162867735e4418959094f0fec09f4a3823fda",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9993,
+        "lines": [
+          {
+            "start": 52.89,
+            "end": 58.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 58.98,
+            "end": 66.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.68,
+            "end": 78.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 79.56,
+            "end": 84.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 84.82,
+            "end": 89.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.06,
+            "end": 95.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.32,
+            "end": 98.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 98.88,
+            "end": 113.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 113.4,
+            "end": 122.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 122.48,
+            "end": 125.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.28,
+            "end": 130.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.92,
+            "end": 142.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.66,
+            "end": 143.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.74,
+            "end": 145.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 146.7,
+            "end": 149.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 150.08,
+            "end": 151.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 152.76,
+            "end": 157.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 157.78,
+            "end": 164.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 165.2,
+            "end": 167.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 167.96,
+            "end": 175.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 175.66,
+            "end": 179.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.1,
+            "end": 187.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 188.28,
+            "end": 190.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 191.02,
+            "end": 196.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 196.84,
+            "end": 202.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.78,
+            "end": 203.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 250.2,
+            "end": 253.82,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 254.36,
+            "end": 254.66,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 255.26,
+            "end": 258.4,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 259.24,
+            "end": 267.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 267.58,
+            "end": 274.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 274.68,
+            "end": 278.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 278.62,
+            "end": 283.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 284.46,
+            "end": 289.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.14,
+            "end": 291.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.62,
+            "end": 293.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.04,
+            "end": 296.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.3,
+            "end": 301.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.32,
+            "end": 306.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.02,
+            "end": 309.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.0,
+            "end": 319.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.02,
+            "end": 325.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 325.66,
+            "end": 331.06,
+            "coverage": 0.9688
+          },
+          {
+            "start": 331.06,
+            "end": 335.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 336.76,
+            "end": 344.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.98,
+            "end": 347.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.28,
+            "end": 348.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 349.52,
+            "end": 365.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.14,
+            "end": 370.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 371.56,
+            "end": 373.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 373.9,
+            "end": 375.94,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 453.6685625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2017%20Part%204.mp3",
+        "audioSha256": "3845d84988807ed6420f28da49ebc651b13170e5bbc9dc305f74d251c772718b",
+        "transcriptSha256": "728ed839bf26b731ab6ca0e74edebb21f79fb9427e79a16904dbea43c710c522",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9977,
+        "lines": [
+          {
+            "start": 70.52,
+            "end": 75.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.0,
+            "end": 79.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.46,
+            "end": 89.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.52,
+            "end": 99.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 99.56,
+            "end": 104.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.46,
+            "end": 111.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.76,
+            "end": 121.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 122.02,
+            "end": 128.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.92,
+            "end": 142.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.14,
+            "end": 155.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 156.58,
+            "end": 161.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 162.76,
+            "end": 171.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.56,
+            "end": 182.86,
+            "coverage": 0.9917
+          },
+          {
+            "start": 183.52,
+            "end": 190.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 196.14,
+            "end": 205.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 205.64,
+            "end": 211.36,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 212.42,
+            "end": 217.56,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 218.64,
+            "end": 224.02,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 225.42,
+            "end": 235.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 236.3,
+            "end": 244.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 245.6,
+            "end": 257.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 259.5,
+            "end": 264.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.52,
+            "end": 272.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 273.64,
+            "end": 280.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 281.32,
+            "end": 293.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.62,
+            "end": 305.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.6,
+            "end": 319.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.9,
+            "end": 327.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.24,
+            "end": 337.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.14,
+            "end": 347.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 347.54,
+            "end": 352.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.92,
+            "end": 364.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 365.34,
+            "end": 383.04,
+            "coverage": 0.9766
+          },
+          {
+            "start": 384.4,
+            "end": 390.76,
+            "coverage": 0.9855
+          },
+          {
+            "start": 392.06,
+            "end": 409.94,
+            "coverage": 0.9888
+          },
+          {
+            "start": 409.94,
+            "end": 425.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 427.2,
+            "end": 441.58,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 93.28,
+        "line": 11,
+        "evidenceScore": 32.0
+      },
+      "2": {
+        "part": 1,
+        "time": 112.5,
+        "line": 16,
+        "evidenceScore": 66.0
+      },
+      "3": {
+        "part": 1,
+        "time": 136.9,
+        "line": 21,
+        "evidenceScore": 71.0
+      },
+      "4": {
+        "part": 1,
+        "time": 214.22,
+        "line": 26,
+        "evidenceScore": 64.0
+      },
+      "5": {
+        "part": 1,
+        "time": 227.1,
+        "line": 30,
+        "evidenceScore": 60.0
+      },
+      "6": {
+        "part": 1,
+        "time": 246.0,
+        "line": 32,
+        "evidenceScore": 63.0
+      },
+      "7": {
+        "part": 1,
+        "time": 255.24,
+        "line": 35,
+        "evidenceScore": 91.0
+      },
+      "8": {
+        "part": 1,
+        "time": 272.98,
+        "line": 38,
+        "evidenceScore": 54.0
+      },
+      "9": {
+        "part": 1,
+        "time": 294.14,
+        "line": 44,
+        "evidenceScore": 53.0
+      },
+      "10": {
+        "part": 1,
+        "time": 308.16,
+        "line": 47,
+        "evidenceScore": 54.0
+      },
+      "11": {
+        "part": 2,
+        "time": 77.82,
+        "line": 3,
+        "evidenceScore": 23.0
+      },
+      "12": {
+        "part": 2,
+        "time": 131.62,
+        "line": 9,
+        "evidenceScore": 57.0
+      },
+      "13": {
+        "part": 2,
+        "time": 161.28,
+        "line": 13,
+        "evidenceScore": 47.0
+      },
+      "14": {
+        "part": 2,
+        "time": 190.42,
+        "line": 17,
+        "evidenceScore": 44.0
+      },
+      "15": {
+        "part": 2,
+        "time": 224.12,
+        "line": 20,
+        "evidenceScore": 47.0
+      },
+      "16": {
+        "part": 2,
+        "time": 296.92,
+        "line": 24,
+        "evidenceScore": 45.0
+      },
+      "17": {
+        "part": 2,
+        "time": 322.98,
+        "line": 27,
+        "evidenceScore": 30.0
+      },
+      "18": {
+        "part": 2,
+        "time": 338.88,
+        "line": 28,
+        "evidenceScore": 38.0
+      },
+      "19": {
+        "part": 2,
+        "time": 411.16,
+        "line": 38,
+        "evidenceScore": 53.0
+      },
+      "20": {
+        "part": 2,
+        "time": 411.16,
+        "line": 38,
+        "evidenceScore": 53.0
+      },
+      "21": {
+        "part": 3,
+        "time": 67.68,
+        "line": 2,
+        "evidenceScore": 82.0
+      },
+      "22": {
+        "part": 3,
+        "time": 122.48,
+        "line": 9,
+        "evidenceScore": 27.0
+      },
+      "23": {
+        "part": 3,
+        "time": 167.96,
+        "line": 19,
+        "evidenceScore": 43.0
+      },
+      "24": {
+        "part": 3,
+        "time": 180.1,
+        "line": 21,
+        "evidenceScore": 72.0
+      },
+      "25": {
+        "part": 3,
+        "time": 278.62,
+        "line": 32,
+        "evidenceScore": 36.0
+      },
+      "26": {
+        "part": 3,
+        "time": 310.0,
+        "line": 40,
+        "evidenceScore": 48.0
+      },
+      "27": {
+        "part": 3,
+        "time": 325.66,
+        "line": 42,
+        "evidenceScore": 75.0
+      },
+      "28": {
+        "part": 3,
+        "time": 336.76,
+        "line": 44,
+        "evidenceScore": 67.0
+      },
+      "29": {
+        "part": 3,
+        "time": 349.52,
+        "line": 47,
+        "evidenceScore": 56.0
+      },
+      "30": {
+        "part": 3,
+        "time": 366.14,
+        "line": 48,
+        "evidenceScore": 54.0
+      },
+      "31": {
+        "part": 4,
+        "time": 162.76,
+        "line": 11,
+        "evidenceScore": 92.0
+      },
+      "32": {
+        "part": 4,
+        "time": 183.52,
+        "line": 13,
+        "evidenceScore": 52.0
+      },
+      "33": {
+        "part": 4,
+        "time": 218.64,
+        "line": 17,
+        "evidenceScore": 77.0
+      },
+      "34": {
+        "part": 4,
+        "time": 245.6,
+        "line": 20,
+        "evidenceScore": 40.57
+      },
+      "35": {
+        "part": 4,
+        "time": 281.32,
+        "line": 24,
+        "evidenceScore": 64.0
+      },
+      "36": {
+        "part": 4,
+        "time": 306.6,
+        "line": 26,
+        "evidenceScore": 47.46
+      },
+      "37": {
+        "part": 4,
+        "time": 338.14,
+        "line": 29,
+        "evidenceScore": 54.0
+      },
+      "38": {
+        "part": 4,
+        "time": 365.34,
+        "line": 32,
+        "evidenceScore": 66.0
+      },
+      "39": {
+        "part": 4,
+        "time": 392.06,
+        "line": 34,
+        "evidenceScore": 36.0
+      },
+      "40": {
+        "part": 4,
+        "time": 409.94,
+        "line": 35,
+        "evidenceScore": 69.0
+      }
+    }
+  }
+}

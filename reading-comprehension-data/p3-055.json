@@ -1,0 +1,311 @@
+{
+  "id": "p3-055",
+  "catalogueId": "p3-055",
+  "title": "Company Innovation",
+  "sourceHeading": "Company Innovation",
+  "passage": 3,
+  "practice": 55,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-055-company-innovation",
+  "source": {
+    "filename": "Practice 55 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "10bb50eda8b95367e1f9088f04f3849f9148695a4b9004bfa8d00b855c27a3c7"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In a scruffy office in midtown Manhattan, a team of 30 artificial-intelligence programmers is trying to simulate the brains of an eminent sexologist, a well-known dietitian, a celebrity fitness trainer and several other experts. Umagic Systems is a young firm, setting up websites that will allow clients to consult the virtual versions of these personalities. Subscribers will feed in details about themselves and their goals; Umagic’s software will come up with the advice that the star expert would give. Although few people have lost money betting on the neuroses of the American consumer, Umagic’s prospects are hard to gauge: in ten years’ time, consulting a computer about your sex life might seem natural, or it might seem absurd. But the company and others like it are beginning to spook large American firms because they see such half-barmy ‘innovative’ ideas as the key to their own future success."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Innovation has become the buzzword of American management. Firms have found that most of the things that can be outsourced or re-engineered have been—worryingly, by their competitors as well. The stars of American business today tend to be innovators such as Dell, Amazon and Wal-Mart, which have produced ideas or products that have changed their industries."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "A new book by two consultants from Arthur D. Little records that, over the past 15 years, the top 20 per cent of firms in an annual innovation poll by Fortune magazine have achieved double the shareholder returns of their peers. Much of today’s merger boom is driven by a desperate search for new ideas. So is the fortune now spent on licensing and buying others’ intellectual property. According to the Pasadena-based Patent & Licence Exchange, trading in intangible assets in the United States rose from $15 billion in 1990 to $100 billion in 1998, with an increasing proportion of the rewards going to small firms and individuals."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "And therein lies the terror for big companies: innovation seems to work best outside them. Several big, established ‘ideas factories’, including 3M, Procter & Gamble and Rubbermaid, have had dry spells recently. Gillette spent ten years and $1 billion developing its new Mach 3 razor; it took a British supermarket only a year or so to produce a reasonable imitation. ‘In the management of creativity, size is your enemy,’ argues Peter Chernin, who runs the Fox television and film empire for News Corporation. One person managing 20 movies is never going to be as involved as one managing five. He has therefore tried to break the studio into smaller units, even at the risk of incurring higher costs."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "It is easier for ideas to thrive outside big firms these days. In the past, if a clever scientist had an idea they wanted to commercialise, they would take it first to a big company. Now, with plenty of cheap venture capital, they are more likely to set up on their own. Umagic has already raised $5 million and is about to raise $25 million more. Even in capital-intensive businesses such as pharmaceuticals, entrepreneurs can conduct early-stage research and sell out to big firms when they reach expensive, risky clinical trials. Around a third of drug firms’ total revenue now comes from licensed-in technology."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Some giants, including General Electric and Cisco, have been remarkably successful at snapping up and integrating scores of small companies. But many others worry about the prices they have to pay and the difficulty of holding on to the talent that dreamt up the idea. Everybody would like to develop more ideas in-house. Procter & Gamble is now shifting its entire business focus from countries to products; one aim is to get innovations accepted across the company. Elsewhere, the search for innovation has led to a craze for ‘intrapreneurship’—devolving power, setting up internal ideas factories and offering tracking stock so that talented staff will not leave."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Some people think that such restructuring is not enough. In a new book, Clayton Christensen argues that many things established firms do well, such as looking after their current customers, can hinder the sort of innovative behaviour needed to deal with disruptive technologies. Hence the fashion for cannibalisation—setting up businesses that will actually fight existing ones. Bank One, for instance, has established Wingspan, an Internet bank that competes with its physical branches. Jack Welch’s Internet initiative at General Electric is called ‘Destroyyourbusiness.com’."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Nobody could doubt that innovation matters. But do large firms need to be quite so pessimistic? A recent survey of the top 50 innovations in America by Industry Week suggested that ideas are as likely to come from big firms as from small ones. Another sceptical note is sounded by Amar Bhidé, a colleague of Mr Christensen’s at Harvard Business School and the author of another book on entrepreneurship. Rather than reinventing themselves, he believes, big companies should concentrate on projects with high costs and low uncertainty, leaving those with low costs and high uncertainty to small entrepreneurs. As ideas mature and the risks and rewards become more quantifiable, big companies can adopt them."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "At Kimberly-Clark, Mr Sanders had to discredit the view that jobs involving work on new products were for ‘those who couldn’t hack it in the real business’. He has tried to change the culture not just by preaching fuzzy concepts but also by introducing hard incentives, such as increasing the rewards for those who come up with successful new ideas and, particularly, not punishing those whose experiments fail. The genesis of one of the firm’s current hits, Depend, a more dignified incontinence garment, lay in a previous miss, Kotex Personals, a form of disposable underwear for menstruating women."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Will all this creative destruction, cannibalisation and culture tweaking make big firms more creative? David Post, the founder of Umagic, is sceptical: ‘The only successful intrapreneurs are ones who leave and become entrepreneurs.’ He also recalls with glee the looks of total incomprehension when he tried to hawk his ‘virtual experts’ idea three years ago to the idea labs of firms such as IBM—though, as he cheerfully adds, ‘of course, they could have been right.’ Innovation—unlike, apparently, sex, parenting and fitness—is one area where a computer cannot tell you what to do."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–33",
+    "g34": "Questions 34–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 33,
+      "text": "Questions 28–33\nReading Passage 3 has ten paragraphs, A–J.\nWhich paragraph contains the following information?\nWrite the correct letter, A–J, in boxes 28–33 on your answer sheet.\nNB You may use any letter more than once.\n28 ___________ an approach to retaining the best employees\n29 ___________ increased spending on acquiring innovative ideas\n30 ___________ an adverse effect produced by integrating outside firms\n31 ___________ an example of three famous innovative American companies\n32 ___________ an example of a company changing its focus\n33 ___________ an example of a company financing an innovative idea independently"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 37,
+      "text": "Questions 34–37\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 34–37 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n34 _________________ Umagic is the most successful innovative company in this new field.\n35 _________________ Amazon and Wal-Mart shared their experience of innovation.\n36 _________________ In the past, originators of new ideas took them to small companies.\n37 _________________ IBM failed to understand Umagic’s proposal of a new idea."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 38–40 on your answer sheet.\n\n\n38 What is the author’s opinion on innovation in paragraph C?\n A It only works for big companies.\n B Fortune magazine has a huge global influence.\n C It is becoming increasingly important.\n D Its effects on American companies are more evident.\n\n\n39 What is Peter Chernin’s point of view on innovation?\n A Small companies are more innovative than big ones.\n B The film industry needs more innovation than other industries.\n C We need to cut costs when risks arise.\n D New ideas are more likely to go to big companies.\n\n\n40 What is the author’s opinion on innovation at the end of this passage?\n A Umagic’s success lies in the accidental ‘virtual experts’ concept.\n B Innovation is easy and straightforward.\n C IBM sets a good example of innovation.\n D The author’s attitude towards innovation is uncertain."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ an approach to retaining the best employees",
+      "translation": "一種留住最佳員工的方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ increased spending on acquiring innovative ideas",
+      "translation": "用更多金錢去取得創新 ideas。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ an adverse effect produced by integrating outside firms",
+      "translation": "整合外部公司所產生的一項負面影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ an example of three famous innovative American companies",
+      "translation": "三間著名創新美國公司的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ an example of a company changing its focus",
+      "translation": "一間公司改變其 focus 的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ an example of a company financing an innovative idea independently",
+      "translation": "一間公司獨立為創新 idea 融資的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ Umagic is the most successful innovative company in this new field.",
+      "translation": "Umagic 是這個新領域中最成功的創新公司。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ Amazon and Wal-Mart shared their experience of innovation.",
+      "translation": "Amazon 和 Wal-Mart 分享了它們的創新經驗。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ In the past, originators of new ideas took them to small companies.",
+      "translation": "過去，新 ideas 的創造者會把 ideas 帶到小公司。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ IBM failed to understand Umagic’s proposal of a new idea.",
+      "translation": "IBM 未能理解 Umagic 的新 idea proposal。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What is the author’s opinion on innovation in paragraph C?",
+      "translation": "作者在 Paragraph C 對 innovation 的看法是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What is Peter Chernin’s point of view on innovation?",
+      "translation": "Peter Chernin 對 innovation 的觀點是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What is the author’s opinion on innovation at the end of this passage?",
+      "translation": "文章結尾作者對 innovation 的態度是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-055/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-055/page-6.jpg"
+  ]
+}

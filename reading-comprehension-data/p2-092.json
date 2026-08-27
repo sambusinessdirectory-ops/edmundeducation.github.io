@@ -1,0 +1,301 @@
+{
+  "id": "p2-092",
+  "catalogueId": "p2-092",
+  "title": "Britain’s canals – the solution to overcrowded roads?",
+  "sourceHeading": "Britain’s Canals—the Solution to Overcrowded Roads?",
+  "passage": 2,
+  "practice": 92,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-092-britains-canals-the-solution-to-overcrowded-roads",
+  "source": {
+    "filename": "Practice 92 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "e2343fbce162ada46f2de9645f8a3f904e54428b620a69c5fb4efda38fed8062"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "It’s hard to imagine that only a decade or so ago many of the nation’s canals were little more than the last resting place for abandoned shopping trolleys. There’s still work to be done, but their transformation has been remarkable. Projects such as Castlefield in Manchester and Brindley Place in Birmingham have transformed city-centre canals from stagnant reminders of a fading industrial past to the epitome of urban cool. However, 21st-century priorities dictate that the rehabilitation of this 18th-century motorway system cannot stop there. Canals and navigable rivers form a major transport network, in need of only piecemeal investment, and with the spare capacity to eliminate the need for hundreds of thousands of lorry journeys. In the second half of the 18th century, canals drove the industrial revolution. Today, authorities want them to drive congestion off the roads. Last month, for example, the European Commission proposed a seven-year plan to shift large amounts of freight from roads to inland waterways."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Europe’s enthusiasm comes as no surprise. Freight traffic is expected to grow by a third in the next decade. The cost of pollution and congestion is set to swallow one per cent of Europe’s entire GDP by 2010. “With a fleet of 11,000 vessels and a capacity equalling 10,000 trains or 440,000 trucks, inland waterways can make transport in Europe more efficient, reliable and environmentally friendly,” says Jacques Barrot, vice-president of the European Commission in charge of transport. “Europe cannot afford to leave that potential untapped.”"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Mainland Europe has never, in fairness, left it completely untapped. The canals of the Low Countries and the rivers of Central and Eastern Europe buzzed with the sound of freight barges long after British industry had thrown in its lot with railways and roads. Attempts to revive freight on British canals have been hampered by the fact that their heyday lasted barely 60 years, and they were first considered obsolete 150 years ago. For much of the intervening period, many have simply been left to rot. “Our network was in decline for a long time compared to much of Europe,” says Eugene Baston of British Waterways. “Whereas other countries developed road and rail transport but carried on using their waterways as well, our canals were neglected. In fact many European countries actually enlarged their canals 100 years ago.”"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "That decline in Britain has been reversed, first by leisure seekers and more recently by industry. Boaters, anglers, walkers and cyclists now benefit from around 4,000 miles of navigable waterways and the paths and trails that run alongside them. Waterside living is fashionable, and city-centre canals have been a focus for urban renewal. And, despite our obsession with road transport, environmental considerations are forcing government and business to turn the clock back 200 years and—at least in a minor way—get our waterways working again."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In fact, industrial goods such as coal, steel, aggregates and petroleum have never completely disappeared from large rivers and designated commercial waterways. Barges on the River Severn have recently started carrying the equivalent of 34,000 lorry loads of aggregates each year, the first freight traffic on the river for a decade. British Waterways, which owns about half of the country’s navigable inland waterways, carried the equivalent of 64,000 25-ton lorry loads of freight in 2004. The organisation says these figures are certain to increase as new schemes start, and environmentalists hope they will. Carrying freight by water uses about a quarter of the energy of an equivalent road journey. In comparison to lorries, barges produce low emissions and little noise, and are visually unobtrusive. “We think that anything that can take freight off the roads needs to be fully explored,” says Tony Bosworth, transport campaigner for Friends of the Earth. “Canals can do that. They can help cut the pollution that causes climate change.”"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "There is a limit to what canals can carry. The slow pace of water travel does not fit well with the limited shelf-life of fresh produce. If supermarkets won’t trust their cherry tomatoes to water, they might trust the waste paper and plastic used to protect them. Many of the proposals to utilise Britain’s waterways are based on waste management and recycling schemes. For example, a pilot scheme in Hackney, east London, has seen municipal waste collected by truck and transferred to a barge for transportation to a reprocessing plant. In the future, the scheme could remove 300,000 dustcart miles from the borough’s streets every year. Current arrangements could be just the tip of the iceberg."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Planning permission has been given for a Powerday recycling plant at Willesden Junction, a site at the intersection of road, rail and canal networks. “The plant will have the capacity to handle a million and a half tons of waste every year, but the amount carried by road will be capped at 500,000 tons,” says Ed Fox of British Waterways London. “If they want to grow the business, they will have to work with us.” Fox says getting freight back on the canals has been “a nice idea” for 50 years, but until recently little more than an idea. “The Powerday project, on the other hand, is proof of what really can be done.”"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Though details have yet to be decided, British Waterways believes the most appropriate way to transport some of the building materials destined for London’s giant Olympic construction project is by the network of waterways that links the Thames and east London. The Olympic Delivery Authority says: “It’s being looked at and the final solution could well involve some transportation by water. What exactly we do will be based on a range of factors, but one of those will be sustainability.” The canals’ gentle pace will always make them a niche player in a busy world, but after 200 years of neglect, the tide is starting to turn."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has eight paragraphs, A–H.\nWhich paragraph does each of the following headings best fit?\n14 ___________ Olympic transport\n15 ___________ The decline of British canals\n16 ___________ Modern leisure uses\n17 ___________ Energy efficiency"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nChoose the corresponding letters in answer boxes 18–22.\n A Canals were important in the industrial revolution in Britain.\n B The use of canals in Europe is expected to grow by a third over the next ten years.\n C Britain was the only European country to let its canals decline.\n D Canals in Britain have become a focus for city-centre renewal.\n E Barges are less polluting than lorries.\n F In London, most waste is transported on canals.\n G The amount of waste that can be taken to the Powerday plant by road is limited.\n H Canals will not become a major form of transport in the world."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nChoose the correct answer, A, B or C.\n23 Canals will require\n A relatively little investment.\n B considerable investment.\n C investment equal to 1% of Europe’s transport budget.\n\n\n24 The European canal network\n A transported most of Europe’s goods for 60 years.\n B was built mostly about 150 years ago.\n C has actually been expanded in some countries over the last hundred years.\n\n\n25 Suitable products for transportation by canal include\n A fresh fruit and vegetables.\n B fuel.\n C cereal.\n\n\n26 How much waste can the Powerday recycling plant treat in one year?\n A 1.5 million tons.\n B 500 tons.\n C 15 million tons."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Olympic transport",
+      "translation": "奧運相關運輸。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ The decline of British canals",
+      "translation": "英國 canals 的衰落。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Modern leisure uses",
+      "translation": "現代休閒用途。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Energy efficiency",
+      "translation": "能源效率。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "根據文章，下列八項陳述中有五項正確。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "根據文章，下列八項陳述中有五項正確。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "根據文章，下列八項陳述中有五項正確。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "根據文章，下列八項陳述中有五項正確。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "根據文章，下列八項陳述中有五項正確。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Canals will require",
+      "translation": "Canals 將需要……選項： A relatively little investment.相對較少投資。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "The European canal network",
+      "translation": "歐洲 canal network……選項： A transported most of Europe’s goods for 60 years.曾在 60 年間運輸歐洲大部分貨品。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Suitable products for transportation by canal include",
+      "translation": "適合用 canal 運輸的產品包括……選項： A fresh fruit and vegetables.新鮮水果和蔬菜。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "How much waste can the Powerday recycling plant treat in one year?",
+      "translation": "Powerday recycling plant 一年可以處理多少 waste？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-092/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-092/page-6.jpg"
+  ]
+}

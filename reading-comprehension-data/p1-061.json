@@ -1,0 +1,249 @@
+{
+  "id": "p1-061",
+  "catalogueId": "p1-061",
+  "title": "THE NATURE OF ADDICTION",
+  "sourceHeading": "The Nature of Addiction",
+  "passage": 1,
+  "practice": 61,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-010-the-nature-of-addiction",
+  "source": {
+    "filename": "Practice 61  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "f67d9b10b2602ef7d5398652b5d605b557538b9a587ea93d5092894822179c3f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Many people would perhaps, at least as an immediate response, not consider themselves to be ‘addicts’, yet a closer look at lifestyle and mental attitude often reveals a very different picture. The main problem at present is that the traditional definition of the word has become blurred and the lines between addiction and interest are far harder to identify. In the past, the label ‘addict’ was generally applied to those with an insatiable appetite for certain substances that were traditionally known to be harmful, illegal or both: psychoactive drugs, alcohol and nicotine, for example. More recently, however, we find that there is a multitude of potential addictions. Gambling, food, work and shopping are all potential areas in which addiction can lurk."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "To try to define the subject of addiction (and in many cases the subsequent course of treatment to best combat it), psychologists now commonly refer to three distinct categories. The first category concerns forms of addiction that are perhaps not life-threatening or particularly dangerous. They are often labelled in an almost tongue-in-cheek manner, such as excessive chocolate consumption leading to someone being labelled a ‘chocoholic’. This category is referred to as soft addiction and is generally related only to a potential loss of productivity; in the workplace, an employee who is addicted to social networking sites is likely to be a less useful member of staff."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Substance addiction, however, is a completely different category that focuses on the ingestion of a drug (either natural or synthetic) to alter the brain’s chemical constitution temporarily. It is a combination of physical and psychological dependence on substances that have known health dangers. Users who are addicted will often go to great lengths to acquire these substances, which helps explain the very strong connection between drug abuse and crime."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Finally, there is behavioural addiction, which is regarded as ‘a compulsion to engage in some specific activity, despite harmful consequences’ and is a relatively recent entrant to the field. This is where ‘soft’ addictions go beyond a safe limit and can become dangerous. Overeating, especially on sweetened foods, is one of the more common behavioural addictions, potentially leading to morbid obesity and associated health risks. Also included in this category are behaviours such as excessive gambling, and, for many, the combination of the availability and anonymity of the internet, as well as a plethora of online gambling sites, has led to a vast increase in this form of addiction."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "However, the point at which a soft addiction becomes a behavioural addiction is both hard to define and a cause of significant controversy. A child who comes home after school and plays on the internet for three hours is considered by some to be suffering from a behavioural addiction; to others, this is just a modern form of leisure time and just as valid as reading a book or playing outside. Another point of friction among people involved in studying and treating sufferers is that some of the issues covered by the umbrella term ‘addiction’ may be mislabelled: they belong to a different category altogether and should be referred to as ‘impulse-control disorders’."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The correct course of action when attempting to overcome an addiction varies greatly according to the type of addiction, while opinions within the medical community also differ considerably. Take substance addiction, for example. The traditional approach has been to remove the source—that is, the availability of the drug—but this is no longer considered the best long-term approach. The old idea of isolating the addict from all drugs proved faulty as this did not prevent relapses once the person returned to society. There is now an increasing tendency to consider not only the physical mechanisms of addiction but also its psychological causes. Often, extreme addictions—both substance-based and behavioural—stem from psychological roots such as stress, guilt, depression and rejection; for this reason, counselling and open discussion are producing more successful long-term results."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "For non-professionals who have people in their lives suffering from some form of addiction, the focus now should be on supporting their recovery, not enabling their dependence. Judgemental attitudes or helping to conceal addiction have been shown not only to perpetuate the problem, but in many cases actually exacerbate it."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–12"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nReading Passage 1 has seven paragraphs A–G.\nChoose the correct heading for paragraphs B to G from the list of headings below.\nWrite the correct number i–x in boxes 1–6 on your answer sheet.\n\n                            List of Headings\n\n i                          A change in methods\n\n ii                         The falling level of addiction\n\n iii                        Biological changes and associated risks\n\n iv                         The long-term damage of addiction\n\n v                          Disagreements about definition\n\n vi                         Advice for those involved\n\n vii                        The changing nature of addiction in children\n\n viii                       The lack of clarity in modern interpretations of addiction\n\n ix                         Modern label for taking addiction to extremes\n\n x                          Not all addictions are cause for concern\nExample: Paragraph A; Answer: viii\n1 _________________ Paragraph B\n2 _________________ Paragraph C\n3 _________________ Paragraph D\n4 _________________ Paragraph E\n5 _________________ Paragraph F\n6 _________________ Paragraph G"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 12,
+      "text": "Questions 7–12\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 7–12 on your answer sheet.\nIt is increasingly difficult to differentiate between an addiction and what?\n7 _________________\nWhat can soft addictions lead to a decline in?\n8 _________________\nWhat are addictions involving the consumption of a drug clearly connected with?\n9 _________________\nWhat specific addiction has increased considerably over recent years?\n10 _________________\nIn some cases, addictions should actually be labelled as what?\n11 _________________\nExtreme addictions often have what kind of root cause?\n12 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Paragraph B",
+      "translation": "並非所有 addiction 都值得嚴重擔憂目標段落：Paragraph B",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Paragraph C",
+      "translation": "生物變化和相關風險目標段落：Paragraph C",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Paragraph D",
+      "translation": "把 addiction 推向極端時使用的現代標籤目標段落：Paragraph D",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Paragraph E",
+      "translation": "關於定義的分歧目標段落：Paragraph E",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Paragraph F",
+      "translation": "方法上的改變目標段落：Paragraph F",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Paragraph G",
+      "translation": "給相關人士的建議目標段落：Paragraph G",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What can soft addictions lead to a decline in?",
+      "translation": "現在越來越難分辨 addiction 和甚麼之間的差異？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What are addictions involving the consumption of a drug clearly connected with?",
+      "translation": "soft addictions 會導致甚麼下降？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What specific addiction has increased considerably over recent years?",
+      "translation": "涉及攝入藥物的 addictions 和甚麼有明顯關聯？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ In some cases, addictions should actually be labelled as what?",
+      "translation": "近年哪一種具體 addiction 大幅增加？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ Extreme addictions often have what kind of root cause?",
+      "translation": "在某些情況下，addictions 其實應該被標籤為甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "極端 addictions 常有哪一類根源？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-061/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-061/page-6.jpg"
+  ]
+}

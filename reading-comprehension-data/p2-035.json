@@ -1,0 +1,263 @@
+{
+  "id": "p2-035",
+  "catalogueId": "p2-035",
+  "title": "Life-Casting and Art",
+  "sourceHeading": "Life-Casting and Art Julian Barnes explores the questions posed by Life-Casts, an exhibition of plaster moulds of living people and objects which were originally used for scientific purposes",
+  "passage": 2,
+  "practice": 35,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-035-life-casting-and-art",
+  "source": {
+    "filename": "Practice 35 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "e340d35619a9cdb5f5a9e0438fcf0c024b5851c359193f3d3d9520522fcd5717"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Art changes over time and our idea of what art is changes too. For example, objects originally intended for devotional, ritualistic or recreational purposes may be recategorised as art by members of other later civilisations, such as our own, which no longer respond to these purposes."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "What also happens is that techniques and crafts which would have been judged inartistic at the time they were used are reassessed. Life-casting is an interesting example of this. It involved making a plaster mould of a living person or thing. This was complex, technical work, as Benjamin Robert Haydon discovered when he poured 250 litres of plaster over his human model and nearly killed him. At the time, the casts were used for medical research and, consequently, in the nineteenth century life-casting was considered inferior to sculpture in the same way that, more recently, photography was thought to be a lesser art than painting. Both were viewed as unacceptable shortcuts by the “senior” arts. Their virtues of speed and unwavering realism also implied their limitations; they left little or no room for the imagination."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "For many, life-casting was an insult to the sculptor’s creative genius. In an infamous lawsuit of 1834, a moulder whose mask of the dying French emperor Napoleon had been reproduced and sold without his permission was judged to have no rights to the image. In other words, he was specifically held not to be an artist. This judgement reflects the view of established members of the nineteenth-century art world such as Rodin, who commented that life-casting ‘happens fast but it doesn’t make Art’. Some even feared that ‘if too much nature was allowed in, it would lead Art away from its proper course of the Ideal.’"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The painter Gauguin, at the end of the nineteenth century, worried about future developments in photography. If ever the process went into colour, what painter would labour away at a likeness with a brush made from squirrel-tail? But painting has proved robust. Photography has changed it, of course, just as the novel had to reassess narrative after the arrival of the cinema. But the gap between the senior and junior arts was always narrower than the traditionalists implied. Painters have always used technical back-up such as studio assistants to do the boring bits, while apparently lesser crafts involve great skill, thought, preparation and, depending on how we define it, imagination."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Time changes our view in another way, too. Each new movement implies a reassessment of what has gone before. What is done now alters what was done before. In some cases this is merely self-serving, with the new art using the old to justify itself. It seems to be saying, look at how all of that points to this! Aren’t we clever to be the culmination of all that has gone before? But usually it is a matter of re-alerting the sensibility, reminding us not to take things for granted. Take, for example, the cast of the hand of a giant from a circus, made by an anonymous artist around 1889, an item that would now sit happily in any commercial or public gallery. The most significant impact of this piece is on the eye, in the contradiction between unexpected size and verisimilitude. Next, the human element kicks in. You note that the nails are dirt-encrusted, unless this is the caster’s decorative addition, and the fingertips extend far beyond them. Then you take in the element of choice, arrangement, art if you like, in the neat, pleated, buttoned sleeve-end that gives the item balance and variation of texture. This is just a moulded hand, yet the part stands utterly for the whole. It reminds us slyly, poignantly, of the full-size original."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "But is it art? And, if so, why? These are old, tediously repeated questions to which artists have often responded, ‘It is art because I am an artist and therefore what I do is art.’ However, what doesn’t work for literature works much better for art – works of art do float free of their creators’ intentions. Over time the “reader” does become more powerful. Few of us can look at a medieval altarpiece as its painter intended. We believe too little and aesthetically know too much, so we recreate and find new fields of pleasure in the work. Equally, the lack of artistic intention of Paul Richer and other forgotten craftsmen who brushed oil onto flesh, who moulded, cast and decorated in the nineteenth century is now irrelevant. What counts is the surviving object and our response to it. The tests are simple: does it interest the eye, excite the brain, move the mind to reflection and involve the heart? It may, to use the old dichotomy, be beautiful but it is rarely true to any significant depth. One of the constant pleasures of art is its ability to come at us from an unexpected angle and stop us short in wonder."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–24",
+    "g25": "Questions 25–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in boxes 14–18 on your answer sheet.\n\n\n14 _____________ an example of a craftsman’s unsuccessful claim to ownership of his work\n15 _____________ an example of how trends in art can change attitudes to an earlier work\n16 _____________ the original function of a particular type of art\n17 _____________ ways of assessing whether or not an object is art\n18 _____________ how artists deal with the less interesting aspects of their work"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 24,
+      "text": "Questions 19–24\nDo the following statements agree with the claims of the writer in Reading Passage 2?\n\n\nIn boxes 19–24 on your answer sheet, write\n\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n\n\n19 _________________ Nineteenth-century sculptors admired the speed and realism of\nlife-casting.\n20 _________________ Rodin believed that life-casting would improve if the process were\nslower.\n21 _________________ The importance of painting has declined with the development of\ncolour photography.\n22 _________________ Life-casting requires more skill than sculpture.\n23 _________________ New art encourages us to look at earlier work in a fresh way.\n24 _________________ The intended meaning of a work of art can get lost over time."
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 26,
+      "text": "Questions 25–26\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 25–26 on your answer sheet.\n\n\n25 The most noticeable contrast in the cast of the giant’s hand is between\n A dirt and decoration\n B size and realism\n C choice and arrangement\n D balance and texture\n\n\n26 According to the writer, the importance of any artistic object lies in\n A the artist’s intentions\n B the artist’s beliefs\n C the relevance it has to modern life\n D the way we respond to it"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ an example of a craftsman’s unsuccessful claim to ownership of his work",
+      "translation": "一個工匠聲稱自己擁有作品權利但失敗的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ an example of how trends in art can change attitudes to an earlier work",
+      "translation": "一個例子，說明藝術潮流如何改變人們對早期作品的態度。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ the original function of a particular type of art",
+      "translation": "某一類藝術形式原本的功能。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ ways of assessing whether or not an object is art",
+      "translation": "判斷一件物件算不算藝術的方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ how artists deal with the less interesting aspects of their work",
+      "translation": "藝術家如何處理工作中較沉悶、較不吸引的部分。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Nineteenth-century sculptors admired the speed and realism of life-casting.",
+      "translation": "十九世紀雕塑家欣賞 life-casting 的速度和寫實性。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Rodin believed that life-casting would improve if the process were slower.",
+      "translation": "Rodin 認為，如果 life-casting 過程慢一些，它會變得更好。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ The importance of painting has declined with the development of colour photography.",
+      "translation": "隨着 colour photography 的發展，painting 的重要性下降了。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Life-casting requires more skill than sculpture.",
+      "translation": "Life-casting 比 sculpture 需要更多技巧。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ New art encourages us to look at earlier work in a fresh way.",
+      "translation": "新的藝術會鼓勵我們用新眼光看較早的作品。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ The intended meaning of a work of art can get lost over time.",
+      "translation": "一件藝術作品原本的意圖或意義，可能隨時間流失。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "The most noticeable contrast in the cast of the giant’s hand is between",
+      "translation": "giant’s hand 這件鑄模中，最明顯的對比是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "According to the writer, the importance of any artistic object lies in",
+      "translation": "根據作者，一件藝術物件的重要性在於甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-035/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-035/page-5.jpg"
+  ]
+}

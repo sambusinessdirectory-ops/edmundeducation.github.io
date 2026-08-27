@@ -1,0 +1,4019 @@
+{
+  "schemaVersion": 1,
+  "practice": 7,
+  "title": "IELTS Listening Practice 7",
+  "source": {
+    "file": "IELTS Listening - Practice - 7.pdf",
+    "sha256": "d6dd02c23e24301f81678274005b45be2968d8ee4070afb9d8bf3929ce2638e9",
+    "pageCount": 70,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–6\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nLocal Food Shops\nWhere to go\n● Kite Place — near the 1 __________\nFish market\n● cross the 2 __________ and turn right\n● best to go before 3 __________ p.m., earlier than closing time\nOrganic shop\n● called 4 “__________”\n● below a restaurant in the large, grey building\n● look for the large 5 __________ outside\nSupermarket\n● take a 6 __________ minibus, number 289",
+          "page": 4
+        },
+        {
+          "type": "text",
+          "text": "Questions 7–10\nComplete the table below.\nWrite ONE WORD ONLY for each answer.",
+          "page": 5
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-7-page-5-1.webp",
+          "alt": "Practice 7, source question diagram/table, PDF page 5",
+          "text": "",
+          "page": 5
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Kite Place — near the 1 __________",
+          "translation": "",
+          "answer": "harbour",
+          "alternatives": [
+            "harbor"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● cross the 2 __________ and turn right",
+          "translation": "",
+          "answer": "bridge",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● best to go before 3 __________ p.m., earlier than closing time",
+          "translation": "",
+          "answer": "3:30",
+          "alternatives": [
+            "three thirty",
+            "half three"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "Organic shop — called ‘_____’",
+          "translation": "",
+          "answer": "Rose",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● look for the large 5 __________ outside",
+          "translation": "",
+          "answer": "sign",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● take a 6 __________ minibus, number 289",
+          "translation": "",
+          "answer": "purple",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "Fish market — a handful of _____ (type of seaweed)",
+          "translation": "",
+          "answer": "samphire",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "Organic shop — beans and a _____ for dessert",
+          "translation": "",
+          "answer": "melon",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "Organic shop — spices and _____",
+          "translation": "",
+          "answer": "coconut",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "Bakery — a _____ tart",
+          "translation": "",
+          "answer": "strawberry",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–16\nWhat information is given about each of the following festival workshops?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 11–16.\nInformation\nA. involves painting and drawing\nB. will be led by a prize-winning author\nC. is aimed at children with a disability\nD. involves a drama activity\nE. focuses on new relationships\nF. is aimed at a specific age group\nG. explores an unhappy feeling\nH. raises awareness of a particular culture\nFestival workshops\n11. Superheroes __________\n12. Just do it __________\n13. Count on me __________\n14. Speak up __________\n15. Jump for joy __________\n16. Sticks and stones __________",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Questions 17 and 18\nChoose TWO letters, A–E.\nWhich TWO reasons does the speaker give for recommending Alive and\nKicking?\nA. It will appeal to both boys and girls.\nB. The author is well known.\nC. It has colourful illustrations.\nD. It is funny.\nE. It deals with an important topic.\nQuestions 19 and 20\nChoose TWO letters, A–E.\nWhich TWO pieces of advice does the speaker give to parents about reading?\nA. Encourage children to write down new vocabulary.\nB. Allow children to listen to audio books.\nC. Get recommendations from librarians.\nD. Give children a choice about what they read.\nE. Only read aloud to children until they can read independently.",
+          "page": 8
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "Superheroes",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "involves painting and drawing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "will be led by a prize-winning author",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is aimed at children with a disability",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "involves a drama activity",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "focuses on new relationships",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is aimed at a specific age group",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "explores an unhappy feeling",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "raises awareness of a particular culture",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "Just do it",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "involves painting and drawing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "will be led by a prize-winning author",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is aimed at children with a disability",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "involves a drama activity",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "focuses on new relationships",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is aimed at a specific age group",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "explores an unhappy feeling",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "raises awareness of a particular culture",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "Count on me",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "involves painting and drawing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "will be led by a prize-winning author",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is aimed at children with a disability",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "involves a drama activity",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "focuses on new relationships",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is aimed at a specific age group",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "explores an unhappy feeling",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "raises awareness of a particular culture",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "Speak up",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "involves painting and drawing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "will be led by a prize-winning author",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is aimed at children with a disability",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "involves a drama activity",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "focuses on new relationships",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is aimed at a specific age group",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "explores an unhappy feeling",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "raises awareness of a particular culture",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "Jump for joy",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "involves painting and drawing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "will be led by a prize-winning author",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is aimed at children with a disability",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "involves a drama activity",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "focuses on new relationships",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is aimed at a specific age group",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "explores an unhappy feeling",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "raises awareness of a particular culture",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "Sticks and stones",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "involves painting and drawing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "will be led by a prize-winning author",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "is aimed at children with a disability",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "involves a drama activity",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "focuses on new relationships",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "is aimed at a specific age group",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "explores an unhappy feeling",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "raises awareness of a particular culture",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            17,
+            18
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO reasons does the speaker give for recommending Alive and Kicking?",
+          "translation": "",
+          "answers": [
+            "D",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "It will appeal to both boys and girls.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The author is well known.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "It has colourful illustrations.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It is funny.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "It deals with an important topic.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            19,
+            20
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO pieces of advice does the speaker give to parents about reading?",
+          "translation": "",
+          "answers": [
+            "B",
+            "C"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "Encourage children to write down new vocabulary.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Allow children to listen to audio books.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Get recommendations from librarians.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Give children a choice about what they read.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Only read aloud to children until they can read independently.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        10,
+        11,
+        12
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21–25\nChoose the correct letter, A, B or C.\nScience Experiment for Year 12 Students\n21. How does Clare feel about the students in her Year 12 science class?\nA. worried that they are not making progress\nB. challenged by their poor behaviour in class\nC. frustrated at their lack of interest in the subject\n22. How does Jake react to Clare's suggestion about an experiment based\non children's diet?\nA. He is concerned that the results might not be meaningful.\nB. He feels some of the data might be difficult to obtain.\nC. He suspects that the conclusions might be upsetting.\n23. What problem do they agree may be involved in an experiment\ninvolving animals?\nA. Any results may not apply to humans.\nB. It may be complicated to get permission.\nC. Students may not be happy about animal experiments.",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "24. What question do they decide the experiment should address?\nA. Are mice capable of controlling their food intake?\nB. Does an increase in sugar lead to health problems?\nC. How much do supplements of different kinds affect health?\n25. Clare might also consider doing another experiment involving\nA. other types of food supplement.\nB. different genetic strains of mice.\nC. varying amounts of exercise.",
+          "page": 11
+        },
+        {
+          "type": "text",
+          "text": "Questions 26–30\nComplete the flowchart below.\nChoose FIVE answers from the box and write the correct letter, A–H, next to\nQuestions 26–30.\nA. size\nB. escape\nC. age\nD. water\nE. cereal\nF. calculations\nG. changes\nH. colour\n26.\n27.\n28.\n29.\n30.",
+          "page": 12
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "How does Clare feel about the students in her Year 12 science class?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "worried that they are not making progress",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "challenged by their poor behaviour in class",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "frustrated at their lack of interest in the subject",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "How does Jake react to Clare's suggestion about an experiment based on children's diet?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "He is concerned that the results might not be meaningful.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "He feels some of the data might be difficult to obtain.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "He suspects that the conclusions might be upsetting.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "What problem do they agree may be involved in an experiment involving animals?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "Any results may not apply to humans.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "It may be complicated to get permission.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Students may not be happy about animal experiments.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "What question do they decide the experiment should address?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "Are mice capable of controlling their food intake?",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Does an increase in sugar lead to health problems?",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "How much do supplements of different kinds affect health?",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Clare might also consider doing another experiment involving",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "other types of food supplement.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "different genetic strains of mice.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "varying amounts of exercise.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "27.",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "size",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "escape",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "age",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "water",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "cereal",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "calculations",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "changes",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "colour",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "28.",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "size",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "escape",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "age",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "water",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "cereal",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "calculations",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "changes",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "colour",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "29.",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "size",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "escape",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "age",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "water",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "cereal",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "calculations",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "changes",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "colour",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "30.",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "size",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "escape",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "age",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "water",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "cereal",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "calculations",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "changes",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "colour",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Question 30 — refer to the original question paper above.",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "size",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "escape",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "age",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "water",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "cereal",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "calculations",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "changes",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "colour",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nMicroplastics\nWhere microplastics come from\n● fibres from some 31 __________ during washing\n● the breakdown of large pieces of plastic\n● waste from industry\n● the action of vehicle tyres on roads\nEffects of microplastics\n● They cause injuries to the 32 __________ of wildlife and affect their\ndigestive systems.\n● They enter the food chain, e.g. in bottled and tap water, 33 __________\nand seafood.\n● They may not affect human health, but they are already banned in skin\ncleaning products and 34 __________ in some countries.\n● Microplastics enter the soil through the air, rain and 35 __________.",
+          "page": 14
+        },
+        {
+          "type": "text",
+          "text": "Microplastics in the soil — a study by Anglia Ruskin University\n● Earthworms are important because they add 36 __________ to the soil.\n● The study aimed to find whether microplastics in earthworms affect the\n37 __________ of plants.\n● The study found that microplastics caused:\n○ 38 __________ loss in earthworms\n○ fewer seeds to germinate\n○ a rise in the level of 39 __________ in the soil.\n● The study concluded:\n○ soil should be seen as an important natural process.\n○ changes to soil damage both ecosystems and 40 __________.",
+          "page": 15
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● fibres from some 31 __________ during washing",
+          "translation": "",
+          "answer": "clothing",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● They cause injuries to the 32 __________ of wildlife and affect their",
+          "translation": "",
+          "answer": "mouths",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● They enter the food chain, e.g. in bottled and tap water, 33 __________",
+          "translation": "",
+          "answer": "salt",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "cleaning products and 34 __________ in some countries.",
+          "translation": "",
+          "answer": "toothpaste",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● Microplastics enter the soil through the air, rain and 35 __________.",
+          "translation": "",
+          "answer": "fertilisers",
+          "alternatives": [
+            "fertilizers"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● Earthworms are important because they add 36 __________ to the soil.",
+          "translation": "",
+          "answer": "nutrients",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "37 __________ of plants.",
+          "translation": "",
+          "answer": "growth",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "○ 38 __________ loss in earthworms",
+          "translation": "",
+          "answer": "weight",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "○ a rise in the level of 39 __________ in the soil.",
+          "translation": "",
+          "answer": "acid",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "○ changes to soil damage both ecosystems and 40 __________.",
+          "translation": "",
+          "answer": "society",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "LEON: Hi Shannon – how are you settling into your new flat?",
+        "zh": "Leon：嗨，Shannon，你的新公寓住得還習慣嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "SHANNON: Really well, thanks.",
+        "zh": "Shannon：非常習慣，謝謝。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "LEON: You look like you're going shopping.",
+        "zh": "Leon：你看起來像是要去買東西。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "SHANNON: Yes, I am. My cousins are coming to stay for a couple of days, and I have to cook for them.",
+        "zh": "Shannon：是的。我的表親們要來住幾天，我得為他們做飯。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "LEON: Well, there are plenty of places to buy food in Kite Place – it's the area by the harbour.",
+        "zh": "Leon：嗯，Kite Place 有很多買食物的地方——那是在港口旁邊的區域。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "SHANNON: Oh, OK, I'll find that on the map. Thanks.",
+        "zh": "Shannon：哦，好的。我會在地圖上找一下，謝謝。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "LEON: What sort of food do you need to get?",
+        "zh": "Leon：你需要買什麼樣的食物？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "SHANNON: Well, neither of them eats meat but they both like fish.",
+        "zh": "Shannon：嗯，他們兩個都不吃肉， 但都喜歡吃魚。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "LEON: Well, there's a really good fish market there.",
+        "zh": "Leon：那裡有一個非常不錯的魚市場。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "SHANNON: Oh great – where is it exactly?",
+        "zh": "Shannon：太好了——具體在哪裡？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "LEON: It's at the far end of Kite Place, so you have to go over the bridge and then it's on the right.",
+        "zh": "Leon：它在 Kite Place 的最遠端， 所以你得過橋，然後它就在右手邊。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "SHANNON: OK – is it open all day?",
+        "zh": "Shannon：好的——它全天營業嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "LEON: It doesn't close until four, but I'd recommend going earlier than that – it does run out of some things.",
+        "zh": "Leon：它到四點才關門，但我建議你早一點去——有些東西會賣完。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "SHANNON: Oh, I don't want that to happen.",
+        "zh": "Shannon：哦，我可不想遇到那種情況。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "LEON: As long as you get there by 3.30, you should be fine. It's only 11 now, so plenty of time.",
+        "zh": "Leon：只要你三點半前到，應該就沒問題。現在才 11 點，所以時間很充裕。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "SHANNON: Right.",
+        "zh": "Shannon：好的。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "LEON: Do you need to buy vegetables too?",
+        "zh": "Leon：你也需要買蔬菜嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "SHANNON: I do, and I want to avoid all the plastic packaging in the supermarket!",
+        "zh": "Shannon：需要，而且我想避開超市裡那些塑膠包裝！",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "LEON: Well, there's a really nice organic shop there. Now what's it called... it's the name of a flower. I know, it's “Rose”.",
+        "zh": "Leon：那裡有一家很不錯的有機食品店。它叫什麼來著……是某種花的名字。我想起來了，叫 “Rose”。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "SHANNON: That's a nice name.",
+        "zh": "Shannon：這名字真好聽。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "LEON: Yeah – it sells vegetables and quite a lot of other stuff.",
+        "zh": "Leon：是啊——它賣蔬菜，也賣很多其他東西。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "SHANNON: And where's that?",
+        "zh": "Shannon：那它在哪裡？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "LEON: Well, as you reach the market, you'll see a big grey building on your left – I think it used to be a warehouse.",
+        "zh": "Leon：嗯，當你到市場時，左手邊會看到一棟灰色的大樓——我想它以前是倉庫。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "Anyway, now it's a restaurant upstairs, but the ground floor has two shops either side of the entrance and it's the one on the left.",
+        "zh": "不管怎樣，現在樓上是一家餐廳， 底樓入口兩邊各有一家店，它就是左邊那家。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "SHANNON: That's easy enough.",
+        "zh": "Shannon：那很容易找。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "LEON: You can't miss it – there's also a big sign on the pavement so you can look for that.",
+        "zh": "Leon：你不會錯過的——人行道上還有一個大招牌，你可以找那個。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "SHANNON: Fine! I guess if I need anything else, I'll have to go to the supermarket.",
+        "zh": "Shannon：好！我想如果還需要其他東西，就得去超市了。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "LEON: Yeah – you should be able to get everything you need, but there's a minibus that goes to the supermarket if you need it.",
+        "zh": "Leon：是啊——你應該可以買到所有需要的東西；如果需要的話，有一輛小巴可以去超市。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "It's purple and the number is 289.",
+        "zh": "它是紫色的，車號是 289。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "SHANNON: Thanks, that's great.",
+        "zh": "Shannon：謝謝，太好了。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "LEON: So what do you need to get at the fish market?",
+        "zh": "Leon：那你去魚市場要買什麼？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "The salmon is always very good and the shellfish.",
+        "zh": "那裡的鮭魚和貝類一直都很不錯。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "SHANNON: I'm going to make a curry, I think, and I need about 12 prawns for that.",
+        "zh": "Shannon：我想我要做咖哩，所以需要大約 12 隻蝦。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "LEON: They'll have plenty of those.",
+        "zh": "Leon：那裡會有很多。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "SHANNON: OK.",
+        "zh": "Shannon：好的。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "LEON: Have you ever tried samphire?",
+        "zh": "Leon：你吃過 samphire 嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "SHANNON: No – what's that?",
+        "zh": "Shannon：沒有——那是什麼？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "LEON: It's a type of seaweed. I just ask for a handful and you fry it in butter. It's delicious!",
+        "zh": "Leon：是一種海藻。我通常買一把，用奶油煎一下，非常好吃！",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "SHANNON: Oh, I might try that – how do you spell it?",
+        "zh": "Shannon：哦，我可以試試——它怎麼拼？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "LEON: It's S-A-M-P-H-I-R-E.",
+        "zh": "Leon：S-A-M-P-H-I-R-E。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "SHANNON: Great – it's always good to try something different.",
+        "zh": "Shannon：太好了——嘗試不同的東西總是好事。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "LEON: Yeah.",
+        "zh": "Leon：是啊。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "SHANNON: I'll see what beans they have in the organic shop and I think I'll get something for dessert there.",
+        "zh": "Shannon：我會看看有機店裡有什麼豆子，也想在那裡買點甜點。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "LEON: How about a mango?",
+        "zh": "Leon：芒果怎麼樣？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "SHANNON: I'm not sure – they're not always ripe.",
+        "zh": "Shannon：不太確定——芒果不一定總是熟的。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "I'd prefer a melon – it's bigger too.",
+        "zh": "我比較想買甜瓜，而且它也比較大。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "LEON: Good idea. The owner also sells a lot of spices there that you can put in a curry, and things like coconut.",
+        "zh": "Leon：好主意。店主那裡也賣很多可以放進咖哩的香料，還有椰子之類的東西。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "SHANNON: Oh, that's very helpful. I'll have a look.",
+        "zh": "Shannon：哦，那很有幫助。我會去看看。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "LEON: No problem.",
+        "zh": "Leon：沒問題。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "SHANNON: I know bread doesn't really go with curry but I always like to have some in case.",
+        "zh": "Shannon：我知道麵包和咖哩不太搭，但我總喜歡備一些。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "LEON: As I said – all the bread is home-made and there's lots of variety. I like the brown bread myself.",
+        "zh": "Leon：就像我說的——那裡所有麵包都是自製的，而且種類很多。我自己喜歡全麥麵包。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "SHANNON: Mm, sounds good.",
+        "zh": "Shannon：嗯，聽起來不錯。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "LEON: They sell other things there too.",
+        "zh": "Leon：那裡也賣其他東西。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "SHANNON: Like cakes? I love chocolate cake.",
+        "zh": "Shannon：像蛋糕嗎？我喜歡巧克力蛋糕。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "LEON: Well – not that, but they have a whole range of tarts and the best are the strawberry ones.",
+        "zh": "Leon：嗯——不是那種，但他們有各式各樣的塔，最好吃的是草莓塔。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "SHANNON: Perfect – hopefully I won't even have to go to the supermarket!",
+        "zh": "Shannon：太好了——希望我根本不用去超市！",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-056"
+      }
+    ],
+    "2": [
+      {
+        "en": "PRESENTER: The children's book festival is coming up again soon and here to tell us all about it is the festival's organiser, Jenny Morgan.",
+        "zh": "主持人：兒童圖書節很快又要到了，今天來為我們介紹的是圖書節組織者 Jenny Morgan。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "So tell us what we can expect this year, Jenny.",
+        "zh": "Jenny，請告訴我們今年會有哪些活動。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "JENNY: Well, as usual we've got five days of action-packed exciting events for children, with writers coming from all over the country getting involved.",
+        "zh": "Jenny：嗯，和往年一樣，我們為孩子們安排了五天精彩豐富的活動，來自全國各地的作家都會參與。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "Just to give you an idea of what's on offer in the workshops, first of all, there's a very special event called Superheroes.",
+        "zh": "為了讓大家了解工作坊有哪些內容，首先有一個非常特別的活動，叫做 Superheroes。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "This is a chance for deaf children to share their reading experiences with author Madeleine Gordon, who is herself hearing impaired.",
+        "zh": "這是讓聽障兒童與作家 Madeleine Gordon 分享閱讀經驗的機會，而她本人也有聽力障礙。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "“Just do it” is a practical workshop led by the well-known illustrator Mark Keane.",
+        "zh": "“Just do it” 是由知名插畫家 Mark Keane 主持的實作工作坊。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "He'll take participants on a magical journey to faraway lands with an opportunity for aspiring actors to do some role play.",
+        "zh": "他會帶領參與者踏上一段通往遠方國度的奇幻旅程，並讓有志成為演員的孩子有機會進行角色扮演。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "“Count on me” is an inspiring and entertaining look at the issues of friendship for 13–14-year-olds.",
+        "zh": "“Count on me” 是針對 13 至 14 歲孩子設計的活動，以鼓舞人心且有趣的方式探討友誼問題。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "It looks at some of the friendships described in popular books and asks participants to compare these with their own experiences.",
+        "zh": "活動會探討一些流行書籍中描寫的友誼，並請參與者把它們與自己的經驗作比較。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "“Speak up” is part of a series of workshops on the subject of mental health.",
+        "zh": "“Speak up” 是心理健康主題系列工作坊的一部分。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "This is a creative writing workshop encouraging children to describe situations where young people experience loneliness.",
+        "zh": "這是一個創意寫作工作坊，鼓勵孩子描述年輕人經歷孤獨的情境。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "A recent survey revealed that children can be lonely even when they're at home with their families.",
+        "zh": "最近一項調查顯示，即使孩子和家人在家中相處，也可能感到孤獨。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "“Jump for joy”, as many of you will know, is the heart-warming, best-selling story by Nina Karan about a young girl's trip to visit her relatives in India.",
+        "zh": "很多人應該知道，“Jump for joy” 是 Nina Karan 創作的一本溫馨暢銷故事，講述一名小女孩前往印度探親的旅程。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "It recently received the gold medal at the Waterford Awards.",
+        "zh": "它最近在 Waterford Awards 中獲得金獎。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "Nina will get children to celebrate the word “joy” by writing a poem.",
+        "zh": "Nina 會讓孩子們透過寫詩來歌頌 “joy” 這個詞。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "“Sticks and stones” is the beautifully illustrated picture book for young readers about a community who organise an African-Caribbean festival to help local children learn about their Jamaican roots.",
+        "zh": "“Sticks and stones” 是一本為小讀者創作、插圖精美的繪本，講述一個社區舉辦非洲加勒比節， 幫助當地孩子了解自己的牙買加根源。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "This will be a musical event where children will have the chance to play steel drums.",
+        "zh": "這會是一場音樂活動，孩子們將有機會演奏鋼鼓。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "This is bound to be very popular, so please book as soon as possible.",
+        "zh": "這個活動一定會很受歡迎，所以請盡快預訂。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "PRESENTER: Thanks Jenny. That all sounds really interesting.",
+        "zh": "主持人：謝謝 Jenny。這些聽起來都很有趣。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "I'm just wondering if you have a favourite book you could recommend for our readers?",
+        "zh": "我想知道你是否有一本最喜歡的書可以推薦給我們的讀者？",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "JENNY: It's hard to choose, but Alive and Kicking is definitely worth mentioning.",
+        "zh": "Jenny：很難選，但 Alive and Kicking 絕對值得一提。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "You won't have heard of the writer as it's her first book – which is really impressive.",
+        "zh": "你們可能沒聽過這位作者，因為這是她的第一本書——真的很令人印象深刻。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "It's basically the teenage diary of a boy from Somalia who comes to live in the UK.",
+        "zh": "它基本上是一本日記，講述一個來自索馬利亞、搬到英國生活的男孩的青少年生活。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "It deals with the serious issue of immigration and all the challenges the boy has to face at school and with the language barrier, etc.",
+        "zh": "它處理了移民這個嚴肅議題，以及男孩在學校和語言障礙等方面必須面對的各種挑戰。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "Usually, books like this are quite sad, but this one actually made me cry with laughter.",
+        "zh": "通常這類書會相當悲傷，但這本書其實讓我笑到流淚。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "On each page, there are simple but hilarious black and white stick drawings of the boy with his friends and teachers.",
+        "zh": "每一頁都有簡單但非常搞笑的黑白火柴人插圖，畫的是這個男孩和他的朋友及老師。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "At the end of each diary entry, there are new English words the boy learns each day, which may help develop some children's vocabulary.",
+        "zh": "每篇日記的最後都有男孩每天學到的新英文單字，這可能有助於擴展一些孩子的詞彙量。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "PRESENTER: I think my kids would enjoy that.",
+        "zh": "主持人：我想我的孩子們會喜歡那本書。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "What about any advice for parents on how to encourage their children to read more?",
+        "zh": "那麼，對於父母如何鼓勵孩子多閱讀，你有什麼建議嗎？",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "JENNY: Well, this is something I get asked about a lot.",
+        "zh": "Jenny：嗯，這是我常被問到的問題。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "There are so many distractions for kids these days that it can be hard to find time for reading.",
+        "zh": "如今孩子們有太多分心的事物， 所以很難找到時間閱讀。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "One thing I'd say is to make time to sit down with your child and share books with them.",
+        "zh": "我會建議的一件事是，抽出時間和孩子坐下來，一起分享書籍。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "A lot of parents give up reading aloud to their children as soon as they learn to read independently, but this is a mistake.",
+        "zh": "很多父母在孩子學會獨立閱讀後，就停止朗讀給孩子聽，但這是個錯誤。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "It's good to read more advanced books to them as it helps to develop their vocabulary.",
+        "zh": "讀較進階的書給孩子聽是有益的，因為這能幫助他們發展詞彙量。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "If you don't have time for this, then let them listen to audio books.",
+        "zh": "如果你沒有時間這樣做，那就讓他們聽有聲書。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "Often, they'll want to read books they've listened to for themselves.",
+        "zh": "通常，他們會想自己閱讀曾經聽過的書。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-036"
+      },
+      {
+        "en": "I think it's a good idea to make a mental note of the type of books your child is reading – often they just read the same genre all the time, which can get a bit boring.",
+        "zh": "我認為可以在心裡記下孩子正在讀哪類書——他們常常一直讀同一類型，這可能會有點無聊。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-037"
+      },
+      {
+        "en": "You can introduce new authors and genres to them.",
+        "zh": "你可以向他們介紹新的作者和類型。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-038"
+      },
+      {
+        "en": "Librarians should be able to help you with this.",
+        "zh": "圖書館員應該能在這方面幫上忙。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-039"
+      },
+      {
+        "en": "PRESENTER: Well Jenny, I think that's really useful...",
+        "zh": "主持人：Jenny，我覺得這些真的很有用……",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-040"
+      }
+    ],
+    "3": [
+      {
+        "en": "CLARE: Hi Jake. How are you getting on with the practical teaching?",
+        "zh": "Clare：嗨，Jake。你的實習教學進展如何？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "JAKE: It's harder than I expected, but I've got some great classes. How about you?",
+        "zh": "Jake：比我想像中難，但我有幾個很棒的班級。你呢？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "CLARE: Not brilliant. I'm really struggling with my Year 12 science class.",
+        "zh": "Clare：不太好。我在 12 年級科學課上真的很吃力。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "JAKE: Are they hard to control?",
+        "zh": "Jake：他們很難管理嗎？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "CLARE: Well, I don't have discipline problems as such.",
+        "zh": "Clare：嗯，倒不是紀律問題。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "It's just that they don't seem to think that science has anything to do with their lives. It's depressing.",
+        "zh": "只是他們似乎不覺得科學和他們的生活有任何關係。這讓人很沮喪。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "They listen to what I say, and I gave them a test last week and the results weren't too bad, but there's no real engagement.",
+        "zh": "他們會聽我講，我上週也給他們做了測驗，成績不算太差，但他們沒有真正投入。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "JAKE: Right.",
+        "zh": "Jake：明白。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "CLARE: And as part of my teaching practice, I have to design an experiment for them to do.",
+        "zh": "Clare：而且作為教學實習的一部分，我必須設計一個實驗讓他們做。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "I was wondering about something on the children's diets... you know, asking them to record what they eat and maybe linking it to their state of health.",
+        "zh": "我在想是否可以做和孩子飲食有關的東西……比如讓他們記錄自己吃了什麼，也許再和健康狀況聯繫起來。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "JAKE: Mmm. Let's think. So your methodology would involve the children recording what they eat.",
+        "zh": "Jake：嗯。讓我們想想。所以你的方法會包括讓孩子們記錄他們吃了什麼。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "OK, but you'd also need to have access to the children's medical records and I don't think people would be happy about that; confidentiality would be an issue.",
+        "zh": "好，但你還需要取得孩子們的醫療紀錄，我想大家不會願意； 保密性會是個問題。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "If you could get the right data, the conclusions might be significant, but I suspect it's not going to be easy.",
+        "zh": "如果你能取得正確資料，結論可能很有意義，但我覺得這不會容易。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "CLARE: Right.",
+        "zh": "Clare：對。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "JAKE: Have you thought about doing an experiment using animals?",
+        "zh": "Jake：你有想過用動物做實驗嗎？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "CLARE: Wouldn't that be upsetting for the children?",
+        "zh": "Clare：那不會讓孩子們難過嗎？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "JAKE: Well, the animals don't have to be harmed in any way.",
+        "zh": "Jake：嗯，動物不必受到任何傷害。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "It could just be an experiment where they're given a certain diet and the effects are observed.",
+        "zh": "可以只是給牠們某種特定飲食，然後觀察效果。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "CLARE: Would I have to get permission to use animals?",
+        "zh": "Clare：使用動物需要取得許可嗎？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "JAKE: Yes, you'd have to submit an outline of the experiment and fill in a form, but it's quite straightforward.",
+        "zh": "Jake：需要，你得提交一份實驗概要並填表，但流程相當簡單。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "CLARE: But if we found out that, say, a particular diet affects the health of animals, the same thing wouldn't necessarily be true for people, would it?",
+        "zh": "Clare：但如果我們發現某種特定飲食會影響動物健康，同樣情況不一定適用於人類，對吧？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "JAKE: No that's true, but the findings for any experiment are going to be limited. It's inevitable.",
+        "zh": "Jake：對，這是真的，但任何實驗的結果都會有局限性。這是不可避免的。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "CLARE: I suppose so. So what animals could I use to investigate the effects of diet? Mice?",
+        "zh": "Clare：我想也是。那我可以用什麼動物來研究飲食影響？小鼠嗎？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "JAKE: Yes. You'd need experimental mice – ones that have been specially bred for experiments.",
+        "zh": "Jake：是的。你需要實驗小鼠 ——也就是專門為實驗培育的小鼠。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "OK, so what will your experiment be investigating exactly?",
+        "zh": "好，那你的實驗具體要研究什麼？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "CLARE: Well, something to do with nutrition.",
+        "zh": "Clare：嗯，和營養有關的東西。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "So maybe we could look at food supplements... things like extra iron and extra protein, and their impact on health.",
+        "zh": "也許我們可以研究食品補充劑 ……像額外的鐵、額外的蛋白質，以及它們對健康的影響。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "JAKE: Mmm. That might be rather broad. Maybe just look at the effects of one supplement, like sugar, on the health of the mice?",
+        "zh": "Jake：嗯。那可能太廣了。也許只研究一種補充物，例如糖，對小鼠健康的影響？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "CLARE: In fact, maybe the focus could be on whether mice can control their own diet...",
+        "zh": "Clare：其實，也許重點可以放在小鼠是否能控制自己的飲食 ……",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "JAKE: So, what happens when they have access to more sugar, that they don't really need?",
+        "zh": "Jake：也就是說，當牠們可以取得更多其實不需要的糖時，會發生什麼？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "CLARE: Exactly. Do they eat it or do they decide to leave it?",
+        "zh": "Clare：沒錯。牠們會吃掉，還是會選擇不吃？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "JAKE: Great. Then later on, you could do a follow-up experiment adding another variable.",
+        "zh": "Jake：太好了。之後你可以做後續實驗，加入另一個變項。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "Like, you could give some of the mice the chance to be more active, running on a wheel or something, and the others just sit around and don't do much.",
+        "zh": "比如，你可以讓部分小鼠有機會更活躍，例如在滾輪上跑，而其他小鼠只是待著，不做太多活動。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "CLARE: Or I could repeat the experiment but change the type of food I provided... or use mice with a different genetic structure.",
+        "zh": "Clare：或者我可以重複這個實驗，但改變提供的食物種類…… 或者使用不同基因結構的小鼠。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "But I think your idea would be more interesting, I might think about that some more.",
+        "zh": "不過我覺得你的想法更有趣， 我可能會再多考慮一下。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "CLARE: So can I talk through a possible procedure for the experiment where mice are given a sugar supplement?",
+        "zh": "Clare：那我可以說一下讓小鼠攝取糖補充物的可能實驗流程嗎？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "JAKE: Sure. I did a similar experiment in college actually.",
+        "zh": "Jake：當然。其實我在大學時做過類似的實驗。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "CLARE: Great. So how many mice would I need?",
+        "zh": "Clare：太好了。那我需要多少隻小鼠？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "JAKE: I'd say about 12. And all young ones, not a mixture of old and young.",
+        "zh": "Jake：我會說大約 12 隻。而且都要年輕小鼠，不能老鼠和幼鼠混在一起。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "CLARE: OK. And I'd need two groups of equal sizes, so six in each group. And how would I tell them apart?",
+        "zh": "Clare：好的。我需要兩組大小相同的組別，所以每組六隻。那我要怎麼區分牠們？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "I suppose I could put some sort of tag on one group... or just mark them in some way?",
+        "zh": "我想可以在其中一組身上放某種標籤……或者用某種方式做標記？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "JAKE: You could use food colouring, that wouldn't hurt them.",
+        "zh": "Jake：你可以用食用色素，那不會傷害牠們。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "CLARE: Perfect. Then each group would go into a separate cage, and one group, let's call them group A, would be the control group.",
+        "zh": "Clare：太好了。然後每組放進不同籠子，其中一組，我們叫它 A 組，作為對照組。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "So they'd just have ordinary mouse food. I suppose you can buy that?",
+        "zh": "所以牠們只吃普通小鼠飼料。 我想那買得到吧？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "JAKE: Yes, it comes in dry pellets.",
+        "zh": "Jake：買得到，是乾顆粒狀的。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "CLARE: And the other group would have the same as the first group, but they'd also have the extra sugar.",
+        "zh": "Clare：另一組則和第一組吃一樣的東西，但另外有額外的糖。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "JAKE: Would you just give them straight sugar?",
+        "zh": "Jake：你會直接給牠們糖嗎？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "CLARE: It might be better to give them something like cereal with it.",
+        "zh": "Clare：也許給牠們像麥片這類東西會比較好。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "JAKE: Mmm. Then you'd need to weigh the mice, I should think once a week. And you'd need an electronic balance.",
+        "zh": "Jake：嗯。然後你需要給小鼠稱重，我想每週一次。你還需要一個電子天平。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "CLARE: But we can't hold them on the balance, or it'd affect the reading.",
+        "zh": "Clare：但我們不能抓著牠們放在天平上，否則會影響讀數。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "JAKE: Exactly. So you need something called a weighing chamber to stop the mice from running away.",
+        "zh": "Jake：沒錯。所以你需要一個叫稱重室的東西，防止小鼠跑掉。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "It sounds complicated, but actually you can just use a plastic box with holes in the top.",
+        "zh": "聽起來很複雜，但其實你只需要用一個頂部有洞的塑膠盒。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "CLARE: OK. So once we've measured the weight gain of each mouse we can work out the average for each group, as well as the standard deviation.",
+        "zh": "Clare：好的。一旦我們測量了每隻小鼠的體重增加量，就可以計算每組平均值，以及標準差。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "And then see where we go from there. That sounds cool, I think the students will enjoy it.",
+        "zh": "然後再看看接下來怎麼做。這聽起來很棒，我覺得學生們會喜歡。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "JAKE: Yes. One thing...",
+        "zh": "Jake：是的。還有一件事……",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-055"
+      }
+    ],
+    "4": [
+      {
+        "en": "In today's lecture, I'm going to be talking about microplastics.",
+        "zh": "在今天的講座中，我要談談微塑膠。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "Microplastics are tiny pieces of plastic smaller than five millimetres in size.",
+        "zh": "微塑膠是指尺寸小於五毫米的微小塑膠碎片。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "Recently there's been a greater awareness that there are large quantities of plastic waste – big and small – in the environment.",
+        "zh": "近年來，人們越來越意識到環境中存在大量塑膠廢棄物，不論大小。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "The amount of plastic waste in the oceans has received widespread attention, but far less is known about the effects of microplastics in freshwater and particularly in soil.",
+        "zh": "海洋中的塑膠廢棄物數量已受到廣泛關注，但人們對淡水中，尤其是土壤中微塑膠的影響了解得少得多。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "Microplastics can enter the environment via a number of different sources.",
+        "zh": "微塑膠可以透過多種不同來源進入環境。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "Threads and microfibres detach from synthetic clothing every time they're put in a washing machine, and these find their way into the water system.",
+        "zh": "合成衣物每次放進洗衣機清洗時，都會脫落線頭和微纖維，而這些會進入水系統。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "Other sources include big pieces of plastic waste that are already in the environment, and these break down into microscopic particles over a period of time.",
+        "zh": "其他來源包括已存在於環境中的大型塑膠廢棄物，這些會在一段時間後分解成微小顆粒。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "On a larger scale, factory waste is another route, as are tyres which wear down as cars, lorries and so on travel along road surfaces.",
+        "zh": "從更大規模來看，工廠廢棄物是另一個來源；汽車、卡車等在路面行駛時磨損的輪胎也是來源之一。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "We already understand some of the impacts of microplastics from studies involving fish and other animals.",
+        "zh": "透過涉及魚類和其他動物的研究，我們已經了解微塑膠的一些影響。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "There is evidence that microplastics harm small creatures in a variety of ways, such as by damaging their mouths, or by impairing their ability to feed, for example when microplastics get lodged in their digestive system.",
+        "zh": "有證據顯示，微塑膠會以多種方式傷害小型生物，例如損傷牠們的口腔，或影響牠們進食的能力，例如微塑膠卡在消化系統中時。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "Surprisingly perhaps, it is likely that humans consume microplastics, as these have been detected in a wide range of food and drink products, including bottled water, as well as in water that comes direct from the tap.",
+        "zh": "或許令人驚訝的是，人類很可能也攝入微塑膠，因為在多種食物和飲品中都檢測到了微塑膠，包括瓶裝水以及直接來自水龍頭的自來水。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "What's more, salt and many kinds of seafood have also been found to contain microplastics.",
+        "zh": "此外，鹽和多種海鮮也被發現含有微塑膠。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "However, it's important to underline that there is not yet conclusive proof that microplastics cause significant harm to people.",
+        "zh": "不過，必須強調的是，目前尚無確鑿證據證明微塑膠會對人體造成重大傷害。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "In many countries, including here in the UK, there is legislation which prevents manufacturers from adding plastic microbeads to shower gels, facial cleansers and toothpaste.",
+        "zh": "在許多國家，包括英國，都有法律禁止製造商在沐浴乳、洗面乳和牙膏中添加塑膠微珠。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "It is very difficult to accurately estimate the total amount of microplastic particles in the soil as they can be hard to detect, but we do know they are carried in the air and deposited in the soil by rain.",
+        "zh": "要準確估計土壤中微塑膠顆粒的總量非常困難，因為它們很難被檢測到；但我們知道它們會透過空氣傳播，並被雨水帶入土壤。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "What's more, many of the fertilisers used by both farmers and gardeners contain microplastics.",
+        "zh": "此外，農民和園丁使用的許多肥料也含有微塑膠。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "A team from the Anglia Ruskin University in Cambridge has carried out a study of the effects of microplastics on the digestive tracts of earthworms.",
+        "zh": "劍橋 Anglia Ruskin University 的一個團隊進行了一項研究， 探討微塑膠對蚯蚓消化道的影響。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "These worms, which live in topsoil, are an essential component of our agricultural system.",
+        "zh": "這些生活在表土中的蚯蚓，是我們農業系統的重要組成部分。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "By feeding on soil, they mix nutrients into it, thereby making it more fertile.",
+        "zh": "牠們以土壤為食，並把養分混入土壤中，使土壤更加肥沃。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "The researchers set out to discover whether the introduction of microplastics into the soil – and the subsequent ingestion of these by earthworms – would impact soil quality and ultimately inhibit plant growth.",
+        "zh": "研究人員試圖了解，將微塑膠引入土壤，以及蚯蚓隨後攝入這些微塑膠，是否會影響土壤品質，並最終抑制植物生長。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "The short answer was, yes, it did.",
+        "zh": "簡短答案是：會。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "After placing three different types of microplastic particles into the soil, they planted perennial rye grass.",
+        "zh": "他們將三種不同類型的微塑膠顆粒放入土壤後，種下多年生黑麥草。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "The particles of microplastic, which included biodegradable PLA and conventional high-density polyethylene, or HDPE, were then ingested by the earthworms in the soil.",
+        "zh": "這些微塑膠顆粒包括可生物降解的 PLA，以及傳統高密度聚乙烯，也就是 HDPE；它們隨後被土壤中的蚯蚓攝入。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "The result was that the worms lost weight rapidly.",
+        "zh": "結果是蚯蚓體重迅速下降。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "What's more, a lower percentage than normal of the rye grass seeds germinated, and the researchers concluded that this was a direct result of the earthworms being unable to fulfil their normal role in making soil more fertile.",
+        "zh": "此外，黑麥草種子的發芽比例低於正常水平，研究人員認為，這是蚯蚓無法正常發揮使土壤更肥沃作用的直接結果。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "The team also discovered that there was an increase in the amount of acid found in the soil, and this was attributed mainly to the microplastic particles from conventional HDPE plastic.",
+        "zh": "團隊還發現土壤中的酸含量增加，這主要歸因於傳統 HDPE 塑膠中的微塑膠顆粒。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "The conclusions of the study make for very interesting reading – I've included the reference in the notes to give you at the end of this session.",
+        "zh": "這項研究的結論非常值得一讀——我已把參考資料放進課程結束時會發給你們的筆記裡。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "To summarise, the authors proposed the idea that we need to regard soil as we would regard any other process in nature.",
+        "zh": "總而言之，作者提出一個觀點：我們需要像看待自然界中其他過程一樣看待土壤。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "This means we should accept the implications of soil being dependent on decaying and dead matter constantly being passed through the bodies of earthworms.",
+        "zh": "這意味著我們應該理解土壤依賴腐爛和死亡物質不斷通過蚯蚓身體這一過程所帶來的意義。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "That is, when soil becomes impoverished by the presence of microplastics, not only ecosystems but also the whole of society are negatively impacted.",
+        "zh": "也就是說，當土壤因微塑膠存在而變得貧瘠時，不僅生態系統，整個社會也會受到負面影響。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-030"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "harbour / harbor",
+      "explanation": "題目寫： “Kite Place — near the _____” 錄音說： “there are plenty of places to buy food in Kite Place – it's the area by the harbour.” “by the harbour” = near the harbour，所以答案是 harbour。 英式拼法 harbour 和美式拼法 harbor 都可接受。題目問 Kite Place 靠近哪個地方，因此不需要填 food shops 或 market。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "2": {
+      "answer": "bridge",
+      "explanation": "題目寫： “Fish market — cross the _____ and turn right” 錄音說： “you have to go over the bridge and then it's on the right.” “go over the bridge” 就是 cross the bridge；後面的 “on the right” 也對應題目的 turn right。 所以答案是 bridge。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "3": {
+      "answer": "3:30",
+      "explanation": "題目寫： “best to go before _____ p.m., earlier than closing time” 錄音先說： “It doesn't close until four” 接著補充： “As long as you get there by 3.30, you should be fine.” 題目特別要求「比關門時間早」的最佳到達時間，因此答案是 3:30。 中伏位：4:00 是 closing time；題目已經提醒 “earlier than closing time”，所以不能直接抄 4。答案也可寫 three thirty / half three。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "4": {
+      "answer": "Rose",
+      "explanation": "題目寫： “Organic shop — called ‘_____’” 錄音說： “it's the name of a flower. I know, it's ‘Rose’.” 所以店名就是 Rose。 前面的 “the name of a flower” 是幫助記憶的線索，真正的店名在後面直接給出。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "5": {
+      "answer": "sign",
+      "explanation": "題目寫： “look for the large _____ outside” 錄音說： “there's also a big sign on the pavement so you can look for that.” big = large；on the pavement 說明它在店外，因此答案是 sign。 中伏位：grey building 也是找店的重要地標，但題目這一格問的是「外面有一個很大的甚麼」，所以填 sign。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "6": {
+      "answer": "purple",
+      "explanation": "題目寫： “take a _____ minibus, number 289” 錄音說： “It's purple and the number is 289.” 289 已經印在題目中，所以空格問的是 minibus 的顏色。 答案是 purple，作形容詞修飾 minibus。",
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    "7": {
+      "answer": "samphire",
+      "explanation": "圖片題目寫： “Fish market — a handful of _____ (type of seaweed)” 錄音說： “Have you ever tried samphire?” 之後解釋： “It's a type of seaweed. I just ask for a handful…” 題目的兩個線索 “a handful of” 和 “type of seaweed” 都直接對應錄音，所以答案是 samphire。 而且錄音逐字母拼出： “S-A-M-P-H-I-R-E.” 因此拼字要特別準確。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "8": {
+      "answer": "melon",
+      "explanation": "題目寫： “Organic shop — beans and a _____ for dessert” 錄音中 Leon 先提議： “How about a mango?” Shannon 對 mango 有保留： “they're not always ripe.” 接著說： “I'd prefer a melon.” 所以她最後選的是 melon。 中伏位：mango 先出現，但 Shannon 沒有採納。題目記錄的是 shopping plan 的最終選擇，因此填 melon。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "9": {
+      "answer": "coconut",
+      "explanation": "題目寫： “Organic shop — spices and _____” 錄音說： “The owner also sells a lot of spices there … and things like coconut.” 題目直接把這兩項並列： spices and coconut 所以答案是 coconut。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "10": {
+      "answer": "strawberry",
+      "explanation": "題目寫： “Bakery — a _____ tart” Shannon 先問： “Like cakes? I love chocolate cake.” Leon 說 bakery 沒有她說的那種蛋糕，接著介紹： “they have a whole range of tarts and the best are the strawberry ones.” 因此推薦的是 strawberry tart。 答案是 strawberry。 中伏位：chocolate 出現在前面，但它修飾 cake；題目空格後已經有 tart，而且錄音明確推薦 strawberry ones。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "11": {
+      "answer": "C — is aimed at children with a disability",
+      "explanation": "題目活動是 Superheroes。 錄音說： “This is a chance for deaf children to share their reading experiences with author Madeleine Gordon, who is herself hearing impaired.” deaf children = 有聽覺障礙的兒童，因此這個 workshop 是針對有特定 disability 的孩子。 所以答案是 C。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "12": {
+      "answer": "D — involves a drama activity",
+      "explanation": "題目活動是 Just do it。 錄音說： “with an opportunity for aspiring actors to do some role play.” role play 是角色扮演，屬於 drama activity。 因此答案是 D。 中伏位：活動由 illustrator 主持，但錄音沒有說要畫畫；真正描述參加者要做的活動是 role play。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "13": {
+      "answer": "F — is aimed at a specific age group",
+      "explanation": "題目活動是 Count on me。 錄音說： “an inspiring and entertaining look at the issues of friendship for 13–14-year-olds.” 13–14-year-olds 是很明確的年齡範圍，所以這個 workshop 針對特定 age group。 答案是 F。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "14": {
+      "answer": "G — explores an unhappy feeling",
+      "explanation": "題目活動是 Speak up。 錄音說它是 mental health workshop，並鼓勵孩子描述： “situations where young people experience loneliness.” loneliness 是孤獨感，屬於 unhappy feeling。 所以答案是 G。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "15": {
+      "answer": "B — will be led by a prize-winning author",
+      "explanation": "題目活動是 Jump for joy。 錄音介紹這本書是 Nina Karan 的作品，並說： “It recently received the gold medal at the Waterford Awards.” 之後： “Nina will get children to … write a poem.” 因此 workshop 會由 Nina Karan 帶領，而她的作品剛獲得金獎，符合 prize-winning author 的描述。 答案是 B。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "16": {
+      "answer": "H — raises awareness of a particular culture",
+      "explanation": "題目活動是 Sticks and stones。 錄音說故事描寫： “an African-Caribbean festival to help local children learn about their Jamaican roots.” 活動中孩子還會玩 steel drums。 Jamaican roots、African-Caribbean festival 都直接涉及特定文化背景，所以答案是 H。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "17": {
+      "answer": "D and E",
+      "explanation": "題目問：Jenny 為甚麼推薦 Alive and Kicking。 D — It is funny Jenny 說這類題材通常比較傷感： “but this one actually made me cry with laughter.” 她又形容插圖： “simple but hilarious” “cry with laughter” 和 hilarious 都表示非常好笑，所以 D 正確。 E — It deals with an important topic Jenny 說： “It deals with the serious issue of immigration” 還涉及 school challenges 和 language barrier。 serious issue = important topic，因此 E 正確。 中伏位：作者是第一次出書，所以 B “well known” 不合；插圖是黑白 stick drawings，沒有 colour，所以 C 也不合。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "18": {
+      "answer": "D and E",
+      "explanation": "題目問：Jenny 為甚麼推薦 Alive and Kicking。 D — It is funny Jenny 說這類題材通常比較傷感： “but this one actually made me cry with laughter.” 她又形容插圖： “simple but hilarious” “cry with laughter” 和 hilarious 都表示非常好笑，所以 D 正確。 E — It deals with an important topic Jenny 說： “It deals with the serious issue of immigration” 還涉及 school challenges 和 language barrier。 serious issue = important topic，因此 E 正確。 中伏位：作者是第一次出書，所以 B “well known” 不合；插圖是黑白 stick drawings，沒有 colour，所以 C 也不合。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "19": {
+      "answer": "B and C",
+      "explanation": "題目問：Jenny 給家長哪兩項閱讀建議。 B — Allow children to listen to audio books Jenny 說： “If you don't have time for this, then let them listen to audio books.” 這與選項 B 幾乎完全一致，所以 B 正確。 她還補充，孩子聽過後往往會想自己閱讀同一本書。 C — Get recommendations from librarians Jenny 建議家長替孩子介紹新的 authors 和 genres，然後說： “Librarians should be able to help you with this.” 因此可向 librarians 尋求書籍和作者建議，答案是 C。 中伏位：E 的方向和錄音相反。Jenny 認為孩子即使已經能獨立閱讀，父母仍可繼續讀較進階的書給他們聽；太早停止朗讀被她稱為 “a mistake”。",
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    "20": {
+      "answer": "B and C",
+      "explanation": "題目問：Jenny 給家長哪兩項閱讀建議。 B — Allow children to listen to audio books Jenny 說： “If you don't have time for this, then let them listen to audio books.” 這與選項 B 幾乎完全一致，所以 B 正確。 她還補充，孩子聽過後往往會想自己閱讀同一本書。 C — Get recommendations from librarians Jenny 建議家長替孩子介紹新的 authors 和 genres，然後說： “Librarians should be able to help you with this.” 因此可向 librarians 尋求書籍和作者建議，答案是 C。 中伏位：E 的方向和錄音相反。Jenny 認為孩子即使已經能獨立閱讀，父母仍可繼續讀較進階的書給他們聽；太早停止朗讀被她稱為 “a mistake”。",
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    "21": {
+      "answer": "C — frustrated at their lack of interest in the subject",
+      "explanation": "題目問 Clare 對 Year 12 science class 的感受。 她先澄清： “I don't have discipline problems as such.” 而學生測驗成績： “weren't too bad” 真正令她困擾的是： “they don't seem to think that science has anything to do with their lives” 以及： “there's no real engagement.” 所以核心問題是學生對 science 缺乏興趣與投入，答案是 C。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "22": {
+      "answer": "B — some of the data might be difficult to obtain",
+      "explanation": "Clare 提議研究 children's diet 和 health。 Jake 指出： “you'd also need to have access to the children's medical records” 但： “confidentiality would be an issue.” 最後說： “If you could get the right data … I suspect it's not going to be easy.” 所以他的主要顧慮是取得必要資料可能很困難。 答案是 B。 中伏位：Jake 其實認為有了正確資料後，conclusions “might be significant”，所以 A 的「結果可能沒有意義」沒有得到支持。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "23": {
+      "answer": "A — Any results may not apply to humans",
+      "explanation": "題目問：兩人同意 animal experiment 有甚麼問題。 Clare 說： “if … a particular diet affects the health of animals, the same thing wouldn't necessarily be true for people” Jake 回應： “No that's true” 所以兩人都接受：動物身上的結果未必可以直接套用到人類。 答案是 A。 中伏位：permission 的確需要申請，但 Jake 說流程 “quite straightforward”；所以 B 的「取得許可很複雜」不合。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "24": {
+      "answer": "A — Are mice capable of controlling their food intake?",
+      "explanation": "兩人一開始討論 supplements，但 Clare 後來縮窄研究焦點： “maybe the focus could be on whether mice can control their own diet” Jake 進一步問： “what happens when they have access to more sugar…?” Clare 說： “Do they eat it or do they decide to leave it?” 所以真正研究問題是：小鼠是否能自行控制食物攝取。 答案是 A。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "25": {
+      "answer": "C — varying amounts of exercise",
+      "explanation": "Jake 建議 follow-up experiment 加入新變項： “give some of the mice the chance to be more active, running on a wheel … and the others just sit around” Clare 另外提出不同食物或不同 genetic structure，但最後說： “I think your idea would be more interesting, I might think about that some more.” 所以她最可能考慮的是改變 exercise level。 答案是 C。 你這次貼出的文字沒有顯示 flowchart 的完整框內句子，所以這五題我會依照錄音實驗流程 + 官方答案順序做證據分析，不自行補造看不到的題目文字。",
+      "sourcePages": [
+        63,
+        64
+      ]
+    },
+    "26": {
+      "answer": "C — age",
+      "explanation": "Jake 說需要大約 12 隻 mice，並特別要求： “all young ones, not a mixture of old and young.” 因此選擇實驗鼠時要控制 age，所有小鼠維持相近年齡。 所以答案是 C — age。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "27": {
+      "answer": "H — colour",
+      "explanation": "Clare 問如何區分兩組 mice。 她原先想到 tag，Jake 提議： “You could use food colouring, that wouldn't hurt them.” 因此區分兩組的方法是利用 colour 作標記。 答案是 H。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "28": {
+      "answer": "E — cereal",
+      "explanation": "實驗組除了普通 mouse food，還會得到 extra sugar。 Jake 問會否直接給糖，Clare 說： “It might be better to give them something like cereal with it.” 所以糖可和 cereal 一起提供。 答案是 E。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "29": {
+      "answer": "B — escape",
+      "explanation": "測量體重時，小鼠不能被手按住，否則會影響 reading。 Jake 建議用 weighing chamber： “to stop the mice from running away.” running away = escape，因此這個裝置的作用是防止小鼠逃走。 答案是 B — escape。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "30": {
+      "answer": "F — calculations",
+      "explanation": "完成每隻 mouse 的 weight gain 測量後，Clare 說： “we can work out the average for each group, as well as the standard deviation.” average 和 standard deviation 都屬於數據 calculations。 所以答案是 F。",
+      "sourcePages": [
+        65,
+        66
+      ]
+    },
+    "31": {
+      "answer": "clothing",
+      "explanation": "題目寫： “fibres from some _____ during washing” 錄音說： “Threads and microfibres detach from synthetic clothing every time they're put in a washing machine” 所以清洗時脫落微纖維的來源是 clothing。 答案是 clothing。 題目已經用 “some” 概括不同類型衣物，因此不用填 synthetic。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "32": {
+      "answer": "mouths",
+      "explanation": "題目寫： “They cause injuries to the _____ of wildlife” 錄音說 microplastics 會： “damage their mouths” 並可能進入 digestive system。 所以答案是 mouths。 題目後面已另外提到 digestive systems，所以這一格應填前面的身體部位。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "33": {
+      "answer": "salt",
+      "explanation": "題目寫： “They enter the food chain, e.g. in bottled and tap water, _____ and seafood.” 錄音先說 bottled water 和 tap water，接著： “What's more, salt and many kinds of seafood have also been found to contain microplastics.” 所以排列完全對應： water → salt → seafood 答案是 salt。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "34": {
+      "answer": "toothpaste",
+      "explanation": "題目寫： “already banned in skin cleaning products and _____ in some countries.” 錄音說法律禁止加入 plastic microbeads 到： “shower gels, facial cleansers and toothpaste.” 題目的 “skin cleaning products” 已經概括 shower gels + facial cleansers，剩下的另一類產品就是 toothpaste。 答案是 toothpaste。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "35": {
+      "answer": "fertilisers / fertilizers",
+      "explanation": "題目寫： “Microplastics enter the soil through the air, rain and _____.” 錄音先說它們會由 air 傳播、由 rain 沉積進土壤，之後補充： “many of the fertilisers used by both farmers and gardeners contain microplastics.” 因此第三個進入 soil 的來源是 fertilisers。 英式拼法 fertilisers、美式 fertilizers 都可接受。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "36": {
+      "answer": "nutrients",
+      "explanation": "題目寫： “Earthworms are important because they add _____ to the soil.” 錄音說： “By feeding on soil, they mix nutrients into it, thereby making it more fertile.” “mix nutrients into it” = add nutrients to the soil。 所以答案是 nutrients。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "37": {
+      "answer": "growth",
+      "explanation": "題目寫： “The study aimed to find whether microplastics in earthworms affect the _____ of plants.” 錄音說研究想知道這種情況是否： “ultimately inhibit plant growth.” inhibit plant growth = negatively affect the growth of plants。 所以答案是 growth。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "38": {
+      "answer": "weight",
+      "explanation": "題目寫： “microplastics caused: _____ loss in earthworms” 錄音給出的研究結果是： “the worms lost weight rapidly.” lost weight → weight loss 所以答案是 weight。 這是典型的動詞片語轉名詞搭配： lost weight → weight loss",
+      "sourcePages": [
+        69
+      ]
+    },
+    "39": {
+      "answer": "acid",
+      "explanation": "題目寫： “a rise in the level of _____ in the soil.” 錄音說： “there was an increase in the amount of acid found in the soil” increase = rise；amount / level 在這裡都表示含量。 所以答案是 acid。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "40": {
+      "answer": "society",
+      "explanation": "題目寫： “changes to soil damage both ecosystems and _____.” 錄音總結： “when soil becomes impoverished … not only ecosystems but also the whole of society are negatively impacted.” “are negatively impacted” = are damaged；“the whole of society” 在題目中簡化成 society。 所以答案是 society。",
+      "sourcePages": [
+        70
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 346.5926875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%207%20Part%201.mp3",
+        "audioSha256": "9a193ec455f20d8699335331b359101d9992367975e03fcdef445a3313293469",
+        "transcriptSha256": "64429019e96d7f4900722f512fe7cc1852b69d94ed51b2c73e70ac2d32b76230",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9956,
+        "lines": [
+          {
+            "start": 50.36,
+            "end": 53.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.24,
+            "end": 55.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.02,
+            "end": 57.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 57.76,
+            "end": 64.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 64.32,
+            "end": 70.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 71.46,
+            "end": 75.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.3,
+            "end": 78.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.88,
+            "end": 82.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 83.04,
+            "end": 85.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 85.76,
+            "end": 88.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 89.1,
+            "end": 96.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.9,
+            "end": 99.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.12,
+            "end": 107.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.64,
+            "end": 109.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 109.74,
+            "end": 117.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.16,
+            "end": 117.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.24,
+            "end": 120.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.92,
+            "end": 125.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 125.74,
+            "end": 135.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.18,
+            "end": 137.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 137.56,
+            "end": 141.12,
+            "coverage": 1.0,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Focused window separates Yeah from the preceding speaker's nice name."
+          },
+          {
+            "start": 141.42,
+            "end": 142.22,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 142.64,
+            "end": 149.68,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 150.7,
+            "end": 160.0,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 160.78,
+            "end": 161.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.98,
+            "end": 168.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 168.16,
+            "end": 173.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.66,
+            "end": 182.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 182.3,
+            "end": 185.34,
+            "coverage": 0.8846
+          },
+          {
+            "start": 186.36,
+            "end": 188.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.14,
+            "end": 228.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 228.92,
+            "end": 232.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 232.7,
+            "end": 237.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 238.3,
+            "end": 239.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 239.82,
+            "end": 240.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 240.92,
+            "end": 242.74,
+            "coverage": 0.875
+          },
+          {
+            "start": 243.36,
+            "end": 244.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 245.3,
+            "end": 252.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.98,
+            "end": 256.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 257.12,
+            "end": 266.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.7,
+            "end": 269.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 270.36,
+            "end": 270.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.02,
+            "end": 277.82,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 278.42,
+            "end": 279.64,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 280.24,
+            "end": 283.58,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 284.24,
+            "end": 286.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.26,
+            "end": 296.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.8,
+            "end": 299.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.1,
+            "end": 300.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.26,
+            "end": 307.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 307.04,
+            "end": 314.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 314.98,
+            "end": 316.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 316.94,
+            "end": 318.68,
+            "coverage": 0.9259
+          },
+          {
+            "start": 318.76,
+            "end": 322.48,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 322.48,
+            "end": 330.98,
+            "coverage": 0.9714,
+            "refined": true
+          },
+          {
+            "start": 331.42,
+            "end": 335.54,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      },
+      "2": {
+        "duration": 366.5501875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%207%20Part%202.mp3",
+        "audioSha256": "258d538db1f5abf5ae9571a51dce19da723075a23e674b3903807ad17b57cdaf",
+        "transcriptSha256": "314014d4a1ed270d9554ec6557f8742cfab2bb63c0ad58b8714b6a9ff087daa9",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9977,
+        "lines": [
+          {
+            "start": 53.12,
+            "end": 60.98,
+            "coverage": 0.9902
+          },
+          {
+            "start": 61.82,
+            "end": 64.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 64.86,
+            "end": 75.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.12,
+            "end": 84.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 84.62,
+            "end": 93.6,
+            "coverage": 0.9909
+          },
+          {
+            "start": 94.64,
+            "end": 100.76,
+            "coverage": 0.9846
+          },
+          {
+            "start": 101.28,
+            "end": 109.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.68,
+            "end": 118.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.96,
+            "end": 126.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.58,
+            "end": 133.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.94,
+            "end": 141.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.72,
+            "end": 148.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 149.96,
+            "end": 160.42,
+            "coverage": 0.9916
+          },
+          {
+            "start": 161.26,
+            "end": 164.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 165.78,
+            "end": 170.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.44,
+            "end": 183.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 184.54,
+            "end": 189.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 190.54,
+            "end": 195.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.72,
+            "end": 235.62,
+            "coverage": 0.9268
+          },
+          {
+            "start": 236.58,
+            "end": 241.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.28,
+            "end": 247.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 248.06,
+            "end": 252.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.92,
+            "end": 258.54,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 259.18,
+            "end": 267.4,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 268.38,
+            "end": 274.38,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 275.52,
+            "end": 281.54,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 282.5,
+            "end": 290.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.54,
+            "end": 293.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.78,
+            "end": 298.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.94,
+            "end": 302.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.9,
+            "end": 308.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.22,
+            "end": 314.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 314.82,
+            "end": 321.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 322.46,
+            "end": 326.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.42,
+            "end": 331.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.46,
+            "end": 335.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 336.62,
+            "end": 346.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 347.22,
+            "end": 349.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 350.62,
+            "end": 352.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.34,
+            "end": 354.98,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 419.6049375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%207%20Part%203.mp3",
+        "audioSha256": "710703cd3b6b153a0814c4ae965b2cb6cdaf69947649d0b4b58209486d2da08e",
+        "transcriptSha256": "8037ba8564acb51b5f70b4f45938fee300c280494362ddf6dac51ed61e35dc0b",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9971,
+        "lines": [
+          {
+            "start": 59.48,
+            "end": 63.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 63.88,
+            "end": 68.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.72,
+            "end": 73.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 73.92,
+            "end": 75.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.62,
+            "end": 78.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 79.02,
+            "end": 83.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 84.68,
+            "end": 92.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.84,
+            "end": 93.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 94.0,
+            "end": 98.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 99.48,
+            "end": 107.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.86,
+            "end": 114.06,
+            "coverage": 0.9583
+          },
+          {
+            "start": 114.56,
+            "end": 124.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 125.62,
+            "end": 133.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.5,
+            "end": 133.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.32,
+            "end": 137.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 137.12,
+            "end": 139.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.18,
+            "end": 143.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.12,
+            "end": 149.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 149.84,
+            "end": 152.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 152.64,
+            "end": 159.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 160.46,
+            "end": 168.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 169.0,
+            "end": 174.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 175.36,
+            "end": 182.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 182.8,
+            "end": 188.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 190.0,
+            "end": 194.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 195.0,
+            "end": 197.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 198.08,
+            "end": 204.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 205.7,
+            "end": 214.02,
+            "coverage": 0.9681
+          },
+          {
+            "start": 214.76,
+            "end": 219.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 220.22,
+            "end": 224.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 224.82,
+            "end": 228.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 228.94,
+            "end": 234.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 235.32,
+            "end": 244.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 244.98,
+            "end": 252.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 253.84,
+            "end": 258.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.74,
+            "end": 306.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 307.4,
+            "end": 310.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.98,
+            "end": 313.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 314.58,
+            "end": 320.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.52,
+            "end": 329.36,
+            "coverage": 0.9863
+          },
+          {
+            "start": 329.9,
+            "end": 335.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 336.14,
+            "end": 338.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 339.02,
+            "end": 347.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.36,
+            "end": 352.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.76,
+            "end": 354.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 354.46,
+            "end": 359.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 360.4,
+            "end": 362.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.7,
+            "end": 365.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.14,
+            "end": 373.22,
+            "coverage": 0.9625
+          },
+          {
+            "start": 373.9,
+            "end": 377.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 377.9,
+            "end": 383.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 384.3,
+            "end": 390.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 390.58,
+            "end": 399.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 400.04,
+            "end": 406.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 406.4,
+            "end": 407.96,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 392.071875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%207%20Part%204.mp3",
+        "audioSha256": "538a302ca1ddb37e3ba5559781bfb35d6f047f897668ac7ea8456e079f0ad85e",
+        "transcriptSha256": "cd1c98276193856f2f12d77efb018f0d7ec16fba1650b77c98d982a2d4a8735b",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9958,
+        "lines": [
+          {
+            "start": 70.44,
+            "end": 75.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.9,
+            "end": 82.58,
+            "coverage": 0.8657
+          },
+          {
+            "start": 83.58,
+            "end": 90.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.28,
+            "end": 104.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.74,
+            "end": 111.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.54,
+            "end": 122.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.74,
+            "end": 134.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 135.64,
+            "end": 146.2,
+            "coverage": 0.9717
+          },
+          {
+            "start": 147.92,
+            "end": 155.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 156.42,
+            "end": 172.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 174.86,
+            "end": 188.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 189.12,
+            "end": 195.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 196.88,
+            "end": 205.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 206.68,
+            "end": 219.1,
+            "coverage": 0.9932
+          },
+          {
+            "start": 220.0,
+            "end": 234.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 235.72,
+            "end": 242.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.3,
+            "end": 257.26,
+            "coverage": 0.9919
+          },
+          {
+            "start": 258.4,
+            "end": 264.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.14,
+            "end": 272.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 273.7,
+            "end": 286.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.88,
+            "end": 289.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.38,
+            "end": 297.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.44,
+            "end": 309.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.52,
+            "end": 313.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 314.26,
+            "end": 327.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 328.7,
+            "end": 340.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.28,
+            "end": 350.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 351.78,
+            "end": 359.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 360.74,
+            "end": 369.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 370.5,
+            "end": 380.82,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 64.32,
+        "line": 4,
+        "evidenceScore": 84.0
+      },
+      "2": {
+        "part": 1,
+        "time": 89.1,
+        "line": 10,
+        "evidenceScore": 64.0
+      },
+      "3": {
+        "part": 1,
+        "time": 109.74,
+        "line": 14,
+        "evidenceScore": 67.0
+      },
+      "4": {
+        "part": 1,
+        "time": 125.74,
+        "line": 18,
+        "evidenceScore": 51.0
+      },
+      "5": {
+        "part": 1,
+        "time": 161.98,
+        "line": 25,
+        "evidenceScore": 70.0
+      },
+      "6": {
+        "part": 1,
+        "time": 182.3,
+        "line": 28,
+        "evidenceScore": 46.0
+      },
+      "7": {
+        "part": 1,
+        "time": 240.92,
+        "line": 35,
+        "evidenceScore": 44.0
+      },
+      "8": {
+        "part": 1,
+        "time": 284.24,
+        "line": 45,
+        "evidenceScore": 34.0
+      },
+      "9": {
+        "part": 1,
+        "time": 287.26,
+        "line": 46,
+        "evidenceScore": 41.41
+      },
+      "10": {
+        "part": 1,
+        "time": 322.48,
+        "line": 54,
+        "evidenceScore": 76.0
+      },
+      "11": {
+        "part": 2,
+        "time": 84.62,
+        "line": 4,
+        "evidenceScore": 110.0
+      },
+      "12": {
+        "part": 2,
+        "time": 101.28,
+        "line": 6,
+        "evidenceScore": 50.0
+      },
+      "13": {
+        "part": 2,
+        "time": 110.68,
+        "line": 7,
+        "evidenceScore": 80.0
+      },
+      "14": {
+        "part": 2,
+        "time": 133.94,
+        "line": 10,
+        "evidenceScore": 46.0
+      },
+      "15": {
+        "part": 2,
+        "time": 161.26,
+        "line": 13,
+        "evidenceScore": 50.0
+      },
+      "16": {
+        "part": 2,
+        "time": 171.44,
+        "line": 15,
+        "evidenceScore": 73.0
+      },
+      "17": {
+        "part": 2,
+        "time": 268.38,
+        "line": 24,
+        "evidenceScore": 39.0
+      },
+      "18": {
+        "part": 2,
+        "time": 268.38,
+        "line": 24,
+        "evidenceScore": 39.0
+      },
+      "19": {
+        "part": 2,
+        "time": 327.42,
+        "line": 34,
+        "evidenceScore": 53.0
+      },
+      "20": {
+        "part": 2,
+        "time": 327.42,
+        "line": 34,
+        "evidenceScore": 53.0
+      },
+      "21": {
+        "part": 3,
+        "time": 79.02,
+        "line": 5,
+        "evidenceScore": 59.0
+      },
+      "22": {
+        "part": 3,
+        "time": 114.56,
+        "line": 11,
+        "evidenceScore": 52.0
+      },
+      "23": {
+        "part": 3,
+        "time": 160.46,
+        "line": 20,
+        "evidenceScore": 83.05
+      },
+      "24": {
+        "part": 3,
+        "time": 214.76,
+        "line": 28,
+        "evidenceScore": 55.0
+      },
+      "25": {
+        "part": 3,
+        "time": 253.84,
+        "line": 34,
+        "evidenceScore": 64.0
+      },
+      "26": {
+        "part": 3,
+        "time": 314.58,
+        "line": 38,
+        "evidenceScore": 36.0
+      },
+      "27": {
+        "part": 3,
+        "time": 336.14,
+        "line": 41,
+        "evidenceScore": 43.0
+      },
+      "28": {
+        "part": 3,
+        "time": 362.7,
+        "line": 47,
+        "evidenceScore": 50.0
+      },
+      "29": {
+        "part": 3,
+        "time": 377.9,
+        "line": 50,
+        "evidenceScore": 28.0
+      },
+      "30": {
+        "part": 3,
+        "time": 390.58,
+        "line": 52,
+        "evidenceScore": 62.0
+      },
+      "31": {
+        "part": 4,
+        "time": 112.54,
+        "line": 5,
+        "evidenceScore": 103.0
+      },
+      "32": {
+        "part": 4,
+        "time": 156.42,
+        "line": 9,
+        "evidenceScore": 20
+      },
+      "33": {
+        "part": 4,
+        "time": 189.12,
+        "line": 11,
+        "evidenceScore": 93.0
+      },
+      "34": {
+        "part": 4,
+        "time": 206.68,
+        "line": 13,
+        "evidenceScore": 58.0
+      },
+      "35": {
+        "part": 4,
+        "time": 235.72,
+        "line": 15,
+        "evidenceScore": 89.0
+      },
+      "36": {
+        "part": 4,
+        "time": 266.14,
+        "line": 18,
+        "evidenceScore": 83.0
+      },
+      "37": {
+        "part": 4,
+        "time": 273.7,
+        "line": 19,
+        "evidenceScore": 48.0
+      },
+      "38": {
+        "part": 4,
+        "time": 310.52,
+        "line": 23,
+        "evidenceScore": 45.0
+      },
+      "39": {
+        "part": 4,
+        "time": 328.7,
+        "line": 25,
+        "evidenceScore": 69.0
+      },
+      "40": {
+        "part": 4,
+        "time": 370.5,
+        "line": 29,
+        "evidenceScore": 63.19
+      }
+    }
+  }
+}

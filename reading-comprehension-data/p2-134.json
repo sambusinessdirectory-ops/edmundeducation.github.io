@@ -1,0 +1,287 @@
+{
+  "id": "p2-134",
+  "catalogueId": "p2-134",
+  "title": "TV Addiction",
+  "sourceHeading": "TV Addiction",
+  "passage": 2,
+  "practice": 134,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-134-tv-addiction",
+  "source": {
+    "filename": "Practice 134 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "35fd9f78c6b050ca144706bfbd007c95334060715f3533ced525fed37a0b0b52"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Excessive cravings do not necessarily involve physical substances. Gambling can become compulsive; sex can become obsessive. One activity, however, stands out for its prominence and ubiquity—the world’s most popular pastime, television. Most people admit to having a love-hate relationship with it. They complain about the “boob tube” and “couch potatoes,” then they settle into their sofas and grab the remote control. Parents commonly fret about their children’s viewing (if not their own). Even researchers who study TV for a living marvel at the medium’s hold on them personally. Percy Tannenbaum of the University of California at Berkeley has written: “Among life’s more embarrassing moments have been countless occasions when I am engaged in conversation in a room while a TV set is on, and I cannot for the life of me stop from periodically glancing over to the screen. This occurs not only during dull conversations but during reasonably interesting ones just as well.”"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Scientists have been studying the effects of television for decades, generally focusing on whether watching violence on TV correlates with being violent in real life. Less attention has been paid to the basic allure of the small screen—the medium, as opposed to the message."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The term “TV addiction” is imprecise and laden with value judgments, but it captures the essence of a very real phenomenon. Psychologists and psychiatrists formally define substance dependence as a disorder characterized by criteria that include spending a great deal of time using the substance; using it more often than one intends; thinking about reducing use or making repeated unsuccessful efforts to reduce use; giving up important social, family or occupational activities to use it; and reporting withdrawal symptoms when one stops using it."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "All these criteria can apply to people who watch a lot of television. That does not mean that watching television, in itself, is problematic. Television can teach and amuse; it can reach aesthetic heights; it can provide much-needed distraction and escape. The difficulty arises when people strongly sense that they ought not to watch as much as they do and yet find themselves strangely unable to reduce their viewing. Some knowledge of how the medium exerts its pull may help heavy viewers gain better control over their lives."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The amount of time people spend watching television is astonishing. On average, individuals in the industrialized world devote three hours a day to the pursuit—fully half of their leisure time, and more than on any single activity save work and sleep. At this rate, someone who lives to 75 would spend nine years in front of the tube. To some commentators, this devotion means simply that people enjoy TV and make a conscious decision to watch it. But if that is the whole story, why do so many people experience misgivings about how much they view? In Gallup polls in 1992 and 1999, two out of five adult respondents and seven out of 10 teenagers said they spent too much time watching TV. Other surveys have consistently shown that roughly 10 percent of adults call themselves TV addicts."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "What is it about TV that has such a hold on us? In part, the attraction seems to spring from our biological ‘orienting response.’ First described by Ivan Pavlov in 1927, the orienting response is our instinctive visual or auditory reaction to any sudden or novel stimulus. It is part of our evolutionary heritage, a built-in sensitivity to movement and potential predatory threats."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In 1986 Byron Reeves of Stanford University, Esther Thorson of the University of Missouri and their colleagues began to study whether the simple formal features of television—cuts, edits, zooms, pans, sudden noises—activate the orienting response, thereby keeping attention on the screen. By watching how brain waves were affected by formal features, the researchers concluded that these stylistic tricks can indeed trigger involuntary responses and ‘derive their attentional value through the evolutionary significance of detecting movement…. It is the form, not the content, of television that is unique.’"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The orienting response may partly explain common viewer remarks such as: “If a television is on, I just can’t keep my eyes off it,” “I don’t want to watch as much as I do, but I can’t help it,” and “I feel hypnotized when I watch television.” In the years since Reeves and Thorson published their pioneering work, researchers have delved deeper. Annie Lang’s research team at Indiana University has shown that heart rate decreases for four to six seconds after an orienting stimulus. In ads, action sequences and music videos, formal features frequently come at a rate of one per second, thus activating the orienting response continuously."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Lang and her colleagues have also investigated whether formal features affect people’s memory of what they have seen. In one of their studies, participants watched a program and then filled out a score sheet. Increasing the frequency of edits (defined here as a change from one camera angle to another in the same visual scene) improved memory recognition, presumably because it focused attention on the screen. Increasing the frequency of cuts—changes to a new visual scene—had a similar effect but only up to a point. If the number of cuts exceeded 10 in two minutes, recognition dropped off sharply."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Producers of educational television for children have found that formal features can help learning. But increasing the rate of cuts and edits eventually overloads the brain. Music videos and commercials that use rapid intercutting of unrelated scenes are designed to hold attention more than they are to convey information. People may remember the name of the product or band, but the details of the ad itself float in one ear and out the other. The orienting response is overworked. Viewers still attend to the screen, but they feel tired and worn out, with little compensating psychological reward. Our ESM findings show much the same thing."
+    },
+    {
+      "number": 11,
+      "label": "K",
+      "text": "Sometimes the memory of the product is very subtle. Many ads today are deliberately oblique: they have an engaging story line, but it is hard to tell what they are trying to sell. Afterward you may not remember the product consciously. Yet advertisers believe that if they have gotten your attention, when you later go to the store you will feel better or more comfortable with a given product because you have a vague recollection of having heard of it."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–18",
+    "g19": "Questions 19–21",
+    "g22": "Questions 22–24",
+    "g25": "Questions 25–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 18,
+      "text": "Questions 15–18\nDo the following statements agree with the claims of the writer in Reading Passage 2?\nIn boxes 15–18 on your answer sheet, write\n\n YES                       if the statement agrees with the views of the writer\n\n NO                        if the statement contradicts the views of the writer\n\n NOT GIVEN                 if it is impossible to say what the writer thinks about this\n15 Even researchers sometimes find watching television more compelling than talking to other\npeople.\n16 Television, as an information medium, has always been a priority for scientific research.\n17 The term ‘TV addiction’ is, to some extent, unscientific.\n18 Children do not know why they exercise too little."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 21,
+      "text": "Questions 19–21\nChoose THREE letters, A–F.\nWrite the correct letters in boxes 19–21 on your answer sheet.\nWhich THREE of the following are benefits of watching TV?\n A Artistic inspiration.\n B Family reunions.\n C Stress relief.\n D Knowledge and education.\n E Work efficiency.\n F Easing communication conflicts."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 24,
+      "text": "Questions 22–24\nLook at the following researchers (Questions 22–24) and the list of statements below. Match\neach researcher with the correct statement, A–G.\nWrite the correct letter A–G in boxes 22–24 on your answer sheet.\n22 Percy Tannenbaum\n23 Ivan Pavlov\n24 Byron Reeves and Esther Thorson\n\n                          List of Statements\n\n A                        The medium’s specific formal characteristics are what matter.\n\n                          Television’s distractions trigger a physical response to a new or sudden\n B\n                          stimulus.\n\n C                        Conveying information is the most important thing.\n\n D                        It is difficult to ignore the effects of television.\n\n E                        How deeply people remember content is related to its format.\n\n F                        Heart rate remains stable while watching television.\n\n G                        Clinical reliance on television does not meet the criteria for addiction."
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 27,
+      "text": "Questions 25–27\nComplete the following summary of the paragraphs of Reading Passage 2, using NO MORE\nTHAN TWO WORDS from the Reading Passage for each answer.\nWrite your answers in boxes 25–27 on your answer sheet\n\n\nTelevision has become a worldwide 25 _________________. Some people\nlove it and spend a great deal of time watching it. According to surveys, a\nsmall group even describe themselves as 26 _________________. One\nresearcher believes this attraction arises from a human instinct known as the\n27 _________________, an inbuilt part of our evolutionary heritage."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Even researchers sometimes find watching television more compelling than talking to other people.",
+      "translation": "即使是研究人員，有時也覺得電視比和別人談話更能吸引自己。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Television, as an information medium, has always been a priority for scientific research.",
+      "translation": "作為資訊媒介，電視一直是科學研究的優先重點。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "The term ‘TV addiction’ is, to some extent, unscientific.",
+      "translation": "“TV addiction” 這個詞在某程度上不夠科學。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Children do not know why they exercise too little.",
+      "translation": "兒童不知道自己為何運動太少。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Percy Tannenbaum",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Ivan Pavlov",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Byron Reeves and Esther Thorson List of Statements",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g25",
+      "type": "text",
+      "prompt": "_________________, an inbuilt part of our evolutionary heritage.",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-134/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-134/page-6.jpg"
+  ]
+}

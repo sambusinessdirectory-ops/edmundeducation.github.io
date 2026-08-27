@@ -1,0 +1,3684 @@
+{
+  "schemaVersion": 1,
+  "practice": 5,
+  "title": "IELTS Listening Practice 5",
+  "source": {
+    "file": "IELTS Listening - Practice - 5.pdf",
+    "sha256": "df9bf4dba59acf465ceb8cbe075266fcf1b06581f7254e36b40ac215d1e72387",
+    "pageCount": 66,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nHinchingbrooke Country Park\nThe park\n● Area: 1 __________ hectares\n● Habitats: wetland, grassland and woodland\n● Wetland: lakes, ponds and a 2 __________\n● Wildlife includes birds, insects and animals\nSubjects studied in educational visits include\n● Science: Children look at 3 __________ about plants, etc.\n● Geography: includes learning to use a 4 __________ and compass\n● History: changes in land use\n● Leisure and tourism: mostly concentrates on the park's 5 __________\n● Music: Children make 6 __________ with natural materials, and experiment\nwith rhythm and speed.\nBenefits of outdoor educational visits\n● They give children a feeling of 7 __________ that they may not have elsewhere.\n● Children learn new 8 __________ and gain self-confidence.\nPractical issues\n● Cost per child: £9 __________\n● Adults, such as 10 __________, free",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Area: 1 __________ hectares",
+          "translation": "",
+          "answer": "69",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Wetland: lakes, ponds and a 2 __________",
+          "translation": "",
+          "answer": "stream",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● Science: Children look at 3 __________ about plants, etc.",
+          "translation": "",
+          "answer": "data",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● Geography: includes learning to use a 4 __________ and compass",
+          "translation": "",
+          "answer": "map",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Leisure and tourism: mostly concentrates on the park's 5 __________",
+          "translation": "",
+          "answer": "visitors",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● Music: Children make 6 __________ with natural materials, and experiment",
+          "translation": "",
+          "answer": "sounds",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● They give children a feeling of 7 __________ that they may not have elsewhere.",
+          "translation": "",
+          "answer": "freedom",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "● Children learn new 8 __________ and gain self-confidence.",
+          "translation": "",
+          "answer": "skills",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "● Cost per child: £9 __________",
+          "translation": "",
+          "answer": "4.95",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "● Adults, such as 10 __________, free",
+          "translation": "",
+          "answer": "leaders",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–15\nChoose the correct letter, A, B or C.\nStanthorpe Twinning Association\n11. During the visit to Malatte, in France, members especially enjoyed\nA. going to a theme park.\nB. experiencing a river trip.\nC. visiting a cheese factory.\n12. What will happen in Stanthorpe to mark the 25th anniversary of the\nTwinning Association?\nA. A tree will be planted.\nB. A garden seat will be bought.\nC. A footbridge will be built.\n13. Which event raised most funds this year?\nA. the film show\nB. the pancake evening\nC. the cookery demonstration",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "14. For the first evening with the French visitors host families are advised\nto\nA. take them for a walk round the town.\nB. go to a local restaurant.\nC. have a meal at home.\n15. On Saturday evening there will be the chance to\nA. listen to a concert.\nB. watch a match.\nC. take part in a competition.",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Questions 16–20\nLabel the map below.\nWrite the correct letter, A–H, next to Questions 16–20.\n16. Farm shop __________\n17. Disabled entry __________\n18. Adventure playground __________\n19. Kitchen gardens __________\n20. The Temple of the Four Winds __________",
+          "page": 8
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-5-page-8-1.webp",
+          "alt": "Practice 5, source question diagram/table, PDF page 8",
+          "text": "",
+          "page": 8
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "During the visit to Malatte, in France, members especially enjoyed",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "going to a theme park.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "experiencing a river trip.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "visiting a cheese factory.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "What will happen in Stanthorpe to mark the 25th anniversary of the Twinning Association?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "A tree will be planted.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "A garden seat will be bought.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "A footbridge will be built.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "Which event raised most funds this year?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "the film show",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the pancake evening",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the cookery demonstration",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "For the first evening with the French visitors host families are advised to",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "take them for a walk round the town.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "go to a local restaurant.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "have a meal at home.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "On Saturday evening there will be the chance to",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "listen to a concert.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "watch a match.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "take part in a competition.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "Farm shop",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Disabled entry",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Adventure playground",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "Kitchen gardens",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "The Temple of the Four Winds",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21 and 22\nChoose TWO letters, A–E.\nWhich TWO things did Colin find most satisfying about his bread reuse\nproject?\nA. receiving support from local restaurants\nB. finding a good way to prevent waste\nC. overcoming problems in a basic process\nD. experimenting with designs and colours\nE. learning how to apply 3-D printing\nQuestions 23 and 24\nChoose TWO letters, A–E.\nWhich TWO ways do the students agree that touch-sensitive sensors for food\nlabels could be developed in future?\nA. for use on medical products\nB. to show that food is no longer fit to eat\nC. for use with drinks as well as foods\nD. to provide applications for blind people\nE. to indicate the weight of certain foods",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nWhat is the students' opinion about each of the following food trends?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 25–30.\nOpinions\nA. This is only relevant to young people.\nB. This may have disappointing results.\nC. This already seems to be widespread.\nD. Retailers should do more to encourage this.\nE. More financial support is needed for this.\nF. Most people know little about this.\nG. There should be stricter regulations about this.\nH. This could be dangerous.\nFood trends\n25. Use of local products __________\n26. Reduction in unnecessary packaging __________\n27. Gluten-free and lactose-free food __________\n28. Use of branded products related to celebrity chefs __________\n29. Development of ‘ghost kitchens’ for takeaway food __________\n30. Use of mushrooms for common health concerns __________",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO things did Colin find most satisfying about his bread reuse project?",
+          "translation": "",
+          "answers": [
+            "B",
+            "D"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "receiving support from local restaurants",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "finding a good way to prevent waste",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "overcoming problems in a basic process",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "experimenting with designs and colours",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "learning how to apply 3-D printing",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            23,
+            24
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO ways do the students agree that touch-sensitive sensors for food labels could be developed in future?",
+          "translation": "",
+          "answers": [
+            "A",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "for use on medical products",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "to show that food is no longer fit to eat",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "for use with drinks as well as foods",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "to provide applications for blind people",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "to indicate the weight of certain foods",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Use of local products",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "This is only relevant to young people.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may have disappointing results.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This already seems to be widespread.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Retailers should do more to encourage this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "More financial support is needed for this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "Most people know little about this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "There should be stricter regulations about this.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "This could be dangerous.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "Reduction in unnecessary packaging",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "This is only relevant to young people.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may have disappointing results.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This already seems to be widespread.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Retailers should do more to encourage this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "More financial support is needed for this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "Most people know little about this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "There should be stricter regulations about this.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "This could be dangerous.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "Gluten-free and lactose-free food",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "This is only relevant to young people.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may have disappointing results.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This already seems to be widespread.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Retailers should do more to encourage this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "More financial support is needed for this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "Most people know little about this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "There should be stricter regulations about this.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "This could be dangerous.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "Use of branded products related to celebrity chefs",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "This is only relevant to young people.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may have disappointing results.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This already seems to be widespread.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Retailers should do more to encourage this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "More financial support is needed for this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "Most people know little about this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "There should be stricter regulations about this.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "This could be dangerous.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "Development of ‘ghost kitchens’ for takeaway food",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "This is only relevant to young people.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may have disappointing results.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This already seems to be widespread.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Retailers should do more to encourage this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "More financial support is needed for this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "Most people know little about this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "There should be stricter regulations about this.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "This could be dangerous.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Use of mushrooms for common health concerns",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "This is only relevant to young people.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "This may have disappointing results.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "This already seems to be widespread.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Retailers should do more to encourage this.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "More financial support is needed for this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "Most people know little about this.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "There should be stricter regulations about this.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "This could be dangerous.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nCéide Fields\n● an important Neolithic archaeological site in the northwest of Ireland\nDiscovery\n● In the 1930s, a local teacher realised that stones beneath the bog surface\nwere once 31 __________.\n● His 32 __________ became an archaeologist and undertook an\ninvestigation of the site:\n○ a traditional method used by local people to dig for 33\n__________ was used to identify where stones were located\n○ carbon dating later proved the site was Neolithic.\n● Items are well preserved in the bog because of a lack of 34 __________.\nNeolithic farmers\n● Houses were 35 __________ in shape and had a hole in the roof.\n● Neolithic innovations include:\n○ cooking indoors\n○ pots used for storage and to make 36 __________.\n● Each field at Céide was large enough to support a big 37 __________.\n● The fields were probably used to restrict the grazing of animals — no\nevidence of structures to house them during 38 __________.\nReasons for the decline in farming\n● a decline in 39 __________ quality\n● an increase in 40 __________",
+          "page": 13
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "were once 31 __________.",
+          "translation": "",
+          "answer": "walls",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● His 32 __________ became an archaeologist and undertook an",
+          "translation": "",
+          "answer": "son",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "○ a traditional method used by local people to dig for 33 __________ was used to identify where stones were located",
+          "translation": "",
+          "answer": "fuel",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● Items are well preserved in the bog because of a lack of 34 __________.",
+          "translation": "",
+          "answer": "oxygen",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● Houses were 35 __________ in shape and had a hole in the roof.",
+          "translation": "",
+          "answer": "rectangular",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "○ pots used for storage and to make 36 __________.",
+          "translation": "",
+          "answer": "lamps",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● Each field at Céide was large enough to support a big 37 __________.",
+          "translation": "",
+          "answer": "family",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "evidence of structures to house them during 38 __________.",
+          "translation": "",
+          "answer": "winter",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● a decline in 39 __________ quality",
+          "translation": "",
+          "answer": "soil",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● an increase in 40 __________",
+          "translation": "",
+          "answer": "rain",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "SALLY: Good morning. Hinchingbrooke Country Park, Sally speaking. I'm one of the rangers.",
+        "zh": "Sally：早安。這裡是 Hinchingbrooke Country Park，我是 Sally。我是這裡的巡護員之一。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "JOHN: Oh hello. My name's John Chapman, and I'm a teaching assistant at a local primary school.",
+        "zh": "John：哦，你好。我叫 John Chapman，是當地一所小學的助教。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "I've been asked to arrange a visit to the park for two of our classes.",
+        "zh": "我被安排為我們學校的兩個班級籌劃一次公園參觀活動。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "SALLY: OK. What would you like to know?",
+        "zh": "Sally：好的。你想了解什麼呢？",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "JOHN: Well, I'm new to this area, so perhaps you could tell me something about the park first, please.",
+        "zh": "John：嗯，我剛來這個地區，所以也許你可以先跟我介紹一下這個公園。",
+        "sourcePages": [
+          19
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "SALLY: Of course. Altogether the park covers 170 acres, that's 69 hectares.",
+        "zh": "Sally：當然可以。整個公園占地 170 英畝，也就是 69 公頃。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "There are three main types of habitat: wetland, grassland and woodland.",
+        "zh": "這裡主要有三種棲地：濕地、草地和林地。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "The woods are well established and varied, with an oak plantation, and other areas of mixed species.",
+        "zh": "這裡的林地已經相當成熟，而且種類多樣，包括一片橡樹林，以及其他混合樹種區域。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "JOHN: Right.",
+        "zh": "John：好的。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "SALLY: The wetland is quite varied, too.",
+        "zh": "Sally：濕地也相當多樣。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "The original farmland was dug up around 40 years ago to extract gravel.",
+        "zh": "大約 40 年前，原本的農地被挖開， 用來開採礫石。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "Once this work was completed, the gravel pits filled with water, forming the two large lakes.",
+        "zh": "這項工程完成後，礫石坑積滿了水，形成了兩個大湖。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "There are also several smaller ones, ponds and a stream that flows through the park.",
+        "zh": "這裡還有幾個較小的湖、池塘，以及一條流經公園的小溪。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "JOHN: OK, so I suppose with these different habitats there's quite a variety of wildlife.",
+        "zh": "John：好的，我想有了這些不同棲地，野生動植物種類應該相當豐富。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "SALLY: There certainly is – a lot of different species of birds and insects, and also animals like deer and rabbits.",
+        "zh": "Sally：確實如此——這裡有很多不同種類的鳥類和昆蟲，也有像鹿和兔子這樣的動物。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "JOHN: And I understand you organise educational visits for school parties.",
+        "zh": "John：我知道你們也會為學校團體安排教育參觀活動。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "SALLY: That's right. We can organise a wide range of activities and adapt them to suit all ages.",
+        "zh": "Sally：沒錯。我們可以安排各式各樣的活動，並根據不同年齡層進行調整。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "JOHN: Can you give me some examples of the activities?",
+        "zh": "John：你能舉幾個活動例子嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "SALLY: Well, one focus is on science, where we help children to discover and study plants, trees and insects.",
+        "zh": "Sally：嗯，其中一個重點是科學，我們會幫助孩子發現並研究植物、樹木和昆蟲。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "They also collect and analyse data about the things they see.",
+        "zh": "他們也會收集並分析自己所觀察到的資料。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "JOHN: Uhuh.",
+        "zh": "John：嗯。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "SALLY: Another focus is on geography.",
+        "zh": "Sally：另一個重點是地理。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "The park is a great environment to learn and practise reading a map and using a compass to navigate around the park.",
+        "zh": "這個公園是學習和練習看地圖、使用指南針在公園中導航的絕佳環境。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "JOHN: Do you do anything connected with history?",
+        "zh": "John：你們有安排和歷史相關的活動嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "SALLY: Yes, we do. For instance, the children can explore how the use of the land has changed over time. Then there's leisure and tourism.",
+        "zh": "Sally：有的。例如，孩子們可以探索土地用途如何隨時間改變。還有休閒與旅遊方面的內容。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "JOHN: That focuses on your visitors, I would imagine.",
+        "zh": "John：我想那主要是關於公園遊客的吧。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "SALLY: Yes, mostly. The children find out about them, their requirements, the problems they may cause and how we manage these.",
+        "zh": "Sally：是的，大多如此。孩子們會了解遊客、他們的需求、他們可能造成的問題，以及我們如何管理這些情況。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "And another subject we cover is music: here the children experiment with natural materials to create sounds and explore rhythm and tempo.",
+        "zh": "我們涵蓋的另一個主題是音樂：孩子們會嘗試用天然材料創造聲音， 並探索節奏和速度。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "JOHN: That must be fun!",
+        "zh": "John：那一定很有趣！",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "SALLY: Most children really enjoy it.",
+        "zh": "Sally：大多數孩子都非常喜歡。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "SALLY: And of course, all the activities are educational, too.",
+        "zh": "Sally：當然，所有活動也都具有教育意義。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "Learning outside the classroom encourages children to be creative, and to explore and discover for themselves.",
+        "zh": "課堂外學習能鼓勵孩子發揮創意， 並親自探索和發現。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "JOHN: I would imagine they get a sense of freedom that might not be a normal part of their lives.",
+        "zh": "John：我想他們會感受到一種自由感，而這可能不是他們日常生活中常有的體驗。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "SALLY: That's right. And very often the children discover that they can do things they didn't know they could do, and they develop new skills.",
+        "zh": "Sally：沒錯。而且孩子們常常會發現自己能做到以前不知道自己能做的事，並發展出新的技能。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "This gives them greater self-confidence.",
+        "zh": "這會讓他們更有自信。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "JOHN: It sounds great. So, what about the practical side of it?",
+        "zh": "John：聽起來很棒。那實際安排方面呢？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "How much does it cost for a full-day visit? We would expect to bring between 30 and 40 children.",
+        "zh": "全天參觀的費用是多少？我們預計會帶 30 到 40 名孩子。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "SALLY: If there are over 30, it costs £4.95 for each child who attends on the day.",
+        "zh": "Sally：如果人數超過 30 人，當天每位參加的孩子收費 4.95 英鎊。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "We invoice you afterwards, so you don't pay for children who can't come because of sickness, for example.",
+        "zh": "我們會在活動後開立發票，所以如果有孩子因病無法參加，你們不需要為他們付費。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "There's no charge for leaders and other adults – as many as you want to bring.",
+        "zh": "領隊和其他成年人免費——你們想帶多少都可以。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "JOHN: That sounds very fair. Well, thanks for all the information.",
+        "zh": "John：這聽起來很合理。好的，謝謝你提供這些資訊。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "I'll need to discuss it with my colleagues, and I hope to get back to you soon to make a booking.",
+        "zh": "我需要和同事討論一下，希望很快能回覆你並預訂。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "SALLY: We'll look forward to hearing from you. Goodbye.",
+        "zh": "Sally：期待你的回覆。再見。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "JOHN: Goodbye, and thank you.",
+        "zh": "John：再見，謝謝你。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-044"
+      }
+    ],
+    "2": [
+      {
+        "en": "It's great to see so many members of the Twinning Association here tonight.",
+        "zh": "很高興今晚看到這麼多友好城鎮協會的成員在場。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "Since the twinning link between our two towns, Stanthorpe here in England and Malatte in France, was established, the relationship between the towns has gone from strength to strength.",
+        "zh": "自從我們英格蘭的 Stanthorpe 和法國的 Malatte 建立友好城鎮關係以來，兩鎮之間的關係越來越密切。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "Last month, 25 members of the association from Stanthorpe spent a weekend in Malatte.",
+        "zh": "上個月，來自 Stanthorpe 的 25 名協會成員在 Malatte 度過了一個週末。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "Our hosts had arranged a great programme.",
+        "zh": "我們的接待方安排了很棒的活動。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "We learned how cheese is produced in the region and had the chance to taste the products.",
+        "zh": "我們了解了該地區起司的製作方式，並有機會品嚐這些產品。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "The theme park trip had to be cancelled, but we all had a great time on the final boat trip down the river – that was the real highlight.",
+        "zh": "主題公園之旅不得不取消，但最後的河上乘船之旅讓大家都玩得很開心——那才是真正的亮點。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "This is a special year for the Association because it's 25 years since we were founded.",
+        "zh": "今年對協會來說很特別，因為今年是我們成立 25 週年。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "In Malatte, they're planning to mark this by building a footbridge in the municipal park.",
+        "zh": "在 Malatte，他們計畫在市政公園建造一座人行橋來紀念這個日子。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "We've been discussing what to do here and we've decided to plant a poplar tree in the museum gardens.",
+        "zh": "我們一直在討論這裡該做什麼，最後決定在博物館花園裡種一棵白楊樹。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "We considered buying a garden seat to put there, but the authorities weren't happy with that idea.",
+        "zh": "我們曾考慮買一張花園長椅放在那裡，但主管單位不太贊成這個想法。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "In terms of fundraising to support our activities, we've done very well. Our pancake evening was well attended and made record profits.",
+        "zh": "在為活動籌款方面，我們做得非常好。煎餅晚會出席人數很多，而且收益創下紀錄。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "And everyone enjoyed the demonstration of French cookery, which was nearly as successful.",
+        "zh": "大家也很喜歡法式料理示範， 這項活動也幾乎同樣成功。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "Numbers for our film show were limited because of the venue so we're looking for somewhere bigger next year.",
+        "zh": "由於場地限制，我們的電影放映活動人數有限，所以明年我們會尋找更大的場地。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "We're looking forward to welcoming our French visitors here next week, and I know that many of you here will be hosting individuals or families.",
+        "zh": "我們期待下週在這裡迎接法國訪客，我也知道在座許多人會接待個人或家庭。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "The coach from France will arrive at 5 pm on Friday.",
+        "zh": "來自法國的長途巴士會在星期五下午 5 點抵達。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "Don't try to do too much that first evening as they'll be tired, so have dinner in the house or garden rather than eating out.",
+        "zh": "第一晚不要安排太多活動，因為他們會很累，所以建議在家裡或花園吃晚餐，而不是外出用餐。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "The weather looks as if it'll be OK so you might like to plan a barbecue.",
+        "zh": "天氣看起來應該不錯，所以你們也許可以安排烤肉。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "Then the next morning's market day in town, and that's always a good place to stroll round.",
+        "zh": "第二天早上鎮上有市集，那一直是很適合散步逛逛的地方。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "On Saturday evening, we'll all meet up at the football club, where once again we'll have Toby Sharp and his band performing English and Scottish country songs.",
+        "zh": "星期六晚上，我們會在足球俱樂部集合，到時 Toby Sharp 和他的樂團會再次演唱英格蘭和蘇格蘭鄉村歌曲。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "Toby will already be well known to many of you as last year he organised our special quiz night and presented the prizes.",
+        "zh": "很多人應該已經很熟悉 Toby， 因為去年他組織了我們的特別問答之夜並頒發獎品。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "Now on Sunday, we'll be taking our visitors to Farley House. You may not all be familiar with it, so here's a map to help you.",
+        "zh": "星期天，我們會帶訪客去 Farley House。你們可能不是所有人都熟悉那裡，所以這裡有一張地圖可以幫助你們。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "You can see the car park at the bottom of the map.",
+        "zh": "你可以在地圖底部看到停車場。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "There's an excellent farm shop in the grounds where our visitors can buy local produce – it's in the old stables, which is the first building you come to.",
+        "zh": "園區內有一家很棒的農場商店，訪客可以在那裡購買本地農產品——它位於舊馬廄裡，也就是你首先會看到的建築。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "They're built round a courtyard, and the shop's in the far corner on the left. There's also a small café on the right as you go in.",
+        "zh": "這些建築圍繞著一個庭院而建，商店在左側最遠的角落。進去後右手邊還有一家小咖啡館。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "I know that one or two of our visitors may not be all that mobile.",
+        "zh": "我知道我們有一兩位訪客行動可能不太方便。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "The main entrance to the house has a lot of steps so you might want to use the disabled entry. This is on the far side of the house from the car park.",
+        "zh": "房子的正門有很多台階，所以你們可能會想使用無障礙入口。它位於房子遠離停車場的另一側。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "Children will probably be most interested in the adventure playground.",
+        "zh": "孩子們可能最感興趣的是冒險遊樂場。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "That's at the northern end of the larger lake, in a bend on the path that leads to the lake. There's lots for children to do there.",
+        "zh": "它在較大湖泊的北端，位於通往湖邊小路的一個彎道處。那裡有很多適合孩子玩的設施。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "There are a number of lovely gardens near the house.",
+        "zh": "房子附近有幾座漂亮的花園。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "The kitchen gardens are rectangular and surrounded by a wall.",
+        "zh": "廚房花園呈長方形，四周有牆圍繞。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "They're to the north-east of the house, quite near the smaller lake. They're still in use and have a great collection of fruit and vegetables.",
+        "zh": "它們位於房子的東北方，離較小的湖很近。這些花園仍在使用，裡面種有許多水果和蔬菜。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "The Temple of the Four Winds is a bit more of a walk – but it's worth it.",
+        "zh": "The Temple of the Four Winds 要多走一段路，但很值得。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "Take the path from the car park and go past the western sides of the stables and the house.",
+        "zh": "從停車場沿著小路走，經過馬廄和房子的西側。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "Then when the path forks, take the right-hand path. Go up there with the woods on your left and the temple is right at the end.",
+        "zh": "然後在小路分岔處走右邊那條路。往上走時，樹林會在你的左手邊，而神殿就在路的盡頭。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "There are great views over the whole area.",
+        "zh": "從那裡可以俯瞰整個區域，景色非常好。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "OK, so that's…",
+        "zh": "好的，那麼……",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-036"
+      }
+    ],
+    "3": [
+      {
+        "en": "COLIN: I haven't seen you for a bit, Marie.",
+        "zh": "Colin：我有一陣子沒見到你了， Marie。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "MARIE: No. I've been busy with my project.",
+        "zh": "Marie：是啊。我一直在忙我的專題。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "COLIN: You're making a vegan alternative to eggs, aren't you? Something that doesn't use animal products?",
+        "zh": "Colin：你是在做純素雞蛋替代品，對吧？就是不使用動物產品的東西？",
+        "sourcePages": [
+          32
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "MARIE: Yes. I'm using chickpeas. I had two main aims when I first started looking for an alternative to eggs, but actually I've found chickpeas have got more advantages.",
+        "zh": "Marie：是的。我用的是鷹嘴豆。 我一開始尋找雞蛋替代品時有兩個主要目標，但其實我發現鷹嘴豆有更多優點。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "COLIN: Right.",
+        "zh": "Colin：明白。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "MARIE: But how about your project on reusing waste food – you were looking at bread, weren't you?",
+        "zh": "Marie：那你關於廚餘再利用的專題怎麼樣？你研究的是麵包， 對吧？",
+        "sourcePages": [
+          32
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "COLIN: Yes. It's been hard work, but I've enjoyed it.",
+        "zh": "Colin：是的。過程很辛苦，但我很享受。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "The basic process was quite straightforward – breaking the stale bread down to a paste then reforming it.",
+        "zh": "基本流程相當簡單——把變乾的麵包打成糊狀，然後重新塑形。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "MARIE: But you were using 3-D printing, weren't you, to make the paste into biscuits?",
+        "zh": "Marie：但你是用 3D 列印把糊狀物做成餅乾，對吧？",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "COLIN: Yeah, I'd used that before, but in this project, I had time to play around with different patterns for the biscuits and finding how I could add fruit and vegetables to make them a more appetising colour, and I was really pleased with what I managed to produce.",
+        "zh": "Colin：是的，我以前用過 3D 列印。不過在這個專題裡，我有時間嘗試不同的餅乾圖案，也研究如何加入水果和蔬菜，讓顏色看起來更有食慾。我對自己做出來的成品真的很滿意。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "MARIE: It must've been a great feeling to make something appetising out of bits of old bread that would've been thrown away otherwise.",
+        "zh": "Marie：能把原本可能被丟掉的舊麵包做成看起來美味的東西， 那感覺一定很棒。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "COLIN: It was. And I'm hoping that some of the restaurants in town will be interested in the biscuits. I'm going to send them some samples.",
+        "zh": "Colin：確實是。我也希望鎮上一些餐廳會對這些餅乾感興趣。我打算寄一些樣品給他們。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "MARIE: I came across something on the internet yesterday that might interest you. It was a company that's developed touch-sensitive sensors for food labels.",
+        "zh": "Marie：我昨天在網路上看到一個你可能會感興趣的東西。有家公司開發了用於食品標籤的觸覺感應器。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "COLIN: Mmm?",
+        "zh": "Colin：嗯？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "MARIE: It's a special sort of label on the food package. When the label's smooth, the food is fresh and then when you can feel bumps on the label that means the food's gone bad.",
+        "zh": "Marie：那是食品包裝上的一種特殊標籤。當標籤是光滑的，表示食物是新鮮的；如果你摸到標籤上有凸起，就表示食物已經變質。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "It started off as a project to help visually impaired people know whether food was fit to eat or not.",
+        "zh": "它最初是一個幫助視障人士判斷食物是否還能食用的專案。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "COLIN: Interesting. So just solid food?",
+        "zh": "Colin：有意思。所以只用在固體食物上嗎？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "MARIE: No, things like milk and juice as well. But actually, I thought it might be really good for drug storage in hospitals and pharmacies.",
+        "zh": "Marie：不是，也包括牛奶和果汁之類的東西。不過其實我覺得它也很適合用於醫院和藥房的藥品儲存。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "COLIN: Right. And coming back to food, maybe it'd be possible to use it for other things besides freshness. Like how many kilograms a joint of meat is, for example.",
+        "zh": "Colin：對。回到食品方面，也許除了新鮮度之外，它還能用於其他資訊。比如一塊肉有多少公斤。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "MARIE: Yes, there's all sorts of possibilities.",
+        "zh": "Marie：是的，有各種可能性。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "COLIN: I was reading an article about food trends predicting how eating habits might change in the next few years.",
+        "zh": "Colin：我讀了一篇關於食品趨勢的文章，預測未來幾年飲食習慣可能會如何改變。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "MARIE: Oh – things like more focus on local products? That seems so obvious, but the shops are still full of imported foods.",
+        "zh": "Marie：哦——比如更重視本地產品嗎？這聽起來很明顯，但商店裡還是充滿了進口食品。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "COLIN: Yes, they need to be more proactive to address that.",
+        "zh": "Colin：是的，商家需要更積極地處理這個問題。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "MARIE: And somehow motivate consumers to change, yes.",
+        "zh": "Marie：是的，也需要想辦法促使消費者改變。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "COLIN: One thing everyone's aware of is the need for a reduction in unnecessary packaging – but just about everything you buy in supermarkets is still covered in plastic. The government needs to do something about it.",
+        "zh": "Colin：大家都知道的一件事是， 需要減少不必要的包裝——但你在超市買到的幾乎所有東西仍然都包著塑膠。政府需要採取行動。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "MARIE: Absolutely. It's got to change.",
+        "zh": "Marie：完全同意。這一定要改變。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "COLIN: Do you think there'll be more interest in gluten- and lactose-free food?",
+        "zh": "Colin：你覺得人們會對無麩質和無乳糖食品更感興趣嗎？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "MARIE: For people with allergies or food intolerances? I don't know.",
+        "zh": "Marie：給有過敏或食物不耐症的人嗎？我不確定。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "Lots of people I know have been buying that type of food for years now.",
+        "zh": "我認識的很多人已經買這類食品很多年了。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "COLIN: Yes, even if they haven't been diagnosed with an allergy.",
+        "zh": "Colin：是啊，即使他們沒有被診斷出過敏。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "MARIE: That's right. One thing I've noticed is the number of branded products related to celebrity chefs – people watch them cooking on TV and then buy things like spice mixes or frozen foods with the chef's name on . . . I bought something like that once, but I won't again.",
+        "zh": "Marie：沒錯。我注意到的一件事是，和名廚相關的品牌產品越來越多——人們在電視上看他們做菜，然後購買印有那位廚師名字的調味料或冷凍食品……我曾經買過一次那種東西，但不會再買了。",
+        "sourcePages": [
+          36,
+          37
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "COLIN: Yeah – I bought a ready-made spice mix for chicken which was supposed to be used by a chef I'd seen on television, and it didn't actually taste of anything.",
+        "zh": "Colin：是啊——我買過一款現成的雞肉調味料，說是我在電視上看過的一位廚師使用的，但它其實完全沒什麼味道。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "MARIE: Mm. Did the article mention ‘ghost kitchens' used to produce takeaway food?",
+        "zh": "Marie：嗯。那篇文章有提到用來製作外送餐點的「幽靈廚房」 嗎？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "COLIN: No. What are they?",
+        "zh": "Colin：沒有。那是什麼？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "MARIE: Well, they might have the name of a restaurant, but actually they're a cooking facility just for delivery meals – the public don't ever go there.",
+        "zh": "Marie：嗯，它們可能掛著餐廳的名字，但其實只是專門製作外送餐點的廚房——一般民眾根本不會去那裡。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "But people aren't aware of that – it's all kept very quiet.",
+        "zh": "但人們並不知道這一點——一切都非常低調。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "COLIN: So people don't realise the food's not actually from the restaurant?",
+        "zh": "Colin：所以人們沒有意識到食物其實不是從那家餐廳來的？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "MARIE: Right.",
+        "zh": "Marie：沒錯。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "COLIN: Did you know more and more people are using all sorts of different mushrooms now, to treat different health concerns? Things like heart problems?",
+        "zh": "Colin：你知道嗎？現在越來越多人使用各種不同的蘑菇來處理不同的健康問題，例如心臟問題。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "MARIE: Hmm. They might be taking a big risk there.",
+        "zh": "Marie：嗯。他們那樣可能是在冒很大的風險。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "COLIN: Yes, it's hard to know which varieties are safe to eat.",
+        "zh": "Colin：是的，很難知道哪些品種可以安全食用。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "Anyway maybe now . . .",
+        "zh": "不管怎樣，也許現在……",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-042"
+      }
+    ],
+    "4": [
+      {
+        "en": "For my presentation today, I'm going to talk about the Céide Fields in the northwest of Ireland, one of the largest Neolithic sites in the world.",
+        "zh": "在今天的簡報中，我要介紹愛爾蘭西北部的 Céide Fields，它是世界上最大的新石器時代遺址之一。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "I recently visited this site and observed the work that is currently being done by a team of archaeologists there.",
+        "zh": "我最近參觀了這個遺址，並觀察了考古團隊目前在那裡進行的工作。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "The site was first discovered in the 1930s by a local teacher, Patrick Caulfield.",
+        "zh": "這個遺址最早是在 1930 年代由當地教師 Patrick Caulfield 發現的。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "He noticed that when local people were digging in the bog, they were constantly hitting against what seemed to be rows of stones.",
+        "zh": "他注意到，當地人在沼澤中挖掘時，經常會碰到看似一排排石頭的東西。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "He realised that these must be walls and that they must be thousands of years old for them to predate the bog which subsequently grew over them.",
+        "zh": "他意識到這些一定是牆，而且必定有數千年歷史，因為它們早於後來覆蓋其上的沼澤形成。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "He wrote to the National Museum in Dublin to ask them to investigate, but no one took him seriously.",
+        "zh": "他寫信給都柏林的國家博物館，請他們進行調查，但沒有人把他的話當真。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "It wasn't until 40 years later, when Patrick Caulfield's son Seamus, who had become an archaeologist by then, began to explore further.",
+        "zh": "直到 40 年後，Patrick Caulfield 的兒子 Seamus 開始進一步探索；那時他已經成為考古學家。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "He inserted iron probes into the bog to map the formation of the stones, a traditional method which local people had always used for finding fuel buried in the bog for thousands of years.",
+        "zh": "他把鐵探針插入沼澤中，用來描繪石頭的分布；這是一種當地人長久以來用來尋找埋在沼澤中的燃料的傳統方法。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "Carbon dating later proved that the site was over 5,000 years old and was the largest Neolithic site in Ireland.",
+        "zh": "後來，碳定年證明這個遺址已有 5000 多年歷史，是愛爾蘭最大的新石器時代遺址。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Thanks to the bog which covers the area, the remains of the settlement at Céide Fields, which is over 5,000 years old, are extremely well-preserved.",
+        "zh": "多虧覆蓋該地區的沼澤， Céide Fields 超過 5000 年歷史的聚落遺跡保存得非常良好。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "A bog is 90 percent water; its soil is so saturated that when the grasses and heathers that grow on its surface die, they don't fully decay but accumulate in layers.",
+        "zh": "沼澤中 90% 是水；它的土壤含水量非常高，因此當表面生長的草和石南死亡後，不會完全腐爛，而是層層堆積。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "Objects remain so well preserved in these conditions because of the acidity of the peat and the deficiency of oxygen.",
+        "zh": "物品能在這種環境下保存得如此良好，是因為泥炭具有酸性，而且缺乏氧氣。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "At least 175 days of rain a year are required for this to happen; this part of Ireland gets an average of 225 days.",
+        "zh": "要形成這種情況，每年至少需要 175 天降雨；而愛爾蘭這一地區平均每年有 225 天降雨。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "The Neolithic farmers at Céide would have enjoyed several centuries of relative peace and stability.",
+        "zh": "Céide 的新石器時代農民應該曾享有數個世紀相對和平穩定的生活。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "Neolithic farmers generally lived in larger communities than their predecessors, with a number of houses built around a community building.",
+        "zh": "新石器時代的農民通常比前人住在更大的社群中，許多房屋圍繞著一座社區建築而建。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "As they lived in permanent settlements, Neolithic farmers were able to build bigger houses.",
+        "zh": "由於他們住在永久聚落中，新石器時代農民能夠建造更大的房屋。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "These weren't round as people often assume, but rectangular with a small hole in the roof that allowed smoke to escape.",
+        "zh": "這些房屋並不像人們常以為的那樣是圓形的，而是長方形的，屋頂上有一個小洞可讓煙排出。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "This is one of many innovations and indicates that the Neolithic farmers were the first people to cook indoors.",
+        "zh": "這是眾多創新之一，也表明新石器時代農民是最早在室內烹飪的人。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Another new technology that Neolithic settlers brought to Ireland was pottery.",
+        "zh": "新石器時代定居者帶到愛爾蘭的另一項新技術是陶器。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "Fragments of Neolithic pots have been found in Céide and elsewhere in Ireland.",
+        "zh": "在 Céide 以及愛爾蘭其他地方都發現了新石器時代陶罐碎片。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "The pots were used for many things; as well as for storing food, pots were filled with a small amount of fat and when this was set alight, they served as lamps.",
+        "zh": "陶罐用途很多；除了儲存食物之外，人們也會在陶罐中放入少量脂肪，點燃後便可作為燈使用。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "It's thought that the Céide Fields were mainly used as paddocks for animals to graze in.",
+        "zh": "人們認為 Céide Fields 主要被用作牲畜放牧的圍場。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "Evidence from the Céide Fields suggests that each plot of land was of a suitable size to sustain an extended family.",
+        "zh": "Céide Fields 的證據顯示，每塊土地的大小都足以供養一個大家庭。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "They may have used a system of rotational grazing in order to prevent over-grazing and to allow for plant recovery and regrowth.",
+        "zh": "他們可能採用了輪流放牧制度，以防止過度放牧，並讓植物恢復和再生。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "This must have been a year-round activity as no structures have been found which would have been used to shelter animals in the winter.",
+        "zh": "這必定是一項全年進行的活動，因為目前尚未發現任何可供動物在冬季避寒的建築。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "However, archaeologists believe that this way of life at Céide ceased abruptly. Why was this?",
+        "zh": "然而，考古學家認為 Céide 的這種生活方式突然終止了。這是為什麼呢？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "Well, several factors may have contributed to the changing circumstances.",
+        "zh": "嗯，可能有幾個因素導致了情況改變。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "The soil would have become less productive and led to the abandonment of farming.",
+        "zh": "土壤可能變得不再肥沃，進而導致人們放棄農耕。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "The crop rotation system was partly responsible for this as it would have been very intensive and was not sustainable.",
+        "zh": "輪作制度對此負有部分責任， 因為它可能非常密集，且無法永續。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "But there were also climatic pressures too.",
+        "zh": "不過，氣候壓力也是原因之一。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "The farmers at Céide would have enjoyed a relatively dry period, but this began to change and the conditions became wetter as there was a lot more rain.",
+        "zh": "Céide 的農民曾經歷一段相對乾燥的時期，但後來情況開始改變，降雨增加，使環境變得更加潮濕。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "It was these conditions that encouraged the bog to form over the area which survives today.",
+        "zh": "正是這些條件促使沼澤在該地區形成，並保存至今。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "So now I'd like to show you some…",
+        "zh": "那麼現在我想給大家看一些 ……",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-033"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "69",
+      "explanation": "題目寫：“Area: _____ hectares”，問 Hinchingbrooke Country Park 的面積是多少公頃。 錄音說： “Altogether the park covers 170 acres, that's 69 hectares.” 題目已經指定單位為 hectares，而錄音直接把 170 acres 換算成 69 hectares，所以答案是 69。 中伏位：錄音同時出現 170 和 69。170 的單位是 acres；題目要求 hectares，所以必須選 69。答案只填數字，不需要再寫 hectares。",
+      "sourcePages": [
+        44
+      ]
+    },
+    "2": {
+      "answer": "stream",
+      "explanation": "題目寫： “Wetland: lakes, ponds and a _____” 錄音介紹 wetland 時說： “There are also several smaller ones, ponds and a stream that flows through the park.” 題目已有 lakes 和 ponds，最後一項正好對應錄音中的 a stream。 因此答案是 stream。 題目前面有 “a”，所以需要單數可數名詞；a stream 文法完整。",
+      "sourcePages": [
+        44
+      ]
+    },
+    "3": {
+      "answer": "data",
+      "explanation": "題目在 Science 一欄寫： “Children look at _____ about plants, etc.” 錄音說： “They also collect and analyse data about the things they see.” 題目的 “look at” 概括了收集及分析資料的活動，而 “about plants, etc.” 對應前面提到的 plants, trees and insects。 所以答案是 data。 中伏位：plants / trees / insects 是研究對象；空格問孩子會處理甚麼資料。錄音明確給出 data。",
+      "sourcePages": [
+        45
+      ]
+    },
+    "4": {
+      "answer": "map",
+      "explanation": "題目寫： “Geography: includes learning to use a _____ and compass” 錄音說： “learn and practise reading a map and using a compass to navigate around the park.” “reading a map” 被題目簡化成 “use a map”；後面的 compass 亦直接對應。 所以答案是 map。 題目前面有 “a”，所以填單數 map。",
+      "sourcePages": [
+        45
+      ]
+    },
+    "5": {
+      "answer": "visitors",
+      "explanation": "題目寫： “Leisure and tourism: mostly concentrates on the park's _____” John 先猜： “That focuses on your visitors, I would imagine.” Sally 回答： “Yes, mostly. The children find out about them, their requirements, the problems they may cause…” 這裡 them 指前面的 visitors，所以 leisure and tourism 大部分集中研究公園的 visitors。 答案是 visitors。 “their requirements” 和 “problems they may cause” 進一步確認研究對象就是遊客。",
+      "sourcePages": [
+        46
+      ]
+    },
+    "6": {
+      "answer": "sounds",
+      "explanation": "題目寫： “Children make _____ with natural materials, and experiment with rhythm and speed.” 錄音說： “the children experiment with natural materials to create sounds and explore rhythm and tempo.” “create sounds” = “make sounds”；“tempo” 在這裡對應題目的 speed。 所以答案是 sounds。 中伏位：natural materials 是製造聲音所使用的材料；空格問孩子製造甚麼，因此要填 sounds。",
+      "sourcePages": [
+        46
+      ]
+    },
+    "7": {
+      "answer": "freedom",
+      "explanation": "題目寫： “They give children a feeling of _____ that they may not have elsewhere.” John 說： “I would imagine they get a sense of freedom that might not be a normal part of their lives.” “a sense of” = “a feeling of”；“might not be a normal part of their lives” 對應題目的 “may not have elsewhere” 。 所以答案是 freedom。 這是一個很直接的同義轉換： a sense of freedom → a feeling of freedom",
+      "sourcePages": [
+        47
+      ]
+    },
+    "8": {
+      "answer": "skills",
+      "explanation": "題目寫： “Children learn new _____ and gain self-confidence.” 錄音說： “they develop new skills. This gives them greater self-confidence.” 題目幾乎直接重組這兩句： develop new skills → learn new skills greater self-confidence → gain self-confidence 因此答案是 skills。 題目有 “new”，錄音也直接使用 “new skills”。",
+      "sourcePages": [
+        47
+      ]
+    },
+    "9": {
+      "answer": "4.95",
+      "explanation": "題目寫： “Cost per child: £ _____” 錄音說： “If there are over 30, it costs £4.95 for each child who attends on the day.” “for each child” 直接對應題目的 “per child”，所以答案是 4.95。 中伏位：前面說預計帶 30–40 children，那些是人數，和收費無關。題目已有 £，所以只填 4.95。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "10": {
+      "answer": "leaders",
+      "explanation": "題目寫： “Adults, such as _____, free” 錄音說： “There's no charge for leaders and other adults.” “no charge” = free；而 leaders 是 adults 的一個例子，所以答案是 leaders。 題目用了 “such as”，正好把錄音中的 “leaders and other adults” 改寫成「成年人，例如 leaders」。",
+      "sourcePages": [
+        48,
+        49
+      ]
+    },
+    "11": {
+      "answer": "B — experiencing a river trip",
+      "explanation": "題目問：協會成員到 Malatte 時，尤其喜歡哪項活動。 錄音先提到 cheese： “We learned how cheese is produced…” 接著說 theme park trip 被取消。最後談到： “we all had a great time on the final boat trip down the river – that was the real highlight.” 真正決定答案的是 “the real highlight”，表示這是整趟行程最精彩、最受歡迎的一環。 因此答案是 B — experiencing a river trip。 中伏位：cheese factory 的確有參觀，但錄音沒有把它稱為 highlight；theme park 更直接被取消。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "12": {
+      "answer": "A — A tree will be planted",
+      "explanation": "題目問：Stanthorpe 會如何紀念 Twinning Association 的 25 週年。 錄音先說 Malatte： “they're planning … building a footbridge” 之後轉回 Stanthorpe： “we've decided to plant a poplar tree in the museum gardens.” 所以 Stanthorpe 的安排是種一棵樹，答案 A。 中伏位：footbridge 是 Malatte 的紀念方式。Garden seat 也曾被考慮，但 authorities 不接受，最終決定是 plant a poplar tree。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "13": {
+      "answer": "B — the pancake evening",
+      "explanation": "題目問：今年哪個活動 raised most funds。 錄音說： “Our pancake evening was well attended and made record profits.” 之後說 French cookery demonstration： “was nearly as successful.” “nearly as successful” 表示它非常成功，但仍略低於 pancake evening。 Film show 則因 venue 限制而限制了人數。 所以籌得最多款項的是 B — the pancake evening。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "14": {
+      "answer": "C — have a meal at home",
+      "explanation": "題目問：法國訪客抵達的 first evening，host families 應怎樣安排。 錄音說： “Don't try to do too much that first evening as they'll be tired, so have dinner in the house or garden rather than eating out.” “have dinner in the house or garden” 對應 have a meal at home，所以答案是 C。 中伏位：第二天早上才適合到 town market stroll round。第一晚的核心考量是訪客疲倦，所以安排應簡單。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "15": {
+      "answer": "A — listen to a concert",
+      "explanation": "題目問：Saturday evening 有機會做甚麼。 錄音說： “we'll all meet up at the football club, where … Toby Sharp and his band performing English and Scottish country songs.” 樂團現場演唱歌曲，就是聽 concert / live music，所以答案是 A。 中伏位：錄音提到 Toby 去年曾組織 quiz night 和頒獎，但那是 last year。今年 Saturday evening 的活動是樂團表演。 我已按你附上的 Farley House 地圖連同 transcript 判讀。",
+      "sourcePages": [
+        51,
+        52
+      ]
+    },
+    "16": {
+      "answer": "G — Farm shop",
+      "explanation": "錄音說 farm shop： “it's in the old stables, which is the first building you come to.” 然後進一步定位： “They're built round a courtyard, and the shop's in the far corner on the left.” 從地圖底部的 car park 向上進入 Old Stables，建築確實圍繞一個 courtyard。站在入口向內看，左邊最遠的角落標示為 G。 所以 Farm shop = G。 中伏位：H 位於 courtyard 的右下方，反而符合下一句 “a small café on the right as you go in”。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "17": {
+      "answer": "C — Disabled entry",
+      "explanation": "錄音說： “The main entrance to the house has a lot of steps … The disabled entry … is on the far side of the house from the car park.” 地圖中 car park 位於整個 House 的南面。 因此從 car park 看，house 的 far side 就是北側。地圖上位於 House 北面、與停車場相對的一側標記為 C。 所以 Disabled entry = C。 這題最重要的定位詞是： far side of the house from the car park",
+      "sourcePages": [
+        52
+      ]
+    },
+    "18": {
+      "answer": "B — Adventure playground",
+      "explanation": "錄音說： “That's at the northern end of the larger lake, in a bend on the path that leads to the lake.” 地圖有兩個 lake。較大的 lake 位於左側。 它的北端附近有一條彎曲小路，而標記 B 正好位於該 lake 北端與 path bend 的位置。 因此 Adventure playground = B。 中伏位：E 也在較大湖附近，但位置在 lake 的東側中段； 題目要求的是 northern end，所以 B 更精確",
+      "sourcePages": [
+        53
+      ]
+    },
+    "19": {
+      "answer": "D — Kitchen gardens",
+      "explanation": "錄音提供三個非常清楚的定位條件： “The kitchen gardens are rectangular and surrounded by a wall.” “They're to the north-east of the house” “quite near the smaller lake.” 地圖上的 D 是一個明顯的 rectangular 區域，位於 House 的東北方，亦靠近右上方較小的 lake。 三個條件完全吻合，所以 Kitchen gardens = D。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "20": {
+      "answer": "A — The Temple of the Four Winds",
+      "explanation": "錄音說從 car park 出發： “go past the western sides of the stables and the house.” 之後： “when the path forks, take the right-hand path.” 再沿路前進： “with the woods on your left and the temple is right at the end.” 地圖中從 car park 沿 Old Stables 和 House 西側向北走，到上方 fork 後取右邊支路；沿這條路走時， woods 位於左側，而道路終點正是 A。 所以 The Temple of the Four Winds = A。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "21": {
+      "answer": "B and D",
+      "explanation": "題目問：Colin 在 bread reuse project 中，哪兩件事令他 most satisfying / 特別有滿足感。 B — finding a good way to prevent waste Marie 說： “It must've been a great feeling to make something appetising out of bits of old bread that would've been thrown away otherwise.” Colin 回答： “It was.” 本來會被丟掉的 stale bread 被重新製成食品，正是 preventing waste。Colin 的 “It was” 明確確認這件事令他很有滿足感。 所以 B 正確。 D — experimenting with designs and colours Colin 說自己： “had time to play around with different patterns” 以及研究如何加入 fruit and vegetables： “to make them a more appetising colour” 最後說： “I was really pleased with what I managed to produce.” different patterns = designs；appetising colour = colours，而 “really pleased” 清楚表達滿足感。 所以 D 正確。 中伏位：3-D printing 他以前已經用過，所以學習這項技術不是這次最有滿足感的地方。Basic process 更被他形容為 “quite straightforward”。Restaurants 現階段只是他希望將來會有興趣，尚未真正提供 support。",
+      "sourcePages": [
+        55,
+        56,
+        57
+      ]
+    },
+    "22": {
+      "answer": "B and D",
+      "explanation": "題目問：Colin 在 bread reuse project 中，哪兩件事令他 most satisfying / 特別有滿足感。 B — finding a good way to prevent waste Marie 說： “It must've been a great feeling to make something appetising out of bits of old bread that would've been thrown away otherwise.” Colin 回答： “It was.” 本來會被丟掉的 stale bread 被重新製成食品，正是 preventing waste。Colin 的 “It was” 明確確認這件事令他很有滿足感。 所以 B 正確。 D — experimenting with designs and colours Colin 說自己： “had time to play around with different patterns” 以及研究如何加入 fruit and vegetables： “to make them a more appetising colour” 最後說： “I was really pleased with what I managed to produce.” different patterns = designs；appetising colour = colours，而 “really pleased” 清楚表達滿足感。 所以 D 正確。 中伏位：3-D printing 他以前已經用過，所以學習這項技術不是這次最有滿足感的地方。Basic process 更被他形容為 “quite straightforward”。Restaurants 現階段只是他希望將來會有興趣，尚未真正提供 support。",
+      "sourcePages": [
+        55,
+        56,
+        57
+      ]
+    },
+    "23": {
+      "answer": "A and E",
+      "explanation": "題目問：兩位學生都同意 touch-sensitive sensors 未來可以朝哪兩個方向發展。 A — for use on medical products Marie 說： “I thought it might be really good for drug storage in hospitals and pharmacies.” Colin 回應： “Right.” drug storage in hospitals and pharmacies = use on medical products。Marie 提議，Colin 明確接受，所以 A 正確。 E — to indicate the weight of certain foods Colin 提議 sensor 除了 freshness，還可顯示： “Like how many kilograms a joint of meat is, for example.” Marie 回應： “Yes, there's all sorts of possibilities.” how many kilograms = weight，因此 E 正確。 中伏位：B 和 C 都是這項 sensor 目前已經可以做到的事：它已經能表示 food gone bad，也已經能用於 milk 和 juice。題目問的是未來可進一步發展的方向。",
+      "sourcePages": [
+        57,
+        58
+      ]
+    },
+    "24": {
+      "answer": "A and E",
+      "explanation": "題目問：兩位學生都同意 touch-sensitive sensors 未來可以朝哪兩個方向發展。 A — for use on medical products Marie 說： “I thought it might be really good for drug storage in hospitals and pharmacies.” Colin 回應： “Right.” drug storage in hospitals and pharmacies = use on medical products。Marie 提議，Colin 明確接受，所以 A 正確。 E — to indicate the weight of certain foods Colin 提議 sensor 除了 freshness，還可顯示： “Like how many kilograms a joint of meat is, for example.” Marie 回應： “Yes, there's all sorts of possibilities.” how many kilograms = weight，因此 E 正確。 中伏位：B 和 C 都是這項 sensor 目前已經可以做到的事：它已經能表示 food gone bad，也已經能用於 milk 和 juice。題目問的是未來可進一步發展的方向。",
+      "sourcePages": [
+        57,
+        58
+      ]
+    },
+    "25": {
+      "answer": "D — Retailers should do more to encourage this",
+      "explanation": "題目項目是 Use of local products。 Marie 說： “the shops are still full of imported foods.” Colin 回應： “they need to be more proactive to address that.” Marie再補充： “motivate consumers to change.” “more proactive” 表示 retailers 應主動採取更多行動；“motivate consumers” 亦表示要鼓勵消費者改變。 所以答案是 D — Retailers should do more to encourage this。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "26": {
+      "answer": "G — There should be stricter regulations about this",
+      "explanation": "題目項目是 Reduction in unnecessary packaging。 Colin 說： “everyone's aware of the need for a reduction in unnecessary packaging” 但目前： “just about everything … is still covered in plastic.” 所以他提出： “The government needs to do something about it.” Marie 同意： “Absolutely. It's got to change.” 重點在於他們認為單靠目前做法不夠，需要政府介入。選項中最符合這種立場的是 G — stricter regulations。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "27": {
+      "answer": "C — This already seems to be widespread",
+      "explanation": "題目是 Gluten-free and lactose-free food。 Marie 說： “Lots of people I know have been buying that type of food for years now.” Colin 再補充，甚至沒有被診斷出 allergy 的人也會購買。 這表示這種食品早已不局限於少數有醫療需要的人，使用情況似乎相當普遍。 所以答案是 C — This already seems to be widespread。 “for years now” 是關鍵：這已經是現有趨勢，不只是未來預測。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "28": {
+      "answer": "B — This may have disappointing results",
+      "explanation": "題目是 branded products related to celebrity chefs。 Marie 說自己曾買過一次： “but I won't again.” Colin 也分享買過某位名廚品牌的 chicken spice mix： “it didn't actually taste of anything.” 產品名氣很吸引，但實際效果令人失望，所以最符合： B — This may have disappointing results。 中伏位：celebrity chefs 很知名，但題目問學生對產品趨勢的 opinion；他們的個人經歷是負面的。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "29": {
+      "answer": "F — Most people know little about this",
+      "explanation": "題目是 ghost kitchens。 Colin 一開始直接問： “No. What are they?” Marie 解釋後又說： “people aren't aware of that – it's all kept very quiet.” Colin 接著確認： “So people don't realise the food's not actually from the restaurant?” 這些句子都指向資訊透明度很低，大部分消費者並不了解 ghost kitchens 的運作方式。 所以答案是 F — Most people know little about this。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "30": {
+      "answer": "H — This could be dangerous",
+      "explanation": "題目是 use of mushrooms for common health concerns。 Colin 說愈來愈多人用不同 mushroom varieties 處理健康問題。 Marie 回應： “They might be taking a big risk there.” Colin 同意，並說： “it's hard to know which varieties are safe to eat.” “taking a big risk” + 不知道哪些種類安全食用，直接指向潛在危險。 所以答案是 H — This could be dangerous。",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "31": {
+      "answer": "walls",
+      "explanation": "題目寫： “a local teacher realised that stones beneath the bog surface were once _____.” 錄音說 Patrick Caulfield 發現地下有一排排 stones，然後： “He realised that these must be walls…” 因此那些埋在 bog 下的石頭原本是 walls。 答案是 walls。 題目使用 “stones … were once”，錄音則直接判斷這些 stones 是古老牆體。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "32": {
+      "answer": "son",
+      "explanation": "題目寫： “His _____ became an archaeologist and undertook an investigation of the site.” 錄音說： “Patrick Caulfield's son Seamus, who had become an archaeologist…” “his son” 完全直接對應題目。 所以答案是 son。 Seamus 是名字，但題目問的是 Patrick 與他的關係，因此填 son。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "33": {
+      "answer": "fuel",
+      "explanation": "題目寫： “a traditional method used by local people to dig for _____” 錄音說 Seamus 使用 iron probes，這是一種： “traditional method which local people had always used for finding fuel buried in the bog” 所以答案是 fuel。 中伏位：iron probes 是使用的工具；題目問當地人原本利用這個方法尋找甚麼，答案是 fuel。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "34": {
+      "answer": "oxygen",
+      "explanation": "題目寫： “Items are well preserved in the bog because of a lack of _____.” 錄音說： “Objects remain so well preserved … because of the acidity of the peat and the deficiency of oxygen.” “deficiency of” = lack of，所以答案是 oxygen。 中伏位：acidity 也是保存良好的原因之一，但題目已經把句型指定為 “a lack of _____”，與 “deficiency of oxygen” 直接對應。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "35": {
+      "answer": "rectangular",
+      "explanation": "題目寫： “Houses were _____ in shape and had a hole in the roof.” 錄音談到房屋時先提到人們常有 round 的印象，隨後給出真正形狀： “rectangular with a small hole in the roof that allowed smoke to escape.” 題目的兩個資訊點都來自這一句： rectangular → _____ in shape small hole in the roof → had a hole in the roof 所以答案是 rectangular。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "36": {
+      "answer": "lamps",
+      "explanation": "題目寫： “pots used for storage and to make _____.” 錄音先說 pots 可用於 storing food，然後描述另一用途： “pots were filled with a small amount of fat and when this was set alight, they served as lamps.” “served as lamps” 表示陶罐點燃脂肪後可作照明用途，所以答案是 lamps。 題目把這個用途簡化成 “used … to make lamps”。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "37": {
+      "answer": "family",
+      "explanation": "題目寫： “Each field at Céide was large enough to support a big _____.” 錄音說： “each plot of land was of a suitable size to sustain an extended family.” “sustain” = support；“extended family” 就是較大的家庭。 因此題目改寫為： support a big family 答案是 family。 中伏位：題目要求 ONE WORD ONLY，所以不能填 extended family；big 已經代替了 extended 的概念。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "38": {
+      "answer": "winter",
+      "explanation": "題目寫： “no evidence of structures to house them during _____.” 錄音說： “no structures have been found which would have been used to shelter animals in the winter.” “shelter animals” = house them；“in the winter” = during winter。 所以答案是 winter。 這項證據亦支持前一句：放牧很可能是 year-round activity。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "39": {
+      "answer": "soil",
+      "explanation": "題目在 “Reasons for the decline in farming” 下寫： “a decline in _____ quality” 錄音說： “The soil would have become less productive and led to the abandonment of farming.” “less productive” 表示 soil quality 下降，所以題目把它濃縮為： a decline in soil quality 答案是 soil。 中伏位：crop rotation 是導致 soil 變差的其中一個原因；空格問的是甚麼東西的 quality 下降，所以填 soil。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "40": {
+      "answer": "rain",
+      "explanation": "題目寫： “an increase in _____” 錄音談到另一項 climatic pressure： “the conditions became wetter as there was a lot more rain.” “a lot more rain” = an increase in rain，因此答案是 rain。 中伏位：wetter 是增加降雨後的結果, not 原因； 題目需要名詞，且 ONE WORD ONLY，所以直接填 rain。",
+      "sourcePages": [
+        66
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 360.071875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%201.mp3",
+        "audioSha256": "0a98a26a28d4cf9c22e36b990508233099a9d70eda10646207b811239866daf0",
+        "transcriptSha256": "2aac6e2ee4c2cc01dd0bd9be969b7b0ab53a19a0fdf8ab3fe06e39a674a536b0",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9953,
+        "lines": [
+          {
+            "start": 48.85,
+            "end": 54.76,
+            "coverage": 0.9394
+          },
+          {
+            "start": 54.76,
+            "end": 62.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 63.06,
+            "end": 66.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.52,
+            "end": 69.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.64,
+            "end": 77.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.42,
+            "end": 85.42,
+            "coverage": 0.9815
+          },
+          {
+            "start": 86.4,
+            "end": 91.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.92,
+            "end": 99.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.5,
+            "end": 100.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.86,
+            "end": 103.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 104.36,
+            "end": 109.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.12,
+            "end": 116.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.46,
+            "end": 124.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 124.02,
+            "end": 131.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 132.1,
+            "end": 140.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 141.52,
+            "end": 145.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 146.62,
+            "end": 153.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 154.24,
+            "end": 156.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 157.72,
+            "end": 165.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 166.3,
+            "end": 171.04,
+            "coverage": 0.98
+          },
+          {
+            "start": 171.25,
+            "end": 171.77,
+            "coverage": 0,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Isolated-window recognition resolves Uh-huh, omitted by the full-track recognizer."
+          },
+          {
+            "start": 171.88,
+            "end": 174.0,
+            "coverage": 1.0,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Short-window recognition separates Another from the preceding Uh-huh."
+          },
+          {
+            "start": 175.42,
+            "end": 183.52,
+            "coverage": 0.9894
+          },
+          {
+            "start": 184.48,
+            "end": 187.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 187.94,
+            "end": 197.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 198.58,
+            "end": 202.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.1,
+            "end": 211.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 212.42,
+            "end": 223.56,
+            "coverage": 0.9912
+          },
+          {
+            "start": 224.1,
+            "end": 225.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.6,
+            "end": 227.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.72,
+            "end": 268.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.26,
+            "end": 276.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.7,
+            "end": 283.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.64,
+            "end": 292.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.62,
+            "end": 296.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.74,
+            "end": 302.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.92,
+            "end": 310.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.64,
+            "end": 318.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.82,
+            "end": 326.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.28,
+            "end": 332.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 333.12,
+            "end": 337.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.58,
+            "end": 344.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.76,
+            "end": 347.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.52,
+            "end": 350.04,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 407.04,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%202.mp3",
+        "audioSha256": "74029f685a9b42b7716f66f52e9ceb0f7e391636b685f6bfeaf6ed7f881ea58c",
+        "transcriptSha256": "e17af57d357465b203275d6453f334876574d49c61f42ed0967086f14507a5e3",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.993,
+        "lines": [
+          {
+            "start": 62.02,
+            "end": 67.34,
+            "coverage": 0.9836
+          },
+          {
+            "start": 68.2,
+            "end": 82.04,
+            "coverage": 0.9803
+          },
+          {
+            "start": 82.84,
+            "end": 89.76,
+            "coverage": 0.9231
+          },
+          {
+            "start": 90.48,
+            "end": 93.3,
+            "coverage": 0.9412
+          },
+          {
+            "start": 94.14,
+            "end": 99.94,
+            "coverage": 0.9861
+          },
+          {
+            "start": 100.84,
+            "end": 110.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.48,
+            "end": 118.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.64,
+            "end": 125.44,
+            "coverage": 0.9722
+          },
+          {
+            "start": 126.18,
+            "end": 133.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.52,
+            "end": 141.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.0,
+            "end": 153.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 154.5,
+            "end": 160.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.18,
+            "end": 169.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 170.14,
+            "end": 179.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.66,
+            "end": 185.68,
+            "coverage": 0.9091
+          },
+          {
+            "start": 186.4,
+            "end": 196.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 197.1,
+            "end": 202.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 203.16,
+            "end": 210.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 211.24,
+            "end": 222.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 223.84,
+            "end": 232.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 274.76,
+            "end": 284.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.68,
+            "end": 288.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.4,
+            "end": 299.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.58,
+            "end": 310.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.62,
+            "end": 316.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 317.44,
+            "end": 328.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 329.64,
+            "end": 333.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 334.84,
+            "end": 344.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 345.28,
+            "end": 349.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 349.58,
+            "end": 354.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 354.86,
+            "end": 364.02,
+            "coverage": 0.9911
+          },
+          {
+            "start": 365.2,
+            "end": 371.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 371.62,
+            "end": 378.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 379.1,
+            "end": 389.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 389.84,
+            "end": 392.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 393.64,
+            "end": 395.54,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 395.52,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%203.mp3",
+        "audioSha256": "12303706d9f504cb32c0545a4b9a891375add43c73ae856354441bb6d9dac8b5",
+        "transcriptSha256": "ea96e4be38ebcc4a845ab03904ba746a955a65ff0f3b8fd314e918561d9c50a8",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9944,
+        "lines": [
+          {
+            "start": 43.2,
+            "end": 45.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 45.6,
+            "end": 48.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 48.88,
+            "end": 54.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 55.4,
+            "end": 67.22,
+            "coverage": 0.9845
+          },
+          {
+            "start": 67.66,
+            "end": 68.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.8,
+            "end": 76.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.44,
+            "end": 80.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.62,
+            "end": 88.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 88.7,
+            "end": 93.26,
+            "coverage": 0.9219
+          },
+          {
+            "start": 93.82,
+            "end": 111.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.04,
+            "end": 119.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.92,
+            "end": 128.66,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 129.46,
+            "end": 139.3,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 139.7,
+            "end": 139.94,
+            "coverage": 0,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Isolated-window recognition resolves Hmm, written Mmm in the PDF."
+          },
+          {
+            "start": 140.58,
+            "end": 153.42,
+            "coverage": 0.9924,
+            "refined": true
+          },
+          {
+            "start": 154.42,
+            "end": 160.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 160.62,
+            "end": 164.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 164.74,
+            "end": 174.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 175.3,
+            "end": 186.94,
+            "coverage": 0.9837
+          },
+          {
+            "start": 187.5,
+            "end": 190.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 238.04,
+            "end": 246.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 246.66,
+            "end": 255.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 256.4,
+            "end": 259.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 260.04,
+            "end": 263.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.96,
+            "end": 278.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 278.66,
+            "end": 281.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.24,
+            "end": 287.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.86,
+            "end": 292.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.62,
+            "end": 298.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.26,
+            "end": 301.34,
+            "coverage": 0.9333
+          },
+          {
+            "start": 301.88,
+            "end": 322.28,
+            "coverage": 0.9952
+          },
+          {
+            "start": 322.82,
+            "end": 333.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 333.98,
+            "end": 340.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.18,
+            "end": 341.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.34,
+            "end": 351.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.54,
+            "end": 356.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.72,
+            "end": 360.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 361.46,
+            "end": 361.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 363.14,
+            "end": 373.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 373.72,
+            "end": 377.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 377.48,
+            "end": 381.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 382.38,
+            "end": 383.8,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 378.0440625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%205%20Part%204.mp3",
+        "audioSha256": "5e34401f525941721cd56c7337b03b56a1357f66392de6ababf731f0d1476d88",
+        "transcriptSha256": "fef7db78efd0188184e95547dfa92a4c1072216cd88cf76e33172ff2152ee8fd",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9871,
+        "lines": [
+          {
+            "start": 87.56,
+            "end": 99.2,
+            "coverage": 0.9652
+          },
+          {
+            "start": 100.1,
+            "end": 106.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.36,
+            "end": 113.3,
+            "coverage": 0.9697
+          },
+          {
+            "start": 114.16,
+            "end": 121.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 122.86,
+            "end": 132.12,
+            "coverage": 0.9915
+          },
+          {
+            "start": 132.92,
+            "end": 139.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.08,
+            "end": 149.64,
+            "coverage": 0.964
+          },
+          {
+            "start": 150.48,
+            "end": 163.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 164.28,
+            "end": 173.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 174.38,
+            "end": 184.8,
+            "coverage": 0.975
+          },
+          {
+            "start": 185.82,
+            "end": 198.54,
+            "coverage": 0.9313
+          },
+          {
+            "start": 199.64,
+            "end": 206.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 207.02,
+            "end": 217.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 223.36,
+            "end": 229.34,
+            "coverage": 0.9643
+          },
+          {
+            "start": 230.4,
+            "end": 238.4,
+            "coverage": 0.9915
+          },
+          {
+            "start": 239.16,
+            "end": 245.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 246.02,
+            "end": 253.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 255.18,
+            "end": 261.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.48,
+            "end": 267.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 268.92,
+            "end": 273.5,
+            "coverage": 0.9688
+          },
+          {
+            "start": 274.5,
+            "end": 284.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 286.44,
+            "end": 292.32,
+            "coverage": 0.9571
+          },
+          {
+            "start": 293.12,
+            "end": 300.08,
+            "coverage": 0.9681
+          },
+          {
+            "start": 301.1,
+            "end": 309.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.74,
+            "end": 317.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.6,
+            "end": 326.74,
+            "coverage": 0.9867
+          },
+          {
+            "start": 327.5,
+            "end": 331.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.16,
+            "end": 336.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 337.64,
+            "end": 344.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 345.48,
+            "end": 347.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.44,
+            "end": 357.9,
+            "coverage": 0.9754
+          },
+          {
+            "start": 358.66,
+            "end": 364.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 365.72,
+            "end": 368.38,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 77.42,
+        "line": 5,
+        "evidenceScore": 66.0
+      },
+      "2": {
+        "part": 1,
+        "time": 117.46,
+        "line": 12,
+        "evidenceScore": 88.0
+      },
+      "3": {
+        "part": 1,
+        "time": 166.3,
+        "line": 19,
+        "evidenceScore": 70.0
+      },
+      "4": {
+        "part": 1,
+        "time": 175.42,
+        "line": 22,
+        "evidenceScore": 86.0
+      },
+      "5": {
+        "part": 1,
+        "time": 202.1,
+        "line": 26,
+        "evidenceScore": 76.0
+      },
+      "6": {
+        "part": 1,
+        "time": 212.42,
+        "line": 27,
+        "evidenceScore": 99.0
+      },
+      "7": {
+        "part": 1,
+        "time": 277.7,
+        "line": 32,
+        "evidenceScore": 92.0
+      },
+      "8": {
+        "part": 1,
+        "time": 283.64,
+        "line": 33,
+        "evidenceScore": 27.41
+      },
+      "9": {
+        "part": 1,
+        "time": 310.64,
+        "line": 37,
+        "evidenceScore": 83.0
+      },
+      "10": {
+        "part": 1,
+        "time": 327.28,
+        "line": 39,
+        "evidenceScore": 58.0
+      },
+      "11": {
+        "part": 2,
+        "time": 100.84,
+        "line": 5,
+        "evidenceScore": 71.0
+      },
+      "12": {
+        "part": 2,
+        "time": 126.18,
+        "line": 8,
+        "evidenceScore": 47.0
+      },
+      "13": {
+        "part": 2,
+        "time": 142.0,
+        "line": 10,
+        "evidenceScore": 52.0
+      },
+      "14": {
+        "part": 2,
+        "time": 186.4,
+        "line": 15,
+        "evidenceScore": 98.0
+      },
+      "15": {
+        "part": 2,
+        "time": 211.24,
+        "line": 18,
+        "evidenceScore": 38.3
+      },
+      "16": {
+        "part": 2,
+        "time": 300.58,
+        "line": 23,
+        "evidenceScore": 60.0
+      },
+      "17": {
+        "part": 2,
+        "time": 317.44,
+        "line": 25,
+        "evidenceScore": 16.35
+      },
+      "18": {
+        "part": 2,
+        "time": 334.84,
+        "line": 27,
+        "evidenceScore": 70.0
+      },
+      "19": {
+        "part": 2,
+        "time": 349.58,
+        "line": 29,
+        "evidenceScore": 51.0
+      },
+      "20": {
+        "part": 2,
+        "time": 379.1,
+        "line": 33,
+        "evidenceScore": 49.0
+      },
+      "21": {
+        "part": 3,
+        "time": 111.04,
+        "line": 10,
+        "evidenceScore": 103.0
+      },
+      "22": {
+        "part": 3,
+        "time": 111.04,
+        "line": 10,
+        "evidenceScore": 103.0
+      },
+      "23": {
+        "part": 3,
+        "time": 164.74,
+        "line": 17,
+        "evidenceScore": 65.0
+      },
+      "24": {
+        "part": 3,
+        "time": 164.74,
+        "line": 17,
+        "evidenceScore": 65.0
+      },
+      "25": {
+        "part": 3,
+        "time": 256.4,
+        "line": 22,
+        "evidenceScore": 38.0
+      },
+      "26": {
+        "part": 3,
+        "time": 263.96,
+        "line": 24,
+        "evidenceScore": 38.0
+      },
+      "27": {
+        "part": 3,
+        "time": 293.62,
+        "line": 28,
+        "evidenceScore": 56.0
+      },
+      "28": {
+        "part": 3,
+        "time": 322.82,
+        "line": 31,
+        "evidenceScore": 30.0
+      },
+      "29": {
+        "part": 3,
+        "time": 356.72,
+        "line": 36,
+        "evidenceScore": 55.0
+      },
+      "30": {
+        "part": 3,
+        "time": 377.48,
+        "line": 40,
+        "evidenceScore": 39.0
+      },
+      "31": {
+        "part": 4,
+        "time": 122.86,
+        "line": 4,
+        "evidenceScore": 50.0
+      },
+      "32": {
+        "part": 4,
+        "time": 140.08,
+        "line": 6,
+        "evidenceScore": 73.0
+      },
+      "33": {
+        "part": 4,
+        "time": 150.48,
+        "line": 7,
+        "evidenceScore": 94.0
+      },
+      "34": {
+        "part": 4,
+        "time": 199.64,
+        "line": 11,
+        "evidenceScore": 53.8
+      },
+      "35": {
+        "part": 4,
+        "time": 246.02,
+        "line": 16,
+        "evidenceScore": 78.0
+      },
+      "36": {
+        "part": 4,
+        "time": 274.5,
+        "line": 20,
+        "evidenceScore": 95.0
+      },
+      "37": {
+        "part": 4,
+        "time": 293.12,
+        "line": 22,
+        "evidenceScore": 77.0
+      },
+      "38": {
+        "part": 4,
+        "time": 310.74,
+        "line": 24,
+        "evidenceScore": 94.0
+      },
+      "39": {
+        "part": 4,
+        "time": 332.16,
+        "line": 27,
+        "evidenceScore": 87.0
+      },
+      "40": {
+        "part": 4,
+        "time": 348.44,
+        "line": 30,
+        "evidenceScore": 67.0
+      }
+    }
+  }
+}

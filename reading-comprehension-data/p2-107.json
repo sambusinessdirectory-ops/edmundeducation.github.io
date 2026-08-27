@@ -1,0 +1,279 @@
+{
+  "id": "p2-107",
+  "catalogueId": "p2-107",
+  "title": "NATURAL CHOICE Coffee and chocolate",
+  "sourceHeading": "Natural Choice: Coffee and Chocolate What’s the connection between your morning coffee, wintering North American birds and the cool shade of a tree? Actually, quite a lot, says Simon Birch.",
+  "passage": 2,
+  "practice": 107,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-107-natural-choice-coffee-and-chocolate",
+  "source": {
+    "filename": "Practice 107 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8294e6e64cea151d63148feb7782b5daacdba503a854875ce321fa30cc4a4be3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "When scientists from London’s Natural History Museum descended on the coffee farms of the tiny Central American republic of El Salvador, they were astonished to find such diversity of insect and plant species. During 18 months’ work on 12 farms, they found a third more species of parasitic wasp than are known to exist in the whole country of Costa Rica. They described four new species and are aware of a fifth. On 24 farms, they found nearly 300 species of tree when they had expected to find about 100."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "El Salvador has lost much of its natural forest, with coffee farms covering nearly 10% of the country. Most of them use the ‘shade-grown’ method of production, which utilises a semi-natural forest ecosystem. Alex Munro, the museum’s botanist on the expedition, says: ‘Our findings amazed our insect specialist. There’s a very sophisticated food web present. The wasps, for instance, may depend on specific species of tree.’"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "It’s the same the world over. Species diversity is much higher where coffee is grown in shade conditions. In addition, coffee (and chocolate) is usually grown in tropical rainforest – regions that are biodiversity hotspots. ‘These habitats support up to 70% of the planet’s plant and animal species, and so the production methods of cocoa and coffee can have a hugely significant impact,’ explains Dr Paul Donald of the Royal Society for the Protection of Birds."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "So what does ‘shade-grown’ mean, and why is it good for wildlife? Most of the world’s coffee is produced by poor farmers in the developing world. Traditionally they have grown coffee (and cocoa) under the shade of selectively thinned tracts of rain forest in a genuinely sustainable form of farming. Leaf fall from the canopy provides a supply of nutrients and acts as a mulch that suppresses weeds. The insects that live in the canopy pollinate the cocoa and coffee and prey on pests. The trees also provide farmers with fruit and wood for fuel."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "‘Bird diversity in shade-grown coffee plantations rivals that found in natural forests in the same region,’ says Robert Rice from the Smithsonian Migratory Bird Center. In Ghana, West Africa – one of the world’s biggest producers of cocoa – 90% of the cocoa is grown under shade, and these forest plantations are a vital habitat for wintering European migrant birds. In the same way, the coffee forests of Central and South America are a refuge for wintering North American migrants."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "More recently, a combination of the collapse in the world market for coffee and cocoa and a drive to increase yields by producer countries has led to huge swathes of shade-grown coffee and cocoa being cleared to make way for a highly intensive, monoculture pattern of production known as ‘full sun’. But this system not only reduces the diversity of flora and fauna but also requires huge amounts of pesticides and fertilisers. In Côte d’Ivoire, which produces more than half the world’s cocoa, more than a third of the crop is now grown in full-sun conditions."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The loggers have been busy in the Americas too, where nearly 70% of all Colombian coffee is now produced using full-sun methods. One study carried out in Colombia and Mexico found that, compared with shade coffee, full-sun plantations have 95% fewer species of birds."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "In El Salvador, Alex Munro says shade-coffee farms have a cultural as well as ecological significance and people are not happy to see them go. But the financial pressures are great, and few of these coffee farms make much money. ‘One farm we studied, a cooperative of 100 families, made just $10,000 a year, or $100 per family, and that’s not taking labour costs into account.’"
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The loss of shade-coffee forests has so alarmed a number of North American wildlife organisations that they are now harnessing consumer power to help save these threatened habitats. They are promoting a ‘certification’ system that can indicate to consumers that the beans have been grown on shade plantations. Bird-friendly coffee, for instance, is marketed by the Smithsonian Migratory Bird Center. The idea is that the small extra cost is passed directly on to the coffee farmers as a financial incentive to maintain their shade-coffee farms."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Not all conservationists agree with such measures, however. Some say certification could be leading to the loss, not the preservation, of natural forests. John Rappole of the Smithsonian Conservation and Research Center, for example, argues that shade-grown marketing provides ‘an incentive to convert existing areas of primary forest that are too remote or steep to be converted profitably to other forms of cultivation into shade-coffee plantations’."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "Other conservationists, such as Stacey Philpott and colleagues, argue the case for shade coffee. But there are different types of shade growing. The systems used by subsistence farmers create plantations that are virtually identical to natural forests (and have comparable diversity), while plantations that use coffee plants as the understorey and cacao or citrus trees as the overstorey may be no more diverse than full-sun farms. Certification procedures need to distinguish between the two, and Ms Philpott argues that as long as the process is rigorous and offers financial gains to the producers, shade growing does benefit the environment."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–19",
+    "g20": "Questions 20–23",
+    "g24": "Questions 24–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 19,
+      "text": "Questions 15–19\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 15–19 on your answer sheet write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n15 _________________ More species survive on the farms studied by the researchers than in\nthe natural El Salvador forests.\n16 _________________ Nearly three-quarters of the Earth’s wildlife species can be found in\nshade-coffee plantations.\n17 _________________ Farmers in El Salvador who have tried both methods prefer\nshade-grown plantations.\n18 _________________ Shade plantations are important for migrating birds in both Africa and\nthe Americas.\n19 _________________ Full-sun cultivation can increase the costs of farming."
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 23,
+      "text": "Questions 20–23\nLook at the following opinions (Questions 20–23) and the list of people below.\nMatch each opinion to the person credited with it.\nWrite the correct letter A–E in boxes 20–23 on your answer sheet.\nNB You can write any letter more than once.\n20 ___________ Encouraging shade growing may lead to farmers using the natural forest for\ntheir plantations.\n21 ___________ If shade-coffee farms match the right criteria, they can be good for wildlife.\n22 ___________ There may be as many species of bird found on shade farms in a particular\narea as in natural habitats there.\n23 ___________ Currently, many shade-coffee farmers earn very little.\n\n A                                      Alex Munro\n\n B                                      Paul Donald\n\n C                                      Robert Rice\n\n D                                      John Rappole\n\n E                                      Stacey Philpott"
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 27,
+      "text": "Questions 24–27\nClassify the features described below as applying to\nWrite the correct letter A–C in boxes 24–27 on your answer sheet.\n\n\n24 ___________ can be used on either coffee or cocoa plantations\n25 ___________ is expected to produce bigger crops\n26 ___________ documentation may be used to encourage sales\n27 ___________ can reduce wildlife diversity\n\n A                        the shade-grown method\n\n B                        the full-sun method\n\n C                        both shade-grown and full-sun methods"
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ More species survive on the farms studied by the researchers than in the natural El Salvador forests.",
+      "translation": "研究人員研究的農場，比 El Salvador 的天然森林有更多物種存活。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ Nearly three-quarters of the Earth’s wildlife species can be found in shade-coffee plantations.",
+      "translation": "地球上接近四分之三的野生物種，可以在 shade-coffee plantations 中找到。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ Farmers in El Salvador who have tried both methods prefer shade-grown plantations.",
+      "translation": "曾經試過兩種方法的 El Salvador 農民較喜歡 shade-grown plantations。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ Shade plantations are important for migrating birds in both Africa and the Americas.",
+      "translation": "shade plantations 對非洲和美洲的候鳥都很重要。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ Full-sun cultivation can increase the costs of farming.",
+      "translation": "full-sun cultivation 可能增加農業成本。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ Encouraging shade growing may lead to farmers using the natural forest for their plantations.",
+      "translation": "鼓勵 shade growing 可能導致農民把天然森林改成種植園。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ If shade-coffee farms match the right criteria, they can be good for wildlife.",
+      "translation": "如果 shade-coffee farms 符合正確標準，它們可以對野生生物有利。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ There may be as many species of bird found on shade farms in a particular area as in natural habitats there.",
+      "translation": "某個地區的 shade farms 可能有和當地天然棲息地一樣多的鳥類品種。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ Currently, many shade-coffee farmers earn very little.",
+      "translation": "目前很多 shade-coffee farmers 收入很少。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "___________ can be used on either coffee or cocoa plantations",
+      "translation": "可用於 coffee 或 cocoa plantations。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "___________ is expected to produce bigger crops",
+      "translation": "預期可以提高產量。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "___________ documentation may be used to encourage sales",
+      "translation": "可用文件或認證來鼓勵銷售。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "___________ can reduce wildlife diversity",
+      "translation": "可能降低野生生物多樣性。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-107/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-107/page-5.jpg"
+  ]
+}

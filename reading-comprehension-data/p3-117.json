@@ -1,0 +1,324 @@
+{
+  "id": "p3-117",
+  "catalogueId": "p3-117",
+  "title": "Recovering a damaged reputation",
+  "sourceHeading": "Recovering a Damaged Reputation",
+  "passage": 3,
+  "practice": 117,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-117-recovering-a-damaged-reputation",
+  "source": {
+    "filename": "Practice 117 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "c7161d4067f1913aca0265799b34c008ff41e81d0f1b58e9440a388982a4825c"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "In 2009, it was revealed that some of the information published by the University of East Anglia’s Climatic Research Unit (CRU) in the UK, concerning climate change, had been inaccurate. Furthermore, it was alleged that some of the relevant statistics had been withheld from publication. The ensuing controversy affected the reputation not only of that institution, but also of the Intergovernmental Panel on Climate Change (IPCC), with which the CRU is closely involved, and of climate scientists in general. Even if the claims of misconduct and incompetence were eventually proven to be largely untrue, or confined to a few individuals, the damage was done. The perceived wrongdoings of a few people had raised doubts about the many."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The response of most climate scientists was to cross their fingers and hope for the best, and they kept a low profile. Many no doubt hoped that subsequent independent inquiries into the IPCC and CRU would draw a line under their problems. However, although these were likely to help, they were unlikely to undo the harm caused by months of hostile news reports and attacks by critics."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The damage that has been done should not be underestimated. As Ralph Cicerone, the President of the US National Academy of Sciences, wrote in an editorial in the journal Science: ‘Public opinion has moved toward the view that scientists often try to suppress alternative hypotheses and ideas and that scientists will withhold data and try to manipulate some aspects of peer review to prevent dissent.’ He concluded that ‘the perceived misbehavior of even a few scientists can diminish the credibility of science as a whole.’"
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "An opinion poll taken at the beginning of 2010 found that the proportion of people in the US who trust scientists as a source of information about global warming had dropped from 83 percent in 2008 to 74 percent. Another survey carried out by the British Broadcasting Corporation in February 2010 found that just 26 percent of British people now believe that climate change is confirmed as being largely human-made, down from 41 percent in November 2009."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Regaining the confidence and trust of the public is never easy. Hunkering down and hoping for the best – climate science’s current strategy – makes it almost impossible. It is much better to learn from the successes and failures of organisations that have dealt with similar blows to their public standing."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In fact, climate science needs professional help to rebuild its reputation. It could do worse than follow the advice given by Leslie Gaines-Ross, a ‘reputation strategist’ at public relations (PR) company Weber Shandwick, in her recent book Corporate Reputation: 12 Steps to Safeguarding and Recovering Reputation. Gaines-Ross’s strategy is based on her analysis of how various organisations responded to crises, such as desktop-printer firm Xerox, whose business plummeted during the 1990s, and the USA’s National Aeronautics and Space Administration (NASA) after the Columbia shuttle disaster in 2003."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The first step she suggests is to ‘take the heat – leader first’. In many cases, chief executives who publicly accept responsibility for corporate failings can begin to reverse the freefall of their company’s reputations, but not always. If the leader is held at least partly responsible for the fall from grace, it can be almost impossible to convince critics that a new direction can be charted with that same person at the helm."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "This is the dilemma facing the heads of the IPCC and CRU. Both have been blamed for their organisations’ problems, not least for the way in which they have dealt with critics, and both have been subjected to public calls for their removal. Yet both organisations appear to believe they can repair their reputations without a change of leadership."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The second step outlined by Gaines-Ross is to ‘communicate tirelessly’. Yet many climate researchers have avoided the media and the public, at least until the official enquiries have concluded their reports. This reaction may be understandable, but it has backfired. Journalists following the story have often been unable to find spokespeople willing to defend climate science. In this case, ‘no comment’ is commonly interpreted as an admission of silent, collective guilt."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Remaining visible is only a start, though; climate scientists also need to be careful what they say. They must realise that they face doubts not just about their published results, but also about their conduct and honesty. It simply won’t work for scientists to continue to appeal to the weight of the evidence, while refusing to discuss the integrity of their profession. The harm has been increased by a perceived reluctance to admit even the possibility of mistakes or wrongdoing."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "The third step put forward by Gaines-Ross is ‘don’t underestimate your critics and competitors’. This means not only recognising the skill with which the opponents of climate research have executed their campaigns through Internet blogs and other media, but also acknowledging the validity of some of their criticisms. It is clear, for instance, that climate scientists need better standards of transparency, to allow for scrutiny not just by their peers, but also by critics from outside the world of research."
+    },
+    {
+      "number": 12,
+      "label": "12",
+      "text": "It is also important to engage with those critics. That doesn’t mean conceding to unfounded arguments which are based on prejudice rather than evidence, but there is an obligation to help the public understand the causes of climate change, as well as the options for avoiding and dealing with the consequences."
+    },
+    {
+      "number": 13,
+      "label": "13",
+      "text": "To begin the process of rebuilding trust in their profession, climate scientists need to follow these three steps. But that is just the start. Gaines-Ross estimates that it typically takes four years for a company to rescue and restore a broken reputation."
+    },
+    {
+      "number": 14,
+      "label": "14",
+      "text": "Winning back public confidence is a marathon, not a sprint, but you can’t win at all if you don’t step up to the starting line."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nDo the following statements agree with the views of the writer in Reading Passage 3?\nIn boxes 27–32 on your answer sheet, write:\n YES                     if the statement agrees with the views of the writer\n\n NO                      if the statement contradicts the views of the writer\n\n NOT GIVEN               if it is impossible to say what the writer thinks about this\n27 _________________ If a majority of scientists at the CRU were cleared of misconduct, the\npublic would be satisfied.\n28 _________________ In the aftermath of the CRU scandal, most scientists avoided attention.\n29 _________________ Journalists have defended the CRU and the IPCC against their critics.\n30 _________________ Ralph Cicerone regarded the damage caused by the CRU as\nextending beyond the field of climate science.\n31 _________________ Since 2010, confidence in climate science has risen slightly in the US.\n32 _________________ Climate scientists should take professional advice on regaining public\nconfidence."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 36,
+      "text": "Questions 33–36\nChoose the correct letter, A, B, C or D.\n33 In accordance with Gaines-Ross’s views, the heads of the CRU and IPCC should have\n A resigned from their posts.\n B accepted responsibility and continued in their posts.\n C shifted attention onto more junior staff.\n D ignored the criticisms directed at them.\n34 Which mistake have staff at the CRU and IPCC made?\n A They have blamed each other for problems.\n B They have publicly acknowledged failings.\n C They have avoided interviews with the press.\n D They have made conflicting public statements.\n35 People who challenge the evidence of climate change have generally\n A presented their case poorly.\n B missed opportunities for publicity.\n C made some criticisms which are justified.\n D been dishonest in their statements.\n36 What does the reference to ‘a marathon’ indicate in the final paragraph?\n A The rate at which the climate is changing.\n B The competition between rival theories of climate change.\n C The ongoing need for new climate data.\n D The time it might take for scientists to win back confidence."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete the summary using the list of words/phrases, A–H, below.\nControversy about climate science\n A                                critics\n\n B                                corruption\n\n C                                statistics\n\n D                                guidelines\n\n E                                managers\n\n F                                public relations\n\n G                                sources\n\n H                                computer modelling\n\n\nThe revelation, in 2009, that scientists at the CRU had presented inaccurate\ninformation and concealed some of their 37 _________________ had a\nserious effect on their reputation. In order to address the problem, the\nscientists should turn to experts in 38 _________________.\nLeslie Gaines-Ross has published 39 _________________ based on studies\nof crisis management in commercial and public-sector organisations.\nAmongst other things, Gaines-Ross suggests that climate scientists should\nconfront their 40 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ If a majority of scientists at the CRU were cleared of misconduct, the public would be satisfied.",
+      "translation": "如果 CRU 大部分科學家被證明沒有 misconduct，公眾就會感到滿意。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ In the aftermath of the CRU scandal, most scientists avoided attention.",
+      "translation": "CRU scandal 發生後，大多數科學家避開公眾注意。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Journalists have defended the CRU and the IPCC against their critics.",
+      "translation": "記者曾為 CRU 和 IPCC 辯護，反駁批評者。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Ralph Cicerone regarded the damage caused by the CRU as extending beyond the field of climate science.",
+      "translation": "Ralph Cicerone 認為 CRU 事件造成的傷害超出了 climate science 這一個領域。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Since 2010, confidence in climate science has risen slightly in the US.",
+      "translation": "自 2010 年以來，美國人對 climate science 的信心略有上升。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Climate scientists should take professional advice on regaining public confidence.",
+      "translation": "Climate scientists 應該接受專業建議，以重新獲得公眾信心。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "In accordance with Gaines-Ross’s views, the heads of the CRU and IPCC should have",
+      "translation": "根據 Gaines-Ross 的看法，CRU 和 IPCC 的領導人應該……目標段落：Paragraphs 7–8 Paragraph 7 第一句：“The first step she suggests is to ‘take the heat – leader first’.”",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Which mistake have staff at the CRU and IPCC made?",
+      "translation": "CRU 和 IPCC 的人員犯了哪一個錯誤？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "People who challenge the evidence of climate change have generally",
+      "translation": "質疑 climate change evidence 的人，一般來說……目標段落：Paragraph 11第一句：“The third step put forward by Gaines-Ross is ‘don’t underestimate your critics and competitors’.”",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "What does the reference to ‘a marathon’ indicate in the final paragraph?",
+      "translation": "最後一段提到 “a marathon” 指的是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "2009 年，有人揭發 CRU 科學家呈現不準確資訊，並隱瞞部分 37 ______，這對他們的聲譽造成嚴重影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "為了解決這個問題，科學家應該求助於 38 ______ 方面的專家。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "Leslie Gaines-Ross 已根據對商業及公共部門組織 crisis management 的研究，發布了 39______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "除其他事情外，Gaines-Ross 建議 climate scientists 應該面對他們的 40 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-117/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-117/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-117/page-7.jpg"
+  ]
+}

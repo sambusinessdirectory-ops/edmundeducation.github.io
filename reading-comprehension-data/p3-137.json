@@ -1,0 +1,223 @@
+{
+  "id": "p3-137",
+  "catalogueId": "p3-137",
+  "title": "The Discovery of Uranus",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 137,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-137-the-discovery-of-uranus",
+  "source": {
+    "filename": "Practice 137 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "f7279104612fb51cbd221cc8853fa6682caf37038626a8c6bc50cbfe286c5f16"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Discovery of Uranus Someone once put forward an attractive though unlikely theory. Throughout the Earth’s annual revolution around the sun, there is one point in space always hidden from our eyes. This point is the opposite part of the Earth’s orbit, which is always hidden by the sun. Could there be another planet there, essentially similar to our own, but always invisible?"
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "If a space probe today sent back evidence that such a world existed, it would cause no more sensation than Sir William Herschel’s discovery of a new planet, Uranus, in 1781, did. Herschel was an extraordinary man — no other astronomer has ever covered so vast a field of work — and his career deserves study. He was born in Hanover in Germany in 1738, left the German army in 1757, and arrived in England the same year with no money but quite exceptional musical ability. He played the violin and oboe and at one time was organist in the Octagon Chapel in the city of Bath. Herschel had an active mind, and deep inside he was conscious that music was not his destiny; he therefore read widely in science and the arts, but not until 1772 did he come across a book on astronomy. He was then 34, middle-aged by the standards of the time, but without hesitation he embarked on his new career, financing it by his professional work as a musician. He spent years mastering the art of telescope construction, and even by present-day standards his instruments are comparable with the best."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Serious observation began in 1774. He set himself the astonishing task of ‘reviewing the heavens’, in other words, pointing his telescope to every accessible part of the sky and recording what he saw. The first review was made in 1775; the second, and most momentous, in 1780–81. It was during the latter part of this that he discovered Uranus. Afterwards, supported by the royal grant in recognition of his work, he was able to devote himself entirely to astronomy. His final achievements spread from the sun and moon to remote galaxies (of which he discovered hundreds), and papers flooded from his pen until his death in 1822. Among these, there was one sent to the Royal Society in 1781, entitled An Account of a Comet. In his own words: On Tuesday the 13th of March, between ten and eleven in the evening, while I was examining the small stars in the neighbourhood of H Geminorum, I perceived one that appeared visibly larger than the rest; being struck with its uncommon magnitude, I compared it to H Geminorum and the small star in the quartile between Auriga and Gemini, and finding it to be much larger than either of them, suspected it to be a comet."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions. Also, to be fair, the discovery of a new planet was the last thought in anybody’s mind. But further observation by other astronomers besides Herschel revealed two curious facts. For a comet, the object showed a remarkably sharp disc; furthermore, it was moving so slowly that it was thought to be a great distance from the sun, and comets are normally visible only in the immediate vicinity of the sun. As its orbit came to be worked out the truth dawned that it was a new planet far beyond Saturn’s realm, and that the ‘reviewer of the heavens’ had stumbled across an unprecedented prize. Herschel wanted to call it georgium sidus (Star of George) in honour of his royal patron King George III of Great Britain. The planet was later for a time called Herschel in honour of its discoverer. The name Uranus, which was first proposed by the German astronomer Johann Elert Bode, was in use by the late 19th century."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Uranus is a giant in structure, but not so much in size; its diameter compares unfavourably with that of Jupiter and Saturn, though on the terrestrial scale it is still colossal. Uranus’ atmosphere consists largely of hydrogen and helium, with a trace of methane. Through a telescope the planet appears as a small bluish-green disc with a faint green periphery. In 1977, while recording the occultation of a star behind the planet, the American astronomer James L. Elliot discovered the presence of five rings encircling the equator of Uranus. Four more rings were discovered in January 1986 during the exploratory flight of Voyager 2. In addition to its rings, Uranus has 15 satellites (‘moons’), the last 10 discovered by Voyager 2 on the same flight; all revolve about its equator and move with the planet in an east–west direction. The two largest moons, Titania and Oberon, were discovered by Herschel in 1787. The next two, Umbriel and Ariel, were found in 1851 by the British astronomer William Lassell. Miranda, thought before 1986 to be the innermost moon, was discovered in 1948 by the American astronomer Gerard Peter Kuiper."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Glossary: ‘Occultation’: in astronomy, when one object passes in front of another and hides the second from view, especially, for example, when the moon comes between an observer and a star or planet. ‘Voyager 2’: an unmanned spacecraft sent on a voyage past Saturn, Uranus and Jupiter in 1986, during which it sent back information about these planets to scientists on Earth."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nComplete the table below. Write a date for each answer.\nWrite your answers in boxes 27–31 on your answer sheet.\n Event                                                                        Date\n\n Example: William Herschel was born                                           Answer: 1738\n\n Herschel began investigating astronomy                                       27 __________\n\n Discovery of the planet Uranus                                               28 __________\n\n Discovery of the moons Titania and Oberon                                    29 __________\n\n First discovery of Uranus’s rings                                            30 __________\n\n Discovery of the last ten moons of Uranus                                    31 __________"
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 36,
+      "text": "Questions 32–36\nDo the following statements agree with the views of the writer in Reading Passage 3?\nIn boxes 32–36 on your answer sheet, write\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\nExample Answer\nHerschel was multi-talented YES\n32 __________ It is improbable that there is a planet hidden behind the sun.\n33 __________ Herschel knew immediately that he had found a new planet.\n34 __________ Herschel collaborated with other astronomers of his time.\n35 __________ Herschel’s newly-discovered object was considered to be too far from the sun\nto be a comet.\n36 __________ Herschel’s discovery was the most important find of the last three hundred\nyears."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete each of the following statements (Questions 37–40) with a name from the Reading\nPassage.\nWrite your answers in boxes 37–40 on your answer sheet.\n\nThe suggested names for the new planet began with 37 __________,\nfollowed by 38 __________, before astronomers finally settled on Uranus.\nThe first five rings around Uranus were discovered by 39 __________. From\n1948 until 1986, the moon 40 __________ was believed to be the moon\nclosest to the surface of Uranus."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "Herschel 開始研究天文學。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "發現 Uranus 這顆行星。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "發現 Titania 和 Oberon 兩顆衛星。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "首次發現 Uranus 的環。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "發現 Uranus 最後十顆衛星。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ It is improbable that there is a planet hidden behind the sun.",
+      "translation": "太陽後方藏著一顆行星這件事不大可能。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Herschel knew immediately that he had found a new planet.",
+      "translation": "Herschel 立刻知道自己發現了一顆新行星。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Herschel collaborated with other astronomers of his time.",
+      "translation": "Herschel 和同時代其他天文學家合作。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Herschel’s newly-discovered object was considered to be too far from the sun to be a comet.",
+      "translation": "Herschel 新發現的物體被認為距離太陽太遠，因此不像彗星。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Herschel’s discovery was the most important find of the last three hundred years.",
+      "translation": "Herschel 的發現是過去三百年最重要的發現。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "這顆新行星最初被建議使用的名字是……",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "之後曾有一段時間使用 ______ 這個名字，最後天文學家才確定使用 Uranus。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "Uranus 周圍最早發現的五個環，是由 ______ 發現的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "從 1948 年到 1986 年，______ 這顆衛星被認為是最接近 Uranus 表面的衛星。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-137/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-137/page-5.jpg"
+  ]
+}

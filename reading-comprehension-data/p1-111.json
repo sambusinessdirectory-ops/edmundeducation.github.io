@@ -1,0 +1,265 @@
+{
+  "id": "p1-111",
+  "catalogueId": "p1-111",
+  "title": "Sustainable architecture – lessons from the ant",
+  "sourceHeading": "Sustainable Architecture—Lessons from the Ant Termite mounds were the inspiration for an innovative design in sustainable living.",
+  "passage": 1,
+  "practice": 111,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-111-sustainable-architecture-lessons-from-the-ant",
+  "source": {
+    "filename": "Practice 111 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "f489ed15ad7ab48a6726a19aa3d55ed677b7ad5615f1b7dd0c16b270046a436a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Africa owes its termite mounds a lot. Trees and shrubs take root in them. Prospectors mine them, looking for specks of gold carried up by termites from hundreds of metres below. And of course, they are a special treat to aardvarks and other insectivores."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Now, Africa is paying an offbeat tribute to these towers of mud. The extraordinary Eastgate Building in Harare, Zimbabwe’s capital city, is said to be the only one in the world to use the same cooling and heating principles as the termite mound."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Termites in Zimbabwe build gigantic mounds inside which they farm a fungus that is their primary food source. This must be kept at exactly 30.5°C, while the temperatures on the African veld outside can range from 1.5°C at night, only just above freezing, to a baking hot 40°C during the day. The termites achieve this remarkable feat by building a system of vents in the mound. Those at the base lead down into chambers cooled by wet mud carried up from water tables far below, and others lead up through a flue to the peak of the mound. By constantly opening and closing these heating and cooling vents over the course of the day, the termites succeed in keeping the temperature constant in spite of the wide fluctuations outside."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Architect Mick Pearce used precisely the same strategy when designing the Eastgate Building, which has no air conditioning and virtually no heating. The building, the country’s largest commercial and shopping complex, uses less than 10% of the energy of a conventional building its size. These efficiencies translated directly to the bottom line: Eastgate’s owners saved $3.5 million on a $36 million building because an air-conditioning plant didn’t have to be imported. These savings were also passed on to tenants: rents are 20% lower than in a new building next door."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The complex is actually two buildings linked by bridges across a shady, glass-roofed atrium open to the breezes. Fans suck fresh air in from the atrium, blow it upstairs through hollow spaces under the floors and from there into each office through baseboard vents. As it rises and warms, it is drawn out via ceiling vents and finally exits through forty-eight brick chimneys."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "To keep the harsh, highveld sun from heating the interior, no more than 25% of the exterior is glass, and all the windows are screened by cement arches that jut out more than a metre."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "During summer’s cool nights, big fans flush air through the building seven times an hour to chill the hollow floors. By day, smaller fans blow two changes of air an hour through the building, to circulate the air which has been in contact with the cool floors. On winter days, there are small heaters in the vents."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "This is all possible only because Harare is 1,600 feet above sea level, has cloudless skies, little humidity and rapid temperature swings: days as warm as 31°C commonly drop to 14°C at night. ‘You couldn’t do this in New York, with its fantastically hot summers and fantastically cold winters,’ Pearce said. But then his eyes lit up at the challenge. ‘Perhaps you could store the summer’s heat in water somehow.’"
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The engineering firm of Ove Arup & Partners, which worked with him on the design, monitors daily temperatures outside, under the floors and at knee, desk and ceiling level. Ove Arup’s graphs show that the temperature of the building has generally stayed between 23°C and 25°C, with the exception of the annual hot spell just before the summer rains in October and three days in November, when a janitor accidentally switched off the fans at night. The atrium, which funnels the wind through the building, can be much cooler. And the air is fresh—far more so than in air-conditioned buildings, where up to 30% of the air is recycled."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Pearce, disdaining smooth glass skins as ‘igloos in the Sahara’, calls his building, with its exposed girders and pipes, ‘spiky’. The design of the entrances is based on the porcupine-quill headdresses of the local Shona tribe. Elevators are designed to look like the mineshaft cages used in Zimbabwe’s diamond mines. The shape of the fan covers, and the stone used in their construction, are echoes of Great Zimbabwe, the ruins that give the country its name."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "Standing on a roof catwalk, peering down inside at people as small as termites below, Pearce said he hoped plants would grow wild in the atrium and pigeons and bats would move into it, just as fungus lives inside a termite mound, further extending the whole ‘organic machine’ metaphor. The architecture, he says, is a regionalised style that responds to the biosphere, to the traditional stone architecture of Zimbabwe’s past, and to local human resources."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nChoose the correct answer, A, B, C or D.\nWrite your answers in boxes 1–5 on your answer sheet.\n1 Why do termite mounds have a system of vents?\n  A to allow the termites to escape from predators\n  B to enable the termites to produce food\n  C to allow the termites to work efficiently\n  D to enable the termites to survive at night\n\n\n2 Why was Eastgate cheaper to build than a conventional building?\n  A Very few materials were imported.\n  B Its energy consumption was so low.\n  C Its tenants contributed to the costs.\n  D No air conditioners were needed.\n\n\n3 Why would a building like Eastgate not work efficiently in New York?\n  A Temperature change occurs seasonally rather than daily.\n  B Pollution affects the storage of heat in the atmosphere.\n  C Summer and winter temperatures are too extreme.\n  D Levels of humidity affect cloud coverage.\n\n\n4 What does Ove Arup’s data suggest about Eastgate’s temperature control system?\n  A It allows a relatively wide range of temperatures.\n  B The only problems are due to human error.\n  C It functions well for most of the year.\n  D The temperature in the atrium may fall too low.\n\n\n5 Pearce believes that his building would be improved by\n  A becoming more of a habitat for wildlife.\n  B even closer links with the history of Zimbabwe.\n  C giving people more space to interact with nature.\n  D better protection from harmful organisms."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 10,
+      "text": "Questions 6–10\nComplete the sentences below with words taken from Reading Passage 1.\nUse NO MORE THAN THREE WORDS for each answer.\nWrite your answers in boxes 6–10 on your answer sheet.\nWarm air leaves the offices through 6 _________________\nThe warm air leaves the building through 7 _________________\nHeat from the sun is prevented from reaching the windows by 8 _________________\nWhen the outside temperature drops 9 _________________ bring air in from outside.\nOn cold days 10 _________________ raise the temperature in the offices."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nChoose THREE letters, A–F.\nWrite the correct letters in boxes 11–13 on your answer sheet.\nWhich three parts of the Eastgate Building reflect important features of Zimbabwe’s history and culture?\n  A entrances\n  B quill\n  C cages\n  D elevators\n  E fan covers\n  F stone"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Why do termite mounds have a system of vents?",
+      "translation": "白蟻丘為甚麼有一套通風孔系統？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Why was Eastgate cheaper to build than a conventional building?",
+      "translation": "為甚麼 Eastgate 比傳統建築更便宜興建？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Why would a building like Eastgate not work efficiently in New York?",
+      "translation": "為甚麼像 Eastgate 這樣的建築在 New York 不能高效運作？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "What does Ove Arup’s data suggest about Eastgate’s temperature control system?",
+      "translation": "Ove Arup 的數據顯示 Eastgate 的溫度控制系統如何？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Pearce believes that his building would be improved by",
+      "translation": "Pearce 認為他的建築可以透過甚麼方式變得更好？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "暖空氣通過 ______ 離開辦公室。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "暖空氣通過 ______ 離開建築物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "來自太陽的熱量由 ______ 阻擋，不能到達窗戶。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "當外面溫度下降時，______ 會把外面的空氣帶進來。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "在寒冷日子，______ 會提高辦公室溫度。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "Eastgate Building 哪三個部分反映了 Zimbabwe 歷史和文化的重要特徵？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "Eastgate Building 哪三個部分反映了 Zimbabwe 歷史和文化的重要特徵？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "Eastgate Building 哪三個部分反映了 Zimbabwe 歷史和文化的重要特徵？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-111/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-111/page-6.jpg"
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "p2-052",
+  "catalogueId": "p2-052",
+  "title": "Implication of False Belief Experiments",
+  "sourceHeading": "Implications of False-Belief Experiments",
+  "passage": 2,
+  "practice": 52,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-052-implication-of-false-belief-experiments",
+  "source": {
+    "filename": "Practice 52 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "7f05f7f2f2542d059b430cad1773dfc0c808ced0230c521b68fd0db6d2d75f93"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "A considerable amount of research since the mid-1980s has examined what is known as children’s theory of mind. This is the ability to understand that people can hold different beliefs and representations of the world—a capacity normally evident by the age of four. This ability also appears to be absent in children with autism. Working out what another person is thinking is clearly important to both cognitive and social development. One influential explanation of autism is that affected children do not have a theory of mind (ToM). Consequently, the development of children’s ToM has attracted considerable attention."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Wimmer and Perner devised a ‘false-belief task’ to investigate this issue. They used toys to act out the following story. Maxi leaves some chocolate in a blue cupboard before going out. While he is away, his mother moves the chocolate to a green cupboard. Children are asked to predict where Maxi will look for the chocolate when he returns. Most children under four incorrectly answer that he will look in the green cupboard, whereas children over four tend to answer correctly that he will look in the blue cupboard. The incorrect answers suggest that younger children do not understand that Maxi’s belief no longer corresponds to the actual state of the world. They fail to appreciate that he will act on his belief rather than on how the world is actually organised."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Baron-Cohen devised a simpler version of the Maxi task in response to criticism that younger children might have been affected by the original story’s complexity and quantity of information. In the revised task, a child is shown two dolls, Sally and Anne, who have a basket and a box respectively. Sally places a marble in her basket and leaves for a walk. While she is out, Anne takes the marble from the basket and puts it in the box. Sally then returns, and the child is asked where she will look for the marble. The child passes by answering that Sally will look in the basket, where she left it, and fails by answering that Sally will look in the box, where the child knows it is hidden but Sally cannot. To pass, the child must understand that another person’s mental representation differs from their own and must predict behaviour from that understanding. Results from false-belief tasks have been fairly consistent: most normally developing children cannot pass them until around the age of four."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Leslie argues that, before 18 months, children interpret the world literally and rarely engage in pretence. He also argues that the cognitive system must distinguish pretence from reality; without this capacity, children could not separate imagination from the real world. Leslie suggests that pretend play becomes possible through a decoupler that copies primary representations into secondary ones. A child pretending that a banana is a telephone, for example, creates a secondary representation of the banana, manipulates that representation and uses stored knowledge about telephones to elaborate the pretence."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "There is also evidence that social processes contribute to the development of ToM. Meins and her colleagues found that what they call mind-mindedness in mothers’ speech to six-month-old infants is related both to secure attachment and to later ToM ability. Mind-minded speech discusses an infant’s feelings and explains behaviour in terms of mental states, for example, ‘You’re feeling hungry.’"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Lewis investigated older children living in extended families in Crete and Cyprus. Lewis found that children who interacted socially with more adults, had more friends and had older siblings tended to pass ToM tasks at a slightly earlier age than other children. Young children are also more likely to discuss their thoughts and feelings with peers than with their mothers, so interaction with peers may provide a special impetus for ToM development. Dunn makes a similar point, arguing that peer interaction is more likely to include pretend play and to be more challenging because other children, unlike adults, do not make large adjustments for a child’s communicative needs."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "There is also concern that some aspects of the ToM approach underestimate children’s understanding of other people. Infants point to objects, apparently to redirect another person’s gaze and interest; they interact effectively with others, express ideas that oppose other people’s wishes and show empathy for others’ feelings. Schatz studied the spontaneous speech of three-year-olds and found that they used mental terms in situations involving a contrast—for example, between uncertainty about an object’s location and finding it, or between pretence and reality. Children’s social abilities therefore indicate that they distinguish mental states from external reality at ages younger than four."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Harris offers a different explanation: children use ‘simulation’. This involves putting oneself in another person’s position and predicting what that person would do. Success in false-belief tasks may therefore reflect children imagining what they themselves would do as a character in the story, rather than an ability to appreciate other people’s beliefs. Thinking about situations that do not exist is known as counterfactual reasoning."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nLook at the following statements (Questions 14–20) and the list of researchers below.\nMatch each statement with the correct researcher, A–G.\nWrite the correct letter, A–G, in boxes 14–20 on your answer sheet.\n A                                  Baron-Cohen\n\n B                                  Meins\n\n C                                  Wimmer and Perner\n\n D                                  Lewis\n\n E                                  Dunn\n\n F                                  Schatz\n\n G                                  Harris\n\n\n14 ____________ proposed an alternative explanation in which children may not actually\nunderstand another person’s beliefs\n15 ____________ found that children younger than four can distinguish mental states from\nreality\n16 ____________ conducted a well-known experiment and concluded that young children could\nnot understand a person’s false belief\n17 ____________ found that children who interact with more adults tend to pass ToM tests at\nan earlier age\n18 ____________ devised a simpler experiment to exclude the effects of complex reasoning\nand excessive information\n19 ____________ linked a social factor, such as mother–child communication, with ToM ability\n20 ____________ explained that children discuss thoughts and feelings less often with their\nmothers than with their peers"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 21–26 on your answer sheet.\n\n\n\n\nDuring the 1980s, researchers developed experiments to test theory of mind: children’s\nability to represent reality and other people’s beliefs. In the first experiment, children heard a\nstory about a boy and were asked where he would look for his 21 _________________.\nThe task was criticised for containing too much 22 _________________. A second,\nsimplified experiment used two dolls, and most children could pass it at age 23\n_________________. Lewis then studied 24 _________________ children in extended\nfamilies and found that those who interacted more with 25 _________________ performed\nbetter. Dunn argued that interaction with peers is more 26 _________________ because it\nincludes pretend play."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ proposed an alternative explanation in which children may not actually understand another person’s beliefs",
+      "translation": "提出另一種解釋，認為兒童可能其實未真正理解他人的信念。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ found that children younger than four can distinguish mental states from reality",
+      "translation": "發現四歲以下兒童也能區分 mental states 和 reality。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ conducted a well-known experiment and concluded that young children could not understand a person’s false belief",
+      "translation": "進行一個著名實驗，並得出年幼兒童不能理解他人 false belief 的結論。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ found that children who interact with more adults tend to pass ToM tests at an earlier age",
+      "translation": "發現和更多成人互動的兒童，較早通過 ToM tests。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ devised a simpler experiment to exclude the effects of complex reasoning and excessive information",
+      "translation": "設計較簡單的實驗，以排除複雜推理和過多資訊造成的影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ linked a social factor, such as mother–child communication, with ToM ability",
+      "translation": "把一個社會因素，例如母子溝通，和 ToM ability 聯繫起來。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ explained that children discuss thoughts and feelings less often with their mothers than with their peers",
+      "translation": "解釋兒童和母親談 thoughts and feelings 的頻率，低於和同伴談這些內容的頻率。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "在第一個實驗中，兒童聽到一個關於男孩的故事，並被問他會在哪裡找自己的甚麼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "這個 task 被批評包含太多甚麼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "第二個簡化實驗使用兩個 dolls，大部分兒童在幾歲時能通過。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "Lewis 接著研究 extended families 中的哪一類兒童，並發現和更多甚麼互動的兒童表現較好。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "Lewis 發現，和更多甚麼互動的兒童表現較好。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "Dunn 認為 peer interaction 更加怎樣，因為它包含 pretend play。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-052/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-052/page-6.jpg"
+  ]
+}

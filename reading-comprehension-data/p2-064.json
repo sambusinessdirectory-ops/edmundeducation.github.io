@@ -1,0 +1,254 @@
+{
+  "id": "p2-064",
+  "catalogueId": "p2-064",
+  "title": "TRICKY SUMS AND PSYCHOLOGY",
+  "sourceHeading": "Tricky Sums and Psychology",
+  "passage": 2,
+  "practice": 64,
+  "version": "20260827-corpus1",
+  "analysisId": "analysis-p2-064",
+  "source": {
+    "filename": "Practice 64 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "47beafc958656c5df3a9bb56f245a1c082b3103b2d5bdf76ae184af49f27c123"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In their first years of studying mathematics at school, children all over the world usually have to learn the times table, also known as the multiplication table, which shows what you get when you multiply numbers together. Children have traditionally learned their times table by going from ‘1 times 1 is 1’ all the way up to ‘12 times 12 is 144’."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Times tables have been around for a very long time now. The oldest known tables using base-10 numbers, the base that is now used everywhere in the world, were written on bamboo strips dating from 305 BC, found in China. However, in many European cultures the times table is named after the Ancient Greek mathematician and philosopher Pythagoras (570–495 BC). And so it is called the Table of Pythagoras in many languages, including French and Italian."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In 1820, in his book The Philosophy of Arithmetic, the mathematician John Leslie recommended that young pupils memorise the times table up to 25 × 25. Nowadays, however, educators generally believe it is important for children to memorise the table up to 9 × 9, 10 × 10 or 12 × 12."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The current aim in the UK is for school pupils to know all their times tables up to 12 × 12 by the age of nine. However, many people do not know them, even as adults. Recently, some politicians have been asked arithmetical questions of this kind. For example, in 1998, Schools Minister Stephen Byers was asked to give the answer to 7 × 8. He got the answer wrong, saying 54 rather than 56, and everyone laughed at him."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In 2014, a young boy asked the UK Chancellor George Osborne the same question. As he had passed A-level maths and was in charge of the UK’s economic policies at the time, you would expect him to know the answer. However, he simply said, ‘I’ve made it a rule in life not to answer such questions.’"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Why would a politician refuse to answer such a question? It is certainly true that some sums are much harder than others. Research has shown that learning and remembering sums involving 6, 7, 8 and 9 tend to be harder than remembering sums involving other numbers. And it is even harder when 6, 7, 8 and 9 are multiplied by each other. Studies often find that the hardest sum is 6 × 8, with 7 × 8 not far behind. However, even though 7 × 8 is a relatively difficult sum, it is unlikely that George Osborne did not know the answer. So there must be some other reason why he refused to answer the question."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The answer is that Osborne was being ‘put on the spot’ and he didn’t like it. It is well known that when there is a lot of pressure to do something right, people often have difficulty doing something that they normally find easy. When you put someone on the spot and ask such a question, it causes stress. The person’s heart beats faster and their adrenaline levels go up. As a result, people will often make mistakes that they would not normally make. This is called ‘choking’. Choking often happens in sport, such as when a footballer takes a crucial penalty. In the same way, the boy’s question put Osborne under great pressure. He knew it would be a disaster for him if he got the answer to such a simple question wrong and feared that he might choke. And that is why he refused to answer the question."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–25"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nThe text has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, next to questions 14–19.\n\n\n14 _____________ a 19th-century opinion of what children should learn\n15 _____________ the most difficult sums\n16 _____________ the effect of pressure on doing something\n17 _____________ how children learn the times table\n18 _____________ a politician who got a sum wrong\n19 _____________ a history of the times table"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 25,
+      "text": "Questions 20–25\nDo the following statements agree with the information given in the text?\nFor questions 20–25, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n20 _________________ Pythagoras invented the times table in China.\n21 _________________ Stephen Byers and George Osborne were asked the same question.\n22 _________________ All children in the UK have to learn the multiplication table.\n23 _________________ George Osborne did not know the answer to 7 × 8.\n24 _________________ 7 × 8 is the hardest sum that children have to learn.\n25 _________________ Stephen Byers got the sum wrong because he choked."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ a 19th-century opinion of what children should learn",
+      "translation": "十九世紀對兒童應學甚麼的看法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ the most difficult sums",
+      "translation": "最難的乘法算式。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ the effect of pressure on doing something",
+      "translation": "壓力對表現的影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ how children learn the times table",
+      "translation": "兒童如何學習乘數表。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ a politician who got a sum wrong",
+      "translation": "一位答錯算式的政治人物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ a history of the times table",
+      "translation": "乘數表的歷史。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Pythagoras invented the times table in China.",
+      "translation": "畢氏在中國發明乘數表。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Stephen Byers and George Osborne were asked the same question.",
+      "translation": "Stephen Byers 與 George Osborne 被問及同一道題目。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ All children in the UK have to learn the multiplication table.",
+      "translation": "英國所有兒童都必須學習乘數表。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ George Osborne did not know the answer to 7 × 8.",
+      "translation": "George Osborne 不知道 7 × 8 的答案。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ 7 × 8 is the hardest sum that children have to learn.",
+      "translation": "7 × 8 是兒童最難學的算式。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Stephen Byers got the sum wrong because he choked.",
+      "translation": "Stephen Byers 因壓力失常而答錯。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-064/page-4.jpg"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "p2-071",
+  "catalogueId": "p2-071",
+  "title": "Homeopathy",
+  "sourceHeading": "Homeopathy",
+  "passage": 2,
+  "practice": 71,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-071-homeopathy",
+  "source": {
+    "filename": "Practice 71 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "4e03cb4bb7796e4708a728d3698490614714671c43d0ff230f1cbc2ae09f493b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Homeopathy is an alternative system of medicine, founded in the early 19th century by a German physician, Dr Samuel Hahnemann. Since 1980, homeopathy has experienced a strong resurgence of interest in North and South America as well as in Europe. Surveys indicate that more than a third of French physicians have prescribed homeopathic remedies and almost 50 per cent of British physicians have referred patients for homeopathic treatment."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Hahnemann’s discovery of the principle of homeopathy was accidental. After taking some quinine, he noticed that he developed malaria-like symptoms. Since malaria patients were treated with quinine, he speculated that malaria might be cured by quinine because it caused malaria-like symptoms in healthy people. He decided to explore his theory by testing other substances used as medicine at the time, such as arsenic and belladonna. He conducted his tests either by taking the substances himself or by administering them to healthy volunteers and then recording all of the symptoms the volunteers experienced. He continued his experiments on a wide range of natural substances, often toxic. These recorded results created ‘drug pictures’ which formed the basis for the new system of medicine. The next step was to give the tested substances to patients suffering from the same group of symptoms represented by the drug picture recorded. The results were incredible. People were being cured of diseases that had never been cured before. He condensed his theory into a single Latin phrase: similia similibus curentur (let likes be cured by likes). This means that a disease can be cured by a medicine which produces in a healthy person symptoms similar to those experienced by the patient."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The process of making remedies is very precise. A homeopathic remedy is normally a single substance. The substances may be made from plants, minerals and even animals, for example snake venom and cuttlefish ink. To make remedies, the raw material is dissolved in a mixture of alcohol and water (approximately 90 per cent and 10 per cent, respectively). The mixture is left to stand for two to four weeks, shaken occasionally and then strained. The resulting liquid or tincture is then diluted according to very specific measures at a ratio of 1:100. For example, to produce a remedy called 1C potency or strength, one drop of the tincture is added to 99 drops of alcohol/water mixture. To produce a 2C potency, one drop of the 1C mixture is added to 99 drops of alcohol/water mixture. At each stage of dilution the remedy is shaken vigorously. Hahnemann believed that through this process, the energy of the substance was released. Once the remedy has been diluted beyond a 12C potency, it is unlikely that even a molecule of the original substance remains. Yet, ironically, the more dilute the remedy, the stronger it is. This makes no sense in light of present-day science but regardless of what science tells us is impossible, in practice, the higher the dilution, the stronger and longer-lasting the effect."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "It is this use of high dilutions that has given rise to controversy. Many conventional doctors claim that homeopathy functions only as a placebo because the dosage is so small. However, the clinical experience of homeopathy shows that this tiny dose can be effective: it works on unconscious people and infants, and it even works on animals. Controlled clinical studies performed by medical researchers are demonstrating that homeopathy can be an effective method of treatment for many diseases."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The most important part of homeopathic treatment lies in the lengthy interview which the homeopath conducts with the patient. The idea behind this one- to two-hour consultation is to build up a psychological, emotional and physical history of the patient, to discover the underlying patterns of disease. The homeopath then decides which medicine to prescribe based on the closest match between the patient’s symptoms and the known symptoms elicited by the medicine in a healthy body. A single dose is given for the shortest period of time necessary to stimulate the body’s healing power."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "How does the concept of homeopathy differ from that of conventional medicine? Very simply, homeopathy attempts to stimulate the body to recover itself. Instead of viewing symptoms as something wrong that must be corrected, the homeopath sees them as signs of the way the body is attempting to help itself. Another basic difference between conventional medical therapy and homeopathy is in the role of medication. In much of conventional therapy the illness is controlled through regular use of medical substances. If the medication is withdrawn, the illness returns. For example, a person who takes a pill for high blood pressure every day is not undergoing a cure but is only controlling the symptoms. Homeopathy’s aim is the cure: ‘The complete restoration of perfect health,’ as Dr. Hahnemann said."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Homeopathy has made significant progress in treating diseases which orthodox medicine finds difficult. It is best at dealing with inflammatory conditions such as arthritis, skin conditions, migraines and respiratory problems linked to allergies, and it has also proved highly successful at treating asthma. But homeopathy is not an appropriate treatment for degenerative diseases such as emphysema. It cannot treat diseases which destroy tissue, although it can still be beneficial if used in combination with other treatments. Two of the main advantages of homeopathy are the low cost of the medications and the rarity of adverse reactions. The medicines are inexpensive, safe, and easy to use, so people can learn to handle many of the common illnesses for which they currently seek medical help. The resulting savings in costs and the increase in personal independence represent a significant contribution to healthcare."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nThe reading passage has seven sections A–G.\nChoose the most suitable headings for sections B–G from the list of headings (i–x).\nThere are more headings than sections so you will not use all of them.\n\n                          List of Headings\n\n i                        The future of homeopathy\n\n ii                       Concerns about homeopathy\n\n iii                      Comparison with traditional western medicine\n\n iv                       Dr. S. Hahnemann\n\n v                        Theoretical and experimental basis\n\n vi                       Revival of homeopathy\n\n vii                      Preparation of medicines\n\n viii                     Debate over effectiveness\n\n ix                       Advantages and limitations of homeopathy\n\n x                        Aspects of treatment\n\n\nExample Answer\nSection A vi\n14 _____________ Section B\n15 _____________ Section C\n16 _____________ Section D\n17 _____________ Section E\n18 _____________ Section F\n19 _____________ Section G"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 22,
+      "text": "Questions 20–22\nComplete the description below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nMaking a homeopathic remedy\n\n Stage                   Description\n\n                         A single substance from a plant, animal or mineral source is mixed with 20\n Raw material\n                         _________________ and left to stand for two to four weeks.\n\n                         The mixture is strained. One drop of the tincture is added to 99 drops of\n Tincture                alcohol and water, then 21 _________________ vigorously to produce a\n                         remedy with a potency of 1C.\n\n Dilution                As the remedy becomes more diluted, it becomes 22 _________________."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nComplete the summary.\nChoose your answers from the box below.\n Comparison              Description\n\n                         Conventional medicine views symptoms as indications that something is\n View of symptoms        wrong, whereas homeopathy regards them as signs that the body is\n                         attempting to 23 _________________.\n\n                         Many conventional medicines 24 _________________, but the illness\n Medication              returns if the medicine is withdrawn. Homeopathy aims to bring about a\n                         complete cure.\n\n                         Homeopathic remedies are 25 _________________ than conventional\n Cost and effects\n                         medicines and have fewer 26 _________________.\n\n\nList of Words/Phrases\n\n cheaper                          cure                               heal itself\n\n illness                          treatments                         getting better\n\n control symptoms                 more expensive                     side effects\n\n stronger                         healthy                            patients"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Section B",
+      "translation": "這段最適合的標題是「理論和實驗基礎」。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Section C",
+      "translation": "這段最適合的標題是「藥物製備」。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Section D",
+      "translation": "這段最適合的標題是「關於效用的爭論」。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Section E",
+      "translation": "這段最適合的標題是「治療的各個方面」。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Section F",
+      "translation": "這段最適合的標題是「和傳統西方醫學的比較」。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Section G",
+      "translation": "這段最適合的標題是「homeopathy 的優點和限制」。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "來自植物、動物或礦物來源的單一物質，會和 20 ______ 混合，並靜置兩至四星期。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "一滴 tincture 加入 99 滴酒精和水後，然後被猛烈 21 ______，以製成 1C potency 的 remedy。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "remedy 越被稀釋，它就變得越 22 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "conventional medicine 把 symptoms 看成某些事情出錯的 सकं े त ；homeopathy 則把 symptoms看成身體正在嘗試 23 ______ 的 signs。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "許多 conventional medicines 會 24 ______，但如果停止用藥，疾病會回來。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "homeopathic remedies 比 conventional medicines 更 25 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "homeopathic remedies 比 conventional medicines 便宜，而且有較少 26 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-071/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-071/page-5.jpg"
+  ]
+}

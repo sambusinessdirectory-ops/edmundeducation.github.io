@@ -1,0 +1,247 @@
+{
+  "id": "p2-143",
+  "catalogueId": "p2-143",
+  "title": "We have Star performers!",
+  "sourceHeading": "We Have Star Performers!",
+  "passage": 2,
+  "practice": 143,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-143-we-have-star-performers",
+  "source": {
+    "filename": "Practice 143 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "dc039047c3423bab7b1e4ec24d63bbe8498dff5d2f70dedb85ef815a6b076e45"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The difference between companies is people. With capital and technology in plentiful supply, the critical resource for companies in the knowledge era will be human talent. Companies full of achievers will, by definition, outperform organisations of plodders. Ergo, compete ferociously for the best people. Poach and pamper stars; ruthlessly weed out second-raters. This, in essence, has been the recruitment strategy of the ambitious company of the past decade. The ‘talent mindset’ was given definitive form in two reports by the consultancy McKinsey famously entitled The War for Talent. Although the intensity of the warfare subsequently subsided along with the air in the internet bubble, it has been warming up again as the labour market tightens: labour shortages, for example, are the reason the government has laid out the welcome mat for immigrants from the new Europe."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Yet while the diagnosis – people are important – is evident to the point of platitude, the apparently logical prescription – hire the best – like so much in management is not only not obvious: it is in fact profoundly wrong. The first suspicions dawned with the crash to earth of the dotcom meteors, which showed that dumb is dumb whatever the IQ of those who perpetrate it. The point was illuminated in brilliant relief by Enron, whose leaders, as a New Yorker article called ‘The Talent Myth’ entertainingly related, were so convinced of their own cleverness that they never twigged that collective intelligence is not the sum of a lot of individual intelligence. In fact, in a profound sense, the two are opposites. Enron believed in stars, noted author Malcolm Gladwell, because they didn’t believe in systems. But companies don’t just create: ‘they execute and compete and coordinate the efforts of many people, and the organisations that are most successful at that task are the ones where the system is the star’. The truth is that you can’t win the talent war by hiring stars—only lose it. New light on why this should be so is thrown by an analysis of star behaviour in this month’s Harvard Business Review. In a study of the careers of 1,000 star-stock analysts in the 1990s, the researchers found that when a company recruited a star performer, three things happened."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "First, stardom doesn’t easily transfer from one organisation to another. In many cases, performance dropped sharply when high performers switched employers and in some instances never recovered. More of their success than is commonly supposed is due to the working environment—systems, processes, leadership and accumulated embedded learning—which is absent from and cannot be transported to the new firm. Moreover, precisely because of their past stellar performance, stars were unwilling to learn new tricks and antagonised those (on whom they now unwittingly depended) who could teach them. So they moved, upping their salary as they did – 36 per cent moved on within three years, fast even for Wall Street. Second, group performance suffered as a result of tensions and resentment by rivals within the team. One respondent likened hiring a star to an organ transplant. The new organ can damage others by hogging the blood supply; other organs can start aching or threaten to stop working or the body can reject the transplant altogether, he said. ‘You should think about it very carefully before you do a transplant to a healthy body.’ Third, investors punished the offender by selling its stock. This is ironic since the motive for importing stars was often a suffering share price in the first place. Shareholders evidently believe that the company is overpaying, the hiree is cashing in on a glorious past rather than preparing for a glowing present, and a spending spree is in the offing."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The result of mass star hirings as well as individual ones seems to confirm such doubts. Look at County NatWest and Barclays de Zoete Wedd, both of which hired teams of stars with loud fanfare to do great things in investment banking in the 1990s. Both failed dismally. Everyone accepts the cliché that people make the organisation – but the organisation does even more to make the people. When researchers studied the performance of fund managers in the 1990s, they discovered that just 30 per cent of the variation in fund performance was due to the individual, compared to 70 per cent to the company-specific setting."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "That will be no surprise to those familiar with systems thinking. W Edwards Deming used to say that there was no point in beating up on people when 90 per cent of performance variation was down to the system within which they worked. Consistent improvement, he said, is a matter not of raising the level of individual intelligence, but of the learning of the organisation as a whole. The star system is glamorous for the few, but it rarely benefits the company that believes it is using the system to its advantage. And the knock-on consequences indirectly affect everyone else too. As one internet response to Gladwell’s New Yorker article put it: after Enron, ‘the rest of corporate America is stuck with overpaid, arrogant, underachieving, and relatively useless talent.’"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Football is another illustration of the star-versus-system strategic choice. As with investment banks and stockbrokers, it seems obvious that success should ultimately be down to money. Great players are scarce and expensive. So the club that can afford more of them than anyone else will win. But the performance of Arsenal and Manchester United on one hand and Chelsea and Real Madrid on the other proves that it’s not as easy as that. While Chelsea and Real have the funds to be compulsive star collectors – as with Juan Sebastian Veron – they are less successful than Arsenal and United which, like Liverpool before them, have put much more emphasis on developing a setting within which stars-in-the-making can flourish. Significantly, Thierry Henry, Patrick Vieira and Robert Pires are much bigger stars than when Arsenal bought them, their value (in all senses) enhanced by the Arsenal system. At Chelsea, by contrast, the only context is the stars themselves – managers with different outlooks come and go every couple of seasons. There is no settled system for the stars to blend into. The Chelsea context has failed to add value and has instead subtracted it. The side is less than the sum of its exorbitantly expensive parts. Even Real Madrid’s galacticos, the most extravagantly gifted on the planet, are being outperformed by less talented but better-integrated Spanish sides. In football, too, stars are trumped by systems."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "So if not by hiring stars, how do you compete in the war for talent? You grow your own. This worked for investment analysts, where some companies were not only better at creating stars but also at retaining them. Because they had a much more sophisticated view of the interdependent relationship between star and system, they kept them longer without resorting to the exorbitant salaries that were so destructive to rivals."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe Reading Passage has seven paragraphs A–G\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 14–17 on your answer sheet.\nNB You may use any letter more than once.\n14 An example outside business in which a better system outperforms bigger stars.\n15 A failed company that believed in stars rather than systems.\n16 The author’s suggestion for acquiring employees in order to compete today.\n17 A medical-anatomy metaphor illustrating the problems of hiring stars."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 21,
+      "text": "Questions 18–21\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 18–21 on your answer sheet, write\n\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n18 McKinsey, which produced The War for Talent, did not expect the reports to have such a\ngreat influence.\n19 Economic conditions help determine whether a country chooses to hire foreign workers.\n20 Enron’s collapse was caused entirely by an unfortunate incident rather than by management\nmistakes.\n21 Football clubs that develop stars within a strong system perform better than clubs that simply\ncollect stars."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 22–26 on your answer sheet.\n\n\nAn investigation examined 1,000 22 _________________. A study\nreported in Harvard Business Review found that a company’s decision\nto hire a 23 _________________ has negative effects. For example,\nrecruits perform considerably worse in a new team than in the 24\n_________________ to which they were accustomed. They move on\nquickly, even by Wall Street standards, while increasing their 25\n_________________. Second, they face resentment and rejection from 26\n_________________ within the team. Finally, investors punish the\noffending company by selling its shares."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "An example outside business in which a better system outperforms bigger stars.",
+      "translation": "一個商業以外的例子，說明較好的系統勝過更大牌的明星。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A failed company that believed in stars rather than systems.",
+      "translation": "一間失敗公司相信明星人才多於系統。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "The author’s suggestion for acquiring employees in order to compete today.",
+      "translation": "作者對今天企業如何取得員工、參與人才競爭的建議。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A medical-anatomy metaphor illustrating the problems of hiring stars.",
+      "translation": "一個醫學或人體比喻，用來說明聘請明星員工的問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "McKinsey, which produced The War for Talent, did not expect the reports to have such a great influence.",
+      "translation": "製作 The War for Talent 的 McKinsey 沒有預料到這些報告會有這麼大影響。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Economic conditions help determine whether a country chooses to hire foreign workers.",
+      "translation": "經濟狀況會幫助決定一個國家是否選擇聘用外地勞工。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Enron’s collapse was caused entirely by an unfortunate incident rather than by management mistakes.",
+      "translation": "Enron 的倒下完全由一件不幸事件造成，管理錯誤沒有責任。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Football clubs that develop stars within a strong system perform better than clubs that simply collect stars.",
+      "translation": "在強大系統中培養明星的足球會，比單純收集明星的球會表現更好。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "一項調查研究了 1,000 名 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "Harvard Business Review 報導的一項研究發現，公司決定聘請一名 ______ 會帶來負面影響。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "例如，新聘者在新團隊中的表現，會比在他們習慣的 ______ 中差很多。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "即使以華爾街標準來看，他們也很快離開，同時提高自己的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "第二，他們會面對團隊內部 ______ 的怨氣和排斥。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-143/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-143/page-6.jpg"
+  ]
+}

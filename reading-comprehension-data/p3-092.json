@@ -1,0 +1,244 @@
+{
+  "id": "p3-092",
+  "catalogueId": "p3-092",
+  "title": "The Year Without a Summer",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 92,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-092-the-year-without-a-summer",
+  "source": {
+    "filename": "Practice 92 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "42f8d525249d0abbdc3bbbaeb11c01a33f46f804b9c8310b8c7f5c1d97434c0d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Year Without a Summer 1816 was a strange year indeed. In America, in midsummer, a ‘dry fog’ covered the land so thickly that snow fell, and large parts of the country were gripped by an intense and lingering cold front. The situation was no better in Great Britain and Europe, where cool temperatures and wet weather persisted for months. Mary Shelley, author of Frankenstein, while holidaying in Switzerland, complained of ‘incessant rainfall’, a feeling which may have put her in the mood for writing her most famous work. But there were to be far more significant effects of what became known as the ‘year without a summer’."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "But where did the summer go? The main culprit, surprisingly, was a volcano on the other side of the planet: Mount Tambora in Indonesia, whose eruption the previous year was of such colossal magnitude that it altered global climate. In the years leading to this, the mountain had experienced minor eruptions, but the 1815 event was the culmination — a huge explosive outburst of the central volcanic vent with subsequent caldera collapse. Over 70,000 people in the vicinity were killed from lava flows, tsunamis, and pumice and ash falls. But more significantly, the eruption — now acknowledged as the largest in recorded history—ejected huge amounts of dust into the stratosphere. This atmospheric layer is the highest and most static, and it is least affected by rainfall, which means that it takes a relatively long time for volcanic dust to be washed out. If these dust particles are fine enough, they are quickly blown around the globe, to remain there for years."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "On a somewhat benign note, this airborne ash resulted in beautiful pastel-coloured sunsets and extended twilights in Northern Europe. However, on a (quite literally) darker note, it set into motion a ‘volcanic winter’ due to the filtering of the sun’s rays, and the increased reflectivity of the atmosphere, where heat and sunlight are bounced back into space. But what is intriguing in this case is that even without the Tambora explosion, the period 1790 to 1830 was already one of the coldest on record. This period has officially become known as the ‘Dalton Minimum’, after John Dalton, a London-based meteorologist who noted that the sun at that time did not seem as active in its production of sunspots and solar flares. Whether there is a correlation between this and the average amount of solar radiation emitted is still unclear. If such a correlation exists, the effect would be small—a fraction of a percent less, but, arguably, significant to our small planet orbiting so far away."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Adding further complexity to the issue, there had been other significant volcanic eruptions in the years prior to Tambora—in the Caribbean, Japan and the Philippines—all of which produced massive dust clouds. Looking at the Philippine example, 1814 saw the most destructive eruption of Mount Mayon ever. Killing thousands, burying whole towns and villages, the volcano spewed out millions of tons of ash and rock into the high atmosphere. When we put all these factors together, the sequence is thus clearer. With the world already suffering from lower temperatures due to natural variations in solar activity, a series of severe volcanic eruptions occurred. As a result, the accumulation of ash in the stratosphere rose to a historic high, to which the mammoth Tambora explosion substantially added, sending a sharp cold spell across the already cooler globe."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The consequences were dire. With temperatures falling to near-freezing within hours, together with sudden summer frosts and sustained drenching rainfall across the Northern Hemisphere, staple crops such as maize and wheat failed to mature, and many livestock animals were killed. With agricultural production already low due to the cooler preceding years, and with the rudimentary road systems of those times making the importation and distribution of emergency food supplies difficult, this final blow was devastating. It resulted in widespread malnutrition, starvation, and outbreaks of diseases such as typhus and cholera. It created streams of starving refugees, large shifts of population, riots, looting of food warehouses, and other breakdowns of civic order. An estimated 100,000 people died in Ireland alone, with many times that figure on the European continent. There was such mortality that the famine is now considered the worst of that century."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The question then is whether it could happen again. Since it has happened many times before in geological history, the answer is definitely yes. The most extreme case occurred about 70,000 years ago, when the world’s largest known eruption took place at Lake Toba (relatively close to Tambora). This is thought to have plunged the planet into a decade-long volcanic winter, and triggered the onset of the last ice age, a deep freeze of the planet which lasted many tens of thousands of years, all of which, some speculate, just about wiped out the human race. We can rest assured, however, that such events are extremely few and far between. You will certainly be able to enjoy your summer holidays for a long time to come."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–34",
+    "g35": "Questions 35–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 34,
+      "text": "Questions 27–34\nComplete the flowchart.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nA Year without a summer\n\n\n\n\n27 _________________         28 _________________\n29 _________________         30 _________________\n31 _________________         32 _________________\n33 _________________         34 _________________"
+    },
+    {
+      "id": "g35",
+      "start": 35,
+      "end": 40,
+      "text": "Questions 35–40\nAnswer the questions.\nWrite the correct letter, A–G, next to the questions.\nWhich location saw\n\n A                                      America\n\n B                                      Lake Toba\n\n C                                      London\n\n D                                      Northern Europe\n\n E                                      Philippines\n\n F                                      Switzerland\n\n G                                      Tambora\n\n\n35 __________ a positive effect of a volcanic eruption?\n36 __________ the biggest volcanic eruption?\n37 __________ scientific observation?\n38 __________ a series of eruptions?\n39 __________ buildings destroyed?\n40 __________ a book written?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ 28 _________________",
+      "translation": "其他火山爆發，其特徵是巨大的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "“Dalton Minimum”，即到達地球的 ______ 較少。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ 30 _________________",
+      "translation": "平流層火山灰水平達到 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "因為以下兩個原因，出現了 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ 32 _________________",
+      "translation": "______ 被過濾。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "氣溫下降，以及 ______ 增加。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ 34 _________________",
+      "translation": "落後的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "該世紀最嚴重的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ a positive effect of a volcanic eruption?",
+      "translation": "哪個地點看到了火山爆發帶來的正面效果？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ the biggest volcanic eruption?",
+      "translation": "哪個地點發生了最大的火山爆發？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ scientific observation?",
+      "translation": "哪個地點出現了科學觀察？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ a series of eruptions?",
+      "translation": "哪個地點出現了一連串火山爆發？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ buildings destroyed?",
+      "translation": "哪個地點出現建築或聚落被毀？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ a book written?",
+      "translation": "哪個地點與一本書的寫作有關？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-092/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-092/page-6.jpg"
+  ]
+}

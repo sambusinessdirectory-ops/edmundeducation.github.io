@@ -1,0 +1,294 @@
+{
+  "id": "p3-145",
+  "catalogueId": "p3-145",
+  "title": "Pollution! In the Bay",
+  "sourceHeading": "Pollution in the Bay",
+  "passage": 3,
+  "practice": 145,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-145-pollution-in-the-bay",
+  "source": {
+    "filename": "Practice 145 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "7ba07a4bed3444f11bdcbbeb2435013bb87ad39014759172e45a25087c5879a2"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Pouring water into the sea sounds harmless enough. But in Florida Bay, a large and shallow section of the Gulf of Mexico that lies between the southern end of the Everglades and the Florida Keys, it is proving highly controversial. That is because researchers are divided over whether it will help or hinder the plants and animals that live in the bay."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "What is at risk is the future of the bay’s extensive beds of seagrasses. These grow on the bay’s muddy floor and act as nurseries for the larvae of shrimps, lobsters and fish – many of the important sport and commercial-fishing species. Also in danger is an impressive range of coral reefs that run the length of the Florida Keys and form the third-largest barrier reef in the world. Since the 1980s, coral cover has dropped by 40%, and a third of the coral species have gone. This has had a damaging effect on the animals that depend on the reef, such as crabs, turtles and nearly 600 species of fish."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "What is causing such ecological change is a matter of much debate. And the answer is of no small consequence. This is because the American government is planning to devote $8 billion over the next 30 years to revitalise the Everglades. Seasonal freshwater flows into the Everglades are to be restored in order to improve the region’s health. But they will then run off into the bay."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Joseph Zieman, a marine ecologist at the University of Virginia, thinks this is a good idea. He believes that a lack of fresh water in the bay is its main problem. The blame, he says, lies with a century of drainage in the Everglades aimed at turning the marshes into farmland and areas for development. This has caused the flow of fresh water into Florida Bay to dwindle, making the water in the bay, overall, more saline. This, he argues, kills the seagrasses, and as these rot, nutrients are released that feed the microscopic plants and animals that live in the water. This, he says, is why the bay’s once crystal-clear waters often resemble pea soup. And in a vicious circle, these turbid blooms block out sunlight, causing more seagrasses to die and yet more turbidity."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Brian Lapointe, a marine scientist at the Harbour Branch Oceanographic Institution at Fort Pierce in Florida, disagrees. He thinks seagrasses can tolerate much higher levels of salinity than the bay actually displays. Furthermore, he notes that when freshwater flows through the Everglades were increased experimentally in the 1990s, it led to massive plankton blooms. Freshwater running off from well-fertilised farmlands, he says, caused a fivefold rise in nitrogen levels in the bay. This was like pouring fuel on a fire. The result was mass mortality of seagrasses because of increased turbidity from the plankton. Dr Lapointe adds that, because corals thrive only in waters where nutrient levels are low, restoring freshwater rich in nitrogen will do more damage to the reef."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "It is a plausible theory. The water flowing off crops that are grown on the 750,000 acres of heavily fertilised farmland on the northern edge of the Everglades is rich in nitrogen, half of which ends up in the bay. But Bill Kruczynski, of America’s Environmental Protection Agency, is convinced that nitrogen from farmlands is not the chief problem. Some coral reefs well away from any nitrogen pollution are dying and, curiously, a few are thriving. Dr Kruczynski thinks that increased nutrients arriving from local sewage discharges from the thousands of cesspits along the Florida Keys are part of the problem."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Such claims and counterclaims make the impact of the restoration plan difficult to predict. If increased salinity is the main problem, the bay’s ecology will benefit from the Everglades restoration project. If, however, nitrogen is the problem, increasing the flow of freshwater could make matters much worse."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "If this second hypothesis proves correct, the cure is to remove nitrogen from farmland or sewage discharges, or perhaps both. Neither will be easy. Man-made wetlands currently being built to reduce phosphate runoff into the bay—also from fertilisers—would need an algal culture (a sort of contained algal bloom) added to them to deal with discharges from farmlands. That would be costly. So too would be the replacement of cesspits with proper sewerage—one estimate puts the cost at $650m. Either way, it is clear that when, on December 1st, 3,000 square miles of sea around the reef are designated as a “protective zone” by the deputy secretary of commerce, Sam Bodman, this will do nothing to protect the reef from pollution."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Some argue, though, that there is a more fundamental flaw in the plans for the bay: the very idea of returning it to a Utopian ideal before man wrought his damage. Nobody knows what Florida Bay was like before the 1950s when engineers cut the largest canals in the Everglades and took most of the water away. Dr Kruczynski suspects it was more like an estuary. The bay that many people wish to re-create could have been nothing more than a changing phase in the bay’s history."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "These arguments do not merely threaten to create ecological problems but economic ones as well. The economy of the Florida Keys depends on tourism—the local tourist industry has an annual turnover of $2.5 billion. People come for fishing-boat trips, for manatee watching, or for scuba diving and snorkeling to view the exotically coloured corals. If the plan to restore the Everglades makes problems in the bay and the reef worse, it could prove a very expensive mistake."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–31",
+    "g32": "Questions 32–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 31,
+      "text": "Questions 28–31\nReading Passage 3 has ten paragraphs, A–J.\nWhich paragraph contains the following information?\nWrite the correct letter A–J, in boxes 28–31 on your answer sheet.\n28 __________ Seagrass is more resistant to the bay’s salinity than expected.\n29 __________ The importance of identifying the cause of the controversy\n30 __________ Expensive proposals to solve the nitrogen problem\n31 __________ Statistics showing ecological changes in both coral cover and species"
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 35,
+      "text": "Questions 32–35\nUse the information in the passage to match the people (listed A–C) with opinions or deeds\nbelow.\nWrite the appropriate letters A–C in boxes 32–35 on your answer sheet.\n A                                    Bill Kruczynski\n\n B                                    Brian Lapointe\n\n C                                    Joseph Zieman\n32 __________ The Everglades drainage system has increased the bay’s salinity.\n33 __________ Restoring water with high nitrogen levels will cause further ecological damage.\n34 __________ High nitrogen levels may be caused by nearby farmland.\n35 __________ Sewage discharges, rather than nutrients from farmland, increase nitrogen\nlevels."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n36 __________ Everyone agrees that pouring water into the sea is harmless, even in Florida\nBay.\n37 __________ Nitrogen enters the bay in water flowing off different types of crops.\n38 __________ The Everglades restoration project will be effective regardless of the cause of\npollution.\n39 __________ Humans have changed Florida Bay, and no one can recall what it was like\nbefore the 1950s.\n40 __________ Tourism makes a fundamental contribution to the economy of the Florida Bay\narea."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Seagrass is more resistant to the bay’s salinity than expected.",
+      "translation": "海草對海灣鹽度的承受能力比人們預期更高。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ The importance of identifying the cause of the controversy",
+      "translation": "找出爭議原因的重要性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Expensive proposals to solve the nitrogen problem",
+      "translation": "解決 nitrogen 問題的昂貴方案。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Statistics showing ecological changes in both coral cover and species",
+      "translation": "顯示 coral cover 和 coral species 都發生生態變化的數據。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ The Everglades drainage system has increased the bay’s salinity.",
+      "translation": "Everglades 的排水系統增加了海灣的鹽度。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Restoring water with high nitrogen levels will cause further ecological damage.",
+      "translation": "恢復富含 nitrogen 的水流會造成進一步生態破壞。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ High nitrogen levels may be caused by nearby farmland.",
+      "translation": "高 nitrogen 水平可能由附近農地造成。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Sewage discharges, rather than nutrients from farmland, increase nitrogen levels.",
+      "translation": "造成 nitrogen 增加的原因是污水排放，而非農地養分。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ Everyone agrees that pouring water into the sea is harmless, even in Florida Bay.",
+      "translation": "所有人都同意，把水倒進海裡是無害的，即使在 Florida Bay 也是如此。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ Nitrogen enters the bay in water flowing off different types of crops.",
+      "translation": "Nitrogen 透過從不同類型農作物流出的水進入海灣。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ The Everglades restoration project will be effective regardless of the cause of pollution.",
+      "translation": "無論污染原因是甚麼，Everglades restoration project 都會有效。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ Humans have changed Florida Bay, and no one can recall what it was like before the 1950s.",
+      "translation": "人類已經改變了 Florida Bay，而且沒有人知道它在 1950 年代以前是甚麼樣子。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ Tourism makes a fundamental contribution to the economy of the Florida Bay area.",
+      "translation": "旅遊業對 Florida Bay 一帶的經濟有根本性貢獻。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-145/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-145/page-6.jpg"
+  ]
+}

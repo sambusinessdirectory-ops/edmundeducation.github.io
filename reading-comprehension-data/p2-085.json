@@ -1,0 +1,310 @@
+{
+  "id": "p2-085",
+  "catalogueId": "p2-085",
+  "title": "Single-Gender Education: A Case Made?",
+  "sourceHeading": "Single-Gender Education: A Case Made?",
+  "passage": 2,
+  "practice": 85,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-085-single-gender-education-a-case-made",
+  "source": {
+    "filename": "Practice 85 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "31ef679dc200fbd6cea7003f8854285363b8a7a92300868277a54af48eae14f3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "All modern democracies, instilled as they are with the ethics of freedom and equality of the sexes, nevertheless offer the option of single-sex education. This separates the genders into their own classrooms, buildings, and often schools. Traditionally, women had to fight hard and long to achieve equal opportunities in education, and the single-gender controversy largely concerns them. The question is whether this educational system advances or retards their cause, and there are supporters on both sides, each convinced that the case is made."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Given that the word ‘segregation’ has such negative connotations, the current interest in single-gender schooling is somewhat surprising. In the same way that a progressive society would never consider segregation on the basis of skin colour, income, or age, it seems innately wrong to do this on the basis of gender. Yet in the real world and the society in which we live, segregation of some sort happens all the time. Clubs inevitably form—for example, among clerical workers, lawyers, the academically gifted and those skilled in music or the arts. Exclusionary cliques, classes, and in-groups are all part of everyday life. Thus, it may simply be an idealistic illusion to condemn single-gender settings on that basis alone, as do many co-educational advocates."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "This suggests that single-gender education must necessarily be condemned on other grounds, yet the issue is complicated, and research often sinks into a morass of conflicting data and, occasionally, emotional argument. Thus, one study comes out with strong proof of the efficacy of single-gender schooling, causing a resurgence of interest and positive public sentiment, only to be met later by a harshly titled article, ‘Single-Sex Schooling: The Myth and the Pseudoscience’, published and endorsed by several respected magazines. Similarly, the arguments on both sides have apparent validity and often accord, on the surface at least, with common sense and personal observation. What then can parents do?"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Proponents of separating the genders often argue that it promotes better educational results, not only in raw academic scores but also in behaviour. The standard support for this is the claim of innate gender differences in the manner in which boys and girls learn and behave in educational settings. Separation allows males to be taught in a ‘male way’ and in accordance with the ‘male’ developmental path, which is said to be very different from the female one. Such claims demand hard evidence, but this is difficult to come by, since statistics are notoriously unreliable and subject to varying interpretations."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Of course, the key factors that lead to superior performance at single-gender schools are often the higher quality of the teachers, the better resources at hand and the more motivated students, who often come from wealthier or more privileged backgrounds. Single-gender schools are often the most prestigious in society, demanding the highest entry marks from their new students, who, in turn, receive more deference and respect from society. When these factors are taken into account, large-scale studies do not support claims of superior results, while the latest findings of neuroscientists do not support claims of persistent gender differences. Those who make such claims are accused of emphasising favourable data and drawing conclusions based more on anecdotal evidence and gender stereotyping."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Yet advocates of single-sex education put forward other arguments in its favour. One of the most common is that girls are free from the worry of sexual harassment or negative behaviour originating from the presence of boys. Girls are said to develop greater self-confidence, and a willingness to study subjects, such as engineering and mathematics, which were once the exclusive province of males. Conversely, boys can express a greater interest in the arts, without the possible jibe, ‘That’s a girl’s subject’. But logically, one senses that such stereotyping could equally occur in single-gender settings, since it is the society outside of school, with all its related expectations, which has the greatest influence."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Among this welter of conflicting arguments, one can, at least, fall back on one certainty – that the real world is co-gendered, and each side often misunderstands the other. Supporters of co-education argue that positive and co-operative interaction between the genders at school reduces such divisions by de-emphasising gender as a factor of concern. In theory, stereotypes are broken down, and inclusion is emphasised, providing benefits for society as a whole. But such sentiments, admittedly, do sound as if we are retreating into self-promotional propaganda. In other words, these statements are just glib and unreal assertions, rather than a reflection of what actually happens in the co-educational classroom."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The key point is whether the interaction in co-educational settings is indeed positive and co-operative. Some would say it could equally be the opposite, and surely it must occasionally be so (if we abandon the rosy picture painted in the previous paragraph). But I would say such interaction, whether good or bad, whether academically enhancing or retarding, still constitutes education of a vital nature. It presents exactly the same set of challenges that students, male or female, will ultimately have to deal with in the real world. This is the most important point, and it would determine which educational setting I would choose for my children."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–24",
+    "g25": "Questions 25–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage Two has eight paragraphs, A–H.\nChoose the correct heading for Paragraphs B–E and G–H from the list of headings.\n\n                             List of Headings\n\n i                           Another argument in favour\n\n ii                          Conflicting evidence\n\n iii                         Negatives are positives\n\n iv                          An emotional argument\n\n v                           Does it help or not?\n\n vi                          Looking at the other side\n\n vii                         A counter-argument\n\n viii                        It’s happening anyway\n\n ix                          The problems with genders\n\n x                           An argument in favour\n\n\nWrite the correct number, i–x, for each answer.\n Example                                        Answer\n\n Paragraph A                                    ……v……\n\n Paragraph F                                    …….i……. (Example)\n\n\n14 ___________ Paragraph B\n15 ___________ Paragraph C\n16 ___________ Paragraph D\n17 ___________ Paragraph E\n18 ___________ Paragraph G\n19 ___________ Paragraph H"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 24,
+      "text": "Questions 20–24\nComplete the sentences with the correct ending, A–E.\nWrite the correct letter, A–E, for each answer.\n A                               have some strong views\n\n B                               think boys and girls are similar\n\n C                               often have idealistic views\n\n D                               are surprising in some ways\n\n E                               often receive much respect\n\n\n20 ___________ Neuroscientists\n21 ___________ The magazines\n22 ___________ Students from single-gender schools\n23 ___________ People in society\n24 ___________ Supporters of co-education"
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 26,
+      "text": "Questions 25–26\nChoose the correct letter, A, B, C, or D.\n\n\n25 The author believes co-education has\n  A clear statistical support.\n  B less stereotyping.\n  C much positive interaction.\n  D generally lower-quality teaching (compared to single-gender schools).\n\n\n26 The author believes\n  A single-gender schooling is better.\n  B co-educational schooling is preferable.\n  C we cannot say which sort of schooling is better.\n  D more evidence is needed."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "「這件事其實一直都在發生。」",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "互相衝突的證據。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "一個支持 single-gender education 的理據。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "一個反駁論點。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph G",
+      "translation": "看看另一邊的觀點。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph H",
+      "translation": "負面互動也可以有正面教育價值。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ Neuroscientists",
+      "translation": "神經科學家認為男孩和女孩相似。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ The magazines",
+      "translation": "那些雜誌持有相當強烈的看法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ Students from single-gender schools",
+      "translation": "來自 single-gender schools 的學生常獲得很多尊重。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ People in society",
+      "translation": "社會上的人或社會取態在某些方面令人意外。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "___________ Supporters of co-education",
+      "translation": "co-education 的支持者常有理想化看法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "The author believes co-education has",
+      "translation": "作者認為 co-education 具有以下哪一項特點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "The author believes",
+      "translation": "作者相信以下哪一項？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-085/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-085/page-5.jpg"
+  ]
+}

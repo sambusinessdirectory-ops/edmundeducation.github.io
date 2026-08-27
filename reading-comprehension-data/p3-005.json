@@ -1,0 +1,230 @@
+{
+  "id": "p3-005",
+  "catalogueId": "p3-005",
+  "title": "Destination Mars",
+  "sourceHeading": "Destination Mars",
+  "passage": 3,
+  "practice": 5,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-005-destination-mars",
+  "source": {
+    "filename": "Practice 5 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "d4281610c69a14699aa2d3d571c8d0c84216ee23e8384b3c7657a6e40bb33c95"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Mars is the closest potentially habitable planet. It has solid ground, protective surface features, a thin atmosphere, more closely mimics the gravitational and lighting conditions on Earth, and is reachable – just. Most importantly, studies have found that this planet has vast reserves of frozen water, and there are other basic minerals as well. In contrast, the closest heavenly body – the moon – is dusty, barren, hostile, and dark. Settlement of the moon would be much easier, but since there are no resources there, it would ultimately be more costly and of little use. If there is any extraterrestrial site where humankind will ultimately settle, it must be Mars."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Yet this planet is much more distant than the moon, making the logistics daunting. Food, water, oxygen, and life-support systems for such a journey would be too heavy for current rocket science. Technological innovations would be necessary, and the timing of the trip absolutely critical. The different orbits of Mars and Earth mean that they most closely approach each other every 26 months, but this event itself fluctuates on a 15-year cycle. This means that only once in that time does a launch window open. That is quite few and far between, yet missions must necessarily leave at these times."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The trouble is, even then, the journey to Mars and back would take over a year, and the human body suffers profoundly when left in micro-gravity for that length of time. Without the need to stand, there is almost no flexing or pressure on the back or the leg muscles. These gradually shrink and weaken, while bones lose their density, and lungs their aerobic capacity. When left long enough in space, astronauts are unable to function properly. Yet these people will need their full physical strength and alertness for the many operational duties required. These include docking in space, approaches and landing on Mars, remote manipulation of machines, and dealing with any emergencies that arise."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Another hazard of such duration in a hermetically sealed spacecraft is disease. Human bodies constantly shed waste material (sweat, skin-flakes, hair, moisture, mucus, and the products of digestion), all of which allow microbes to breed prolifically. Coughs and sneezes spray fluids into the air, which, without gravity to pull them down to surfaces, simply float as airborne particles in those cramped confines, causing easy microbial exchange between crew members. Bacterial infections and fungal attacks can be prevalent, and human immune systems are weakened in micro-gravity. Thus, a long mission to Mars would require the best air-cleansing system available, rigorous disinfecting and hygiene procedures, plus an excellent supply of antibiotics."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "On reaching Mars, the problems only increase. Staying on the planet for any significant length of time will be difficult. In the absence of a thick protective atmosphere or magnetosphere to burn up or deflect objects, respectively, astronauts will be exposed, to potentially lethal UV radiation, micro-meteoroids, solar flares, and high-energy particles, all of which regularly bombard the surface. Spacecraft and land-based capsules will need special shielding, which adds to the weight and expense. Construction of living quarters will be time-consuming, difficult, and dangerous. For a longer stay on Mars, the only solution, it seems, is to go underground."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "One of the most interesting discoveries in this respect is of possible cave entrances on the side of Arsia Mons, a large Martian volcano. Seven such entrances have been identified in satellite imagery, showing circular holes resembling the collapse of cave ceilings. The hope is that these may lead to more extensive cave formations, or perhaps lava tubes, offering the protection necessary in such a hostile terrain. An additional benefit is the potential access to vital minerals, and most importantly of all, the possibility of frozen water. These sites therefore open up the possibility of independent and permanent settlement on this planet."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The most exciting option is to attempt that on the very first trip – in other words, making it a oneway journey. The advantage is that the duration of space travel is immediately halved, reducing the technological, biological, and financial challenges. This very strong argument is somewhat offset by the difficulties in establishing a permanent presence, as well as the necessary ongoing commitment to it – for example, in the delivery of food and supplies via unmanned spacecraft. Similarly, the psychological effects on these pioneers of permanent isolation from Barth and its community, as well as being crowded into confined Martian living quarters with the same companions, raise issues of whether such a settlement is humanly feasible."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "This begs the question of why undertake such missions at all. The answer, according to proponents, is that it is our destiny. Throughout history, explorers have regularly embarked on journeys in the full knowledge that death may await them, or that even if they succeeded, their health and wellbeing would be severely compromised. And today, people regularly practise extreme sports, or work in dangerous occupations, all of which significantly lower their life expectancy. The risks involved in being a Martian pioneer are no different, and so, it is argued, there is no reason why they should deter us now."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27-30\n\nWrite\n\nTRUE                 if the statement agrees with the information\n\n\nFALSE                if the statement contradicts the information\n\n\nNOT GIVEN            If there is no information on this\n\n\n\n\n27 ____________ The greatest advantage of Mars is that it has many basic minerals.\n\n28 ____________ Settlement of the moon would be more expensive.\n\n29 ____________ The magnetosphere burns up objects.\n\n30 ____________ A one-way expedition to Mars is better."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31-35\n\nComplete the table.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n Problems involved in travelling to Mars     Associated Fact\n\n\n inadequate rocketry                         Scientists would need 31\n                                             ____________\n\n\n infrequent 32 ____________                  once every 15 years\n\n\n effect of space on 33 ____________          Bones 34 ____________\n\n\n disease                                     Lack of gravity facilitates 35\n                                             ____________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36-40\n\nGive TWO examples of the following categories.\n\nChoose NO MORE THAN TWO WORDS from the passage for each example.\n\nCategories                         An Example                 Another Example\n\n\nhuman attributes needed for        Physical strength          36 ____________\nimportant space activities\n\n\nspecific medical conditions        37 ____________            fungal attack\nwhich could occur in space\n\n\nsolid objects which could strike 38 ____________              high-energy particles\nastronauts on Mars\n\n\nuseful substances inside           vital minerals             39 ____________\nMartian caves\n\n\nhigh-risk activities happening     extreme sports             40 ____________\nnow on Earth"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ The greatest advantage of Mars is that it has many basic minerals.",
+      "translation": "Mars 最大優勢是它有很多基本礦物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Settlement of the moon would be more expensive.",
+      "translation": "Mars 最大優勢是它有很多基本礦物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ The magnetosphere burns up objects.",
+      "translation": "Mars 最大優勢是它有很多基本礦物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ A one-way expedition to Mars is better.",
+      "translation": "Mars 最大優勢是它有很多基本礦物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "這樣一趟旅程所需的食物、水、氧氣和生命維持系統，對目前的火箭科技來說太重。因此需要科技創新。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "這樣一趟旅程所需的食物、水、氧氣和生命維持系統，對目前的火箭科技來說太重。因此需要科技創新。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "這樣一趟旅程所需的食物、水、氧氣和生命維持系統，對目前的火箭科技來說太重。因此需要科技創新。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "這樣一趟旅程所需的食物、水、氧氣和生命維持系統，對目前的火箭科技來說太重。因此需要科技創新。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "這樣一趟旅程所需的食物、水、氧氣和生命維持系統，對目前的火箭科技來說太重。因此需要科技創新。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "可是這些人需要完整的 physical strength 和 alertness，才能應付許多必要的操作任務。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "可是這些人需要完整的 physical strength 和 alertness，才能應付許多必要的操作任務。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "可是這些人需要完整的 physical strength 和 alertness，才能應付許多必要的操作任務。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "可是這些人需要完整的 physical strength 和 alertness，才能應付許多必要的操作任務。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "可是這些人需要完整的 physical strength 和 alertness，才能應付許多必要的操作任務。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-005/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-005/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-005/page-7.jpg"
+  ]
+}

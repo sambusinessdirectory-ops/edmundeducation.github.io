@@ -1,0 +1,217 @@
+{
+  "id": "p2-158",
+  "catalogueId": "p2-158",
+  "title": "Travel Accounts",
+  "sourceHeading": "Travel Accounts",
+  "passage": 2,
+  "practice": 158,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-158-travel-accounts",
+  "source": {
+    "filename": "Practice 158 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "ab417abd095ad1b55a83bd4956f71be0fd0d149d1a7314f910a8df15029bc51b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "There are many reasons why individuals have travelled beyond their own societies. Some travellers may have simply desired to satisfy curiosity about the larger world. Until recent times, however, trade, business dealings, diplomacy, political administration, military campaigns, exile, flight from persecution, migration, pilgrimage, missionary efforts, and the quest for economic or educational opportunities were more common inducements to foreign travel than mere curiosity. While the travellers’ accounts give much valuable information on these foreign lands and provide a window into an understanding of the local cultures and histories, they also mirror the travellers themselves, helping the travellers to understand themselves better."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Records of foreign travel appeared soon after the invention of writing, and fragmentary travel accounts appeared in both Mesopotamia and Egypt in ancient times. After the formation of large, imperial states in the classical world, travel accounts emerged as a prominent literary genre in many lands, and they held especially strong appeal for rulers desiring useful knowledge about their realms. The Greek historian Herodotus reported on his travels in Egypt and Anatolia in researching the history of the Persian wars. The Chinese envoy Zhang Qian described much of Central Asia as far west as Bactria (modern-day Afghanistan) on the basis of travels undertaken in the first century BC while searching for allies for the Han dynasty. Hellenistic and Roman geographers such as Ptolemy, Strabo, and Pliny the Elder relied on their own travels through much of the Mediterranean world as well as reports by other travellers to compile vast compendia of geographical knowledge."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "During the postclassical era (about 500 to 1500 CE), trade and pilgrimage emerged as major incentives for travel to foreign lands. Muslim merchants sought trading opportunities throughout much of the eastern hemisphere. They described lands, peoples, and commercial products of the Indian Ocean basin from East Africa to Indonesia, and they supplied the first written accounts of societies in sub-Saharan West Africa. While merchants set out in search of trade and profit, devout Muslims travelled as pilgrims to Mecca to make their hajj and visit the holy sites of Islam. Since the prophet Muhammad’s original pilgrimage to Mecca, untold millions of Muslims have followed his example, and thousands of hajj accounts have related their experiences. One of the best known Muslim travellers, Ibn Battuta, began his travels with the hajj but then went on to visit Central Asia, India, China, sub-Saharan Africa, and parts of Mediterranean Europe before returning finally to his home in Morocco. East Asian travellers were not quite so prominent as Muslims during the postclassical era, but they too followed many of the highways and sea lanes of the eastern hemisphere. Chinese merchants frequently visited Southeast Asia and India, occasionally venturing even to East Africa, and devout East Asian Buddhists undertook distant pilgrimages. Between the 5th and 9th centuries CE, hundreds and possibly even thousands of Chinese Buddhists travelled to India to study with Buddhist teachers, collect sacred texts, and visit holy sites. Written accounts recorded the experiences of many pilgrims, such as Faxian, Xuanzang, and Yijing. Though not as numerous as the Chinese pilgrims, Buddhists from Japan, Korea, and other lands also ventured abroad in the interests of spiritual enlightenment."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Medieval Europeans did not hit the roads in such large numbers as their Muslim and East Asian counterparts during the early part of the postclassical era, although gradually increasing crowds of Christian pilgrims flowed to Jerusalem, Rome, Santiago de Compostela (in northern Spain), and other sites. After the 12th century, however, merchants, pilgrims, and missionaries from medieval Europe travelled widely and left numerous travel accounts, of which Marco Polo’s description of his travels and sojourn in China is the best known. As they became familiar with the larger world of the eastern hemisphere—and the profitable commercial opportunities that it offered—European peoples worked to find new and more direct routes to Asian and African markets. Their efforts took them not only to all parts of the eastern hemisphere but eventually to the Americas and Oceania as well."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "If Muslim and Chinese peoples dominated travel writing in postclassical times, European explorers, conquerors, merchants, and missionaries took centre stage during the early modern era (about 1500 to 1800 CE). By no means did Muslim and Chinese travel come to a halt in early modern times. But European peoples ventured to the distant corners of the globe, and European printing presses churned out thousands of travel accounts that described foreign lands and peoples for a reading public with an apparently insatiable appetite for news about the larger world. The volume of travel literature was so great that several editors, including Giambattista Ramusio, Richard Hakluyt, Theodore de Bry, and Samuel Purchas, assembled numerous travel accounts and made them available in enormous published collections."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "During the 19th century, European travellers made their way to the interior regions of Africa and the Americas, generating a fresh round of travel writing as they did so. Meanwhile, European colonial administrators devoted numerous works to the societies of their colonial subjects, particularly in Asian and African colonies they had established. By midcentury, attention also began to flow in the other direction. Painfully aware of the military and technological prowess of European and Euro-American societies, Asian travellers, in particular, visited Europe and the United States in hopes of discovering principles useful for the reorganisation of their own societies. Among the most prominent of these travellers who made extensive use of their overseas observations and experiences in their own writing were the Japanese reformer Fukuzawa Yukichi and the Chinese revolutionary Sun Yat-sen."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "With the development of inexpensive and reliable means of mass transport, the 20th century witnessed an explosion both in the frequency of long-distance travel and in the volume of travel writing. While a great deal of travel took place for reasons of business, administration, diplomacy, pilgrimage, and missionary work, as in ages past, increasingly effective modes of mass transport made it possible for new kinds of travel to flourish. The most distinctive of them was mass tourism, which emerged as a major form of consumption for individuals living in the world’s wealthy societies. Tourism enabled consumers to get away from home to see the sights in Rome, take a cruise through the Caribbean, walk the Great Wall of China, visit some wineries in Bordeaux, or go on safari in Kenya. A peculiar variant of the travel account arose to meet the needs of these tourists: the guidebook, which offered advice on food, lodging, shopping, local customs, and all the sights that visitors should not miss seeing. Tourism has had a massive economic impact throughout the world, but other new forms of travel have also had considerable influence in contemporary times. Recent times have seen unprecedented waves of migration, for example, and numerous migrants have sought to record their experiences and articulate their feelings about life in foreign lands. Recent times have also seen an unprecedented development of ethnic consciousness, and many intellectuals and writers in the diaspora have visited the homes of their ancestors to see how much of their forebears’ values and cultural traditions they themselves have inherited. Particularly notable among their accounts are the memoirs of Malcolm X and Maya Angelou describing their visits to Africa."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 21,
+      "text": "Questions 14–21\nComplete the table below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 14–21 on your answer sheet.\n Time                 Destination            Traveller              Purpose\n\n                                                                    To obtain information about 14\n Classical era        Egypt and Anatolia     Herodotus\n                                                                    __________\n\n First century BC     Central Asia           Zhang Qian             To seek 15 __________\n\n                                             Ptolemy, Strabo and\n Roman Empire         Mediterranean                                 To gather 16 __________\n                                             Pliny the Elder\n\n                                                                    For business and 17\n Postclassical era    Eastern Hemisphere     Muslims\n                                                                    __________\n\n                                                                    To study with 18 __________\n Fifth to ninth\n                      India                  East Asian Buddhists   and seek spiritual\n centuries CE\n                                                                    enlightenment\n\n                                                                    To satisfy public demand for\n                      Distant parts of the\n Early modern era                            Europeans              news about the wider 19\n                      globe\n                                                                    __________\n\n                                             Colonial               To provide information about\n Nineteenth century   Asia and Africa\n                                             administrators         the 20 __________ they ruled\n\n Mid-nineteenth       Europe and the         Sun Yat-sen and        To learn principles for\n century              United States          Fukuzawa Yukichi       reorganising their societies\n\n                      Mass-tourism           People from 21\n Twentieth century                                                  For leisure\n                      destinations           __________ countries"
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 22–26 on your answer sheet.\n\n\n22 Why did some people travel in early times?\n A to conduct research on themselves\n B to write travel books\n C to gain a better understanding of other people and places\n D to study local culture\n\n\n23 Travellers’ accounts are a mirror to the travellers themselves because\n A they make travellers aware of local histories.\n B travellers are curious about the world.\n C travellers can conduct more research into the unknown.\n D they reflect the writers’ own experiences and social lives.\n\n\n24 During the early part of the postclassical era, most people who travelled to holy sites were\n A Europeans.\n B Muslims and East Asians.\n C Americans.\n D Greeks.\n\n\n25 During the early modern era, large numbers of travel books were published to\n A provide what the public wanted.\n B encourage public feedback.\n C make a profit.\n D promote travel to the New World.\n\n\n26 What stimulated the travel market in the twentieth century?\n A wealth\n B travel books\n C food\n D mass transport"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "古典時代，Herodotus 前往 Egypt 和 Anatolia，目的是取得關於 ______ 的資料。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "公元前一世紀，Zhang Qian 前往 Central Asia，目的是尋找 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "羅馬帝國時期，Ptolemy、Strabo 和 Pliny the Elder 在 Mediterranean 收集 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "後古典時代，Muslims 在 Eastern Hemisphere 旅行，目的包括商業和 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "五至九世紀，East Asian Buddhists 到 India，目的是跟 ______ 學習並追求 spiritual enlightenment。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "早期現代，歐洲人前往世界遙遠角落，相關旅行記是為了滿足公眾對更廣闊 ______ 的新聞需求。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "十九世紀，殖民行政人員在 Asia and Africa 寫作，目的是提供關於他們所統治的 ______ 的資訊。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "二十世紀，來自 ______ 國家的人前往大眾旅遊目的地，目的為休閒。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Why did some people travel in early times?",
+      "translation": "早期有些人為甚麼旅行？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Travellers’ accounts are a mirror to the travellers themselves because",
+      "translation": "旅行記像旅行者自身的一面鏡子，原因是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "During the early part of the postclassical era, most people who travelled to holy sites were",
+      "translation": "在 postclassical era 早期，大多數前往聖地的人是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "During the early modern era, large numbers of travel books were published to",
+      "translation": "早期現代，大量旅行書被出版，目的是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What stimulated the travel market in the twentieth century?",
+      "translation": "二十世紀是甚麼刺激了旅行市場？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-158/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-158/page-6.jpg"
+  ]
+}

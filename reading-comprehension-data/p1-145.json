@@ -1,0 +1,272 @@
+{
+  "id": "p1-145",
+  "catalogueId": "p1-145",
+  "title": "Plant Scents",
+  "sourceHeading": "Plant Scents",
+  "passage": 1,
+  "practice": 145,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-145-plant-scents",
+  "source": {
+    "filename": "Practice 145 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "52ed10ae502b15bdf64ce8a5fee611c5f0b0c15d5ac647f4cf898b0da1ba3dbf"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Everyone is familiar with scented flowers, and many people have heard that floral odours help the plant attract pollinators. This common notion is mostly correct, but it is surprising how little scientific proof of it exists. Of course, not all flowers are pollinated by biological agents—for example, many grasses are wind-pollinated—but the flowers of the grasses may still emit volatiles. In fact, plants emit organic molecules all the time, although they may not be obvious to the human nose. As for flower scents that we can detect with our noses, bouquets that attract moths and butterflies generally smell “sweet”, and those that attract certain flies seem “rotten” to us."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The release of volatiles from vegetative parts of the plant is familiar, although until recently the physiological functions of these chemicals were less clear and had received much less attention from scientists. When the trunk of a pine tree is injured—for example, when a beetle tries to burrow into it—it exudes a very smelly resin. This resin consists mostly of terpenes—hydrocarbons with a backbone of 10, 15 or 20 carbons that may also contain atoms of oxygen. The heavier C20 terpenes, called diterpenes, are glue-like and can cover and immobilise insects as they plug the hole. This defence mechanism is as ancient as it is effective: many samples of fossilised resin, or amber, contain the remains of insects trapped inside. Many other plants emit volatiles when injured, and in some cases the emitted signal helps defend the plant. For example, (Z)-3-hexenyl acetate, which is known as a “green leaf volatile” because it is emitted by many plants upon injury, deters females of the moth Heliothis virescens from laying eggs on injured tobacco plants. Interestingly, the profile of emitted tobacco volatiles is different at night than during the day, and it is the nocturnal blend, rich in several (Z)-3-hexen-1-ol esters, that is most effective in repelling the night-active H. virescens moths."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Herbivore-induced volatiles often serve as indirect defences. These bulwarks exist in a variety of plant species, including corn, beans, and the model plant species Arabidopsis thaliana. Plants emit volatiles not only at the site where caterpillars, mites, aphids or similar insects are eating them, but also from undamaged parts of the plant. These signals attract a variety of predatory insects that prey on the plant-eaters. For example, some parasitic wasps can detect the volatile signature of a damaged plant and will lay their eggs inside the offending caterpillar; eventually, the wasp eggs hatch, and the emerging larvae feed on the caterpillar from the inside out. The growth of infected caterpillars is slowed considerably, to the benefit of the plant. Similarly, volatiles released by plants in response to herbivore egg-laying can attract parasites of the eggs, thereby preventing them from hatching and averting the onslaught of hungry herbivores that would have emerged. Plant volatiles can also be used as a kind of currency in some very indirect defensive schemes. In the rainforest understorey tree Leonardoxa africana, ants of the species Petalomyrmex phylax patrol young leaves and attack any herbivorous insects that they encounter. The young leaves emit high levels of the volatile compound methyl salicylate, a compound that the ants use either as a pheromone or as an antiseptic in their nests. It appears that methyl salicylate is both an attractant and a reward offered by the tree to get the ants to perform this valuable deterrent role."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Floral scent has a strong impact on the economic success of many agricultural crops that rely on insect pollinators, including fruit trees such as the bee-pollinated cherry, apple, apricot and peach, as well as vegetables and tropical plants such as papaya. Pollination affects not only crop yield but also the quality and efficiency of crop production. Many crops require most, if not all, ovules to be fertilised for optimum fruit size and shape. A decrease in fragrance emission reduces the ability of flowers to attract pollinators and results in considerable losses for growers, particularly for introduced species that have a specialised pollinator in their place of origin. This problem has been exacerbated by recent disease epidemics that have killed many honeybees, the major insect pollinators in the United States."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "One way in which plant breeders circumvent the pollination problem is to breed self-compatible, or apomictic, varieties that do not require fertilisation. Although this solution is adequate, its drawbacks include near uniformity at the genetic level and consequent susceptibility to pathogens. Some growers have attempted to enhance honeybee foraging by spraying scent compounds on orchard trees, but this approach was costly, had to be repeated, had potentially toxic effects on the soil or local biota, and, in the end, proved to be inefficient. The poor effectiveness of this strategy probably reflects inherent limitations of the artificial, topically applied compounds, which clearly fail to convey the appropriate message to the bees. For example, general spraying of the volatile mixture cannot tell the insects exactly where the blossoms are. Clearly, a more refined strategy is needed. The ability to enhance existing floral scent, which could be accomplished by genetic engineering, would allow us to manipulate the types of insect pollinators and the frequency of their visits. Moreover, the metabolic engineering of fragrance could increase crop protection against pathogens and pests."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Genetic manipulation of the scent will also benefit the floriculture industry. Ornamentals, including cut flowers, foliage and potted plants, play an important aesthetic role in human life. Unfortunately, traditional breeding has often produced cultivars with improved vase life, shipping characteristics, colour and shape while sacrificing desirable perfumes. The loss of scent among ornamentals, which have a worldwide value of more than $30 billion, makes them important targets for the genetic manipulation of flower fragrance. Some work has already begun in this area, as several groups have created petunia and carnation plants that express the linalool synthase gene from C. breweri. These experiments are still preliminary: For technical reasons, the gene was expressed everywhere in the plant, and although the transgenic plants did create small amounts of linalool, the level was below the threshold of detection for the human nose. Similar experiments in tobacco used genes for other monoterpene synthases, such as the one that produces limonene, but gave similar results."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The next generation of experiments, already in progress, includes sophisticated schemes that target the expression of scent genes specifically to flowers or other organs—such as special glands that can store antimicrobial or herbivore-repellent compounds."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nReading Passage 1 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 1–4 on your answer sheet.\n1 ____________ A substance released to help a plant defend itself\n2 ____________ Scent helping a plant’s pollination\n3 ____________ Practical genetic experiments involving fragrance\n4 ____________ A plant scent attracting an herbivore’s natural enemy for protection"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 5–8 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n\n\n5 There is little evidence to support the idea that scent attracts pollinators.\n6 Heliothis virescens will not eat tobacco leaves on which they have laid eggs.\n7 Ants guard certain plants in the rainforest.\n8 Pollination affects only fruit-tree production, not other crops."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nChoose the correct letter, A, B, C or D.\n9 How do wasps protect plants after being attracted by their scents?\n A Plants induce wasps to prey on herbivores.\n B Wasps lay eggs inside caterpillars.\n C Wasps lay eggs on plants to repel herbivores.\n D The caterpillars and wasp eggs coexist successfully.\n\n\n10 What caused the decline in honeybee numbers in the United States?\n A A reduction in pollination\n B The spread of disease\n C Poisonous crops\n D Neglect by growers\n\n\n11 Which drawback of artificial fragrance is NOT mentioned in the passage?\n A It is expensive.\n B It cannot convey the correct information.\n C It requires extensive manual labour.\n D It can poison the local environment.\n\n\n12 What does the figure of $30 billion illustrate?\n A Desirable scents are easy to manufacture.\n B Traditional floriculture needs reform.\n C Genetic manipulation can yield large profits.\n D Scent plays a significant role in the ornamental-plant industry.\n\n\n13 What is one weakness of genetic experiments on fragrance?\n A The linalool level may be too low for the human nose to detect.\n B The experiments have made no progress.\n C Tobacco is always a better experimental plant.\n D The resulting scent is too intense."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A substance released to help a plant defend itself",
+      "translation": "一種被釋放出來、幫助植物保護自己的物質。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Scent helping a plant’s pollination",
+      "translation": "氣味幫助植物授粉。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Practical genetic experiments involving fragrance",
+      "translation": "涉及香味的實際基因實驗。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A plant scent attracting an herbivore’s natural enemy for protection",
+      "translation": "植物氣味吸引食草動物的天敵，藉此保護植物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "There is little evidence to support the idea that scent attracts pollinators.",
+      "translation": "支持「氣味吸引授粉者」這個觀點的證據很少。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Heliothis virescens will not eat tobacco leaves on which they have laid eggs.",
+      "translation": "Heliothis virescens 不會吃牠們已經產卵的煙草葉。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Ants guard certain plants in the rainforest.",
+      "translation": "螞蟻會守護雨林中的某些植物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Pollination affects only fruit-tree production, not other crops.",
+      "translation": "授粉只影響果樹生產，不影響其他作物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "How do wasps protect plants after being attracted by their scents?",
+      "translation": "黃蜂被植物氣味吸引後，如何保護植物？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "What caused the decline in honeybee numbers in the United States?",
+      "translation": "美國蜜蜂數量下降的原因是什麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Which drawback of artificial fragrance is NOT mentioned in the passage?",
+      "translation": "以下哪一項人工香味的缺點沒有在文章中提到？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "What does the figure of $30 billion illustrate?",
+      "translation": "$30 billion 這個數字用來說明什麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "What is one weakness of genetic experiments on fragrance?",
+      "translation": "香味基因實驗其中一個弱點是什麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-145/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-145/page-6.jpg"
+  ]
+}

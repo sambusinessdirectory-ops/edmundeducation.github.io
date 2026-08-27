@@ -1,0 +1,350 @@
+{
+  "id": "p3-110",
+  "catalogueId": "p3-110",
+  "title": "Quiet roads ahead",
+  "sourceHeading": "Quiet roads ahead The roar of passing vehicles could soon be a thing of the past",
+  "passage": 3,
+  "practice": 110,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-110-quiet-roads-ahead",
+  "source": {
+    "filename": "Practice 110 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "3483bf2556fb221ad127ea00bc80453db46c678b64fff37e7663d364a80910dd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The noise produced by busy roads is a growing problem. While vehicle designers have worked hard to quieten engines, they have been less successful elsewhere. The sound created by the tyres on the surface of the road now accounts for more than half the noise that vehicles create, and as road building and car sales continue to boom – particularly in Asia and the US – this is turning into a global issue."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "According to the World Health Organization, exposure to noise from road traffic over long periods can lead to stress-related health problems. And where traffic noise exceeds a certain threshold, road builders have to spend money erecting sound barriers and installing double glazing in blighted homes. Houses become harder to sell where environmental noise is high, and people are not as efficient or productive at work."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Already, researchers in the Netherlands – one of the most densely populated countries in the world – are working to develop techniques for silencing the roads. In the next five years the Dutch government aims to have reduced noise levels from the country’s road surfaces by six decibels overall. Dutch mechanical engineer Ard Kuijpers has come up with one of the most promising, and radical, ideas. He set out to tackle the three most important factors: surface texture, hardness and ability to absorb sound."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The rougher the surface, the more likely it is that a tyre will vibrate and create noise. Road builders usually eliminate bumps on freshly laid asphalt with heavy rollers, but Kuijpers has developed a method of road building that he thinks can create the ultimate quiet road. His secret is a special mould 3 metres wide and 50 metres long. Hot asphalt, mixed with small stones, is spread into the mould by a rail-mounted machine which flattens the asphalt mix with a roller. When it sets, the 10-millimetre-thick sheet has a surface smoother than anything that can be achieved by conventional methods."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "To optimise the performance of his road surface – to make it hard-wearing yet soft enough to snuff out vibrations – he then adds another layer below the asphalt. This consists of a 30-millimetre-thick layer of rubber, mixed with stones which are larger than those in the layer above. ‘It’s like a giant mouse mat, making the road softer,’ says Kuijpers."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The size of the stones used in the two layers is important, since they create pores of a specific size in the road surface. Those used in the top layer are just 4 or 5 millimetres across, while the ones below are approximately twice that size – about 9 millimetres. Kuijpers says the surface can absorb any air that is passing through a tyre’s tread (the indentations or ridges on the surface of a tyre), damping oscillations that would otherwise create noise. And in addition they make it easier for the water to drain away, which can make the road safer in wet weather."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Compared with the complex manufacturing process, laying the surface is quite simple. It emerges from the factory rolled, like a carpet, onto a drum 1.5 metres in diameter. On site, it is unrolled and stuck onto its foundation with bitumen. Even the white lines are applied in the factory."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The foundation itself uses an even more sophisticated technique to reduce noise further. It consists of a sound-absorbing concrete base containing flask-shaped slots up to 10 millimetres wide and 30 millimetres deep that are open at the top and sealed at the lower end. These cavities act like Helmholtz resonators – when sound waves of specific frequencies enter the top of a flask, they set up resonances inside and the energy of the sound dissipates into the concrete as heat. The cavities play another important role: they help to drain water that seeps through from the upper surface. This flow will help flush out waste material and keep the pores in the outer layers clear."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Kuijpers can even control the sounds that his resonators absorb, simply by altering their dimensions. This could prove especially useful since different vehicles produce noise at different frequencies. Car tyres peak at around 1000 hertz, for example, but trucks generate lower-frequency noise at around 600 hertz. By varying the size of the Kuijpers resonators, it is possible to control which frequencies the concrete absorbs. On large highways, trucks tend to use the inside lane, so resonators here could be tuned to absorb sounds at around 600 hertz while those in other lanes could deal with higher frequency noise from cars."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Kuijpers believes he can cut noise by five decibels compared to the quietest of today’s roads. He has already tested a 100-metre-long section of his road on a motorway near Apeldoorn, and Dutch construction company Heijmans is discussing the location of the next roll-out road with the country’s government. The success of Kuijpers’ design will depend on how much it eventually costs. But for those affected by traffic noise there is hope of quieter times ahead."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nReading Passage 3 has ten paragraphs labelled A–J.\nWhich paragraph contains the following information?\nWrite the correct letter A–J in boxes 27–32 on your answer sheet.\n27 _____________ a description of the form in which Kuijpers’ road surface is taken to its\ndestination\n28 _____________ an explanation of how Kuijpers makes a smooth road surface\n29 _____________ something that has to be considered when evaluating Kuijpers’ proposal\n30 _____________ various economic reasons for reducing road noise\n31 _____________ a generalisation about the patterns of use of vehicles on major roads\n32 _____________ a summary of the different things affecting levels of noise on roads"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 35,
+      "text": "Questions 33–35\nLabel the diagram below.\nChoose NO MORE THAN ONE WORD AND/OR A NUMBER from the passage for each\nanswer.\nWrite your answers in boxes 33–35 on your answer sheet.\nCross section of Kuijpers’ proposed noise-reducing road\n\n\n\n\n33 _________________\n34 _________________\n35 _________________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the table below using the list of words (A–K) from the box below.\nWrite the correct letters in boxes 36–40 on your answer sheet.\n\n\n Kuijpers’ noise-reducing\n road: components and\n function\n\n Layer                        Component             Function\n\n                                                    • reduce oscillations caused by 36\n upper and lower              stones                _________________ • create pores\n                                                    which help 37 _________________\n                                                    • convert 38 _________________ to\n                                                    heat • help to remove 39\n foundation                   slots\n                                                    _________________ • can be adapted\n                                                    to absorb different 40\n                                                    _________________\n\n A                            frequencies\n\n B                            the engine\n\n C                            rubbish\n\n D                            resonators\n\n E                            air flow\n\n F                            dissipation\n\n G                            sound energy\n\n H                            pores\n\n I                            lanes\n\n J                            drainage\n\n K                            sources"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ a description of the form in which Kuijpers’ road surface is taken to its destination",
+      "translation": "描述 Kuijpers 的路面被運送到目的地時，是以甚麼形態出現。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ an explanation of how Kuijpers makes a smooth road surface",
+      "translation": "解釋 Kuijpers 如何製造平滑的路面。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ something that has to be considered when evaluating Kuijpers’ proposal",
+      "translation": "評估 Kuijpers 的建議時，必須考慮的一項因素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ various economic reasons for reducing road noise",
+      "translation": "多個減少道路噪音的經濟原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ a generalisation about the patterns of use of vehicles on major roads",
+      "translation": "關於大型道路上車輛使用模式的一個概括說法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ a summary of the different things affecting levels of noise on roads",
+      "translation": "總結影響道路噪音水平的不同因素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "上下兩層的 stones 能減少由 ______ 造成的震盪。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "stones 會形成 pores，而這些 pores 幫助 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "foundation 中的 slots 能把 ______ 轉化成熱。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "foundation 中的 slots 有助移走 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "foundation 中的 slots 可以調整，以吸收不同的 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-110/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-110/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-110/page-6.jpg"
+  ]
+}

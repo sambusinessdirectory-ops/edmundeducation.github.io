@@ -1,0 +1,303 @@
+{
+  "id": "p2-097",
+  "catalogueId": "p2-097",
+  "title": "Childhood Obesity",
+  "sourceHeading": "Childhood Obesity",
+  "passage": 2,
+  "practice": 97,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-097-childhood-obesity",
+  "source": {
+    "filename": "Practice 97 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "336b013972aac372b7f0b0c2bbf4a20743cdcbaa0de17581782a10266580dce1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "If a child becomes obese, their body processes can change. Some of these may be difficult or even impossible to alter in adulthood. Fat cells are created in the first few years of life. If fat is stored quickly, more fat cells are created. So an obese child can have up to three times as many fat cells as a child of normal weight. Eventually, fat cells stop multiplying, and an adult has a fixed number for the rest of their life. The existing cells simply swell or shrink to accommodate more fat. The amount of fat the body wants to store is thought to be proportional to the total number of fat cells. So if you were overweight as a child, your body is programmed to carry more fat. This does not mean that you cannot lose weight through diet and exercise, but it will be harder."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Few health problems are observed in obese children, but they may develop conditions that cause problems later in life, such as high blood pressure. They may also suffer from ‘sleep apnoea’. When this happens, soft tissue in the throat blocks the airways during sleep. This can stop their breathing for up to a minute. This process can happen hundreds of times a night, leading to heart disease, memory problems, headaches, and tiredness. Some obese children may develop diabetes. Normally, this condition only starts much later in life. When it strikes, the body stops being able to process sugar properly, and the cells are starved of energy. Diabetes cannot be cured, but it can be treated. It may lead to problems such as nerve damage, heart disease, kidney disease, and blindness. Children with this condition will have to live with it all their lives, increasing the chance of problems."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Negative body image can cause depression and social problems – overweight children are often teased. Low self-esteem may not directly affect physical health, but it is actually the biggest problem obese children face in everyday life. It may even lead to ‘comfort eating’ (eating to feel good), making the situation even worse. If modern-day culture placed less emphasis on the ‘perfect body’, then at least one set of problems associated with obesity would disappear."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Although the causes are not yet completely understood, it is clear to scientists that both genes and the environment play a role. The recent increase in obesity in many countries around the world seems to be linked to environmental factors. Firstly, many people are much less physically active nowadays. Secondly, fatty and sugary foods are more accessible to more people. Thirdly, average portion sizes have become larger as people have more food to eat and restaurants, particularly fast-food restaurants, serve larger portions for relatively little extra money. Fourthly, calories per mouthful of food have increased."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Traditionally, children all over the world have been forced by their parents to finish all the food that is on their plate. Don’t force children to eat more when they say they are full – otherwise they could lose their ability to naturally regulate what they eat. Wait a few minutes before serving a second portion of food at mealtimes. It takes some time for the messages that tell us we have had enough to eat to reach the brain. Another global tradition is that of giving children their favourite food as a reward for good behaviour or good grades at school. Using food as a reward is never a good idea because your child will learn to value these particular ‘treat’ foods and may turn to food for comfort. Use non-food rewards instead – they don’t need to be large material rewards. One of the best motivators is praise! Don’t tell your child off for being fat. Your child may already feel upset about their weight. Telling them off will only make them feel worse and may add to the problem if they then turn to food for comfort. Don’t single out your child as the one with the problem. Introduce healthier meals to the whole family. This way, everyone can make healthy changes to their lifestyle."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "It is not worth forbidding fattening foods, because forbidding certain foods can make them seem more attractive to children. Teach your child about the health value of foods, particularly those that are rich in vitamins and nutrients. Make your home a healthy food zone. Fill up the fruit bowl instead of buying biscuits and crisps. Remember that your child is likely to model their behaviour on yours, so choose healthy food options whenever possible. Offering a child a choice of food is generally not a good idea. Research has shown that when there is more choice available, we tend to eat more. Even the sight or smell of tempting food can override the body’s natural mechanism of regulation, so we eat when we’re not hungry. If you do decide to offer your child a choice, keep the options to an absolute minimum."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Weight management camps can be a good way to treat obesity. One of the problems is keeping off the weight that kids lose at such camps. If the child comes home and none of the family members have altered their eating habits, improvements may be difficult to sustain. Again, lead by example! An increasing number of parents ask their doctors about surgery (e.g. liposuction) to tackle obesity. If a child has severe obesity and his or her health is being put at serious risk, then all options have to be considered. Surgical treatments have shown good results in adults, but there are serious risks. Performing surgery on children would raise some difficult issues. This option should really only be considered when all others have been exhausted."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Parents of even young children can make sure the family changes to a healthy lifestyle rather than targeting weight loss specifically. Children grow at different rates, and many overweight children will ‘grow out of it’ as they grow taller. Few treatments are targeted at children under the age of seven years. From age eight to ten, a child who is obese should have a medical evaluation to assess the severity of the problem. The older your child is, the less likely they are to grow out of it. A 15-year-old who is overweight is likely to remain so in adulthood."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has eight paragraphs, A–H.\nWhich paragraph does each of the following headings best fit?\n14 _____________ Feeling bad about yourself\n15 _____________ Reducing weight\n16 _____________ Age is a factor\n17 _____________ Fat cells"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nWrite the corresponding letters in answer boxes 18–22 in any order.\n A Adults do not gain fat cells.\n B Diabetes is not a permanent problem for a person.\n C Low self-esteem is a major problem.\n D Being obese is generally considered to be partly genetic.\n E Messages about how much food is required go from the stomach to the brain instantly.\n F Parents should take the lead by buying healthy foods.\n G Performing liposuction on children is a good idea.\n H Some young children appear overweight when they are short."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nAccording to the information given in the text, choose the correct answer or answers from\nthe choices given.\n\n\n23 People with obesity may suffer from\n A sleep apnoea.\n B diabetes.\n C low blood pressure.\n\n\n24 Environmental factors contributing to obesity include\n A lack of exercise.\n B larger portions of food at restaurants.\n C comfort eating.\n\n\n25 Bad things that parents do include\n A using food as a reward.\n B not telling children to finish their dinners.\n C waiting before serving second portions of food.\n\n\n26 Forbidding foods is bad because children\n A will want them even more.\n B should be offered a choice of food.\n C should be treated equally."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Feeling bad about yourself",
+      "translation": "對自己感覺很差；自我形象差；自尊低落。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Reducing weight",
+      "translation": "減重；控制體重；處理肥胖。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Age is a factor",
+      "translation": "年齡是一個因素；年齡會影響肥胖是否持續和如何處理。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Fat cells",
+      "translation": "脂肪細胞。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "成年人不會增加脂肪細胞數量。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "成年人不會增加脂肪細胞數量。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "成年人不會增加脂肪細胞數量。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "成年人不會增加脂肪細胞數量。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "成年人不會增加脂肪細胞數量。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "People with obesity may suffer from",
+      "translation": "肥胖人士可能患有……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Environmental factors contributing to obesity include",
+      "translation": "導致肥胖的環境因素包括……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Bad things that parents do include",
+      "translation": "父母做的不良做法包括……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Forbidding foods is bad because children",
+      "translation": "禁止某些食物是不好的，因為孩子……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-097/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-097/page-6.jpg"
+  ]
+}

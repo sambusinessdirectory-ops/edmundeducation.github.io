@@ -115,7 +115,7 @@ assert.ok(audioMeta?.count >= 136333, `Expected at least 136333 mappings; found 
 assert.equal(audioMeta?.voice, "af_heart", "HKFSD audio must use the established Kokoro voice");
 
 assert.match(html, /<script src="flashcards-hkfsd-concept-vocabulary-book1-data\.js\?v=20260818-1"><\/script>/, "HKFSD data file is not loaded");
-assert.match(html, /<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260818-2"><\/script>/, "Kokoro cache pin is stale");
+assert.match(html, /<script src="flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260827-1"><\/script>/, "Kokoro cache pin is stale");
 assert.ok(html.includes('routeOptionButton("HKFSD", "government-hkfsd", "government/hkfsd")'), "HKFSD is not a routed hierarchy");
 assert.ok(html.includes('route === "government-hkfsd-concept-vocabulary"'), "HKFSD concept-vocabulary route is missing");
 assert.ok(html.includes('route === "government-hkfsd-concept-vocabulary-book-1"'), "HKFSD Book 1 route is missing");

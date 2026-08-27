@@ -1,0 +1,295 @@
+{
+  "id": "p2-170",
+  "catalogueId": "p2-170",
+  "title": "Australian parrots and their adaptation to habitat change",
+  "sourceHeading": "Australian Parrots and Their Adaptation to Habitat Change",
+  "passage": 2,
+  "practice": 170,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-170-australian-parrots-and-their-adaptation-to-habitat-change",
+  "source": {
+    "filename": "Practice 170 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "0c17f7e73a47e49cff630e90f0db54173d0898dc7aa1dc94017acb23f4d847c3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Parrots are found throughout the tropics and on every Southern Hemisphere continent except Antarctica, but nowhere do they display such richness of diversity and form as in Australia. One-sixth of the world’s 345 parrot species are found there, and Australia has long been renowned for the number and variety of its parrots."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "In the sixteenth century, the German cartographer Mercator made a world map that included a place near present-day Australia which he named Terra Psittacorum—the Land of Parrots—and the first European settlers in Australia often referred to the country as Parrot Land. In 1865, the celebrated British naturalist and wildlife artist John Gould said, ‘No group of birds gives Australia so tropical and benign an air as the numerous species of this great family by which it is tenanted.’"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Parrots descend from an ancient line. Given their great diversity and the fact that most species inhabit Africa, Australia and South America, it seems almost certain that parrots originated millions of years ago on the ancient southern continent of Gondwana, before it broke up into the separate Southern Hemisphere continents we know today. Much of Gondwana comprised vast rainforests intersected by huge, slow-flowing rivers and expansive lakes, but by eight million years ago great changes were under way. The centre of Australia had begun to dry out, and the rainforests that once covered it gradually contracted to the continental margins, where they still exist to a limited extent today."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The creatures that remained in those shrinking rainforests had to adapt to drier conditions or face extinction. Reacting to these desperate circumstances, the parrot family—typically found in jungles elsewhere in the world—populated some of Australia’s harshest environments. Parrots spread from ancestral forests through eucalypt woodlands to colonise the central deserts of Australia. Consequently, they diversified into a wide range of species whose adaptations reflect the many changes animals and plants had to make to survive in these areas."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "These evolutionary pressures helped mould keratin, the substance from which beaks are made, into a range of tools capable of gathering the new food types favoured by different parrot species. The size of a parrot’s short, blunt beak and the length of its curved upper section are related to the food the species eats. Some have comparatively long beaks that are perfect for extracting seeds from fruit; others have broader, stronger beaks designed to crack hard seeds."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Differently shaped beaks are not the only adaptations produced during the developing relationship between parrots and their food plants. Like all of Australia’s many honey-eating birds, rainbow-coloured lorikeets and the flowers on which they feed have long co-evolved. Features such as the flowers’ shape and colour have adapted to the birds’ needs. For example, red is particularly attractive to birds, so flowers that depend on birds for pollination are often red, while lorikeets’ tongues have bristles that help them collect as much pollen as possible."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Today, most Australian parrots inhabit woodland and open forest, and their numbers decline towards both deserts and wetter areas. Most are nomadic to some degree, moving to take advantage of feeding and breeding sites. Two dry-country parrots—the pink-and-grey galah and the pink, white and yellow corella—have expanded their ranges in recent years. They are among the species that have adapted well to changes brought about by European settlement: forest felling created grasslands where galahs and corellas thrive."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Other parrot species did not fare so well when their environments were altered. The clearing of large areas of rainforest is probably responsible for the disappearance of the double-eyed fig parrot, while ground-parrot numbers declined after much of their habitat was destroyed by the draining of coastal swamps. Even some species that initially benefited from forest clearing now face a shortage of nesting sites because of further human-made changes."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "New conditions sometimes favour an incoming species over one that originally inhabited the area. After farmers cleared large areas of forest on Kangaroo Island, off the coast of South Australia, for example, galahs colonised the island. They soon entered nesting holes and destroyed black-cockatoo eggs so that they could occupy the holes themselves. Their success precipitated a partial collapse in the black-cockatoo population when the latter lost the struggle for scarce nesting hollows."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "There may be no final answer to ensuring an equitable balance among parrot species. Nest-box programmes help ease the shortage of nesting sites in some places, but there are too few of them; they are expensive and no adequate substitute for large, old trees, which provide both habitat and nectar, pollen and seeds. Competition among parrots for nesting sites results from the changes humans have made to the Earth. We are the most widespread and dangerous competitors parrots have ever faced, but we also have the knowledge and skill to maintain Australia’s wonderfully rich diversity of parrots. All we need is the will to do so."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–20",
+    "g21": "Questions 21–23",
+    "g24": "Questions 24–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 20,
+      "text": "Questions 15–20\nReading Passage 2 has ten paragraphs, A–J.\nWhich paragraph contains the following information?\nWrite the correct letter, A–J, in boxes 15–20 on your answer sheet.\n15 __________ An example of one parrot species surviving at the expense of another\n16 __________ A description of how plants may adapt to attract birds\n17 __________ Examples of two parrot species that benefited from environmental change\n18 __________ How Australia’s varied landscape produced a great variety of parrot species\n19 __________ A reason why most parrot species are native to the Southern Hemisphere\n20 __________ An example of a parrot species that did not survive changes to its habitat"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 23,
+      "text": "Questions 21–23\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 21–23 on your answer sheet.\n\n\n21 The writer believes that most parrot species\n  A moved from Africa and South America to Australia.\n  B had ancestors in either Africa, Australia or South America.\n  C had ancestors on a continent that later split apart.\n  D came from a continent now covered by water.\n\n\n22 What does the writer say about parrots’ beaks?\n  A They are longer than those of other birds.\n  B They are made from a unique material.\n  C They are used more efficiently than those of other species.\n  D They are specially adapted to suit the birds’ diets.\n\n\n23 Which of the following is NOT mentioned as a disadvantage of nesting boxes?\n  A They are too expensive.\n  B They need to be maintained.\n  C They provide shelter but not food.\n  D There are too few of them."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 27,
+      "text": "Questions 24–27\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in boxes 24–27 on your answer sheet.\n\n\nParrots in Australia\nThere are 345 parrot species in existence and, of these, 24 __________ live in\nAustralia. As early as the 25 __________, the mapmaker 26 __________\nrecognised that parrots lived in this part of the world. 27 __________, the\nfamous painter of animals and birds, commented on the number and beauty of\nAustralian parrots."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ An example of one parrot species surviving at the expense of another",
+      "translation": "一種鸚鵡以另一種鸚鵡受損為代價而成功生存或擴張的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ A description of how plants may adapt to attract birds",
+      "translation": "植物如何適應以吸引鳥類的描述。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Examples of two parrot species that benefited from environmental change",
+      "translation": "兩種因環境改變而受益的鸚鵡例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ How Australia’s varied landscape produced a great variety of parrot species",
+      "translation": "澳洲多變的地貌或棲息環境如何造成大量不同鸚鵡物種。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ A reason why most parrot species are native to the Southern Hemisphere",
+      "translation": "為甚麼多數鸚鵡物種原生於南半球的一個原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ An example of a parrot species that did not survive changes to its habitat",
+      "translation": "一種未能在棲息地改變後存活下來的鸚鵡例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "The writer believes that most parrot species",
+      "translation": "作者認為大多數鸚鵡物種……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "What does the writer say about parrots’ beaks?",
+      "translation": "作者對鸚鵡的喙有甚麼說法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Which of the following is NOT mentioned as a disadvantage of nesting boxes?",
+      "translation": "以下哪一項沒有被提及為巢箱的缺點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "現存有 345 種鸚鵡，其中 ______ 生活在澳洲。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "早在 ______，地圖製作者 ______ 已認出鸚鵡生活在世界這一部分。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "地圖製作者 ______ 認出鸚鵡生活在世界這一部分。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "著名動物和鳥類畫家 ______ 評論了澳洲鸚鵡的數量和美麗。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-170/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-170/page-6.jpg"
+  ]
+}

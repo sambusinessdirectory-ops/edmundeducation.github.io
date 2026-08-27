@@ -1,0 +1,229 @@
+{
+  "id": "p3-131",
+  "catalogueId": "p3-131",
+  "title": "Bondi Beach",
+  "sourceHeading": "Bondi Beach",
+  "passage": 3,
+  "practice": 131,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-131-bondi-beach",
+  "source": {
+    "filename": "Practice 131 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "1065d7505995d19b58d3f9a1f987b08cbd4661057655396d6f750ea81d099088"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Bondi Beach, Australia’s most famous beach, is located in the suburb of Bondi, in the Local Government Area of Waverley, seven kilometers from the centre of Sydney. “Bondi” or “Boondi” is an Aboriginal word meaning water breaking over rocks or the sound of breaking waves. The Australian Museum records that Bondi means a place where a flight of nullas took place. There are Aboriginal rock carvings on the northern end of the beach at Ben Buckler and south of Bondi Beach near McKenzies Beach on the coastal walk."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The indigenous people of the area at the time of European settlement have generally been referred to as the Sydney people or the Eora (Eora means “the people”). One theory describes the Eora as a sub-group of the Darug language group which occupied the Cumberland Plain west to the Blue Mountains. However, another theory suggests that they were a distinct language group of their own. There is no clear evidence for the name or names of the particular band(s) of the Eora that roamed what is now the Waverley area. A number of place names within Waverley, most famously Bondi, have been based on words derived from Aboriginal languages of the Sydney region."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "From the mid-1800s Bondi Beach was a favourite location for family outings and picnics. The beginnings of the suburb go back to 1809, when the early road builder, William Roberts, received from Governor Bligh a grant of 81 hectares of what is now most of the business and residential area of Bondi Beach. In 1851, Edward Smith Hall and Francis O’Brien purchased 200 acres of the Bondi area that embraced almost the whole frontage of Bondi Beach, and it was named “The Bondi Estate.” Between 1855 and 1877 O’Brien purchased Hall’s share of the land, renamed the land the “O’Brien Estate,” and made the beach and the surrounding land available to the public as a picnic ground and amusement resort. As the beach became increasingly popular, O’Brien threatened to stop public beach access. However, the Municipal Council believed that the Government needed to intervene to make the beach a public reserve."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "During the 1900s, the beach became associated with health, leisure and democracy – a playground everyone could enjoy equally. Bondi Beach was a working-class suburb throughout most of the twentieth century with migrants from New Zealand comprising the majority of the local population. The first tramway reached the beach in 1884. Following this, the tram became Bondi’s first form of public transport. As a result, this development ended the situation in which only rich people could enjoy the beach. By the 1930s Bondi was drawing not only local visitors but also people from elsewhere in Australia and overseas. Advertising at the time referred to Bondi Beach as the “Playground of the Pacific”."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "People increasingly preferred relaxing by the seaside rather than living in unhealthy cities. The increasing popularity of sea bathing during the late 1800s and early 1900s raised concerns about public safety and how to prevent people from drowning. In response, the world’s first formally documented surf lifesaving club, the Bondi Surf Bathers’ Life Saving Club, was formed in 1907. This was powerfully reinforced by the dramatic events of “Black Sunday” at Bondi in 1938. Some 35,000 people were on the beach and a large group of lifesavers were about to start a surf race when three freak waves hit the beach, sweeping hundreds of people out to sea. Lifesavers rescued 300 people. The largest mass rescue in the history of surf bathing, it confirmed the place of the lifesaver in the national imagination."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Bondi Beach is the endpoint of the City to Surf Fun Run which is held each year in August. Australian surf carnivals further instilled this image. A Royal Surf Carnival was held at Bondi Beach for Queen Elizabeth II during her first visit to Australia in 1954. Since 1867, there have been over fifty visits by a member of the British Royal Family to Australia. In addition to many activities, the Bondi Beach Markets are open every Sunday. Many wealthy people spend Christmas Day at the beach. However, a shortage of housing developed as large numbers of people crowded to the seaside. Manly is a seaside town that addressed this problem. However, people still choose Bondi as their preferred destination rather than Manly."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Bondi Beach has a commercial area along Campbell Parade and adjacent side streets, featuring many popular cafes, restaurants, and hotels, with views of the contemporary beach. It is depicted as wholly modern and European. In the last decade, Bondi Beach’s unique position has seen a dramatic rise in svelte houses and apartments to take advantage of the views and scent of the sea. The valley running down to the beach is famous the world over for its view of distinctive red-tiled roofs. These buildings are deeply influenced by British coastal towns."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Bondi Beach hosted the beach volleyball competition at the 2000 Summer Olympics. A temporary 10,000-seat stadium, a much smaller stadium, 2 warm-up courts, and 3 training courts were set up to host the tournament. The Bondi Beach Volleyball Stadium was constructed for it and stood for just six weeks. Campaigners opposed both the social and environmental consequences of the development. The stadium would divide the beach in two and seriously restrict public access for swimming, walking, and other forms of outdoor recreation. People protested for their right to an unspoilt seaside and argued for a healthy life in Bondi."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "“They’re prepared to risk lives and risk the Bondi beach environment for the sake of eight days of volleyball,” said Stephen Uniacke, a construction lawyer involved in the campaign. Other environmental concerns include the possibility that soil dredged up from below the sand will acidify when brought to the surface."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 28–32 on your answer sheet, write:\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n28 Bondi Beach was first named by British settlers.\n29 Aboriginal culture in Australia differs from European culture.\n30 The Bondi Beach area contains many contemporary hotels.\n31 Bondi’s seaside architecture reflects British influence in its characteristic red colour.\n32 Living near the Bondi seashore is not beneficial for health."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 36,
+      "text": "Questions 33–36\nProvide answers to the questions below using NO MORE THAN TWO WORDS AND/OR A\nNUMBER from the passage for each answer.\nWrite your answers in boxes 33–36 on your answer sheet.\n33 At the end of the nineteenth century, which form of public transport did people use to reach\nBondi?\n34 When did British royalty first visit Bondi?\n35 Which Olympic event did Bondi host during the 2000 Sydney Olympic Games?\n36 What would have been damaged if the stadium had been built for that Olympic event?"
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nSummary\nComplete the following summary of Reading Passage 3, using NO MORE THAN TWO WORDS\nfrom Reading Passage 3 for each answer.\nWrite your answers in boxes 37–40 on your answer sheet.\nBondi Beach holds major sporting events every year and attracts many 37\n_________________ who choose to spend holidays there. Local accommodation cannot\nmeet the growing demand, so the nearby town of 38 _________________ was the first to\nprovide a solution. Nevertheless, people still prefer 39 _________________ as their\ndestination. Its seaside buildings are famous for their distinctive 40 _________________\nand the pleasant scent of the sea."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Bondi Beach was first named by British settlers.",
+      "translation": "Bondi Beach 最初是由 British settlers 命名的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Aboriginal culture in Australia differs from European culture.",
+      "translation": "澳洲 Aboriginal culture 和 European culture 不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "The Bondi Beach area contains many contemporary hotels.",
+      "translation": "Bondi Beach 一帶有很多現代／當代感的酒店。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Bondi’s seaside architecture reflects British influence in its characteristic red colour.",
+      "translation": "Bondi 的海邊建築反映英國影響，並以其特色紅色呈現出來。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Living near the Bondi seashore is not beneficial for health.",
+      "translation": "住在 Bondi 海邊對健康沒有好處。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "At the end of the nineteenth century, which form of public transport did people use to reach Bondi?",
+      "translation": "十九世紀末，人們用哪種公共交通到達 Bondi？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "When did British royalty first visit Bondi?",
+      "translation": "英國王室何時首次到訪 Bondi？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Which Olympic event did Bondi host during the 2000 Sydney Olympic Games?",
+      "translation": "Bondi 在 2000 Sydney Olympics 期間舉辦了哪項奧運項目？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "text",
+      "prompt": "What would have been damaged if the stadium had been built for that Olympic event?",
+      "translation": "如果為該奧運項目建造 stadium，甚麼會受到損害？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "Bondi Beach 每年舉辦大型體育活動，並吸引許多 ______ 選擇在那裡度假。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "本地住宿無法滿足增加的需求，所以附近的 ______ 鎮首先提供了解決方法。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "然而，人們仍然偏好 ______ 作為目的地。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "它的海邊建築因其獨特的 ______ 和宜人的海洋氣味而聞名。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-131/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-131/page-5.jpg"
+  ]
+}

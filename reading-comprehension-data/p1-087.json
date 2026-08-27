@@ -1,0 +1,281 @@
+{
+  "id": "p1-087",
+  "catalogueId": "p1-087",
+  "title": "The Spice of Life!",
+  "sourceHeading": "The Spice of Life!",
+  "passage": 1,
+  "practice": 87,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-087-the-spice-of-life",
+  "source": {
+    "filename": "Practice 87  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "cd5d3768becdb15bc03a363e12e4ee1402e03b593387f7564b656c2129fe90d6"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "When people think of the most popular restaurant dish in the UK, ‘chicken tikka masala’ does not spring readily to mind. But it is indeed the answer, often now referred to as a true ‘British national dish’. It may even have been invented by Indian immigrants in Scotland, who roasted chicken chunks (tikka), mixed them with spices and yoghurt, and served this in a bowl of masala sauce. The exact ingredients of the sauce vary from restaurant to restaurant, but the dish usually includes puréed tomatoes and cream, coloured orange by turmeric and paprika. British cuisine? Yes, spices have come a long way."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Spices are dried seeds, fruits, roots, bark, or vegetative parts of plants, added to food in small amounts to enhance flavour or colour. Herbs, in contrast, come only from leaves and are used only for flavouring. Looking at the sources of some common spices, mustard and black pepper are from seeds, cinnamon from bark, cloves from dried flower buds, ginger and turmeric from roots, while mace and saffron are from seed covers and stigma tips, respectively. In the face of such variety, it is becoming increasingly common for spices to be offered in pre-made combinations. Chilli powder is a blend of chilli peppers with other spices, often cumin, oregano, garlic powder, and salt. Mixed spice, which is often used in baking, is a British blend of sweet spices, with cinnamon being the dominant flavour. The ever-popular masala, as noted, could be anything, depending on the chef."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Although human communities were using spices tens of thousands of years ago, trade in these commodities only began about 2000 BC, in the Middle East. Early uses were less connected with cooking and more with such diverse functions as embalming, medicine, religion, and food preservation. Eventually, extensive overland trade routes, such as the Silk Road, were established, yet it was maritime advances into India and East Asia which led to the most dramatic growth in commercial activities. From then on, spices became a driving force of the world economy. Their high prices pitted nation against nation and provided a major impetus for exploration and conquest. It would be hard to underestimate the role spices have played in human history."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Originally, Muslim traders dominated these routes. Their spice-laden ships crossed the Indian Ocean to ports on the Red Sea and Persian Gulf, from where camel caravans transported the goods overland. Although European involvement was slow to develop, aggressive exploration and colonisation eventually enabled European nations to rule the Far East and, consequently, control the spice trade. At first, Portugal was the dominant power, but the British and Dutch eventually gained the upper hand, so that by the 19th century, the British controlled India, while the Dutch controlled the larger share of the East Indies (Indonesia). Cloves, nutmeg, and pepper were some of the most valuable spices of the time."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "But why were spices always in such demand? There are many answers. In the early days, they were thought to have strong medicinal properties by balancing the ‘humours’, bodily fluids once believed to influence health and emotion. At other times, they were thought to prevent maladies such as the plague; during outbreaks, the prices of recommended spices often soared. But most obviously, spices flavoured the bland meat-based European cuisines. Pepper, historically, has always been in highest demand for this reason, and even today, peppercorns (dried black pepper kernels) remain, by monetary value, the most widely traded spice in the world. However, because saffron is obtained from a tiny part of each flower, it has always been among the world’s most costly spices by weight, valued mostly for its vivid colour."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Predictably, the majority of the world’s spices are produced in India, although specific spices are often produced in greater amounts in other countries. Vietnam is the largest producer and exporter of pepper, meeting nearly one third of the world’s demand. Indonesia holds a clear lead in nutmeg production, Iran in saffron, and Sri Lanka in cinnamon. However, exporting such spices is not always straightforward. Most are dried whole or dried and ground into powder, both forms allowing bulk purchase, easier storage and shipping, and a longer shelf life. For example, the rhizomes (underground stems) of turmeric are boiled for several hours, then dried in ovens, after which they are ground into the yellow powder popular in South Asian and Middle Eastern cuisines."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "However, there are disadvantages in grinding spices. It increases their surface area manyfold, accelerating the rate of evaporation and oxidation of their flavour-bearing and aromatic compounds. In contrast, whole dried spices retain these for much longer. Thus, seed-based varieties (which can be packaged and stored well) are often purchased in this form. This allows grinding to be done at the moment of cooking or eating, maximising the flavour and effect, which is why pepper ‘grinders’, rather than ‘shakers’, grace the tables of better restaurants around the world."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nReading Passage One has seven paragraphs, A–G.\nChoose the correct heading for Paragraphs B–G from the list of headings.\n\n                                      List of Headings\n\n i                                    Uses of spice\n\n ii                                   Spices for cooking\n\n iii                                  Changing leaders\n\n iv                                   A strange choice\n\n v                                    Preserving flavours\n\n vi                                   Famous spice routes\n\n vii                                  The power of spice\n\n viii                                 Some spices\n\n ix                                   Medicinal spices\n\n x                                    Spice providers\n\n\nWrite the correct number, i–x, for each answer.\n Example                                                    Answer\n\n Paragraph A                                                iv\n1 ___________ Paragraph B\n2 ___________ Paragraph C\n3 ___________ Paragraph D\n4 ___________ Paragraph E\n5 ___________ Paragraph F\n6 ___________ Paragraph G"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 9,
+      "text": "Questions 7–9\nComplete the sentence.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nSaffron, from the small 7 _________________ of flowers, has a 8 _________________ and is\nmostly grown in 9 _________________."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nDo the following statements agree with the information given in Reading Passage One?\nWrite:\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n\n\n10 _________________ The ingredients of masala are fairly standardised.\n11 _________________ The demand for spices led to greater exploration.\n12 _________________ Vietnam consumes a lot of pepper.\n13 _________________ Seed-based spices can be easily stored."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "為 B 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "為 C 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "為 D 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "為 E 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph F",
+      "translation": "為 F 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph G",
+      "translation": "為 G 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "番紅花來自花朵細小的 ______，有 ______，並主要種植於 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "番紅花來自花朵細小的柱頭尖端，有 ______，並主要種植於 Iran。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "番紅花來自花朵細小的柱頭尖端，有鮮明色彩，並主要種植於 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ The ingredients of masala are fairly standardised.",
+      "translation": "masala 的成分相當標準化。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ The demand for spices led to greater exploration.",
+      "translation": "人們對香料的需求促成了更多探索。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Vietnam consumes a lot of pepper.",
+      "translation": "越南消耗大量胡椒。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Seed-based spices can be easily stored.",
+      "translation": "以種子為基礎的香料容易儲存。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-087/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-087/page-5.jpg"
+  ]
+}

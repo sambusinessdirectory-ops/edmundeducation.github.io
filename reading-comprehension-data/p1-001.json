@@ -1,0 +1,230 @@
+{
+  "id": "p1-001",
+  "catalogueId": "p1-001",
+  "title": "Italian Architect Palladio",
+  "sourceHeading": "Andrea Palladio: Italian architect A new exhibition celebrates Palladio’s architecture 500 years on",
+  "passage": 1,
+  "practice": 1,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-001-italian-architect-palladio",
+  "source": {
+    "filename": "Practice 1 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "bd0c6da88e907525a2f51c3758686fc1850c859a3e1d8dff42fb6c2180572066"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Vicenza is a pleasant, prosperous city in the Veneto, 60km west of Venice. Its grand families settled and farmed the area from the 16th century. But its principal claim to fame is Andrea Palladio, who is such an influential architect that a neoclassical style is known as Palladian. The city is a permanent exhibition of some of his finest buildings, and as he was born—in Padua, to be precise—500 years ago, the International Centre for the Study of Palladio’s Architecture has an excellent excuse for mounting la grande mostra, the big show."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The exhibition has the special advantage of being held in one of Palladio’s buildings, Palazzo Barbaran da Porto. Its bold facade is a mixture of rustication and decoration set between two rows of elegant columns. On the second floor the pediments are alternately curved or pointed, a Palladian trademark. The harmonious proportions of the atrium at the entrance lead through to a dramatic interior of fine fireplaces and painted ceilings. Palladio’s design is simple, clear and not over-crowded. The show has been organised on the same principles, according to Howard Burns, the architectural historian who co-curated it."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Palladio’s father was a miller who settled in Vicenza, where the young Andrea was apprenticed to a skilled stonemason. How did a humble miller’s son become a world renowned architect? The answer in the exhibition is that, as a young man, Palladio excelled at carving decorative stonework on columns, doorways and fireplaces. He was plainly intelligent, and lucky enough to come across a rich patron, Gian Giorgio Trissino, a landowner and scholar, who organised his education, taking him to Rome in the 1540s, where he studied the masterpieces of classical Roman and Greek architecture and the work of other influential architects of the time, such as Donato Bramante and Raphael."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Burns argues that social mobility was also important. Entrepreneurs, prosperous from agriculture in the Veneto, commissioned the promising local architect to design their country villas and their urban mansions. In Venice the aristocracy were anxious to co-opt talented artists, and Palladio was given the chance to design the buildings that have made him famous—the churches of San Giorgio Maggiore and the Redentore, both easy to admire because they can be seen from the city’s historical centre across a stretch of water."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "He tried his hand at bridges—his unbuilt version of the Rialto Bridge was decorated with the large pediment and columns of a temple—and, after a fire at the Ducal Palace, he offered an alternative design which bears an uncanny resemblance to the Banqueting House in Whitehall in London. Since it was designed by Inigo Jones, Palladio’s first foreign disciple, this is not as surprising as it sounds."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Jones, who visited Italy in 1614, bought a trunk full of the master’s architectural drawings; they passed through the hands of the Dukes of Burlington and Devonshire before settling at the Royal Institute of British Architects in 1894. Many are now on display at Palazzo Barbaran. What they show is how Palladio drew on the buildings of ancient Rome as models. The major theme of both his rural and urban building was temple architecture, with a strong pointed pediment supported by columns and approached by wide steps."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Palladio’s work for rich landowners alienates unreconstructed critics on the Italian left, but among the papers in the show are designs for cheap housing in Venice. In the wider world, Palladio’s reputation has been nurtured by a text he wrote and illustrated, “Quattro Libri dell’ Architettura”. His influence spread to St Petersburg and to Charlottesville in Virginia, where Thomas Jefferson commissioned a Palladian villa he called Monticello."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Vicenza’s show contains detailed models of the major buildings and is leavened by portraits of Palladio’s teachers and clients by Titian, Veronese and Tintoretto; the paintings of his Venetian buildings are all by Canaletto, no less. This is an uncompromising exhibition; many of the drawings are small and faint, and there are no sideshows for children, but the impact of harmonious lines and satisfying proportions is to impart in a viewer a feeling of benevolent calm. Palladio is history’s most therapeutic architect."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "“Palladio, 500 Anni: La Grande Mostra” is at Palazzo Barbaran da Porto, Vicenza, until January 6th 2009. The exhibition continues at the Royal Academy of Arts, London, from January 31st to April 13th, and travels afterwards to Barcelona and Madrid."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 1–7 on your answer sheet write:\n\n   ● True — if the statement agrees with the information\n   ● False — if the statement contradicts the information\n   ● NOT GIVEN — if there is no information on this\n\n\n\n   1. The building where the exhibition is staged has been newly renovated\n   2. Palazzo Barbaran da Porto typically represent the Palladio’s design\n   3. Palladio’s father worked as an architect.\n   4. Palladio’s family refused to pay for his architectural studies\n   5. Palladio’s alternative design for the Ducal Palace in Venice was based on an\n      English building.\n   6. Palladio designed for both wealthy and poor people\n   7. The exhibition includes paintings of people by famous artists"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n\n\n\n\n   8. What job was Palladio training for before he became an architect?\n\n\n\n   9. Who arranged Palladio’s architectural studies?\n\n\n\n   10.Who was the first non-Italian architect influenced by Palladio?\n\n\n\n   11.What type of Ancient Roman buildings most heavily influenced Palladio’s work?\n\n\n\n   12.What did Palladio write that strengthened his reputation?\n\n\n\n   13.In the writer’s opinion, what feeling will visitors to the exhibition experience?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The building where the exhibition is staged has been newly renovated",
+      "translation": "舉行展覽的建築最近經過翻新。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Palazzo Barbaran da Porto typically represent the Palladio’s design",
+      "translation": "Palazzo Barbaran da Porto 典型地體現 Palladio 的設計風格。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Palladio’s father worked as an architect.",
+      "translation": "Palladio 的父親是一名建築師。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Palladio’s family refused to pay for his architectural studies",
+      "translation": "Palladio 的家人拒絕支付他的建築學習費用。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Palladio’s alternative design for the Ducal Palace in Venice was based on an English building.",
+      "translation": "Palladio 為 Venice Ducal Palace 提出的替代設計，是以一座英國建築為基礎。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Palladio designed for both wealthy and poor people",
+      "translation": "Palladio 曾為富裕人士和貧困人士設計。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The exhibition includes paintings of people by famous artists",
+      "translation": "展覽包括由著名藝術家繪畫的人物畫。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "What job was Palladio training for before he became an architect?",
+      "translation": "Palladio 成為建築師之前，正在接受哪一種工作訓練？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Who arranged Palladio’s architectural studies? 10.Who was the first non-Italian architect influenced by Palladio? 11.What type of Ancient Roman buildings most heavily influenced Palladio’s work? 12.What did Palladio write that strengthened his reputation? 13.In the writer’s opinion, what feeling will visitors to the exhibition experience?",
+      "translation": "誰安排了 Palladio 的建築學習？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "第一位受 Palladio 影響的非意大利建築師是誰？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "哪一類 Ancient Roman buildings 對 Palladio 的作品影響最大？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "Palladio 寫了甚麼作品，令他的聲譽得到加強？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "按照作者看法，展覽參觀者會感受到甚麼情緒或感覺？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-001/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-001/page-7.jpg"
+  ]
+}

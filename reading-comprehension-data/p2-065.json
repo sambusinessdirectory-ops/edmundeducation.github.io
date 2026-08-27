@@ -1,0 +1,271 @@
+{
+  "id": "p2-065",
+  "catalogueId": "p2-065",
+  "title": "DRINKING FILTERED WATER",
+  "sourceHeading": "Drinking Filtered Water",
+  "passage": 2,
+  "practice": 65,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-065-drinking-filtered-water",
+  "source": {
+    "filename": "Practice 65 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "7e0a58e71f51bfba1647bfb62a0a177836499eecfd8b4d820f6a33180831c0bd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The body is made up mainly of water. This means that the quality of water that we drink every day has an important effect on our health. Filtered water is healthier than tap water and some bottled water. This is because it is free of contaminants, that is, of substances that make it dirty or harmful. Substances that settle on the bottom of a glass of tap water and microorganisms that cause disease (known as bacteria or germs) are examples of contaminants. Filtered water is also free of poisonous metals and chemicals that are common in tap water and even in some bottled water brands."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The authorities know that normal tap water is full of contaminants and they use chemicals, such as chlorine and bromine, in order to disinfect it. But such chemicals are hardly safe. Indeed, their use in water is associated with many different conditions and they are particularly dangerous for children and pregnant women. For example, long-term consumption of bromine may result in low blood pressure and may poison the brain, heart, kidneys and liver. Filtered water is typically free of such water-disinfectant chemicals."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Filtered water is also free of metals, such as mercury and lead. Mercury has ended up in our drinking water mainly because the dental amalgam waste produced by dentists has not been disposed of safely for a long time. Scientists believe there is a connection between mercury in the water and many allergies and cancers as well as disorders, such as ADD, OCD, autism and depression."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Lead, on the other hand, typically finds its way into our drinking water due to pipe leaks. Of course, modern pipes are not made of lead but pipes in old houses usually are. Lead is a well-known carcinogen and is associated with pregnancy problems and birth defects. This is another reason why children and pregnant women must drink filtered water."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The benefits of water are well known. We all know, for example, that it helps to detoxify the body. So, the purer the water we drink, the easier it is for the body to rid itself of toxins. The result of drinking filtered water is that the body does not have to devote as much energy to detoxification as it would when drinking unfiltered water. This means that drinking filtered water is good for our health in general. That is because the body can perform all of its functions much more easily and this results in improved metabolism, better weight management, improved joint lubrication as well as efficient skin hydration."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "There are many different ways to filter water and each type of filter targets different contaminants. For example, activated carbon water filters are very good at taking chlorine out. Ozone water filters, on the other hand, are particularly effective at removing germs."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "For this reason, it is very important to know exactly what is in the water that we drink so that we can decide what type of water filter to use. A Consumer Confidence Report (CCR) should be useful for this purpose. This is a report that is issued by public water suppliers every year, listing the contaminants present in the water. If you know what these contaminants are, then it is easier to decide which type of water filter to get."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nThe text has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, next to questions 14–20.\n14 ___________ a short summary of the main points of the text\n15 ___________ a variety of methods used for water filtration\n16 ___________ making it easier for the body to get rid of dangerous chemicals\n17 ___________ finding out which contaminants your water filter should target\n18 ___________ allergies caused by dangerous metals\n19 ___________ a dangerous metal found in the plumbing of old buildings\n20 ___________ chemicals used to clean water by destroying bacteria"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nDo the following statements agree with the information given in the text?\nFor questions 21–26, write:\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n21 _________________ The type of water you consume on a regular basis has a great impact\non your overall health and well-being.\n22 _________________ Filtered water typically contains water disinfectant chemicals.\n23 _________________ Exposure to disinfectant chemicals is linked with poisoning of the vital\norgans.\n24 _________________ Drinking tap water helps minimise your exposure to harmful elements.\n25 _________________ People who wear dentures are more likely to be exposed to\ncontaminants.\n26 _________________ People who are depressed often suffer from dehydration."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ a short summary of the main points of the text",
+      "translation": "文章主要重點的簡短總結。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ a variety of methods used for water filtration",
+      "translation": "多種用來過濾水的方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ making it easier for the body to get rid of dangerous chemicals",
+      "translation": "令身體更容易排走危險化學物或毒素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ finding out which contaminants your water filter should target",
+      "translation": "找出你的 water filter 應該針對哪些 contaminants。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ allergies caused by dangerous metals",
+      "translation": "由危險金屬引起或相關的 allergies。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ a dangerous metal found in the plumbing of old buildings",
+      "translation": "在舊建築物水管中找到的危險金屬。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ chemicals used to clean water by destroying bacteria",
+      "translation": "用來透過殺菌清潔水的化學物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ The type of water you consume on a regular basis has a great impact on your overall health and well-being.",
+      "translation": "你日常飲用的水類型，對整體健康和身心狀態有重大影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Filtered water typically contains water disinfectant chemicals.",
+      "translation": "Filtered water 通常含有 water disinfectant chemicals。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Exposure to disinfectant chemicals is linked with poisoning of the vital organs.",
+      "translation": "接觸或攝入消毒化學物，和重要器官中毒有關。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Drinking tap water helps minimise your exposure to harmful elements.",
+      "translation": "飲用 tap water 有助減少你接觸 harmful elements。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ People who wear dentures are more likely to be exposed to contaminants.",
+      "translation": "戴 dentures 的人較容易接觸 contaminants。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ People who are depressed often suffer from dehydration.",
+      "translation": "患 depression 的人經常有 dehydration。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-065/page-4.jpg"
+  ]
+}

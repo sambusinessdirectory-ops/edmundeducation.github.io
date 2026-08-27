@@ -1,0 +1,307 @@
+{
+  "id": "p2-159",
+  "catalogueId": "p2-159",
+  "title": "Development of Public management theory",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 159,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-159-development-of-public-management-theory",
+  "source": {
+    "filename": "Practice 159 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "05f7cc967a0483e0e80564dde460132d71a4032b325028743afccc1f83652065"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Development of Public Management Theory Bureaucratic Management: The Classical Model A Several theories bridge the gap between private- and public-sector management. One good example is the work of the German sociologist and political economist Max Weber (1864–1920), who explored the ideal bureaucracy in The Protestant Ethic and the Spirit of Capitalism. According to Weber, bureaucracy is the most efficient form of organisation. It has a well-defined line of authority and clear rules and regulations that are strictly followed. Weber identified three types of power in an organisation: traditional power, charismatic power, and bureaucratic or legal power."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Characteristics of Bureaucratic Organisations B Weber admired bureaucracy for its trustworthiness. It was constituted by a group of professional, ethical public officials who dedicated themselves to public service in return for job security and the other advantages of public employment. There is a high degree of division of labour and specialisation, together with a defined hierarchy of authority. Well-defined rules and regulations follow the principles of rationality, objectivity and consistency. They cover all employees’ duties and rights and must be strictly followed. Relations among members of the organisation are impersonal and are based on positions rather than personalities."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "C A bureaucratic organisation is very rigid and places too much emphasis on inflexible rules and regulations. It gives little importance to human relations or to informal groups, which now play an important role in business organisations. It also gives too much weight to employees’ technical qualifications in promotion and transfer decisions, while their dedication and commitment are not considered. Bureaucracy is suitable for government organisations and other static organisations in which change is very slow. Formalities and rules can cause unnecessary delays in decision-making, and coordination and communication can be difficult."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "D Herbert Simon, Chester Barnard and Charles Lindblom were among the first scholars recognised as early American public administrators. They ushered in an era in which the field gained recognition as independent and unique despite its multidisciplinary nature. Simon distinguished management decisions based on facts from those based on values. Because responsible decisions about public resources cannot be based solely on personal values, administrators must attempt to rely on objectively determined facts. Simon also argued that a strictly ‘economic man’—one who maximises returns or values by making decisions with complete information and unlimited time—is unrealistic. Instead, most public administrators use enough information to make a satisfactory decision: they ‘satisfy’."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "E Simon believed that decision-makers face uncertainty about the future and costs in acquiring information in the present. These factors limit their ability to make fully rational decisions; they possess only ‘bounded rationality’ and must be satisfied by choosing an option that may not be optimal but is satisfactory. In economics, rational behaviour means that individuals maximise their utility under the constraints they face—such as budget constraints and limited choices—in pursuit of their self-interest."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "F Chester Barnard was another watershed scholar. In The Economy of Incentives (1938), he attempted to explain individual participation in an organisation. Barnard described organisations as systems of exchange. Lower-level employees must receive enough incentive to remain with the organisation, to which they give their labour and loyalty. The organisation and its higher-level employees must also derive sufficient benefit from employees to retain them. An organisation’s net attraction is determined by material rewards, working conditions and intangibles such as recognition. Barnard attached greater importance to persuasion than to economic incentives. He described general and specific incentives including money and other material inducements, personal non-material opportunities for distinction, desirable physical working conditions, and ideal benefactions such as pride in workmanship."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "A New Humanist Era: Rethinking Power and Management G Humanists embrace a dynamic view of employees and management techniques. This requires a theoretical shift away from treating an employee as a cog in an industrial machine. Employees are instead unique individuals with their own goals, needs and desires."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "H The humanist era brought new interpretations of power and management. One of the most significant was Douglas McGregor’s ‘Theory X and Theory Y’. McGregor’s work provided a framework on which both classical and newer management approaches could be placed. Theory X, commonly held by early management theorists, begins with the assumption that people have an inherent aversion to work. Employees must therefore be coerced and controlled if management expects results. Furthermore, supposedly lazy people prefer close direction, even micromanagement, whenever possible."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "I Theory Y is much more compatible with the humanist tradition. It begins with the assumption that work is as natural for people as rest or play. Employees will direct and control themselves as they pursue objectives. People learn naturally and seek responsibility. Managers therefore need only guide employees cooperatively towards goals that serve the organisation, leaving room for many people to create and share power."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "J The Z organisation can be regarded as a complementary third element to McGregor’s dichotomy. Theory Z is based on a Japanese organisational model. Like Theory Y, it places considerable responsibility on employees. Relatively low-level employees are free to be creative, to ‘wander around the organisation’ and to become genuinely distinctive, company-specific employees. However, they achieve this only after agreeing on a central set of objectives and ways of doing business. Decision-making in Z organisations is democratic and participatory. Despite its advantages, the model has several drawbacks. Professional distance is reduced because relationships cannot remain impersonal. In reality, many workers value the financial return more than the objectives of the job, and a high level of self-discipline is necessary."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–16",
+    "g17": "Questions 17–18",
+    "g19": "Questions 19–20",
+    "g21": "Questions 21–22",
+    "g23": "Questions 23–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 16,
+      "text": "Questions 15–16\nChoose TWO letters, A–E.\nWhat are the features and advantages of bureaucratic management?\n A There are equal opportunities because there is little hierarchy of authority among\n   companies.\n B Employees’ promotion can be fairer because it is based on job duties rather than personal\n   characteristics.\n C Employees enjoy greater freedom in their duties than under strict rules.\n D Selection and promotion are based on mastery of new technology.\n E Employees can dedicate themselves to public service in return for long-term job stability.\n\n\n\n15 __________\n16 __________"
+    },
+    {
+      "id": "g17",
+      "start": 17,
+      "end": 18,
+      "text": "Questions 17–18\nChoose TWO letters, A–E.\nWhat are the limitations of bureaucratic management?\n A Employee commitment is not given enough consideration.\n B Decision-making is made difficult by formalities and rules.\n C Employees are organised casually because formal groups are not considered important.\n D Rules and regulations are difficult to enforce.\n E It is not applicable to dynamic organisations where change is rapid.\n\n\n\n17 __________\n18 __________"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 20,
+      "text": "Questions 19–20\nChoose TWO letters, A–E.\nWhich statements reflect the aims of management under Douglas McGregor’s Theory Y?\n A Employees must be coerced and controlled if management expects results.\n B For employees, work is as natural as rest or play.\n C Humans will not automatically seek responsibility.\n D Managers may guide employees cooperatively towards objectives.\n E Managers have little scope to delegate or share power.\n\n\n\n19 __________\n20 __________"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 22,
+      "text": "Questions 21–22\nChoose TWO letters, A–E.\nWhat are the limitations of Theory Z?\n A Decision-making is democratic and participatory.\n B The organisational model has an inherent design flaw.\n C Not all employees value the work more highly than their wages.\n D Personalisation remains impossible to eliminate in organisations.\n E Self-discipline is unnecessary.\n\n\n\n21 __________\n22 __________"
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 27,
+      "text": "Questions 23–27\nUse the information in the passage to match the people, A–E, with the opinions or actions\nbelow.\nWrite the appropriate letter, A–E, for Questions 23–27.\nNB Some people may match more than one statement.\n A                                    Max Weber\n\n B                                    Douglas McGregor\n\n C                                    Herbert Simon\n\n D                                    Chester Barnard\n\n E                                    Charles Lindblom\n\n\n\n\n23 __________ Professional, ethical public officials dedicate themselves to public service in\nreturn for job security.\n24 __________ High effectiveness can be achieved only after agreeing on a core set of\nobjectives and ways of doing business.\n25 __________ Managers need to consider employees’ emotional needs, in addition to material\nrewards, in the incentive system.\n26 __________ Individuals can maximise their self-interest when all budgetary resources and\nchoices are used effectively.\n27 __________ The belief that humans naturally dislike work and must therefore be forced and\ncontrolled."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ Professional, ethical public officials dedicate themselves to public service in return for job security.",
+      "translation": "專業而具倫理操守的公職人員，為了工作保障而投身公共服務。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ High effectiveness can be achieved only after agreeing on a core set of objectives and ways of doing business.",
+      "translation": "只有先同意一套核心目標和做事方式，才可以達到高度成效。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ Managers need to consider employees’ emotional needs, in addition to material rewards, in the incentive system.",
+      "translation": "在誘因制度中，管理者除了物質回報，也要考慮員工的情感或非物質需要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ Individuals can maximise their self-interest when all budgetary resources and choices are used effectively.",
+      "translation": "個人在有效運用預算資源和選擇限制時，可以最大化自身利益。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ The belief that humans naturally dislike work and must therefore be forced and controlled.",
+      "translation": "認為人天生不喜歡工作，因此必須被強迫和控制。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-159/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-159/page-6.jpg",
+    "/assets/reading-comprehension/questions/p2-159/page-7.jpg"
+  ]
+}

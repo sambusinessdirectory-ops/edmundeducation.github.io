@@ -1,0 +1,263 @@
+{
+  "id": "p1-077",
+  "catalogueId": "p1-077",
+  "title": "Lake Vostok",
+  "sourceHeading": "Lake Vostok",
+  "passage": 1,
+  "practice": 77,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-077-lake-vostok",
+  "source": {
+    "filename": "Practice 77  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "6811d388a1e16b7144432ff5045663b6c3abe70311881bb18dac39100daedf91"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Beneath the white blanket of Antarctica lies half a continent of virtually uncharted territory – an area so completely hidden that scientists have little clue what riches await discovery. Recently, Russian and British glaciologists identified an immense lake – one of Earth’s largest and deepest – buried beneath 4,000 metres of ice immediately below Russia’s Vostok Station."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "As details have emerged, a growing number of scientists are showing interest, with dozens of investigators keen to explore the feature, known as Lake Vostok. A thick layer of sediment at the bottom of the lake could hold novel clues to the planet’s climate going back tens of millions of years. By looking at the ratio of different oxygen isotopes, scientists should be able to trace how Earth’s temperature changed over the millennia. NASA has expressed interest in Lake Vostok because of its similarity to Europa. This moon of Jupiter appears to have an ocean of water covered by a thick ice sheet, measuring perhaps tens of kilometres in depth. If hydrothermal vents exist beneath the ice, chemical reactions on Europa could have created the molecular building blocks for life, if not life itself. Vostok would be an ideal testing ground for technology for future missions to Europa or even more distant places, many scientists say. Although cheaper than a mission to Europa, any expedition to Vostok would represent a significant investment."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Vostok Station holds the uncomfortable distinction of having recorded the coldest temperature on Earth. The record was set in July 1983, and the average temperature hovers around −55°C. It’s the thick ice, strangely, that enables a lake to survive in such a frozen environment. The four kilometres of ice act effectively as an insulating blanket protecting the bedrock underneath the ice from the cold temperatures above. Geothermal heat coming from the planet’s interior keeps the lake from freezing and warms the lowest layers of ice. The tremendous weight of the ice sheet also plays a role in maintaining the lake. Beneath four kilometres of glacier, the pressure is intense enough to melt ice at a temperature of −4°C. These factors have helped lakes develop across much of the thickly blanketed East Antarctica. More than 70 hidden lakes have been detected in the small portion of the continent surveyed to date. Lake Vostok is the largest of these, stretching 280 km from south to north and about 60 km from east to west. At Vostok Station, which sits at the southern end of the lake, the water depth appears to be 500 m according to seismic experiments carried out by Russian researchers."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The first clues to Lake Vostok’s existence came in the 1970s, when British, US, and Danish researchers collected radar observations by flying over this region. The radar penetrates the ice and bounces off whatever sits below. When researchers found a surface as flat as a mirror, they surmised that a lake must exist underneath the ice. An airborne survey of the lake is being undertaken as the first step towards eventually drilling into the water. Along with the potential rewards come a host of challenges. Researchers must find a way to penetrate the icy covering without introducing any microorganisms or pollutants into the sealed-off water."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "What about life in the depths? If tiny microbes do populate the lake, they may be some of the hungriest organisms ever discovered. Lake Vostok has the potential to be one of the most energy-limited, or oligotrophic, environments on the planet. For the lake’s residents, the only nutrients would come from below. Russian investigators have speculated that the lake floor may have hot springs spewing out hydrothermal fluids stocked with reduced metals and other sorts of chemical nutrients. Scant geological evidence available for this region, however, indicates that the crust is old and dead. Without a stream of nutrients seeping up from the deep Earth, the only potential source of energy lies above the lake. The ice sheet above the water is creeping from west to east at a rate of roughly four metres per year. The lowermost layers of ice melt when they come in contact with the lake, liberating trapped gases and bits of crushed-up rock. If the glacier recently passed over rock before reaching the lake, it could be supplying organic compounds useful to microorganisms. It could also be seeding the lake with a continuous source of new residents. Bacteria, yeasts, fungi, algae and even pollen grains have been found in the Vostok ice core samples taken down to depths of 2,750 m – three-quarters of the way to the bottom. At least some of these organisms are alive and capable of growing, according to recent reports. The results of this analysis may indirectly indicate whether anything survives in the lightless body of water."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–6",
+    "g7": "Questions 7–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe passage has five sections A–E.\nChoose the most suitable heading for sections B–E from the list of headings below.\nWrite the appropriate numbers (i–viii).\nThere are more headings than sections so you will not use all of them.\n\n                                 List of Headings\n\n i                               Cost of exploration\n\n ii                              Location and description of the lake\n\n iii                             Potential for living organisms in the lake\n\n iv                              Challenges of exploration\n\n v                               Discovery of the lake\n\n vi                              Possible sources of nutrients to support life\n\n vii                             Types of organisms in the lake\n\n viii                            Scientific interest in Lake Vostok\nExample:\nSection A v\n1 __________ Section B\n2 __________ Section C\n3 __________ Section D\n4 __________ Section E"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 6,
+      "text": "Questions 5–6\nChoose the correct letter A–D.\n5 Which is NOT given as a reason for interest in exploring Lake Vostok?\n     A to test technology for space exploration\n     B to develop anti-pollution devices\n     C to investigate the history of Earth’s climate\n     D to look for living organisms\n6 Lake Vostok does not freeze because …\n     A a thick ice cover provides insulation.\n     B it is warmed by heat from the earth’s surface.\n     C low pressure prevents freezing.\n     D an underwater volcano erupted recently."
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 13,
+      "text": "Questions 7–13\nDo the following statements reflect the claims of the author?\nWrite:\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n7 _________________ Only one lake has been found beneath Antarctica.\n8 _________________ Lake Vostok was detected by radar.\n9 _________________ Exploration of Lake Vostok is coordinated by Russia.\n10 _________________ Nutrients to support life have been found in the Antarctic ice.\n11 _________________ The ice above the lake is moving to the east.\n12 _________________ Scientists have drilled through the ice into the water of Lake Vostok.\n13 _________________ The water in the lake is approximately 500 m deep at the southern end."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ Section B",
+      "translation": "為 B 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ Section C",
+      "translation": "為 C 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ Section D",
+      "translation": "為 D 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ Section E",
+      "translation": "為 E 段選出最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Which is NOT given as a reason for interest in exploring Lake Vostok?",
+      "translation": "以下哪一項並沒有被文章列為探索 Lake Vostok 的興趣原因？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Lake Vostok does not freeze because …",
+      "translation": "Lake Vostok 沒有結冰，原因是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Only one lake has been found beneath Antarctica.",
+      "translation": "南極洲冰下只發現了一個湖泊。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Lake Vostok was detected by radar.",
+      "translation": "Lake Vostok 是透過雷達偵測到的。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Exploration of Lake Vostok is coordinated by Russia.",
+      "translation": "Lake Vostok 的探索由俄羅斯協調。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Nutrients to support life have been found in the Antarctic ice.",
+      "translation": "支持生命所需的營養物已在南極冰層中被發現。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ The ice above the lake is moving to the east.",
+      "translation": "湖上方的冰正在向東移動。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Scientists have drilled through the ice into the water of Lake Vostok.",
+      "translation": "科學家已經鑽穿冰層，進入 Lake Vostok 的湖水。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ The water in the lake is approximately 500 m deep at the southern end.",
+      "translation": "湖的南端水深約 500 米。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-077/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-077/page-5.jpg"
+  ]
+}

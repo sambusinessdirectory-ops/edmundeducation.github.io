@@ -1,0 +1,261 @@
+{
+  "id": "p3-153",
+  "catalogueId": "p3-153",
+  "title": "Inspired by Mimicking Mother Nature",
+  "sourceHeading": "Inspired by Mimicking Mother Nature",
+  "passage": 3,
+  "practice": 153,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-153-inspired-by-mimicking-mother-nature",
+  "source": {
+    "filename": "Practice 153 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "e203c689cd212f548d614f0dde28c76c0b6cb2dfdb407d8cc09e3e38ab2c76bf"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Researchers and designers around the globe endeavor to create new technologies that, by honoring the tenets of life, are both highly efficient and often environmentally friendly. And while biomimicry is not a new concept (Leonardo da Vinci looked to nature to design his flying machines, for example, and pharmaceutical companies have long been mimicking plant compounds in synthetic drugs), there is a greater need for products and manufacturing processes that use a minimum of energy, materials, and toxins. What’s more, due to technological advancements and a newfound spirit of innovation among designers, there are now myriad ways to mimic Mother Nature’s best assets."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "“We have a perfect storm happening right now,” says Jay Harman, an inventor and CEO of PAX Scientific, which designs fans, mixers, and pumps to achieve maximum efficiency by imitating the natural flow of fluids. “Shapes in nature are extremely simple once you understand them, but to understand what geometries are at play, and to adapt them, is a very complex process. Only recently have we had the computer power and manufacturing capability to produce these types of shapes.” “If we could capture nature’s efficiencies across the board, we could decrease dependency on fuel by at least 50 percent,” Harman says. “What we’re finding already with the tools and methodology we have right now is that we can reduce energy consumption by between 30 and 40 percent.”"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "It’s only recently that mainstream companies have begun to equate biomimicry with the bottom line. DaimlerChrysler, for example, introduced a prototype car modeled on a coral reef fish. Despite its boxy, cube-shaped body, which defies a long-held aerodynamic standard in automotive design (the raindrop shape), the streamlined boxfish proved to be aerodynamically ideal, while the unique construction of its skin—numerous hexagonal, bony plates—provided a perfect model for designing a car of maximum strength with minimal weight."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Companies and communities are flocking to Janine Benyus, author of the landmark book Biomimicry: Innovation Inspired by Nature (Perennial, 2002) and cofounder of the Biomimicry Guild, which seats biologists at the table with researchers and designers at companies such as Nike, Interface carpets, Novell, and Procter & Gamble. Their objective is to marry industrial problems with natural solutions."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Benyus, who hopes companies will ultimately transcend mere product design to embrace nature on a more holistic level, breaks biomimicry into three tiers. On a basic (albeit complicated) level, industry will mimic nature’s precise and efficient shapes, structures, and geometries. The microstructure of the lotus leaf, for example, causes raindrops to bead and run off immediately, thereby cleaning and drying its surface—a discovery that the British paint company Sto has exploited in a line of building paints. The layered structure of a butterfly wing or a peacock plume, which creates iridescent color by refracting light, is being mimicked by cosmetics giant L’Oréal in a soon-to-be-released line of eye shadow, lipstick, and nail varnish."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The next level of biomimicry involves imitating natural processes and biochemical “recipes”: Engineers and scientists are now looking at the nasal glands of seabirds to solve the problem of desalination; the abalone’s ability to self-assemble its incredibly durable shell in water, using local ingredients, has inspired an alternative to the conventional, and often toxic, “heat, beat, and treat” manufacturing method. How other organisms deal with harmful bacteria can also be instructive: Researchers for the Australian company Biosignal, for instance, observed a seaweed that lives in an environment teeming with microbes to figure out how it kept free of the same sorts of bacterial colonies, called biofilms, that cause plaque on your teeth and clog up your bathroom drain. They determined that the seaweed uses natural chemicals, called furanones, that jam the cell-to-cell signaling systems that allow bacteria to communicate and gather."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Ultimately, the most sophisticated application of biomimicry, according to Benyus, is when a company starts seeing itself as an organism in an economic ecosystem that must make thrifty use of limited resources and creates symbiotic relationships with other organisms. A boardroom approach at this level begins by imagining any given company, or collection of industries, as a forest, prairie, or coral reef, with its own “food web” (manufacturing inputs and outputs) and asking whether waste products from one manufacturing process can be used, or perhaps sold, as an ingredient for another industrial activity. For instance, Geoffrey Coates, a chemist at Cornell, has developed a biodegradable plastic synthesized from carbon dioxide and limonene (a major component in the oil extracted from citrus rind) and is working with a cement factory to trap the factory’s waste CO₂ and use it as an ingredient."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Zero Emissions Research and Initiatives (ZERI), a global network of scientists, entrepreneurs, and educators, has initiated eco-industrial projects that attempt to find ways to reuse all waste as raw materials for other processes. Storm Brewing in Newfoundland, Canada—in one of a growing number of projects around the world applying ZERI principles—is using spent grains, a by-product of the beer-making process, to make bread and grow mushrooms. As industries continue to adopt nature’s models, entire manufacturing processes could operate locally, with local ingredients like the factories that use liquefied beach sand to make windshields. As more scientists and engineers begin to embrace biomimicry, natural organisms will come to be regarded as mentors, their processes deemed masterful."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nMatch each description with the correct level of biomimicry, A–C. Write the appropriate letter in\nboxes 27–32 on your answer sheet.\n                           First level: mimicking nature’s precise and efficient shapes, structures and\n A\n                           geometries\n\n B                         Second level: imitating natural processes and biochemical ‘recipes’\n\n C                         Third level: creating symbiotic relationships with other organisms\n27 __________ A synthesised plastic developed with a cement factory can recycle a waste gas.\n28 __________ Cosmetics companies produce a range of iridescent cosmetics.\n29 __________ Researchers have taken inspiration from nature to remove excess salt from\nwater.\n30 __________ DaimlerChrysler introduced a car modelled on a fish.\n31 __________ A manufacturing company becomes part of an economic ecosystem.\n32 __________ Natural chemicals found in seaweed can prevent bacterial growth."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 40,
+      "text": "Questions 33–40\nDo the following statements agree with the information given in the Reading Passage? In boxes\n33–40 on your answer sheet, write\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n33 __________ Biomimicry is a completely new concept that has emerged only recently.\n34 __________ Leonardo da Vinci was the first designer to mimic nature.\n35 __________ Scientists believe that biomimicry involves more than simply copying shapes\nfrom nature.\n36 __________ Current findings can reduce energy consumption by up to 40%.\n37 __________ DaimlerChrysler’s prototype car modelled on a coral reef fish is a best-seller.\n38 __________ Some major companies and communities are seeking solutions beyond their\nown industries.\n39 __________ The British paint company Sto did not apply the microstructure of the lotus leaf\nto its products.\n40 __________ A Canadian brewery increased production by applying ZERI principles."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ A synthesised plastic developed with a cement factory can recycle a waste gas.",
+      "translation": "一種與水泥廠合作開發的合成塑膠，可以回收廢氣。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Cosmetics companies produce a range of iridescent cosmetics.",
+      "translation": "化妝品公司生產一系列帶有虹彩效果的化妝品。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Researchers have taken inspiration from nature to remove excess salt from water.",
+      "translation": "研究人員從自然取得靈感，以去除水中多餘鹽分。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ DaimlerChrysler introduced a car modelled on a fish.",
+      "translation": "DaimlerChrysler 推出一款以魚為模型的汽車。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ A manufacturing company becomes part of an economic ecosystem.",
+      "translation": "一間製造公司成為經濟生態系統的一部分。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Natural chemicals found in seaweed can prevent bacterial growth.",
+      "translation": "海藻中的天然化學物質可以防止細菌生長。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Biomimicry is a completely new concept that has emerged only recently.",
+      "translation": "Biomimicry 是一個完全新的概念，只是最近才出現。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Leonardo da Vinci was the first designer to mimic nature.",
+      "translation": "Leonardo da Vinci 是第一位模仿自然的設計師。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Scientists believe that biomimicry involves more than simply copying shapes from nature.",
+      "translation": "科學家認為 biomimicry 涉及的不只是模仿自然形狀。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Current findings can reduce energy consumption by up to 40%.",
+      "translation": "目前的發現可以把能源消耗最多降低 40%。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ DaimlerChrysler’s prototype car modelled on a coral reef fish is a best-seller.",
+      "translation": "DaimlerChrysler 以珊瑚礁魚為模型的 prototype car 是暢銷產品。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Some major companies and communities are seeking solutions beyond their own industries.",
+      "translation": "一些大型公司和社群正在尋找超出自身行業範圍的解決方案。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ The British paint company Sto did not apply the microstructure of the lotus leaf to its products.",
+      "translation": "英國油漆公司 Sto 沒有把蓮葉微結構應用到產品中。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ A Canadian brewery increased production by applying ZERI principles.",
+      "translation": "一間加拿大啤酒廠透過應用 ZERI 原則增加了產量。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-153/page-5.jpg"
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "id": "p1-128",
+  "catalogueId": "p1-128",
+  "title": "Satellite Technology",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 128,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-128-satellite-technology",
+  "source": {
+    "filename": "Practice 128 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "3528977c828635fb10f624c93695df3d7c4f92f7e4e643cff51884b9835f6d29"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Satellite Technology The space-age began with the launch of the Russian artificial satellite Sputnik in 1957 and developed further with the race to the moon between the United States and Russia. This rivalry was characterised by advanced technology and huge budgets. In this process, there were spectacular successes, some failures, but also many spin-offs. Europe, Japan, China, and India quickly joined this space club of the superpowers. With the advent of relatively low-cost high-performance mini-satellites and launchers, the acquisition of indigenous space capabilities by smaller nations in Asia has become possible. How, in what manner, and for what purpose will these capabilities be realised?"
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "A Rocket technology has progressed considerably since the days of ‘fire arrows’ (bamboo poles filled with gunpowder) first used in China around 500 BC and later, during the Sung Dynasty, used to repel Mongol invaders at the battle of Kaifeng (Kai-fung fu) in AD 1232. These ancient rockets stand in stark contrast to the present-day Chinese rocket launch vehicles, called the ‘Long March’, intended to place a Chinese astronaut in space by 2005 and, perhaps, to achieve a Chinese moon landing by the end of the decade."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "B In the last decade, there has been a dramatic growth in space activities in Asia both in the utilisation of space-based services and the production of satellites and launchers. This rapid expansion has led many commentators and analysts to predict that Asia will become a world space power. The space-age has had dramatic effects worldwide with direct developments in space technology influencing telecommunications, meteorological forecasting, Earth-resource and environmental monitoring, and disaster mitigation (floods, forest fires, and oil spills). Asian nations have been particularly eager to embrace these developments."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "C New and innovative uses for satellites are constantly being explored with potential revolutionary effects, such as in the field of health and telemedicine, distance education, crime prevention (piracy on the high seas), food and agricultural planning and production (rice crop monitoring). Space in Asia is very much influenced by the competitive commercial space sector, the emergence of low-cost mini-satellites, and the globalisation of industrial and financial markets. It is not evident how Asian space will develop in the coming decades in the face of these trends. It is, however, important to understand and assess the factors and forces that shape Asian space activities and development, and to determine their possible consequences for the region."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "D At present, three Asian nations, Japan, China, and India, have comprehensive end-to-end space capabilities and possess a complete space infrastructure: space technology, satellite manufacturing, rockets, and spaceports. Already self-sufficient in terms of satellite design and manufacturing, South Korea is currently attempting to join their ranks with its plans to develop a launch site and spaceport. Additionally, nations in Southeast Asia as well as those bordering the Indian subcontinent (Nepal, Pakistan, and Bangladesh) have, or are starting to develop indigenous space programmes. The Association of Southeast Asian Nations (ASEAN) has, to varying degrees, embraced space applications using foreign technology and over the past five years or so its space activities have been expanding. Southeast Asia is predicted to become the largest and fastest-growing market for commercial space products and applications, driven by telecommunications (mobile and fixed services), the Internet, and remote sensing applications. In the development of this technology, many non-technological factors, such as economics, politics, culture, and history, interact and play important roles, which in turn affect Asian technology."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "E Asia, particularly Southeast Asia, suffers from a long list of recurrent large-scale environmental problems including storms and flooding, forest fires and deforestation, and crop failures. Thus the space application that has attracted the most attention in this region is remote sensing. Remote sensing satellites equipped with instruments to take photographs of the ground at different wavelengths provide essential information for natural resource accounting, environmental management, disaster prevention and monitoring, land-use mapping, and sustainable development planning. Progress in these applications has been rapid and impressive. ASEAN members, unlike Japan, China, and India, do not have their own remote sensing satellites; however, most of its member nations have facilities to receive, process, and interpret such data from American and European satellites. In particular, Thailand, Malaysia, and Singapore have world-class remote sensing processing facilities and research programmes. ASEAN has plans to develop (and launch) its own satellites and, in particular, remote-sensing satellites. Japan is regarded as the dominant space power in Asia and its record of success and technological quality match those of the West. In view of the technological challenges and high risks involved in space activities, a very long and expensive learning curve has been followed to achieve that success. Japan’s satellite manufacturing was based on the old and traditional defence and military procurement methodologies as practised in the US and Europe."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "F In recent years there have been fundamental changes in the way satellites are designed and built to drastically reduce costs. The emergence of ‘small satellites’ and their quick adoption by Asian countries as a way to develop low-cost satellite technology and rapidly establish a space capability has given these countries the possibility of shortening their learning curve by a decade or more. The global increase in technology-transfer mechanisms and the use of readily available commercial technology to replace costly space and military-standard components may very well result in a highly competitive Asian satellite manufacturing industry."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "G The laws of physics are the same in Tokyo as in Toulouse, and the principles of electronics and mechanics know no political or cultural boundaries. However, no such immutability applies to engineering practices and management; they are very much influenced by education, culture, and history. These factors, in turn, have an effect on costs, lead times, product designs and, eventually, international sales. Many Asian nations are sending their engineers to be trained in the West. After training, these engineers return to work in the growing Asian space industry. Will this acquisition of technical expertise, coupled perhaps with the world-renowned Japanese manufacturing and management techniques, be applied to build world-class satellites and reduce costs?"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nThe reading passage has seven paragraphs, A–G.\nChoose the correct heading for paragraphs A–F from the list below.\nWrite the correct number, i–ix, in boxes 1–5 on your answer sheet.\n\n                            List of Headings\n\n i                          Essential assistance from Western countries\n\n ii                         Uneven development of an essential space technology\n\n iii                        Innovative applications driven by competition\n\n iv                         An ancient invention connected with the future\n\n v                          Military uses of satellites\n\n vi                         Rockets used in ancient China\n\n vii                        Past space development in Asia\n\n viii                       Non-technological factors count\n\n ix                         A competitive edge gained through more affordable satellites\n\n\n1 Paragraph A\n2 Paragraph B\n3 Paragraph C\nExample Paragraph D—Current development of space technology in Asia\n4 Paragraph E\n5 Paragraph F"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nMatch each question with the correct reason, A–F.\nWrite the correct letter, A–F, in boxes 6–9 on your answer sheet.\n A                           Because it assists with crop management.\n\n B                           Because some areas are inaccessible.\n\n C                           Because the region’s economic level is low.\n\n D                           Because other social factors exert an influence.\n\n E                           Because it can be used for non-peaceful purposes.\n\n F                           Because disasters such as bushfires occur in Southeast Asia.\n\n\n6 Why is remote-sensing technology used to address environmental problems?\n7 Why is satellite technology used in medicine?\n8 Why is the development of satellite technology limited in some Asian countries?\n9 Why is satellite technology used in agriculture?"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nDo the following statements agree with the information given in the reading passage?\nIn boxes 10–13 on your answer sheet, write\n\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n\n\n10 Ancient China used rockets for military purposes as early as around 500 BC.\n11 Space technology has improved literacy in Asia.\n12 Satellite photographs taken at different wavelengths help with natural-disaster prevention and\nmonitoring.\n13 Commercial competition is a driving force in the development of Asian technology."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph C Example Paragraph D—Current development of space technology in Asia",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Why is remote-sensing technology used to address environmental problems?",
+      "translation": "為甚麼遙感技術被用來處理環境問題？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Why is satellite technology used in medicine?",
+      "translation": "為甚麼衛星科技會用於醫療？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Why is the development of satellite technology limited in some Asian countries?",
+      "translation": "為甚麼一些亞洲國家的衛星科技發展受到限制？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Why is satellite technology used in agriculture?",
+      "translation": "為甚麼衛星科技會用於農業？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Ancient China used rockets for military purposes as early as around 500 BC.",
+      "translation": "古代中國早在約公元前 500 年已經把火箭用於軍事目的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Space technology has improved literacy in Asia.",
+      "translation": "太空科技提升了亞洲的識字率。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Satellite photographs taken at different wavelengths help with natural-disaster prevention and monitoring.",
+      "translation": "以不同波長拍攝的衛星照片有助自然災害預防和監測。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Commercial competition is a driving force in the development of Asian technology.",
+      "translation": "商業競爭是亞洲技術發展的推動力量。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-128/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-128/page-6.jpg"
+  ]
+}

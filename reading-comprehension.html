@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260825-reading2">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260827-corpus1">
 </head>
 <body>
   <a class="skip-link" href="#reading-main">跳至主要內容</a>
@@ -70,7 +70,7 @@
     <section class="view" data-view="dashboard" hidden>
       <section class="dashboard-hero panel">
         <div><p class="eyebrow">READING COMPREHENSION</p><h1>閱讀理解學習系統</h1><p data-welcome>選擇一篇文章開始練習。</p></div>
-        <div class="dashboard-count"><strong>01</strong><span>篇閱讀練習</span></div>
+        <div class="dashboard-count"><strong data-catalogue-count>437</strong><span>篇閱讀練習</span></div>
       </section>
       <button class="progress-disclosure panel" type="button" data-progress-toggle aria-expanded="false" aria-controls="reading-progress-panel">
         <span><strong>查看練習進展</strong><small>按日期查看完成題數與練習時間</small></span><span data-progress-label>展開 ＋</span>
@@ -84,10 +84,30 @@
         <button type="button" role="tab" aria-selected="false" data-passage-tab="2">Passage 2</button>
         <button type="button" role="tab" aria-selected="false" data-passage-tab="3">Passage 3</button>
       </nav>
+      <section class="bookmark-library panel" aria-label="置頂閱讀書簽">
+        <button class="bookmark-library-toggle" type="button" data-bookmark-library-toggle aria-expanded="false" aria-controls="reading-bookmark-library">
+          <span class="library-star" aria-hidden="true">★</span>
+          <span><small>PINNED · 置頂</small><strong>我的閱讀書簽 <span data-bookmark-count>0</span></strong><span>文章、題目、段落與學習提示 · 不受 Passage 分頁影響</span></span>
+          <span data-bookmark-library-label>展開 ＋</span>
+        </button>
+        <div id="reading-bookmark-library" data-bookmark-library hidden>
+          <div class="bookmark-library-tools">
+            <label>書簽類型 <select data-bookmark-filter><option value="all">全部書簽</option><option value="passage">文章與題目組</option><option value="questions">整組題目</option><option value="paragraph">個別段落</option><option value="question">個別題目</option><option value="skimming">Skimming Tips</option><option value="scanning">Scanning Tips</option><option value="analysis">答案解析與分析小節</option><option value="word">重點字詞</option></select></label>
+            <button class="secondary-button" type="button" data-refresh-bookmarks>重新整理書簽</button>
+          </div>
+          <p class="bookmark-library-status" data-bookmark-status role="status"></p>
+          <div class="reading-bookmark-list" data-reading-bookmark-list></div>
+        </div>
+      </section>
+      <section class="catalogue-tools panel" aria-label="搜尋閱讀練習">
+        <label>搜尋文章或練習編號<input type="search" data-catalogue-search placeholder="文章名稱 / Practice 編號" autocomplete="off"></label>
+        <p data-catalogue-status role="status">正在載入文章目錄…</p>
+      </section>
+      <div data-exercise-catalogue>
       <section class="exercise-list panel" aria-labelledby="exercise-list-title" data-passage-page="1">
         <div><p class="eyebrow">IELTS READING · PASSAGE 1</p><h2 id="exercise-list-title">Albert Einstein</h2><p>Practice 69 · 5 個段落 · 13 題</p></div>
         <div class="exercise-actions">
-          <button class="secondary-button" type="button" data-passage-bookmark>☆ 收藏文章</button>
+          <button class="secondary-button" type="button" data-passage-bookmark>☆ 收藏文章與題目組</button>
           <a class="secondary-button button-link" href="flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2069">溫習 Flash Cards</a>
           <a class="secondary-button button-link" href="model-essay-downloads.html?catalog=reading-passage-1&amp;item=63e1085c1daadcb8">下載練習 PDF</a>
           <button class="primary-button" type="button" data-open-exercise>開始閱讀練習</button>
@@ -95,12 +115,21 @@
       </section>
       <section class="empty-passage panel" data-passage-page="2" hidden><p class="eyebrow">IELTS READING · PASSAGE 2</p><h2>Passage 2</h2><p>練習內容即將加入。</p></section>
       <section class="empty-passage panel" data-passage-page="3" hidden><p class="eyebrow">IELTS READING · PASSAGE 3</p><h2>Passage 3</h2><p>練習內容即將加入。</p></section>
+      </div>
+      <nav class="catalogue-pagination" aria-label="文章目錄分頁"><button class="secondary-button" type="button" data-catalogue-previous>← 上一頁</button><span data-catalogue-page></span><button class="secondary-button" type="button" data-catalogue-next>下一頁 →</button></nav>
       <section class="history panel"><div class="section-heading"><div><p class="eyebrow">ATTEMPT RECORD</p><h2>練習記錄</h2></div><button class="secondary-button" type="button" data-refresh-dashboard>重新整理</button></div><div data-history-list><p class="empty-state">尚未有練習記錄。</p></div></section>
     </section>
 
     <section class="view" data-view="exercise" hidden>
+      <div class="answer-progress-dock" data-answer-progress-dock>
+        <div class="answer-progress-content" id="answer-progress-content" data-answer-progress-content>
+          <div class="answer-progress-label"><strong>答題進度</strong><span data-answer-progress-text aria-live="polite" aria-atomic="true">0 / 13 個作答部分 · 0%</span></div>
+          <progress data-answer-progress max="100" value="0" aria-label="已填寫的作答部分">0%</progress>
+        </div>
+        <button type="button" data-answer-progress-toggle aria-expanded="true" aria-controls="answer-progress-content">隱藏進度</button>
+      </div>
       <section class="exercise-header panel">
-        <div><button class="text-button" type="button" data-back-dashboard>← 返回閱讀練習</button><p class="eyebrow">PRACTICE 69 · IELTS READING · PASSAGE 1</p><h1>Albert Einstein</h1></div>
+        <div><button class="text-button" type="button" data-back-dashboard>← 返回閱讀練習</button><p class="eyebrow" data-exercise-kicker>PRACTICE 69 · IELTS READING · PASSAGE 1</p><h1 data-exercise-title>Albert Einstein</h1></div>
         <div class="timer-card" data-timer-card>
           <div class="timer-display"><span data-timer-mode-label>計時（選用）</span><time data-timer>00:00</time></div>
           <button class="timer-toggle" type="button" data-timer-toggle>▶ 開始</button>
@@ -115,7 +144,8 @@
           <button class="secondary-button" type="button" data-translation-menu aria-expanded="false">中文翻譯 ▾</button>
           <div class="translation-menu" data-translation-panel hidden>
             <label><input type="checkbox" data-translation-all> 顯示全文翻譯</label>
-            <fieldset><legend>或選擇指定段落</legend><label><input type="checkbox" data-translation-paragraph="1"> 第 1 段</label><label><input type="checkbox" data-translation-paragraph="2"> 第 2 段</label><label><input type="checkbox" data-translation-paragraph="3"> 第 3 段</label><label><input type="checkbox" data-translation-paragraph="4"> 第 4 段</label><label><input type="checkbox" data-translation-paragraph="5"> 第 5 段</label></fieldset>
+            <fieldset data-translation-options><legend>或選擇指定段落</legend><label><input type="checkbox" data-translation-paragraph="1"> 第 1 段</label><label><input type="checkbox" data-translation-paragraph="2"> 第 2 段</label><label><input type="checkbox" data-translation-paragraph="3"> 第 3 段</label><label><input type="checkbox" data-translation-paragraph="4"> 第 4 段</label><label><input type="checkbox" data-translation-paragraph="5"> 第 5 段</label></fieldset>
+            <p data-translation-availability hidden>這篇文章的全文中文翻譯尚未加入；現有中文解析可在各題開啟。</p>
             <button class="hide-translations-button" type="button" data-hide-translations>隱藏所有翻譯</button>
           </div>
         </div>
@@ -126,16 +156,17 @@
           <time data-audio-time>00:00 / 00:00</time>
           <label class="speed-control"><span>速度</span><select data-audio-rate><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label>
           <label><input type="checkbox" data-sync-highlight checked> 同步標示</label>
+          <span data-audio-availability hidden>本篇朗讀尚未加入</span>
         </div>
       </section>
 
       <div class="reading-workbench">
         <article class="passage-panel panel" aria-labelledby="passage-title">
-          <div class="pane-heading pane-heading-with-action"><div><p class="eyebrow">READING PASSAGE</p><h2 id="passage-title">Albert Einstein</h2></div><button class="secondary-button" type="button" data-passage-bookmark>☆ 收藏文章</button></div>
+          <div class="pane-heading pane-heading-with-action"><div><p class="eyebrow">READING PASSAGE</p><h2 id="passage-title">Albert Einstein</h2></div><button class="secondary-button" type="button" data-passage-bookmark>☆ 收藏文章與題目組</button></div>
           <div class="passage-copy" data-passage></div>
         </article>
         <aside class="questions-panel panel" aria-labelledby="questions-title">
-          <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><h2 id="questions-title">題目</h2><label class="question-translation-toggle"><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label></div>
+          <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><div class="pane-heading-with-action"><h2 id="questions-title">題目</h2><button class="secondary-button" type="button" data-bookmark-kind="questions">☆ 收藏整組題目</button></div><label class="question-translation-toggle"><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label></div>
           <form data-question-form><div data-questions></div>
             <div class="submit-bar"><button class="secondary-button" type="button" data-submit-partial>提交已作答題目</button><button class="primary-button" type="submit">提交全部答案</button></div>
             <p class="submission-status" data-submission-status role="status" aria-live="polite"></p>
@@ -154,6 +185,6 @@
   <script src="supabase-config.js"></script>
   <script src="reading-comprehension-audio-manifest.js?v=20260825-reading2"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260825-reading2"></script>
+  <script type="module" src="reading-comprehension.js?v=20260827-corpus1"></script>
 </body>
 </html>

@@ -1,0 +1,308 @@
+{
+  "id": "p2-095",
+  "catalogueId": "p2-095",
+  "title": "Looking for Life on the Ocean Wave",
+  "sourceHeading": "Looking for Life on the Ocean Wave",
+  "passage": 2,
+  "practice": 95,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-095-looking-for-life-on-the-ocean-wave",
+  "source": {
+    "filename": "Practice 95 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "51d53905d6838c394ebddf92ee0f428e262f236be820c2c4b7159c727dbdf94f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Put one buccaneering entrepreneur-cum-bioscientist on a luxury yacht. Using some mighty fine nets, let him trawl the world’s oceans for the smallest creatures. Catalogue the genetic diversity of this, the most abundant form of life in the largest habitat on Earth. Then hijack the molecular machinery of these microbes to make clean energy, develop new drugs or boost the ability of the Earth’s lungs to “breathe” more carbon dioxide, and so limit global warming."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "This may sound like the outline for a sci-fi potboiler, but it sums up the remarkable efforts of Craig Venter, the maverick American scientist. Seven years ago, Venter announced at the White House that he had identified all the genes – the genome – in the DNA of a human being. It was the culmination of a bitter race with an international consortium of government labs, and his bull-in-a-china-shop approach earned him the epithet “the bad boy of science”."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "It did not deter him, and while many of the critics in the scientific establishment who vilified him disappeared from view, Venter went on to become the first person to read his own genome and is also undertaking an extraordinary effort to create a synthetic genome for an artificial organism. Today, however, he is bobbing in the middle of the Sea of Cortez, mixing business with pleasure in a project to read marine DNA codes as he sails along the west coast of the Americas. His 29-metre sloop, Sorcerer II, is a floating laboratory. Rather than use the traditional method of studying microorganisms by growing them in the lab, which only works with one species in every 100, Venter is obtaining the genetic codes of anything and everything present in seawater. The result is a radical new view of life in the oceans, the modern answer to Charles Darwin’s 19th-century voyage on HMS Beagle. “We are starting to view the world in a gene-centred fashion,” Venter says. “Our goal is to try to sort out evolution, working back from the genes to what organisms are there.” He calls his approach “metagenomics”."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Microbes make up the vast majority of life on the planet and account for up to 90 per cent of the biological mass in the sea. They are the central processors of matter and energy in ecosystems. They are responsible for the creation and maintenance of the air we breathe. They are also, perhaps, our biggest hope of slowing global warming. Our oceans are the biggest “sink” of carbon, thanks in part to organisms that absorb carbon from the atmosphere to build their skeletons and shells, like “lungs”. Remarkably, the vast majority of these organisms are unknown. “It is important to understand their role and function to ensure the survival of the planet and human life,” says Venter, who is founder and chairman of the J. Craig Venter Institute in Rockville, Maryland."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The Sorcerer II expedition began with a pilot project in 2003 in the Sargasso Sea near Bermuda in which more than a million new genes were discovered in what was thought to be the marine equivalent of a desert. For the next two years, Venter flew back and forth to join the crew as it sampled the waters from Halifax, Nova Scotia, to the Eastern Tropical Pacific. “I did all the major ocean passages,” he said. One in particular, through the Panama Canal, up to Cocos Island and down to the Galapagos, “was a transforming event, phenomenal” as he combined genomics with writing an autobiography and diving with sharks, all under the gaze of a Discovery Channel TV crew."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "A flood of discoveries has emerged from the latest phase of the expedition, which used phenomenal computing power to reconstruct and analyse microbial DNA. A single stage of the calculations took more than a million hours of supercomputer time. Venter announced in a trio of papers in PLoS Biology a few days ago that his team had returned to port with 400 newly discovered microbes and six million new genes. Each gene contains the instructions used to make the proteins that build and operate living things, and Venter’s bounty doubles the number known to science. His company, Synthetic Genomics, wants to harness this genetic information and use the microbes to turn carbon dioxide into propane and other fuels, short-circuiting the traditional geological process in which ancient creatures are compressed into coal and oil over the aeons. Another target is hydrogen production, the ultimate clean fuel."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "When it comes to climate change, the expedition has thrown up another key insight. Some parts of the ocean have more carbon-hungry organisms than others, and it used to be thought that populations reflected local nutrient levels. Venter has found that this may not be the case. The culprit could be bacterial viruses—phages—which keep microbe levels low in some seas. “If we can understand this relationship better, and find out how to inhibit the viruses, or make the bacteria resistant, we would have a lot more organisms capturing carbon dioxide,” says Venter."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The biggest impact of his project has been on basic science, overturning many established ideas about the tree of life. It used to be thought that the protein pigment in our own eyes that enables us to detect light was rare. But Venter’s gene trawl reveals that all surface marine organisms make proteorhodopsins that detect coloured light. “They turn out to be one of the most abundant and important gene families on the planet,” he said. Blue and green variants are found in different environments – blue light being preferred in the open ocean such as the indigo Sargasso Sea and green light along coasts. Venter believes these proteins help microbes to use energy from the sun, as plants do, but without photosynthesis. Instead, they use this “light-harvesting” machinery to pump charged atoms in the equivalent of solar batteries."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "The team discovered many new proteins that protect microbes from UV rays and some that are involved in repairing the damage caused by UV. They were also surprised to discover that many kinds of protein that were thought to be specific to one kingdom of life were more widespread. This is only the start. “It’s clear,” says Venter, “that we’ve only begun to scratch the surface of understanding the microbial world.”"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has nine paragraphs, A–I.\nWhich paragraph does each of the following headings best fit?\n14 _____________ How to save the world?\n15 _____________ Research contradicts conventional ideas\n16 _____________ Genome race winner\n17 _____________ The importance of microbes"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nWrite the corresponding letters in answer boxes 18–22 in any order.\n A Craig Venter is an unconventional scientist.\n B Venter has no scientific qualifications.\n C Carbon is used to make shells for sea creatures.\n D The Sargasso Sea has long been thought of as not rich in life.\n E The genes Venter has discovered are interesting, but scientifically useless.\n F Venter wants to make bacteria resistant to viruses.\n G Microbes may use sunlight as energy but without photosynthesis.\n H Bacteria can protect microbes from too much sunlight."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nAccording to the information given in Reading Passage 2, choose the correct answer or\nanswers from the choices given.\n\n\n23 Craig Venter\n A is the only person to have read his own genetic code.\n B owns a floating laboratory.\n C disagrees with Darwin’s theory of evolution.\n\n\n24 Craig Venter’s pilot project\n A took place in the Sargasso Sea.\n B ended at the Galapagos Islands.\n C gave him the idea of writing his autobiography.\n\n\n25 Synthetic Genomics, owned by Venter, hopes to\n A make fuel from carbon dioxide.\n B produce hydrogen.\n C discover more species of microbe.\n\n\n26 Before Venter’s study, it was thought that\n A nutrient levels depended on the number of organisms that eat carbon.\n B certain viruses keep microbe levels under control.\n C bacteria might be responsible for climate change."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ How to save the world?",
+      "translation": "如何拯救世界？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Research contradicts conventional ideas",
+      "translation": "研究推翻或反駁傳統觀念。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Genome race winner",
+      "translation": "基因組競賽的勝出者。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ The importance of microbes",
+      "translation": "微生物的重要性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "八個選項中有五個正確，答案可用任何次序填入 18–22。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "八個選項中有五個正確，答案可用任何次序填入 18–22。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "八個選項中有五個正確，答案可用任何次序填入 18–22。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "八個選項中有五個正確，答案可用任何次序填入 18–22。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "八個選項中有五個正確，答案可用任何次序填入 18–22。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Craig Venter",
+      "translation": "Craig Venter 哪一項描述正確？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Craig Venter’s pilot project",
+      "translation": "Craig Venter 的 pilot project 有甚麼正確描述？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Synthetic Genomics, owned by Venter, hopes to",
+      "translation": "Venter 擁有的 Synthetic Genomics 希望做甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Before Venter’s study, it was thought that",
+      "translation": "在 Venter 的研究之前，人們認為甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案",
+      "requiresReview": true
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-095/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-095/page-6.jpg"
+  ]
+}

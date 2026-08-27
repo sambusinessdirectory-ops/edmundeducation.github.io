@@ -43,7 +43,7 @@ assert.match(script, /data-play-paragraph/);
 assert.match(script, /data-scan-question/);
 assert.match(script, /answerTimings/);
 assert.match(script, /interactive-word/);
-assert.match(script, /if \(!submit && !Object\.keys\(state\.answers\)\.length && currentDuration\(\) === 0\) return null/);
+assert.match(script, /if \(!submit && !state\.attemptId && !Object\.keys\(state\.answers\)\.length && currentDuration\(\) === 0\) return null/);
 assert.doesNotMatch(script.match(/async function openExercise\(\)[\s\S]*?\n\}/)?.[0] || "", /startTimer\(\)/);
 assert.equal(data.paragraphs.length, 5);
 assert.equal(data.questions.length, 13);

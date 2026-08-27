@@ -1,0 +1,209 @@
+{
+  "id": "p1-039",
+  "catalogueId": "p1-039",
+  "title": "CLASSIFYING SOCIETIES",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 39,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-039-classifying-societies",
+  "source": {
+    "filename": "Practice 39 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "dfb97eeda7eb99f124a542688807a9ada938ab95888a5f0b22a6d867995affdd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Classifying Societies Although humans have established many types of societies throughout history, sociologists and anthropologists tend to classify different societies according to the degree to which different groups within a society have unequal access to advantages such as resources, prestige or power, and usually refer to four basic types of societies. From least to most socially complex they are clans, tribes, chiefdoms and states."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Clan These are small-scale societies of hunters and gatherers, generally of fewer than 100 people, who move seasonally to exploit wild (undomesticated) food resources. Most surviving hunter-gatherer groups are of this kind, such as the Hadza of Tanzania or the San of southern Africa. Clan members are generally kinsfolk, related by descent or marriage. Clans lack formal leaders, so there are no marked economic differences or disparities in status among their members. Because clans are composed of mobile groups of hunter-gatherers, their sites consist mainly of seasonally occupied camps, and other smaller and more specialised sites. Among the latter are kill or butchery sites—locations where large mammals are killed and sometimes butchered—and work sites, where tools are made or other specific activities carried out. The base camp of such a group may give evidence of rather insubstantial dwellings or temporary shelters, along with the debris of residential occupation."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Tribe These are generally larger than mobile hunter-gatherer groups, but rarely number more than a few thousand, and their diet or subsistence is based largely on cultivated plants and domesticated animals. Typically, they are settled farmers, but they may be nomadic with a very different, mobile economy based on the intensive exploitation of livestock. These are generally multi-community societies, with the individual communities integrated into the larger society through kinship ties. Although some tribes have officials and even a “capital” or seat of government, such officials lack the economic base necessary for the effective use of power. The typical settlement pattern for tribes is one of settled agricultural homesteads or villages. Characteristically, no one settlement dominates any of the others in the region. Instead, the archaeologist finds evidence for isolated, permanently occupied houses or for permanent villages. Such villages may be made up of a collection of free-standing houses, like those of the first farms of the Danube valley in Europe. Alternatively, they may be clusters of buildings grouped together, for example, the pueblos of the American Southwest, and the early farming village or small town of Catalhoyuk in modern Turkey."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Chiefdom These operate on the principle of ranking—differences in social status between people. Different lineages (a lineage is a group claiming descent from a common ancestor) are graded on a scale of prestige, and the senior lineage, and hence the society as a whole, is governed by a chief. Prestige and rank are determined by how closely related one is to the chief, and there is no true stratification into classes. The role of the chief is crucial. Often, there is local specialisation in craft products, and surpluses of these and of foodstuffs are periodically paid as an obligation to the chief. He uses these to maintain his retainers, and may use them for redistribution to his subjects. The chiefdom generally has a centre of power, often with temples, residences of the chief and his retainers, and craft specialists. Chiefdoms vary greatly in size, but the range is generally between about 5,000 and 20,000 people."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Early State These preserve many of the features of chiefdoms, but the ruler (perhaps a king or sometimes a queen) has explicit authority to establish laws and also to enforce them through the use of a standing army. Society no longer depends totally upon kin relationships: it is now stratified into different classes. Agricultural workers and the poorer urban dwellers form the lowest classes, with the craft specialists above, and the priests and kinsfolk of the ruler higher still. The functions of the ruler are often separated from those of the priest: the palace is distinguished from the temple. The society is viewed as a territory owned by the ruling lineage and populated by tenants who have an obligation to pay taxes. The central capital houses a bureaucratic administration of officials; one of their principal purposes is to collect revenue (often in the form of taxes and tolls) and distribute it to the government, the army and craft specialists. Many early states developed complex redistribution systems to support these essential services. This rather simple social typology, set out by Elman Service and elaborated by William Sanders and Joseph Marino, can be criticised, and it should not be used unthinkingly. Nevertheless, if we are seeking to talk about early societies, we must use words and hence concepts to do so. Service’s categories provide a good framework to help organise our thoughts."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 1–7 on your answer sheet, write\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n1 _________________ There’s little economic difference between members of a clan.\n2 _________________ The farmers of a tribe grow a wide range of plants.\n3 _________________ One settlement is more important than any other settlement in a tribe.\n4 _________________ A member’s status in a chiefdom is determined by how much land he owns.\n5 _________________ There are people who craft goods in chiefdoms.\n6 _________________ The king maintains order in a state by using an army.\n7 _________________ Bureaucratic officers receive higher salaries than other members."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nAnswer the questions below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in Boxes 8–13 on your answer sheet.\nWhat is made at clan work sites?\n8 _________________\nWhat is the other way of life for tribes besides settled farming?\n9 _________________\nHow are Catalhoyuk’s housing units arranged?\n10 _________________\nWhat does a chief give to his subjects as rewards besides crafted goods?\n11 _________________\nWhat is the largest possible population of a chiefdom?\n12 _________________\nWhich group of people is at the bottom of an early state but higher than the farmers?\n13 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ There’s little economic difference between members of a clan.",
+      "translation": "clan 成員之間幾乎沒有經濟差異。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The farmers of a tribe grow a wide range of plants.",
+      "translation": "tribe 的農民種植很多不同種類的植物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ One settlement is more important than any other settlement in a tribe.",
+      "translation": "在 tribe 中，有一個 settlement 比其他 settlement 更重要。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ A member’s status in a chiefdom is determined by how much land he owns.",
+      "translation": "在 chiefdom 中，一名成員的地位由他擁有多少土地決定。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ There are people who craft goods in chiefdoms.",
+      "translation": "chiefdoms 中有人製作手工或工藝品。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The king maintains order in a state by using an army.",
+      "translation": "在 state 中，king 透過軍隊維持秩序或執行統治。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Bureaucratic officers receive higher salaries than other members.",
+      "translation": "官僚 officers 比其他成員得到更高薪酬。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ What is the other way of life for tribes besides settled farming?",
+      "translation": "clan 的 work sites 會製作甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ How are Catalhoyuk’s housing units arranged?",
+      "translation": "除了定居農耕之外，tribes 的另一種生活方式是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ What does a chief give to his subjects as rewards besides crafted goods?",
+      "translation": "Catalhoyuk 的 housing units 是如何排列的？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ What is the largest possible population of a chiefdom?",
+      "translation": "除了 crafted goods 之外，chief 還會把甚麼給 subjects 作為回報或再分配？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Which group of people is at the bottom of an early state but higher than the farmers?",
+      "translation": "chiefdom 最大可能人口是多少？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "在 early state 的階級中，哪一類人位於農民之上？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-039/page-4.jpg"
+  ]
+}

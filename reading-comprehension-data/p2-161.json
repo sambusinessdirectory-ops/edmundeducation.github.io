@@ -1,0 +1,258 @@
+{
+  "id": "p2-161",
+  "catalogueId": "p2-161",
+  "title": "Elnino and Seabirds",
+  "sourceHeading": "El Niño and Seabirds",
+  "passage": 2,
+  "practice": 161,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-161-elnino-and-seabirds",
+  "source": {
+    "filename": "Practice 161 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "0140832c02a473002c65f41488418f86471b251e219d6b34a37b6ba5192f90f1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The rhythm of the seasons cannot always be relied upon. At times the tropical Pacific Ocean and large expanses of the global atmosphere seem to be marching to the beat of a different drummer, disrupting the normal patterns of countless species of plants and animals along with hundreds of millions of human beings. To anticipate these occasional lapses in the march of the seasons and help societies plan accordingly, scientists are seeking to understand these competing rhythms: the strongest of these is the alternation between the ‘normal climate’ and a different but still recurrent set of climatic conditions in the Pacific region called El Niño."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Seabirds are prominent and highly visible components of marine ecosystems that will be affected by global climate change. The Bering Sea region is particularly important to seabirds; populations there are larger and more diverse than in any similar region in North America—over 90% of seabirds breeding in the continental United States are found in this region. Seabirds, so named because they spend at least 80% of their lives at sea, are dependent upon marine resources for food. As prey availability changes in response to climatically driven factors such as surface sea temperature and extent of sea ice, seabird populations will also be affected."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Seabirds are valued as indicators of healthy marine ecosystems and provide a ‘vicarious use value’ or existence value—people appreciate and value seabirds simply because they are there and enjoy them through venues such as pictures, nature programs, and written accounts without ever directly observing seabirds in their native environment. A direct measure of this value is demonstrated by federal legislation that established specific national wildlife refuges to protect seabirds and international treaty obligations that provide additional protection for seabirds. Seabirds are also an important subsistence resource for many who live within the Bering Sea region. Furthermore, the rich knowledge base about seabirds makes them a valuable resource as indicator species for measurement of change in the marine environment."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The most abundant breeding species in Alaska are northern fulmars, storm-petrels, kittiwakes, murres, auklets and puffins. These species also form the largest colonies. Fulmars, storm-petrels and kittiwakes are surface feeders, picking their prey from the surface or just below the surface; murres, auklets, and puffins dive for their food. Fulmars nest primarily on island groups in and around the Bering Sea. They take a wide variety of prey (e.g., fish, squid, zooplankton, jellyfish) from the surface or just below the surface. Storm-petrels are strictly nocturnal and nest below ground in either burrows or crevices between rocks. They forage on zooplankton and squid; in some areas they are dependent upon small fish such as capelin and sand lance caught at the surface. Black-legged kittiwakes are widespread throughout Alaska, Canada and Eurasia while red-legged kittiwakes are found only in the Bering Sea region. Both are surface feeders although black-legged kittiwakes feed primarily on small fish and forage over the continental shelf and shelf break; red-legged kittiwakes feed primarily on myctophids and will forage beyond the shelf break."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Marine mammals have exhibited similar signs of food stress in recent years. Harbor seals at Tugidak Island in the Gulf of Alaska declined by about 85% between 1976 and 1988. Steller sea lion populations declined by 36% in the Gulf of Alaska between 1977 and 1985, and by another 59% between 1985 and 1990. Northern fur seals declined about 35% by 1986 from their average numbers in the 1970s, although numbers had rebounded somewhat (20%) by 1990. Associated with the declines in Steller sea lions are declines in birth rate, fewer breeding females, fewer pups, decreased adult body condition, decreased juvenile survival, and a change in population age structure."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Walker noticed that monsoon seasons with low-index conditions are often marked by drought in Australia, Indonesia, India, and parts of Africa. He also claimed that low-index winters tend to be unusually mild in western Canada. One of his British colleagues chided him in print for suggesting that climatic conditions over such widely separated regions of the globe could be linked. In his reply Walker predicted, correctly, that an explanation would be forthcoming, but that it would require a knowledge of wind patterns above ground level, which were not routinely being observed at that time."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Long-term time series are needed. It seems obvious that without good baseline data ornithologists are doomed to be surprised by the arrival of El Niño every few years. Even when ornithologists and ecologists are at hand to take advantage of an incoming El Niño, lack of preexisting data, and of monitoring afterwards, makes it difficult to understand responses of birds to the successive El Niño, La Niña, and ‘normal’ years. Indeed, according to Jaksic, during the last century there were 12 El Niño years and 12 La Niña years, thus leaving about 76 ‘normal’ years in between. Thus, by concentrating heavily on only 12% of the time span—the El Niño years—and neglecting possibly another 12%, ornithologists are essentially ignoring what happens during 76% of the time. This situation can be remedied only by logging data regularly or continuously to create long-term time series. The recipe prescribed by Schreiber & Schreiber to understand El Niño’s effects on birds still stands: ‘…carry out long-term studies that will shed further light on the interactions between global atmospheric cycles, oceanographic phenomena, and avian populations.’"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Populations of seabirds in Alaska are larger and more diverse than any similar region in the Northern Hemisphere. The extensive coastal estuaries and offshore waters of Alaska provide breeding, feeding and migrating habitats for 66 species of seabirds. At least 38 species of seabirds, over 50 million individuals, breed in Alaska. Eight Alaskan species breed only here and in adjacent Siberia. Five additional species range through the North Pacific, but their populations are concentrated in Alaska. In addition to breeding grounds, Alaskan waters also provide important wintering habitat for birds that breed in Canada and Eurasia. Shearwaters, which breed in the Southern Hemisphere, are the most numerous species in Alaskan waters during the summer."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "As another indication that food has been limiting in recent years, several large-scale die-offs of seabirds, mostly surface-feeding species, have been observed in the Gulf of Alaska during the last decade, most notably in 1983, 1989 and 1993. But Hatch thinks that it is too early to decide whether reports of these die-offs are connected with the effects of El Niño. Byrd and Tobish believe that high rainfall can affect survival of chicks in earthen burrows, and the occurrence of major storms with high winds during the chick-rearing period can kill chicks of species that nest on cliff ledges, but this view has not been considered convincing evidence."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–18",
+    "g19": "Questions 19–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 18,
+      "text": "Questions 15–18\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 15–18 on your answer sheet.\n15 Why do scientists want to investigate El Niño?\n A To learn about the behaviour of creatures in marine environments\n B To help societies plan because it disrupts normal cycles for wildlife and humans\n C Because it has profound theoretical and practical implications\n D Because it primarily affects the tropical Pacific Ocean\n\n\n16 Why do scientists use seabirds as important subjects when observing climate change\nworldwide?\n A Their prey changes in response to temperature and sea-ice conditions.\n B Their populations are large enough to be observed.\n C El Niño affects seabirds more than other marine creatures.\n D North America is in the region most affected by El Niño.\n\n\n17 What happened to marine mammals living on Tugidak Island in the Gulf of Alaska?\n A The number of harbour seals declined by about 85% during the late twentieth century.\n B Steller sea-lion numbers declined while harbour-seal numbers grew.\n C Birth rates and the number of breeding females declined only on Tugidak Island.\n D The situation was less serious than expected.\n\n\n18 According to Walker, what happens during certain monsoon seasons?\n A Floods and droughts cause severe damage almost everywhere on the planet.\n B Walker’s prediction quickly comes true.\n C Drought affects only parts of Africa.\n D Drought affects places such as Australia and Indonesia."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 27,
+      "text": "Questions 19–27\n\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 19–27 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n\n\n19 __________ Seabirds are regarded as valuable indicators of changes in the marine\nenvironment.\n\n\n20 __________ Seabirds such as fulmars and murres feed in different ways according to the\nnature of their prey.\n\n\n21 __________ Steller sea lions showed only lower birth rates and fewer pups; the overall\npopulation was unaffected.\n\n\n22 __________ In replying to his colleague, Walker said that knowledge of wind patterns would\nbe very helpful.\n\n\n23 __________ Ornithologists and ecologists find it difficult to investigate El Niño because of\ninsufficient data and monitoring.\n\n\n24 __________ Seabird populations in Alaska are similar in size and diversity to those\nelsewhere in the Northern Hemisphere.\n\n\n25 __________ Shearwaters that breed in the Southern Hemisphere are the most numerous\nseabirds in Alaskan waters during summer.\n\n\n26 __________ Hatch believes it is too early to determine whether the reported die-offs are\nconnected with El Niño.\n\n\n27 __________ Byrd and Tobish’s view that heavy rain and storms cause chick mortality has\nalready been accepted as convincing evidence."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Why do scientists want to investigate El Niño?",
+      "translation": "科學家為甚麼想研究 El Niño？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Why do scientists use seabirds as important subjects when observing climate change worldwide?",
+      "translation": "為甚麼科學家觀察全球氣候變化時會重視 seabirds？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "What happened to marine mammals living on Tugidak Island in the Gulf of Alaska?",
+      "translation": "生活在 Gulf of Alaska 的 Tugidak Island 的 marine mammals 發生了甚麼事？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "According to Walker, what happens during certain monsoon seasons?",
+      "translation": "根據 Walker，某些 monsoon seasons 期間會發生甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Seabirds are regarded as valuable indicators of changes in the marine environment.",
+      "translation": "Seabirds 被視為測量海洋環境變化的有價值指標。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Seabirds such as fulmars and murres feed in different ways according to the nature of their prey.",
+      "translation": "Fulmars 和 murres 之類的 seabirds 會因獵物特性不同而用不同方式覓食。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Steller sea lions showed only lower birth rates and fewer pups; the overall population was unaffected.",
+      "translation": "Steller sea lions 只出現出生率較低和幼獸較少，整體族群數量沒有受影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ In replying to his colleague, Walker said that knowledge of wind patterns would be very helpful.",
+      "translation": "Walker 回應同事時說，了解 wind patterns 會很有幫助。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Ornithologists and ecologists find it difficult to investigate El Niño because of insufficient data and monitoring.",
+      "translation": "由於資料和監測不足，鳥類學家和生態學家難以研究 El Niño。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Seabird populations in Alaska are similar in size and diversity to those elsewhere in the Northern Hemisphere.",
+      "translation": "Alaska 的 seabird populations 在規模和多樣性上，與 Northern Hemisphere 其他地方相似。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Shearwaters that breed in the Southern Hemisphere are the most numerous seabirds in Alaskan waters during summer.",
+      "translation": "在 Southern Hemisphere 繁殖的 shearwaters，是夏季 Alaskan waters 中數量最多的seabirds。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Hatch believes it is too early to determine whether the reported die-offs are connected with El Niño.",
+      "translation": "Hatch 認為現在判斷這些 die-offs 是否與 El Niño 有關仍太早。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Byrd and Tobish’s view that heavy rain and storms cause chick mortality has already been accepted as convincing evidence.",
+      "translation": "Byrd and Tobish 關於大雨和風暴導致 chicks 死亡的看法，已被接受為有說服力證據。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-161/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-161/page-6.jpg"
+  ]
+}

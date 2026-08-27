@@ -1,0 +1,260 @@
+{
+  "id": "p1-076",
+  "catalogueId": "p1-076",
+  "title": "Wolves, dogs and humans",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 76,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-076-wolves-dogs-and-humans",
+  "source": {
+    "filename": "Practice 76  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "2d99bc79753291992db1c70a7dffa2cb5e05445baa2c1291028584ab4e9bd771"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Wolves, Dogs and Humans There is no doubt that dogs are the oldest of all species tamed by humans, and that their domestication was based on a mutually beneficial relationship with man. The conventional view is that the domestication of wolves began between 10,000 and 20,000 years ago. However, a recent ground-breaking paper by a group of international geneticists has pushed this date back by a factor of 10. Led by Dr Robert Wayne at the University of California, Los Angeles, the team showed that all dog breeds had only one ancestor, the wolf. They did this by analysing DNA to trace the genetic history of 162 wolves from around the world and 140 domestic dogs representing 67 breeds. The research also confirms, for the first time, that dogs are descended only from wolves and do not share DNA with coyotes or jackals. The fact that our companionship with dogs now appears to go back at least 100,000 years means that this partnership may have played an important part in developing the human hunting techniques that emerged 70,000 to 90,000 years ago. It may even have affected the brain development of both species."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The Australian veterinarian David Paxton suggests that in that period of first contact, people did not so much domesticate wolves as wolves domesticated people. Wolves may have started living at the edge of human settlements as scavengers, eating scraps of food and waste. Some learned to live with human beings in a mutually helpful way and gradually evolved into dogs. At the very least, they would have protected human settlements and given warnings by barking at anything approaching. The wolves that evolved into dogs have been enormously successful in evolutionary terms. Hundreds of millions of them are found throughout the inhabited world. The descendants of the wolves that remained wolves are now sparsely distributed, often in endangered populations."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "In return for companionship and food, the early ancestor of the dog assisted humans in tracking, hunting, guarding and a variety of other activities. Eventually, humans began selectively breeding these animals for specific traits. Physical characteristics changed and individual breeds began to take shape. As humans wandered across Asia and Europe, they took their dogs along, using them for additional tasks and further breeding them for selected qualities that would better enable them to perform specific duties."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "According to Dr Colin Groves of the Department of Archaeology and Anthropology at the Australian National University, early humans came to rely on dogs’ keen ability to hear, smell and see – allowing certain areas of the human brain to shrink in size relative to other areas. ‘Dogs acted as alarm systems for humans, trackers and hunting aids, garbage disposal facilities, hot-water bottles and children’s guardians and playmates. Humans provided dogs with food and security. This symbiotic relationship was stable for over 100,000 years and intensified into mutual domestication,’ said Dr Groves. In his view, humans domesticated dogs, and dogs domesticated humans."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Dr Groves repeated an assertion made as early as 1914 that humans have some of the same physical characteristics as domesticated animals, the most notable being decreased brain size. The horse experienced a 16 per cent reduction in brain size after domestication while pigs’ brains shrank by as much as 34 per cent. The estimated brain-size reduction in domesticated dogs ranges from 10 to 30 per cent. Only in the last decade have archaeologists uncovered enough fossil evidence to establish that brain capacity in humans declined in Europe and Africa by at least 10 per cent beginning about 10,000 years ago. Dr Groves believes this reduction may have taken place as the relationship between humans and dogs intensified. The close interaction between the two species allowed certain human brain functions, such as smell and hearing, to diminish."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–8",
+    "g9": "Questions 9–9",
+    "g10": "Questions 10–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nDo the following statements agree with the views of the writer of the passage?\nWrite:\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n1 _________________ The coexistence of wolves and humans began 10,000 years ago.\n2 _________________ Dogs, wolves, jackals and coyotes share a common ancestor.\n3 _________________ Wolves are a protected species in most parts of the world.\n4 _________________ Dogs evolved from wolves that chose to live with humans.\n5 _________________ Dogs probably influenced the development of human hunting skills."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 8,
+      "text": "Questions 6–8\nChoose the correct letter A–D.\n6 How do we know that dogs have been more successful in evolutionary terms than wolves?\n  A Dogs can be trained more easily than wolves.\n  B Wolves are stronger than dogs.\n  C Humans prefer dogs to wolves.\n  D There are more dogs than wolves today.\n\n\n7 As a result of domestication, the size of the human brain has …\n  A increased.\n  B decreased.\n  C stayed the same.\n  D become more complex.\n\n\n8 What can we infer from the studies of brain size and domestication?\n  A Domestic life is less demanding than surviving in the wild.\n  B Animals like living with humans.\n  C Domestication has made animals physically weaker.\n  D Pigs are less intelligent than dogs."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 9,
+      "text": "Question 9\nChoose TWO WORDS from the passage for the answer.\nThere are many different types of dogs today because, in early times, humans began to 9\n_________________ their animals for the characteristics they wanted."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 14,
+      "text": "Questions 10–14\nMatch one of the researchers (A–C) to each of the findings (10–14) below.\n A                   Dr Wayne\n\n B                   Dr Paxton\n\n C                   Dr Groves\n\n Example             found the common ancestor of the dog                           A\n\n 10                  studied the brain size of domesticated animals                 _________\n\n 11                  claims that wolves chose to interact with humans               _________\n\n 12                  established a new time frame for the domestication of wolves   _________\n\n 13                  believes that dogs and humans domesticated each other          _________\n\n 14                  studied the DNA of wolves and dogs                             _________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The coexistence of wolves and humans began 10,000 years ago.",
+      "translation": "狼和人類的共存始於 10,000 年前。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Dogs, wolves, jackals and coyotes share a common ancestor.",
+      "translation": "狗、狼、豺和郊狼有共同祖先。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Wolves are a protected species in most parts of the world.",
+      "translation": "狼在世界大部分地區都是受保護物種。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Dogs evolved from wolves that chose to live with humans.",
+      "translation": "狗是由選擇與人類共同生活的狼演化而來。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Dogs probably influenced the development of human hunting skills.",
+      "translation": "狗很可能影響了人類狩獵技能的發展。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "How do we know that dogs have been more successful in evolutionary terms than wolves?",
+      "translation": "我們如何知道狗在演化上比狼更成功？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "As a result of domestication, the size of the human brain has …",
+      "translation": "由於馴化，人類大腦大小已經……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "What can we infer from the studies of brain size and domestication?",
+      "translation": "從大腦大小和馴化研究中，我們可以推論甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "今天有很多不同種類的狗，因為早期人類開始為自己想要的特徵去 9 ________ 牠們的動物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "studied the brain size of domesticated animals _________",
+      "translation": "研究馴化動物的大腦大小。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "claims that wolves chose to interact with humans _________",
+      "translation": "聲稱狼選擇與人類互動。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "established a new time frame for the domestication of wolves _________",
+      "translation": "為狼的馴化建立新的時間框架。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "believes that dogs and humans domesticated each other _________",
+      "translation": "相信狗和人類彼此馴化。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "studied the DNA of wolves and dogs _________",
+      "translation": "研究狼和狗的 DNA。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-076/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-076/page-5.jpg"
+  ]
+}

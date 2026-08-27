@@ -1,0 +1,347 @@
+{
+  "id": "p3-136",
+  "catalogueId": "p3-136",
+  "title": "The Nagymaros Dam",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 136,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-136-the-nagymaros-dam",
+  "source": {
+    "filename": "Practice 136 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "c011b16f26759b18eb923777c2be0ef0cc69ed957cd99f3ac54fd430d36f09d7"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Nagymaros Dam When Janos Vargha, a biologist from the Hungarian Academy of Sciences, began a new career as a writer with a small monthly nature magazine called Buvar, it was 9 years after the story behind the fall of the Berlin Wall had started to unfold. During his early research, he went to a beauty spot on the River Danube outside Budapest known as the Danube Bend to interview local officials about plans to build a small park on the site of an ancient Hungarian capital."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "One official mentioned in passing that this tree-lined curve in the river, a popular tourist spot for Hungarians, was to be submerged by a giant hydroelectric dam being planned in secret by a much-feared state agency known simply as Water Management."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Vargha investigated and learned that the Nagymaros Dam (pronounced “nosh-marosh”) would cause pollution, destroy underground water reserves, dry out wetlands and wreck the unique ecosystem of central Europe’s longest river. Unfortunately, nobody objected. “Of course, I wrote an article. But there was a director of the Water Management on the magazine’s editorial board. At the last minute, he went to the printers and stopped the presses; the article was never published. I was frustrated and angry, but I was ultimately interested in why they cared enough to ban my article,” he remembers today."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "He found that the Nagymaros Dam was part of a joint project with neighbouring Czechoslovakia to produce hydroelectricity, irrigate farms and enhance navigation. They would build two dams and re-engineer the Danube for 200 kilometres where it formed the border between them. “The Russians were working together, too. They wanted to take their big ships from the Black Sea right up the Danube to the border with Austria.”"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Vargha was soon under intense investigation, and some of his articles got past the censors. He gathered supporters over the following years, but he was one of only a few people who believed the dam should be stopped. He was hardly surprised when the Water Management refused to debate the project in public. When the bureaucrats pulled out of a public meeting at the last minute, Vargha knew he had to take the next step. “We decided it wasn’t enough to talk and write, so we set up an organization, the Danube Circle. We announced that we didn’t agree with censorship. We would act as if we were living in a democracy,” he says."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The Danube Circle was illegal and the secret publications it produced were samizdat leaflets. In an extraordinary act of defiance, it gathered 10,000 signatures for a petition objecting to the dam and made links with environmentalists in the West, inviting them to Budapest for a press conference."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The Hungarian government enforced a news blackout on the dam, but articles about the Danube Circle began to appear in the Western media. In 1985, the Circle and Vargha, a public spokesman, won the Right Livelihood award known as the alternative Nobel Prize. Officials told Vargha he should not take the prize but he ignored them. The following year when Austrian environmentalists joined a protest in Budapest, they were met with tear gas and batons. Then the Politburo removed Vargha from his new job as editor of the Hungarian version of Scientific American. The dam became a focus for opposition to the hated regime. Communists tried to hold back the waters in the Danube and resist the will of the people. Vargha says, “Opposing the state directly was still hard. Objecting to the dam was less of a hazard, but it was still considered resistance to the state.”"
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Under increasing pressure from the anti-dam movement, the Hungarian Communist Party was divided. Vargha says, “Reformists found that the dam was neither popular nor economical. It would be cheaper to generate electricity by burning coal or using nuclear power.” “But hardliners defended Stalinist ideas about large dams, which were seen as symbols of progress.” Environmental issues seemed to be a weak point of Eastern European communism in its final years. During the 1970s, with the support of the Young Communist Leagues, a host of environmental groups had been founded. Party officials saw them as a harmless product of youthful idealism created by Boy Scouts and natural history societies."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Green idealism steadily became a focal point for political opposition. In Czechoslovakia, the Charter 77 human-rights movement took up environmentalism. The green-minded people of both Poland and Estonia joined Friends of the Earth International to protest against air pollution. Bulgarian environmentalists built a resistance group, called Ecoglasnost, which held huge rallies in 1989. Big water engineering projects were potent symbols of the old Stalinism."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–34",
+    "g35": "Questions 35–39",
+    "g40": "Questions 40–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 34,
+      "text": "Questions 27–34\nComplete the summary, using the list of words and phrases, A–L, below.\nWrite the correct letter, A–L, in boxes 27–34 on your answer sheet.\n A                        severe\n\n B                        discharged\n\n C                        constructing a small park\n\n D                        passed\n\n E                        reformist\n\n F                        swallowed up\n\n G                        separated\n\n H                        favourable\n\n I                        established\n\n J                        collision\n\n K                        combined\n\n L                        environmentalists\n\n\nNine years after the story of the fall of the Berlin Wall began to unfold, Janos\nVargha visited the River Danube outside Budapest to discuss 27 __________ with\nlocal officials. However, the tree-lined curve in the river was to be 28 __________\nby a colossal dam. He noted that the Nagymaros Dam would have a 29\n__________ impact on the river’s ecosystem. The dam was part of a 30\n__________ public-works project to generate hydroelectricity, irrigate farmland\nand improve navigation along the Czechoslovakian border.\nAfter one public meeting, Vargha 31 __________ the Danube Circle to\ndemonstrate people’s autonomy in a democracy. Vargha, who later became editor\nof the Hungarian edition of Scientific American, was 32 __________ by the\nPolitburo. Under pressure from the anti-dam movement, the dam, a final symbol\nof Eastern European communism, was opposed by 33 __________ politicians.\nOverall, the political establishment and environmentalists were in 34 __________\nover their views."
+    },
+    {
+      "id": "g35",
+      "start": 35,
+      "end": 39,
+      "text": "Questions 35–39\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 35–39 on your answer sheet, write\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n35 __________ Janos Vargha predicted that the Nagymaros Dam would wreck the natural\nenvironment before it was built.\n36 __________ The Nagymaros Dam project was managed by the Russians only.\n37 __________ The Danube Circle was an unauthorised group for opposing the dam.\n38 __________ The Politburo accepted Vargha as editor of the Hungarian edition.\n39 __________ The human rights Charter 77 in Czechoslovakia embraced environmental\nideas."
+    },
+    {
+      "id": "g40",
+      "start": 40,
+      "end": 40,
+      "text": "Question 40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in box 40 on your answer sheet.\n40 In this passage, the main purpose of the Nagymaros Dam was\n A related to Russian Water Management.\n B to develop a source of electric power, irrigation and navigation.\n C to connect the Black Sea and the Danube.\n D to develop a beauty spot on the River Danube."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "柏林圍牆倒下故事開始展開九年後，Janos Vargha 到 Budapest 外的 River Danube，和地方官員討論 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "然而，河中那個綠樹成蔭的彎道將被一座巨型大壩 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "他指出 Nagymaros Dam 會對河流生態系統造成 ______ 影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "這座大壩是一個 ______ 公共工程項目的一部分，目的是發電、灌溉農田，並改善Czechoslovakian border 沿線航運。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "一次公開會議後，Vargha ______ Danube Circle，以展示人民在民主中的自主性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "Vargha 後來成為 Hungarian edition of Scientific American 的 editor，但他被 Politburo ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "在反壩運動壓力下，這座作為東歐共產主義最後象徵之一的大壩，遭到 ______ 政治人物反對。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "整體而言，政治建制和環保人士在觀點上處於 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ Janos Vargha predicted that the Nagymaros Dam would wreck the natural environment before it was built.",
+      "translation": "Janos Vargha 在 Nagymaros Dam 建成前預測它會破壞自然環境。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ The Nagymaros Dam project was managed by the Russians only.",
+      "translation": "Nagymaros Dam project 只由 Russians 管理。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ The Danube Circle was an unauthorised group for opposing the dam.",
+      "translation": "Danube Circle 是一個未獲授權、用來反對大壩的團體。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ The Politburo accepted Vargha as editor of the Hungarian edition.",
+      "translation": "Politburo 接受 Vargha 擔任 Hungarian edition 的 editor。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ The human rights Charter 77 in Czechoslovakia embraced environmental ideas.",
+      "translation": "Czechoslovakia 的人權運動 Charter 77 接納了環保理念。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g40",
+      "type": "choice",
+      "prompt": "In this passage, the main purpose of the Nagymaros Dam was",
+      "translation": "根據文章，Nagymaros Dam 的主要目的 是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-136/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-136/page-5.jpg"
+  ]
+}

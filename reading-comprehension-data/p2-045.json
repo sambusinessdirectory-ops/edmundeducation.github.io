@@ -1,0 +1,303 @@
+{
+  "id": "p2-045",
+  "catalogueId": "p2-045",
+  "title": "Leaf-Cutting Ants and Fungus",
+  "sourceHeading": "Leaf-Cutting Ants and Fungus",
+  "passage": 2,
+  "practice": 45,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-045-leaf-cutting-ants-and-fungus",
+  "source": {
+    "filename": "Practice 45 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "adae64257e0f8a3fdb17330cd20da300d3eb1aa3b1bc1c2948c4e0b2cb6c5fee"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The ants and their agriculture have been extensively studied over the years, but the recent research has uncovered intriguing new findings about the fungus they cultivate, how they domesticated it and how they cultivate it and preserve it from pathogens. For example, the fungus farms, which the ants were thought to keep free of pathogens, turn out to be vulnerable to a devastating mould, found nowhere else but in ants’ nests. To keep the mould in check, the ants long ago made a discovery that would do credit to any pharmaceutical laboratory."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Leaf-cutting ants and their fungus farms are a marvel of nature and perhaps the best known example of symbiosis, the mutual dependence of two species. The ants’ achievement is remarkable—the biologist Edward O. Wilson has called it “one of the major breakthroughs in animal evolution’—because it allows them to eat, courtesy of their mushroom’s digestive powers, the otherwise poisoned harvest of tropical forests whose leaves are laden with terpenoids, alkaloids and other chemicals designed to sicken browsers."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Fungus growing seems to have originated only once in evolution, because all gardening ants belong to a single tribe, the descendants of the first fungus farmer. There are more than 200 known species of the attine ant tribe, divided into 12 groups, or genera. The leaf-cutters use fresh vegetation; the other groups, known as the lower attines because their nests are smaller and their techniques more primitive, feed their gardens with detritus like dead leaves, insects and faeces."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The leaf-cutters’ fungus was indeed descended from a single strain, propagated clonally, or just by budding, for at least 23 million years. But the lower attine ants were found by the four biologists to use different varieties of the fungus and, in one case, a quite separate species. The pure strain of fungus grown by the leaf-cutters, it seemed to Mr. Currie, resembled the monocultures of various human crops that are very productive for a while and then succumb to some disastrous pathogen, such as the Irish potato blight. Monocultures, which lack the genetic diversity to respond to changing environmental threats, are sitting ducks for parasites. Mr. Currie felt there had to be a parasite in the ant-fungus system. But a century of ant research offered no support for the idea. Textbooks describe how leaf-cutter ants scrupulously weed their gardens of all foreign organisms. “People kept telling me, ‘You know the ants keep their gardens free of parasites, don’t you?’’ Mr Currie said of his efforts to find a hidden interloper."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "But after three years of examining attine-ant gardens, Mr Currie discovered that they were far from free of infection. In the previous month’s issue of the Proceedings of the National Academy of Sciences, he and two colleagues, Dr Mueller and David Malloch, reported isolating several alien organisms, particularly a family of parasitic moulds called Escovopsis."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Escovopsis turns out to be a highly virulent pathogen that can devastate a fungus garden in a couple of days. It blooms like a white cloud, with the garden dimly visible underneath. In a day or two the whole garden is enveloped. “Other ants won’t go near it and the ants associated with the garden just starve to death,” Dr Rehner said. “They just seem to give up, except for those that have rescued their larvae.” The deadly mould then turns greenish-brown as it enters its spore-forming stage."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Evidently the ants usually manage to keep Escovopsis and other parasites under control. But with any lapse in control, or if the ants are removed, Escovopsis will quickly burst forth. Although new leaf-cutter gardens start off free of Escovopsis, within two years some 60 percent become infected. The discovery of Escovopsis’s role brings a new level of understanding to the evolution of the attine ants. “In the last decade, evolutionary biologists have been increasingly aware of the role of parasites as driving forces in evolution,” Dr Schultz said. There is now a possible reason to explain why the lower attine species keep changing the variety of fungus in their mushroom gardens, and occasionally domesticating new ones—to stay one step ahead of the relentless Escovopsis."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Interestingly, Mr. Currie found that the leaf-cutters had in general fewer alien moulds in their gardens than the lower attines, yet they had more Escovopsis infections. It seems that the price they pay for cultivating a pure variety of fungus is a higher risk from Escovopsis. But the leaf-cutters may have little alternative: they cultivate a special variety of fungus which, unlike those grown by the lower attines, produces nutritious swollen tips for the ants to eat."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Discovery of a third partner in the ant-fungus symbiosis raises the question of how the attine ants, especially the leaf-cutters, keep this dangerous interloper under control. Amazingly enough, Mr. Currie has again provided the answer. “People have known for a hundred years that ants have a whitish growth on the cuticle,” said Dr Mueller, referring to the insects’ body surface. “People would say this is like a cuticular wax. But Cameron was the first one in a hundred years to put these things under a microscope. He saw it was not inert wax. It is alive.” Mr. Currie discovered a specialized patch on the ants’ cuticle that harbours a particular kind of bacterium, one well known to the pharmaceutical industry, because it is the source of half the antibiotics used in medicine. Mr Currie and his colleagues reported in Nature in April that they had isolated a species of Streptomyces bacterium from each of the 22 attine-ant species studied. The Streptomyces does not have much effect on ordinary laboratory fungi. But it is a potent poisoner of Escovopsis, inhibiting its growth and suppressing spore formation. It also stimulates growth of the ants’ mushroom fungus. The bacterium is carried by virgin queens when they leave to establish new nests, but is not found on male ants, playboys who take no responsibility in nest-making or gardening."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Because both the leaf-cutters and the lower attines use Streptomyces, the bacterium may have been part of their symbiosis for almost as long as the Escovopsis mould. If so, an ant equivalent of Alexander Fleming discovered antibiotics millions of years before people did. Even now, the ants are accomplishing two feats beyond the powers of human technology. The leaf-cutters are growing a monocultural crop year after year without disaster, and they are using an antibiotic apparently so wisely and prudently that, unlike people, they are not provoking antibiotic resistance in the target pathogen."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–24",
+    "g25": "Questions 25–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nMatch the ant groups, A–C, with the activities or features below.\nWrite the correct letter, A–C, in boxes 14–19 on your answer sheet.\nNB You may use any letter more than once.\n A                           Leaf-cutting ants\n\n B                           Lower attines\n\n C                           Both leaf-cutting ants and lower attine ants\n\n\n14 _________ can use toxic leaves to feed their fungus\n15 _________ build small nests and cultivate different fungus varieties\n16 _________ use dead vegetation to feed their fungus\n17 _________ cultivate a single fungus strain rather than several varieties\n18 _________ normally keep a highly dangerous parasite under control\n19 _________ use a special strategy to combat Escovopsis"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 24,
+      "text": "Questions 20–24\nReading Passage 2 has ten paragraphs, A–J.\nWhich paragraph contains the following information?\nWrite the correct letter A–J in boxes 20–24 on your answer sheet.\n20 ______________ The dangerous consequences of Escovopsis\n21 ______________ The risk of cultivating a single fungus strain\n22 ______________ A comparison of nests and the materials used to feed fungus gardens\n23 ______________ Ant achievements that preceded comparable human discoveries\n24 ______________ An advantage of cultivating new fungus varieties"
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 26,
+      "text": "Questions 25–26\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 25–26 on your answer sheet.\n\n\n25 What does the passage indicate about Currie’s rejection of the claim that ants keep their gardens free\nof parasites?\n  A His view was later confirmed.\n  B His initial study immediately provided sufficient evidence.\n  C The passage provides no details.\n  D His view was later disproved.\n\n\n26 What did scientists find on the ants’ cuticles under a microscope?\n  A white mould embedded in their skin\n  B wax covering all of their skin\n  C a substance useful to humans\n  D a substance that suppresses fungal growth"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________ can use toxic leaves to feed their fungus",
+      "translation": "可以利用有毒葉子餵養牠們的 fungus。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________ build small nests and cultivate different fungus varieties",
+      "translation": "建造較小的巢，並培養不同種類的 fungus。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________ use dead vegetation to feed their fungus",
+      "translation": "使用枯死植物餵養 fungus。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________ cultivate a single fungus strain rather than several varieties",
+      "translation": "培養單一 fungus strain，而非幾種不同 varieties。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________ normally keep a highly dangerous parasite under control",
+      "translation": "通常能把一種非常危險的 parasite 控制住。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________ use a special strategy to combat Escovopsis",
+      "translation": "使用特殊策略對抗 Escovopsis。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "______________ The dangerous consequences of Escovopsis",
+      "translation": "Escovopsis 造成的危險後果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "______________ The risk of cultivating a single fungus strain",
+      "translation": "培養單一 fungus strain 的風險。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "______________ A comparison of nests and the materials used to feed fungus gardens",
+      "translation": "比較不同 ants 的 nests，以及牠們餵養 fungus gardens 的材料。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "______________ Ant achievements that preceded comparable human discoveries",
+      "translation": "Ants 比人類更早完成、與人類發現相類似的成就。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "______________ An advantage of cultivating new fungus varieties",
+      "translation": "培養新 fungus varieties 的一項好處。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "What does the passage indicate about Currie’s rejection of the claim that ants keep their gardens free of parasites?",
+      "translation": "文章如何呈現 Currie 對「ants 會讓 gardens 沒有 parasites」這個說法的拒絕？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "What did scientists find on the ants’ cuticles under a microscope?",
+      "translation": "科學家在顯微鏡下看 ants’ cuticles 時，發現了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-045/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-045/page-6.jpg"
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "id": "p3-027",
+  "catalogueId": "p3-027",
+  "title": "What is a dinosaur?",
+  "sourceHeading": "What Is a Dinosaur?",
+  "passage": 3,
+  "practice": 27,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-027-what-is-a-dinosaur",
+  "source": {
+    "filename": "Practice 27 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "a3743294f090147bd504866d5dbba767d98f1a3d869536d95577b2c62ac9d8cd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Although the name dinosaur is derived from the Greek for “terrible lizard”, dinosaurs were not, in fact, lizards at all. Like lizards, dinosaurs are included in the class Reptilia, or reptiles, one of the five main classes of Vertebrata, animals with backbones. However, at the next level of classification, within reptiles, significant differences in the skeletal anatomy of lizards and dinosaurs have led scientists to place these groups of animals into two different superorders: Lepidosauria, or lepidosaurs, and Archosauria, or archosaurs."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Classified as lepidosaurs are lizards and snakes and their prehistoric ancestors. Included among the archosaurs, or “ruling reptiles”, are prehistoric and modern crocodiles, and the now-extinct thecodonts, pterosaurs and dinosaurs. Palaeontologists believe that both dinosaurs and crocodiles evolved, in the later years of the Triassic Period (c. 248–208 million years ago), from creatures called pseudosuchian thecodonts. Lizards, snakes and different types of thecodont are believed to have evolved earlier in the Triassic Period from reptiles known as eosuchians."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The most important skeletal differences between dinosaurs and other archosaurs are in the bones of the skull, pelvis and limbs. Dinosaur skulls are found in a great range of shapes and sizes, reflecting the different eating habits and lifestyles of a large and varied group of animals that dominated life on Earth for an extraordinary 165 million years. However, unlike the skulls of any other known animals, the skulls of dinosaurs had two long bones known as vomers. These bones extended on either side of the head, from the front of the snout to the level of the holes in the skull known as the antorbital fenestrae, situated in front of the dinosaur’s orbits or eye sockets."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "All dinosaurs, whether large or small, quadrupedal or bipedal, fleet-footed or slow-moving, shared a common body plan. Identification of this plan makes it possible to differentiate dinosaurs from any other types of animal, even other archosaurs. Most significantly, in dinosaurs, the pelvis and femur had evolved so that the hind limbs were held vertically beneath the body, rather than sprawling out to the sides like the limbs of a lizard. The femur of a dinosaur had a sharply inward-turned neck and a ball-shaped head, which slotted into a fully open acetabulum or hip socket. A supra-acetabular crest helped prevent dislocation of the femur. The position of the knee joint, aligned below the acetabulum, made it possible for the whole hind limb to swing backwards and forwards. This unique combination of features gave dinosaurs what is known as a “fully improved gait”. This highly efficient method of walking also evolved in mammals, but among reptiles it occurred only in dinosaurs."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "For the purpose of further classification, dinosaurs are divided into two orders: Saurischia, or saurischian dinosaurs, and Ornithischia, or ornithischian dinosaurs. This division is made on the basis of their pelvic anatomy. All dinosaurs had a pelvic girdle with each side comprising three bones: the pubis, ilium and ischium. However, the orientation of these bones follows one of two patterns. In saurischian dinosaurs, also known as lizard-hipped dinosaurs, the pubis points forwards, as is usual in most types of reptile. By contrast, in ornithischian, or bird-hipped, dinosaurs, the pubis points backwards towards the rear of the animal, which is also true of birds."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Of the two orders of dinosaurs, the Saurischia was the larger and the first to evolve. It is divided into two suborders: Theropoda, or theropods, and Sauropodomorpha, or sauropodomorphs. The theropods, or “beast feet”, were bipedal, predatory carnivores. They ranged in size from the mighty Tyrannosaurus rex, 12 m long, 5.6 m tall and weighing an estimated 6.4 tonnes, to the smallest known dinosaur, Compsognathus, a mere 1.4 m long and an estimated 3 kg in weight when fully grown. The sauropodomorphs, or “lizard feet forms”, included both bipedal and quadrupedal dinosaurs. Some sauropodomorphs were carnivorous or omnivorous but later species were typically herbivorous. They included some of the largest and best-known of all dinosaurs, such as Diplodocus, a huge quadruped with an elephant-like body, a long, thin tail and neck that gave it a total length of 27 m, and a tiny head."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Ornithischian dinosaurs were bipedal or quadrupedal herbivores. They are now usually divided into three suborders: Ornithopoda, Thyreophora and Marginocephalia. The ornithopods, or “bird feet”, both large and small, could walk or run on their long hind legs, balancing their body by holding their tails stiffly off the ground behind them. An example is Iguanodon, up to 9m long, 5m tall and weighing 4.5 tonnes. The thyreophorans, or “shield bearers”, also known as armoured dinosaurs, were quadrupeds with rows of protective bony spikes, studs, or plates along their backs and tails. They included Stegosaurus, 9m long and weighing 2 tonnes."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The marginocephalians, or “margined heads”, were bipedal or quadrupedal ornithischians with a deep bony frill or narrow shelf at the back of the skull. An example is Triceratops, a rhinoceros-like dinosaur, 9m long, weighing 5.4 tonnes and bearing a prominent neck frill and three large horns."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27–33\nReading Passage 3 has 8 paragraphs (A–H).\nChoose the most suitable heading for each paragraph from the List of headings below.\nWrite the appropriate numbers (i–xiii) in Boxes 27–33 on your answer sheet.\nOne of the headings has been done for you as an example.\nNB. There are more headings than paragraphs, so you will not use all of them.\n\n\n                         List of headings\n\n i                       165 million years\n\n ii                      The body plan of archosaurs\n\n iii                     Dinosaurs—terrible lizards\n\n iv                      Classification according to pelvic anatomy\n\n v                       The suborders of Saurischia\n\n vi                      Lizards and dinosaurs—two distinct superorders\n\n vii                     Unique body plan helps identify dinosaurs from other animals\n\n viii                    Herbivore dinosaurs\n\n ix                      Lepidosaurs\n\n x                       Frills and shelves\n\n xi                      The origins of dinosaurs and lizards\n\n xii                     Bird-hipped dinosaurs\n\n xiii                    Skull bones distinguish dinosaurs from other archosaurs\n27 _______________ Paragraph A\n28 _______________ Paragraph B\n29 _______________ Paragraph C\n30 _______________ Paragraph D\n31 _______________ Paragraph E\n32 _______________ Paragraph F\n33 _______________ Paragraph G\nExample: Paragraph H Answer: x"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 36,
+      "text": "Questions 34–36\nComplete the sentences below.\nUse NO MORE THAN THREE WORDS from the passage for each blank space.\nWrite your answers in boxes 34–36 on your answer sheet.\n\n\n\n\nLizards and dinosaurs are classified into two different superorders because\nof the difference in their 34 _______________\nIn the Triassic Period, lizards, snakes and thecodonts evolved from 35\n_______________.\nDinosaur skulls differed from those of any other known animals because\nthey contained 36 _______________."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nChoose one phrase (A–H) from the List of features to match with the Dinosaurs listed below.\nWrite the appropriate letters (A–H) in boxes 37–40 on your answer sheet.\nThe information in the completed sentences should be an accurate summary of the points made\nby the writer.\nNB. There are more phrases (A–H) than sentences, so you will not need to use them all.\nYou may use each phrase once only.\n\n\nDinosaurs\n                          List of features\n\n A                        are both divided into two orders.\n\n B                        the former had a “fully improved gait”.\n\n C                        were not usually very heavy.\n\n D                        could walk or run on their back legs.\n\n E                        their hind limbs sprawled out to the side.\n\n F                        walked or ran on four legs, rather than two.\n\n G                        both had a pelvic girdle comprising six bones.\n\n H                        did not always eat meat.\n37 _______________ Dinosaurs differed from lizards because\n38 _______________ Saurischian and ornithischian dinosaurs\n39 _______________ Unlike theropods, sauropodomorphs\n40 _______________ Some dinosaurs used their tails to balance and could walk"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_______________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii",
+        "xiii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_______________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii",
+        "xiii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_______________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii",
+        "xiii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_______________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii",
+        "xiii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_______________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii",
+        "xiii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_______________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii",
+        "xiii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_______________ Paragraph G Example: Paragraph H Answer: x",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii",
+        "xiii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "Lizards 和 dinosaurs 被分入兩個不同 superorders，原因是牠們的甚麼有差異？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "在 Triassic Period，lizards、snakes 和 thecodonts 由甚麼演化而來？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "Dinosaur skulls 和其他已知動物的 skulls 不同，原因是它們含有甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "_______________ Dinosaurs differed from lizards because",
+      "translation": "Dinosaurs 和 lizards 有差異，原因是 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "_______________ Saurischian and ornithischian dinosaurs",
+      "translation": "Saurischian 和 ornithischian dinosaurs ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "_______________ Unlike theropods, sauropodomorphs",
+      "translation": "與 theropods 相比，sauropodomorphs ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "_______________ Some dinosaurs used their tails to balance and could walk",
+      "translation": "有些 dinosaurs 用尾巴保持平衡，並且可以怎樣行走？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-027/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-027/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-027/page-6.jpg"
+  ]
+}

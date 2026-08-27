@@ -1,0 +1,287 @@
+{
+  "id": "p3-049",
+  "catalogueId": "p3-049",
+  "title": "Theory or Practice? —What is the point of research carried out by biz schools?",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 49,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-049-theory-or-practice-what-is-the-point-of-research-carried-out-by-biz-schools",
+  "source": {
+    "filename": "Practice 49 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "cafe718f0928aa1243199af300db635a58a4834718a57249470ee48753897e5b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Theory or Practice? What Is the Point of Research Carried Out by Business Schools? Students go to universities and other academic institutions to prepare for their future. We pay tuition and struggle through classes in the hope that we can find a fulfilling and exciting career. But your choice of university has a major influence on your future. How can you know which university will best prepare you for your future? Like other academic institutions, business schools are judged by the quality of the research carried out by their faculties. Professors must both teach students and produce original research in their own field. The quality of this research is assessed by academic publications. At the same time, universities have another responsibility to equip their students for the real world, however that is defined. Most students learning from professors will not go into academia themselves—so how do academics best prepare them for their future careers, whatever they may be? Whether academic research produces anything useful to business practice—or whether producing such research is even the responsibility of business schools—are questions that can provoke vigorous arguments on campus."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The debate, which first flared during the 1950s, was reignited in August, when AACSB International, the most widely recognised global accrediting agency for business schools, announced it would consider changing the way it evaluates research. The news followed rather damning criticism in a 2002 study by Jeffrey Pfeffer, a Stanford professor, and Christina Fong of Washington University, which questioned whether business education in its current guise was sustainable. The study found that traditional academic models were not adequately preparing students for the kinds of careers they faced today. The most controversial recommendation in AACSB’s draft report (which was sent round to administrators for their comment) is that the schools should be required to demonstrate the value of their faculties’ research not simply by listing its citations in journals, but by demonstrating the impact it has in the professional world. New criteria, such as average incomes, student placement in top firms and business collaborations, would now be considered just as important as academic publications."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "AACSB justifies its stance by saying that it wants schools and faculty to play to their strengths, whether those strengths lie in pedagogy, research with practical applications or scholarly endeavour. Traditionally, universities operate in a pyramid structure. Faculty members enter and remain in the system in an attempt to succeed in their academic fields. A psychology professor must publish competitive research in the top neuroscience journals. A cultural-studies professor must send graduate students on new field research expeditions to be taken seriously. This research is the core of a university’s output. And research of any kind is expensive—AACSB points out that business schools in America alone spend more than $320m a year on it. So it seems legitimate to ask for what purpose it is undertaken."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "If a school chose to specialise in professional outputs rather than academic outputs, it could redirect such a large sum of money into more fruitful programmes. For example, if a business school wanted more of its graduates employed at top financial firms, this money may be better spent on a career centre that focuses on building the skills of students, rather than paying for more high-level research to be conducted by faculty. A change in evaluation could also open the door to inviting more professionals from different fields to teach as adjuncts. Students could take accredited courses taught by people who are currently working in their dream field. The AACSB asks universities to explain why research is the most critical component of traditional education."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "On one level, the question is simple to answer. Research in business schools, as anywhere else, is about expanding the boundaries of knowledge; it thrives on answering unasked questions. Surely this pursuit of knowledge is still important to the university system. Our society progresses because we learn how to do things in new ways, a process that depends heavily on academic research. But one cannot ignore the other obvious practical uses of research publications. Research is also about cementing schools’ and professors’ reputations. Schools gain kudos from their faculties’ publication records—which journals publish their research, and how often. In some cases, such as with government-funded schools in Britain, it can affect how much money they receive. For professors, the mantra is often “publish or perish”. Their careers depend on being seen in the right journals."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "But at a certain point, one has to wonder whether this research is being done for the benefit of the university or for the students the university aims to teach. More publications will attract greater funding, which will in turn be spent on better publications. Students seeking to enter careers outside academia find this cycle frustrating, and often see their professors as being part of the “Ivory Tower” of academia, operating in a self-contained community that has little influence on the outside world."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Part of the trouble is that the journals labour under a similar ethos. They publish more than 20,000 articles each year. Most of the research is highly quantitative, hypothesis-driven and esoteric. As a result, it is almost universally unread by real-world managers. Much of the research criticises other published research. A paper in a 2006 issue of Strategy & Leadership commented that “research is not designed with managers’ needs in mind, nor is it communicated in the journals they read. For the most part, it has become a self-referential closed system irrelevant to corporate performance.” The AACSB insists that this separation must change for the future of higher education. If students must invest thousands of dollars for an education as part of their career path, the academics who teach the students should be more fully incorporated into the professional world. This means that universities must focus on other strengths outside of research, such as professional networks, technology skills, and connections with top business firms around the world. Though many universities resisted the report, today’s world continues to change. Universities that prepare students for our changing future have little choice but to adapt to new trends and standards."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–29",
+    "g30": "Questions 30–31",
+    "g32": "Questions 32–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 29,
+      "text": "Questions 27–29\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27–29 on your answer sheet.\n\n\n27 In the second paragraph, the recommendation given by AACSB is\n A to focus only on listing citations of research papers.\n B to consider the quantity of academic publications.\n C to evaluate how the paper influences the field.\n D to maintain the traditional academic models.\n\n\n28 Why does AACSB put forward the recommendation?\n A to make full use of faculty members’ strengths.\n B to reinforce universities’ pyramid structure.\n C to push professors to publish competitive papers.\n D to reduce costs of research in universities.\n\n\n29 Why does the author mention the journal Strategy & Leadership?\n A to characterise research as irrelevant to company performance.\n B to suggest that managers don’t read research papers.\n C to describe students’ expectations for universities.\n D to exemplify high-quality research papers."
+    },
+    {
+      "id": "g30",
+      "start": 30,
+      "end": 31,
+      "text": "Questions 30–31\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 30–31 on your answer sheet.\nWhich TWO statements are consistent with Jeffrey Pfeffer and Christina Fong’s views?\n A Students should pay less to attend universities.\n B Business education is not doing its job well.\n C Professors should not focus on writing papers.\n D Students are ill-prepared by universities for their careers.\n E A recognised accrediting agency can evaluate research effectively."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 36,
+      "text": "Questions 32–36\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 32–36 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n32 _________________ The debate about the usefulness of academic research for business\npractices is a recent one.\n33 _________________ AACSB’s draft report was not reviewed externally.\n34 _________________ Business schools in the US spend more than 320 million dollars yearly\non research.\n35 _________________ Many universities pursue professional outputs.\n36 _________________ A greater number of publications benefits professors and students\nalike."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete each sentence with the correct ending, A–E, below.\nWrite the correct letter, A–E, in boxes 37–40 on your answer sheet.\n A                        it progresses as we learn innovative ways of doing things.\n\n B                        the trends and standards are changing.\n\n C                        their jobs depend on it.\n\n D                        they care about their school rankings and government funds.\n\n E                        it helps students to go into top business firms.\n\n37 ___________ Most professors support academic research because\n38 ___________ Schools support academic research because\n39 ___________ Our society needs academic research because\n40 ___________ Universities resisting the AACSB should change because"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "In the second paragraph, the recommendation given by AACSB is",
+      "translation": "在第二段中，AACSB 給出的建議是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Why does AACSB put forward the recommendation?",
+      "translation": "AACSB 為甚麼提出這個建議？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Why does the author mention the journal Strategy & Leadership?",
+      "translation": "作者為甚麼提到《Strategy & Leadership》這本期刊？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "以下哪兩項和 Jeffrey Pfeffer 及 Christina Fong 的觀點一致？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "以下哪兩項和 Jeffrey Pfeffer 及 Christina Fong 的觀點一致？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ The debate about the usefulness of academic research for business practices is a recent one.",
+      "translation": "關於 academic research 對 business practices 是否有用的辯論，是近年才出現的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ AACSB’s draft report was not reviewed externally.",
+      "translation": "AACSB 的草擬報告沒有被外部人士審閱或評論。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Business schools in the US spend more than 320 million dollars yearly on research.",
+      "translation": "美國商學院每年在研究上花費超過 3.2 億美元。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Many universities pursue professional outputs.",
+      "translation": "許多大學追求 professional outputs。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ A greater number of publications benefits professors and students alike.",
+      "translation": "更多 publications 對教授和學生同樣有利。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "___________ Most professors support academic research because",
+      "translation": "大多數教授支持學術研究，因為他們的工作或職業發展取決於它。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "___________ Schools support academic research because",
+      "translation": "學校支持學術研究，因為它們重視學校聲譽／排名，以及政府資金。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "___________ Our society needs academic research because",
+      "translation": "社會需要學術研究，因為當我們學會用新方法做事時，社會就會進步。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "___________ Universities resisting the AACSB should change because",
+      "translation": "那些抗拒 AACSB 的大學應該改變，因為趨勢和標準正在改變。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-049/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-049/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-049/page-6.jpg"
+  ]
+}

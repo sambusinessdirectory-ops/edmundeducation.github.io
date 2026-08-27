@@ -1,0 +1,244 @@
+{
+  "id": "p1-004",
+  "catalogueId": "p1-004",
+  "title": "It’s Only a Cockroach",
+  "sourceHeading": "It’s Only a Cockroach",
+  "passage": 1,
+  "practice": 4,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-004-its-only-a-cockroach",
+  "source": {
+    "filename": "Practice 4- IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "e459425fd03831dbb8f5df61c693bc99c8d5f1a656636a06d0467d23a3542415"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "I turn on the light in my kitchen that night, and then I see it. I draw back, and my first instinct is to scream. I control myself with difficulty, but find myself shuddering, unable to deal with the creature before me. It’s only a cockroach, but its large size, long antennae, shiny appearance, and spiny legs, all present a particularly disgusting appearance. And this is not just to me, but to everyone it seems, even to the point of phobic responses."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "This is certainly the over-riding reason I want these creatures totally eradicated from my apartment, but with their offensive odour, passive transportation of microbes, and trails of droppings, they also pose a distinct threat to domestic hygiene. Clearly, cohabitation is not possible. So, I do all I can to keep these pests away. Food is stored in sealed containers, garbage cans have tight lids, my kitchen is kept spotlessly clean, and my apartment swept and mopped nightly. I have also sealed up possible entry points, but still, these loathsome things find their way inside. I need a way to kill them."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The most precise cockroach killer is, typically, another insect. A specific species of wasp targets these creatures. With a quick accurate swoop, it bites the cockroach at the main nerve centre of its body, which results in a temporary paralysis. This is very necessary, as we all know just how fast cockroaches can run. The wasp has only a few minutes to prepare its next sting, in the exact area of the brain which controls the cockroaches’ instinct to escape. After the paralysis departs, the cockroach is subdued and docile, and doomed. The wasp bites off the antennae to further discourage flight, then drags its victim away."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Faced with such predation, cockroaches usually conceal themselves during the day, and with their ability to flatten their bodies, they can disappear into just about any tiny nook, crevice, and cranny. There, they wait patiently for darkness before emerging to search for food, and will usually run away when exposed to light. Given this, I am told that the slim and agile house centipede is probably the most effective cockroach predator, able to track down and root out the most carefully hidden prey. Unfortunately, I would say that centipedes are even more disgusting to have in one’s house, if that’s possible. I just can’t win this game."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Can anyone win? These insects are just about the hardiest, on the planet. Some can wait for up to three months before meals, some can survive on the barest hint of nutrition (such as the glue on the back of postage stamps), and some can live without air for over half an hour. They do not, however, handle cold weather well, preferring the warm conditions and security found within buildings."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Hidden there, the female lays egg capsules containing around 40 eggs, and with the insect’s relatively long lifespan (about a year), some 300 to 400 offspring can ultimately be produced. The result: once these insects have infested a building, they are very difficult to eradicate."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Cockroaches do, however, have some subtleties. They leave chemical messages in their droppings, as well as emit airborne pheromones to signal other cockroaches about sources of food and water, and alert them to their own presence. The latter is more important, for these insects are actually somewhat gregarious. Research has shown that cockroaches make group-based decisions, and tend to co-operate. One study placed a large number of cockroaches in a dish with three small shelters, and the insects divided themselves equally between two of them, leaving the third one empty. When these shelters were exchanged for two very large ones, all the cockroaches arranged themselves in just one. These creatures, it seems, prefer the company of others, and a rather fair location of resources."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Should I therefore feel any admiration? It is hard – in fact, in Western culture, cockroaches are almost universally depicted as repulsive and dirty pests. In the insect’s most famous literary appearance – Franz Kafka’s ‘The Metamorphosis’ – a man, Gregor, is transformed overnight into a monstrous insect, probably a cockroach (although the story never quite makes that clear). Gregor’s transformation results in very predictable responses from his family and friends, who can never accept him again. He eventually dies, outcast and lonely, despised and mistreated – a potent symbol of alienation and rejection. Yet in the Pixar animated feature ‘Wall-E’, a cockroach provides essential companionship to a lone robot living on a planet scorched by a nuclear holocaust."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Whatever the case, I am faced with a big problem: a large ugly cockroach crawling slowly across my sink, antennae waving as it explores around. If I try to grab it, it will dart away, and I doubt whether I’ll be able to catch it before it disappears into the numerous cracks and crevices of my old apartment. So, I carefully remove my slipper, determined to squash the insect, but then almost scream again as it lifts on its legs, raises membranous wings, and with a loud buzzing noise, flies away. Oh, just what I need, they can fly, too."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–11",
+    "g12": "Questions 12–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1-4\n\nAnswer the questions.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer\n\nWhat aspect of cockroaches makes the author want them removed from the home?\n\n1 __________\n\nWhat human aspect do they endanger?\n\n2 __________\n\nWhich insect is the best cockroach killer?\n\n3 __________\n\nWhat can cockroaches do to easily hide?\n\n4 __________"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5-8\n\nDo the following statements agree with the information given in Reading Passage One?\n\nWrite\n\nTRUE             if the statement agrees with the information\n\n\nFALSE            if the statement contradicts the information\n\n\nNOT GIVEN If there is no information on this\n\n\n5 The author finds cockroaches more repulsive than centipedes.\n\n6 Cockroaches live longer than many other insects.\n\n7 Cockroaches will fight over food.\n\n8 Cockroaches are often the subject of research."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 11,
+      "text": "Questions 9-11\n\nComplete the summary of the second half of the passage.\n\nChoose ONE WORD from the passage for each answer.\n\n Cockroaches use 9__________ in the air to communicate, and\n show a willingness to 10__________ , yet the author struggles to\n feel 11__________ for these insects."
+    },
+    {
+      "id": "g12",
+      "start": 12,
+      "end": 13,
+      "text": "Questions 12-13\n\nChoose the correct letter, A, B, C, or D.\n\n12\n\nGregor\n\nA becomes a cockroach.\n\nB is a famous character.\n\nC despises his friends.\n\nD needs companionship.\n\n\n\n\n13\n\nThe author wants to\n\nA catch the cockroach.\n\nB kill the cockroach.\n\nC touch the cockroach.\n\nD fly like a cockroach."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "__________ What human aspect do they endanger?",
+      "translation": "cockroaches 的哪一方面令作者想把牠們從家中清除？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "__________ Which insect is the best cockroach killer?",
+      "translation": "牠們危害人類生活中的哪一方面？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "__________ What can cockroaches do to easily hide?",
+      "translation": "哪一種昆蟲是最好的 cockroach killer？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "__________",
+      "translation": "cockroaches 能做甚麼，使牠們容易躲藏？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "The author finds cockroaches more repulsive than centipedes.",
+      "translation": "作者覺得 cockroaches 比 centipedes 更令人反感。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Cockroaches live longer than many other insects.",
+      "translation": "cockroaches 比許多其他昆蟲活得更久。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Cockroaches will fight over food.",
+      "translation": "cockroaches 會為食物而打鬥。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Cockroaches are often the subject of research.",
+      "translation": "cockroaches 經常是研究對象。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "cockroaches 使用空氣中的 9__________ 來溝通。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "並顯示牠們願意 10__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "可是作者很難對這些昆蟲感到 11__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "Gregor",
+      "translation": "Gregor 這個人物……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "The author wants to",
+      "translation": "作者想要……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-004/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-004/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-004/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-004/page-8.jpg"
+  ]
+}

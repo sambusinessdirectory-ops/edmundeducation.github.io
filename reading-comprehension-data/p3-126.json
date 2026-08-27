@@ -1,0 +1,287 @@
+{
+  "id": "p3-126",
+  "catalogueId": "p3-126",
+  "title": "Is Graffiti Art or Crime",
+  "sourceHeading": "Is Graffiti Art or Crime?",
+  "passage": 3,
+  "practice": 126,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-126-is-graffiti-art-or-crime",
+  "source": {
+    "filename": "Practice 126 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "3d59be04caeae70d9b72eb94bb8895343af6988ef4f9ab4ca25f045b71418502"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The term graffiti derives from the Italian graffito, meaning ‘scratching’, and can be defined as uninvited marking or writing scratched or applied to objects, built structures and natural features. It is not a new phenomenon: examples can be found on ancient structures around the world, in some cases predating the Greeks and Romans. In such circumstances it has acquired invaluable historical and archaeological significance, providing a social history of life and events at that time. Graffiti is now a problem that has become pervasive, as a result of the availability of cheap and quick means of mark-making."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "It is usually considered a priority to remove graffiti as quickly as possible after it appears. This is for several reasons. The first is to prevent ‘copy-cat’ emulation which can occur rapidly once a clean surface is defaced. It may also be of a racist or otherwise offensive nature and many companies and councils have a policy of removing this type of graffiti within an hour or two of it being reported. Also, as paints, glues and inks dry out over time they can become increasingly difficult to remove and are usually best dealt with as soon as possible after the incident. Graffiti can also lead to more serious forms of vandalism and, ultimately, the deterioration of an area, contributing to social decline."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Although graffiti may be regarded as an eyesore, any proposal to remove it from sensitive historic surfaces should be carefully considered: techniques designed for more robust or utilitarian surfaces may result in considerable damage. In the event of graffiti incidents, it is important that the owners of buildings or other structures and their consultants are aware of the approach they should take in dealing with the problem. The police should be informed as there may be other related attacks occurring locally. An incident pattern can identify possible culprits, as can stylised signatures or nicknames, known as ‘tags’, which may already be familiar to local police. Photographs are useful to record graffiti incidents and may assist the police in bringing a prosecution. Such images are also required for insurance claims and can be helpful to cleaning operatives, allowing them to see the problem area before arriving on site."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "There are a variety of methods that are used to remove graffiti. These divide broadly into chemical and mechanical systems. Chemical preparations are based on dissolving the media; these solvents can range from water to potentially hazardous chemical ‘cocktails’. Mechanical systems such as wire-brushing and grit-blasting attempt to abrade or chip the media from the surface. Care should be taken to comply with health and safety legislation with regard to the protection of both passers-by and any person carrying out the cleaning. Operatives should follow product guidelines in terms of application and removal, and wear the appropriate protective equipment. Measures must be taken to ensure that run-off, aerial mists, drips and splashes do not threaten unprotected members of the public. When examining a graffiti incident it is important to assess the ability of the substrate to withstand the prescribed treatment. If there is any doubt regarding this, then small trial areas should be tested to assess the impact of more extensive treatment."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "A variety of preventive strategies can be adopted to combat a recurring problem of graffiti at a given site. As no two sites are the same, no one set of protection measures will be suitable for all situations. Each site must be looked at individually. Surveillance systems such as closed-circuit television may also help. In cities and towns around the country, prominently placed cameras have been shown to reduce anti-social behaviour of all types including graffiti. Security patrols will also act as a deterrent to prevent recurring attacks. However, the cost of this may be too high for most situations. Physical barriers such as a wall, railings, doors or gates can be introduced to discourage unauthorised access to a vulnerable site. However, consideration has to be given to the impact that measures have on the structure being protected. In the worst cases, they can be almost as damaging to the quality of the environment as the graffiti they prevent. In others, they might simply provide a new surface for graffiti."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "One of the most significant problems associated with graffiti removal is the need to remove it from surfaces that are repeatedly attacked. Under these circumstances, the repeated removal of graffiti using even the most gentle methods will ultimately cause damage to the surface material. There may be situations where the preventive strategies mentioned above do not work or are not a viable proposition at a given site. Anti-graffiti coatings are usually applied by brush or spray, leaving a thin veneer that essentially serves to isolate the graffiti from the surface."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Removal of graffiti from a surface that has been treated in this way is much easier, usually using low-pressure water which reduces the possibility of damage. Depending on the type of barrier selected it may be necessary to reapply the coating after each graffiti removal exercise."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–34",
+    "g35": "Questions 35–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nThe reading passage has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 27–32 on your answer sheet.\nNB You may use any letter more than once.\n27 why chemical cleaning may damage a surface\n28 the benefit of a precautionary measure for gentle removal\n29 the damaging cumulative impact of graffiti on a community\n30 the need to use different preventive measures\n31 a recommendation that building owners involve the police\n32 the reasons for removing graffiti as soon as possible"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 34,
+      "text": "Questions 33–34\nChoose TWO letters, A–E.\nWrite your answers in boxes 33–34 on your answer sheet.\nWhich TWO statements are true concerning the removal of graffiti?\n A Chemical ‘cocktail’ treatments can be safer than water treatment.\n B A small test patch should be tried before large-scale removal.\n C Chemical treatments are the most expensive removal method.\n D There are risks with both chemical and mechanical methods.\n E Mechanical methods are much more suitable than chemical treatments."
+    },
+    {
+      "id": "g35",
+      "start": 35,
+      "end": 36,
+      "text": "Questions 35–36\nChoose TWO letters, A–E.\nWrite your answers in boxes 35–36 on your answer sheet.\nWhich TWO of the following preventive measures against graffiti are mentioned as effective in\nthe passage?\n A Organise more anti-graffiti campaigns in urban communities.\n B Increase police patrols on the streets.\n C Construct new buildings from water-repellent materials.\n D Install more visible security cameras.\n E Apply a chemical coating to the entire surface."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete the summary of the reading passage.\nUse NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 37–40 on your answer sheet.\n\n\nAncient graffiti is significant because it records the 37 _________________ of life\nduring that period.\nThe police may recognise new graffiti by its signature, called a 38\n_________________, if they are already familiar with it.\nDuring removal, operatives must comply with relevant rules and wear suitable 39\n_________________.\nGraffiti can be removed more conveniently from a coated surface by using 40\n_________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "why chemical cleaning may damage a surface",
+      "translation": "哪一段提到為甚麼化學清潔可能損壞表面？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "the benefit of a precautionary measure for gentle removal",
+      "translation": "哪一段提到某種預防／保護措施對溫和移除 graffiti 的好處？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "the damaging cumulative impact of graffiti on a community",
+      "translation": "哪一段提到 graffiti 對社區逐步累積的破壞性影響？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "the need to use different preventive measures",
+      "translation": "哪一段提到需要因應不同情況使用不同的預防措施？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "a recommendation that building owners involve the police",
+      "translation": "哪一段建議建築物擁有人應讓警方介入？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "the reasons for removing graffiti as soon as possible",
+      "translation": "哪一段列出 graffiti 出現後應盡快移除的原因？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "古代 graffiti 重要，因為它記錄了那個時期生活的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "如果警方已經熟悉某種簽名，他們可能透過這種稱為 ______ 的簽名辨認新的 graffiti。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "移除 graffiti 時，操作人員必須遵守相關規則，並穿戴合適的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "graffiti 可以從有 coating 的表面更方便地移除，方法是使用 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-126/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-126/page-5.jpg"
+  ]
+}

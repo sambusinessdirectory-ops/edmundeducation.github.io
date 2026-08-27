@@ -1,0 +1,250 @@
+{
+  "id": "p1-143",
+  "catalogueId": "p1-143",
+  "title": "Ambergris",
+  "sourceHeading": "Ambergris",
+  "passage": 1,
+  "practice": 143,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-143-ambergris",
+  "source": {
+    "filename": "Practice 143 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "d23e000319b77b9aaaa5e01142e496eb1096507f293aa9c36df28b5675e69e6f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The name ambergris is derived from the Spanish “ambar gris”, ambar meaning amber and gris meaning grey, thus the name signifies grey amber. The use of ambergris in Europe is now confined to use as a perfumery material. Its high price varies from $15 to $25 an ounce, though it formerly occupied a considerable place in medicine. Ambergris was also fashioned into ornaments and worn as jewellery, particularly during the Renaissance. It occupies a very important place in the perfumery of the East, and there it is also used in pharmacy and as a flavouring material in cookery."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Amber, however, is quite a different substance from ambergris and this discrepancy has puzzled some people. Amber is the fossilised resin from trees that was quite familiar to Europeans long before the discovery of the New World, and prized for jewellery. Although considered a gem, amber is a hard, transparent and wholly organic material derived from the resin of extinct species of trees. In the dense forests of the Middle Cretaceous and Tertiary periods, between 10 and 100 million years ago, these resin-bearing trees fell and were carried by rivers to coastal regions. There, the trees and their resins became covered with sediment, and over millions of years the resin hardened into amber."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Ambergris and amber are related by the fact that both wash up on beaches. Ambergris is a solid, waxy and flammable substance of a dull grey or blackish colour, with the shades being variegated like marble. It possesses a peculiar sweet, earthy odour not unlike isopropyl alcohol. It is now known to be a morbid secretion formed in the intestines of the sperm whale, found in the Atlantic and Pacific oceans. Being a very lightweight material, ambergris is found floating upon the sea, on the sea coast, or in the sand near the sea coast. It is met with in the Atlantic Ocean, on the coasts of Brazil and Madagascar; also on the coasts of Africa, the East Indies, China, Japan and the Molucca Islands; but most of the ambergris which is brought to England comes from the Bahama Islands. It is also sometimes found in the abdomen of whales; it is always in lumps in various shapes and sizes, weighing from 1/2 oz to 100 or more lb. A piece which the Dutch East India Company bought from the King of Tydore weighed 182 lb. An American fisherman from Antigua found, inside a whale, about 52 leagues south-east from the Windward Islands, a piece of ambergris which weighed about 130 lb, and sold for £500 sterling."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Like many substances whose origins were once obscure, ambergris was formerly valued, and credited with special properties, more for its mysterious source than for its inherent qualities. Many ridiculous hypotheses were proposed to account for its origin, and among others it was conjectured to be the solidified foam of the sea, a fungous growth in the ocean similar to the fungi which form on trees."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The true source and character of ambergris was first satisfactorily established by Dr Swediaur in a communication to the Royal Society. Dr Swediaur found that ambergris very frequently contained the horny mandibles or beaks of the squid, on which the sperm whales are known to feed. That observation, in connection with the fact of ambergris being frequently taken from the intestines of the sperm whale, sufficiently proved that the substance is produced by the whale’s intestines as a means of facilitating the passage of undigested hard, sharp beaks of squid that the whale has eaten."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "It was further observed that whales containing ambergris were either dead or, if alive, severely emaciated and evidently in a sickly condition. From this it was inferred that ambergris is in some way connected with a morbid condition of the sperm whale. Often expelled by vomiting, ambergris floats in chunks on the water and is of a deep grey colour, a soft consistency, and an offensive, disagreeable smell. Following months to years of photodegradation and oxidation in the ocean, this precursor gradually hardens, developing a dark grey or black colour, a crusty and waxy texture, and a peculiar odour that is at once sweet, earthy, marine, and animalic. Its smell has been described by many as a vastly richer and smoother version of isopropanol without its stinging harshness."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In that condition its specific gravity ranges from 0.780 to 0.926. It melts at a temperature of about 145°F into a fatty yellow resin-like liquid. It is soluble in ether, volatile and fixed oils, but only feebly acted on by acids. By digesting it in hot alcohol, a peculiar substance termed ambrein is obtained. In chemical constitution, ambrein very closely resembles cholesterin, a principle found abundantly in biliary calculi. It is therefore more than probable that ambergris, from the position in which it is found and its chemical constitution, is a biliary concretion analogous to those formed in other mammals."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The industries founded on ambergris resulted in the slaughter of sperm whales almost to extinction. Sperm whales were killed during two periods of intensive hunting: the era of the Moby-Dick whalers, mainly between 1740 and 1880, and the modern whaling era, which peaked in 1964, when 29,255 whales were killed. Most recent estimates suggest a global population of about 360,000 animals, down from about 1,100,000 before whaling. In the 20th century, 90 per cent of ambergris was obtained during the processing of killed sperm whales. Ambergris remains the most expensive product obtained from a sperm whale. Depending on its quality, raw ambergris fetches approximately US$20 per gram. In the United States, possession of any part of an endangered species—including ambergris that has washed ashore—is a violation of the Endangered Species Act of 1978."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Historically, the primary commercial use of ambergris has been in fragrance chemistry. However, it is difficult to get a consistent and reliable supply of high-quality ambergris. Due to demand for ambergris and its high price, replacement compounds have been sought by the fragrance industry and chemically synthesised. The most important of these is Ambrox, which has taken its place as the most widely used amber odourant in perfume manufacture. Procedures for the microbial production of Ambrox have also been devised."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nClassify each statement as applying to\n A                        ambergris only\n\n B                        amber only\n\n C                        both amber and ambergris\n\n D                        neither amber nor ambergris\n1 ____________ Very expensive\n2 ____________ Used as a food flavouring\n3 ____________ Used as currency\n4 ____________ Referred to in a communication\n5 ____________ Transparent"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nComplete the summary below.\nChoose ONE WORD from the passage for each answer.\nWrite your answers in boxes 6–9 on your answer sheet.\nThe formation of ambergris involves several stages. First, when a sperm whale eats the\nhard, sharp 6 ____________ of squid, its intestine produces ambergris to facilitate their 7\n____________. Ambergris can then be 8 ____________ up by the sperm whale and float\non the water. After months of exposure to the air, it 9 ____________ and its colour turns\ndark grey or black."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nDo the following statements agree with the information given in the passage?\nIn boxes 10–13 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n10 In the twentieth century, most ambergris was obtained during the killing of sperm whales.\n11 The price of ambergris has increased recently.\n\n12 Ambergris is still used in perfume-making.\n13 Ambergris is still the most important amber odourant in perfume manufacture."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Very expensive",
+      "translation": "非常昂貴。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Used as a food flavouring",
+      "translation": "用作食物調味。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Used as currency",
+      "translation": "用作貨幣。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Referred to in a communication",
+      "translation": "在一份 communication 中被提及。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Transparent",
+      "translation": "透明的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "首先，當 sperm whale 吃下魷魚堅硬尖銳的 ______ 時……",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "牠的腸道產生 ambergris，以幫助它們 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "Ambergris 之後可以被 sperm whale ______ 出來，然後漂浮在水面。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "經過數月暴露於空氣後，它會 ______，顏色變成深灰或黑色。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "In the twentieth century, most ambergris was obtained during the killing of sperm whales.",
+      "translation": "在二十世紀，大部分 ambergris 是在捕殺 sperm whales 的過程中取得的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "The price of ambergris has increased recently.",
+      "translation": "Ambergris 的價格最近上升了。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Ambergris is still used in perfume-making.",
+      "translation": "Ambergris 仍然用於香水製作。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Ambergris is still the most important amber odourant in perfume manufacture.",
+      "translation": "Ambergris 仍然是香水製造中最重要的 amber odourant。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-143/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-143/page-6.jpg"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "p1-093",
+  "catalogueId": "p1-093",
+  "title": "Family Names",
+  "sourceHeading": "Family Names",
+  "passage": 1,
+  "practice": 93,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-093-family-names",
+  "source": {
+    "filename": "Practice 93 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "2ce5dabf238ed7342ea4ac5e157197a9ca05b91a35de117035af513e317aa93c"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Any specific study of words and language almost invariably has an obscure name, and that includes the study of people’s names themselves. This science is called anthroponomastics (anthropos meaning ‘man’ and onoma meaning ‘name’), but do not expect that word to be useful in your life. Yet all people possess names, and most possess several. A family name’s apparently random nature warrants reflection because tracing it far enough back in time inevitably reveals some logic behind its formation. After all, that is the name people will carry throughout their lives (name changes aside), and pass on to their descendants."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "In early Britain, people lived in small farming hamlets, where they generally stayed throughout their lives and had only one name. Being the only person named ‘John’ in the village allowed that single name to distinguish the person adequately from all others. If another John did exist, one could simply add some description to the name: ‘John the carpenter’ versus ‘John near the hill’, and a third could be ‘John, Peter’s son’. Such additions were mostly short-lived and not passed down to descendants. But of course, life was not destined to remain that simple."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "With townships increasing in population, people becoming more mobile, and invading armies flowing to and fro, complications set in. In England, the process of adopting family names (or ‘surnames’ or ‘second names’) did not happen suddenly, but if one had to pick a fixed date, 1379 would be a good start. This was when the government introduced a poll tax, the administration of which required a list of the names of every adult in the kingdom. Suddenly, there were too many Johns to deal with. To resolve this issue, the later Additions Statute (1413) insisted that all names also come with the bearers’ occupation and place of residence. With such increasing bureaucracy, fixed and heritable family names would eventually become a necessity."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "There were many methods by which these names were formed. The most obvious was to use that place of residence, although this method did have the problem that all residents of, say, Wickham, could not take the family name ‘Wickham’ without causing obvious confusion. In Italy, however, this did not prevent Leonardo da Vinci (from Vinci) becoming the town’s most famous export. In England, family names could also derive from personal beliefs (resulting in Mope, Christian, Godley, and others) or physical attributes, giving us Armstrong, Short, Brown, and others. The meanings of such names are often obscured by their Gaelic origins. Guilfoyle means ‘follower of (Saint) Paul’; Kennedy means ‘ugly head’."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Family names were also commonly derived from a person’s trade or profession, resulting in names such as Smith, Butcher, and Carpenter. Many of these refer to occupations that no longer exist, such as Fletcher (arrow maker), Cooper (barrel maker), or Heyward (fence maintainer). Names were also commonly derived from geographic features, often ones near where the name-bearer lived. Examples include Hill, Bush, Underwood (‘under the wood’), Eastlake, Bridges and many others. Finally, names often showed the relationships among families, where ‘son of Peter’ became ‘Peter’s son’, in turn becoming ‘Peterson’. Similarly, there are Johnson, Harrison, and Robertson. In Scottish Gaelic, ‘Mac’ was used, giving MacDonald, MacPherson, and others."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "With the mixing of populations from different countries (especially in America), the original foreign names were often altered. This occurred either through mispronunciation, which saw names such as Pfoersching become Pershing, or through deliberate modifications to accommodate English pronunciation and spelling. Thus, Krankheit became Cronkite, and Wistinghausen became Westinghouse. Yet even the most English of family names has often changed considerably over time in terms of spelling and pronunciation before settling into its final form. Old English spellings, for example, were often lost in favour of phonetic intelligibility, making the determination of exact meaning difficult."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "All this study of family names might lead one to believe that using them is universal. Far from it: the technical word for a single name only is a mononym. People in parts of Africa, India, Central Asia and Indonesia, as well as many indigenous or Aboriginal groups, use a single name. In the developed world, such names are usually stage names, reserved for celebrities, artists, singers, or film stars. The entertainment industry in Japan is replete with examples: Mana, Ayaka, and Ichiro, while Korea, China and Hong Kong have followed suit. In the West, some people invent names (Bono, Sting, Prince), or just use family names (Liberace, Morrissey), or their first names (Shakira, Cher). In contrast, the musician Björk uses a mononym in accordance with her own culture. As with all Icelanders, she has no family name."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "A final point of interest is that in Western cultures, the family name is usually given after the first name (in both speaking and writing)—hence the terms ‘first’ and ‘last’ name. In contrast, in Asian cultures it is the other way round, reflecting the greater emphasis placed on family relationships."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Since many of these cultures have vertical writing, what is a ‘last name’ in the West is an ‘upper name’ in the East."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nAnswer the questions.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWhat aspect of family names should prompt us to think more about them?\n1 _________________\nOriginally, what was needed to distinguish two people with the same first name?\n2 _________________\nWhat legislation began the process of using family names?\n3 _________________\nWhat made family names, in time, necessary?\n4 _________________"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 9,
+      "text": "Questions 5–9\nWrite the correct letter, A–F, next to the questions.\nWhat basis was used to form each of the following names?\n\n A                                       Personal belief\n\n B                                       Place of residence\n\n C                                       Mistake\n\n D                                       Mononym\n\n E                                       Profession\n\n F                                       Geographic feature\n5 ____________ Bono\n6 ____________ da Vinci\n7 ____________ Pershing\n8 ____________ Heyward\n9 ____________ Guilfoyle"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nComplete the sentences.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nIn Scottish Gaelic, ‘Mac’ means 10 _________________.\nTo make them easier to write, foreign names often underwent 11 _________________.\n\nSpelling changes in names can make it hard to know their 12 _________________.\nThe term ‘upper name’ is used because of Asia’s 13 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Originally, what was needed to distinguish two people with the same first name?",
+      "translation": "family names 的哪一個方面應該促使我們更深入思考？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ What legislation began the process of using family names?",
+      "translation": "最初，如果有兩個人有相同 first name，需要甚麼來區分他們？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ What made family names, in time, necessary?",
+      "translation": "哪一項法例／政府措施開始了使用 family names 的過程？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "隨著時間過去，是甚麼令 family names 變成必要？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "____________ Bono",
+      "translation": "Bono 這個名字的形成基礎是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "____________ da Vinci",
+      "translation": "da Vinci 這個名字的形成基礎是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "____________ Pershing",
+      "translation": "Pershing 這個名字的形成基礎是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "____________ Heyward",
+      "translation": "Heyward 這個名字的形成基礎是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "____________ Guilfoyle",
+      "translation": "Guilfoyle 這個名字的形成基礎是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "在 Scottish Gaelic 中，“Mac” 的意思是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "為了讓外國名字更容易書寫，它們常經歷 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "名字拼寫上的變化會令人難以知道它們的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "“upper name” 這個術語的使用，是因為亞洲的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-093/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-093/page-6.jpg"
+  ]
+}

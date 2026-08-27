@@ -1,0 +1,290 @@
+{
+  "id": "p1-110",
+  "catalogueId": "p1-110",
+  "title": "Green virtues of green sand",
+  "sourceHeading": "Green Virtues of Green Sand A revolution in glass recycling could help keep water clean.",
+  "passage": 1,
+  "practice": 110,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-110-green-virtues-of-green-sand",
+  "source": {
+    "filename": "Practice 110 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "7ed1f2e3fb30d40217f8a4152c58549b830e962bf8df09766cad700f30bf69ee"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "A For the past 100 years, special high-grade white sand dug from the ground at Leighton Buzzard in the UK has been used to filter tap water to remove bacteria and impurities, but this may no longer be necessary. A new factory that turns used wine bottles into green sand could revolutionise the recycling industry and help to filter Britain’s drinking water. Backed by $1.6m from the European Union and the Department for Environment, Food and Rural Affairs (Defra), a company based in Scotland is building the factory, which will turn beverage bottles back into the sand from which they were made in the first place. The green sand has already been successfully tested by water companies and is being used in 50 swimming pools in Scotland to keep the water clean.B The idea is not only to avoid using up an increasingly scarce natural resource—sand—but also to solve a crisis in the recycling industry. Britain uses 5.5m tonnes of glass a year, but recycles only 750,000 tonnes of it. The problem is that half the green bottle glass in Britain comes from imported wine and beer bottles. Because there is so much of it, and it is used less in domestic production than other types, green glass is worth only $25 a tonne. Clear glass, which is melted down and used for whisky bottles, mainly for export, is worth double that amount."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "C Howard Dryden, a scientist and managing director of the company Dryden Aqua, of Bonnyrigg, near Edinburgh, has spent six years working on the product he calls Active Filtration Media, or AFM. He concedes that he has given what is basically recycled glass a ‘fancy name’ to remove the stigma of what most people would regard as an inferior product. He says he needs bottles that have already contained drinkable liquids to be sure that drinking water filtered through the AFM would not be contaminated. Crushed beverage glass has fewer impurities than real sand and was found to perform better in trials. ‘The fact is that tests show that AFM does the job better than sand; it is easier to clean and reuse and has all sorts of properties that make it ideal for other applications,’ he claimed."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "D The factory is designed to produce 100 tonnes of AFM a day, although Mr Dryden regards this as a large-scale pilot project rather than full production. Current estimates of the UK market for this glass for filtering drinking water, sewage, industrial water, swimming pools and fish farming are between 175,000 and 217,000 tonnes a year, which will use up most of the glass available near the factory. So he intends to build five or six factories in cities where there are large quantities of bottles, in order to cut down on transport costs."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "E The current factory will be completed this month and is expected to go into full production on 14 January next year. Once it is providing a ‘regular’ product, the government’s drinking water inspectorate will be asked to perform tests and approve it for widespread use by water companies. A Defra spokesman said it was hoped that AFM could gain approval within six months. The only problem that could be foreseen was possible contamination if some glass came from sources other than beverage bottles."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "F Among those who have tested the glass already is Caroline Fitzpatrick of the civil and environmental engineering department of University College London. ‘We have looked at a number of batches and it appears to do the job,’ she said. ‘Basically, sand is made of glass and Mr Dryden is turning bottles back into sand. It seems a straightforward idea and there is no reason we can think of why it would not work. Since glass from wine bottles and other beverages has no impurities and clearly did not leach any substances into the contents of the bottles, there was no reason to believe there would be a problem,’ Dr Fitzpatrick added."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "G Mr Dryden has set up a network of agents round the world to sell AFM. It is already in use in Central America to filter water on banana plantations where the fruit has to be washed before being despatched to European markets. It is also in use in sewage works to filter water before it is returned to rivers, something that is becoming legally necessary across the European Union because of tighter regulations on sewage works. So there are a great number of applications involving cleaning up water. Currently, however, AFM costs $670 a tonne, about four times as much as good-quality sand. ‘But that is because we haven’t got large-scale production. Obviously, when we get going it will cost a lot less, and be competitive with sand in price as well,’ Mr Dryden said. ‘I believe it performs better and lasts longer than sand, so it is going to be better value too.’"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "H If AFM takes off as a product, it will be a big boost for the government agency which is charged with finding a market for recycled products. Crushed glass is already being used in road surfacing and in making tiles and bricks. Similarly, AFM could prove to have a widespread use and give green glass a cash value."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–10",
+    "g11": "Questions 11–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 10,
+      "text": "Questions 1–10\nReading Passage 1 has eight paragraphs labelled A–H. Which paragraph contains the following\ninformation?\nWrite the correct letter A–H in boxes 1–10 on your answer sheet.\nNB You may use any letter more than once.\n1 ____________ a description of plans to expand production of AFM\n2 ____________ the identification of a potential danger in the raw material for AFM\n3 ____________ an example of AFM use in the export market\n4 ____________ a comparison of the value of green glass and other types of glass\n5 ____________ a list of potential applications of AFM in the domestic market\n6 ____________ the conclusions drawn from laboratory checks on the process of AFM\nproduction\n7 ____________ identification of current funding for the production of green sand\n8 ____________ an explanation of the chosen brand name for crushed green glass\n9 ____________ a description of plans for exporting AFM\n10 ____________ a description of what has to happen before AFM is accepted for general use"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 14,
+      "text": "Questions 11–14\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 11–14 on your answer sheet.\nGreen sand\nThe use of crushed green glass (AFM) may have two significant impacts: it may help to save a\ndiminishing 11 _________________ while at the same time solving a major problem for the 12\n_________________ in the UK. However, according to Howard Dryden, only glass from bottles\nthat have been used for 13 _________________ can be used in the production process. AFM is\nmore effective than 14 _________________ as a water filter, and also has other uses."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ a description of plans to expand production of AFM",
+      "translation": "描述擴大 AFM 生產的計劃。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ the identification of a potential danger in the raw material for AFM",
+      "translation": "指出 AFM 原材料中可能存在的危險。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ an example of AFM use in the export market",
+      "translation": "AFM 用於出口市場的一個例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ a comparison of the value of green glass and other types of glass",
+      "translation": "比較 green glass 和其他玻璃種類的價值。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ a list of potential applications of AFM in the domestic market",
+      "translation": "列出 AFM 在本地市場中的潛在用途。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ the conclusions drawn from laboratory checks on the process of AFM production",
+      "translation": "從實驗室檢查 AFM 生產過程後得出的結論。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ identification of current funding for the production of green sand",
+      "translation": "指出目前 green sand 生產的資金來源。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ an explanation of the chosen brand name for crushed green glass",
+      "translation": "解釋為何 crushed green glass 使用這個品牌名稱。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ a description of plans for exporting AFM",
+      "translation": "描述 AFM 出口或海外銷售計劃。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ a description of what has to happen before AFM is accepted for general use",
+      "translation": "描述 AFM 被普遍使用前必須發生的事情。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "使用 crushed green glass，即 AFM，可能有兩個重要影響：它可能幫助節省一種正在減少的 11________，同時解決英國 12 ________ 的重大問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "……同時解決英國 12 ________ 的重大問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "然而，根據 Howard Dryden，生產過程中只能使用曾裝過 13 ________ 的瓶子玻璃。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "AFM 作為濾水材料比 14 ________ 更有效，而且還有其他用途。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-110/page-5.jpg"
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "p1-063",
+  "catalogueId": "p1-063",
+  "title": "THE LOCH NESS MONSTER",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 63,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-011-the-loch-ness-monster",
+  "source": {
+    "filename": "Practice 63  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "e7a58e96d521b45b8b7162ae76f7238ce059c61d8af9d05683e09cafcb69f05e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Loch Ness Monster ● In the Scottish Highlands, there is believed to be a monster living in the waters of Loch Ness. Loch Ness is about one mile wide and 24 miles long, making it the largest body of freshwater in the United Kingdom. To many sceptics, this monster is only a modern-day myth, but to others who claim they have seen it, the monster exists and still lurks in the waters of Loch Ness today."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "● Throughout Scotland, research has been done at several lakes but Loch Ness is the icon for monsters, with Nessie, as the monster is affectionately known, being the most popular of them all. Both professionals and amateurs flock to this lake with their cameras in the hope of capturing a brief glimpse of Nessie and possibly solving the mystery of the Loch Ness monster."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "● The very first sighting of Nessie was as far back as 565 AD. It is believed that she ate a local farmer and then dived back into the waters, with no accounts of being seen again for over 100 years. However, since the turn of the 20th century, several other people have claimed to have seen her. Some people believe that old Scottish myths about water creatures such as kelpies and water horses have contributed to the idea of this wondrous monster lurking beneath."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "● The most recent sighting of Nessie was reported in 2007. A tourist named Gordon Holmes from Yorkshire visited Loch Ness and claimed that he not only saw her but also captured her on video. He claimed she was jet black, about 15 metres long and travelling in a very straight line at about 6 miles per hour. Despite this supposed evidence, controversy still rages, and opinion remains sharply divided over Nessie’s existence. The video footage has been discredited amid accusations of tampering, whilst others claim that the image caught by Holmes could be nothing more than a tree trunk or even one of the otters that inhabit the loch."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "● Some scientists believe that the Loch Ness monster could be a mirage or a psychological phenomenon, since we sometimes see what we want to see. Of course, those who have seen her beg to differ, but many studies have been conducted to develop theories explaining what it is that people could be witnessing. It has been suggested that Nessie could be related to a prehistoric animal known as a plesiosaur, an animal that measured up to ten metres in length and is otherwise thought to be extinct, although this theory is unsupported by any data. One scientist in particular has been researching the lake itself to find out more about its history. For such a large animal to live in the lake, it would require a vast food source; for so many fish to survive, there would need to be plenty of microscopic animals called zooplankton. The only way to find out how much zooplankton is in the water is to measure the amount of algae. Algae need light to survive so by measuring just how deep the daylight can penetrate the lake, scientists can then start to work out what kind of population can be sustained. Although the results suggested that the fish population was too small, no firm conclusion was reached."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "● In the twentieth century, a ten-year observational study was carried out, recording an average of 20 sightings of Nessie per year. Interest in the phenomenon surged in the second half of the century, when photos of a ‘flipper’ were publicly released. Submarines were sent into Loch Ness to try to discover more about this creature (and are now actually run as tourist attractions). Another explanation for why Nessie rose to the surface, where she was more likely to be seen, was that disruption from nearby roadworks in the 1930s forced her into shallower water because of the vibrations. Another argument centres on the geographical placement of the loch, which sits on the Great Glen fault line formed over 400 million years ago. Some scientists have claimed that resulting seismic activity in the lake could cause disturbances on its surface and people might mistake this for Nessie."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "● To date, there is no convincing proof to suggest that the monster is real, which, given the preponderance of digital cameras, webcams trained on the loch and other technological advances in recording equipment, suggests that the myth of Nessie may be just that – a myth. Nonetheless, accommodation providers throughout the Scottish Highlands offer tours of the lake itself so tourists can try to catch their own glimpse of Nessie. In 2007, it was estimated that related tourism brought £6 million to the region, thanks to the attention of the film industry."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nDo the following statements agree with the information given in the reading passage?\nIn boxes 1–6 on your answer sheet write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n1 _________________ The first reported sighting of the Loch Ness monster was in 1962.\n2 _________________ It is believed the idea for the Loch Ness monster may have been inspired by other\nstories of aquatic creatures.\n3 _________________ The most recent person to claim to have seen the Loch Ness monster obtained\nvideo footage.\n4 _________________ There is evidence to suggest that the Loch Ness monster is related to a\nplesiosaur.\n5 _________________ Testing of algae in the loch proved that the food source was insufficient to sustain\nNessie.\n6 _________________ Movement along a fault line could have caused Nessie to rise to the surface."
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 13,
+      "text": "Questions 7–13\nAnswer the questions below using NO MORE THAN THREE WORDS AND/OR A NUMBER from the\npassage for each answer.\nWrite your answers in boxes 7–13 on your answer sheet.\nWhen was the first recorded sighting of Nessie?\n7 _________________\nWhat was Gordon Holmes suspected of doing to the video footage?\n8 _________________\nWhat common animal may have been caught on camera and mistaken for proof of Nessie?\n9 _________________\nImages of what caused an increase in the number of Nessie enthusiasts?\n10 _________________\nWhat can visitors hoping to see Nessie travel in?\n11 _________________\nDisturbances caused by what could have caused the creature to surface?\n12 _________________\nWhat has promoted tourism in the Loch Ness area in recent years?\n13 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The first reported sighting of the Loch Ness monster was in 1962.",
+      "translation": "Loch Ness monster 第一次有記錄的目擊是在 1962 年。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ It is believed the idea for the Loch Ness monster may have been inspired by other stories of aquatic creatures.",
+      "translation": "有人相信，Loch Ness monster 的概念可能受到其他水中生物故事啟發。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The most recent person to claim to have seen the Loch Ness monster obtained video footage.",
+      "translation": "最近一位聲稱看見 Loch Ness monster 的人取得了影片畫面。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ There is evidence to suggest that the Loch Ness monster is related to a plesiosaur.",
+      "translation": "有證據顯示 Loch Ness monster 和 plesiosaur 有關。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Testing of algae in the loch proved that the food source was insufficient to sustain Nessie.",
+      "translation": "湖中藻類測試證明食物來源不足以維持 Nessie 生存。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Movement along a fault line could have caused Nessie to rise to the surface.",
+      "translation": "斷層線上的活動可能令 Nessie 浮上水面。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What was Gordon Holmes suspected of doing to the video footage?",
+      "translation": "Nessie 第一次有記錄的目擊是在甚麼時候？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What common animal may have been caught on camera and mistaken for proof of Nessie?",
+      "translation": "Gordon Holmes 被懷疑對影片做了甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ Images of what caused an increase in the number of Nessie enthusiasts?",
+      "translation": "哪種常見動物可能被拍到，然後被誤認為 Nessie 的證據？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What can visitors hoping to see Nessie travel in?",
+      "translation": "甚麼東西的影像令 Nessie 愛好者數量增加？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ Disturbances caused by what could have caused the creature to surface?",
+      "translation": "希望看見 Nessie 的遊客可以乘坐甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What has promoted tourism in the Loch Ness area in recent years?",
+      "translation": "由甚麼造成的干擾可能令這生物浮上水面？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "近年是甚麼推動了 Loch Ness 地區的旅遊？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-063/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-063/page-5.jpg"
+  ]
+}

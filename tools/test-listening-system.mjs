@@ -36,7 +36,7 @@ assert.match(script, /audio\.playbackRate = state\.speed/);
 assert.match(script, /setPartAnswersVisibility/);
 assert.match(script, /renderAnalysisSection/);
 assert.match(script, /updateFloatingAudio/);
-assert.match(catalogue, /Array\.from\(\{ length: 20 \}/);
+assert.match(catalogue, /const practiceNumbers = \[/);
 assert.match(catalogue, /Array\.from\(\{ length: 4 \}/);
 assert.match(catalogue, /listening-system\.html\?section=ielts&practice=/);
 assert.match(worker, /\/v1\/listening\/catalog/);

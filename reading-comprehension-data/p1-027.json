@@ -1,0 +1,282 @@
+{
+  "id": "p1-027",
+  "catalogueId": "p1-027",
+  "title": "How to Spot a Liar",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 27,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-027-how-to-spot-a-liar",
+  "source": {
+    "filename": "Practice 27 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "90054c3ff7a6c6c5070e9d24ec7eecc4445e9df407e4c2006437afbce7ce03bc"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "How to Spot a Liar However much we may abhor it, deception comes naturally to all living things. Birds do it by feigning injury to lead hungry predators away from their nesting young. Spider crabs do it by disguise: adorning themselves with strips of kelp and other debris, they pretend to be something they are not and so escape their enemies. Nature amply rewards successful deceivers by allowing them to survive long enough to mate and reproduce."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "So it may come as no surprise to learn that human beings — who, according to psychologist Gerald Johnson of the University of Southern California, are lied to about 200 times a day, roughly one untruth every five minutes — often deceive for exactly the same reasons: to save their own skins or to get something they cannot get by other means."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "But knowing how to catch deceit can be just as important a survival skill as knowing how to tell a lie and get away with it. A person able to spot falsehood quickly is unlikely to be swindled by an unscrupulous business associate or hoodwinked by a devious spouse. Luckily, nature provides more than enough clues to trap dissemblers in their own tangled webs — if you know where to look."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "By closely observing facial expressions, body language, and tone of voice, practically anyone can recognise the tell-tale signs of lying. Researchers are even programming computers — like those used in lie detectors — to get at the truth by analysing the same physical cues available to the naked eye and ear. “With the proper training, many people can learn to reliably detect lies,” says Paul Ekman, professor of psychology at the University of California, San Francisco, who spent many years studying the secret art of deception."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "In order to know what kinds of lies work best, successful liars need to assess other people’s emotional states accurately. Ekman’s research shows that this same emotional intelligence is essential for good lie detectors, too. The emotional state to watch out for is stress: the conflict most liars feel between the truth and what they actually say and do."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Even high-tech lie detectors do not detect lies as such; they merely detect the physical cues of emotions, which may or may not correspond to what the person being tested is saying. Polygraphs, for instance, measure respiration, heart rate, and skin conductivity, all of which tend to increase when people are nervous — as they usually are when lying. Nervous people typically perspire, and the salts contained in perspiration conduct electricity. That is why a sudden leap in skin conductivity indicates nervousness — perhaps about getting caught — which may, in turn, suggest that someone is being economical with the truth."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "On the other hand, it might also mean that the lights in the television studio are too hot, which is one reason polygraph tests are inadmissible in court. “Good lie detectors don’t rely on a single thing,” says Ekman, “but interpret clusters of verbal and non-verbal clues that suggest someone might be lying.”"
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The clues are written all over the face. Because the muscles of the face are directly connected to the areas of the brain that process emotion, the countenance can be a window to the soul. Neurological studies even suggest that genuine emotions travel through different pathways in the brain from insincere ones. If a patient paralysed by a stroke on one side of the face, for example, is asked to smile deliberately, only the mobile side of the mouth is raised. But tell that same person a funny joke, and the patient breaks into a full and spontaneous smile."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Very few people — most notably actors and politicians — are able to consciously control all of their facial expressions. Lies can often be caught when the liar’s true feelings briefly leak through the mask of deception. “We don’t think before we feel,” Ekman says. “Expressions tend to show up on the face before we are even conscious of experiencing an emotion.”"
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "One of the most difficult facial expressions to fake — or conceal, if it is genuinely felt — is sadness. When someone is truly sad, the forehead wrinkles with grief and the inner corners of the eyebrows are pulled up. Fewer than 15% of the people Ekman tested were able to produce this eyebrow movement voluntarily. By contrast, the lowering of the eyebrows associated with an angry scowl can be replicated at will by almost everybody. “If someone claims they are sad and the inner corners of their eyebrows don’t go up,” Ekman says, “the sadness is probably false.”"
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "The smile, on the other hand, is one of the easiest facial expressions to counterfeit. It takes just two muscles — the zygomaticus major muscles, which extend from the cheekbones to the corners of the lips — to produce a grin. But there is a catch. A genuine smile affects not only the corners of the lips but also the orbicularis oculi, the muscle around the eye that produces the distinctive “crow’s feet” associated with people who laugh a lot."
+    },
+    {
+      "number": 12,
+      "label": "12",
+      "text": "A counterfeit grin can be unmasked if the corners of the lips go up and the eyes crinkle, but the inner corners of the eyebrows are not lowered. This movement, controlled by the orbicularis oculi, is difficult to fake. The absence of lowered eyebrows is one reason why a false smile looks so strained and stiff."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\n\nDo the following statements agree with the views of the writer?\n\nIn boxes 1–5 on your answer sheet, write:\n\n  Answer                                       Meaning\n\n\nYES            if the statement agrees with the views of the writer\n\n\nNO             if the statement contradicts the views of the writer\n\n\nNOT            if it is impossible to say what the writer thinks about this\nGIVEN\n\nQuestion                              Statement                                Answer\n\n\n1           All living animals can lie.                                     __________\n\n\n\n2           Some people tell lies for self-preservation.                    __________\n\n\n3           Scientists have used computers to analyse which part of the     __________\n            brain is responsible for telling lies.\n\n\n4           Lying as a survival skill is more important than detecting a    __________\n            lie.\n\n\n5           To be a good liar, one has to understand other people’s         __________\n            emotions."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\n\nChoose the correct letter, A, B, C, or D.\n\nWrite your answers in boxes 6–9 on your answer sheet.\n\n6. How does the lie detector work?\n\nA. It detects whether one’s emotional state is stable.\nB. It detects one’s level of brain activity.\nC. It detects body behaviour during one’s verbal response.\nD. It analyses one’s verbal response word by word.\n\n7. Lie detectors cannot be used as evidence in a court of law because:\n\nA. lights often cause lie detectors to malfunction.\nB. they are based on too many verbal and non-verbal clues.\nC. polygraph tests are often inaccurate.\nD. there may be many causes of certain body behaviours.\n\n8. Why does the author mention paralysed patients?\n\nA. To demonstrate how a paralysed patient smiles.\nB. To show the relationship between true emotions and body behaviour.\nC. To examine how they became paralysed.\nD. To show the importance of happiness in recovery.\n\n9. The author uses politicians as an example of people who can:\n\nA. have emotions.\nB. imitate actors.\nC. detect other people’s lies.\nD. mask their true feelings."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\n\nClassify the following facial traits as referring to:\n\n        Letter                                Emotion\n\n\n A                     Sadness\n\n\n B                     Anger\n\n\n C                     Happiness\n\n\nWrite the correct letter, A, B, or C, in boxes 10–13 on your answer sheet.\n\n      Question                      Facial trait                         Answer\n\n\n 10                  Inner corners of the eyebrows raised      __________\n\n\n 11                  The whole eyebrows lowered                __________\n\n\n 12                  Lines formed around the eyes              __________\n\n\n 13                  Lines formed above the eyebrows           __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "All living animals can lie. __________",
+      "translation": "所有活著的動物都能說謊／欺騙。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Some people tell lies for self-preservation. __________",
+      "translation": "有些人為了自我保護而說謊。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Scientists have used computers to analyse which part of the __________ brain is responsible for telling lies.",
+      "translation": "科學家曾使用電腦分析大腦哪一部分負責說謊。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Lying as a survival skill is more important than detecting a __________ lie.",
+      "translation": "作為生存技能，說謊比識破謊言更重要。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "To be a good liar, one has to understand other people’s __________ emotions.",
+      "translation": "要成為好騙子，一個人需要理解別人的情緒。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "How does the lie detector work?",
+      "translation": "測謊儀如何運作？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Lie detectors cannot be used as evidence in a court of law because:",
+      "translation": "測謊儀不能作為法庭證據，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Why does the author mention paralysed patients?",
+      "translation": "作者為甚麼提到癱瘓病人？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "The author uses politicians as an example of people who can:",
+      "translation": "作者用 politicians 作為例子，說明這類人能夠做甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Inner corners of the eyebrows raised __________",
+      "translation": "眉毛內角上揚。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "The whole eyebrows lowered __________",
+      "translation": "整個眉毛下降／壓低。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Lines formed around the eyes __________",
+      "translation": "眼睛周圍形成皺紋。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Lines formed above the eyebrows __________",
+      "translation": "眉毛上方形成皺紋。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-027/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-027/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-027/page-8.jpg",
+    "/assets/reading-comprehension/questions/p1-027/page-9.jpg"
+  ]
+}

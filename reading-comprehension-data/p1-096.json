@@ -1,0 +1,242 @@
+{
+  "id": "p1-096",
+  "catalogueId": "p1-096",
+  "title": "Coming of Age",
+  "sourceHeading": "Coming of Age",
+  "passage": 1,
+  "practice": 96,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-096-coming-of-age",
+  "source": {
+    "filename": "Practice 96 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "1ce3b929b0b2ba6f708ece00aa0441e28bd625ba1735733bd305f137e21d265e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Three striking facts highlight the dramatic shift in recent years in the relative economic balance of “first-world” and “third-world” economies. Last year, according to our estimates, emerging economies produced slightly more than half of world output measured at purchasing-power parity. Second, they also accounted for more than half of the increase in global GDP in current-dollar terms. And third, perhaps most striking of all, the 32 biggest emerging economies grew in both 2004 and 2005. Every previous year during the past three decades saw at least one country in recession—if not a deep crisis. Some economies will inevitably stumble over the coming years, but, thanks to sounder policies, most can look forward to rapid long-term growth. The young emerging economies have grown up in more ways than one."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Such happenings are part of the biggest shift in economic strength since the emergence of the United States more than a century ago. As developing countries and the former Soviet bloc have embraced market-friendly economic reforms and opened their borders to trade and investment, more countries are industrialising than ever before—and more quickly. During their industrial revolutions, America and Britain took 50 years to double their real incomes per head; today China is achieving that in a single decade. In an open world, it is much easier to catch up by adopting advanced countries’ technology than it is to be an economic leader that has to invent new technologies in order to keep growing. The shift in economic power towards emerging economies is therefore likely to continue. This is returning the world to the sort of state that endured throughout most of its history. People forget that, until the late 19th century, China and India were the world’s two biggest economies and today’s “emerging economies” accounted for the bulk of world production."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Many bosses, workers, and politicians in the rich world fear that the success of these newcomers will be at their own expense. However, rich countries will gain more than they lose from the enrichment of others. Fears that the third world will steal rich-world output and jobs are based on the old fallacy that an increase in one country’s output must be at the expense of another’s. But more exports give developing countries more money to spend on imports—mainly from developed economies. Faster growth in poor countries is therefore more likely to increase the output of their richer counterparts than to reduce it. The emerging economies are helping to lift world GDP growth at the very time when the rich world’s ageing populations would otherwise cause growth to slow."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Although stronger growth in emerging economies will make developed countries as a whole better off, not everybody will be a winner. Globalisation is causing the biggest shift in relative prices (of labour, capital, commodities, and goods) for a century, and this in turn is causing a significant redistribution of income. Low-skilled workers in developed economies are losing out relative to skilled workers. And owners of capital are grabbing a bigger slice of the cake relative to workers as a whole."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "As a result of China, India, and the former Soviet Union embracing market capitalism, the global labour force has doubled in size. To the extent that this has made labour more abundant, and capital relatively scarcer, it has put downward pressure on wages relative to the return on capital. Throughout the rich world, profits have surged to record levels as a share of national income, while the workers’ slice has fallen. Hence, Western workers as a whole do not appear to have shared fully in the fruits of globalisation; many low-skilled ones may even be worse off. However, this is only part of the story. Workers’ wages may be squeezed, but as consumers they benefit from lower prices. As shareholders and future pensioners, they stand to gain from a more efficient use of global capital. Competition from emerging economies should also help to spur rich-world productivity growth and thus average incomes."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "To the extent that rich economies as a whole gain from the new wealth of emerging ones, governments have more scope to compensate losers. Governments have another vital role to play, too. The intensifying competition from emerging economies makes flexible labour and product markets even more imperative, so as to speed up the shift from old industries to new ones. That is why Europe and Japan cannot afford to drag their heels over reform or leave workers ill-equipped to take up tomorrow’s jobs. Developed countries that are quick to abandon declining industries and move upmarket into new industries and services will fare best as the emerging economies come of age. Those that resist change can look forward to years of relative decline. Those that embrace it can best share in the emerging economies’ astonishing new wealth."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has 6 paragraphs (A–F).\nWhich paragraph contains each of the following pieces of information?\n1 ________________ Advice for developed countries\n2 ________________ The reason that it is faster to develop nowadays\n3 ________________ The fact that in the 30 years before 2004, not all large developing\neconomies grew\n4 ________________ The fact that domination of the global economy by Western countries is\nunusual in global history"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\nDeveloping economies can catch up with developed ones faster because they don’t have to 5\n_________________\nGrowth in developing countries helps developed economies because of spending 6\n_________________\nCapital is being used more efficiently because it is 7 _________________\nEconomic 8 _________________ is required in many developed economies."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n9 _________________ Large developing economies should not have any problems in the\nfuture.\n10 _________________ If one country increases production, another country will have to\nreduce its production.\n11 _________________ Globalisation is causing greater differences in income.\n12 _________________ Low-skilled workers in developed economies are earning less.\n\n13 _________________ Japan is not spending enough on education."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Advice for developed countries",
+      "translation": "給已開發國家的建議。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ The reason that it is faster to develop nowadays",
+      "translation": "現在發展可以更快的原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ The fact that in the 30 years before 2004, not all large developing economies grew",
+      "translation": "在 2004 年前的三十年，並非所有大型發展中經濟體都增長。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ The fact that domination of the global economy by Western countries is unusual in global history",
+      "translation": "西方國家主導全球經濟，在世界歷史中其實並不尋常。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "發展中經濟體能更快追上已開發經濟體，因為它們不用 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "發展中國家的增長幫助已開發經濟體，因為它們會花錢 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "資本被更有效率地使用，因為它變得 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "許多已開發經濟體需要經濟 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Large developing economies should not have any problems in the future.",
+      "translation": "大型發展中經濟體未來不應有任何問題。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ If one country increases production, another country will have to reduce its production.",
+      "translation": "如果一個國家增加產出，另一個國家就必須減少產出。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Globalisation is causing greater differences in income.",
+      "translation": "全球化正在造成更大的收入差異。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Low-skilled workers in developed economies are earning less.",
+      "translation": "已開發經濟體中的低技能工人正在賺得更少。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Japan is not spending enough on education.",
+      "translation": "日本在教育上的支出不足。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-096/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-096/page-6.jpg"
+  ]
+}

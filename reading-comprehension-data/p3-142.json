@@ -1,0 +1,261 @@
+{
+  "id": "p3-142",
+  "catalogueId": "p3-142",
+  "title": "The secret of the Yawn",
+  "sourceHeading": "The Secret of the Yawn",
+  "passage": 3,
+  "practice": 142,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-142-the-secret-of-the-yawn",
+  "source": {
+    "filename": "Practice 142 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "9e46942fb6e397bc75037d6eded35a91ac27da48d79f04220ea20d3773dc48fd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "When I began to study yawning in the 1980s, it was difficult to convince some of my research students of the merits of “yawning science.” Although it may appear quirky, my decision to study yawning was a logical extension to human beings of my research in developmental neuroscience, reported in such papers as “Wing-Flapping during Development and Evolution.” As a neurobehavioural problem, there is not much difference between the wing-flapping of birds and the face- and body-flapping of human yawners."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Yawning is an ancient, primitive act. Humans do it even before they are born, opening wide in the womb. Some snakes unhinge their jaws to do it. One species of penguin yawns as part of mating. Only now are researchers beginning to understand why we yawn, when we yawn and why we yawn back. A professor of cognitive neuroscience at Drexel University in Philadelphia, Steven Platek, studies the act of contagious yawning, something done only by people and other primates."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In his first experiment, he used a psychological test to rank people on their empathic feelings. He found that participants who did not score high on compassion did not yawn back. “We literally had people saying, ‘Why am I looking at people yawning?’” Professor Platek said. “It just had no effect.”"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "For his second experiment, he put 10 students in a magnetic resonance imaging machine as they watched videotapes of people yawning. When the students watched the videos, the part of the brain which reacted was the part scientists believe controls empathy – the posterior cingulate, in the brain’s middle rear. “I don’t know if it’s necessarily that nice people yawn more, but I think it’s a good indicator of a state of mind,” said Professor Platek. “It’s also a good indicator if you’re empathizing with me and paying attention.”"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In his third experiment, he is studying yawning in those with brain disorders, such as autism and schizophrenia, in which victims have difficulty connecting emotionally with others. A psychology professor at the University of Maryland, Robert Provine, is one of the few other researchers into yawning. He found the basic yawn lasts about six seconds, and yawns come in bouts with an interval of about 68 seconds. Men and women yawn or half-yawn equally often, but men are significantly less likely to cover their mouths, which may indicate a complex distinction between the genders. “A watched yawner never yawns,” Professor Provine said. However, the physical root of yawning remains a mystery. Some researchers say it’s coordinated within the hypothalamus of the brain, the area that also controls breathing."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Yawning and stretching also share properties and may be performed together as parts of a global motor complex. But they do not always co-occur – we usually yawn when we stretch, but we don’t always stretch when we yawn, especially before bedtime. Studies by J. I. P. de Vries, G. H. A. Visser and H. F. R. Prechtl in the early 1980s, charting movement in the developing fetus using ultrasound, observed not just yawning but a link between yawning and stretching as early as the end of the first prenatal trimester."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The most extraordinary demonstration of the yawn-stretch linkage occurs in many people paralyzed on one side of their body because of brain damage caused by a stroke. The prominent British neurologist Sir Francis Walshe noted in 1923 that when these hemiplegics yawn, they are startled and mystified to observe that their otherwise paralyzed arm rises and flexes automatically in what neurologists term an “associated response.” Yawning apparently activates undamaged, unconsciously controlled connections between the brain and the cord motor system innervating the paralyzed limb. It is not known whether the associated response is a positive prognosis for recovery, nor whether yawning is therapeutic for reinnervation or prevention of muscular atrophy."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Clinical neurology offers other surprises. Some patients with “locked-in” syndrome, who are almost totally deprived of the ability to move voluntarily, can yawn normally. The neural circuits for spontaneous yawning must exist in the brain stem near other respiratory and vasomotor centers, because yawning is performed by anencephalic individuals who possess only the medulla oblongata. The multiplicity of stimuli of contagious yawning, by contrast, implicates many higher brain regions."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nComplete the Summary paragraph described below.\nIn boxes 28–32 on your answer sheet, write the correct answer with NO MORE THAN THREE\nWORDS.\n\n A psychology professor concluded that an average yawn takes about six seconds and\n that yawns occur with 28 __________ before the next one. Men and women yawn or\n half-yawn with almost the same frequency, yet the behaviour accompanying yawning\n shows a 29 __________. Some parts of the brain may affect this movement and are also\n associated with 30 __________. Another study found a link between a yawn and 31\n __________ before birth; the two can even work together automatically in people whose\n 32 __________ is damaged."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nReading Passage 3 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter A–H for questions 33–37\nNB You may use any letter more than once.\n33 __________ The rate of yawning shows some regular pattern.\n34 __________ Yawning is an inherent ability that appears in both animals and humans.\n35 __________ Stretching and yawning do not always occur together.\n36 __________ Yawning may indicate attention or empathy during communication.\n37 __________ Higher regions of the brain may be involved in contagious yawning."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 38–40 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n38 __________ Several students in Platek’s experiment did not understand why their tutor\nasked them to watch people yawning.\n39 __________ Results from one experiment indicate a link between yawning and empathy.\n40 __________ Yawning can have a positive impact on recovery from brain damage caused by\na stroke."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "一位心理學教授得出結論：平均一次呵欠大約持續六秒，而且兩次呵欠之間相隔 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "男性和女性打呵欠或半打呵欠的頻率幾乎相同，但伴隨呵欠出現的行為顯示出一種 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "大腦某些部分可能影響這個動作，並且也與 ______ 有關。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "另一項研究發現，出生前呵欠和 ______ 之間已有連繫。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________ is damaged.",
+      "translation": "這兩者甚至可以在 ______ 受損的人身上自動一起運作。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ The rate of yawning shows some regular pattern.",
+      "translation": "打呵欠的頻率或節奏呈現某種規律。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Yawning is an inherent ability that appears in both animals and humans.",
+      "translation": "打呵欠是一種天生能力，出現在動物和人類身上。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Stretching and yawning do not always occur together.",
+      "translation": "伸展和打呵欠不一定總是一起發生。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Yawning may indicate attention or empathy during communication.",
+      "translation": "打呵欠可能顯示溝通時的注意力或共情。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Higher regions of the brain may be involved in contagious yawning.",
+      "translation": "較高層次的腦區可能參與傳染性呵欠。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________ Several students in Platek’s experiment did not understand why their tutor asked them to watch people yawning.",
+      "translation": "Platek 實驗中的幾名學生不明白為何他們的導師要求他們觀看別人打呵欠。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________ Results from one experiment indicate a link between yawning and empathy.",
+      "translation": "其中一個實驗結果顯示打呵欠和共情之間有連繫。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________ Yawning can have a positive impact on recovery from brain damage caused by a stroke.",
+      "translation": "打呵欠可以對中風造成腦損傷後的康復產生正面影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-142/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-142/page-5.jpg"
+  ]
+}

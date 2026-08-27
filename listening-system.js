@@ -1,15 +1,13 @@
-import { createListeningStudy } from './listening-study.js?v=20260827-study1';
+import { createListeningStudy } from './listening-study.js?v=20260827-import1';
+import { loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_LISTENING_CATALOG || { practices: [] };
+const registeredPractices = new Set(CATALOGUE.practices.map(item => item.practice));
 const SESSION_KEY = "edmund-listening-session-v1";
 const AUDIO_CATALOGUE_URL = "https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog";
 const SPEEDS = Object.freeze([0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2]);
 const TEXT_SCALES = Object.freeze([0.5, 0.75, 1, 1.25, 1.5, 1.75, 2, 2.25, 2.5, 2.75, 3]);
-const PRACTICE_ONE = window.EDMUND_IELTS_LISTENING_PRACTICE_1 || null;
-const PRACTICE_ONE_TRANSCRIPT = window.EDMUND_IELTS_LISTENING_PRACTICE_1_TRANSCRIPT || {};
-const PRACTICE_ONE_ANALYSIS = window.EDMUND_IELTS_LISTENING_PRACTICE_1_ANALYSIS || {};
-const PRACTICE_ONE_TIMINGS = window.EDMUND_IELTS_LISTENING_PRACTICE_1_TIMINGS || { parts: {}, questions: {} };
 
 const state = {
   supabase: null,
@@ -17,6 +15,8 @@ const state = {
   token: "",
   view: "login",
   practice: 0,
+  content: null,
+  answers: new Map(),
   requestedPart: 0,
   sort: restorePreference("edmund-listening-sort", "asc") === "desc" ? "desc" : "asc",
   speed: normalizeSpeed(restorePreference("edmund-listening-speed", "1")),
@@ -84,16 +84,22 @@ function normaliseAnswer(value) {
 
 function wordButtons(text, sourceKey, context) {
   let index = 0;
-  return escapeHtml(text).replace(/([A-Za-z]+(?:['’-][A-Za-z]+)*)/g, (word) => {
+  // Keep Practice 1's historical word indexes so existing bookmarks still work.
+  // New imports tokenize before HTML escaping: apostrophes and ampersands must
+  // never become extra words or broken HTML entities.
+  const renderWord = (word) => {
     index += 1;
     const source = `${sourceKey}:${index}`;
-    const active = state.listeningBookmarks.has(`practice1:${source}:${normaliseAnswer(word)}`);
-    return `<button class="bookmark-word" type="button" data-bookmark-word="${escapeHtml(word)}" data-bookmark-source="${escapeHtml(source)}" data-bookmark-context="${escapeHtml(context)}" data-bookmarked="${active}" title="收藏 ${escapeHtml(word)}">${word}</button>`;
-  });
+    const active = state.listeningBookmarks.has(`practice${state.practice}:${source}:${normaliseAnswer(word)}`);
+    return `<button class="bookmark-word" type="button" data-bookmark-word="${escapeHtml(word)}" data-bookmark-source="${escapeHtml(source)}" data-bookmark-context="${escapeHtml(context)}" data-bookmarked="${active}" title="收藏 ${escapeHtml(word)}">${escapeHtml(word)}</button>`;
+  };
+  if (state.practice === 1) return escapeHtml(text).replace(/([A-Za-z]+(?:['’-][A-Za-z]+)*)/g, renderWord);
+  return String(text ?? '').split(/([A-Za-z]+(?:['’-][A-Za-z]+)*)/g)
+    .map((fragment, i) => i % 2 ? renderWord(fragment) : escapeHtml(fragment)).join('');
 }
 
 function bookmarkHref(part, anchor = "") {
-  return `listening-system.html?section=ielts&practice=1&part=${part}${anchor ? `#${anchor}` : ""}`;
+  return `listening-system.html?section=ielts&practice=${state.practice}&part=${part}${anchor ? `#${anchor}` : ""}`;
 }
 
 async function setListeningBookmark(button) {
@@ -102,9 +108,9 @@ async function setListeningBookmark(button) {
   const word = String(button.dataset.bookmarkWord || "");
   const source = String(button.dataset.bookmarkSource || "");
   const context = String(button.dataset.bookmarkContext || "");
-  const itemKey = String(button.dataset.bookmarkItem || `practice1:${source}:${normaliseAnswer(word)}`).slice(0, 180);
+  const itemKey = String(button.dataset.bookmarkItem || `practice${state.practice}:${source}:${normaliseAnswer(word)}`).slice(0, 180);
   const title = String(button.dataset.bookmarkTitle || word).slice(0, 300);
-  const detail = String(button.dataset.bookmarkDetail || `IELTS Listening Practice 1 · ${context}`).slice(0, 3000);
+  const detail = String(button.dataset.bookmarkDetail || `IELTS Listening Practice ${state.practice} · ${context}`).slice(0, 3000);
   const part = Number(button.dataset.bookmarkPart) || state.practicePart;
   const anchor = String(button.dataset.bookmarkAnchor || "");
   const bookmarked = !state.listeningBookmarks.has(itemKey);
@@ -212,6 +218,7 @@ function readSession() {
 }
 
 function clearSession() {
+  state.answers.clear();
   state.user = null;
   state.token = "";
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }
@@ -291,7 +298,7 @@ function routeParams() {
   const part = Number(params.get("part"));
   return {
     section,
-    practice: Number.isInteger(practice) && practice >= 1 && practice <= 20 ? practice : 0,
+    practice: registeredPractices.has(practice) ? practice : 0,
     part: Number.isInteger(part) && part >= 1 && part <= 4 ? part : 0
   };
 }
@@ -338,6 +345,9 @@ function openSection(section, options = {}) {
 
 function renderPracticeGrid() {
   elements.sort.value = state.sort;
+  const numbers = [...registeredPractices];
+  elements.sort.options[0].textContent = `Practice ${Math.min(...numbers)} → ${Math.max(...numbers)}`;
+  elements.sort.options[1].textContent = `Practice ${Math.max(...numbers)} → ${Math.min(...numbers)}`;
   const practices = [...CATALOGUE.practices].sort((left, right) => state.sort === "desc" ? right.practice - left.practice : left.practice - right.practice);
   elements.practiceGrid.innerHTML = `<button class="practice-card bookmark-first-card" type="button" data-open-bookmarks><span>☆</span><strong>我的書簽 · Bookmarks</strong><small>逐行重聽 · 難度星級 · 朗讀練習</small></button>` + practices.map((item) => `
     <button class="practice-card" type="button" data-open-practice="${item.practice}">
@@ -359,7 +369,7 @@ async function loadAudioCatalogue() {
       const practice = Number(raw?.practice);
       const part = Number(raw?.part);
       const url = String(raw?.url || "");
-      if (practice >= 1 && practice <= 20 && part >= 1 && part <= 4 && /^https:\/\//i.test(url)) {
+      if (registeredPractices.has(practice) && part >= 1 && part <= 4 && /^https:\/\//i.test(url)) {
         state.tracks.set(`${practice}:${part}`, { practice, part, url });
       }
     }
@@ -394,7 +404,7 @@ function renderTrackCards() {
 }
 
 function analysisFor(number) {
-  return PRACTICE_ONE_ANALYSIS[String(number)] || PRACTICE_ONE_ANALYSIS[number] || { answer: "", explanation: "解析整理中。" };
+  return state.content.analysis[String(number)] || state.content.analysis[number] || { answer: "", explanation: "解析整理中。" };
 }
 
 function officialAnswer(number) {
@@ -427,32 +437,69 @@ function renderQuestion(question) {
   return `<article class="listening-question-card listening-question-card--multi" data-question-card="${label}"><div class="listening-question-card__number">${label}</div><div class="listening-question-card__body"><p>${wordButtons(question.prompt, `p${question.part}:q${label}`, `Part ${question.part} · Questions ${label}: ${question.prompt}`)}</p><p class="listening-question-zh" data-zh hidden>${escapeHtml(question.translation)}</p><p class="listening-select-count">請選擇兩項</p><div class="listening-options">${question.options.map((item) => `<label><input type="checkbox" data-multi-group="${label}" value="${item.key}"><strong>${item.key}</strong><span>${wordButtons(item.en, `p${question.part}:q${label}:${item.key}`, `Part ${question.part} · Questions ${label}: ${item.en}`)}<small data-zh hidden>${escapeHtml(item.zh)}</small></span></label>`).join("")}</div><div class="listening-official-answer-list">${question.numbers.map(officialAnswer).join("")}</div></div><p class="listening-result" data-result-q="${label}" hidden></p></article>`;
 }
 
+function renderSourcePaper(part) {
+  if (!part.sourceBlocks) return '';
+  return `<section class="listening-source-paper" aria-label="原題與作答指示"><h3>原題 · Question paper</h3><p class="source-paper-help">請先閱讀原題的字數限制及圖表，再在下方作答。點擊圖片可放大查看。</p>${part.sourceBlocks.map((block, index) => block.type === 'image'
+    ? `<figure><a href="${escapeHtml(block.src)}" target="_blank" rel="noopener"><img src="${escapeHtml(block.src)}" alt="${escapeHtml(block.alt)}" loading="lazy"></a><figcaption>原題圖表 · PDF 第 ${block.page} 頁</figcaption>${block.text ? `<details><summary>圖片文字</summary><p>${wordButtons(block.text, `p${part.part}:source:${index}`, block.text)}</p></details>` : ''}</figure>`
+    : `<div class="source-paper-text">${wordButtons(block.text, `p${part.part}:source:${index}`, block.text)}</div>`).join('')}</section><h3 class="listening-answer-heading">作答區 · Your answers</h3>`;
+}
+
 function renderTranscript(partNumber) {
-  const rows = Array.isArray(PRACTICE_ONE_TRANSCRIPT[String(partNumber)]) ? PRACTICE_ONE_TRANSCRIPT[String(partNumber)] : [];
-  return `<section class="listening-transcript" aria-labelledby="transcript-title-${partNumber}"><div class="listening-transcript__head"><div><p class="eyebrow">AUTHORED-TIMESTAMP TRANSCRIPT</p><div class="transcript-title-row"><h3 id="transcript-title-${partNumber}">Part ${partNumber} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? "開" : "關"}</button></div></div><p>高亮位置由錄音逐字時間校準。點擊一行可跳到該句開頭；畫面不會被強制捲動。</p></div><div class="transcript-lines" data-transcript-part="${partNumber}">${rows.map((row, index) => { const itemKey = `practice1:transcript:p${partNumber}:line:${index}`; const active = state.listeningBookmarks.has(itemKey); return `<div class="transcript-line" role="button" tabindex="0" data-transcript-line="${index}"><div class="transcript-line__top"><span>${wordButtons(row.en, `p${partNumber}:t${index}`, `Part ${partNumber} transcript: ${row.en}`)}</span><button class="bookmark-entry" type="button" data-bookmark-item="${itemKey}" data-bookmark-title="Part ${partNumber} 錄音稿第 ${index + 1} 行" data-bookmark-detail="${escapeHtml(`${row.en}\n${row.zh}`)}" data-bookmark-part="${partNumber}" data-bookmark-anchor="transcript-title-${partNumber}" data-bookmarked="${active}" aria-label="收藏此行">☆ 收藏此行</button></div><small data-zh hidden>${escapeHtml(row.zh)}</small></div>`; }).join("")}</div></section>`;
+  const rows = Array.isArray(state.content.transcript[String(partNumber)]) ? state.content.transcript[String(partNumber)] : [];
+  return `<section class="listening-transcript" aria-labelledby="transcript-title-${partNumber}"><div class="listening-transcript__head"><div><p class="eyebrow">AUTHORED-TIMESTAMP TRANSCRIPT</p><div class="transcript-title-row"><h3 id="transcript-title-${partNumber}">Part ${partNumber} 錄音稿</h3><button class="transcript-sync-toggle" type="button" data-toggle-transcript-sync aria-pressed="${state.syncHighlights}">同步高亮：${state.syncHighlights ? "開" : "關"}</button></div></div><p>高亮位置由錄音逐字時間校準。點擊一行可跳到該句開頭；畫面不會被強制捲動。</p></div><div class="transcript-lines" data-transcript-part="${partNumber}">${rows.map((row, index) => { const itemKey = `practice${state.practice}:transcript:p${partNumber}:line:${index}`; const active = state.listeningBookmarks.has(itemKey); return `<div class="transcript-line" role="button" tabindex="0" data-transcript-line="${index}"><div class="transcript-line__top"><span>${wordButtons(row.en, `p${partNumber}:t${index}`, `Part ${partNumber} transcript: ${row.en}`)}</span><button class="bookmark-entry" type="button" data-bookmark-item="${itemKey}" data-bookmark-title="Part ${partNumber} 錄音稿第 ${index + 1} 行" data-bookmark-detail="${escapeHtml(`${row.en}\n${row.zh}`)}" data-bookmark-part="${partNumber}" data-bookmark-anchor="transcript-title-${partNumber}" data-bookmarked="${active}" aria-label="收藏此行">☆ 收藏此行</button></div><small data-zh hidden>${escapeHtml(row.zh)}</small></div>`; }).join("")}</div></section>`;
 }
 
 function renderAnalysisSection(partNumber) {
-  const part = PRACTICE_ONE.parts.find((item) => item.part === partNumber);
+  const part = state.content.parts.find((item) => item.part === partNumber);
   const numbers = part.questions.flatMap((question) => question.type === "multi" ? question.numbers : [question.number]);
-  return `<section class="listening-analysis" aria-labelledby="analysis-title-${partNumber}"><div class="listening-analysis__head"><p class="eyebrow">ANSWER ANALYSIS</p><h3 id="analysis-title-${partNumber}">Part ${partNumber} 完整答案解析</h3><p>以下解析按 PDF 原文逐題整理；每題均可獨立收藏。</p></div><div class="listening-analysis__grid">${numbers.map((number) => { const analysis = analysisFor(number); const itemKey = `practice1:analysis:q${number}`; return `<article class="listening-analysis-card" id="analysis-q${number}"><div class="listening-analysis-card__head"><span>${number}</span><div><small>正確答案</small><strong>${escapeHtml(analysis.answer)}</strong></div><button class="bookmark-entry" type="button" data-bookmark-item="${itemKey}" data-bookmark-title="IELTS Listening Practice 1 · 第 ${number} 題解析" data-bookmark-detail="${escapeHtml(analysis.explanation)}" data-bookmark-part="${partNumber}" data-bookmark-anchor="analysis-q${number}" data-bookmarked="${state.listeningBookmarks.has(itemKey)}" aria-label="收藏第 ${number} 題解析">☆ 收藏解析</button></div><p>${escapeHtml(analysis.explanation)}</p></article>`; }).join("")}</div></section>`;
+  const notes = [...new Set(numbers.map(n => analysisFor(n).editorialNote).filter(Boolean))];
+  return `<section class="listening-analysis" aria-labelledby="analysis-title-${partNumber}"><div class="listening-analysis__head"><p class="eyebrow">ANSWER ANALYSIS</p><h3 id="analysis-title-${partNumber}">Part ${partNumber} 完整答案解析</h3><p>以下解析按原題及錄音稿逐題整理；每題均可獨立收藏。</p>${notes.map(note => `<p class="source-paper-help">核對註記：${escapeHtml(note)}</p>`).join('')}</div><div class="listening-analysis__grid">${numbers.map((number) => {
+    const analysis = analysisFor(number);
+    const itemKey = `practice${state.practice}:analysis:q${number}`;
+    return `<article class="listening-analysis-card" id="analysis-q${number}"><div class="listening-analysis-card__head"><span>${number}</span><div><small>正確答案</small><strong>${escapeHtml(analysis.answer)}</strong></div><button class="bookmark-entry" type="button" data-bookmark-item="${itemKey}" data-bookmark-title="IELTS Listening Practice ${state.practice} · 第 ${number} 題解析" data-bookmark-detail="${escapeHtml(analysis.explanation)}" data-bookmark-part="${partNumber}" data-bookmark-anchor="analysis-q${number}" data-bookmarked="${state.listeningBookmarks.has(itemKey)}" aria-label="收藏第 ${number} 題解析">☆ 收藏解析</button></div><p>${escapeHtml(analysis.explanation)}</p></article>`;
+  }).join("")}</div></section>`;
 }
 
 function renderPracticePart(partNumber) {
-  const part = PRACTICE_ONE.parts.find((item) => item.part === partNumber);
+  saveCurrentAnswers();
+  study.stopReplay();
+  document.querySelectorAll('audio[data-audio-part]').forEach(audio => audio.pause());
+  const part = state.content.parts.find((item) => item.part === partNumber);
   if (!part) return;
   state.practicePart = partNumber;
   elements.workspace.querySelectorAll("[data-part-tab]").forEach((button) => button.setAttribute("aria-selected", String(Number(button.dataset.partTab) === partNumber)));
   const host = elements.workspace.querySelector("[data-practice-part-host]");
-  host.innerHTML = `<section class="listening-part"><div class="listening-part__head"><div><p class="eyebrow">QUESTIONS ${partNumber === 1 ? "1–10" : partNumber === 2 ? "11–20" : partNumber === 3 ? "21–30" : "31–40"}</p><h2>Part ${partNumber}</h2><p>${wordButtons(part.instruction, `p${partNumber}:instruction`, `Part ${partNumber}: ${part.instruction}`)}</p><p data-zh hidden>${escapeHtml(part.instructionZh)}</p></div><div class="listening-part__actions"><button class="secondary-button" type="button" data-toggle-translation aria-pressed="false">顯示中文翻譯</button><button class="secondary-button" type="button" data-show-part-answers aria-pressed="false">顯示答案</button><button class="primary-button" type="button" data-check-part>檢查答案</button></div></div>${part.table ? renderPartOneTable(part) : ""}<div class="listening-question-list">${part.table ? "" : part.questions.map(renderQuestion).join("")}</div><div class="listening-part-score" data-part-score hidden></div>${renderTranscript(partNumber)}${renderAnalysisSection(partNumber)}</section>`;
+  host.innerHTML = `<section class="listening-part"><div class="listening-part__head"><div><p class="eyebrow">QUESTIONS ${partNumber === 1 ? "1–10" : partNumber === 2 ? "11–20" : partNumber === 3 ? "21–30" : "31–40"}</p><h2>Part ${partNumber}</h2><p>${wordButtons(part.instruction, `p${partNumber}:instruction`, `Part ${partNumber}: ${part.instruction}`)}</p><p data-zh hidden>${escapeHtml(part.instructionZh)}</p></div><div class="listening-part__actions"><button class="secondary-button" type="button" data-toggle-translation aria-pressed="false">顯示中文翻譯</button><button class="secondary-button" type="button" data-show-part-answers aria-pressed="false">顯示答案</button><button class="primary-button" type="button" data-check-part>檢查答案</button></div></div>${renderSourcePaper(part)}${part.table ? renderPartOneTable(part) : ""}<div class="listening-question-list">${part.table ? "" : part.questions.map(renderQuestion).join("")}</div><div class="listening-part-score" data-part-score hidden></div>${renderTranscript(partNumber)}${renderAnalysisSection(partNumber)}</section>`;
   refreshAnswerVisibility();
+  restoreCurrentAnswers();
   bindTranscriptSync(partNumber);
   bindAnswerAnalysisDialogs();
   setFloatingAudioPart(partNumber);
 }
 
+function saveCurrentAnswers() {
+  if (!state.content || !state.user) return;
+  const fields = [...elements.workspace.querySelectorAll('input[data-answer-q], input[name^="q"], input[data-multi-group]')];
+  if (!fields.length) return;
+  state.answers.set(`${state.user.id}:${state.practice}:${state.practicePart}`, fields.map(input => ({
+    number: input.dataset.answerQ, name: input.name, group: input.dataset.multiGroup,
+    value: input.value, checked: input.checked
+  })));
+}
+
+function restoreCurrentAnswers() {
+  const saved = state.answers.get(`${state.user?.id}:${state.practice}:${state.practicePart}`) || [];
+  for (const field of saved) {
+    const selector = field.number ? `[data-answer-q="${CSS.escape(field.number)}"]` : field.group
+      ? `[data-multi-group="${CSS.escape(field.group)}"][value="${CSS.escape(field.value)}"]`
+      : `[name="${CSS.escape(field.name)}"][value="${CSS.escape(field.value)}"]`;
+    const input = elements.workspace.querySelector(selector);
+    if (input) { input.value = field.value; input.checked = field.checked; }
+  }
+}
+
 function renderPracticeWorkspace() {
-  if (!PRACTICE_ONE || state.practice !== 1) {
+  if (!state.content) {
     elements.workspace.hidden = true;
     elements.workspace.replaceChildren();
     return;
@@ -477,7 +524,7 @@ function questionCorrect(question) {
 }
 
 function partQuestionNumbers(partNumber = state.practicePart) {
-  const part = PRACTICE_ONE.parts.find((item) => item.part === partNumber);
+  const part = state.content.parts.find((item) => item.part === partNumber);
   return part ? part.questions.flatMap((question) => question.type === "multi" ? question.numbers : [question.number]) : [];
 }
 
@@ -520,7 +567,7 @@ function togglePartAnswers() {
 }
 
 function markPartAnswers() {
-  const part = PRACTICE_ONE.parts.find((item) => item.part === state.practicePart);
+  const part = state.content.parts.find((item) => item.part === state.practicePart);
   const submitted = {};
   let correct = 0;
   part.questions.forEach((question) => {
@@ -547,7 +594,9 @@ function markPartAnswers() {
   const total = part.questions.reduce((sum, question) => sum + (question.type === "multi" ? question.numbers.length : 1), 0);
   score.textContent = `Part ${part.part}：${correct} / ${total} 題正確`;
   score.hidden = false;
-  if (state.token && Object.keys(submitted).length) {
+  // This existing rewards endpoint only knows Practice 1. Never overwrite its
+  // answers with identically numbered questions from a different practice.
+  if (state.practice === 1 && state.token && Object.keys(submitted).length) {
     rpc("eddie_farm_listening_submit", { p_token: state.token, p_answers: submitted }).catch(() => {
       score.textContent += " · Progress could not sync. Check your connection and press Check again.";
     });
@@ -559,7 +608,7 @@ function showAnswerAnalysis(number, anchor) {
   if (!dialog) return;
   window.clearTimeout(analysisHideTimer);
   const analysis = analysisFor(number);
-  const timing = PRACTICE_ONE_TIMINGS.questions[String(number)] || PRACTICE_ONE_TIMINGS.questions[number] || {};
+  const timing = state.content.timings.questions[String(number)] || state.content.timings.questions[number] || {};
   dialog.querySelector("[data-analysis-dialog-number]").textContent = `第 ${number} 題`;
   dialog.querySelector("[data-analysis-dialog-answer]").textContent = analysis.answer;
   dialog.querySelector("[data-analysis-dialog-copy]").textContent = analysis.explanation;
@@ -570,9 +619,9 @@ function showAnswerAnalysis(number, anchor) {
   }
   const bookmarkButton = dialog.querySelector("[data-analysis-dialog-bookmark]");
   if (bookmarkButton) {
-    const itemKey = `practice1:analysis:q${number}`;
+    const itemKey = `practice${state.practice}:analysis:q${number}`;
     bookmarkButton.dataset.bookmarkItem = itemKey;
-    bookmarkButton.dataset.bookmarkTitle = `IELTS Listening Practice 1 · 第 ${number} 題解析`;
+    bookmarkButton.dataset.bookmarkTitle = `IELTS Listening Practice ${state.practice} · 第 ${number} 題解析`;
     bookmarkButton.dataset.bookmarkDetail = analysis.explanation;
     bookmarkButton.dataset.bookmarkPart = String(timing.part || state.practicePart);
     bookmarkButton.dataset.bookmarkAnchor = `analysis-q${number}`;
@@ -617,10 +666,11 @@ function bindTranscriptSync(partNumber) {
   const host = elements.workspace.querySelector(`[data-transcript-part="${partNumber}"]`);
   if (!audio || !host) return;
   const lines = [...host.querySelectorAll("[data-transcript-line]")];
-  const timingPart = PRACTICE_ONE_TIMINGS.parts[String(partNumber)] || PRACTICE_ONE_TIMINGS.parts[partNumber] || {};
+  const timingPart = state.content.timings.parts[String(partNumber)] || state.content.timings.parts[partNumber] || {};
   const authoredLines = Array.isArray(timingPart.lines) && timingPart.lines.length === lines.length ? timingPart.lines : [];
+  const hasTiming = index => Number.isFinite(authoredLines[index]?.start) && Number.isFinite(authoredLines[index]?.end);
   lines.forEach((line, index) => {
-    line.insertAdjacentHTML('beforeend', `<div class="transcript-row-actions"><button type="button" class="secondary-button" data-replay-row="${index}" ${!authoredLines[index] ? 'disabled' : ''}>▶ 只重聽這一行</button><button type="button" class="secondary-button" data-record-row="${index}">● 朗讀練習</button></div>`);
+    line.insertAdjacentHTML('beforeend', `<div class="transcript-row-actions">${hasTiming(index) ? `<time>${formatAudioTime(authoredLines[index].start)} – ${formatAudioTime(authoredLines[index].end)}</time>` : '<small>此行暫未有可用的錄音時間。</small>'}<button type="button" class="secondary-button" data-replay-row="${index}" ${!hasTiming(index) ? 'disabled' : ''}>▶ 只重聽這一行</button><button type="button" class="secondary-button" data-record-row="${index}" ${!hasTiming(index) ? 'disabled' : ''}>● 朗讀練習</button></div>`);
   });
   const activate = () => {
     if (!state.syncHighlights || !authoredLines.length) {
@@ -628,16 +678,19 @@ function bindTranscriptSync(partNumber) {
       return;
     }
     const time = Number(audio.currentTime) || 0;
-    const index = authoredLines.findIndex((range) => time >= Number(range.start) && time <= Number(range.end));
+    const index = authoredLines.findIndex((range) => Number.isFinite(range.start) && time >= range.start && time < range.end);
     lines.forEach((line, lineIndex) => line.classList.toggle("is-current", lineIndex === index));
   };
+  if (audio.listeningSyncHandler) audio.removeEventListener('timeupdate', audio.listeningSyncHandler);
+  audio.listeningSyncHandler = activate;
   audio.addEventListener("timeupdate", activate);
   host.addEventListener("click", (event) => {
     const line = event.target.closest("[data-transcript-line]");
     if (!line || event.target.closest("button")) return;
     const index = Number(line.dataset.transcriptLine);
-    const startTime = Number(authoredLines[index]?.start);
-    if (Number.isFinite(startTime)) audio.currentTime = startTime;
+    if (!hasTiming(index)) return;
+    const startTime = authoredLines[index].start;
+    audio.currentTime = startTime;
     audio.play().catch(() => {});
   });
   host.addEventListener("keydown", (event) => {
@@ -657,7 +710,7 @@ function updateTranscriptSyncControls() {
 }
 
 function playQuestionCue(number) {
-  const timing = PRACTICE_ONE_TIMINGS.questions[String(number)] || PRACTICE_ONE_TIMINGS.questions[number];
+  const timing = state.content.timings.questions[String(number)] || state.content.timings.questions[number];
   if (!timing) return showToast("這題的錄音時間仍在整理中。");
   const partNumber = Number(timing.part);
   if (partNumber !== state.practicePart) renderPracticePart(partNumber);
@@ -681,7 +734,7 @@ function selectedAudio() {
 function setFloatingAudioPart(partNumber) {
   const player = document.querySelector("[data-floating-audio]");
   if (!player) return;
-  player.hidden = !(state.practice === 1 && Number(partNumber) >= 1 && Number(partNumber) <= 4);
+  player.hidden = !(state.content && state.view === 'practice' && Number(partNumber) >= 1 && Number(partNumber) <= 4);
   player.querySelector("[data-floating-part]").textContent = `Part ${partNumber}`;
   const audio = selectedAudio();
   player.querySelectorAll("button, input").forEach((control) => { control.disabled = !audio; });
@@ -702,9 +755,18 @@ function updateFloatingAudio(audio = selectedAudio()) {
 
 async function openPractice(practice, part = 0, options = {}) {
   const number = Number(practice);
-  if (!Number.isInteger(number) || number < 1 || number > 20) return;
+  if (!registeredPractices.has(number)) return;
   pauseAllAudio();
+  saveCurrentAnswers();
   state.practice = number;
+  state.content = null;
+  state.practicePart = Number(part) >= 1 && Number(part) <= 4 ? Number(part) : 1;
+  state.visibleAnswerParts.clear();
+  state.visibleAnswerQuestions.clear();
+  elements.workspace.replaceChildren();
+  elements.workspace.hidden = true;
+  document.querySelector('[data-floating-audio]').hidden = true;
+  hideAnswerAnalysis();
   state.requestedPart = Number(part) >= 1 && Number(part) <= 4 ? Number(part) : 0;
   if (options.update !== false) updateRoute("ielts", state.practice, state.requestedPart);
   elements.practiceTitle.textContent = `Practice ${state.practice}`;
@@ -712,8 +774,9 @@ async function openPractice(practice, part = 0, options = {}) {
   setCatalogueStatus("正在載入錄音…");
   showView("practice");
   try {
-    await loadAudioCatalogue();
+    const [content] = await Promise.all([loadPractice(number), loadAudioCatalogue()]);
     if (state.practice !== number || state.view !== 'practice') return;
+    state.content = content;
     const available = [1, 2, 3, 4].filter((partNumber) => state.tracks.has(`${state.practice}:${partNumber}`)).length;
     renderTrackCards();
     renderPracticeWorkspace();
@@ -723,7 +786,8 @@ async function openPractice(practice, part = 0, options = {}) {
   } catch (error) {
     console.warn("Listening catalogue failed", error);
     if (state.practice !== number || state.view !== 'practice') return;
-    setCatalogueStatus(error?.message || "暫時未能載入錄音。", "error");
+    setCatalogueStatus(error?.message || "暫時未能載入練習。", "error");
+    elements.catalogueStatus.insertAdjacentHTML('beforeend', ` <button class="secondary-button" data-open-practice="${number}">重試</button>`);
     renderTrackCards();
     renderPracticeWorkspace();
   }

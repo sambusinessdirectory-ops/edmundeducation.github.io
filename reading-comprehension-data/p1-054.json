@@ -1,0 +1,224 @@
+{
+  "id": "p1-054",
+  "catalogueId": "p1-054",
+  "title": "The Concept of Childhood in Western Countries",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 54,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-054-the-concept-of-childhood-in-western-countries",
+  "source": {
+    "filename": "Practice 54  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "2f05d39a7665fc265692c70085afb86a107dbfb01b8bf1c5bffd72bd15fb6078"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Concept of Childhood in Western Countries The history of childhood has been a prominent topic in social history since the influential book Centuries of Childhood, written by the French historian Philippe Ariès, appeared in 1960. Ariès claimed that ‘childhood’ is a concept created by modern society."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Whether childhood itself is a recent invention is one of the most intensely debated issues in its history. Philippe Ariès argued that during the Middle Ages, up to about the end of the 15th century, children in Western Europe were regarded as miniature adults, with all the intellect and personality that this implied. After examining medieval pictures and diaries, he concluded that children and adults were not clearly distinguished because they shared similar work and leisure activities. However, he argued, this did not mean that children were neglected, abandoned or despised. The idea of childhood reflects an awareness of childhood’s distinctive nature, which separates a child from an adult or even a young adult. The concept should not be confused with affection for children."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Traditionally, children played a functional role by contributing to family income and were therefore considered useful. In the Middle Ages, children of five or six performed necessary chores for their parents. During the 16th century, those aged nine or ten were often encouraged, or even forced, to leave home to work as servants for wealthier families or as apprentices learning a trade."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "In the 18th and 19th centuries, industrialisation created new demand for child labour, forcing many children to work long hours in mines, workshops and factories. Whether such labour interfered with their physical growth began to concern social reformers, some of whom recognised the potential of systematic studies to measure how these early deprivations affected development."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Reformers’ concerns gradually improved children’s working conditions. In Britain, for example, the Factory Act of 1833 marked the emergence of legal protection against exploitation and was associated with the rise of schools for factory children. Factory reform gradually eliminated the worst abuses, while trade unions and economic change also helped by making some forms of child labour redundant during the 19th century. Initiating children into work was no longer the priority, and play and education came to be regarded as appropriate for all children rather than only a privileged minority. Childhood was increasingly understood as an extended period of dependency, development and learning, while the age at which full-time work began was delayed. Even so, work retained a significant, if less essential, role in children’s lives during the late 19th and 20th centuries. In the first decade of the 21st century, the ‘useful child’ became controversial, especially amid global concern about the many children still engaged in labour."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The half-time schools established under the Factory Act of 1833 allowed children to work and attend school. However, a significant proportion of children did not attend school in the 1840s, and many of those who did dropped out by the age of 10 or 11. By the end of the 19th century in Britain, the situation changed dramatically, and schools became central to the concept of a ‘normal’ childhood."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "School attendance is no longer a privilege, and every child is expected to spend a substantial part of the day in a classroom. School separates children’s lives from domestic life and the adult world of work, becoming an institution devoted to shaping young people’s minds, behaviour and morals. Education also dominates children’s waking hours through classroom time, homework, the growth of after-school activities and the importance attached to parental involvement."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Industrialisation, urbanisation and mass schooling created new challenges for those responsible for protecting children’s welfare and promoting learning. Increasingly, children are treated as a group with distinctive needs and organised according to age. Teachers, for example, need to know what to expect from children, which instruction suits different age groups and how best to assess progress. They also require tools for sorting and selecting children according to ability and potential."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 1–7 on your answer sheet, write\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n1 _________________ Ariès argued that children did different kinds of work from adults during the Middle\nAges.\n2 _________________ Working children during the Middle Ages were generally unloved.\n3 _________________ Some scientists thought that overwork might damage the health of young\nchildren.\n4 _________________ The rise of trade unions was the main factor protecting children from exploitation\nin the 19th century.\n5 _________________ With the aid of half-time schools, most children went to school in the mid-19th\ncentury.\n6 _________________ In the 20th century, almost all children were required to attend school full-time.\n7 _________________ Today, children’s needs are differentiated and categorised according to age."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in Boxes 8–13 on your answer sheet.\nWhat subject became prominent after Philippe Ariès’s influential book appeared?\n8 _________________\nAccording to Ariès, what was the typical image of children in Western Europe during the Middle\nAges?\n9 _________________\nWhat historical event generated the need for a large number of children to work long hours in the\n18th and 19th centuries?\n10 _________________\nWhich Act was enacted to protect children from exploitation in 19th-century Britain?\n11 _________________\nWhich activities were becoming regarded as preferable for almost all children in the 19th century?\n12 _________________\nWhere are children expected to spend a substantial part of each school day?\n13 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Ariès argued that children did different kinds of work from adults during the Middle Ages.",
+      "translation": "Ariès 認為，在中世紀，兒童從事的工作種類和成人不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Working children during the Middle Ages were generally unloved.",
+      "translation": "中世紀工作的兒童一般不受愛。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Some scientists thought that overwork might damage the health of young children.",
+      "translation": "一些科學研究者認為，過度工作可能損害兒童健康。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The rise of trade unions was the main factor protecting children from exploitation in the 19th century.",
+      "translation": "工會興起是十九世紀保護兒童免受剝削的主要因素。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ With the aid of half-time schools, most children went to school in the mid-19th century.",
+      "translation": "在 half-time schools 的幫助下，十九世紀中期大多數兒童都有上學。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ In the 20th century, almost all children were required to attend school full-time.",
+      "translation": "在二十世紀，幾乎所有兒童都被要求全日制上學。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Today, children’s needs are differentiated and categorised according to age.",
+      "translation": "今天，兒童的需要會按年齡作出區分和分類。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ According to Ariès, what was the typical image of children in Western Europe during the Middle Ages?",
+      "translation": "Philippe Ariès 的重要著作出版後，哪一個學科／主題變得突出？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ What historical event generated the need for a large number of children to work long hours in the 18th and 19th centuries?",
+      "translation": "根據 Ariès，中世紀西歐兒童的典型形象是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Which Act was enacted to protect children from exploitation in 19th-century Britain?",
+      "translation": "十八和十九世紀，哪一個歷史事件造成大量兒童長時間工作的需要？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Which activities were becoming regarded as preferable for almost all children in the 19th century?",
+      "translation": "十九世紀英國哪一條法案被制定來保護兒童免受剝削？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Where are children expected to spend a substantial part of each school day?",
+      "translation": "十九世紀，哪些活動開始被視為幾乎所有兒童都應該有的活動？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "兒童被期待每天在學校日的大部分時間在哪裡度過？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-054/page-4.jpg"
+  ]
+}

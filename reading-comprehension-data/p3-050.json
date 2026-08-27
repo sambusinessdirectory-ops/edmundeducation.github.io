@@ -1,0 +1,290 @@
+{
+  "id": "p3-050",
+  "catalogueId": "p3-050",
+  "title": "Robert Louis Stevenson",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 50,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-050-robert-louis-stevenson",
+  "source": {
+    "filename": "Practice 50 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "9a3053c72f548199e68e5e35506fb09049e67c88fb1ef7dd6aa3d9e6f15aa2b0"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Robert Louis Stevenson Robert Louis Stevenson, a Scottish novelist, poet, essayist and travel writer, was born at 8 Howard Place, Edinburgh, Scotland, on 13 November 1850. More than a century after his death, his work continues to divide opinion. On the one hand, he was often highly praised for his expert prose and style by many English-language critics. On the other hand, others criticised the religious themes in his works, often misunderstanding Stevenson’s own religious beliefs. Since his death more than a century ago, critics and biographers have disagreed on the legacy of Stevenson’s writing. Two biographers, KF and CP, wrote a biography of Stevenson with a clear focus: they chose not to criticise aspects of his personal life. Instead, they focused on his writing and gave high praise to his writing style and skill."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The literary pendulum has since swung. Different critics have different opinions about Robert Louis Stevenson’s works. Although Stevenson is now one of the most translated authors in the world, his work attracted a wide variety of negative criticism during his lifetime. It was like a complete reversal of polarity—from highly positive to slightly less positive to clearly negative; after being highly praised as a great writer, he became an example of an author with corrupt ethics and a lack of morality. Many literary critics dismissed his works as children’s stories or horror stories and thought they had little social value in an educational setting. Stevenson’s works were often excluded from literature curricula because of their controversial nature. These debates remain, and many critics still assert that despite his skill, his literary works still lack moral value."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "One of the main reasons Stevenson’s literary works attracted so much criticism was the genre of his writing. Stevenson mainly wrote adventure stories, a popular and entertaining genre at the time. Many people believe adventure stories are exciting and offer engaging characters, action and mystery, but ultimately cannot teach moral principles. The plots are one-dimensional and rarely offer a deeper moral meaning, instead focusing on exciting and shocking plot twists and thrilling events. His works were even criticised by fellow authors. Although Oscar Wilde deeply admired Stevenson’s work, he often joked that Stevenson would have written better works if he had not been born in Scotland. Other authors came to Stevenson’s defence, including Galsworthy, who claimed that Stevenson was a greater writer than Thomas Hardy."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Despite Wilde’s criticism, Stevenson’s Scottish identity was an integral part of his work. Although Stevenson’s works were not popular in Scotland when he was alive, many modern Scottish literary critics claim that Sir Walter Scott and Robert Louis Stevenson are the most influential writers in the history of Scotland. While many critics exalt Sir Walter Scott as a literary genius because of his technical ability, others argue that Stevenson deserves the same recognition for his natural ability to capture stories and characters in words. Many of Scott’s works were taken more seriously as literature because of the depth of their tragic themes, but fans of Stevenson praise his unique style of storytelling and depiction of human nature. Stevenson’s works, unlike other British authors, captured the distinctive day-to-day life of ordinary Scottish people. Many literary critics point to this as a flaw of his works. According to the critics, truly important literature should transcend local culture and stories. However, many critics praise the local taste of his literature. To this day, Stevenson’s works provide valuable insight into life in Scotland during the 19th century."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Despite much debate about Stevenson’s choice of subject matter, his writing was not the only source of attention for critics. Stevenson’s personal life often attracted a lot of attention from his fans and critics alike. Some even argue that his personal life eventually outshone his writing. Stevenson had been plagued by health problems his whole life, and often had to live in much warmer climates than the cold, dreary weather of Scotland in order to recover. So he took his family to the South Pacific island of Samoa, which was a controversial decision at that time. However, Stevenson did not regret the decision. The sea air and thrill of adventure complemented the themes of his writing, and for a time restored his health. From there, Stevenson gained a love of travelling, and for nearly three years he wandered the eastern and central Pacific. Much of his work reflected his love of travel and the adventures he experienced in the Pacific islands. It was as a result of this biographical attention that the feeling grew that interest in Stevenson’s life had taken the place of interest in his works. Whether critics focus on his writing subjects, his religious beliefs, or his eccentric lifestyle of travel and adventure, people from the past and present have different opinions about Stevenson as an author. Today, he remains a controversial yet widely popular figure in Western literature."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27–31 on your answer sheet.\n27 Stevenson’s biographers KF and CP\n A underestimated the role played by family in Stevenson’s life.\n B overestimated the importance of the writer’s work in literary history.\n C exaggerated Stevenson’s religious beliefs in his works.\n D enhanced Stevenson’s reputation as a writer.\n\n\n28 The main point of the second paragraph is\n A the public now gives fairer assessments to Stevenson’s works.\n B recent criticism has been justified.\n C the style of Stevenson’s work outweighs the flaws in his personal life.\n D Stevenson’s work lacks moral value.\n\n\n29 According to the author, adventure stories\n A do not use plot twists effectively.\n B cannot be used to convey moral values.\n C are a more fashionable art form.\n D can be found in other writers’ works but not in Stevenson’s.\n\n\n30 What does the author say about Stevenson’s works?\n A They describe the life of people in Scotland.\n B They are commonly regarded as real literature.\n C They were popular during Stevenson’s life.\n D They transcend the local culture and stories.\n\n\n31 The lifestyle of Stevenson\n A made his family deeply envious of him.\n B should be responsible for his death.\n C gained more attention from the public than his works.\n D did not prepare him well for life in Samoa."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 35,
+      "text": "Questions 32–35\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 32–35 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n\n\n32 _________________ Although Oscar Wilde admired Robert Louis Stevenson very much, he\nbelieved Stevenson could have written greater works.\n33 _________________ Robert Louis Stevenson initially encouraged Oscar Wilde to write.\n34 _________________ Galsworthy thought Hardy was a greater writer than Stevenson.\n35 _________________ Critics paid attention only to the subjects of Robert Louis Stevenson’s\nwriting."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the notes using the list of words, A–I, below.\nWrite the correct letter, A–I, in boxes 36–40 on your answer sheet.\nSir Walter Scott and Robert Louis Stevenson\n\n\n\nA lot of people believe that Sir Walter Scott and Robert Louis Stevenson are the\nmost influential writers in the history of Scotland, but Sir Walter Scott is more\nproficient in 36 ____________, while Stevenson has better 37 ____________.\nScott’s books illustrate 38 ____________ especially in terms of tragedy, but a lot\nof readers prefer Stevenson’s 39 ____________. Furthermore, Stevenson’s\nunderstanding of 40 ____________ gave his work a uniquely expressive portrayal\nof Scottish people.\n\n\n\n A                                  natural ability\n\n B                                  romance\n\n C                                  colourful language\n\n D                                  critical acclaim\n\n E                                  humour\n\n F                                  technical control\n\n G                                  storytelling\n\n H                                  depth\n\n I                                  human nature"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Stevenson’s biographers KF and CP",
+      "translation": "Stevenson 的兩位傳記作者 KF 和 CP 做了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The main point of the second paragraph is",
+      "translation": "第二段的主要重點是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to the author, adventure stories",
+      "translation": "根據文章，冒險故事有甚麼特點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What does the author say about Stevenson’s works?",
+      "translation": "作者對 Stevenson 的作品有甚麼說法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The lifestyle of Stevenson",
+      "translation": "Stevenson 的生活方式怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Although Oscar Wilde admired Robert Louis Stevenson very much, he believed Stevenson could have written greater works.",
+      "translation": "雖然 Oscar Wilde 非常欣賞 Stevenson，但他認為 Stevenson 本來可以寫出更好的作品。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Robert Louis Stevenson initially encouraged Oscar Wilde to write.",
+      "translation": "Robert Louis Stevenson 最初鼓勵 Oscar Wilde 寫作。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Galsworthy thought Hardy was a greater writer than Stevenson.",
+      "translation": "Galsworthy 認為 Hardy 是比 Stevenson 更偉大的作家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Critics paid attention only to the subjects of Robert Louis Stevenson’s writing.",
+      "translation": "評論家只關注 Stevenson 寫作的題材。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "Sir Walter Scott 在 ______ 方面更熟練。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "而 Stevenson 有更好的 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "Scott 的書呈現 ______，尤其在悲劇方面。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "但很多讀者更喜歡 Stevenson 的 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "此外，Stevenson 對 ______ 的理解，使他的作品能獨特而有表現力地描繪蘇格蘭人。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-050/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-050/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-050/page-6.jpg"
+  ]
+}

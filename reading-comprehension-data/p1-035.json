@@ -1,0 +1,230 @@
+{
+  "id": "p1-035",
+  "catalogueId": "p1-035",
+  "title": "Dirty River But Clean Water",
+  "sourceHeading": "Dirty River but Clean Water",
+  "passage": 1,
+  "practice": 35,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-035-dirty-river-but-clean-water",
+  "source": {
+    "filename": "Practice 35 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "382c6fe4428fe532dcf86c2ff192183fc0970e37f7c042ebaba768e1ec4eb12b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Floods can occur in rivers when the flow rate exceeds the capacity of the river channel, particularly at bends or meanders in the waterway. Floods often cause damage to homes and businesses if they are in the natural flood plains of rivers. While riverine flood damage can be eliminated by moving away from rivers and other bodies of water, people have traditionally lived and worked by rivers because the land is usually flat and fertile and because rivers provide easy travel and access to commerce and industry."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "A Fire and flood are two of humanity’s worst nightmares. People have, therefore, always sought to control them. Forest fires are snuffed out quickly. The flow of rivers is regulated by weirs and dams. At least, that is how it used to be. But foresters have learned that forests need fires to clear out the brash and even to get seeds to germinate. And a similar revelation is now dawning on hydrologists. Rivers – and the ecosystems they support – need floods. That is why a man-made torrent has been surging down the Grand Canyon. By Thursday, March 6 it was running at full throttle, which was expected to be sustained for 60 hours."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "B Floods once raged through the canyon every year. Spring snow from as far away as Wyoming would melt and swell the Colorado River to a flow that averaged around 1,500 cubic metres (50,000 cubic feet) a second. Every eight years or so, that figure rose to almost 3,000 cubic metres. These floods infused the river with sediment, carved its beaches and built its sandbars."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "C However, in the four decades since the building of the Glen Canyon Dam, just upstream of the Grand Canyon, the only sediment that it has collected has come from tiny, undammed tributaries. Even that has not been much use as those tributaries are not powerful enough to distribute the sediment in an ecologically valuable way."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "D This lack of flooding has harmed local wildlife. The humpback chub, for example, thrived in the rust-red waters of the Colorado. Recently, though, its population has crashed. At first sight, it looked as if the reason was that the chub were being eaten by trout introduced for sport fishing in the mid-20th century. But trout and chub co-existed until the Glen Canyon Dam was built, so something else is going on. Steve Gloss, of the United States’ Geological Survey (USGS), reckons that the chub’s decline is the result of their losing their most valuable natural defense, the Colorado’s rusty sediment. The chub were well adapted to the poor visibility created by the thick, red water which gave the river its name, and depended on it to hide from predators. Without the cloudy water the chub became vulnerable."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "E And the chub are not alone. In the years since the Glen Canyon Dam was built, several species have vanished altogether. These include the Colorado pike-minnow, the razorback sucker and the round-tail chub. Meanwhile, aliens including fathead minnows, channel catfish and common carp, which would have been hard put to survive in the savage waters of the undammed canyon, have moved in."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "F So flooding is the obvious answer. Unfortunately, it is easier said than done. Floods were sent down the Grand Canyon in 1996 and 2004 and the results were mixed. In 1996 the flood was allowed to go on too long. To start with, all seemed well. The floodwaters built up sandbanks and infused the river with sediment. Eventually, however, the continued flow washed most of the sediment out of the canyon. This problem was avoided in 2004, but unfortunately, on that occasion, the volume of sand available behind the dam was too low to rebuild the sandbanks. This time, the USGS is convinced that things will be better. The amount of sediment available is three times greater than it was in 2004. So if a flood is going to do some good, this is the time to unleash one."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "G Even so, it may turn out to be an empty gesture. At less than 1,200 cubic metres a second, this flood is smaller than even an average spring flood, let alone one of the mightier deluges of the past. Those glorious inundations moved massive quantities of sediment through the Grand Canyon, wiping the slate dirty, and making a muddy mess of silt and muck that would make modern river rafters cringe."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "SECTION 1 · QUESTIONS 1–13"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 1–7 on your answer sheet, write:\n\n     TRUE       if the statement agrees with the information\n\n    FALSE       if the statement contradicts the information\n\n  NOT GIVEN     if there is no information about this\n\n\n\n1 _________________ Damage caused by fire is worse than that caused by floods\n2 _________________ The flood peaks at almost 1,500 cubic metres per second every eight years.\n3 _________________ The sediment delivered by tributaries has little impact.\n4 _________________ The decline in chub numbers has been caused entirely by the introduction of\ntrout since the mid-20th century.\n5 _________________ At first, the artificial flood in 1996 appeared to be partly successful.\n6 _________________ The current artificial flood has a lower flow rate than an average natural flood.\n7 _________________ Mighty floods produced fast-moving flows of clean, high-quality water."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in Boxes 8–13 on your answer sheet.\n\n\n\nThe Ecological Impact of the Canyon Dam\nFloods are a recurring human nightmare. In the past, the canyon flooded every year. Snow from as far\naway as Wyoming melted in 8 _________________ and caused the Colorado River to swell. In the four\ndecades after the Glen Canyon Dam was built, it collected only 9 _________________ from tiny,\nundammed tributaries.\n\nWhy did the humpback chub population decline?\n\nSeveral species disappeared, including the Colorado pikeminnow, 10 _________________ and the\nroundtail chub. Meanwhile, other species moved in, such as fathead minnows, channel catfish and 11\n_________________. The loss of sediment threatened the chub because they relied on poor 12\n_________________ to hide from predators. In 2004, the volume of 13 _________________ behind the\ndam was too low to rebuild the sandbanks."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Damage caused by fire is worse than that caused by floods",
+      "translation": "火災造成的破壞比洪水造成的破壞更嚴重。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The flood peaks at almost 1,500 cubic metres per second every eight years.",
+      "translation": "洪水每八年左右會在接近每秒 1,500 立方米時達到峰值。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The sediment delivered by tributaries has little impact.",
+      "translation": "支流帶來的泥沙影響很小。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The decline in chub numbers has been caused entirely by the introduction of trout since the mid-20th century.",
+      "translation": "chub 數量下降完全由 20 世紀中期引入 trout 所造成。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ At first, the artificial flood in 1996 appeared to be partly successful.",
+      "translation": "起初，1996 年的人工洪水似乎有部分成功。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The current artificial flood has a lower flow rate than an average natural flood.",
+      "translation": "目前這次人工洪水的流量比平均自然洪水低。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Mighty floods produced fast-moving flows of clean, high-quality water.",
+      "translation": "巨大的洪水產生快速流動、乾淨且高品質的水流。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "遠至 Wyoming 的雪在 ____________ 融化，令 Colorado River 水量上升。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "Glen Canyon Dam 建成後四十年間，它只從細小、未築壩的支流收集到 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "幾個物種消失了，包括 Colorado pikeminnow、____________ 和 roundtail chub。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "同時，其他物種進入，例如 fathead minnows、channel catfish 和 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "泥沙流失威脅 chub，因為牠們依賴較差的 ____________ 來躲避捕食者。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "2004 年，dam 後方的 ____________ 數量太低，無法重建沙洲。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-035/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-035/page-5.jpg"
+  ]
+}

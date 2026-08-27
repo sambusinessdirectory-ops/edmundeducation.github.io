@@ -1,0 +1,312 @@
+{
+  "id": "p3-161",
+  "catalogueId": "p3-161",
+  "title": "What Are Dreams?",
+  "sourceHeading": "What Are Dreams?",
+  "passage": 3,
+  "practice": 161,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-161-what-are-dreams",
+  "source": {
+    "filename": "Practice 161 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "0d0895dee9ed979171cbdb8c97ac6752c542512d0d96216541b4fcc68f15559b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Thousands of years ago, dreams were seen as messages from the gods, and in many cultures, they are still considered prophetic. In ancient Greece, sick people slept at the temples of Asclepius, the god of medicine, in order to receive dreams that would heal them. Modern dream science really begins at the end of the 19th century with Sigmund Freud, who theorized that dreams were the expression of unconscious desires often stemming from childhood. He believed that exploring these hidden emotions through analysis could help cure mental illness. The Freudian model of psychoanalysis dominated until the 1970s when new research into the chemistry of the brain showed that emotional problems could have biological or chemical roots, as well as environmental ones. In other words, we weren’t sick just because of something our mothers did (or didn’t do), but because of some imbalance that might be cured with medication."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "After Freud, the most important event in dream science was the discovery in the early 1950s of a phase of sleep characterized by intense brain activity and rapid eye movement (REM). People awakened in the midst of REM sleep reported vivid dreams, which led researchers to conclude that most dreaming took place during REM. Using the electroencephalograph (EEG), researchers could see that brain activity during REM resembled that of the waking brain. That told them that a lot more was going on at night than anyone had suspected. But what, exactly?"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Scientists still don’t know for sure, although they have lots of theories. On one side are scientists like Harvard’s Allan Hobson, who believes that dreams are essentially random. In the 1970s, Hobson and his colleague Robert McCarley proposed what they called the “activation-synthesis hypothesis,” which describes how dreams are formed by nerve signals sent out during REM sleep from a small area at the base of the brain called the pons. These signals, the researchers said, activate the images that we call dreams. That put a crimp in dream research; if dreams were meaningless nocturnal firings, what was the point of studying them?"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Adult humans spend about a quarter of their sleep time in REM, much of it dreaming. During that time, the body is essentially paralyzed but the brain is buzzing. Scientists using PET and fMRI technology to watch the dreaming brain have found that one of the most active areas during REM is the limbic system, which controls our emotions. Much less active is the prefrontal cortex, which is associated with logical thinking. That could explain why dreams in REM sleep often lack a coherent storyline (some researchers have also found that people dream in non-REM sleep as well, although those dreams generally are less vivid). Another active part of the brain in REM sleep is the anterior cingulate cortex, which detects discrepancies. Eric Nofzinger, director of the Sleep Neuroimaging Program at the University of Pittsburgh Medical Center, thinks that could be why people often figure out thorny problems in their dreams. “It is as if the brain surveys the internal milieu and tries to figure out what it should be doing, and whether our actions conflict with who we are,” he says."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "These may seem like vital mental functions, but no one has yet been able to say that REM sleep or dreaming is essential to life or even sanity. MAO inhibitors, an older class of antidepressants, essentially block REM sleep without any detectable effects, although people do get a “REM rebound” – extra REM – if they stop the medication. That’s also true of selective serotonin reuptake inhibitors (SSRIs) like Prozac, which reduce dreaming by a third to a half. Even permanently losing the ability to dream doesn’t have to be disabling. Israeli researcher Peretz Lavie has been observing a patient named Yuval Chamtzani, who was injured by a fragment of shrapnel that penetrated his brain when he was 19. As a result, he gets no REM sleep and doesn’t remember any dreams. But Lavie says that Chamtzani, now 55, “is probably the most normal person I know and one of the most successful ones.” He’s a lawyer, a painter and the editor of a puzzle column in a popular Israeli newspaper."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The mystery of REM sleep is that even though it may not be essential, it is ubiquitous – at least in mammals and birds. But that doesn’t mean all mammals and birds dream (or if they do, they’re certainly not talking about it). Some researchers think REM may have evolved for physiological reasons. “One thing that’s unique about mammals and birds is that they regulate body temperature,” says neuroscientist Jerry Siegel, director of UCLA’s Center for Sleep Research. “There’s no good evidence that any cold-blooded animal has REM sleep.” REM sleep heats up the brain and non-REM cools it off, Siegel says, and that could mean that the changing sleep cycles allow the brain to repair itself. “It seems likely that REM sleep is filling a basic physiological function and that dreams are a kind of epiphenomenon,” Siegel says – an extraneous by-product, like foam on beer."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Whatever the function of dreams at night, they clearly can play a role in therapy during the day. The University of Maryland’s Clara Hill, who has studied the use of dreams in therapy, says that dreams are a ‘backdoor’ into a patient’s thinking. “Dreams reveal stuff about you that you didn’t know was there,” she says. The therapists she trains to work with patients’ dreams are, in essence, heirs to Freud, using dream imagery to uncover hidden emotions and feelings. Dreams provide clues to the nature of more serious mental illnesses. Schizophrenics, for example, have poor-quality dreams, usually about objects rather than people. “If you’re going to understand human behavior,” says Rosalind Cartwright, chair of psychology at Rush University Medical Center in Chicago, “here’s a big piece of it. Dreaming is our own storytelling time – to help us know who we are, where we’re going and how we’re going to get there.” Cartwright has been studying depression in divorced men and women, and she is finding that “good dreamers,” people who have vivid dreams with strong storylines, are less likely to remain depressed. She thinks that dreaming helps diffuse strong emotions. “Dreaming is a mental-health activity,” she says."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–34",
+    "g35": "Questions 35–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nThe reading passage has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 27–31 on your answer sheet.\n A                                               A\n\n B                                               B\n\n C                                               C\n\n D                                               D\n\n E                                               E\n\n F                                               F\n\n G                                               G\n27 __________ Reference to the dreams of a versatile artist\n28 __________ A discussion of whether mammals and birds dream\n29 __________ Dreams are associated with therapeutic benefits and well-being\n30 __________ Use of advanced scientific technology to investigate the REM stage\n31 __________ A question raised about the usefulness of research into dreams"
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 34,
+      "text": "Questions 32–34\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 32–34 on your answer sheet.\n\n\n\n32. What were dreams regarded as by ancient people?\n\nA. Superstitious and unreliable\nB. A means of communicating with the gods and predicting the future\nC. A form of medical relief for people with mental illness\nD. Rules to follow while falling asleep in a temple\n\n\n\n33. According to Paragraph D, which part of the brain controls reasoning?\n\nA. Anterior cingulate cortex\nB. Internal cortex\nC. Limbic system\nD. Prefrontal cortex\n\n\n\n34. What can be concluded from the reference to dreaming in animals?\n\nA. Brain temperature rises during REM sleep.\nB. REM sleep explains why mammals are warm-blooded.\nC. Mammals are more likely to experience REM sleep.\nD. REM makes people want to drink beer with more foam."
+    },
+    {
+      "id": "g35",
+      "start": 35,
+      "end": 40,
+      "text": "Questions 35–40\nLook at the following people and the list of statements below.\nMatch each statement with the correct person, A–G.\nWrite the correct letter, A–G, in boxes 35–40 on your answer sheet.\n\n List of people\n\n A                                        Sigmund Freud\n\n B                                        Allan Hobson (Harvard)\n\n C                                        Robert McCarley\n\n D                                        Eric Nofzinger\n\n E                                        Jerry Siegel\n\n F                                        Clara Hill\n\n G                                        Rosalind Cartwright\n\n\n35 __________ Dreams may accompany REM sleep as merely a trivial by-product\n36 __________ Exploring patients’ dreams can benefit treatment by revealing unconscious\nthoughts\n37 __________ Dreams help people cope with difficulties encountered during the day\n38 __________ Decoding dreams can reveal desires originating in childhood\n39 __________ Dreaming helps regulate strong emotions\n40 __________ Dreams seem to occur randomly and have limited research significance"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Reference to the dreams of a versatile artist",
+      "translation": "哪一段提到一位多才多藝藝術家的夢？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ A discussion of whether mammals and birds dream",
+      "translation": "哪一段討論 mammals and birds 是否會做夢？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Dreams are associated with therapeutic benefits and well-being",
+      "translation": "哪一段說夢與治療好處和心理健康有關？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Use of advanced scientific technology to investigate the REM stage",
+      "translation": "哪一段提到用先進科學技術研究 REM 階段？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ A question raised about the usefulness of research into dreams",
+      "translation": "哪一段提出關於 dream research 是否有用的疑問？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "What were dreams regarded as by ancient people?",
+      "translation": "古人認為夢是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "According to Paragraph D, which part of the brain controls reasoning?",
+      "translation": "根據 D 段，大腦哪個部分控制 reasoning / logical thinking？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "What can be concluded from the reference to dreaming in animals?",
+      "translation": "從文章談到動物做夢，可得出甚麼結論？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ Dreams may accompany REM sleep as merely a trivial by-product",
+      "translation": "夢可能只是伴隨 REM 睡眠出現的微不足道副產品。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ Exploring patients’ dreams can benefit treatment by revealing unconscious thoughts",
+      "translation": "探索病人的夢可以透過揭示潛藏想法而有助治療。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ Dreams help people cope with difficulties encountered during the day",
+      "translation": "夢能幫人處理日間遇到的困難或棘手問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ Decoding dreams can reveal desires originating in childhood",
+      "translation": "解讀夢可以揭示源於童年的欲望。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ Dreaming helps regulate strong emotions",
+      "translation": "做夢有助調節強烈情緒。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "__________ Dreams seem to occur randomly and have limited research significance",
+      "translation": "夢似乎隨機出現，因此研究意義有限。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-161/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-161/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-161/page-7.jpg"
+  ]
+}

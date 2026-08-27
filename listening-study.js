@@ -1,15 +1,18 @@
-import { bookmarkLocation, safeBookmarkHref, bookmarksCsv, RowReplay } from './listening-study-core.mjs?v=20260827-study1';
-import { createListeningRecorder } from './listening-recorder.js?v=20260827-study1';
+import { bookmarkLocation, safeBookmarkHref, bookmarksCsv, RowReplay } from './listening-study-core.mjs?v=20260827-import1';
+import { createListeningRecorder } from './listening-recorder.js?v=20260827-import1';
+import { getLoadedPractice, loadPractice } from './listening-practice-loader.mjs?v=20260827-import1';
 
 export function createListeningStudy({ state, rpc, escapeHtml: esc, showView, updateRoute, pauseAllAudio, loadAudioCatalogue, toast, openPractice }) {
   const $ = selector => document.querySelector(selector);
   const endpoint = `${window.EDMUND_SUPABASE.url}/functions/v1/listening-study`;
-  const transcripts = window.EDMUND_IELTS_LISTENING_PRACTICE_1_TRANSCRIPT || {};
-  const timings = window.EDMUND_IELTS_LISTENING_PRACTICE_1_TIMINGS || {};
   const replay = new RowReplay($('[data-row-audio]'));
   let rows = [], adminRows = [], generation = 0, replayRequest = 0;
   let adminToken = '', adminName = '', reportLoaded = false;
-  const locationFor = row => bookmarkLocation(row, transcripts, timings);
+  const locationFor = row => {
+    const practice = Number(String(row.item_key || '').match(/^practice(\d+):/)?.[1]);
+    const data = getLoadedPractice(practice);
+    return data ? bookmarkLocation(row, data.transcript, data.timings, practice) : null;
+  };
   async function api(path, options = {}) {
     const token = path.startsWith('/admin/') ? adminToken : state.token;
     const { blob, ...init } = options;
@@ -63,6 +66,9 @@ export function createListeningStudy({ state, rpc, escapeHtml: esc, showView, up
     if (g !== generation || state.token !== token) return;
     rows = Array.isArray(next) ? next : [];
     state.listeningBookmarks = new Set(rows.map(r => r.item_key));
+    const practices = [...new Set(rows.map(row => Number(row.item_key.match(/^practice(\d+):/)?.[1])).filter(Boolean))];
+    const loaded = await Promise.allSettled(practices.map(loadPractice));
+    if (loaded.some(result => result.status === 'rejected') && required) throw new Error('部分書簽錄音稿未能載入；書簽仍保留，請重新載入。');
   }
   async function openBookmarks() {
     if (!state.user) return showView('login');

@@ -1,0 +1,232 @@
+{
+  "id": "p1-064",
+  "catalogueId": "p1-064",
+  "title": "Money Transfers by Mobile",
+  "sourceHeading": "Money Transfers by Mobile",
+  "passage": 1,
+  "practice": 64,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-064-money-transfers-by-mobile",
+  "source": {
+    "filename": "Practice 64  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "b247efe24255e221c781350a09569bc4b54d3212c807994c469848b5b26ac123"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The ping of a text message has never sounded so sweet. In what is being touted as a world first, Kenya’s biggest mobile operator is allowing subscribers to send cash to other phone users by SMS. Known as M-Pesa, or mobile money, the service is expected to revolutionise banking in a country where more than 80% of people are excluded from the formal financial sector. Apart from transferring cash – a service much in demand among urban Kenyans supporting relatives in rural areas – customers of the Safaricom network will be able to keep up to 50,000 shillings (£370) in a “virtual account” on their handsets."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Developed by Vodafone, which holds a 35% share in Safaricom, M-Pesa was formally launched in Kenya two weeks ago. More than 10,000 people have signed up for the service, with around 8 million shillings transferred so far, mostly in tiny denominations. Safaricom’s executives are confident that growth will be strong in Kenya, and later across Africa. “We are effectively giving people ATM cards without them ever having to open a real bank account,” said Michael Joseph, chief executive of Safaricom, who called the money transfer concept the “next big thing” in mobile telephony."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "M-Pesa is simple. There is no need for a new handset or SIM card. To send money, you hand over the cash to a registered agent – typically a retailer – who credits your virtual account. You then send between 100 shillings (74p) and 35,000 shillings (£259) via text message to the desired recipient – even someone on a different mobile network – who cashes it in at an agent by entering a secret code and showing ID. A commission of up to 170 shillings (£1.25) is paid by the recipient, but this compares favourably with fees levied by the major banks, whose services are too expensive for most of the population."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Mobile phone growth in Kenya, as in most of Africa, has been remarkable, even among the rural poor. In June 1999, Kenya had 15,000 mobile subscribers. Today, there are nearly 8 million subscribers in a population of 35 million, and the two operators’ networks are as extensive as the access to banks is limited. Safaricom says it is not so much competing with financial services companies as filling a void. In time, M-Pesa will allow people to borrow and repay money, and make purchases. Companies will be able to pay salaries directly into workers’ phones – something that has already attracted the interest of larger employers, such as the tea companies, whose workers often have to be paid in cash as they do not have bank accounts. There are concerns about security, but Safaricom insists that even if someone’s phone is stolen, the PIN system prevents unauthorised withdrawals. Mr Joseph said the only danger is sending cash to the wrong mobile number and the recipient redeeming it straight away."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The project is being watched closely by mobile operators around the world as a way of targeting the multibillion-pound international cash transfer industry long dominated by companies such as Western Union and MoneyGram. Remittances sent from nearly 200 million migrant workers to developing countries totalled £102 billion last year, according to the World Bank. The GSM Association, which represents more than 700 mobile operators worldwide, believes this could quadruple by 2012 if transfers by SMS become the norm. Vodafone has entered into a partnership with Citigroup that will soon allow Kenyans in the UK to send money home via text message. The charge for sending £50 is expected to be about £3, less than a third of what some traditional services charge."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has five paragraphs (A–E).\nWhich paragraph contains each of the following pieces of information?\n1 _________________ A possible security problem\n2 _________________ The cost of M-Pesa\n3 _________________ An international service similar to M-Pesa\n4 _________________ The fact that most Kenyans do not have a bank account"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for each gap.\nSafaricom is the 5 _________________ mobile phone company in Kenya.\nAn M-Pesa account needs to be credited by 6 _________________.\n7 _________________ companies are particularly interested in using M-Pesa.\nCompanies like MoneyGram and Western Union have 8 _________________ the international\nmoney transfer market."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n9 _________________ Most Kenyans working in urban areas have relatives in rural areas.\n10 _________________ So far, most of the people using M-Pesa have used it to send small amounts of\nmoney.\n11 _________________ M-Pesa can only be used by people using one phone network.\n12 _________________ M-Pesa can be used to buy products and services.\n13 _________________ The GSM Association is a consumer organisation."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ A possible security problem",
+      "translation": "一個可能的安全問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The cost of M-Pesa",
+      "translation": "M-Pesa 的使用費用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ An international service similar to M-Pesa",
+      "translation": "一項類似 M-Pesa 的國際服務。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The fact that most Kenyans do not have a bank account",
+      "translation": "大多數 Kenya 人沒有銀行戶口這一事實。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "Safaricom 是 Kenya 的 5 ________ 手機公司。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "M-Pesa 戶口需要由 6 ________ 入帳。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "_________________ companies are particularly interested in using M-Pesa. Companies like MoneyGram and Western Union have 8 _________________ the international money transfer market.",
+      "translation": "7 ________ 公司特別有興趣使用 M-Pesa。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "MoneyGram 和 Western Union 這類公司已經 8 ________ 國際匯款市場。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Most Kenyans working in urban areas have relatives in rural areas.",
+      "translation": "大多數在城市工作的 Kenya 人都有住在農村的親屬。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ So far, most of the people using M-Pesa have used it to send small amounts of money.",
+      "translation": "到目前為止，大部分 M-Pesa 使用者都是用它來寄小額金錢。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ M-Pesa can only be used by people using one phone network.",
+      "translation": "M-Pesa 只能由使用同一個手機網絡的人使用。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ M-Pesa can be used to buy products and services.",
+      "translation": "M-Pesa 可以用來購買產品和服務。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ The GSM Association is a consumer organisation.",
+      "translation": "GSM Association 是一個消費者組織。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-064/page-4.jpg"
+  ]
+}

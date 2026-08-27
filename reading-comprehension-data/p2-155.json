@@ -1,0 +1,250 @@
+{
+  "id": "p2-155",
+  "catalogueId": "p2-155",
+  "title": "Seed Hunting",
+  "sourceHeading": "Seed Hunting",
+  "passage": 2,
+  "practice": 155,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-155-seed-hunting",
+  "source": {
+    "filename": "Practice 155 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "ca3e1f082302f3f88c82bb07f7e837541ae07ae74f31dd751846a2052796d690"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "With a quarter of the world’s plants set to vanish within the next 50 years, Doug Alexander reports on the scientists working against the clock to preserve the Earth’s botanical heritage. They travel to the four corners of the globe, scouring jungles, forests and savannas. But they’re not looking for ancient artefacts, lost treasure or undiscovered tombs. Just pods. It may lack the romantic allure of archaeology or the whiff of danger that accompanies going after big game, but seed hunting is an increasingly serious business. Some seek seeds for profit. These hunters work for biotechnology firms, pharmaceutical companies and private corporations on the lookout for species that will yield the drugs or crops of the future. Others collect to conserve, working to halt the sad slide into extinction facing so many plant species."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Among the pioneers of this botanical treasure hunt was John Tradescant, an English royal gardener who brought back plants and seeds from his journeys abroad in the early 1600s. Later, the English botanist Sir Joseph Banks—who was the first director of the Royal Botanic Gardens at Kew and travelled with Captain James Cook on his voyages near the end of the 18th century—was so driven to expand his collections that he sent botanists around the world at his own expense."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Those heady days of exploration and discovery may be over, but they have been replaced by a pressing need to preserve our natural history for the future. This modern mission drives hunters such as Dr Michiel van Slageren, a good-natured Dutchman who often sports a wide-brimmed hat in the field—he could easily be mistaken for the cinematic hero Indiana Jones. He and three other seed hunters work at the Millennium Seed Bank, an £80 million international conservation project that aims to protect the world’s most endangered wild plant species."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The group’s headquarters are in a modern glass-and-concrete structure on a 200-hectare estate at Wakehurst Place in the West Sussex countryside. Within its underground vaults are 260 million dried seeds from 122 countries, all stored at −20°C to survive for centuries. Among the 5,100 species represented are virtually all of Britain’s 1,400 native seed-bearing plants, the most complete such collection of any country’s flora."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Overseen by the Royal Botanic Gardens, the Millennium Seed Bank is the world’s largest wild-plant depository. It aims to collect 24,000 species by 2010. The need is clear: because of human activity, an estimated 25 per cent of the world’s plants are on the verge of extinction and may vanish within 50 years. We’re currently responsible for habitat destruction on an unprecedented scale, and during the past 400 years, plant species extinction rates have been about 70 times greater than those indicated by the geological record as being ‘normal’. Experts predict that during the next 50 years, a further one billion hectares of wilderness will be converted to farmland in developing countries alone."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The implications of this loss are enormous. Besides providing staple food crops, plants are a source of many medicines and the principal supply of fuel and building materials in many parts of the world. They also protect soil and help regulate the climate. Yet, across the globe, plant species are being driven to extinction before their potential benefits are discovered."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The World Conservation Union has listed 5,714 threatened species, but the true figure is sure to be much higher. In the UK alone, 300 wild plant species are classified as endangered. The Millennium Seed Bank aims to ensure that even if a plant becomes extinct in the wild, it won’t be lost forever. Stored seeds can be used to help restore damaged or destroyed environments or in scientific research to find new benefits for society—in medicine, agriculture or local industry—that would otherwise be lost."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Seed banks are an insurance policy to protect the world’s plant heritage for the future, explains Dr Paul Smith, another Kew seed hunter. ‘Seed conservation techniques were originally developed by farmers,’ he says. ‘Storage is the basis of what we do: conserving seeds until they can be used, just as in farming.’ Smith says there’s no reason why any plant species should become extinct, given today’s technology. But he admits that the biggest challenge is finding, naming and categorising all the world’s plants. And someone has to gather these seeds before it’s too late. ‘There aren’t a lot of people out there doing this,’ he says. ‘The key is to know the flora from a particular area, and that knowledge takes years to acquire.’"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "There are about 1,470 seed banks scattered around the globe, with a combined total of 5.4 million samples, of which perhaps two million are distinct non-duplicates. Most preserve genetic material for agricultural use in order to ensure crop diversity; others aim to conserve wild species, although only 15 per cent of all banked plants are wild."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Many seed banks are themselves under threat due to a lack of funds. Last year, Imperial College, London, examined crop collections from 151 countries and found that while the number of plant samples had increased in two-thirds of the countries, the budget had been cut in a quarter and remained static in another 35 per cent. The UN’s Food and Agriculture Organization and the Consultative Group on International Agricultural Research have since set up the Global Conservation Trust, which aims to raise US$260 million to protect seed banks in perpetuity."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–20",
+    "g21": "Questions 21–25",
+    "g26": "Questions 26–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 20,
+      "text": "Questions 15–20\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 15–20 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n15 __________ The purpose of collecting seeds today differs from that in the past.\n16 __________ The Millennium Seed Bank is the earliest seed bank.\n17 __________ One major threat to plant species is the expansion of farmland into wilderness.\n18 __________ Scientists store seeds in a way similar to the method used by farmers.\n19 __________ Technological development is the only hope for saving plant species.\n20 __________ Seed-conservation work is often restricted by financial problems."
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 25,
+      "text": "Questions 21–25\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 21–25 on your answer sheet.\n\n\nSome people collect seeds for the purpose of protecting certain species from 21\n__________; others collect seeds for their ability to produce 22 __________. They are\ncalled seed hunters. Early 23 __________ included both gardeners and botanists,\nsuch as 24 __________, who financially supported collectors out of his own pocket.\nThe seeds collected are usually stored in seed banks, one of which is the famous\nMillennium Seed Bank, where seeds are all stored in the 25 __________ at a low\ntemperature."
+    },
+    {
+      "id": "g26",
+      "start": 26,
+      "end": 27,
+      "text": "Questions 26–27\nChoose TWO letters, A–E.\nWhich TWO of the following are provided by plants to humans?\nWrite the correct letters in boxes 26 and 27 on your answer sheet.\n A food\n B fuels\n C clothes\n D energy\n E commercial products\n\n\n26 __________\n27 __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The purpose of collecting seeds today differs from that in the past.",
+      "translation": "今天收集種子的目的和過去不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The Millennium Seed Bank is the earliest seed bank.",
+      "translation": "Millennium Seed Bank 是最早的種子庫。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ One major threat to plant species is the expansion of farmland into wilderness.",
+      "translation": "植物物種面對的一個主要威脅，是農地擴張到荒野地區。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Scientists store seeds in a way similar to the method used by farmers.",
+      "translation": "科學家儲存種子的方式和農民使用的方法相似。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Technological development is the only hope for saving plant species.",
+      "translation": "科技發展是拯救植物物種的唯一希望。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Seed-conservation work is often restricted by financial problems.",
+      "translation": "種子保存工作經常受到財政問題限制。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "有些人收集種子，是為了保護某些物種免於 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "另一些人收集種子，是因為它們有能力產生 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "早期的 ______ 包括園丁和植物學家。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "例如 ______，他自掏腰包資助採集者。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "收集到的種子通常儲存在種子庫，其中著名的 Millennium Seed Bank 把種子全部低溫儲存在______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "以下哪兩項是植物提供給人類的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "以下哪兩項是植物提供給人類的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-155/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-155/page-6.jpg"
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "p1-114",
+  "catalogueId": "p1-114",
+  "title": "The Rufous Hare-Wallaby",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 114,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-114-the-rufous-hare-wallaby",
+  "source": {
+    "filename": "Practice 114 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "9eb18c919007e276c84673dfa5115eaefa247038e1d2a2ef8fab6a91890b6296"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Rufous Hare-Wallaby The Rufous Hare-Wallaby is a species of Australian kangaroo, usually known by its Aboriginal name, ‘mala’. At one time, there may have been as many as ten million of these little animals across the arid and semi-arid landscape of Australia, but their populations, like those of so many other small endemic species, were devastated when cats and foxes were introduced—indeed, during the 1950s it was thought that the mala was extinct. But in 1964, a small colony was found 450 miles northwest of Alice Springs in the Tanami Desert. And 12 years later, a second small colony was found nearby. Very extensive surveys were made throughout the mala’s historical range—but no other traces were found."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Throughout the 1970s and 1980s, scientists from the Parks and Wildlife Commission of the Northern Territory monitored these two populations. At first it seemed that they were holding their own. Then in late 1987, every individual of the second and smaller of the wild colonies was killed. From examination of the tracks in the sand, it seemed that a single fox had been responsible. And then, in October 1991, a wildfire destroyed the entire area occupied by the remaining colony. Thus the mala was finally pronounced extinct in the wild."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Fortunately, ten years earlier, seven individuals had been captured and had become the founders of a captive breeding programme at the Arid Zone Research Institute in Alice Springs. That group had thrived. Part of this success is due to the fact that the female can breed when she is just five months old and can produce up to three young a year. Like other kangaroo species, the mother carries her young—known as a joey—in her pouch for about 15 weeks, and she can have more than one joey at the same time."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "In the early 1980s, there were enough mala in the captive population to make it feasible to start a reintroduction programme. But first it was necessary to discuss this with the leaders of the Yapa people. Traditionally, the mala had been an important animal in their culture, with strong medicinal powers for old people. It had also been an important food source, and there were concerns that any mala returned to the wild would be killed for the pot. And so, in 1980, a group of key Yapa men was invited to visit the proposed reintroduction area. The skills and knowledge of the Yapa would play a significant and enduring role in this and all other mala projects."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "With the help of the local Yapa, an electric fence was erected around 250 acres of suitable habitat, about 300 miles northwest of Alice Springs so that the mala could adapt while protected from predators. By 1992, there were about 150 mala in their enclosure, which became known as the Mala Paddock. However, all attempts to reintroduce mala from the paddock into the unfenced wild were unsuccessful, so in the end the reintroduction programme was abandoned. The team now faced a situation where mala could be bred, but not released into the wild again."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Thus, in 1993, a Mala Recovery Team was established to boost mala numbers, and goals for a new programme were set: the team concentrated on finding suitable predator-free or predator-controlled conservation sites within the mala’s known range. Finally, in March 1999, twelve adult females, eight adult males, and eight joeys were transferred from the Mala Paddock to Dryandra Woodland in Western Australia. Then, a few months later, a second group was transferred to Trimouille, an island off the coast of Western Australia. First, it had been necessary to rid the island of rats and cats—a task that had taken two years of hard work."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Six weeks after their release into this conservation site, a team returned to the island to find out how things were going. Each of the malas had been fitted with a radio collar that transmits for about 14 months, after which it falls off. The team was able to locate 29 out of the 30 transmitters—only one came from the collar of a mala that had died of unknown causes. So far the recovery programme had gone even better than expected."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Today, there are many signs suggesting that the mala population on the island is continuing to do well."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nComplete the flow chart below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\n6 _________________ At what age can female malas start breeding?\n7 _________________ For about how long do young malas stay inside their mother’s pouch?\n8 _________________ Apart from being a food source, what value did malas have for the Yapa\npeople?\n9 _________________ What was the Yapa people’s lasting contribution to the mala\nreintroduction programme?"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n10 _________________ Natural defences were sufficient to protect the area called Mala\nPaddock.\n11 _________________ Scientists eventually gave up their efforts to release captive mala into\nthe unprotected wild.\n12 _________________ The mala population which was transferred to Dryandra Woodland\nquickly increased in size.\n13 _________________ Scientists were satisfied with the initial results of the recovery\nprogramme."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "在遙遠過去，mala 在沙漠和半沙漠地區的總數最多可達 1 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "mala 的族群被 2 ______ 摧毀。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "科學家 3 ______ 這些殖民群。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "1991 年，另一個殖民群被 4 ______ 摧毀。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "野外 mala 被宣布為 5 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ At what age can female malas start breeding?",
+      "translation": "雌性 mala 到甚麼年齡可以開始繁殖？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ For about how long do young malas stay inside their mother’s pouch?",
+      "translation": "幼小的 mala 會留在母親育兒袋中大約多久？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ Apart from being a food source, what value did malas have for the Yapa people?",
+      "translation": "除了作為食物來源，mala 對 Yapa people 還有甚麼價值？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ What was the Yapa people’s lasting contribution to the mala reintroduction programme?",
+      "translation": "Yapa people 對 mala reintroduction programme 的持久貢獻是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Natural defences were sufficient to protect the area called Mala Paddock.",
+      "translation": "天然防禦已足以保護稱為 Mala Paddock 的區域。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Scientists eventually gave up their efforts to release captive mala into the unprotected wild.",
+      "translation": "科學家最終放棄把人工繁殖的 mala 釋放到未受保護的野外。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ The mala population which was transferred to Dryandra Woodland quickly increased in size.",
+      "translation": "被轉移到 Dryandra Woodland 的 mala population 很快增加。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Scientists were satisfied with the initial results of the recovery programme.",
+      "translation": "科學家對 recovery programme 的初步結果感到滿意。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-114/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-114/page-5.jpg"
+  ]
+}

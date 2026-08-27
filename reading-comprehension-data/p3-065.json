@@ -1,0 +1,239 @@
+{
+  "id": "p3-065",
+  "catalogueId": "p3-065",
+  "title": "Rise of the Robots",
+  "sourceHeading": "Rise of the Robots If you are into technology, you are living in wonderful times. Things are developing in leaps and bounds, especially gadgets. Let us look at the technologies that are set to break through.",
+  "passage": 3,
+  "practice": 65,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-065-rise-of-the-robots",
+  "source": {
+    "filename": "Practice 65 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "913be3fe8a73f1478c111e568f4b5488371a5b1513409b15d26613711eafd364"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "CELESTRON SKYSCOUT Backyard stargazing goes seriously hi-tech with the Celestron SkyScout, which was judged to be the Best of Innovations at the New York Consumer Electronics Show press preview event in November. It is not difficult to see why. The SkyScout is a hand-held viewing device that is capable of finding and identifying more than 6,000 celestial objects visible to the naked eye, thus transforming the night sky into your own personal planetarium. Using GPS technology and a substantial celestial database, the camcorder-sized SkyScout enables stargazers to point the device at any visible object in the sky, press a button, and then listen to a commentary. For the truly celestially challenged, if you want to view a star or planet but do not have a clue which bit of the heavens to look in, do not despair; the SkyScout’s “locate” feature will guide you to it using illuminated arrows in the viewfinder."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "NOKIA N91 This amazing mobile jukebox is due out early in 2006. Nokia’s N91 looks set to be in a class of its own as a multimedia mobile phone. It will play music, take photos, surf the web and download videos, store contact details, and generally organise your life. The robust little phone, resplendent in its stainless steel case, is the first Nokia to be equipped with a hard drive (4 GB), which means that it can store up to 3,000 songs. The N91, which has a hi-fi quality headset and remote control, supports a wide range of digital music formats, including MP3, Real, WAV, and WMA. It uses wireless technology to allow users to find and buy music from the operator’s music store. You can also drag and drop music from your PC to the N91 and manage and share playlists. If you can find the time, you can get on the blower, too."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "SEIKO SPECTRUM E-PAPER WATCH The Seiko Spectrum is no ordinary wristwatch. At first glance, it is an attractive and futuristic bracelet-style watch. Look closer, however, and you will notice that its display is unlike any you have seen before. Rather than the usual LCD screen, the display is made of “e-paper” – from the electronic paper pioneers E Ink Corp – and shows a constantly changing mosaic pattern along with the time. Because e-paper is so flexible and thin, it allows the display to curve round the wrist along with the watch band – something conventional liquid-crystal displays cannot do, as they have to be flat. Seiko says the e-paper display not only produces far better contrast than an LCD screen, but requires no power to retain an image, so the batteries last longer. Seiko is releasing only 500 of the watches next month, priced at about £1,250 – so you’d better lose no time."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "HIGH-DEFINITION TV HDTV, already available in the United States, Japan, and Australia, will hit the UK in 2006. When you watch a programme filmed in the HD format, you will see a much sharper, clearer and more vibrant image. This is due partly to the way a programme is filmed, but also to the high-definition TV set itself, which uses either 720 or 1,080 visible rows of pixels (depending on which format the individual HDTV uses) to display images, compared with the 576 rows of pixels used in current sets."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "ELECTROLUX TRILOBITE 2.0 ROBOT VACUUM CLEANER Next time you are expecting visitors, do not bother to vacuum first – wait until they arrive, and then entertain them with this little gadget. The Electrolux Trilobite 2.0 is a robotic vacuum cleaner that navigates its way around your floors using ultrasound, just like a bat. It emits ultrasonic pulses towards surfaces to create a map of the room, which it remembers for future cleaning assignments. The Trilobite has no problem avoiding collisions with objects placed on the floor. Special magnetic strips are placed in doorways, near stairs and other openings. These act as a wall, keeping the Trilobite in the room. You can also programme it to glide around while you’re at work or after you’ve gone to bed. When Electrolux introduced the original Trilobite in 2001, it was voted among the 100 most innovative designs (though whether the judges were dedicated couch potatoes, and thus biased, we were not able to discover). The name comes from the hard-shelled sea creature from the Paleozoic era (between 560 million and 250 million years ago) that roamed the ocean floor feeding on particles and small animals."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "HONDA ASIMO ROBOT Need an extra pair of hands around the office? Look no further; this month, the Honda Motor Company showcased its second-generation humanoid robot, Asimo. The machine has come a long way since its first incarnation five years ago. The 1.3-metre-tall droid is now capable of performing a variety of office tasks, including reception duties, serving drinks and acting as an information guide, as well as making deliveries. Using multiple sensors, Asimo has the ability to recognise the surrounding environment and interact with people using integrated circuit tags. It can walk and run at a fair pace, and push a cart. Honda plans to start using Asimo’s receptionist functions at its Wako Building in Japan early in 2006, and it is hoped it will become available for leasing afterwards. It could soon be pushing a cart at an office near you."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in the appropriate box on your answer sheet.\n\n\n27 The Celestron SkyScout can\n  A provide information about the stars.\n  B tell you where in the world you are.\n  C find objects in the sky that are not normally visible.\n\n\n28 The Seiko Spectrum e-paper watch\n  A cannot be bent.\n  B can be used for surfing the Internet.\n  C is being produced as a limited edition.\n\n\n29 The Electrolux Trilobite 2.0 robot vacuum cleaner\n  A asks permission before moving from room to room.\n  B uses lasers to help it avoid objects.\n  C is programmable.\n\n\n30 The Honda Asimo robot\n  A has two pairs of hands.\n  B uses lasers to help it recognise its surroundings.\n  C can run."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for each gap.\nThe SkyScout uses GPS and 31 _________________ to help you find a star.\nThe Seiko Spectrum does not need battery power to retain the 32 _________________\nHDTV uses more 33 _________________ than conventional TV.\nThe Trilobite 2.0 could be used to 34 _________________ guests.\nAsimo first appeared 35 _________________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n36 _________________ The Nokia N91 is strong.\n37 _________________ E-paper can be torn easily.\n38 _________________ HDTV is filmed differently from conventional TV.\n39 _________________ The Trilobite 2.0 looks just like the original design.\n40 _________________ Asimo is available for export."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The Celestron SkyScout can",
+      "translation": "Celestron SkyScout 可以做到甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The Seiko Spectrum e-paper watch",
+      "translation": "Seiko Spectrum e-paper watch 有甚麼特點？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The Electrolux Trilobite 2.0 robot vacuum cleaner",
+      "translation": "Electrolux Trilobite 2.0 robot vacuum cleaner 有甚麼特點？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The Honda Asimo robot",
+      "translation": "Honda Asimo robot 可以做到甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "SkyScout 使用 GPS 和 ______ 來幫你找星星。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "Seiko Spectrum 不需要電池電力去維持 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "HDTV 比傳統電視使用更多 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "Trilobite 2.0 可以用來 ______ 客人。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "Asimo 首次出現於 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ The Nokia N91 is strong.",
+      "translation": "Nokia N91 很堅固。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ E-paper can be torn easily.",
+      "translation": "E-paper 很容易被撕破。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ HDTV is filmed differently from conventional TV.",
+      "translation": "HDTV 的拍攝方式和傳統電視不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ The Trilobite 2.0 looks just like the original design.",
+      "translation": "Trilobite 2.0 看起來和原本設計一模一樣。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Asimo is available for export.",
+      "translation": "Asimo 可供出口。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-065/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-065/page-5.jpg"
+  ]
+}

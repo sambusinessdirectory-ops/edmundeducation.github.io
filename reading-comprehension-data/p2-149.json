@@ -1,0 +1,288 @@
+{
+  "id": "p2-149",
+  "catalogueId": "p2-149",
+  "title": "Western Immigration of Canada",
+  "sourceHeading": "Western Immigration to Canada",
+  "passage": 2,
+  "practice": 149,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-149-western-immigration-of-canada",
+  "source": {
+    "filename": "Practice 149 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "d3eb672ac6a6b0f9105fe2336333972e3904b6b58458f06c4e57d68c0ddc2b23"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "By the mid-1870s Canada wanted an immigrant population of agricultural settlers established in the West. No urban centres existed on the prairies in the 1870s, and rural settlement was the focus of the federal government’s attention. Rural settlement in the West was desired because it would provide homesteads for the sons and daughters of eastern farmers as agricultural land in the East reached capacity. Furthermore, eastern farmers and politicians viewed western Canada, with its broad expanses of unpopulated land, as a prime location for expanding Canada’s agricultural output, especially in terms of wheat production to serve the markets of eastern Canada."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "To bolster Canada’s population and agricultural output, the federal government took steps to secure western land. The Dominion of Canada purchased Rupert’s Land from the Hudson’s Bay Company in 1870. In 1872, the federal government enacted the Dominion Lands Act. This act enabled settlers to acquire 160 acres of free land, as long as settlers remained on their land for a period of three years, made certain minor improvements to the land, and paid a $10.00 registration fee. The Canadian government also created a Mounted Police Force in 1873. The Mounties journeyed west to secure the area for future settlers. By 1876 the NWMP had established itself in the West. The major posts included Swan River, Fort Saskatchewan, Fort Calgary, Fort Walsh and Fort Macleod. All of these initiatives attracted a number of eastern-Canadian settlers, as well as European and American immigrants, to Canada’s West, and particularly to the area of Manitoba."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The surest way to protect Canadian territory, and to achieve the secondary goal of joining British Columbia to the rest of the country, was to import large numbers of Eastern Canadian and British settlers. Settling the West also made imperative the building of a transcontinental railway. The railway would work to create an east-west economy, in which western Canada would feed the growing urban industrial population of the east, and in return become a market for eastern Canadian manufactured goods."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Winnipeg became the metropolis of the West during this period. Winnipeg’s growth before 1900 was the result of a combination of land speculation, growth of housing starts, and the federal government’s selection in 1881 of Winnipeg as a major stop along the CPR. This decision culminated in a land boom between 1881 and 1883 which resulted in the transformation of hamlets like Portage la Prairie and Brandon into towns, and a large increase in Manitoba’s population. Soon, Winnipeg stood at the junction of three transcontinental railway lines which employed thousands in rail yards. Winnipeg also became the major processor of agricultural products for the surrounding hinterland."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The majority of settlers to Winnipeg, and the surrounding countryside, during this early period, were primarily Protestant English-speaking settlers from Ontario and the British Isles. These settlers established Winnipeg upon a British-Ontarian ethos which came to dominate the society’s social, political, and economic spirit. This British-Ontarian ethnic homogeneity, however, did not last very long. Increasing numbers of foreign immigrants, especially from Austria-Hungary and Ukraine, soon added a new ethnic element to a population base comprising recent British arrivals, the older First Nations and Métis communities, and Selkirk settlers. Settling the West with (in particular) Eastern Canadians and British immigrants offered the advantage of safeguarding the 49th parallel from the threat of American takeover, particularly because the Minnesota legislature had passed a resolution which provided for the annexation of the Red River district. The Red River in 1870 was the most important settlement on the Canadian prairies. It contained 11,963 inhabitants of whom 9,700 were Métis and First Nations. But neighbouring Minnesota already had a population of over 100,000."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Not all of the settlers who came to western Canada in the 1880s, however, desired to remain there. In the 1870s and 1880s, economic depression kept the value of Canada’s staple exports low, which discouraged many from permanent settlement in the West. Countries including Brazil, Argentina, Australia, New Zealand and the United States competed with Canada for immigrants. Many immigrants and thousands of Canadians chose to settle in the accessible and attractive American frontier. Canada before 1891 has been called “a huge demographic railway station” where thousands of men, women, and children were constantly going and coming, and where the number of departures invariably exceeded that of arrivals.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "By 1891 Eastern Canada had its share of both large urban centres and problems associated with city life. While the booming economic centres of Toronto and Montreal were complete with electricity and telephones in the cities’ wealthiest areas by the turn of the century, slum conditions characterised the poorest areas like the district known as ‘the Ward’ in Toronto. Chickens and pigs ran through the streets; privy buckets spilled into backyards and lanes, creating cesspools in urban slums. Social reformers believed that rural living, in stark contrast to urban life, would lead to a healthy, moral, and charitable way of life. Social reformers praised the ability of fresh air, hard work and open spaces to ‘Canadianise’ immigrants. Agricultural pursuits were seen as especially fitting for attaining this ‘moral’ and family-oriented way of life, in opposition to the single male-dominated atmosphere of the cities. Certainly, agriculture played an important part in the Canadian economy in 1891. One-third of the workforce worked on farms."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The Canadian government presented Canada’s attractions to potential overseas migrants in several ways. The government offered free or cheap land to potential agriculturists. As well, the government established agents and/or agencies for the purpose of attracting emigrants overseas. Assisted-passage schemes, bonuses and commissions for agents and settlers, and pamphlets also attracted some immigrants to Canada. The most influential form of attracting others to Canada, however, remained the letters home written by emigrants already in Canada. These letters from trusted friends and relatives often contained exaggerations of the ‘wonder of the new world.’ Migrant workers and settlers already in Canada did not want to disappoint, or worry, their family and friends at home. Embellished tales of good fortune and happiness often succeeded in encouraging others to come."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nThe Reading Passage has eight paragraphs A–H\nChoose the correct heading for paragraphs A–H from the list below.\nWrite the correct number, i–xii, in boxes 14–20 on your answer sheet\n\n                          List of Headings\n\n i                        Not all would stay in Canada forever\n\n ii                       Government safeguards in the West\n\n iii                      Eastern Canada is full\n\n iv                       Building new infrastructure\n\n v                        The establishment of British-Ontarian dominance\n\n vi                       Ethnic and linguistic composition\n\n vii                      Pursuing a pure life\n\n viii                     Police recruited from middle-class families\n\n ix                       The demand for western immigration\n\n x                        Early major urban development in the West\n\n xi                       An attractive urban environment\n\n xii                      Advertising of Western Canada\nExample: Paragraph A ix\n14 Paragraph B\n15 Paragraph C\n16 Paragraph D\n17 Paragraph E\n18 Paragraph F\n19 Paragraph G\n20 Paragraph H"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nComplete the following summary of the paragraphs of Reading Passage\nUsing NO MORE THAN TWO WORDS from the Reading Passage for each answer.\nWrite your answers in boxes 21–26 on your answer sheet.\n\n\nAs agricultural land in Eastern Canada reached capacity, the rural West\ncould provide 21 _________________ for the descendants of eastern\nfarmers. Politicians also argued that the West could increase Canada’s\n22 _________________, particularly the production of the 23\n_________________ consumed in the East. The federal government\nbegan preparing for settlement. It first purchased land from a private 24\n_________________ and then legally offered plots to people who\nremained for a qualifying period. Next, a mounted 25\n_________________ was created to secure the territory. The best way to\nprotect Canadian interests, however, was to build a 26\n_________________ to transport migrants and goods between West and\nEast."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "判斷 B 段整段主旨，而非只找某一個細節。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph C",
+      "translation": "找出 C 段整段最主要功能。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph D",
+      "translation": "判斷 D 段主要是在說哪一種發展。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "找出 E 段的整體焦點。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "判斷 F 段主旨。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph G",
+      "translation": "判斷 G 段的核心思想。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph H",
+      "translation": "判斷 H 段主要講甚麼。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "當加拿大東部農地達到容量上限時，西部鄉村可以為東部農民的後代提供甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "text",
+      "prompt": "_________________, particularly the production of the 23 _________________ consumed in the East. The federal government began preparing for settlement. It first purchased land from a private 24 _________________ and then legally offered plots to people who remained for a qualifying period. Next, a mounted 25 _________________ was created to secure the territory. The best way to protect Canadian interests, however, was to build a 26 _________________ to transport migrants and goods between West and East.",
+      "translation": "政客也認為，西部可以增加加拿大的甚麼，尤其是供東部消費的小麥生產？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "政客認為西部可增加加拿大農業產量，尤其是供東部消費的甚麼作物的生產？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "聯邦政府開始為定居作準備。它首先從一間私人甚麼購買土地，然後依法向留住達指定年期的人提供土地。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "接著，一支騎警甚麼被建立，用來保障該地區。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "然而，保護加拿大利益的最佳方法是建造一條甚麼，用來在東西部之間運送移民和貨物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-149/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-149/page-6.jpg"
+  ]
+}

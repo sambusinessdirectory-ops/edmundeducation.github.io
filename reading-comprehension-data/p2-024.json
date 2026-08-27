@@ -1,0 +1,213 @@
+{
+  "id": "p2-024",
+  "catalogueId": "p2-024",
+  "title": "Caveat Scriptor",
+  "sourceHeading": "Caveat Scriptor Let the would-be writer beware! Anyone foolhardy enough to embark on a career as a writer – whether it be an academic treatise, a novel, or even an article – should first read this!",
+  "passage": 2,
+  "practice": 24,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-024-caveat-scriptor",
+  "source": {
+    "filename": "Practice 24 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "5a4ee1bb63e86e386c1cd53d773cf888c7f4a254fa0b46b92a7ce94a0099663d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "People think that writing as a profession is glamorous—that it is just about sitting down and churning out words on a page, or more likely these days on a computer screen. If only it were! So what exactly does writing a book entail? Being a writer is about managing a galaxy of contradictory feelings: elation, despair, hope, frustration, satisfaction and depression—and not all separately! Of course, it also involves carrying out detailed research: first, to establish whether there is a market for the planned publication, and second, to determine what the book’s content should be. Sometimes, however, instinct takes the place of market research and the contents are dictated not by plans and exhaustive research, but by experience and knowledge."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Once the publication has been embarked upon, there is a long period of turmoil as the text takes shape. A first draft is rarely the final text of the book. Nearly all books are the result of countless hours of altering and reordering chunks of text and deleting the superfluous bits. While some people might think that with new technology the checking and editing process is sped up, the experienced writer would hardly agree. Unfortunately, advanced technology now allows the writer the luxury of countless edits; a temptation many writers find hard to resist. So a passage that is endlessly reworked may end up nothing remotely like the original, and completely out of place when compared with the rest of the text."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "After the trauma of self-editing and looking for howlers, it is time to show the text to other people, friends perhaps, for appraisal. At this stage, it is not wise to send it off to a literary agent or direct to publishers, as it may need further fine-tuning of which the author is unaware. Once an agent has been approached and has rejected a draft publication, it is difficult to go and ask for the revamped text to be considered again. It also helps, at this stage, to offer a synopsis of the book, if it is a novel, or an outline if it is a textbook. This acts as a guide for the author, and a general reference for friends and later for agents."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Although it is tempting to send the draft to every possible agent at one time, it is probably unwise. Some agents may reject the publication out of hand, but others may proffer some invaluable advice, for example about content or the direction to be taken. Such information may be of use in finally being given a contract by an agent or publisher."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The lucky few taken on by publishers or agents then have their books subjected to a number of readers, whose job it is to vet a book: deciding whether it is worth publishing and whether the text as it stands is acceptable or not. After a book has finally been accepted by a publisher, one of the greatest difficulties for the writer lies in taking on board the publisher’s alterations to the text. Whilst the overall story and thrust of the book may be acceptable, it will probably have to conform to an in-house style, as regards language, spelling and punctuation. More seriously, the integrity of the text may be challenged, and this may require radical re-drafting which is usually unpalatable to the author. A book’s creation period is complex and unnerving, but the publisher’s reworkings and text amputations can also be a tortuous process."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "For many writers, the most painful period comes when the text has been accepted, and the writer is waiting for it to be put together for the printer. By this stage, it is not uncommon for the writer to be thoroughly sick of the text. Abandon writing? Nonsense. Once smitten, it is not easy to escape the compulsion to create and write, despite the roller-coaster ride of contradictory emotions."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–21",
+    "g22": "Questions 22–23",
+    "g24": "Questions 24–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 21,
+      "text": "Questions 14–21\nComplete the summary below using words from the box.\nWrite your answers in boxes 14–21 on your answer sheet.\n\n\nPeople often associate writing with 14 ________________. But being a writer involves\nmanaging conflicting emotions, as well as 15 ________________ and instinct. Contrary to\nwhat some people believe, advanced technology does not make the 16 ________________\nfaster. When a writer has a draft ready, it is useful to prepare a 17 ________________ for\nfriends and agents to review. If a publisher accepts an author, the draft is given to 18\n________________ for vetting. 19 ________________ are then often made, and the writer\nmay find them difficult to accept. However, 20 ________________ remains compelling,\neven though it involves 21 ________________.\n\n\n editing process      beware              first draft     glamour        a literary agent\n\n alterations          profession          publisher       challenges     writing\n\n dictating            research            publishing      summary        ups and downs\n\n roller-coaster       readers"
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 23,
+      "text": "Questions 22–23\nChoose the correct letter A, B, C or D.\nWrite your answers in boxes 22–23 on your answer sheet.\n22 In the planning stages of a book,\n A instinct can replace market research.\n B market research can replace instinct.\n C market research is essential.\n D instinct frequently replaces market research.\n\n\n23 The problem with using advanced technology for editing is that\n A the edited text becomes different from the original.\n B using the technology is unfortunate.\n C the technology is a luxury.\n D many writers cannot resist changing the text repeatedly."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 27,
+      "text": "Questions 24–27\nComplete the sentences below with words taken from Reading Passage 2.\nUse NO MORE THAN THREE WORDS for each answer.\nWrite your answers in boxes 24–27 on your answer sheet.\n\n\nOnce a text is finished, the writer needs to get the 24 ________________ of other people.\nSome agents may reject a book’s draft, while others may offer 25 ________________.\nApart from requiring a draft to conform to an in-house style, a publisher’s changes may\ninclude 26 ________________.\n\n\nA publisher’s alterations are difficult for a writer, as is the 27 ________________ while the book\nis being produced."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "人們常把 writing 和 _________ 聯想在一起。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "但成為 writer 需要管理互相矛盾的情緒，也牽涉 _________ 和 instinct。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "和某些人的想法相反，advanced technology 並沒有令 _________ 變得更快。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "當 writer 已經有 draft 時，準備一份 _________ 給朋友和 agents 參考會有用。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "如果 publisher 接納作者，draft 會交給 _________ 作 vetting。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "之後常會作出 _________，writer 可能覺得很難接受。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "然而，_________ 仍然有強烈吸引力。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "即使它牽涉 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "In the planning stages of a book,",
+      "translation": "在一本書的 planning stages 中……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "The problem with using advanced technology for editing is that",
+      "translation": "用 advanced technology 來 editing 的問題是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "文本完成後，writer 需要取得其他人的 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "有些 agents 可能拒絕書稿，但另一些可能會提供 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "除了要求 draft 符合 in-house style 之外，publisher 的修改也可能包括 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "publisher 的修改令 writer 難受；書被製作期間的 _________ 也同樣難受。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-024/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-024/page-6.jpg"
+  ]
+}

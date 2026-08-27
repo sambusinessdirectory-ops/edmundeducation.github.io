@@ -1,0 +1,250 @@
+{
+  "id": "p1-067",
+  "catalogueId": "p1-067",
+  "title": "Spot the Difference",
+  "sourceHeading": "Spot the Difference",
+  "passage": 1,
+  "practice": 67,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-067-spot-the-difference",
+  "source": {
+    "filename": "Practice 67  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "a224d7312f6c6cb5aa3e3b758452bf719179819de70f7f5a040f6b33e54c7ed5"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Taxonomic history has been made this week, at least according to the World Wildlife Fund (WWF), a conservation group. Scientists have described a new species of clouded leopard from the tropical forests of Indonesia whose spots (or ‘clouds’, as they are poetically known) are smaller than those of other clouded leopards, whose fur is slightly darker, and which has a double rather than a ‘partial double’ stripe down its back."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "However, no previously unknown beast has suddenly leapt out from the forest. Instead, some scientists have proposed a change in the official taxonomic accounting system of clouded leopards. Where there were four subspecies, there will now probably be two species. A genetic analysis and a closer inspection of the coats of museum specimens, published in Current Biology, found no relevant difference between three subspecies described 50 years ago from continental Asia and from the Hainan and Taiwan islands. The 5,000–11,000 clouded leopards on Borneo, the 3,000–7,000 on Sumatra, and the remaining few on the nearby Batu Islands can now, the authors say, claim the elevated status of a separate species."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "What this actually means is fuzzy, and whether it is scientifically important is questionable. In any case, biologists do not agree on what constitutes a species or subspecies. Creatures are given two-part Latin names (corresponding to a genus and species) according to the convention of Carl von Linné, who was born 300 years ago this May. But Linnaeus, as he is more commonly known, thought of species as perfectly discrete units created by God. Darwinism regards them as mutable entities that arise gradually over time by natural selection. So, delineating when enough variation has evolved to justify a new category is largely a matter of taste."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Take ants and butterflies. Ant experts have recently been waging a war against all types of species subdivision. Lepidopterists, on the other hand, cling to the double-barrelled second names from their discipline’s 19th-century tradition, and categorise many local subclasses within species found over wide areas. Thus, it would be futile – if one were so inclined – to attempt to compare the diversity of ant and butterfly populations."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The traditional way around the problem is to classify as a species all members of a group that share the same gene pool. They can mate together and produce fertile offspring. Whether Indonesian clouded leopards can produce cubs with continental ones remains unknown but seems probable. In this case, the claim this week is that genetics and slight differences in fur patterning are enough to justify rebranding the clouded leopard as two distinct types. Genetically, that makes sense if many DNA variations consistently distinguish members of the two groups. The authors did find some correlation, but they looked for it in only three Indonesian animals. A larger sample would have been more difficult to obtain."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "One thing is abundantly clear: conservationists who are trying to stop the destruction of the leopards’ habitat in Borneo and Sumatra see the announcement of a new species of big cat as a means to gain publicity and political capital. Upgrading subspecies to species is a strategy that James Mallet, of University College London, likes to call species inflation. It is a common by-product of genetic analysis, which can reveal differences between populations that the eye cannot. Creating ever more detailed genetic categories means creating smaller and increasingly restricted populations of more species. The trouble is that this risks devaluing the importance of the term “species”."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The problem of redefining species by genetics is the creation of taxonomic confusion, a potentially serious difficulty for conservationists and others. The recent proposal to add the polar bear to the list of animals protected under America’s Endangered Species Act is an example. That seems all well and good. However, genetic studies show that polar bears are closer to some brown bears than some brown bears are to each other. Go by the genes and it seems that the polar bear would not count as a species in its own right (and thus might not enjoy the protection afforded to species) but should be labelled a subspecies of the brown bear."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has seven paragraphs (A–G).\nWhich paragraph contains each of the following pieces of information?\n1 _________________ The generally accepted system for naming different species\n2 _________________ The reason that conservationists are happy with the apparent discovery of a new\nspecies of leopard\n3 _________________ How genes could cause a potential problem for conservationists\n4 _________________ Some scientists want to change the way clouded leopards are classified into\nspecies and subspecies."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN TWO WORDS from the text for each gap.\nIt is difficult to decide exactly when there is enough 5 _________________ to say an animal is a new\nspecies.\nIt is 6 _________________ to compare the number of species of ants and butterflies.\nGenerally, animals of the same species can produce 7 _________________ together.\nSome scientists claim that genetics has led to 8 _________________ rather than the actual\ndiscovery of new species."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n9 _________________ The possible new species of leopard appears different in two ways.\n10 _________________ Darwinism created a problem with how species are defined.\n11 _________________ Lepidopterists study ants.\n12 _________________ Scientists are going to study more clouded leopards in Indonesia.\n13 _________________ The writer believes that polar bears are not a species in their own right."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The generally accepted system for naming different species",
+      "translation": "為不同物種命名時，一般被接受的系統。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The reason that conservationists are happy with the apparent discovery of a new species of leopard",
+      "translation": "保育人士為何樂見這個看似發現新雲豹物種的消息。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ How genes could cause a potential problem for conservationists",
+      "translation": "基因如何可能為保育人士帶來問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Some scientists want to change the way clouded leopards are classified into species and subspecies.",
+      "translation": "一些科學家想改變 clouded leopards 被分類為 species 和 subspecies 的方式。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "要判斷動物出現多少 ______ 才能說牠是新物種，是困難的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "比較螞蟻和蝴蝶的物種數量是 ______ 的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "一般而言，同一物種的動物可以一起產生 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "一些科學家認為，基因研究造成了 ______，而非真正發現新物種。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ The possible new species of leopard appears different in two ways.",
+      "translation": "這個可能的新雲豹物種看起來有兩方面不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Darwinism created a problem with how species are defined.",
+      "translation": "Darwinism 令 species 如何定義這件事產生問題。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Lepidopterists study ants.",
+      "translation": "Lepidopterists 研究螞蟻。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Scientists are going to study more clouded leopards in Indonesia.",
+      "translation": "科學家將會研究更多印尼雲豹。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ The writer believes that polar bears are not a species in their own right.",
+      "translation": "作者相信 polar bears 不是獨立物種。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-067/page-4.jpg"
+  ]
+}

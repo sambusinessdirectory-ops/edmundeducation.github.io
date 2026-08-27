@@ -1,0 +1,275 @@
+{
+  "id": "p3-028",
+  "catalogueId": "p3-028",
+  "title": "The Fruit Book",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 28,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-028-the-fruit-book",
+  "source": {
+    "filename": "Practice 28 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "8f595e21d17a490840d271c4a7f2be4df8c52626417a4ca6dadfe53ee4fd045a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Fruit Book It’s not every scientist who writes books for people who can’t read. And how many scientists want their books to look as dog-eared as possible? But Patricia Shanley, an ethnobotanist, wanted to give something back. After the poorest people of the Amazon allowed her to study their land and its ecology, she turned her research findings into a picture book that tells the local people how to get a good return on their trees without succumbing to the lure of a quick buck from a logging company. It has proved a big success."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "A The book is called Fruit Trees and Useful Plants in the Lives of Amazonians, but is better known simply as the “fruit book”. The second edition was produced at the request of politicians in western Amazonia. Its blend of hard science and local knowledge on the use and trade of 35 native forest species has been so well received (and well used) that no less a dignitary than Brazil’s environment minister, Marina Silva, has written the foreword. “There is nothing else like the Shanley book,” says Adalberto Verrisimo, director of the Institute of People and the Environment of the Amazon. “It gives science back to the poor, to the people who really need it.”"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "B Shanley’s work on the book began a decade ago, with a plea for help from the Rural Workers’ Union of Paragominas, a Brazilian town whose prosperity is based on exploitation of timber. The union realised that logging companies would soon be knocking on the doors of the caboclos, peasant farmers living on the Rio Capim, an Amazon tributary in the Brazilian state of Pará. Isolated and illiterate, the caboclos would have little concept of the true value of their trees; communities downstream had already sold off large blocks of forest for a pittance. “What they wanted to know was how valuable the forests were,” recalls Shanley, then a researcher in the area for the Massachusetts-based Woods Hole Research Centre."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "C The Rural Workers’ Union wanted to know whether harvesting wild fruits would make economic sense in the Rio Capim. “There was a lot of interest in trading non-timber forest products (NTFPs),” Shanley says. At the time, environmental groups and green-minded businesses were promoting the idea. This was the view presented in a seminal paper, Valuation of an Amazonian Rainforest, published in Nature in 1989. The researchers had calculated that revenues from the sale of fruits could far exceed those from a one-off sale of trees to loggers. “The union was keen to discover whether it made more sense to conserve the forest for subsistence use and the possible sale of fruit, game and medicinal plants rather than sell trees for timber,” says Shanley. Whether it would work for the caboclos was far from clear."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "D Although Shanley had been invited to work in the Rio Capim, some caboclos were suspicious. “When Patricia asked if she could study my forest,” says Joao Fernando Moreira Brito, “my neighbours said she was a foreigner who’d come to rob me of my trees.” In the end, Moreira Brito, or Mangueira as he is known, welcomed Shanley and worked on her study. His land, an hour’s walk from the Rio Capim, is almost entirely covered with primary forest. A study of this and other tracts of forest selected by the communities enabled Shanley to identify three trees, found throughout the Amazon, whose fruit was much favoured by the caboclos: bacuri (Platonia insignis), uxi (Endopleura uchi) and piquia (Caryocar villosum). The caboclos used the fruits and extracted oils from them, and knew what sort of wildlife they attracted. But, in the face of aggressive tactics from the logging companies, they had no measure of the trees’ financial worth. The only way to find out, Shanley decided, was to start from scratch with a scientific study. “From a scientific point of view, hardly anything was known about these trees,” she says. But six years of field research yielded a mass of data on their flowering and fruiting behaviour. During 1993 and 1994, 30 families weighed everything they used from the forest—game, fruit, fibre and medicinal plants—and documented its source."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "E After three logging sales and a major fire in 1997, the researchers were also able to study the ecosystem’s reaction to logging and disturbance. They carried out a similar, though less exhaustive, study in 1999, this time with 15 families. The changes were striking. Average annual household consumption of forest fruit had fallen from 89 to 28 kilogrammes between 1993 and 1999. “What we found,” says Shanley, “was that fruit collection could coexist with a certain amount of logging, but after the forest fire, it dropped dramatically.” Over the same period, fibre use also dropped from around 20 to 4 kilogrammes. The fire and logging also changed the nature of the caboclo diet. In 1993 most households ate game two or three times a month. By 1999 some were fortunate if they ate game more than two or three times a year."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "F The loss of certain species of tree was especially significant. Shanley’s team persuaded local hunters to weigh their catch, noting the trees under which the animals were caught. Over the year, they trapped five species of game averaging 232 kilogrammes under piquia trees. Under copaiba, they caught just two species averaging 63 kilogrammes; and under uxi, four species weighing 38 kilogrammes. At last, the team was getting a handle on which trees were worth keeping, and which could reasonably be sold. “This showed that selling piquia trees to loggers for a few dollars made little sense,” explains Shanley. “Their local value lies in providing a prized fruit, as well as flowers which attract more game than any other species.”"
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "G As a result of these studies, Shanley had to tell the Rural Workers’ Union of Paragominas that the Nature thesis could not be applied wholesale to their community—harvesting NTFPs would not always yield more than timber sales. Fruiting patterns of trees such as uxi were unpredictable, for example. In 1994, one household collected 3,654 uxi fruits; the following year, none at all."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "H This is not to say that wild fruit trees were unimportant. On the contrary, argues Shanley, they are critical for subsistence, something that is often ignored in much of the current research on NTFPs, which tends to focus on their commercial potential. Geography was another factor preventing the Rio Capim caboclos from establishing a serious trade in wild fruit: villagers in remote areas could not compete with communities collecting NTFPs close to urban markets, although they could sell them to passing river boats."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "I But Shanley and her colleagues decided to do more than just report their results to the union. Together with two of her research colleagues, Shanley wrote the fruit book. This, the Bible and a publication on medicinal plants co-authored by Shanley and designed for people with minimal literacy skills are about the only books you will see along this stretch of the Rio Capim. The first print run comprised only 3,000 copies, but the fruit book has been remarkably influential, and is used by colleges, peasant unions, industries and the caboclos themselves. Its success is largely due to the fact that people with poor literacy skills can understand much of the information it contains about the non-timber forest products, thanks to its illustrations, anecdotes, stories and songs. “The book doesn’t tell people what to do,” says Shanley, “but it does provide them with choices.” The caboclos who have used the book now have a much better understanding of which trees to sell to the loggers, and which to protect."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nReading Passage 3 has nine paragraphs A–I.\nWhich paragraph contains the following information?\nWrite the correct letter A–I in boxes 27–32 on your answer sheet.\n27 ____________ A description of Shanley’s initial data collection\n28 ____________ Why a government official contributed to the book\n29 ____________ Reasons why the community asked Shanley to conduct the research\n30 ____________ Reference to the starting point of her research\n31 ____________ Two factors that alter food consumption patterns\n32 ____________ Why the book is successful"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 40,
+      "text": "Questions 33–40\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 33–40 on your answer sheet.\nForest fires caused local villagers to consume less:\n33 _________________\n34 _________________\n\nGame\nThere is the least amount of game hunted under 35 _________________, whose\nyield is also 36 _________________. Thus, it is more reasonable to keep 37\n_________________.\n\n\nAll the trees can also be used for 38 _________________ besides being sold to\nloggers. But this is often ignored because most research focuses on the 39\n_________________ of the trees.\n\n\nThe purpose of the book:\nTo provide information about 40 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ A description of Shanley’s initial data collection",
+      "translation": "哪一段描述 Shanley 初期收集資料的過程？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Why a government official contributed to the book",
+      "translation": "哪一段提到一位政府官員為甚麼參與這本書？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Reasons why the community asked Shanley to conduct the research",
+      "translation": "哪一段說明社群請 Shanley 做研究的原因？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Reference to the starting point of her research",
+      "translation": "哪一段提到 Shanley 研究工作的起點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Two factors that alter food consumption patterns",
+      "translation": "哪一段提到兩個改變食物消耗模式的因素？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Why the book is successful",
+      "translation": "哪一段說明這本書成功的原因？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "森林火災令當地村民消耗更少的甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________ Game There is the least amount of game hunted under 35 _________________, whose yield is also 36 _________________. Thus, it is more reasonable to keep 37 _________________. All the trees can also be used for 38 _________________ besides being sold to loggers. But this is often ignored because most research focuses on the 39 _________________ of the trees. The purpose of the book: To provide information about 40 _________________",
+      "translation": "森林火災令當地村民使用／消耗更少的另一項森林資源是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "在甚麼樹下捕獲的 game 數量最少？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "這種樹的產量也很 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "因此，更合理的是保留甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "除了賣給 loggers，這些樹也可用於甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "但這一點常被忽略，因為大部分研究集中在樹木的甚麼方面？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "這本書的目的：提供關於甚麼的資訊？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-028/page-5.jpg"
+  ]
+}

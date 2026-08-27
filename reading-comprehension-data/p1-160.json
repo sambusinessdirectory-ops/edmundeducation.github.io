@@ -1,0 +1,283 @@
+{
+  "id": "p1-160",
+  "catalogueId": "p1-160",
+  "title": "Malaria Combat in Italy",
+  "sourceHeading": "Combating Malaria in Italy",
+  "passage": 1,
+  "practice": 160,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-160-malaria-combat-in-italy",
+  "source": {
+    "filename": "Practice 160 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "1ecf20435ca147df69a5b4d75394e9d409cca04c2955e5cd8888a56edfd64866"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Mal-aria. Bad air. Even the word is Italian, and this horrible disease marked the lives of people on the peninsula for thousands of years. Giuseppe Garibaldi’s wife died of the disease, as did the country’s first prime minister, Cavour, in 1861. Yet by 1962, Italy was officially declared malaria-free, and it has remained so ever since. Frank Snowden’s study of this success story is a remarkable piece of historical work. In this original, crystal-clear, analytical and passionate study, Snowden (who has previously written about cholera) takes us to areas historians have rarely visited before."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Everybody now knows that malaria is carried by mosquitoes. Malaria has been a subject of medical inquiry since ancient times. However, many ancient texts, especially medical literature, mention various aspects of malaria and even its possible links to insects, including mosquitoes. Early man, confronting the manifestations of malaria, attributed the fevers to supernatural influences: evil spirits, angered deities, or the black magic of sorcerers. But in the nineteenth century, most experts believed that the disease was produced by unclean air (“miasma” or “poisoning of the air”). Two Americans, Josiah Clark Nott and Louis-Daniel Beauperthuy, echoed Crawford’s ideas. Nott, in his essay “Yellow Fever Contrasted with Bilious Fever,” published in 1850, dismissed the miasma theory as worthless, arguing that both malaria and yellow fever were caused by microscopic agents transmitted by mosquitoes. Others made a link between swamps, water and malaria, but did not make the further leap towards insects. The consequences of these theories were that little was done to combat the disease before the end of the century. Things became so bad that 11 million Italians (from a total population of 25 million) were “permanently at risk”. In malarial zones, the life expectancy of land workers was a terrifying 22.5 years. Those who escaped death were weakened or suffered from splenomegaly—a “painful enlargement of the spleen” and “a lifeless stare”. The economic impact of the disease was immense. Epidemics were blamed on southern Italians, given the widespread belief that malaria was hereditary. In the 1880s, such theories began to collapse as the dreaded mosquito was identified as the real culprit."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Italian scientists, drawing on the pioneering work of French doctor Alphonse Laveran, were able to predict the cycles of fever, but it was in Rome that further key discoveries were made. Giovanni Battista Grassi, a naturalist, found that a particular type of mosquito was the carrier of malaria. By experimenting on healthy volunteers (mosquitoes were released into rooms where they drank the blood of the human guinea pigs), Grassi was able to make the direct link between the insects (all females of a certain kind) and the disease. Soon, doctors and scientists made another startling discovery: the mosquitoes themselves were also infected and not mere carriers. Every year, during the mosquito season, malarial blood was moved around the population by the insects. Definitive proof of these new theories was obtained after an extraordinary series of experiments in Italy, where healthy people were introduced into malarial zones but kept free of mosquito bites—and remained well. The new Italian state had the necessary information to tackle the disease."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "A complicated approach was adopted, which made use of quinine—a drug obtained from tree bark which had long been used to combat fever but was now seen as a crucial part of the war on malaria. Italy introduced a quinine law and a quinine tax in 1904, and the drug was administered to large numbers of rural workers. Despite its often terrible side-effects (the headaches produced were known as the “quinine-buzz”), the drug was successful in limiting the spread of the disease and breaking cycles of infection. In addition, Italy set up rural health centres and invested heavily in education programmes. Malaria, as Snowden shows, was not just a medical problem, but a social and regional issue, and could only be defeated through multi-layered strategies. Politics was itself transformed by the anti-malarial campaigns."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "It was originally decided to give quinine to all those in certain regions—even healthy people; peasants were often suspicious of the medicine being forced upon them. Doctors were sometimes met with hostility and refusal, and many were dubbed “poisoners”. Despite these problems, the strategy was hugely successful. Deaths from malaria fell by some 80 per cent in the first decade of the 20th century and some areas escaped the scourge of the disease altogether."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Shamefully, the Italian malaria expert Alberto Missiroli had a role to play in the disaster: he did not distribute quinine, despite being well aware of the epidemic to come. Snowden claims that Missiroli was already preparing a new strategy—with the support of the US Rockefeller Foundation—using a new pesticide, DDT. Missiroli allowed the epidemic to spread, in order to create the ideal conditions for a massive and lucrative human experiment. Fifty-five thousand cases of malaria were recorded in the province of Littoria alone in 1944. It is estimated that more than a third of those in the affected area contracted the disease. Thousands died, though nobody knows exactly how many."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "With the war over, the US government and the Rockefeller Foundation were free to experiment. DDT was sprayed from the air and three million Italians had their bodies covered with the chemical. The effects were dramatic, and nobody really cared about the toxic effects of the chemical. By 1962, malaria was more or less gone from the whole peninsula. The last cases were noted in a poor region of Sicily. One of the final victims to die of the disease in Italy was the popular cyclist, Fausto Coppi. He had contracted malaria in Africa in 1960, and the failure of doctors in the north of Italy to spot the disease was a sign of the times. A few decades earlier, they would have immediately noticed the tell-tale signs; it was later claimed that a small dose of quinine would have saved his life."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "As there are still more than one million deaths every year from malaria worldwide, Snowden’s book also has contemporary relevance. This is a disease that affects every level of the societies where it is rampant. As Snowden writes: “In Italy, malaria undermined agricultural productivity, decimated the army, destroyed communities and left families impoverished.” The economic miracle of the 1950s and 1960s, which made Italy into a modern industrial nation, would not have been possible without the eradication of malaria. Moreover, this book convincingly argues that the disease was “an integral part of the big picture of modern Italian history”. This magnificent study, beautifully written and impeccably documented, deserves an audience beyond specialists in history or Italian studies. It also provides us with “a message of hope for a world struggling with the great present-day medical emergency”."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 1–4 on your answer sheet.\nThe origins of malaria have been studied since ancient times. Although the link between\nmalaria and mosquitoes was established only later, ancient texts recorded that 1\n____________, including mosquitoes, might be responsible. In the nineteenth century, most\nexperts accepted the miasma theory, which linked malaria to 2 ____________. Another\nwidespread belief was that malaria was 3 ____________, and southern Italians were\nblamed. The situation became so severe that nearly half of Italy’s population was\nconsidered permanently at risk, while the life 4 ____________ of rural workers in malarial\nareas was shockingly short."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nDo the following statements agree with the claims of the writer in Reading Passage 1?\nIn boxes 5–8 on your answer sheet, write\n\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n5 The volunteers in Grassi’s experiments came from all parts of Italy.\n6 Healthy people could remain well in malarial zones if they were protected from mosquito bites.\n7 Quinine had long been used to combat malaria before the new campaign.\n8 Eradicating malaria had both medical and political significance."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 14,
+      "text": "Questions 9–14\nReading Passage 1 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 9–14 on your answer sheet.\n9 ____________ The discovery that a particular mosquito carried malaria\n10 ____________ A scientist who deliberately allowed an epidemic to spread\n11 ____________ The continuing relevance of Italy’s success to readers around the world\n12 ____________ One of the final victims to die of malaria in Italy\n13 ____________ The adverse symptoms caused by a highly effective drug\n14 ____________ A list of speculative explanations for malaria"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "雖然 malaria 和蚊之間的關係是後來才正式確立的，但古代文獻已經記錄，某些東西，包括蚊，可能與 malaria 有關。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "在十九世紀，大部分專家接受 miasma theory，即把 malaria 和某種東西聯繫起來的理論。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "另一個普遍信念是 malaria 是某種性質的，因此南部意大利人受到責怪。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "情況變得非常嚴重，接近一半意大利人口被認為長期處於風險之中，而 malaria 地區農村工人的life ________ 短得驚人。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "The volunteers in Grassi’s experiments came from all parts of Italy.",
+      "translation": "Grassi 實驗中的志願者來自意大利各地。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Healthy people could remain well in malarial zones if they were protected from mosquito bites.",
+      "translation": "如果健康人士能避免被蚊叮，他們即使身處 malaria 地區也可以保持健康。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Quinine had long been used to combat malaria before the new campaign.",
+      "translation": "在新的抗 malaria 行動之前，quinine 已經長期被用來對抗 malaria。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Eradicating malaria had both medical and political significance.",
+      "translation": "消除 malaria 不但有醫學意義，也有政治意義。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ The discovery that a particular mosquito carried malaria",
+      "translation": "發現某一種特定蚊會傳播 malaria。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ A scientist who deliberately allowed an epidemic to spread",
+      "translation": "一位科學家故意讓疫情擴散。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ The continuing relevance of Italy’s success to readers around the world",
+      "translation": "意大利成功消除 malaria 的故事，對世界各地讀者仍然有持續意義。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ One of the final victims to die of malaria in Italy",
+      "translation": "意大利最後幾位死於 malaria 的人之一。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ The adverse symptoms caused by a highly effective drug",
+      "translation": "一種非常有效的藥物所造成的不良症狀。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ A list of speculative explanations for malaria",
+      "translation": "一系列對 malaria 成因的推測性解釋。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-160/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-160/page-6.jpg"
+  ]
+}

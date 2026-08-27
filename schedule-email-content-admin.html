@@ -29,6 +29,7 @@
     <section class="panel" data-gate>正在驗證管理員登入…</section>
     <section data-app hidden>
       <p class="transport" data-transport>正在檢查 Gmail 連線…</p>
+      <section class="panel" data-submission-recovery hidden><p></p><button type="button" class="secondary">確認結果／安全解鎖</button><p class="helper">如已排隊，會顯示原有電郵 ID；如尚未完成，會安全取消該要求，防止稍後重複寄送。</p></section>
       <section class="panel sender-panel">
         <div><p class="eyebrow">GMAIL SENDER</p><h2>寄件 Gmail</h2><p class="helper">輸入並儲存地址後，按「連接 Gmail」完成 Google 授權。更改地址會安全地中斷舊連線。</p></div>
         <div class="sender-form"><label>寄件電郵<input type="email" value="edmundeducationedu@gmail.com" autocomplete="email" data-sender-email></label><div class="button-row"><button class="secondary" type="button" data-save-sender>儲存／更新</button><button class="primary" type="button" data-connect-gmail>連接 Gmail</button><button class="danger-text" type="button" data-disconnect-gmail hidden>中斷連線</button></div><p class="connection-detail" data-connection-detail></p></div>
@@ -43,6 +44,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script type="module" src="schedule-email-content-admin.js?v=20260827-email2"></script>
+  <script type="module" src="schedule-email-content-admin.js?v=20260827-email3"></script>
 </body>
 </html>

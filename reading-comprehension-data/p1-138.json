@@ -1,0 +1,240 @@
+{
+  "id": "p1-138",
+  "catalogueId": "p1-138",
+  "title": "Volatility Kills",
+  "sourceHeading": "Volatility Kills",
+  "passage": 1,
+  "practice": 138,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-138-volatility-kills",
+  "source": {
+    "filename": "Practice 138 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "05e6bc6cb873912d2ede3c4149f456b04e165dad4b1be1a6a3ee6df30c26fd33"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Despite gun battles in the capital of Chad, rioting in Kenya, and galloping inflation in Zimbabwe, the economies of sub-Saharan Africa are, as a whole, in better shape than they were a few years ago. The World Bank recently reported that this part of the continent experienced a respectable growth rate of 5.6 per cent in 2006 and a higher rate from 1995 to 2005 than in previous decades. The bank has given a cautious assessment that the region may have reached a turning point. An overriding question for development economists remains whether the upswing will continue so Africans can grow their way out of poverty that relegates some 40 per cent of the nearly 744 million in that region to living on less than a dollar a day. The optimism, when inspected more closely, may be short-lived because of the persistence of a devastating pattern of economic volatility that has lingered for decades."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The growth spurts have been interrupted by declines so fierce that these countries did not grow at all from 1975 to 2005. “In reality, African countries grow as fast as Asian countries and other developing countries during the good times, but afterwards they see growth collapses,” comments Jorge Arbache, a senior World Bank economist. “How to prevent collapses may be as important as promoting growth.” If these collapses had not occurred, he observes, the level of gross domestic product for each citizen of the 48 nations of sub-Saharan Africa would have been a third higher."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The prerequisites for preventing the next crash are not in place, according to a World Bank study issued in January, Is Africa’s Recent Growth Robust? The growth period that began in 1995, driven by a commodities boom spurred in particular by demand from China, may not be sustainable, because the economic fundamentals—new investment and the ability to stave off inflation, among other factors—are absent. The region lacks the necessary infrastructure that would encourage investors to look to Africa to find the next Bengaluru (Bangalore) or Shenzhen, a November report from the bank concludes. For sub-Saharan countries rich in oil and other resources, a boom period may even undermine efforts to institute sound economic practices. From 1996 to 2005, with growth accelerating, measures of governance—factors such as political stability, rule of law, and control of corruption—actually worsened, especially for countries endowed with abundant mineral resources, the January report notes."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Perhaps the most incisive analysis of the volatility question comes from Paul Collier, a longtime specialist in African economics at the University of Oxford and author of the recent book The Bottom Billion. He advocates a range of options that the US and other nations could adopt when formulating policy towards African countries. They include revamped trade measures, better-apportioned aid, and sustained military intervention in certain instances, to avert what he sees as a rapidly accelerating divergence of the world’s poorest, primarily in Africa, from the rest of the world, even other developing nations such as India and China."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Collier finds that bad governance is the main reason countries fail to take advantage of the revenue bonanza that results from a boom. Moreover, a democratic government, he adds, often makes the aftermath of a boom worse. “Instead of democracy disciplining governments to manage these resource booms well, what happens is that the resource revenues corrupt the normal functioning of democracy—unless you stop (them from) corrupting the normal function of democracy with sufficient checks and balances,” he said at a talk in January at the Carnegie Council in New York City."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Collier advocates that African nations institute an array of standards and codes to bolster governments, one of which would substitute auctions for bribes in apportioning mineral rights and another of which would tax export revenues adequately. He cites the Democratic Republic of the Congo, which took in $200 million from mineral exports in 2006 yet collected only $86,000 in royalties for its treasury. “If a nation gets these points right,” he argues, “it’s going to develop. If it gets them wrong, it won’t.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "To encourage reform, Collier recommends that the G8 nations agree to accept these measures as voluntary guidelines for multinationals doing business in Africa—companies, for instance, would only enter new contracts through auctions monitored by an international verification group. Such an agreement would follow the examples of the so-called Kimberley Process, which has effectively undercut the trade in blood diamonds, and the Extractive Industries Transparency Initiative, in which a government must report to its citizens the revenues it receives from sales of natural resources."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "These measures, he says, are more important than elevating aid levels, an approach emphasised by economist Jeffrey D. Sachs of Columbia University and celebrity activists such as Bono. Collier notes that Angola receives tens of billions of dollars in oil revenue. ‘Whether it gets a few hundred million more or less in aid is really second-order,’ he insists."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nMatch each statement with the correct person, A–C.\nWrite the correct letter, A–C, in boxes 1–4 on your answer sheet.\nNB You may use any letter more than once.\n A                                       Jeffrey D. Sachs\n\n B                                       Paul Collier\n\n C                                       Jorge Arbache\n1 An unexpectedly contrary result\n2 An estimate of greater productivity if sudden economic downturns had not occurred\n3 A proposed set of guidelines for certain countries to narrow the widening economic gap\n4 An advocate of a method used for a particular assessment"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 9,
+      "text": "Questions 5–9\nDo the following statements agree with the information given in the reading passage?\nIn boxes 5–9 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n5 Economic instability in some African countries may harm their ability to sustain growth after\nreaching a particular level.\n6 Collier is the most influential scholar in the study of economic volatility.\n7 Certain African governments levy substantial taxes on those who profit greatly from exports.\n8 Some African nations’ decisions about addressing particular existing problems are directly\nrelated to their future economic trends.\n9 Collier regards Jeffrey D. Sachs’s recommended approach of increasing aid as relatively\nunimportant."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nComplete the following summary.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 10–13 on your answer sheet.\n\n\n According to research carried out by the World Bank, some African countries may suffer from\n 10 _________________ because they lack the necessary preconditions. They experienced\n growth stimulated by 11 _________________, but another study suggests that they may not\n sustain this trend because they lack 12 _________________ that would attract investors. For\n some countries with abundant resources, this period of rapid growth may even undermine\n their endeavour. During one particular decade, despite 13 _________________, governance\n actually deteriorated."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "An unexpectedly contrary result",
+      "translation": "一個出乎意料、方向相反的結果。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "An estimate of greater productivity if sudden economic downturns had not occurred",
+      "translation": "如果突然的經濟下跌沒有發生，生產力或人均產出會更高的一項估算。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A proposed set of guidelines for certain countries to narrow the widening economic gap",
+      "translation": "一套建議採用的指引，用來幫助某些國家縮窄正在擴大的經濟差距。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "An advocate of a method used for a particular assessment",
+      "translation": "一位主張某種方法的人；這種方法被用來作某種處理或評估方向。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Economic instability in some African countries may harm their ability to sustain growth after reaching a particular level.",
+      "translation": "一些非洲國家的經濟不穩定，可能會損害它們在達到某個階段後維持增長的能力。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Collier is the most influential scholar in the study of economic volatility.",
+      "translation": "Collier 是研究經濟波動最具影響力的學者。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Certain African governments levy substantial taxes on those who profit greatly from exports.",
+      "translation": "某些非洲政府對從出口中獲得大量利益的人或機構徵收高額稅款。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Some African nations’ decisions about addressing particular existing problems are directly related to their future economic trends.",
+      "translation": "一些非洲國家如何處理某些既有問題，會直接關係到它們未來的經濟走向。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Collier regards Jeffrey D. Sachs’s recommended approach of increasing aid as relatively unimportant.",
+      "translation": "Collier 認為 Jeffrey D. Sachs 建議的增加援助這一做法相對不重要。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "_________________ because they lack the necessary preconditions. They experienced growth stimulated by 11 _________________, but another study suggests that they may not sustain this trend because they lack 12 _________________ that would attract investors. For some countries with abundant resources, this period of rapid growth may even undermine their endeavour. During one particular decade, despite 13 _________________, governance actually deteriorated.",
+      "translation": "根據 World Bank 的研究，一些非洲國家可能會因缺乏必要前提條件而遭受 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "它們經歷了由 ______ 推動的增長，但另一項研究指出，這種趨勢可能無法持續，因為它們缺乏能吸引投資者的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "但另一項研究指出，這種趨勢可能無法持續，因為它們缺乏能吸引投資者的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "在某一個十年間，儘管 ______，治理實際上惡化了。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-138/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-138/page-5.jpg"
+  ]
+}

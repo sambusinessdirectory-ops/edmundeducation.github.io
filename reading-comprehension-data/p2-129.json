@@ -1,0 +1,286 @@
+{
+  "id": "p2-129",
+  "catalogueId": "p2-129",
+  "title": "New Agriculture in Oregon, US",
+  "sourceHeading": "New Agriculture in Oregon, US",
+  "passage": 2,
+  "practice": 129,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-129-new-agriculture-in-oregon-us",
+  "source": {
+    "filename": "Practice 129 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8b0c4026a56682b07f6529d35e94e8119896ac89f3887706e7945e506af6e91d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Onion growers in eastern Oregon are adopting a system that saves water and keeps topsoil in place while producing the highest quality “super-colossal” onions. Pear growers in southern Oregon have reduced their use of some of the most toxic pesticides by up to two-thirds, and are still producing top-quality pears. Range managers throughout the state have controlled the poisonous weed tansy ragwort with insect predators and saved the Oregon livestock industry up to $4.8 million a year."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "These are some of the results Oregon growers have achieved in collaboration with Oregon State University (OSU) researchers as they test new farming methods including integrated pest management (IPM). Nationwide, however, IPM has not delivered results comparable to those in Oregon. A recent U.S. General Accounting Office (GAO) report indicates that while integrated pest management can result in dramatically reduced pesticide use, the federal government has failed to promote that goal effectively or implement IPM. Farmers also blame the government for not making the new pest-management options attractive. “Making wholesale changes to the way farmers control pests on their farms is expensive,” Tony Brown, of the National Farmers Association, says. “If farmers were given tax breaks to offset the expenditure, they would willingly adopt the new practices.” The report goes on to note that even though the use of the riskiest pesticides has declined nationwide, they still make up more than 40 percent of all pesticides used today, and national pesticide use has risen by 40 million kilograms since 1992. “Our food supply remains the safest and highest quality on Earth but we continue to overdose our farmland with powerful and toxic pesticides and to underuse the safe and effective alternatives,” charged Patrick Leahy, who commissioned the report. Green action groups disagree about the safety issue. “There is no way that habitual consumption of foodstuffs grown using toxic chemicals of the kind found on today’s farms can be healthy for consumers,” noted Bill Bowler, spokesman for Green Action, one of many lobbyists interested in this issue."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The GAO report singles out Oregon’s apple and pear producers who have used the new IPM techniques with growing success. Although Oregon is clearly ahead of the nation, scientists at OSU are taking the General Accounting Office’s criticisms seriously. “We must continue to develop effective alternative practices that will reduce environmental hazards and produce high-quality products,” said Paul Jepson, a professor of entomology at OSU and new director of OSU’s Integrated Plant Protection Centre (IPPC)."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The IPPC brings together scientists from OSU’s Agricultural Experiment Station, OSU Extension Service, the U.S. Department of Agriculture and Oregon farmers to help develop agricultural systems that will save water and soil, and reduce pesticides. In response to the GAO report, the Centre is putting even more emphasis on integrating research and farming practices to improve Oregon agriculture environmentally and economically."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "“The GAO report criticizes agencies for not clearly communicating the goals of IPM,” said Jepson. “Our challenge is to greatly improve the communication with growers and learn what works and what doesn’t. The work coming from OSU researchers must be adopted in the field and not simply languish in scientific journals.”"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In Oregon, growers and scientists are working together to implement new practices. For example, a few years ago scientists at OSU’s Malheur Experiment Station began testing a new drip irrigation system to replace old ditches that wasted water and washed soil and fertilizer into streams. The new system cut water and fertilizer use by half, kept topsoil in place and protected water quality."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In addition, the new system produced crops of very large onions, rated “super-colossal” and highly valued by the restaurant industry and food processors. Art Pimms, one of the researchers at Malheur, comments: “Growers are finding that when they adopt more environmentally benign practices, they can have excellent results. The new practices benefit the environment and help growers succeed.”"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "OSU researchers in Malheur next tested straw mulch and found that it successfully held soil in place and kept the ground moist with less irrigation. Unexpectedly, the scientists also found that the mulched soil created a home for beneficial beetles and spiders that prey on onion thrips—a notorious pest in commercial onion fields—a discovery that could reduce the need for pesticides. “I would never have believed that we could replace the artificial pest controls that we had before and still keep our good results,” commented Steve Black, a commercial onion farmer in Oregon, “but instead we have actually surpassed expectations.”"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "OSU researchers throughout the state have been working to reduce dependence on broad-spectrum chemical sprays that are toxic to many kinds of organisms, including humans. “Consumers are rightly putting more and more pressure on the industry to change its reliance on chemical pesticides, but they still want a picture-perfect product,” said Rick Hilton, an entomologist at OSU’s Southern Oregon Research and Extension Centre, where researchers help pear growers reduce the need for highly toxic pesticides. Picture-perfect pears are an important product in Oregon and traditionally they have required lots of chemicals. In recent years, the industry has faced stiff competition from overseas producers, so any new methods that growers adopt must make sense economically as well as environmentally. Hilton is testing a growth regulator that interferes with the molting of codling moth larvae. Another study used pheromone dispensers to disrupt codling moth mating. These and other methods of integrated pest management have allowed pear growers to reduce their use of organophosphates by two-thirds and reduce all other synthetic pesticides by even more and still produce top-quality pears. These and other studies around the state are part of the effort of the IPPC to find alternative farming practices that benefit both the economy and the environment."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–22",
+    "g23": "Questions 23–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 22,
+      "text": "Questions 15–22\nMatch each opinion or action with the correct person, A–G.\nWrite the correct letter, A–G, in boxes 15–22 on your answer sheet.\nNB You may use any letter more than once.\n A                                      Tony Brown\n\n B                                      Patrick Leahy\n\n C                                      Bill Bowler\n\n D                                      Paul Jepson\n\n E                                      Art Pimms\n\n F                                      Steve Black\n\n G                                      Rick Hilton\n15 __________ The new techniques offer two distinct advantages.\n16 __________ Work on developing alternative techniques is not yet complete.\n17 __________ Eating food produced with toxic chemicals is dangerous to human health.\n18 __________ Changing from current farming methods to new ones is expensive.\n19 __________ The results exceeded expectations.\n20 __________ Research findings should be translated into practical projects.\n21 __________ The United States currently produces the best food in the world.\n22 __________ Consumers’ expectations influence agricultural products."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 27,
+      "text": "Questions 23–27\nDo the following statements agree with the views of the writer in Reading Passage 2?\nWrite YES, NO or NOT GIVEN in boxes 23–27 on your answer sheet.\n YES                     if the statement agrees with the views of the writer\n\n NO                      if the statement contradicts the views of the writer\n\n NOT GIVEN               if it is impossible to say what the writer thinks about this\n\n\n23 Integrated pest management has generally been regarded as a success across the United\nStates.\n24 Oregon’s apple and pear farmers have been cited as successful examples of integrated pest\nmanagement.\n25 The IPPC draws on scientists from organisations around the world.\n26 Experiments with straw mulch produced unexpected benefits.\n27 The apple industry now faces strong competition from overseas."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The new techniques offer two distinct advantages.",
+      "translation": "新技術帶來兩項明顯好處。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Work on developing alternative techniques is not yet complete.",
+      "translation": "發展替代技術的工作仍未完成。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Eating food produced with toxic chemicals is dangerous to human health.",
+      "translation": "食用以有毒化學品種植的食物會危害人體健康。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Changing from current farming methods to new ones is expensive.",
+      "translation": "由現有農法轉用新農法成本高昂。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The results exceeded expectations.",
+      "translation": "結果超出預期。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Research findings should be translated into practical projects.",
+      "translation": "研究成果應該轉化為實際田間項目。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The United States currently produces the best food in the world.",
+      "translation": "美國目前生產世界上最好的食物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Consumers’ expectations influence agricultural products.",
+      "translation": "消費者的期望會影響農產品。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Integrated pest management has generally been regarded as a success across the United States.",
+      "translation": "Integrated pest management 一般被認為在全美取得成功。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Oregon’s apple and pear farmers have been cited as successful examples of integrated pest management.",
+      "translation": "Oregon 的蘋果和梨子農民被引用為 IPM 的成功例子。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "The IPPC draws on scientists from organisations around the world.",
+      "translation": "IPPC 借助來自世界各地組織的科學家。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Experiments with straw mulch produced unexpected benefits.",
+      "translation": "straw mulch 實驗產生了意外好處。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "The apple industry now faces strong competition from overseas.",
+      "translation": "蘋果產業現在面對來自海外的強大競爭。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-129/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-129/page-6.jpg"
+  ]
+}

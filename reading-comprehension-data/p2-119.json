@@ -1,0 +1,255 @@
+{
+  "id": "p2-119",
+  "catalogueId": "p2-119",
+  "title": "CAN WE BELIEVE OUR OWN EYES?",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 119,
+  "version": "20260827-corpus1",
+  "analysisId": "analysis-p2-119",
+  "source": {
+    "filename": "Practice 119 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "3a931478d8be63e3ef03f3a581809af1a6d26369363218d18c908f7712ae2220"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Can We Believe Our Own Eyes? 1. An optical illusion is a visually perceived image that is deceptive or misleading because information transmitted from the eye to the brain is processed in such a way that the resulting assumption or deduction does not represent physical reality. Our perception of what we see can be influenced by several external factors. Illusions fall into two main categories: physiological illusions and cognitive illusions. Cognitive illusions can be divided into four subtypes."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Physiological illusions result from excessive stimulation of the eyes and brain, which creates a temporary state of confusion and mixed messages. After exposure to extremely vivid light, for example, the eyes may need time to adapt, and we may briefly see things that are not normally present. In the same way, a contingent perceptual after-effect may occur after someone stares at a particular colour: receptors in the brain may process subsequent colours inaccurately until the overload has passed."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Cognitive illusions, on the other hand, are said to arise not from neurone activity but from assumptions we consciously make based on our knowledge and experience of the world. The four categories are ambiguous, distorting, paradox and fictional illusions. Including fictional illusions in the cognitive group is somewhat misleading, however, because this type is seen only by an individual in a particular situation and has no tangible form. A fictional illusion is, in fact, a hallucination caused by drug use or a brain condition such as schizophrenia."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Ambiguous illusions are pictures or objects structured so that their form can be perceived in more than one way. One individual may perceive an image differently from another, and the same person can often interpret it in more than one form. A classic example is the Necker cube, a standard line drawing that our visual system generally interprets as a three-dimensional box. Where the lines cross, the drawing deliberately does not define which line is in front and which is behind. The mind nevertheless interprets what it sees. Because people generally view objects from above, most interpret the cube’s lower-left face as the front, with the base of that face parallel to the floor. It is also possible, however, to interpret a different face as the front."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The Necker cube contributed to researchers’ understanding of the human visual system by providing evidence that the brain is a neural network with two distinct, interchangeable states. It has also been used in epistemology—the study of knowledge—to challenge direct realism, the theory that the world is exactly as the human mind perceives it. With the Necker cube, we can generally see either or both versions of a three-dimensional cube even though the image is only a two-dimensional drawing made up of 12 lines."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Distorting illusions affect a person’s ability to judge size, length or curvature. The Müller-Lyer illusion, which consists of three lines with arrow-like ends, is a prime example. The middle line has two outward-pointing ends, the line above it has two inward-pointing ends, and the third has one of each. Many respondents from certain backgrounds say that the middle line is the longest, although all three are equal. Cultural background affects perceptions of this illusion: international research has shown that non-Western subjects, particularly those who are not regularly exposed to rectangular buildings and door frames, are less likely to misjudge the lines’ true lengths."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Paradox illusions encourage the mind to believe that it is seeing something known to be impossible. The Penrose Stairs and Penrose Triangle, developed by Lionel Penrose, are models created to illustrate this phenomenon. Naturally occurring optical illusions also exist. In various places around the world, objects appear to roll uphill, even though our knowledge tells us this is impossible. Visual information therefore conflicts with rational judgement. These locations, often called ‘gravity hills’ or ‘magnetic hills’, are popular with tourists. Their supposed mystical properties are vigorously promoted to add intrigue and are sometimes attributed to special magnetic properties of the land."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The scientific explanation is that these areas lie on slightly sloping ground without a visible horizon against which to establish perspective. Surrounding reference points that we expect to be perpendicular, such as trees, may themselves be on a slope. Observers’ interpretations are therefore confused: downward slopes may seem horizontal or tilted upwards, and cars with their handbrakes released appear to roll uphill when they are actually moving downhill under gravity. Our innate sense of balance normally helps us determine the ground’s inclination, but misleading visual stimuli and the lack of a horizon can override that ability, especially when the gradient is gentle."
+    }
+  ],
+  "instructions": {
+    "g13": "Questions 13–15",
+    "g16": "Questions 16–20",
+    "g21": "Questions 21–25"
+  },
+  "questionGroups": [
+    {
+      "id": "g13",
+      "start": 13,
+      "end": 15,
+      "text": "Questions 13–15\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 13–15 on your answer sheet.\n13 What type of illusion results from interference with neurone activity? __________\n14 Which two factors influence how we process information at a cognitive level? __________\n15 Which theory holds that people perceive the world exactly as it is? __________"
+    },
+    {
+      "id": "g16",
+      "start": 16,
+      "end": 20,
+      "text": "Questions 16–20\nAccording to Reading Passage 2, classify each statement as relating to A, B, C or D.\nWrite the correct letter, A–D, in boxes 16–20 on your answer sheet.\n A                                   Fictional illusions\n\n B                                   Paradox illusions\n\n C                                   Distorting illusions\n\n D                                   Ambiguous illusions\n16 __________ may be perceived differently by people from different ethnic backgrounds\n17 __________ may override our natural ability to make rational judgements\n18 __________ may be interpreted differently even by the same person\n19 __________ may result from chemical stimulation\n20 __________ has been used to question the validity of arguments in another field"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 25,
+      "text": "Questions 21–25\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 21–25 on your answer sheet.\n21 Fictional illusions\n    A may eventually lead to schizophrenia.\n    B are the only type that is completely subjective.\n    C are very similar to paradox illusions.\n    D are typical of cognitive illusions.\n\n\n\n22 According to ambiguous-illusion theory, which face of the Necker cube is interpreted as the front\nbecause people tend to view objects from above?\n\n\n\n\nA\nB\nC\n\n23 Which diagram represents the Müller-Lyer illusion?\n\n\n\n\nA\nB\nC\n\n\n\n\n24 The Penrose Stairs are an example of a model that\n    A can persuade viewers that they are seeing something impossible.\n    B has disproved established theories of knowledge.\n    C is a naturally occurring paradox illusion.\n    D can be seen in several locations around the world.\n\n\n\n\n25 Occurrences on ‘gravity’ or ‘magnetic’ hills result from\n    A the mineral content of the soil.\n    B factors that science cannot currently explain.\n    C misleading natural reference points.\n    D rising slopes being misinterpreted as downward slopes."
+    }
+  ],
+  "questions": [
+    {
+      "number": 13,
+      "group": "g13",
+      "type": "text",
+      "prompt": "What type of illusion results from interference with neurone activity? __________",
+      "translation": "哪一類 illusion 由神經活動受干擾或眼腦系統受刺激造成？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g13",
+      "type": "text",
+      "prompt": "Which two factors influence how we process information at a cognitive level? __________",
+      "translation": "哪兩個因素影響我們在 cognitive level 上如何處理資訊？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g13",
+      "type": "text",
+      "prompt": "Which theory holds that people perceive the world exactly as it is? __________",
+      "translation": "哪一個理論認為人們感知到的世界，正正就是世界本身的樣子？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g16",
+      "type": "choice",
+      "prompt": "__________ may be perceived differently by people from different ethnic backgrounds",
+      "translation": "可能被不同族群或文化背景的人以不同方式感知。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g16",
+      "type": "choice",
+      "prompt": "__________ may override our natural ability to make rational judgements",
+      "translation": "可能壓過我們作理性判斷或判斷地面傾斜的自然能力。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g16",
+      "type": "choice",
+      "prompt": "__________ may be interpreted differently even by the same person",
+      "translation": "甚至同一個人也可以對它作出不同解讀。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g16",
+      "type": "choice",
+      "prompt": "__________ may result from chemical stimulation",
+      "translation": "可能由化學刺激引起。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g16",
+      "type": "choice",
+      "prompt": "__________ has been used to question the validity of arguments in another field",
+      "translation": "曾被用來質疑另一個學科中的理論或觀點是否成立。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Fictional illusions",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "According to ambiguous-illusion theory, which face of the Necker cube is interpreted as the front because people tend to view objects from above?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Which diagram represents the Müller-Lyer illusion?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "The Penrose Stairs are an example of a model that",
+      "translation": "Penrose Stairs 是一種模型例子，它可以怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Occurrences on ‘gravity’ or ‘magnetic’ hills result from",
+      "translation": "gravity hills 或 magnetic hills 上那些看似違反重力的現象，是由甚麼造成？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-119/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-119/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-119/page-6.jpg"
+  ]
+}

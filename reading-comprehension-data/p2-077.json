@@ -1,0 +1,294 @@
+{
+  "id": "p2-077",
+  "catalogueId": "p2-077",
+  "title": "Colour Blindness",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 77,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-077-colour-blindness",
+  "source": {
+    "filename": "Practice 77 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "e3a1c5c1281a52fd31679f8ff3662bea26738dca0b7b841691253eb6a6add622"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Colour Blindness Colour blindness results from an absence or malfunction of certain colour-sensitive cells in the retina. The retina is a light-sensitive membrane lining the inside back of the eye, behind the lens. The retina contains both rod cells (which are active in low light and night vision but cannot distinguish colour) and cone cells (which are active in normal daylight and are sensitive to colour). Cone cells, also called photoreceptors, are concentrated mostly in the central part of the retina, in an area called the macula. Cone cells provide clear, sharp colour vision. The cones contain light-sensitive pigments that are sensitive to specific ranges of wavelengths. There are three types of cone: one is sensitive to short wavelengths, perceived as blue; one to medium wavelengths, perceived as green; and one to long wavelengths, perceived as red. All of these cells send information about colour to the brain via the optic nerve, which connects to the retina at a point very close to the macula. People with normal colour vision, referred to as trichromats, are able to match all colours of the spectrum by using a combination of these three fundamental colour sensitivities. Hence, the huge variety of colours we perceive stems from the cone cells’ response to different combinations of wavelengths of light."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "There are many types of colour blindness. When there are deficiencies in the cones, whether present at birth or acquired later, the cones are not able to distinguish the particular wavelengths and thus that colour range is seen differently. Those with defective colour vision have a deficiency or absence of one or more of the pigments. People with a deficiency in one of the pigments (the most common type of colour vision problem) are called anomalous trichromats. When one of the cone pigments is absent and colour is reduced to two dimensions, dichromacy occurs. These individuals normally know they have a colour vision problem and it can affect their lives on a daily basis. They see no perceptible difference between red, orange, yellow, and green. All these colours that seem so different to the normal viewer appear to them to be the same colour. Missing the cones responsible for green and red hues can also affect the sensitivity to brightness."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Most cases of colour blindness, about 99 per cent, are inherited. They result from a partial or complete loss of function in one or more cone systems, affect both eyes and do not worsen over time. The most common disorders are red–green hereditary (genetic) photoreceptor disorders collectively referred to as “red-green colour blindness”. They affect 8 per cent of all males of European origin and 0.4 per cent of all females. The gene for this is carried on the X chromosome. Since males have an X–Y pairing and females have X–X, colour blindness can occur much more easily in males and is typically passed to them by their mothers. In other words, females may be carriers of colour blindness, but males are more commonly affected. People with this disorder cannot identify red or green when either colour appears alone, but can do so when it appears among other colours. Other forms of colour blindness are much rarer. They include problems in discriminating blues from yellows. Both colours are seen as white or grey. This disorder occurs with equal frequency in men and women and usually accompanies certain other physical disorders, such as liver disease or diabetes."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The rarest form of all is total colour blindness, monochromacy, in which one can see only shades of black, grey and white as in a black-and-white film or photograph. Monochromacy occurs when two or all three of the cone pigments are missing and colour and lightness vision is reduced to one dimension. Another term for total colour blindness is achromatopsia, the inability to see colour."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Inherited colour vision problems cannot be treated or corrected. Some acquired colour vision problems can be treated with surgery, such as the removal of a cataract, depending on the cause. Certain types of tinted filters and contact lenses may also help an individual to distinguish different colours better. Additionally, computer software has been developed to assist people with colour-vision difficulties. Those with mild colour deficiencies can learn to associate colours with certain objects and are usually able to identify colour in the same way as everyone else. One frequent problem involves traffic lights and, worst of all, warning lights. Colour-blind people generally know the positions of colours on traffic lights: red at the top, yellow in the centre and green at the bottom. But warning lights present an entirely different problem. In this situation there is only one light; no top or bottom, no right or left, just one light that is either red or yellow."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Colour vision problems can have a significant impact on a person’s life, learning abilities and career choices. On an everyday basis, there are some annoyances and frustrations: not being able to differentiate between unripe green tomatoes and ripe red ones when preparing food, for example, or buying clothes that to people with normal colour vision seem positively garish. However, people with colour vision problems usually learn to compensate for their inability to see colours. Although there is little or no treatment for colour blindness, most colour-deficient people compensate well for their defect and may even discover instances in which they can discern details and images that would escape people with normal colour vision. At one time the US Army found that colour-blind people can spot camouflage colours in cases where those with normal colour vision are typically fooled."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nComplete each sentence with the correct ending A–K from the box below.\nWrite the correct letter A–K in spaces 14–20 below.\n14 __________ Colour blindness\n15 __________ Surprisingly, some people who are colour blind\n16 __________ People with hereditary colour blindness\n17 __________ Because of our genetic make-up, colour blindness\n18 __________ Red-green genetic photoreceptor disorders mean that people\n19 __________ People with monochromacy\n20 __________ The inability to see certain lights\n\n\n A                      can see better at night than during the day\n\n B                      cannot be treated by surgery\n\n C                      affects men much more often than women\n\n D                      can affect their sensitivity to bright lights\n\n E                      can see no colour at all, other than shades of black, grey and white\n\n F                      can see things that people with normal vision cannot\n\n G                      can have very dangerous consequences for colour-blind people\n\n H                      can be acquired or inherited\n\n I                      can mean having to wear contact lenses\n\n J                      cannot distinguish certain colours if they stand alone\n\n K                      can match all colours of the spectrum"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 23,
+      "text": "Questions 21–23\nChoose the correct letter A, B, C or D.\n\n\n21 What causes colour blindness?\n A the absence of rod cells.\n B the malfunction of rod cells.\n C the malfunction of cone cells.\n D the retina’s inability to detect light.\n\n\n22 Which group is the rarest?\n A people who cannot detect blues from yellows.\n B anomalous trichromats.\n C people with dichromacy.\n D people with achromatopsia.\n\n\n23 What would colour-blind people consider an everyday nuisance?\n A not being able to identify the colour of warning lights.\n B not being able to tell an apple from a tomato.\n C not being able to cook.\n D not being able to buy matching clothes."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the diagram below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\n\n\n24 _________________\n25 _________________\n26 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Colour blindness",
+      "translation": "色盲可以是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Surprisingly, some people who are colour blind",
+      "translation": "令人意外的是，有些色盲人士……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ People with hereditary colour blindness",
+      "translation": "有遺傳性色盲的人……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Because of our genetic make-up, colour blindness",
+      "translation": "由於我們的基因構成，色盲……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Red-green genetic photoreceptor disorders mean that people",
+      "translation": "紅綠遺傳性 photoreceptor disorders 表示人們……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ People with monochromacy",
+      "translation": "有 monochromacy 的人……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ The inability to see certain lights",
+      "translation": "不能看清某些燈號……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "What causes colour blindness?",
+      "translation": "甚麼造成色盲？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Which group is the rarest?",
+      "translation": "哪一組人最罕見？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "What would colour-blind people consider an everyday nuisance?",
+      "translation": "色盲人士會把哪一件事視為日常煩惱？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-077/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-077/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-077/page-6.jpg"
+  ]
+}

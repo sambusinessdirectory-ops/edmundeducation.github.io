@@ -1,0 +1,312 @@
+{
+  "id": "p1-162",
+  "catalogueId": "p1-162",
+  "title": "The Power of Nothing",
+  "sourceHeading": "The Power of Nothing",
+  "passage": 1,
+  "practice": 162,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-162-the-power-of-nothing",
+  "source": {
+    "filename": "Practice 162 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "6fde7e2c848b857c2e2884e27c55436cf5ea023ef5144f600662d4d6ea71bdf7"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Want to devise a new form of alternative medicine? No problem. Here is the recipe. Be warm, sympathetic, reassuring and enthusiastic. Your treatment should involve physical contact, and each session with your patients should last at least half an hour. Encourage your patients to take an active part in their treatment and understand how their disorders relate to the rest of their lives. Tell them that their own bodies possess the true power to heal. Make them pay you out of their own pockets. Describe your treatment in familiar words, but embroidered with a hint of mysticism: energy fields, energy flows, energy blocks, meridians, forces, auras, rhythms and the like. Refer to the knowledge of an earlier age: wisdom carelessly swept aside by the rise and rise of blind, mechanistic science. Oh, come off it, you are saying. Something invented off the top of your head could not possibly work, could it?"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Well, yes, it could—and often well enough to earn you a living. It could provide a good living if you are sufficiently convincing or, better still, genuinely believe in your therapy. Many illnesses get better on their own, so if you are lucky and administer your treatment at just the right time you will get the credit. But that’s only part of it. Some of the improvement really would be down to you. Your healing power would be the outcome of a paradoxical force that conventional medicine recognises but remains oddly ambivalent about: the placebo effect."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Placebos are treatments that have no direct effect on the body, yet still work because the patient has faith in their power to heal. Most often the term refers to a dummy pill, but it applies just as much to any device or procedure, from a sticking plaster to a crystal to an operation. The existence of the placebo effect implies that even quackery may confer real benefits, which is why any mention of placebo is a touchy subject for many practitioners of complementary and alternative medicine, who are likely to regard it as tantamount to a charge of charlatanism. In fact, the placebo effect is a powerful part of all medical care, orthodox or otherwise, though its role is often neglected or misunderstood."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "One of the great strengths of CAM may be its practitioners’ skill in deploying the placebo effect to accomplish real healing. “Complementary practitioners are miles better at producing non-specific effects and good therapeutic relationships,” says Edzard Ernst, professor of CAM at Exeter University. The question is whether CAM could be integrated into conventional medicine, as some would like, without losing much of this power."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "At one level, it should come as no surprise that our state of mind can influence our physiology: anger opens the superficial blood vessels of the face; sadness pumps the tear glands. But exactly how placebos work their medical magic is still largely unknown. Most of the scant research done so far has focused on the control of pain because it’s one of the commonest complaints and lends itself to experimental study. Here, attention has turned to the endorphins, morphine-like neurochemicals known to help control pain."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "“Any of the neurochemicals involved in transmitting pain impulses or modulating them might also be involved in generating the placebo response,” says Don Price, an oral surgeon at the University of Florida who studies the placebo effect in dental pain."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "“But endorphins are still out in front.” That case has been strengthened by the recent work of Fabrizio Benedetti of the University of Turin, who showed that the placebo effect can be abolished by a drug, naloxone, which blocks the effects of endorphins. Benedetti induced pain in human volunteers by inflating a blood-pressure cuff on the forearm. He did this several times a day for several days, using morphine each time to control the pain. On the final day, without saying anything, he replaced the morphine with a saline solution. This still relieved the subjects’ pain: a placebo effect. But when he added naloxone to the saline, the pain relief disappeared. Here was direct proof that placebo analgesia is mediated, at least in part, by these natural opiates."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Still, no one knows how belief triggers endorphin release, or why most people can’t achieve placebo pain relief simply by willing it. Though scientists don’t know exactly how placebos work, they have accumulated a fair bit of knowledge about how to trigger the effect. A London rheumatologist found, for example, that red dummy capsules made more effective painkillers than blue, green or yellow ones. Research on American students revealed that blue pills make better sedatives than pink, a colour more suitable for stimulants. Even branding can make a difference: if Aspro or Tylenol is what you like to take for a headache, their chemically identical generic equivalents may be less effective."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "It matters, too, how the treatment is delivered. Decades ago, when the major tranquilliser chlorpromazine was being introduced, a doctor in Kansas categorised his colleagues according to whether they were keen on it, openly sceptical of its benefits, or took a “let’s try and see” attitude. His conclusion: the more enthusiastic the doctor, the better the drug performed. And this year Ernst surveyed published studies that compared doctors’ bedside manners. The studies turned up one consistent finding: “Physicians who adopt a warm, friendly and reassuring manner,” he reported, “are more effective than those whose consultations are formal and do not offer reassurance.”"
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Warm, friendly and reassuring are precisely CAM’s strong suits, of course. Many of the ingredients of that opening recipe—the physical contact, the generous swathes of time, the strong hints of supernormal healing power—are just the kind of thing likely to impress patients. It’s hardly surprising, then, that complementary practitioners are generally best at mobilising the placebo effect, says Arthur Kleinman, professor of social anthropology at Harvard University."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–9",
+    "g10": "Questions 10–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nComplete each statement with the correct ending, A–H.\nWrite the correct letter, A–H, in boxes 1–6 on your answer sheet.\nNB You may use any letter more than once.\n A                        should be easy to understand\n\n B                        may improve on their own\n\n C                        should not involve any mysticism\n\n D                        should last for a minimum period\n\n E                        must be treated at the right time\n\n F                        should receive more recognition\n\n G                        can earn the practitioner a good living\n\n H                        need not depend on a specific treatment\n1 ____________ Sessions with an alternative practitioner\n2 ____________ An alternative practitioner’s description of a treatment\n3 ____________ An alternative practitioner who believes in the treatment\n4 ____________ The illnesses of patients who believe in alternative medicine\n5 ____________ Improvements experienced by patients receiving alternative treatment\n6 ____________ Conventional medicine’s view of the placebo effect"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 9,
+      "text": "Questions 7–9\nChoose the correct letter, A, B, C or D.\n7 In paragraph E, why does the writer mention anger and sadness?\n A To show that emotions can affect the body\n B To show that scientists do not understand how the mind influences the body\n C To show that research on the placebo effect is limited\n D To show that the way placebos work is not yet understood\n8 Why has pain control attracted most of the research attention?\n A Scientists have discovered that endorphins reduce pain.\n B Only a limited number of researchers have relevant experience.\n C Pain-reducing chemicals may also be involved in the placebo effect.\n D Pain is common and lends itself to experimental study.\n9 What does Fabrizio Benedetti’s research on endorphins indicate?\n A They are widely used to regulate pain.\n B They can be released by willpower alone.\n C Their effects can be blocked by naloxone.\n D Their pain-relieving effects do not last long enough."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 14,
+      "text": "Questions 10–14\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 10–14 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n10 Scientists have enough information to understand the placebo effect fully.\n11 A London-based researcher discovered that red pills should be taken off the market.\n12 People’s preferences for particular brands can affect the effectiveness of treatment.\n13 Doctors held a range of views about the newly introduced drug chlorpromazine.\n14 Alternative practitioners are seldom known for applying the placebo effect."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Sessions with an alternative practitioner",
+      "translation": "與另類療法從業者進行的治療時段 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ An alternative practitioner’s description of a treatment",
+      "translation": "另類療法從業者對治療的描述 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ An alternative practitioner who believes in the treatment",
+      "translation": "一位相信自己療法的另類療法從業者 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The illnesses of patients who believe in alternative medicine",
+      "translation": "相信另類療法的病人的疾病 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Improvements experienced by patients receiving alternative treatment",
+      "translation": "接受另類療法的病人所經歷的改善 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Conventional medicine’s view of the placebo effect",
+      "translation": "傳統醫學對安慰劑效應的看法 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "In paragraph E, why does the writer mention anger and sadness?",
+      "translation": "在 Paragraph E 中，作者為甚麼提到憤怒和悲傷？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Why has pain control attracted most of the research attention?",
+      "translation": "為甚麼疼痛控制吸引了最多研究注意？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "What does Fabrizio Benedetti’s research on endorphins indicate?",
+      "translation": "Fabrizio Benedetti 關於內啡肽的研究顯示了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Scientists have enough information to understand the placebo effect fully.",
+      "translation": "科學家已有足夠資料，可以完全理解安慰劑效應。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "A London-based researcher discovered that red pills should be taken off the market.",
+      "translation": "一位倫敦研究者發現紅色藥丸應該被停售／下架。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "People’s preferences for particular brands can affect the effectiveness of treatment.",
+      "translation": "人們對特定品牌的偏好可以影響治療效果。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Doctors held a range of views about the newly introduced drug chlorpromazine.",
+      "translation": "醫生們對新引入的 chlorpromazine 這種藥持有一系列不同看法。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Alternative practitioners are seldom known for applying the placebo effect.",
+      "translation": "另類療法從業者很少以運用安慰劑效應見稱。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-162/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-162/page-6.jpg"
+  ]
+}

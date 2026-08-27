@@ -1,0 +1,268 @@
+{
+  "id": "p3-040",
+  "catalogueId": "p3-040",
+  "title": "High speed photography",
+  "sourceHeading": "High-Speed Photography",
+  "passage": 3,
+  "practice": 40,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-040-high-speed-photography",
+  "source": {
+    "filename": "Practice 40 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "0c33302059121781702a8bffde41a1e55c2805cb601b320f6ea594c4d9116bb1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Photography gained the interest of many scientists and artists from its inception. Scientists have used photography to record and study movements, such as Eadweard Muybridge’s study of human and animal locomotion in 1887. Artists are equally interested in these aspects but also try to explore avenues other than the photo-mechanical representation of reality, such as the pictorialist movement. Military, police, and security forces use photography for surveillance, recognition and data storage. Photography is used by amateurs to preserve memories, to capture special moments, to tell stories, to send messages, and as a source of entertainment. Various technological improvements and techniques have even made it possible to visualise events that are too fast or too slow for the human eye."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "One such technique is called fast motion, professionally known as time-lapse photography. Time-lapse photography is the perfect technique for capturing events and movements in the natural world that occur over a timescale too slow for human perception to follow. The life cycle of a mushroom, for example, is too gradual to follow to the human eye. The principle used to present its growth is simple: a series of photographs is taken at regular intervals and arranged as a moving-image film. When played back at normal speed, the sequence appears continuous and sped up. Put simply: we are shrinking time. Objects and events that would normally take several minutes, days or even months can be viewed to completion in seconds after being sped up by factors of tens to millions."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Another commonly used technique is high-speed photography, the science of taking pictures of very fast phenomena. High-speed photography can be considered the opposite of time-lapse photography. One of the many applications is found in biological research into birds, bats and even spider silk. Imagine a hummingbird hovering almost completely still in the air, feeding on nectar. With every flap, its wings bend, flex and change shape. These subtle movements precisely control the lift its wings generate, making it an excellent hoverer. But a hummingbird flaps its wings up to 80 times every second. The only way to truly capture this motion is with cameras that will, in effect, slow down time. To do this, a longer sequence of film is captured at a high sampling frequency, or frame rate, which is much higher than the rate at which it will be projected on screen. When replayed at normal speed, time appears to be slowed down proportionately. That is why high-speed cameras have become such a mainstay of biology."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "In common usage, high-speed photography can also refer to the use of high-speed cameras so that a photograph can freeze motion and reduce motion blur. It requires a sensor with good sensitivity and either a very good shuttering system or a very fast strobe light. The recent National Geographic footage—captured last summer during an intensive three-day shoot at the Cincinnati Zoo—is unprecedented in its clarity and detail. “I’ve watched cheetahs run for 30 years,” said Cathryn Hilker, founder of the zoo’s Cat Ambassador Program. “But I saw things in that super slow-motion video that I’ve never seen before.” The slow-motion video is entrancing. Every part of the sprinting cat’s anatomy—supple limbs, rippling muscles, hyperflexible spine—works together in a symphony of speed, revealing the fluid grace of the world’s fastest land animal."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Things become even more complicated when filming a frog catching its prey. Frogs can snatch up prey in a few thousandths of a second—striking out with elastic tongues. Biologists would love to see how a frog’s tongue rolls out, adheres to prey and rolls back into the frog’s mouth. But this all happens too fast, 50 times faster than an eye blink. So naturally people thought of using a high-speed camera to capture this fantastic movement in slow motion. Yet one problem still remains—viewers would become bored if they watched the frog swim in slow motion for too long. How can this be avoided? The solution is a simple one—adjust the playback speed, which is also called by some the film speed adjustment. The film will originally be shot at a high frame rate (often 300 frames per second, because it can be converted to much lower frame rates without major issues), but at a later editing stage this high frame rate will only be preserved for the prey-catching part, while the swimming part will be converted to the normal speed at 24 frames per second. Voilà, the scientists can now sit back and enjoy watching without having to go through the pain of waiting."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Sometimes taking a good picture or shooting a good film is not just about technology; it also requires patience, as in the case of bats. Bats are small and dark-coloured; they fly fast and are active only at night. To capture bats on film, one must use a camera-triggering device. Photographers or film-makers often place a camera near the bat cave, on the path of the flying bats. The camera must be hard-wired to a triggering device so that every time a bat breaks the triggering beam, the camera fires and it will keep doing so through the night until the camera’s battery runs out. Although advanced triggering devices now allow unmanned shooting, it still may take several nights to get a truly high-quality film."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Is it science? Is it art? Since the technique was first pioneered around two hundred years ago, photography has developed to a state where it is almost unrecognisable. Some people would even say the future of photography will be nothing like what we imagine it to be. No matter what future it may hold, photography will continue to develop because it has repeatedly demonstrated in many aspects of our lives that “a picture is worth a thousand words.”"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nLook at the following organisms (Questions 27–30) and the list of features below. Match each organism\nwith the correct feature, A–D.\nWrite the correct letter, A–D, in boxes 27–30 on your answer sheet.\n\n\n A                          too fast to be perceived\n\n B                          position the camera where the animal will pass\n\n C                          too slow to be visible to human eyes\n\n D                          adjust the filming speed to make it interesting\n27 ____________ Mushroom\n28 ____________ Hummingbird\n29 ____________ Frog\n30 ____________ Bat"
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 31–35 on your answer sheet.\n\n\n Fast motion (professionally known as time-lapse photography) and slow motion (or\n high-speed photography) are two of the most common techniques of photography. To\n present a naturally slow process to an audience, photographers take each picture with\n a 31 _________________ before taking the next picture. When these pictures are finally\n shown on screen in sequence at a normal motion picture rate, audiences see a 32\n _________________ that is faster than what it naturally is. This technique can make\n audiences feel as if 33 _________________ is shrunk. On the other hand, to\n demonstrate how fast things move, the movement is exposed on a 34\n _________________ of film, and then projected on screen at normal playback speed.\n This makes viewers feel time is 35 _________________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nReading Passage 3 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 36–40 on your answer sheet.\n\n\n36 _____________ a description of photography’s application in various fields\n37 _____________ a reference to why high-speed photography has a significant role in biology\n38 _____________ a traditional wisdom that assures readers of the prospects of photography\n39 _____________ a reference to how film is processed before final release\n40 _____________ a description of filming without human effort"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Mushroom",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Hummingbird",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Frog",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Bat",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "為了向觀眾呈現自然界中很慢的過程，攝影師每拍一張照片後，會隔一個固定時間再拍下一張。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "當這些圖片最後按順序以正常電影播放速度顯示時，觀眾會看到一個比自然速度更快的影像序列。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "這種技術會讓觀眾感覺好像時間被縮短了。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "另一方面，為了展示快速物件如何移動，這些動作會被拍在一段較長的影片序列上，然後以正常播放速度投射到螢幕上。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "這會令觀眾感覺時間被按比例放慢了。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ a description of photography’s application in various fields",
+      "translation": "描述 photography 在不同領域中的應用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ a reference to why high-speed photography has a significant role in biology",
+      "translation": "提到 high-speed photography 為甚麼在生物學中有重要角色。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ a traditional wisdom that assures readers of the prospects of photography",
+      "translation": "用一句傳統智慧來讓讀者相信 photography 的前景。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ a reference to how film is processed before final release",
+      "translation": "提到影片在最終發布前如何被處理。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ a description of filming without human effort",
+      "translation": "描述不需要人手操作的拍攝方式。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-040/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-040/page-5.jpg"
+  ]
+}

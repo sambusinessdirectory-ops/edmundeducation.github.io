@@ -1,0 +1,304 @@
+{
+  "id": "p1-130",
+  "catalogueId": "p1-130",
+  "title": "Exploring british village 2",
+  "sourceHeading": "Exploring British Village",
+  "passage": 1,
+  "practice": 130,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-130-exploring-british-village-2",
+  "source": {
+    "filename": "Practice 130 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "d14da5f1938211c98d131ac982cc21570af2a5be7c1d48fe3c3c9200c318056b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The Neolithic longhouse was a long, narrow timber dwelling built by the first farmers in Europe beginning at least as early as the period 5,000 to 6,000 BC. The origin of the name ‘blackhouse’ is a matter of some debate. The term could be less than 150 years old and may once have implied inferiority. On Lewis, in particular, it seems to have been used to distinguish the older blackhouses from some of the newer white houses (Scottish Gaelic: taigh-geal, Irish: tí geal, tí bán), with their mortared stone walls. There may also be some confusion arising from the phonetic similarity between ‘dubh’, meaning black, and ‘taghadh’, meaning thatch. The houses in Scotland were built high rather than wide; however, some were built small and wide."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The buildings were generally built with double dry-stone walls packed with earth and wooden rafters covered with a thatch of turf and cereal straw or reed. The floor was generally flagstones or packed earth and there was a central hearth for the fire. There was no chimney for the smoke to escape through. Instead, the smoke made its way through the roof. The blackhouse was used to accommodate livestock as well as people. People lived at one end and the animals lived at the other with a partition between them."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "It is estimated that there are over ten thousand villages in Britain, yet defining the term ‘village’ isn’t as simple as it may at first sound. When does a hamlet become a village? And when does a village become a town?"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Strictly speaking, the term ‘village’ comes from the Latin ‘villaticus’, which roughly translates as ‘a group of houses outside a villa farmstead’. Today a village is understood as a collection of buildings (usually at least 20) that is larger than a hamlet, yet smaller than a town, and which contains at least one communal or public building. This is most commonly the parish church, though it can be a chapel, school, public house, shop, post office, smithy or mill. Villagers will share communal resources such as access roads, a water supply, and usually a place of worship."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "A hamlet is a smaller grouping of buildings that does not necessarily have any public or service buildings to support it. A significant difference is that it won’t have a parish church like a village does, and most hamlets contain only between three and twenty buildings."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The point at which a village becomes a town is difficult to determine and is probably best defined by those who live there. However, since the Middle Ages, the term ‘town’ has been a legal term that refers to the fact that the community has a borough charter. The situation is confused by the fact that there are many town-like suburban communities calling themselves villages (for example, Oxton Village in Birkenhead), as well as designed suburban ‘villages’ such as those built under the Garden Village Movement."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The 2001 census shows us that approximately 80 per cent of people in England live in an urban environment, with under 7 per cent living in rural villages (the remainder live in rural towns or outside concentrated settlements). This is the exact opposite of the situation two centuries ago, when under 20 per cent of the population lived in towns, and the majority lived in rural villages. As late as 1851 agriculture remained the largest single source of employment in Britain, yet today under 3 per cent of us work on the land."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "It is essential to remember that villages were created and have evolved because of particular combinations of geographical, commercial, economic and social factors. They expand, decline, move and fluctuate with the times. This article introduces some of the common forms of village to be found in Britain. The Medieval Village"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "When we think of a British village, we probably imagine a settlement of traditional cottages around a village green with a church and ancient manor house as a backdrop. This common form of village has its roots in the medieval period when many villages started out as a cluster of agricultural dwellings."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Today farmsteads tend to be scattered about the landscape, but back in the medieval period, those working on the land tended to live in small nucleated settlements (villages) and practised ‘open-field’ agriculture where land wasn’t enclosed. In fact, over much of Britain in the period up to 1800, it would have been unusual to have seen a farm or cottage outside of a settlement boundary."
+    },
+    {
+      "number": 11,
+      "label": "K",
+      "text": "By the time that the Domesday Book was written in 1086, most of the good agricultural land in Britain was already under cultivation, and England was a densely populated country. Two centuries later nucleated settlements were to be found over much of Britain, typically consisting of well-organised village settlements sitting within open fields."
+    },
+    {
+      "number": 12,
+      "label": "L",
+      "text": "Across lowland Britain, on good soil, you would typically find a settlement every couple of miles, and the communities would use the surrounding open agricultural land. The average village would have its church, manor house, and cottage tenements all clustered together, and the open land around them would usually be divided into thin strips. In some villages, you can still see the remnants of medieval strip field systems around the periphery of the settlement. There would often be meadows, pasture and woodland held ‘in common’, and only the lord of the manor would have his own private land or ‘demesne’. In the medieval village, virtually everyone would have earned their living on the territory; hence the community had to be relatively self-sufficient."
+    },
+    {
+      "number": 13,
+      "label": "M",
+      "text": "‘Green Villages’ were a common village form in which houses clustered around a central green of common land. They are often the remnants of planned settlements introduced after the Norman Conquest in the 11th century. It is suggested that this arrangement allowed for easier defence, especially compared to the village form most common before the Normans, which consisted of simple clusters of farms. However, there is also evidence of ‘village’ greens in Anglo-Saxon settlements, and even at Romano-British sites."
+    },
+    {
+      "number": 14,
+      "label": "N",
+      "text": "The village green was soon adopted as the main social space within a village, as well as its focal point alongside the church or chapel. Village greens often take a triangular form, usually reflecting the fact that the village was at the meeting of three roads. The continuing importance of the village green to modern-day communities is reflected in the presence of war memorials, village notice boards, cricket pitches and public benches. The Open Spaces Society states that in 2005 there were about 3,650 registered greens in England and about 220 in Wales."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nThe first part of the reading passage has seven paragraphs, A–G.\nChoose the correct heading for paragraphs A–G from the list below.\nWrite the correct number, i–x, in boxes 1–7 on your answer sheet.\n\n                          List of Headings\n\n i                        Questions arise that need to be answered\n\n ii                       A contrast between present and past data\n\n iii                      An initial association with the village\n\n iv                       The origin of a particular ancient building\n\n v                        The internal structure of the building\n\n vi                       A village layout that persists in a local environment\n\n vii                      Terms relating to villages explained\n\n viii                     Definition of a type of village\n\n ix                       The difference between a village and a town\n\n x                        Elements that need to be considered when defining a village\n\n\n1 Paragraph A\n2 Paragraph B\n3 Paragraph C\n4 Paragraph D\n5 Paragraph E\n6 Paragraph F\n7 Paragraph G"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nComplete the following summary.\nChoose NO MORE THAN ONE WORD from the passage for each answer.\nWrite your answers in boxes 8–13 on your answer sheet.\nVillage Green Layout and Development\n\n A British village is usually imagined as a collection of traditional 8 _________________ with a church\n and manor house. However, records in 9 _________________ indicate that England was already a\n cultivated and populated country in the 11th century. During medieval times, farmers had to support\n themselves and their communities and therefore needed to be 10 _________________. A green\n village was usually a 11 _________________ of dwellings established after the Norman invasion, and\n its houses were grouped mainly for 12 _________________. The village green’s 13\n _________________ shape reflected its location at the meeting of roads, and today it can still be seen\n at public sites such as memorials and sports grounds."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "人們通常把 British village 想像成一組傳統的 ______，旁邊有 church 和 manor house。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "然而，______ 中的記錄顯示，英格蘭在十一世紀已經是耕作充分、人口稠密的國家。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "中世紀時，農民需要支撐自己和社群，因此必須 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "Green village 通常是一個由 dwellings 組成的 ______，在 Norman invasion 後建立。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "它的房屋主要為了 ______ 而聚集。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "Village green 的 ______ 形狀反映它位於道路交會處。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-130/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-130/page-6.jpg"
+  ]
+}

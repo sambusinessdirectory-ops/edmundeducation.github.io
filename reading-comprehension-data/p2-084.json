@@ -1,0 +1,219 @@
+{
+  "id": "p2-084",
+  "catalogueId": "p2-084",
+  "title": "Unsung and Lowly Creatures",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 84,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-084-unsung-and-lowly-creatures",
+  "source": {
+    "filename": "Practice 84 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "002832f0900e8578b86f87f268ce5ba72cfc6b02db508c0e9af9ee99435a368b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Unsung and Lowly Creatures Earthworms are not creatures likely to attract much attention. Secretive, silent, slow-moving, and featureless, almost no one would ever think much of them. Yet Charles Darwin wrote: ‘It may be doubted whether there are many other animals which have played so important a part in the history of the world as have these lowly organised creatures.’"
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "That is high praise indeed for what is basically a slimy, muscular, moist, segmented tube. This tube is also hermaphroditic, meaning that there are both male and female segments in the one creature. Some segments contain testes and others contain eggs; worms release, exchange and store reproductive fluids, and then a long complicated process eventually leads to the secretion of an egg case. From this, small but fully formed worms will emerge, reaching full size in about one year, and living for one or two years after that."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Yet earthworms are rarely seen, spending as they do their whole lives underground. Only after heavy rains can they sometimes be found on the surface, apparently stranded. Three hypotheses are put forward to explain this. The stormwater may flood their burrows, forcing them upwards. Alternatively, the worms may be taking advantage of the wet conditions either to travel more quickly through the open air (compared with burrowing beneath the ground) or to meet and mate. Whatever the case, if they find themselves on concrete, rock or hardened earth, they are effectively trapped. If this happens at dawn, during high summer or in daylight, these earthworms quickly die due to bird predation or dehydration."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Normally, however, worms quietly go about their hidden business, and this often leads to an underestimation of their actual numbers. Darwin himself thought that arable land contained about 50,000 worms per acre, yet modern research has suggested that the figure could reach as high as almost two million. Putting this another way, the weight of earthworms beneath the soil is often greater than that of the cows, horses and sheep grazing upon its surface. And those worms are just as hungry. Each worm does, in fact, have a small mouth and a simple but effective digestive system, similar to those of the animals above. Food is sucked into the body, then pushed along the length of the worm through muscular action, passing through the crop, gizzard, intestine, and finally the anus."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Perhaps surprisingly, it is this constant eating which so benefits the chemistry of the soil. Earthworms feed on undecayed leaf litter and organic matter. They pull pieces down into their burrows, shred them into smaller parts, and then consume each of these, along with small soil particles. In a worm’s gut, everything is ground into a fine paste, to be eventually excreted, releasing essential minerals in an easily accessible form. A single worm may produce over four kilograms of this digested paste per year. Multiply that by a million worms, and one can understand Darwin’s comment about ‘unsung creatures which, in their untold millions, transformed the land’."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The other great benefit relates to earthworms’ search for food. It might surprise many to know that these creatures are very mobile, moving to the surface then down into the safer depths on a daily basis. Aided by the secretion of lubricating mucus, they push themselves through the soil using waves of bodily contractions, which alternately shorten and lengthen their form. The point is that water can also move through their tunnels. More importantly, as the worms travel, they push air in and out of the soil on a continuous basis. In the same way that animals need oxygen, so too do the myriad micro-organisms in the soil. Thus, without worms, the ground would become waterlogged, airless, and less productive for farming purposes."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Naturally, with so many worms in the soil, they form the base of many food chains. Not only birds, but also some mammals, such as hedgehogs, moles, and even larger ones, such as foxes and bears, will actively dig into the ground for worms. Such predation is natural, and has little effect on worm populations. However, the use of certain fertilisers is a different case. Earthworms depend on the temperature, texture, and moisture content of the soil, but they are most sensitive to its acidity. Nitrogenous fertilisers can raise this to levels fatal to these creatures, often causing disastrous drops in numbers. The more ecologically aware farmer avoids such chemicals, and regularly adds a surface mulch of organic matter, raising worm numbers for the natural benefit of both soil and man."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–24",
+    "g25": "Questions 25–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nChoose the correct letter, A, B, C, or D.\n\n\n14 Charles Darwin thought that worms\n A were only moderately important.\n B were organised.\n C liked arable land.\n D numbered in the many millions.\n\n\n15 A single worm\n A is either male or female.\n B has many segments.\n C is a complicated organism.\n D lives for about a year.\n\n\n16 Stormwater may possibly\n A clean out worm burrows.\n B slow down worms.\n C help worms encounter others.\n D harden the earth.\n\n\n17 Grazing animals\n A often weigh less than the worms below.\n B are hungrier than the worms below.\n C have very different digestive systems from worms.\n D have simpler digestive systems than worms."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 24,
+      "text": "Questions 18–24\nComplete the diagram.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\n\n\n18 _________________\n19 _________________\n20 _________________\n21 _________________\n22 _________________\n23 _________________\n24 _________________"
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 26,
+      "text": "Questions 25–26\nComplete the sentences.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWorm numbers will fall especially when the soil has high 25 _________________.\nAdding mulch to the soil shows 26 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Charles Darwin thought that worms",
+      "translation": "Charles Darwin 認為 worms 怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A single worm",
+      "translation": "一條單獨的蚯蚓……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Stormwater may possibly",
+      "translation": "暴雨水可能會……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Grazing animals",
+      "translation": "在地面吃草的動物……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g18",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g18",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "當土壤有很高的 _________ 時，worm numbers 尤其會下降。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "向土壤加入 mulch 顯示 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-084/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-084/page-5.jpg"
+  ]
+}

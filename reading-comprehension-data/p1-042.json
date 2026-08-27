@@ -1,0 +1,219 @@
+{
+  "id": "p1-042",
+  "catalogueId": "p1-042",
+  "title": "Thomas Young The Last True Know-It-All",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 42,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-042-thomas-young-the-last-true-know-it-all",
+  "source": {
+    "filename": "Practice 42  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "6cd8f2468bd7e3361a3e9578726786c5258f6d4029e3c9e71cd23bf91bba4c8e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Thomas Young: The Last True Know-It-All Thomas Young (1773–1829) contributed 63 articles to the Encyclopaedia Britannica, including 46 biographical entries, mostly on scientists and classicists, and substantial essays on ‘Bridge’, ‘Chromatics’, ‘Egypt’, ‘Languages’ and ‘Tides’. Was someone who could write authoritatively on so many subjects a polymath, a genius or a dilettante? In an ambitious new biography, Andrew Robinson argues that Young is a strong contender for the epitaph ‘the last man who knew everything’. Young has competition, however: the phrase, which Robinson uses as his title, also serves as the subtitle of two other recent biographies—Leonard Warren’s 1998 life of palaeontologist Joseph Leidy (1823–1891) and Paula Findlen’s 2004 book on Athanasius Kircher (1602–1680), another polymath."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Young, of course, did more than write encyclopaedia entries. He presented his first paper to the Royal Society of London at the age of twenty and was elected a Fellow a week after his twenty-first birthday. In the paper, Young explained accommodation in the human eye—how the eye focuses properly on objects at different distances. He hypothesised that this was achieved by changes in the shape of the lens. Young also theorised that light travelled in waves and believed that, to account for colour vision, the eye must contain three receptors corresponding to the three ‘principal colours’ to which the retina could respond: red, green and violet. All these hypotheses were subsequently proved correct."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Later in life, when he was in his forties, Young was instrumental in cracking the code that unlocked the unknown script on the Rosetta Stone, a tablet found in Egypt by Napoleon’s army in 1799. The stone contains text in three scripts: Greek, an unrecognisable script and Egyptian hieroglyphs. The unrecognisable script is now known as Demotic and, as Young deduced, is directly related to hieroglyphic writing. His initial work on it appeared in his Britannica entry on Egypt. In another entry, he coined the term ‘Indo-European’ to describe the family of languages spoken throughout most of Europe and northern India. These are the landmark achievements of a man who was a child prodigy and who, unlike many remarkable children, did not fade into obscurity as an adult."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Born in Somerset, England, in 1773, Young lived from an early age with his maternal grandfather and later attended boarding school. He had devoured books from the age of two and, through his own initiative, excelled at Latin, Greek, mathematics and natural philosophy. After leaving school, he was greatly encouraged by his mother’s uncle, Richard Brocklesby, a physician and Fellow of the Royal Society. Following Brocklesby’s example, Young decided to pursue medicine. He studied in London, following the medical circuit, and then undertook more formal education in Edinburgh, Göttingen and Cambridge. After completing his medical training at the University of Cambridge in 1808, Young established a medical practice in London. He soon became a Fellow of the Royal College of Physicians and, a few years later, was appointed a physician at St George’s Hospital."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Young’s skill as a physician, however, did not equal his skill as a scholar of natural philosophy or linguistics. Earlier, in 1801, he had been appointed to a professorship of natural philosophy at the Royal Institution, where he delivered as many as 60 lectures in a year. These were published in two volumes in 1807. In 1804, Young had become secretary to the Royal Society, a post he would hold until his death. His opinions were sought on civic and national matters, such as the introduction of gas lighting to London and methods of ship construction. From 1819 he was superintendent of the Nautical Almanac and secretary to the Board of Longitude. From 1824 to 1829 he was physician to and inspector of calculations for the Palladian Insurance Company. Between 1816 and 1825 he contributed his many and various entries to the Encyclopaedia Britannica, and throughout his career he authored numerous books, essays and papers."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Young is a perfect subject for a biography—perfect, but daunting. Few people have contributed so much to so many technical fields. Robinson aims to introduce non-scientists to Young’s work and life, and he succeeds, providing clear explanations of the technical material, especially that concerning optics and Egyptian hieroglyphs. Some readers will, like Robinson, find Young’s accomplishments impressive; others will see him, as some historians have, as a dilettante. Yet despite the book’s rich material, readers will not feel that they know Young personally. We catch glimpses of a playful man who doodled Greek and Latin phrases in his notes on medical lectures and translated the verses that a young woman had written on the walls of a summerhouse into Greek elegiacs. Young entered elite society, attended the theatre, and learnt to dance and play the flute. He was also an accomplished horseman. His personal life, however, appears pale beside his vibrant career and studies."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Young married Eliza Maxwell in 1804 and, according to Robinson, ‘their marriage was a happy one and she appreciated his work’. Almost all we know about her is that she supported her husband through several rancorous disputes about optics and worried about money when his medical career was slow to take off. Very little evidence survives about the complexities of Young’s relationships with his parents. Robinson does not credit them, or anyone else, with shaping Young’s extraordinary mind. Despite the lack of detail about Young’s personal relationships, anyone interested in what it means to be a genius should read this book."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 1–7 on your answer sheet, write\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n1 _________________ ‘The last man who knew everything’ has also been applied to other people.\n2 _________________ All of Young’s writings were published in the Encyclopaedia Britannica.\n3 _________________ Like many other child prodigies, Young was less brilliant as an adult.\n4 _________________ Young’s talent as a doctor surpassed his other skills.\n5 _________________ Young’s advice was sought by people responsible for local and national issues.\n6 _________________ Young took part in various social pastimes.\n7 _________________ Young suffered from a disease in his later years."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.\nHow many biographical entries did Young write for the Encyclopaedia Britannica?\n8 _________________\nWhat aspect of scientific research did Young focus on in his first academic paper?\n9 _________________\nWhat name did Young introduce to refer to a group of languages?\n10 _________________\nWho inspired Young to start his medical studies?\n11 _________________\nWhere did Young get a teaching position?\n12 _________________\nOn what matter affecting London was Young’s opinion sought?\n13 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ ‘The last man who knew everything’ has also been applied to other people.",
+      "translation": "“the last man who knew everything” 這個稱號也曾用於其他人身上。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ All of Young’s writings were published in the Encyclopaedia Britannica.",
+      "translation": "Young 的所有著作都發表在 Encyclopaedia Britannica。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Like many other child prodigies, Young was less brilliant as an adult.",
+      "translation": "像許多其他神童一樣，Young 成年後才華減退。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Young’s talent as a doctor surpassed his other skills.",
+      "translation": "Young 作為醫生的才華超越了他的其他能力。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Young’s advice was sought by people responsible for local and national issues.",
+      "translation": "負責地方和國家事務的人曾尋求 Young 的意見。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Young took part in various social pastimes.",
+      "translation": "Young 參與過多種社交和休閒活動。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Young suffered from a disease in his later years.",
+      "translation": "Young 晚年患有某種疾病。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ What aspect of scientific research did Young focus on in his first academic paper?",
+      "translation": "Young 為 Encyclopaedia Britannica 寫了多少篇人物傳記條目？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ What name did Young introduce to refer to a group of languages?",
+      "translation": "Young 第一篇學術論文聚焦於哪一個科學研究範疇？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Who inspired Young to start his medical studies?",
+      "translation": "Young 引入哪個名稱來指稱一組語言？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Where did Young get a teaching position?",
+      "translation": "誰啟發 Young 開始醫學學習？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ On what matter affecting London was Young’s opinion sought?",
+      "translation": "Young 在哪裡獲得教職？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "Young 的意見曾就哪一項影響倫敦的事務被徵詢？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-042/page-4.jpg"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "p1-092",
+  "catalogueId": "p1-092",
+  "title": "If You Can Get Used to the Taste",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 92,
+  "version": "20260827-corpus1",
+  "analysisId": "if-you-can-get-used-to-the-taste",
+  "source": {
+    "filename": "Practice 92 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "613ceb9a17e778e75952fbfdfee85e9ae83ebb5994a50633c482c880dd11cde8"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "If You Can Get Used to the Taste There is a formal word for it: entomophagy. It means the consumption of insects by human beings. Okay, we are not insectivores (eaters of insects), although, it must be admitted, our primate cousins regularly feast on insects. Sure, but those relatives live in trees and swing from branches, and we don’t. Okay, you say, snails, those slimy garden pests, are relished as gourmet food, most famously by the French, who are otherwise not interested in garden life. But, I counter, snails are not insects. They are molluscs, and I’d like to think that makes a difference."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "What I’m talking about is eating true insects, those with six legs, three body parts, a hard exoskeleton, and two antennae. We can extend this definition to our eight-legged arachnids (spiders and scorpions), as well. These are creatures people just don’t eat. At least, that was what I thought, until I met a personable and ecologically friendly young man, Peter Ferguson, who advocates insects as the ultimate in culinary delight. Why? Peter explains, ‘For a start, there are many insects, about 10 million species, and a huge biomass of high-quality calories, and we just ignore them. In a world having trouble feeding itself, that doesn’t make sense.’"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Ignore them we do, at least in Western culture, where we have long had much better alternatives. Animal husbandry has characterised our societies, giving us pork, poultry, and cattle, upon which we regularly feast. Yet other cultures are not so fortunate. In Africa and Asia and among aboriginal or ethnic groups in Oceania, insects have an equally long history as an important dietary supplement. Foods range from butterflies and moths to bees and wasps, cockroaches and ants, beetle grubs or larvae, caterpillars and worms, scorpions (a delicacy in southern China) and tarantulas. Even the Christian Bible states that John the Baptist lived on locusts and wild honey, locusts being grasshoppers in their swarming stage. These same insects, incidentally, are commonly eaten in Thailand, where a visit to a local market will reveal multitudes of them, deep-fried in glistening piles for the delectation of passing shoppers."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Consider the African mopane worm, for example. To begin with, the name is a misnomer. The creature is actually a large, colourful caterpillar, which, in the fullness of time, turns into a rather dull-looking moth, although most never reach that stage. The hairy yellow-striped creatures are eagerly sought after, hand-picked from trees in the wild, pinched by the tail end to squeeze out the slimy green intestinal tract, after which they are usually sun-dried or smoked and are then ready for consumption. Tins of mopane worms in brine or in tomato or chilli sauce are common in supermarkets. They can be eaten straight from the can, fried into crunchy snacks, or added as an ingredient to conventional dishes. The harvest and sale of wild mopane worms is now a multimillion-dollar industry, feeding millions of people, mostly indigenous Africans."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Peter is enthusiastically telling me why he does it. ‘Insects have protein, and all the vitamins, minerals, and fat you could want.’ When I remain sceptical, Peter holds up a fried grasshopper. ‘This has lots of calcium.’ Then comes the (you guessed it) termite paste, a black smear with the look, smell and consistency of an industrial solvent. ‘Iron. Very rich.’ Then come the grub-like larvae of some kind of moth. ‘Essential trace elements such as zinc and copper.’ Anything else? ‘Insects don’t produce greenhouse gases, and don’t need antibiotics.’ Peter even cites my mopane worm example. ‘Three kilograms of mopane leaves will feed a kilogram of worms—a 30 per cent payback. With cattle, it’s less than 10 per cent. Insects are cheap to buy, cheap to breed, and easy to manage.’"
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "One can’t argue with that. The phenomenal rate at which insects breed is well known, and more than makes up for their small size. A female cricket might be a fraction of the weight of a huge beef cow, but lays up to 1,500 eggs a month; its offspring can be converted into food at 20 times the rate of beef, whilst using only a fraction of the space and water. The ecological argument for entomophagy is undeniable, although there are significant concerns about internal parasites and the accumulation of pesticides and toxins inside many wild insects. Allergic reactions have also been reported. Cooking insects thoroughly is recommended. Insects collected after intensive pesticide use or commercial spraying of local agricultural land should, of course, not be eaten."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "But what about the taste? Here, Peter hesitates. He finally says cautiously, ‘You get used to it.’ When I nod sceptically, he replies far more confidently, ‘Actually, you’re eating insects already, all the time.’ Yes, apparently, insects find their way into the human food chain, whether we like it or not. For example, most people who eat rice (as I do) inadvertently consume more than a few rice-weevil larvae and probably benefit from this, given the additional vitamins these larvae supply. Whole insects, insect parts, insect detritus, larvae and excrement appear in all our food, but in such small quantities that they are basically unnoticed and insignificant. Peter smiles. ‘In that sense, we’re already insectivores. We’ve just got to take the next logical step.’"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nDo the following statements agree with the information given in Reading Passage One?\nWrite:\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n1 _________________ The French are well known for eating insects.\n2 _________________ Peter Ferguson is a nature-friendly person.\n3 _________________ Human consumption of insects is a modern phenomenon.\n4 _________________ Some insects are used for religious purposes."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 10,
+      "text": "Questions 5–10\nComplete the table.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n Insect                One Fact                                           Another Fact\n\n grasshoppers          contain 5 _________________                        popular in 6 _________________\n\n mopane worms          primarily eaten by 7 _________________             eat 8 _________________\n\n scorpions             are popular in 9 _________________                 are a type of 10 _________________"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nChoose the correct letter, A, B, C, or D.\n\n\n11 Mopane worms\n  A are appropriately named.\n  B usually reach their moth form.\n  C are extensively raised for profit.\n  D are usually treated before being eaten.\n\n\n12 Insects\n  A multiply quickly.\n  B are best eaten raw.\n  C are mostly safe to eat.\n  D produce small amounts of greenhouse gas.\n\n\n13 The author\n  A likes snails.\n  B probably eats mopane worms.\n  C believes insects can taste good.\n  D probably eats rice weevil larvae."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The French are well known for eating insects.",
+      "translation": "法國人以食用昆蟲聞名。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Peter Ferguson is a nature-friendly person.",
+      "translation": "Peter Ferguson 是一位重視自然、環境友善的人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Human consumption of insects is a modern phenomenon.",
+      "translation": "人類食用昆蟲是一種現代現象。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Some insects are used for religious purposes.",
+      "translation": "有些昆蟲被用於宗教用途。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "grasshoppers 含有 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "grasshoppers 在 ______ 受歡迎／常被食用。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "mopane worms 主要由 ______ 食用。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "mopane worms 吃 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "scorpions 在 ______ 受歡迎／被視為美食。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "scorpions 是一種 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Mopane worms",
+      "translation": "關於 mopane worms，哪一項正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Insects",
+      "translation": "關於昆蟲，哪一項正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "The author",
+      "translation": "關於作者，哪一項正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-092/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-092/page-5.jpg"
+  ]
+}

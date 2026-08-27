@@ -1,0 +1,244 @@
+{
+  "id": "p3-103",
+  "catalogueId": "p3-103",
+  "title": "Black Gold",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 103,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-103-black-gold",
+  "source": {
+    "filename": "Practice 103 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "898b6849602ff95d38f5c43301b5c8cc15bdbd398eb024b581627ddf128a86ac"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Black Gold Dark chocolate used to be an acquired taste. The trouble is, we have all acquired it. As cocoa prices soar, and a shortage looms, our changing tastes could be threatening the very source of our pleasure. A 25% jump in dark chocolate sales in the UK pretty much speaks for itself. As a nation we are turning our backs on the bland taste of milk chocolate, which is often saturated with vegetable oil. Dark chocolate now dominates counters in many supermarkets. Chocoholics should brace themselves. Fears over a global chocolate shortage have sparked a run on the dark stuff on world cocoa markets that has pushed up the price of cacao beans (used to make cocoa) to their highest level for more than two years. The price of cocoa futures, which is how the beans are traded on world commodity markets, has climbed steadily since last November, reviving fears of the cocoa crisis of 2002 that forced major manufacturers such as Nestlé to hike the prices of some of their chocolate bars."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Although speculators have been fingered for pushing the price of cocoa higher, British chocolate aficionados must share at least some of the blame for the run on the bean. Soaring demand for dark chocolate in the UK has put a rocket under the global price of cacao beans, compounding the impact of a severe drought in West Africa, which is home to much of the world’s supply of cacao beans. Consumers are doing the same thing in chocolate as in the rest of the food market. They are trading up and being more discerning about what they buy. All of the country’s top supermarket chains have added new premium dark chocolate varieties to their own-brand ranges in response to this phenomenon. Supermarkets have also expanded the number of dark chocolate lines they stock, dwarfing their milk chocolate variants in some cases."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Of course, it takes more beans to produce a bar of dark chocolate than are needed for a bar of milk – and that is at the root of the problem. Yesterday, the cost of cacao beans for delivery in July on the London cocoa exchange shot to £1,028 a tonne on exceptionally heavy trading. This was up £22 on the day, and the highest price that the crop has fetched at any point since November 2004. The cost of buying cacao beans was pushed higher by canny investors who have placed record bets that prices will keep rising. Hedge funds, which make money by punting on whether commodity or share prices will rise or fall, have swallowed up a third of the cocoa contracts traded in New York, the other main cocoa trading centre. So far, industry buyers, such as Cadbury Schweppes, have refrained from joining the frenzy, although traders believe that a jump in prices will prompt them to build up their stocks."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Prices have risen nearly thirty per cent since the beginning of December, largely on growing concern about what farmers in Ivory Coast, the biggest cacao bean producer in West Africa, have dubbed the worst drought in living memory. To make matters worse, demand is outstripping supply as the teeth of consumers in developing markets begin to sweeten. The International Cocoa Organisation predicts a global cocoa shortfall of around 100,000 tonnes this year alone, although private forecasts warn the deficit could be as much as 250,000 tonnes."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Getting the right beans is becoming crucial in a market that is fast following in the footsteps of wine and coffee in terms of getting consumers to appreciate its effect on the palate. People these days are willing to experiment more with food and drink. Rather like wine and coffee, people are realising there are varieties of chocolate available. Dark used to be a niche, but not any longer. With dark chocolate you are tasting the cocoa, whereas with milk you are tasting the recipe. There are 450 different flavour elements in a single cacao bean, which itself varies in taste depending on where it is grown. Chocolate from Colombia might seem peppery, while chocolate from Venezuela might smell like vanilla, for example. This is driving demand for an uber-premium version: the so-called single-estate chocolate bar, which sources its beans from a single location."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Scientists are falling over themselves to complete studies showing that moderate consumption of high-quality chocolate can be good for you. Only last week, a Harvard professor unveiled research suggesting that a nutrient in cocoa called epicatechin could lower the risks of cancer, strokes, heart disease, and diabetes. Dr Norman Hollenberg, of Harvard Medical School, based his findings on a study of the Kuna people of Panama, who are weaned on cocoa and can drink up to 40 cups of the stuff a week. Separate research at the Johns Hopkins University in Baltimore, Maryland, late last year found that snacking on dark chocolate decreased the development of potentially fatal blood clots. And other studies have found that dark chocolate has proportionately more antioxidants than other foods that are better known for their health-giving properties, such as red wine, green tea, and berries."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Health has probably played a role, but more as a justification for consumption than anything else. One of dark chocolate’s big selling points is that it does not trap the chocoholic in the same downward sugar-craving spiral as milk chocolate versions. Parents should bear this in mind when they go shopping for snacks for their children. A new breed of fashionable diets has also helped to promote the cause of dark chocolate. Most dieticians agree that a little of what you fancy does you more good than outright denial. Some experts think more people are eating dark chocolate because the products have got better. The challenge with higher cocoa variants is to get the right trade-off between the percentage of bitter-tasting cocoa, which is where all the good micronutrients come from, and sugar. In the past, dark chocolate was bitter and reasonably gritty tasting. Some companies use a gentle-tasting cocoa bean which, if you are new to dark chocolate, does not scare you off. Adding a hint of vanilla can also help. Vanilla acts as a seasoning to soften the bitter notes of the cocoa and to bring out the sweetness."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in the appropriate box on your answer sheet.\n\n\n27 In the UK, people are eating more\n A chocolate.\n B dark chocolate.\n C milk chocolate.\n\n\n28 Cocoa prices are rising for several reasons, but not because of\n A a water shortage in West Africa.\n B speculators.\n C transportation problems.\n\n\n29 Industry buyers are\n A buying far more cacao beans than usual.\n B not buying enough cacao beans to make chocolate.\n C not yet responding to the price rise in cacao beans.\n\n\n30 __________ are trying hard to prove that chocolate can be good for you.\n A Manufacturers\n B Scientists\n C Advertisers"
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\n\n\nA worldwide 31 _________________ in chocolate production is expected this year.\nChocolate is becoming like 32 _________________ in that people are looking for\nfresh tastes.\nDark chocolate can prevent deadly 33 _________________\nMost dieticians disagree with the concept of 34 _________________ when dieting.\nSome companies have made their dark chocolate less 35 _________________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n\n\n36 _________________ Not one company has yet increased the price of its chocolate bars.\n37 _________________ Chocolate consumers in Britain are moving to higher quality brands.\n38 _________________ London and New York are the biggest cocoa trading centres.\n39 _________________ The taste of cacao beans depends on the climate where it is grown.\n40 _________________ Vanilla is used in most types of dark chocolate."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "In the UK, people are eating more",
+      "translation": "在英國，人們正在吃更多甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Cocoa prices are rising for several reasons, but not because of",
+      "translation": "cocoa prices 上升有多個原因，但哪一項並非原因？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Industry buyers are",
+      "translation": "industry buyers 現在的反應是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ are trying hard to prove that chocolate can be good for you.",
+      "translation": "誰正在努力證明 chocolate 對健康有益？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "今年預計 chocolate production 會出現全球性的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "Chocolate 正變得像 ______ 一樣，因為人們正在尋找新的味道。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "Dark chocolate 可以預防致命的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "大多數 dieticians 不認同 dieting 時採取 ______ 這種概念。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "一些公司把 dark chocolate 做得較不 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Not one company has yet increased the price of its chocolate bars.",
+      "translation": "到目前為止，沒有任何公司曾提高 chocolate bars 的價格。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Chocolate consumers in Britain are moving to higher quality brands.",
+      "translation": "英國 chocolate 消費者正在轉向較高品質的品牌或產品。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ London and New York are the biggest cocoa trading centres.",
+      "translation": "London 和 New York 是最大的 cocoa trading centres。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ The taste of cacao beans depends on the climate where it is grown.",
+      "translation": "cacao beans 的味道取決於其生長地的氣候。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Vanilla is used in most types of dark chocolate.",
+      "translation": "vanilla 被用於大多數 dark chocolate 中。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-103/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-103/page-5.jpg"
+  ]
+}

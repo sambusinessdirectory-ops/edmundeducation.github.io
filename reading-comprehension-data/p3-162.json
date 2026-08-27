@@ -1,0 +1,290 @@
+{
+  "id": "p3-162",
+  "catalogueId": "p3-162",
+  "title": "Water Treatment 2: Reed Bed",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 162,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-162-water-treatment-2-reed-bed",
+  "source": {
+    "filename": "Practice 162 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "0e01a2095e7d06a9bb1687c22722b7f071708010ed3dc953fb94c51edfb8f026"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Water Treatment 2: Reed Bed In recent years, it has been shown that plants—or, more accurately, their roots—play a crucial part in purifying dirty water before it enters seas and rivers. In 15th-century Britain, dirty water was purified by passing through the wetlands. People began to realize that the “natural” way of water purification was effective. Nowadays subsurface flow wetlands (SSFW) are a common alternative in Europe for the treatment of wastewater in rural areas. Over the last 10 to 12 years, there has been a significant growth in the number and size of the systems in use. The conventional mechanism of water purification used in big cities where there are large volumes of water to be purified is inappropriate in rural areas."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The common reed has the ability to transfer oxygen from its leaves, down through its stem and rhizomes, and out via its root system. As a result of this action, a very large population of microorganisms develops in the root system, in zones of aerobic, anoxic, and anaerobic conditions. As the wastewater moves very slowly through the mass of reed roots, this liquid can be successfully treated. These systems are so effective because, within their root zones, natural biological, physical and chemical processes interact with one another to degrade or remove a good range of pollutants."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Dirty water from households, farms and factories consumes a lot of oxygen in the water, which will lead to the death of aquatic creatures. Several aquatic plants are important in purifying water. They not only absorb carbon dioxide and release oxygen into the water, improving the environment for fish, but absorb nutrients from the water as well. Britain and the U.S. differ in their preferences for plants to purify water. Bulrushes (Scirpus spp.) and rushes (Juncus spp.) are excellent water purifiers. They remove excess nutrients from the water as well as oil and bacteria such asEscherichia coli and Salmonella. However, algae grow freely in summer and die off in winter. Their remains foul the bottom of the pool."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Artificial reed beds purify water in both horizontal and downflow ways. The reeds perform best when a dense layer of root hairs has formed. It takes three years for the roots to fully develop. The type of wetland used varies widely among European countries, depending on their development priorities. Besides the development of horizontal or vertical flow wetlands for wastewater treatment, the use of wetlands for sludge treatment has been very successful in Europe. Some specialised designs allow the retention of microbiological organisms in constructed wetlands, the treatment of agricultural wastewater and some kinds of industrial wastewater, and the control of diffuse pollution."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "If the water is slightly polluted, a horizontal system is used. Horizontal-flow wetlands may be of two types: free-water surface-flow (FWF) or sub-surface water-flow (SSF). In the former the effluent flows freely above the sand/gravel bed in which the reeds etc. are planted; in the latter effluent passes through the sand/gravel bed. In FWF-type wetlands, effluent is treated by plant stems, leaves and rhizomes. Such FWF wetlands are densely planted and typically have water depths of less than 0.4 m. However, dense planting can limit the diffusion of oxygen into the water."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "These systems work particularly well for low-strength effluents or effluents that have undergone some form of pretreatment and play an invaluable role in tertiary treatment and the polishing of effluents. The horizontal reed flow system uses a long reed bed, where the liquid slowly flows horizontally through. The length of the reed bed is about 100 meters. The downside of horizontal reed beds is that they use up lots of land space and they do take quite a long time to produce clean water."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "A vertical flow (downflow) reed bed is a sealed, gravel-filled trench with reeds growing in it. The reeds in a downflow system are planted in a bed 60 cm deep. In vertical flow reed beds, the wastewater is applied to the top of the reed bed, flows down through a rhizome zone with sludge as a substrate, then through a root zone with sand as a substrate, followed by a layer of gravel for drainage, and is collected in an underdrainage system of large stones. The effluent flows onto the surface of the bed and percolates slowly through the different layers into an outlet pipe, which leads to a horizontal flow bed where it is cleaned by millions of bacteria, algae, fungi, and microorganisms that digest the waste, including sewage. There is no standing water so there should be no unpleasant smells."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Vertical flow reed bed systems are much more effective than horizontal flow reed beds not only in reducing biochemical oxygen demand (BOD) and suspended solids (SS) levels but also in reducing ammonia levels and eliminating smells. Usually considerably smaller than horizontal flow beds, they are capable of handling much stronger effluents containing heavily polluted matter. They also have a longer service life. A vertical reed bed system works more efficiently than a horizontal reed bed system, but it requires more management, and its reed beds are often operated for a few days, then rested, so several beds and a distribution system are needed."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The natural way of water purification has many advantages over the conventional mechanism. The natural way requires less expenditure for installation, operation and maintenance. Besides, it looks attractive and can improve the surrounding landscape. Reed beds are natural habitats found in floodplains, waterlogged depressions and estuaries. Natural reed-bed systems provide a biologically proven, environmentally friendly, and visually unobtrusive way of treating wastewater and have the extra virtue of frequently being better than mechanical wastewater treatment systems."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Over the medium to long term, reed-bed systems are, in most cases, more cost-effective to install than other wastewater-treatment systems. They are naturally environmentally sound, protecting groundwater, dams, creeks, rivers and estuaries."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–30",
+    "g31": "Questions 31–33",
+    "g34": "Questions 34–38",
+    "g39": "Questions 39–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 30,
+      "text": "Questions 28–30\nDo the following statements agree with the information given in the reading passage?\nIn boxes 28–30 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n28 __________ The reed bed system is a conventional method for water treatment in urban\nareas.\n29 __________ Processes in the reed roots help break down pollutants.\n30 __________ Escherichia coli is the most difficult bacterium to eliminate."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 33,
+      "text": "Questions 31–33\nComplete the diagram below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n\n Vertical-flow reed bed (60 cm)\n\n Rhizome zone                                         31 __________ as a substrate\n\n Root zone                                            32 __________\n\n Drainage layer                                       33 __________ for drainage"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 38,
+      "text": "Questions 34–38\nUse the information in the passage to match the advantages and disadvantages of the two\nsystems: horizontal-flow and downflow systems (listed A–H) below.\nWrite the appropriate letters A–H in boxes 34–38 on your answer sheet.\n A                        it requires several beds\n\n B                        it is easier to construct\n\n C                        it is built on a gradient\n\n D                        it doesn’t need much attention\n\n E                        it produces less sludge\n\n F                        it does not operate continuously\n\n G                        it needs a deeper bed\n\n H                        it can deal with more heavily polluted water\n\n\nThe advantage of the downflow system is 34 __________; however, its\ndisadvantages are 35 __________ and 36 __________. The two advantages of the\nhorizontal system are 37 __________ and 38 __________. In comparison with the\ndownflow system, the horizontal system is less effective."
+    },
+    {
+      "id": "g39",
+      "start": 39,
+      "end": 40,
+      "text": "Questions 39–40\nChoose TWO correct letters, A–E.\nWrite your answers in boxes 39–40 on your answer sheet.\n\nWhat are the TWO advantages of the natural water purification system\nmentioned in the passage?\n\nA. It uses micro-organisms.\nB. It has low operating costs.\nC. It helps prevent flooding.\nD. It is visually attractive.\nE. It can function in all climates."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ The reed bed system is a conventional method for water treatment in urban areas.",
+      "translation": "蘆葦床系統是城市地區污水處理的傳統方法。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Processes in the reed roots help break down pollutants.",
+      "translation": "蘆葦根部中的過程有助分解污染物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Escherichia coli is the most difficult bacterium to eliminate.",
+      "translation": "大腸桿菌是最難消除的細菌。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "下流式系統的優點是 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "不過，它的缺點是 ______ 和 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "不過，它的缺點是 ______ 和 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "水平流系統的兩個優點是 ______ 和 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "水平流系統的兩個優點是 ______ 和 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "文章提到天然淨水系統有哪兩個優點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "文章提到天然淨水系統有哪兩個優點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-162/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-162/page-5.jpg"
+  ]
+}

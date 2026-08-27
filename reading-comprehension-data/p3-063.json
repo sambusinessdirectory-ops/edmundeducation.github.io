@@ -1,0 +1,170 @@
+{
+  "id": "p3-063",
+  "catalogueId": "p3-063",
+  "title": "HAZARD MANAGEMENT",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 63,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-063-hazard-management",
+  "source": {
+    "filename": "Practice 63 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "f6f6304fd8467d7522607d4ace675022adbe3a6864d1819aa6812123e102336a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Hazard Management In many industrial or manufacturing workplaces, managing hazards is essential for a successful health and safety system. Hazard management is an ongoing process that goes through five different stages, with each step becoming a stage in the hazard-management plan. The first step is to identify potential hazards, remembering that hazards are defined as anything that could potentially cause harm not only to people, but also to the organisation. To illustrate, an industrial accident can cause an injury to employees, but can also result in lost production, broken machinery and wasted resources for the company. In many cases, local and national government legislation has strict regulations concerning hazard identification, and in many industries, especially those perceived to be dangerous, companies that overlook hazard identification can incur severe penalties."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Having identified the potential hazards, the next step is to assess the hazard; that is, to consider how significant each one is. To a degree, this is a subjective aspect of risk management, as what one person sees as a significant issue may be seen by another as an acceptable feature of a workplace. To allow for a degree of uniformity, in this stage, hazards are rated using risk assessment tables. These tables work by assigning a point value to three areas. The first is the exposure score, which assesses how often people are exposed to the hazard. If employees face the risk continuously, the score will be high; if the exposure is very rare, the points given will be substantially lower. The score is then multiplied by the likelihood of this hazard causing an injury, ranging from ‘Definite’ (it happens all the time) down to ‘Unlikely’ (it hasn’t happened yet). This is referred to as the chances rating. The product of the first two scores is then multiplied by the effects score, which considers how serious any accident might be. This can be rated from 1 (requiring minor first aid) right up to multiple deaths (classed as disaster). Together, the three scores give the final risk-assessment result. Generally, a result in excess of 100 points requires caution, but a result of 200 or more is classed as high priority. Certain jobs consistently receive scores of over 200 (fire-fighting, for example) and in many cases additional payments, informally known as ‘danger money’, are made."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The third step in the hazard-management plan is to control hazards that have been identified. There are three stages to hazard control. The first aim is to eliminate the hazard – that is, to get rid of it altogether. This can be achieved by removing debris or unnecessary obstacles from the workplace. Often, however, this is not possible, so the next step is to isolate the hazard, to store it out of the way. For example, a cleaning company cannot completely eliminate hazardous chemicals, but they can keep these chemicals locked away until required. Isolating hazards is an ongoing process which requires companies to have very clear and strictly enforced guidelines regarding safe storage of potentially hazardous products."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "If the hazards cannot be isolated, then the aim must be to minimise the risk. This is achieved through staff training in safe handling techniques and best practices, as well as the provision of personal protective equipment (PPE). PPE commonly includes items such as gloves, overalls and steel-reinforced footwear."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The fourth and fifth steps in a hazard-management plan are connected – to record and review the hazard. The recording is done in the hazard register, and this register is continually reviewed to ensure best practices are maintained. If a severe accident does occur in the workplace, it is the hazard register that investigators often consult first to see if the issue had previously been reported and, if so, what the company had done about the hazard. It is worth noting that since the more rigorous application of hazard-management systems, workplace accidents have declined significantly in many industries previously identified as ‘high risk’."
+    }
+  ],
+  "instructions": {
+    "g30": "Questions 30–31",
+    "g32": "Questions 32–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g30",
+      "start": 30,
+      "end": 31,
+      "text": "Questions 30–31\nAnswer the questions below using NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 30 and 31 on your answer sheet.\nWhat are the five stages of managing hazards collectively known as?\n30 _________________\nDamaged machinery and wasted resources are two examples of hazards to what entity?\n31 _________________"
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 37,
+      "text": "Questions 32–37\nComplete the summary using NO MORE THAN TWO WORDS from Reading Passage 3 for each answer.\nWrite your answers in boxes 32–37 on your answer sheet.\nTo calculate a risk assessment mathematically, 32 _________________ scores\nmust be considered.\nThe exposure score considers the amount of time employees spend working near\nthe hazard.\nThe 33 _________________ then measures the probability of an accident, ranging\nfrom ‘Unlikely’ to 34 _________________.\nThe scores are then 35 _________________ together; the resulting value is then\nmultiplied by the degree of seriousness of an accident. The highest ‘effect’ score\nis given when more than one person is killed (this is rated as a 36\n_________________).\nWhen calculated, a result of 200 or more is considered 37 _________________."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nComplete the flowchart below.\nChoose NO MORE THAN TWO WORDS from Reading Passage 3 for each answer.\nStages of Hazard Control\n Stage                      Action\n\n 1                          38 _________________ the hazard, if possible.\n\n 2                          Isolate the hazard—for example, 39 _________________ it out of the way.\n\n                            40 _________________ the risk by wearing protective clothing and following safety\n 3\n                            training."
+    }
+  ],
+  "questions": [
+    {
+      "number": 30,
+      "group": "g30",
+      "type": "text",
+      "prompt": "_________________ Damaged machinery and wasted resources are two examples of hazards to what entity?",
+      "translation": "管理 hazards 的五個階段合起來稱為甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g30",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "damaged machinery 和 wasted resources 是對哪一個 entity 造成 harm 的例子？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "要用數學方式計算 risk assessment，需要考慮多少個 scores？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "第 33 空那一項會量度事故發生的 probability，範圍由 “Unlikely” 到第 34 空。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "這個 rating 的範圍由 “Unlikely” 到甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "這些分數之後會被怎樣處理？得到的數值再乘以事故嚴重程度。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "當多於一人死亡時，會給最高 effect score；這被評為甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "計算後，200 或以上的結果會被視為甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "Stage 1：如果可以，先怎樣處理 hazard？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "Stage 2：isolate the hazard，例如把它怎樣放到不礙事的位置？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "text",
+      "prompt": "_________________ the risk by wearing protective clothing and following safety",
+      "translation": "Stage 3：透過 wearing protective clothing 和 safety training 來怎樣處理 risk？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-063/page-4.jpg"
+  ]
+}

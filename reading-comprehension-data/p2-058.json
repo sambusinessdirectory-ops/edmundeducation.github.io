@@ -1,0 +1,215 @@
+{
+  "id": "p2-058",
+  "catalogueId": "p2-058",
+  "title": "Ancient People in Sahara",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 58,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-058-ancient-people-in-sahara",
+  "source": {
+    "filename": "Practice 58 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "0df471b10912bf5a945c18acc195fb4d2cecb1a87420a7807c373b115ef1c88d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Ancient People in the Sahara On 13 October 2000, a small team of palaeontologists led by Paul Sereno of the University of Chicago clambered out of three battered Land Rovers, filled their water bottles and scattered on foot across the toffee-coloured sands of the Ténéré Desert in northern Niger. The Ténéré, one of the most barren areas on Earth, is located on the southern flank of the Sahara. According to the turbaned Tuareg nomads, who have ruled this infertile domain for a few centuries, this California-sized ocean of sand and rock is a ‘desert within a desert’. In the Ténéré Desert, massive dunes might stretch a hundred miles, as far as the eye can see. In addition, 120-degree heat waves and inexorable winds can drain almost all the water from a human body in less than a day."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Mike Hettwer, the team’s photographer, was attracted by the scenery and walked to several dunes to take photos of the landscape. On reaching the first dune, he was shocked to find that the dunes were strewn with many bones. He photographed these bones with his digital camera and hurried back to the Land Rover. ‘I found some bones,’ Hettwer told the other team members. ‘To my great surprise, they don’t belong to dinosaurs. They are human bones.’"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "One day in the spring of 2005, Paul Sereno contacted Elena Garcea, a prestigious archaeologist at the University of Cassino in Italy, asking her to return to the site with him. After spending 30 years researching the history of the Nile in Sudan and of the mountains in the Libyan Desert, Garcea had become well acquainted with the lives of ancient people in the Sahara. She had not known Sereno before this expedition. His claim to have found so many skeletons in the Ténéré seemed implausible to some archaeologists, one of whom dismissed him as a ‘moonlighting palaeontologist’. However, Garcea was fascinated by the prospect and accepted his invitation."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Over the following three weeks, Sereno and Garcea (along with five excavators, five Tuareg guides, and five soldiers from Niger’s army) made a detailed map of the site, which was dubbed Gobero after the Tuareg name for the area, where the ancient Kiffian and Tenerian nomads used to roam. After that, they excavated eight tombs and found twenty artefacts belonging to the two cultures. From these artefacts, it was evident that Kiffian fishermen caught not only small fish but also some huge ones: the remains of Nile perch, a fierce fish weighing about 300 pounds, along with those of crocodiles and hippos, were left in the vicinity of dunes."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Sereno returned with selected bones and artefacts and began planning the next trip to the Sahara. Meanwhile, he carefully extracted teeth from the skeletons and sent them to a research laboratory for radiocarbon dating. The results indicated that the smaller ‘sleeping’ burials dated to about 6,000 years ago, well within the Tenerian period, whereas the larger, tightly bound burials were approximately 9,000 years old, from the height of the Kiffian period. The scientists could now distinguish one culture from the other."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In the autumn of 2006, the team returned to Gobero with additional crew members and six specialists to exhume another 80 burials. At the site, Chris Stojanowski, a bioarchaeologist at Arizona State University, pieced together further clues. Judging from the bones, the Kiffians appeared peaceful and hardworking. ‘The absence of injuries to their heads or forearms suggests that they did not fight much,’ he said. ‘They were also strongly built.’ Pointing to a long, narrow femur, he explained that its muscle attachment indicated huge leg muscles, a strenuous lifestyle and a protein-rich diet—all consistent with people who lived by fishing. In contrast, the same ridge was barely visible on the femur of a Tenerian male. ‘This individual had a less strenuous lifestyle, which you might expect of a herder.’"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Stojanowski concluded that the Tenerians were herders, consistent with the prevailing view of life in the Sahara 6,000 years ago, when the drying climate favoured herding over hunting. But Sereno raised a puzzling question: if the Tenerians were herders, where were their herds? Among thousands of animal bones excavated at Gobero, the team found only three cow skeletons and no remains of goats or sheep. Elena Garcea noted that herding people do not commonly kill their cattle, particularly in a cemetery, and that even modern pastoralists such as Niger’s Wodaabe are reluctant to slaughter animals from their herds. Sereno suggested that the Tenerians at Gobero may have been a transitional group that still relied heavily on hunting and fishing and had not fully adopted herding."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–18",
+    "g19": "Questions 19–21",
+    "g22": "Questions 22–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 18,
+      "text": "Questions 15–18\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 15–18 on your answer sheet, write\n\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n\n\n15 _________________ The rock engravings found in the Green Sahara are similar to those in\nother places.\n16 _________________ The Ténéré Desert was once a fertile area of the Sahara.\n17 _________________ Hettwer found human remains in the desert by chance.\n18 _________________ Sereno and Garcea had worked together on archaeological projects\nbefore studying the ancient people of the Sahara."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 21,
+      "text": "Questions 19–21\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\nWrite your answers in boxes 19–21 on your answer sheet.\nWhat did Sereno and Garcea produce during the initial weeks before excavation began?\n19 _________________\nWhat did Sereno send to the research centre?\n20 _________________\nHow old were the larger, tightly bound burials estimated to be?\n21 _________________"
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 27,
+      "text": "Questions 22–27\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 22–27 on your answer sheet.\n Culture                 Findings\n\n                         They appeared peaceful and industrious because the researcher found no\n                         22 _________________ on their heads or forearms. Their lifestyle was 23\n Kiffian\n                         _________________. From their huge leg muscles, researchers inferred\n                         that their diet contained plenty of 24 _________________.\n\n                         Stojanowski believed that the Tenerians preferred herding over 25\n                         _________________. However, only isolated bones from animals such as\n Tenerian\n                         26 _________________ were found. Sereno suggested that the Tenerians\n                         at Gobero formed a 27 _________________ group at that time."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ The rock engravings found in the Green Sahara are similar to those in other places.",
+      "translation": "在 Green Sahara 發現的岩石雕刻，和其他地方的岩石雕刻相似。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ The Ténéré Desert was once a fertile area of the Sahara.",
+      "translation": "Ténéré Desert 曾經是 Sahara 中一個較肥沃、能支持生命活動的地區。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ Hettwer found human remains in the desert by chance.",
+      "translation": "Hettwer 是偶然在沙漠中發現人類遺骸的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "_________________ Sereno and Garcea had worked together on archaeological projects before studying the ancient people of the Sahara.",
+      "translation": "Sereno 和 Garcea 在研究 Sahara 古人之前，曾經一起做過考古項目。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________ What did Sereno send to the research centre?",
+      "translation": "在開始挖掘之前的最初幾星期，Sereno 和 Garcea 製作了甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________ How old were the larger, tightly bound burials estimated to be?",
+      "translation": "Sereno 把甚麼送到研究中心？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "那些較大、緊緊綁束的 burial 被估計有多古老？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "text",
+      "prompt": "_________________ on their heads or forearms. Their lifestyle was 23 Kiffian _________________. From their huge leg muscles, researchers inferred that their diet contained plenty of 24 _________________. Stojanowski believed that the Tenerians preferred herding over 25 _________________. However, only isolated bones from animals such as Tenerian",
+      "translation": "他們看起來和平又勤勞，因為研究者在他們的頭部或前臂沒有發現 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "他們的生活方式是 ______ 的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "從他們巨大的腿部肌肉，研究者推斷他們的飲食含有大量 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "Stojanowski 認為 Tenerians 較偏向 herding，多於 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "text",
+      "prompt": "_________________ were found. Sereno suggested that the Tenerians at Gobero formed a 27 _________________ group at that time.",
+      "translation": "然而，只找到少量來自某些動物的骨骼，例如 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "Sereno 認為當時 Gobero 的 Tenerians 形成一個 ______ 群體。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-058/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-058/page-5.jpg"
+  ]
+}

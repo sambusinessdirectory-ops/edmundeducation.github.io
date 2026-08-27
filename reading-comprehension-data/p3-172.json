@@ -1,0 +1,251 @@
+{
+  "id": "p3-172",
+  "catalogueId": "p3-172",
+  "title": "Why Do We Touch Strangers So Much? A History Of The Handshake Offers Clues",
+  "sourceHeading": "Why Do We Touch Strangers So Much? A History of the Handshake Offers Clues For thousands of years, the handshake has been used for different purposes.",
+  "passage": 3,
+  "practice": 172,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-172-why-do-we-touch-strangers-so-much-a-history-of-the-handshake-offers-clues",
+  "source": {
+    "filename": "Practice 172 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "eced74ae3a280f565af000dfaa6bd69841339a03b845661e47a9f252625e2dae"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "There is a lot that can be conveyed in a handshake, a kiss, or a hug. Throughout history, such a greeting was used to signal friendship, finalize a business transaction, or indicate religious devotion. Touching strangers, however, can also transmit other, less beneficial consequences, such as the spread of disease."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "As fears about COVID-19, or coronavirus mount, France has warned its citizens to pause their famous cheek kisses, and across the world, business deals are being sealed with an elbow bump. But with histories stretching back thousands of years, both greetings are likely too entrenched to be so easily halted."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "A popular theory on the handshake’s origin is that it began as a gesture of peace. Grasping hands proved one was not holding a weapon—and shaking them was a way to ensure a partner had nothing hiding up their sleeve. So far, there has not been any reliable evidence to prove this assumption. Throughout the ancient world, the handshake appears on vases, gravestones, and stone slabs in scenes of weddings, gods making deals, young warriors departing for war, and the newly dead’s arrival in the afterlife. In the literary canon, it stretches to the Iliad and the Odyssey."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The handshake’s catch-all utility, used in friendship, romance, and business alike, makes interpretation difficult. “The handshake continues to be a popular image today because we too see it as a complex and ambiguous motif,” writes art historian Glenys Davies in an analysis of its use in classical art."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "In America, it is likely that the handshake’s popularity was propelled by 18th-century Quakers. In their efforts to eschew hierarchy and social rank, they found the handshake a more democratic form of greeting than the then-common bow, curtsy, or hat doffing. “In their place, Quakers put the practice of the handshake, extended to everyone regardless of station, as we still do,” writes historian Michael Zuckerman."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "There may be a scientific explanation for its lasting power. In a 2015 study, researchers in Israel filmed hundreds of strangers shaking hands and found nearly a quarter of participants sniffed their hands afterwards. They theorized that a handshake might be unconsciously used to detect chemical signals, and possibly as a means of communication—just as other animals do by smelling each other."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The kiss-as-greeting has a similarly rich history. It was incorporated into early Christianity and used in religious ceremonies. “In his Epistle to the Romans, St. Paul instructed followers to ‘salute one another with a holy kiss,’” writes Andy Scott in the book One Kiss or Two: In Search of the Perfect Greeting. In the Middle Ages, a kiss was used as a sign of fidelity and to seal agreements like property transfers."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Today, a swift kiss on the cheek, known in French as “la bise”, is a standard greeting in much of the world. The word may have originated with the Romans, who had a different term for each type of kiss and called the polite version “basium.” In Paris, two kisses are common. In Provence, expect three, and four is the norm in the Loire Valley. The cheek kiss is also common in countries like Egypt, where three kisses are customary, as well as in Latin America and the Philippines. It is thought that during the plague in the 14th century, la bise may have stopped and was not revived until 400 years later, after the French Revolution. In 2009, la bise was temporarily paused as swine flu became a concern. At the end of February, the French Health Minister advised against it as the coronavirus cases increased. “The reduction in social contacts of a physical nature is advised,” he said. “That includes the practice of the bise.”"
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "In her book Don’t Look, Don’t Touch, behavioural scientist Val Curtis of the London School of Hygiene and Tropical Medicine says that one possible reason for the kiss and handshake as a greeting is to signify that the other person is trusted enough to share germs with. Because of this, the practice can go in and out of style depending on public health concerns."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "In a 1929 study, a nurse named Leila Given wrote an article in the American Journal of Nursing lamenting the loss of the last generation’s “finger-tipping and the high handshake” customs in favour of a handshake. She warned that hands “are agents of bacterial transfer” and cited early studies showing that a handshake could easily spread germs. In conclusion, she recommended that Americans adopt what was then the Chinese custom of shaking one’s own hands together when greeting a friend. “At least our bacteria would then stay at home,” she wrote."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–38",
+    "g39": "Questions 39–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27–33\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if\nthe statement contradicts the information, or choose NOT GIVEN if there is no information on\nthis.\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n27 __________ Shaking hands is an indicator of hospitality.\n28 __________ Evidence showed that the handshake started as a sign of peace.\n29 __________ When shaking hands, people often rolled up their sleeves.\n30 __________ The use of a handshake in different situations can be unpredictable.\n31 __________ In America, handshakes became prevalent because they represented equality\nand freedom.\n32 __________ Research conducted in 2015 showed that exactly 25% of participants smelled\ntheir hands after a handshake.\n33 __________ People often smell their hands to spot poisonous chemicals."
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 38,
+      "text": "Questions 34–38\nComplete the summary below.\nChoose no more than THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\nWrite your answers in boxes 34–38 on your answer sheet.\nThe history of cheek kissing\nIn the past, Christians used cheek kisses in 34 __________. In the Middle Ages, the\nkiss-as-greeting was used to show 35 __________ or to seal agreements. At present, it is\nnormal for people in much of the world to greet each other this way. The Romans used different\nterms for different types of kisses. It is common for people in Paris to exchange 36 __________.\nThe standard is three in Provence and four in the Loire Valley. A kiss on the cheek is also\npopular in Egypt, Latin America, and the Philippines. People believe that in the 14th century, the\ncheek kiss may have been suspended, and it remained so for 37 __________. In 2009,\nbecause of 38 __________, cheek kisses were also suspended temporarily."
+    },
+    {
+      "id": "g39",
+      "start": 39,
+      "end": 40,
+      "text": "Questions 39–40\nWrite answers to Questions 39–40 below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 39–40 on your answer sheet.\n\n\n39 What did the French Health Minister advise people to avoid to prevent the spread of\ncoronavirus?\n40 What can be transferred through a handshake?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Shaking hands is an indicator of hospitality.",
+      "translation": "握手是一種表示友善接待或好意的訊號。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Evidence showed that the handshake started as a sign of peace.",
+      "translation": "證據顯示握手最初是和平的標誌。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ When shaking hands, people often rolled up their sleeves.",
+      "translation": "握手時，人們經常捲起袖子。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ The use of a handshake in different situations can be unpredictable.",
+      "translation": "握手在不同場合中的用途或意思可能難以預測。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ In America, handshakes became prevalent because they represented equality and freedom.",
+      "translation": "在美國，握手變得流行，因為它代表平等和自由。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Research conducted in 2015 showed that exactly 25% of participants smelled their hands after a handshake.",
+      "translation": "2015 年研究顯示，正正 25% 的參與者在握手後聞自己的手。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ People often smell their hands to spot poisonous chemicals.",
+      "translation": "人們經常嗅自己的手，是為了發現有毒化學物質。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "過去，基督徒在 ______ 中使用 cheek kisses。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "在中世紀，作為問候的親吻被用來表示 ______，或確認協議。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "在巴黎，人們通常交換 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "人們相信在 14 世紀，臉頰親吻可能曾被暫停，並維持這狀態 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "2009 年，由於 ______，臉頰親吻也曾暫時停止。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g39",
+      "type": "text",
+      "prompt": "What did the French Health Minister advise people to avoid to prevent the spread of coronavirus?",
+      "translation": "法國衛生部長建議人們避免甚麼，以防止冠狀病毒傳播？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g39",
+      "type": "text",
+      "prompt": "What can be transferred through a handshake?",
+      "translation": "甚麼可以透過握手被轉移／傳播？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-172/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-172/page-5.jpg"
+  ]
+}

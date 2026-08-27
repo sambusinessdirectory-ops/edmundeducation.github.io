@@ -1,0 +1,280 @@
+{
+  "id": "p1-151",
+  "catalogueId": "p1-151",
+  "title": "The Secrets of Persuasion",
+  "sourceHeading": "The Secrets of Persuasion",
+  "passage": 1,
+  "practice": 151,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-151-the-secrets-of-persuasion",
+  "source": {
+    "filename": "Practice 151 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "dbb86a59fbfb137d49141a3cd1324ee8c0377e6e595c167bc342f21eadd459d6"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Your mother may have told you the secret to getting what you ask for was to say please. The reality is rather more surprising. Adam Dudding talks to a psychologist who has made a life’s work from the science of persuasion. Some scientists peer at things through high-powered microscopes. Others goad rats through mazes or mix bubbling fluids in glass beakers. Robert Cialdini, for his part, does curious things with towels and believes that by doing so he is discovering important insights into how society works."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Cialdini’s towel experiments (more of them later) are part of his research into how we persuade others to say yes. He wants to know why some people have a knack for bending the will of others, be it a telephone cold-caller talking to you about timeshares, or a parent whose children are compliant even without threats of extreme violence. While he’s anxious not to be seen as the man who’s written the bible for snake-oil salesmen, for decades the Arizona State University social psychology professor has been systematising the principles and methods of persuasion and writing bestsellers about them. Some people seem to be born with the skills; Cialdini’s claim is that by applying a little science, even those of us who aren’t should be able to get our own way more often. “All my life I’ve been an easy mark for the blandishments of salespeople and fundraisers and I’d always wondered why they could get me to buy things I didn’t want and give to causes I hadn’t heard of,” says Cialdini on the phone from London, where he is promoting his latest book."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "He found that laboratory experiments on the psychology of persuasion were telling only part of the story, so he began to research influence in the real world, enrolling in sales-training programmes: “I learnt how to sell automobiles from a car lot, how to sell insurance from an office, how to sell encyclopaedias door to door.” He concluded there were six general “principles of influence” and has since put them to the test under slightly more scientific conditions. Most recently, that has meant messing about with towels. Many hotels leave a little card in each bathroom asking guests to reuse towels and thus conserve water and electricity and reduce pollution. Cialdini and his colleagues wanted to test the relative effectiveness of different words on those cards. Would guests be motivated to co-operate simply because it would help save the planet, or were other factors more compelling? To test this, the researchers changed the card’s message from an environmental one to the simple (and truthful) statement that the majority of guests at the hotel had reused their towel at least once. Guests given this message were 26 per cent more likely to reuse their towels than those given the old message. In Cialdini’s book “Yes! 50 Secrets from the Science of Persuasion”, co-written with another social scientist and a business consultant, he explains that guests were responding to the persuasive force of “social proof”, the idea that our decisions are strongly influenced by what we believe other people like us are doing."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "So much for towels. Cialdini has also learnt a lot from confectionery. Yes! cites the work of New Jersey behavioural scientist David Strohmetz, who wanted to see how restaurant patrons would respond to a ridiculously small favour from their food server, in the form of after-dinner chocolate for each diner. The secret, it seems, is in how you give the chocolate. When the chocolates arrived in a heap with the bill, tips went up a miserly 3 per cent compared to when no chocolate was given. But when the chocolates were dropped individually in front of each diner, tips went up 14 per cent. The scientific breakthrough, though, came when the waitress gave each diner one chocolate, headed away from the table then doubled back to give them one more each as if such generosity had only just occurred to her. Tips went up 23 per cent. This is “reciprocity” in action: we want to return favours done to us, often without bothering to calculate the relative value of what is being received and given."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Geeling Ng, operations manager at Auckland’s Soul Bar, says she’s never heard of Kiwi waiting staff using such a cynical trick, not least because New Zealand tipping culture is so different from that of the US: “If you did that in New Zealand, as diners were leaving they’d say, ‘Can we have some more?’” But she certainly understands the general principle of reciprocity. The way to a diner’s heart is “to give them something they’re not expecting in the way of service”. It might be something as small as leaving a mint on their plate, or it might be remembering that last time they were in they wanted their water with no ice and no lemon. “In America, it would translate into an instant tip. In New Zealand, it translates into a huge smile and thanks to you.” And, no doubt, into return visits. The Six Principles of Persuasion"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Reciprocity: People want to give back to those who have given to them. The trick here is to get in first. That’s why charities put a crummy pen inside a mailout, and why smiling women in supermarkets hand out dollops of free food. Scarcity: People want more of things that are less available. Advertisers ruthlessly exploit scarcity (“limit four per customer”, “sale must end soon”), and Cialdini suggests parents do too: “Kids want things that are less available, so say ‘this is an unusual opportunity; you can only have this for a certain time’.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Authority: We trust people who know what they’re talking about. So inform people honestly of your credentials before you set out to influence them. “You’d be surprised how many people fail to do that,” says Cialdini. “They feel it’s impolite to talk about their expertise.” In one study, therapists whose patients wouldn’t do their exercises were advised to display their qualification certificates prominently. They did and experienced an immediate leap in patient compliance."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Commitment/consistency: We want to act in a way that is consistent with the commitments we have already made. Exploit this to get a higher sign-up rate when soliciting charitable donations. First, ask workmates if they think they will sponsor you on your egg-and-spoon marathon. Later, return with the sponsorship form to those who said yes and remind them of their earlier commitment."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Liking: We say yes more often to people we like. Obvious enough, but reasons for “liking” can be weird. In one study, people were sent survey forms and asked to return them to a named researcher. When the researcher gave a fake name resembling that of the subject (e.g., Cynthia Johnson is sent a survey by “Cindy Johansen”), surveys were twice as likely to be completed. We favour people who resemble us, even if the resemblance is as minor as the sound of their name."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Social proof: We decide what to do by looking around to see what others just like us are doing. Useful for parents, says Cialdini. “Find groups of children who are behaving in a way that you would like your child to, because the child looks to the side, rather than at you.” More perniciously, social proof is the force underpinning the competitive materialism of ‘keeping up with the Joneses’."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nChoose the correct letter, A, B, C or D.\n1 The main purpose of Cialdini’s research and writing is to\n A explain why researchers should conduct studies in real-world settings\n B discover why some people become successful salespeople\n C help people sell products\n D investigate whether persuasion has a scientific basis\n\n\n2 Which statement correctly describes Cialdini’s research methodology?\n A He reviewed data in a large number of recent books.\n B He conducted all his experiments in a laboratory.\n C He worked with and learnt from a range of salespeople.\n D He made many telephone calls to collect information.\n\n\n3 Which statement about the towel experiment is correct?\n A Different hotel guests responded in entirely different ways.\n B Most guests responded only to the environmental message.\n C More guests complied with a message about other guests’ behaviour than with one about\n   protecting the environment.\n D More guests followed the hotel’s original message.\n\n\n4 What did the restaurant chocolate experiment show?\n A The way chocolates were presented affected diners’ tips.\n B Regular customers tipped more than occasional customers.\n C People tipped only when they were offered chocolate.\n D Providing chocolates with the bill produced the largest increase in tips."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 5–8 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n5 Robert Cialdini experienced the principles of influence first-hand in real-life sales settings.\n6 The principles of persuasion differ from country to country.\n7 In New Zealand, people tend to tip waiting staff after being served chocolate.\n8 Older New Zealanders are particularly responsive to extra restaurant service because of\nreciprocity."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nMatch each description with the correct principle, A–E.\nWrite the correct letter, A–E, in boxes 9–13 on your answer sheet.\nNB You may use any letter more than once.\n A                                Reciprocity or scarcity\n\n B                                Authority\n\n C                                Previous commitment\n\n D                                Liking\n\n E                                Social proof\n9 ____________ Experts display their qualifications to clients.\n10 ____________ Parents point out that other children behave in the desired way.\n11 ____________ Advertisers ruthlessly exploit limited availability.\n12 ____________ A survey uses a name similar to that of the respondent.\n13 ____________ Colleagues are asked in advance whether they will offer support."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The main purpose of Cialdini’s research and writing is to",
+      "translation": "Cialdini 的研究和寫作主要目的是什麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Which statement correctly describes Cialdini’s research methodology?",
+      "translation": "哪一句正確描述 Cialdini 的研究方法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Which statement about the towel experiment is correct?",
+      "translation": "關於毛巾實驗，哪一句正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "What did the restaurant chocolate experiment show?",
+      "translation": "餐廳朱古力實驗顯示了什麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Robert Cialdini experienced the principles of influence first-hand in real-life sales settings.",
+      "translation": "Robert Cialdini 在真實銷售環境中親身體驗了影響力原理。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "The principles of persuasion differ from country to country.",
+      "translation": "說服原理會因國家不同而不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "In New Zealand, people tend to tip waiting staff after being served chocolate.",
+      "translation": "在新西蘭，人們被送上朱古力後，通常會給侍應小費。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Older New Zealanders are particularly responsive to extra restaurant service because of reciprocity.",
+      "translation": "年紀較大的新西蘭人因為互惠原理，對額外餐廳服務特別有反應。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ Experts display their qualifications to clients.",
+      "translation": "專家向客戶展示自己的資格。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ Parents point out that other children behave in the desired way.",
+      "translation": "父母指出其他孩子正在以理想方式行事。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ Advertisers ruthlessly exploit limited availability.",
+      "translation": "廣告商無情地利用供應有限這一點。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ A survey uses a name similar to that of the respondent.",
+      "translation": "一份問卷使用一個與受訪者相似的名字。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ Colleagues are asked in advance whether they will offer support.",
+      "translation": "同事先被問到是否會提供支持。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-151/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-151/page-6.jpg"
+  ]
+}

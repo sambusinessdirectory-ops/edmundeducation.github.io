@@ -1,0 +1,218 @@
+{
+  "id": "p3-152",
+  "catalogueId": "p3-152",
+  "title": "Roller coaster",
+  "sourceHeading": "Roller Coaster",
+  "passage": 3,
+  "practice": 152,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-152-roller-coaster",
+  "source": {
+    "filename": "Practice 152 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "dab34caf1eaf4e8490455335c360b3aa7fe9cfa00dffc966b04b68b5b5adcf32"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "600 years ago, roller coaster pioneers never would have imagined the advancements that have been made to create the roller coasters of today. The tallest and fastest roller coaster in the world is the Kingda Ka, a coaster in New Jersey that launches its passengers from zero to 128 miles per hour in 3.5 seconds (most sports cars take over four seconds to get to just 60 miles per hour). It then heaves its riders skyward at a 90-degree angle (straight up) until it reaches a height of 456 feet, over one and a half football fields above the ground, before dropping another 418 feet (Coaster Grotto “Kingda Ka”). With that said, roller coasters are about more than just speed and height; they are about the creativity of the designers who build them, each coaster having its own unique way of producing intense thrills with less risk than the average car ride. Roller coasters have evolved drastically over the years, from their primitive beginnings as Russian ice slides, to the metal monsters of today. Their combination of creativity and structural elements makes them one of the purest forms of architecture."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "At first glance, a roller coaster is something like a passenger train. It consists of a series of connected cars that move on tracks. But unlike a passenger train, a roller coaster has no engine or power source of its own. For most of the ride, the train is moved by gravity and momentum. To build up this momentum, you need to get the train to the top of the first hill or give it a powerful launch. The traditional lifting mechanism is a long length of chain running up the hill under the track. The chain is fastened in a loop, which is wound around a gear at the top of the hill and another one at the bottom of the hill. The gear at the bottom of the hill is turned by a simple motor. This turns the chain loop so that it continually moves up the hill like a long conveyor belt. The coaster cars grip onto the chain with several chain dogs, sturdy hinged hooks. When the train rolls to the bottom of the hill, the dogs catch onto the chain links. Once the chain dog is hooked, the chain simply pulls the train to the top of the hill. At the summit, the chain dog is released and the train starts its descent down the hill."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Roller coasters have a long, fascinating history. The direct ancestors of roller coasters were monumental ice slides – long, steep wooden slides covered in ice, some as high as 70 feet – that were popular in Russia in the 16th and 17th centuries. Riders shot down the slope in sleds made out of wood or blocks of ice, crash-landing in a sand pile. Coaster historians diverge on the exact evolution of these ice slides into actual rolling carts. The most widespread account is that a few entrepreneurial Frenchmen imported the ice slide idea to France. The warmer climate of France tended to melt the ice, so the French started building waxed slides instead, eventually adding wheels to the sleds. In 1817, Les Montagnes Russes à Belleville (Russian Mountains of Belleville) became the first roller coaster where the train was attached to the track (in this case, the train axle fit into a carved groove). The French continued to expand on this idea, coming up with more complex track layouts, with multiple cars and all sorts of twists and turns."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "In comparison to the world’s first roller coaster, there is perhaps an even greater debate over what was America’s first true coaster. Many will say that it is Pennsylvania’s own Mauch Chunk-Summit Hill and Switch Back Railroad. The Mauch Chunk-Summit Hill and Switch Back Railroad was originally America’s second railroad and was considered by many to be the greatest coaster of all time. Located in the Lehigh Valley, it was originally used to transport coal from the top of Mount Pisgah to the bottom of Mount Jefferson, until Josiah White, a mining entrepreneur, had the idea of turning it into a part-time thrill ride. Because of its immediate popularity, it soon became strictly a passenger train. A steam engine would haul passengers to the top of the mountain, before letting them coast back down, with speeds rumored to reach 100 miles per hour! It was called a switchback railroad because a switchback track at the top allowed the riders to coast back down. This type of track featured a dead end where the steam engine would detach its cars, allowing riders to coast down backwards. The railway went through a couple of minor track changes and name changes over the years, but managed to last from 1829 to 1937, over 100 years."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The coaster craze in America was just starting to build. The creation of the Switch Back Railway, by LaMarcus Thompson, gave roller coasters national attention. Originally built at New York’s Coney Island in 1884, Switchback Railways began popping up all over the country. The popularity of these rides may puzzle the modern-day thrill seeker, because of the mild ride they offered in comparison to the modern-day roller coaster. Guests would pay a nickel to wait in line for up to five hours just to go down a pair of side-by-side tracks with gradual hills that vehicles coasted down at a top speed of six miles per hour. Regardless, Switchback Railways were very popular, and sparked many people, including Thompson, to design coasters that were bigger and better."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The 1910s and 1920s were probably the best decades in roller-coaster history. The new wave of technology, such as the “up-stop wheels”, an arrangement that kept a coaster’s wheels attached to its tracks by resisting high gravitational forces, opened up a realm of possibilities that had never been seen before. In 1919, North America alone had about 1,500 roller coasters, a number that was rising rapidly. Then, the Great Depression dealt a crushing blow to amusement parks all over America. As bad as it was, amusement parks had an optimistic outlook for the future in the late 1930s. But in 1942, roller coasters could already feel the effects of World War II, as they were forced into a shadow of neglect. Most—nearly all—of America’s roller coasters were shut down. To this very day, the number of roller coasters in America is just a tiny fraction of the number of roller coasters in the 1920s."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\n\n Traditional roller-coaster lifting mechanism\n\n Long line for climbing uphill                                                   27 __________\n\n Shape to which the line is firmly connected                                     28 __________\n\n On top and underneath the hill                                                  29 __________\n\n Provides power                                                                  30 __________"
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 36,
+      "text": "Questions 31–36\nComplete the following summary of the paragraphs of Reading Passage, using NO MORE THAN TWO\nWORDS from the Reading Passage for each answer.\nWrite your answers in boxes 31–36 on your answer sheet.\nThe earliest roller coasters may have originated in Russia as wooden slides covered with\n31 __________. The idea was introduced into France, where the slides were modified into\n32 __________ because the warmer climate would 33 __________ the ice. Later, 34\n__________ were added to the sleds.\nIn America, the first roller coaster was said to appear in Pennsylvania. It was originally a\nrailroad designed to transport 35 __________ between two mountains. Josiah White\nconverted it into a thrill ride. It was also called a switchback railroad because a 36\n__________ at the top allowed riders to coast downhill backwards."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 37–40 on your answer sheet, write\n TRUE                             if the statement agrees with the information\n\n FALSE                            if the statement contradicts the information\n\n NOT GIVEN                        if there is no information on this\n37 __________ The most exciting roller coaster in the world is in New Jersey.\n38 __________ The French added further innovations to the Russian ice slide, including both cars and\ntracks.\n39 __________ Switchback Railways began to gain popularity after the first was built in New York.\n40 __________ The Great Depression affected amusement parks but did not diminish the importance of\nUS roller coasters worldwide."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "用來上坡的長線狀物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "那條線被固定成的形狀。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "位於山頂和山底的東西。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "提供動力的東西。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "__________. The idea was introduced into France, where the slides were modified into",
+      "translation": "最早的過山車可能起源於俄羅斯，是覆蓋著 ______ 的木滑梯。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "__________ because the warmer climate would 33 __________ the ice. Later, 34 __________ were added to the sleds. In America, the first roller coaster was said to appear in Pennsylvania. It was originally a railroad designed to transport 35 __________ between two mountains. Josiah White converted it into a thrill ride. It was also called a switchback railroad because a 36 __________ at the top allowed riders to coast downhill backwards.",
+      "translation": "這個概念被引入法國後，滑梯被改成 ______，因為較溫暖的氣候會令冰 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "因為較溫暖的氣候會 ______ 冰。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "後來，______ 被加到 sleds 上。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "它原本是一條鐵路，用來在兩座山之間運送 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "它又稱為 switchback railroad，因為山頂有一條 ______，讓乘客倒後滑下坡。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ The most exciting roller coaster in the world is in New Jersey.",
+      "translation": "世界上最刺激的過山車位於 New Jersey。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ The French added further innovations to the Russian ice slide, including both cars and tracks.",
+      "translation": "法國人在俄羅斯冰滑梯的基礎上加入進一步創新，包括車廂和軌道。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ Switchback Railways began to gain popularity after the first was built in New York.",
+      "translation": "第一個 Switchback Railway 在 New York 建成後，Switchback Railways 開始流行起來。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ The Great Depression affected amusement parks but did not diminish the importance of US roller coasters worldwide.",
+      "translation": "Great Depression 影響了 amusement parks，但沒有削弱美國過山車在世界上的重要性。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-152/page-5.jpg"
+  ]
+}

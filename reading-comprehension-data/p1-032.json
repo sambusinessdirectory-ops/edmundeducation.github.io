@@ -1,0 +1,287 @@
+{
+  "id": "p1-032",
+  "catalogueId": "p1-032",
+  "title": "New Zealand Seaweed",
+  "sourceHeading": "New Zealand Seaweed Call us not weeds; we are flowers of the sea.",
+  "passage": 1,
+  "practice": 32,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-032-new-zealand-seaweed",
+  "source": {
+    "filename": "Practice 32 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "721c38d28bd6469be6b9b1b006162b9a99649e1fde0f5ff0ad221de2b34af8e5"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Section A Seaweed is a particularly nutritious food, which absorbs and concentrates traces of a wide variety of minerals necessary to the body’s health. Many elements may occur in seaweed – aluminium, barium, calcium, chlorine, copper, iodine and iron, to name but a few – traces normally produced by erosion and carried to the seaweed beds by river and sea currents. Seaweeds are also rich in vitamins: indeed, Eskimos obtain a high proportion of their bodily requirements of vitamin C from the seaweeds they eat."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The nutritive value of seaweed has long been recognised. For instance, there is a remarkably low incidence of goitre amongst the Japanese, and for that matter, amongst our own Maori people, who have always eaten seaweeds, and this may well be attributed to the high iodine content of this food. Research into old Maori eating customs shows that jellies were made using seaweeds, fresh fruit and nuts, fuchsia and tutu berries, cape gooseberries, and many other fruits which either grew here naturally or were sown from seeds brought by settlers and explorers."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Section B New Zealand lays claim to approximately 700 species of seaweed, some of which have no representation outside this country. Of several species grown worldwide, New Zealand also has a particularly large share. For example, it is estimated that New Zealand has some 30 species of Gigartina, a close relative of carrageen or Irish moss. These are often referred to as the New Zealand carrageens. The gel-forming substance agar, which can be extracted from these species, has many commercial applications, including seameal, from which seameal custard is made, and in cough mixture, confectionery, cosmetics, the canning, paint and leather industries, the manufacture of duplicating pads, and in toothpaste. In fact, during World War II, New Zealand Gigartina were sent to Australia to be used in toothpaste."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Section C Yet although New Zealand has so much of the commercially profitable red seaweeds, several of which are a source of agar (Pterocladia, Gelidium, Chondrus, Gigartina), before 1940 relatively little use was made of them. New Zealand used to import the Northern Hemisphere Irish moss (Chondrus crispus) from England and ready-made agar from Japan. Although distribution of the Gigartina is confined to certain areas according to species, it is only on the east coast of the North Island that its occurrence is rare. And even then, the east coast, and the area around Hokianga, have a considerable supply of the two species of Pterocladia from which agar is also available. Happily, New Zealand-made agar is now obtainable in health food shops."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Section D Seaweeds are divided into three classes determined by colour – red, brown and green – and each tends to live in a specific location. However, except for the unmistakable sea lettuce (Ulva), few are totally one colour; and especially when dry, some species can change colour quite significantly – a brown one may turn quite black, or a red one appear black, brown, pink or purple."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Identification is nevertheless facilitated by the fact that the factors which determine where a seaweed will grow are quite precise, and they therefore tend to occur in very well-defined zones. Although there are exceptions, the green seaweeds are mainly shallow-water algae; the browns belong to medium depths, and the reds are plants of the deeper water. Flat rock surfaces near mid-level tides are the most usual habitat of sea bombs, Venus’ necklace and most brown seaweeds. This is also the location of the purple laver or Maori karengo, which looks rather like a reddish-purple lettuce. Deep-water rocks on open coasts, exposed only at very low tide, are usually the site of bull kelp, strap weeds and similar tough specimens. Those species able to resist long periods of exposure to the sun and air are usually found on the upper shore, while those less able to stand such exposure occur nearer to or below the low-water mark. Radiation from the sun, the temperature level, and the length of time immersed all play a part in the zoning of seaweeds."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Section E Propagation of seaweeds occurs by spores, or by fertilisation of egg cells. None have roots in the usual sense; few have leaves, and none have flowers, fruits or seeds. The plants absorb their nourishment through their fronds when they are surrounded by water: the base or “holdfast” of seaweeds is purely an attaching organ, not an absorbing one."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Section F Some of the large seaweeds maintain buoyancy with air-filled floats; others, such as bull kelp, have large cells filled with air. Some, which spend a good part of their time exposed to the air, often reduce dehydration either by having swollen stems that contain water, or they may (like Venus’ necklace) have swollen nodules, or they may have a distinctive shape like a sea bomb. Others, like the sea cactus, are filled with slimy fluid or have a coating of mucilage on the surface. In some of the larger kelps, this coating not only keeps the plant moist but also protects it from the violent action of waves."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "SECTION 1 · QUESTIONS 1–13"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nReading Passage 1 has six sections A–F.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number i–x in Boxes 1–6 on your answer sheet.\n\n      No.       List of Headings\n\n       i        Locations and features of different seaweeds\n\n       ii       Various products of seaweeds\n\n      iii       Use of seaweeds in Japan\n\n      iv        Seaweed species around the globe\n\n       v        Nutritional value of seaweeds\n\n      vi        Why it doesn’t dry or sink\n\n      vii       Where to find red seaweeds\n\n      viii      Underuse of native species\n\n      ix        Mystery solved\n\n       x        How seaweeds reproduce and grow\n\n\n\n1 ____________ Section A\n2 ____________ Section B\n3 ____________ Section C\n4 ____________ Section D\n5 ____________ Section E\n6 ____________ Section F"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 10,
+      "text": "Questions 7–10\nComplete the flow chart below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in Boxes 7–10 on your answer sheet.\n           Stage                                            Flow-chart content\n           Source                               Gigartina (also called 7 _________________)\n      Processed into                                      8 _________________\n        Application                            9 _________________ → canned or bottled food\n        Application                                Medicine (e.g. 10 _________________)\n    Other applications                                 Toothpaste and other products"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nClassify each description as relating to\n\n     Letter         Seaweed class\n\n       A            Green seaweeds\n\n       B            Brown seaweeds\n\n       C            Red seaweeds\n\n\n\n\nWrite the correct letter A, B, or C in Boxes 11–13 on your answer sheet.\n11 ____________ Can resist exposure to sunlight at the high-water mark\n12 ____________ Grow in deep, open seawater\n13 ____________ Share their habitat with karengo"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Section A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Section B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Section C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Section D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Section E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Section F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "來源：Gigartina，也稱為 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "被加工成 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "用途：______ → 罐裝或瓶裝食物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "用途：藥物，例如 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "____________ Can resist exposure to sunlight at the high-water mark",
+      "translation": "能抵受在高水位附近暴露於陽光下的情況。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "____________ Grow in deep, open seawater",
+      "translation": "生長在較深、開放的海水中。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "____________ Share their habitat with karengo",
+      "translation": "和 karengo 共享同一生境。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-032/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-032/page-6.jpg"
+  ]
+}

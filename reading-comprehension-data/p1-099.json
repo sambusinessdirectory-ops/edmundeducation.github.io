@@ -1,0 +1,250 @@
+{
+  "id": "p1-099",
+  "catalogueId": "p1-099",
+  "title": "From SunnyD and Pizza to Bread and Water",
+  "sourceHeading": "From SunnyD and Pizza to Bread and Water",
+  "passage": 1,
+  "practice": 99,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-099-from-sunnyd-and-pizza-to-bread-and-water",
+  "source": {
+    "filename": "Practice 99 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "4d318970216ed254023ddd53e7594ccde7642035dabd630c245f3e0396b7cd83"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Another bad week in a bad month for the food and drink industry. Sunny Delight, formerly the UK’s third-largest-selling drink, is to be taken off the shelves by Asda after plummeting sales, the supermarket said at the weekend. Yesterday, it was the turn of Northern Foods, makers of biscuits, pies, pizzas and ready meals, to admit that the trend towards healthier food was causing it problems. The company’s chief executive, Pat O’Driscoll, issued its second profit warning in two months as its biscuit sales slumped by 12% year on year in January and February, and pastry sales by 11%. Shares fell 17% to a five-year low of £1.08."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The National Consumer Council’s food expert, Sue Dibb, said the news showed companies would have to change to survive. “It looks as though we’ve reached the tipping point on food. Our research showed that two-thirds of consumers have made changes to what they eat in the last year. Supermarkets are getting competitive about health. Companies are having to wake up or lose their customers.” Food analyst Clive Black, of Shore Capital, said that a “sea change” in eating habits was behind the industry’s problems. “Anyone who hasn’t realised over recent years that fruit and veg are good and doughnuts and cream cakes are bad must have been living on the moon,” he said. “But over the past year or so, the penny really seems to have dropped.”"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Like other supermarket groups, Asda said it had seen a marked change in buying patterns in the past year. “Customers want more natural and authentic products,” Jon Bett, the trading manager for chilled drinks, said. “The market for carbonated drinks has declined 7 to 8% in the last year, while the juice market has doubled and water sales have grown phenomenally.” The trend had been driven by media coverage and the “Jamie Oliver effect”, he added."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The decline of Sunny Delight is matched by the fall of other soft drinks—two weeks ago, Britvic admitted a “severe decline” in sales of its carbonated drinks, which include Tango, 7UP and Pepsi—although the fate of the SunnyD brand has attracted particular schadenfreude. Sunny Delight burst on to the market in 1998 and reached the league table of top brands in 1999 by selling itself as a healthy drink, although its original recipe contained only 5% juice, along with plenty of sugar and water, as well as vegetable oil, thickeners, added vitamins, flavourings, and colourings."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The health watchdog, the Food Commission, accused then-owners Procter and Gamble of a con for selling it from fridge cabinets. In 1999, paediatrician Duncan Cameron reported a new and alarming condition in the medical journals: Sunny Delight Syndrome. A girl of five had turned bright yellow after drinking five litres a day. She was overdosing on beta-carotene, the additive used to give the drink its orange colour, and the pigment was being deposited in her skin. The marketing dream turned to a nightmare: by coincidence, television adverts at the time showed two white snowmen raiding the fridge for SunnyD and turning bright orange. Its collapse was as dramatic as its rise to fame, and Gerber Foods Soft Drinks, which bought distribution rights to the brand in 2005, has been unable to reverse its fortunes despite efforts to reduce the sugar content, change the recipe, and introduce new variations, including a bright green apple and kiwi flavour."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Kath Dalmeny, the Food Commission’s senior policy adviser, greeted the news of SunnyD’s delisting with satisfaction. “There is no appetite any more for products that claim to be healthy but have no real nutritional value. Sunny Delight didn’t live up to its claims and parents have seen through that kind of marketing.” Gerber Foods Soft Drinks said SunnyD was suffering from an inherited and unjustified image problem. The marketing director, Rob Spencer, told The Grocer magazine: “In Asda, two-thirds of our sales come from no-added-sugar versions, which are up by 1% year on year.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "But market research figures from the company AC Nielsen show that the pressure on Sunny Delight and Northern Foods is part of a wider trend. Sales of pizzas and frozen foods fell by 9.2% last year. Most products seen as unhealthy declined—confectionery by 3.1%, bagged snacks by 1.2%, and carbonated soft drinks by 1.7%—while those seen as healthy boomed. Drinking yoghurts were up 51%, juices 15.6%, and water 9.4%. Ethical investment analysts EIRIS recently listed leading food manufacturers according to the percentage of turnover derived from products which fall into the unhealthy category. It said Unilever, Kraft Foods, PepsiCo, Coca-Cola, McDonald’s, and Cadbury Schweppes had the highest risk of suffering a backlash."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has 7 paragraphs (A–G).\nWhich paragraph contains each of the following pieces of information?\n1 ___________ Most consumers have changed their eating habits over the last year.\n2 ___________ The suggestion that parents are more aware of how advertisers try to sell\nproducts\n3 ___________ The ingredients of a once-popular drink\n4 ___________ A description of an advertisement"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN TWO WORDS from the text for each\ngap.\nShops are becoming more 5 _________________ about stocking healthy food and drink\nproducts.\nSunny Delight was originally marketed as a 6 _________________\nGerber Foods Soft Drinks has the 7 _________________ for Sunny Delight.\nThe most dramatic change in consumption has been for 8 _________________"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n9 _________________ Most of the foods produced by Northern Foods are healthy.\n10 _________________ Duncan Cameron is a doctor.\n11 _________________ Rob Spencer works for Asda.\n12 _________________ Sales of Coca-Cola are declining in Britain.\n13 _________________ Fast food companies are looking to developing countries to increase\ntheir profits."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Most consumers have changed their eating habits over the last year.",
+      "translation": "大部分消費者在過去一年改變了飲食習慣。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ The suggestion that parents are more aware of how advertisers try to sell products",
+      "translation": "有人暗示父母更能看穿廣告商如何推銷產品。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ The ingredients of a once-popular drink",
+      "translation": "一款曾經流行的飲品的成分。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ A description of an advertisement",
+      "translation": "一個廣告的描述。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "商店在供應健康食品和飲品方面變得更 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "Sunny Delight 最初被包裝成一種 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "Gerber Foods Soft Drinks 擁有 Sunny Delight 的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "消費變化最劇烈的是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Most of the foods produced by Northern Foods are healthy.",
+      "translation": "Northern Foods 生產的大部分食品都是健康的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Duncan Cameron is a doctor.",
+      "translation": "Duncan Cameron 是醫生。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Rob Spencer works for Asda.",
+      "translation": "Rob Spencer 為 Asda 工作。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Sales of Coca-Cola are declining in Britain.",
+      "translation": "Coca-Cola 在英國的銷售正在下降。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Fast food companies are looking to developing countries to increase their profits.",
+      "translation": "快餐公司正尋求透過發展中國家增加利潤。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-099/page-4.jpg"
+  ]
+}

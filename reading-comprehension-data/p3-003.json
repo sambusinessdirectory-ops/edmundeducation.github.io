@@ -1,0 +1,304 @@
+{
+  "id": "p3-003",
+  "catalogueId": "p3-003",
+  "title": "What’s in Blood?",
+  "sourceHeading": "What’s in Blood?",
+  "passage": 3,
+  "practice": 3,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-003-whats-in-blood",
+  "source": {
+    "filename": "Practice 3 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "dbf4d301d7633d3a4f93f93198ec7632a01efdf9106fdb90e698488665b25c73"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Blood is the most specialised fluid within living animals, playing an absolutely critical role. It symbolises life (‘new blood’), health (‘get your blood running’), personality (‘good or bad blood’), and family (‘your bloodline’). This red fluid itself is something which most people would rather not see, yet it contains such a complex soup of proteins, sugars, ions, hormones, gases, and basic cellular components that it is certainly worth considering in some detail."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "By volume, half of blood is the liquid part, called plasma. The rest comprises specialised components, the main one being red blood cells (technically known as erythrocytes). These transport oxygen molecules throughout the body, and also give blood its colour (from the hemoglobin protein within, which turns red when combined with oxygen). Red blood cells, as with all cells in the human body, have a limited operating life. They are produced within the marrow of bones, principally the larger ones, and live for about four months before they fall inactive, to be then reabsorbed by the spleen and liver, with waste products absorbed into the urine."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "This contrasts with the other main cells of human blood: the white blood cells, technically known as leukocytes. Similarly produced in the bone marrow, they are active only for three or four days, yet they are essential in defending the body against infections. White blood cells come in many different types, each designed to deal with a different sort of invader bacteria, virus, fungus, or parasite. When one of these enters the body, the white blood cells quickly determine its nature, then, after mustering sufficient numbers of a specific type (the period in which you are sick), they launch themselves into the fight, enveloping each individual invasive cell, and breaking it down (leading to recovery)."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "That leaves the last main component of blood: platelets. Their technical name is thrombocytes, and they are much smaller than red and white blood cells. Also circulating freely, they are responsible for clotting the blood, and this is necessary to heal both external and internal injuries. Again, they are produced in the bone marrow, and have the interesting ability to change shape. There are several diseases related to the breakdown in the regulation of their numbers. If too low, excessive bleeding can occur, yet if too high, internal clotting may result, causing potentially catastrophic blockages in parts of the body and medical ailments we know as strokes, heart attacks, and embolisms."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Blood’s complexity presents particular difficulties in the advent of emergency transfusions. These are avoided whenever possible in order to lower the risk of reactions due to blood incompatibility. Unexpected antigens can trigger antibodies to attack blood components, with potentially lethal results. Thus, if transfusions are to take place, a thorough knowledge and classification of blood is essential, yet with 30 recognised blood-group systems, containing hundreds of antigens, this presents quite a challenge. The ABO system is the most important. On top of this is the Rhesus factor, which is not as simple as positive or negative (as most people think), but comprises scores of antigens. These can, however, be clustered together into groups which cause similar responses, creating some order."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Of course, the simplest system to avoid adverse transfusion reactions is for patients to receive their own blood – for example, in a series of blood donations in anticipation of an operation scheduled some months in advance. The second best system is to undertake cross-matching, which involves simply mixing samples of the patients’ blood with the donors’, then checking microscopically for clumping – a key sign of incompatibility. Both of these systems are obviously impractical in an emergency situation, which is why meticulous testing, documentation, and labeling of blood are necessary."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In a true emergency, a blood bank is needed, with an array of various types of blood on hand. Hence, blood donations must be a regular occurrence among a significant segment of the population. In the developed world, unpaid volunteers provide most of the blood for the community, whereas in less developed nations, families or friends are mostly involved. In the era of HIV and other insidious blood-borne diseases, potential donors are carefully screened and tested, and a period of about two months is recommended before successive whole blood donations."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Given the vital role which blood plays, it is strange to think that for almost 2000 years bloodletting was a widespread medical practice. It was based on the belief that blood carried ‘humours’, whose imbalances resulted in medical illnesses. Bleeding a patient was supposed to remove an undesirable excess of one of these. Furthermore, the fact that blood circulated around the body was unknown. It was instead assumed to be quickly created, and equally quickly exhausted of its value, after which it could stagnant unhealthily in the bodily extremities. Although the logic was there, it goes without saying that very few patients responded positively to such treatment."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27-33 Reading Passage Three has eight paragraphs, A-H.\n\nChoose the correct heading for Paragraphs B-H from the list of headings.\n\nWrite the correct number, i-x, for each answer.\n\n          List of headings\n\n\n i        Not as big, but needing just enough\n\n\n ii       Some attitudes to blood\n\n\n iii      Good, but not so quick\n\n\n iv       Two ideas see a wrong conclusion\n\n\n v        Complicated identification\n\n\n vi       An interesting treatment\n\n\n vii      A shorter life, but just as important\n\n\n viii     The Principal part that adds some colour\n\n\n ix       Bone marrow and blood\n\n\n x        Maintaining supplies\n\nExample                Answer\n\nParagraph A            ii\n\nParagraph B            27 __________\n\n\nParagraph C            28 __________\n\n\nParagraph D            29 __________\n\n\nParagraph E            30 __________\n\n\nParagraph F            31__________\n\n\nParagraph G            32__________\n\n\nParagraph H            33__________"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 37,
+      "text": "Questions 34-37 Complete the table.\n\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n\nBlood Component              Associated Fact\n\n\nred cells                    upon dying, dealt with by 34 __________\n\n\nwhite cells                  require 35__________ before attacking invaders\n\n\nplatelets                    Their numbers need careful 36 __________\n\n\n37 __________                Many varieties exist."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38-40\n\n\nWrite\n\n    TRUE          if the statement agrees with the information\n\n\n    FALSE         if the statement contradicts the information\n\n\n    NOT GIVEN     If there is no information on this\n\n\n\n38 __________ Blood cross-matching can be done without special equipment.\n\n39 __________ In poorer countries, family members often donate blood.\n\n40 __________ Bleeding people was a painful process."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "red cells 死去或失去活性後，由甚麼處理？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "white cells 在攻擊 invaders 前，需要先有甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "platelets 的數量需要小心甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "text",
+      "prompt": "__________ Many varieties exist.",
+      "translation": "哪一種和 blood 相關的成分有很多 varieties？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________ Blood cross-matching can be done without special equipment.",
+      "translation": "Blood cross-matching 可以不用 special equipment 完成。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________ In poorer countries, family members often donate blood.",
+      "translation": "在較貧窮國家，family members 經常捐血。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________ Bleeding people was a painful process.",
+      "translation": "替人放血是一個 painful process。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-003/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-003/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-003/page-7.jpg",
+    "/assets/reading-comprehension/questions/p3-003/page-8.jpg"
+  ]
+}

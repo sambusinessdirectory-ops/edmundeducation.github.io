@@ -1,0 +1,242 @@
+{
+  "id": "p1-101",
+  "catalogueId": "p1-101",
+  "title": "These Invasive Species are Ruining the Retail Ecosystem",
+  "sourceHeading": "These Invasive Species Are Ruining the Retail Ecosystem",
+  "passage": 1,
+  "practice": 101,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-101-these-invasive-species-are-ruining-the-retail-ecosystem",
+  "source": {
+    "filename": "Practice 101 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "520971e3718a34d028f44662249d5696ebcdf28bc6ff4b495ed9fc419fc0c33f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Invasive species often triumph as a result of good intentions gone wrong. Take Japanese knotweed (Fallopia japonica), introduced to Britain by enthusiastic Victorian gardeners who thought it an ornamental delight that doubled as cattle feed. But from just a scrap of root no bigger than a pea it could grow through tarmac, pavements, and brick walls. A century later, its spread is considered such a threat that planting or dumping knotweed is a crime. Knotweed is so hated because it suffocates other plants, replacing them with an unproductive, leafy monotony. Then there is the Nile perch (Lates niloticus), branded one of the world’s worst invaders by conservationists. It is a freshwater fish that can grow to huge proportions. Again, with good intentions, it was introduced in 1954 to Lake Victoria, which straddles Tanzania, Kenya and Uganda. Since then, it has helped push over 200 well-established local fish species to extinction. Like the Nile perch, the cane toad (Bufo marinus) eats almost anything it gets its mouth around. Introduced for pest control, it turned out to be noisy, fast-spreading, and a greater pest itself."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "As it is in nature, so it is in the economy. Big superstores and chain retailers were allowed to spread by planners, town councils, and governments in awe of big business. But then it started to go wrong. The chains became the economic equivalent of invasive species: hungry, indiscriminate, often antisocial and destructive. When no one was paying much attention, the superstores and cloned shops grew to dominate and suffocate the economic ecosystem. They passed through planning regulations as easily as knotweed pushes through tarmac, and devoured smaller independent retailers as indiscriminately as the Nile perch devoured the competition in Lake Victoria. They were often introduced to provide a specific service but outgrew their habitats until their cash-till song could be heard on every street corner, forecourt, roundabout, and out-of-town shopping centre. Rather than coexisting in balance—or even in a boom-and-bust cycle—with similar local types of shop, they began to displace them permanently."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Natural scientists use a whole new term to describe the current epoch of comprehensive global human interference in ecosystems. Our time, they say, should be called the “Homogocene” to describe the way that distinctiveness and difference are being eroded. A combination of the creep of invasive species and habitats destroyed by development is driving a mass extinction. The World Conservation Union warns that such invasions are leading to the irretrievable loss of native biodiversity. Typical characteristics of an invasive species include the absence of predators, hardiness, and a generalist diet. Whatever the reason for their arrival and proliferation, invasive species tend to cause a disruption of the ecosystem that is catastrophic for native species."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The big, centralised logistical operations of the supermarkets are likewise driving the homogenisation of business, shopping, eating, farming, food, the landscape, the environment, and our daily lives. In the process, Britain is being sucked into a vortex of US-style, chain-store-led clone retailing, both in towns and in soulless “big box” out-of-town shopping parks—what they call in the US, with its associated suburban sprawl, the “dead zone”. They are spreading in the way “invasive species” spread in nature, lacking checks and balances, killing off diversity and “native” (in other words, local) species. Tesco is not the only guilty party (think of McDonald’s, Starbucks, and Gap), but it is possibly the largest driving force. With around 2,000 stores in Britain, almost one third of the grocery market, and rapid international growth, city analysts believe the brand has the land and resources in place already to double its UK floor space. Can anything stop it?"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Bear in mind those characteristics of an invasive species: the absence of predators (real commercial competition or effective regulators to hold them back); hardiness (the legions of corporate lawyers, financial leverage, and endless commercial cost-cutting); and a generalist diet (supermarkets will sell virtually anything, and chain stores operate according to the lowest common denominator). If you want diversity in your world rather than one kind of plant in your garden, one kind of fish in your lake and only one type of venomous, croaking toad under your shed, then you have to manage for that outcome. When we garden, we hold back aggressive, opportunistic plants in order to keep space open for a celebration of variety and colour."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Like it or not (and it is something about which most policymakers and economists are in deep denial), weakly regulated markets give free rein to economic invasive species and hence tend towards monopoly. This is the great modern economic irony. Advocates of free markets argue against checks and balances to counter the power of big business, but in doing so ultimately destroy the possibility of markets that could meaningfully be called free, or, rather, “open”. They resist anti-monopoly regulation in the name of providing consumer choice, and in the process they ultimately destroy it. In some important ways, we are returning to an earlier phase of corporatism. Henry Ford told customers they could have any colour of car, as long as it was black. The scale and seriousness of Tesco’s ambition mean that, unless we recognise what is happening and have regulators up to the job, we will one day be able to shop anywhere we like, as long as it is Tesco."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has 6 paragraphs (A–F).\nWhich paragraph contains each of the following pieces of information?\n1 ___________ The suggestion that the government should legislate to control invasive species\nof a corporate nature\n2 ___________ Examples of the problems with the spread of specific invasive species in nature\n3 ___________ Characteristics that distinguish invasive species in nature from other species\n4 ___________ Examples of companies that can be considered invasive species"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\nJapanese knotweed was used for decoration and as 5 _________________\n“Homogocene” is the word used by natural scientists to describe the 6 _________________ we\nare living in.\n7 _________________, plenty of money, and cost-cutting increase the strength of big\nsupermarkets.\nThe article suggests that 8 _________________ allow economic invasive species to do what\nthey want and eventually lead to monopolies."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write:\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n9 _________________ The Nile perch was introduced to Lake Victoria as a source of food for\nlocal people.\n10 _________________ Planning regulations have been ineffective against big supermarkets.\n11 _________________ Supermarkets in Britain sell a limited range of products.\n\n12 _________________ Chain stores only sell low-quality goods.\n13 _________________ The writer is against the domination of big supermarkets."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ The suggestion that the government should legislate to control invasive species of a corporate nature",
+      "translation": "文章哪一段提出：政府應透過立法或監管，控制企業性質的 invasive species？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Examples of the problems with the spread of specific invasive species in nature",
+      "translation": "文章哪一段提供自然界中具體 invasive species 擴散後造成問題的例子？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Characteristics that distinguish invasive species in nature from other species",
+      "translation": "文章哪一段說明自然界 invasive species 和其他物種不同的特徵？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Examples of companies that can be considered invasive species",
+      "translation": "文章哪一段列出可被視為 invasive species 的公司例子？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "Japanese knotweed 曾被用作裝飾，亦被用作 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "“Homogocene” 是自然科學家用來描述我們身處的 ______ 的詞語。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "_________________, plenty of money, and cost-cutting increase the strength of big supermarkets. The article suggests that 8 _________________ allow economic invasive species to do what they want and eventually lead to monopolies.",
+      "translation": "______、充足資金和削減成本，增強了大型超市的力量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "文章指出，______ 會讓經濟入侵物種自由行動，並最終導向壟斷。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ The Nile perch was introduced to Lake Victoria as a source of food for local people.",
+      "translation": "Nile perch 被引入 Lake Victoria，是為了作為當地人的食物來源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Planning regulations have been ineffective against big supermarkets.",
+      "translation": "planning regulations 對大型超市沒有有效阻止作用。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Supermarkets in Britain sell a limited range of products.",
+      "translation": "英國超市售賣的產品範圍有限。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Chain stores only sell low-quality goods.",
+      "translation": "連鎖店只售賣低質素商品。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ The writer is against the domination of big supermarkets.",
+      "translation": "作者反對大型超市的支配地位。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-101/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-101/page-5.jpg"
+  ]
+}

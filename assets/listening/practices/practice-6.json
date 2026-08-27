@@ -1,0 +1,3944 @@
+{
+  "schemaVersion": 1,
+  "practice": 6,
+  "title": "IELTS Listening Practice 6",
+  "source": {
+    "file": "IELTS Listening - Practice - 6.pdf",
+    "sha256": "ffb464b8740a34d6a39f6b8fb8f740cb5307c89e3f8286e0b1f1431ebfc21ace",
+    "pageCount": 71,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Guitar Group\nItem Details\nCoordinator Gary 1 __________\nLevel 2 __________\nPlace the 3 __________\nAddress 4 __________ Street\nRoom First floor, Room T347\nTime Thursday morning at 5 __________\nRecommended website “The Perfect 6 __________”",
+          "page": 4
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-6-page-5-1.webp",
+          "alt": "Practice 6, source question diagram/table, PDF page 5",
+          "text": "",
+          "page": 5
+        },
+        {
+          "type": "text",
+          "text": "Q7 __________\nQ8 __________\nQ9 __________\nQ10 __________",
+          "page": 5
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "Coordinator Gary 1 __________",
+          "translation": "",
+          "answer": "Mathieson",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "Level 2 __________",
+          "translation": "",
+          "answer": "beginners",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "Place the 3 __________",
+          "translation": "",
+          "answer": "college",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "Address 4 __________ Street",
+          "translation": "",
+          "answer": "New",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "Time Thursday morning at 5 __________",
+          "translation": "",
+          "answer": "11",
+          "alternatives": [
+            "eleven"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "Recommended website “The Perfect 6 __________”",
+          "translation": "",
+          "answer": "instrument",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "tuning guitars — using an app or by _____",
+          "translation": "",
+          "answer": "ear",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "strumming chords using our thumbs — keeping time while the teacher is _____",
+          "translation": "",
+          "answer": "clapping",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "playing songs — often listening to a _____ of a song",
+          "translation": "",
+          "answer": "recording",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "playing single notes and simple tunes — playing together, then _____",
+          "translation": "",
+          "answer": "alone",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        7,
+        8,
+        9
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–16\nChoose the correct letter, A, B or C.\nWorking as a Lifeboat Volunteer\n11. What made David leave London and move to Northsea?\nA. He was eager to develop a hobby.\nB. He wanted to work shorter hours.\nC. He found his job in website design unsatisfying.\n12. The Lifeboat Institution in Northsea was built with money provided\nby\nA. a local organisation.\nB. a local resident.\nC. the local council.\n13. In his health assessment, the doctor was concerned about the fact that\nDavid\nA. might be colour blind.\nB. was rather short-sighted.\nC. had undergone eye surgery.",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "14. After arriving at the lifeboat station, they aim to launch the boat\nwithin\nA. five minutes.\nB. six to eight minutes.\nC. eight and a half minutes.\n15. As a “helmsman”, David has the responsibility of deciding\nA. who will be the members of his crew.\nB. what equipment it will be necessary to take.\nC. if the lifeboat should be launched.\n16. As well as going out on the lifeboat, David\nA. gives talks on safety at sea.\nB. helps with fundraising.\nC. recruits new volunteers.",
+          "page": 8
+        },
+        {
+          "type": "text",
+          "text": "Questions 17 and 18\nChoose TWO letters, A–E.\nWhich TWO things does David say about the lifeboat volunteer training?\nA. The residential course developed his leadership skills.\nB. The training in use of ropes and knots was quite brief.\nC. The training exercises have built up his mental strength.\nD. The casualty care activities were particularly challenging for him.\nE. The wave tank activities provided practice in survival techniques.\nQuestions 19 and 20\nChoose TWO letters, A–E.\nWhich TWO things does David find most motivating about the work he does?\nA. working as part of a team\nB. experiences when working in winter\nC. being thanked by those he has helped\nD. the fact that it keeps him fit\nE. the chance to develop new equipment",
+          "page": 9
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "What made David leave London and move to Northsea?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "He was eager to develop a hobby.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "He wanted to work shorter hours.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "He found his job in website design unsatisfying.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "The Lifeboat Institution in Northsea was built with money provided by",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "a local organisation.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a local resident.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the local council.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "In his health assessment, the doctor was concerned about the fact that David",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "might be colour blind.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "was rather short-sighted.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "had undergone eye surgery.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "After arriving at the lifeboat station, they aim to launch the boat within",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "five minutes.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "six to eight minutes.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "eight and a half minutes.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "As a “helmsman”, David has the responsibility of deciding",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "who will be the members of his crew.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "what equipment it will be necessary to take.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "if the lifeboat should be launched.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "As well as going out on the lifeboat, David",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "gives talks on safety at sea.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "helps with fundraising.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "recruits new volunteers.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            17,
+            18
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO things does David say about the lifeboat volunteer training?",
+          "translation": "",
+          "answers": [
+            "C",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "The residential course developed his leadership skills.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The training in use of ropes and knots was quite brief.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The training exercises have built up his mental strength.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "The casualty care activities were particularly challenging for him.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The wave tank activities provided practice in survival techniques.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            19,
+            20
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO things does David find most motivating about the work he does?",
+          "translation": "",
+          "answers": [
+            "A",
+            "B"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "working as part of a team",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "experiences when working in winter",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "being thanked by those he has helped",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the fact that it keeps him fit",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the chance to develop new equipment",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        11,
+        12,
+        13
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21–24\nChoose the correct letter, A, B or C.\n21. At first, Don thought the topic of recycling footwear might be too\nA. limited in scope.\nB. hard to research.\nC. boring for listeners.\n22. When discussing trainers, Bella and Don disagree about\nA. how popular they are among young people.\nB. how suitable they are for school.\nC. how quickly they wear out.\n23. Bella says that she sometimes recycles shoes because\nA. they no longer fit.\nB. she no longer likes them.\nC. they are no longer in fashion.\n24. What did the article say that confused Don?\nA. Public consumption of footwear has risen.\nB. Less footwear is recycled now than in the past.\nC. People dispose of more footwear than they used to.",
+          "page": 11
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–28\nWhat reasons did the recycling manager give for rejecting footwear, according\nto the students?\nChoose FOUR answers from the box and write the correct letter, A–F, next to\nQuestions 25–28.\nReasons\nA. one shoe was missing\nB. the colour of one shoe had faded\nC. one shoe had a hole in it\nD. the shoes were brand new\nE. the shoes were too dirty\nF. the stitching on the shoes was broken\nFootwear\n25. the high-heeled shoes __________\n26. the ankle boots __________\n27. the baby shoes __________\n28. the trainers __________",
+          "page": 12
+        },
+        {
+          "type": "text",
+          "text": "Questions 29–30\nChoose the correct letter, A, B or C.\n29. Why did the project to make “new” shoes out of old shoes fail?\nA. People believed the “new” pairs of shoes were unhygienic.\nB. There were not enough good parts to use in the old shoes.\nC. The shoes in the “new” pairs were not completely alike.\n30. Bella and Don agree that they can present their topic\nA. from a new angle.\nB. with relevant images.\nC. in a straightforward way.",
+          "page": 13
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "At first, Don thought the topic of recycling footwear might be too",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "limited in scope.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hard to research.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "boring for listeners.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "When discussing trainers, Bella and Don disagree about",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "how popular they are among young people.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "how suitable they are for school.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "how quickly they wear out.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "Bella says that she sometimes recycles shoes because",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "they no longer fit.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "she no longer likes them.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "they are no longer in fashion.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "What did the article say that confused Don?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "Public consumption of footwear has risen.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Less footwear is recycled now than in the past.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People dispose of more footwear than they used to.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "the high-heeled shoes",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "one shoe was missing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the colour of one shoe had faded",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "one shoe had a hole in it",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the shoes were brand new",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the shoes were too dirty",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the stitching on the shoes was broken",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "the ankle boots",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "one shoe was missing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the colour of one shoe had faded",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "one shoe had a hole in it",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the shoes were brand new",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the shoes were too dirty",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the stitching on the shoes was broken",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "the baby shoes",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "one shoe was missing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the colour of one shoe had faded",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "one shoe had a hole in it",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the shoes were brand new",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the shoes were too dirty",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the stitching on the shoes was broken",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "the trainers",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "one shoe was missing",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the colour of one shoe had faded",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "one shoe had a hole in it",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the shoes were brand new",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the shoes were too dirty",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "the stitching on the shoes was broken",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "Why did the project to make “new” shoes out of old shoes fail?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "People believed the “new” pairs of shoes were unhygienic.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "There were not enough good parts to use in the old shoes.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The shoes in the “new” pairs were not completely alike.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Bella and Don agree that they can present their topic",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "from a new angle.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "with relevant images.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "in a straightforward way.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        15,
+        16
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nTardigrades\n● more than 1,000 species, 0.05–1.2 millimetres long\n● also known as water “bears”, due to how they 31 __________, and\n“moss piglets”\nPhysical appearance\n● a 32 __________ round body and four pairs of legs\n● claws or 33 __________ for gripping\n● absence of respiratory organs\n● body filled with a liquid that carries both 34 __________ and blood\n● mouth shaped like a 35 __________ with teeth called stylets\nHabitat\n● often found at the bottom of a lake or on plants\n● very resilient and can exist in very low or high 36 __________",
+          "page": 15
+        },
+        {
+          "type": "text",
+          "text": "Cryptobiosis\n● In dry conditions, they roll into a ball called a “tun”.\n● They stay alive with a much lower metabolism than usual.\n● A type of 37 __________ ensures their DNA is not damaged.\n● Research is underway to find out how many days they can stay alive in 38\n__________.\nFeeding\n● consume liquids, e.g. those found in moss or 39 __________\n● may eat other tardigrades\nConservation status\n● They are not considered to be 40 __________.",
+          "page": 16
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● also known as water “bears”, due to how they 31 __________, and",
+          "translation": "",
+          "answer": "move",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● a 32 __________ round body and four pairs of legs",
+          "translation": "",
+          "answer": "short",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● claws or 33 __________ for gripping",
+          "translation": "",
+          "answer": "discs",
+          "alternatives": [
+            "disks"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● body filled with a liquid that carries both 34 __________ and blood",
+          "translation": "",
+          "answer": "oxygen",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● mouth shaped like a 35 __________ with teeth called stylets",
+          "translation": "",
+          "answer": "tube",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● very resilient and can exist in very low or high 36 __________",
+          "translation": "",
+          "answer": "temperatures",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● A type of 37 __________ ensures their DNA is not damaged.",
+          "translation": "",
+          "answer": "protein",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "● Research is underway to find out how many days they can stay alive in 38 __________.",
+          "translation": "",
+          "answer": "space",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● consume liquids, e.g. those found in moss or 39 __________",
+          "translation": "",
+          "answer": "seaweed",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● They are not considered to be 40 __________.",
+          "translation": "",
+          "answer": "endangered",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "WOMAN: Hi, Colman, how are you?",
+        "zh": "女士：嗨，Colman，你好嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "COLMAN: Fine, thanks.",
+        "zh": "Colman：很好，謝謝。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "WOMAN: I wanted to talk to you because our friend Josh told me you joined a guitar group, and it sounds really interesting.",
+        "zh": "女士：我想跟你聊聊，因為我們的朋友 Josh 告訴我你加入了一個吉他小組，聽起來很有趣。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "I’d really like to learn myself.",
+        "zh": "我自己也很想學。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "COLMAN: Why don’t you come along?",
+        "zh": "Colman：你為什麼不一起來呢？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "I’m sure there’s room for one more person.",
+        "zh": "我相信再多一個人也沒問題。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "WOMAN: Really? So, who runs the sessions?",
+        "zh": "女士：真的嗎？那這些課是誰負責的？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "COLMAN: He’s called the coordinator. His name’s Gary Mathieson.",
+        "zh": "Colman：他被稱為協調員。他叫 Gary Mathieson。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "WOMAN: Let me write that down. Gary. How do you spell his surname?",
+        "zh": "女士：讓我記下來。Gary。他的姓怎麼拼？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "COLMAN: M-A-T-H-I-E-S-O-N.",
+        "zh": "Colman：M-A-T-H-I-E-S-O-N。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "WOMAN: Right, thanks.",
+        "zh": "女士：好的，謝謝。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "COLMAN: He’s actually retired, but he’s a really nice man, and he used to play in lots of bands.",
+        "zh": "Colman：他其實已經退休了，但人非常好，而且以前在很多樂團裡演奏過。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "WOMAN: Great. How long have you been going?",
+        "zh": "女士：太好了。你去了多久了？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "COLMAN: About a month now.",
+        "zh": "Colman：現在大約一個月了。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "WOMAN: Could you play anything before you started?",
+        "zh": "女士：你開始之前會彈什麼嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "COLMAN: I knew a few chords, but that was all.",
+        "zh": "Colman：我知道幾個和弦，但也就這樣而已。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "WOMAN: I’m sure everyone will be better than me.",
+        "zh": "女士：我肯定大家都會比我強。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "COLMAN: That’s what I thought too.",
+        "zh": "Colman：我一開始也是這麼想的。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "When I first spoke to Gary on the phone, he said it was a class for beginners, but I still worried everyone would be better than me.",
+        "zh": "我第一次和 Gary 通電話時，他說這是適合初學者的課，但我還是擔心大家都會比我厲害。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "But we’re all equally hopeless!",
+        "zh": "不過我們其實都一樣沒什麼基礎！",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "WOMAN: Oh, that’s reassuring. So where do you meet?",
+        "zh": "女士：哦，那讓人放心多了。那你們在哪裡上課？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "COLMAN: Well, when I joined the group, they were meeting at Gary’s house, but as the group got bigger, he decided to book a room at the college in town.",
+        "zh": "Colman：嗯，我剛加入時，他們是在 Gary 家聚會；但後來小組人數變多，他就決定在鎮上的學院訂一間教室。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "I prefer going there.",
+        "zh": "我比較喜歡去那裡。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "WOMAN: I know that place. I used to go there for tap dancing classes when I was at secondary school.",
+        "zh": "女士：我知道那個地方。我上中學時，以前常去那裡上踢踏舞課。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "But I haven’t been there since then and I can’t remember what road it’s on. Is it Lock Street?",
+        "zh": "但從那之後我就沒去過了，也記不清它在哪條路上。是在 Lock Street 嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "COLMAN: It’s at the bottom of New Street, near the city roundabout.",
+        "zh": "Colman：它在 New Street 的盡頭，靠近市區圓環。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "WOMAN: Yes, of course.",
+        "zh": "女士：對，當然。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "COLMAN: The guitar group is on the first floor, in Room T347.",
+        "zh": "Colman：吉他小組在一樓，T347 教室。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "WOMAN: Right. When do you meet? Is it at the weekend?",
+        "zh": "女士：好的。你們什麼時候上課？ 是在週末嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "COLMAN: We meet on Thursdays. It used to be at 10:30, which suited me really well, but now we meet at 11.",
+        "zh": "Colman：我們週四上課。以前是 10:30，對我來說很合適，但現在改成 11 點了。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "The class before us asked if they could have the room for an extra thirty minutes.",
+        "zh": "我們前面的班級問能不能多用那間教室 30 分鐘。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "WOMAN: Oh, I see. Well, I’d love to come, but I don’t have a guitar.",
+        "zh": "女士：哦，我明白了。我很想去， 但我沒有吉他。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "COLMAN: Well, you can always buy a second-hand one.",
+        "zh": "Colman：嗯，你可以買一把二手的。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "There’s a website called “The Perfect Instrument” that sells all sorts of guitars, violins and so on.",
+        "zh": "有一個叫 “The Perfect Instrument” 的網站，賣各種吉他、小提琴等等。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "I’m sure you’ll find something there.",
+        "zh": "我相信你會在那裡找到合適的。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "WOMAN: So what’s a typical lesson with Gary like?",
+        "zh": "女士：那 Gary 平常的課是什麼樣的？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "COLMAN: Well, he always starts by getting us to tune our guitars.",
+        "zh": "Colman：嗯，他總是先讓我們調吉他音。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "That takes about five minutes.",
+        "zh": "這大約需要五分鐘。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "WOMAN: Uh-huh.",
+        "zh": "女士：嗯。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "COLMAN: Some people have apps they use, but some people do it by ear.",
+        "zh": "Colman：有些人會用應用程式調音，但有些人靠耳朵聽。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "Gary goes round and helps them.",
+        "zh": "Gary 會四處走動幫他們。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "While he’s doing that, he tells us what we’re going to do in the lesson.",
+        "zh": "他這樣做的時候，也會告訴我們這堂課要做什麼。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "WOMAN: Right.",
+        "zh": "女士：好的。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "COLMAN: First, we usually spend about ten minutes doing some strumming.",
+        "zh": "Colman：首先，我們通常會花大約十分鐘練習掃弦。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "WOMAN: So is that using… what are they called… plectrums?",
+        "zh": "女士：那是用……那個叫什麼…… 撥片嗎？",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "COLMAN: No, we just use our thumbs.",
+        "zh": "Colman：不是，我們只是用拇指。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "WOMAN: Much easier.",
+        "zh": "女士：那簡單多了。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "COLMAN: Gary reminds us where to put our fingers for each chord, and then we play together.",
+        "zh": "Colman：Gary 會提醒我們每個和弦手指該放在哪裡，然後我們一起彈。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "Sometimes we all start laughing because our timing is so bad, so Gary starts clapping to help us.",
+        "zh": "有時候我們都會笑起來，因為節奏太差了，所以 Gary 會開始拍手幫我們抓拍子。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "WOMAN: Do you learn to play any songs?",
+        "zh": "女士：你們會學彈歌曲嗎？",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "COLMAN: Yes, we do at least one song with the words and chords.",
+        "zh": "Colman：會，我們至少會彈一首有歌詞和和弦的歌。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "I mean, that’s harder than you’d think.",
+        "zh": "我的意思是，這比你想像的更難。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "WOMAN: Oh, I’m sure it is!",
+        "zh": "女士：哦，我相信一定是！",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "COLMAN: That part of the lesson takes about fifteen minutes.",
+        "zh": "Colman：那部分課程大約需要十五分鐘。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "He often brings a recording of a song and plays it to us first.",
+        "zh": "他常常會帶一首歌的錄音，先播放給我們聽。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "Then he gives out the song, and if there are any new chords in it, we practise those first, and then we play it together very slowly.",
+        "zh": "然後他把歌曲發給我們；如果裡面有新的和弦，我們會先練習那些和弦，接著再非常慢地一起彈。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-056"
+      },
+      {
+        "en": "WOMAN: Do you do finger-picking?",
+        "zh": "女士：你們會練指彈嗎？",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-057"
+      },
+      {
+        "en": "COLMAN: That’s the last ten minutes of the lesson. We pick out individual notes from a tune he’s made up.",
+        "zh": "Colman：那是課程最後十分鐘。 我們會從他編的一段曲子裡彈出單獨的音符。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-058"
+      },
+      {
+        "en": "It’s always very simple.",
+        "zh": "它總是很簡單。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-059"
+      },
+      {
+        "en": "WOMAN: That must be quite hard though.",
+        "zh": "女士：不過那一定挺難的。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-060"
+      },
+      {
+        "en": "COLMAN: It is, but people like it because they really have to concentrate, and if we all play it well, it sounds quite impressive.",
+        "zh": "Colman：是的，但大家都喜歡，因為真的必須集中注意力；而且如果我們都彈得好，聽起來會相當厲害。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-061"
+      },
+      {
+        "en": "The only trouble is that he sometimes gets us to play one at a time, you know, alone.",
+        "zh": "唯一的問題是，他有時會讓我們一個一個彈，也就是獨自演奏。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-062"
+      },
+      {
+        "en": "WOMAN: That sounds terrifying.",
+        "zh": "女士：那聽起來太可怕了。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-063"
+      },
+      {
+        "en": "COLMAN: It is, but I’m used to it now.",
+        "zh": "Colman：是啊，但我現在已經習慣了。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-064"
+      },
+      {
+        "en": "Finally, he spends about five minutes telling us what to practise for the next week.",
+        "zh": "最後，他會花大約五分鐘告訴我們下週要練習什麼。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-065"
+      },
+      {
+        "en": "WOMAN: Well, thanks, Colman. I think I’ll go and look at that website.",
+        "zh": "女士：嗯，謝謝你，Colman。我想我會去看看那個網站。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-066"
+      }
+    ],
+    "2": [
+      {
+        "en": "I never really planned to be a lifeboat volunteer when I came to live in Northsea.",
+        "zh": "我剛搬到 Northsea 居住時，從來沒有真正計畫過要成為救生艇志工。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "I'd been working in London as a website designer, but although that was interesting, I didn't like city life.",
+        "zh": "我之前在倫敦做網站設計師， 雖然那份工作很有趣，但我不喜歡城市生活。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "I'd been really keen on boats as a teenager, and I thought if I went to live by the sea, I might be able to pursue that interest a bit more in my free time.",
+        "zh": "我十幾歲時就非常喜歡船，所以我想，如果搬到海邊生活， 也許可以在空閒時間更多地發展這個興趣。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "Then I found that the Lifeboat Institution was looking for volunteers, so I decided to apply.",
+        "zh": "後來我發現救生艇機構正在招募志工，於是我決定申請。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "The Lifeboat Institution building here in Northsea's hard to miss, it's one of the largest in the country.",
+        "zh": "Northsea 這裡的救生艇機構大樓很顯眼，是全國最大的同類建築之一。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "It was built 15 years ago with funds provided by a generous member of the public who'd lived here all her life.",
+        "zh": "它建於 15 年前，資金來自一位慷慨的當地居民，她一生都住在這裡。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "As the Lifeboat Institution is a charity that relies on that kind of donation, rather than funding provided by the government, that was a huge help to us.",
+        "zh": "由於救生艇機構是一個慈善組織，依靠這類捐款，而不是政府資金，所以那筆捐款對我們幫助很大。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "When I applied, I had to have a health assessment.",
+        "zh": "我申請時，必須接受健康評估。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "The doctors were particularly interested in my vision.",
+        "zh": "醫生特別關注我的視力。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "I used to be short-sighted, so I'd had to wear glasses, but I'd had laser eye surgery two years earlier so that was OK.",
+        "zh": "我以前近視，所以必須戴眼鏡，但兩年前做過雷射眼科手術，因此這方面沒問題。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "They gave me tests for colour blindness and they thought I might have a problem there, but it turned out I was OK.",
+        "zh": "他們幫我做了色盲測試，當時認為我可能有問題，但結果證明沒事。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "When the coastguard gets an alert, all the volunteers are contacted and rush to the lifeboat station.",
+        "zh": "當海岸警衛隊收到警報時，所有志工都會被通知，並迅速趕到救生艇站。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "Our target's to get there in five minutes, then we try to get the boat off the dock and out to sea in another six to eight minutes.",
+        "zh": "我們的目標是在五分鐘內抵達，然後再用六到八分鐘讓救生艇離開碼頭並出海。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "Our team's proud that we usually achieve that – the average time across the country's eight and a half minutes.",
+        "zh": "我們團隊很自豪，因為通常都能做到；全國平均時間是八分半鐘。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "I've recently qualified as what's called a 'helmsman', which means I have the ultimate responsibility for the lifeboat.",
+        "zh": "我最近取得了所謂「舵手」資格，這意味著我對救生艇負有最終責任。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "I have to check that the equipment we use is in working order – the crew have special life jackets that can support up to four people in the water.",
+        "zh": "我必須檢查我們使用的設備是否運作正常——船員有特殊救生衣，可以在水中支撐最多四個人。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "And it's ultimately my decision whether it's safe to launch the boat.",
+        "zh": "最終是否安全出艇，是由我來決定。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "But it's very rare not to launch it, even in the worst weather.",
+        "zh": "不過即使在最惡劣的天氣下， 不出艇的情況也非常少見。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "As well as going out on the lifeboat, my work involves other things too.",
+        "zh": "除了搭救生艇出海，我的工作也包括其他事情。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "A lot of people underestimate how quickly conditions can change at sea, so I speak to youth groups and sailing clubs in the area about the sorts of problems that sailors and swimmers can have if the weather suddenly gets bad.",
+        "zh": "很多人低估了海上情況變化的速度，所以我會向當地青年團體和帆船俱樂部講解，如果天氣突然變壞，水手和游泳者可能會遇到哪些問題。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "We also have a lot of volunteers who organise activities to raise money for us, and we couldn't manage without them.",
+        "zh": "我們也有許多志工為我們組織募款活動，沒有他們，我們無法維持運作。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "The training we get is a continuous process, focusing on technical competence and safe handling techniques, and it's given me the confidence to deal with extreme situations without panicking.",
+        "zh": "我們接受的訓練是一個持續過程，重點是技術能力和安全操作技巧，這讓我有信心在極端情況下保持冷靜。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "I was glad I'd done a first aid course before I started, as that's a big help with the casualty care activities we do.",
+        "zh": "我很慶幸自己開始前上過急救課，因為這對我們進行傷者照護非常有幫助。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "We've done a lot on how to deal with ropes and tie knots – that's an essential skill.",
+        "zh": "我們也學了很多關於如何處理繩索和打結的內容——那是一項基本技能。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "After a year, I did a one-week residential course, led by specialists.",
+        "zh": "一年後，我參加了一個由專家帶領、為期一週的住宿訓練課程。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "They had a wave-tank where they could create extreme weather conditions – so we could get experience at what to do if the boat turned over in a storm at night, for example.",
+        "zh": "他們有一個造浪池，可以模擬極端天氣，因此我們可以練習，例如如果船在夜間暴風雨中翻覆，該如何應對。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "Since I started, I've had to deal with a range of emergency situations.",
+        "zh": "自從開始這份工作以來，我已經處理過各種緊急情況。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "But the work's hugely motivating.",
+        "zh": "不過這份工作非常令人有動力。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "It's not just about saving lives – I've learned a lot about the technology involved.",
+        "zh": "它不只是拯救生命——我也學到了很多相關技術。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "My background in IT's been useful here, and I can use my expertise to help other volunteers.",
+        "zh": "我的資訊科技背景在這裡很有用，我可以用自己的專業幫助其他志工。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "They're a great group – we're like a family really, which helps when you're dragging yourself out of bed on a cold stormy night.",
+        "zh": "他們是一個很棒的團隊——我們真的像一家人，這在寒冷暴風雨的夜晚把自己從床上拉起來時很有幫助。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "But actually, it's the colder months that can be the most rewarding time.",
+        "zh": "但實際上，較寒冷的月份往往是最有成就感的時候。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "That's when the incidents tend to be more serious, and you realise that you can make a huge difference to the outcome.",
+        "zh": "那時事故通常更嚴重，你會意識到自己能對結果產生很大的影響。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "So if any of you listeners are interested...",
+        "zh": "所以，如果各位聽眾中有人感興趣……",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-034"
+      }
+    ],
+    "3": [
+      {
+        "en": "BELLA: Hi Don – did you get the copy of the article on recycling footwear that I emailed you?",
+        "zh": "Bella：嗨，Don——你收到我寄給你的那篇關於鞋類回收的文章了嗎？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "DON: Yeah – it's here... I've had a look at it.",
+        "zh": "Don：收到了——就在這裡…… 我看過了。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "BELLA: So do you think it's a good topic for our presentation?",
+        "zh": "Bella：那你覺得這適合當我們簡報的主題嗎？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "DON: Well, before I started reading it, I thought recycling footwear, well, although it's quite interesting, perhaps there isn't enough to say about it, cos we put shoes in recycling bins, they go to charity shops and that's about it.",
+        "zh": "Don：嗯，在我開始讀之前，我覺得鞋類回收雖然挺有趣，但也許沒有太多可說的，因為我們把鞋放進回收箱，它們送到慈善商店，大概就這樣。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "BELLA: But there's much more to it than that.",
+        "zh": "Bella：但其實遠不止如此。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "DON: I realise that now and I'm keen to research the topic more.",
+        "zh": "Don：我現在明白了，而且我很想進一步研究這個主題。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "BELLA: That's great.",
+        "zh": "Bella：那太好了。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "DON: One of the things I didn't realise until I read the article was just how many pairs of trainers get recycled!",
+        "zh": "Don：直到讀了這篇文章，我才意識到有多少雙運動鞋被回收！",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "BELLA: Well, a lot of young people wear them all the time now.",
+        "zh": "Bella：嗯，現在很多年輕人一直都穿運動鞋。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "They've become more popular than ordinary shoes.",
+        "zh": "它們已經比普通鞋子更受歡迎。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "DON: I know. I guess they are very hard-wearing, but don't they look a bit casual for school uniform?",
+        "zh": "Don：我知道。我想它們確實很耐穿，但作為校服的一部分，看起來不會有點太休閒嗎？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "I don't think they're right for that.",
+        "zh": "我覺得它們不太適合那種場合。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "BELLA: Actually, I think some of them look quite smart on pupils... better than a scruffy old pair of shoes.",
+        "zh": "Bella：其實我覺得有些運動鞋穿在學生身上看起來挺整潔的…… 比一雙破舊髒亂的鞋好多了。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "So do you keep shoes a long time?",
+        "zh": "那你的鞋會穿很久嗎？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "DON: Yes. Though I do tend to wear my old pairs for doing dirty jobs like cleaning my bike.",
+        "zh": "Don：會。不過我通常會把舊鞋留著做髒活，比如清洗腳踏車時穿。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "BELLA: I must admit, I've recycled some perfectly good shoes, that haven't gone out of fashion and still fit, just because they don't look great on me anymore.",
+        "zh": "Bella：我必須承認，我曾經回收過一些狀況完全沒問題的鞋， 它們既沒有過時，也還合腳，只是因為我覺得它們穿在我身上不好看了。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "That's awful isn't it?",
+        "zh": "這很糟糕，對吧？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "DON: I think it's common because there's so much choice.",
+        "zh": "Don：我覺得這很常見，因為選擇太多了。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "The article did say that recent sales of footwear have increased enormously.",
+        "zh": "文章確實提到，近年鞋類銷售量大幅增加。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "BELLA: That didn't surprise me.",
+        "zh": "Bella：這不讓我驚訝。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "DON: No. But then it said that the amount of recycled footwear has fallen: it's 6 percent now compared to a previous level of 11 percent.",
+        "zh": "Don：是啊。但後面又說，回收鞋類的數量下降了：現在是 6% ，以前是 11%。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "That doesn't seem to make sense.",
+        "zh": "這似乎說不通。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "BELLA: That's because not everything goes through the recycling process.",
+        "zh": "Bella：那是因為不是所有鞋都會進入回收流程。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "Some footwear just isn't good enough to re-sell, for one reason or another, and gets rejected.",
+        "zh": "有些鞋因為各種原因不夠好， 無法再出售，所以會被拒收。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "BELLA: So let's find some examples in the article of footwear that was rejected for recycling.",
+        "zh": "Bella：那我們在文章裡找一些被拒絕回收的鞋類例子吧。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "DON: OK. I think there are some in the interview with the recycling manager. Yeah – here it is.",
+        "zh": "Don：好的。我想回收經理的訪談裡有一些。是的，在這裡。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "BELLA: Mmm. Let's start with the ladies' high-heeled shoes.",
+        "zh": "Bella：嗯。先從女士高跟鞋開始吧。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "What did he say about those?",
+        "zh": "他是怎麼說那些鞋的？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "DON: He said they were probably expensive – the material was suede and they were beige in colour – it looked like someone had only worn them once, but in a very wet field so the heels were too stained with mud and grass to re-sell them.",
+        "zh": "Don：他說那雙鞋可能很貴—— 材質是麂皮，顏色是米色—— 看起來像只穿過一次，但應該是在很潮濕的田地裡穿的，所以鞋跟沾滿泥土和草漬，無法再出售。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "BELLA: OK... and the leather ankle boots. What was wrong with them?",
+        "zh": "Bella：好……那雙皮革短靴呢？ 它們有什麼問題？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "DON: Apparently, the heels were worn – but that wasn't the problem.",
+        "zh": "Don：顯然鞋跟磨損了，但那不是主要問題。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "One of the shoes was a much lighter shade than the other one – it had obviously been left in the sun.",
+        "zh": "其中一隻鞋的顏色比另一隻淺很多，顯然曾經被放在陽光下曝曬。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "I suppose even second-hand shoes should look the same!",
+        "zh": "我想即使是二手鞋，也應該左右看起來一致吧！",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "BELLA: Sure. Then there were the red baby shoes.",
+        "zh": "Bella：當然。然後還有那雙紅色嬰兒鞋。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "DON: Oh yes – we're told to tie shoes together when we put them in a recycling bin, but people often don't bother.",
+        "zh": "Don：哦，是的——我們被告知把鞋放進回收箱時要把兩隻綁在一起，但人們常常懶得這麼做。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "BELLA: You'd think it would have been easy to find the other, but it wasn't.",
+        "zh": "Bella：你會以為另一隻很容易找到，但其實不是。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "That was a shame because they were obviously new.",
+        "zh": "真可惜，因為它們顯然是新的。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "DON: The trainers were interesting.",
+        "zh": "Don：那雙運動鞋也很有意思。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "He said they looked like they'd been worn by a marathon runner.",
+        "zh": "他說它們看起來像是馬拉松跑者穿過的。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "BELLA: Yeah – weren't they split?",
+        "zh": "Bella：是啊——它們是不是裂開了？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "DON: Not exactly. One of the soles was so worn under the foot that you could put your finger through it.",
+        "zh": "Don：不完全是。其中一隻鞋底在腳掌位置磨損得很嚴重，手指都可以穿過去。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "Well, we could certainly use some of those examples in our presentation to explain why 90 percent of shoes that people take to recycling centres or bins get thrown into landfill.",
+        "zh": "嗯，我們絕對可以在簡報中使用其中一些例子，來解釋為什麼人們送到回收中心或回收箱的鞋子中有 90% 最後會被丟進掩埋場。",
+        "sourcePages": [
+          42,
+          43
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "BELLA: Mmm. What did you think about the project his team set up to avoid this by making new shoes out of the good parts of old shoes?",
+        "zh": "Bella：嗯。你怎麼看他團隊設立的那個計畫？就是用舊鞋中狀況好的部分製作新鞋，來避免這種情況。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "DON: It sounded like a good idea. They get so many shoes, they should be able to match parts.",
+        "zh": "Don：聽起來是個好主意。他們收到那麼多鞋，應該可以把部件配對起來。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "I wasn't surprised that it failed, though. I mean who wants to buy second-hand shoes really? Think of all the germs you could catch!",
+        "zh": "不過它失敗我並不驚訝。我的意思是，誰真的想買二手鞋呢？想想可能沾到多少細菌！",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "BELLA: Well, people didn't refuse them for that reason, did they?",
+        "zh": "Bella：可是人們不是因為那個原因拒絕它們的，對吧？",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "It was because the pairs of shoes weren't identical.",
+        "zh": "是因為配成一雙的新鞋左右並不完全一樣。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "DON: They still managed to ship them overseas, though.",
+        "zh": "Don：不過他們還是設法把它們運到海外了。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "BELLA: That's another area we need to discuss.",
+        "zh": "Bella：那也是我們需要討論的另一個方面。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "DON: You know I used to consider this topic just from my own perspective, by thinking about my own recycling behaviour without looking at the bigger picture.",
+        "zh": "Don：你知道，我以前只是從自己的角度看這個主題，只想自己的回收行為，沒有看到更大的全局。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "So much happens once shoes leave the recycling area.",
+        "zh": "鞋子一離開回收區之後，還會發生很多事情。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "BELLA: It's not as simple as you first think, and we can show that by taking a very different approach to it.",
+        "zh": "Bella：這並不像一開始想的那麼簡單，我們可以用一個很不同的角度來呈現這點。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "DON: Absolutely. So let's discuss...",
+        "zh": "Don：完全同意。那我們來討論一下……",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-053"
+      }
+    ],
+    "4": [
+      {
+        "en": "For my project on invertebrates, I chose to study tardigrades.",
+        "zh": "在我的無脊椎動物專題中， 我選擇研究緩步動物。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "These are microscopic – or to be more precise – near-microscopic animals.",
+        "zh": "這些是微小動物——更準確地說，是接近微觀大小的動物。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "There are well over a thousand known species of these tiny animals, which belong to the phylum Tardigrada.",
+        "zh": "這些微小動物已知種類超過一千種，屬於緩步動物門。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Most tardigrades range in length from 0.05 to 1 millimetre, though the largest species can grow to be 1.2 millimetres in length.",
+        "zh": "大多數緩步動物長度介於 0.05 到 1 毫米之間，不過最大的種類可長到 1.2 毫米。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "They are also sometimes called “water bears”: “water” because that's where they thrive best, and “bear” because of the way they move.",
+        "zh": "它們有時也被稱為「水熊」： 「水」是因為牠們在水中生長得最好，而「熊」則是因為牠們移動的方式。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "“Moss piglet” is another name for tardigrades because of the way they look when viewed from the front.",
+        "zh": "「苔蘚小豬」是緩步動物的另一個名稱，因為從正面看牠們的樣子很像小豬。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "They were first discovered in Germany in 1773 by Johann Goeze, who coined the name Tardigrada.",
+        "zh": "它們最早於 1773 年在德國由 Johann Goeze 發現，他創造了 Tardigrada 這個名稱。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "As I say, there are many different species of tardigrade – too many to describe here – but, generally speaking, the different species share similar physical traits.",
+        "zh": "正如我所說，緩步動物有許多不同種類，太多了，無法在這裡一一描述；但一般來說，不同種類具有相似的身體特徵。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "They have a body which is short, and also rounded – a bit like a barrel – and the body comprises four segments.",
+        "zh": "牠們的身體短而圓，有點像桶狀，身體由四個節段組成。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Each segment has a pair of legs, at the end of which are between four and eight sharp claws.",
+        "zh": "每個節段都有一對腿，腿的末端有四到八個尖銳的爪。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "I should also say that some species don't have any claws; what they have are discs, and these work by means of suction.",
+        "zh": "我也應該說明，有些種類沒有爪；牠們有的是吸盤，靠吸附作用運作。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "They enable the tardigrade to cling on to surfaces or to grip its prey.",
+        "zh": "這些構造能讓緩步動物附著在表面上，或抓住獵物。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "Within the body, there are no lungs, or any organs for breathing at all.",
+        "zh": "牠們體內沒有肺，也完全沒有任何呼吸器官。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "Instead, oxygen and also blood are transported in a fluid that fills the cavity of the body.",
+        "zh": "相反，氧氣和血液會在填滿體腔的液體中運送。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "As far as the tardigrade's head is concerned, the best way I can describe this is that it looks rather strange – a bit squashed even – though many of the websites I looked at described its appearance as cute, which isn't exactly very scientific.",
+        "zh": "至於緩步動物的頭部，我最好的描述是：它看起來相當奇怪，甚至有點扁；雖然我看過的許多網站形容牠們很可愛，但這並不算很科學的說法。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "The tardigrade's mouth is a kind of tube that can open outwards to reveal teeth-like structures known as “stylets”.",
+        "zh": "緩步動物的嘴是一種管狀結構，可以向外張開，露出被稱為「口針」的牙齒狀構造。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "These are sharp enough to pierce plant or animal cells.",
+        "zh": "這些構造足夠鋒利，可以刺穿植物或動物細胞。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "So, where are tardigrades found?",
+        "zh": "那麼，緩步動物在哪裡可以找到呢？",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Well, they live in every part of the world, in a variety of habitats: most commonly, on the bed of a lake, or on many kinds of plants or in very wet environments.",
+        "zh": "牠們生活在世界各地、各種不同棲地中；最常見的是在湖底、多種植物上，或非常潮濕的環境裡。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "There's been some interesting research which has found that tardigrades are capable of surviving radiation and very high pressure, and they're also able to withstand temperatures as cold as –200 degrees centigrade, or highs of more than 148 degrees centigrade, which is incredibly hot.",
+        "zh": "有一些有趣的研究發現，緩步動物能承受輻射和極高壓力，也能忍受低至攝氏零下 200 度，或高於攝氏 148 度的極端高溫。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "It has been said that tardigrades could survive long after human beings have been wiped out, even in the event of an asteroid hitting the earth.",
+        "zh": "據說，即使小行星撞擊地球、人類滅絕後，緩步動物仍可能存活很長時間。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "If conditions become too extreme and tardigrades are at risk of drying out, they enter a state called cryptobiosis.",
+        "zh": "如果環境變得過於極端，緩步動物面臨乾枯風險時，牠們會進入一種稱為隱生的狀態。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "They curl into a ball, called a tun – that's T-U-N – by retracting their head and legs, and their metabolism drops to less than one percent of normal levels.",
+        "zh": "牠們會把頭和腿縮回，捲成一個球狀，稱為 tun，也就是 T-U-N；此時新陳代謝會降到正常水平的 1% 以下。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "They can remain like this until they are reintroduced to water, when they will come back to life in a matter of a few hours.",
+        "zh": "牠們可以一直保持這種狀態，直到重新接觸水分，然後在幾個小時內恢復生命活動。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "While in a state of cryptobiosis, tardigrades produce a protein that protects their DNA.",
+        "zh": "在隱生狀態下，緩步動物會產生一種保護 DNA 的蛋白質。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "In 2016, scientists revived two tardigrades that had been tuns for more than 30 years.",
+        "zh": "2016 年，科學家讓兩隻已處於 tun 狀態超過 30 年的緩步動物復活。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "There was a report that, in 1948, a 120-year-old tun was revived, but this experiment has never been repeated.",
+        "zh": "曾有報告稱，1948 年有一隻 120 年的 tun 被復活，但這個實驗從未被重複驗證。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "There are currently several tests taking place in space, to determine how long tardigrades might be able to survive there.",
+        "zh": "目前太空中正在進行幾項測試，以確定緩步動物能在那裡存活多久。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "I believe the record so far is 10 days.",
+        "zh": "我相信目前的紀錄是 10 天。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "So, erm, moving on. In terms of their diet, tardigrades consume liquids in order to survive.",
+        "zh": "那麼，嗯，繼續說。就飲食而言，緩步動物靠攝取液體生存。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "Although they have teeth, they don't use these for chewing.",
+        "zh": "雖然牠們有牙齒，但並不用來咀嚼。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "They suck the juices from moss, or extract fluid from seaweed, but some species prey on other tardigrades, from other species or within their own.",
+        "zh": "牠們會吸取苔蘚中的汁液， 或從海藻中吸取液體；但有些種類會捕食其他緩步動物，不論是其他種類還是同類。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "I suppose this isn't surprising, given that tardigrades are mainly comprised of liquid and are coated with a type of gel.",
+        "zh": "我想這並不奇怪，因為緩步動物主要由液體構成，並覆蓋著一種凝膠狀物質。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-033"
+      },
+      {
+        "en": "Finally, I'd like to mention the conservation status of tardigrades.",
+        "zh": "最後，我想提一下緩步動物的保育狀況。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-034"
+      },
+      {
+        "en": "It is estimated that they have been in existence for approximately half a billion years and, in that time, they have survived five mass extinctions.",
+        "zh": "據估計，牠們已存在大約 5 億年，並在此期間經歷了五次大滅絕仍存活下來。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-035"
+      },
+      {
+        "en": "So, it will probably come as no surprise to you, that tardigrades have not been evaluated by the International Union for Conservation of Nature and are not on any endangered list.",
+        "zh": "因此，你們可能不會驚訝， 緩步動物尚未被國際自然保護聯盟評估，也沒有列入任何瀕危名單。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-036"
+      },
+      {
+        "en": "Some researchers have described them as thriving.",
+        "zh": "一些研究人員甚至形容牠們繁盛生存。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-037"
+      },
+      {
+        "en": "Does anyone have any questions they'd like to ask?",
+        "zh": "有人有問題想問嗎？",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-038"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "Mathieson",
+      "explanation": "題目表格寫： “Coordinator: Gary _____” 錄音說： “His name's Gary Mathieson.” 女士再問姓氏怎樣拼，Colman 清楚拼出： “M-A-T-H-I-E-S-O-N.” 所以答案是 Mathieson。 中伏位：這是典型 spelling 題。既然錄音已逐個字母拼出姓氏，就應跟足 M-A-T-H-I-E-S-O-N，不要單靠發音猜寫法。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "2": {
+      "answer": "beginners",
+      "explanation": "題目寫： “Level: _____” 錄音說： “he said it was a class for beginners” 所以這個 guitar group 的程度是 beginners。 後面 Colman 說大家 “all equally hopeless”，也是在說所有人都仍是初學程度。 答案用複數 beginners，與錄音原句一致。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "3": {
+      "answer": "college",
+      "explanation": "題目寫： “Place: the _____” 錄音先說 Colman 剛加入時，小組在 Gary's house 聚會；後來人數增加： “he decided to book a room at the college in town.” 因此現在的上課地點是 the college。 答案是 college。 中伏位：Gary's house 是較早期的地點。題目表格記錄的是目前 guitar group 的資料，所以要跟隨後來的改動。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "4": {
+      "answer": "New",
+      "explanation": "題目寫： “Address: _____ Street” 女士先猜： “Is it Lock Street?” Colman 更正： “It's at the bottom of New Street.” 所以地址是 New Street，空格只填 New。 中伏位：Lock Street 是女士提出的猜測，錄音隨後由 Colman 提供正確地址。這類題常用「先猜 → 再修正」製造干擾。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "5": {
+      "answer": "11 / eleven",
+      "explanation": "題目寫： “Time: Thursday morning at _____” 錄音說： “We meet on Thursdays. It used to be at 10:30 … but now we meet at 11.” 控制詞是目前的上課時間，所以答案是 11 / eleven。 中伏位：10:30 是以前的時間；“used to be” 已經告訴我們這個安排不再適用。現在的時間是 11 點。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "6": {
+      "answer": "instrument",
+      "explanation": "題目寫： “Recommended website: ‘The Perfect _____’” 錄音說： “There's a website called ‘The Perfect Instrument’ that sells all sorts of guitars, violins and so on.” 所以完整名稱是 The Perfect Instrument，空格填 instrument。 中伏位：guitars 和 violins 是該網站售賣的物品，並非網站名稱的最後一個字。",
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    "7": {
+      "answer": "ear",
+      "explanation": "圖片中的題目寫： “tuning guitars — using an app or by _____” 錄音說： “Some people have apps they use, but some people do it by ear.” 題目的句型與錄音完全一致： using an app or by ear 所以答案是 ear。 “by ear” 是固定表達，指靠聽覺判斷音準。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "8": {
+      "answer": "clapping",
+      "explanation": "圖片寫： “strumming chords using our thumbs — keeping time while the teacher is _____” 錄音說大家有時 timing 很差： “so Gary starts clapping to help us.” Gary 拍手的目的，就是幫學生 keep time，因此題目改寫成： “keeping time while the teacher is clapping” 答案是 clapping。 題目已有 “is”，所以需要 -ing 形式：is clapping。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "9": {
+      "answer": "recording",
+      "explanation": "圖片寫： “playing songs — often listening to a _____ of a song” 錄音說： “He often brings a recording of a song and plays it to us first.” 這幾乎直接複製到表格： a recording of a song 所以答案是 recording。 題目前已有 “a”，因此需要單數可數名詞 recording。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "10": {
+      "answer": "alone",
+      "explanation": "圖片寫： “playing single notes and simple tunes — playing together, then _____” 錄音說這部分有時會： “get us to play one at a time, you know, alone.” 先大家一起彈，之後每人逐一單獨彈，因此： playing together → then alone 答案是 alone。 中伏位：“one at a time” 也是同一概念，但題目要求 ONE WORD，所以錄音隨後給出的 alone 正好符合答案格式。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "11": {
+      "answer": "A — He was eager to develop a hobby",
+      "explanation": "題目問：甚麼促使 David 離開 London，搬到 Northsea。 錄音說他在 London 做 website designer： “although that was interesting, I didn't like city life.” 之後說自己十幾歲時非常喜歡 boats： “I thought if I went to live by the sea, I might be able to pursue that interest a bit more in my free time.” “pursue that interest” 就是進一步發展自己的興趣，所以答案是 A — He was eager to develop a hobby 。 中伏位：C 說他不滿意 website design 工作，但 David 明確形容工作 “interesting”。真正吸引他搬到海邊的是對 boats 的興趣。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "12": {
+      "answer": "B — a local resident",
+      "explanation": "題目問 Northsea 的 Lifeboat Institution building 是由誰提供資金興建。 錄音說： “It was built … with funds provided by a generous member of the public who'd lived here all her life.” “had lived here all her life” 表示她是當地長期居民，所以對應 a local resident。 答案是 B。 中伏位：後面提到 institution 是 charity，依靠 donations；沒有說資金來自 local council 或某個 local organisation。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "13": {
+      "answer": "A — might be colour blind",
+      "explanation": "題目問 health assessment 中，醫生特別擔心 David 哪方面。 錄音先說他以前 short-sighted，但做過 laser eye surgery： “so that was OK.” 之後說： “They gave me tests for colour blindness and they thought I might have a problem there…” 雖然最後結果證明他沒有問題，但醫生當時擔心的是 colour blindness。 所以答案是 A。 中伏位：short-sightedness 和 eye surgery 都有出現，但錄音已說手術後 “that was OK”。真正引起疑慮的是 colour blindness test。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "14": {
+      "answer": "B — six to eight minutes",
+      "explanation": "題目問： After arriving at the lifeboat station，他們希望在多久內 launch the boat。 錄音說： “Our target's to get there in five minutes, then we try to get the boat off the dock and out to sea in another six to eight minutes.” 5 minutes 是趕到 station 所需時間；到達之後，launch boat 的目標是另外 6–8 minutes。 所以答案是 B。 中伏位：8½ minutes 是全國平均 launch time；題目問的是 David 所屬團隊自己的目標。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "15": {
+      "answer": "C — if the lifeboat should be launched",
+      "explanation": "題目問：作為 helmsman，David 負責決定甚麼。 錄音說： “it's ultimately my decision whether it's safe to launch the boat.” “whether it's safe to launch” 對應是否應該把 lifeboat 出動，所以答案是： C — if the lifeboat should be launched 中伏位：他也要檢查 equipment 是否正常，但題目問的是他要 decide 甚麼。最終決定權涉及 launch",
+      "sourcePages": [
+        57
+      ]
+    },
+    "16": {
+      "answer": "A — gives talks on safety at sea",
+      "explanation": "題目問：除了坐 lifeboat 出海，David 還做甚麼。 錄音說： “I speak to youth groups and sailing clubs … about the sorts of problems that sailors and swimmers can have if the weather suddenly gets bad.” 這就是向其他人講解海上風險與安全問題，所以對應： gives talks on safety at sea 答案是 A。 中伏位：fundraising 確實有提到，但 David 說的是 “a lot of volunteers who organise activities to raise money”。錄音沒有說那是他的工作。",
+      "sourcePages": [
+        57,
+        58
+      ]
+    },
+    "17": {
+      "answer": "C and E",
+      "explanation": "題目問 David 對 lifeboat volunteer training 說了哪兩件事。 C — The training exercises have built up his mental strength David 說： “The training … has given me the confidence to deal with extreme situations without panicking.” 能在極端情況下保持冷靜，代表訓練提升了他的心理承受能力與信心，所以對應 mental strength 。 因此 C 正確。 E — The wave tank activities provided practice in survival techniques 他談到 residential course 的 wave tank： “they could create extreme weather conditions” 讓他們練習： “what to do if the boat turned over in a storm at night” 這是在模擬危急海況並練習翻船後如何應對，正是 survival techniques。 所以 E 正確。 中伏位：rope and knot training “done a lot”，內容相當充足，因此 B 的 “quite brief” 不合。Casualty care 因為 David 以前學過 first aid，反而對他很有幫助，錄音沒有說這是他特別困難的一部分。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "18": {
+      "answer": "C and E",
+      "explanation": "題目問 David 對 lifeboat volunteer training 說了哪兩件事。 C — The training exercises have built up his mental strength David 說： “The training … has given me the confidence to deal with extreme situations without panicking.” 能在極端情況下保持冷靜，代表訓練提升了他的心理承受能力與信心，所以對應 mental strength 。 因此 C 正確。 E — The wave tank activities provided practice in survival techniques 他談到 residential course 的 wave tank： “they could create extreme weather conditions” 讓他們練習： “what to do if the boat turned over in a storm at night” 這是在模擬危急海況並練習翻船後如何應對，正是 survival techniques。 所以 E 正確。 中伏位：rope and knot training “done a lot”，內容相當充足，因此 B 的 “quite brief” 不合。Casualty care 因為 David 以前學過 first aid，反而對他很有幫助，錄音沒有說這是他特別困難的一部分。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "19": {
+      "answer": "A and B",
+      "explanation": "題目問 David 覺得工作中哪兩件事 most motivating。 A — working as part of a team David 說其他 volunteers： “They're a great group – we're like a family really” 這種緊密團隊關係能在惡劣天氣出勤時支持他： “which helps when you're dragging yourself out of bed…” 所以團隊合作是重要動力之一，答案 A。 B — experiences when working in winter David 接著說： “it's the colder months that can be the most rewarding time.” 原因是冬季事故往往更嚴重： “you realise that you can make a huge difference to the outcome.” “most rewarding” 明確指出寒冷月份的工作經歷非常有激勵作用，所以 B 正確。 中伏位：他確實提到 technology，但內容是學習技術並利用自己的 IT expertise 幫助同事；沒有說有機會開發新設備。錄音也沒有把 fitness 或被救者道謝列為主要動力。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "20": {
+      "answer": "A and B",
+      "explanation": "題目問 David 覺得工作中哪兩件事 most motivating。 A — working as part of a team David 說其他 volunteers： “They're a great group – we're like a family really” 這種緊密團隊關係能在惡劣天氣出勤時支持他： “which helps when you're dragging yourself out of bed…” 所以團隊合作是重要動力之一，答案 A。 B — experiences when working in winter David 接著說： “it's the colder months that can be the most rewarding time.” 原因是冬季事故往往更嚴重： “you realise that you can make a huge difference to the outcome.” “most rewarding” 明確指出寒冷月份的工作經歷非常有激勵作用，所以 B 正確。 中伏位：他確實提到 technology，但內容是學習技術並利用自己的 IT expertise 幫助同事；沒有說有機會開發新設備。錄音也沒有把 fitness 或被救者道謝列為主要動力。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "21": {
+      "answer": "A — limited in scope",
+      "explanation": "題目問：Don 起初擔心 recycling footwear 這個題目會不會太怎樣。 他說： “perhaps there isn't enough to say about it” 因為他最初以為鞋子放進 recycling bins，然後送去 charity shops，大概就完了。 “isn't enough to say about it” 表示主題範圍看起來太窄、可談內容不足，所以答案是： A — limited in scope",
+      "sourcePages": [
+        60
+      ]
+    },
+    "22": {
+      "answer": "B — how suitable they are for school",
+      "explanation": "題目問 Bella 和 Don 談 trainers 時，在哪一點有不同意見。 Don 說： “don't they look a bit casual for school uniform?” 又說： “I don't think they're right for that.” Bella 則回應： “I think some of them look quite smart on pupils.” Don 覺得 trainers 不適合 school uniform；Bella 覺得某些款式穿在學生身上很整潔。 因此兩人分歧在 how suitable they are for school，答案是 B。 中伏位：兩人都接受 trainers 很受年輕人歡迎；Don 甚至直接回應 “I know”。所以 popularity 並非爭議點。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "23": {
+      "answer": "B — she no longer likes them",
+      "explanation": "題目問 Bella 有時為甚麼會 recycle shoes。 她說那些鞋： “haven't gone out of fashion and still fit” 但： “they don't look great on me anymore.” 所以鞋仍然合腳，也沒有過時；她只是覺得穿起來已經不好看。 這最接近 she no longer likes them，所以答案是 B。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "24": {
+      "answer": "B — Less footwear is recycled now than in the past",
+      "explanation": "題目問：文章中的哪項資料令 Don 感到困惑。 他先說 footwear sales increased enormously，Bella 說這並不令人意外。 接著 Don 說： “the amount of recycled footwear has fallen: it's 6 percent now compared to a previous level of 11 percent.” 他隨即表示： “That doesn't seem to make sense.” 所以令他困惑的是回收比例由 11% 降至 6%。 答案是 B。",
+      "sourcePages": [
+        62,
+        63
+      ]
+    },
+    "25": {
+      "answer": "E — the shoes were too dirty",
+      "explanation": "題目問 high-heeled shoes 被 recycling manager 拒收的原因。 錄音說鞋看起來只穿過一次，但： “the heels were too stained with mud and grass to re-sell them.” 鞋跟沾滿泥與草漬，代表鞋太髒，無法再出售。 所以答案是 E — the shoes were too dirty。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "26": {
+      "answer": "B — the colour of one shoe had faded",
+      "explanation": "題目問 ankle boots 被拒收的原因。 錄音先說： “the heels were worn – but that wasn't the problem.” 真正的問題是： “One of the shoes was a much lighter shade than the other one – it had obviously been left in the sun.” 陽光令其中一隻鞋褪色，所以左右顏色不同。 答案是 B。 中伏位：heels worn 是先提到的情況，但 Don 明確說那並非真正拒收原因。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "27": {
+      "answer": "A — one shoe was missing",
+      "explanation": "題目問 red baby shoes 被拒收的原因。 錄音說鞋子放進 recycling bin 時應綁在一起，但有人沒有這樣做。 Bella 接著說： “You'd think it would have been easy to find the other, but it wasn't.” 這表示其中一隻鞋遺失了。 所以答案是 A — one shoe was missing。 中伏位：baby shoes “were obviously new”，這只令人覺得可惜；新鞋本身沒有造成拒收。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "28": {
+      "answer": "C — one shoe had a hole in it",
+      "explanation": "題目問 trainers 被拒收的原因。 Bella 猜： “weren't they split?” Don 修正： “Not exactly. One of the soles was so worn … that you could put your finger through it.” 能把手指穿過鞋底，表示已經磨出一個 hole。 因此答案是 C。 中伏位：F 說 stitching broken，但錄音已透過 “Not exactly” 修正了 Bella 的 “split” 猜測。真正問題是 sole 磨穿。",
+      "sourcePages": [
+        64,
+        65
+      ]
+    },
+    "29": {
+      "answer": "C — The shoes in the “new” pairs were not completely alike",
+      "explanation": "題目問：利用舊鞋好部件製成「新鞋」的 project 為甚麼失敗。 Don 起初猜消費者可能擔心 germs，但 Bella 指出： “people didn't refuse them for that reason” 真正原因是： “the pairs of shoes weren't identical.” weren't identical = 兩隻鞋並不完全一樣。 所以答案是 C。 中伏位：A 是 Don 最初的推測，隨即被 Bella 否定。題目要的是 project 實際失敗原因。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "30": {
+      "answer": "A — from a new angle",
+      "explanation": "題目問 Bella 和 Don 同意可以怎樣呈現這個 topic。 Don 說自己以前只從個人 recycling behaviour 看問題，現在發現鞋離開 recycling area 後還有很多事情發生。 Bella 總結： “we can show that by taking a very different approach to it.” Don 回： “Absolutely.” “a very different approach” = from a new angle。 所以答案是 A。 中伏位：Bella 同時說 topic “isn't as simple as you first think”，所以 C 的 straightforward way 與他們的結論不合。",
+      "sourcePages": [
+        66,
+        67
+      ]
+    },
+    "31": {
+      "answer": "move",
+      "explanation": "題目寫： “also known as water ‘bears’, due to how they _____” 錄音解釋 water bear 名稱： “‘water’ because that's where they thrive best, and ‘bear’ because of the way they move.” 題目 “due to how they _____” 正好把 “because of the way they move” 改寫成： how they move 答案是 move。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "32": {
+      "answer": "short",
+      "explanation": "題目寫： “a _____ round body and four pairs of legs” 錄音說： “They have a body which is short, and also rounded…” 所以身體的兩個特徵是 short + rounded。 題目已經用 “round body” 提供其中一個特徵，空格填另一個： short 所以答案是 short。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "33": {
+      "answer": "discs / disks",
+      "explanation": "題目寫： “claws or _____ for gripping” 錄音先說 tardigrades 通常有 claws，接著補充： “some species don't have any claws; what they have are discs, and these work by means of suction.” 之後說 discs： “enable the tardigrade to cling on to surfaces or to grip its prey.” 所以 claws 或 discs 都能用於 gripping。 答案可寫 discs；拼法 disks 亦接受。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "34": {
+      "answer": "oxygen",
+      "explanation": "題目寫： “body filled with a liquid that carries both _____ and blood” 錄音說： “oxygen and also blood are transported in a fluid that fills the cavity of the body.” 題目幾乎直接重組錄音： fluid → liquid oxygen and blood → oxygen and blood 所以答案是 oxygen。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "35": {
+      "answer": "tube",
+      "explanation": "題目寫： “mouth shaped like a _____ with teeth called stylets” 錄音說： “The tardigrade's mouth is a kind of tube that can open outwards to reveal teeth-like structures known as ‘stylets’.” 所以 mouth 的形狀像 tube。 答案是 tube。 題目前有 “a”，所以單數名詞 tube 完全符合。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "36": {
+      "answer": "temperatures",
+      "explanation": "題目寫： “very resilient and can exist in very low or high _____” 錄音說 tardigrades 能忍受： “temperatures as cold as –200 degrees … or highs of more than 148 degrees” very low / high 對應錄音中的極低與極高溫度，所以答案是 temperatures。 題目寫 “low or high temperatures”，自然使用複數。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "37": {
+      "answer": "protein",
+      "explanation": "題目在 Cryptobiosis 部分寫： “A type of _____ ensures their DNA is not damaged.” 錄音說： “tardigrades produce a protein that protects their DNA.” “protects their DNA” = 防止 DNA 受損，所以答案是 protein。 題目前有 “a type of”，因此填名詞 protein。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "38": {
+      "answer": "space",
+      "explanation": "題目寫： “Research is underway to find out how many days they can stay alive in _____.” 錄音說： “There are currently several tests taking place in space, to determine how long tardigrades might be able to survive there.” “how long” 被題目具體化成 “how many days”；“there” 指前面的 space。 所以答案是 space。 後面提到目前紀錄約為 10 days，但題目空格問的是研究地點，不是存活日數。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "39": {
+      "answer": "seaweed",
+      "explanation": "題目寫： “consume liquids, e.g. those found in moss or _____” 錄音說： “They suck the juices from moss, or extract fluid from seaweed.” juices / fluid 都屬於題目的 liquids，因此： moss or seaweed 答案是 seaweed。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "40": {
+      "answer": "endangered",
+      "explanation": "題目寫： “They are not considered to be _____.” 錄音談 conservation status 時說： “they … are not on any endangered list.” 所以 tardigrades 並不被視為 endangered。 答案是 endangered。 後面甚至補充： “Some researchers have described them as thriving.” 這進一步支持牠們目前沒有面臨瀕危狀態。",
+      "sourcePages": [
+        71
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 439.5885625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20part%201.mp3",
+        "audioSha256": "6b9026ae39e3b4336f96515265be75cc9953dde3981dc66a53431dbbb72983e4",
+        "transcriptSha256": "5d7bf94f1c9dbfeb3452ddd1e3b797dba3f0e25ad058eb0c14f15e40a193176a",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9247,
+        "lines": [
+          {
+            "start": 49.5,
+            "end": 51.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 52.06,
+            "end": 52.58,
+            "coverage": 0.6,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Recording says Good, thanks; PDF says Fine, thanks. Use the actual reply boundaries."
+          },
+          {
+            "start": 53.44,
+            "end": 61.62,
+            "coverage": 0.8925
+          },
+          {
+            "start": 62.6,
+            "end": 64.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 65.02,
+            "end": 66.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.1,
+            "end": 69.14,
+            "coverage": 0.875
+          },
+          {
+            "start": 69.6,
+            "end": 73.1,
+            "coverage": 0.8077
+          },
+          {
+            "start": 74.1,
+            "end": 79.14,
+            "coverage": 0.9091
+          },
+          {
+            "start": 79.72,
+            "end": 85.34,
+            "coverage": 0.9333
+          },
+          {
+            "start": 86.86,
+            "end": 95.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.62,
+            "end": 97.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 98.86,
+            "end": 105.9,
+            "coverage": 0.8333
+          },
+          {
+            "start": 106.66,
+            "end": 111.16,
+            "coverage": 0.8571
+          },
+          {
+            "start": 111.16,
+            "end": 113.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 114.5,
+            "end": 117.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.06,
+            "end": 120.78,
+            "coverage": 0.9286
+          },
+          {
+            "start": 121.3,
+            "end": 123.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 124.14,
+            "end": 125.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 126.22,
+            "end": 135.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.06,
+            "end": 138.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 138.44,
+            "end": 143.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.4,
+            "end": 154.5,
+            "coverage": 0.9636
+          },
+          {
+            "start": 155.28,
+            "end": 156.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 157.42,
+            "end": 164.34,
+            "coverage": 0.9178
+          },
+          {
+            "start": 164.34,
+            "end": 172.92,
+            "coverage": 0.8451
+          },
+          {
+            "start": 173.84,
+            "end": 180.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.54,
+            "end": 181.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 182.78,
+            "end": 188.04,
+            "coverage": 0.9024
+          },
+          {
+            "start": 189.5,
+            "end": 194.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 195.62,
+            "end": 205.32,
+            "coverage": 0.8519
+          },
+          {
+            "start": 206.26,
+            "end": 212.06,
+            "coverage": 0.9545
+          },
+          {
+            "start": 212.76,
+            "end": 219.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 220.28,
+            "end": 223.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 224.2,
+            "end": 232.04,
+            "coverage": 0.95
+          },
+          {
+            "start": 232.92,
+            "end": 234.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 270.88,
+            "end": 274.82,
+            "coverage": 0.8788
+          },
+          {
+            "start": 275.72,
+            "end": 280.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 281.32,
+            "end": 283.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.88,
+            "end": 284.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 284.98,
+            "end": 289.56,
+            "coverage": 0.7872,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Recording says an app and others, while PDF says apps and some people. Same sentence and meaning; retain source wording."
+          },
+          {
+            "start": 290.84,
+            "end": 292.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.88,
+            "end": 298.88,
+            "coverage": 0.9444
+          },
+          {
+            "start": 299.58,
+            "end": 300.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.08,
+            "end": 306.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 307.16,
+            "end": 313.7,
+            "coverage": 0.9487
+          },
+          {
+            "start": 314.48,
+            "end": 317.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.42,
+            "end": 319.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.18,
+            "end": 326.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.0,
+            "end": 336.36,
+            "coverage": 0.8718
+          },
+          {
+            "start": 337.12,
+            "end": 339.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.02,
+            "end": 344.72,
+            "coverage": 0.9286
+          },
+          {
+            "start": 345.76,
+            "end": 347.9,
+            "coverage": 0.9655
+          },
+          {
+            "start": 348.5,
+            "end": 350.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 351.0,
+            "end": 354.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 355.54,
+            "end": 360.66,
+            "coverage": 0.9796
+          },
+          {
+            "start": 361.46,
+            "end": 371.38,
+            "coverage": 0.767,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Recording says hands out, a new chord, practice that and really slowly; the PDF paraphrases the same instruction. Boundaries verified against the recognized speech."
+          },
+          {
+            "start": 372.4,
+            "end": 374.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 375.88,
+            "end": 383.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 383.8,
+            "end": 385.46,
+            "coverage": 0.8421
+          },
+          {
+            "start": 386.18,
+            "end": 387.66,
+            "coverage": 0.8
+          },
+          {
+            "start": 388.58,
+            "end": 398.12,
+            "coverage": 0.8125
+          },
+          {
+            "start": 399.42,
+            "end": 406.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 407.14,
+            "end": 408.6,
+            "coverage": 0.4,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Recording says Oh, that's scary; PDF says That sounds terrifying. Use the full actual reply."
+          },
+          {
+            "start": 409.24,
+            "end": 412.88,
+            "coverage": 0.95
+          },
+          {
+            "start": 414.46,
+            "end": 419.78,
+            "coverage": 0.8529
+          },
+          {
+            "start": 420.44,
+            "end": 425.44,
+            "coverage": 0.8723
+          }
+        ]
+      },
+      "2": {
+        "duration": 369.0840625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20Part%202.mp3",
+        "audioSha256": "bd202ddff2ea0ef0011b36de8cb9fc066ea3678fa9b81192090c7a0f33383401",
+        "transcriptSha256": "e7cd554ef40ff8036c0286ee9286343c9965cb05aa13a15b69232eb7942b1dad",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9986,
+        "lines": [
+          {
+            "start": 67.44,
+            "end": 72.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 72.76,
+            "end": 79.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.38,
+            "end": 89.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.32,
+            "end": 96.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.18,
+            "end": 104.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 104.92,
+            "end": 111.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.88,
+            "end": 120.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.96,
+            "end": 124.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 125.74,
+            "end": 128.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.38,
+            "end": 137.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 138.08,
+            "end": 144.9,
+            "coverage": 0.9889
+          },
+          {
+            "start": 145.98,
+            "end": 152.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 152.74,
+            "end": 161.76,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 162.62,
+            "end": 168.84,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 170.56,
+            "end": 177.96,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 178.78,
+            "end": 187.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 188.14,
+            "end": 191.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.76,
+            "end": 196.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 197.62,
+            "end": 201.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.66,
+            "end": 216.6,
+            "coverage": 0.9891
+          },
+          {
+            "start": 217.54,
+            "end": 225.46,
+            "coverage": 0.9892
+          },
+          {
+            "start": 262.62,
+            "end": 275.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.8,
+            "end": 284.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.46,
+            "end": 290.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.74,
+            "end": 296.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.66,
+            "end": 307.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.02,
+            "end": 313.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 314.72,
+            "end": 316.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 317.52,
+            "end": 322.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.02,
+            "end": 329.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.5,
+            "end": 338.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 339.38,
+            "end": 343.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.46,
+            "end": 351.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.04,
+            "end": 354.6,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 406.7788125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20Part%203.mp3",
+        "audioSha256": "b59a0bae266ee082b33855beccbe0b454a1771854e19ce34701e64d0ae3fab45",
+        "transcriptSha256": "2fef50b60f756ea2859b6c4873433c9888ec9ba32e83e1abbb9018fe4b341a11",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9884,
+        "lines": [
+          {
+            "start": 44.94,
+            "end": 51.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 51.46,
+            "end": 54.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.58,
+            "end": 57.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 58.18,
+            "end": 74.8,
+            "coverage": 0.9944
+          },
+          {
+            "start": 75.18,
+            "end": 77.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.84,
+            "end": 81.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.04,
+            "end": 82.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.44,
+            "end": 89.5,
+            "coverage": 0.9885
+          },
+          {
+            "start": 90.1,
+            "end": 93.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 94.1,
+            "end": 96.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.3,
+            "end": 103.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 104.58,
+            "end": 105.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.4,
+            "end": 112.5,
+            "coverage": 0.9231
+          },
+          {
+            "start": 113.5,
+            "end": 116.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.0,
+            "end": 123.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.94,
+            "end": 133.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.14,
+            "end": 135.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 135.48,
+            "end": 138.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 139.92,
+            "end": 144.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 145.12,
+            "end": 146.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 146.56,
+            "end": 156.66,
+            "coverage": 0.8727
+          },
+          {
+            "start": 156.66,
+            "end": 158.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 159.52,
+            "end": 163.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.82,
+            "end": 170.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.14,
+            "end": 224.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.14,
+            "end": 233.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 233.24,
+            "end": 237.54,
+            "coverage": 0.925
+          },
+          {
+            "start": 238.52,
+            "end": 239.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 240.69,
+            "end": 258.54,
+            "coverage": 0.989
+          },
+          {
+            "start": 258.98,
+            "end": 264.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 264.76,
+            "end": 268.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.76,
+            "end": 275.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.18,
+            "end": 278.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.32,
+            "end": 283.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.96,
+            "end": 291.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 292.32,
+            "end": 296.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.32,
+            "end": 299.98,
+            "coverage": 0.95
+          },
+          {
+            "start": 301.72,
+            "end": 303.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 304.16,
+            "end": 307.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 308.08,
+            "end": 310.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.86,
+            "end": 317.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.34,
+            "end": 329.6,
+            "coverage": 0.9521
+          },
+          {
+            "start": 330.32,
+            "end": 339.44,
+            "coverage": 0.9899
+          },
+          {
+            "start": 340.2,
+            "end": 346.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 347.74,
+            "end": 356.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 357.08,
+            "end": 360.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 361.16,
+            "end": 363.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 364.6,
+            "end": 366.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 367.46,
+            "end": 369.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 370.48,
+            "end": 379.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 380.1,
+            "end": 383.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 384.64,
+            "end": 391.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 391.46,
+            "end": 394.24,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 418.429375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20Part%204.mp3",
+        "audioSha256": "657f5e0cd89e03a5bd988c9d64839f7dc0035093fb52216ec6c29ad21d1cf542",
+        "transcriptSha256": "517a0f25a480f92aa736dc29534f304b40b2c159047f9d0f57f42a54c579e376",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9953,
+        "lines": [
+          {
+            "start": 70.42,
+            "end": 75.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.82,
+            "end": 80.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.68,
+            "end": 87.74,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 88.52,
+            "end": 99.78,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 100.62,
+            "end": 108.88,
+            "coverage": 0.9902,
+            "refined": true
+          },
+          {
+            "start": 109.82,
+            "end": 116.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.92,
+            "end": 125.5,
+            "coverage": 0.987
+          },
+          {
+            "start": 126.28,
+            "end": 137.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 138.48,
+            "end": 147.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.84,
+            "end": 154.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 154.94,
+            "end": 164.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 165.22,
+            "end": 170.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.0,
+            "end": 175.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 176.66,
+            "end": 183.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 184.2,
+            "end": 200.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 201.78,
+            "end": 209.88,
+            "coverage": 0.9891
+          },
+          {
+            "start": 210.52,
+            "end": 213.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.98,
+            "end": 217.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.4,
+            "end": 230.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 231.62,
+            "end": 253.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.82,
+            "end": 268.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 268.94,
+            "end": 276.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.84,
+            "end": 289.48,
+            "coverage": 0.9333
+          },
+          {
+            "start": 290.28,
+            "end": 297.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.32,
+            "end": 305.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.08,
+            "end": 313.06,
+            "coverage": 0.9865
+          },
+          {
+            "start": 313.84,
+            "end": 323.47,
+            "coverage": 0.9884
+          },
+          {
+            "start": 324.43,
+            "end": 332.63,
+            "coverage": 1.0
+          },
+          {
+            "start": 333.53,
+            "end": 336.11,
+            "coverage": 1.0
+          },
+          {
+            "start": 337.35,
+            "end": 345.37,
+            "coverage": 0.9583
+          },
+          {
+            "start": 346.01,
+            "end": 349.43,
+            "coverage": 1.0
+          },
+          {
+            "start": 350.31,
+            "end": 361.61,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.51,
+            "end": 369.95,
+            "coverage": 1.0
+          },
+          {
+            "start": 371.05,
+            "end": 375.57,
+            "coverage": 1.0
+          },
+          {
+            "start": 376.09,
+            "end": 386.35,
+            "coverage": 1.0
+          },
+          {
+            "start": 387.11,
+            "end": 399.41,
+            "coverage": 1.0
+          },
+          {
+            "start": 400.29,
+            "end": 403.75,
+            "coverage": 1.0
+          },
+          {
+            "start": 404.89,
+            "end": 408.25,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 74.1,
+        "line": 7,
+        "evidenceScore": 41.0
+      },
+      "2": {
+        "part": 1,
+        "time": 126.22,
+        "line": 18,
+        "evidenceScore": 49.0
+      },
+      "3": {
+        "part": 1,
+        "time": 144.4,
+        "line": 21,
+        "evidenceScore": 58.0
+      },
+      "4": {
+        "part": 1,
+        "time": 173.84,
+        "line": 25,
+        "evidenceScore": 45.0
+      },
+      "5": {
+        "part": 1,
+        "time": 195.62,
+        "line": 29,
+        "evidenceScore": 44.9
+      },
+      "6": {
+        "part": 1,
+        "time": 224.2,
+        "line": 33,
+        "evidenceScore": 100.0
+      },
+      "7": {
+        "part": 1,
+        "time": 284.98,
+        "line": 39,
+        "evidenceScore": 67.0
+      },
+      "8": {
+        "part": 1,
+        "time": 327.0,
+        "line": 48,
+        "evidenceScore": 48.0
+      },
+      "9": {
+        "part": 1,
+        "time": 355.54,
+        "line": 54,
+        "evidenceScore": 69.0
+      },
+      "10": {
+        "part": 1,
+        "time": 399.42,
+        "line": 61,
+        "evidenceScore": 47.27
+      },
+      "11": {
+        "part": 2,
+        "time": 80.38,
+        "line": 2,
+        "evidenceScore": 81.0
+      },
+      "12": {
+        "part": 2,
+        "time": 104.92,
+        "line": 5,
+        "evidenceScore": 59.28
+      },
+      "13": {
+        "part": 2,
+        "time": 138.08,
+        "line": 10,
+        "evidenceScore": 70.0
+      },
+      "14": {
+        "part": 2,
+        "time": 152.74,
+        "line": 12,
+        "evidenceScore": 101.0
+      },
+      "15": {
+        "part": 2,
+        "time": 188.14,
+        "line": 16,
+        "evidenceScore": 52.0
+      },
+      "16": {
+        "part": 2,
+        "time": 202.66,
+        "line": 19,
+        "evidenceScore": 55.23
+      },
+      "17": {
+        "part": 2,
+        "time": 262.62,
+        "line": 21,
+        "evidenceScore": 53.19
+      },
+      "18": {
+        "part": 2,
+        "time": 262.62,
+        "line": 21,
+        "evidenceScore": 53.19
+      },
+      "19": {
+        "part": 2,
+        "time": 344.46,
+        "line": 32,
+        "evidenceScore": 51.0
+      },
+      "20": {
+        "part": 2,
+        "time": 344.46,
+        "line": 32,
+        "evidenceScore": 51.0
+      },
+      "21": {
+        "part": 3,
+        "time": 58.18,
+        "line": 3,
+        "evidenceScore": 34.0
+      },
+      "22": {
+        "part": 3,
+        "time": 106.4,
+        "line": 12,
+        "evidenceScore": 38.0
+      },
+      "23": {
+        "part": 3,
+        "time": 123.94,
+        "line": 15,
+        "evidenceScore": 33.0
+      },
+      "24": {
+        "part": 3,
+        "time": 146.56,
+        "line": 20,
+        "evidenceScore": 91.0
+      },
+      "25": {
+        "part": 3,
+        "time": 240.69,
+        "line": 28,
+        "evidenceScore": 49.0
+      },
+      "26": {
+        "part": 3,
+        "time": 269.76,
+        "line": 31,
+        "evidenceScore": 78.0
+      },
+      "27": {
+        "part": 3,
+        "time": 292.32,
+        "line": 35,
+        "evidenceScore": 52.0
+      },
+      "28": {
+        "part": 3,
+        "time": 310.86,
+        "line": 40,
+        "evidenceScore": 17.52
+      },
+      "29": {
+        "part": 3,
+        "time": 357.08,
+        "line": 45,
+        "evidenceScore": 34.0
+      },
+      "30": {
+        "part": 3,
+        "time": 384.64,
+        "line": 51,
+        "evidenceScore": 47.0
+      },
+      "31": {
+        "part": 4,
+        "time": 100.62,
+        "line": 4,
+        "evidenceScore": 86.0
+      },
+      "32": {
+        "part": 4,
+        "time": 138.48,
+        "line": 8,
+        "evidenceScore": 59.0
+      },
+      "33": {
+        "part": 4,
+        "time": 154.94,
+        "line": 10,
+        "evidenceScore": 95.0
+      },
+      "34": {
+        "part": 4,
+        "time": 176.66,
+        "line": 13,
+        "evidenceScore": 87.0
+      },
+      "35": {
+        "part": 4,
+        "time": 201.78,
+        "line": 15,
+        "evidenceScore": 112.0
+      },
+      "36": {
+        "part": 4,
+        "time": 231.62,
+        "line": 19,
+        "evidenceScore": 35.79
+      },
+      "37": {
+        "part": 4,
+        "time": 298.32,
+        "line": 24,
+        "evidenceScore": 66.0
+      },
+      "38": {
+        "part": 4,
+        "time": 324.43,
+        "line": 27,
+        "evidenceScore": 121.0
+      },
+      "39": {
+        "part": 4,
+        "time": 350.31,
+        "line": 31,
+        "evidenceScore": 70.0
+      },
+      "40": {
+        "part": 4,
+        "time": 400.29,
+        "line": 36,
+        "evidenceScore": 42.0
+      }
+    }
+  }
+}

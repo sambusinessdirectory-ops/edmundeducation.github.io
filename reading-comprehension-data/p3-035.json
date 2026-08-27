@@ -1,0 +1,290 @@
+{
+  "id": "p3-035",
+  "catalogueId": "p3-035",
+  "title": "Honey bees in trouble",
+  "sourceHeading": "Honeybees in Trouble Can native pollinators fill the gap?",
+  "passage": 3,
+  "practice": 35,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-035-honey-bees-in-trouble",
+  "source": {
+    "filename": "Practice 35 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "8a97f4e5a6cf4f742c0d5919f6cb975644ada01f9089ce1a3022778f2f41b7a1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Recently, ominous headlines have described a mysterious ailment, colony collapse disorder (CCD), that is wiping out the honeybees that pollinate many crops. Without honeybees, the story goes, fields will be sterile, economies will collapse, and food will be scarce."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "But what few accounts acknowledge is that what’s at risk is not itself a natural state of affairs. For one thing, in the United States, where CCD was first reported and has had its greatest impacts, honeybees are not a native species. Pollination in modern agriculture isn’t alchemy; it’s industry. The total number of hives involved in the US pollination industry has been somewhere between 2.5 million and 3 million in recent years. Meanwhile, American farmers began using large quantities of organophosphate insecticides, planted large-scale crop monocultures, and adopted “clean farming” practices that scrubbed native vegetation from field margins and roadsides. These practices killed many native bees outright—they’re as vulnerable to insecticides as any agricultural pest—and made the agricultural landscape inhospitable to those that remained. Concern about these practices and their effects on pollinators isn’t new—in her 1962 ecological alarm cry Silent Spring, Rachel Carson warned of a ‘Fruitless Fall’ that could result from the disappearance of insect pollinators."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "If that ‘Fruitless Fall’ has not—yet—occurred, it may be largely thanks to the honeybee, which farmers turned to as the ability of wild pollinators to service crops declined. The honeybee has been semi-domesticated since the time of the ancient Egyptians, but it wasn’t just familiarity that determined this choice: the bees’ biology is in many ways suited to the kind of agricultural system that was emerging. For example, honeybee hives can be closed up and moved out of the way when pesticides are applied to a field. The bees are generalist pollinators, so they can be used to pollinate many different crops. And although they are not the most efficient pollinator of every crop, honeybees have strength in numbers, with 20,000 to 100,000 bees living in a single hive. “Without a doubt, if there was one bee you wanted for agriculture, it would be the honeybee,” says Jim Cane, of the US Department of Agriculture. The honeybee, in other words, has become a crucial cog in the modern system of industrial agriculture. That system delivers more food, and more kinds of it, to more places, more cheaply than ever before. But that system is also vulnerable, because making a farm field into the photosynthetic equivalent of a factory floor, and pollination into a series of continent-long assembly lines, also leaches out some of the resilience characteristic of natural ecosystems."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Breno Freitas, an agronomist, pointed out that in nature such a high degree of specialisation is usually a very dangerous game: it works well while all the rest is in equilibrium, but can quickly lead to extinction at the slightest imbalance. In effect, by developing an agricultural system that is heavily reliant on a single pollinator species, we humans have become dangerously overspecialised. And when the human-honeybee relationship is disrupted, as it has been by colony collapse disorder, the vulnerability of that agricultural system begins to become clear."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In fact, a few wild bees are already being successfully managed for crop pollination. “The problem is trying to provide native bees in adequate numbers on a reliable basis in a fairly short number of years in order to service the crop,” Jim Cane says. “You’re talking millions of flowers per acre in a two- to three-week time frame, or less, for a lot of crops.” On the other hand, native bees can be much more efficient pollinators of certain crops than honeybees, so you don’t need as many to do the job. For example, about 750 blue orchard bees (Osmia lignaria) can pollinate a hectare of apples or almonds, a task that would require roughly 50,000 to 150,000 honeybees. There are bee tinkerers engaged in similar work in many corners of the world. In Brazil, Breno Freitas has found that Centris tarsata, the native pollinator of wild cashew, can survive in commercial cashew orchards if growers provide a source of floral oils, such as by interplanting their cashew trees with Caribbean cherry."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In certain places, native bees may already be doing more than they’re getting credit for. Ecologist Rachael Winfree recently led a team that looked at pollination of four summer crops (tomato, watermelon, peppers, and muskmelon) at 29 farms in the region of New Jersey and Pennsylvania. Winfree’s team identified 54 species of wild bees that visited these crops, and found that wild bees were the most important pollinators in the system: even though managed honeybees were present on many of the farms, wild bees were responsible for 62 per cent of flower visits in the study. In another study focusing specifically on watermelon, Winfree and her colleagues calculated that native bees alone could provide sufficient pollination at 90 per cent of the 23 farms studied. By contrast, honeybees alone could provide sufficient pollination at only 78 per cent of farms."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "“The region I work in is not typical of the way most food is produced,” Winfree admits. In the Delaware Valley, most farms and farm fields are relatively small; each farmer typically grows a variety of crops, and farms are interspersed with suburbs and other types of land use, which means there are opportunities for homeowners to get involved in bee conservation, too. The landscape is a bee-friendly patchwork that provides a variety of nesting habitat and floral resources distributed among different kinds of crops, weedy field margins, fallow fields, suburban neighborhoods, and semi-natural habitat like old woodlots, all at a relatively small scale. In other words, “pollinator-friendly” farming practices would not only aid pollination of agricultural crops, but also serve as a key element in the overall conservation strategy for wild pollinators, and often aid other wild species as well."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Of course, not all farmers will be able to implement all of these practices. And researchers are suggesting a shift to a kind of polyglot agricultural system. For some small-scale farms, native bees may indeed be all that’s needed. For larger operations, a suite of managed bees—with honeybees filling the generalist role and other native bees pollinating specific crops—could be augmented by free pollination services from resurgent wild pollinators. In other words, they’re saying, we still have an opportunity to replace a risky monoculture with something diverse, resilient, and robust."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 27–30 on your answer sheet, write\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n\n\n27 _________________ In the United States, farmers have used honeybees on a large scale in\nrecent years.\n28 _________________ Clean-farming practices would be harmful to farmers’ health.\n29 _________________ The blue orchard bee is the most efficient pollinator for every crop.\n30 _________________ It is beneficial to other local creatures to protect native bees."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 31–35 on your answer sheet.\n31 The example of the “Fruitless Fall” underlines the writer’s point about\n A the need to use pesticides.\n B impacts of losing insect pollinators.\n C vulnerabilities of native bees.\n D the benefits of building more pollination industries.\n\n32 Why can honeybees adapt to the modern agricultural system?\n A Honeybees can pollinate many crops.\n B The bees have been semi-domesticated since ancient times.\n C Honeybee hives can be moved away from pesticides.\n D The ability of wild pollinators to service crops has declined.\n\n33 The writer mentions factories and assembly lines to illustrate\n A one drawback of the industrialised agricultural system.\n B a low cost in modern agriculture.\n C the role of honeybees in pollination.\n D the high yields achieved by industrial agriculture.\n\n34 In the 6th paragraph, Winfree’s experiment proves that\n A honeybees can pollinate various crops.\n B there are many types of wild bees as pollinators.\n C the wild bees can increase the yield to a higher percentage\n D wild bees work more efficiently as pollinators than honeybees in certain cases.\n\n35 What does the writer want to suggest in the last paragraph?\n A the importance of honeybees in pollination\n B the use of different bee species in agricultural systems of various sizes\n C a comparison between intensive and extensive agricultural systems\n D the reason why farmers can rely on native pollinators"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete each sentence with the correct ending, A–F, below.\nWrite the correct letter, A–F, in boxes 36–40 on your answer sheet.\n A                        native pollinators can survive when a specific plant is supplied.\n\n B                        it would cause severe consequences for both commerce and agriculture.\n\n C                        honeybees cannot be bred.\n\n D                        some agricultural landscapes are favourable for supporting wild bees.\n\n E                        large numbers of honeybees are needed for pollination.\n\n F                        an agricultural system is fragile when relying on a single pollinator.\n\n\n36 _____________ Headlines about colony collapse disorder state that\n37 _____________ Freitas’s observations show that\n38 _____________ Examples of blue orchard bees have shown that\n39 _____________ Centris tarsata is mentioned to exemplify that\n40 _____________ One finding of the research in Delaware Valley is that"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ In the United States, farmers have used honeybees on a large scale in recent years.",
+      "translation": "在美國，近年農民大規模使用 honeybees。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Clean-farming practices would be harmful to farmers’ health.",
+      "translation": "Clean-farming practices 會危害農民健康。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ The blue orchard bee is the most efficient pollinator for every crop.",
+      "translation": "Blue orchard bee 是每一種作物最有效率的授粉者。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ It is beneficial to other local creatures to protect native bees.",
+      "translation": "保護 native bees 對其他本地生物也有好處。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "The example of the “Fruitless Fall” underlines the writer’s point about",
+      "translation": "“Fruitless Fall” 這個例子強調作者關於甚麼的觀點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "Why can honeybees adapt to the modern agricultural system?",
+      "translation": "為甚麼 honeybees 能適應現代農業系統？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "The writer mentions factories and assembly lines to illustrate",
+      "translation": "作者提到 factories 和 assembly lines，是為了說明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "In the 6th paragraph, Winfree’s experiment proves that",
+      "translation": "第六段中，Winfree 的實驗證明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "What does the writer want to suggest in the last paragraph?",
+      "translation": "作者在最後一段想建議甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ Headlines about colony collapse disorder state that",
+      "translation": "關於 colony collapse disorder 的 headlines 表示，它會對商業和農業造成嚴重後果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ Freitas’s observations show that",
+      "translation": "Freitas 的觀察顯示，當農業系統依賴單一授粉者時，系統會變得脆弱。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ Examples of blue orchard bees have shown that",
+      "translation": "Blue orchard bees 的例子顯示，若使用 honeybees 授粉，需要大量 honeybees。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ Centris tarsata is mentioned to exemplify that",
+      "translation": "Centris tarsata 被提及，是為了說明 native pollinators 在提供某種特定植物時可以存活。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_____________ One finding of the research in Delaware Valley is that",
+      "translation": "Delaware Valley 研究的一個發現是，某些農業景觀有利於支持 wild bees。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-035/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-035/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-035/page-7.jpg"
+  ]
+}

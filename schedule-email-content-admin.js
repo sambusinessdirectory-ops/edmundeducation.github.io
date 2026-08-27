@@ -1,4 +1,5 @@
 import {previewEmail,validateEmailDraft,checkEmailSpelling} from './email-preview.mjs';
+import {submitWithRecovery,resolveSubmission,submissionMessage} from './email-submit.mjs';
 const SESSION_KEY = "edmund-schedule-session-v1";
 const settings = window.EDMUND_SUPABASE || {};
 const workerBaseUrl = String(window.EDMUND_SCHEDULE_CONFIG?.workerBaseUrl || "").replace(/\/+$/, "");
@@ -6,6 +7,21 @@ const client = window.supabase?.createClient?.(settings.url, settings.anonKey);
 
 let token = "";
 let snapshot = null;
+let activeSubmission=false,pendingSubmission=null,pendingKey='';
+const recovery=document.querySelector('[data-submission-recovery]');
+function updateRecovery() {
+  recovery.hidden=!pendingSubmission;
+  recovery.querySelector('p').textContent=pendingSubmission?`上次要求尚未核對：${pendingSubmission.requestId}。請先確認結果，避免重複寄送。`:'';
+}
+function storePending(value) {
+  if(value) sessionStorage.setItem(pendingKey,JSON.stringify(value)); else sessionStorage.removeItem(pendingKey);
+  pendingSubmission=value;updateRecovery();
+}
+window.addEventListener('beforeunload',event=>{if(activeSubmission){event.preventDefault();event.returnValue='';}});
+document.addEventListener('click',event=>{
+  if(activeSubmission && event.target.closest('button') && !event.target.closest('dialog')) {event.preventDefault();event.stopImmediatePropagation();return;}
+  if(activeSubmission && event.target.closest('a[href]') && !confirm('訊息仍在上傳／確認中。離開可能中斷上傳，確定離開？')) event.preventDefault();
+},true);
 const gate = document.querySelector("[data-gate]");
 const app = document.querySelector("[data-app]");
 const directory = document.querySelector("[data-directory]");
@@ -41,11 +57,18 @@ async function api(path, options = {}) {
   const headers = new Headers(options.headers || {});
   headers.set("Authorization", `Bearer ${token}`);
   if (options.body && !(options.body instanceof FormData) && !headers.has("Content-Type")) headers.set("Content-Type", "application/json");
-  const response = await fetch(`${workerBaseUrl}${path}`, { ...options, headers });
+  const {timeoutMs=35000,...fetchOptions}=options;
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeoutMs);
+  try {
+  const response = await fetch(`${workerBaseUrl}${path}`, { ...fetchOptions, headers,signal:controller.signal });
   if (response.status === 204) return null;
-  const payload = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(`${payload.error || "服務暫時未能完成要求。"}${payload.requestId ? `（要求 ID：${payload.requestId}）` : ''}`);
+  const payload = await response.json().catch(() => null);
+  if (!response.ok || !payload) {const error=new Error(`${payload?.error || `服務回應異常（HTTP ${response.status}）`}${payload?.requestId ? `（要求 ID：${payload.requestId}）` : ''}`);error.status=response.status;throw error;}
   return payload;
+  } catch(error) {
+    if(controller.signal.aborted) throw new Error('連線逾時，正在確認要求結果。');
+    throw error;
+  } finally {clearTimeout(timer);}
 }
 
 function setStatus(text, error = false) {
@@ -185,7 +208,7 @@ function renderTemplate(data, displayIndex) {
   card.querySelector("[data-all]").addEventListener("click", () => recipients.querySelectorAll("input[type=checkbox]").forEach((box) => { box.checked = true; }));
   card.querySelector("[data-none]").addEventListener("click", () => recipients.querySelectorAll("input[type=checkbox]").forEach((box) => { box.checked = false; }));
 
-  async function save(requestId,approval) {
+  function makeSubmission(approval,sendNow) {
     const form = new FormData();
     form.set("content", textarea.value);
     form.set("enabled", String(enabled.checked));
@@ -199,7 +222,9 @@ function renderTemplate(data, displayIndex) {
     form.set("removeAttachmentIds", JSON.stringify([...savedAttachments.removals]));
     [...(attachmentInput.files || [])].forEach((file) => form.append("attachments", file));
     if(approval) {form.set('previewApproved','true');form.set('spellcheck',approval.spellcheck);}
-    return api(`/v1/admin/email/templates/${data.slot}`, { method: "PATCH", body: form,headers:{'X-Email-Request-ID':requestId} });
+    form.set('sendNow',String(sendNow));
+    form.set('expectedRevision',data.revision||'');
+    return form;
   }
   const localStatus=card.querySelector('[data-card-status]');
   const report=(message,error=false)=>{localStatus.textContent=message;localStatus.dataset.state=error?'error':'';setStatus(message,error);};
@@ -210,7 +235,9 @@ function renderTemplate(data, displayIndex) {
   });
   let busy=false;
   async function submit(sendNow) {
-    if(busy) return;
+    if(busy || activeSubmission) return;
+    if(pendingSubmission) {setStatus('請先使用上方「確認結果／安全解鎖」核對上次要求，避免重複寄送。',true);return;}
+    activeSubmission=true;
     busy=true;const controls=[...card.querySelectorAll('button,input,select,textarea')].map(node=>({node,disabled:node.disabled}));controls.forEach(({node})=>node.disabled=true);
     const requestId=crypto.randomUUID();let objectUrl='',savedSuccessfully=false;
     try {
@@ -225,22 +252,21 @@ function renderTemplate(data, displayIndex) {
         if(signature.files?.[0]) {objectUrl=URL.createObjectURL(signature.files[0]);imageSource=objectUrl;}
         else if(data.hasSignatureImage && !removeSignature.checked) {
           const assets=await api(`/v1/admin/email/templates/${data.slot}/assets`);
+          if(assets.revision!==data.revision) throw new Error('草稿已在其他頁面更新。請重新整理後再次預覽。');
           if(assets.signatureContent) imageSource=`data:${assets.signatureContentType};base64,${assets.signatureContent.replace(/\s/g,'')}`;
         }
         approval=await previewEmail({content:textarea.value,recipients:selected,imageSource,signatureLink:signatureLink.value,attachments:[...existing,...files],sender:snapshot.sender.connectedEmail,action:sendNow?'確認發送':'確認儲存並啟用定期發送'});
         if(!approval) return;
       }
-      report(`正在儲存訊息 ${displayIndex+1}…`);
-      const saved=await save(requestId,approval);
-      savedSuccessfully=true;
-      if(!sendNow) {setStatus(`訊息 ${displayIndex+1} 已儲存。要求 ID：${requestId}`);return;}
-      const options={method:'POST',headers:{'X-Email-Request-ID':requestId},body:JSON.stringify({requestId,revision:saved.revision,previewApproved:true})};
-      let result;
-      try {result=await api(`/v1/admin/email/templates/${data.slot}/send-once`,options);}
-      catch(error) {if(!(error instanceof TypeError)) throw error;result=await api(`/v1/admin/email/templates/${data.slot}/send-once`,options);}
-      setStatus(`已排隊 ${result.emailIds.length} 封（尚未確認送達；通常於 5 分鐘內處理）。電郵 ID：${result.emailIds.join(', ')}。請到 Email Log 查看每個階段。`);
+      const form=makeSubmission(approval,sendNow);
+      storePending({requestId,slot:data.slot,sendNow});
+      report(`正在上傳並${sendNow?'儲存及排隊':'儲存'}訊息 ${displayIndex+1}… 請先不要重新整理或離開本頁。`);
+      const result=await submitWithRecovery({api,slot:data.slot,form,requestId,onProgress:report});
+      storePending(null);
+      savedSuccessfully=result.state!=='cancelled';
+      report(submissionMessage(result),result.state==='cancelled');
     } catch(error) {report(`${error.message||'未能完成。'} 要求 ID：${requestId}。若已排隊，請先檢查 Email Log，避免重寄。`,true);}
-    finally {busy=false;controls.forEach(({node,disabled})=>node.disabled=disabled);if(objectUrl) URL.revokeObjectURL(objectUrl);if(savedSuccessfully) await reloadSnapshot().catch(()=>{});}
+    finally {busy=false;activeSubmission=false;controls.forEach(({node,disabled})=>node.disabled=disabled);if(objectUrl) URL.revokeObjectURL(objectUrl);if(savedSuccessfully) await reloadSnapshot().catch(()=>{});}
   }
   card.querySelector('[data-save]').addEventListener('click',()=>submit(false));
   card.querySelector('[data-send]').addEventListener('click',()=>submit(true));
@@ -315,6 +341,10 @@ async function init() {
     const saved = session();
     if (!saved) throw new Error("請先在功課系統以管理員身分登入。");
     token = saved.adminToken;
+    const ownerHash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(token));
+    pendingKey='edmund-email-pending-v3:'+Array.from(new Uint8Array(ownerHash)).map(x=>x.toString(16).padStart(2,'0')).join('');
+    try {pendingSubmission=JSON.parse(sessionStorage.getItem(pendingKey)||'null');} catch {pendingSubmission=null;}
+    updateRecovery();
     await reloadSnapshot();
     gate.hidden = true;
     app.hidden = false;
@@ -336,5 +366,14 @@ async function init() {
 document.querySelector('[data-public-sender]').addEventListener('click',async()=>{
   try {await api('/v1/admin/email/public-sender',{method:'POST',body:'{}'});setStatus('訪客通知寄件人已設定。');}
   catch(error){setStatus(error.message,true);}
+});
+recovery.querySelector('button').addEventListener('click',async event=>{
+  if(activeSubmission || !pendingSubmission) return;
+  const button=event.currentTarget;button.disabled=true;activeSubmission=true;
+  try {
+    const result=await resolveSubmission(api,pendingSubmission.requestId);
+    storePending(null);await reloadSnapshot();setStatus(submissionMessage(result),result.state==='cancelled');
+  } catch(error) {setStatus(`${error.message} 請稍後再次核對；不要重新建立發送要求。`,true);}
+  finally {button.disabled=false;activeSubmission=false;}
 });
 init();

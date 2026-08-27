@@ -1,0 +1,239 @@
+{
+  "id": "p1-086",
+  "catalogueId": "p1-086",
+  "title": "Could You Pass Me My Glasses, Please?",
+  "sourceHeading": "Could You Pass Me My Glasses, Please?",
+  "passage": 1,
+  "practice": 86,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-086-could-you-pass-me-my-glasses-please",
+  "source": {
+    "filename": "Practice 86  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "ef04df74420484c61285c2e897613b264bec8bf6f1d702dc6b2cc31751615177"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The human eye was not designed for the years of intensive book learning that are now common in modern society. The result is eye strain and deterioration, often at an early age, but this same society has provided the obvious answer: eyeglasses with corrective lenses. Eyeglasses are ubiquitous and come in all styles, colours and designs. Correcting faulty vision with these devices is something almost everyone will probably encounter at some stage in life."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "It is not surprising that the first eyeglasses were made by the Catholic monks dedicated to the writing, translation, and reproduction of finely written religious texts. In contrast to the generally low levels of education and literacy at the time, these monks were versed in many languages and worked for years in dimly lit, candlelit ‘scriptoriums’ – an effort which took its toll on their eyesight. Thus, the earliest pictorial evidence for the use of eyeglasses is a 1352 portrait of the Catholic cardinal Hugh de Provence. However, the usefulness of glasses had already long been realised by the population at large, and by 1300 the trade of lens-grinding was widespread enough to require formal guilds and regulations."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Although popular and effective, no one was quite sure of the mechanism involved. The first detailed mathematical explanation would not come until Johannes Kepler published his work on optics in 1604. Basically, glasses modify the focal length of the eye’s lens. There are two main focusing disorders: myopia and hyperopia. In the case of the first (short-sightedness, in which it is difficult to see objects at a distance), concave lenses are used, compensating for the eye’s refractive error by pushing the focal point back to the retina. Hyperopia (long-sightedness) uses convex lenses to do the opposite, bringing the focal point forward to the retina."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Yet to accommodate the range of situations in which clear vision is needed, from reading books and computer monitors to watching television and driving cars, some glasses are equipped with more than one lens type. The most common are bifocal lenses, with two distinct horizontal viewing areas. A conscious effort is therefore needed to look through the appropriate section of the lens for the task at hand. A helpful variation is the use of lenses that allow progressive transitions, rather than distinct changes between viewing angles. The simplest system is merely to have several pairs of glasses, reserving them for specific tasks."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Most modern lenses are made of polycarbonate plastic, offering lower weight and greater scratch resistance, as well as the ability to screen out harmful ultraviolet and infrared rays from the sun. Similarly, the frames are flexible and lightweight, offering less friction and irritation against the skin. Nevertheless, glasses cannot be said to be convenient devices. They can be streaked by grease, dirt, sweat and vapour while the wearer is eating or cooking, and fogged by condensation caused by temperature changes (such as when exiting a heated building into the colder outdoors). Glasses are also awkward during fast-paced sports or manual work, are rather easily broken and are not cheap to repair."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Obviously then, contact lenses have considerable advantages. These are inserted directly over the pupil, and also have aesthetic appeal. Traditional glasses are sometimes seen as unfashionable, carrying associations of age or infirmity. The almost-invisible contacts avoid this, which is perhaps one reason why most wearers are female. Because they cover the pupil completely, contact lenses also offer better peripheral vision, and are more appropriate for certain less common vision impairments. Their disadvantage is the difficulty and discomfort involved in putting them on and taking them off. They can also result in dryness and irritation."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Interestingly though, the modern era has seen eyeglasses become something of a fashion accessory. The musicians Buddy Holly and John Lennon were so characterised by their glasses that their names have been given to the styles they wore. Glasses can now even be bought ‘off the shelf’, without an eye examination, meeting the demand for quick solutions in a busy society. Although they are a source of much revenue, opticians advise people first to have proper eye examinations, both to ensure the best results and to detect potential eye diseases early, such as glaucoma, which might actually be the root cause of focusing problems."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The face of the future may well be ‘laser eye surgery’. In this process, laser beams are used, usually to alter the curvature of the cornea and thus provide long-term corrective benefits. Although the procedure is straightforward and increasingly safe and affordable, the delicacy of the eye means that a small risk of failure and resulting vision problems remains, such as ghosting or halos. It is an interesting fact that, despite the growth of such surgery and the use of contacts, traditional lenses remain as popular as ever. Nothing, it seems, can match the simple convenience of putting on a pair of glasses."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–3",
+    "g4": "Questions 4–6",
+    "g7": "Questions 7–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 3,
+      "text": "Questions 1–3\nDo the following statements agree with the information given in Reading Passage One?\nWrite:\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n1 _________________ Most people study hard today.\n2 _________________ When glasses were invented, most people could read.\n3 _________________ Most monks suffered eye problems."
+    },
+    {
+      "id": "g4",
+      "start": 4,
+      "end": 6,
+      "text": "Questions 4–6\nComplete the diagram.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nTwo Focusing Problems\n\n\n\n\n4 _________________\n5 _________________\n\nHyperopia\n\n\n\n\n6 _________________"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 10,
+      "text": "Questions 7–10\nAnswer the questions.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWho first explained how glasses function?\n7 _________________\n\n\nWhat is needed when viewing through bifocal glasses?\n8 _________________\n\n\nWhat can cause condensation on glasses?\n9 _________________\n\n\nWhat aspect of vision do contact lenses improve more effectively than glasses?\n10 _________________"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nChoose the correct letter, A, B, C, or D.\n11 Modern lenses are\n  A safer.\n  B heavier.\n  C softer.\n  D more flexible.\n\n\n12 ‘Off-the-shelf’ glasses\n  A are not popular.\n  B can cause glaucoma.\n  C generate substantial revenue for shops.\n  D are recommended.\n\n\n13 Laser eye surgery is\n  A of limited benefit.\n  B more convenient than glasses.\n  C becoming more popular.\n  D complex."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Most people study hard today.",
+      "translation": "現今大多數人都用功學習。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ When glasses were invented, most people could read.",
+      "translation": "眼鏡被發明時，大多數人都能閱讀。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Most monks suffered eye problems.",
+      "translation": "大多數修士都有眼睛問題。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g4",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "圖表要求填寫兩種聚焦問題中的其中一種。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g4",
+      "type": "text",
+      "prompt": "_________________ Hyperopia",
+      "translation": "圖表要求填寫 Myopia 對應使用的鏡片類型。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g4",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "圖表要求填寫 Hyperopia 對應使用的鏡片類型。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What is needed when viewing through bifocal glasses?",
+      "translation": "誰首次解釋眼鏡如何運作？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What can cause condensation on glasses?",
+      "translation": "使用雙焦點眼鏡觀看時需要甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________ What aspect of vision do contact lenses improve more effectively than glasses?",
+      "translation": "甚麼會令眼鏡出現凝結水氣？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "隱形眼鏡比普通眼鏡更有效改善視覺的哪一方面？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Modern lenses are",
+      "translation": "現代鏡片是怎樣的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "‘Off-the-shelf’ glasses",
+      "translation": "現成眼鏡是怎樣的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Laser eye surgery is",
+      "translation": "激光矯視是怎樣的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-086/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-086/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-086/page-6.jpg"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "p2-069",
+  "catalogueId": "p2-069",
+  "title": "The race to make spider silk",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 69,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-069-the-race-to-make-spider-silk",
+  "source": {
+    "filename": "Practice 69 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8679ac22d8620847bd8d7e2ed399250144e113aee8d08a4f96256521088daa02"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Race to Make Spider Silk The strength, toughness, and elasticity of silk continue to fascinate scientists, who wonder what gives this natural material its unusual qualities. Finer than human hair, lighter than cotton, and ounce for ounce stronger than steel, silk is of special interest to materials researchers. They are trying to duplicate its properties and synthesise it for large-scale production. Silk holds the promise of wear-resistant shoes and clothes; stronger ropes, nets, seatbelts and parachutes; rust-free panels and bumpers for automobiles; improved sutures and bandages; artificial tendons and ligaments; supports for weakened blood vessels as well as bulletproof vests."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Many insects secrete silks of varying quality. Best known is the moth Bombyx mori, whose caterpillar is commonly known as the silkworm. It spins its cocoon from a single thread between 300 and 900 metres long and has been used for centuries to make fine garments. But the focus of scientific attention today is on spider silk: tougher, stretchier, and more waterproof than silkworm strands. Spiders make as many as seven different types of silk, but one spider and two types of silk are at the centre of intense interest. The spider is the golden orb-weaving spider, Nephila clavipes. Its two silks under investigation go by the evocative names ‘dragline’ and ‘capture’."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Dragline is the silk which forms the framework of the wheel-shaped webs and enables the dangling spider to drop down and grab its prey. This silk exhibits a combination of strength and toughness unmatched by any high-performance synthetic fibre."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Capture silk is the resilient substance at the centre of the web. To catch a speeding insect, it may stretch to almost three times its original length. Insects get entangled in the sticky web because the stretchiness of capture silk lets the web move back and forth after the insect hits it. If the web were stiff, the insect might just bounce off. Whereas dragline is stronger, capture silk is more flexible, five times more flexible, in fact."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Because the orb weaver’s survival depends on its silk, some 400 million years of evolution have fine-tuned a remarkably tough and versatile material. Now, research groups all over the world are competing to spin the first artificial spider silk, a job that requires a three-step approach: to determine the fibre’s molecular architecture, to understand the genes that yield silk proteins, and then to learn how to spin the raw material into threads."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The first two steps are well underway. The molecular structure for both dragline and capture silk is known and now researchers have cloned several genes for the silks and unravelled their protein structure."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The next step is to find hosts for the artificial genes. Plants and fungi, as well as bacteria, are being considered. If a hardy plant could express a dragline silk gene, silk proteins could eventually be harvested in large quantities, processed into a liquid polymer and spun into fibres in factories. A different experimental approach is to insert the web gene into goats in order to collect the protein from the goats’ milk. Goats are being used instead of the simpler and much cheaper bacteria, because the secret of the protein’s strength lies in how the molecules cross-link with one another. When bacteria are used to make artificial silk, the protein folds in a way that prevents it from cross-linking properly, resulting in hard white lumps. The spider makes protein in a manner similar to the way mammals make milk, so the researchers hope that the protein made in the goats’ mammary glands will be able to cross-link properly. Once the protein is extracted from the goats’ milk, the next step is to find a way to spin it."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Spiders make their silk in environmentally friendly ways. They process proteins from water-based solutions. From a manufacturing point of view, this is very attractive. The process of making synthetic fibres like nylon, on the other hand, requires petroleum products or organic solvents and results in pollution. So biotechnologists are motivated by both the practical and economic potential of generating artificial spider silk. Globally, as much as 60 per cent of the threads used to weave clothing come from natural fibres, including cotton, wool, and silk. The aim is to offer substitutes for natural fibres that are free of the problems of poor wash-wear performance: stretching, wrinkling and shrinkage. They are seeking a better-than-natural alternative fibre for which there is a major market. Bio-inspired materials are providing a new frontier for the fibre business."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–19",
+    "g20": "Questions 20–24",
+    "g25": "Questions 25–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 19,
+      "text": "Questions 15–19\nClassify the following as relating to:\n A                          the silk of Bombyx mori\n\n B                          dragline silk of Nephila clavipes\n\n C                          capture silk of Nephila clavipes\n\n EXAMPLE                    ANSWER\n\n forms the cocoon           A\n15 __________ forms the framework of a web\n16 __________ most elastic silk\n17 __________ allows a spider to drop quickly\n18 __________ single strand can be up to 900 metres long\n19 __________ strongest silk"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 24,
+      "text": "Questions 20–24\nDo the following statements reflect the claims of the writer in the passage?\nWrite:\n YES                        if the statement agrees with the views of the writer\n\n NO                         if the statement contradicts the views of the writer\n\n NOT GIVEN                  if it is impossible to say what the writer thinks about this\n20 _________________ All spiders secrete silk.\n21 _________________ Artificial genes for spider silk have been produced.\n22 _________________ Spider silk protein occurs naturally in goats’ milk.\n23 _________________ China is leading research efforts in the area of spider silk.\n24 _________________ Spider silk is now being produced commercially."
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 27,
+      "text": "Questions 25–27\nUsing NO MORE THAN THREE WORDS from the passage for each answer, complete the\nfollowing.\nComparison of Synthetic and Natural Fibres\n\n Feature                                                          Answer\n\n Main problem in producing synthetic fibres                       25 _________________\n\n Three disadvantages of natural fibres                            26 _________________\n\n Proportion of clothing made from natural fibres                  27 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ forms the framework of a web",
+      "translation": "形成蜘蛛網的框架。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ most elastic silk",
+      "translation": "最有彈性的 silk。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ allows a spider to drop quickly",
+      "translation": "讓蜘蛛可以快速向下落。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ single strand can be up to 900 metres long",
+      "translation": "單一絲線可長達 900 米。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ strongest silk",
+      "translation": "最強的 silk。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ All spiders secrete silk.",
+      "translation": "所有蜘蛛都會分泌 silk。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Artificial genes for spider silk have been produced.",
+      "translation": "用於 spider silk 的人工基因已經被製造出來。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Spider silk protein occurs naturally in goats’ milk.",
+      "translation": "Spider silk protein 天然存在於 goat’s milk 中。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ China is leading research efforts in the area of spider silk.",
+      "translation": "中國在 spider silk 研究方面處於領先地位。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Spider silk is now being produced commercially.",
+      "translation": "Spider silk 現在已經開始商業化生產。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "生產 synthetic fibres 的主要問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "天然纖維的三個缺點。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "由天然纖維製成的衣物比例。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-069/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-069/page-5.jpg"
+  ]
+}

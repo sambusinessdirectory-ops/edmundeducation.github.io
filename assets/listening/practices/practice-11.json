@@ -1,0 +1,3892 @@
+{
+  "schemaVersion": 1,
+  "practice": 11,
+  "title": "IELTS Listening Practice 11",
+  "source": {
+    "file": "IELTS Listening - Practice - 11.pdf",
+    "sha256": "b4783bd7b5f4fe42ea79695d146096cc466c4d7cbddfd8f4c7b085bd74749f7c",
+    "pageCount": 71,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-11-page-4-1.webp",
+          "alt": "Practice 11, source question diagram/table, PDF page 4",
+          "text": "",
+          "page": 4
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-11-page-4-2.webp",
+          "alt": "Practice 11, source question diagram/table, PDF page 4",
+          "text": "",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "Home address: 52 _____ Street, Peacetown",
+          "translation": "",
+          "answer": "Marrowfield",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "Heard about us: from a _____",
+          "translation": "",
+          "answer": "relative",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "Question 3 — refer to the original question paper above.",
+          "translation": "",
+          "answer": "socialise",
+          "alternatives": [
+            "socialize"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "Type of membership: _____ membership (£30)",
+          "translation": "",
+          "answer": "full",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "Question 5 — refer to the original question paper above.",
+          "translation": "",
+          "answer": "Domestic Life",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "Scene must show some _____",
+          "translation": "",
+          "answer": "clouds",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "The _____ was wrong.",
+          "translation": "",
+          "answer": "timing",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "‘_____’",
+          "translation": "",
+          "answer": "Animal Magic",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "Scene must show _____",
+          "translation": "",
+          "answer": "movement",
+          "alternatives": [
+            "animal movement"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "The photograph was too _____.",
+          "translation": "",
+          "answer": "dark",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11 and 12\nChoose TWO letters, A–E.\nWhich TWO warnings does Dan give about picking mushrooms?\nA. Don’t pick more than one variety of mushroom at a time.\nB. Don’t pick mushrooms near busy roads.\nC. Don’t eat mushrooms given to you.\nD. Don’t eat mushrooms while picking them.\nE. Don’t pick old mushrooms.\nQuestions 13 and 14\nChoose TWO letters, A–E.\nWhich TWO ideas about wild mushrooms does Dan say are correct?\nA. Mushrooms should always be peeled before eating.\nB. Mushrooms eaten by animals may be unsafe.\nC. Cooking destroys toxins in mushrooms.\nD. Brightly coloured mushrooms can be edible.\nE. All poisonous mushrooms have a bad smell.",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–20\nChoose the correct letter, A, B or C.\n15. What advice does Dan give about picking mushrooms in parks?\nA. Choose wooded areas.\nB. Don’t disturb wildlife.\nC. Get there early.\n16. Dan says it is a good idea for beginners to\nA. use a mushroom app.\nB. join a group.\nC. take a reference book.\n17. What does Dan say is important for conservation?\nA. selecting only fully grown mushrooms\nB. picking a limited amount of mushrooms\nC. avoiding areas where rare mushroom species grow",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "18. According to Dan, some varieties of wild mushrooms are in decline\nbecause there is\nA. a huge demand for them from restaurants.\nB. a lack of rain in this part of the country.\nC. a rise in building developments locally.\n19. Dan says that when storing mushrooms, people should\nA. keep them in the fridge for no more than two days.\nB. keep them in a brown bag in a dark room.\nC. leave them for a period after washing them.\n20. What does Dan say about trying new varieties of mushrooms?\nA. Experiment with different recipes.\nB. Expect some to have a strong taste.\nC. Cook them for a long time.",
+          "page": 8
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            11,
+            12
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO warnings does Dan give about picking mushrooms?",
+          "translation": "",
+          "answers": [
+            "B",
+            "C"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "Don’t pick more than one variety of mushroom at a time.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Don’t pick mushrooms near busy roads.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Don’t eat mushrooms given to you.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Don’t eat mushrooms while picking them.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Don’t pick old mushrooms.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            13,
+            14
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO ideas about wild mushrooms does Dan say are correct?",
+          "translation": "",
+          "answers": [
+            "B",
+            "D"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "Mushrooms should always be peeled before eating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Mushrooms eaten by animals may be unsafe.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Cooking destroys toxins in mushrooms.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Brightly coloured mushrooms can be edible.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "All poisonous mushrooms have a bad smell.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "What advice does Dan give about picking mushrooms in parks?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "Choose wooded areas.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Don’t disturb wildlife.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Get there early.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "Dan says it is a good idea for beginners to",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "use a mushroom app.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "join a group.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "take a reference book.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "What does Dan say is important for conservation?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "selecting only fully grown mushrooms",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "picking a limited amount of mushrooms",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "avoiding areas where rare mushroom species grow",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "According to Dan, some varieties of wild mushrooms are in decline because there is",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "a huge demand for them from restaurants.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a lack of rain in this part of the country.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a rise in building developments locally.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "Dan says that when storing mushrooms, people should",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "keep them in the fridge for no more than two days.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "keep them in a brown bag in a dark room.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "leave them for a period after washing them.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "What does Dan say about trying new varieties of mushrooms?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "Experiment with different recipes.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Expect some to have a strong taste.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Cook them for a long time.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21 and 22\nChoose TWO letters, A–E.\nWhich TWO opinions about the Luddites do the students express?\nA. Their actions were ineffective.\nB. They are still influential today.\nC. They have received unfair criticism.\nD. They were proved right.\nE. Their attitude is understandable.\nQuestions 23 and 24\nChoose TWO letters, A–E.\nWhich TWO predictions about the future of work are the students doubtful\nabout?\nA. Work will be more rewarding.\nB. Unemployment will fall.\nC. People will want to delay retiring.\nD. Working hours will be shorter.\nE. People will change jobs more frequently.",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nWhat comment do the students make about each of the following jobs?\nChoose SIX answers from the box and write the correct letter, A–G, next to\nQuestions 25–30.\nComments\nA. These jobs are likely to be at risk.\nB. Their role has become more interesting in recent years.\nC. The number of people working in this sector has fallen dramatically.\nD. This job will require more qualifications.\nE. Higher disposable income has led to a huge increase in jobs.\nF. There is likely to be a significant rise in demand for this service.\nG. Both employment and productivity have risen.\nJobs\n25. Accountants __________\n26. Hairdressers __________\n27. Administrative staff __________\n28. Agricultural workers __________\n29. Care workers __________\n30. Bank clerks __________",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO opinions about the Luddites do the students express?",
+          "translation": "",
+          "answers": [
+            "A",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "Their actions were ineffective.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They are still influential today.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They have received unfair criticism.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They were proved right.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Their attitude is understandable.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            23,
+            24
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO predictions about the future of work are the students doubtful about?",
+          "translation": "",
+          "answers": [
+            "B",
+            "D"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "Work will be more rewarding.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Unemployment will fall.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People will want to delay retiring.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Working hours will be shorter.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "People will change jobs more frequently.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "Accountants",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "These jobs are likely to be at risk.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Their role has become more interesting in recent years.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The number of people working in this sector has fallen dramatically.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "This job will require more qualifications.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Higher disposable income has led to a huge increase in jobs.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "There is likely to be a significant rise in demand for this service.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "Both employment and productivity have risen.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "Hairdressers",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "These jobs are likely to be at risk.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Their role has become more interesting in recent years.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The number of people working in this sector has fallen dramatically.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "This job will require more qualifications.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Higher disposable income has led to a huge increase in jobs.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "There is likely to be a significant rise in demand for this service.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "Both employment and productivity have risen.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "Administrative staff",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "These jobs are likely to be at risk.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Their role has become more interesting in recent years.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The number of people working in this sector has fallen dramatically.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "This job will require more qualifications.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Higher disposable income has led to a huge increase in jobs.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "There is likely to be a significant rise in demand for this service.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "Both employment and productivity have risen.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "Agricultural workers",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "These jobs are likely to be at risk.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Their role has become more interesting in recent years.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The number of people working in this sector has fallen dramatically.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "This job will require more qualifications.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Higher disposable income has led to a huge increase in jobs.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "There is likely to be a significant rise in demand for this service.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "Both employment and productivity have risen.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "Care workers",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "These jobs are likely to be at risk.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Their role has become more interesting in recent years.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The number of people working in this sector has fallen dramatically.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "This job will require more qualifications.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Higher disposable income has led to a huge increase in jobs.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "There is likely to be a significant rise in demand for this service.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "Both employment and productivity have risen.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Bank clerks",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "These jobs are likely to be at risk.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Their role has become more interesting in recent years.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "The number of people working in this sector has fallen dramatically.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "This job will require more qualifications.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "Higher disposable income has led to a huge increase in jobs.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "There is likely to be a significant rise in demand for this service.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "Both employment and productivity have risen.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nSpace Traffic Management\nA Space Traffic Management system\n● is a concept similar to Air Traffic Control, but for satellites rather than\nplanes.\n● would aim to set up legal and 31 __________ ways of improving safety.\n● does not actually exist at present.\nProblems in developing effective Space Traffic Management\n● Satellites are now quite 32 __________ and therefore more widespread,\ne.g. there are constellations made up of 33 __________ of satellites.\n● At present, satellites are not required to transmit information to help\nwith their 34 __________.\n● There are few systems for 35 __________ satellites.\n● Small pieces of debris may be difficult to identify.\n● Operators may be unwilling to share details of satellites used for 36\n__________ or commercial reasons.\n● It may be hard to collect details of the object’s 37 __________ at a given\ntime.\n● Scientists can only make a 38 __________ about where the satellite will\ngo.",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "Solutions\n● Common standards should be agreed on for the presentation of\ninformation.\n● The information should be combined in one 39 __________.\n● A coordinated system must be designed to create 40 __________ in its\nusers.",
+          "page": 14
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● would aim to set up legal and 31 __________ ways of improving safety.",
+          "translation": "",
+          "answer": "technical",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● Satellites are now quite 32 __________ and therefore more widespread,",
+          "translation": "",
+          "answer": "cheap",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "e.g. there are constellations made up of 33 __________ of satellites.",
+          "translation": "",
+          "answer": "thousands",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "with their 34 __________.",
+          "translation": "",
+          "answer": "identification",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● There are few systems for 35 __________ satellites.",
+          "translation": "",
+          "answer": "tracking",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● Operators may be unwilling to share details of satellites used for 36 __________ or commercial reasons.",
+          "translation": "",
+          "answer": "military",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● It may be hard to collect details of the object’s 37 __________ at a given",
+          "translation": "",
+          "answer": "location",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "● Scientists can only make a 38 __________ about where the satellite will",
+          "translation": "",
+          "answer": "prediction",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● The information should be combined in one 39 __________.",
+          "translation": "",
+          "answer": "database",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● A coordinated system must be designed to create 40 __________ in its",
+          "translation": "",
+          "answer": "trust",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "BREDA: Hello, Wayside Camera Club, Breda speaking.",
+        "zh": "Breda：您好，這裡是 Wayside Camera Club，我是 Breda。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "DAN: Oh, hello, um, my name’s Dan and I’d like to join your club.",
+        "zh": "Dan：哦，你好，嗯，我叫 Dan，我想加入你們的俱樂部。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "BREDA: That’s great, Dan.",
+        "zh": "Breda：太好了，Dan。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "We have an application form – would you like to complete it over the phone, then you can ask any questions you might have?",
+        "zh": "我們有一份申請表——你想透過電話填寫嗎？這樣你有任何問題也可以順便問。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "DAN: Oh, yes, thanks.",
+        "zh": "Dan：哦，好的，謝謝。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "BREDA: OK, so what’s your family name?",
+        "zh": "Breda：好的，那你的姓氏是什麼？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "DAN: It’s Green – Dan Green.",
+        "zh": "Dan：是 Green，Dan Green。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "BREDA: So – can I take your email address?",
+        "zh": "Breda：那麼，可以告訴我你的電子郵件地址嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "DAN: Yes, it’s dan1068@market.com.",
+        "zh": "Dan：可以，是 dan1068@market.com。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "BREDA: Thanks. And what about your home address?",
+        "zh": "Breda：謝謝。那你的住址呢？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "DAN: Well, I’m about ten miles away from your club in Peacetown.",
+        "zh": "Dan：嗯，我住在 Peacetown，離你們俱樂部大約十英里。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "I live in a house there.",
+        "zh": "我住在那裡的一棟房子裡。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "BREDA: OK, so what’s the house number and street?",
+        "zh": "Breda：好的，那門牌號和街道是什麼？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "DAN: It’s 52 Marrowfield Street.",
+        "zh": "Dan：是 Marrowfield Street 52 號。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "BREDA: Is that M-A double R-O-W-F-I-E-L-D?",
+        "zh": "Breda：是 M-A，兩個 R， O-W-F-I-E-L-D 嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "DAN: That’s right.",
+        "zh": "Dan：沒錯。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "BREDA: … and that’s Peacetown, you said?",
+        "zh": "Breda：……你剛才說是在 Peacetown ，對嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "DAN: Uhuh.",
+        "zh": "Dan：嗯。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "BREDA: So how did you hear about our club?",
+        "zh": "Breda：那你是怎麼知道我們俱樂部的？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "Did you look on the internet?",
+        "zh": "是在網路上看到的嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "DAN: I usually do that, but this time, well, I was talking to a relative the other day and he suggested it.",
+        "zh": "Dan：我通常會上網查，但這次不是。前幾天我和一位親戚聊天，是他推薦的。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "BREDA: Oh, is he a member too?",
+        "zh": "Breda：哦，他也是會員嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "DAN: He belongs to another club – but he’d heard good things about yours.",
+        "zh": "Dan：他是另一個俱樂部的會員，但他聽說你們俱樂部很不錯。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "BREDA: OK. So what do you hope to get from joining?",
+        "zh": "Breda：好的。那你希望加入後獲得什麼？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "DAN: Well, one thing that really interests me is the competitions that you have.",
+        "zh": "Dan：嗯，我很感興趣的一件事是你們舉辦的比賽。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "I enjoy entering those.",
+        "zh": "我喜歡參加這類比賽。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "BREDA: Right. Anything else?",
+        "zh": "Breda：明白。還有其他原因嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "DAN: Well, I also like to socialise with other photographers.",
+        "zh": "Dan：嗯，我也喜歡和其他攝影師交流。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "BREDA: That’s great. So what type of membership would you like?",
+        "zh": "Breda：很好。那你想申請哪一類會員？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "DAN: What are the options?",
+        "zh": "Dan：有哪些選項？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "BREDA: It’s £30 a year for full membership or £20 a year if you’re an associate.",
+        "zh": "Breda：正式會員一年 30 英鎊，準會員一年 20 英鎊。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "DAN: I think I’ll go for the full membership, then.",
+        "zh": "Dan：那我想我會選正式會員。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "BREDA: That’s a good idea because you can’t vote in meetings with an associate membership.",
+        "zh": "Breda：這是個好選擇，因為準會員在會議中不能投票。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "BREDA: If I could just find out a bit more about you …",
+        "zh": "Breda：如果可以的話，我想再多了解你一點……",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "DAN: OK.",
+        "zh": "Dan：好的。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "BREDA: So you said you wanted to compete – have you ever won any photography competitions?",
+        "zh": "Breda：你剛才說你想參加比賽—— 你以前有贏過攝影比賽嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "DAN: Not yet, but I have entered three in the past.",
+        "zh": "Dan：還沒有，但我過去參加過三次。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "BREDA: Oh, that’s interesting.",
+        "zh": "Breda：哦，那很有意思。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "So why don’t you tell me something about those?",
+        "zh": "那你不妨跟我說說那些比賽。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "Let’s start with the first one.",
+        "zh": "我們從第一個開始吧。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "DAN: Well, the theme was entitled “Domestic Life”.",
+        "zh": "Dan：嗯，主題叫做 “Domestic Life” 。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "BREDA: I see – so it had to be something related to the home?",
+        "zh": "Breda：我明白，所以必須是和家庭有關的內容？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "DAN: Yeah. I chose to take a photo of a family sitting round the dinner table having a meal, and, um, I didn’t win, but I did get some feedback.",
+        "zh": "Dan：是的。我選擇拍一家人圍坐在餐桌旁吃飯的照片，嗯，我沒有贏，但確實得到了一些回饋。",
+        "sourcePages": [
+          24,
+          25
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "BREDA: Oh, what did the judges say?",
+        "zh": "Breda：哦，評審怎麼說？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "DAN: That it was too “busy” as a picture.",
+        "zh": "Dan：他們說這張照片畫面太「雜亂」。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "BREDA: Aha – so it was the composition of the picture that they criticised?",
+        "zh": "Breda：啊哈，所以他們批評的是照片構圖？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "DAN: That’s right – and once they’d told me that, I could see my mistake.",
+        "zh": "Dan：沒錯。他們一說，我就看出自己的錯誤了。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "BREDA: So what was the theme of the second competition?",
+        "zh": "Breda：那第二次比賽的主題是什麼？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "DAN: Well, my university was on the coast and that area gets a lot of beautiful sunsets, so that was the theme.",
+        "zh": "Dan：嗯，我的大學在海邊，那一帶有很多美麗的日落，所以主題就是日落。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "BREDA: Oh, sunsets, that’s a great theme.",
+        "zh": "Breda：哦，日落，那是很棒的主題。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "DAN: Yes. The instructions were to capture the clouds as well – it couldn’t just be blue sky and a setting sun.",
+        "zh": "Dan：是的。規定還要求拍到雲，不能只有藍天和落日。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "BREDA: Sure, cause they give you all those amazing pinks and purples.",
+        "zh": "Breda：當然，因為雲會呈現那些很漂亮的粉色和紫色。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "DAN: Yeah – and I thought I’d done that well, but the feedback was that I should have waited a bit longer to get the shot.",
+        "zh": "Dan：是啊，我本來覺得自己做得不錯，但回饋說我應該再等久一點再拍。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "BREDA: I see. So the timing wasn’t right.",
+        "zh": "Breda：我明白。所以時機不太對。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "DAN: Yes – I took it too soon, basically.",
+        "zh": "Dan：是的，基本上就是我拍得太早了。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "And then the third competition I entered was called “Animal Magic”.",
+        "zh": "然後我參加的第三個比賽叫做 “Animal Magic”。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-056"
+      },
+      {
+        "en": "BREDA: Well, that’s a difficult subject!",
+        "zh": "Breda：嗯，那可是個困難的主題！",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-057"
+      },
+      {
+        "en": "DAN: I know! I had to take hundreds of shots.",
+        "zh": "Dan：我知道！我拍了好幾百張。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-058"
+      },
+      {
+        "en": "BREDA: I’m sure – because animals move all the time.",
+        "zh": "Breda：我相信，因為動物一直在動。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-059"
+      },
+      {
+        "en": "DAN: That’s what we had to show – there had to be some movement in the scene.",
+        "zh": "Dan：那正是我們必須呈現的內容 ——畫面中必須有某種動作。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-060"
+      },
+      {
+        "en": "I got a great shot of a fox in the end, but I took it at night and, well, I suspected that it was a bit dark, which is what I was told.",
+        "zh": "最後我拍到一張很棒的狐狸照片， 但那是在晚上拍的，而且我也懷疑它有點暗，結果評審也是這麼說的。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-061"
+      },
+      {
+        "en": "BREDA: Well Dan – you seem to be really keen and we’d be delighted to have you in our club.",
+        "zh": "Breda：嗯，Dan，你看起來真的很熱衷攝影，我們會很高興你加入我們俱樂部。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-062"
+      },
+      {
+        "en": "I’m sure we can help with all those areas that you’ve outlined.",
+        "zh": "我相信我們可以幫助你改善剛才提到的那些方面。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-063"
+      },
+      {
+        "en": "DAN: Thanks, that’s great.",
+        "zh": "Dan：謝謝，那太好了。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-064"
+      }
+    ],
+    "2": [
+      {
+        "en": "PRESENTER: This evening we’re delighted to welcome Dan Beagle, who’s just written a book on looking for and finding food in the wild.",
+        "zh": "主持人：今晚我們很高興歡迎 Dan Beagle，他剛寫了一本關於在野外尋找食物的書。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "He’s going to tell us everything we need to know about picking wild mushrooms.",
+        "zh": "他將告訴我們採摘野生蘑菇需要知道的一切。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "DAN: Thank you very much.",
+        "zh": "Dan：非常感謝。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "Well, I need to start by talking about safety.",
+        "zh": "嗯，我需要先從安全談起。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "You really need to know what you’re doing because some mushrooms are extremely poisonous.",
+        "zh": "你真的需要知道自己在做什麼，因為有些蘑菇有劇毒。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "Having said that, once you know what to look for, it’s really worth doing for the amazing variety of mushrooms available – which you can’t get in the shops.",
+        "zh": "話雖如此，一旦你知道該找什麼，這件事真的很值得做，因為野外有各式各樣令人驚喜的蘑菇，而這些在商店裡買不到。",
+        "sourcePages": [
+          28,
+          29
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "But of course, you have to be very careful and that’s why I always say you should never consume mushrooms picked by friends or neighbours.",
+        "zh": "但當然，你必須非常小心，所以我總是說，絕對不要吃朋友或鄰居採來的蘑菇。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "Always remember that some poisonous mushrooms look very similar to edible ones and it’s easy for people to get confused.",
+        "zh": "一定要記住，有些有毒蘑菇看起來和可食用蘑菇非常相似， 人們很容易混淆。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "The other thing to avoid is mushrooms growing beside busy roads for obvious reasons.",
+        "zh": "另一件要避免的事，是採摘繁忙道路旁生長的蘑菇，原因很明顯。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "But nothing beats the taste of freshly picked mushrooms – don’t forget that the ones in the shops are often several days old and past their best.",
+        "zh": "不過，新鮮採摘的蘑菇味道無可比擬。別忘了，商店裡的蘑菇通常已經放了好幾天，過了最佳狀態。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "There are certain ideas about wild mushrooms that it’s important to be aware of.",
+        "zh": "有一些關於野生蘑菇的觀念很重要，大家需要了解。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "Don’t listen to people who tell you that it’s only OK to eat mushrooms that are pale or dull – this is completely untrue.",
+        "zh": "如果有人告訴你只有顏色淡或暗沉的蘑菇才能吃，不要相信，這完全不正確。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "Some edible mushrooms are bright red, for example.",
+        "zh": "例如，有些可食用蘑菇是鮮紅色的。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "Personally, I prefer mushrooms cooked but it won’t do you any harm to eat them uncooked in salads – it’s not necessary to peel them.",
+        "zh": "就我個人而言，我比較喜歡吃煮熟的蘑菇，但把它們生吃放進沙拉裡也不會有害，而且不需要去皮。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "Another thing you should remember is that you can’t tell if a mushroom is safe to eat by its smell.",
+        "zh": "你還應該記住另一點：不能靠氣味判斷蘑菇是否安全可食。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "Some of the most deadly mushrooms have no smell and taste quite nice, apparently.",
+        "zh": "顯然，有些最致命的蘑菇沒有氣味，而且味道還相當不錯。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "Finally, just because deer or squirrels eat a particular mushroom doesn’t mean that you can.",
+        "zh": "最後，鹿或松鼠能吃某種蘑菇，並不代表你也能吃。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "Of course, mushroom picking is associated with the countryside but if you haven’t got a car, your local park can be a great place to start.",
+        "zh": "當然，採蘑菇通常讓人想到鄉村，但如果你沒有車，當地公園也可以是很好的起點。",
+        "sourcePages": [
+          30,
+          31
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "There are usually a range of habitats where mushrooms grow, such as playing fields and wooded areas.",
+        "zh": "通常會有多種蘑菇生長的棲地，例如運動場和林地。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "But you need to be there first thing in the morning, as there’s likely be a lot of competition – not just from people but wildlife too.",
+        "zh": "但你需要一大早就到，因為競爭可能很激烈，不只是人，還有野生動物。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "The deer often get the best mushrooms in my local park.",
+        "zh": "在我當地的公園裡，最好的蘑菇常常被鹿吃掉。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "If you’re a complete beginner, I wouldn’t recommend going alone or relying on photos in a book, even the one I’ve written!",
+        "zh": "如果你是完全的新手，我不建議你獨自前往，也不建議只依賴書上的照片，即使是我寫的那本書也一樣！",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "There are some really good phone apps for identifying mushrooms, but you can’t always rely on getting a good signal in the middle of a wood.",
+        "zh": "有些辨識蘑菇的手機應用程式真的很不錯，但你不能總是指望在樹林深處有良好訊號。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "If possible, you should go with a group led by an expert – you’ll stay safe and learn a lot that way.",
+        "zh": "如果可能，你應該跟著由專家帶領的小組一起去，這樣既安全，也能學到很多。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "Conservation is a really important consideration and you must follow a few basic rules.",
+        "zh": "保育是非常重要的考量，你必須遵守幾條基本規則。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "You should never pick all the mushrooms in one area – collect only enough for your own needs.",
+        "zh": "你絕不應該把一個區域內的蘑菇全部採走，只採自己需要的量就好。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "Be very careful that you don’t trample on young mushrooms or other plants.",
+        "zh": "要非常小心，不要踩到幼小蘑菇或其他植物。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "And make sure you don’t pick any mushrooms that are endangered and protected by law.",
+        "zh": "也要確保不要採摘任何瀕危且受法律保護的蘑菇。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "There’s been a decline in some varieties of wild mushrooms in this part of the country.",
+        "zh": "這個國家這一地區的一些野生蘑菇品種數量已經下降。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "Restaurants are becoming more interested in locally sourced food like wild mushrooms, but the biggest problem is that so many new houses have been built in this area in the last ten years.",
+        "zh": "餐廳對野生蘑菇等本地食材越來越感興趣，但最大的問題是過去十年這一地區建了太多新房子。",
+        "sourcePages": [
+          32,
+          33
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "And more water is being taken from rivers and reservoirs because of this, and mushroom habitats have been destroyed.",
+        "zh": "因此，更多水被從河流和水庫中取走，蘑菇棲地也遭到破壞。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "Anyway, a word of advice on storing mushrooms.",
+        "zh": "無論如何，關於保存蘑菇，我有一點建議。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "Collect them in a brown paper bag and as soon as you get home, put them in the fridge.",
+        "zh": "採摘時把它們放在棕色紙袋裡，一回到家就放進冰箱。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "They’ll be fine for a couple of days, but it’s best to cook them as soon as possible – after washing them really carefully first, of course.",
+        "zh": "它們可以保存幾天，但最好盡快烹調，當然要先非常仔細地清洗。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "So everybody knows what a mushroom tastes like, right?",
+        "zh": "大家都知道蘑菇是什麼味道， 對吧？",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "Well, you’ll be surprised by the huge variety of wild mushrooms there are.",
+        "zh": "嗯，野生蘑菇種類之多會讓你驚訝。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-036"
+      },
+      {
+        "en": "Be adventurous! They’re great in so many dishes – stir fries, risottos, pasta.",
+        "zh": "大膽嘗試吧！它們很適合做很多菜，例如炒菜、義式燉飯和義大利麵。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-037"
+      },
+      {
+        "en": "But just be aware that some people can react badly to certain varieties so it’s a good idea not to eat huge quantities to begin with.",
+        "zh": "但要注意，有些人可能會對某些品種有不良反應，所以一開始最好不要吃太多。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-038"
+      },
+      {
+        "en": "OK, so now I’m going to show you …",
+        "zh": "好的，那麼現在我要給大家看 ……",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-039"
+      }
+    ],
+    "3": [
+      {
+        "en": "YOUNG MAN: That seminar yesterday on automation and the future of work was really good, wasn’t it?",
+        "zh": "男學生：昨天那場關於自動化和未來工作的研討會真的很棒，不是嗎？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "Looking at the first industrial revolution in Britain in the 19th century and seeing how people reacted to massive change was a real eye-opener.",
+        "zh": "看看 19 世紀英國第一次工業革命，以及人們如何應對巨大變革，真的讓人大開眼界。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "YOUNG WOMAN: Yes. It was interesting to hear how people felt about automation then and what challenges they faced.",
+        "zh": "女學生：是的。聽到當時人們如何看待自動化，以及他們面臨哪些挑戰，很有意思。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "I didn’t know that first started with workers in the textile industry.",
+        "zh": "我以前不知道這最早是從紡織業工人開始的。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "YOUNG MAN: With those protesting workers called the Luddites destroying their knitting machines because they were so worried about losing their jobs.",
+        "zh": "男學生：那些抗議的工人被稱為 Luddites，他們因為非常擔心失去工作，就摧毀自己的針織機。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "YOUNG WOMAN: Yes, and ultimately, they didn’t achieve anything.",
+        "zh": "女學生：是的，而且最終他們什麼也沒達成。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "And anyway, industrialisation created more jobs than it destroyed.",
+        "zh": "而且無論如何，工業化創造的工作比它摧毀的更多。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "YOUNG MAN: Yes, that’s true – but it probably didn’t seem a positive thing at the time.",
+        "zh": "男學生：是的，這是真的，但在當時它大概看起來不是件好事。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "I can see why the Luddites felt so threatened.",
+        "zh": "我能理解為什麼 Luddites 會覺得受到那麼大的威脅。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "YOUNG WOMAN: I know. I’m sure I would have felt the same.",
+        "zh": "女學生：我知道。我相信我也會有同樣感受。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "The discussion about the future of work was really optimistic for a change.",
+        "zh": "關於未來工作的討論這次難得很樂觀。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "I like the idea that work won’t involve doing boring, repetitive tasks, as robots will do all that.",
+        "zh": "我喜歡那種未來工作不再包括無聊、重複性任務的想法，因為機器人會做那些事。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "Normally, you only hear negative stuff about the future.",
+        "zh": "通常我們聽到的都是關於未來的負面內容。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "YOUNG MAN: Bit too optimistic, don’t you think?",
+        "zh": "男學生：有點太樂觀了，你不覺得嗎？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "For example, I can’t see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work.",
+        "zh": "例如，所有證據都顯示人們花在工作上的時間比以往更長， 我看不出大家怎麼會突然有更多休閒時間。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "YOUNG WOMAN: No – that’s true.",
+        "zh": "女學生：是啊，那是真的。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "And what about lower unemployment?",
+        "zh": "那失業率降低呢？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "I’m not so sure about that.",
+        "zh": "我對此也不太確定。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "YOUNG MAN: Perhaps in the long term – but not in the foreseeable future.",
+        "zh": "男學生：也許長期來看會吧，但在可預見的未來不會。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "YOUNG WOMAN: Mmm. And I expect most people will be expected to work until they’re much older – as everyone’s living much longer.",
+        "zh": "女學生：嗯。而且我預計大多數人會被要求工作到更老，因為大家壽命都變長了。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "YOUNG MAN: That’s already happening.",
+        "zh": "男學生：這已經在發生了。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "YOUNG WOMAN: I enjoyed all that stuff on how technology has changed some jobs and how they’re likely to change in the near future.",
+        "zh": "女學生：我很喜歡關於科技如何改變某些工作，以及這些工作在不久的將來可能如何改變的那些內容。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "YOUNG MAN: Yeah, incredible. Like accountants.",
+        "zh": "男學生：是啊，很不可思議。像會計師。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "You might think all the technological innovations would have put them out of a job, but in fact there are more of them than ever.",
+        "zh": "你可能會以為所有技術創新會讓他們失業，但事實上會計師的人數比以往更多。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "They’re still really in demand and have become far more efficient.",
+        "zh": "他們仍然非常搶手，而且效率也高得多。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "YOUNG WOMAN: Right. That was amazing.",
+        "zh": "女學生：對，這很驚人。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "Twenty times more accountants in this country compared to the 19th century.",
+        "zh": "這個國家的會計師人數比 19 世紀多了 20 倍。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "YOUNG MAN: I know. I’d never have thought that demand for hairdressing would have gone up so much in the last hundred years.",
+        "zh": "男學生：我知道。我從沒想過過去一百年裡，對美髮服務的需求會增加這麼多。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "One hairdresser for every 287 people now, compared to one for over 1,500.",
+        "zh": "現在每 287 人就有一名美髮師，而以前是超過 1,500 人才有一名。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "YOUNG WOMAN: Yeah because people’s earning power has gone up so they can afford to spend more on personal services like that.",
+        "zh": "女學生：是啊，因為人們的收入能力提高了，所以能花更多錢在這類個人服務上。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "YOUNG MAN: But technology hasn’t changed the actual job that much.",
+        "zh": "男學生：但科技其實沒有太大程度改變這份工作的實際內容。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "YOUNG WOMAN: No, they’ve got hairdryers, etc. but it’s one job where you don’t depend on a computer.",
+        "zh": "女學生：是的，他們有吹風機等等，但這是一份不依賴電腦的工作。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "The kind of work that administrative staff do has changed enormously, thanks to technology.",
+        "zh": "由於科技發展，行政人員所做的工作已經有了巨大變化。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "Even 20 years ago there were secretaries doing dictation and typing.",
+        "zh": "即使在 20 年前，仍有秘書負責聽寫和打字。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "YOUNG MAN: Yes. Really boring compared to these days, when they’re given much more responsibility and higher status.",
+        "zh": "男學生：是的。和現在相比，那真的很無聊；現在他們被賦予更多責任，也有更高地位。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "YOUNG WOMAN: Mmm. A lot of graduates go in for this kind of work now.",
+        "zh": "女學生：嗯。現在很多畢業生都投入這類工作。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "I’d expected there to be a much bigger change in the number of agricultural workers in the 19th century.",
+        "zh": "我原本以為 19 世紀農業工人的人數變化會更大。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "But the 1871 census showed that roughly 25% of the population worked on the land.",
+        "zh": "但 1871 年的人口普查顯示，大約 25% 的人口在土地上工作。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "YOUNG MAN: Yeah, I’d have assumed it would be more than 50%.",
+        "zh": "男學生：是啊，我原本以為會超過 50%。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "Now it’s less than 0.2%.",
+        "zh": "現在則不到 0.2%。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "YOUNG WOMAN: What about care workers?",
+        "zh": "女學生：那照護工作者呢？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "YOUNG MAN: They barely existed in the 19th century as people’s lifespan was so much shorter.",
+        "zh": "男學生：在 19 世紀幾乎沒有這類工作，因為人們壽命短得多。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "But now of course this sector will see huge growth.",
+        "zh": "但現在這個行業當然會大幅成長。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "YOUNG WOMAN: Yeah – and it’s hard enough to meet current demand.",
+        "zh": "女學生：是啊，而且目前需求已經很難滿足了。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "The future looks quite bleak for bank clerks.",
+        "zh": "銀行櫃員的未來看起來相當黯淡。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "They’ve been in decline since ATMs were introduced in the eighties.",
+        "zh": "自從 1980 年代自動提款機出現以來，這類工作就一直在減少。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "YOUNG MAN: And technology will certainly make most of the jobs they do now redundant, I think.",
+        "zh": "男學生：我認為，科技肯定會讓他們現在做的大多數工作變得多餘。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "YOUNG WOMAN: I agree, although the situation may change.",
+        "zh": "女學生：我同意，雖然情況也可能改變。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "It’s very hard to predict what will happen.",
+        "zh": "很難預測會發生什麼。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-049"
+      }
+    ],
+    "4": [
+      {
+        "en": "In today’s astronomy lecture, I’m going to talk about the need for a system to manage the movement of satellites and other objects in orbit around the Earth.",
+        "zh": "在今天的天文學講座中，我要談談為什麼需要一套系統來管理地球軌道上衛星和其他物體的運行。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "In other words, a Space Traffic Management system.",
+        "zh": "換句話說，就是太空交通管理系統。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "We already have effective Air Traffic Control systems that are used internationally to ensure that planes navigate our skies safely.",
+        "zh": "我們已經有國際上使用的有效空中交通管制系統，以確保飛機能在天空中安全航行。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Well, Space Traffic Management is a similar concept, but focusing on the control of satellites.",
+        "zh": "太空交通管理是一個類似概念，但重點在於控制衛星。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "The aim of such a system would be to prevent the danger of collisions in space between the objects in orbit around the Earth.",
+        "zh": "這類系統的目標，是防止地球軌道上的物體在太空中發生碰撞的危險。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "In order to do this, we’d need to have a set of legal measures, and we’d also have to develop the technical systems to enable us to prevent such accidents.",
+        "zh": "為了做到這一點，我們需要一套法律措施，也必須發展技術系統，使我們能夠防止這類事故。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "But unfortunately, at present we don’t actually have a Space Traffic Management system that works.",
+        "zh": "但不幸的是，目前我們其實還沒有一套有效運作的太空交通管理系統。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "So why not? What are the problems in developing such a system?",
+        "zh": "那為什麼沒有呢？開發這樣的系統有什麼問題？",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "Well, for one thing, satellites are relatively cheap these days, compared with how they were in the past, meaning that more people can afford to put them into space.",
+        "zh": "首先，和過去相比，現在衛星相對便宜，這意味著更多人有能力把衛星送上太空。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "So there’s a lot more of them out there, and people aren’t just launching single satellites but whole constellations, consisting of thousands of them designed to work together.",
+        "zh": "所以太空中的衛星數量多了很多，而且人們不只是發射單顆衛星，而是發射整個星座，由數千顆設計來協同工作的衛星組成。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "So space is getting more crowded every day.",
+        "zh": "因此，太空每天都變得更加擁擠。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "But in spite of this, one thing you may be surprised to learn is that you can launch a satellite into space and, once it’s out there, it doesn’t have to send back any information to Earth to allow its identification.",
+        "zh": "但儘管如此，你可能會驚訝地發現，人們可以把衛星發射到太空，而它一旦進入太空，就不必向地球傳回任何能識別其身份的資訊。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "So while we have international systems for ensuring we know where the planes in our skies are, and to prevent them from colliding with one another, when it comes to the safety of satellites, at present we don’t have anything like enough proper ways of tracking them.",
+        "zh": "因此，雖然我們有國際系統確保知道天空中飛機的位置，並防止它們互相碰撞，但談到衛星安全時，目前我們還遠遠沒有足夠完善的追蹤方法。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "And it isn’t just entire satellites that we need to consider.",
+        "zh": "而且我們需要考慮的不只是完整的衛星。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "A greater threat is the huge amount of space debris in orbit around the Earth – broken bits of satellite and junk from space stations and so on.",
+        "zh": "更大的威脅是地球軌道上大量的太空碎片，例如衛星碎片和太空站垃圾等等。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "And some of these are so small that they can be very hard to identify, but they can still be very dangerous.",
+        "zh": "其中一些碎片非常小，很難辨識，但仍然可能非常危險。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "In addition, some operators may be unwilling to share information about the satellites they’ve launched.",
+        "zh": "此外，一些營運者可能不願分享他們發射衛星的資訊。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "For example, a satellite may be designed for military purposes, or it may have been launched for commercial reasons, and the operators don’t want competitors to have information about it.",
+        "zh": "例如，一顆衛星可能是為軍事目的設計，或是因商業原因發射，而營運者不希望競爭對手掌握相關資訊。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "And even if the operators are willing to provide it, the information isn’t easy to collect.",
+        "zh": "即使營運者願意提供資訊， 這些資訊也不容易收集。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "Details are needed about the object itself, as well as about its location at a particular time.",
+        "zh": "我們需要關於物體本身的細節，也需要它在特定時間的位置資訊。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "And remember that a satellite isn’t very big, and it’s likely to be moving at thousands of kilometres an hour.",
+        "zh": "而且要記住，衛星並不大， 並且可能以每小時數千公里的速度移動。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "We don’t have any sensors that can constantly follow something moving so fast, so all that the scientists can do is to put forward a prediction concerning where the satellite is heading next.",
+        "zh": "我們沒有任何感測器能持續追蹤移動如此快速的物體， 所以科學家能做的只是預測衛星接下來會往哪裡去。",
+        "sourcePages": [
+          44,
+          45
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "So those are some of the problems that we’re facing.",
+        "zh": "這些就是我們面臨的一些問題。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "Let’s consider now some of the solutions that have been suggested.",
+        "zh": "現在我們來看看一些已被提出的解決方案。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "One key issue is the way in which information is dealt with.",
+        "zh": "一個關鍵問題是資訊如何被處理。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "We need more information, but it also needs to be accessible at a global level, so we need to establish shared standards that we can all agree on for the way in which this information is presented.",
+        "zh": "我們需要更多資訊，但這些資訊也必須能在全球層級被取得，因此我們需要建立大家都同意的共同標準，規範資訊呈現方式。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "We already do this in other areas of science, so although this is a challenge, it’s not an impossible task.",
+        "zh": "我們在其他科學領域已經這樣做了，所以雖然這是一項挑戰，但並不是不可能完成的任務。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "Then, as all this information’s collected, it needs to be put together so it can be used, and that will involve creating a single database on which it can be entered.",
+        "zh": "接著，當所有資訊被收集起來後，需要整合在一起以便使用，這將涉及建立一個可輸入資訊的單一資料庫。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "As we continue to push forward new developments, congestion of the space environment is only going to increase.",
+        "zh": "隨著我們持續推動新的發展，太空環境的擁擠程度只會增加。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "To cope with this, we need to develop a system like the one I’ve described to coordinate the work of the numerous spacecraft operators.",
+        "zh": "為了應對這種情況，我們需要開發一套像我所描述的系統，用來協調眾多太空器營運者的工作。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "But it’s also essential that this system is one that establishes trust in the people that use it, both nationally and at a global level.",
+        "zh": "但同樣重要的是，這套系統必須能在使用者之間建立信任，無論是在國內還是全球層面。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "One interesting development …",
+        "zh": "一項有趣的發展是……",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-032"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "Marrowfield",
+      "explanation": "題目表格寫： “Home address: 52 _____ Street, Peacetown” 錄音說： “It’s 52 Marrowfield Street.” Breda 隨即確認拼字： “Is that M-A double R-O-W-F-I-E-L-D?” Dan 回答：“That’s right.” 所以地址是 52 Marrowfield Street，空格只需要填 Marrowfield。 這類地址題如果錄音主動拼字，最好完全依照拼出的字母作答： M-A-R-R-O-W-F-I-E-L-D",
+      "sourcePages": [
+        47
+      ]
+    },
+    "2": {
+      "answer": "relative",
+      "explanation": "題目寫： “Heard about us: from a _____” Breda 問 Dan 是否在 internet 找到 club。Dan 說自己平常會上網，但這一次： “I was talking to a relative the other day and he suggested it.” 所以是某位親戚向他推薦 Wayside Camera Club。 答案是 relative。 中伏位：internet 在錄音中出現得很早，但 Dan 已經清楚說這次的資訊來源是 relative。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "3": {
+      "answer": "socialise / socialize",
+      "explanation": "題目寫 Reasons for joining： ● to enter competitions ● to _____ 錄音先說 Dan 很喜歡參加 competitions，之後 Breda 問還有沒有其他原因。 Dan 回： “I also like to socialise with other photographers.” 所以第二個加入原因是與其他攝影師交流。 答案可寫英式 socialise 或美式 socialize。 題目前已有 “to”，所以要填動詞原形： to socialise",
+      "sourcePages": [
+        48
+      ]
+    },
+    "4": {
+      "answer": "full",
+      "explanation": "題目寫： “Type of membership: _____ membership (£30)” 錄音給出兩種選擇： ● full membership = £30 a year ● associate membership = £20 a year Dan 最後說： “I think I’ll go for the full membership, then.” 所以答案是 full。 中伏位：£20 的 associate membership 也有提到，但 Dan 最後選的是 £30 的 full membership，與題目括號內的 £30 亦互相確認。",
+      "sourcePages": [
+        49,
+        50
+      ]
+    },
+    "5": {
+      "answer": "Domestic Life",
+      "explanation": "圖片表格第一個 competition 的 instructions 是： “A scene in the home” 錄音說： “the theme was entitled ‘Domestic Life’.” Breda 再確認： “so it had to be something related to the home?” Dan 回答：“Yeah.” 因此 competition title 是 Domestic Life。 題目要求 ONE WORD AND/OR A NUMBER 嗎？這部分原題的答案格式容許這個兩字專有名稱，所以照原名稱填即可。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "6": {
+      "answer": "clouds",
+      "explanation": "題目在 Beautiful Sunsets 下寫： “Scene must show some _____” 錄音說： “The instructions were to capture the clouds as well – it couldn’t just be blue sky and a setting sun.” 所以比賽照片除了 sunset，也必須拍到 clouds。 “couldn’t just be blue sky and a setting sun” 進一步說明 clouds 是強制要求的一部分。 答案是 clouds。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "7": {
+      "answer": "timing",
+      "explanation": "題目寫 Feedback： “The _____ was wrong.” Dan 說評審認為： “I should have waited a bit longer to get the shot.” Breda 隨即總結： “So the timing wasn’t right.” Dan 確認： “Yes – I took it too soon.” 因此問題出在按快門的時間太早，也就是 timing。 答案是 timing。 這題的證據鏈很完整： should have waited longer → took it too soon → timing wasn’t right",
+      "sourcePages": [
+        51
+      ]
+    },
+    "8": {
+      "answer": "Animal Magic",
+      "explanation": "題目第三項 competition title 是： “‘_____’” 錄音說： “the third competition I entered was called ‘Animal Magic’.” 所以答案是 Animal Magic。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "9": {
+      "answer": "movement / animal movement",
+      "explanation": "題目寫： “Scene must show _____” 錄音談 Animal Magic 時說： “animals move all the time.” Dan 接著說： “That’s what we had to show – there had to be some movement in the scene.” 所以 competition 要求照片表現動物的動態。 答案是 movement；官方亦接受 animal movement。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "10": {
+      "answer": "dark",
+      "explanation": "題目寫： “The photograph was too _____.” Dan 說自己最後拍到 fox： “I took it at night and … I suspected that it was a bit dark, which is what I was told.” 所以評審指出的問題正是照片太暗。 答案是 dark。",
+      "sourcePages": [
+        52,
+        53
+      ]
+    },
+    "11": {
+      "answer": "B and C",
+      "explanation": "題目問 Dan 對採野生蘑菇提出哪兩項 warnings。 B — Don’t pick mushrooms near busy roads Dan 說： “The other thing to avoid is mushrooms growing beside busy roads…” 所以繁忙道路旁生長的 mushrooms 應該避開。 答案 B。 C — Don’t eat mushrooms given to you Dan 很直接地說： “you should never consume mushrooms picked by friends or neighbours.” 原因是： “some poisonous mushrooms look very similar to edible ones and it’s easy for people to get confused.” 即使是朋友或鄰居親自採的，也不能假設他們一定辨認正確。 所以 C 正確。 中伏位：E 看似合理，因為 Dan 說店裡有些 mushrooms 已經 “several days old and past their best”；但那是在比較新鮮度和味道，沒有形成「不要採 old mushrooms」的明確安全規則。",
+      "sourcePages": [
+        53,
+        54
+      ]
+    },
+    "12": {
+      "answer": "B and C",
+      "explanation": "題目問 Dan 對採野生蘑菇提出哪兩項 warnings。 B — Don’t pick mushrooms near busy roads Dan 說： “The other thing to avoid is mushrooms growing beside busy roads…” 所以繁忙道路旁生長的 mushrooms 應該避開。 答案 B。 C — Don’t eat mushrooms given to you Dan 很直接地說： “you should never consume mushrooms picked by friends or neighbours.” 原因是： “some poisonous mushrooms look very similar to edible ones and it’s easy for people to get confused.” 即使是朋友或鄰居親自採的，也不能假設他們一定辨認正確。 所以 C 正確。 中伏位：E 看似合理，因為 Dan 說店裡有些 mushrooms 已經 “several days old and past their best”；但那是在比較新鮮度和味道，沒有形成「不要採 old mushrooms」的明確安全規則。",
+      "sourcePages": [
+        53,
+        54
+      ]
+    },
+    "13": {
+      "answer": "B and D",
+      "explanation": "題目問 Dan 說哪些 wild-mushroom ideas 是正確的。 B — Mushrooms eaten by animals may be unsafe Dan 說： “just because deer or squirrels eat a particular mushroom doesn’t mean that you can.” 這句非常重要。動物可以安全吃某種 mushroom，不代表人類也能吃。 因此： animals eat it → still may be unsafe for humans 所以 B 正確。 D — Brightly coloured mushrooms can be edible Dan 先指出一個錯誤觀念： “it’s only OK to eat mushrooms that are pale or dull – this is completely untrue.” 接著提供反例： “Some edible mushrooms are bright red, for example.” bright red 屬於 brightly coloured，所以顏色鮮艷的 mushrooms 也可能可以食用。 答案 D。 中伏位：A 與錄音相反，Dan 說 “it’s not necessary to peel them”。E 也不合，因為有些最致命的 mushrooms “have no smell”。因此氣味不能用來可靠判斷毒性。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "14": {
+      "answer": "B and D",
+      "explanation": "題目問 Dan 說哪些 wild-mushroom ideas 是正確的。 B — Mushrooms eaten by animals may be unsafe Dan 說： “just because deer or squirrels eat a particular mushroom doesn’t mean that you can.” 這句非常重要。動物可以安全吃某種 mushroom，不代表人類也能吃。 因此： animals eat it → still may be unsafe for humans 所以 B 正確。 D — Brightly coloured mushrooms can be edible Dan 先指出一個錯誤觀念： “it’s only OK to eat mushrooms that are pale or dull – this is completely untrue.” 接著提供反例： “Some edible mushrooms are bright red, for example.” bright red 屬於 brightly coloured，所以顏色鮮艷的 mushrooms 也可能可以食用。 答案 D。 中伏位：A 與錄音相反，Dan 說 “it’s not necessary to peel them”。E 也不合，因為有些最致命的 mushrooms “have no smell”。因此氣味不能用來可靠判斷毒性。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "15": {
+      "answer": "C — Get there early",
+      "explanation": "題目問在 parks 採 mushrooms 時，Dan 有甚麼建議。 錄音說： “you need to be there first thing in the morning” 原因是： “there’s likely to be a lot of competition – not just from people but wildlife too.” 甚至他所在的 park： “The deer often get the best mushrooms.” 所以越早到，越有機會找到好的 mushrooms。 答案是 C — Get there early。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "16": {
+      "answer": "B — join a group",
+      "explanation": "題目問 complete beginners 最好怎樣開始。 Dan 先說： “I wouldn’t recommend going alone” 也提醒書本照片和 phone apps 都有局限。 最後給出明確建議： “If possible, you should go with a group led by an expert – you’ll stay safe and learn a lot that way.” 因此初學者最適合跟著有 expert 帶領的 group。 答案是 B。 中伏位：mushroom apps 被形容為 “really good”，但樹林中可能沒有可靠 signal；reference books 也不建議初學者單靠圖片辨認。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "17": {
+      "answer": "B — picking a limited amount of mushrooms",
+      "explanation": "題目問 conservation 最重要的做法之一。 Dan 說： “You should never pick all the mushrooms in one area – collect only enough for your own needs.” “only enough for your own needs” 就是限制採摘量。 所以答案是 B。 他另外提醒不要踩 young mushrooms、不要採 endangered species；不過選項 C 說的是整個 rare-species 生長區都要避開，錄音沒有提出這個規則。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "18": {
+      "answer": "C — a rise in building developments locally",
+      "explanation": "題目問當地一些 wild mushroom varieties 數量下降的主要原因。 Dan 先說 restaurants 越來越喜歡 locally sourced wild mushrooms，但馬上指出： “the biggest problem is that so many new houses have been built in this area in the last ten years.” 後果包括： “more water is being taken from rivers and reservoirs” 以及： “mushroom habitats have been destroyed.” 所以真正的主要原因是 housing development 增加，進一步破壞棲地。 答案是 C。 “biggest problem” 是這題的控制詞，清楚告訴我們 restaurants 的需求雖然存在，卻不是主要原因。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "19": {
+      "answer": "A — keep them in the fridge for no more than two days",
+      "explanation": "Dan 說： “as soon as you get home, put them in the fridge.” 接著： “They’ll be fine for a couple of days, but it’s best to cook them as soon as possible.” a couple of days = 約兩天。 所以答案是 A。 中伏位：brown paper bag 是採摘和帶回家時使用；回到家之後，保存位置要轉為 fridge。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "20": {
+      "answer": "A — Experiment with different recipes",
+      "explanation": "Dan 說 wild mushrooms 種類非常多，鼓勵聽眾： “Be adventurous!” 再舉出多種吃法： “They’re great in so many dishes – stir fries, risottos, pasta.” 這表示可以用不同菜式、不同烹調方式來嘗試新 varieties。 所以答案是 A — Experiment with different recipes。 中伏位：他真正提醒的是第一次不要吃 “huge quantities”，因為有些人可能會有不良反應；沒有說每一種新 mushroom 都會有 strong taste，也沒有要求長時間烹煮。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "21": {
+      "answer": "A and E",
+      "explanation": "題目問兩位學生對 Luddites 有哪兩個共同看法。 A — Their actions were ineffective 女學生說： “ultimately, they didn’t achieve anything.” 又補充 industrialisation： “created more jobs than it destroyed.” 男學生回答： “Yes, that’s true.” “didn’t achieve anything” 直接對應 their actions were ineffective。 所以 A 正確。 E — Their attitude is understandable 男學生雖然承認 Luddites 沒有成功，但說： “I can see why the Luddites felt so threatened.” 女學生立刻回應： “I’m sure I would have felt the same.” 所以兩人都理解當時工人面對機械化、擔心失去工作的心理。 答案 E。 這題需要把「對結果的評價」和「對情緒的理解」分開： 行動沒有成功 → A 恐懼和反應可以理解 → E",
+      "sourcePages": [
+        59,
+        60,
+        61
+      ]
+    },
+    "22": {
+      "answer": "A and E",
+      "explanation": "題目問兩位學生對 Luddites 有哪兩個共同看法。 A — Their actions were ineffective 女學生說： “ultimately, they didn’t achieve anything.” 又補充 industrialisation： “created more jobs than it destroyed.” 男學生回答： “Yes, that’s true.” “didn’t achieve anything” 直接對應 their actions were ineffective。 所以 A 正確。 E — Their attitude is understandable 男學生雖然承認 Luddites 沒有成功，但說： “I can see why the Luddites felt so threatened.” 女學生立刻回應： “I’m sure I would have felt the same.” 所以兩人都理解當時工人面對機械化、擔心失去工作的心理。 答案 E。 這題需要把「對結果的評價」和「對情緒的理解」分開： 行動沒有成功 → A 恐懼和反應可以理解 → E",
+      "sourcePages": [
+        59,
+        60,
+        61
+      ]
+    },
+    "23": {
+      "answer": "B and D",
+      "explanation": "題目問：兩位學生對哪些 future-of-work predictions 抱有懷疑。 D — Working hours will be shorter 男學生對「更多 leisure time」表示懷疑： “I can’t see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work.” 女學生回： “No – that’s true.” 更多 leisure time 在這個語境等同於工作時間縮短；兩人都不相信這個預測。 所以 D 正確。 B — Unemployment will fall 女學生直接提出： “And what about lower unemployment? I’m not so sure about that.” 男學生回答： “Perhaps in the long term – but not in the foreseeable future.” 所以兩人都對失業率近期下降抱有保留。 答案 B。 中伏位：C 提到人們會工作到更老，男學生反而說 “That’s already happening”，並沒有質疑。A 則是女學生很喜歡的樂觀想法，沒有形成雙方共同懷疑。",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "24": {
+      "answer": "B and D",
+      "explanation": "題目問：兩位學生對哪些 future-of-work predictions 抱有懷疑。 D — Working hours will be shorter 男學生對「更多 leisure time」表示懷疑： “I can’t see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work.” 女學生回： “No – that’s true.” 更多 leisure time 在這個語境等同於工作時間縮短；兩人都不相信這個預測。 所以 D 正確。 B — Unemployment will fall 女學生直接提出： “And what about lower unemployment? I’m not so sure about that.” 男學生回答： “Perhaps in the long term – but not in the foreseeable future.” 所以兩人都對失業率近期下降抱有保留。 答案 B。 中伏位：C 提到人們會工作到更老，男學生反而說 “That’s already happening”，並沒有質疑。A 則是女學生很喜歡的樂觀想法，沒有形成雙方共同懷疑。",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "25": {
+      "answer": "G — Both employment and productivity have risen",
+      "explanation": "題目人物是 Accountants。 男學生說科技沒有令 accountants 消失： “there are more of them than ever.” 同時： “They’re still really in demand and have become far more efficient.” more accountants = employment 上升 more efficient = productivity 上升所以答案是 G。 女學生補充今天的 accountants 數量比 19 世紀多 20 倍，進一步支持 employment 大幅增加。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "26": {
+      "answer": "E — Higher disposable income has led to a huge increase in jobs",
+      "explanation": "題目人物是 Hairdressers。 男學生指出： “demand for hairdressing … has gone up so much” 數據由以前每 1,500 多人才有一位 hairdresser，變成現在每 287 人就有一位。 女學生解釋原因： “people’s earning power has gone up so they can afford to spend more on personal services like that.” earning power increased → 可花更多錢在 hairdressing → demand 和 employment 大增。 所以答案是 E。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "27": {
+      "answer": "B — Their role has become more interesting in recent years",
+      "explanation": "題目是 Administrative staff。 女學生說科技讓這份工作的內容： “changed enormously.” 以前 secretaries 主要做： “dictation and typing” 男學生形容那類工作： “Really boring compared to these days” 現在則： “they’re given much more responsibility and higher status.” 所以 contemporary administrative work 的角色更豐富、更有責任，與以前相比更有趣。 答案是 B。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "28": {
+      "answer": "C — The number of people working in this sector has fallen dramatically",
+      "explanation": "題目是 Agricultural workers。 錄音給出一個非常強烈的數字比較： 1871：約 25% of the population worked on the land 現在：less than 0.2% 由四分之一人口降至不足 0.2%，明顯屬於 dramatic fall。 所以答案是 C。",
+      "sourcePages": [
+        63
+      ],
+      "evidenceRows": [
+        37,
+        39
+      ]
+    },
+    "29": {
+      "answer": "F — There is likely to be a significant rise in demand for this service",
+      "explanation": "題目是 Care workers。 男學生說 19 世紀： “They barely existed” 因為當時人類平均壽命短得多。 談到現在及未來： “this sector will see huge growth.” 女學生更指出： “it’s hard enough to meet current demand.” 所以現時需求已經高，而人口壽命延長會令 future demand 繼續大幅增加。 答案是 F。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "30": {
+      "answer": "A — These jobs are likely to be at risk",
+      "explanation": "題目是 Bank clerks。 女學生直接說： “The future looks quite bleak for bank clerks.” 並指出： “They’ve been in decline since ATMs were introduced…” 男學生再說： “technology will certainly make most of the jobs they do now redundant” redundant 表示這些工作可能不再需要。 所以答案是 A — These jobs are likely to be at risk。",
+      "sourcePages": [
+        65,
+        66
+      ]
+    },
+    "31": {
+      "answer": "technical",
+      "explanation": "題目寫： “would aim to set up legal and _____ ways of improving safety.” 錄音說若要避免太空碰撞，需要： “a set of legal measures” 同時： “develop the technical systems to enable us to prevent such accidents.” 題目把這兩類方案平行整理成： legal and technical ways 所以答案是 technical。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "32": {
+      "answer": "cheap",
+      "explanation": "題目寫： “Satellites are now quite _____ and therefore more widespread” 錄音說： “satellites are relatively cheap these days, compared with how they were in the past” 後果是： “more people can afford to put them into space.” 因此衛星變便宜 → 更多人有能力發射 → 太空中的 satellites 越來越多。 答案是 cheap。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "33": {
+      "answer": "thousands",
+      "explanation": "題目寫： “constellations made up of _____ of satellites.” 錄音說： “whole constellations, consisting of thousands of them designed to work together.” 所以答案是 thousands。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "34": {
+      "answer": "identification",
+      "explanation": "題目寫： “satellites are not required to transmit information to help with their _____.” 錄音說一顆 satellite 進入太空後： “it doesn’t have to send back any information to Earth to allow its identification.” allow its identification = help with its identification。 所以答案是 identification。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "35": {
+      "answer": "tracking",
+      "explanation": "題目寫： “There are few systems for _____ satellites.” 錄音把 Air Traffic Control 與 satellite management 作比較，最後指出： “we don’t have anything like enough proper ways of tracking them.” “them” 指 satellites。 所以答案是 tracking。 這題的重點是：即使我們知道衛星很多，現時仍缺乏足夠完善的方法持續掌握它們的位置與移動。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "36": {
+      "answer": "military",
+      "explanation": "題目寫： “satellites used for _____ or commercial reasons.” 錄音說： “a satellite may be designed for military purposes, or it may have been launched for commercial reasons” 題目把 “military purposes” 簡化為： military or commercial reasons 所以答案是 military。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "37": {
+      "answer": "location",
+      "explanation": "題目寫： “It may be hard to collect details of the object’s _____ at a given time.” 錄音說： “Details are needed about the object itself, as well as about its location at a particular time.” “at a particular time” = at a given time。 所以答案是 location。 這項資料特別難收集，因為 satellite 體積不大，而且每小時可能移動數千公里。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "38": {
+      "answer": "prediction",
+      "explanation": "題目寫： “Scientists can only make a _____ about where the satellite will go.” 錄音先解釋困難： “We don’t have any sensors that can constantly follow something moving so fast” 因此： “all that the scientists can do is to put forward a prediction concerning where the satellite is heading next.” put forward a prediction = make a prediction。 所以答案是 prediction。 這題的完整邏輯是： 無法持續追蹤 → 不能知道確切未來位置 → 只能預測下一步軌跡",
+      "sourcePages": [
+        70
+      ]
+    },
+    "39": {
+      "answer": "database",
+      "explanation": "題目寫： “The information should be combined in one _____.” 錄音說所有資料收集後： “it needs to be put together so it can be used” 具體做法是： “creating a single database on which it can be entered.” “put together” 對應 combined；“single” 對應 one。 所以答案是 database。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "40": {
+      "answer": "trust",
+      "explanation": "題目寫： “A coordinated system must be designed to create _____ in its users.” 錄音最後指出，一套全球合作的 Space Traffic Management system 要成功，不只需要技術和資料，也必須： “establish trust in the people that use it, both nationally and at a global level.” establish trust = create trust。 所以答案是 trust。 這一點其實是整個 system 能否真正運作的社會條件：不同國家、商業營運者和其他 satellite operators 必須願意依賴共同制度、提供資料並相信其他參與者也會遵守規則。只有建立 trust，前面所說的 shared standards、database 和 coordinated system 才能真正發揮作用。",
+      "sourcePages": [
+        71
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 374.099625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%201.mp3",
+        "audioSha256": "c63083f44ebf181151ddd7a559031cc8aa50cbc300823bb08e6f00b453a50262",
+        "transcriptSha256": "d6e9c9010b9ecdc729d66ef0d71f9f54b6e0ee038628953bdf860a656bbe451e",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9976,
+        "lines": [
+          {
+            "start": 38.3,
+            "end": 41.36,
+            "coverage": 0.9714
+          },
+          {
+            "start": 42.14,
+            "end": 46.1,
+            "coverage": 0.9524
+          },
+          {
+            "start": 46.58,
+            "end": 47.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 48.04,
+            "end": 55.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 55.46,
+            "end": 56.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.26,
+            "end": 59.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 60.36,
+            "end": 61.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.62,
+            "end": 65.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 65.52,
+            "end": 72.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 72.8,
+            "end": 76.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.84,
+            "end": 81.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.92,
+            "end": 83.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 83.3,
+            "end": 86.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.18,
+            "end": 90.72,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 91.28,
+            "end": 102.06,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 102.5,
+            "end": 103.06,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 103.8,
+            "end": 106.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.44,
+            "end": 106.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.3,
+            "end": 109.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.22,
+            "end": 111.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.34,
+            "end": 120.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.48,
+            "end": 122.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 122.92,
+            "end": 127.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.72,
+            "end": 131.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 132.16,
+            "end": 137.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 137.94,
+            "end": 139.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 139.4,
+            "end": 141.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 141.56,
+            "end": 145.48,
+            "coverage": 0.9783
+          },
+          {
+            "start": 145.48,
+            "end": 150.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 150.16,
+            "end": 151.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 151.68,
+            "end": 158.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 158.36,
+            "end": 162.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 162.3,
+            "end": 168.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.28,
+            "end": 217.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.08,
+            "end": 218.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 218.98,
+            "end": 224.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.36,
+            "end": 229.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.76,
+            "end": 231.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 231.92,
+            "end": 234.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 235.12,
+            "end": 236.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 237.22,
+            "end": 241.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.58,
+            "end": 245.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 245.8,
+            "end": 257.92,
+            "coverage": 0.9808
+          },
+          {
+            "start": 258.48,
+            "end": 260.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 260.92,
+            "end": 263.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.74,
+            "end": 268.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.32,
+            "end": 274.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 274.26,
+            "end": 277.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 278.74,
+            "end": 287.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.76,
+            "end": 290.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 291.24,
+            "end": 299.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 299.6,
+            "end": 303.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 303.6,
+            "end": 312.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 312.42,
+            "end": 315.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 315.96,
+            "end": 318.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.32,
+            "end": 324.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.6,
+            "end": 326.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.4,
+            "end": 330.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.84,
+            "end": 334.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 334.8,
+            "end": 339.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.24,
+            "end": 351.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 351.86,
+            "end": 357.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 357.46,
+            "end": 361.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.06,
+            "end": 363.2,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 440.137125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%202.mp3",
+        "audioSha256": "f91973066df54119f8c1b5559d8ab1599a396b7540953a11f0878ad920d8a7b1",
+        "transcriptSha256": "caaa047cfba118380bf98ba7dddb20d8998a9941215dce9abf2be68cffbda7ec",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9997,
+        "lines": [
+          {
+            "start": 39.92,
+            "end": 49.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 50.54,
+            "end": 55.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.86,
+            "end": 57.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 58.66,
+            "end": 61.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.98,
+            "end": 68.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 69.7,
+            "end": 80.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.8,
+            "end": 90.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 91.82,
+            "end": 101.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 102.54,
+            "end": 109.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.68,
+            "end": 121.34,
+            "coverage": 0.9914
+          },
+          {
+            "start": 122.34,
+            "end": 128.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.24,
+            "end": 139.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.74,
+            "end": 144.54,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 145.72,
+            "end": 156.28,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 157.04,
+            "end": 163.54,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 164.56,
+            "end": 170.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.88,
+            "end": 179.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.28,
+            "end": 252.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.98,
+            "end": 260.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 261.48,
+            "end": 271.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 272.3,
+            "end": 276.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.6,
+            "end": 287.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.6,
+            "end": 297.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 299.0,
+            "end": 306.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 308.46,
+            "end": 314.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 315.22,
+            "end": 322.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 323.42,
+            "end": 328.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 329.92,
+            "end": 336.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 337.76,
+            "end": 343.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.74,
+            "end": 358.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 359.42,
+            "end": 367.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 368.5,
+            "end": 372.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 373.58,
+            "end": 379.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 380.18,
+            "end": 388.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 390.08,
+            "end": 394.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 395.02,
+            "end": 400.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 400.98,
+            "end": 408.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 409.4,
+            "end": 419.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 420.96,
+            "end": 424.52,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 327.4449375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%203.mp3",
+        "audioSha256": "95044483b165765643447e42fe2fb136a195f0445d2de9d1500822b1d71f5465",
+        "transcriptSha256": "456347c8c81e41d703e6fc4d23891ee285bbff030989751bf361846138276444",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9929,
+        "lines": [
+          {
+            "start": 40.14,
+            "end": 46.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 47.56,
+            "end": 56.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.44,
+            "end": 63.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 63.92,
+            "end": 67.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.78,
+            "end": 75.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.14,
+            "end": 78.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 79.78,
+            "end": 83.44,
+            "coverage": 0.9286
+          },
+          {
+            "start": 83.86,
+            "end": 88.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 89.3,
+            "end": 91.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 91.74,
+            "end": 94.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 95.16,
+            "end": 99.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.26,
+            "end": 106.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.04,
+            "end": 110.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.02,
+            "end": 112.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.66,
+            "end": 121.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.52,
+            "end": 122.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.66,
+            "end": 125.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 126.02,
+            "end": 127.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.48,
+            "end": 131.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.42,
+            "end": 138.1,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 138.5,
+            "end": 139.74,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 186.28,
+            "end": 193.08,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 193.26,
+            "end": 196.48,
+            "coverage": 1.0,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Focused speaker-change window starts Yeah after the preceding future, eliminating the cross-window overlap."
+          },
+          {
+            "start": 197.4,
+            "end": 203.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 204.06,
+            "end": 207.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 207.82,
+            "end": 209.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 210.2,
+            "end": 214.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.58,
+            "end": 220.32,
+            "coverage": 0.9778
+          },
+          {
+            "start": 220.94,
+            "end": 227.74,
+            "coverage": 0.9333
+          },
+          {
+            "start": 228.06,
+            "end": 234.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 234.68,
+            "end": 237.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 238.18,
+            "end": 243.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 243.16,
+            "end": 248.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 249.7,
+            "end": 253.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 254.0,
+            "end": 260.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 260.92,
+            "end": 264.4,
+            "coverage": 0.9286
+          },
+          {
+            "start": 264.98,
+            "end": 270.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 270.28,
+            "end": 277.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.3,
+            "end": 280.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 280.18,
+            "end": 282.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 282.98,
+            "end": 284.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.24,
+            "end": 290.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.92,
+            "end": 293.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.24,
+            "end": 296.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.72,
+            "end": 300.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.46,
+            "end": 304.74,
+            "coverage": 0.8727
+          },
+          {
+            "start": 304.84,
+            "end": 309.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.68,
+            "end": 312.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.14,
+            "end": 314.88,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 385.5935,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%204.mp3",
+        "audioSha256": "0098edbf60f322d537e8172ac2782ae6d08085dd9969885fe8f0882be597679e",
+        "transcriptSha256": "23d1c720b6aea3325534d140853380200a9fc97acea7aed598723fe530bf3216",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9997,
+        "lines": [
+          {
+            "start": 73.8,
+            "end": 84.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 85.76,
+            "end": 89.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.16,
+            "end": 98.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 99.98,
+            "end": 105.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.44,
+            "end": 115.94,
+            "coverage": 0.9901
+          },
+          {
+            "start": 116.82,
+            "end": 127.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.22,
+            "end": 135.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.8,
+            "end": 142.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.02,
+            "end": 153.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 154.64,
+            "end": 166.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 167.3,
+            "end": 170.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.62,
+            "end": 186.76,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 188.02,
+            "end": 205.68,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 206.82,
+            "end": 210.2,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 211.0,
+            "end": 221.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 222.02,
+            "end": 229.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 231.02,
+            "end": 237.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 238.44,
+            "end": 250.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 251.62,
+            "end": 257.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.7,
+            "end": 265.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.12,
+            "end": 273.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 274.02,
+            "end": 288.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.48,
+            "end": 296.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.7,
+            "end": 301.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.76,
+            "end": 307.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 307.8,
+            "end": 321.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 322.84,
+            "end": 330.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 331.68,
+            "end": 343.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.62,
+            "end": 351.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.42,
+            "end": 360.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 361.82,
+            "end": 371.32,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 372.08,
+            "end": 373.56,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 87.18,
+        "line": 13,
+        "evidenceScore": 42.0
+      },
+      "2": {
+        "part": 1,
+        "time": 111.34,
+        "line": 20,
+        "evidenceScore": 69.0
+      },
+      "3": {
+        "part": 1,
+        "time": 141.56,
+        "line": 27,
+        "evidenceScore": 62.0
+      },
+      "4": {
+        "part": 1,
+        "time": 158.36,
+        "line": 31,
+        "evidenceScore": 55.0
+      },
+      "5": {
+        "part": 1,
+        "time": 237.22,
+        "line": 40,
+        "evidenceScore": 51.0
+      },
+      "6": {
+        "part": 1,
+        "time": 291.24,
+        "line": 50,
+        "evidenceScore": 99.0
+      },
+      "7": {
+        "part": 1,
+        "time": 312.42,
+        "line": 53,
+        "evidenceScore": 41.0
+      },
+      "8": {
+        "part": 1,
+        "time": 319.32,
+        "line": 55,
+        "evidenceScore": 67.0
+      },
+      "9": {
+        "part": 1,
+        "time": 334.8,
+        "line": 59,
+        "evidenceScore": 74.0
+      },
+      "10": {
+        "part": 1,
+        "time": 340.24,
+        "line": 60,
+        "evidenceScore": 53.59
+      },
+      "11": {
+        "part": 2,
+        "time": 91.82,
+        "line": 7,
+        "evidenceScore": 81.0
+      },
+      "12": {
+        "part": 2,
+        "time": 91.82,
+        "line": 7,
+        "evidenceScore": 81.0
+      },
+      "13": {
+        "part": 2,
+        "time": 171.88,
+        "line": 16,
+        "evidenceScore": 68.0
+      },
+      "14": {
+        "part": 2,
+        "time": 171.88,
+        "line": 16,
+        "evidenceScore": 68.0
+      },
+      "15": {
+        "part": 2,
+        "time": 261.48,
+        "line": 19,
+        "evidenceScore": 39.06
+      },
+      "16": {
+        "part": 2,
+        "time": 299.0,
+        "line": 23,
+        "evidenceScore": 76.0
+      },
+      "17": {
+        "part": 2,
+        "time": 315.22,
+        "line": 25,
+        "evidenceScore": 74.0
+      },
+      "18": {
+        "part": 2,
+        "time": 344.74,
+        "line": 29,
+        "evidenceScore": 78.0
+      },
+      "19": {
+        "part": 2,
+        "time": 380.18,
+        "line": 33,
+        "evidenceScore": 64.0
+      },
+      "20": {
+        "part": 2,
+        "time": 400.98,
+        "line": 36,
+        "evidenceScore": 47.0
+      },
+      "21": {
+        "part": 3,
+        "time": 89.3,
+        "line": 8,
+        "evidenceScore": 37.0
+      },
+      "22": {
+        "part": 3,
+        "time": 89.3,
+        "line": 8,
+        "evidenceScore": 37.0
+      },
+      "23": {
+        "part": 3,
+        "time": 112.66,
+        "line": 14,
+        "evidenceScore": 106.0
+      },
+      "24": {
+        "part": 3,
+        "time": 112.66,
+        "line": 14,
+        "evidenceScore": 106.0
+      },
+      "25": {
+        "part": 3,
+        "time": 204.06,
+        "line": 24,
+        "evidenceScore": 54.0
+      },
+      "26": {
+        "part": 3,
+        "time": 228.06,
+        "line": 29,
+        "evidenceScore": 80.0
+      },
+      "27": {
+        "part": 3,
+        "time": 254.0,
+        "line": 34,
+        "evidenceScore": 48.0
+      },
+      "29": {
+        "part": 3,
+        "time": 294.24,
+        "line": 43,
+        "evidenceScore": 32.0
+      },
+      "30": {
+        "part": 3,
+        "time": 304.84,
+        "line": 46,
+        "evidenceScore": 58.0
+      },
+      "31": {
+        "part": 4,
+        "time": 116.82,
+        "line": 5,
+        "evidenceScore": 78.0
+      },
+      "32": {
+        "part": 4,
+        "time": 142.02,
+        "line": 8,
+        "evidenceScore": 89.0
+      },
+      "33": {
+        "part": 4,
+        "time": 154.64,
+        "line": 9,
+        "evidenceScore": 88.0
+      },
+      "34": {
+        "part": 4,
+        "time": 171.62,
+        "line": 11,
+        "evidenceScore": 87.0
+      },
+      "35": {
+        "part": 4,
+        "time": 188.02,
+        "line": 12,
+        "evidenceScore": 72.0
+      },
+      "36": {
+        "part": 4,
+        "time": 238.44,
+        "line": 17,
+        "evidenceScore": 105.0
+      },
+      "37": {
+        "part": 4,
+        "time": 258.7,
+        "line": 19,
+        "evidenceScore": 97.0
+      },
+      "38": {
+        "part": 4,
+        "time": 274.02,
+        "line": 21,
+        "evidenceScore": 110.0
+      },
+      "39": {
+        "part": 4,
+        "time": 331.68,
+        "line": 27,
+        "evidenceScore": 64.0
+      },
+      "40": {
+        "part": 4,
+        "time": 361.82,
+        "line": 30,
+        "evidenceScore": 68.25
+      },
+      "28": {
+        "part": 3,
+        "time": 270.28,
+        "line": 37,
+        "evidenceScore": 100
+      }
+    }
+  }
+}

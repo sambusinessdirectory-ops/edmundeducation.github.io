@@ -1,0 +1,283 @@
+{
+  "id": "p2-109",
+  "catalogueId": "p2-109",
+  "title": "THE WILD SIDE OF TOWN",
+  "sourceHeading": "The Wild Side of Town The countryside is no longer the place to see wildlife, according to Chris Barnes. These days you are more likely to find impressive numbers of skylarks, dragonflies and toads in your own back garden.",
+  "passage": 2,
+  "practice": 109,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-109-the-wild-side-of-town",
+  "source": {
+    "filename": "Practice 109 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "f5ef3d81307e732557a50a17daa51998434abd7595e08594f0bcb66e6ee45d09"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The past half century has seen an interesting reversal in the fortunes of much of Britain’s wildlife. Whilst the rural countryside has become poorer and poorer, wildlife habitat in towns has burgeoned. Now, if you want to hear a deafening dawn chorus of birds or familiarise yourself with foxes, you can head for the urban forest."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Whilst species that depend on wide open spaces such as the hare, the eagle and the red deer may still be restricted to remote rural landscapes, many of our wild plants and animals find the urban ecosystem ideal. This really should be no surprise, since it is the fragmentation and agrochemical pollution in the farming lowlands that has led to the catastrophic decline of so many species."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "By contrast, most urban open spaces have escaped the worst of the pesticide revolution, and they are an intimate mosaic of interconnected habitats. Over the years, the cutting down of hedgerows on farmland has contributed to habitat isolation and species loss. In towns, the tangle of canals, railway embankments, road verges and boundary hedges lace the landscape together, providing first-class ecological corridors for species such as hedgehogs, kingfishers and dragonflies."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Urban parks and formal recreation grounds are valuable for some species, and many of them are increasingly managed with wildlife in mind. But in many places their significance is eclipsed by the huge legacy of post-industrial land: demolished factories, waste tips, quarries, redundant railway yards and other so-called ‘brownfield’ sites. In Merseyside, South Yorkshire and the West Midlands, much of this has been spectacularly colonised with birch and willow woodland, herb-rich grassland and shallow wetlands. As a consequence, there are songbirds and predators in abundance over these once-industrial landscapes."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "There are fifteen million domestic gardens in the UK, and whilst some are still managed as lifeless chemical war zones, most benefit the local wildlife, either through benign neglect or positive encouragement. Those that do best tend to be woodland species, and the garden lawns and flower borders, climber-covered fences, shrubberies and fruit trees are a plausible alternative. Indeed, in some respects gardens are rather better than the real thing, especially with exotic flowers extending the nectar season. Birdfeeders can also supplement the natural seed supply, and only the millions of domestic cats may spoil the scene."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "As Britain’s gardeners have embraced the idea of ‘gardening with nature’, wildlife’s response has been spectacular. Between 1990 and 2000, the number of different bird species seen at artificial feeders in gardens increased from 17 to an amazing 81. The BUGS project (Biodiversity in Urban Gardens in Sheffield) calculates that there are 25,000 garden ponds and 100,000 nest boxes in that one city alone."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "We are at last acknowledging that the wildlife habitat in towns provides a valuable life support system. The canopy of the urban forest is filtering air pollution and intercepting rainstorms, allowing the water to drip more gradually to the ground. Sustainable urban drainage relies on ponds and wetlands to contain storm water runoff, thus reducing the risk of flooding, whilst reed beds and other wetland wildlife communities also help to clean up the water. We now have scientific proof that contact with wildlife close to home can help to reduce stress and anger. Hospital patients with a view of natural green space make a more rapid recovery and suffer less pain."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Traditionally, nature conservation in the UK has been seen as marginal and largely rural. Now we are beginning to place it at the heart of urban environmental and economic policy. There are now dozens of schemes to create new habitats and restore old ones in and around our big cities. Biodiversity is big in parts of London, thanks to schemes such as the London Wetland Centre in the south west of the city."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "This is a unique scheme masterminded by the Wildfowl and Wetlands Trust to create a wildlife reserve out of a redundant Victorian reservoir. Within five years of its creation, the Centre was hailed as one of England’s leading nature sites and designated a Site of Special Scientific Interest. It consists of a 105-acre wetland site, which is made up of different wetland habitats of shallow, open water and grazing marsh. The site attracts more than 104 species of bird, including nationally important rarities like the bittern."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "We need to remember that if we work with wildlife, then wildlife will work for us and this is the very essence of sustainable development."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–23",
+    "g24": "Questions 24–26",
+    "g27": "Questions 27–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nDo the following statements agree with the information given in Reading Passage 2?\nWrite TRUE, FALSE or NOT GIVEN in boxes 14–19 on your answer sheet.\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n14 __________ There is now more wildlife in UK cities than in the countryside.\n15 __________ Rural wildlife has been reduced by the use of pesticides on farms.\n16 __________ In the past, hedges on farms used to link different habitats.\n17 __________ New urban environments are planned to provide ecological corridors for wildlife.\n18 __________ Public parks and gardens are being expanded to encourage wildlife.\n19 __________ Old industrial wastelands have damaged wildlife habitats in urban areas."
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 23,
+      "text": "Questions 20–23\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\nWrite your answers in boxes 20–23 on your answer sheet.\n20 Which type of wildlife benefits most from urban gardens? __________\n21 What type of garden plants can benefit birds and insects? __________\n22 What represents a threat to wildlife in urban gardens? __________\n23 At the last count, how many species of bird were spotted in urban gardens? __________"
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nChoose THREE letters, A–G.\nWrite your answers in boxes 24–26 on your answer sheet.\nIn which THREE ways can wildlife habitats benefit people living in urban areas?\n A They can make cities greener.\n B They can improve the climate.\n C They can promote human well-being.\n D They can extend the flowering season.\n E They can absorb excess water.\n F They can attract wildlife.\n G They can help clean the urban atmosphere."
+    },
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 27,
+      "text": "Question 27\nChoose the correct letter, A, B, C or D.\nWrite your answer in box 27 on your answer sheet.\n27 The writer believes that sustainable development is dependent on\n A urban economic policy.\n B large restoration schemes.\n C active nature conservation.\n D government projects."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ There is now more wildlife in UK cities than in the countryside.",
+      "translation": "現在英國城市中的野生動物比鄉郊更多。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Rural wildlife has been reduced by the use of pesticides on farms.",
+      "translation": "鄉郊野生動物因農場使用農藥而減少。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ In the past, hedges on farms used to link different habitats.",
+      "translation": "過去農場上的樹籬曾經連接不同棲息地。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ New urban environments are planned to provide ecological corridors for wildlife.",
+      "translation": "新的城市環境被規劃成為 wildlife 提供 ecological corridors。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Public parks and gardens are being expanded to encourage wildlife.",
+      "translation": "公共公園和花園正在擴建，以鼓勵 wildlife。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Old industrial wastelands have damaged wildlife habitats in urban areas.",
+      "translation": "舊工業荒地破壞了城市中的 wildlife habitats。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Which type of wildlife benefits most from urban gardens? __________",
+      "translation": "哪一類 wildlife 最受益於城市花園？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "text",
+      "prompt": "What type of garden plants can benefit birds and insects? __________",
+      "translation": "哪一類花園植物能使鳥類和昆蟲受益？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "text",
+      "prompt": "What represents a threat to wildlife in urban gardens? __________",
+      "translation": "甚麼東西對城市花園中的 wildlife 構成威脅？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "text",
+      "prompt": "At the last count, how many species of bird were spotted in urban gardens? __________",
+      "translation": "最近一次統計中，城市花園看到多少種鳥類？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "它們能促進人的身心健康。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "它們能促進人的身心健康。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "它們能促進人的身心健康。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The writer believes that sustainable development is dependent on",
+      "translation": "作者認為 sustainable development 取決於甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-109/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-109/page-5.jpg"
+  ]
+}

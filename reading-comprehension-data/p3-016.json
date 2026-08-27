@@ -1,0 +1,256 @@
+{
+  "id": "p3-016",
+  "catalogueId": "p3-016",
+  "title": "A LIBRARY AT YOUR FINGERTIPS",
+  "sourceHeading": "A LIBRARY AT YOUR FINGERTIPS",
+  "passage": 3,
+  "practice": 16,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-016-a-library-at-your-fingertips",
+  "source": {
+    "filename": "Practice 16 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "3900e83893240dac3eb6fcd508e10679536a8db4c7ff2f9aceb0714fa821d25c"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "A few years ago, at the height of the dotcom boom, it was widely assumed that a publishing revolution, in which the printed word would be supplanted by the computer screen, was just around the corner. It wasn’t: for many, there is still little to match the joy of cracking the spine of a good book and settling down for an hour or two of reading. A recent flurry of activity by big technology companies – including Google, Amazon, Microsoft and Yahoo! – suggests that the dream of bringing books online is still very much alive."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The digitising of thousands of volumes of print is not without controversy. On Thursday, November 3, Google, the world’s most popular search engine, posted a first instalment of books on Google Print, an initiative first mooted a year ago. This collaborative effort between Google and several of the world’s leading research libraries aims to make many thousands of books available to be searched and read online free of charge. Although the books included so far are not covered by copyright, the plan has attracted the ire of publishers."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Five large book firms are suing Google for violating copyright on material that it has scanned and, although out of print, is still protected by law. Google has said that it will only publish short extracts from material under copyright unless given express permission to publish more, but publishers are unconvinced. Ironically, many publishers are collaborating with Google on a separate venture, Google Print Publisher, which aims to give readers an online taste of books that are commercially available. The searchable collection of extracts and book information is intended to tempt readers to buy the complete books online or in print form."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Not to be outdone, Amazon, the world’s largest online retailer, has unveiled plans for its own foray into the mass e-book market. The firm, which began ten years ago as an online book retailer, now sells a vast array of goods. No doubt piqued that Google, a relative newcomer, should impinge upon its central territory, Amazon revealed on Thursday that it would introduce two new services. Amazon Pages will allow customers to search for key terms in selected books and then buy and read online whatever part they wish, from individual pages to chapters or complete works. Amazon Upgrade will give customers online access to books they have already purchased as hard copies. Customers are likely to have to pay around five cents a page, with the bulk going to the publisher."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Microsoft, too, has joined the online-book bandwagon. At the end of October, the software giant said it would spend around $200 million to digitise texts, starting with 150,000 that are in the public domain, to avoid legal problems. It will do so in collaboration with the Open Content Alliance, a consortium of libraries and universities. (Yahoo! has pledged to make 18,000 books available online in conjunction with the same organisation.) On Thursday, coincidentally the same day as Google and Amazon announced their initiatives, Microsoft released details of a deal with the British Library, the country’s main reference library, to digitise some 25 million pages; these will be made available through MSN Book Search, which will be launched next year."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "These companies are hoping for a return to the levels of interest in e-books seen when Stephen King, a best-selling horror writer, published “Riding the Bullet” exclusively on the Internet in 2000. Half a million copies were downloaded in the first 48 hours after publication. This proved to be a high-water mark rather than a taste of things to come. While buyers were reluctant to sit in front of a computer screen to read the latest novels, dedicated e-book reading gadgets failed to catch on. Barnes and Noble, a leading American bookshop chain, began selling e-books with fanfare in 2000 but quietly pulled the plug in 2003 as interest faded."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The market for e-books is growing again, though from a tiny base. According to the International Digital Publishing Forum, which collates figures from many of the world’s top publishers, in the third quarter of 2004, worldwide sales were 25% higher than the year before. Unfortunately, this only amounted to a paltry $3.2 million split between 23 publishers in an industry that made sales worth over $100 billion that year."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Both retailers and publishers reckon they will eventually be able to persuade consumers to do a lot more of their reading on the web. Some even hope they can become to online books what Apple’s iTunes is to online music. There are crucial differences between downloading fiction and downloading funk. Online music was driven from the bottom up: illegal filesharing services became wildly popular, and legal firms later took over when the pirates were forced (by a wave of lawsuits) to retreat; the legal providers are confident that more and more consumers will pay small sums for music rather than remain beyond the law. The iPod music player and its like have proved a fashionable and popular new way to listen to songs. The book world has no equivalent."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "So the commercial prospects for sellers of online books do not yet look very bright. They may get a lift from some novel innovations. The ability to download mere parts of books could help, for instance: sections of manuals, textbooks or cookery books may tempt some customers; students may wish to download the relevant sections of course books; or readers may want a taste of a book that they subsequently buy in hard copy. The ability to download reading matter onto increasingly ubiquitous hand-held electronic devices and 3G phones may further encourage uptake. In Japan, the value of e-books (mainly manga comic books) delivered to mobile phones has jumped, though it will be worth only around ¥6 billion ($51 million) in 2005, according to estimates."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27 – 30\n\nFor each question, only ONE of the choices is correct. Write the corresponding letter in\nthe appropriate box on your answer sheet.\n\n27 A few years ago, it was widely thought that\n\nA people would read fewer ‘paper’ books.\n\nB companies like Amazon would go bankrupt.\n\nC the dotcom boom would soon end.\n\n\n28 Publishers are unhappy with Google because\n\nA Google is only publishing extracts, not complete books.\n\nB they think Google is in breach of copyright.\n\nC Google is co-operating with leading research libraries.\n\n\n29 Amazon will\n\nA sell books that previously only Google sold online.\n\nB buy the copyright for many books it sells online.\n\nC allow people to buy only parts that they want to read from books.\n\n30 It is clear that most readers, if given the choice, prefer\n\nA ‘paper’ books.\n\nB reading from computer screens.\n\nC using dedicated e-book readers."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31-35\n\nComplete the following sentences using NO MORE THAN THREE WORDS from\nthe text for each gap.\n\n\n\nIf companies publish books online that are not covered by copyright, they avoid 31\n________________\n\n\nThe 32 ________________ is very small but getting larger\n\n\nThe 33 ________________ expect that they will be able to convince more people to\nread online.\n\n\nThe 34 ________________ has nothing similar to an iPod.\n\n\nIn Japan, most of the publications sent to mobile phones are 35 ________________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36-40\n\nDo the statements on the next page agree with the information given in Reading Passage\n3? In boxes 36 – 40 on your answer sheet, write\n\n    TRUE            if the statement agrees with the information\n\n\n    FALSE           if the statement contradicts the information\n\n\n    NOT GIVEN       If there is no information on this\n\n\n\n36 ________________ Books that are out of print are not covered by copyright law.\n\n\n37 ________________ Amazon began by selling books online.\n\n\n38 ________________\nMicrosoft signed a deal with the British Library on the same day as Google and Amazon\nmade their announcements.\n\n\n39 ________________ Barnes and Noble published Riding the Bullet online.\n\n\n40 ________________\nThe ability to sample a book online before buying it might help sales."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "A few years ago, it was widely thought that",
+      "translation": "幾年前，人們普遍認為甚麼事情會發生？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Publishers are unhappy with Google because",
+      "translation": "Publishers 為甚麼不滿 Google？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Amazon will",
+      "translation": "Amazon 將會做甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "It is clear that most readers, if given the choice, prefer",
+      "translation": "如果可以選擇，多數讀者明顯較喜歡甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "如果公司把不受 copyright 保護的書放到網上，它們可以避免甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "甚麼東西很小，但正在變大？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "誰預期自己能說服更多人 online reading？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "哪個領域沒有類似 iPod 的東西？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "在日本，大部分傳送到 mobile phones 的出版物是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "________________ Books that are out of print are not covered by copyright law.",
+      "translation": "已經 out of print 的書不受 copyright law 保護。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "________________ Amazon began by selling books online.",
+      "translation": "Amazon 一開始是 online selling books。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "________________ Microsoft signed a deal with the British Library on the same day as Google and Amazon made their announcements.",
+      "translation": "Microsoft 在 Google 和 Amazon 宣布新計劃的同一天，與 British Library 簽署了一項協議。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "________________ Barnes and Noble published Riding the Bullet online.",
+      "translation": "Barnes and Noble 在網上出版了 Riding the Bullet。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "________________ The ability to sample a book online before buying it might help sales.",
+      "translation": "購買前先在網上試讀一本書，可能有助銷售。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-016/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-016/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-016/page-7.jpg",
+    "/assets/reading-comprehension/questions/p3-016/page-8.jpg"
+  ]
+}

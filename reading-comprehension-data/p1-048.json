@@ -1,0 +1,265 @@
+{
+  "id": "p1-048",
+  "catalogueId": "p1-048",
+  "title": "What do Managers Really Do?",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 48,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-048-what-do-managers-really-do",
+  "source": {
+    "filename": "Practice 48  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "2eb5bd6eb9d4b0598c1e8eabf19e992253d7071ef7dab079f32eb9bfba092ea6"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "What Do Managers Really Do? When students graduate and first enter the workforce, the most common choice is to find an entry-level position. This can be a job such as an unpaid internship, an assistant, a secretary, or a junior partner position. Traditionally, we start with simpler jobs and work our way up. Young professionals start out with a plan to become senior partners, associates, or even managers of a workplace. However, these promotions can be few and far between, leaving many young professionals without managerial experience. An important step is understanding the role and responsibilities of a person in a management position. Managers are organisational members who are responsible for the work performance of other organisational members. Managers have formal authority to use organisational resources and to make decisions. Managers at different levels of the organisation spend different amounts of time performing the four managerial functions of planning, organising, leading, and controlling."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "However, as many professionals already know, management styles can be very different depending on where you work. Some management styles are strictly hierarchical. Other management styles can be more casual and relaxed, where the manager may act more like a team member rather than a strict boss. Many researchers have created a more scientific approach to studying these different approaches to managing. In the 1960s, researcher Henry Mintzberg created a seminal organisational model using three categories. These categories represent three major functional approaches, which are designated as interpersonal, informational and decisional."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Category 1: INTERPERSONAL ROLES. Interpersonal roles require managers to direct and supervise employees and the organisation. The figurehead is typically a top- or middle-level manager. This manager may communicate future organisational goals or ethical guidelines to employees at company meetings and attend ribbon-cutting ceremonies, receptions, presentations and other events associated with the figurehead role. A leader sets an example for other employees, gives instructions to subordinates, makes decisions and mobilises employee support. Leaders are also responsible for selecting and training employees. Managers at all levels must be leaders, and lower-level managers often look to senior management for an example. As a liaison, a manager coordinates the work of people in different units, establishes alliances and facilitates the sharing of resources. This role is particularly important for middle managers, who often compete with one another for resources while maintaining successful working relationships over long periods."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Category 2: INFORMATIONAL ROLES. Informational roles are those in which managers obtain and transmit information. These roles have changed dramatically as technology has improved. A monitor evaluates the performance of others and takes corrective action to improve it. Monitors also watch for changes in the wider environment and within the company that may affect individual or organisational performance. Monitoring occurs at all levels of management. The disseminator role requires managers to inform employees about changes that affect them and the organisation. Managers also communicate the company’s vision and purpose."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Category 3: DECISIONAL ROLES. Decisional roles require managers to plan strategy and allocate resources. Four specific roles are decisional. The entrepreneur allocates resources to develop innovative goods and services or expand a business. The disturbance handler resolves unexpected problems arising within or outside the organisation. The third role, resource allocator, involves deciding which work units receive particular resources. Top managers are likely to make large, organisation-wide budget decisions, while middle managers make more specific allocations. Finally, the negotiator works with suppliers, distributors, labour unions and others to reach agreements about products and services."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Although Mintzberg’s initial research in the 1960s helped to categorise managerial approaches, he remained interested in other roles in the workplace. He considered extending his research to roles such as disseminator, figurehead, liaison and spokesperson. Each role has distinct characteristics, and a separate categorisation system would be needed to understand it fully. Although Mintzberg’s initial research helped begin the discussion, other researchers have since criticised his methods. One criticism is that, despite the multiple categories, the manager’s role remains more complex than the model suggests. Many less traditional managerial roles are not captured in the original three categories. A further criticism is that Mintzberg’s research was not always effective when applied to real situations and did not consistently improve management practice."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "These criticisms raised questions about whether Mintzberg’s method remains useful for understanding managers today. Even if the criticisms are valid, however, they do not make the original 1960s research entirely useless. The critics did not claim that Mintzberg’s work was invalid. Indeed, it offers two benefits for further research."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The first benefit is that Mintzberg provided a useful functional approach to analysing management and used it to give researchers a clear definition of the manager’s role. When studying human behaviour, researchers must define their subject precisely. Mintzberg’s work helped later researchers clarify what a ‘manager’ is, because in real situations the manager does not always have that exact job title. His definitions brought clarity and precision to subsequent research."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The second benefit is that Mintzberg’s work offered a valuable starting point and fresh direction for future research in this field. Scientific research is always gradual. The flaws in his initial study do not make it useless to others. Researchers interested in studying the workplace systematically can draw on earlier work instead of beginning from nothing: studies such as Mintzberg’s show which methods work well and which are less suited to workplace dynamics. As more young professionals enter the job market, research will continue to examine and change how we understand the modern workplace."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nLook at the following descriptions or deeds (Questions 1–6) and the list of categories below.\nMatch each description or deed with the correct category, A, B or C.\nWrite the correct letter, A, B, or C, in Boxes 1–6 on your answer sheet.\nNB You may use any letter more than once.\n\n                                          List of Categories\n\n A                                        INTERPERSONAL ROLES\n\n B                                        INFORMATIONAL ROLES\n\n C                                        DECISIONAL ROLES\n1 _________ developing a business strategy\n2 _________ presiding at formal events\n3 _________ allocating employees and funds\n4 _________ obtaining and transmitting information\n5 _________ communicating information to employees and the organisation\n6 _________ recruiting staff"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 8,
+      "text": "Questions 7–8\nChoose TWO letters, A–E.\nWrite the correct letters in Boxes 7–8 on your answer sheet.\nWhich TWO positive functions of Mintzberg’s research are mentioned in the last two paragraphs?\n  A provides watertight categories for managers\n  B provides a clear concept to define the role of a manager\n  C helps new graduates to design their career\n  D suggests ways for managers to do their job better\n  E offers a fresh direction for further research"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 9–13 on your answer sheet, write\n\n TRUE                          if the statement agrees with the information\n\n FALSE                         if the statement contradicts the information\n\n NOT GIVEN                     if there is no information on this\n9 _________________ Young professionals can easily gain management experience in the workplace.\n10 _________________ Mintzberg’s theory broke well-established notions about managing styles.\n11 _________________ Mintzberg got a large amount of research funds for his contribution.\n12 _________________ All managers do the same work.\n\n13 _________________ Mintzberg’s theory is valuable for future studies."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________ developing a business strategy",
+      "translation": "制定業務策略。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________ presiding at formal events",
+      "translation": "主持或出席正式場合。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________ allocating employees and funds",
+      "translation": "分配員工和資金。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________ obtaining and transmitting information",
+      "translation": "獲取和傳遞資訊。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________ communicating information to employees and the organisation",
+      "translation": "向員工和組織傳達資訊。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________ recruiting staff",
+      "translation": "招聘或挑選員工。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "最後兩段提到 Mintzberg 研究有哪兩項正面功能？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "最後兩段提到 Mintzberg 研究有哪兩項正面功能？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Young professionals can easily gain management experience in the workplace.",
+      "translation": "年輕專業人士可以輕易在職場中取得管理經驗。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Mintzberg’s theory broke well-established notions about managing styles.",
+      "translation": "Mintzberg 的理論打破了既有而穩固的管理風格觀念。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Mintzberg got a large amount of research funds for his contribution.",
+      "translation": "Mintzberg 因其貢獻獲得大量研究資金。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ All managers do the same work.",
+      "translation": "所有 managers 都做相同工作。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Mintzberg’s theory is valuable for future studies.",
+      "translation": "Mintzberg 的理論對未來研究有價值。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-048/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-048/page-5.jpg"
+  ]
+}

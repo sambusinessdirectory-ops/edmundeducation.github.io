@@ -1,0 +1,244 @@
+{
+  "id": "p2-050",
+  "catalogueId": "p2-050",
+  "title": "Stress of Workplace",
+  "sourceHeading": "Workplace Stress",
+  "passage": 2,
+  "practice": 50,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-020-stress-of-workplace",
+  "source": {
+    "filename": "Practice 50 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "1b9cf15fb0b36f0db6359d9ca5bc4a5fa751742ed52f92473a01f2c83c107371"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "How busy is too busy? For some people, it means missing an occasional long lunch; for others, it means missing lunch altogether. For a few, it means not being able to take a ‘sickie’ once a month. Then there are people for whom working every evening and weekend is normal and frantic activity sets the tempo of life. For most senior executives, workloads swing between extremely busy and frenzied. Neil Plumridge, vice-president of management consultancy A.T. Kearney and head of its Asia-Pacific telecommunications practice, says his working week varies from a ‘manageable’ 45 hours to 80 hours, averaging 60 hours."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Three warning signs alert Plumridge to an excessive workload: sleep, scheduling and family. He knows he has too much to do when he sleeps for fewer than six hours on three consecutive nights, constantly reschedules appointments or neglects his family. ‘The third one is on the family side,’ says Plumridge, who has a three-year-old daughter and was expecting a second child in October. ‘If I happen to miss a birthday or anniversary, I know things are out of control.’ Being ‘too busy’ is highly subjective, but a prolonged perception of overload can manifest as stress, disturbed sleep and declining mental and physical health. National workers’ compensation figures show that stress causes more lost time than any other workplace injury. Employees suffering from stress are absent for an average of 16.6 weeks, and the effects are expensive. Comcare, the Australian federal government’s insurer, reported that in 2003–04 claims for psychological injuries accounted for 7 per cent of claims but almost 27 per cent of claim costs. Experts say the key is not temporary relief, such as a game of golf or a massage, but a reassessment of workloads. Plumridge makes it a priority to identify what must change; this may mean allocating more resources, allowing more time or altering expectations. The decision may take several days. He also relies on colleagues’ advice, saying that peers coach one another through business problems. ‘Just a fresh pair of eyes over an issue can help,’ he says."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Executive stress is not confined to large organisations. Vanessa Stoykov has run her own advertising and public-relations business, which specialises in financial and professional-services firms, for seven years. Evolution Media grew so quickly that it appeared on the BRW Fast 100 list of the fastest-growing small businesses last year, just after Stoykov had her first child. She thrives on the mental stimulation of running a business. ‘Like everyone, I have the occasional day when I think my head’s going to blow off,’ she says. Because the business is growing, Stoykov must rely on short-term stress relief—weekends in the mountains and the occasional ‘mental-health’ day—rather than delegating more work. ‘We’re hiring more people, but you need to train them and teach them about the culture and the clients, so it’s actually more work rather than less,’ she explains."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Identify the causes. Jan Eisner, a Melbourne psychologist who specialises in executive coaching, says that thriving on a demanding workload is typical of senior executives and other high-potential businesspeople. Some prefer adrenaline-charged periods followed by quieter patches, while others thrive under sustained pressure. ‘We could take hormonal measurements from urine and blood and judge whether someone is physiologically stressed,’ she says. ‘But that would not tell us how that person experiences stress or what its emotional and cognitive effects will be.’"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Eisner’s practice is informed by positive psychology, a school of thought which argues that positive experiences—feeling engaged, challenged and able to contribute to something meaningful—do not simply balance negative experiences such as stress. Instead, they help people build resilience over time. Good stress, or the positive experience of challenge and reward, is cumulative in the same way as bad stress. Eisner says that many of the senior businesspeople she coaches increasingly regulate bad stress through meditation and yoga. She cites research showing that meditation can alter brain biochemistry and help people retrain the way their brains and bodies respond to stress. ‘Meditation and yoga enable you to shift the way your brain reacts, so if you become proficient, you are in control.’"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Recent research, including a study of public servants by British epidemiologist Sir Michael Marmot, shows that the most important predictor of stress is a person’s level of job control. This challenges the theory that stress is the preserve of high-achieving executives with type-A personalities and extreme working hours. Marmot’s and other research instead suggests that such executives have the best kind of job: one combining high demands, or challenging work, with high control, or autonomy. ‘The worst jobs combine high demands with low control. People with demanding jobs but little autonomy have up to four times the probability of depression and more than twice the risk of heart disease,’ LaMontagne says. ‘Those two conditions alone account for an enormous proportion of chronic disease and represent a potentially preventable component.’ Overseas, particularly in Europe, this research is prompting companies to redesign organisational practices to increase employee autonomy, reduce absenteeism and raise productivity."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Neil Plumridge, A.T. Kearney’s Australian vice-president, says, ‘Stress is often caused by the unrealistic expectations we set ourselves. I’ll promise one client that I’ll do something tomorrow and then promise another client the same thing, even though I know it isn’t going to happen. I’ve put stress on myself when I could have said, “Why don’t I give that to you in 48 hours?” The client doesn’t care.’ People experience overcommitment as an individual problem and explain it as procrastination or Parkinson’s law: work expands to fill the time available. New research suggests that people may be hard-wired to behave this way."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "A study in the February issue of the Journal of Experimental Psychology shows that people consistently believe they will be less busy in the future than they are now. According to the report’s authors, Professor Gal Zauberman of the University of North Carolina and Professor John Lynch of Duke University, this is a misconception. ‘On average, an individual will be just as busy two weeks or a month from now as he or she is today. But that is not how it appears in everyday life,’ they wrote. ‘People often make commitments far in advance that they would never make if the same commitments required immediate action. That is, they discount future time investments relatively steeply.’ Why do we perceive a greater surplus of future time? The researchers suggest that people underestimate how long future tasks will take and are poor at imagining future demands on their time."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nLook at the following statements (Questions 14–18) and the list of people below. Match each\nstatement with the correct person, A–D.\nWrite the correct letter, A–D, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n14 ___________ Workplace stress is usually associated with senior levels of business.\n15 ___________ Adding people or other resources can help relieve stress.\n16 ___________ A short break can sometimes create more work rather than less.\n17 ___________ Trying to satisfy clients by overpromising can create stress.\n18 ___________ People generally believe that they are busier now than they will be in the\nfuture.\n\n\n                                      List of People\n\n A                                    Jan Eisner\n\n B                                    Vanessa Stoykov\n\n C                                    Gal Zauberman\n\n D                                    Neil Plumridge"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 21,
+      "text": "Questions 19–21\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 19–21 on your answer sheet.\n\n\n19 Which of the following warning signs of workplace stress is NOT mentioned by Plumridge?\n A insufficient time with family\n B inability to concentrate on work\n C insufficient sleep\n D repeatedly rescheduling appointments\n\n\n20 Which of the following methods of reducing workload pressure is NOT mentioned by\nPlumridge?\n A allocating more personnel or resources\n B allowing more time\n C lowering expectations\n D taking exercise or having a massage\n\n\n21 What is Jan Eisner’s view of workplace stress?\n A Medical tests reveal only part of the information needed to understand stress.\n B Indicators from bodily samples play the decisive role.\n C Emotional effects are more important than physical effects.\n D A single well-designed solution can eliminate all stress."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each\nanswer.\nWrite your answers in boxes 22–26 on your answer sheet.\n\n\nNational workers’ compensation statistics indicate that stress is the leading cause of\n22 _________________. Employees are absent for an average of 23\n_________________ because of stress. In 2003–04, psychological injuries\naccounted for 24 _________________ of claims but almost 27 per cent of claim\ncosts. Activities such as 25 _________________ and 26 _________________ may\nprovide temporary relief, but specialists recommend reassessing workloads instead."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Workplace stress is usually associated with senior levels of business.",
+      "translation": "職場壓力通常和商業機構較高層級的人員相關。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Adding people or other resources can help relieve stress.",
+      "translation": "增加人手或其他資源，可以幫助減輕壓力。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ A short break can sometimes create more work rather than less.",
+      "translation": "短暫休息有時可能會帶來更多工作，而非減少工作。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Trying to satisfy clients by overpromising can create stress.",
+      "translation": "為了滿足客戶而過度承諾，可能會製造壓力。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ People generally believe that they are busier now than they will be in the future. List of People",
+      "translation": "人們一般相信自己現在比未來更忙。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Which of the following warning signs of workplace stress is NOT mentioned by Plumridge?",
+      "translation": "以下哪一項不是 Plumridge 提到的職場壓力警號？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Which of the following methods of reducing workload pressure is NOT mentioned by Plumridge?",
+      "translation": "以下哪一項減輕工作壓力的方法不是 Plumridge 提到的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "What is Jan Eisner’s view of workplace stress?",
+      "translation": "Jan Eisner 對職場壓力有甚麼看法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "text",
+      "prompt": "_________________. Employees are absent for an average of 23 _________________ because of stress. In 2003–04, psychological injuries accounted for 24 _________________ of claims but almost 27 per cent of claim costs. Activities such as 25 _________________ and 26 _________________ may provide temporary relief, but specialists recommend reassessing workloads instead.",
+      "translation": "全國 workers’ compensation 統計顯示，壓力是造成 ______ 的主要原因。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "員工因壓力平均缺勤 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "在 2003–04 年，psychological injuries 佔索償宗數的 ______，但佔索償成本接近 27%。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "例如 ______ 和 ______ 這類活動，可能提供短暫舒緩。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "例如 golf 和 ______ 這類活動可能提供短暫舒緩，但專家建議重新評估工作量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-050/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-050/page-6.jpg"
+  ]
+}

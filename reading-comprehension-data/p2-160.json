@@ -1,0 +1,276 @@
+{
+  "id": "p2-160",
+  "catalogueId": "p2-160",
+  "title": "Coral reefs",
+  "sourceHeading": "Coral Reefs Coral reefs are underwater structures made from calcium carbonate secreted by corals. Coral reefs are colonies of tiny living animals found in marine waters that contain few nutrients. Most coral reefs are built from stony corals, which in turn consist of polyps that cluster in groups.",
+  "passage": 2,
+  "practice": 160,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-160-coral-reefs",
+  "source": {
+    "filename": "Practice 160 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8ddc4893d834eda5b82debc4b060d420b9472a7bb1ec01e4d4bfe4a20bbdfa2e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Coral reefs are estimated to cover 284,300 km², just under 0.1% of the oceans’ surface area, about half the area of France. The Indo-Pacific region accounts for 91.9% of this total area. Southeast Asia accounts for 32.3% of that figure, while the Pacific, including Australia, accounts for 40.8%. Atlantic and Caribbean coral reefs account for 7.6%. Often called ‘rainforests of the sea’, coral reefs form some of the most diverse ecosystems on Earth. They provide a home for 25% of all marine species, including fish, molluscs, worms, crustaceans, echinoderms, sponges, tunicates and other cnidarians. Paradoxically, coral reefs flourish even though they are surrounded by ocean waters that provide few nutrients. They are most commonly found at shallow depths in tropical waters, but deep-water and cold-water corals also exist on smaller scales in other areas. Although corals exist both in temperate and tropical waters, shallow-water reefs form only in a zone extending from 30°N to 30°S of the equator. Deep-water corals can exist at greater depths and colder temperatures at much higher latitudes, as far north as Norway. Coral reefs are rare along the American and African west coasts. This is due primarily to upwelling and strong cold coastal currents that reduce water temperatures in these areas (respectively the Peru, Benguela and Canary streams). Corals are seldom found along the coastline of South Asia from the eastern tip of India (Madras) to the Bangladesh and Myanmar borders. They are also rare along the coast around northeastern South America and Bangladesh due to the freshwater released from the Amazon and Ganges Rivers, respectively."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Coral reefs deliver ecosystem services to tourism, fisheries and coastline protection. The global economic value of coral reefs has been estimated at as much as US$375 billion per year. Coral reefs protect shorelines by absorbing wave energy, and many small islands would not exist without reefs to protect them."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The value of reefs in biodiverse regions can be even higher. In parts of Indonesia and the Caribbean where tourism is the main activity, reefs are estimated to be worth US$1 million per square kilometer, based on the cost of maintaining sandy beaches and the value of attracting snorkelers and scuba divers. Meanwhile, a recent study of the Great Barrier Reef in Australia found that the reef is worth more to the country as an intact ecosystem than an extractive reserve for fishing. Each year more than 1.8 million tourists visit the reef, spending an estimated AU$4.3 billion (Australian dollars) on reef-related industries from diving to boat rental to posh island resort stays. In the Caribbean, says UNEP, the net annual benefits from diver tourism were US$2 billion in 2000 with US$625 million spent directly on diving on reefs. Further, reef tourism is an important source of employment, especially for some of the world’s poorest people. UNEP says that of the estimated 30 million small-scale fishers in the developing world, most are dependent to a greater or lesser extent on coral reefs. In the Philippines, for example, more than one million small-scale fishers depend directly on coral reefs for their livelihoods. The report estimates that reef fisheries were worth between $15,000 and $150,000 per square kilometer a year, while fish caught for aquariums were worth $500 a kilogram against $6 for fish caught as food. The aquarium fish export industry supports around 50,000 people and generates some US$5.5 million a year in Sri Lanka alone."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Unfortunately, coral reefs are dying around the world. In particular, coral mining, agricultural and urban runoff, pollution (organic and inorganic), disease, and the digging of canals and access channels into islands and bays are localized threats to coral ecosystems. Broader threats are sea temperature rise, sea-level rise and pH changes from ocean acidification, all associated with greenhouse gas emissions. Some current fishing practices are destructive and unsustainable. These include cyanide fishing, overfishing and blast fishing. Although cyanide fishing supplies live reef fish for the tropical aquarium market, most fish caught using this method are sold in restaurants, primarily in Asia, where live fish are prized for their freshness. To catch fish with cyanide, fishers dive down to the reef and squirt cyanide in coral crevices and at fast-moving fish to stun them, making them easy to catch. Overfishing is another leading cause of coral reef degradation. Often, too many fish are taken from one reef to sustain a population in that area. Poor fishing practices, such as banging on the reef with sticks (muro-ami), destroy coral formations that normally function as fish habitat. In some instances, people fish with explosives (blast fishing), which blast apart the surrounding coral."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Tourist resorts that empty their sewage directly into the water surrounding coral reefs contribute to coral reef degradation. Wastes kept in poorly maintained septic tanks can also leak into surrounding groundwater, eventually seeping out to the reefs. Careless boating, diving, snorkeling and fishing can also damage coral reefs. Whenever people grab, kick or walk on coral, or stir up sediment on reefs, they contribute to coral reef destruction. Corals are also harmed or killed when people drop anchors on them or when people collect coral."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "To find answers for these problems, scientists and researchers study the various factors that affect reefs. The list includes the ocean’s role as a carbon dioxide sink, atmospheric changes, ultraviolet light, ocean acidification, viruses, impacts of dust storms carrying agents to far-flung reefs, pollutants, algal blooms and others. Reefs are threatened well beyond coastal areas. General estimates suggest that approximately 10% of the world’s coral reefs are dead. About 60% of the world’s reefs are at risk due to destructive, human-related activities. The threat to the health of reefs is particularly strong in Southeast Asia, where 80% of reefs are endangered."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In Australia, the Great Barrier Reef is protected by the Great Barrier Reef Marine Park Authority and is the subject of much legislation, including a biodiversity action plan. Inhabitants of Ahus Island, Manus Province, Papua New Guinea, have followed a generations-old practice of restricting fishing in six areas of their reef lagoon. Their cultural traditions allow line fishing, but not net or spearfishing. As a result, both the biomass and individual fish sizes are significantly larger in these areas than in places where fishing is unrestricted."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–20",
+    "g21": "Questions 21–26",
+    "g27": "Questions 27–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 20,
+      "text": "Questions 15–20\nReading Passage 2 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 15–20 on your answer sheet.\nNB You may use any letter more than once.\n15 __________ The geographical distribution of the world’s coral reefs\n16 __________ How coral reefs benefit local economies\n17 __________ Statistics demonstrating the economic significance of coral reefs\n18 __________ A list of reasons for the decline in coral reefs\n19 __________ Physical contact with coral reefs by people\n20 __________ Unsustainable fishing methods used around the world"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 21–26 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n21 __________ Coral reefs provide habitats for a variety of marine life.\n22 __________ Coral reefs are distributed disproportionately throughout the oceans.\n23 __________ Coral reefs are becoming increasingly important for scientific purposes.\n24 __________ Coral reefs are widely traded and exported to other countries.\n25 __________ Reef tourism is economically important, particularly for some poor people.\n26 __________ As with other fishing industries, coral-reef fisheries are unsuitable for women\nand children."
+    },
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 27,
+      "text": "Question 27\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in box 27 on your answer sheet.\n\n\n27 What is the main purpose of the passage?\n A To demonstrate how coral reefs grow in the ocean\n B To explain that coral reefs are widely used in scientific projects\n C To present the general benefits of coral reefs and the alarming situation they face\n D To show the important efforts being made to protect coral reefs in Australia"
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The geographical distribution of the world’s coral reefs",
+      "translation": "全球 coral reefs 的地理分布。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ How coral reefs benefit local economies",
+      "translation": "coral reefs 如何令地方經濟受益。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Statistics demonstrating the economic significance of coral reefs",
+      "translation": "展示 coral reefs 經濟重要性的統計數字。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ A list of reasons for the decline in coral reefs",
+      "translation": "coral reefs 下降或衰退的原因清單。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Physical contact with coral reefs by people",
+      "translation": "人類與 coral reefs 的身體接觸。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Unsustainable fishing methods used around the world",
+      "translation": "全球使用的不可持續捕魚方式。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Coral reefs provide habitats for a variety of marine life.",
+      "translation": "Coral reefs 為多種海洋生物提供棲息地。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Coral reefs are distributed disproportionately throughout the oceans.",
+      "translation": "Coral reefs 在全球海洋中的分布並不平均。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Coral reefs are becoming increasingly important for scientific purposes.",
+      "translation": "Coral reefs 對科學用途正變得越來越重要。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Coral reefs are widely traded and exported to other countries.",
+      "translation": "Coral reefs 被廣泛交易，並出口到其他國家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Reef tourism is economically important, particularly for some poor people.",
+      "translation": "Reef tourism 在經濟上很重要，尤其對一些貧困人士而言。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ As with other fishing industries, coral-reef fisheries are unsuitable for women and children.",
+      "translation": "如其他漁業一樣，coral-reef fisheries 不適合女性和兒童。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What is the main purpose of the passage?",
+      "translation": "這篇文章的主要目的 是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-160/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-160/page-6.jpg"
+  ]
+}

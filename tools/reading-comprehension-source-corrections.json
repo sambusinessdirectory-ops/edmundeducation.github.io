@@ -1,0 +1,57 @@
+{
+  "p2-064": {
+    "reason": "The existing analysis was about false-belief experiments, not the supplied Tricky Sums passage. This Reading-only replacement follows the supplied original questions 14–25.",
+    "paragraphSummaries": ["A：介紹乘數表及兒童傳統的背誦方式。", "B：追溯乘數表的歷史及畢氏之名的由來。", "C：比較十九世紀與現代對背誦範圍的建議。", "D：說明英國學習目標及 Stephen Byers 答錯乘法的例子。", "E：George Osborne 拒絕回答同一道乘法題。", "F：研究指出某些乘法較難，但這不足以解釋 Osborne 的反應。", "G：解釋壓力引發失常，以及 Osborne 為何拒答。"],
+    "questions": [
+      [14,"C","十九世紀對兒童應學甚麼的看法。","掃描年份 1820 與 John Leslie。","John Leslie recommended that young pupils memorise the times table up to 25 × 25.","1820 年屬十九世紀；C 段明確交代當時對背誦乘數表範圍的建議。"],
+      [15,"F","最難的乘法算式。","掃描 hardest sum。","Studies often find that the hardest sum is 6 × 8, with 7 × 8 not far behind.","F 段比較不同乘法的難度，並指出研究中最難的算式。"],
+      [16,"G","壓力對表現的影響。","掃描 pressure、stress、mistakes。","when there is a lot of pressure to do something right, people often have difficulty doing something that they normally find easy.","G 段解釋壓力令原本容易的事情變得困難，稱為 choking。"],
+      [17,"A","兒童如何學習乘數表。","掃描 learned their times table。","Children have traditionally learned their times table by going from ‘1 times 1 is 1’ all the way up to ‘12 times 12 is 144’.","A 段直接描述傳統背誦方式。"],
+      [18,"D","一位答錯算式的政治人物。","掃描 Stephen Byers 與 54。","He got the answer wrong, saying 54 rather than 56, and everyone laughed at him.","D 段的 Byers 答錯；E 段的 Osborne 是拒絕回答，兩者不同。"],
+      [19,"B","乘數表的歷史。","掃描 oldest known tables 與 305 BC。","The oldest known tables using base-10 numbers, the base that is now used everywhere in the world, were written on bamboo strips dating from 305 BC, found in China.","B 段交代早期乘數表及名稱的歷史。"],
+      [20,"NOT GIVEN","畢氏在中國發明乘數表。","定位 B 段的 China 與 Pythagoras。","in many European cultures the times table is named after the Ancient Greek mathematician and philosopher Pythagoras","文章交代在中國出土的竹簡及歐洲的命名習慣，沒有交代畢氏是否曾在中國發明乘數表。命名不等於發明證據。"],
+      [21,"TRUE","Stephen Byers 與 George Osborne 被問及同一道題目。","比較 D、E 段的 7 × 8 與 same question。","In 2014, a young boy asked the UK Chancellor George Osborne the same question.","same question 回指 Byers 被問的 7 × 8。"],
+      [22,"NOT GIVEN","英國所有兒童都必須學習乘數表。","定位 D 段的 current aim。","The current aim in the UK is for school pupils to know all their times tables up to 12 × 12 by the age of nine.","原文說明教育目標，沒有說所有兒童均受強制規定；不可把 aim 擴大為 have to。"],
+      [23,"FALSE","George Osborne 不知道 7 × 8 的答案。","定位 F 段的 unlikely。","it is unlikely that George Osborne did not know the answer.","作者認為他不懂答案的可能性很低，後文解釋他拒答是害怕壓力下失常。"],
+      [24,"FALSE","7 × 8 是兒童最難學的算式。","掃描 F 段 hardest sum。","the hardest sum is 6 × 8, with 7 × 8 not far behind.","研究指最難的是 6 × 8；7 × 8 只是緊隨其後。"],
+      [25,"NOT GIVEN","Stephen Byers 因壓力失常而答錯。","比較 D 段的錯誤事實與 G 段的壓力解釋。","He got the answer wrong, saying 54 rather than 56","文章沒有說明 Byers 答錯的具體原因；G 段解釋的是 Osborne 的拒答，不可直接套用。"]
+    ]
+  },
+  "p2-169": {
+    "reason": "The existing analysis was about the publishing process. This Reading-only replacement follows the supplied Margaret Preston questions 15–27.",
+    "questions": [
+      [15,"TRUE","德國美學傳統的藝術家如實描繪自然。","掃描 German aesthetic tradition。","subjects of the natural world were depicted in a true-to-life manner.","true-to-life 與 realistically 同義，均指如實呈現。"],
+      [16,"NOT GIVEN","Margaret 曾就讀巴黎一所著名藝術學院。","定位 Paris 及 studies。","her studies in Paris, France, had little impact on this naturalism","文章提到在巴黎進修，但沒有提供學院名稱或其知名程度。"],
+      [17,"FALSE","Margaret 在復康中心教授手藝時認識丈夫 William。","掃描 returning to Australia 與 met。","It was on board a boat returning to Australia that she met wealthy businessman William Preston","相識地點是回澳洲的船上，不是教授編籃的復康中心。"],
+      [18,"NOT GIVEN","Margaret Preston 與 Thea Proctor 探索相近的藝術主題。","定位 1925 年共同展覽。","Her first major showing in Australia was with her friend Thea Proctor","共同展出並不能證明作品主題相同；文中沒有介紹 Proctor 的作品主題。"],
+      [19,"FALSE","1925 年的悉尼港作品比早期作品簡單。","掃描 compared with earlier works。","they were compact and busy","compact and busy 及 elaborate patterns 表示構圖緊密繁複，與 simpler 相反。"],
+      [20,"FALSE","Berowra 時期版畫的顏色非常鮮艷。","掃描 Berowra 及 bright colours。","Preston’s prints became larger, less complex and less reliant on the use of bright colours.","該時期作品較少依賴鮮艷顏色，並非強調非常鮮艷。"],
+      [21,"TRUE","住在 Berowra 時，Margaret 描繪自然環境中的花卉。","掃描 growing wild。","Preston began to concentrate instead on flowers that were growing wild.","她由瓶花轉向野生花卉，符合 in their natural setting。"],
+      [22,"symbols","她把原住民藝術的符號及色彩融入作品。","掃描 During the 1940s 之後的 symbols。","symbols used by Aboriginal people, together with dried, burnt colours found in traditional Aboriginal paintings","空格與 colours 並列，答案為複數名詞 symbols。"],
+      [23,"titles","作品名稱常提及原住民來源。","掃描 acknowledge her sources。","The artist’s titles from this period frequently acknowledge her sources","titles 是她為作品所用的名稱；保留複數。"],
+      [24,"stencilling","部分版畫使用古老的鏤版技法。","掃描 1953、ancient technique。","29 prints made using the ancient technique known as stencilling.","原文直接給出技法名稱 stencilling。"],
+      [25,"books","她從 1915 年開始收藏關於中國藝術的書籍。","掃描 1915 與 acquired。","she acquired the first of her many books on the subject","1915 年取得第一本，對應題目的 started collecting books。"],
+      [26,"travel","年老後仍對旅行與藝術感興趣。","掃描 As she got older。","her love of painting, printmaking and travel continued.","題目用 art 概括 painting 與 printmaking，另一項為 travel。"],
+      [27,"400","她創作了超過四百幅畫作及版畫。","掃描 over 及 produced。","she had produced over 400 paintings and prints.","題目已提供 more than，只需填入數字 400。"]
+    ]
+  },
+  "p3-079": {
+    "reason": "The existing analysis was about property investment. This Reading-only replacement follows the supplied Mystery of the Mummies questions 27–40.",
+    "questions": [
+      [27,"D","Balabanova 對發現的哪一方面最感驚訝？","掃描 even more shocked。","she was even more shocked at the hostile response to her publication.","比較級 even more 表明最令她驚訝的是學界敵意，而非最初的檢驗結果。"],
+      [28,"A","Lescot 的調查排除了甚麼可能性？","掃描 contamination、abdomen 及 droppings。","These samples, which could not be ‘droppings’, were then tested.","她從腹部抽取新樣本並全程錄影，排除煙草由考古學家煙斗偶然掉落的說法。"],
+      [29,"B","為何 Ramses II 體內的煙草發現遭忽視？","掃描 ignored 後的解釋。","It raised too many questions and was too far outside commonly accepted scientific views.","證據挑戰既有觀點，提出太多難以處理的問題，對應 B。"],
+      [30,"B","最先在木乃伊中發現來自美洲的物質。","比較 1976 與 1992。","In 1976, the mummified remains of Ramses II arrived in Paris for repair work.","Lescot 的發現在 1976 年，早於 Balabanova 的 1992 年。"],
+      [31,"C","因缺乏證據而反對跨洋貿易說。","掃描 John Baines 與 artefacts。","there are no artefacts found either in Europe or in America.","Baines 以缺少出土實物為反對理由。"],
+      [32,"A / B","須回應對研究方法的攻擊。","定位 Balabanova 的 false result 及 Lescot 的 contamination。","Dr Lescot responded to this charge of contamination by carefully extracting new samples from the abdomen","兩人均重新驗證結果；Lescot 明確回應污染指控，Balabanova 亦面對造假及檢驗可能錯誤的質疑。原題允許多個正確對應，A 或 B 均可。"],
+      [33,"D","提出古埃及廣泛貿易的證據。","掃描 Martin Bernal 及 Chinese silk。","You have the Chinese silk definitely arriving in Egypt by 1000 BC.","Bernal 以中國絲綢抵達埃及支持古代長途貿易。"],
+      [34,"A","研究結果發表後引起爭議。","掃描 published a paper 與 insulting letters。","She received many insulting letters, accusing her of fraud.","主語回指 Balabanova；她發表論文後遭到指控。"],
+      [35,"NOT GIVEN","已有證據證明古埃及種植煙草。","區分在木乃伊中發現煙草與在埃及種植煙草。","The discovery of tobacco fragments in the mummified body of Ramses II","發現體內煙草並非栽種證據。文章討論輸入及貿易的可能性，沒有確認煙草曾在古埃及栽種。"],
+      [36,"YES","跨大西洋貿易路線可能在數千年前已存在。","掃描最後一段 exclude the hypothesis。","It is no longer possible to exclude the hypothesis of transoceanic trade in ancient times.","不能再排除該假說，對應 may have existed；不是斷言已獲證實。"],
+      [37,"NOT GIVEN","古埃及人擅長造船。","搜尋與造船技術相關的敘述。","Could Ancient Egyptian trade have stretched all the way across the Atlantic Ocean?","提出跨洋貿易的可能性並不等於評價埃及人的造船技術；文中沒有說明。"],
+      [38,"YES","學界普遍拒絕古埃及與美洲接觸的觀點。","掃描 majority of archaeologists。","to the majority of archaeologists, the idea is hardly worth talking about.","多數考古學家甚至不認為值得討論，符合 generally rejects。"],
+      [39,"NOT GIVEN","異常檢驗結果可能來自北非植物 qat。","搜尋植物名稱 qat。","If the cocaine found in mummies could not be explained by contamination, fake mummies or Egyptian plants containing it","文章概括提到植物的解釋，但完全沒有提及 qat，不能自行補入。"],
+      [40,"B","本文主旨是甚麼？","重讀最後一段的 beliefs 與 uncertain。","what is believed to be proven may actually be uncertain.","全文以新檢驗結果挑戰舊有知識，核心是長久信念可被新資訊動搖。"]
+    ]
+  }
+}

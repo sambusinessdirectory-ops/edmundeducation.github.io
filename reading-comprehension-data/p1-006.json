@@ -1,0 +1,236 @@
+{
+  "id": "p1-006",
+  "catalogueId": "p1-006",
+  "title": "Make That Wine!",
+  "sourceHeading": "Make That Wine!",
+  "passage": 1,
+  "practice": 6,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-006-make-that-wine",
+  "source": {
+    "filename": "Practice 6- IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "8d71b9ec4dbb13dac8bb6bf857ce02cc67e528000c2e542760b664412bf5e3d4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Australia is a nation of beer drinkers. Actually, make that wine. Yes, wine has now just about supplanted beer as the alcoholic drink of choice, probably because of the extensive range of choices available and the rich culture behind them. This all adds a certain depth and intimacy to the drinking process which beer just cannot match. In addition, although wine drinkers seldom think about it, moderate consumption seems to be beneficial for the health, lowering the incidence of heart disease and various other ailments."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Wine is the product of the fermentation of grape juice, in which yeast (a fungus) consumes the natural sugars within, producing alcohol and carbon dioxide as waste. Yeast grows naturally on many varieties of grapes, often visible as a white powder, and causing fermentation directly on the plant. Thus, the discovery of wine-making was inevitable at some stage in human history. The evidence shows that this was at least 8,000 years ago in the Near East. From there, wine-making spread around the ancient Mediterranean civilisations, where the liquid was extensively produced, drunk, and traded. To this day, the biggest drinkers of wine remain the Mediterranean countries, with France leading the way."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "This leads to the classification of wines, which is quite complex. It often begins with the colour: red or white. Most people do not know that the colour of wine is not due to the grapes used (whose skins are either green or purple), but to the wine-making process itself. All grape juice is clear. Red wines are produced by leaving the grape skin in contact with the juice during fermentation; white wines by not doing so. Thus, white wine can be made from dark-coloured grapes, provided that the skin is separated early, although the resultant wine may have a pinkish tinge."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "A similar wine classification is based more specifically on the grape species used, giving such well-known names as Pinot Noir and Merlot. Chardonnay grapes remain one of the most widely planted, producing an array of white wines, rivaling the cabernet sauvignon grape, a key ingredient in the world’s most widely recognised, and similarly named, red wines. When one grape species is used, or is predominant, the wine produced is called varietal, as opposed to mixing the juices of various identified grapes, which results in blended wines. The latter process is often done when wine-makers, and the people who drink their product, want a consistent taste, year after year. Far from being looked down upon, it often results in some of the world’s most expensive bottles, such as the Cote Rotie wines in France."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Increasingly, however, market recognition is based on the location of the wine production, resulting in labels such as Bordeaux in France, Napa Valley in California, and the Barossa Valley in Australia. Traditional wines made in these places carry trademarks, respected by serious wine drinkers. However, an example of the blurred lines is the term ‘champagne’. This was once expected to be made from grapes grown in the Champagne region of France, with all the expertise and traditions of that area, but, despite legal attempts to trademark the term, it has become ‘semi-generic’, allowing it to be used for any wine of this type made anywhere in the world."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Finally, we come to the vinification method as a means of classification. One example is, in fact, champagne, known as a ‘sparkling’ wine. By allowing a secondary fermentation in a sealed container, it retains some of the waste carbon dioxide. Another variation is to stop the fermentation before all the natural sugars are consumed, creating dessert wines, ranging from slight to extreme sweetness. Yet again, grapes can be harvested well beyond their maximum ripeness, creating ‘late harvest wines’, or allowed to become partially dried (or ‘raisoned’), creating ‘dried grape wines’. Clearly, there are many possibilities, all producing uniquely flavoured products."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "One of the best-known terms relating to wine is ‘vintage’. This signifies that the product was made from grapes that were grown in a single labeled year. If that year is eventually acknowledged to have produced exceptionally fine grapes and resultant wines (‘a good vintage’), bottles from that period are often saved for future consumption. Of course, the appreciation and assessment of wine is an inexact science, meaning that the significance of a particular vintage often promotes much speculation and disagreement. A non-vintage wine is usually a blend from the produce of two or more years, which is done, as mentioned before, for consistency and quality control."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "This leads to the rich and varied world of wine assessment, and its descriptive terminology. Wine has such a variety of aromas, flavours, textures, and aftertastes that serious wine drinkers demand an agreed vocabulary so that the drinking sensations can be reliably described in writing. From bouquet to biscuity, mellow to musky, vivid to vegetal, the conceited connoisseur can perplex the listener with some really purple prose. Perhaps the opportunity to posture pretentiously with all this jargon is the main reason why wine enthusiasts are so taken with this product. Cheers!"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1-4\n\nDo the following statements agree with the information given in Reading Passage One?\n\nWrite\n\nTRUE                     if the statement agrees with the information\n\n\nFALSE                    if the statement contradicts the information\n\n\nNOT GIVEN                If there is no information on this\n\n\n1 ________________ Wine is popular in Australia because it is healthy.\n\n2 ________________ Yeast is white-coloured.\n\n3 ________________ Wine is popular in the Near East.\n\n4 ________________ Blended wines are usually cheaper."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 10,
+      "text": "Questions 5-10\n\nComplete the table.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n Classification based on   Associated Fact              Related Example\n\n\n colour                    Red wines use 5 ______ in 6 ______\n                           fermentation.\n\n\n grape species             can be 7 ______ or           Cote Rotie wines\n                           blended\n\n\n location                  Drinkers of wine 8 ______ Barossa Valley\n                           this.\n\n\n 9 ______                  can allow 10 ______ to       dessert wine\n                           remain"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11-13\n\nChoose the correct letter, A, B, C, or D.\n\n\n11 Vintage wines are\n\nA mostly better.\n\nB often preferred.\n\nC often discussed.\n\nD more costly.\n\n\n12 The author thinks that wine terminology is\n\nA unnecessary.\n\nB serious.\n\nC good.\n\nD bad.\n\n\n13 Wine\n\nA is more popular than beer, in Australia.\n\nB is most popular in France.\n\nC can be simply classified.\n\nD is often ‘raisoned’."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Wine is popular in Australia because it is healthy.",
+      "translation": "葡萄酒在澳洲受歡迎，是因為它健康。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Yeast is white-coloured.",
+      "translation": "酵母是白色的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Wine is popular in the Near East.",
+      "translation": "葡萄酒在近東地區受歡迎。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Blended wines are usually cheaper.",
+      "translation": "混釀葡萄酒通常較便宜。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "按顏色分類時，紅酒在發酵中使用 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "按顏色分類的相關例子是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "按葡萄品種分類時，葡萄酒可以是 ______ 或 blended。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "按產地分類時，葡萄酒飲用者 ______ 這一點。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "text",
+      "prompt": "______ can allow 10 ______ to dessert wine remain",
+      "translation": "按 ______ 分類時，可以讓 ______ 保留下來；例子是 dessert wine。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "以釀造方法分類時，可以讓 ______ 保留下來；例子是甜酒。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Vintage wines are",
+      "translation": "年份酒是……目標段落：Paragraph 7",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "The author thinks that wine terminology is",
+      "translation": "作者認為葡萄酒術語是……目標段落：Paragraph 8",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Wine",
+      "translation": "葡萄酒……目標段落：Paragraph 1",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-006/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-006/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-006/page-7.jpg"
+  ]
+}

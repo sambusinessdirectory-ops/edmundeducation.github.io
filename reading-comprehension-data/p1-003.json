@@ -1,0 +1,229 @@
+{
+  "id": "p1-003",
+  "catalogueId": "p1-003",
+  "title": "Plain English Campaign",
+  "sourceHeading": "Plain English Campaign",
+  "passage": 1,
+  "practice": 3,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-003-plain-english-campaign",
+  "source": {
+    "filename": "Practice 3- IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "5e0fdabf46d152c0bc9a219fdeb76238d8312064511adb9290241ce12d337e99"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "We launched Plain English Campaign in 1979 with a ritual shredding of appalling government and municipal council forms in Parliament Square, London. We had become so fed up of people visiting our advice centre in Salford, Greater Manchester, to complain about incomprehensible forms that we thought we ought to take action. At the time the shredding seemed like merely throwing sand in the eyes of the charging lion, but it briefly caught the public imagination and left an impression on government and business. Although we’re pleased with the new plain English awareness in government departments, many local councils and businesses maintain a stout resistance to change. One council began a letter to its tenants about a rent increase with two sentences averaging 95 words, full of bizarre housing finance jargon and waffle about Acts of Parliament. The London Borough of Ealing sent such an incomprehensible letter to 150 residents that 40 of them wrote or telephoned to complain and ask for clarification. Many were upset and frightened that the council was planning to imprison them if they didn’t fill in the accompanying form. In fact, the letter meant nothing of the sort, and the council had to send another letter to explain."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Plain legal English can be used as a marketing tactic. Provincial Insurance issued its plain-English Home Cover policy in 1983 and sold it heavily as such. In the first 18 months, its sales rocketed, drawing in about an extra £1.5 million of business. Recently, the Eagle Star Group launched a plain English policy to a chorus of congratulatory letters from policyholders. People, it seems, prefer to buy a policy they can understand."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Two kinds of instructions give us a lot of concern—medical labels and do-it-yourself products. With medical labels, there is a serious gap between what the professionals think is clear and what is really clear to patients. A survey by pharmacists Raynor and Sillito found that 31 per cent of patients misunderstood the instruction on eye drops ‘To be instilled’, while 33 per cent misunderstood ‘Use sparingly’. The instruction ‘Take two tablets 4 hourly’ is so prone to misunderstanding (for example, as 8 tablets an hour) that we think it should be banned. Unclear instructions on do-it-yourself products cause expense and frustration to customers. Writing the necessary instructions for these products is usually entrusted to someone who knows the product inside out, yet the best qualification for writing instructions is ignorance. The writer is then like a first-time user, discovering how to use the product in a step-by-step way. Instructions never seem to be tested with first-time users before being issued. So vital steps are missed out or components are mislabelled or not labelled at all. For example, the instructions for assembling a sliding door gear say: ‘The pendant bolt centres are fixed and should be at an equal distance from the centre of the door.’ This neglects to explain who should do the fixing and how the bolt centres will get into the correct position. By using an imperative and an active verb the instruction becomes much clearer: ‘Make sure you fix the centres of the pendant bolts at an equal distance from the centre of the door.’"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Effectively, the Plain English movement in the US began with President Jimmy Carter’s Executive Order 12044 of 23 March 1978, which required regulations to be written in plain language. There were earlier government efforts to inform consumers about their rights and obligations, such as the Truth in Lending Act (1969) and the Fair Credit Billing Act (1975), which emphasised a body of information that consumers need in simple language. But President Carter’s executive order gave the prestige and force of a president to the movement. All over the country, isolated revolts or efforts against legalistic gobbledygook at the federal, state and corporate levels seemed to grow into a small revolution. These efforts and advances between the years 1978 and 1985 are described in the panel ‘The Plain English Scorecard’."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The Bastille has not fallen yet. The forces of resistance are strong, as one can see from the case of Pennsylvania as cited in the Scorecard. In addition, President Ronald Reagan’s executive order of 19 February 1981, revoking President Carter’s earlier executive order, has definitely slowed the pace of plain English legislation in the United States. There are three main objections to the idea of plain English. They are given below, with the campaign’s answer to them:"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The statute would cause unending litigation and clog the courts. This has proved untrue in all ten states with plain English laws for consumer contracts and the 34 states with laws or regulations for insurance policies. Since 1978, when a plain-English law went into effect in New York, there have been only four lawsuits and only two decisions. Massachusetts had no cases. The cost of compliance would be enormous. Translation of legal contracts into non-legal everyday language would be a waste of time and money. The experience of several corporations has proved that the cost of compliance is often outweighed by solid benefits and litigation savings. Citibank of New York made history in 1975 by introducing a simplified promissory note and afterwards simplified all their forms. Citibank counsel Carl Falsenfield says: ‘We have lost no money and there has been no litigation as a result of simplification.’ The cost-effectiveness of clarity is demonstrable. A satisfied customer more readily signs on the bottom line and thus contributes to the corporation’s bottom line. Some documents simply can’t be simplified. The only legal language that has been tested for centuries in the courts is precise enough to deal with a mortgage, a deed, a lease, or an insurance policy. Here, too, the experience of several corporations and insurance companies has proved that contracts and policies can be made more understandable without sacrificing legal effectiveness."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "What does the future hold for the Plain English movement? Today, American consumers are buffeted by an assortment of pressures. Never before have consumers had as many choices in areas like financial services, travel, telephone services, and supermarket products. There are about 300 long-distance phone companies in the US. Not long ago, the average supermarket carried 9,000 items; today, it carries 22,000. More importantly, this expansion of options—according to a recent report—is faced by a staggering 30 million Americans lacking the reading skills to handle the minimal demands of daily living. The consumer’s need, therefore, for information expressed in plain English is more critical than ever."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "What is needed today is not a brake on the movement’s momentum but another push from consumers towards plain-English contracts. I still hear plain English on the TV and in the streets, and read plain English in popular magazines and bestsellers, but not yet in many functional documents. Despite some victories, the war against gobbledygook is not over yet. We do well to remember the warning of Chrissie Maher, organiser of Plain English Campaign in the UK: ‘People are not just injured when medical labels are written in gobbledygook—they die. Drivers are not just hurt when their medicines don’t tell them they could fall asleep at the wheel—they are killed.’"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 1–6 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n1 The use of plain English in marketing can bring financial benefits.\n2 Because doctors tend to use jargon when speaking to patients, many patients become\nconfused about medicine dosages.\n3 After Ronald Reagan succeeded Jimmy Carter as US president, the impact of the plain\nEnglish campaign became less pronounced.\n4 Plain English campaigners have difficulty communicating with government officials.\n5 Legal language is regularly tested by judges in court.\n6 Compared with the past, American consumers now face less pressure when reading\nsupermarket labels."
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 14,
+      "text": "Questions 7–14\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 7–14 on your answer sheet.\nCampaigners encountered a council rent-increase letter full of strange housing 7\n____________ and references to Acts of Parliament. They were also concerned about\nother areas. For example, when patients read medicine labels, there was an obvious 8\n____________ between what professionals and patients considered clear.\nAnother notable area involved 9 ____________ products: unclear instructions not only cost\ncustomers money but also caused 10 ____________. The writer should therefore think like\na 11 ____________. Opponents of the Plain English Campaign argued that, in some\ncircumstances, 12 ____________ language had been refined into the precise language\nused in the 13 ____________. The author suggested that another push towards\nplain-English contracts was now needed from 14 ____________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The use of plain English in marketing can bring financial benefits.",
+      "translation": "在 marketing 中使用 plain English 可以帶來財政利益。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Because doctors tend to use jargon when speaking to patients, many patients become confused about medicine dosages.",
+      "translation": "因為醫生跟病人說話時常用行話，所以很多病人對藥物劑量感到困惑。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "After Ronald Reagan succeeded Jimmy Carter as US president, the impact of the plain English campaign became less pronounced.",
+      "translation": "Ronald Reagan 接任 Jimmy Carter 成為美國總統後，plain English campaign 的影響變得較弱。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Plain English campaigners have difficulty communicating with government officials.",
+      "translation": "Plain English campaigners 與政府官員溝通有困難。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Legal language is regularly tested by judges in court.",
+      "translation": "法律語言經常在法院中接受檢驗。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Compared with the past, American consumers now face less pressure when reading supermarket labels.",
+      "translation": "與過去相比，美國消費者現在閱讀超市標籤時面對較少壓力。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "Campaigners 遇到一封 council rent-increase letter，裡面充滿奇怪的 housing ______，以及對Acts of Parliament 的提及。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "例如，當病人閱讀藥物標籤時，專業人士和病人對「清楚」的理解之間有明顯 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "另一個值得注意的範疇涉及 ______ 產品。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "不清楚的說明不只令顧客花錢，也造成 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "因此，撰寫說明的人應該像一位 ______ 那樣思考。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "Plain English Campaign 的反對者認為，在某些情況下，______ language 已被鍛鍊成法院中使用的精確語言。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "……在 ______ 中使用的精確語言。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "作者建議，現在需要由 ______ 再推動 plain-English contracts。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-003/page-6.jpg"
+  ]
+}

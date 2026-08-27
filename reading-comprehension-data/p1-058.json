@@ -1,0 +1,251 @@
+{
+  "id": "p1-058",
+  "catalogueId": "p1-058",
+  "title": "The Pearl",
+  "sourceHeading": "The Pearl",
+  "passage": 1,
+  "practice": 58,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-058-the-pearl",
+  "source": {
+    "filename": "Practice 58  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "473e6e3c3866ba4a1347c8dc8abf6b635f0a66115b080271a50ce8317dbc49fc"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Pearls have always held special status among the rich and powerful. Women in ancient Rome, for example, reportedly wore pearls to bed so that, on waking, they would be reminded of their wealth. Pearls had greater commercial value than diamonds until jewellers learnt to cut gemstones. In Eastern countries such as Persia, ground pearl powder was used as medicine for ailments ranging from heart disease to epilepsy."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Pearls can generally be divided into three categories: natural, cultured and imitation. When an irritant, such as a grain of sand, enters a certain type of oyster, mussel or clam, the mollusc secretes a defensive fluid to coat it. Layers gradually accumulate around the irritant until a lustrous natural pearl forms."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "A cultured pearl undergoes the same process, with one difference: the irritant is a bead called ‘mother-of-pearl’, surgically implanted in the oyster. This produces a much larger core in cultured pearls than in natural ones. As long as enough layers of nacre—the secreted fluid coating the irritant—form a beautiful, gem-quality pearl, the nucleus’s size does not affect its beauty or durability."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Pearls come from both saltwater and freshwater sources. Saltwater pearls are typically of high quality, although some freshwater pearls are also highly regarded. Freshwater pearls often have irregular, puffed-rice shapes. Nevertheless, individual qualities determine a pearl’s value more than its source. Saltwater pearl oysters are usually cultivated in protected lagoons or volcanic atolls, while most freshwater cultured pearls sold today come from China. Producers have several options: they may use freshwater or saltwater shellfish, place a graft in the mantle or gonad, add a spherical bead or use no bead."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Whichever method is used, producing pearls usually takes several years. Mussels must mature, which can take almost three years, before an irritant is implanted. The pearl then requires approximately another three years to reach full size. Sometimes the irritant is rejected; the pearl may become badly deformed or the oyster may die from complications such as disease. At the end of a five- to ten-year cycle, only half the oysters may have survived. Of the pearls eventually produced, only about 5% are of sufficiently high quality for jewellers."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Imitation pearls are another matter. The island of Mallorca in Spain is renowned for its imitation-pearl industry. In most cases, a bead is dipped in a solution made from fish scales, but the resulting coating is thin and often wears away. One way to distinguish an imitation is to rub it gently against the teeth: fake pearls feel smooth, whereas the layers of nacre on real pearls feel gritty."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Several factors are considered when evaluating a pearl: size, shape, colour, surface quality and lustre. In descending order of value, the three types are natural, cultured and imitation, the last of which is essentially worthless. To determine whether a pearl is natural or cultured, jewellers can send it to a gem laboratory for an X-ray. High-quality natural pearls are extremely rare. Japan’s Akoya pearls are among the most lustrous available, while the southern seas around Australia produce larger pearls."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Historically, the world’s highest-quality pearls came from the Persian Gulf, particularly the waters around Bahrain. Divers harvested them by hand without advanced equipment. The discovery of large oil reserves in the early 1930s, however, brought the Persian Gulf’s natural-pearl industry to an abrupt end when contaminated water destroyed the once-pristine beds. Today, India probably holds the largest stock of natural pearls. Ironically, much of that stock originally came from Bahrain."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nReading Passage 1 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in Boxes 1–4 on your answer sheet.\n1 ___________ historical accounts of pearls and their owners\n2 ___________ difficulties in the cultivation process\n3 ___________ factors that determine the value of pearls\n4 ___________ a growth mechanism that distinguishes cultured pearls from natural ones"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 10,
+      "text": "Questions 5–10\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in Boxes 5–10 on your answer sheet.\n In history, pearls have held great importance among wealthy and powerful people. Women in 5\n _________________ also wore pearls as gems. Pearl powder was used as medicine in 6 _________________.\n There are essentially three types of pearls: natural, cultured and imitation. Most freshwater cultured pearls sold\n today come from China, while the island of 7 _________________ is famous for its imitation-pearl industry.\n Good-quality natural pearls are exceedingly unusual. 8 _________________ produces some of the most lustrous\n pearls, while 9 _________________ produces larger pearls because of the favourable environment along its\n coastline. In the past, 10 _________________ in the Persian Gulf produced the world’s best pearls. Today, India\n holds the largest remaining stock of natural pearls."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 11–13 on your answer sheet, write\n\n TRUE                          if the statement agrees with the information\n\n FALSE                         if the statement contradicts the information\n\n NOT GIVEN                     if there is no information on this\n11 _________________ Generally, the centre of a cultured pearl is significantly larger than that of a\nnatural pearl.\n12 _________________ Sometimes, fake pearls can be more expensive.\n13 _________________ Pearls produced in Japan are generally smaller than those produced in\nAustralia."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ historical accounts of pearls and their owners",
+      "translation": "關於珍珠及其擁有者的歷史記載。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ difficulties in the cultivation process",
+      "translation": "珍珠培養過程中的困難。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ factors that determine the value of pearls",
+      "translation": "決定珍珠價值的因素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ a growth mechanism that distinguishes cultured pearls from natural ones",
+      "translation": "一種把 cultured pearls 和 natural pearls 區分開來的生長機制。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "______ 的女性也會佩戴珍珠作為寶飾。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "珍珠粉在 ______ 被用作藥物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "而 ______ 這個島以 imitation-pearl industry 聞名。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "______ 出產一些最有光澤的珍珠。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "而 ______ 因沿岸環境有利，出產較大的珍珠。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "過去，Persian Gulf 的 ______ 出產世界上最好的珍珠。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Generally, the centre of a cultured pearl is significantly larger than that of a natural pearl.",
+      "translation": "一般而言，cultured pearl 的中心比 natural pearl 的中心大很多。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Sometimes, fake pearls can be more expensive.",
+      "translation": "有時候，fake pearls 可能更昂貴。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Pearls produced in Japan are generally smaller than those produced in Australia.",
+      "translation": "日本出產的珍珠一般比澳洲出產的珍珠小。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-058/page-4.jpg"
+  ]
+}

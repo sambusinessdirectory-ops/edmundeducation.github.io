@@ -1,0 +1,220 @@
+{
+  "id": "p1-047",
+  "catalogueId": "p1-047",
+  "title": "Computer games for Preschoolers Nintendo's Research and Design Process",
+  "sourceHeading": "Computer Games for Preschoolers: Nintendo’s Research and Design Process",
+  "passage": 1,
+  "practice": 47,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-047-computer-games-for-preschoolers-nintendo-s-research-and-design-process",
+  "source": {
+    "filename": "Practice 47  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "eb6fc534524b5d86863a987ff17945cf96a8e363882869599cebba66779239a2"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Designing computer games for young children is a daunting task for game producers, who for a long time concentrated on more ‘hard-core’ game enthusiasts. This article chronicles the design process and research involved in creating Nintendo DS games for preschoolers."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "After speaking with producers who had a keen interest in designing for the DS, we agreed on three key goals. The first was to understand the range of preschoolers’ physical and cognitive abilities in the context of gameplay on a handheld system. The second was to understand how preschoolers interacted with the DS, particularly how they controlled the forms of play and game mechanics offered by products already on the market. The third was to understand parents’ expectations of handheld systems, as well as the purchasing and gameplay contexts in which they were used. The research team decided that in-home ethnographic studies with preschoolers and their families would yield a comprehensive body of data for the producers. We therefore began by conducting 26 such studies in three markets across the United States: an urban and suburban area on the East Coast, one on the West Coast, and a suburban and rural area in the Midwest."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The participants included 15 girls and 11 boys, ranging in age from 3 years and 3 months to 5 years and 11 months. Because earlier research had shown that older siblings affected gameplay—for example, children with older siblings displayed more advanced motor coordination when using a computer mouse—we selected households that included preschoolers both with and without older siblings. To study both experienced and new users of the platform, we divided the sample so that 13 families owned at least one Nintendo DS and the remainder did not. A DS was brought to each interview in a household that did not own one so the child could play. This allowed us to observe the instinctive movements of new players, and of experienced players trying unfamiliar games, as well as the learned movements of experienced users. Each interview lasted approximately 60 to 120 minutes and included the preschooler, at least one parent, and often siblings or another caregiver."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Three kinds of information were collected during each interview. From available parents and older siblings, we gathered data about decisions to buy game systems, the family’s typical gameplay patterns, levels of parental moderation of computer gaming, and family members’ favourite games. The in-home interviews also helped us understand each household’s approach to gaming: the spaces used for gameplay, how systems were installed, where handheld play occurred both at home and on the move, and the number and types of games and game systems owned. Most importantly, we collected gameplay information for every child."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Before conducting the interviews, the research team consulted the in-house game producers to create a list of game mechanics and potential problems associated with preschoolers’ motor and cognitive abilities that needed to be understood before the games were written. These ranged from general dexterity issues involving controllers to the effectiveness of in-game instructions and specific mechanics in existing games that the producers wanted to implement in future preschool titles. During the interviews, the moderator guided each preschooler through a series of games, observed the interaction, and asked both the child and the parents about feelings, attitudes and frustrations that arose in different situations."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "If a participant had previously used the DS, he or she was first asked to play a favourite game on it. This gave researchers information about the child’s current level of skill relative to the chosen game’s complexity and allowed them to observe familiar mechanics. Across the 26 preschoolers, the range of Nintendo DS games selected was broad and included New Super Mario Bros., Sonic Rush, Nintendogs and Tony Hawk’s Proving Ground. The interviewer observed the child playing, noting preferences for game mechanics, motor interactions with the device and the level of complexity each mechanic presented. In consultation with the producers, the researchers also asked every preschooler to play The Little Mermaid: Ariel’s Undersea Adventure. The game was chosen for two main reasons. First, it was one of the few on the market with characters that appealed to this young age group. Second, it incorporated a wide variety of mechanics unique to the DS platform, including use of the microphone for blowing or singing."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The findings from this initial study were extensive. After reviewing the results and discussing their implications with our internal production team, we outlined the design requirements and presented them to a firm specialising in game design. We worked closely with its experts to base the design of two preschool-oriented DS games then in development on what we had learnt."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "As the two DS games entered development, a formative research process was established. Whenever we developed new game mechanics, we brought preschoolers into our in-house usability laboratory to test them and assess both their simplicity and their appeal. We tested alpha or beta versions of individual game elements as well as the overall game structure. Once a full version of each DS game was ready, we returned to the field and tested it with twelve preschoolers and their parents. This ensured that every game element worked for the children, the overall objective was understandable and the experience was enjoyable. We also collected parents’ feedback on whether they considered the game appropriate, engaging and worth purchasing."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in Boxes 1–5 on your answer sheet.\nExploratory Research Project\nMain Objectives:\n● Determine the relevant physical and cognitive 1 _________________ in the gameplay context\n● Observe how preschoolers manage gameplay\n● Investigate the attitudes of 2 _________________ towards games\nSubjects:\n●   26 children from different US 3 _________________\n●   Age range: 3 years and 3 months to 5 years and 11 months\n●   Some children have older 4 _________________\n●   Equal number of new and 5 _________________ players\n●   Some households own a Nintendo DS, while others do not\nLength of Interview:\n1-2 hours"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nDo the following statements agree with the information given in Reading Passage?\nIn Boxes 6–9 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n6 _________________ One area of research was how much parents controlled their children’s gameplay\nafter school.\n7 _________________ The researchers were given unrestricted access to the participants’ homes.\n8 _________________ The researchers regarded The Little Mermaid: Ariel’s Undersea Adventure as\nlikely to appeal to preschoolers.\n9 _________________ The Little Mermaid: Ariel’s Undersea Adventure is operated entirely by hand\ncontrols."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nComplete the flow-chart below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 10–13 on your answer sheet.\n Using the results of the study\n\n ↓\n\n Presentation of design requirements to a specialist 10 _________________\n\n ↓\n\n Testing the mechanics of two new games in the Nintendo lab (assess 11 _________________ and appeal)\n\n ↓\n\n A 12 _________________ of the games was trialled by twelve children\n\n ↓\n\n Collection of 13 _________________ from parents"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "判斷在 gameplay context 中相關的身體和認知 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "調查 ____________ 對 games 的態度。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "來自不同美國 ____________ 的 26 名兒童。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "有些 children 有年長的 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "new players 和 ____________ players 數量相同。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ One area of research was how much parents controlled their children’s gameplay after school.",
+      "translation": "研究其中一個範圍是父母在放學後多大程度控制孩子的 gameplay。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ The researchers were given unrestricted access to the participants’ homes.",
+      "translation": "研究人員獲准不受限制地進入參與者的家中。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ The researchers regarded The Little Mermaid: Ariel’s Undersea Adventure as likely to appeal to preschoolers.",
+      "translation": "研究人員認為 The Little Mermaid: Ariel’s Undersea Adventure 可能吸引 preschoolers。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ The Little Mermaid: Ariel’s Undersea Adventure is operated entirely by hand controls.",
+      "translation": "The Little Mermaid: Ariel’s Undersea Adventure 完全以手部控制操作。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "把 design requirements 提交給一家專門的 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "在 Nintendo lab 測試兩款新遊戲的 mechanics，評估 ____________ 和 appeal。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "遊戲的一個 ____________ 由十二名兒童試玩。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "收集 parents 的 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-047/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-047/page-5.jpg"
+  ]
+}

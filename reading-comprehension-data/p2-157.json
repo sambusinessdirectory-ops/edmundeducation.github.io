@@ -1,0 +1,225 @@
+{
+  "id": "p2-157",
+  "catalogueId": "p2-157",
+  "title": "Natural pesticide in India",
+  "sourceHeading": "Natural Pesticide in India",
+  "passage": 2,
+  "practice": 157,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-157-natural-pesticide-in-india",
+  "source": {
+    "filename": "Practice 157 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "11813696e2a383c2479bde23d67642e0645c9cf45919dbfd3c20f9d5672516ff"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "A dramatic story about cotton farmers in India shows how destructive pesticides can be for people and the environment, and why today’s agriculture is so dependent on pesticides. This story also shows that it’s possible to stop using chemical pesticides without losing a crop to ravaging insects, and it explains how to do it."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The story began about 30 years ago, when a handful of families migrated from the Guntur district of Andhra Pradesh, southeast India, into Punukala, a community of around 900 people farming plots of between two and 10 acres. The outsiders from Guntur brought cotton cultivation with them. Cotton wooed farmers by promising to bring in more hard cash than the mixed crops they were already growing to eat and sell: millet, sorghum, groundnuts, pigeon peas, mung beans, chili and rice. But raising cotton meant using pesticides and fertilisers—until then a mystery to the mostly illiterate farmers of the community. Cotton production started spreading through Andhra Pradesh state. The high value of cotton made it an exceptionally attractive crop, but growing cotton required chemical fertilisers and pesticides. As most of the farmers were poor, illiterate, and without previous experience using agricultural chemicals, they were forced to rely on local, small-scale agricultural dealers for advice. The dealers sold them seeds, fertilisers, and pesticides on credit and also guaranteed the purchase of their crop. The dealers themselves had little technical knowledge about pesticides. They merely passed on promotional information from multinational chemical companies that supplied their products."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "At first, cotton yields were high, and expenses for pesticides were low because cotton pests had not yet moved in. The farmers had never earned so much! But within a few years, cotton pests like bollworms and aphids plagued the fields, and the farmers saw how rapid insect evolution can be. Repeated spraying killed off the weaker pests, but left the ones most resistant to pesticides to multiply. As pesticide resistance mounted, the farmers had to apply more and more of the pesticides to get the same results. At the same time, the pesticides killed off birds, wasps, beetles, spiders, and other predators that had once provided natural control of pest insects. Without these predators, the pests could destroy the entire crop if pesticides were not used. Eventually, farmers were mixing pesticides and sometimes had to spray their cotton as often as twice a week. They were really hooked!"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The villagers were hesitant, but one of Punukala’s village elders decided to risk trying the natural methods instead of pesticides. His son had collapsed with acute pesticide poisoning and survived, but the hospital bill was staggering. SECURE’s staff coached this villager on how to protect his cotton crop by using a toolkit of natural methods that India’s Center for Sustainable Agriculture put together in collaboration with scientists at Andhra Pradesh’s state university. They called the toolkit ‘Non-Pesticide Management’—or ‘NPM.’"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The most important resource in the NPM toolkit was the neem tree (Azadirachta indica), which is common throughout much of India. The neem tree is a broad-leaved evergreen tree related to mahogany. It protects itself against insects by producing a multitude of natural pesticides that work in a variety of ways: they repel egg-laying, interfere with insect growth, and most important, disrupt the ability of crop-eating insects to sense their food."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In fact, neem has been used traditionally in India to protect stored grains from insects and to produce soaps, skin lotions, and other health products. To protect crops from insects, neem seeds are simply ground into a powder that is soaked overnight in water. The solution is then sprayed onto the crop. Another preparation, neem cake, can be mixed into the soil to kill soil-borne pests and diseases, and it doubles as an organic fertilizer high in nitrogen. Neem trees grow locally, so the only ‘cost’ is the labour to prepare neem for application to fields."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The first farmer’s trial with NPM was a complete success! His harvest was as good as the harvests of farmers who were using pesticides, and he earned much more because he did not spend a single rupee on pesticides. Inspired by this success, 20 farmers tried NPM the next year. SECURE stationed two well-trained staff in Punukala to teach and help everyone in the village, and the village women put pressure on their husbands to stop using toxic chemicals. Families that were no longer exposing themselves to pesticides began to feel much better, and the rapid improvement in income, health, and general well-being quickly sold everyone on the value of NPM. By 2000, all the farmers in Punukala were using NPM, not only for cotton but for their other crops as well."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The suicide epidemic came to an end. And with the cash, health, and energy that returned when they stopped poisoning themselves with pesticides, the villagers were inspired to start more community and business projects. The women of Punukala created a new source of income by collecting, grinding, and selling neem seeds for NPM in other villages. The villagers rescued their indentured children and gave them special six-month ‘catch-up’ courses to return to school."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Fighting against pesticides and winning increased village solidarity, self-confidence, and optimism about the future. When dealers tried to punish NPM users by paying less for NPM cotton, the farmers united to form a marketing cooperative that found fairer prices elsewhere. The leadership and collaboration skills that the citizens of Punukala developed in the NPM struggle have helped them to take on other challenges, like water purification, building a cotton gin to add value to the cotton before they sell it, and convincing the state government to support NPM over the objection of multinational pesticide corporations."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–24",
+    "g25": "Questions 25–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 14–17 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n14 __________ Cotton in Andhra Pradesh could bring local farmers more income than\ntraditional crops.\n15 __________ Most farmers had used agricultural pesticides before cotton cultivation was\nintroduced 30 years ago.\n16 __________ Cotton yields are relatively lower than those of other agricultural crops.\n17 __________ The farmers did not realise how quickly the pests would spread."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 24,
+      "text": "Questions 18–24\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 18–24 on your answer sheet.\n\n\nMaking a Natural Pesticide to Protect Crops from Insects\nThe broad-leaved neem tree was chosen. It is a fast-growing, 18 __________ tree and\nproduces a 19 __________ of natural pesticides that act as insect repellents. First,\nneem seeds are crushed into 20 __________, which is then soaked in water 21\n__________. The resulting solution is sprayed onto the crop. A preparation called 22\n__________ is mixed with soil to eliminate pests and 23 __________, while also\nincreasing the level of 24 __________ in this organic fertiliser."
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 26,
+      "text": "Questions 25–26\nAnswer the questions below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each\nanswer.\n25 In which year did all the farmers in Punukala use NPM on their crops? __________\n\n26 What gave the women of Punukala an NPM-related business opportunity? __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Cotton in Andhra Pradesh could bring local farmers more income than traditional crops.",
+      "translation": "Andhra Pradesh 的棉花能為當地農民帶來比傳統作物更多的收入。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Most farmers had used agricultural pesticides before cotton cultivation was introduced 30 years ago.",
+      "translation": "在 30 年前棉花種植被引入之前，大多數農民已經使用過農業殺蟲劑。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Cotton yields are relatively lower than those of other agricultural crops.",
+      "translation": "棉花的產量相對低於其他農作物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ The farmers did not realise how quickly the pests would spread.",
+      "translation": "農民沒有意識到害蟲會多快擴散。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "它是一種生長快速的 ______ 樹。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "它會產生一 ______ 天然殺蟲物質，這些物質有驅蟲作用。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "首先，neem seeds 被壓碎成 ______，然後把它浸在水中。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "然後把它在水中浸泡 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "一種叫做 ______ 的製劑會與土壤混合。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "它與土壤混合，用來消除害蟲和 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "同時也提高這種有機肥料中的 ______ 含量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "text",
+      "prompt": "In which year did all the farmers in Punukala use NPM on their crops? __________",
+      "translation": "Punukala 所有農民在哪一年開始在作物上使用 NPM？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "text",
+      "prompt": "What gave the women of Punukala an NPM-related business opportunity? __________",
+      "translation": "什麼東西為 Punukala 的女性帶來與 NPM 相關的商業機會？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-157/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-157/page-6.jpg"
+  ]
+}

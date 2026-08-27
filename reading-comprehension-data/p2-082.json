@@ -1,0 +1,260 @@
+{
+  "id": "p2-082",
+  "catalogueId": "p2-082",
+  "title": "UNCOVERING THE TRUTH ABOUT GERMANY’S AUTOBAHNS",
+  "sourceHeading": "Uncovering the Truth About Germany’s Autobahns",
+  "passage": 2,
+  "practice": 82,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-082-uncovering-the-truth-about-germanys-autobahns",
+  "source": {
+    "filename": "Practice 82 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "6e5395873466775c9f331a4cb67abe614aa6cbf97498061975771df581b6eab3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Officially called the Bundesautobahnen—a term meaning federal expressways—they are known more commonly as the autobahns: Germany’s impressive system of motorways. There is nothing extraordinary about them, fine feats of engineering though they may be, so why has the term autobahn become so well known? The simple answer is that people living outside of Germany have had their curiosity more than a little tickled on account of the fact that Germany’s motorways are, in one specific way, unique. They are not the longest system in the world, this plaudit going to the Interstate Highway System of America, nor do they even rank second or third (China and India, respectively), and though they come a healthy fourth in the length stakes, this is really neither here nor there. No, indeed, what fascinates us about the autobahns has nothing to do with their technical or design features. It does, however, have a lot to do with how fast you can go on them. The autobahns, you see, are the only stretches of motorway in the world on which you can drive your car (provided it is not towing a trailer) at, well, any speed you like. Now that’s a very attractive proposition for many boy-racers out there who would salivate at the prospect of being able to drive as fast as they wanted, and, therefore, on that rather scary point, perhaps we should consider asking the, well, obvious question: what on earth were the Germans thinking when they did this? Surely having no speed limit whatsoever is a recipe for disaster."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "To clarify, there is a ‘recommended’ speed limit of 130 km/h on all stretches of German motorway, and a hard limit is imposed on some vehicles. Buses carrying standing passengers and motorbikes pulling trailers cannot go faster than 60 km/h. All other buses, as well as passenger cars and trucks with trailers, and all vehicles weighing in excess of 3.5 tonnes are not allowed to exceed 80 km/h. Rare exceptions include buses that have been officially certified to travel at 100 km/h and passenger cars carrying trailers that have received similar certification. Nonetheless, the fact remains that all other cars, trucks and motorbikes, while encouraged to adhere to the ‘recommended’ speed limit, are by no means bound to it and can, in effect, travel as fast as they please. Indeed, many of them do and it is not uncommon to see a car racing past you on the autobahn travelling in excess of 140 km/h."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In such circumstances, it would not be at all surprising to learn that Germany has an awful record on road safety, except that it doesn’t. Indeed, Germany’s road safety record is comparable, and in some cases superior, to that of all other industrialised European countries. So is this just luck rewarding recklessness? Well, first of all, it’s important to concede that speed limits do apply at junctions and other danger spots, such as sections under repair, and that there are even weather-related speed limits on some stretches of the autobahn (lower speed limits are used in cases of wet lanes). To fail to point this out would be to paint a picture, rather unfairly, of speed-hungry officials putting the travelling public in jeopardy on roads in order to gratify their own thrill-lust. Of course, this is not the case. Indeed, safety considerations aside, the Germans have even imposed speed limits for other purposes, such as to reduce pollution and noise on some stretches of the autobahn, so there is no crazy speed-fuelled agenda here. ‘Mad’ you may say, but the Germans actually seem to think this is safe."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The statistics appear to back them up, though. After all, the International Traffic Safety Data and Analysis Group’s research indicates that there are 2.2 road-user fatalities per billion vehicle kilometres on German autobahns each year. Using the same measure, 4.5 road-user fatalities per billion vehicle kilometres occur on United States motorways each year. In fact, when you look beyond the myth of the motorway without speed limits, where drivers regularly clock up speeds in excess of 200 km/h, and uncover the more sober reality, you realise that the German approach might not be so daft as it first seemed. For a start, only 2% of all traffic regularly travels on the unrestricted stretches of motorway as, despite the vast area they cover, they are strategically located in rural areas with low traffic volume. The other 98% of vehicles on the road do in fact have their speeds very strictly regulated, and these regulations are also heavily enforced. Speed cameras are everywhere and the motorways are patrolled by unmarked police cars ready to pull over speed offenders and reckless drivers. The Germans have also taken into consideration statistics which show that very few road accidents occur on motorways in low-volume traffic each year. In fact, these stretches of motorway offer up some of the safest driving conditions, statistically speaking, of all. The Germans have therefore reasoned that they don’t need to regulate rural motorways a great deal, and it would seem they are right."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Furthermore, the myth of limitless speed is also quite misleading. In reality, all German car manufacturers (and most international ones) keep to a gentleman’s agreement whereby they limit the top speed of their cars to around 150 km/h for safety reasons. Unless tyre pressure is optimally maintained and cars are constantly serviced (as would happen, say, in motor racing), travelling at higher speeds than that is, well, extremely risky and can lead to blowouts and other physical and mechanical failures that have the potential to cause death. Therefore, the situation is a little different from what we might have assumed because while there is no official speed limit in theory, car manufacturers self-regulate so, in practice, a limit on the maximum speed vehicles can travel at has been put in place. In addition, the few vehicles which are capable of clocking speeds in excess of 150 km/h seldom get the opportunity (the time and space) to build up to these speeds on the German autobahns, and, if they do, well, the way the German government sees it, they might as well be driving that fast there rather than in the suburbs, so let them do it!"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has five paragraphs, A–E.\nChoose the correct heading for each paragraph from the list of headings (i–viii) below.\n i                      The Fascination Explained\n\n ii                     Speedsters Thwarted by Manufacturers\n\n iii                    A Policy Well Conceived\n\n iv                     Speed Limits That Are Not Speed Limits\n\n v                      Recklessness Rewarded\n\n vi                     Safety Compromised\n\n vii                    Safety Not Only Factor Driving Speed Regulators\n\n viii                   The Longest Motorways Examined\n14 ___________ Paragraph A\n15 ___________ Paragraph B\n16 ___________ Paragraph C\n17 ___________ Paragraph D\n18 ___________ Paragraph E"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 23,
+      "text": "Questions 19–23\nChoose the correct letter, A, B, C or D.\n19 German road regulations state that\n A all vehicles must adhere to a recommended speed limit of 130 km/h.\n B the speed limit for all buses is 100 km/h.\n C no trailer-carrying vehicle can travel at speeds in excess of 80 km/h.\n D passenger cars carrying trailers must not exceed a limit of 80 km/h without prior\n   approval.\n\n20 Special motorway speed limits\n A are sometimes imposed on all vehicles in difficult driving conditions.\n B never apply to cars, trucks and motorcycles, which can travel at any speed,\n   provided they are not towing a trailer.\n C – like all speed limits in Germany – are only recommended maximum speeds, and\n   are not enforceable in law.\n D are only seen at junctions and on stretches of motorway which need work.\n\n21 The section of the German motorway system which has no upper speed limit for\nsome vehicles\n A is also that which sees the most volume of traffic.\n B is not a significant part of the system as a whole, only accounting for about 2% of\n   the country’s motorways.\n C is, however, patrolled by unmarked police cars which monitor traffic flow.\n D receives a comparatively small amount of the country’s overall traffic volume.\n\n22 German car manufacturers\n A have a legal agreement to limit their vehicles’ speeds.\n B self-regulate to an extent when it comes to safety considerations.\n C implement an unusual practice of limiting their vehicles’ fuel consumption.\n D regularly service their vehicles for safety purposes.\n\n23 What do you think is the writer’s view of the German approach to speed regulation?\n A It is irresponsible and reckless.\n B It initially appears baffling, but, on closer inspection, makes a lot of sense.\n C It is inadequate in cities and leaves a lot to be desired in rural areas.\n D It is over-reliant on self-regulation by manufacturers and even drivers themselves."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the sentences.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n\n\n\n\nFor cars operating at high speeds, it is necessary to maintain optimal tyre pressure\nand ensure that the vehicle is serviced regularly in order to combat the heightened\nrisk of 24 _________________ failures.\nIn reality, due to the practice whereby 25 _________________, few vehicles have\nthe capacity to travel at speeds in excess of 150 km/h.\nWhen it comes to vehicles capable of travelling at very high speeds, whose drivers\nare determined to do so, 26 _________________ would rather they attempted to\ndrive excessively fast on the parts of the motorway it deems safe than anywhere\nelse."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "German road regulations state that",
+      "translation": "德國道路規例指出……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Special motorway speed limits",
+      "translation": "特殊高速公路速度限制……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "The section of the German motorway system which has no upper speed limit for some vehicles",
+      "translation": "德國高速公路系統中，對某些車輛沒有最高速度上限的部分……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "German car manufacturers",
+      "translation": "德國汽車製造商……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "What do you think is the writer’s view of the German approach to speed regulation?",
+      "translation": "你認為作者怎樣看德國速度規管方法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "對高速行駛的汽車來說，需要保持最佳胎壓並確保車輛定期保養，以應對 ______ 故障風險上升。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "實際上，由於 ______ 這種做法，很少車輛有能力以超過 150 km/h 的速度行駛。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "對於能高速行駛、且駕駛者決心這樣做的車輛，______ 寧願他們在其認為安全的高速公路路段嘗試超高速駕駛，也不要在其他地方這樣做。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-082/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-082/page-6.jpg",
+    "/assets/reading-comprehension/questions/p2-082/page-8.jpg"
+  ]
+}

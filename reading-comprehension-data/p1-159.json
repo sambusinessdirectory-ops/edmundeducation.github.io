@@ -1,0 +1,282 @@
+{
+  "id": "p1-159",
+  "catalogueId": "p1-159",
+  "title": "Grey Workers",
+  "sourceHeading": "Grey Workers",
+  "passage": 1,
+  "practice": 159,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-159-grey-workers",
+  "source": {
+    "filename": "Practice 159 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "8a7b0dd673ae4aa0633e54ef8cd49048432449fb661de8f0c66040335ccaeafe"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Given the speed at which their workers are growing greyer, employers know surprisingly little about how productive they are. The general assumption is that the old are paid more in spite of, rather than because of, their extra productivity. That might partly explain why, when employers are under pressure to cut costs, they persuade the 55-year-olds to take early retirement. Earlier this year, Sun Life of Canada, an insurance company, announced that it was offering redundancy to all its British employees aged 50 or over “to bring in new blood”."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "In Japan, says Mariko Fujiwara, an industrial anthropologist who runs a think-tank for Hakuhodo, Japan’s second-largest advertising agency, most companies are bringing down the retirement age from the traditional 57 to 50 or thereabouts—and in some cases, such as Nissan, to 45. More than perhaps anywhere else, pay in Japan is linked to seniority. Given that the percentage of workers who have spent more than 32 years with the same employer rose from 11 per cent in 1980 to 42 per cent by 1994, it is hardly surprising that seniority-based wage costs have become the most intractable item on corporate profit-and-loss accounts."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In Germany, Patrick Pohl, spokesman for Hoechst, expresses a widely held view: “The company is trying to lower the average age of the workforce. Perhaps the main reason for replacing older workers is that it makes it easier to ‘defrost’ the corporate culture. Older workers are less willing to try a new way of thinking. Younger workers are cheaper and more flexible.” Some German firms are prevented from getting rid of older workers as quickly as they would like. At SGL Carbon, a graphite producer, the average age of workers has been going up, not down. The reason, says the company’s Ivo Lingnau, is not that SGL values older workers more. It is collective bargaining: the union agreement puts strict limits on the proportion of workers that may retire early."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Clearly, when older people do heavy physical work, their age may affect their productivity. But other skills may increase with age, including many that are crucial for good management, such as an ability to handle people diplomatically, to run a meeting or to spot a problem before it blows up. Peter Hicks, who co-ordinates OECD work on the policy implications of ageing, says that plenty of research suggests older people are paid more because they are worth more."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "And the virtues of the young may be exaggerated. “The few companies that have kept on older workers find they have good judgment and their productivity is good,” says Mr Peterson. “Besides, their educational standards are much better than those of today’s young high-school graduates.” Companies may say that older workers are not worth training, because they are reaching the end of their working lives: in fact, young people tend to switch jobs so frequently that they offer the worst returns on training. “The median age for employer-driven training is the late 40s and early 50s,” says Mr Hicks. “It goes mainly to managers.”"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Take away those seniority-based pay scales, and older workers may become a much more attractive employment proposition. But most companies (and many workers) are uncomfortable with the idea of reducing someone’s pay in later life—although workers on piece-rates often earn less over time. So retaining the services of older workers may mean employing them in new ways."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "One innovation, described in Mr Walker’s report on combating age barriers, was devised by IBM Belgium. Faced with the need to cut staff costs and having decided to concentrate cuts on 55–60-year-olds, IBM set up a separate company called SkillTeam, which re-employed any of the early retirees who wanted to go on working up to the age of 60. An employee who joined SkillTeam at the age of 55 on a five-year contract would work for 58 per cent of his time, over the full period, for 88 per cent of his last IBM salary. The company offered services to IBM, thus allowing it to retain access to some of the intellectual capital it would otherwise have lost."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The best way to tempt the old to go on working may be to build on such “bridge” jobs: part-time or temporary employment that creates a more gradual transition from full-time work to retirement. Mr Quinn, who has studied the phenomenon, finds that, in the United States, nearly half of all men and women who had been in full-time jobs in middle age moved into such “bridge” jobs at the end of their working lives. In general, it is the best-paid and worst-paid who carry on working: “There are,” he says, “two very different types of bridge job-holders—those who continue working because they have to and those who continue working because they want to, even though they could afford to retire.”"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "If the job market grows more flexible, the old may find more jobs that suit them. Often, they will be self-employed. Sometimes, they may start their own businesses: a study by David Storey of Warwick University found that, in Britain, 70 per cent of businesses started by people over 55 survived, compared with an average of only 19 per cent. To coax the old back into the job market, work will not only have to pay. It will need to be more fun than touring the country in an Airstream trailer, or seeing the grandchildren, or playing golf. Only then will there be many more Joe Clarks."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–6",
+    "g7": "Questions 7–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 1–4 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n1 Sun Life of Canada decided to replace its British employees with Canadian staff in order to\nbring in new blood.\n2 In Japan, pay is more closely tied to length of service than in most other countries.\n3 Some German companies dismiss older workers in order to rejuvenate their corporate culture.\n4 According to Peter Hicks, companies pay older people more regardless of the contribution\nthey make."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 6,
+      "text": "Questions 5–6\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 5 and 6 on your answer sheet.\nWhich TWO advantages of employing older people are mentioned in the passage?\n  A Their products are superior to those of younger workers.\n  B They are paid less than younger workers.\n  C They run meetings quickly.\n  D They have better interpersonal skills.\n  E They can identify problems early."
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 8,
+      "text": "Questions 7–8\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 7 and 8 on your answer sheet.\nCompared with older employees, which TWO weaknesses do young graduates have?\n  A They are not worth training.\n  B Their productivity is lower.\n\nC They change jobs more often.\n D Their educational standards are lower.\n E They are usually high-school graduates."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nChoose the correct letter, A, B, C or D.\n\n\n9 According to paragraph F, which view do companies and workers still hold?\n A Older workers are more likely to attract other staff.\n B People are uncomfortable when their pay is reduced late in their careers.\n C Older people are more motivated to remain than younger people.\n D Young people on piece rates often earn less over time.\n\n\n10 Which arrangement did IBM’s SkillTeam introduce?\n A All older workers continued on their former hours.\n B The company continued reducing the proportion of older employees.\n C Employees worked extra hours for additional pay.\n D Early retirees were re-employed for fewer hours and lower pay.\n\n11 Which statement is correct according to Mr Quinn’s research?\n A About half of all US employees moved into bridge jobs.\n B Only the worst-paid people continued to work.\n C More men than women entered bridge employment.\n D Some older people continued working because they wanted to, rather than for financial\n   reasons.\n\n12 Which statement is correct according to David Storey?\n A Seventy per cent of businesses succeed if they employ more older people.\n B The average survival rate of self-employed businesses is declining.\n C Businesses started by people over 55 are more likely to survive.\n D Older people have more flexible working hours.\n\n13 What is the author’s main purpose in writing the passage?\n A To argue for a successful retirement programme for older people\n B To argue that older people should be valued appropriately in employment\n C To argue that older workers should help younger employees develop\n D To show that more jobs are available only to older people"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Sun Life of Canada decided to replace its British employees with Canadian staff in order to bring in new blood.",
+      "translation": "Sun Life of Canada 決定用加拿大員工取代英國員工，以便引入新血。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "In Japan, pay is more closely tied to length of service than in most other countries.",
+      "translation": "在日本，薪酬比大多數其他國家更緊密地和服務年資掛鈎。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Some German companies dismiss older workers in order to rejuvenate their corporate culture.",
+      "translation": "一些德國公司解僱年長員工，是為了使企業文化恢復活力／更新。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "According to Peter Hicks, companies pay older people more regardless of the contribution they make.",
+      "translation": "根據 Peter Hicks 的說法，公司給年長員工更高薪酬，與他們作出的貢獻無關。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "文章提到聘用年長人士有哪兩個優點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "文章提到聘用年長人士有哪兩個優點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "與年長員工相比，年輕畢業生有哪兩個弱點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "與年長員工相比，年輕畢業生有哪兩個弱點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "According to paragraph F, which view do companies and workers still hold?",
+      "translation": "根據 Paragraph F，公司和員工仍然持有哪一種看法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Which arrangement did IBM’s SkillTeam introduce?",
+      "translation": "IBM 的 SkillTeam 引入了哪一種安排？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Which statement is correct according to Mr Quinn’s research?",
+      "translation": "根據 Mr Quinn 的研究，哪一個說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Which statement is correct according to David Storey?",
+      "translation": "根據 David Storey 的說法，哪一個陳述正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "What is the author’s main purpose in writing the passage?",
+      "translation": "作者寫這篇文章的主要目的是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-159/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-159/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-159/page-6.jpg"
+  ]
+}

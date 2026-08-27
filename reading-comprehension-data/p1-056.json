@@ -1,0 +1,259 @@
+{
+  "id": "p1-056",
+  "catalogueId": "p1-056",
+  "title": "Timekeeper: Invention of Marine Chronometer",
+  "sourceHeading": "Timekeeper: The Invention of the Marine Chronometer",
+  "passage": 1,
+  "practice": 56,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-056-timekeeper-invention-of-marine-chronometer",
+  "source": {
+    "filename": "Practice 56  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "2147245f08f510cd615093e5bdb5d108e3cb231094469042d19af22c83780f38"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Until the middle of the 18th century, navigators could not determine their exact position at sea and therefore faced many risks, including shipwreck and running out of supplies before reaching their destination. Establishing one’s position on Earth requires two essential coordinates, one of which is longitude."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Longitude measures how far east or west a place lies from a reference meridian, unlike latitude, which uses the naturally occurring baseline of the equator. To determine longitude, navigators measured the angle between the Moon’s centre and a specific star—the lunar distance—using a marine sextant, as well as the height of both celestial bodies. A nautical almanac then allowed Greenwich Mean Time (GMT) to be determined. This could be used to calculate longitude because one hour of time difference corresponds to 15 degrees of longitude. Unfortunately, the method depended heavily on weather conditions and greatly inconvenienced crews. Another proposed method used the difference between home time and local time. In theory, calculating longitude was straightforward even in mid-ocean with no land in sight. The key was to know the exact time at home at that moment. But how could a sailor know the home time while at sea?"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The obvious answer was to take an accurate clock set to home time before departure. Comparing it with local time, easily identified from the Sun’s position, would reveal the time difference and therefore the ship’s longitude. In practice, nobody in the 18th century had managed to create a clock that could withstand a ship’s violent movement and fluctuating temperatures while remaining accurate enough for navigation."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "In 1714, the British government offered a prize of £20,000, administered by the grandly named Board of Longitude, for a solution. If a timekeeper was the answer—and the prize was not restricted to timekeepers—its error could be no more than 2.8 seconds per day. This was considered impossible for any clock or watch at sea, even under the best conditions."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The prize, worth about £2 million today, inspired John Harrison, a self-taught Yorkshire carpenter, to design a practical marine clock. Early in his career, he worked with his younger brother James. Their first major project was a turret clock for the stables at Brocklesby Park, revolutionary because it required no lubrication. Harrison designed a marine clock in 1730 and travelled to London in search of financial support. He explained his ideas to Edmond Halley, the Astronomer Royal, who introduced him to George Graham, one of Britain’s foremost clockmakers. Graham funded Harrison’s early work on sea clocks. Harrison took five years to build Harrison Number One, or H1. He later pursued alternative designs and produced H4, which resembled a large pocket watch. Despite its remarkable performance, the Board of Longitude withheld the prize until it was fully satisfied."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Harrison’s main competitor for the valuable prize was the English mathematician John Hadley, who developed the sextant. This instrument measures angles, such as that between the Sun and the horizon, to calculate the location of a ship or aircraft. The sextant was also significant because it could help determine longitude."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Most pioneers of the chronometer in that generation were English, but not every achievement was theirs. One important figure was the Lancastrian Thomas Earnshaw, who created the definitive chronometer escapement—the spring-detent escapement—and established the final form and production system of the marine chronometer. His work turned it into a genuine modern commercial product and a safe, practical navigational aid for the next century and a half."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–8",
+    "g9": "Questions 9–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nReading Passage 1 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in Boxes 1–5 on your answer sheet.\nNB You may use any letter more than once.\n1 __________ a description of Harrison’s background\n2 __________ problems caused by poor ocean navigation\n3 __________ the person who gave financial support to Harrison\n4 __________ an analysis of the long-term importance of the marine chronometer\n5 __________ a practical use of longitude"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 8,
+      "text": "Questions 6–8\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 6–8 on your answer sheet, write\n\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n6 _________________ In theory, sailors can easily calculate their longitude at sea.\n7 _________________ To determine longitude, the measurement of the distance from the Moon to a\ngiven star is essential.\n8 _________________ Greenwich Mean Time was set up by the English navigators."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 14,
+      "text": "Questions 9–14\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in Boxes 9–14 on your answer sheet.\nSailors could use the position of the Sun to calculate 9 _________________.\n  A prize-winning invention could lose no more than 10 _________________ each day.\nJohn and James Harrison’s clock remained accurate without 11 _________________.\nHarrison’s main competitor invented an instrument known as the 12 _________________.\nHadley’s instrument uses 13 _________________ to calculate the location of ships or aircraft.\nThe modern version of Harrison’s invention is called the 14 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ a description of Harrison’s background",
+      "translation": "描述 Harrison 的背景。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ problems caused by poor ocean navigation",
+      "translation": "海上導航不準確造成的問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ the person who gave financial support to Harrison",
+      "translation": "給 Harrison 經濟支持的人。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ an analysis of the long-term importance of the marine chronometer",
+      "translation": "分析 marine chronometer 的長期重要性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ a practical use of longitude",
+      "translation": "longitude 的實際用途。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ In theory, sailors can easily calculate their longitude at sea.",
+      "translation": "理論上，水手可以在海上輕易計算經度。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ To determine longitude, the measurement of the distance from the Moon to a given star is essential.",
+      "translation": "要判斷 longitude，量度月亮和指定星星之間的距離是必不可少的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ Greenwich Mean Time was set up by the English navigators.",
+      "translation": "Greenwich Mean Time 是由英國航海者建立的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "水手可以利用太陽的位置計算 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "能贏得獎金的發明每天誤差不能超過 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "John 和 James Harrison 的時鐘在沒有 ______ 的情況下仍能保持準確。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "Harrison 的主要競爭者發明了一種稱為 ______ 的儀器。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "Hadley 的儀器使用 ______ 來計算船隻或飛機的位置。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "Harrison 發明的現代版本稱為 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-056/page-4.jpg"
+  ]
+}

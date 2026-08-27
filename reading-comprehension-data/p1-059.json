@@ -1,0 +1,307 @@
+{
+  "id": "p1-059",
+  "catalogueId": "p1-059",
+  "title": "History of Refrigeration",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 59,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-059-history-of-refrigeration",
+  "source": {
+    "filename": "Practice 59  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "47983fb30d67746dca680ed9d08e0b7e985a1ab46498a15c88041b501edf0dc8"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "History of Refrigeration Refrigeration is the process of removing heat; that is, cooling an area or a substance below the ambient temperature. Mechanical refrigeration makes use of the evaporation of a liquid refrigerant, which goes through a cycle so that it can be reused. The main cycles include vapour-compression, absorption, steam-jet or steam-ejector, and air cycles. The term ‘refrigerator’ was first introduced by a Maryland farmer, Thomas Moore, in 1803, but the appliance we know today first appeared in the twentieth century."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "People used to find various ways to preserve their food before the advent of mechanical refrigeration systems. Some preferred cooling food with ice or snow, which meant that diets contained very little fresh food and few fruits or vegetables, consisting mostly of bread, cheese and salted meat. Milk and cheese were particularly difficult to keep fresh, so they were usually stored in a cellar or window box. Even with these measures, rapid spoilage could not be prevented. Later on, people discovered that adding chemicals such as sodium nitrate or potassium nitrate to water could lead to a lower temperature. In 1550, when this technique was first recorded, people used it to cool wine; the term ‘to refrigerate’ was also recorded at this time. Cooling drinks grew very popular in Europe by 1600, particularly in Spain, France, and Italy. Instead of cooling water at night, people used a new technique: rotating long-necked bottles of water which held dissolved saltpeter. The solution was intended to create very low temperatures and even to make ice. By the end of the 17th century, iced drinks, including frozen juices and liquors, had become extremely fashionable in France."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "People’s demand for ice soon became strong. Consumers’ soaring demand for fresh food, especially for green vegetables, resulted in changes to people’s dietary habits between 1830 and the American Civil War. These changes were accelerated by a drastic expansion of urban areas and rapid improvements in the population’s economic circumstances. With the growth of the cities and towns, the distance between the consumer and the source of food increased. In 1799, ice was first transported as a commercial product from Canal Street in New York City to Charleston, South Carolina. Unfortunately, this transportation was not successful because when the ship reached its destination, little ice was left. Frederick Tudor and Nathaniel Wyeth, two New England businessmen, grasped the considerable business potential of ice and managed to improve the methods of storing ice during shipment. Tudor, acknowledged as the ‘Ice King’ at that time, concentrated his efforts on bringing the ice to tropical areas. In order to achieve his goal and ensure that the ice arrived safely at its destination, he tried many insulating materials in experiments and successfully constructed ice containers that drastically reduced ice loss from 66 per cent to less than 8 per cent. Wyeth invented an economical and speedy method to cut the ice into uniform blocks, which had a tremendous positive influence on the ice industry. Also, he improved the processing techniques for storing, transporting and distributing ice with less waste."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "When people realised that the ice transported over long distances was not as clean as previously thought and was causing many health problems, demand grew for clean, natural sources of ice. Worse still, by the 1890s water pollution and sewage dumping made clean ice even more unavailable. The effects were first felt in the brewing industry and then spread to sectors such as meat-packing and dairy production. As a result, clean mechanical refrigeration was desperately needed."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Many inventors with creative ideas took part in the process of inventing refrigeration, and each version was built on the previous discoveries. Dr William Cullen began studying the evaporation of liquid under vacuum conditions in 1720. He soon invented the first man-made refrigerator at the University of Glasgow in 1748 by boiling ethyl ether in a partial vacuum. American inventor Oliver Evans first designed a refrigerator that used vapour rather than liquid in 1805. Although his concept was never put into practice, the mechanism was adopted by an American physician, John Gorrie, who built a cooling machine similar to Evans’s in 1842 to lower the temperatures of patients with yellow fever in a Florida hospital. In 1851, Gorrie obtained the first patent for mechanical refrigeration in the USA. In 1820, Michael Faraday, a Londoner, first liquefied ammonia to cause cooling. In 1859, Ferdinand Carré from France invented the first version of the ammonia water cooling machine. In 1873, Carl von Linde designed the first practical and portable compressor refrigerator in Munich, and in 1876 he abandoned the methyl ether system and began using an ammonia cycle. Linde later created a new method (‘Linde technique’) for liquefying large amounts of air in 1894. Nearly a decade later, this mechanical refrigeration method was adopted by the meat-packing industry in Chicago."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "From 1840, vehicles fitted with refrigeration systems were used to deliver and distribute milk and butter. By 1860, most seafood and dairy products were transported using cold-chain logistics. In 1867, J. B. Sutherland of Detroit, Michigan, patented insulated refrigerated railway cars with ice bunkers at both ends: air came in from the top, passed through the bunkers, circulated through the cars by gravity while hanging flaps regulated airflow and temperature. Depending on the cargo (such as meat, fruit, etc.) transported by the cars, different car designs came into existence. In 1867, the first refrigerated car to carry fresh fruit was manufactured by Parker Earle of Illinois, who shipped strawberries on the Illinois Central Railroad. Each chest was loaded with 100 pounds of ice and 200 quarts of strawberries. By 1949, the trucking industry was being equipped with refrigeration systems with a roof-mounted cooling device, invented by Fred Jones."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "From the late 1800s until 1929, refrigerators used toxic gases—methyl chloride, ammonia and sulphur dioxide—as refrigerants. However, in the 1920s, numerous fatal accidents occurred because methyl chloride leaked from refrigerators. Therefore, some American companies started to seek safer methods of refrigeration. Frigidaire developed a new class of synthetic refrigerants called halocarbons or CFCs (chlorofluorocarbons) in 1928. This research led to the discovery of chlorofluorocarbons (Freon), which quickly became the prevailing material in compressor refrigerators. Freon was safer for people nearby, but in 1973 it was discovered to have detrimental effects on the ozone layer. After that, new improvements were made, and hydrofluorocarbons, with no known harmful effects, were used in the cooling system. Today, chlorofluorocarbons (CFCs) are no longer used; they have been made illegal in several places, making refrigeration far safer than before."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–10",
+    "g11": "Questions 11–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nLook at the following events (Questions 1–5) and the list of dates below.\nMatch each event with the correct date, A–F.\n\n                                               List of Dates\n\n A                                             1550\n\n B                                             1799\n\n C                                             1803\n\n D                                             1840\n\n E                                             1949\n\n F                                             1973\nWrite the correct letter, A–F, in boxes 1–5 on your answer sheet.\n1 _________________ Vehicles with refrigeration systems were used for road transport.\n2 _________________ Ice was transported commercially within the United States for the first time.\n3 _________________ Some kind of chemical refrigerant was found harmful to the atmosphere.\n4 _________________ The term ‘refrigerator’ was first introduced.\n5 _________________ Some chemicals were added to refrigerate wine."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 10,
+      "text": "Questions 6–10\nLook at the following opinions or deeds (Questions 6–10) and the list of people below.\nMatch each opinion or deed with the correct person, A–G.\n\n                                          List of People\n\n A                                        Thomas Moore\n\n B                                        Frederick Tudor\n\n C                                        Carl von Linde\n\n D                                        Nathaniel Wyeth\n\n E                                        J. B. Sutherland\n\n F                                        Fred Jones\n\n G                                        Parker Earle\nWrite the correct letter, A–G, in boxes 6–10 on your answer sheet.\n6 _________________ patented the idea that refrigeration systems could be installed in railway cars\n7 _________________ invented an ice-cutting technique that saved money and time\n8 _________________ enabled cold-storage technology to be used for transporting fruit\n9 _________________ invented a cooling device used in the trucking industry\n\n10 _________________ created a new technique to liquefy air"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 14,
+      "text": "Questions 11–14\nComplete each sentence with the correct ending, A–E, below.\n A                           new developments, such as the application of hydrofluorocarbons.\n\n B                           consumers’ demand for fresh food, especially for vegetables.\n\n C                           the discovery of chlorofluorocarbons (Freon).\n\n D                           a long-distance regional refrigerated transport system.\n\n E                           extensive spread of the refrigeration method.\nWrite the correct letter, A–E, in boxes 11–14 on your answer sheet.\n11 _________________ A healthy dietary change between 1830 and the American Civil War was greatly\nassociated with\n12 _________________ The development of urbanisation was likely to cause\n13 _________________ Problems caused by water pollution contributed to\n14 _________________ The risk of environmental damage from refrigeration led to"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Vehicles with refrigeration systems were used for road transport.",
+      "translation": "裝有製冷系統的車輛被用於道路運輸。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Ice was transported commercially within the United States for the first time.",
+      "translation": "冰第一次在美國境內作為商業產品運輸。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Some kind of chemical refrigerant was found harmful to the atmosphere.",
+      "translation": "某種化學製冷劑被發現對大氣有害。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The term ‘refrigerator’ was first introduced.",
+      "translation": "“refrigerator” 這個詞首次被引入。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Some chemicals were added to refrigerate wine.",
+      "translation": "人們加入某些化學物來冷卻葡萄酒。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ patented the idea that refrigeration systems could be installed in railway cars",
+      "translation": "為可在鐵路車廂安裝製冷系統這個想法取得專利。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ invented an ice-cutting technique that saved money and time",
+      "translation": "發明了一種節省金錢和時間的切冰技術。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ enabled cold-storage technology to be used for transporting fruit",
+      "translation": "使冷藏技術能夠用於運送水果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ invented a cooling device used in the trucking industry",
+      "translation": "發明了一種用於貨車業的冷卻裝置。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ created a new technique to liquefy air",
+      "translation": "創造了一種使空氣液化的新技術。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ A healthy dietary change between 1830 and the American Civil War was greatly associated with",
+      "translation": "1830 年至美國內戰之間的健康飲食變化，與消費者對新鮮食物，尤其是蔬菜的需求密切相關。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ The development of urbanisation was likely to cause",
+      "translation": "城市化發展很可能促成長距離區域冷藏運輸系統。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Problems caused by water pollution contributed to",
+      "translation": "水污染造成的問題促成了製冷方法的廣泛擴展。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ The risk of environmental damage from refrigeration led to",
+      "translation": "製冷造成環境損害的風險促成了新的發展，例如 hydrofluorocarbons 的應用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-059/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-059/page-6.jpg"
+  ]
+}

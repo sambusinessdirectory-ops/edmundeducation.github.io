@@ -1,0 +1,284 @@
+{
+  "id": "p3-167",
+  "catalogueId": "p3-167",
+  "title": "The Flavour Industry",
+  "sourceHeading": "The Flavour Industry",
+  "passage": 3,
+  "practice": 167,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-167-the-flavour-industry",
+  "source": {
+    "filename": "Practice 167 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "c8fbcfb31a8e21cf9cfa5ec11ffa2d6944fdb5decc6b2f0cdf33764afcc88705"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Read through the nutritional information on the food in your freezer, refrigerator or kitchen pantry, and you are likely to find a simple, innocuous-looking ingredient recurring on a number of products: “natural flavour”. The story of what natural flavour is, how it got into your food, and where it came from is the result of more complex processes than you might imagine."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "During the 1980s, health watchdogs and nutritionists began turning their attention to cholesterol, a waxy steroid metabolite that we mainly consume from animal-sourced products such as cheese, egg yolks, beef, poultry, shrimp, and pork. Nutritionists blamed cholesterol for contributing to the growing rates of obesity, heart disease, diabetes, and several cancers in Western societies. As public awareness of the issue grew, McDonald’s stopped cooking their French fries in a mixture of cottonseed oil and beef tallow, and in 1990, the restaurant chain began using 100% vegetable oil instead."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "This substantially lowered the amount of cholesterol in McDonald’s fries, but it created a new dilemma. The beef tallow and cottonseed oil mixture gave the French fries a high cholesterol content, but it also gave them a rich aroma and “mouth-feel” that even James Beard, an American food critic, admitted he enjoyed. Pure vegetable oil is bland in comparison. Looking at the current ingredients list of McDonald’s French fries, however, it is easy to see how they overcame this predicament. Aside from a few preservatives, there are essentially three main ingredients: potato, soybean oil, and the mysterious component of “natural flavour”."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Natural flavour also entered our diet through the rise of processed foods. Processed foods now make up more than 90% of the American diet—and the proportion is growing. They also represent a burgeoning industry in developing countries such as China and India. Processed foods are essentially any foods that have been boxed, bagged, canned or packaged, and have a list of ingredients on the label. Sometimes, the processing involves adding a little sodium or sugar, and a few preservatives. Often, however, foods are coloured, bleached, stabilised, emulsified, dehydrated, odour-concealed, and sweetened. This process typically saps any original flavour from the product, and so, of course, flavour must be added back in as well."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Often this is “natural flavour”, but while the term may bring to mind images of fresh barley, hand-ground spices, and dried herbs being traded in a bustling street market, most of these natural sources are, in fact, engineered to culinary perfection in a set of factories and plants off the New Jersey Turnpike outside of New York. Here, firms such as International Flavors & Fragrances, Haarmann & Reimer, Flavor Dynamics, Frutarom and Elan Chemical isolate and manufacture the tastes that are incorporated in much of what we eat and drink. The sweet, summery burst of naturally squeezed orange juice, the wood-smoked aroma in barbeque sauces, and the creamy, buttery, fresh taste in many dairy products do not come from sun-drenched meadows or backyard grills but are formed in the labs and test tubes of these flavour industry giants."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The scientists—dubbed “flavourists”—who create the potent chemicals that send our olfactory senses into overdrive use a mix of techniques that have been refined over many years. Part of it is dense, intricate chemistry: spectrometers, gas chromatographs, and headspace-vapour analysers can break down components of a flavour in amounts as minute as one part per billion. Not to be outdone, however, the human nose can isolate aromas down to three parts per trillion. Flavourists, therefore, consider their work as much an art as a science, and flavourism requires a nose “trained” with a delicate and poetic sense of balance."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Should we be wary of the industrialisation of natural flavour? On its own, the trend may not present any clear reason for alarm. Nutritionists widely agree that the real assault on health in the last few decades stems from an “unholy trinity” of sugar, fat, and sodium in processed foods. Natural flavour on its own is not a health risk. It does play a role, however, in helping these processed foods to taste fresh and nutritious, even when they are not. So, while the natural flavour industry should not be considered the culprit, we might think of it as a willing accomplice."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–35",
+    "g36": "Questions 36–39",
+    "g40": "Questions 40–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 35,
+      "text": "Questions 28–35\nThe reading passage has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 28–35 on your answer sheet.\nNB You may use any letter more than once.\n28 __________ Examples of companies that create natural flavours\n29 __________ An instance of a multinational franchise responding to public pressure\n30 __________ A statement on the health effects of natural flavours\n31 __________ An instance where a solution turns into a problem\n32 __________ A place in the home where one may encounter the term “natural flavor”\n33 __________ Details about the transformation that takes place in processed grocery items\n34 __________ A comparison of personal and technological abilities in flavor detection\n35 __________ Examples of diet-related health conditions"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 39,
+      "text": "Questions 36–39\nDo the following statements agree with the information given in the reading passage?\nIn boxes 36–39 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n36 __________ On their own, vegetable oils do not have a strong flavor.\n37 __________ Soybean oil is lower in cholesterol than cottonseed oil.\n38 __________ Processed foods are becoming more popular in some Asian countries.\n39 __________ All food processing involves the use of natural flavours."
+    },
+    {
+      "id": "g40",
+      "start": 40,
+      "end": 40,
+      "text": "Question 40\nChoose the correct letter, A, B, C, or D.\n40. The writer of the reading passage concludes that natural flavours...\n\nA. are the major cause of dietary health problems.\nB. are unhealthy, but not as bad as sugar, fat, and sodium.\nC. have health benefits that other ingredients tend to cancel out.\nD. help make unhealthy foods taste better."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Examples of companies that create natural flavours",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ An instance of a multinational franchise responding to public pressure",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ A statement on the health effects of natural flavours",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ An instance where a solution turns into a problem",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ A place in the home where one may encounter the term “natural flavor”",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Details about the transformation that takes place in processed grocery items",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ A comparison of personal and technological abilities in flavor detection",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Examples of diet-related health conditions",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ On their own, vegetable oils do not have a strong flavor.",
+      "translation": "",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ Soybean oil is lower in cholesterol than cottonseed oil.",
+      "translation": "",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ Processed foods are becoming more popular in some Asian countries.",
+      "translation": "",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ All food processing involves the use of natural flavours.",
+      "translation": "",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g40",
+      "type": "choice",
+      "prompt": "The writer of the reading passage concludes that natural flavours...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-167/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-167/page-5.jpg"
+  ]
+}

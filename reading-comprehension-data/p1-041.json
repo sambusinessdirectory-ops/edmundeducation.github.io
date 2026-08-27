@@ -1,0 +1,313 @@
+{
+  "id": "p1-041",
+  "catalogueId": "p1-041",
+  "title": "Morse Code",
+  "sourceHeading": "Morse Code Morse code is being replaced by a new satellite-based system for sending distress calls at sea. Its dots and dashes have had a good run for their money.",
+  "passage": 1,
+  "practice": 41,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-041-morse-code",
+  "source": {
+    "filename": "Practice 41 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "4ae03ca1c2b03932befe6423c16cee7abf46d8a8991530f0cc20c76a71cb4e80"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "‘Calling all. This is our last cry before our eternal silence.’ Surprisingly, this message, flashed over the airwaves in the dots and dashes of Morse code on 31 January 1997, was not a desperate transmission from a radio operator on a sinking ship. Rather, it signalled the end of the use of Morse code for distress calls in French waters. Since 1992, countries around the world have been decommissioning their Morse equipment with similar, if less poetic, sign-offs as global shipping switches to a new satellite-based arrangement, the Global Maritime Distress and Safety System. The final deadline for the switch to GMDSS is 1 February, a date widely seen as the end of an era."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The code has, however, had a distinguished history. Appropriately for a technology commonly associated with radio operators on sinking ships, the idea of Morse code is said to have occurred to Samuel Morse while he was aboard a ship crossing the Atlantic. At the time, Morse was a painter and occasional inventor, but when another of the ship’s passengers told him of recent advances in electrical theory, Morse was suddenly inspired to build an electric telegraph that could send coded messages. Other inventors had been trying to do just that for the best part of a century. Morse succeeded and is now remembered as ‘the father of the telegraph’, partly because of his single-mindedness—it took twelve years, for example, to secure money from Congress to build his first telegraph line—but also for technical reasons."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Compared with rival electric-telegraph designs, such as the needle telegraph developed in Britain by William Cooke and Charles Wheatstone, Morse’s design was very simple: it required little more than a ‘key’ (essentially a spring-loaded switch) to send messages, a clicking ‘sounder’ to receive them and a wire to link the two. Although Morse’s hardware was simple, there was a catch: to use it, operators had to learn the special code of dots and dashes that still bears his name. Originally, Morse had not intended combinations of dots and dashes to represent individual letters. His first code, sketched in his notebook during that transatlantic voyage, used them to represent the digits 0 to 9. Morse’s idea was that messages would consist of strings of numbers corresponding to words and phrases in a special numbered dictionary. He later abandoned this scheme and, with the help of an associate, Alfred Vail, devised the Morse alphabet, which could spell messages one letter at a time in dots and dashes."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "At first, the need to learn this complicated-looking code made Morse’s telegraph seem impossibly difficult compared with other, more user-friendly designs. Cooke and Wheatstone’s telegraph, for example, used five needles to select letters on a diamond-shaped grid. Although this meant anyone could use it, the system required five wires between telegraph stations; Morse’s telegraph needed only one. It soon became clear that some people had a natural aptitude for Morse code."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "As electric telegraphy took off in the early 1850s, the Morse telegraph quickly became dominant. It was adopted as the European standard in 1851, allowing direct connections between the telegraph networks of different countries. Britain chose not to participate and retained needle telegraphs for a few more years. By this time, Morse code had been revised to accommodate accents and other foreign characters, resulting in a split between American and International Morse that continues today."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "On international submarine cables, left and right movements of a light beam reflected from a tiny rotating mirror represented dots and dashes. Meanwhile, a distinct telegraphic subculture emerged, with its own customs, vocabulary and hierarchy based on the speed at which operators could send and receive Morse code. First-class operators, who could send and receive up to 45 words a minute, handled press traffic and secured the best-paid jobs in large cities. At the bottom were slow, inexperienced rural operators, many of whom worked the wires part-time. As their Morse code improved, however, they found that their new skill was a passport to better-paid city work. Telegraphers soon swelled the ranks of the emerging middle classes. Telegraphy was also deemed suitable work for women. By 1870, women made up a third of the operators in Western Union’s New York office, the largest telegraph office in America."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In a dramatic ceremony in 1871, Morse himself bade farewell to the global community of telegraphers he had brought into being. After a lavish banquet and many adulatory speeches, he sat behind an operator’s table and placed his finger on a key connected to every telegraph wire in America, tapping out his final farewell to a standing ovation. By his death in 1872, the world was well and truly wired: more than 650,000 miles of telegraph line and 30,000 miles of submarine cable were throbbing with Morse code, and 20,000 towns and villages were connected to the global network. Just as the Internet is often called an ‘information superhighway’ today, the telegraph was described in its time as an ‘instantaneous highway of thought’."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "By the 1890s, however, the Morse telegraph’s heyday as a cutting-edge technology was ending with the invention of the telephone and the rise of automatic telegraphs, precursors of the teleprinter, neither of which required specialist operating skills. Morse code was about to receive a new lease of life through another technology: wireless. Following Guglielmo Marconi’s invention of radiotelegraphy in 1896, its potential use at sea quickly became apparent. For the first time, ships could communicate with one another and with the shore in any weather, even when out of visual range. In 1897, Marconi successfully sent Morse-code messages between a shore station and an Italian warship 19 km (12 miles) away. By 1910, Morse radio equipment was commonplace aboard ships."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 8,
+      "text": "Questions 1–8\nReading passage 1 has eight paragraphs, A–H.\nChoose the correct heading for paragraphs A–H from the list of headings below. Write the correct number,\ni–xi, in Boxes 1–8 on your answer sheet.\n\n\n                            List of Headings\n\n i                          The advantage of Morse’s invention\n\n ii                         A suitable job for women\n\n iii                        Morse’s invention was developed\n\n iv                         Sea rescue after the invention of radiotelegraphy\n\n v                          The emergence of many job opportunities\n\n vi                         Standard and variations\n\n vii                        Application of Morse code in a new technology\n\n viii                       The discovery of electricity\n\n ix                         International expansion of Morse code\n\n x                          The beginning of the end\n\n xi                         The move towards using code to convey information\n\n\n1 ____________ Paragraph A\n2 ____________ Paragraph B\n3 ____________ Paragraph C\n4 ____________ Paragraph D\n5 ____________ Paragraph E\n6 ____________ Paragraph F\n7 ____________ Paragraph G\n8 ____________ Paragraph H"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 9–13 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n\n\n9 _________________ Morse had already been famous as an inventor before his invention of Morse\ncode.\n10 _________________ Morse waited a long time before receiving support from Congress.\n11 _________________ Morse’s telegraph initially seemed more difficult to use than other designs.\n12 _________________ Companies prefer to employ telegraph operators from rural areas.\n13 _________________ Morse died from overwork."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph H",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Morse had already been famous as an inventor before his invention of Morse code.",
+      "translation": "在發明 Morse code 之前，Morse 已經以 inventor 身份成名。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Morse waited a long time before receiving support from Congress.",
+      "translation": "Morse 等了很長時間才得到 Congress 支持。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Morse’s telegraph initially seemed more difficult to use than other designs.",
+      "translation": "Morse’s telegraph 起初看起來比其他設計更難使用。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Companies prefer to employ telegraph operators from rural areas.",
+      "translation": "公司較喜歡聘用來自 rural areas 的 telegraph operators。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Morse died from overwork.",
+      "translation": "Morse 因工作過度而去世。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-041/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-041/page-6.jpg"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "11": {"cueRows":{"28":[37,39]}},
+  "18": {"cueRows":{"27":[28]}},
+  "17": {
+    "answers": {
+      "12": {"answer":"B","reason":"Original question option B and detailed analysis agree: developers will construct houses on the existing lower-school site."},
+      "14": {"answer":"A","reason":"Original question option A and detailed analysis agree: parents should discuss the serving point in advance."},
+      "15": {"answer":"C","reason":"Summary key gives D, which is not an option. The transcript and detailed analysis confirm pupils can eat in the existing canteen (C)."},
+      "16": {"answer":"D","reason":"World Adventures serves a different country's cuisine each day; detailed analysis confirms D."},
+      "17": {"answer":"A","reason":"Street Life asks pupils for suggestions; detailed analysis confirms A."},
+      "19": {"answer":"C","reason":"The original two-answer question and detailed analysis specify new acting and piano lessons (C and B, either order)."},
+      "20": {"answer":"B","reason":"Missing from summary key; detailed analysis explicitly gives C and B for Questions 19–20."}
+    }
+  },
+  "12": {
+    "analysis": {
+      "1":{"rows":[8,9],"explanation":"清潔海灘的工作是清除垃圾，所以填 litter。錄音提到每月花數小時清理，重點不是活動頻率，而是要從海灘移走的物品。"},
+      "2":{"rows":[12,13,14],"explanation":"Jan 問可否帶狗，Peter 說狗不得進入海灘，所以答案是 dogs。懸崖步道可以帶狗、兒童也受歡迎，這些是不同地點或對象的規定，不能混淆。"},
+      "3":{"rows":[19,20],"explanation":"鳥巢箱已經完成，接下來的新棲息地工作是吸引昆蟲，所以填 insects。要分清已完成的 birds 工作和下一階段的計畫。"},
+      "4":{"rows":[22,24],"explanation":"保護區目前要辨認的是 butterflies 的不同品種。Jan 以前曾數過 moths，但那是她過往的經驗，不是本次項目的對象。"},
+      "5":{"rows":[26,27],"explanation":"他們正在更換保護區南面的 wall，位置在停車場和工具棚之間，因為它上月被暴風吹壞。題目問需要修復的設施，填 wall。"},
+      "6":{"rows":[32,33],"explanation":"下一次導賞步行前往 Ruston Island，所以空格填 island。Dunsmore Beach 是集合的停車場所在地，不是整趟步行的目的地。"},
+      "7":{"rows":[39,40],"explanation":"Peter 提醒參加者穿防水 boots，因為來回步行會經過濕地。午餐也要自備，但防水要求修飾的是靴子。"},
+      "8":{"rows":[44,45,46],"explanation":"活動適合 beginners。Jan 表示從未試過木工，問初學者能否參加，Peter 肯定回答，並說會有專家指導及限制人數，確保參加者獲得協助。"},
+      "9":{"rows":[47,48,49],"explanation":"參加者會先製作 wooden spoons，所以填 spoons。Jan 想製作 chairs，但 Peter 說一天內做椅子太進取；要分清參加者的願望和實際安排。"},
+      "10":{"rows":[52,53,54],"explanation":"一天活動的基本收費是 £35，包括午餐，所以填 35。£40 是額外連同在樹林露營的方案；Jan 說當天回家，不能把露營費當作基本收費。"},
+      "11":{"rows":[3,4],"explanation":"每邊最多站九人，所以選 A。十五是乘客總數，十八是加上三名工作人員的全船總人數；問題問的是每一邊的上限。"},
+      "12":{"rows":[5,6],"explanation":"船身現在是 light green，所以選 C。jet black 是舊船的顏色，dark red 是座椅的顏色，不是目前的船身。"},
+      "13":{"rows":[9,10],"explanation":"不吃肉或魚的人應選含 cheddar cheese roll 的 Lunchbox 2，答案 B。第一款有 ham，第三款有 tuna，兩者均不符合要求。"},
+      "14":{"rows":[13,14],"explanation":"船上沒有垃圾桶，導遊和員工會收走垃圾，所以選 B，把垃圾交給工作人員。錄音沒有要求乘客帶回家。"},
+      "15":{"rows":[17,20,21],"explanation":"兩項內容是 A 和 D，次序不限：燈塔為減少海難及保護船員而建；看守者最初主要是囚犯，後來由普通家庭接替。年份和建造困難不等於說明建造需時或材料。"},
+      "16":{"rows":[17,20,21],"explanation":"兩项內容是 A 和 D，次序不限。錄音明確說明建造目的，以及先後由囚犯和家庭擔任看守者；沒有交代誰建造、建造需時或所用材料。"},
+      "17":{"rows":[25,26,28],"explanation":"兩種可能靠近船的動物是 fur seals 和 dolphins，即 B、C，次序不限。海豹好奇，可能突然出現在船前；海豚也可能在船旁乘浪。"},
+      "18":{"rows":[23,24,27,28],"explanation":"答案是 B、C，次序不限。企鵝會躲避船隻，海鷹只會在遠處看見，虎鯨也很少遇到；海豚則可能主動接近，與海豹一起符合 come close 的條件。"},
+      "19":{"rows":[31,32],"explanation":"洞穴的兩個重點是 D、E，次序不限：只能由海路接近，不能步行到達；導遊會解說洞口後方的情況。另一天可划獨木舟前往，因此不是只有大型旅遊船可到達。"},
+      "20":{"rows":[31,32],"explanation":"答案 D、E，次序不限。錄音說只能由海上接近，並會向乘客解釋洞穴內部；沒有說入口常被堵塞，也沒有說個人一概不可接近。"},
+      "21":{"rows":[2,3,4,5,6,7],"explanation":"兩人共同的困難是聯絡合適的農場，所以選 A。交通和實習長度是 Tim 個人的問題，Diana 能住在農場，不能把個人困難當作兩人共有的經驗。"},
+      "22":{"rows":[11,13,14,15,17],"explanation":"Tim 高興的是幫助難產母羊順利產下小羊，所以選 B。骨折小羊由獸醫處理；出生的小羊幾乎立即開始吃奶，並沒有餵食困難。"},
+      "23":{"rows":[20,21,22],"explanation":"Diana 的農場主要飼養肉用羊，所以選 B。以前曾養其他品種，不代表現在有很多不同品種；耐用羊毛的描述屬於 Tim 農場的 Cheviots。"},
+      "24":{"rows":[29,30,31,32,33],"explanation":"補充劑只在雞隻特別需要時才加入，因此選 A。農夫說有些產品價格偏高，廉價和昂貴產品基本相同，並非應花更多錢買昂貴產品。"},
+      "25":{"rows":[36,37,38,39],"explanation":"Diana 把接受抗生素治療的乳牛所產的奶，倒進供人飲用的奶中，是存放牛奶時出錯，所以選 C。整批奶被丟棄是這項錯誤的後果，不是她不小心直接把奶倒掉。"},
+      "26":{"rows":[40,41,42,43,44],"explanation":"兩位農夫都認為某些獸醫工作，例如小型手術，農夫自己也能處理，所以選 C。不過他們仍承認需要獸醫技能，並不是否定整個專業或要求徹底更改培訓。"},
+      "27":{"rows":[47,48,49,50],"explanation":"Medical terminology 對 Tim 而言比預期容易，因此選 A。Diana 的確覺得吃力，但配對重點是 Tim 明確說原以為很難，實際上卻很 straightforward。"},
+      "28":{"rows":[51,53,54],"explanation":"Diet and nutrition 令 Tim 震驚的是寵物食物的污染檢查很有限，比人類食物的檢查少，所以選 E。他的態度是驚訝及不滿，而不是評論課程組織。"},
+      "29":{"rows":[55,56,57],"explanation":"Animal disease 令兩人意外的是，科學界對若干家畜疾病的認識和控制方法都很有限，所以選 F。兩人都表達了原先以為研究應更充分的想法。"},
+      "30":{"rows":[58,59,60,61],"explanation":"Wildlife medication 令 Diana 想以相關課題撰寫 dissertation，所以選 C，可能進一步研究。Tim 也喜歡這個單元，但 dissertation 是 Diana 提出的計畫。"},
+      "31":{"rows":[5,6],"explanation":"錄音把 maze 定義為一種具有複雜路徑網絡的 puzzle，所以填 puzzle。Labyrinth 只有單一路徑，不能把兩種設計的特點混用。"},
+      "32":{"rows":[9,10],"explanation":"走出 maze 需要用 logic 找出路徑的規律，所以填 logic。死路和返回起點的岔路解釋了為甚麼需要邏輯判斷。"},
+      "33":{"rows":[11,12],"explanation":"maze 一詞被認為源自斯堪的納維亞語中表示 confusion 的詞，所以填 confusion。後面提到 amazing 是相關字源補充，不是空格答案。"},
+      "34":{"rows":[15,16,17],"explanation":"Labyrinth 在多種文化中被用作 meditation 和祈禱的工具，帶來平靜，因此填 meditation。這裡講的是精神用途，不是解謎技巧。"},
+      "35":{"rows":[18,19],"explanation":"最早的螺旋圖案例子被 carved into stone，因此填 stone。地點分布很廣，題目問的是雕刻的材料，不是其中一個國家。"},
+      "36":{"rows":[21],"explanation":"古希臘在約四千年前把 labyrinth 螺旋圖案用在 coins 上，所以填 coins。編織籃子的例子屬於 Pima 部落，不能混到古希臘。"},
+      "37":{"rows":[24,25,26],"explanation":"Saffron Walden 的大型草地迷宮中央以前有一棵 tree，所以填 tree。這是特定現存例子的中央景物，不是所有 labyrinth 的共同特徵。"},
+      "38":{"rows":[28],"explanation":"錄音提到步行 labyrinth 的可能好處包括 slower breathing，因此填 breathing。題目問被放慢的身體活動，不是設置 labyrinth 的場所。"},
+      "39":{"rows":[34],"explanation":"不能步行的病人可以在病床使用 paper finger labyrinth，因此填 paper。finger 描述使用方法，而題目需要的材料是紙。"},
+      "40":{"rows":[35,36],"explanation":"一項小型研究發現，步行 labyrinth 可帶來短暫平靜、放鬆，以及 relief from anxiety，所以填 anxiety。錄音把它描述為研究結果，不是對所有病人保證有相同療效。"}
+    }
+  }
+}

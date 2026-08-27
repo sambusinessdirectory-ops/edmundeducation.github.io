@@ -1,0 +1,300 @@
+{
+  "id": "p3-038",
+  "catalogueId": "p3-038",
+  "title": "Accidental Scientists",
+  "sourceHeading": "Accidental Scientists",
+  "passage": 3,
+  "practice": 38,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-038-accidental-scientists",
+  "source": {
+    "filename": "Practice 38 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "3735426c20c9b1f7072e61bb166268d2590ff1c35d8b8cfb4ac2bdf3e82f5144"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "A paradox lies close to the heart of scientific discovery. If you know just what you are looking for, finding it can hardly count as a discovery, since it was fully anticipated. But if, on the other hand, you have no notion of what you are looking for, you cannot know when you have found it, and discovery, as such, is out of the question. In the philosophy of science, these extremes map onto the purist forms of deductivism and inductivism: in the former, the outcome is supposed to be logically contained in the premises you start with; in the latter, you are recommended to start with no expectations whatsoever and see what turns up."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "As in so many things, the ideal position is widely supposed to reside somewhere in between these two impossible-to-realise extremes. You want to have a good enough idea of what you are looking for to be surprised when you find something else of value, and you want to be ignorant enough of your end point that you can entertain alternative outcomes. Scientific discovery should, therefore, have an accidental aspect, but not too much of one. Serendipity is a word that expresses a position something like that. It’s a fascinating word, and the late Robert King Merton—“the father of the sociology of science”—liked it well enough to compose its biography, assisted by the French cultural historian Elinor Barber."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The word did not appear in the published literature until the early 19th century and did not become well enough known to use without explanation until sometime in the first third of the 20th century. Serendipity means a “happy accident” or “pleasant surprise”, specifically, the accident of finding something good or useful without looking for it. The first noted use of “serendipity” in the English language was by Horace Walpole. He explained that it came from the fairy tale, called The Three Princes of Serendip (the ancient name for Ceylon, or present-day Sri Lanka), whose heroes “were always making discoveries, by accidents and sagacity, of things which they were not in quest of.”"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Antiquarians, following Walpole, found it useful, as they were always rummaging about for curiosities, and unexpected but pleasant surprises were not unknown to them. Some people just seemed to have a knack for that sort of thing, and serendipity was used to express that special capacity. The other community that came to dwell on serendipity to say something important about their practice was that of scientists, and here usages cut to the heart of the matter and were often vigorously contested. Many scientists, including the Harvard physiologist Walter Cannon and, later, the British immunologist Peter Medawar, liked to emphasise how much of scientific discovery was unplanned and even accidental. One example is Hans Christian Ørsted’s discovery of electromagnetism when he unintentionally brought a current-carrying wire parallel to a magnetic needle. The rhetoric about the sufficiency of the rational method was so hot air. Indeed, as Medawar insisted, “There is no such thing as The Scientific Method,” no way at all of systematising the process of discovery. Really important discoveries had a way of showing up when they had a mind to do so and not when you were looking for them. Maybe some scientists, like some book collectors, had a happy knack; maybe serendipity described the situation rather than a personal skill or capacity."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Some scientists using the word meant to stress those accidents belonging to the situation; some treated serendipity as a personal capacity; many others exploited the ambiguity of the notion. Yet what Cannon and Medawar took as a benign nose-thumbing at Dreams of Method, other scientists found incendiary. To say that science had a significant serendipitous aspect was taken by some as dangerous denigration. If scientific discovery were really accidental, then what was the special basis of expert authority? In this connection, the aphorism of choice came from no less an authority on scientific discovery than Louis Pasteur: “Chance favors the prepared mind.” Accidents may happen, and things may turn up unplanned and unforeseen, as one is looking for something else, but the ability to notice such events, to see their potential bearing and meaning, to exploit their occurrence and make constructive use of them—these are the results of systematic mental preparation. What seems like an accident is just another form of expertise. On closer inspection, it is insisted, accident dissolves into sagacity."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The context in which scientific serendipity was most contested and had its greatest resonance was that connected with the idea of planned science. The serendipitists were not all inhabitants of academic ivory towers. As Merton and Barber note, two of the great early-20th-century American pioneers of industrial research—Willis Whitney and Irving Langmuir, both of General Electric—made much play of serendipity, in the course of arguing against overly rigid research planning. Langmuir thought that misconceptions about the certainty and rationality of the research process did much harm and that a mature acceptance of uncertainty was far more likely to result in productive research policies. For his own part, Langmuir said that satisfactory outcomes “occurred as though we were just drifting with the wind. These things came about by accident.” If there is no very determinate relationship between cause and effect in research, he said, “then planning does not get us very far.” So, from within the bowels of corporate capitalism came powerful arguments, by way of serendipity, for scientific spontaneity and autonomy. The notion that industry was invariably committed to the regimentation of scientific research just doesn’t wash."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "For Merton himself—who, one supposes, must have been the senior author—serendipity represented the keystone in the arch of his social scientific work. In 1936, as a very young man, Merton wrote a seminal essay on “The Unanticipated Consequences of Purposive Social Action.” It is, he argued, the nature of social action that what one intends is rarely what one gets: intending to provide resources for buttressing the Christian religion, the natural philosophers of the Scientific Revolution laid the groundwork for secularism; people wanting to be alone with nature in Yosemite Valley wind up crowding one another. We just don’t know enough—and we can never know enough—to ensure that the past is an adequate guide to the future: uncertainty about outcomes, even of our best-laid plans, is endemic. All social action, including that undertaken with the best evidence and formulated according to the most rational criteria, is uncertain in its consequences."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nChoose the most suitable heading for paragraphs A–G from the list of headings below. Write the\nappropriate number, i–x, in boxes 27–32 on your answer sheet.\n\n                         List of Headings\n\n i                       Examples of some scientific discoveries\n\n ii                      Horace Walpole’s fairy tale\n\n iii                     Resolving the contradiction\n\n iv                      What is the Scientific Method?\n\n v                       The contradiction of views on scientific discovery\n\n vi                      Some misunderstandings of serendipity\n\n vii                     Opponents of authority\n\n viii                    Reality doesn’t always match expectation\n\n ix                      How the word came into being\n\n x                       Illustration of serendipity in the business sector\n\n\n27 _____________ Paragraph A\n\n Example                                                  Answer\n\n Paragraph B                                              iii\n\n\n28 _____________ Paragraph C\n29 _____________ Paragraph D\n30 _____________ Paragraph E\n31 _____________ Paragraph F\n32 _____________ Paragraph G"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 33–37 on your answer sheet.\n33 In paragraph A, the word “inductivism” means\n A anticipate results from the beginning.\n B work from prepared premises.\n C accept chance discoveries.\n D look for what you want.\n\n\n34 Medawar says “there is no such thing as The Scientific Method” because\n A discoveries are made by people with a determined mind.\n B discoveries tend to happen unplanned.\n C the process of discovery is unpleasant.\n D serendipity is not a skill.\n\n\n35 Many scientists dislike the idea of serendipity because\n A it is easily misunderstood and abused.\n B it is too unpredictable.\n C it is beyond their comprehension.\n D it devalues their scientific expertise.\n\n\n36 The writer mentions Irving Langmuir to illustrate\n A planned science should be avoided.\n B industrial development needs uncertainty.\n C people tend to misunderstand the relationship between cause and effect.\n D accepting uncertainty can help produce positive results.\n\n\n37 The example of Yosemite is to show\n A the conflict between reality and expectation.\n B the importance of systematic planning.\n C the intention of social action.\n D the power of anticipation."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nAnswer the questions below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer. Write your\nanswers in boxes 38–40 on your answer sheet.\n\n\nWho is the person who first used the word “serendipity”?\n38 _________________\n\n\nWhat kind of story does the word come from?\n39 _________________\n\n\nWhat is the present name of Serendip?\n40 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ Paragraph A Example Answer Paragraph B iii",
+      "translation": "一個悖論位於科學發現的核心附近。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ Paragraph C",
+      "translation": "這個詞直到十九世紀初才出現在出版文獻中。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ Paragraph D",
+      "translation": "古物研究者跟隨 Walpole 的用法，覺得這個詞很有用。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ Paragraph E",
+      "translation": "有些使用這個詞的科學家想強調情境中的偶然；有些把 serendipity 看成個人能力；還有很多人利用這個概念的模糊性。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ Paragraph F",
+      "translation": "科學 serendipity 最具爭議、也最有迴響的語境，是和「有計劃的科學」這個概念相關的語境。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ Paragraph G",
+      "translation": "對 Merton 本人來說，serendipity 是其社會科學工作的核心支柱。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "In paragraph A, the word “inductivism” means",
+      "translation": "Paragraph A 中 inductivism 的意思是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Medawar says “there is no such thing as The Scientific Method” because",
+      "translation": "Medawar 說不存在所謂「唯一的科學方法」，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Many scientists dislike the idea of serendipity because",
+      "translation": "很多科學家不喜歡 serendipity 這個概念，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "The writer mentions Irving Langmuir to illustrate",
+      "translation": "作者提到 Irving Langmuir，是為了說明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "The example of Yosemite is to show",
+      "translation": "Yosemite 的例子用來說明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "text",
+      "prompt": "_________________ What kind of story does the word come from?",
+      "translation": "誰最先使用 serendipity 這個詞？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "text",
+      "prompt": "_________________ What is the present name of Serendip?",
+      "translation": "這個詞來自哪一類故事？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "Serendip 現在的名稱是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-038/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-038/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-038/page-7.jpg"
+  ]
+}

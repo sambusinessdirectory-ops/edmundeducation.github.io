@@ -1,0 +1,220 @@
+{
+  "id": "p3-071",
+  "catalogueId": "p3-071",
+  "title": "Jack the Ripper: A Bungled Investigation?",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 71,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-071-jack-the-ripper-a-bungled-investigation",
+  "source": {
+    "filename": "Practice 71 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "c6bbf70900743f7972e86027aa6cb638cd9b9de8db01b5730b55234a2a510406"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Jack the Ripper: A Bungled Investigation? Few murder enquiries have stirred the public imagination to such an extent as those relating to Jack the Ripper. Reports of murders worthy of a depraved savage simultaneously appalled and enthralled Victorian society as the 19th century came to a close. The unleashing of a serial killer onto the London scene caught police unprepared, as did the unprecedented brutality of the killings which earned their perpetrator the nickname ‘Jack the Ripper’. So, given the heightened public interest and the existence of a police force that had become increasingly competent since the formation of the Metropolitan Police in 1829, it has to be asked: why did the Ripper evade capture and why was no one even charged with the five murders attributed to the Ripper?"
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Conspiracy theorists would have us believe that, contrary to public belief, the police uncovered the Ripper’s identity, but that the truth proved so unpalatable that it had to be hushed up. Far-fetched as it may seem, Queen Victoria’s grandson, Prince Albert Victor, was thought by some to be the Ripper himself. Whilst he did frequent places of ill repute, there is no tangible evidence to support this somewhat sensationalist theory. In fact, the Ripper may have successfully evaded the police for far more prosaic reasons."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Back in 1888, when the Ripper began his reign of terror in the streets of Whitechapel, forensic science was barely in its infancy. There was a rudimentary awareness of the need to keep a murder scene intact to preserve vital clues but the means to thoroughly analyse such evidence through DNA testing was still light-years away. In fact, it was only with the publication of Hans Gross’ ‘A Handbook for Examining Magistrates, Police Officials, Military Police, etc.’ in 1893 that the foundation for forensic science was laid. It was too late, however, to help the Ripper investigation, whose investigators lacked knowledge of modern forensic techniques."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The Ripper investigation also just missed out on developments in fingerprint identification that might have led police to the identity of the Ripper. Nearly a decade prior to the first Ripper murder, Dr. Henry Faulds had published a letter in the scientific journal Nature in 1880. In the letter he outlined for the first time the possibility of using fingerprints for identification purposes. It was only in 1896 that Sir Francis Galton, Inspector General of Bengal Police, sought to put theory into practice. Using the new-found method of ‘dactyloscopy’ (later known as fingerprinting), he employed the technique to successfully identify criminals. Again, new technology arrived just too late for the Ripper investigators."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Whilst police investigators could not be blamed for a lack of forensic knowledge, their failure to apply known investigative methods to the crime scene certainly smacked of incompetence. Photographing the crime scene was not exactly standard practice at the time but it was a known procedure. Unfortunately the officers leading the investigation at the time saw fit to photograph only one of the Ripper’s victims, a certain Mary Kelly, at the crime scene. Even more bizarrely, photographs of the victim focused mainly on her eyes to the neglect of all else. The reason—a ‘forlorn hope’, according to Inspector Walter Dew—was that the imprint of the Ripper might have been recorded on the victim’s retina at the time of her death. No conclusions were drawn from the undertaking."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Another more serious criticism that has been levelled against the investigating police is their deliberate tampering with evidence. It is well known that a semi-illiterate message was scrawled above one of the Ripper’s victims. However, before it could be properly analysed, the investigating officer ordered that it be removed as it was thought to implicate the Jews and racial repercussions were feared. The motive was well-intentioned but this action may have destroyed vital clues."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "A final problem was the lack of co-operation not just between the Press and the police but also between law enforcement agencies themselves. With regard to the former problem, police distrust of the Press led to limited information being released to the newspapers. This was due to a fear that information made public could alert a suspect or generate false leads that wasted time. Unfortunately, if information had been circulated publicly, important information might have been uncovered that would have led to the arrest of the Ripper. As regards the law enforcement agencies, infighting and rivalry between the City and Metropolitan Police Forces served to delay exchange of information and further hinder proceedings."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–38",
+    "g39": "Questions 39–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nComplete the diagram below.\nWrite NO MORE THAN THREE WORDS from the passage for each answer.\n\n\n\n\nDNA is left unexamined as no 27 _________________ is yet available to analyse it.\nFingerprints are not used 28 _________________\nOnly one of the Ripper’s 29 _________________ is photographed at the crime scene.\nImages taken are 30 _________________ capturing the victim’s eyes.\nVital written evidence is 31 _________________ on the orders of a police investigator.\nInvestigators representing rival 32 _________________ fail to exchange information."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 38,
+      "text": "Questions 33–38\nComplete the notes below.\nWrite NO MORE THAN THREE WORDS from the passage for each answer.\n\n\n\n\n What is so startling about the Ripper case is how the murderer managed to 33\n _________________ against the odds. Only on closer investigation does the\n reason become more apparent. Often a 34 _________________ was disturbed,\n destroying vital evidence within it. Only after 35 _________________ a book by\n Hans Gross were more scientific investigative methods introduced. Until then\n there was a lack of knowledge of 36 _________________. In 1896 Sir Francis\n Galton used a 37 _________________ method known as dactyloscopy. This\n method was to greatly aid the police in identifying criminals. Curiously,\n investigative methods known to police at the time were often not employed.\n Crime scene photography was rarely 38 _________________, for example."
+    },
+    {
+      "id": "g39",
+      "start": 39,
+      "end": 40,
+      "text": "Questions 39–40\nWhich TWO statements are supported by the passage?\nChoose two letters, A–E.\n A Limited forensic knowledge probably affected the outcome of the Ripper case.\n B The Ripper murders convinced the police of a need for more sophisticated investigative\n   methods.\n C Disagreement existed amongst the police as to what information should be released to the\n   Press.\n D Whilst rivalry existed amongst the police, they were united in their dislike of the Press.\n E The police investigating the Ripper murders made good use of what techniques were\n   available to them at the time."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "DNA 沒有被檢驗，因為當時還沒有可用的 ______ 去分析它。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "指紋當時沒有被用作 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "Ripper 的 ______ 當中，只有一人曾在 crime scene 被拍照。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "拍下來的影像主要 ______ 捕捉受害者的眼睛。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "重要書面證據在一名警方調查人員命令下被 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "代表互相競爭的 ______ 的調查人員未能交換資訊。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "Ripper 案最令人震驚的是，兇手竟然在種種不利條件下成功 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "一個 ______ 經常被破壞，令其中的重要證據遭毀。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "直到 Hans Gross 的一本書 ______ 之後，更科學的調查方法才被引入。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "在那之前，人們缺乏對 ______ 的認識。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "1896 年，Sir Francis Galton 使用了一種稱為 dactyloscopy 的 ______ 方法。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "例如，犯罪現場攝影當時很少屬於 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "有限的鑑證知識很可能影響了 Ripper 案的結果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "有限的鑑證知識很可能影響了 Ripper 案的結果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-071/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-071/page-5.jpg"
+  ]
+}

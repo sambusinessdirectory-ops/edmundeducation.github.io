@@ -1,0 +1,282 @@
+{
+  "id": "p3-078",
+  "catalogueId": "p3-078",
+  "title": "Are these two reporters on the same planet?",
+  "sourceHeading": "Are These Two Reporters on the Same Planet? An essay by scientist, educator and environmentalist Dr David Suzuki",
+  "passage": 3,
+  "practice": 78,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-078-are-these-two-reporters-on-the-same-planet",
+  "source": {
+    "filename": "Practice 78 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "5d382cf274b66a31b988682c4836d09d06496f13286f4945d99fa78a8a2717a4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "A number of books, articles and television programmes have disputed the reality of the claimed hazards of global warming, overpopulation, deforestation and ozone depletion. Two newspaper commentaries show the profound differences of opinion on critical issues affecting the planet."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The first, by Robert Kaplan, has generated both fear and denial. Entitled The Coming Anarchy, the report paints a horrifying picture of the future for humanity. The author suggests that the terrible consequences of the conjunction between exploding human population and surrounding environmental degradation are already visible in Africa and parts of Southeast Asia. As society is destabilised by the AIDS epidemic, government control evaporates, national borders crumble beneath the pressure of environmental refugees and local populations revert to tribalism to settle old scores or defend against fleeing masses and bands of stateless nomads on the move."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Kaplan believes what he has seen in Africa and Southeast Asia is the beginning of a global pattern of disintegration of social, political and economic infrastructure under the impact of ecological degradation, population pressure and disease. As ecosystems collapse, this scenario could sweep the planet, first in Eastern Europe and then in the industrialised countries. It is a frightening scenario, built on a serious attempt to project the aftermath of ecological destruction. It comes from a core recognition that the planet is finite and consumption has vast social, political and economic ramifications. It has also generated a great deal of discussion and controversy."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Marcus Gee pronounces Kaplan’s vision ‘dead wrong’ in a major article headlined Apocalypse Deferred. Attacking the ‘doomsayers’, Gee counters with the statistics favoured by believers in the limitless benefits and potential of economic growth. Citing the spectacular improvements in human health, levels of education and literacy, availability of food and length of life even in the developing world, Gee pronounces the fivefold increase in the world economy since 1950 to be the cause of this good news. He does concede that immense problems remain, from ethnic nationalism to tropical deforestation to malnutrition to cropland losses, but concludes that Kaplan has exaggerated many of the crises and thus missed the broad pattern of progress."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Focusing on statistics of the decline in child mortality and the rise in longevity, food production and adult literacy, Gee reaches the conclusion that things have never been better. Economic indicators, such as the rise in gross world product and total exports, show ‘remarkable sustained and dramatic progress’. Life for the majority of the world’s citizens is getting steadily better in almost every category."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Gee’s conclusions rest heavily on economic indicators. He points out the annual 3.9 per cent rise in the global economy and the more than doubling of gross output per person over the past thirty years. World trade has done even better, growing by 6 per cent annually, while tariffs have fallen from about 40 per cent of a product’s price in 1947 to 5 per cent today."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Gee skips lightly over such facts as Third World debt and the daily toll of 22,000 child deaths from easily preventable disease. He also fails to mention that during this period the gulf between rich and poor countries has increased. He does acknowledge the threats of loss of topsoil and forests, pollution of the air and contamination of water. However, he concludes that there is little evidence they are serious enough to halt or even reverse human progress. Gee challenges the notion of a population crisis since never before have so many people been so well off. Furthermore, he suggests there will never be a limit to population because more people mean more Einsteins to keep making life better."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Gee’s outlook rests on a tiny minority of scientists who have faith in the boundless potential of science and technology to overcome the physical constraints of air, water and soil so that a much larger population can be sustained. His final proof? The general rise in living standards along with population growth. But the relationship between changes in living standards and population is a correlation, not proof of causal connection. Gee is ignoring basic economic as well as scientific reality."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "If we inherit a bank account with a thousand dollars that earns 5% interest annually, we could withdraw fifty dollars or less each year forever. However, suppose we start to increase our withdrawals, say up to sixty dollars, then seventy dollars and more each year. For many years the account would yield cash. But it would be foolish to conclude that we could keep drawing more from the account indefinitely. Yet that is what Gee believes. As ocean fisheries around the world show, we are using up the ecological capital of the planet (biodiversity, air, water and soil) rather than living off the interest. It is a dangerous deception to believe that the human-created artifice called economies can keep the indicators rising as the life support systems of the planet continue to decline."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "The value system that dominates most of the popular media promotes the delusion that resources and the economy can continue to expand indefinitely. It also blinds the public to the urgency and credibility of warnings that an environmental crisis confronts us."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–33",
+    "g34": "Questions 34–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 33,
+      "text": "Questions 28–33\nUse the information in the passage to match the people (A–C) with the opinions (28–33) listed below.\nThere may be more than one correct answer.\nExample\nEnvironmental challenges will be met by technological advances B\n\n A                           R. Kaplan, author of The Coming Anarchy\n\n B                           M. Gee, author of Apocalypse Deferred\n\n C                           D. Suzuki, author of this passage\n28 __________ Our patterns of consumption are using up the ecological capital of the planet.\n29 __________ Crises beginning in the Third World will spread to developed countries.\n30 __________ Scientific progress will enable the planet to sustain increased population.\n31 __________ Social and political infrastructure worldwide could collapse.\n32 __________ Earth’s life support systems are at critical risk.\n33 __________ Environmental problems are not a threat to progress."
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 36,
+      "text": "Questions 34–36\nChoose ONE phrase from the list below (A–G) to complete each of the following sentences.\nThere are more phrases than questions so you will not use all of them.\n\n                             List of Phrases\n\n A                           have most benefited developing countries\n\n B                           has led to a drop in the standard of living generally\n\n C                           cannot continue to expand indefinitely\n\n D                           have decreased Third World debt\n\n E                           shows a correlation, not cause and effect\n\n F                           pose a threat to human progress\n\n G                           has been accompanied by a fall in tariffs\n34 __________ The growth of world trade\n35 __________ The relationship between population and standard of living\n36 __________ Natural resources and the economy"
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nChoose the correct letter A–D.\n37 Which of the following is NOT stated by Kaplan as a key contributing factor to potential global\ndestabilisation?\n  A political corruption\n  B collapse of ecosystems\n  C population explosion\n  D malnutrition and disease\n\n\n38 What is the main source of Gee’s optimism?\n  A scientific and technological advances\n  B decreasing Third World debt\n  C the rise in the standard of living worldwide\n  D economic growth\n\n\n39 Which of the following can we infer about the views of the author of this passage?\n  A He disagrees with both Gee and Kaplan.\n  B He supports the views of Gee.\n  C His views are closer to those of Kaplan.\n  D He thinks both Gee and Kaplan are right.\n\n\n40 The main purpose of the author in this passage is …\n  A to alert us to an environmental crisis.\n  B to educate the media.\n  C to create uncertainty about the future.\n  D to challenge current economic theory."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Our patterns of consumption are using up the ecological capital of the planet.",
+      "translation": "我們的消費模式正在耗盡地球的生態資本。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Crises beginning in the Third World will spread to developed countries.",
+      "translation": "從第三世界開始的危機將會蔓延到已發展國家。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Scientific progress will enable the planet to sustain increased population.",
+      "translation": "科學進步將使地球能夠承受更多人口。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Social and political infrastructure worldwide could collapse.",
+      "translation": "全球社會和政治基礎設施可能崩潰。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Earth’s life support systems are at critical risk.",
+      "translation": "地球的生命支援系統正處於重大風險之中。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Environmental problems are not a threat to progress.",
+      "translation": "環境問題不會威脅人類進步。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ The growth of world trade",
+      "translation": "世界貿易增長伴隨著關稅下降。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ The relationship between population and standard of living",
+      "translation": "人口和生活水平之間的關係顯示的是相關性，不是因果關係。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ Natural resources and the economy",
+      "translation": "自然資源和經濟不能無限擴張。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Which of the following is NOT stated by Kaplan as a key contributing factor to potential global destabilisation?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "What is the main source of Gee’s optimism?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Which of the following can we infer about the views of the author of this passage?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "The main purpose of the author in this passage is …",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-078/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-078/page-5.jpg"
+  ]
+}

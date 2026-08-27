@@ -1,0 +1,259 @@
+{
+  "id": "p2-048",
+  "catalogueId": "p2-048",
+  "title": "How Well Do We Concentrate?",
+  "sourceHeading": "How Well Do We Concentrate?",
+  "passage": 2,
+  "practice": 48,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-048-how-well-do-we-concentrate",
+  "source": {
+    "filename": "Practice 48 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "44f676286ad2cd1781ec2072133438910966c83743db73365435feef1572d6eb"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Do you read while listening to music? Do you watch television while finishing your homework? People with these habits are called multitaskers. Multitaskers appear to complete two tasks at once by dividing their attention. Thomas Lehman, a psychology researcher, argues that people never truly do several things simultaneously. Someone may read while listening to music, but the brain can focus on only one task at a time: reading a book causes the listener to ignore some of the song’s words. When people think they are completing two tasks efficiently, they are really dividing their attention. Listening to music also makes people less aware of their surroundings. We have all spoken to friends who do not respond properly, perhaps because they are listening to someone else or reading a text on a smartphone and do not hear us. Lehman calls this phenomenon ‘email voice’."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Computers and their spin-offs, such as smartphones and mobile phones, have changed the world. Now that most people own a personal device, such as a smartphone or laptop, they frequently read, watch or listen to virtual information. This increases the prevalence of multitasking in everyday life. At work, people use a computer and mobile phone while colleagues may stop by at any time to speak to them. In professional meetings, where participants would normally focus on and listen to one another, people are increasingly likely to keep a mobile phone in their lap and communicate silently with others. Even inventions such as the cordless phone have increased multitasking. In the past, when a wall-mounted telephone rang, a housewife had to stop what she was doing to answer it. She would sit down and chat without doing the laundry, sweeping or answering the door. Modern technology, by contrast, allows us to continue our daily tasks while communicating."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Earl Miller, an expert at the Massachusetts Institute of Technology, studied the prefrontal cortex, which controls the brain while a person multitasks. The size of this cortex varies between species: it constitutes about one-third of the human brain, compared with only 4–5 per cent in dogs and around 15 per cent in monkeys. Its greater size in humans may enable more flexible and accurate multitasking. Miller wanted to determine whether the cortex truly processed information from two tasks simultaneously. He presented participants with visual stimuli in a way that mimicked multitasking, then attached sensors to their heads to record the brain’s electrical patterns. These sensors showed whether neurons were actually processing two different tasks. Miller found that neurons became active in only one area at a time, never simultaneously."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "David Meyer, a professor at the University of Michigan, studied young adults in a similar experiment. He instructed them to solve mathematics problems while classifying simple words into categories. Meyer found that when people think they are doing several jobs at once, they are actually switching between them. Although the participants attempted both tasks simultaneously and eventually completed both, the work took longer overall than it would have if they had focused on one task at a time."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "People sacrifice efficiency when they multitask. Gloria Mark used office workers as her research subjects and found that they were constantly multitasking. On average, workers were interrupted about every 11 minutes. Doing different jobs at once may save time, but being faster does not necessarily make people more efficient. People are as likely to interrupt themselves as they are to be interrupted by outside sources. Mark found that, in an office, an employee would stop about every 12 minutes for no apparent reason to check a website, call someone or write an email. If employees concentrated for more than 20 minutes, they felt distressed. She suggested that the average person may have a short attention span. This may be natural, but others argue that new technology is responsible. With mobile phones and computers always at hand, people never run out of distractions. Media formats—including advertisements, music, news articles and television programmes—are also becoming shorter, so people are accustomed to attending to information only briefly."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Although focusing on a single task is the most efficient way for the brain to work, this approach is not always practical. People naturally feel more comfortable and efficient in environments that offer a variety of tasks. Edward Hallowell says that multitasking, external interruptions and self-distraction cause substantial losses of workplace efficiency. Fortunately, improvements need not involve dramatic changes. No one is suggesting banning email or making employees perform only one task. However, common activities such as group meetings would be more efficient if mobile phones, a frequent distraction, were prohibited. Individuals can apply similar methods to prevent self-distraction. Instead of arriving at the office and immediately checking every email for new tasks, they could dedicate the first hour of the day to one job. Timing oneself is a useful way to reduce distraction and complete tasks efficiently one by one, instead of slowing down through multitasking."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in boxes 14–18 on your answer sheet.\n14 _____________ A domestic situation that does not require multitasking\n15 _____________ A possible explanation for why people multitask\n16 _____________ A practical method for managing multitasking at work\n17 _____________ A connection between prefrontal-cortex size and multitasking\n18 _____________ Evidence that doing two tasks together takes longer than doing them\nseparately"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 23,
+      "text": "Questions 19–23\nLook at the following statements (Questions 19–23) and the list of scientists below. Match each\nstatement with the correct scientist, A–E.\nWrite the correct letter, A–E, in boxes 19–23 on your answer sheet.\nNB You may use any letter more than once.\n\n                                   List of Scientists\n\n A                                 Thomas Lehman\n\n B                                 Earl Miller\n\n C                                 David Meyer\n\n D                                 Gloria Mark\n\n E                                 Edward Hallowell\n\n\n19 _____________ When faced with several visual stimuli, a person can concentrate on only\none at a time.\n20 _____________ Doing two things together may be faster but less effective.\n21 _____________ People never truly perform two tasks simultaneously, even when they think\nthey do.\n22 _____________ The causes of multitasking lie in the environment.\n23 _____________ Even small workplace changes can improve efficiency."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\n\n\nThe term for a situation in which someone reading a text cannot focus on their\nsurroundings is 24 _________________.\nThe 25 _________________ part of the brain controls multitasking.\nOne practical way to reduce multitasking at work is to prohibit mobile phones during\n26 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ A domestic situation that does not require multitasking",
+      "translation": "一個不需要 multitasking 的家庭情境。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ A possible explanation for why people multitask",
+      "translation": "一個解釋人們為何 multitask 的可能原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ A practical method for managing multitasking at work",
+      "translation": "一個在工作中管理 multitasking 的實用方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ A connection between prefrontal-cortex size and multitasking",
+      "translation": "prefrontal cortex 的大小和 multitasking 之間的關係。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Evidence that doing two tasks together takes longer than doing them separately",
+      "translation": "證據顯示，同時做兩件事比逐件做花更長時間。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_____________ When faced with several visual stimuli, a person can concentrate on only one at a time.",
+      "translation": "面對幾個 visual stimuli 時，一個人一次只能集中處理其中一個。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_____________ Doing two things together may be faster but less effective.",
+      "translation": "同時做兩件事可能較快，但效果較差。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_____________ People never truly perform two tasks simultaneously, even when they think they do.",
+      "translation": "即使人們以為自己同時做兩件事，他們其實從來沒有真正同步完成兩項任務。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_____________ The causes of multitasking lie in the environment.",
+      "translation": "multitasking 的成因來自環境。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_____________ Even small workplace changes can improve efficiency.",
+      "translation": "即使只是小型工作場所改變，也可以提升效率。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "一個人讀文字訊息時無法專注於周圍環境，這種情況的術語是 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "大腦中 _________ 這個部分控制 multitasking。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________.",
+      "translation": "在工作中減少 multitasking 的一個實用方法，是在 _________ 期間禁止 mobile phones。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-048/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-048/page-5.jpg"
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "p1-057",
+  "catalogueId": "p1-057",
+  "title": "Education Philosophy",
+  "sourceHeading": "Educational Philosophy",
+  "passage": 1,
+  "practice": 57,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-057-education-philosophy",
+  "source": {
+    "filename": "Practice 57  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "a38c772ce965e1f9667e9e25d9246f0449c67e08db7be5560cf39c877ffc596e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Although accurate statistics on child mortality in the pre-industrial era are unavailable, evidence suggests that in the 1660s as many as 30% of newborns died within fourteen days. Nearly every family experienced a premature death. Because parents expected to bury some of their children, they found it difficult to invest emotionally in newborns. To protect themselves from the consequences of a child’s death, they avoided forming a strong emotional commitment to an infant. It is therefore unsurprising to find accounts of mothers abandoning babies in gutters or mentioning a child’s death in the same paragraph as pickles."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The 18th century saw the transformation of an agrarian economy into an industrial one, one of the most important social changes in the Western world. Growing numbers moved from villages and small towns to cities, where life was very different. Support networks found in smaller communities gave way to severe problems including poverty, crime, substandard housing and disease. The poorest families needed extra income, so young children entered employment and their childhoods became painfully short. Children as young as seven worked full-time in unhealthy and degrading conditions, in settings ranging from factories to prostitution. Although this role has disappeared from most wealthy countries, child labour remains widespread in developing nations and has by no means vanished."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Children’s lives changed drastically in the United States during the 1800s. Previously, rural and urban children alike performed everyday labour because households required so much manual work. Technological advances in the mid-1800s, the rise of the middle class and the redefinition of family roles gradually separated work from home. Families began buying toys and books for children, and growing reliance on machines reduced the need for children’s labour in both rural and urban homes. Beginning with the Industrial Revolution, this trend grew slowly through the 19th century and accelerated after the Civil War. John Locke, one of the period’s most influential writers, produced the first clear and comprehensive statement of the ‘environmental position’: family education determines a child’s life. Through this work, he became the father of modern learning theory. His teachings on childcare gained wide recognition in colonial America."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "According to Jean-Jacques Rousseau, who lived during the era of the American and French Revolutions, people were ‘noble savages’ in the state of nature: innocent, free and uncorrupted. In 1762, Rousseau wrote the famous novel Emile to express his educational philosophy through the story of a boy’s development from infancy to adulthood. The work drew on extensive observation of children and adolescents, his developmental theory and memories of his own childhood. He contrasted children with adults and described age-specific characteristics from historical and psychological perspectives. Johann Heinrich Pestalozzi, who lived during the early Industrial Revolution, sought to create schools that nurtured children’s all-round development. He agreed with Rousseau that human beings were naturally good but corrupted by society. His approach included both general and specific methods and began by establishing an emotionally healthy, homelike learning environment before introducing more specific instruction."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "One of the best-documented cases associated with Pestalozzi’s theory concerned Victor, a so-called feral child captured in a small town in southern France in 1800. Victor was prepubescent, mute, naked and perhaps eleven or twelve years old. Before his capture, he had been seen foraging in local gardens and sometimes accepting food directly from residents. He was taken to Paris, where his case was expected to answer profound questions about human nature, but that goal was soon abandoned. A young physician, Jean Marc Gaspard Itard, remained optimistic about Victor’s future and began a five-year plan to civilise him and teach him to speak. With a government subsidy, Itard recruited a local woman, Madame Guérin, to help provide Victor with the semblance of a home, and he devoted enormous time and effort to the child. Although he never fully achieved his goal of teaching Victor basic speech, Victor learnt elementary forms of communication."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Other educators began to recognise a simple truth within Rousseau’s philosophy: identifying the stages of children’s development was not enough; education had to be tailored to those stages. One early example was kindergarten, both a term and a movement created in 1840 by the German-born educator Friedrich Froebel. Froebel valued play highly in children’s learning, and his invention eventually spread worldwide in many forms. His ideas were inspired by his work with Johann Heinrich Pestalozzi. Froebel did not introduce kindergarten until he was 58, after four decades as a teacher. He conceived it as a haven and preparation for children about to enter a regimented education system. Guided or structured play was central because he believed play to be the most important aspect of development at this stage. It enabled emotional growth and a sense of self-worth, while teachers organised materials and created structured environments in which each child could achieve these goals. By Froebel’s death in 1852, dozens of kindergartens had been established in Germany. Their number grew across Europe, and the movement eventually reached and flourished in the United States during the 20th century."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nReading Passage 1 has six paragraphs, A–F.\nChoose the correct heading for paragraphs A and C–E from the list of headings below.\nWrite the correct number, i–vii, in Boxes 1–4 on your answer sheet.\n\n                             List of Headings\n\n i                           The evolution and development of educational concepts of different thinkers\n\n ii                          Why children had to work to alleviate the burden on family\n\n iii                         Why children were not highly valued\n\n iv                          An explanation for children dying in hospital at an early age\n\n v                           The first appearance of modern educational philosophy\n\n vi                          The application of a creative learning method to a feral child\n\n vii                         The emergence and spread of the notion of kindergarten\n1 ____________ Paragraph A\nExample:\nParagraph B—ii\n2 ____________ Paragraph C\n3 ____________ Paragraph D\n4 ____________ Paragraph E"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nLook at the following events (Questions 5–8) and the list of dates below.\nMatch each event with the correct date, A, B or C.\nWrite the correct letter, A, B or C, in Boxes 5–8 on your answer sheet.\nNB You may use any letter more than once.\n\n                             List of Dates\n\n A                           the 18th century (1700–1799)\n\n B                           the 19th century (1800–1899)\n\n C                           the 20th century (1900–1999)\n5 __________ the need for children to work\n6 __________ the rise of the middle class\n7 __________ the emergence of a kindergarten\n8 __________ the spread of kindergartens around the U.S."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nLook at the following opinions or deeds (Questions 9–13) and the list of people below.\nMatch each opinion or deed with the correct person, A, B, C or D.\nWrite the correct letter, A, B, C or D, in Boxes 9–13 on your answer sheet.\nNB You may use any letter more than once.\n\n                             List of People\n\n A                           Jean-Jacques Rousseau\n\n B                           Johann Heinrich Pestalozzi\n\n C                           Jean Marc Gaspard Itard\n\n D                           Friedrich Froebel\n9 __________ was not successful in proving a theory\n10 __________ based his work on extensive observations of children\n11 __________ proposed a learning environment that prioritised emotional comfort\n12 __________ argued that corruption was not part of people’s natural character\n13 __________ was responsible for increasing the number of a particular type of school"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph A Example: Paragraph B—ii",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ the need for children to work",
+      "translation": "兒童需要工作的情況。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ the rise of the middle class",
+      "translation": "中產階級的興起。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ the emergence of a kindergarten",
+      "translation": "kindergarten 的出現。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ the spread of kindergartens around the U.S.",
+      "translation": "kindergartens 在美國各地擴展。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "__________ was not successful in proving a theory",
+      "translation": "未能成功證明某個理論 / 未能完全達成相關教育目標。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "__________ based his work on extensive observations of children",
+      "translation": "他的作品建基於對兒童的大量觀察。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "__________ proposed a learning environment that prioritised emotional comfort",
+      "translation": "提出以情感舒適 / 情感健康為優先的學習環境。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "__________ argued that corruption was not part of people’s natural character",
+      "translation": "主張腐化並非人的自然本性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "__________ was responsible for increasing the number of a particular type of school",
+      "translation": "促成某類學校數量增加。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-057/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-057/page-6.jpg"
+  ]
+}

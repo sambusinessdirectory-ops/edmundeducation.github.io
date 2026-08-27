@@ -1,0 +1,270 @@
+{
+  "id": "p2-165",
+  "catalogueId": "p2-165",
+  "title": "Renewable Energy",
+  "sourceHeading": "Renewable Energy An insight into the progress in renewable energy research",
+  "passage": 2,
+  "practice": 165,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-165-renewable-energy",
+  "source": {
+    "filename": "Practice 165 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8750fd25c06bbc19d24ad18aa0c621bb61ea53ba58bcbbbdad8d07fdc7729ec7"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The race is on for the ultimate goal of renewable energy: electricity production at prices that are competitive with coal-fired power stations, but without coal’s pollution. Some new technologies are aiming to be the first to push coal from its position as Australia’s chief source of electricity."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "At the moment the front-runner in renewable energy is wind technology. According to Peter Bergin of Australian Hydro, one of Australia’s leading wind energy companies, there have been no dramatic changes in windmill design for many years, but the cumulative effects of numerous small improvements have had a major impact on cost. ‘We’re reaping the benefits of 30 years of research in Europe, without having to make the same mistakes that they did,’ Mr Bergin says."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Electricity can be produced from coal at around 4 cents per kilowatt-hour, but only if the environmental costs are ignored. ‘Australia has the second cheapest electricity in the world, and this makes it difficult for renewable energy to compete,’ says Richard Hunter of the Australian Ecogeneration Association (AEA). Nevertheless, the AEA reports: ‘The production cost of a kilowatt-hour of wind power is one-fifth of what it was 20 years ago,’ or around 7 cents per kilowatt-hour."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Australian Hydro has dozens of wind monitoring stations across Australia as part of its aim to become Australia’s pre-eminent renewable energy company. Despite all these developments, wind power remains one of the few areas of alternative energy in which Australia is nowhere near the global cutting edge, mostly just replicating European designs."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "While wind may currently lead the way, some consider that a number of technologies under development have more potential. In several cases, Australia is at the forefront of global research in the area. Some of them are very site-specific, meaning that they may never become dominant market players. On the other hand, these newer developments are capable of providing more reliable power, avoiding the major criticism of windmills—the need for back-up on a calm day."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "One such development uses hot, dry rocks. Deep beneath South Australia, radiation from elements contained in granite heats the rocks. Layers of insulating sedimentation raise the temperatures in some locations to 250°C. An Australian firm, Geoenergy, is proposing to pump water 3.5 kilometres into the earth, where it will travel through tiny fissures in the granite, heating up as it goes until it escapes as steam through another drilled hole."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "No greenhouse gases are produced, but the system needs some additional features if it is to be environmentally friendly. Dr Prue Chopra, a geophysicist at the Australian National University and one of the founders of Geoenergy, notes that the steam will bring with it radon gas; the steam will pass through a heat exchanger and then be sent back underground for another cycle. Technically speaking, hot, dry rocks are not a renewable source of energy. However, the Australian source is so large it could supply the entire country’s needs for thousands of years at current rates of consumption."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Two other proposals for very different ways to harness sun and wind energy have surfaced recently. Progress continues with Australian company EnviroPower’s plans for Australia’s first solar chimney near Mildura, in Victoria. Under this scheme, a tall tower will draw hot air from a greenhouse built to cover the surrounding 5 km². As the air rises, it will drive a turbine to produce electricity. The solar tower combines three very old technologies—the chimney, the turbine and the greenhouse—to produce something quite new. It is this reliance on proven engineering principles that led EnviroPower’s CEO, Richard Davies, to state: ‘There is no doubt this technology will work, none at all.’"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "This year, EnviroPower recognised that the quality of sunlight in the Mildura district will require a substantially larger collecting area than was previously thought. However, spokesperson Kay Firth says that a new location closer to Mildura will enable EnviroPower to balance the increased costs with extra revenue. Besides saving in transmission costs, the new site will mean increased revenue from tourism and use of power for telecommunications. We’ll also be able to use the outer 500 metres for agribusiness.’ Wind speeds closer to the tower will be too high for farming."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Another Australian company, Wavetech, is achieving success with a method of harvesting the energy in waves. Wavetech’s invention uses a curved surface to push waves into a chamber, where the flowing water column pushes air back and forth through a turbine. Wavetech was created when Dr Tim Devine offered the idea to a world-leading wave-generator manufacturer, which rather surprisingly rejected the idea. Dr Devine responded by establishing Wavetech and making a number of other improvements to generator design. Wavetech claims that, at appropriate sites, ‘the cost of electricity produced with our technology should be below 4 cents per kilowatt-hour.’"
+    },
+    {
+      "number": 11,
+      "label": "K",
+      "text": "The diversity of forms of greenhouse-friendly energy under development in Australia is remarkable. However, support at the national level is disappointing. According to Richard Hunter of the AEA, ‘Australia has huge potential for wind, sun and wave technology. We should really be at the forefront, but the reality is we are a long way behind.’"
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–21",
+    "g22": "Questions 22–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 21,
+      "text": "Questions 15–21\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 15–21 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n15 __________ In Australia, alternative energy is less expensive than conventional electricity.\n16 __________ Geoenergy needs to adapt its system to make it less harmful to the\nenvironment.\n17 __________ Dr Prue Chopra has studied the effects of radon gas on the environment.\n18 __________ Hot, dry rocks could provide enough power for the whole of Australia.\n19 __________ The new EnviroPower facility will discourage tourists.\n20 __________ Wavetech was established after another company rejected its founder’s\nproposal.\n21 __________ According to the AEA, Australia is a world leader in developing renewable\nenergy."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 27,
+      "text": "Questions 22–27\nLook at the following statements (Questions 22–27) and the list of companies below.\nMatch each statement with the correct company, A–D.\nWrite the correct letter, A–D, in boxes 22–27 on your answer sheet.\nNB You may use any letter more than once.\n A                                     Australian Hydro\n\n B                                     Geoenergy\n\n C                                     EnviroPower\n\n D                                     Wavetech\n22 __________ During the process, harmful substances are prevented from escaping.\n23 __________ Water is used to force air through a special device.\n24 __________ Techniques used in other countries are being copied.\n25 __________ The system can provide services other than energy production.\n\n26 __________ It is planned to force water deep underground.\n27 __________ Original estimates for part of the project have been revised."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ In Australia, alternative energy is less expensive than conventional electricity.",
+      "translation": "在澳洲，替代能源比傳統電力便宜。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Geoenergy needs to adapt its system to make it less harmful to the environment.",
+      "translation": "Geoenergy 需要調整其系統，使它對環境較少傷害。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Dr Prue Chopra has studied the effects of radon gas on the environment.",
+      "translation": "Dr Prue Chopra 曾研究 radon gas 對環境的影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Hot, dry rocks could provide enough power for the whole of Australia.",
+      "translation": "Hot, dry rocks 能夠為整個澳洲提供足夠能源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The new EnviroPower facility will discourage tourists.",
+      "translation": "新的 EnviroPower 設施會令遊客卻步。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Wavetech was established after another company rejected its founder’s proposal.",
+      "translation": "Wavetech 是在另一家公司拒絕其創辦人的提案後成立的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ According to the AEA, Australia is a world leader in developing renewable energy.",
+      "translation": "根據 AEA，澳洲是發展可再生能源的世界領先者。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "__________ During the process, harmful substances are prevented from escaping.",
+      "translation": "在過程中，有害物質被防止外洩。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "__________ Water is used to force air through a special device.",
+      "translation": "水被用來推動空氣通過一個特殊裝置。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "__________ Techniques used in other countries are being copied.",
+      "translation": "正在複製其他國家使用的技術。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "__________ The system can provide services other than energy production.",
+      "translation": "這個系統除了生產能源，還可以提供其他服務或用途。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "__________ It is planned to force water deep underground.",
+      "translation": "計劃把水壓入地底深處。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "__________ Original estimates for part of the project have been revised.",
+      "translation": "項目某部分的原本估計已經被修訂。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-165/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-165/page-6.jpg"
+  ]
+}

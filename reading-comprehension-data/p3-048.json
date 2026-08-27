@@ -1,0 +1,308 @@
+{
+  "id": "p3-048",
+  "catalogueId": "p3-048",
+  "title": "Improving Patient Safety",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 48,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-048-improving-patient-safety",
+  "source": {
+    "filename": "Practice 48 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "058f753002c2e8f2c3c23153d3c122d0d6263acaaa9b7c0e107046ce3e3527e7"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Improving Patient Safety Packaging One of the most prominent design issues in pharmacy is that of drug packaging and patient information leaflets (PILs). Many letters have appeared in The Journal’s letters pages over the years from pharmacists dismayed at the designs of packaging that are “accidents waiting to happen”."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Packaging design in the pharmaceutical industry is handled by either in-house teams or design agencies. Designs for over-the-counter medicines, where characteristics such as attractiveness and distinguishability are regarded as significant, are usually commissioned from design agencies. A marketing team will prepare a brief and the designers will come up with perhaps six or seven designs. These are whittled down to two or three that might be tested on a consumer group. In contrast, most designs for prescription-only products are created in-house. In some cases, this may simply involve applying a company’s house design (that is, the logo, colour, font and so on). The chosen design is then handed over to design engineers who work out how the packaging will be produced."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Design considerations The author of the recently published “Information design for patient safety,” Thea Swayne, tracked the journey of a medicine from a manufacturing plant, through distribution warehouses, pharmacies and hospital wards, to patients’ homes. Her book highlights a multitude of design problems with current packaging, such as look-alikes and sound-alikes, small type sizes and glare on blister foils. Situations in which medicines are used include a parent giving a cough medicine to a child in the middle of the night and a busy pharmacist selecting one box from hundreds. It is argued that packaging should be designed for moments such as these. “Manufacturers are not aware of the complex situations into which products go. As designers, we are interested in not what is supposed to happen in hospital wards, but what happens in the real world,” Ms Swayne said."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Incidents in which vincristine has been injected intrathecally rather than intravenously are classic examples of how poor design can contribute to harm. Investigations following these tragedies have attributed some blame to poor typography."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Safety and compliance Child protection is another area that gives designers opportunities to improve safety. According to the Child Accident Prevention Trust, seven out of 10 children admitted to hospital with suspected poisoning have swallowed medicines. Although child-resistant closures have reduced the number of incidents, they are not fully child-proof. The definition of such a closure is one that not more than 15 per cent of children aged between 42 and 51 months can open within five minutes. There is scope for improving what is currently available, according to Richard Mawle, a freelance product designer. “Many child-resistant packs are based on strength. They do not necessarily prevent a child from gaining access, but may prevent people with disabilities from opening them,” he told The Journal. “The legal requirements are there for a good reason, but they are not good enough in terms of the users,” he said. “Older people, especially those with arthritis, may have the same level of strength as a child,” he explained, and suggested that better designs could rely on cognitive skills (for example, making the opening of a container a three-step process) or be based on the physical size of hands."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Mr Mawle worked with GlaxoSmithKline on a project to improve compliance through design, which involved applying his skills to packaging and PILs. Commenting on the information presented, he said: “There can be an awful lot of junk at the beginning of PILs. For example, why are company details listed towards the beginning of a leaflet when what might be more important for the patient is that the medicine should not be taken with alcohol?”"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Design principles and guidelines Look-alike boxes present a risk of selection errors and an obvious solution would be to use colours to highlight different strengths. However, according to Ms Swayne, colour differentiation needs to be approached with care. Not only should strong colour contrasts be used, but designating a colour to a particular strength (colour coding) is not recommended because this could lead to the user not reading the text on a box."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Design features can provide the basis for lengthy debates. For example, one argument is that if all packaging were white with black lettering, people would have no choice but to read every box carefully. The problem is that few trials have examined drug-packaging design; most studies of legibility and comprehensibility concern road traffic signs and visual display units. Although some designers take results from such studies into account, proving that a particular feature is beneficial can be difficult. For example, EU legislation requires that packaging must now include the name of the medicine in Braille but, according to Karel van der Waarde, a design consultant to the pharmaceutical industry, “it is not known how much visually impaired patients will benefit nor how much the reading of sighted patients will be impaired”."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "More evidence might, however, soon be available. EU legislation requires PILs to reflect consultations with target patient groups to ensure they are legible, clear and easy to use. This implies that industry will have to start conducting tests. Dr van der Waarde has performed readability studies on boxes and PILs for industry. A typical study involves showing a leaflet or package to a small group and asking them questions to test understanding. Results and comments are used to modify the material, which is then tested on a larger group. A third group is used to show that any further changes made are an improvement. Dr van der Waarde is, however, sceptical about the legal requirements and says that many regulatory authorities do not have the resources to handle packaging information properly. “They do not look at the use of packaging in a practical context—they only see one box at a time and not several together as pharmacists would do,” he said."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Innovations The RCA innovation exhibition this year revealed designs for a number of innovative objects. “The popper”, by Hugo Glover, aims to help arthritis sufferers remove tablets from blister packs, and “pluspoint”, by James Cobb, is an adrenaline auto-injector that aims to overcome the fact that many patients do not carry their auto-injectors due to their prohibitive size. The aim of good design, according to Roger Coleman, professor of inclusive design at the RCA, is to try to make things more user-friendly as well as safer. Surely, in a patient-centred health system, that can only be a good thing. Information Design for Patient Safety is not intended to be mandatory. Rather, its purpose is to create a basic design standard and to stimulate innovation. The challenge for the pharmaceutical industry, as a whole, is to adopt such a standard."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nLook at the following statements (Questions 27–32) and the list of people or organisations\nbelow.\nMatch each statement with the correct person or organisation, A–D.\nWrite the correct letter, A–D, in boxes 27–32 on your answer sheet.\nNB You may use any letter more than once.\n A                        Thea Swayne\n\n B                        Child Accident Prevention Trust\n\n C                        Richard Mawle\n\n D                        Karel van der Waarde\n\n\n27 __________ Elderly people may have the same difficulty as children if the lids of containers\nrequire too much strength to open.\n28 __________ Adapting packaging for the blind may disadvantage sighted people.\n29 __________ Specially designed lids cannot eliminate the possibility of children swallowing\npills accidentally.\n30 __________ Container design should consider situations, such as a drug being used at\nhome.\n31 __________ Regulatory authorities should investigate multiple medicine containers together\nrather than individually.\n32 __________ Information in a leaflet may not appear in the most useful order."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nComplete the notes using the list of words, A–G, below.\nWrite the correct letter, A–G, in boxes 33–37 on your answer sheet.\nPackaging in the Pharmaceutical Industry\nDesigns for Over-the-Counter Medicines\n A                               consumers\n\n B                               marketing teams\n\n C                               pharmaceutical industry\n\n D                               external designers\n\n E                               in-house designers\n\n F                               design engineers\n\n G                               pharmacist\nFirst, 33 _____________ prepare the proposal, then pass it to 34 _____________. Finally, the\ndesigns are tested by 35 _____________.\nPrescription-Only Medicines\nFirst, the design is created by 36 _____________ and then passed to 37 _____________."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 38–40 on your answer sheet.\n38 What design feature may cause an accident involving medicine containers?\n A a print error\n B the style of print\n C wrong label\n D the shape of the bottle\n39 What is one view of printing packaging only in black and white?\n A Consumers dislike these products.\n B People have to pay more attention to the information.\n C It makes all products look alike.\n D Sighted people may find it more helpful.\n40 Why does the writer mention “popper” and “pluspoint”?\n A to show that container design has made some progress\n B to give examples of inappropriate design which can lead to accidents\n C to show that the industry still needs further improvement\n D to point out that consumers should be better informed"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Elderly people may have the same difficulty as children if the lids of containers require too much strength to open.",
+      "translation": "如果容器蓋需要太大力氣才能打開，長者可能會遇到和兒童相似的困難。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Adapting packaging for the blind may disadvantage sighted people.",
+      "translation": "為盲人或視障人士調整包裝，可能會令視力正常的人處於不利位置。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Specially designed lids cannot eliminate the possibility of children swallowing pills accidentally.",
+      "translation": "特別設計的安全蓋不能完全消除兒童意外吞服藥物的可能性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Container design should consider situations, such as a drug being used at home.",
+      "translation": "容器設計應考慮真實使用情境，例如藥物在家中被使用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Regulatory authorities should investigate multiple medicine containers together rather than individually.",
+      "translation": "監管機構應該把多個藥物容器放在一起檢視，而非逐個獨立檢視。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Information in a leaflet may not appear in the most useful order.",
+      "translation": "單張中的資訊排列次序可能不是最有用的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What design feature may cause an accident involving medicine containers?",
+      "translation": "哪一項設計特徵可能造成與藥物容器相關的事故？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What is one view of printing packaging only in black and white?",
+      "translation": "有一種看法認為，只用黑白印刷包裝會有甚麼效果？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "Why does the writer mention “popper” and “pluspoint”?",
+      "translation": "作者為甚麼提到 “popper” 和 “pluspoint”？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-048/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-048/page-6.jpg"
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "p3-125",
+  "catalogueId": "p3-125",
+  "title": "Memory Decoding",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 125,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-125-memory-decoding",
+  "source": {
+    "filename": "Practice 125 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "82ea6bec1379871bea725e220d590e507c45156ce55444084fa19dbfc7cb1571"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Memory Decoding The Examinations School at Oxford University is an austere building of oak-paneled rooms, large Gothic windows, and looming portraits of eminent dukes and earls. It is where generations of Oxford students have tested their memory on final exams, and it is where, last August, 34 contestants gathered at the World Memory Championships to be examined in an entirely different manner."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "A In timed trials, contestants were challenged to look at and then recite a two-page poem, memorize rows of 40-digit numbers, recall the names of 110 people after looking at their photographs, and perform seven other feats of extraordinary retention. Some tests took just a few minutes; others lasted hours. In the 14 years since the World Memory Championships was founded, no one has memorized the order of a shuffled deck of playing cards in less than 30 seconds. That nice round number has become the four-minute mile of competitive memory, a benchmark that the world’s best “mental athletes,” as some of them like to be called, are closing in on. Most contestants claim to have just average memories, and scientific testing confirms that they’re not just being modest. Their feats are based on tricks that capitalize on how the human brain encodes information. Anyone can learn them."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "B Psychologists Elizabeth Valentine and John Wilding, authors of the monograph Superior Memory, recently teamed up with Eleanor Maguire, a neuroscientist at University College London, to study eight people, including Karsten, who had finished near the top of the World Memory Championships. They wondered if the contestants’ brains were different in some way. The researchers put the competitors and a group of control subjects into an MRI machine and asked them to perform several different memory tests while their brains were being scanned. When it came to memorizing sequences of three-digit numbers, the difference between the memory contestants and the control subjects was, as expected, immense. However, when they were shown photographs of magnified snowflakes, images that the competitors had never tried to memorize before, the champions did no better than the control group. When the researchers analyzed the brain scans, they found that the memory champs were activating some brain regions that were different from those the control subjects were using. These regions, which included the right posterior hippocampus, are known to be involved in visual memory and spatial navigation."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "C It might seem odd that the memory contestants would use visual imagery and spatial navigation to remember numbers, but the activity makes sense when their techniques are revealed. Cooke, a 23-year-old cognitive-science graduate student with a shoulder-length mop of curly hair, is a grand master of brain storage. He can memorize the order of 10 decks of playing cards in less than an hour or one deck of cards in less than a minute. He is closing in on the 30-second deck. In the Lamb and Flag, Cooke pulled out a deck of cards and shuffled it. He held up three cards – the 7 of spades, the queen of clubs, and the 10 of spades. He pointed at a fireplace and said, “Destiny’s Child is whacking Franz Schubert with handbags.” The next three cards were the king of hearts, the king of spades, and the jack of clubs."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "D How did he do it? Cooke has already memorized a specific person, verb, and object that he associates with each card in the deck. For example, for the 7 of spades, the person (or, in this case, persons) is always the singing group Destiny’s Child, the action is surviving a storm, and the image is a dinghy. The queen of clubs is always his friend Henrietta, the action is thwacking with a handbag, and the image is of wardrobes filled with designer clothes. When Cooke commits a deck to memory, he does it three cards at a time. Every three-card group forms a single image of a person doing something to an object. The first card in the triplet becomes the person, the second the verb, the third the object. He then places those images along a specific familiar route, such as the one he took through the Lamb and Flag. In competitions, he uses an imaginary route that he has designed to be as smooth and downhill as possible. When it comes time to recall, Cooke takes a mental walk along his route and translates the images into cards. That’s why the MRIs of the memory contestants showed activation in the brain areas associated with visual imagery and spatial navigation."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "E The more resonant the images are, the more difficult they are to forget. But even meaningful information is hard to remember when there’s a lot of it. That’s why competitive memorizers place their images along an imaginary route. That technique, known as the loci method, reportedly originated in 477 BC with the Greek poet Simonides of Ceos. Simonides was the sole survivor of a roof collapse that killed all the other guests at a royal banquet. The bodies were mangled beyond recognition, but Simonides was able to reconstruct the guest list by closing his eyes and recalling each individual around the dinner table. What he had discovered was that our brains are exceptionally good at remembering images and spatial information. Evolutionary psychologists have offered an explanation: Presumably, our ancestors found it important to recall where they found their last meal or the way back to the cave. After Simonides’ discovery, the loci method became popular across ancient Greece as a trick for memorizing speeches and texts. Aristotle wrote about it, and later a number of treatises on the art of memory were published in Rome. Before printed books, the art of memory was considered a staple of classical education, on a par with grammar, logic, and rhetoric."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "F The most famous of the naturals was the Russian journalist S. V. Shereshevski, who could recall long lists of numbers memorized decades earlier, as well as poems, strings of nonsense syllables, and just about anything else he was asked to remember. “The capacity of his memory had no distinct limits,” wrote Alexander Luria, the Russian psychologist who studied him. Shereshevski also had synesthesia, a rare condition in which the senses become intertwined. For example, every number may be associated with a color or every word with a taste. Synesthetic reactions evoke a response in more areas of the brain, making memory easier."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "G Anders Ericsson, a Swedish-born psychologist at Florida State University, thinks anyone can acquire Shereshevski’s skills. He cites an experiment with S. F., an undergraduate who was paid to take a standard test of memory called the digit span for one hour a day, two or three days a week. When he started, he could hold, like most people, only about seven digits in his head at any given time (conveniently, the length of a phone number). Over two years, S. F. completed 250 hours of testing. By then, he had stretched his digit span from 7 to more than 80. The study of S. F. led Ericsson to believe that innately superior memory doesn’t exist at all. When he reviewed original case studies of naturals, he found that exceptional memorizers were using techniques – sometimes without realizing it – and lots of practice. Often, exceptional memory was only for a single type of material, like digits. “If we look at some of these memory tasks, they’re the kind of thing most people don’t even waste one hour practicing, but if they wasted 50 hours, they’d be exceptional at it,” Ericsson says. It would be remarkable, he adds, to find a “person who is exceptional across a number of tasks. I don’t think that there’s any compelling evidence that there are such people.”"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–36",
+    "g37": "Questions 37–38",
+    "g39": "Questions 39–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nThe reading passage has seven paragraphs A–G.\nWhich paragraph contains the following information?\nWrite the correct letter A–G in boxes 27–31 on your answer sheet.\n27 Why exceptional memory skills were significant in academic settings\n28 Mention of a competition for extraordinary memory held over many years\n29 A demonstration of an exceptional person performing an unusual recall task\n30 A belief that extraordinary memory can be gained through enough practice\n31 A description of a rare ability that aids exceptional memory"
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 36,
+      "text": "Questions 32–36\nComplete the following summary of Reading Passage 3.\nUse NO MORE THAN THREE WORDS from Reading Passage 3 for each answer.\nWrite your answers in boxes 32–36 on your answer sheet.\n\n\nResearchers have investigated and explained the use of visual imagery and spatial\nnavigation to remember numbers. In a pub, Ed Cooke spoke a string of odd words when\nhe held up the 7 of spades. He remembered the card by encoding it as a 32\n_________________; he commits a deck to memory in groups of 33 _________________.\nWhen it is time to recall the cards, Cooke takes a 34 _________________ along his route\nand translates the imagined scenes into cards. This superior memory technique can be\ntraced to ancient Greece. The strategy was called the 35 _________________ and became\na major subject in classical 36 _________________."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 38,
+      "text": "Questions 37–38\nChoose TWO correct letters, A–E.\nWrite your answers in boxes 37–38 on your answer sheet.\nAccording to the passage, which activities were included in the World Memory\nChampionships?\n A memorising a long sequence of digits\n B recalling people’s faces\n C reciting a long Greek poem\n D matching names with photographs and facial features\n E recalling what people ate and did the previous day"
+    },
+    {
+      "id": "g39",
+      "start": 39,
+      "end": 40,
+      "text": "Questions 39–40\nChoose TWO correct letters, A–E.\nWrite your answers in boxes 39–40 on your answer sheet.\nWhat did the MRI experiment conducted by psychologists Elizabeth Valentine and John\nWilding find?\n A the champions’ brains differ in some way from those of ordinary people\n B differences between champions’ and control subjects’ brain scans appeared when they\n   memorised sequences of three-digit numbers\n C champions performed much worse when asked to remember photographs\n D the memory champions activated more brain regions than the control subjects\n E some parts of the brain are involved in visual and spatial memory"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Why exceptional memory skills were significant in academic settings",
+      "translation": "為何卓越記憶技巧在學術／教育場景中重要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Mention of a competition for extraordinary memory held over many years",
+      "translation": "提到一個多年舉辦、測試超常記憶的比賽。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "A demonstration of an exceptional person performing an unusual recall task",
+      "translation": "描述一位記憶高手示範不尋常的回憶任務。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "A belief that extraordinary memory can be gained through enough practice",
+      "translation": "一種觀點：透過足夠練習，可以取得超常記憶能力。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "A description of a rare ability that aids exceptional memory",
+      "translation": "描述一種罕見能力，它能幫助超常記憶。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "他把這張牌編碼成一個 ______ 來記住它。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "他以每組 ______ 的方式記住一副牌。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "到回憶牌時，Cooke 會沿著自己的路線進行一個 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "這種策略稱為 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g32",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "……成為 classical ______ 中的重要內容。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "根據文章，World Memory Championships 包括哪些活動？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "根據文章，World Memory Championships 包括哪些活動？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "Elizabeth Valentine 和 John Wilding 進行的 MRI 實驗有甚麼發現？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "Elizabeth Valentine 和 John Wilding 進行的 MRI 實驗有甚麼發現？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-125/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-125/page-6.jpg"
+  ]
+}

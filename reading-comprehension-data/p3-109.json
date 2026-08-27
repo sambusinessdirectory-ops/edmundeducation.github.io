@@ -1,0 +1,323 @@
+{
+  "id": "p3-109",
+  "catalogueId": "p3-109",
+  "title": "Keep taking the tablets",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 109,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-109-keep-taking-the-tablets",
+  "source": {
+    "filename": "Practice 109 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "ed9b153e7ab86b2941172b5fa49bcd5e6c85848b78509186cbac90b411a0e7b0"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Keep taking the tablets The history of aspirin is a product of a rollercoaster ride through time, of accidental discoveries, intuitive reasoning and intense corporate rivalry. In the opening pages of Aspirin: The Remarkable Story of a Wonder Drug, Diarmuid Jeffreys describes this little white pill as ‘one of the most amazing creations in medical history, a drug so astonishingly versatile that it can relieve headache, ease your aching limbs, lower your temperature and treat some of the deadliest human diseases’."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Its properties have been known for thousands of years. Ancient Egyptian physicians used extracts from the willow tree as an analgesic, or painkiller. Centuries later the Greek physician Hippocrates recommended the bark of the willow tree as a remedy for the pains of childbirth and as a fever reducer. But it wasn’t until the eighteenth and nineteenth centuries that salicylates—the chemical found in the willow tree—became the subject of serious scientific investigation. The race was on to identify the active ingredient and to replicate it synthetically. At the end of the nineteenth century, a German company, Friedrich Bayer & Co., succeeded in creating a relatively safe and very effective chemical compound, acetylsalicylic acid, which was renamed aspirin."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The late nineteenth century was a fertile period for experimentation, partly because of the hunger among scientists to answer some of the great scientific questions, but also because those questions were within their means to answer. One scientist in a laboratory with some chemicals and a test tube could make significant breakthroughs whereas today, in order to map the human genome for instance, one needs ‘an army of researchers, a bank of computers and millions and millions of dollars’."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "But an understanding of the nature of science and scientific inquiry is not enough on its own to explain how society innovates. In the nineteenth century, scientific advance was closely linked to the industrial revolution. This was a period when people frequently had the means, motive and determination to take an idea and turn it into reality. In the case of aspirin, that happened piecemeal – a series of minor, often unrelated advances, fertilised by the century’s broader economic, medical and scientific developments, that led to one big final breakthrough."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The link between big money and pharmaceutical innovation is also a significant one. Aspirin’s continued shelf life was ensured because for the first 70 years of its life, huge amounts of money were put into promoting it as an ordinary everyday analgesic. In the 1970s other analgesics, such as ibuprofen and paracetamol, were entering the market, and the pharmaceutical companies then focused on publicising these new drugs. But just at the same time, discoveries were made regarding the beneficial role of aspirin in preventing heart attacks, strokes and other afflictions. Had it not been for these findings, this pharmaceutical marvel might well have disappeared."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "So the relationship between big money and drugs is an odd one. Commercial markets are necessary for developing new products and ensuring that they remain around long enough for scientists to carry out research on them. But the commercial markets are just as likely to kill off certain products when something more attractive comes along. In the case of aspirin, a potential ‘wonder drug’ was around for over 70 years without anybody investigating the way in which it achieved its effects, because they were making more than enough money out of it as it was. If ibuprofen or paracetamol had entered the market just a decade earlier, aspirin might then not be here today. It would be just another forgotten drug that people hadn’t bothered to explore."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "None of the recent discoveries of aspirin’s benefits were made by the big pharmaceutical companies; they were made by scientists working in the public sector. ‘The reason for that is very simple and straightforward,’ Jeffreys says in his book. ‘Drug companies will only pursue research that is going to deliver financial benefits. There’s no profit in aspirin any more. It is incredibly inexpensive with tiny profit margins and it has no patent any more, so anyone can produce it.’ In fact, there’s almost a disincentive for drug companies to further boost the drug, he argues, as it could possibly put them out of business by stopping them from selling their more expensive brands."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "So what is the solution to a lack of commercial interest in further exploring the therapeutic benefits of aspirin? More public money going into clinical trials, says Jeffreys. ‘If I were the Department of Health, I would say “this is a very inexpensive drug. There may be a lot of other things we could do with it.” We should put a lot more money into trying to find out.’"
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Jeffreys’ book, which not only tells the tale of a ‘wonder drug’ but also explores the nature of innovation and the role of big business, public money and regulation, reminds us why such research is so important."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nComplete each sentence with the correct ending A–H from the box below.\nWrite the correct letter A–H in boxes 27–32 on your answer sheet.\n A                       the discovery of new medical applications.\n\n B                       the negative effects of publicity.\n\n C                       the large pharmaceutical companies.\n\n D                       the industrial revolution.\n\n E                       the medical uses of a particular tree\n\n F                       the limited availability of new drugs.\n\n G                       the chemical found in the willow tree.\n\n H                       commercial advertising campaigns.\n27 ___________ Ancient Egyptian and Greek doctors were aware of\n28 ___________ Friedrich Bayer & Co. were able to reproduce\n29 ___________ The development of aspirin was partly due to the effects of\n30 ___________ The creation of a market for aspirin as a painkiller was achieved through\n31 ___________ Aspirin might have become unavailable without\n32 ___________ The way in which aspirin actually worked was not investigated by"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nDo the following statements agree with the views of the writer in Reading Passage 3?\nIn boxes 33–37 on your answer sheet, write\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n33 _________________ For nineteenth-century scientists, small-scale research was enough to\nmake important discoveries.\n34 _________________ The nineteenth-century industrial revolution caused a change in the\nfocus of scientific research.\n35 _________________ The development of aspirin in the nineteenth century followed a\nstructured pattern of development.\n36 _________________ In the 1970s sales of new analgesic drugs overtook sales of aspirin.\n37 _________________ Commercial companies may have both good and bad effects on the\navailability of pharmaceutical products."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nComplete the summary below using the list of words A–I below.\nWrite the correct letter A–I in boxes 38–40 on your answer sheet\nResearch into aspirin\n A                              useful\n\n B                              cheap\n\n C                              state\n\n D                              international\n\n E                              major drug companies\n\n F                              profitable\n\n G                              commercial\n\n H                              public sector scientists\n\n I                              health officials\n\nJeffreys argues that the reason why 38 ____________ did not find out about\nnew uses of aspirin is that aspirin is no longer a 39 ____________ drug. He\ntherefore suggests that there should be 40 ____________ support for\nfurther research into the possible applications of the drug."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Ancient Egyptian and Greek doctors were aware of",
+      "translation": "古埃及和古希臘醫生知道某一種樹的醫療用途。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Friedrich Bayer & Co. were able to reproduce",
+      "translation": "Friedrich Bayer & Co. 能夠複製 willow tree 中的化學物質。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ The development of aspirin was partly due to the effects of",
+      "translation": "aspirin 的發展部分受 industrial revolution 影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ The creation of a market for aspirin as a painkiller was achieved through",
+      "translation": "aspirin 作為止痛藥的市場，是透過商業宣傳活動建立起來的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Aspirin might have become unavailable without",
+      "translation": "如果沒有發現新的醫療用途，aspirin 可能已經不再可得。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ The way in which aspirin actually worked was not investigated by",
+      "translation": "aspirin 實際如何發揮作用，沒有被大型藥廠研究。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ For nineteenth-century scientists, small-scale research was enough to make important discoveries.",
+      "translation": "對十九世紀科學家來說，小規模研究已足以作出重要發現。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ The nineteenth-century industrial revolution caused a change in the focus of scientific research.",
+      "translation": "十九世紀 industrial revolution 導致 scientific research 的焦點改變。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ The development of aspirin in the nineteenth century followed a structured pattern of development.",
+      "translation": "aspirin 在十九世紀的發展遵循一個有結構、有計劃的發展模式。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ In the 1970s sales of new analgesic drugs overtook sales of aspirin.",
+      "translation": "在 1970s，新止痛藥的銷量超過 aspirin 的銷量。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ Commercial companies may have both good and bad effects on the availability of pharmaceutical products.",
+      "translation": "商業公司可能同時對藥物產品是否能留在市場上產生好影響和壞影響。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "Jeffreys 認為，______ 沒有發現 aspirin 新用途的原因是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "原因是 aspirin 已不再是一種 ______ 的藥。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "因此，他建議應該有 ______ 支持，繼續研究 aspirin 可能的用途。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-109/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-109/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-109/page-6.jpg"
+  ]
+}

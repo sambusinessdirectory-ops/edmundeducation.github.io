@@ -1,0 +1,238 @@
+{
+  "id": "p3-130",
+  "catalogueId": "p3-130",
+  "title": "Detection of a meteorite Lake",
+  "sourceHeading": "Detection of a Meteorite Lake",
+  "passage": 3,
+  "practice": 130,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-130-detection-of-a-meteorite-lake",
+  "source": {
+    "filename": "Practice 130 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "70ab9f23537796a54f7941007f2ee368e599f6770367958919de22c4d286c6c1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "As the sun rose over picturesque Lake Bosumtwi, a team of Syracuse University researchers prepared for another day of using state-of-the-art equipment to help map the lake bottom. Nestled in the heart of Ghana, the lake holds an untapped reservoir of information that could help scientists predict future climate changes by looking at evidence from the past. This information will also improve the scientists’ understanding of the changes that occur in a region struck by a massive meteorite."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The project, led by earth sciences professor Christopher Scholz of the College of Arts and Sciences and funded by the National Science Foundation (NSF), is the first large-scale effort to study Lake Bosumtwi, which formed 1.1 million years ago when a giant meteor crashed into the Earth’s surface. The resulting crater is one of the largest and most well-preserved geologically young craters in the world, says Scholz, who is collaborating on the project with researchers from the University of Arizona, the University of South Carolina, the University of Rhode Island, and several Ghanaian institutions. “Our data should provide information about what happens when an impact hits hard, pre-Cambrian, crystalline rocks that are a billion years old,” he says."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Equally important is the fact that the lake, which is about 8 kilometers in diameter, has no natural outlet. The rim of the crater rises about 250 meters above the water’s surface. Streams flow into the lake, Scholz says, but the water leaves only by evaporation, or by seeping through the lake sediments. For the past million years, the lake has acted as a tropical rain gauge, filling and drying with changes in precipitation and the tropical climate. The record of those changes is hidden in the sediment below the lake bottom. “The lake is one of the best sites in the world for the study of tropical climate changes,” Scholz says. “The tropics are the heat engine for the Earth’s climate. To understand the global climate, we need to have records of climate changes from many sites around the world, including the tropics.”"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Before the researchers could explore the lake’s subsurface, they needed a boat with a large, working deck area that could carry eight tons of scientific equipment. The boat – dubbed R/V Kilindi – was built in Florida last year. It was constructed in modules that were dismantled, packed inside a shipping container, and reassembled over a 10-day period in late November and early December 1999 in the rural village of Abono, Ghana. The research team then spent the next two weeks testing the boat and equipment before returning to the United States for the holidays."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In mid-January, five members of the team – Keely Brooks, an earth sciences graduate student; Peter Cattaneo, a research analyst; and Kiram Lezzar, a postdoctoral scholar, all from SU; James McGill, a geophysical field engineer; and Nick Peters, a Ph.D. student in geophysics from the University of Miami – returned to Abono to begin collecting data about the lake’s subsurface using a technique called seismic reflection profiling. In this process, a high-pressure air gun is used to create small, pneumatic explosions in the water. The sound energy penetrates about 1,000 to 2,000 meters into the lake’s subsurface before bouncing back to the surface of the water."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The reflected sound energy is detected by underwater microphones – called hydrophones – embedded in a 50-meter-long cable that is towed behind the boat as it crosses the lake in a carefully designed grid pattern. On-board computers record the signals, and the resulting data are then processed and analyzed in the laboratory. “The results will give us a good idea of the shape of the basin, how thick the layers of sediment are, and when and where there were major changes in sediment accumulation,” Scholz says. “We are now developing a three-dimensional perspective of the lake’s subsurface and the layers of sediment that have been laid down.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Team members spent about four weeks in Ghana collecting the data. They worked seven days a week, arriving at the lake just after sunrise. On a good day, when everything went as planned, the team could collect data and be back at the dock by early afternoon. Except for a few relatively minor adjustments, the equipment and the boat worked well. Problems that arose were primarily non-scientific – tree stumps, fishing nets, cultural barriers, and occasional misunderstandings with local villagers."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Lake Bosumtwi, the largest natural freshwater lake in the country, is sacred to the Ashanti people, who believe their souls come to the lake to bid farewell to their god. The lake is also the primary source of fish for the 26 surrounding villages. Conventional canoes and boats are forbidden. Fishermen travel on the lake by floating on traditional planks they propel with small paddles. Before the research project could begin, Scholz and his Ghanaian counterparts had to secure special permission from tribal chiefs to put the R/V Kilindi on the lake."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "When the team began gathering data, rumors flew around the lake as to why the researchers were there. “Some thought we were dredging the lake for gold, others thought we were going to drain the lake or that we had bought the lake,” Cattaneo says. “But once the local people understood why we were there, they were very helpful.”"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 27–31 on your answer sheet, write:\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n27 By investigating the lake, scientists may be able to predict future climate changes.\n28 The crater resulting from a meteorite impact is the largest and best-preserved one in the\nworld.\n29 Water leaves Lake Bosumtwi only by seeping through the lake sediments.\n30 Historical climate changes can be detected by the analysis of the sediment in the lake.\n31 The greatest obstacle faced by the researchers was local opposition based on indigenous\nbeliefs."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 35,
+      "text": "Questions 32–35\nComplete the flow chart below showing the steps used to collect data from the lake.\n\n\n\n\n32 _________________\n33 _________________\n34 _________________\n35 _________________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the following summary of the passage.\nUse NO MORE THAN THREE WORDS from the reading passage for each answer.\nWrite your answers in boxes 36–40 on your answer sheet.\n\n\nBefore crossing the lake, the boat dubbed R/V Kilindi was dismantled and stored\nin a 36 _________________. The technique used was called 37\n_________________. Sound energy was sent 1,000–2,000 metres into the lake’s\nsubsurface, and separate equipment collected the returning waves. The data were\nthen processed and analysed in the 38 _________________. Scholz added that the\nteam was developing a 39 _________________ perspective of the lake’s\nsubsurface and sediment layers. The equipment worked well, but the boat had to\navoid physical barriers, including tree stumps and 40 _________________ floating\non the lake’s surface."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "By investigating the lake, scientists may be able to predict future climate changes.",
+      "translation": "透過研究這個湖泊，科學家可能能夠預測未來氣候變化。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The crater resulting from a meteorite impact is the largest and best-preserved one in the world.",
+      "translation": "這個由隕石撞擊造成的 crater 是世界上最大、保存最好的 crater。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Water leaves Lake Bosumtwi only by seeping through the lake sediments.",
+      "translation": "Lake Bosumtwi 的水只會透過滲入湖泊沉積物離開。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Historical climate changes can be detected by the analysis of the sediment in the lake.",
+      "translation": "透過分析湖泊中的沉積物，可以偵測過去的氣候變化。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The greatest obstacle faced by the researchers was local opposition based on indigenous beliefs.",
+      "translation": "研究人員面對的最大障礙，是基於原住民信仰的當地反對。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "在橫越湖面之前，名為 R/V Kilindi 的船被拆開，並存放在一個甚麼之中。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "所使用的技術稱為甚麼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "數據之後在甚麼地方被處理和分析。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "Scholz 補充說，團隊正在建立一個關於湖泊 subsurface 和沉積層的甚麼 perspective。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "設備運作良好，但船要避開湖面上的實體障礙，包括樹樁和甚麼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-130/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-130/page-5.jpg"
+  ]
+}

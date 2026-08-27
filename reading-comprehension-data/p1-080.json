@@ -1,0 +1,256 @@
+{
+  "id": "p1-080",
+  "catalogueId": "p1-080",
+  "title": "ALTERNATIVE ENERGY SOURCES",
+  "sourceHeading": "Alternative Energy Sources",
+  "passage": 1,
+  "practice": 80,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-080-alternative-energy-sources",
+  "source": {
+    "filename": "Practice 80  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "b08c7a5149ad0078621c1c26f2846136f35a59d01db8204a29d4371a6eb482f5"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "There are many reasons why we are looking towards alternative energy sources. With many countries signing the Kyoto Treaty, efforts to reduce pollutants and greenhouse gases are a primary focus in today’s culture. Alternative, or renewable, energy sources show significant promise in helping to reduce the amount of toxins that are by-products of energy use. Not only do they protect against harmful by-products, but using alternative energy helps to preserve many of the natural resources that we currently use as sources of energy. To understand how alternative energy use can help preserve the delicate ecological balance of the planet, and help us conserve the non-renewable energy sources like fossil fuels, it is important to know what types of alternative energy are out there."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Alternative energy comes from resources that are constantly replenished and are usually less polluting. They are not the result of burning fossil fuels or splitting atoms. The use of renewable energy is contributing to our energy supply. Alternative energy sources include biomass energy, geothermal energy, hydroelectric power, solar power, wind power, fuel cells, ocean thermal energy conversion, tidal energy, and wave energy."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Biomass is renewable energy that is produced from organic matter. Biomass fuels include wood, forest and mill residues, animal waste, grains, agricultural crops, and aquatic plants. These materials are burned as fuel to heat water into steam, or processed into liquids and gases that can be burned for the same purpose. With more use of biomass at lower production costs and better technology, the United States could generate as much as four and a half times as much biopower by 2020. It is estimated that biomass will have the largest increase among renewable energy sources, rising by 80 per cent and reaching 65.7 billion kWh in 2020."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Geothermal energy uses heat from within the earth. Wells are drilled into geothermal reservoirs to bring the hot water or steam to the surface. The steam then drives a turbine-generator to generate electricity in geothermal plants. In some places this heat is used directly to heat homes and greenhouses, or to provide process heat for businesses or industries. Reykjavik, Iceland, is heated by geothermal energy. Most geothermal resources are concentrated in the western part of the United States. Geothermal heat pumps use shallow ground energy to heat and cool homes, and this technique can be employed almost anywhere. With technological improvements much more power could be generated from hydrothermal resources. Scientists have been experimenting by pumping water into the hot dry rock that is 3–6 miles below the earth’s surface for use in geothermal power plants."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Hydroelectric (hydropower) energy employs the force of falling water to drive turbine-generators to produce electricity. Hydropower produces more electricity than any other alternative energy source. It has been estimated that hydroelectric power will decline from 389 billion kWh in the US in 1999 to 298 billion kWh in 2020. This decline is expected because most of the best sites for hydropower have already been developed and because of concerns about the adverse impact that large-scale hydroelectric facilities may have on the environment."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Solar energy is generated without a turbine or electromagnet. Special panels of photovoltaic cells capture light from the sun and convert it directly into electricity. The electricity is stored in a battery. Solar energy can also be used to directly heat water for domestic use (solar thermal technology). The domestic photovoltaic (PV) industry could provide up to 15 per cent of new US peak electricity capacity that is expected to be required in 2020."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Wind energy can be used to produce electricity. As wind passes through the blades of a windmill, the blades spin. The shaft that is attached to the blades turns and powers a pump or turns a generator to produce electricity. Electricity is then stored in batteries. The speed of the wind and the size of the blades determine how much energy can be produced. Wind energy is more efficient in windier parts of the country. Most wind power is produced from wind farms—large groups of turbines located in consistently windy locations. Wind, used as a fuel, is free and non-polluting and produces no emissions or chemical wastes. Wind-powered electricity is gaining in popularity."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Fuel cells are electrochemical devices that produce electricity through a chemical reaction. Fuel cells are rechargeable, contain no moving parts, are clean, and produce no noise. Scientists are exploring ways they could power nearly exhaust-free automobiles and be used in electricity-generating plants. The high cost of manufacturing fuel cells has prevented the mass use of this valuable energy source."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Ocean energy sources: Oceans, which cover more than 70 per cent of the earth, contain both thermal energy from the sun’s heat and mechanical energy from the tides and waves. Ocean thermal energy conversion (OTEC) converts solar radiation to electric power. OTEC power plants use the difference in temperature between warm surface waters heated by the sun and colder waters found at ocean depths to generate electricity. The power of tides can also be harnessed to produce electricity. Tidal energy works by harnessing the power of changing tides but it needs large tidal differences. The tidal process utilises the natural motion of the tides to fill reservoirs, which are then slowly discharged through electricity-producing turbines. Wave energy conversion extracts energy from surface waves, from pressure fluctuations below the water surface, or from the waves themselves. Wave energy also uses the interaction of winds with the ocean surface. This technology is still in the exploratory phase in the United States."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–2",
+    "g3": "Questions 3–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 2,
+      "text": "Questions 1–2\nThe writer mentions a number of facts relating to alternative power sources.\nWhich TWO of the following facts are mentioned?\n  A International co-operation has yet to result in the large-scale implementation and effective use of\n    alternative power sources.\n  B One alternative energy source in particular will have a great impact in the years to come.\n  C A side-effect of one of these forms of energy is the production of chemical waste.\n  D Expense is the main obstacle to developing one of these forms of energy.\n  E Approximately one in five US homes will be using one of these forms of energy within twenty years.\n  F One attraction of these forms of energy in general is the relatively low production costs."
+    },
+    {
+      "id": "g3",
+      "start": 3,
+      "end": 4,
+      "text": "Questions 3–4\nChoose the correct letter A, B, C or D.\n3 Geothermal energy is produced by\n  A heating the air below the surface of the ground.\n  B employing the force of falling water.\n  C extracting water or steam from beneath the earth’s surface.\n  D using the earth’s natural electricity.\n4 Which form of alternative energy does not involve the use of turbines?\n  A wind energy\n  B geothermal energy\n  C tidal energy\n  D fuel cell energy"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nDo the following statements agree with the information given in Reading Passage 1?\nIn spaces 5–8 below, write:\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n5 _________________ Wind power is the most efficient form of alternative energy.\n6 _________________ Wave energy can be derived from a number of sources.\n7 _________________ Alternative energy sources serve several purposes.\n8 _________________ Fossil fuels are needed in at least one of these alternative energy sources."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nComplete the sentences.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nBy using alternative energy sources, we can cut the 9 _________________ that are produced by\ncurrent power sources.\nIn addition to burning fossil fuels and splitting atoms, we presently use 10 _________________ as\npart of our energy supply.\nRenewable energy called biomass is produced from 11 _________________.\nThe renewable energy that comes from within the earth is called 12 _________________.\nOne of the reasons that fuel cells are not widely used is the 13 _________________ of\nmanufacturing."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "作者提到了一些關於 alternative power sources 的事實。以下哪兩項在文章中有提及？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "作者提到了一些關於 alternative power sources 的事實。以下哪兩項在文章中有提及？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g3",
+      "type": "choice",
+      "prompt": "Geothermal energy is produced by",
+      "translation": "Geothermal energy 是透過甚麼方式產生的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g3",
+      "type": "choice",
+      "prompt": "Which form of alternative energy does not involve the use of turbines?",
+      "translation": "哪一種 alternative energy 不涉及 turbines？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Wind power is the most efficient form of alternative energy.",
+      "translation": "Wind power 是最有效率的 alternative energy 形式。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Wave energy can be derived from a number of sources.",
+      "translation": "Wave energy 可以來自多種來源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Alternative energy sources serve several purposes.",
+      "translation": "Alternative energy sources 有幾種用途或目的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Fossil fuels are needed in at least one of these alternative energy sources.",
+      "translation": "這些 alternative energy sources 至少有一種需要 fossil fuels。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "透過使用 alternative energy sources，我們可以減少現有能源來源產生的 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "除了燃燒 fossil fuels 和分裂 atoms 之外，我們目前也使用 ____________ 作為能源供應的一部分。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "名為 biomass 的 renewable energy 是由 ____________ 產生的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "來自地球內部的 renewable energy 稱為 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "Fuel cells 未被廣泛使用的其中一個原因是製造的 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-080/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-080/page-6.jpg"
+  ]
+}

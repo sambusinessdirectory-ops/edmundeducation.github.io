@@ -1,0 +1,280 @@
+{
+  "id": "p2-075",
+  "catalogueId": "p2-075",
+  "title": "One Who Hopes",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 75,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-075-one-who-hopes",
+  "source": {
+    "filename": "Practice 75 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "faf1029cc19425656ae1626f2b7958d37bc049a3b5f116b2730d0e5ebea1657a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "One Who Hopes A Language lovers, just like music lovers, enjoy variety. For the latter there’s Mozart, The Rolling Stones and Beyoncé. For the former there’s English, French, Swahili, Urdu… the list is endless. But what about those poor overworked students who find learning difficult or confusing languages a drudge? Wouldn’t it put a smile on their faces if there were just one simple, easy-to-learn tongue that would cut their study time by years? Well, of course, it exists. It’s called Esperanto, and it’s been around for more than 120 years. Esperanto is the most widely spoken artificially constructed international language. The name derives from Doktoro Esperanto, the pseudonym under which L. L. Zamenhof first published his Unua Libro in 1887. The pseudonym itself means ‘one who hopes’. Zamenhof’s goal was to create an easy and flexible language as a universal second language to promote peace and international understanding. B Zamenhof, after ten years of developing his brainchild from the late 1870s to the early 1880s, published the first Esperanto grammar in Warsaw in July 1887. The number of speakers grew rapidly over the next few decades, at first primarily in the Russian Empire and Eastern Europe, then in Western Europe and the Americas, China, and Japan. In the early years, speakers of Esperanto kept in contact primarily through correspondence and periodicals, but since 1905 world congresses have been held on five continents every year except during the two world wars. Recent estimates put the number of Esperanto speakers at around 2 million. Put in percentage terms, that’s about 0.03 per cent of the world’s population – not a staggering figure, comparatively speaking. One reason is that Esperanto has no official status in any country, but it is an optional subject on the curriculum of several state education systems. It is widely estimated that it can be learned in between a quarter and a twentieth of the time required for other languages. C As a constructed language, Esperanto is not genealogically related to any ethnic language. Whilst it is described as ‘a language lexically predominantly Romance’, the phonology, grammar, vocabulary, and semantics are based on the Western Indo-European languages. For those who are not naturally gifted at learning languages, it is an easy language to learn. It has five vowels and 23 consonants. It has one simple way of conjugating all of its verbs. Words are often formed from a limited set of roots, reducing the number that learners must memorise. The language is phonetic, and the rules of pronunciation are very simple, so everyone knows how to pronounce a written word and how to write a spoken one. Word order follows a standard, logical pattern. Through prefixing and suffixing, Esperanto makes it easy to identify words as nouns, verbs, adjectives, adverbs, direct objects and so on, by means of easy-to-spot endings. All this makes for easy language learning. What’s more, several research studies demonstrate that studying Esperanto before another foreign language speeds up and improves the learning of the other language. This is presumably because learning subsequent foreign languages is easier than learning one’s first, while the use of a grammatically simple and culturally flexible language like Esperanto softens the blow of learning one’s first foreign language. In one study, a group of European high school students studied Esperanto for one year and then French for three years, ending up with a significantly better command of French than a control group that had spent all four years studying French."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "D Needless to say, the language has its critics. Some point to the Eastern European features of the language as being harsh and difficult to pronounce, and argue that Esperanto has an artificial feel to it, without the flow of a natural tongue, and that because of its artificial nature, it is impossible to become emotionally involved with the language. Others cite its lack of cultural history, indigenous literature – “no one has ever written a novel directly in Esperanto” – together with its minimal vocabulary and its inability to express all the necessary philosophical, emotional and psychological concepts."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "E The champions of Esperanto – Esperantists – disagree. They claim that it is a language into which a great body of world literature has been translated, including poetry, novels and literary journals. To rebut the accusation that it is not a ‘real’ language, Esperantists point out that it is frequently used at international meetings which draw hundreds or thousands of participants. Moreover, on an international scale, it is most useful – and fair – for neutral communication. That means that communication through Esperanto does not give an advantage to the members of any particular nation or culture, but provides an ethos of equality of rights, tolerance and true internationalism."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "F Esperantists further claim that Esperanto has the potential – were it universally taught for a year or two throughout the world – to empower ordinary people to communicate effectively worldwide on a scale that far exceeds what is attainable today only by the most linguistically brilliant among us. It offers the opportunity to improve communication in business, diplomacy, scholarship and other fields so that those who speak many different native languages will be able to participate fluently in international conferences and chat comfortably with each other after the formal presentations are made. Nowadays that privilege is often restricted to native speakers of English and those who have special talents and opportunities for learning English as a foreign language."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "G What Esperanto does offer in concrete terms is the potential to save billions of dollars which are now being spent on translators and interpreters, billions which would be freed up to serve the purposes of governments and organisations that spend so much of their resources translating from one language into another. Take, for example, the enormously costly conferences, meetings and documentation involved in the European Union parliamentary and administrative procedures – all funded, essentially, by taxpayers. If the World Health Organisation and other NGOs did not have to devote enormous sums to interpreters and translations, they would be able to devote those huge amounts of money to improving the health of stricken populations throughout the world."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has seven paragraphs, A–G.\nChoose the correct heading for paragraphs B–G from the list of headings below.\nWrite the correct number i–ix in spaces 14–19 below.\n i                     A non-exclusive language\n\n ii                    Fewer languages, more results\n\n iii                   Language is personal\n\n iv                    What’s fashionable in language\n\n v                     From the written word to the spoken word\n\n vi                    A real language\n\n vii                   Harmony through language\n\n viii                  The mechanics of a language\n\n ix                    Lost in translation\nExample\nParagraph A vii\n14 ___________ Paragraph B\n15 ___________ Paragraph C\n16 ___________ Paragraph D\n17 ___________ Paragraph E\n18 ___________ Paragraph F\n19 ___________ Paragraph G"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 22,
+      "text": "Questions 20–22\nChoose the correct letter A, B, C or D.\n20 What advantage is there to learning Esperanto as one’s first foreign language?\n A Its pronunciation rules follow those of most European languages.\n B There are no grammar rules to learn.\n C It can make the learning of other foreign languages less complicated.\n D Its verbs are not conjugated.\n\n\n21 What do its critics say of Esperanto?\n A It is only used in artificial situations.\n B It requires emotional involvement.\n C It cannot translate works of literature.\n D It lacks depth of expression.\n\n\n22 How could Esperanto help on a global level?\n A It would eliminate the need for conferences.\n B More aid money would reach those who need it.\n C The world population would be speaking only one language.\n D More funds could be made available for learning foreign languages."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nDo the following statements agree with the information given in Reading Passage 2?\nIn spaces 23–26 below, write\n\n YES                     if the statement agrees with the views of the writer\n\n NO                      if the statement contradicts the views of the writer\n\n NOT GIVEN               if it is impossible to say what the writer thinks about this\n23 _________________ Supporters of Esperanto say it gives everyone an equal voice.\n24 _________________ Esperanto is the only artificially constructed language.\n25 _________________ Esperanto can be learned as part of a self-study course.\n26 _________________ Esperanto can be used equally in formal and casual situations."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "從書面文字走向口頭使用。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "一種語言的運作機制。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "語言牽涉個人情感與表達。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "一種真正的語言。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph F",
+      "translation": "一種不排斥普通人的語言。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Paragraph G",
+      "translation": "較少語言障礙，換來更多實際成果。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "What advantage is there to learning Esperanto as one’s first foreign language?",
+      "translation": "把 Esperanto 作為第一門外語來學，有甚麼好處？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "What do its critics say of Esperanto?",
+      "translation": "Esperanto 的批評者怎樣評價它？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "How could Esperanto help on a global level?",
+      "translation": "Esperanto 可以如何在全球層面提供幫助？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Supporters of Esperanto say it gives everyone an equal voice.",
+      "translation": "Esperanto 的支持者說，它讓每個人都有平等的發聲機會。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Esperanto is the only artificially constructed language.",
+      "translation": "Esperanto 是唯一一種人工建構語言。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Esperanto can be learned as part of a self-study course.",
+      "translation": "Esperanto 可以作為 self-study course 的一部分來學習。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Esperanto can be used equally in formal and casual situations.",
+      "translation": "Esperanto 可用於正式和較輕鬆的場合。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-075/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-075/page-6.jpg"
+  ]
+}

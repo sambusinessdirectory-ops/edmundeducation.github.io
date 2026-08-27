@@ -1,0 +1,260 @@
+{
+  "id": "p1-023",
+  "catalogueId": "p1-023",
+  "title": "POLLUTING SOUNDS: IN SEARCH OF SILENCE",
+  "sourceHeading": "POLLUTING SOUNDS: IN SEARCH OF SILENCE",
+  "passage": 1,
+  "practice": 23,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-023-polluting-sounds-in-search-of-silence",
+  "source": {
+    "filename": "Practice 23 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "c1ba6b0b33f85a420e004dbffd2bc67ec0cae89b017eda5956f46df974d8fb06"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "In a self-imposed solitary confinement, 22-year old Tom Wonnacott, a Princeton graduate student, spent four days lying in a lightless, sound-proofed isolation chamber. Unable to see or hear, he also wore thick gloves to restrict his sense of touch. Wonnacott volunteered to undergo this experience to help US-based psychologists find out what happens to people isolated from the outside world and deprived of the normal use of their senses. While over a longer period of time such extremes of silence in conjunction with sensory deprivation are harmful, there are many today who are in search of quieter areas."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "An over-abundance of noise has always been a significant environmental issue for man. In ancient Rome, rules existed to ensure that the noise emitted from the large iron wheels of wagons which rolled over the stones on the pavements and caused disruption of sleep and annoyance was minimised by allowing people to travel only during certain times. The same rules existed in Medieval Europe. To ensure inhabitants were given the best chance at a peaceful night’s sleep, in some cities, horse-drawn carriages and horseback riding were not allowed at night time. However when today’s noise problems arc compared with the noise pollution problems of the past they are almost incomparable."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "An immense number of vehicles of various shapes and sizes are regularly driven around and through most of the world’s cities and countrysides. Loud, large diesel engines power the enormous trucks that roll around highways day and night. Aircraft and trains add to the environmental noise scenario. In industry, machinery emits high noise levels and amusement parks and pleasure vehicles distract leisure time and relaxation. One hundred years ago, environmental experts predicted that in the 21st century there would be a shortage of water and silence. They were correct. Silence is scarce. More and more silence is drowned out by sound."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "A lack of knowledge about the effects of noise pollution on humans in comparison to other pollutants has been lacking as an area of research. Although it has been generally regarded that noise pollution is primarily a ‘luxury’ problem – for those developed countries able to afford the purchase price of large quantities of loud, noisy machinery – it is actually a fact that due to bad planning and poor construction of buildings, noise exposure is often higher in developing countries. This means that regardless of the economic status of a particular country, the effects of noise are just as widespread and the long-term consequences for health the same. Therefore, practical action plans based upon proper scientific evaluation of available data on the effects of noise exposure, with the express purpose of limiting and controlling the exposure of people to environmental noise is a most worthwhile undertaking."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "It has been well established that exposure to loud noises for extended periods of time causes trauma to the inner ear and often results in irreversible hearing loss. When it initially receives sound, the human ear actually amplifies it by a factor of 20. In 1965, in a remote part of Ghana, scientists went about studying the impact of ‘insignificant’ exposure to industrial noise and transportation. In tandem, the Ghanese group was compared with a control group in industrial USA. A number of startling conclusions were drawn from the experiments. For example, both locations revealed that aging is an almost insignificant cause of hearing loss. Instead it was show-n that chronic exposure to moderately high levels of environmental noise led to hearing loss. Cardiovascular complaints also emerged from among those with prolonged exposure to industrial noise above 70 dBA. In fact, over a single eight-hour period, it was shown that participants experienced a rise in blood pressure thus indicating noise pollution contributes to human stress levels. If this was not alarming enough, also noted was an increase in the incidence of heart disease."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The findings from various noise studies had the effect of changing the perspectives of many of the world’s governments. Whereas noise had been considered a ‘nuisance’ rather than an environmental problem, laws were made to protect citizens against it. In the United States and Ghana, federal standards for highway and aircraft noise were introduced. State governments created noise regulations pertaining to building codes, urban planning and road construction. In Canada and the EU, noise laws are the domain of local governments. Activities in those countries deemed mandatory such as the collection of rubbish or some medical services are the only allowed exceptions to what otherwise are quiet local neighbourhood zones."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Typically, quiet times in neighbourhoods are between 6am and 10pm with restricted higher decibel levels after these hours. What happens if these quite times are violated? Unfortunately, the enforcement of noise laws has proven problematic for many local governments with enforcement agencies often not following up on noise complaints. For persistent nuisances, individuals may seek compensation through the local courts and in some cities, police are authorised to impound such things as stereos and cars. These are extreme cases; most issues are handled by negotiation between the emitter and the receiver."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1-7\n\nDo the following statements agree with the information given in Reading Passage 1?\n\nIn boxes 1-7 on your answer sheet, write\n\n    TRUE            if the statement agrees with the information\n\n\n    FALSE           if the statement contradicts the information\n\n\n    NOT GIVEN       If there is no information on this\n\n\n\n1 ________________ Noise pollution is a relatively new pollution.\n\n2 ________________ Experts forecasted that water and noise pollution would be\nmajor future problems.\n\n3 ________________ Noise pollution seems to be a bigger problem in richer,\ndeveloped countries.\n\n4 ________________ Noises that enter the human ear are actually heard louder than\nthey really are.\n\n5 ________________ There is a strong relationship between hearing loss and age.\n\n6 ________________ Loud noise exposure studies have caused government changes.\n\n7 ________________ In Canada, police monitor the level of noise in local\nneighbourhoods."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 9,
+      "text": "Questions 8–9\n\nChoose TWO letters, A-G.\n\nThe list of problems below can be caused by exposure to high noise levels.\n\nWhich TWO are mentioned by the writer of the text?\n\nA increased ear sensitivity\n\nB reduced reaction time\n\nC increased aging of the body\n\nD heart disease\n\nE stomach cancer\n\nF sleep apnea\n\nG increased blood pressure"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10 – 13\n\nClassify the following features as applying to\n\n    A     people from the USA\n\n\n    B     people from Ghana\n\n\n    C     both people from the USA and Ghana\n\n\n\n\nWrite the correct letter A, B or C, in boxes 10-13 on your answer sheet.\n\n\n10 ___________ individuals participated in a noise study\n\n\n11 ___________ conducted a silence study\n\n\n12 ___________ introduced air traffic regulations\n\n\n13 ___________ the relationship between industrial noise and blood pressure"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Noise pollution is a relatively new pollution.",
+      "translation": "噪音污染是一種相對新近出現的污染。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Experts forecasted that water and noise pollution would be major future problems.",
+      "translation": "專家曾預測，水資源問題和噪音污染會成為未來的重要問題。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Noise pollution seems to be a bigger problem in richer, developed countries.",
+      "translation": "噪音污染似乎在較富裕、已發展國家是更大的問題。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Noises that enter the human ear are actually heard louder than they really are.",
+      "translation": "進入人耳的聲音，實際上會被聽得比原本更大聲。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ There is a strong relationship between hearing loss and age.",
+      "translation": "聽力損失和年齡之間有很強的關係。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Loud noise exposure studies have caused government changes.",
+      "translation": "關於 loud noise exposure 的研究引發了政府層面的改變。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ In Canada, police monitor the level of noise in local neighbourhoods.",
+      "translation": "在加拿大，警察會監測本地社區的噪音水平。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "___________ individuals participated in a noise study",
+      "translation": "有人參與了噪音研究。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "___________ conducted a silence study",
+      "translation": "進行了一項 silence study。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "___________ introduced air traffic regulations",
+      "translation": "引入了航空交通／飛機噪音相關規定。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "___________ the relationship between industrial noise and blood pressure",
+      "translation": "工業噪音與血壓之間的關係。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-023/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-023/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-023/page-7.jpg"
+  ]
+}

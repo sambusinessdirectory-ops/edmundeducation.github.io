@@ -1,0 +1,244 @@
+{
+  "id": "p3-007",
+  "catalogueId": "p3-007",
+  "title": "The Australian Visa Application Process Explained",
+  "sourceHeading": "The Australian Visa Application Process Explained",
+  "passage": 3,
+  "practice": 7,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-007-the-australian-visa-application-process-explained",
+  "source": {
+    "filename": "Practice 7 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "e34f63638177de9f237fc8cda11f388e2db03b31a5b6136c55b4d2e58eb0cc65"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Applications for Australian visas are now accepted online. You should, however, be in possession of the following documents before you embark on the application process: (i) your current passport (valid for at least 6 months at the date of application), (ii) your sponsor and associated nomination approval number or transaction reference number [(ii) only applies to Long-Stay Temporary Business Visa applicants]. In order to proceed online, you should also have up-to-date internet browsers loaded on your computer and an internationally accepted credit card to pay the application charge."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Before embarking on the application process, it is recommended that you understand a little more about what this process entails and the steps involved. That is why this guide has been designed. Please read on to get a better understanding of what will happen next once you start your application."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The first and most important thing to do is to check that the visa you have selected is appropriate to your circumstances. At the start of the online application, you will be asked a number of questions that will help you to confirm that you have chosen the right kind of visa to apply for. Please remember that certain visas are not available to apply for over the internet and may require your presence at your local Australian embassy or consulate should you wish to proceed with your application. In general, however, most people will find that they can apply online as our most common types of visas (working-holiday, student, employer-sponsored, etc.) can be accessed over the internet."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Before starting the application process officially (by clicking the Apply Online button), please read all the accompanying guidelines and information about the type of visa application you have chosen to make. These details will appear on Page 1 of the online application and should be read through thoroughly before the applicant continues and the process officially starts. It is also necessary to accept the terms and conditions before you continue by checking the I Agree box."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Once you have moved on to the actual application form itself, there will be between 5 and 9 short screens to complete, depending on the type of visa you are applying for. As a rough estimate, allow yourself about 4 minutes to fill in the information on each screen. On this basis, it should take you a maximum of about 40 minutes to complete the form. All applications will ask you for your personal details, namely your passport number, travel document details, name and current place of residence, contact information, declarations with respect to your health and character, etc."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Applicants for Long-Stay Business visas will also be asked for details of their business sponsor. Student visa applicants should outline their education history and their intended course of study in Australia. Applicants for Tourist visas should outline their travel plans, reason for visiting and employment status, and so on. Once you have completed all the screens that form part of the application form, answering all questions as truly and honestly as possible, you will be given the opportunity to review the information you have supplied and print a copy of the visa application for reference purposes if you wish."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "You are now ready to submit your application, but there is one more thing you must do before the option to submit appears – make the payment. You will be prompted to enter your payment information after you have confirmed that all the details entered in your application are, to the best of your knowledge, true. When the bank accepts payment, a Transaction Reference Number will be automatically generated. You should make a note of this and keep it safe as it should be quoted when making any inquiries related to your application in the future. Once the application has been submitted, you may be prompted to download and print certain health forms, but only if you are applying from overseas (not applicable to those applying from inside of Australia itself). Please follow any other requirements as stipulated on the screen as special pre-entry conditions must be met for some types of visas."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Most applications will be processed electronically and notification will be sent by post or email (whichever method you selected on your application form) within the time frame outlined onscreen during your application. For student visas, that’s about 10 working days. Tourist visas are normally finalised in less than two weeks. Working-holiday visas take no more than 2 days and so on. Occasionally, it may be necessary for a representative from the immigration department to contact you, and, in some cases, further health checks, information, or a formal interview may be required."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–36",
+    "g30": "Questions 30–30",
+    "g37": "Questions 37–38",
+    "g39": "Questions 39–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 36,
+      "text": "Questions 27-36\n\nComplete the flow-chart below.\n\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER from the\npassage for each answer.\n\n\n (i) Complete the onscreen questionnaire      REMEMBER\n to confirm you have chosen the correct\n                                              Not all types of visa applications can be\n type or visa for your circumstances.\n                                              accessed 27 ________________\n\n\n\n\n (ii) Click Apply Online. Read the            REMEMBER\n guidelines on Page 1 on how to apply\n\ncarefully. Then, to start the actual          Allow yourself approximately 31\napplication process, tick the 28              ________________ at most to complete\n________________ once you have                the form, or 4 minutes for 32\nfamiliarised yourself with, and if you        ________________\naccept, the 29 ________________\n\n\n\n(iii) You are now in the main application\nform. You will have to fill in information\non between 5 and 9 short screens,\ndepending on which visa you want. Fill\nin the form carefully and answer all"
+    },
+    {
+      "id": "g30",
+      "start": 30,
+      "end": 30,
+      "text": "questions 30________________\n\n\n\n(iv) 33 ________________ the details\nyou have entered and, if you wish, print a\ncopy of the application for your\n34________________\n\n\n\n(v) Wait to be 35 ________________ ,          REMEMBER\nthen enter your payment information.\n                                              If applying from overseas, you may be\nRecord your 36 ________________ ,\n                                              prompted to download and complete\nwhich will be generated once your bank\n                                              certain health forms. Follow any\nhas accepted the payment request. Now\n                                              requirements stipulated.\nclick Submit and your application has\ngone through."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 38,
+      "text": "Questions 37-38\n\nChoose the correct letter, A, B, C or D.\n\n37\n\nBefore starting the online application process, all applicants are expected to\nhand\n\nA their sponsor and nomination approval or transaction reference number.\n\nB a passport that is six months or less old and a valid credit card.\n\nC a globally recognised credit card and a passport valid for at least another half a year.\n\nD a valid credit card, passport with six or more months validity left, and your\nnomination approval or transaction reference number.\n\n\n\n38 Once an online application has been submitted,\n\nA your visa will be approved or rejected within a maximum of 10 working days.\n\nB it is possible for any applicant to be required to download and print further forms\nand follow the associated instructions.\n\nC applicants from outside Australia will be required to download and complete further\nforms.\n\nD it will, in most cases, then be handled electronically, and you will be told whether or\nnot it has been successful within the timeframe stated onscreen."
+    },
+    {
+      "id": "g39",
+      "start": 39,
+      "end": 40,
+      "text": "Questions 39-40\n\nChoose the TWO correct letters from A, B, C, D and E.\n\nA Student visas, tourist visas and working-holiday visas should all take under two\nweeks to be approved or rejected.\n\n\nB It is a requirement of Australian immigration that all those applying for a visa\nundertake a formal interview.\n\n\nC Officials from the immigration department may conduct health checks on and/or\nhold an interview with certain applicants.\n\n\nD Working-holiday visa applicants can expect to receive a comparatively fast\nconfirmation of whether or not their application has been successful.\n\n\nE Successful visa applicants have a limited amount of time within which to finalise\ntheir travel plans and arrive in Australia."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "不是所有簽證申請類別都可以透過某個方式進入或處理。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "熟悉並接受某些條款後，勾選某個方格。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "如果你已熟悉並接受某些內容，就勾選 I Agree 方格。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "小心填寫表格，並以某種方式回答所有問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "最多預留大約多少時間完成表格。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "或者說，每個甚麼項目大約用 4 分鐘。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "對你已輸入的資料進行某個動作。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "如有需要，列印一份申請副本作某種用途。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "等系統提示後，輸入付款資料。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "銀行接受付款後，記下自動產生的某個號碼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Before starting the online application process, all applicants are expected to hand",
+      "translation": "在開始網上申請程序前，所有申請人都應該具備甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Once an online application has been submitted,",
+      "translation": "一旦網上申請已經提交，之後會怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "學生簽證、旅遊簽證和工作假期簽證都應該少於兩星期內有結果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "學生簽證、旅遊簽證和工作假期簽證都應該少於兩星期內有結果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-007/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-007/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-007/page-7.jpg",
+    "/assets/reading-comprehension/questions/p3-007/page-8.jpg"
+  ]
+}

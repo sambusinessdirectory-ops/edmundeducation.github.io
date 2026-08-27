@@ -1,0 +1,4106 @@
+{
+  "schemaVersion": 1,
+  "practice": 13,
+  "title": "IELTS Listening Practice 13",
+  "source": {
+    "file": "IELTS Listening - Practice - 13.pdf",
+    "sha256": "e3e7582d21179a58b4c166013712b23fb4f59cff79834b3da9ee425c1c6b1386",
+    "pageCount": 74,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Part 1\nQuestions 1–7\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nOpportunities for Voluntary Work in Southoe Village\nLibrary\n● Help with 1 __________ books, times to be arranged\n● Help needed to keep 2 __________ of books up to date\n● Library is in the 3 __________ Room in the village hall\nLunch club\n● Help by providing 4 __________\n● Help with hobbies such as 5 __________\nHelp for individuals needed next week\n● Taking Mrs Carroll to 6 __________\n● Work in the 7 __________ at Mr Selsbury’s house",
+          "page": 4
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-13-page-4-1.webp",
+          "alt": "Practice 13, source question diagram/table, PDF page 4",
+          "text": "",
+          "page": 4
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Help with 1 __________ books, times to be arranged",
+          "translation": "",
+          "answer": "collecting",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Help needed to keep 2 __________ of books up to date",
+          "translation": "",
+          "answer": "records",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● Library is in the 3 __________ Room in the village hall",
+          "translation": "",
+          "answer": "West",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● Help by providing 4 __________",
+          "translation": "",
+          "answer": "transport",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Help with hobbies such as 5 __________",
+          "translation": "",
+          "answer": "art",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● Taking Mrs Carroll to 6 __________",
+          "translation": "",
+          "answer": "hospital",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● Work in the 7 __________ at Mr Selsbury’s house",
+          "translation": "",
+          "answer": "garden",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "Question 8 — refer to the original question paper above.",
+          "translation": "",
+          "answer": "quiz",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "checking _____",
+          "translation": "",
+          "answer": "tickets",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "designing the _____",
+          "translation": "",
+          "answer": "poster",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–14\nChoose the correct letter, A, B or C.\nOniton Hall\n11. Many past owners made changes to\nA. the gardens.\nB. the house.\nC. the farm.\n12. Sir Edward Downes built Oniton Hall because he wanted\nA. a place for discussing politics.\nB. a place to display his wealth.\nC. a place for artists and writers.\n13. Visitors can learn about the work of servants in the past from\nA. audio guides.\nB. photographs.\nC. people in costume.\n14. What is new for children at Oniton Hall?\nA. clothes for dressing up\nB. mini tractors\nC. the adventure playground",
+          "page": 6
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–20\nWhich activity is offered at each of the following locations on the farm?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 15–20.\nActivities\nA. shopping\nB. watching cows being milked\nC. seeing old farming equipment\nD. eating and drinking\nE. starting a trip\nF. seeing rare breeds of animals\nG. helping to look after animals\nH. using farming tools\nLocations on the farm\n15. dairy __________\n16. large barn __________\n17. small barn __________\n18. stables __________\n19. shed __________\n20. parkland __________",
+          "page": 7
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "Many past owners made changes to",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "the gardens.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the house.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the farm.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "Sir Edward Downes built Oniton Hall because he wanted",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "a place for discussing politics.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a place to display his wealth.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a place for artists and writers.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "Visitors can learn about the work of servants in the past from",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "audio guides.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "photographs.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "people in costume.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "What is new for children at Oniton Hall?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "clothes for dressing up",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "mini tractors",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the adventure playground",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "dairy",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "shopping",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "watching cows being milked",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "seeing old farming equipment",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "eating and drinking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "starting a trip",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "seeing rare breeds of animals",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "helping to look after animals",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "using farming tools",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "large barn",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "shopping",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "watching cows being milked",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "seeing old farming equipment",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "eating and drinking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "starting a trip",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "seeing rare breeds of animals",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "helping to look after animals",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "using farming tools",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "small barn",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "shopping",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "watching cows being milked",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "seeing old farming equipment",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "eating and drinking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "starting a trip",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "seeing rare breeds of animals",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "helping to look after animals",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "using farming tools",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "stables",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "shopping",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "watching cows being milked",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "seeing old farming equipment",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "eating and drinking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "starting a trip",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "seeing rare breeds of animals",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "helping to look after animals",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "using farming tools",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "shed",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "shopping",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "watching cows being milked",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "seeing old farming equipment",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "eating and drinking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "starting a trip",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "seeing rare breeds of animals",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "helping to look after animals",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "using farming tools",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "parkland",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "shopping",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "watching cows being milked",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "seeing old farming equipment",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "eating and drinking",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "starting a trip",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "seeing rare breeds of animals",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "helping to look after animals",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "using farming tools",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        9,
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21 and 22\nChoose TWO letters, A–E.\nWhich TWO things do the students agree they need to include in their reviews\nof Romeo and Juliet?\nA. analysis of the text\nB. a summary of the plot\nC. a description of the theatre\nD. a personal reaction\nE. a reference to particular scenes",
+          "page": 9
+        },
+        {
+          "type": "text",
+          "text": "Questions 23–27\nWhich opinion do the speakers give about each of the following aspects of The\nEmporium’s production of Romeo and Juliet?\nChoose FIVE answers from the box and write the correct letter, A–G, next to\nQuestions 23–27.\nOpinions\nA. They both expected this to be more traditional.\nB. They both thought this was original.\nC. They agree this created the right atmosphere.\nD. They agree this was a major strength.\nE. They were both disappointed by this.\nF. They disagree about why this was an issue.\nG. They disagree about how this could be improved.\nAspects of the production\n23. the set __________\n24. the lighting __________\n25. the costume design __________\n26. the music __________\n27. the actors’ delivery __________",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 28–30\nChoose the correct letter, A, B or C.\n28. The students think the story of Romeo and Juliet is still relevant for\nyoung people today because\nA. it illustrates how easily conflict can start.\nB. it deals with problems that families experience.\nC. it teaches them about relationships.\n29. The students found watching Romeo and Juliet in another language\nA. frustrating.\nB. demanding.\nC. moving.\n30. Why do the students think Shakespeare’s plays have such international\nappeal?\nA. The stories are exciting.\nB. There are recognisable characters.\nC. They can be interpreted in many ways.",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO things do the students agree they need to include in their reviews of Romeo and Juliet?",
+          "translation": "",
+          "answers": [
+            "D",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "analysis of the text",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a summary of the plot",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a description of the theatre",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "a personal reaction",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "a reference to particular scenes",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "the set",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "They both expected this to be more traditional.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They both thought this was original.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They agree this created the right atmosphere.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree this was a major strength.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They were both disappointed by this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about why this was an issue.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They disagree about how this could be improved.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "the lighting",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "They both expected this to be more traditional.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They both thought this was original.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They agree this created the right atmosphere.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree this was a major strength.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They were both disappointed by this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about why this was an issue.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They disagree about how this could be improved.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "the costume design",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "They both expected this to be more traditional.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They both thought this was original.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They agree this created the right atmosphere.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree this was a major strength.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They were both disappointed by this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about why this was an issue.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They disagree about how this could be improved.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "the music",
+          "translation": "",
+          "answer": "E",
+          "options": [
+            {
+              "key": "A",
+              "en": "They both expected this to be more traditional.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They both thought this was original.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They agree this created the right atmosphere.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree this was a major strength.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They were both disappointed by this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about why this was an issue.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They disagree about how this could be improved.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "the actors’ delivery",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "They both expected this to be more traditional.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They both thought this was original.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They agree this created the right atmosphere.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "They agree this was a major strength.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "They were both disappointed by this.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "They disagree about why this was an issue.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "They disagree about how this could be improved.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "The students think the story of Romeo and Juliet is still relevant for young people today because",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "it illustrates how easily conflict can start.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "it deals with problems that families experience.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "it teaches them about relationships.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "The students found watching Romeo and Juliet in another language",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "frustrating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "demanding.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "moving.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "Why do the students think Shakespeare’s plays have such international appeal?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "The stories are exciting.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "There are recognisable characters.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They can be interpreted in many ways.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nThe Impact of Digital Technology on the Icelandic Language\nThe Icelandic language\n● has approximately 31 __________ speakers\n● has a 32 __________ that is still growing\n● has not changed a lot over the last thousand years\n● has its own words for computer-based concepts, such as web browser and\n33 __________\nYoung speakers\n● are big users of digital technology, such as 34 __________\n● are becoming 35 __________ very quickly\n● are having discussions using only English while they are in the 36\n__________ at school\n● are better able to identify the content of a 37 __________ in English\nthan Icelandic\nTechnology and internet companies\n● write very little in Icelandic because of the small number of speakers and\nbecause of how complicated its 38 __________ is",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "The Icelandic government\n● has set up a fund to support the production of more digital content in the\nlanguage\n● believes that Icelandic has a secure future\n● is worried that young Icelanders may lose their 39 __________ as\nIcelanders\n● is worried about the consequences of children not being 40 __________\nin either Icelandic or English",
+          "page": 14
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● has approximately 31 __________ speakers",
+          "translation": "",
+          "answer": "321,000",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● has a 32 __________ that is still growing",
+          "translation": "",
+          "answer": "vocabulary",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "33 __________",
+          "translation": "",
+          "answer": "podcast",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● are big users of digital technology, such as 34 __________",
+          "translation": "",
+          "answer": "smartphones",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● are becoming 35 __________ very quickly",
+          "translation": "",
+          "answer": "bilingual",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● are having discussions using only English while they are in the 36 __________ at school",
+          "translation": "",
+          "answer": "playground",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● are better able to identify the content of a 37 __________ in English",
+          "translation": "",
+          "answer": "picture",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "because of how complicated its 38 __________ is",
+          "translation": "",
+          "answer": "grammar",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● is worried that young Icelanders may lose their 39 __________ as",
+          "translation": "",
+          "answer": "identity",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● is worried about the consequences of children not being 40 __________",
+          "translation": "",
+          "answer": "fluent",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "JANE: Hello, Jane Fairbanks speaking.",
+        "zh": "Jane：你好，我是 Jane Fairbanks 。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "FRANK: Oh, good morning. My name’s Frank Pritchard. I’ve just retired and moved to Southoe.",
+        "zh": "Frank：哦，早安。我叫 Frank Pritchard。我剛退休，搬到了 Southoe。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "I’d like to become a volunteer, and I gather you co-ordinate voluntary work in the village.",
+        "zh": "我想成為志工，而且我聽說你負責協調村裡的志願工作。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "JANE: That’s right.",
+        "zh": "Jane：沒錯。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "FRANK: What sort of thing could I do?",
+        "zh": "Frank：我可以做些什麼呢？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "JANE: Well, we need help with the village library.",
+        "zh": "Jane：嗯，我們需要人協助村圖書館的工作。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "We borrow books from the town library, and individuals also donate them.",
+        "zh": "我們會從鎮圖書館借書，也會收到個人捐贈的書。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "So, one thing you could do is get involved in collecting them – if you’ve got a car, that is.",
+        "zh": "所以你可以做的一件事是參與收書——前提是你有車。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "FRANK: Yes, that’s no problem.",
+        "zh": "Frank：有，沒問題。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "JANE: The times are pretty flexible so we can arrange it to suit you.",
+        "zh": "Jane：時間很彈性，所以我們可以依照你的時間安排。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "Another thing is the records that we keep of the books we’re given, and those we borrow and need to return to the town library.",
+        "zh": "另一件事是我們需要保存書籍記錄，包括收到的書，以及從鎮圖書館借來、之後需要歸還的書。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "It would be very useful to have another person to help keep them up to date.",
+        "zh": "如果能多一個人幫忙保持記錄更新，會非常有用。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "FRANK: Right. I’m used to working on a computer – I presume they’re computerised?",
+        "zh": "Frank：明白。我習慣用電腦工作 ——我想那些記錄是電腦化的吧？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "JANE: Oh yes.",
+        "zh": "Jane：哦，是的。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "FRANK: Is the library purpose-built?",
+        "zh": "Frank：圖書館是專門建造的嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "I haven’t noticed it when I’ve walked round the village.",
+        "zh": "我在村裡散步時沒有注意到它。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "JANE: No, we simply have the use of a room in the village hall, the West Room.",
+        "zh": "Jane：不是，我們只是使用村民大廳裡的一個房間，也就是 West Room。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "It’s on the left as you go in.",
+        "zh": "你進去後左手邊就是。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "FRANK: I must go and have a look inside the hall.",
+        "zh": "Frank：我一定要去大廳裡看看。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "JANE: Yes, it’s a nice building.",
+        "zh": "Jane：是的，那是一棟漂亮的建築。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "FRANK: Do you run a lunch club in the village for elderly people?",
+        "zh": "Frank：你們村裡有為長者開設午餐俱樂部嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "I know a lot of places do.",
+        "zh": "我知道很多地方都有。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "JANE: Yes, we have a very successful club.",
+        "zh": "Jane：有的，我們的午餐俱樂部很成功。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "FRANK: I could help with transport, if that’s of any use.",
+        "zh": "Frank：如果有需要的話，我可以幫忙接送。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "JANE: Ooo definitely. People come to the club from neighbouring villages, and we’re always in need of more drivers.",
+        "zh": "Jane：哦，當然需要。有人會從鄰近村莊來參加，我們一直需要更多司機。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "FRANK: And does the club have groups that focus on a particular hobby, too?",
+        "zh": "Frank：那俱樂部也有專注於某些興趣的小組嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "I could get involved in one or two, particularly if there are any art groups.",
+        "zh": "我可以參與一兩個，尤其是如果有藝術小組的話。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "JANE: Excellent. I’ll find out where we need help and get back to you.",
+        "zh": "Jane：太好了。我會了解一下哪裡需要幫忙，然後再聯絡你。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "FRANK: Fine. What about help for individual residents?",
+        "zh": "Frank：好的。那對個別居民的幫助呢？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "Do you arrange that at all?",
+        "zh": "你們也安排這類事情嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "JANE: Yes, we do it as a one-off. In fact, there’s Mrs Carroll.",
+        "zh": "Jane：有，我們會安排一次性的幫助。事實上，現在就有 Carroll 太太需要幫忙。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "She needs a lift to the hospital next week, and we’re struggling to find someone.",
+        "zh": "她下週需要有人載她去醫院，而我們正努力找人。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "FRANK: When’s her appointment?",
+        "zh": "Frank：她的預約是什麼時候？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "JANE: On Tuesday. It would take the whole morning.",
+        "zh": "Jane：星期二。會花整個上午。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "FRANK: I could do that.",
+        "zh": "Frank：我可以幫忙。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "JANE: Oh, that would be great. Thank you.",
+        "zh": "Jane：哦，那太好了。謝謝你。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "And also, next week, we’re arranging to have some work done to Mr Selsbury’s house before he moves, as he isn’t healthy enough to do it himself.",
+        "zh": "另外，下週我們也在安排人在 Selsbury 先生搬家前幫他整理房子，因為他身體不太好，無法自己做。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "We’ve got some people to decorate his kitchen, but if you could do some weeding in his garden, that would be wonderful.",
+        "zh": "我們已經找了人裝修他的廚房， 但如果你能幫他花園除草，那就太好了。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "FRANK: OK. I’d enjoy that. And presumably the day and time are flexible.",
+        "zh": "Frank：好的。我會很樂意。而且我想日期和時間應該很彈性吧。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "JANE: Oh yes. Just say when would suit you best, and we’ll let Mr Selsbury know.",
+        "zh": "Jane：哦，是的。你只要說什麼時間最方便，我們會通知 Selsbury 先生。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "FRANK: Good.",
+        "zh": "Frank：很好。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "JANE: The volunteers group also organises monthly social events, which is a great way to meet other people, of course.",
+        "zh": "Jane：志工團體也會每月舉辦社交活動，當然，這也是認識其他人的好方法。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "FRANK: Uhuh.",
+        "zh": "Frank：嗯。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "JANE: So next month, on the 19th of October, we’re holding a quiz – a couple of residents are great at planning unusual ones, and we always fill the village hall.",
+        "zh": "Jane：所以下個月 10 月 19 日， 我們會舉辦一場問答比賽。有幾位居民很擅長設計特別的題目， 而且每次村民大廳都會坐滿。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "FRANK: That sounds like fun.",
+        "zh": "Frank：聽起來很有趣。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "Can I do anything to help?",
+        "zh": "我能幫什麼忙嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "JANE: Well, because of the number of people, we need plenty of refreshments for halfway through.",
+        "zh": "Jane：嗯，因為人很多，中場時我們需要大量茶點。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "So, if you could provide any, we’d be grateful.",
+        "zh": "所以如果你能提供一些，我們會很感激。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "FRANK: I’m sure I could. I’ll think about what to make, and let you know.",
+        "zh": "Frank：我應該可以。我會想想要做什麼，然後告訴你。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "JANE: Thank you. Then on November the 18th, we’re holding a dance, also in the village hall.",
+        "zh": "Jane：謝謝。接著 11 月 18 日，我們會舉辦舞會，也是在村民大廳。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "We’ve booked a band that specialises in music of the 1930s – they’ve been before, and we’ve had a lot of requests to bring them back.",
+        "zh": "我們預訂了一支專門演奏 1930 年代音樂的樂隊。他們以前來過，而且很多人要求再請他們回來。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "FRANK: I’m not really a dancer, but I’d like to do something to help.",
+        "zh": "Frank：我不太會跳舞，但我想做點事情幫忙。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "JANE: Well, we sell tickets in advance, and having an extra person to check them at the door, as people arrive, would be good – it can be quite a bottleneck if everyone arrives at once!",
+        "zh": "Jane：嗯，我們會提前售票，如果有人能在大家到場時在門口查票會很好——如果大家同時到， 門口會很容易堵住！",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "FRANK: OK, I’m happy with that.",
+        "zh": "Frank：好的，我很樂意。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "JANE: We’re also arranging a New Year’s Eve party.",
+        "zh": "Jane：我們也在安排跨年派對。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "We’re expecting that to be a really big event, so instead of the village hall, it’ll be held in the Mountfort Hotel.",
+        "zh": "我們預計那會是一場很大的活動，所以不會在村民大廳，而會在 Mountfort Hotel 舉行。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-056"
+      },
+      {
+        "en": "FRANK: The …?",
+        "zh": "Frank：什麼……？",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-057"
+      },
+      {
+        "en": "JANE: Mountfort. M-O-U-N-T-F-O-R-T Hotel.",
+        "zh": "Jane：Mountfort， M-O-U-N-T-F-O-R-T Hotel。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-058"
+      },
+      {
+        "en": "It isn’t in Southoe itself, but it’s only a couple of miles away.",
+        "zh": "它不在 Southoe 村裡，但只有幾英里遠。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-059"
+      },
+      {
+        "en": "The hotel will be providing dinner and we’ve booked a band.",
+        "zh": "飯店會提供晚餐，我們也預訂了樂隊。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-060"
+      },
+      {
+        "en": "The one thing we haven’t got yet is a poster.",
+        "zh": "目前唯一還沒有的是海報。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-061"
+      },
+      {
+        "en": "That isn’t something you could do, by any chance, is it?",
+        "zh": "你不會剛好能做這個吧？",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-062"
+      },
+      {
+        "en": "FRANK: Well actually, yes. Before I retired I was a graphic designer, so that’s right up my street.",
+        "zh": "Frank：其實可以。我退休前是平面設計師，所以這正是我擅長的。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-063"
+      },
+      {
+        "en": "JANE: Oh perfect! I’ll give you the details, and then perhaps you could send me a draft …",
+        "zh": "Jane：哦，太好了！我會把細節給你，然後也許你可以寄一份草稿給我……",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-064"
+      },
+      {
+        "en": "FRANK: Of course.",
+        "zh": "Frank：當然。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-065"
+      }
+    ],
+    "2": [
+      {
+        "en": "Good morning, and welcome to Oniton Hall, one of the largest estates in the area.",
+        "zh": "早安，歡迎來到 Oniton Hall， 這是本地區最大的莊園之一。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "My name’s Nick, and I’m one of the guides.",
+        "zh": "我叫 Nick，是導覽員之一。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "I’ll give you a brief introduction to the estate while you’re sitting down, and then we’ll walk round.",
+        "zh": "在大家坐著休息時，我會先簡要介紹一下這座莊園，然後我們再四處參觀。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "The estate consists of the house, gardens, parkland and farm, and it dates back to the fourteenth century.",
+        "zh": "這座莊園包括主屋、花園、公園綠地和農場，歷史可追溯到 14 世紀。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "The original house was replaced in the late seventeenth century, and of course it has had a large number of owners.",
+        "zh": "原本的房子在 17 世紀末被替換，當然，它也曾有過許多主人。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "Almost all of them have left their mark, generally by adding new rooms, like the ballroom and conservatory, or by demolishing others.",
+        "zh": "幾乎每位主人都留下了自己的痕跡，通常是增建新房間， 例如舞廳和溫室，或拆除其他房間。",
+        "sourcePages": [
+          29,
+          30
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "The farm looks much as it’s always done, although the current owner has done a great deal of work to the flower beds.",
+        "zh": "農場看起來基本上和過去差不多，不過現任主人對花壇做了大量整理。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "In the seventeenth century, the estate was owned by a very wealthy man called Sir Edward Downes.",
+        "zh": "在 17 世紀，這座莊園屬於一位非常富有的人，名叫 Sir Edward Downes。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "His intention was to escape from the world of politics, after years as an active politician, and to build a new house worthy of his big collection of books, paintings and sculptures.",
+        "zh": "他多年來一直活躍於政壇，後來想遠離政治世界，並建造一座配得上他大量書籍、繪畫和雕塑收藏的新宅邸。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "He broke off contact with his former political allies, and hosted meetings of creative and literary people, like painters and poets.",
+        "zh": "他與過去的政治盟友斷絕聯繫，轉而舉辦畫家、詩人等創意和文學人士的聚會。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "Unusually for his time, he didn’t care whether his guests were rich or poor, as long as they had talent.",
+        "zh": "以他那個時代來說很特別的是，他不在乎客人貧富，只要他們有才華。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "Big houses like Oniton had dozens of servants until the 1920s or 30s, and we’ve tried to show what their working lives were like.",
+        "zh": "像 Oniton 這樣的大宅一直到 1920 或 1930 年代都有數十名僕人，我們試圖展示他們當年的工作生活。",
+        "sourcePages": [
+          30,
+          31
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "Photographs of course don’t give much of an idea, so instead, as you go round the house, you’ll see volunteers dressed up as nineteenth-century servants, going about their work.",
+        "zh": "當然，照片無法充分呈現，所以當你們參觀屋內時，會看到志工打扮成 19 世紀僕人的樣子，忙著做自己的工作。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "They’ll explain what they’re doing, and tell you their recipes, or what tools they’re using.",
+        "zh": "他們會解釋自己在做什麼，並告訴你他們的食譜或正在使用的工具。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "We’ve just introduced this feature to replace the audio guide we used to have available.",
+        "zh": "我們剛推出這項安排，用來取代以前提供的語音導覽。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "I see there are a number of children here with you today.",
+        "zh": "我看到今天有不少孩子和你們一起來。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "Well, we have several activities specially for children, like dressing up in the sorts of clothes that children wore in the past, and as it’s a fine day, some of you will probably want to play in the adventure playground.",
+        "zh": "我們有幾項專為孩子設計的活動，例如穿上過去兒童穿的服裝；而且今天天氣很好，你們有些人可能也會想去冒險遊樂場玩。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "Our latest addition is child-sized tractors, that you can drive around the grounds.",
+        "zh": "我們最新增加的是兒童尺寸的小拖拉機，孩子們可以在場地裡駕駛。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "We’ll also be going into the farm that’s part of the estate, where there’s plenty to do.",
+        "zh": "我們也會進入莊園內的農場， 那裡有很多活動。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "Most of the buildings date from the eighteenth century, so you can really step back into an agricultural past.",
+        "zh": "大多數建築可追溯到 18 世紀，所以你可以真正走進過去的農業生活。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "Until recently, the dairy was where milk from the cows was turned into cheese.",
+        "zh": "直到不久前，乳品房還是把牛奶製成起司的地方。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "It’s now the place to go for lunch, or afternoon tea, or just a cup of coffee and a slice of homemade cake.",
+        "zh": "現在那裡成了吃午餐、下午茶，或喝杯咖啡配一片自製蛋糕的地方。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "The big stone building that dominates the farm is the large barn, and in here is our collection of agricultural tools.",
+        "zh": "農場裡最醒目的大型石造建築是大穀倉，裡面收藏著我們的農具。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "These were used in the past to plough the earth, sow seeds, make gates, and much more.",
+        "zh": "這些工具過去用來犁地、播種、製作大門等。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "There’s a small barn, also made of stone, where you can groom the donkeys and horses, to keep their coats clean.",
+        "zh": "還有一座小穀倉，也是石造的，你們可以在那裡為驢子和馬梳理毛髮，保持牠們的皮毛乾淨。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "They really seem to enjoy having it done, and children love grooming them.",
+        "zh": "牠們似乎真的很享受被梳理， 而孩子們也很喜歡幫牠們整理。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "The horses no longer live in the stables, which instead is the place to go to buy gifts, books, our own jams and pickles, and clothes and blankets made of wool from our sheep.",
+        "zh": "馬廄裡現在不再養馬，而是成了購買禮物、書籍、自製果醬和醃菜，以及用本莊園羊毛製成的衣服和毯子的地方。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "Outside the shed, which is the only brick building, you can climb into a horse-drawn carriage for a lovely, relaxing tour of the park and farm.",
+        "zh": "棚屋是唯一的磚造建築，在它外面，你可以登上一輛馬車， 輕鬆愉快地遊覽公園和農場。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "The carriages are well over a hundred years old.",
+        "zh": "這些馬車已有一百多年歷史。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "And finally, the parkland, which was laid out in the eighteenth century, with a lake and trees that are now well established.",
+        "zh": "最後是公園綠地，它於 18 世紀規劃而成，裡面有湖泊和如今已長得很成熟的樹木。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "You’ll see types of cattle and sheep that are hardly ever found on farms these days.",
+        "zh": "你們會看到如今農場上幾乎見不到的牛羊品種。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "We’re helping to preserve them, to stop their numbers falling further.",
+        "zh": "我們正在協助保護牠們，防止數量進一步下降。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "OK, well if you’d like to come with me …",
+        "zh": "好的，如果大家願意跟我來 ……",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-033"
+      }
+    ],
+    "3": [
+      {
+        "en": "ED: Did you make notes while you were watching the performances of Romeo and Juliet, Gemma?",
+        "zh": "Ed：Gemma，你看《Romeo and Juliet》演出時有做筆記嗎？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "GEMMA: Yes, I did. I found it quite hard though.",
+        "zh": "Gemma：有。不過我覺得挺難的。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "I kept getting too involved in the play.",
+        "zh": "我一直太投入劇情。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "ED: Me too. I ended up not taking notes.",
+        "zh": "Ed：我也是。結果我最後沒有做筆記。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "I wrote down my impressions when I got home.",
+        "zh": "我回家後才寫下自己的觀感。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "Do you mind if I check a few things with you?",
+        "zh": "你介意我跟你確認幾件事嗎？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "In case I’ve missed anything.",
+        "zh": "以防我漏掉什麼。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "And I’ve also got some questions about our assignment.",
+        "zh": "而且我對作業也有一些問題。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "GEMMA: No, it’s good to talk things through.",
+        "zh": "Gemma：不介意，把事情討論清楚很好。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "I may have missed things too.",
+        "zh": "我可能也漏掉了一些東西。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "ED: OK great. So first of all, I’m not sure how much information we should include in our reviews.",
+        "zh": "Ed：好，太好了。首先，我不確定評論裡應該包含多少資訊。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "GEMMA: Right. Well, I don’t think we need to describe what happens.",
+        "zh": "Gemma：對。嗯，我覺得我們不需要描述劇情發生了什麼。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "Especially as Romeo and Juliet is one of Shakespeare’s most well-known plays.",
+        "zh": "尤其是《Romeo and Juliet》是莎士比亞最知名的劇作之一。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "ED: Yeah, everyone knows the story.",
+        "zh": "Ed：是啊，大家都知道故事。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "In an essay we’d focus on the poetry and Shakespeare’s use of imagery etc., but that isn’t really relevant in a review.",
+        "zh": "如果是論文，我們會關注詩性語言和莎士比亞對意象的運用等，但那些在評論中不太相關。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "We’re supposed to focus on how effective this particular production is.",
+        "zh": "我們應該聚焦在這個特定製作版本的效果如何。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "GEMMA: Mmm. We should say what made it a success or a failure.",
+        "zh": "Gemma：嗯。我們應該說明是什麼讓它成功或失敗。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "ED: And part of that means talking about the emotional impact the performance had on us.",
+        "zh": "Ed：而其中一部分就是談論這場演出對我們造成的情感影響。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "I think that’s important.",
+        "zh": "我覺得那很重要。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "GEMMA: Yes. And we should definitely mention how well the director handled important bits of the play – like when Romeo climbs onto Juliet’s balcony.",
+        "zh": "Gemma：是的。我們也一定要提到導演如何處理劇中重要片段，例如 Romeo 爬上 Juliet 陽台那一幕。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "ED: And the fight between Mercutio and Tybalt.",
+        "zh": "Ed：還有 Mercutio 和 Tybalt 的打鬥。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "GEMMA: Yes. It would also be interesting to mention the theatre space and how the director used it but I don’t think we’ll have space in 800 words.",
+        "zh": "Gemma：是的。提到劇場空間以及導演如何運用空間也會很有趣，但我覺得 800 字裡寫不下。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "ED: No. OK. That all sounds quite straightforward.",
+        "zh": "Ed：是啊。好，那聽起來很清楚。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "ED: So what about The Emporium Theatre’s production of the play?",
+        "zh": "Ed：那 The Emporium Theatre 的這個版本怎麼樣？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "GEMMA: I thought some things worked really well but there were some problems too.",
+        "zh": "Gemma：我覺得有些地方效果很好，但也有一些問題。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "ED: Yeah. What about the set, for example?",
+        "zh": "Ed：是啊。例如布景呢？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "GEMMA: I think it was visually really stunning.",
+        "zh": "Gemma：我覺得它在視覺上真的很驚艷。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "I’d say that was probably the most memorable thing about this production.",
+        "zh": "我會說那可能是這個製作版本最令人難忘的地方。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "ED: You’re right. The set design was really amazing, but actually I have seen similar ideas used in other productions.",
+        "zh": "Ed：你說得對。布景設計真的很棒，不過其實我在其他製作中也看過類似想法。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "GEMMA: What about the lighting?",
+        "zh": "Gemma：燈光呢？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "Some of the scenes were so dimly lit it was quite hard to see.",
+        "zh": "有些場景光線太暗，很難看清。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "ED: I didn’t dislike it.",
+        "zh": "Ed：我倒不討厭。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "It helped to change the mood of the quieter scenes.",
+        "zh": "它有助於改變較安靜場景的氛圍。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "GEMMA: That’s a good point.",
+        "zh": "Gemma：這是個好觀點。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "ED: What did you think of the costumes?",
+        "zh": "Ed：你覺得服裝怎麼樣？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "GEMMA: I was a bit surprised by the contemporary dress, I must say.",
+        "zh": "Gemma：我得說，我對現代服裝有點驚訝。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "ED: Yeah – I think it worked well, but I had assumed it would be more conventional.",
+        "zh": "Ed：是啊，我覺得效果不錯，但我原本以為會更傳統一些。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "GEMMA: Me too. I liked the music at the beginning and I thought the musicians were brilliant, but I thought they were wasted because the music didn’t have much impact in Acts 2 and 3.",
+        "zh": "Gemma：我也是。我喜歡開頭的音樂，也覺得樂手很出色，但我覺得他們沒有被充分利用，因為音樂在第二幕和第三幕中影響不大。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "ED: Yes – that was a shame.",
+        "zh": "Ed：是啊，那很可惜。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "GEMMA: One problem with this production was that the actors didn’t deliver the lines that well.",
+        "zh": "Gemma：這個製作版本的一個問題是演員台詞表現不太好。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "They were speaking too fast.",
+        "zh": "他們說得太快了。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "ED: It was a problem I agree, but I thought it was because they weren’t speaking loudly enough – especially at key points in the play.",
+        "zh": "Ed：我同意那是個問題，但我覺得是因為他們聲音不夠大，尤其是在劇中的關鍵時刻。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "GEMMA: I actually didn’t have a problem with that.",
+        "zh": "Gemma：其實我倒沒有覺得那是問題。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "ED: It’s been an interesting experience watching different versions of Romeo and Juliet, hasn’t it?",
+        "zh": "Ed：觀看不同版本的《Romeo and Juliet》真是一次有趣的經驗，不是嗎？",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "GEMMA: Definitely. It’s made me realise how relevant the play still is.",
+        "zh": "Gemma：絕對是。它讓我意識到這齣戲至今仍然很有現實意義。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "ED: Right. I mean a lot’s changed since Shakespeare’s time, but in many ways nothing’s changed.",
+        "zh": "Ed：對。我的意思是，自莎士比亞時代以來，很多事情都改變了，但在許多方面其實又沒有變。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "There are always disagreements and tension between teenagers and their parents.",
+        "zh": "青少年和父母之間總是會有分歧和緊張關係。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "GEMMA: Yes, that’s something all young people can relate to – more than the violence and the extreme emotions in the play.",
+        "zh": "Gemma：是的，那是所有年輕人都能產生共鳴的部分，比劇中的暴力和極端情緒更貼近他們。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "ED: How did you find watching it in translation?",
+        "zh": "Ed：你覺得看翻譯版本怎麼樣？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "GEMMA: Really interesting. I expected to find it more challenging, but I could follow the story pretty well.",
+        "zh": "Gemma：很有趣。我原本以為會更有挑戰性，但我能很好地跟上故事。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "ED: I stopped worrying about not being able to understand all the words and focused on the actors’ expressions.",
+        "zh": "Ed：我不再擔心聽不懂所有詞， 而是專注於演員的表情。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "The ending was pretty powerful.",
+        "zh": "結尾相當有感染力。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "GEMMA: Yes. That somehow intensified the emotion for me.",
+        "zh": "Gemma：是的。那不知怎麼讓我的情緒更強烈。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "ED: Did you know Shakespeare’s been translated into more languages than any other writer?",
+        "zh": "Ed：你知道莎士比亞作品被翻譯成的語言比任何其他作家都多嗎？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "GEMMA: What’s the reason for his international appeal, do you think?",
+        "zh": "Gemma：你覺得他具有國際吸引力的原因是什麼？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-055"
+      },
+      {
+        "en": "ED: I was reading that it’s because his plays are about basic themes that people everywhere are familiar with.",
+        "zh": "Ed：我讀到過，原因是他的劇作涉及世界各地人們都熟悉的基本主題。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-056"
+      },
+      {
+        "en": "GEMMA: Yeah, and they can also be understood on different levels.",
+        "zh": "Gemma：是啊，而且它們也可以在不同層次上被理解。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-057"
+      },
+      {
+        "en": "The characters have such depth.",
+        "zh": "角色非常有深度。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-058"
+      },
+      {
+        "en": "ED: Right – which allows directors to experiment and find new angles.",
+        "zh": "Ed：對，這讓導演可以嘗試不同做法，找到新的角度。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-059"
+      },
+      {
+        "en": "GEMMA: That’s really important because …",
+        "zh": "Gemma：這真的很重要，因為 ……",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-060"
+      }
+    ],
+    "4": [
+      {
+        "en": "Right, everyone, let’s make a start.",
+        "zh": "好，各位，我們開始吧。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "Over the past few sessions, we’ve been considering the reasons why some world languages are in decline, and today I’m going to introduce another factor that affects languages, and the speakers of those languages, and that’s technology and, in particular, digital technology.",
+        "zh": "過去幾節課中，我們一直在探討某些世界語言衰退的原因。 今天我要介紹另一個影響語言及其使用者的因素，那就是科技，尤其是數位科技。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "In order to illustrate its effect, I’m going to focus on the Icelandic language, which is spoken by around 321,000 people, most of whom live in Iceland – an island in the North Atlantic Ocean.",
+        "zh": "為了說明它的影響，我會聚焦於冰島語。大約有 321,000 人使用冰島語，其中大多數人住在冰島，也就是北大西洋上的一個島國。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "The problem for this language is not the number of speakers – even though this number is small.",
+        "zh": "對這種語言而言，問題不在於使用者數量，儘管這個數字確實很小。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "Nor is it about losing words to other languages, such as English.",
+        "zh": "問題也不是詞彙被英語等其他語言取代。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "In fact, the vocabulary of Icelandic is continually increasing because when speakers need a new word for something, they tend to create one, rather than borrowing from another language.",
+        "zh": "事實上，冰島語的詞彙量仍在不斷增加，因為當使用者需要新詞來表示某個事物時，他們傾向於創造新詞，而不是從其他語言借用。",
+        "sourcePages": [
+          43,
+          44
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "All this makes Icelandic quite a special language – it’s changed very little in the past millennium, yet it can handle twenty-first-century concepts related to the use of computers and digital technology.",
+        "zh": "這一切使冰島語成為一種相當特殊的語言——過去一千年裡它變化很小，卻仍能處理與電腦和數位科技使用相關的 21 世紀概念。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "Take, for example, the word for web browser … this is vafri in Icelandic, which comes from the verb “to wander”.",
+        "zh": "例如，web browser 在冰島語中是 vafri，來自表示「漫遊」 的動詞。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "I can’t think of a more appropriate term because that’s exactly what you do mentally when you browse the internet.",
+        "zh": "我想不出更貼切的詞，因為當你瀏覽網路時，心理上正是在漫遊。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Then there’s an Icelandic word for podcast – which is too hard to pronounce! And so on.",
+        "zh": "另外，冰島語中也有 podcast 對應的詞，只是太難發音了！ 還有很多類似例子。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "Icelandic, then, is alive and growing, but – and it’s a big but – young Icelanders spend a great deal of time in the digital world and this world is predominantly English.",
+        "zh": "因此，冰島語仍然有生命力， 也在成長；但是，這是一個很大的「但是」——年輕冰島人大量時間都花在數位世界，而這個世界主要由英語主導。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "Think about smartphones.",
+        "zh": "想想智慧型手機。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "They didn’t even exist until comparatively recently, but today young people use them all the time to read books, watch TV or films, play games, listen to music, and so on.",
+        "zh": "它們直到相對近年才出現，但如今年輕人一直用它們看書、 看電視或電影、玩遊戲、聽音樂等等。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "Obviously, this is a good thing in many respects because it promotes their bilingual skills, but the extent of the influence of English in the virtual world is staggering and it’s all happening really fast.",
+        "zh": "顯然，這在許多方面是好事， 因為它促進了他們的雙語能力；但英語在虛擬世界中的影響程度令人震驚，而且一切都發生得非常快。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "For their parents and grandparents, the change is less concerning because they already have their native-speaker skills in Icelandic.",
+        "zh": "對他們的父母和祖父母來說， 這種變化比較不令人擔心，因為他們已經具備冰島語母語者的能力。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "But for young speakers – well, the outcome is a little troubling.",
+        "zh": "但對年輕使用者而言，結果就有些令人不安。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "For example, teachers have found that playground conversations in Icelandic secondary schools can be conducted entirely in English.",
+        "zh": "例如，教師發現冰島中學操場上的對話可能完全用英語進行。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "While teachers of much younger children have reported situations where their classes find it easier to say what is in a picture using English, rather than Icelandic.",
+        "zh": "而年紀更小孩子的老師也回報說，班上的孩子覺得用英語描述圖片內容比用冰島語更容易。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "The very real and worrying consequence of all this is that the young generation in Iceland is at risk of losing its mother tongue.",
+        "zh": "這一切非常真實且令人擔憂的後果是，冰島年輕一代有失去母語的風險。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "Of course, this is happening to other European languages too.",
+        "zh": "當然，這也發生在其他歐洲語言身上。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "But while internet companies might be willing to offer, say, French options in their systems, it’s much harder for them to justify the expense of doing the same for a language that has a population the size of a French town, such as Nice.",
+        "zh": "但是，網路公司可能願意在系統中提供法語選項；然而，對於使用人口只相當於法國尼斯這樣一座城市規模的語言， 要證明投入同樣成本是合理的，就困難得多。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "The other drawback of Icelandic is the grammar, which is significantly more complex than in most languages.",
+        "zh": "冰島語的另一個不利因素是它的語法，比大多數語言複雜得多。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "At the moment, the tech giants are simply not interested in tackling this.",
+        "zh": "目前，科技巨頭根本沒有興趣處理這個問題。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "So, what is the Icelandic government doing about this?",
+        "zh": "那麼，冰島政府對此做了什麼呢？",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "Well, large sums of money are being allocated to a language technology fund that it is hoped will lead to the development of Icelandic sourced apps and other social media and digital systems, but clearly this is going to be an uphill struggle.",
+        "zh": "大量資金已被分配到一個語言科技基金，希望能促成以冰島語為基礎的應用程式、社群媒體和其他數位系統的開發， 但很明顯，這將是一場艱難的努力。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "On the positive side, they know that Icelandic is still the official language of education and government.",
+        "zh": "從正面來看，他們知道冰島語仍然是教育和政府的官方語言。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "It has survived for well over a thousand years and the experts predict that its future in this nation state is sound and will continue to be so.",
+        "zh": "它已經存續了一千多年，專家預測它在這個民族國家中的未來仍然穩固，並會繼續如此。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "However, there’s no doubt that it’s becoming an inevitable second choice in young people’s lives.",
+        "zh": "然而，毫無疑問，它正逐漸成為年輕人生活中不可避免的第二選擇。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "This raises important questions.",
+        "zh": "這引發了重要問題。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "When you consider how much of the past is tied up in a language, will young Icelanders lose their sense of their own identity?",
+        "zh": "當你考慮到一種語言承載了多少過去時，年輕冰島人會不會失去自己的身份認同感？",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "Another issue that concerns the government of Iceland is this.",
+        "zh": "冰島政府關心的另一個問題是這個。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "If children are learning two languages through different routes, neither of which they are fully fluent in, will they be able to express themselves properly?",
+        "zh": "如果孩子們透過不同途徑學習兩種語言，但兩種都無法完全流利使用，他們還能正確表達自己嗎？",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-032"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "collecting",
+      "explanation": "題目寫： “Help with _____ books, times to be arranged” 錄音說圖書館的書有些從 town library 借來，有些由居民捐贈，接著 Jane 說： “one thing you could do is get involved in collecting them” them 指前面談到的 books，所以工作內容就是幫忙收取書籍。 答案是 collecting。 後面的 “times are pretty flexible” 亦對應題目的 “times to be arranged”， 進一步確認我們找對了這項工作",
+      "sourcePages": [
+        48
+      ]
+    },
+    "2": {
+      "answer": "records",
+      "explanation": "題目寫： “Help needed to keep _____ of books up to date” Jane 說： “the records that we keep of the books we’re given, and those we borrow…” 接著： “It would be very useful to have another person to help keep them up to date.” 這裡 them 指 records，所以答案幾乎直接由錄音填入： keep records up to date 答案是 records。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "3": {
+      "answer": "West",
+      "explanation": "題目寫： “Library is in the _____ Room in the village hall” 錄音說： “we simply have the use of a room in the village hall, the West Room.” 題目已經有 Room，所以只填 West。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "4": {
+      "answer": "transport",
+      "explanation": "題目在 Lunch club 下寫： “Help by providing _____” Frank 主動說： “I could help with transport, if that’s of any use.” Jane 馬上回應： “definitely… we’re always in need of more drivers.” 所以 lunch club 需要志工協助接送參加者。 答案是 transport。 這裡 “more drivers” 是 supporting evidence，說明 transport 不是泛指搬運物品，而是載居民往返 lunch club。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "5": {
+      "answer": "art",
+      "explanation": "題目寫： “Help with hobbies such as _____” Frank 問有沒有 hobby groups，接著說： “particularly if there are any art groups.” 所以 hobby 的例子是 art。 答案是 art。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "6": {
+      "answer": "hospital",
+      "explanation": "題目寫： “Taking Mrs Carroll to _____” 錄音說： “She needs a lift to the hospital next week.” a lift = 接送；題目把這項一次性志工工作整理成 “Taking Mrs Carroll to hospital”。 答案是 hospital。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "7": {
+      "answer": "garden",
+      "explanation": "題目寫： “Work in the _____ at Mr Selsbury’s house” 錄音說已經有人負責裝修 kitchen，Jane 另外問 Frank： “if you could do some weeding in his garden, that would be wonderful.” weeding 是花園工作，所以題目的地點是 garden。 答案是 garden。 中伏位：kitchen 也出現在同一段，但 kitchen 已有人負責；Frank 被邀請幫忙的是 garden 裡的 weeding 。",
+      "sourcePages": [
+        51,
+        52
+      ]
+    },
+    "8": {
+      "answer": "quiz",
+      "explanation": "圖片中 19 Oct 的 Event 留空，地點是 Village hall，Help needed 是 providing refreshments。 錄音說： “on the 19th of October, we’re holding a quiz” 後面又說人很多，所以： “we need plenty of refreshments” 日期、活動、幫忙內容全部和表格同一行吻合。 所以答案是 quiz。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "9": {
+      "answer": "tickets",
+      "explanation": "圖片中 18 Nov 的活動是 dance，Help needed： “checking _____” 錄音說： “on November the 18th, we’re holding a dance” 之後 Jane 解釋： “we sell tickets in advance” 並需要有人： “to check them at the door, as people arrive” them 指 tickets，所以： checking tickets 答案是 tickets。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "10": {
+      "answer": "poster",
+      "explanation": "圖片中 New Year’s Eve party 的 Help needed 是： “designing the _____” 錄音說 hotel 已提供 dinner，也已經 booked a band，目前： “The one thing we haven’t got yet is a poster.” Frank 又剛好以前是 graphic designer，所以 Jane 請他負責。 因此答案是 poster。",
+      "sourcePages": [
+        53,
+        54
+      ]
+    },
+    "11": {
+      "answer": "B — the house",
+      "explanation": "題目問：Oniton Hall 過去很多 owners 對哪一部分作過改動。 錄音說： “Almost all of them have left their mark” 具體方式是： “adding new rooms, like the ballroom and conservatory, or by demolishing others.” 新增和拆除 rooms 都是在改動 house。 所以答案是 B。 中伏位：farm 被形容為 “looks much as it’s always done”；flower beds 是現任 owner 做的工作，也不足以代表歷代 owners 的主要改動。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "12": {
+      "answer": "C — a place for artists and writers",
+      "explanation": "題目問 Sir Edward Downes 為甚麼建造 Oniton Hall。 錄音說他多年活躍於 politics 後，希望： “escape from the world of politics” 後來： “hosted meetings of creative and literary people, like painters and poets.” painters 和 poets 正好對應 artists and writers。 所以答案是 C。 中伏位：錄音確實說他很有錢，也有大量 books, paintings and sculptures，但沒有說他建房子的目的是炫耀財富。政治方面更清楚：他想離開政治圈，而非建立政治討論場所。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "13": {
+      "answer": "C — people in costume",
+      "explanation": "題目問訪客怎樣了解過去 servants 的工作。 錄音先指出： “Photographs … don’t give much of an idea” 所以照片不足。 目前的做法是： “volunteers dressed up as nineteenth-century servants, going about their work.” 這些志工還會： “explain what they’re doing” 所以訪客透過穿歷史服裝、扮演 servants 的人了解過去生活。 答案是 C。 中伏位：audio guide 是以前使用的方法，而且現在已被這項真人示範取代： “replace the audio guide we used to have available.”",
+      "sourcePages": [
+        56
+      ]
+    },
+    "14": {
+      "answer": "B — mini tractors",
+      "explanation": "題目問 children activities 中哪一項是 new。 錄音先提 dressing up 和 adventure playground，然後明確說： “Our latest addition is child-sized tractors” latest addition = 最新增加的項目。 所以答案是 B — mini tractors。",
+      "sourcePages": [
+        56,
+        57
+      ]
+    },
+    "15": {
+      "answer": "D — eating and drinking",
+      "explanation": "地點是 dairy。 錄音說 dairy 過去用來把 milk 製成 cheese，但現在： “It’s now the place to go for lunch, or afternoon tea, or just a cup of coffee and a slice of homemade cake.” 這些都是 eating and drinking。 所以答案是 D。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "16": {
+      "answer": "C — seeing old farming equipment",
+      "explanation": "地點是 large barn。 錄音說： “in here is our collection of agricultural tools.” 這些工具以前用來： “plough the earth, sow seeds, make gates…” 所以 large barn 讓遊客看昔日使用的 farming equipment。 答案是 C。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "17": {
+      "answer": "G — helping to look after animals",
+      "explanation": "地點是 small barn。 錄音說遊客可以： “groom the donkeys and horses, to keep their coats clean.” groom animals 就是協助照顧動物。 所以答案是 G。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "18": {
+      "answer": "A — shopping",
+      "explanation": "地點是 stables。 錄音說 horses 已經不住在 stables，這裡現在可以： “buy gifts, books, our own jams and pickles, and clothes and blankets…” 重點是 buy。 所以答案是 A — shopping。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "19": {
+      "answer": "E — starting a trip",
+      "explanation": "地點是 shed。 錄音說： “Outside the shed … you can climb into a horse-drawn carriage for a … tour of the park and farm.” 所以這裡是乘馬車遊覽的出發位置。 答案是 E — starting a trip。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "20": {
+      "answer": "F — seeing rare breeds of animals",
+      "explanation": "地點是 parkland。 錄音說： “You’ll see types of cattle and sheep that are hardly ever found on farms these days.” 而 Oniton 正協助： “preserve them” 這表示是罕見品種的 livestock。 所以答案是 F — seeing rare breeds of animals。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "21": {
+      "answer": "D and E",
+      "explanation": "題目問兩位學生都認為 Romeo and Juliet review 應該加入哪兩項內容。 D — a personal reaction Ed 說 review 應聚焦這次 production 的效果： “part of that means talking about the emotional impact the performance had on us.” Gemma 回應： “Yes.” 所以 review 要包括觀眾自己的情感反應，即 personal reaction。 答案 D。 E — a reference to particular scenes Gemma 說： “we should definitely mention how well the director handled important bits of the play” 她舉例： “Romeo climbs onto Juliet’s balcony” Ed 又補充： “the fight between Mercutio and Tybalt.” 所以兩人都認為需要引用具體 scenes 來評論導演如何處理重要段落。 答案 E。 中伏位：B plot summary 被他們排除，因為大家都知道故事。A text analysis 屬於 essay 較適合的內容， Ed 說在 review 中 “isn’t really relevant”。C theatre space 雖然有趣，但 Gemma 認為 800 words 不夠寫",
+      "sourcePages": [
+        60,
+        61,
+        62
+      ]
+    },
+    "22": {
+      "answer": "D and E",
+      "explanation": "題目問兩位學生都認為 Romeo and Juliet review 應該加入哪兩項內容。 D — a personal reaction Ed 說 review 應聚焦這次 production 的效果： “part of that means talking about the emotional impact the performance had on us.” Gemma 回應： “Yes.” 所以 review 要包括觀眾自己的情感反應，即 personal reaction。 答案 D。 E — a reference to particular scenes Gemma 說： “we should definitely mention how well the director handled important bits of the play” 她舉例： “Romeo climbs onto Juliet’s balcony” Ed 又補充： “the fight between Mercutio and Tybalt.” 所以兩人都認為需要引用具體 scenes 來評論導演如何處理重要段落。 答案 E。 中伏位：B plot summary 被他們排除，因為大家都知道故事。A text analysis 屬於 essay 較適合的內容， Ed 說在 review 中 “isn’t really relevant”。C theatre space 雖然有趣，但 Gemma 認為 800 words 不夠寫",
+      "sourcePages": [
+        60,
+        61,
+        62
+      ]
+    },
+    "23": {
+      "answer": "D — They agree this was a major strength",
+      "explanation": "題目是 the set。 Gemma 說： “visually really stunning” 更稱它為： “probably the most memorable thing about this production.” Ed 回： “You’re right. The set design was really amazing.” 所以兩人都高度肯定 set，甚至把它視為 production 最突出的優點之一。 答案是 D。 中伏位：Ed 說自己在其他 productions 見過 similar ideas，所以不能說兩人都認為 set 很 original。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "24": {
+      "answer": "C — They agree this created the right atmosphere",
+      "explanation": "題目是 the lighting。 Gemma 一開始指出部分場景： “so dimly lit it was quite hard to see.” Ed 提供另一個角度： “It helped to change the mood of the quieter scenes.” Gemma 回： “That’s a good point.” 這個回應很重要。她接受 Ed 的解釋，兩人最後都認同 lighting 對營造 quieter scenes 的 mood 有作用所以答案是 C — created the right atmosphere。 這題不能只停在 Gemma 最開始的負面評價；真正決定答案的是後面的態度轉變。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "25": {
+      "answer": "A — They both expected this to be more traditional",
+      "explanation": "題目是 costume design。 Gemma 說： “I was a bit surprised by the contemporary dress” Ed 說： “I had assumed it would be more conventional.” Gemma 回： “Me too.” 所以兩個人原本都預期 costumes 會較傳統。 答案是 A。 值得注意的是 Ed 覺得 contemporary design “worked well”，所以答案測的是原先預期，不是他最後喜不喜歡。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "26": {
+      "answer": "E — They were both disappointed by this",
+      "explanation": "題目是 the music。 Gemma 很喜歡開場，也稱 musicians “brilliant”，但接著指出： “they were wasted because the music didn’t have much impact in Acts 2 and 3.” Ed 回： “Yes – that was a shame.” 所以問題不在樂手能力，而在製作沒有充分利用音樂。 兩人都對此感到可惜和失望。 答案是 E。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "27": {
+      "answer": "F — They disagree about why this was an issue",
+      "explanation": "題目是 the actors’ delivery。 Gemma 認為問題是： “They were speaking too fast.” Ed 同意 delivery 有問題，但他的原因不同： “they weren’t speaking loudly enough” Gemma 再回： “I actually didn’t have a problem with that.” 所以兩人一致認為 delivery 有問題，分歧在問題的原因： ● Gemma → speed ● Ed → volume 答案是 F。",
+      "sourcePages": [
+        65,
+        66
+      ]
+    },
+    "28": {
+      "answer": "B — it deals with problems that families experience",
+      "explanation": "題目問 Romeo and Juliet 對現代年輕人仍然 relevant 的原因。 Ed 說： “There are always disagreements and tension between teenagers and their parents.” Gemma 接著： “that’s something all young people can relate to” 所以他們認為最貼近現代青年的是家庭中的代際衝突。 答案是 B。 中伏位：play 當然有 violence 和 relationship，但 Gemma 特別說 parent–teenager tension 比那些 extreme emotions 更能讓年輕人產生共鳴。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "29": {
+      "answer": "C — moving",
+      "explanation": "題目問他們觀看另一種語言版本的感受。 Gemma 原以為： “more challenging” 結果： “I could follow the story pretty well.” 所以 demanding 並沒有成為主要感受。 Ed 說 ending： “pretty powerful.” Gemma 回： “That somehow intensified the emotion for me.” 這表示 translation 沒有削弱情感，反而令她感受更強烈。 所以答案是 C — moving。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "30": {
+      "answer": "C — They can be interpreted in many ways",
+      "explanation": "題目問 Shakespeare 的 international appeal 來自甚麼。 Ed 提到： “basic themes that people everywhere are familiar with.” Gemma 再說： “they can also be understood on different levels.” 以及： “The characters have such depth.” Ed 最後總結： “which allows directors to experiment and find new angles.” 所以作品可以從不同層次、不同角度重新理解和演繹，這令 Shakespeare 能適應不同文化和時代。 答案是 C — They can be interpreted in many ways。",
+      "sourcePages": [
+        68,
+        69
+      ]
+    },
+    "31": {
+      "answer": "321,000",
+      "explanation": "題目寫： “has approximately _____ speakers” 錄音說 Icelandic： “is spoken by around 321,000 people.” around = approximately。 所以答案是 321,000。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "32": {
+      "answer": "vocabulary",
+      "explanation": "題目寫： “has a _____ that is still growing” 錄音說： “the vocabulary of Icelandic is continually increasing” continually increasing = still growing。 所以答案是 vocabulary。 這裡講的是冰島語遇到新概念時，經常自己創造新詞，因此詞彙量仍然增加。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "33": {
+      "answer": "podcast",
+      "explanation": "題目寫： “has its own words for computer-based concepts, such as web browser and _____” 錄音先舉 web browser 的 Icelandic word，接著： “Then there’s an Icelandic word for podcast” 所以答案是 podcast。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "34": {
+      "answer": "smartphones",
+      "explanation": "題目寫： “Young speakers are big users of digital technology, such as _____” 錄音談 young Icelanders 的數位生活時直接說： “Think about smartphones.” 並解釋他們一直用 smartphones 看書、看影片、玩遊戲、聽音樂。 所以答案是 smartphones。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "35": {
+      "answer": "bilingual",
+      "explanation": "題目寫： “are becoming _____ very quickly” 錄音說 digital technology： “promotes their bilingual skills” 又補充英語影響： “it’s all happening really fast.” 因此： bilingual skills + really fast → becoming bilingual very quickly 答案是 bilingual。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "36": {
+      "answer": "playground",
+      "explanation": "題目寫： “are having discussions using only English while they are in the _____ at school” 錄音說： “teachers have found that playground conversations in Icelandic secondary schools can be conducted entirely in English.” 所以地點是 playground。 答案是 playground。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "37": {
+      "answer": "picture",
+      "explanation": "題目寫： “are better able to identify the content of a _____ in English than Icelandic” 錄音談更年幼的 children： “their classes find it easier to say what is in a picture using English, rather than Icelandic.” 題目把 “say what is in a picture” 改寫成 “identify the content of a picture”。 所以答案是 picture。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "38": {
+      "answer": "grammar",
+      "explanation": "題目寫 technology companies 很少使用 Icelandic，原因之一是： “how complicated its _____ is” 錄音先解釋 speaker population 太小，開發 Icelandic systems 成本難以合理化。 另一個問題是： “The other drawback of Icelandic is the grammar, which is significantly more complex than in most languages.” 所以答案是 grammar。 這裡有兩層商業／技術障礙： 使用人口少 → 投資回報有限 grammar 複雜 → 技術處理難度增加因此 tech companies 缺乏動力大量製作 Icelandic content。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "39": {
+      "answer": "identity",
+      "explanation": "題目寫政府擔心 young Icelanders： “may lose their _____ as Icelanders” 錄音問： “will young Icelanders lose their sense of their own identity?” 題目把： lose their sense of their own identity 濃縮成： lose their identity as Icelanders 所以答案是 identity。 這裡背後的邏輯也很重要：語言不只是一套溝通工具，它承載歷史、文化與共同記憶。錄音先說： “how much of the past is tied up in a language” 所以政府擔心如果年輕人逐步失去 Icelandic，身份認同也可能受到影響。",
+      "sourcePages": [
+        73
+      ]
+    },
+    "40": {
+      "answer": "fluent",
+      "explanation": "題目寫： “consequences of children not being _____ in either Icelandic or English” 錄音說政府另一項擔憂是： “If children are learning two languages through different routes, neither of which they are fully fluent in, will they be able to express themselves properly?” 所以答案是 fluent。 這題的重點不只是「孩子學兩種語言」。真正的風險是兩種語言都接觸很多，卻沒有任何一種發展到足夠成熟的程度： Icelandic 能力未完全建立 + English 也未達完整流利程度 → 兩種語言都不夠 fluent → 表達複雜思想時可能受限制因此題目的 “consequences” 指向語言表達能力上的潛在問題，答案是 fluent。",
+      "sourcePages": [
+        74
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 408.68575,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%201.mp3",
+        "audioSha256": "0259992896317885d4eb8b2f258c65e8ffbf5aafb23cd1404e687f9e6a855cc5",
+        "transcriptSha256": "d36e23aa837f829453e4c6d36aa2cc0923ab826b422a403d3ba72ac783e54609",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9931,
+        "lines": [
+          {
+            "start": 54.56,
+            "end": 56.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 57.8,
+            "end": 63.36,
+            "coverage": 0.9846
+          },
+          {
+            "start": 63.72,
+            "end": 69.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 69.92,
+            "end": 70.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 71.38,
+            "end": 73.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 73.76,
+            "end": 75.86,
+            "coverage": 0.9143
+          },
+          {
+            "start": 76.78,
+            "end": 81.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.64,
+            "end": 89.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 89.84,
+            "end": 91.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 91.9,
+            "end": 96.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.2,
+            "end": 104.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.78,
+            "end": 109.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.6,
+            "end": 116.02,
+            "coverage": 0.9123
+          },
+          {
+            "start": 116.46,
+            "end": 116.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.7,
+            "end": 119.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.44,
+            "end": 122.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.3,
+            "end": 128.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.28,
+            "end": 130.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 130.92,
+            "end": 133.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.3,
+            "end": 136.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.88,
+            "end": 140.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.76,
+            "end": 142.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 142.96,
+            "end": 145.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 146.04,
+            "end": 149.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 149.72,
+            "end": 156.52,
+            "coverage": 0.9773
+          },
+          {
+            "start": 157.3,
+            "end": 161.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 162.6,
+            "end": 167.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 168.4,
+            "end": 173.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.94,
+            "end": 177.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 178.24,
+            "end": 179.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 179.68,
+            "end": 185.74,
+            "coverage": 0.95
+          },
+          {
+            "start": 186.38,
+            "end": 191.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.1,
+            "end": 193.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 193.74,
+            "end": 196.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 197.58,
+            "end": 198.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 198.84,
+            "end": 201.0,
+            "coverage": 1.0,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Focused window separates Oh from the preceding I could do that."
+          },
+          {
+            "start": 201.66,
+            "end": 211.04,
+            "coverage": 0.991,
+            "refined": true
+          },
+          {
+            "start": 211.98,
+            "end": 219.32,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 220.2,
+            "end": 225.7,
+            "coverage": 0.98
+          },
+          {
+            "start": 226.36,
+            "end": 231.32,
+            "coverage": 0.9821
+          },
+          {
+            "start": 232.08,
+            "end": 232.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 263.76,
+            "end": 271.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.6,
+            "end": 271.98,
+            "coverage": 0,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Isolated-window recognition resolves Uh huh, omitted by the full-track recognizer."
+          },
+          {
+            "start": 272.7,
+            "end": 284.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.36,
+            "end": 286.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.2,
+            "end": 288.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.26,
+            "end": 295.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.16,
+            "end": 299.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 299.68,
+            "end": 303.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 304.18,
+            "end": 311.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 312.36,
+            "end": 322.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 322.66,
+            "end": 326.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.34,
+            "end": 339.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.32,
+            "end": 342.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.78,
+            "end": 345.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 346.72,
+            "end": 354.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 354.92,
+            "end": 355.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 355.48,
+            "end": 365.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.66,
+            "end": 370.76,
+            "coverage": 0.9796
+          },
+          {
+            "start": 371.5,
+            "end": 375.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 376.04,
+            "end": 379.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 379.96,
+            "end": 382.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 383.48,
+            "end": 390.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 390.82,
+            "end": 396.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 397.04,
+            "end": 397.38,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 416.418,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%202.mp3",
+        "audioSha256": "95ee231386441cc106f0a545c97d5aa25272117965884da31bda75449bc07b3e",
+        "transcriptSha256": "735bb70b13d8a929c029a018de26d1513ee52e8f5675d1025672d5cc59d226b6",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9857,
+        "lines": [
+          {
+            "start": 50.24,
+            "end": 56.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.92,
+            "end": 60.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 61.28,
+            "end": 67.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 68.76,
+            "end": 77.46,
+            "coverage": 0.9059
+          },
+          {
+            "start": 78.38,
+            "end": 86.32,
+            "coverage": 0.9032
+          },
+          {
+            "start": 87.28,
+            "end": 98.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 99.76,
+            "end": 107.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 109.3,
+            "end": 116.36,
+            "coverage": 0.9872
+          },
+          {
+            "start": 117.64,
+            "end": 132.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.28,
+            "end": 144.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 145.66,
+            "end": 153.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 155.26,
+            "end": 167.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 168.94,
+            "end": 182.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 183.86,
+            "end": 191.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.0,
+            "end": 198.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 200.2,
+            "end": 203.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 204.08,
+            "end": 220.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 222.68,
+            "end": 229.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.55,
+            "end": 283.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.12,
+            "end": 292.72,
+            "coverage": 0.9111
+          },
+          {
+            "start": 294.72,
+            "end": 301.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.18,
+            "end": 310.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.26,
+            "end": 320.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 321.84,
+            "end": 328.98,
+            "coverage": 0.9545
+          },
+          {
+            "start": 330.18,
+            "end": 338.26,
+            "coverage": 0.9655
+          },
+          {
+            "start": 339.22,
+            "end": 344.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 345.2,
+            "end": 359.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 360.92,
+            "end": 371.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 372.74,
+            "end": 376.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 377.64,
+            "end": 386.9,
+            "coverage": 0.92
+          },
+          {
+            "start": 387.92,
+            "end": 393.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 394.48,
+            "end": 398.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 399.78,
+            "end": 403.12,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 374.2301875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%203.mp3",
+        "audioSha256": "0f434f3110676f1060200637332bc5aad62040515d1bcc559a3088b65e271175",
+        "transcriptSha256": "72718fa49fa86e92dee5c5edd8b91c4518fd88fce2e9335c16abf94196c11ca7",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9913,
+        "lines": [
+          {
+            "start": 34.02,
+            "end": 39.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 39.1,
+            "end": 42.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 42.96,
+            "end": 44.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 45.22,
+            "end": 47.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 48.76,
+            "end": 50.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 51.62,
+            "end": 53.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.06,
+            "end": 55.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 55.88,
+            "end": 58.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 59.16,
+            "end": 61.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.06,
+            "end": 63.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 63.94,
+            "end": 70.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 71.02,
+            "end": 75.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.9,
+            "end": 80.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.68,
+            "end": 82.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 83.46,
+            "end": 90.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 91.7,
+            "end": 95.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.06,
+            "end": 100.28,
+            "coverage": 0.9286
+          },
+          {
+            "start": 101.0,
+            "end": 105.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.66,
+            "end": 106.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.0,
+            "end": 116.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.28,
+            "end": 119.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.62,
+            "end": 129.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.74,
+            "end": 133.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 200.8,
+            "end": 204.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 205.08,
+            "end": 209.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 209.92,
+            "end": 212.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 213.26,
+            "end": 215.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 216.68,
+            "end": 220.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 220.58,
+            "end": 227.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 228.26,
+            "end": 230.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 231.18,
+            "end": 234.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 235.18,
+            "end": 236.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 237.38,
+            "end": 239.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 240.38,
+            "end": 241.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 242.04,
+            "end": 243.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 244.1,
+            "end": 247.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 247.86,
+            "end": 251.82,
+            "coverage": 0.9672
+          },
+          {
+            "start": 251.82,
+            "end": 264.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 264.36,
+            "end": 265.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.96,
+            "end": 270.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.04,
+            "end": 272.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 272.94,
+            "end": 280.66,
+            "coverage": 0.9216
+          },
+          {
+            "start": 280.66,
+            "end": 282.54,
+            "coverage": 0.9706
+          },
+          {
+            "start": 283.54,
+            "end": 288.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.32,
+            "end": 292.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 292.98,
+            "end": 297.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.44,
+            "end": 302.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.82,
+            "end": 310.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.06,
+            "end": 313.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.96,
+            "end": 320.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.84,
+            "end": 325.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.86,
+            "end": 328.2,
+            "coverage": 0.9231
+          },
+          {
+            "start": 328.48,
+            "end": 332.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.32,
+            "end": 337.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 339.12,
+            "end": 342.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 343.08,
+            "end": 348.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 349.16,
+            "end": 352.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 353.64,
+            "end": 355.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 355.46,
+            "end": 359.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 360.05,
+            "end": 361.87,
+            "coverage": 0.5926,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Isolated-window recognition resolves That's really important because, instead of wrongly matching the narrator's end-of-part announcement."
+          }
+        ]
+      },
+      "4": {
+        "duration": 360.071875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%204.mp3",
+        "audioSha256": "25e59fbff26d638d8ccd2d78b92f74fc15a228d662df635730368f03b8b0a1ea",
+        "transcriptSha256": "9316a4ccc6211c7508f0d50a568bc97b5b0bb39ffa774bf57013cddcd00fe8c1",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9991,
+        "lines": [
+          {
+            "start": 74.38,
+            "end": 77.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.2,
+            "end": 95.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.34,
+            "end": 109.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.98,
+            "end": 116.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.18,
+            "end": 120.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.76,
+            "end": 133.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.94,
+            "end": 146.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.0,
+            "end": 154.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 155.68,
+            "end": 161.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.86,
+            "end": 167.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 169.0,
+            "end": 179.0,
+            "coverage": 0.985
+          },
+          {
+            "start": 180.26,
+            "end": 181.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 182.5,
+            "end": 194.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 195.1,
+            "end": 207.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 208.82,
+            "end": 214.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 215.76,
+            "end": 219.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 219.94,
+            "end": 228.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.38,
+            "end": 238.02,
+            "coverage": 0.9927
+          },
+          {
+            "start": 239.06,
+            "end": 246.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 251.86,
+            "end": 255.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 256.52,
+            "end": 269.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 270.7,
+            "end": 277.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 278.18,
+            "end": 282.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.14,
+            "end": 286.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.64,
+            "end": 301.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 303.12,
+            "end": 308.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.58,
+            "end": 318.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.5,
+            "end": 325.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 326.0,
+            "end": 328.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 329.18,
+            "end": 335.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 336.74,
+            "end": 339.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.74,
+            "end": 349.72,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 82.64,
+        "line": 7,
+        "evidenceScore": 67.0
+      },
+      "2": {
+        "part": 1,
+        "time": 97.2,
+        "line": 10,
+        "evidenceScore": 75.0
+      },
+      "3": {
+        "part": 1,
+        "time": 123.3,
+        "line": 16,
+        "evidenceScore": 72.0
+      },
+      "4": {
+        "part": 1,
+        "time": 146.04,
+        "line": 23,
+        "evidenceScore": 58.0
+      },
+      "5": {
+        "part": 1,
+        "time": 162.6,
+        "line": 26,
+        "evidenceScore": 54.0
+      },
+      "6": {
+        "part": 1,
+        "time": 186.38,
+        "line": 31,
+        "evidenceScore": 54.0
+      },
+      "7": {
+        "part": 1,
+        "time": 211.98,
+        "line": 37,
+        "evidenceScore": 74.0
+      },
+      "8": {
+        "part": 1,
+        "time": 272.7,
+        "line": 43,
+        "evidenceScore": 54.0
+      },
+      "9": {
+        "part": 1,
+        "time": 327.34,
+        "line": 52,
+        "evidenceScore": 54.0
+      },
+      "10": {
+        "part": 1,
+        "time": 376.04,
+        "line": 60,
+        "evidenceScore": 54.0
+      },
+      "11": {
+        "part": 2,
+        "time": 87.28,
+        "line": 5,
+        "evidenceScore": 65.0
+      },
+      "12": {
+        "part": 2,
+        "time": 134.28,
+        "line": 9,
+        "evidenceScore": 61.0
+      },
+      "13": {
+        "part": 2,
+        "time": 168.94,
+        "line": 12,
+        "evidenceScore": 65.0
+      },
+      "14": {
+        "part": 2,
+        "time": 222.68,
+        "line": 17,
+        "evidenceScore": 37.0
+      },
+      "15": {
+        "part": 2,
+        "time": 302.18,
+        "line": 21,
+        "evidenceScore": 81.0
+      },
+      "16": {
+        "part": 2,
+        "time": 311.26,
+        "line": 22,
+        "evidenceScore": 40.0
+      },
+      "17": {
+        "part": 2,
+        "time": 330.18,
+        "line": 24,
+        "evidenceScore": 45.0
+      },
+      "18": {
+        "part": 2,
+        "time": 345.2,
+        "line": 26,
+        "evidenceScore": 54.0
+      },
+      "19": {
+        "part": 2,
+        "time": 360.92,
+        "line": 27,
+        "evidenceScore": 20.06
+      },
+      "20": {
+        "part": 2,
+        "time": 387.92,
+        "line": 30,
+        "evidenceScore": 67.0
+      },
+      "21": {
+        "part": 3,
+        "time": 107.0,
+        "line": 19,
+        "evidenceScore": 72.0
+      },
+      "22": {
+        "part": 3,
+        "time": 107.0,
+        "line": 19,
+        "evidenceScore": 72.0
+      },
+      "23": {
+        "part": 3,
+        "time": 216.68,
+        "line": 27,
+        "evidenceScore": 48.0
+      },
+      "24": {
+        "part": 3,
+        "time": 237.38,
+        "line": 32,
+        "evidenceScore": 41.0
+      },
+      "25": {
+        "part": 3,
+        "time": 244.1,
+        "line": 35,
+        "evidenceScore": 39.0
+      },
+      "26": {
+        "part": 3,
+        "time": 251.82,
+        "line": 37,
+        "evidenceScore": 65.0
+      },
+      "27": {
+        "part": 3,
+        "time": 280.66,
+        "line": 42,
+        "evidenceScore": 34.0
+      },
+      "28": {
+        "part": 3,
+        "time": 298.44,
+        "line": 46,
+        "evidenceScore": 68.0
+      },
+      "29": {
+        "part": 3,
+        "time": 328.48,
+        "line": 52,
+        "evidenceScore": 37.0
+      },
+      "30": {
+        "part": 3,
+        "time": 355.46,
+        "line": 58,
+        "evidenceScore": 48.0
+      },
+      "31": {
+        "part": 4,
+        "time": 96.34,
+        "line": 2,
+        "evidenceScore": 48.0
+      },
+      "32": {
+        "part": 4,
+        "time": 121.76,
+        "line": 5,
+        "evidenceScore": 67.0
+      },
+      "33": {
+        "part": 4,
+        "time": 161.86,
+        "line": 9,
+        "evidenceScore": 55.0
+      },
+      "34": {
+        "part": 4,
+        "time": 180.26,
+        "line": 11,
+        "evidenceScore": 41.0
+      },
+      "35": {
+        "part": 4,
+        "time": 195.1,
+        "line": 13,
+        "evidenceScore": 48.0
+      },
+      "36": {
+        "part": 4,
+        "time": 219.94,
+        "line": 16,
+        "evidenceScore": 122.0
+      },
+      "37": {
+        "part": 4,
+        "time": 229.38,
+        "line": 17,
+        "evidenceScore": 96.0
+      },
+      "38": {
+        "part": 4,
+        "time": 270.7,
+        "line": 21,
+        "evidenceScore": 109.0
+      },
+      "39": {
+        "part": 4,
+        "time": 329.18,
+        "line": 29,
+        "evidenceScore": 71.0
+      },
+      "40": {
+        "part": 4,
+        "time": 340.74,
+        "line": 31,
+        "evidenceScore": 150.0
+      }
+    }
+  }
+}

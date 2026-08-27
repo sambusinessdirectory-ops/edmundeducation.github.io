@@ -1,0 +1,280 @@
+{
+  "id": "p3-080",
+  "catalogueId": "p3-080",
+  "title": "LONG-TERM FORECAST: HOT AND DRY",
+  "sourceHeading": "Long-Term Forecast: Hot and Dry",
+  "passage": 3,
+  "practice": 80,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-080-long-term-forecast-hot-and-dry",
+  "source": {
+    "filename": "Practice 80 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "97757e39ee8d25a71ce31efd24a12fb86832ab765627b10714c10c46128f4ec2"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Melting land ice in the Arctic is set to cause a global rise in sea levels, leading to disastrous effects for both people and wildlife. Many species worldwide are threatened with extinction, and low-lying islands and land masses will disappear entirely. But the havoc wreaked by greenhouse gases will not be confined to excess water; the absence of water will also be a problem—in other words, desertification. A decrease in the total amount of rainfall in arid and semi-arid areas could increase the total area of drylands worldwide, and thus the total amount of land potentially at risk from desertification."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Desertification is officially recognised as land degradation in arid, semi-arid and dry sub-humid areas resulting from various factors, including climatic variations and human activities. This degradation of formerly productive land is a complex process. It involves multiple causes, and it proceeds at varying rates in different climates. Desertification may intensify a general climatic trend, or initiate a change in local climate, both leading towards greater aridity. The more arid conditions associated with desertification accelerate the depletion of vegetation and soils. Land degradation occurs all over the world, but it is only referred to as desertification when it takes place in drylands. This is because these areas are especially prone to more permanent damage as different areas of degraded land spread and merge together to form desert-like conditions."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Global warming brought about by increasing greenhouse gas levels in the atmosphere is expected to increase the variability of weather conditions and extreme events. Many dryland areas face increasingly low and erratic rainfall, coupled with wind erosion of soil and the drying up of water resources as regional temperatures rise. Deforestation can also reduce rainfall in certain areas, increasing the threat of desertification. It is not yet possible, despite sophisticated technology, to identify with an acceptable degree of reliability those parts of the Earth where desertification will occur. Existing drylands, which cover over 40% of the total land area of the world, most significantly in Africa and Asia, will probably be most at risk from climate change. These areas already experience low rainfall, and any that falls is usually in the form of short, erratic, high-intensity storms. In addition, such areas also suffer from land degradation due to over-cultivation, overgrazing, deforestation and poor irrigation practices."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "It is a misconception that droughts cause desertification. Droughts are common in arid and semi-arid lands. Well-managed lands can recover from drought when the rains return. Continued land abuse during droughts, however, increases land degradation. Nor does desertification occur in linear, easily definable patterns. Deserts advance erratically, forming patches on their borders. Areas far from natural deserts can degrade quickly to barren soil, rock, or sand through poor land management. The presence of a nearby desert has no direct relationship to desertification. Unfortunately, an area undergoing desertification is brought to public attention only after the process is well underway. Often little or no data are available to indicate the previous state of the ecosystem or the rate of degradation. Scientists still question whether desertification, as a process of global change, is permanent and how or when it can be halted or reversed."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "But desertification will not be limited to the drylands of Africa and Asia. According to the environmental organisation Greenpeace, the Mediterranean will suffer substantially, too. If current trends in emissions of greenhouse gases continue, global temperatures are expected to rise faster over the next century than over any time during the last 10,000 years. Significant uncertainties surround predictions of regional climate changes, but it is likely that the Mediterranean region will also warm significantly, increasing the frequency and severity of droughts across the region. As the world warms, global sea levels will rise as oceans expand and glaciers melt. Around much of the Mediterranean basin, sea levels could rise by close to 1 m by 2100. As a result, some low-lying coastal areas would be lost through flooding or erosion, while rivers and coastal aquifers would become more salty. The worst affected areas will be the Nile Delta, Venice in Italy and Thessaloniki in Greece, two major cities where local subsidence means that sea levels could rise by at least one-and-a-half times as much as elsewhere."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The consequences of all this, says Greenpeace, are far-reaching, and the picture is a gloomy one. Livestock production would suffer due to a deterioration in the quality of rangeland. Yields of grains and other crops could decrease substantially across the Mediterranean region due to increased frequency of drought. Crop production would be further threatened by increased competition for water, a greater prevalence of pests and diseases, and land loss through desertification and sea-level rise. The combination of heat and pollution would lead to an upsurge in respiratory illness among urban populations, while extreme weather events could increase death and injury rates. Water shortages and damaged infrastructure would increase the risk of cholera and dysentery, while higher temperatures would increase the incidence of infectious diseases, such as malaria and dengue fever. Serious social disruption could occur as millions are forced from their homelands as a result of desertification, poor harvests and sea-level rise, while international disputes over shared water resources could turn into conflict."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Future climate change could critically undermine efforts towards sustainable development in the Mediterranean region through its impacts on the environment and social and economic well-being. While in many respects climate change exacerbates existing problems instead of creating new ones, the sheer magnitude of the potential problem means it cannot be ignored. There is some scope for adaptation, but the fact that many measures would be beneficial irrespective of climate change suggests that radical changes in our policies and practices will be needed. It is also vital that developed countries meet their obligations to assist adaptation in developing countries through access to know-how and financial assistance. Ultimately, however, the long-term sustainability of the Mediterranean region requires keeping climate change within tolerable bounds. Current understanding of safe limits points to the need for prompt international agreement—and action—to make the drastic cuts in emissions of greenhouse gases required to stabilise atmospheric concentrations of these gases."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nComplete the flow-chart below.\nWrite NO MORE THAN THREE WORDS for each answer.\n\n\n\n\n27 _________________\n28 _________________\n29 _________________\n30 _________________\n31 _________________\n32 _________________"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 36,
+      "text": "Questions 33–36\nReading Passage 3 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter A–G in spaces 33–36 below.\n\n\n33 ____________ Human intervention is a potential solution to disaster.\n34 ____________ The rate of climate change is set to accelerate dramatically.\n35 ____________ There is seldom enough information available in some areas to track how\nfast the effects of climate change have happened in the past.\n36 ____________ Desertification is attributable to a number of factors."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete the summary with the list of words A–I below.\nWrite the correct letter A–I in spaces 37–40 below.\n\n\nClimate change may have catastrophic effects on the human and animal world.\nAs glaciers melt, sea levels will rise, causing extensive flooding and land 37\n____________. Another consequence of global warming is 38 ____________,\nwhich affects areas known as 39 ____________. These areas are subject to\nirregular weather patterns, but also suffer from human intervention or neglect,\nsuch as inadequate or inefficient 40 ____________ systems.\n\n\n A                                     irrigation\n\n B                                     cooling\n\n C                                     drylands\n\n D                                     cause\n\n E                                     loss\n\n F                                     abuse\n\n G                                     desertification\n\n H                                     deserts\n\n I                                     emission"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "土地退化以 ______ 進行。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "______ 一種 climate trend。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "______ 一種 climate change。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "結果導致更大的／更高程度的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "______ 的耗損／枯竭。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "______ 的耗損／流失。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "____________ Human intervention is a potential solution to disaster.",
+      "translation": "人類介入可能是災難的一種解決方向。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "____________ The rate of climate change is set to accelerate dramatically.",
+      "translation": "Climate change 的速度將會大幅加快。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "____________ There is seldom enough information available in some areas to track how fast the effects of climate change have happened in the past.",
+      "translation": "在某些地區，常常沒有足夠資料追蹤過去變化發生得有多快。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "____________ Desertification is attributable to a number of factors.",
+      "translation": "Desertification 可以歸因於多種因素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "隨著 glaciers 融化，sea levels 會上升，造成大範圍 flooding 和 land ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "Global warming 的另一個後果是 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "它影響一些稱為 ______ 的地區。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "這些地區會受到 irregular weather patterns 影響，也會因人類介入或忽視而受損，例如不足或低效的 ______ systems。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-080/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-080/page-6.jpg"
+  ]
+}

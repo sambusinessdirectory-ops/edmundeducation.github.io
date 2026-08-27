@@ -1,0 +1,287 @@
+{
+  "id": "p2-063",
+  "catalogueId": "p2-063",
+  "title": "The Fertility Bust",
+  "sourceHeading": "The Fertility Bust",
+  "passage": 2,
+  "practice": 63,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-063-the-fertility-bust",
+  "source": {
+    "filename": "Practice 63 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "94a9974c467fe29e10bba7d322cd6cd682beea0e5e942786a290a216087fd892"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Falling populations – the despair of state pension systems – are often regarded with calmness, even a secret satisfaction, by ordinary people. Europeans no longer need large families to gather the harvest or to look after parents. They have used their good fortune to have fewer children, thinking this will make their lives better. Much of Europe is too crowded as it is. Is this all that is going on? Germans have been agonising about recent European Union estimates suggesting that 30 per cent of German women are, and will remain, childless. The number is a guess: Germany does not collect figures like this. Even if the share is 25 per cent, as other surveys suggest, it is by far the highest in Europe."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Germany is something of an oddity in this. In most countries with low fertility, young women have their first child late, and stop at one. In Germany, women with children often have two or three, but many have none at all. Germany is also odd in experiencing low fertility for such a long time. Europe is demographically polarised. Countries in the north and west saw fertility fall early, in the 1960s. Recently, they have seen it stabilise or rise back towards replacement level (i.e. 2.1 births per woman). Countries in the south and east, on the other hand, saw fertility rates fall much faster, more recently (often to below 1.3, a rate at which the population falls by half every 45 years). Germany combines both. Its fertility rate fell below 2 in 1971 and has remained low; it is still only just above 1.3. This challenges the notion that European fertility is likely to stabilise at tolerable levels. It raises questions about whether the low birth rates of Italy and Poland, say, really are, as some have argued, merely temporary."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The list of explanations for why German fertility has not rebounded is long. Michael Teitelbaum, a demographer at the Sloan Foundation in New York, ticks them off: poor childcare; unusually extended higher education; inflexible labour laws; high youth unemployment; and non-economic or cultural factors. One German writer, Günter Grass, wrote a novel, “Headbirths”, in 1982, about Harm and Dorte Peters, “a model couple” who disport themselves on the beaches of Asia rather than invest time and trouble in bringing up a baby. “They keep a cat,” writes Mr Grass, “and still have no child.” The novel is subtitled “The Germans Are Dying Out”. With the exception of this cultural factor, none of these features is peculiar to Germany. If social and economic explanations account for persistent low fertility there, then they may well produce the same persistence elsewhere."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The reason for hoping otherwise is that the initial decline in southern and eastern Europe was drastic, and may be reversible. In the Mediterranean, demographic decline was associated with freeing young women from the constraints of traditional Catholicism, which encouraged large families. In eastern Europe, it was associated with the collapse in living standards and the ending of pro-birth policies. In both regions, as such temporary factors fade, fertility rates might, in principle, be expected to rise. Indeed, they may already be stabilising in Italy and Spain. Germany tells you that reversing these trends can be hard. There, and elsewhere, fertility rates did not merely fall; they went below what people said they wanted. In 1979, Eurobarometer asked Europeans how many children they would like. Almost everywhere, the answer was two: the traditional two-child ideal persisted even when people were not achieving it. This may have reflected old habits of mind. Or people may really be having fewer children than they claim to want."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "A recent paper suggests how this might come about. If women postpone their first child past their mid-30s, it may be too late to have a second even if they want one (the average age of first births in most of Europe is now 30). If everyone does the same, one child becomes the norm: a one-child policy by example rather than coercion, as it were. If women wait to start a family until they are established at work, they may end up postponing children longer than they might otherwise have chosen. When birth rates began to fall in Europe, this was said to be a simple matter of choice. That was true, but it is possible that fertility may overshoot below what people might naturally have chosen. For many years, politicians have argued that southern Europe will catch up from its fertility decline because women, having postponed their first child, will quickly have a second and third. The overshoot theory suggests there may be only partial recuperation. Postponement could permanently lower fertility, not just redistribute it across time."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "There is a twist. If people have fewer children than they claim to want, how they see the family may change, too. Research by Tomas Sobotka of the Vienna Institute of Demography suggests that, after decades of low fertility, a quarter of young German men and a fifth of young women say they have no intention of having children and think that this is fine. When Eurobarometer repeated its poll about ideal family size in 2001, support for the two-child model had fallen everywhere. Parts of Europe, then, may be entering a new demographic trap. People restrict family size by choice. Social, economic, and cultural factors then cause this natural fertility decline to overshoot. This changes expectations, to which people respond by having even fewer children. That does not necessarily mean that birth rates will fall even more: there may yet be some natural floor, but it could mean that recovery from very low fertility rates proves to be slow or even non-existent."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has six paragraphs (A–F).\nWhich paragraph does each of the following headings best fit?\n14 ____________ Even further falls?\n15 ____________ One-child policy\n16 ____________ Germany differs\n17 ____________ Possible reasons"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nWrite the corresponding letters in answer boxes 18–22 in any order.\n A Germany has the highest percentage of childless women.\n B Italy and Poland have high birth rates.\n C Most of the reasons given by Michael Teitelbaum are not unique to Germany.\n D Governments in eastern Europe encouraged people to have children.\n E In 1979, most families had one or two children.\n F European women who have a child later usually have more soon after.\n G In 2001, people wanted fewer children than in 1979, according to Eurobarometer research.\n H There may be a natural level at which birth rates stop declining."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nAccording to the information given in the text, choose the correct answer or answers from\nthe choices given.\n\n\n23 Reasons that ordinary Europeans do not think it is necessary to have as many children\ninclude\n A less labour needed to farm land.\n B the feeling that Europe is too crowded.\n C a general dislike of children.\n\n\n24 Michael Teitelbaum adds the following reasons:\n A poor childcare facilities.\n B longer working hours.\n C high unemployment amongst young adults.\n\n\n25 Initial declines in southern and eastern Europe occurred because of\n A the reduced influence of the Catholic Church.\n B lower standards of living.\n C governments encouraged smaller families.\n\n\n26 People may have fewer children than they want because\n A women are having children at a later age.\n B they are following the example of other people.\n C politicians want them to."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ Even further falls?",
+      "translation": "會否進一步下跌？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ One-child policy",
+      "translation": "一孩政策。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ Germany differs",
+      "translation": "德國情況不同。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ Possible reasons",
+      "translation": "可能原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "德國有最高比例的無子女女性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "德國有最高比例的無子女女性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "德國有最高比例的無子女女性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "德國有最高比例的無子女女性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "德國有最高比例的無子女女性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Reasons that ordinary Europeans do not think it is necessary to have as many children include",
+      "translation": "普通歐洲人覺得沒有必要生那麼多孩子的原因包括甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Michael Teitelbaum adds the following reasons:",
+      "translation": "Michael Teitelbaum 補充了哪些原因？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Initial declines in southern and eastern Europe occurred because of",
+      "translation": "南歐和東歐最初 fertility decline 的原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "People may have fewer children than they want because",
+      "translation": "人們可能生少於自己想要的孩子，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-063/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-063/page-5.jpg"
+  ]
+}

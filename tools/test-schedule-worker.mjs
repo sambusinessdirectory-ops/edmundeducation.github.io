@@ -12,7 +12,7 @@ const baseEnv = {
 
 const health = await worker.fetch(new Request("https://worker.example/v1/health"), baseEnv);
 assert.equal(health.status, 200);
-assert.deepEqual(await health.json(), { ok: true, service: "edmund-schedule-system", emailVersion: 2 });
+assert.deepEqual(await health.json(), { ok: true, service: "edmund-schedule-system", emailVersion: 3 });
 
 const forbidden = await worker.fetch(new Request("https://worker.example/v1/admin/login", {
   method: "POST",

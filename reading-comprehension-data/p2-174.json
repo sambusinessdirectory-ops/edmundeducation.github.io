@@ -1,0 +1,279 @@
+{
+  "id": "p2-174",
+  "catalogueId": "p2-174",
+  "title": "Developmental Tasks of Normal Adolescence",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 174,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-174-developmental-tasks-of-normal-adolescence",
+  "source": {
+    "filename": "Practice 174 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "f5ddeb50c12ba894f32faa8ec1de06064713eea6fd422d0dfdf191a321f95743"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Developmental Tasks of Normal Adolescence Some years ago, Professor Robert Havighurst of the University of Chicago, USA, proposed that stages in human development can best be thought of in terms of the developmental ‘tasks’ that are part of the normal transition. He identified ten developmental tasks associated with the adolescent transition. Each of the Havighurst tasks can also be seen as elements of the overall sense of self that adolescents carry with them as they move towards and into young adulthood. Adolescents do not progress through these multiple developmental tasks separately; at any given time they may be dealing with several."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The adolescent must adjust to a new physical sense of self. At no other time since birth does an individual undergo such profound physical changes as during early adolescence. Puberty is marked by sudden, rapid growth in height and weight. Also, the young person experiences the emergence and accentuation of those physical traits that make the person a boy or a girl. The young person looks less like a child and more like a physically mature adult. The effect of this rapid change is that mid-adolescents are body-conscious, and their concerns are directed towards their opposite-sex peers."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The adolescent must adjust to new intellectual abilities. In addition to a sudden spurt in physical growth, adolescents experience a sudden increase in their ability to think about their world. As a normal part of maturity, they are able to think about more things. However, they are also able to conceive of their world with a new level of awareness. Before adolescence, children’s thinking is dominated by the need for a concrete example when solving a problem; their thinking is confined to what is real and physical. During adolescence, young people begin to recognise and understand abstractions. The growth in the ability to deal with abstractions accelerates during the middle stages of adolescence."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The adolescent must adjust to increased cognitive demands at school. Adults see high school in part as a place where adolescents prepare for adult roles and responsibilities and in part as preparation for further education. School curricula frequently include more abstract, demanding material, regardless of whether the adolescents have achieved formal thought. Since not all adolescents make the intellectual transition at the same rate, demands for abstract thinking prior to the achievement of that ability may be frustrating."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The adolescent must adopt a personal value system. During adolescence, as teens develop increasingly complex knowledge systems, they also adopt an integrated set of values and morals. During the early stages of moral development, parents provide their children with a structured set of rules about what is right and wrong, what is acceptable and unacceptable. Eventually the adolescent must assess their parents’ values as they come into conflict with values expressed by peers and other segments of society. To reconcile differences, the adolescent restructures those beliefs into a personal ideology."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The adolescent must develop expanded verbal skills to accommodate more complex concepts and tasks. Their limited language of childhood is no longer adequate. As their conceptual development may outstrip their verbal development, adolescents may appear less competent than they really are."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The adolescent must establish adult vocational goals. As part of the process of establishing a personal identity, the adolescent must also begin the process of addressing the question, ‘What do you plan to be when you grow up?’ Mid-adolescents must identify, at least at a preliminary level, what their adult vocational goals are and how they intend to achieve them."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The adolescent must develop a personal sense of identity. Prior to adolescence, one’s identity is an extension of one’s parents’ identity. During the early adolescent years a young person begins to recognise their uniqueness and to establish themselves as an individual separate from their parents. As such, one must reconsider the answer to the question, ‘What does it mean to be me?’ or ‘Who am I?’"
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The adolescent must establish emotional and psychological independence from his or her parents. Childhood is marked by strong dependence on one’s parents. Adolescents may yearn to keep that safe, secure, supportive, dependent relationship. Yet, to be an adult implies a sense of independence, of autonomy, of being one’s own person. In an attempt to assert their need for independence and individuality, adolescents may respond with what appears to be hostility and lack of cooperation."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "The adolescent must develop stable and productive peer relationships. Although peer interaction is not unique to adolescence, it seems to reach a peak of importance during early adolescence. Certainly by late adolescence or early adulthood the need for peer approval has diminished. The degree to which an adolescent is able to make friends and have an accepting peer group, though, is a major indicator of how well the adolescent will adjust in other areas of social and psychological development. Early adolescence is also a period of intense conformity to peers. ‘Fitting in’, not being different, and being accepted seem particularly pressing for this age group. The worst possibility, from the perspective of the young teen, is to be seen by peers as different."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "The adolescent must develop increased impulse control and behavioural maturity. In their shift to adulthood, most young people engage in one or more behaviours that place them at physical, social, or educational risk. Risky behaviours are sufficiently pervasive among adolescents to suggest that risk-taking may be a normal developmental process of middle adolescence. Gradually adolescents develop a set of behavioural self-controls through which they assess which behaviours are acceptable and adult-like."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–20",
+    "g21": "Questions 21–24",
+    "g25": "Questions 25–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 20,
+      "text": "Questions 15–20\nClassify the following developments as characteristic of\n A                                  early adolescence\n\n B                                  middle adolescence\n\n C                                  late adolescence\nWrite the correct letter, A, B or C, in boxes 15–20 on your answer sheet.\n\n\n15 __________ Becoming interested in people of the other gender\n16 __________ Beginning to choose a future career\n17 __________ Needing to feel the same as one’s friends\n18 __________ Beginning to form a self-image separate from the family context\n19 __________ Having less need for friends’ approval\n20 __________ Exposing oneself to danger"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 24,
+      "text": "Questions 21–24\nComplete each sentence with the correct ending, A–E, below.\nWrite the correct letter, A–E, in boxes 21–24 on your answer sheet.\n A                        reflects an adolescent’s emerging self-perception.\n\n B                        cannot solve a problem without an example.\n\n C                        is designed to become more challenging.\n\n D                        formulates a personal set of moral beliefs and values.\n\n E                        varies according to the individual.\n\n\n21 __________ Havighurst proposed a set of tasks which\n22 __________ A course of study at high school\n23 __________ The speed at which thinking ability develops during adolescence\n24 __________ Adolescence is a time when the young person"
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 27,
+      "text": "Questions 25–27\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 25–27 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n\n\n25 __________ Most pre-adolescent children are capable of abstract thought.\n26 __________ Adolescents’ limited verbal skills may give a false impression of their ability.\n27 __________ Whether an adolescent is accepted by their age group is an important indicator\nof other aspects of social adjustment."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Becoming interested in people of the other gender",
+      "translation": "開始對另一性別的人感興趣。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Beginning to choose a future career",
+      "translation": "開始選擇未來職業。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Needing to feel the same as one’s friends",
+      "translation": "需要覺得自己和朋友一樣。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Beginning to form a self-image separate from the family context",
+      "translation": "開始形成一個和家庭背景分開的自我形象。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Having less need for friends’ approval",
+      "translation": "較少需要朋友認同。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Exposing oneself to danger",
+      "translation": "讓自己暴露在危險之中。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Havighurst proposed a set of tasks which",
+      "translation": "Havighurst 提出了一組任務，這些任務 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ A course of study at high school",
+      "translation": "高中課程 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ The speed at which thinking ability develops during adolescence",
+      "translation": "青少年期思考能力發展的速度 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Adolescence is a time when the young person",
+      "translation": "青少年期是一個年輕人 ______ 的時期。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "__________ Most pre-adolescent children are capable of abstract thought.",
+      "translation": "大部分青春期前兒童都能夠抽象思考。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "__________ Adolescents’ limited verbal skills may give a false impression of their ability.",
+      "translation": "青少年有限的語言能力，可能令人對他們的能力產生錯誤印象。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "__________ Whether an adolescent is accepted by their age group is an important indicator of other aspects of social adjustment.",
+      "translation": "青少年是否被同齡群體接納，是其他社交適應方面的重要指標。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-174/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-174/page-6.jpg"
+  ]
+}

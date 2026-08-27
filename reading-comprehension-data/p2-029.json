@@ -1,0 +1,237 @@
+{
+  "id": "p2-029",
+  "catalogueId": "p2-029",
+  "title": "Children’s Literature",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 29,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-029-childrens-literature",
+  "source": {
+    "filename": "Practice 29 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "d0c7722d8a5f231129835c1aed7f0f2762e498449d68108415dbd13c5c62c4ea"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Children’s Literature Stories and poems aimed at children have an exceedingly long history: lullabies, for example, were sung in Roman times, and a few nursery games and rhymes are almost as ancient. Yet so far as written-down literature is concerned, while there were stories in print before 1700 that children often seized on when they had the chance, such as translations of Aesop’s fables, fairy-stories and popular ballads and romances, these were not aimed at young people in particular. Since the only genuinely child-oriented literature at this time would have been a few instructional works to help with reading and general knowledge, plus the odd Puritanical tract as an aid to morality, the only course for keen child readers was to read adult literature. This still occurs today, especially with adult thrillers or romances that include more exciting, graphic detail than is normally found in the literature for younger readers."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "By the middle of the 18th century there were enough eager child readers, and enough parents glad to cater to this interest, for publishers to specialize in children’s books whose first aim was pleasure rather than education or morality. In Britain, a London merchant named Thomas Boreham produced Cajanus, The Swedish Giant in 1742, while the more famous John Newbery published A Little Pretty Pocket Book in 1744. Its contents – rhymes, stories, children’s games, plus a free gift (‘A ball and a pincushion’)—in many ways anticipated the similar lucky-dip contents of children’s annuals this century. It is a tribute to Newbery’s flair that he hit upon a winning formula so quickly and that it was pirated almost immediately in America."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Such pleasing levity was not to last. Influenced by Rousseau, whose Émile (1762) decreed that all books for children save Robinson Crusoe were a dangerous diversion, contemporary critics saw to it that children’s literature should be instructive and uplifting. Prominent among such voices was Mrs. Sarah Trimmer, whose magazine The Guardian of Education (1802) carried the first regular reviews of children’s books. It was she who condemned fairy-tales for their violence and general absurdity; her own stories, Fabulous Histories (1786), described talking animals who were always models of sense and decorum."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "So the moral story for children was always threatened from within, given the way children have of drawing out entertainment from the sternest moralist. But the greatest blow to the improving children’s book was to come from an unlikely source indeed: early-19th-century interest in folklore. Both nursery rhymes, selected by James Orchard Halliwell for a folklore society in 1842, and a collection of fairy stories by the scholarly Grimm brothers, swiftly translated into English in 1823, soon rocketed to popularity with the young, quickly leading to new editions, each one more child-centred than the last. From now on younger children could expect stories written for their particular interest and with the needs of their own limited experience of life kept well to the fore."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "What eventually determined the reading of older children was often not the availability of special children’s literature as such but access to books that contained characters, such as young people or animals, with whom they could more easily empathize, or action, such as exploring or fighting, that made few demands on adult maturity or understanding."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The final apotheosis of literary childhood as something to be protected from unpleasant reality came with the arrival in the late 1930s of child-centred bestsellers intent on entertainment at its most escapist. In Britain, novelists such as Enid Blyton and Richmal Crompton described children who were always free to have the most unlikely adventures, secure in the knowledge that nothing bad could ever happen to them in the end. The fact that war broke out again during her books’ greatest popularity fails to register at all in the self-enclosed world inhabited by Enid Blyton’s young characters. Reaction against such dream-worlds was inevitable after World War II, coinciding with the growth of paperback sales, children’s libraries and a new spirit of moral and social concern. Urged on by committed publishers and progressive librarians, writers slowly began to explore new areas of interest while also shifting the settings of their plots from the middle-class world to which their chiefly adult patrons had always previously belonged."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Critical emphasis, during this development, has been divided. For some the most important task was to rid children’s books of the social prejudice and exclusiveness no longer found acceptable. Others concentrated more on the positive achievements of contemporary children’s literature. That writers of these works are now often recommended to the attention of adult as well as child readers echoes the 19th-century belief that children’s literature can be shared by the generations, rather than being a defensive barrier between childhood and the necessary growth towards adult understanding."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nComplete the table below.\nChoose NO MORE THAN TWO WORDS from Reading Passage 2 for each answer.\nWrite your answers in boxes 14–18 on your answer sheet.\n Date               Features                      Aim                    Example\n\n                    Not aimed specifically at     Education and\n Before 1700                                                             Puritanical tract\n                    children                      morality\n\n                    A collection of 14                                   A Little Pretty Pocket-Book\n Mid-18th century   _________________ and         Pleasure               (exported to 15\n                    games                                                _________________)\n\n Early 19th         Growing interest in 16        More child-centred     Nursery rhymes and 17\n century            _________________             writing                _________________\n\n                    Stories of risk-free 18                              Novels by Enid Blyton and\n Late 1930s                                       Entertainment\n                    _________________                                    Richmal Crompton"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 21,
+      "text": "Questions 19–21\nLook at the following people and the list of statements below.\nMatch each person with the correct statement.\nWrite the correct letter A–E in boxes 19–21 on your answer sheet.\n A                          Wrote criticism of children’s literature\n\n B                          Used animals to exemplify the absurdity of fairy tales\n\n C                          Was originally a merchant rather than a writer\n\n D                          Translated a book into English\n\n E                          Did not write in English\n\n\n19 ____________ Thomas Boreham\n20 ____________ Mrs Sarah Trimmer\n21 ____________ The Brothers Grimm"
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 22–26 on your answer sheet write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n22 _________________ Children did not begin reading books until 1700.\n23 _________________ Sarah Trimmer believed that children’s books should set good\nexamples.\n24 _________________ Parents were concerned about violence in children’s books.\n25 _________________ Interest in folklore changed the direction of children’s literature.\n26 _________________ Today, writers of children’s books believe their work should appeal to\nboth children and adults."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "18 世紀中期：一本包含 __________ 和 games 的合集。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "A Little Pretty Pocket-Book 被帶到或傳到 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "19 世紀初：對 __________ 的興趣增加。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "nursery rhymes 和 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "1930 年代後期：關於沒有真正危險的 __________ 的故事。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "____________ Thomas Boreham",
+      "translation": "Thomas Boreham 對應哪一項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "____________ Mrs Sarah Trimmer",
+      "translation": "Mrs Sarah Trimmer 對應哪一項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "____________ The Brothers Grimm",
+      "translation": "The Brothers Grimm 對應哪一項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________________ Children did not begin reading books until 1700.",
+      "translation": "兒童直到 1700 年才開始讀書。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________________ Sarah Trimmer believed that children’s books should set good examples.",
+      "translation": "Sarah Trimmer 認為兒童書應該樹立良好榜樣。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________________ Parents were concerned about violence in children’s books.",
+      "translation": "父母擔心兒童書中的暴力。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________________ Interest in folklore changed the direction of children’s literature.",
+      "translation": "對 folklore 的興趣改變了兒童文學的方向。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________________ Today, writers of children’s books believe their work should appeal to both children and adults.",
+      "translation": "今天，兒童書作家相信自己的作品應該同時吸引兒童和成人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-029/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-029/page-5.jpg"
+  ]
+}

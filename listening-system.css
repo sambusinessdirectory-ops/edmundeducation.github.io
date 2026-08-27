@@ -285,6 +285,8 @@ button:disabled { cursor:default; opacity:.5; }
 .row-audio-player small { display:block; color:var(--muted); margin-top:5px; }
 .row-audio-player audio { flex:1; min-width:180px; }
 .row-audio-player label { min-width:72px; }
+/* Row replay temporarily replaces the main dock, so its controls stay usable. */
+.row-audio-player:not([hidden]) ~ .floating-audio-player { display:none; }
 .listening-recorder { width:min(850px,calc(100% - 24px)); max-height:90vh; max-height:90dvh; padding:clamp(18px,4vw,36px); border:1px solid var(--line); border-radius:26px; color:var(--ink); background:#fffcf5; box-shadow:var(--shadow); }
 .listening-recorder::backdrop { background:rgba(9,33,49,.6); backdrop-filter:blur(5px); }
 .recorder-heading { display:flex; align-items:center; justify-content:space-between; gap:14px; }
@@ -314,3 +316,13 @@ button:disabled { cursor:default; opacity:.5; }
   .listening-recorder .recorder-controls button { flex:1 1 auto; }
   .difficulty-stars button { width:40px; }
 }
+/* Every imported practice uses the same question/transcript workspace. */
+.listening-source-paper { border: 1px solid #dbe7f7; background: #fbfdff; border-radius: 22px; padding: clamp(16px, 3vw, 30px); margin: 24px 0; }
+.listening-source-paper h3, .listening-answer-heading { color: #12335d; }
+.source-paper-help, .listening-source-paper figcaption { color: #5a6f87; font-size: .9em; }
+.source-paper-text { white-space: pre-line; line-height: 1.8; margin: 20px 0; overflow-wrap: anywhere; }
+.listening-source-paper figure { margin: 24px 0; }
+.listening-source-paper img { display: block; width: auto; max-width: 100%; height: auto; margin-inline: auto; border-radius: 8px; }
+.listening-source-paper details { margin-top: 10px; }
+.listening-source-paper details p { white-space: pre-line; }
+.transcript-row-actions time { color: #596e88; font-variant-numeric: tabular-nums; font-size: .85em; }

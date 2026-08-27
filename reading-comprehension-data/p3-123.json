@@ -1,0 +1,263 @@
+{
+  "id": "p3-123",
+  "catalogueId": "p3-123",
+  "title": "FUELING THE FUTURE",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 123,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-123-fueling-the-future",
+  "source": {
+    "filename": "Practice 123 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "f771131a80eab7560b7166dec1ae1aeab16876c7a320928188064c980fbe0f57"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Fueling the Future The world’s 750 million motor vehicles emit well over 900 million metric tonnes of carbon dioxide each year. Traffic-related air pollution has been responsible for 6% of deaths per year and is associated with certain forms of leukaemia, inflammatory lung diseases, increased cardiovascular disease, low birth-weight babies and male infertility. It stands to reason that tackling traffic-related air pollution should be high on any government’s list of priorities. Thus, in an attempt to address this problem, many governments around the world have been looking at ways to implement alternative fuel sources. The most widely accepted way of doing this is to replace the crude oil that our vehicles currently run on with renewable, ‘environmentally friendly’ alternatives. One serious contender put forward as a solution to the pollution problem is ethanol."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Ethanol is a type of alcohol made by fermenting plant material. Water and organic matter from the plants including corn, sorghum, sugar cane and wood are mixed together and fermented to make ethanol. After fermentation there are three layers remaining. The first is water and small particles of grain and alcohol. It takes on a syrup consistency. The second layer is the remaining grain, which is 17 per cent dry matter. The third layer is the actual ethanol – a colourless, volatile, flammable liquid. It is the only layer sold and accounts for exactly one-third of the total dry matter used for its production. There are three primary ways that it is used as a fuel for transportation: as a blend of 10 per cent ethanol with 90% unleaded fuel (E10); as a component of reformulated gasoline; and as a primary fuel with 85 parts of ethanol blended with 15 parts of unleaded fuel (E-85). In the 1800s in the USA, it was first used as lamp fuel. Later on, due to skyrocketing oil prices in the 1970s, E10 was produced as a type of ‘fuel-extender’ for vehicles with E-85 being produced in the 1990s. Brazil has also used ethanol-blended fuels. Like America, the high prices in the 1970s prompted a government mandate to produce vehicles which could be fuelled by pure ethanol. Today there are more than 4.2 million ethanol-powered vehicles in Brazil (40 per cent of passenger-carrying vehicles) which consume 4 billion gallons of ethanol annually. Today, Brazil has the largest transportation ethanol fuel market in the world."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Given that ethanol is made from a variety of plant substances, when it is used in fuel production, it increases the monetary value of feed grains grown by farmers. In fact, in the USA, the largest ethanol-consuming nation in the world, ethanol production adds $4.5 billion to the farm economy every year. According to the United States Department of Agriculture, ethanol production adds 30 cents to the value of a bushel of corn. Another of its benefits, according to Brian Keating, deputy chief of Australia’s Commonwealth Scientific and Industrial Research Organisation (CSIRO), is that a 10% ethanol blend (E10) would reduce greenhouse gas emissions by 2–5% over the full lifecycle of ethanol production and consumption. Said Keating, “The precise benefits depend on specific factors in the production cycle, an important component of which is the energy source used by the ethanol factory. If it’s being powered by coal or oil, there are obviously associated greenhouse gas emissions.” In America, the Clean Air Act of 1990 and the National Energy Policy Act of 1992 have both created new market opportunities for cleaner, more efficient fuels with many state governments in America’s Midwest purchasing fleet vehicles capable of running on E-85 fuels."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Although it makes good fuel, some drawbacks have been documented. The economics of ethanol production are improving as the technology improves, but ethanol has two problems: It does not explode like gasoline, and it can absorb water, which can cause oxidation, rust and corrosion. The claims of possible damage to vehicles from the use of ethanol blends above 10% have therefore attracted considerable negative publicity. Compared to diesel – the standard fuel in the heavy transport industry – ethanol is known to have a lower energy content so ethanol trucks require larger fuel tanks to achieve the same range as a diesel-powered vehicle. In Australia, a government review into the impacts of a 20% ethanol blend on vehicles found the information to be insufficient or conflicting, but did identify a number of problems such as the possible perishing and swelling of elastomeric and plastic materials in fuel systems. Stakeholders in the motor vehicle industry have stated that warranties on motor vehicles and pump dispensing equipment could be at risk with the use of blends above 10% ethanol. Principal economist for the Australian Bureau of Agriculture, Andrew Dickson, points out that the money sugarcane growers get for their cane is not determined by the domestic consumption or domestic demand for ethanol; it is entirely determined by the world sugar market and the world trade in molasses. He believes that the only way the sugar industry can benefit from the existence of an ethanol industry is if it invests in the ethanol industry. “The sugar producer does not get any more money for their molasses so what incentive do they have to produce any more?” The cost of production also represents some challenges. In Australia, fuel ethanol costs around 70 cents per litre compared with around 35 cents per litre for unleaded petrol. In America, one report revealed that even with government assistance, ethanol costs nearly 35 per cent more than diesel. Consequently, production of ethanol requires government assistance to be competitive. A recent study by the Australian Bureau of Agricultural and Resource Economies found that without assistance, large-scale production of ethanol would not be commercially viable in Australia."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Regardless of whether the Australian sugar industry will benefit from a mandated 10% ethanol mix, the expansion of ethanol production would certainly lead to increased economic activity in farming areas. It is inevitable that some expansion would be at the expense of existing industry. If ethanol becomes more popular, there will soon be more plants producing it. This means there will be a need for workers at the plants. The American National Ethanol Vehicle Coalition (NEVC) projects that employment will be boosted by 200,000 jobs and the balance of trade will be improved by over $2 billion. The future of ethanol looks promising; for better or worse, ethanol looks to be a serious contender for tomorrow’s fuel."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 27–31 on your answer sheet, write:\n YES                       if the statement agrees with the views of the writer\n\n NO                        if the statement contradicts the views of the writer\n\n NOT GIVEN                 if it is impossible to say what the writer thinks about this\n27 The need to control air pollution is why ethanol came into use.\n28 Brazil uses more ethanol for transportation than America.\n29 Selected food crops become more expensive due to ethanol production.\n30 The Australian sugar industry will benefit from the production of ethanol.\n31 Primary ethanol (E-85) has been extensively tested in Australia."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 35,
+      "text": "Questions 32–35\nLook at the following list of descriptions (Questions 32–35) and the list of fuel types below.\nMatch each description to the fuel type.\nWrite the correct letter A–D in boxes 32–35 on your answer sheet.\nNB You may use any letter more than once.\n A                                     regular gasoline\n\n B                                     unleaded gasoline\n\n C                                     ethanol\n\n D                                     diesel\n32 costs about half the price of ethanol\n33 reacts poorly with some metals\n34 is the reason why trucks have been fitted with larger fuel tanks\n35 commonly used in the trucking industry"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nClassify the following statements according to which country they apply to. Write the appropriate\nletters A–D in boxes 36–40 on your answer sheet.\n A                        Australia only\n\n B                        America only\n\n C                        both Australia and America\n\n D                        neither Australia nor America\n36 makes ethanol out of sugar cane\n37 uses more ethanol than any other country in the world\n38 receives government assistance for ethanol production\n39 proved ethanol production is costly\n40 their government bought ethanol-friendly cars"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The need to control air pollution is why ethanol came into use.",
+      "translation": "控制空氣污染的需要，是 ethanol 被使用的原因。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Brazil uses more ethanol for transportation than America.",
+      "translation": "巴西在交通運輸方面使用的 ethanol 多於美國。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Selected food crops become more expensive due to ethanol production.",
+      "translation": "某些食用作物會因 ethanol 生產而變得更貴。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The Australian sugar industry will benefit from the production of ethanol.",
+      "translation": "澳洲糖業將會因 ethanol 生產而受惠。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Primary ethanol (E-85) has been extensively tested in Australia.",
+      "translation": "Primary ethanol，也就是 E-85，已經在澳洲經過廣泛測試。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "costs about half the price of ethanol",
+      "translation": "價格大約是 ethanol 的一半。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "reacts poorly with some metals",
+      "translation": "和某些金屬反應不佳，可能造成損害。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "is the reason why trucks have been fitted with larger fuel tanks",
+      "translation": "是貨車需要較大油箱的原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "commonly used in the trucking industry",
+      "translation": "常用於貨運或重型運輸業。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "makes ethanol out of sugar cane",
+      "translation": "用 sugar cane 製造 ethanol。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "uses more ethanol than any other country in the world",
+      "translation": "使用 ethanol 的量比世界任何其他國家都多。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "receives government assistance for ethanol production",
+      "translation": "在 ethanol 生產方面得到政府協助。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "proved ethanol production is costly",
+      "translation": "證明 ethanol 生產成本高。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "their government bought ethanol-friendly cars",
+      "translation": "其政府購買了適合使用 ethanol 的車輛。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-123/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-123/page-6.jpg"
+  ]
+}

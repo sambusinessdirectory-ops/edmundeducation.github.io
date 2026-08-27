@@ -1,0 +1,289 @@
+{
+  "id": "p3-095",
+  "catalogueId": "p3-095",
+  "title": "The Biggest Impact",
+  "sourceHeading": "The Biggest Impact",
+  "passage": 3,
+  "practice": 95,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-095-the-biggest-impact",
+  "source": {
+    "filename": "Practice 95 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "0dda4da3bc9bfe24d02a8849b3248560b904bb90a14f6f7de0533aab5028c0bc"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In 1980 a team of researchers were analysing soil samples at what was then known as the KT boundary. The K is misleading, as it actually refers to the Cretaceous era, while the T refers to the Tertiary era. Geologists originally placed a boundary at that distant point, some 65 million years ago, because a mass extinction occurred then, causing over two-thirds of all land and sea life to disappear, including the dinosaurs — or more strictly, all non-avian dinosaurs (since birds are now considered dinosaurs’ descendants). Whilst this was not the biggest extinction of all, it is definitely the most famous. But what caused it?"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The researchers discovered that sedimentary layers at the KT boundary contained a concentration of iridium many times higher than normal — up to 120 times. Most iridium disappeared when the Earth was molten, sinking into its metallic core. However, this element is abundant in asteroids and comets, which led to an intriguing hypothesis — that an asteroid or comet had struck the Earth, causing the mass extinction. The object would have vaporised almost immediately upon impact, throwing its iridium-rich contents into the atmosphere, from where they eventually settled across the entire planet. The problem was that an asteroid large enough to do this would have left traces of its impact in the Earth’s crust, and at that time there were no known signs. Or were there?"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In actual fact, in the 1960s, a contractor named Baltosser, working for a Mexican state-owned oil company, had looked at a gravity map of the Yucatán Peninsula, near the Gulf of Mexico. He noticed a large arc-shaped feature, showing a symmetry that could not have occurred naturally. Company policy forbade him from releasing his findings, and so the secret remained hidden until 1978, when two geophysicists, Camargo and Penfield, working for the same company, discovered it again. In the search for possible oil-drilling sites, they had been examining magnetic surveys in the Gulf of Mexico, which revealed an underwater arc. The two arcs, sea-based and land-based, matched perfectly, showing a circle 180 kilometres wide, centred on the coastal village of Chicxulub, and so it became known as the Chicxulub Crater."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "In 1981, Camargo and Penfield released their findings, but the world was not listening. It took over ten years and much more evidence (rock samples, drilling cores, and dating of the seabed rocks to the magic figure of 65 million years), for scientists to begin accepting the findings, although widespread scepticism existed and, to some extent, remains today. It is occasionally argued that the impact was not the sole reason for the mass extinction, or that there were other contemporaneous impacts, or that extensive volcanism or climate and sea-level change were the real causes. It was perhaps this that led, in 2010, to an international panel of over 40 scientists being convened in order to specifically address the evidence. They concluded that an asteroid impact, as evidenced by the Chicxulub Crater, was indeed the cause of the mass extinction."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Trying to picture that event, the most powerful ever in the Earth’s history, strains the imagination. It begins with a 10–15-kilometre-wide rock appearing from nowhere, almost instantaneously vaporising, and releasing over two million times the energy of an atomic bomb. The most immediate effect is a cloud of superheated dust, ash, and steam expanding outwards, igniting fires, and broiling everything in its path. A series of shock waves follows a split second later, travelling across the surface of the globe, triggering earthquakes and volcanic eruptions. Next there is a ‘mega-tsunami’, thousands of metres high, ripping coastlines apart and stirring up the oceans. Then, in the next few weeks, the huge amounts of carbon dioxide from the vaporisation of carbonate rock heat the Earth, but with the atmosphere choked with dust for years, sunlight is blocked, killing off plants, ultimately plunging the Earth into winter and the entire biosphere into absolute chaos."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The surprising fact is not that so many creatures became extinct, but that so many survived! With global disruption to plant communities, the herbivorous dinosaurs died quickly, and their predators soon followed. Sea-based life suffered disastrously, and all giant marine reptiles disappeared, yet the ancestors of crocodiles survived. It is theorised that, like modern crocodiles, they were semi-aquatic and thus were able to shelter in the water from fires and blast damage, and yet could scavenge on land among the abundant dead animals for years afterwards. Similarly, insects, worms, and molluscs could all feed on dead plant and animal matter, allowing those that fed on these creatures to survive. Consequently, insectivores, scavengers, or those with omnivorous eating habits, including mammals and smaller bird-like reptiles, were preserved."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Thus, the dinosaurs as we know them, after 135 million years as the dominant land animal, were all but gone. This allowed mammals, then only small burrowing cat-like creatures (attributes which had also helped ensure their survival throughout the disaster), to emerge from the undergrowth, diversify and eventually rule the land. In an ironic consequence, that class of animal ultimately led to the species Homo sapiens, or human beings. So, were it not for that disastrous extinction 65 million years ago, we would not be here today."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nReading Passage Three has seven paragraphs, A–G.\n\n                             List of Headings\n\n i                           The situation in the sea\n\n ii                          The first piece of evidence\n\n iii                         A fortunate consequence\n\n iv                          Preservation strategies\n\n v                           Company procedures\n\n vi                          The mystery of the border\n\n vii                         A first-hand view\n\n viii                        An unexpected element\n\n ix                          A final decision\n\n x                           Heated debate\nChoose the correct heading for Paragraphs B–G from the list of headings.\nWrite the correct number, i–x, for each answer.\n Example                                                   Answer\n\n Paragraph A                                               ….. vi …..\n27 ___________ Paragraph B\n28 ___________ Paragraph C\n29 ___________ Paragraph D\n30 ___________ Paragraph E\n31 ___________ Paragraph F\n32 ___________ Paragraph G"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nComplete the summary of the first half of the passage.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n Baltosser, a contractor, was the first to identify the 33 _________________, but\n could not reveal this information because of 34 _________________. Years later,\n the discovery of 35 _________________ at the KT boundary added further\n evidence, after which Camargo and Penfield finally showed the world\n Baltosser’s discovery. Nevertheless, they had to overcome 36\n _________________ until an international commission confirmed this event as\n the real reason for the 37 _________________ which followed."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nChoose the correct letter, A, B, C, or D.\n38 After the asteroid struck the Earth:\n  A the shock wave was followed by the object’s vaporisation.\n  B the Earth warmed before going cold.\n  C the tsunami caused earthquakes and volcanic eruptions.\n  D the eruptions plunged the atmosphere into chaos.\n\n\n39 In the aftermath of the asteroid strike\n  A all the dinosaurs died.\n  B all reptiles died.\n  C the dead animals were important.\n  D the water allowed shelter for mammals.\n\n\n40 Mammals of that time survived because they\n  A consumed dead animals and plants.\n  B were large and strong.\n  C lived in the shadows of trees.\n  D were a special class of animals."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "承包商 Baltosser 是第一個辨認出 ______ 的人，但他不能公開這項資料。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "但他不能公開這項資料，原因是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "多年後，在 KT boundary 發現 ______，加入了進一步證據。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "然而，在一個國際委員會確認這件事之前，他們仍要克服 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "確認這次事件是隨後 ______ 的真正原因。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "After the asteroid struck the Earth:",
+      "translation": "小行星撞擊地球之後，發生了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "In the aftermath of the asteroid strike",
+      "translation": "在小行星撞擊後的時期，發生了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "Mammals of that time survived because they",
+      "translation": "當時的哺乳類能存活，是因為牠們……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-095/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-095/page-5.jpg"
+  ]
+}

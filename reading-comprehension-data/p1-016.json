@@ -1,0 +1,298 @@
+{
+  "id": "p1-016",
+  "catalogueId": "p1-016",
+  "title": "REIKI",
+  "sourceHeading": "REIKI",
+  "passage": 1,
+  "practice": 16,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-016-reiki",
+  "source": {
+    "filename": "Practice 16 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "b3fbd51e5b66482ffa5f4c3e8e6890e5ee1dbcbf6f8c94f5a02cec1911326033"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The spiritual practice of Reiki was first introduced in early 20th century in Japan and continues to be used by its followers today with the intention of treating physical, emotional and mental imbalances and consequent ill-health. The principles of Reiki involve techniques employed by practitioners they say will channel healing energy through the subject’s body, and advocates hold that these techniques can also be used for self-healing. The name of the practice itself stems from two Japanese characters, pronounced ‘rei’ which translates to ‘unseen’ or ‘spiritual’ and ‘ki’ meaning ‘life force’ or ‘energy’."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "According to Reiki philosophy, only by undergoing an attunement process performed by a Reiki Master is an individual able to access, then channel this positive energy within, this ability once established is considered to be enduring. Once attuned, it is said that an individual has the ability to allow energy to flow to weak or diseased areas of the body, so activating a natural healing process. Reiki energy is considered to be ‘intelligent energy’ in that it automatically flows to such areas; for this reason, practitioners believe that diagnosis of a specific problem is unnecessary beforehand and that the practice can be used as preventative medicine and encourage healing prior to the onset of tangible symptoms. Since healing initiated by Reiki treatment is entirely natural, many practitioners are confident that it can be used alongside any other type of treatment without adverse affect; however, others recommend that since the patient may undergo significant internal improvement for certain ailments – diabetes, for example – careful monitoring is required since such improvements may establish a need for an alteration in medication requirements."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "A ‘whole body’ Reiki treatment session typically lasts between to 90 minutes. The subject is required to lie down – often on a treatment table – clothed in comfortable and loose fitting attire. Treatment may involve the practitioner placing their hands on the recipient in a variety of positions; however, some therapists take a non-touching approach, holding their hands a few centimeters away from the body. Hands are usually held in one position for up to 5 minutes before moving on to the next part of the body; between 12 and 20 hand positions are generally used. Those who have undergone a Reiki treatment session often state that they experienced a pleasant warmness in the area of focus and a feeling of contentment and relaxation throughout the session."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The healing energy is said to originate in the universe itself and is not the passing of personal energy from practitioner to patient; it is therefore thought to be inexhaustible and the personal well-being of the practitioner uncompromised. While some masters and teachers hold that subjects must be receptive to the concept in order for energy to flow, others believe that the attitude of the patient is of no consequence and that benefits will follow regardless; for this reason, those following the latter school of thought say that since Reiki requires no conscious belief it can also benefit the well-being of animals and plant life."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Controversy surrounds the practice of Reiki, some in opposition as they say that Reiki may offer only a perceived improvement in health and therefore only a ‘placebo’ effect. Whilst the practice of Reiki itself is not necessarily considered potentially harmful, some medical practitioners are concerned that its benefits may be over-estimated by patients and that, as a result, they’ may ignore or bandon conventional treatments. Others argue against the reliability of Reiki due to the lack of regulation of practitioners, holding that patients may be left vulnerable to illegitimate therapists who lack knowledge and skill. While Reiki is not connected to any particular religious doctrine, some religious leaders oppose the practice for spiritual reasons; however, others hold that the meditative principles involved in treatment have enhanced their own ability to explore and embrace their own particular religion."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Limited scientific studies in the authenticity of Reiki have been conducted. During research conducted by the Institute of Neurological Studies at South Glasgow University Hospital it was observed that there was a significant decrease in heart rate and blood pressure amongst subjects receiving 30 minutes of Reiki treatment as opposed to a group receiving placebo treatment of 30 minutes rest. Since the test group consisted of a small number of subjects just 45 – the research recommendations concluded a requirement for further studies. A similarly small preliminary study into the potential effects of Reiki on patients suffering mild dementia, conducted in the USA, tentatively suggested that treatment had a positive effect on the subjects’ memory abilities; however, research limitations included insufficient analysis of potential placebo affects."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Other studies have also attempted to determine correlation between Reiki treatment and improvement in cancer and stroke patients. Whilst investigations into the first condition indicated a seemingly positive effect on degrees of fatigue, pain and stress experienced by sufferers, the second project failed to reveal a link between treatment and improvement in the subjects’ condition and rehabilitation. Theories have been put forward that the benefits of energy treatments such as Reiki may be scientifically attributed to the effect of electromagnetic fields; however, the majority researchers agree that more extensive investigation is required."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–3",
+    "g4": "Questions 4–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 3,
+      "text": "Questions 1-3\n\nChoose THREE letters A-H.\n\nWrite your answers in boxes 1- 3 on your answer sheet\n\nN.B. Your answers may be given in any order\n\n\n Which THREE of the following statements are true of Reiki?\n\nA Principles for self-healing differ to those used on others.\n\nB Attunement is said to have a permanent effect on the recipient.\n\nC Its preventative properties are more significant than cure.\n\nD There are differences in opinion regarding its use with other therapies.\n\nE The treatment typically involves contact between the therapist and the patient.\n\nF The recipient’s own energy is the key to the philosophy.\n\nG Some therapists believe a pessimistic approach affects results.\n\nH It is only practiced on human subjects."
+    },
+    {
+      "id": "g4",
+      "start": 4,
+      "end": 9,
+      "text": "Questions 4-9\n\nReading Passage 1 has seven paragraphs A-G.\n\nWhich paragraph contains the following information? You can use each paragraph more\nthan once.\n\n\n4 ______________ A scientific explanation of why Reiki may have positive effects.\n\n5 ______________ An overview of the practicalities of how Reiki is performed.\n\n6 ______________ The pre-requisite required to experience Reiki benefits.\n\n7 ______________ When patients faith and expectations cause concern.\n\n8 ______________ The immediate effects that can be experienced by recipients.\n\n9 ______________ The safety of conducting therapy for practitioners."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10-13\n\nAccording to the information in Reading Passage 1, classify the following research findings\ninto the benefits of Reiki as relating to\n\n    A      The Institute of Neurological Studies\n\n\n    B      Research conducted in the USA\n\n\n    C      Cancer research\n\n\n    D      Stroke research\n\n\nWrite the correct letter A, B, C or D in boxes 10–13 your answer sheet\n\n\n10 ______________ The groups’ comfort and quality of life appeared to improve.\n\n\n11 ______________ No apparent links were identified.\n\n\n12 ______________\nResults were compared to a control group who did not receive Reiki treatment\n\n\n13 ______________ Recollection ability seemed to be enhanced."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "以下哪三項關於 Reiki 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "以下哪三項關於 Reiki 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "以下哪三項關於 Reiki 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "______________ A scientific explanation of why Reiki may have positive effects.",
+      "translation": "一個解釋 Reiki 為何可能有正面效果的科學說法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "______________ An overview of the practicalities of how Reiki is performed.",
+      "translation": "概述 Reiki 實際如何進行。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "______________ The pre-requisite required to experience Reiki benefits.",
+      "translation": "要獲得 Reiki benefits 之前所需的前提條件。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "______________ When patients faith and expectations cause concern.",
+      "translation": "當病人的信念和期待引起擔憂時。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "______________ The immediate effects that can be experienced by recipients.",
+      "translation": "接受者可能即時感受到的效果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "______________ The safety of conducting therapy for practitioners.",
+      "translation": "對治療師而言，進行療法是否安全。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "______________ The groups’ comfort and quality of life appeared to improve.",
+      "translation": "該組人的舒適感和生活質素似乎有所改善。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "______________ No apparent links were identified.",
+      "translation": "沒有發現明顯關聯。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "______________ Results were compared to a control group who did not receive Reiki treatment",
+      "translation": "結果和一個沒有接受 Reiki treatment 的對照組比較。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "______________ Recollection ability seemed to be enhanced.",
+      "translation": "回憶能力似乎有所提升。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-016/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-016/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-016/page-8.jpg"
+  ]
+}

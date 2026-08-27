@@ -1,0 +1,261 @@
+{
+  "id": "p2-118",
+  "catalogueId": "p2-118",
+  "title": "EFFORT AND SCIENCE TO WIN",
+  "sourceHeading": "Effort and Science to Win Winning nowadays is not only a question of disciplined training: success today involves collaboration among medical specialists, who combine their expertise to help each athlete reach his or her potential.",
+  "passage": 2,
+  "practice": 118,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-118-effort-and-science-to-win",
+  "source": {
+    "filename": "Practice 118 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "7386ceaf0e1660fe2212ece6bb11ad9006a2e2016f6d620f90577c599ae1e763"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In Mexico, the Directorate of Medicine and Applied Sciences at the National Sports Commission (Deporte) analyses every aspect of sports science, from the role of the auditory system in sporting achievement to the power of the mind and its role in winning. Everything, it seems, is open to scrutiny. Recently, researchers have focused on evaluating the visual acuity of cyclists and long-distance runners, but they also study more traditional areas, including psychology, nutrition, anthropology, biochemistry and odontology. From promising child athletes as young as nine to older sportspeople, the facility at Deporte has attracted some of Mexico’s most famous athletes and Olympic hopefuls."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "“The study of elite athletes is now more scientific than ever,” says Dr Francisco Javier Squares. “After each competition, athletes undergo thorough medical examinations and follow-up training to help us devise a tailor-made programme. Elite sport has become big business; there is no longer a one-size-fits-all approach. In the past, for example, two people who were both 1.70 metres tall and weighed 70 kilograms would have been given the same athletic-conditioning programme. That idea is now obsolete. The first individual might have 35 kilograms of muscle and 15 kilograms of fat, while the other, despite having the same height and weight, might have 30 kilograms of muscle and 20 kilograms of fat. Through detailed scientific evaluation at our Deporte facility, we can construct a highly specific training programme for each individual.”"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Whereas many countries focus on glorifying the champion, the Mexican Olympic team takes a slightly different approach. Psychologically speaking, an athlete must bring a healthy dose of humility to the endeavour. As Squares says, “When an athlete wins for Mexico, it is always the result of a combined team effort, with many people working behind the scenes to make the achievement possible. When an athlete stands on the podium, it is because many people have made a great effort.”"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "As is often the case in poorer countries, sportsmen and women can be hindered by budgetary constraints. However, this has not been a problem for the Mexican team. The government has allocated a substantial sum for the latest sports-research equipment and laboratories. The quality of Mexico’s facilities is on a par with that found in countries such as Italy and Germany. One example of sophisticated equipment at the Mexican facility is the hyperbaric chamber, which is used to speed recovery after vigorous exercise. Squares says, “When you breathe the air inside a hyperbaric chamber, the natural state of the oxygen does not change. Green plants produce the oxygen; modern technology merely increases the air pressure. This does not alter oxygen’s molecular composition. The increased pressure simply allows oxygen to enter tissues more effectively. Because we have the chamber, athletes can recover from an intense workout much more quickly. We typically use it for sessions of 45 to 60 minutes a day, three times a week.”"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "When athletes are pushed to the limit, the true indicator of fitness is not how hard the heart works but how quickly it recovers after an extreme workout. Heart endurance has therefore become another area of focus for the Mexican team. An electroencephalograph (EEG) is used to measure this recovery rate. Sensors placed on the scalp allow doctors to monitor brainwave activity. Athletes exert intense effort for a sustained period and are then given time to rest and recover. During the transition from intense exertion to recovery, doctors can monitor weaknesses in the way the heart responds. The EEG has had a major impact on the team’s ability to measure the heart’s muscular endurance."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In 1796, human life expectancy was between 25 and 36 years. By 1886, it had nearly doubled to between 45 and 50. In 1996, the average Mexican could expect to live for about 75 years. People are living longer largely because of advances in modern science. Sophisticated medical equipment is not the only factor; basic advances in engineering also help. Consider, for example, a professional tennis player. In the past, most tennis shoes were made of fabric with a solid rubber sole. Their poor design resulted in hip and foot injuries. Shoe technology has since changed radically: some shoes now contain silicone and have a more comfortable, ergonomic [1] design. This has helped protect the bodies of recreational as well as elite sportspeople. [1] Designed to be better adapted to the shape of the human body."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe passage has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in boxes 14–17 on your answer sheet.\nNB You may use any letter more than once.\n\n\n14 __________ the natural process of oxygen production\n15 __________ standard post-competition procedures\n16 __________ the areas studied to improve athletic performance\n17 __________ the Mexican viewpoint on winning"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 20,
+      "text": "Questions 18–20\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 18–20 on your answer sheet.\n\n\n18 The hyperbaric chamber\n  A helps athletes breathe more easily.\n  B increases the amount of oxygen an athlete breathes.\n  C decreases oxygen pressure for Mexican athletes.\n  D speeds up athletes’ recovery time.\n\n\n19 The electroencephalograph (EEG)\n  A measures how fast brainwaves move during exercise.\n  B helps doctors identify heart problems.\n  C measures how hard the heart works during exercise.\n  D strengthens athletes’ heart muscles.\n\n\n20 Life expectancy in Mexico has increased because of\n  A medical advances.\n  B more committed doctors.\n  C better-made sporting equipment.\n  D advances in ergonomics."
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nDo the following statements agree with the information given in Reading Passage 2?\nWrite TRUE, FALSE or NOT GIVEN in boxes 21–26 on your answer sheet.\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n21 There are limits to the scope of sporting research.\n22 Athletic programmes differ mainly between men and women.\n23 Mexico and Germany have similar sporting resources.\n24 A lack of money prevents athletic development in some poorer countries.\n25 Wealthy countries enjoy greater athletic success.\n26 Mexican athletes have the support of their government."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ the natural process of oxygen production",
+      "translation": "氧氣產生的自然過程。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ standard post-competition procedures",
+      "translation": "比賽後的標準程序。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ the areas studied to improve athletic performance",
+      "translation": "為提升運動表現而研究的範疇。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ the Mexican viewpoint on winning",
+      "translation": "墨西哥對勝利的看法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "The hyperbaric chamber",
+      "translation": "高壓氧艙……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "The electroencephalograph (EEG)",
+      "translation": "腦電圖儀 EEG……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Life expectancy in Mexico has increased because of",
+      "translation": "墨西哥人的預期壽命增加，是因為……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "There are limits to the scope of sporting research.",
+      "translation": "運動研究的範圍有限制。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Athletic programmes differ mainly between men and women.",
+      "translation": "運動訓練計劃主要按男女差異而不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Mexico and Germany have similar sporting resources.",
+      "translation": "墨西哥和德國有相近的運動資源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "A lack of money prevents athletic development in some poorer countries.",
+      "translation": "在一些較貧窮國家，缺乏金錢會阻礙運動發展。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Wealthy countries enjoy greater athletic success.",
+      "translation": "富裕國家享有更大的運動成功。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Mexican athletes have the support of their government.",
+      "translation": "墨西哥運動員得到政府支持。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-118/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-118/page-5.jpg"
+  ]
+}

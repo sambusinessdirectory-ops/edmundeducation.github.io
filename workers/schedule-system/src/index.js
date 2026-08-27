@@ -1,12 +1,13 @@
 import { renderEmailHtml } from '../../../email-shared.mjs';
-import { emailEvent, safeDiagnostic, visitorRoute, unsubscribeUrl, checkPageUpdates } from './email-v2.js';
+import { emailEvent, flushEmailEvents, safeDiagnostic, visitorRoute, unsubscribeUrl, checkPageUpdates } from './email-v2.js';
 const GMAIL_SEND_SCOPE = "https://www.googleapis.com/auth/gmail.send";
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const isEmail = new URL(request.url).pathname.startsWith('/v1/admin/email/');
     const incomingId = request.headers.get('X-Email-Request-ID') || '';
-    env = {...env, EMAIL_REQUEST_ID: /^[a-f0-9-]{36}$/i.test(incomingId) ? incomingId : crypto.randomUUID(), EMAIL_ADMIN_TOKEN: bearerToken(request)};
+    env = {...env, EMAIL_REQUEST_ID: /^[a-f0-9-]{36}$/i.test(incomingId) ? incomingId : crypto.randomUUID(), EMAIL_ADMIN_TOKEN: bearerToken(request), EMAIL_EVENTS:[]};
+    const operation=(async()=>{
     try {
       if(isEmail && request.method!=='OPTIONS') await emailEvent(env,rpc,'request_received','started',{method:request.method,path:new URL(request.url).pathname});
       const response = await route(request, env);
@@ -20,7 +21,15 @@ export default {
       console.error("Schedule Worker error", {requestId:env.EMAIL_REQUEST_ID,error:diagnostic});
       if(isEmail) await emailEvent(env,rpc,'request_failed','error',{error:diagnostic});
       return json({ error: isEmail ? diagnostic : "Schedule service error",requestId:env.EMAIL_REQUEST_ID }, error.httpStatus || 500, request, env);
+    } finally {
+      const audit=flushEmailEvents(env,rpc);
+      if(ctx?.waitUntil) ctx.waitUntil(audit); else await audit;
     }
+    })();
+    // Retain in-flight save/queue work if the tab closes after uploading. The
+    // database receipt remains authoritative even if this grace period expires.
+    if(isEmail && ctx?.waitUntil) ctx.waitUntil(operation.then(()=>undefined));
+    return operation;
   },
   async scheduled(_event, env, ctx) {
     ctx.waitUntil(runEmailScheduler(env));
@@ -39,10 +48,21 @@ async function route(request, env) {
   }
 
   if (url.pathname === "/v1/health" && request.method === "GET") {
-    return json({ ok: true, service: "edmund-schedule-system", emailVersion:2 }, 200, request, env);
+    return json({ ok: true, service: "edmund-schedule-system", emailVersion:3 }, 200, request, env);
   }
   const visitor = await visitorRoute(request,env,{rpc,json,readLimitedJson,sha256Hex});
   if(visitor) return visitor;
+  const receiptMatch=url.pathname.match(/^\/v1\/admin\/email\/requests\/([a-f0-9-]{36})(\/resolve)?$/i);
+  if(receiptMatch && ((request.method==='GET' && !receiptMatch[2]) || (request.method==='POST' && receiptMatch[2]))) {
+    const admin=await authenticateAdmin(request,env);
+    if(!admin) return json({error:'Administrator authentication required'},401,request,env);
+    return json(await rpc(env,'schedule_email_v3_receipt',{p_admin_token:admin.token,p_request_id:receiptMatch[1],p_resolve:Boolean(receiptMatch[2])}),200,request,env);
+  }
+  const submitMatch=url.pathname.match(/^\/v1\/admin\/email\/templates\/([1-9]\d{0,2})\/submit$/);
+  if(submitMatch && request.method==='POST') {
+    if(!/^[a-f0-9-]{36}$/i.test(request.headers.get('X-Email-Request-ID')||'')) return json({error:'Request ID required'},400,request,env);
+    return saveEmailTemplate(request,env,Number(submitMatch[1]),true);
+  }
   if(url.pathname==='/v1/admin/email/public-sender' && request.method==='POST') {
     const admin=await authenticateAdmin(request,env);
     if(!admin) return json({error:'Administrator authentication required'},401,request,env);
@@ -278,15 +298,18 @@ function imageContentTypeFromBytes(bytes) {
   return "";
 }
 
-async function rpc(env, name, body) {
+async function rpc(env, name, body, {timeoutMs=25000}={}) {
   const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/${name}`;
   if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY || !env.SCHEDULE_SERVICE_SECRET) {
     throw new Error("SERVICE_NOT_CONFIGURED");
   }
+  const controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),timeoutMs);
+  try {
   const response = await fetch(endpoint, {
     method: "POST",
     headers: { apikey: env.SUPABASE_ANON_KEY, "Content-Type": "application/json" },
-    body: JSON.stringify({ p_service_secret: env.SCHEDULE_SERVICE_SECRET, ...body })
+    body: JSON.stringify({ p_service_secret: env.SCHEDULE_SERVICE_SECRET, ...body }),signal:controller.signal
   });
   if (!response.ok) {
     const failure=await response.json().catch(()=>({}));
@@ -294,7 +317,11 @@ async function rpc(env, name, body) {
     error.httpStatus=failure.code==='22023'?400:failure.code==='42501'?401:502;
     throw error;
   }
-  return response.json();
+  return await response.json();
+  } catch(error) {
+    if(controller.signal.aborted) {const timeout=new Error(`DATABASE_TIMEOUT_${name}: check the request receipt before retrying`);timeout.httpStatus=504;throw timeout;}
+    throw error;
+  } finally { clearTimeout(timer); }
 }
 
 async function authenticateAdmin(request, env) {
@@ -481,6 +508,7 @@ async function getAnnouncementImage(request, env, id) {
 }
 
 function bytesToBase64(bytes) {
+  if(typeof bytes.toBase64==='function') return bytes.toBase64();
   let binary = "";
   for (let offset = 0; offset < bytes.length; offset += 0x8000) {
     binary += String.fromCharCode(...bytes.subarray(offset, offset + 0x8000));
@@ -648,7 +676,7 @@ function pdfContentFromBytes(bytes) {
   return bytes.length >= 5 && String.fromCharCode(...bytes.subarray(0, 5)) === "%PDF-";
 }
 
-async function saveEmailTemplate(request, env, slot) {
+async function saveEmailTemplate(request, env, slot, atomic=false) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
   await emailEvent(env,rpc,'authentication','ok');
@@ -701,14 +729,28 @@ async function saveEmailTemplate(request, env, slot) {
     if (bytes.byteLength > 5 * 1024 * 1024 || totalPdfBytes > 10 * 1024 * 1024 || !pdfContentFromBytes(bytes)) return json({ error: "PDF attachments must be valid, at most 5 MB each and 10 MB total" }, 400, request, env);
     attachments.push({ filename: safeFilename(file.name, "attachment.pdf"), contentType: "application/pdf", sizeBytes: bytes.byteLength, content: bytesToBase64(bytes) });
   }
-  const result = await rpc(env, "schedule_email_service_save_template", {
+  await emailEvent(env,rpc,'validation','ok',{pdfCount:attachments.length,pdfBytes:totalPdfBytes,signatureBytes:signatureBytes?.length||0,recipients:recipientIds.length});
+  const savePayload={
     p_admin_token: admin.token, p_slot: slot, p_content: content, p_enabled: enabled, p_cadence: cadence, p_daily_time: dailyTime,
     p_recipient_ids: recipientIds, p_signature_link: signatureLink, p_signature_action: signatureAction,
     p_signature_content: signatureBytes ? bytesToBase64(signatureBytes) : null, p_signature_content_type: signatureType,
     p_signature_filename: hasSignature ? safeFilename(signature.name, "signature") : null,
     p_remove_attachment_ids: removeAttachmentIds, p_attachments: attachments
-  });
-  await emailEvent(env,rpc,'validation','ok',{pdfCount:attachments.length,pdfBytes:totalPdfBytes,signatureBytes:signatureBytes?.length||0,recipients:recipientIds.length});
+  };
+  if(atomic) {
+    const sendNow=form.get('sendNow')==='true',previewApproved=form.get('previewApproved')==='true';
+    if((sendNow||enabled) && !previewApproved) return json({error:'PREVIEW_REQUIRED'},400,request,env);
+    if(sendNow && cadence!=='once') return json({error:'One-time send requires once cadence'},400,request,env);
+    const expectedRevision=String(form.get('expectedRevision')||'');
+    if(!expectedRevision || !Number.isFinite(Date.parse(expectedRevision))) return json({error:'DRAFT_CHANGED: reload and preview again'},409,request,env);
+    const payload={content,enabled,cadence,dailyTime,recipientIds,signatureLink,signatureAction,
+      signatureContent:savePayload.p_signature_content,signatureContentType:signatureType,signatureFilename:savePayload.p_signature_filename,
+      removeAttachmentIds,attachments,expectedRevision,sendNow,previewApproved,spellcheck:String(form.get('spellcheck')||'not_checked').slice(0,60)};
+    await emailEvent(env,rpc,'submission_started','started',{slot,sendNow});
+    const result=await rpc(env,'schedule_email_v3_submit',{p_admin_token:admin.token,p_slot:slot,p_request_id:env.EMAIL_REQUEST_ID,p_payload:payload});
+    return json(result,result.state==='queued'?202:200,request,env);
+  }
+  const result=await rpc(env,'schedule_email_service_save_template',savePayload);
   if(!result) return json({error:'Message could not be saved'},409,request,env);
   const saved=result;
   await emailEvent(env,rpc,'template_saved','ok',{slot,revision:saved.revision});

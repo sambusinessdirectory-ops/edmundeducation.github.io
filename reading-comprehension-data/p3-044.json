@@ -1,0 +1,285 @@
+{
+  "id": "p3-044",
+  "catalogueId": "p3-044",
+  "title": "Monkeys and Forests",
+  "sourceHeading": "Monkeys and Forests As an east wind blasts through a gap in the Cordillera de Tilarán, a rugged mountain range that splits northern Costa Rica in half, a female mantled howler monkey moves through the swaying trees of the forest canopy.",
+  "passage": 3,
+  "practice": 44,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-044-monkeys-and-forests",
+  "source": {
+    "filename": "Practice 44 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "2684b5065e48c50053a9961f5303c4e953ad7e66fcdf6755719ec7e0b56c34dd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Ken Glander, a primatologist from Duke University, gazes into the canopy, tracking the female’s movements. Holding a dart gun, he waits with infinite patience for the right moment to shoot. With great care, Glander aims and fires. Hit in the rump, the monkey wobbles. This howler belongs to a population that has lived for decades at Hacienda La Pacifica, a working cattle ranch in Guanacaste province. Other native primates—white-faced capuchin monkeys and spider monkeys—were once common in this area, too, but vanished after the Pan-American Highway was built nearby in the 1950s. Most of the surrounding land was clear-cut for pasture."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Howlers persist at La Pacifica, Glander explains, because they are leaf-eaters. They eat fruit when it’s available but, unlike capuchin and spider monkeys, do not depend on large areas of fruiting trees. “Howlers can survive anywhere you have half a dozen trees, because their eating habits are so flexible,” he says. In forests, life is an arms race between trees and the myriad creatures that feed on leaves. Plants have evolved a variety of chemical defences, ranging from bad-tasting tannins, which bind with plant-produced nutrients, rendering them indigestible, to deadly poisons, such as alkaloids and cyanide."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "All primates, including humans, have some ability to handle plant toxins. “We can detoxify a dangerous poison known as caffeine, which is deadly to a lot of animals,” Glander says. For leaf-eaters, long-term exposure to a specific plant toxin can increase their ability to neutralise the poison and absorb the leaf nutrients. The leaves that grow in regenerating forests, like those at La Pacifica, are actually more howler-friendly than those produced by the undisturbed, centuries-old trees that survive farther south, in the Amazon Basin. In younger forests, trees put most of their limited energy into growing wood, leaves and fruit, so they produce much lower levels of toxin than do well-established, old-growth trees."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The importance of maturing forests to primates is a subject of study at Santa Rosa National Park, about 35 miles northwest of Hacienda La Pacifica. The park hosts populations not only of mantled howlers but also of white-faced capuchins and spider monkeys. Yet the forests there are young, most of them less than 50 years old. Capuchins were the first to begin using the reborn forests, when the trees were as young as 14 years. Howlers, larger and heavier than capuchins, need somewhat older trees, with limbs that can support their greater body weight. Conditions observed at the working ranch of Hacienda La Pacifica also help explain their population boom in Santa Rosa. “Howlers are more resilient than capuchins and spider monkeys for several reasons,” Fedigan explains. “They can live within a small home range, as long as the trees have the right food for them. Spider monkeys, on the other hand, occupy a huge home range, so they can’t make it in fragmented habitat.”"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Howlers also reproduce faster than do other monkey species in the area. Capuchins don’t bear their first young until about seven years old, and spider monkeys do so even later, but howlers give birth for the first time at about 3.5 years of age. Also, while a female spider monkey will have a baby about once every four years, well-fed howlers can produce an infant every two years."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The leaves howlers eat hold plenty of water, so the monkeys can survive away from open streams and waterholes. This ability gives them a real advantage over capuchin and spider monkeys, which have suffered during the long, ongoing drought in Guanacaste."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Growing human population pressures in Central and South America have led to persistent destruction of forests. During the 1990s, about 1.1 million acres of Central American forest were felled yearly. Alejandro Estrada, an ecologist at Estación de Biología Los Tuxtlas in Veracruz, Mexico, has been exploring how monkeys survive in a landscape increasingly shaped by humans. He and his colleagues recently studied the ecology of a group of mantled howler monkeys that thrive in a habitat completely altered by humans: a cacao plantation in Tabasco, Mexico. Like many varieties of coffee, cacao plants need shade to grow, so 40 years ago the landowners planted fig, monkey pod and other tall trees to form a protective canopy over their crop. The howlers moved in about 25 years ago after nearby forests were cut. This strange habitat, a hodgepodge of cultivated native and exotic plants, seems to support about as many monkeys as would a same-sized patch of wild forest. The howlers eat the leaves and fruit of the shade trees, leaving the valuable cacao pods alone, so the farmers tolerate them."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Estrada believes the monkeys bring underappreciated benefits to such farms, dispersing the seeds of fig and other shade trees and fertilising the soil with faeces. He points out that howler monkeys live in shade coffee and cacao plantations in Nicaragua and Costa Rica as well as in Mexico. Spider monkeys also forage in such plantations, though they need nearby areas of forest to survive in the long term. He hopes that farmers will begin to see the advantages of coexisting with wild monkeys, which include potential ecotourism projects. “Conservation is usually viewed as a conflict between agricultural practices and the need to preserve nature,” Estrada says. “We’re moving away from that vision and beginning to consider ways in which agricultural activities may become a tool for the conservation of primates in human-modified landscapes.”"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nReading Passage 3 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 27–32 on your answer sheet.\n27 _____________ A reference to the rate of reduction in forest habitats\n28 _____________ An area where only one species of monkey survived while the other two\nspecies vanished\n29 _____________ A reason why howler monkeys choose new leaves as food over old ones\n30 _____________ A reference to howler monkeys’ diet and eating habits\n31 _____________ A reference to changing farmers’ attitudes toward wildlife\n32 _____________ The advantage of howler monkeys’ ability to live in a fragmented habitat"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 35,
+      "text": "Questions 33–35\nLook at the following places and the list of descriptions below.\nMatch each description with the correct place, A–E.\nWrite the correct letter, A–E, in boxes 33–35 on your answer sheet.\n A                         Hacienda La Pacifica\n\n B                         Santa Rosa National Park\n\n C                         A cacao plantation in Tabasco, Mexico\n\n D                         Estación de Biología Los Tuxtlas in Veracruz, Mexico\n\n E                         Amazon Basin\n\n\n33 _____________ A place where howler monkeys benefit the local region’s agriculture\n34 _____________ A place that was the original home of all three native monkey species\n35 _____________ A place where capuchin monkeys find a better habitat"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 36–40 on your answer sheet.\nReasons why howler monkeys survive better in the region than the other two species\n● Howlers survive at La Pacifica because they can feed on leaves when 36\n   _________________ is not easily found\n● Howlers have a better ability to tolerate the 37 _________________, which old and\n   young trees use to protect themselves\n● Compared with spider monkeys and capuchins, howlers have a faster 38\n   _________________ rate (about once every two years).\n● The monkeys can survive away from open streams and waterholes as the leaves\n   howlers eat contain plenty of 39 _________________, which helps them to resist the\n   continuous 40 _________________ in Guanacaste."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ A reference to the rate of reduction in forest habitats",
+      "translation": "哪一段提到森林棲息地減少的速度？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ An area where only one species of monkey survived while the other two species vanished",
+      "translation": "哪一段提到某個地區只剩一種猴子生存，另外兩種猴子消失？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ A reason why howler monkeys choose new leaves as food over old ones",
+      "translation": "哪一段解釋 howler monkeys 為何選新葉作食物，而較不選老葉？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ A reference to howler monkeys’ diet and eating habits",
+      "translation": "哪一段提到 howler monkeys 的飲食和進食習慣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ A reference to changing farmers’ attitudes toward wildlife",
+      "translation": "哪一段提到農民對野生動物態度的改變？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_____________ The advantage of howler monkeys’ ability to live in a fragmented habitat",
+      "translation": "哪一段提到 howler monkeys 能在破碎棲息地生活的優勢？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ A place where howler monkeys benefit the local region’s agriculture",
+      "translation": "哪個地方的 howler monkeys 對當地農業有好處？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ A place that was the original home of all three native monkey species",
+      "translation": "哪個地方曾經是三種本地猴子的共同棲息地？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ A place where capuchin monkeys find a better habitat",
+      "translation": "哪個地方為 capuchin monkeys 提供較好的棲息環境？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "Howlers 能在 La Pacifica 生存，因為當 ______ 不容易找到時，牠們仍能吃葉子。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "Howlers 對 ______ 有較好的忍受能力，而老樹和年輕樹都會用這些東西保護自己。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "與 spider monkeys 和 capuchins 相比，howlers 有較快的 ______ rate，大約每兩年一次。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "這些猴子能遠離露天溪流和水洞生存，因為牠們吃的葉子含有大量 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "這幫助牠們抵抗 Guanacaste 持續的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-044/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-044/page-6.jpg"
+  ]
+}

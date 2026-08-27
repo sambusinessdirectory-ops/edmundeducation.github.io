@@ -1,0 +1,224 @@
+{
+  "id": "p2-086",
+  "catalogueId": "p2-086",
+  "title": "The Most Dangerous Insect in the World",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 86,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-086-the-most-dangerous-insect-in-the-world",
+  "source": {
+    "filename": "Practice 86 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "4d93f2a788d0b926aa00e2f202566d26b6ab3bdbc107c9623541464811e6d5c3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Most Dangerous Insect in the World If asked to name the deadliest insect in the world, most people would search their minds for some sinister-looking spiders or scorpions, or exotic garden pests. However, if we define ‘deadly’ in terms of the number of people who die directly as a result of the insect, one of them leads the field, by far: the mosquito. As a blood-sucking pest, it transmits diseases to over 700 million people a year, killing a fair proportion of them in the process. No other insect comes even close to this."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Although all mosquitoes are nectar feeders, the females also need protein from a blood meal in order to produce eggs. To find a blood meal, they use a keen sense of smell to detect sweat, carbon dioxide and other organic compounds emitted by mammals. Scientific tests have proven that some people attract more mosquitoes than others, presumably because they have a more attractive ‘scent profile’—in fact, female mosquitoes are so adept at following these trails that they can infiltrate buildings through pipeways and air-conditioning ducts as they move inexorably towards their victims. Upon biting, they inject an anticoagulant saliva into the flesh, and it is this fluid (and not their blood) which may contain a range of viral and parasitic nasties for which mosquitoes are notorious."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Yet even without such diseases, mosquitoes are an irritating nuisance which can occasionally cause serious injury. Upon being bitten, the body’s immune system is activated, and subsequent bites trigger antibodies which cause inflammation and itching, particularly in young children. More bites can increase such sensitivity, resulting in pronounced swelling and blistering — wounds which can occasionally become infected, particularly when scratched. Two famous victims of infected mosquito bites were Lord Carnarvon, the Egyptologist who played a role in the discovery of Tutankhamun’s tomb, and the British poet Rupert Brooke; they died in Egypt and Greece, respectively."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "But the real danger will always be mosquito-borne diseases. Dengue fever, West Nile virus, and several encephalitis-type diseases are all modern-day killers. A less deadly but more insidious example is filariasis, a disease named after the thread-like parasites which migrate to the body’s lymphatic system, causing parts of the body to permanently swell to grotesque proportions. Yet, as distressing as all this is, in terms of its death toll, the worst disease is undoubtedly malaria. Carried by the Anopheles mosquito, this parasite causes fever, shivering, joint pains, vomiting, and, if left untreated, a painful death. It infects over two million people a year, most of them children, killing over one quarter in the process."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The Aedes aegypti mosquito is the species responsible for that other great killer: yellow fever. This viral disease is limited to tropical areas, primarily in Africa but also in Central and South America. After high fever, nausea, and joint pains, the virus attacks the liver, causing the host’s skin to turn yellow (hence the name), with death following some days later. Its toll is much smaller than malaria, with about 200,000 infections and 30,000 deaths every year, mostly in Africa. Unlike malaria, yellow fever can be prevented with a vaccine, and extensive vaccination programmes sponsored by the WHO have had some success, whilst travellers to disease-prone areas are usually similarly protected."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "With such a death toll, it took a surprisingly long time before the link between mosquitoes and disease was realised. This is exemplified in the construction of the Panama Canal — that ambitious project to excavate a passageway for ships through that narrow Central American nation. In the 1880s, the French struggled for eight years in the insect-infested jungle, but the death toll from malaria and yellow fever made it very difficult to maintain an experienced workforce. After the loss of 22,000 lives, work was abandoned, yet shortly afterwards, a British doctor in India, Ronald Ross, deduced the means of disease transmission, identifying the malaria parasite in the gastrointestinal tract of mosquitoes. He also realised that mosquito numbers could be reduced by limiting their access to water, providing two crucial insights which laid the foundations for controlling the disease."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Thus, in 1904, when the Americans resumed work on the Panama Canal, they instituted a multi-million dollar mosquito-abatement programme, consisting of many strategies. Houses for workers were built with screens on the windows, buildings harbouring mosquitoes were fumigated, and sick workers were isolated behind nets. Stagnant pools of water (where mosquitoes breed) were sprayed with oil and insecticide, and roads were paved to eliminate puddles. For this same reason, swamps were drained, and proper piping was used for the transmission of drinking water and wastewater. All this reduced the number of deaths from disease over the ten-year construction phase to less than 6,000 — a considerable number, but still considered a major success."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "To this day, reducing the number of stagnant pools of water, however small, remains very cost-effective in combatting mosquito-borne diseases in urban areas. Many of the most dangerous species breed in incidental ditches, flowerpots, or discarded containers into which rainwater has pooled. By eliminating such sites, the insects’ numbers fall greatly, limiting bites to those from mosquitoes which come from further afield, yet since they cannot travel far, the likelihood of being bitten (and infected) is greatly reduced."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nWrite TRUE, FALSE, or NOT GIVEN.\n TRUE                   if the statement agrees with the information\n\n FALSE                  if the statement contradicts the information\n\n NOT GIVEN              if there is no information on this\n14 _________________ Mosquito blood transmits disease.\n15 _________________ Mosquitoes have good vision.\n16 _________________ Rupert Brooke died in Greece.\n17 _________________ Malaria kills over half a million people per year.\n18 _________________ There is a vaccine for malaria."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 22,
+      "text": "Questions 19–22\nAnswer the questions.\nChoose ONE WORD ONLY from the passage for each answer.\nWhat can cause mosquito bites to become inflamed?\n19 _________________\nWhich disease causes the body to change shape?\n20 _________________\nWhich organ does yellow fever affect?\n21 _________________\nIn which parts of a country is removing exposed water a particularly cheap way to\nreduce mosquito numbers?\n22 _________________"
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nComplete the summary.\nChoose ONE WORD from the passage for each answer.\n\n\n The Panama Canal:\n This large undertaking took place in 23 _________________ full of insects.\n The number of workers was greatly reduced by disease, but after the malaria\n 24 _________________ was discovered, all exposed water was removed or\n 25 _________________ to deny breeding sites. The relatively low number of\n deaths which followed is attributed to these 26 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Mosquito blood transmits disease.",
+      "translation": "蚊的血液會傳播疾病。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Mosquitoes have good vision.",
+      "translation": "蚊有良好視力。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Rupert Brooke died in Greece.",
+      "translation": "Rupert Brooke 死於 Greece。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Malaria kills over half a million people per year.",
+      "translation": "Malaria 每年殺死超過五十萬人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ There is a vaccine for malaria.",
+      "translation": "Malaria 有疫苗。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________ Which disease causes the body to change shape?",
+      "translation": "甚麼可以令蚊叮變得發炎？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________ Which organ does yellow fever affect?",
+      "translation": "哪一種疾病會令身體形狀改變？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________ In which parts of a country is removing exposed water a particularly cheap way to reduce mosquito numbers?",
+      "translation": "Yellow fever 影響哪個器官？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "在一個國家的哪些地區，移除外露積水是特別便宜有效的減蚊方法？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "這項大型工程發生在充滿昆蟲的 ______ 之中。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "text",
+      "prompt": "_________________ was discovered, all exposed water was removed or",
+      "translation": "但在 malaria 的 ______ 被發現之後……",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "text",
+      "prompt": "_________________ to deny breeding sites. The relatively low number of deaths which followed is attributed to these 26 _________________.",
+      "translation": "所有外露積水都被移除或被 ______，以阻止蚊有繁殖地點。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "之後相對較低的死亡人數，被歸因於這些 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-086/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-086/page-5.jpg"
+  ]
+}

@@ -1,0 +1,4000 @@
+{
+  "schemaVersion": 1,
+  "practice": 15,
+  "title": "IELTS Listening Practice 15",
+  "source": {
+    "file": "IELTS Listening - Practice - 15.pdf",
+    "sha256": "8927bfb6cca5dac055c77ed772373b3620a4155c31c18b53703e998bca31df21",
+    "pageCount": 70,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 1–10\nComplete the notes below.\nWrite ONE WORD for each answer.\nEasy Life Cleaning Services\nBasic cleaning package offered\n● Cleaning all surfaces\n● Cleaning the 1 __________ throughout the apartment\n● Cleaning shower, sinks, toilet etc.\nAdditional services agreed\nEvery week\n● Cleaning the 2 __________\n● Ironing clothes — 3 __________ only\nEvery month\n● Cleaning all the 4 __________ from the inside\n● Washing down the 5 __________",
+          "page": 4
+        },
+        {
+          "type": "text",
+          "text": "Other possibilities\n● They can organise a plumber or an 6 __________ if necessary.\n● A special cleaning service is available for customers who are allergic to 7\n__________.\nInformation on the cleaners\n● Before being hired, all cleaners have a background check carried out by\nthe 8 __________.\n● References are required.\n● All cleaners are given 9 __________ for two weeks.\n● Customers send a 10 __________ after each visit.\n● Usually, each customer has one regular cleaner.",
+          "page": 5
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Cleaning the 1 __________ throughout the apartment",
+          "translation": "",
+          "answer": "floor",
+          "alternatives": [
+            "floors"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Cleaning the 2 __________",
+          "translation": "",
+          "answer": "fridge",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● Ironing clothes — 3 __________ only",
+          "translation": "",
+          "answer": "shirts",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● Cleaning all the 4 __________ from the inside",
+          "translation": "",
+          "answer": "windows",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Washing down the 5 __________",
+          "translation": "",
+          "answer": "balcony",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● They can organise a plumber or an 6 __________ if necessary.",
+          "translation": "",
+          "answer": "electrician",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "● A special cleaning service is available for customers who are allergic to 7 __________.",
+          "translation": "",
+          "answer": "dust",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "the 8 __________.",
+          "translation": "",
+          "answer": "police",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "● All cleaners are given 9 __________ for two weeks.",
+          "translation": "",
+          "answer": "training",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "● Customers send a 10 __________ after each visit.",
+          "translation": "",
+          "answer": "review",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11–14\nChoose the correct letter, A, B or C.\n11. Many hotel managers are unaware that their staff often leave because\nof\nA. a lack of training.\nB. long hours.\nC. low pay.\n12. What is the impact of high staff turnover on managers?\nA. an increased workload\nB. low morale\nC. an inability to meet targets\n13. What mistake should managers always avoid?\nA. failing to treat staff equally\nB. reorganising shifts without warning\nC. neglecting to have enough staff during busy periods",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "14. What unexpected benefit did Dunwich Hotel notice after improving\nstaff retention rates?\nA. a fall in customer complaints\nB. an increase in loyalty club membership\nC. a rise in spending per customer\nQuestions 15–20\nWhich way of reducing staff turnover was used in each of the following hotels?\nWrite the correct letter, A, B or C, next to Questions 15–20.\nWays of reducing staff turnover\nA. improving relationships and teamwork\nB. offering incentives and financial benefits\nC. providing career opportunities\nHotels\n15. The Sun Club __________\n16. The Portland __________\n17. Bluewater Hotels __________\n18. Pentlow Hotels __________\n19. Green Planet __________\n20. The Amesbury __________",
+          "page": 8
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 11,
+          "prompt": "Many hotel managers are unaware that their staff often leave because of",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "a lack of training.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "long hours.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "low pay.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 12,
+          "prompt": "What is the impact of high staff turnover on managers?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "an increased workload",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "low morale",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "an inability to meet targets",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 13,
+          "prompt": "What mistake should managers always avoid?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "failing to treat staff equally",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "reorganising shifts without warning",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "neglecting to have enough staff during busy periods",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 14,
+          "prompt": "What unexpected benefit did Dunwich Hotel notice after improving staff retention rates?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "a fall in customer complaints",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "an increase in loyalty club membership",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a rise in spending per customer",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "The Sun Club",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "improving relationships and teamwork",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "offering incentives and financial benefits",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "providing career opportunities",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "The Portland",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "improving relationships and teamwork",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "offering incentives and financial benefits",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "providing career opportunities",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Bluewater Hotels",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "improving relationships and teamwork",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "offering incentives and financial benefits",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "providing career opportunities",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Pentlow Hotels",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "improving relationships and teamwork",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "offering incentives and financial benefits",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "providing career opportunities",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "Green Planet",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "improving relationships and teamwork",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "offering incentives and financial benefits",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "providing career opportunities",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "The Amesbury",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "improving relationships and teamwork",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "offering incentives and financial benefits",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "providing career opportunities",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21 and 22\nChoose TWO letters, A–E.\nWhich TWO points do Thomas and Jeanne make about Thomas’s sporting\nactivities at school?\nA. He should have felt more positive about them.\nB. The training was too challenging for him.\nC. He could have worked harder at them.\nD. His parents were disappointed in him.\nE. His fellow students admired him.\nQuestions 23 and 24\nChoose TWO letters, A–E.\nWhich TWO feelings did Thomas experience when he was in Kenya?\nA. disbelief\nB. relief\nC. stress\nD. gratitude\nE. homesickness",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 25–30\nWhat comment do the students make about the development of each of the\nfollowing items of sporting equipment?\nChoose SIX answers from the box and write the correct letter, A–H, next to\nQuestions 25–30.\nComments about the development of the equipment\nA. It could cause excessive sweating.\nB. The material was being mass produced for another purpose.\nC. People often needed to make their own.\nD. It often had to be replaced.\nE. The material was expensive.\nF. It was unpopular among spectators.\nG. It caused injuries.\nH. No one using it liked it at first.\nItems of sporting equipment\n25. the table tennis bat __________\n26. the cricket helmet __________\n27. the cycle helmet __________\n28. the golf club __________\n29. the hockey stick __________\n30. the football __________",
+          "page": 11
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            21,
+            22
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO points do Thomas and Jeanne make about Thomas’s sporting activities at school?",
+          "translation": "",
+          "answers": [
+            "C",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "He should have felt more positive about them.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The training was too challenging for him.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "He could have worked harder at them.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "His parents were disappointed in him.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "His fellow students admired him.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            23,
+            24
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO feelings did Thomas experience when he was in Kenya?",
+          "translation": "",
+          "answers": [
+            "A",
+            "D"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "disbelief",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "relief",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "stress",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "gratitude",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "homesickness",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "the table tennis bat",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "It could cause excessive sweating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The material was being mass produced for another purpose.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People often needed to make their own.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It often had to be replaced.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The material was expensive.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It was unpopular among spectators.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "It caused injuries.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "No one using it liked it at first.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "the cricket helmet",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "It could cause excessive sweating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The material was being mass produced for another purpose.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People often needed to make their own.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It often had to be replaced.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The material was expensive.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It was unpopular among spectators.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "It caused injuries.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "No one using it liked it at first.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "the cycle helmet",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "It could cause excessive sweating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The material was being mass produced for another purpose.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People often needed to make their own.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It often had to be replaced.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The material was expensive.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It was unpopular among spectators.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "It caused injuries.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "No one using it liked it at first.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "the golf club",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "It could cause excessive sweating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The material was being mass produced for another purpose.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People often needed to make their own.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It often had to be replaced.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The material was expensive.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It was unpopular among spectators.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "It caused injuries.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "No one using it liked it at first.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "the hockey stick",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "It could cause excessive sweating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The material was being mass produced for another purpose.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People often needed to make their own.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It often had to be replaced.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The material was expensive.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It was unpopular among spectators.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "It caused injuries.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "No one using it liked it at first.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "the football",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "It could cause excessive sweating.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The material was being mass produced for another purpose.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "People often needed to make their own.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It often had to be replaced.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "The material was expensive.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It was unpopular among spectators.",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "It caused injuries.",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "No one using it liked it at first.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nMaple Syrup\nWhat is maple syrup?\n● made from the sap of the maple tree\n● colour described as 31 __________\n● added to food or used in cooking\n● very 32 __________ compared to refined sugar\nThe maple tree\n● has many species\n● needs moist soil but does not need fertiliser as well\n● needs sunny days and cool nights\n● best growing conditions and 33 __________ are in Canada and North\nAmerica\n● maple leaf has been on the Canadian flag since 1964",
+          "page": 13
+        },
+        {
+          "type": "text",
+          "text": "Early maple sugar producers\n● made holes in the tree trunks\n● used tree bark to make containers for collection\n● used hot 34 __________ to heat the sap\n● sweetened food and drink with sugar\nToday’s maple syrup\nThe trees\n● Tree trunks may not have the correct 35 __________ until they have\nbeen growing for 40 years.\n● The changing temperature and movement of water within the tree\nproduces the sap.\nThe production\n● A tap is drilled into the trunk and a 36 __________ carries the sap into\na bucket.\n● Large pans of sap called evaporators are heated by means of a 37\n__________.\n● A lot of 38 __________ is produced during the evaporation process.\n● “Sugar sand” is removed because it makes the syrup look 39 __________\nand affects the taste.\n● The syrup is ready for use.\n● A huge quantity of sap is needed to make a 40 __________ of maple\nsyrup.",
+          "page": 14
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● colour described as 31 __________",
+          "translation": "",
+          "answer": "golden",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● very 32 __________ compared to refined sugar",
+          "translation": "",
+          "answer": "healthy",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● best growing conditions and 33 __________ are in Canada and North",
+          "translation": "",
+          "answer": "climate",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "● used hot 34 __________ to heat the sap",
+          "translation": "",
+          "answer": "rock",
+          "alternatives": [
+            "rocks"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● Tree trunks may not have the correct 35 __________ until they have",
+          "translation": "",
+          "answer": "diameter",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● A tap is drilled into the trunk and a 36 __________ carries the sap into",
+          "translation": "",
+          "answer": "tube",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● Large pans of sap called evaporators are heated by means of a 37 __________.",
+          "translation": "",
+          "answer": "fire",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "● A lot of 38 __________ is produced during the evaporation process.",
+          "translation": "",
+          "answer": "steam",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "● “Sugar sand” is removed because it makes the syrup look 39 __________",
+          "translation": "",
+          "answer": "cloudy",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● A huge quantity of sap is needed to make a 40 __________ of maple",
+          "translation": "",
+          "answer": "litre",
+          "alternatives": [
+            "liter"
+          ]
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "JACINTA: Hello, Easy Life Cleaning Services, Jacinta speaking.",
+        "zh": "Jacinta：您好，這裡是 Easy Life Cleaning Services，我是 Jacinta 。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "CLIENT: Oh hello. I’m looking for a cleaning service for my apartment – do you do domestic cleaning?",
+        "zh": "Client：哦，你好。我想找清潔服務來打掃我的公寓，你們提供住家清潔嗎？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "JACINTA: Sure.",
+        "zh": "Jacinta：當然。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "CLIENT: Well, it’s just a one-bedroom flat. Do you have a basic cleaning package?",
+        "zh": "Client：嗯，只是一間一房公寓。 你們有基本清潔套餐嗎？",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "JACINTA: Yes. For a one-bedroom flat we’re probably looking at about two hours for a clean.",
+        "zh": "Jacinta：有的。一房公寓的清潔大概需要兩個小時。",
+        "sourcePages": [
+          20
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "So we’d do a thorough clean of all surfaces in each room, and polish them where necessary.",
+        "zh": "我們會徹底清潔每個房間的所有表面，必要時也會拋光。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "Does your apartment have carpets?",
+        "zh": "你的公寓有地毯嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "CLIENT: No, I don’t have any, but the floor would need cleaning.",
+        "zh": "Client：沒有，一塊也沒有，不過地板需要清潔。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "JACINTA: Of course – we’d do that in every room.",
+        "zh": "Jacinta：當然，我們會清潔每個房間的地板。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "And we’d do a thorough clean of the kitchen and bathroom.",
+        "zh": "我們也會徹底清潔廚房和浴室。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "CLIENT: OK.",
+        "zh": "Client：好的。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "JACINTA: Then we have some additional services which you can request if you want – so for example, we can clean your oven for you every week.",
+        "zh": "Jacinta：另外，我們還有一些額外服務，你可以視需要提出。例如，我們可以每週幫你清潔烤箱。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "CLIENT: Actually, I hardly ever use that, but can you do the fridge?",
+        "zh": "Client：其實我幾乎不用烤箱， 不過你們可以清潔冰箱嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "JACINTA: Sure. Would you like that done every week?",
+        "zh": "Jacinta：當然。你希望每週清潔一次嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "CLIENT: Yes, definitely. And would ironing clothes be an additional service you can do?",
+        "zh": "Client：是的，肯定要。那熨衣服也是你們能提供的額外服務嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "JACINTA: Yes, of course.",
+        "zh": "Jacinta：是的，當然可以。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "CLIENT: It wouldn’t be much, just my shirts for work that week.",
+        "zh": "Client：不會很多，只要熨我那週上班穿的襯衫。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "JACINTA: That’s fine. And we could also clean your microwave if you want.",
+        "zh": "Jacinta：沒問題。如果你需要， 我們也可以清潔微波爐。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "CLIENT: No, I wipe that out pretty regularly so there’s no need for that.",
+        "zh": "Client：不用，我自己經常擦，所以不需要。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "JACINTA: We also offer additional services that you might want a bit less often, say every month.",
+        "zh": "Jacinta：我們也提供一些你可能不需要那麼頻繁做的額外服務，例如每月一次。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "So for example, if the inside of your windows need cleaning, we could do that.",
+        "zh": "例如，如果窗戶內側需要清潔， 我們可以做。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "CLIENT: Yes, that’d be good.",
+        "zh": "Client：好的，那很好。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "I’m on the fifteenth floor, so the outside gets done regularly by specialists, but the inside does get a bit grubby.",
+        "zh": "我住在十五樓，所以外側會定期由專業人員清潔，但內側確實會有點髒。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "JACINTA: And we could arrange for your curtains to get cleaned if necessary.",
+        "zh": "Jacinta：如果有需要，我們也可以安排清洗窗簾。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "CLIENT: No, they’re OK. But would you be able to do something about the balcony?",
+        "zh": "Client：不用，窗簾還好。不過你們能清潔一下陽台嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "It’s quite small and I don’t use it much, but it could do with a wash every month or so.",
+        "zh": "它很小，我也不常用，但大概每個月清洗一次會比較好。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "JACINTA: Yes, we can get the pressure washer onto that.",
+        "zh": "Jacinta：可以，我們可以用高壓清洗機處理。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "JACINTA: Now if you’re interested, we do offer some other possibilities to do with general maintenance.",
+        "zh": "Jacinta：如果你有興趣，我們也提供一些一般維修方面的協助。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "For example, if you have a problem with water and you need a plumber in a hurry, we can put you in touch with a reliable one who can come out straightaway.",
+        "zh": "例如，如果你遇到水管問題，需要緊急找水管工，我們可以幫你聯絡可靠的人，能立刻上門。",
+        "sourcePages": [
+          23,
+          24
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "And the same thing if you need an electrician.",
+        "zh": "如果你需要電工，也可以同樣幫你聯絡。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "CLIENT: Right. That’s good to know.",
+        "zh": "Client：好的。知道這點很好。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "I’ve only just moved here so I don’t have any of those sorts of contacts.",
+        "zh": "我才剛搬來這裡，所以還沒有這類聯絡人。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "JACINTA: And I don’t know if this is of interest to you, but we also offer a special vacuum cleaning system which can improve the indoor air quality of your home by capturing up to 99% of all the dust in the air.",
+        "zh": "Jacinta：我不知道你是否會感興趣，但我們也提供一種特殊吸塵系統，可以捕捉空氣中高達 99% 的灰塵，改善家中的室內空氣品質。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "So if you’re troubled by allergies, this can make a big difference.",
+        "zh": "所以如果你有過敏困擾，這會有很大幫助。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "CLIENT: Right. In fact, I don’t have that sort of problem, but I’ll bear it in mind.",
+        "zh": "Client：了解。其實我沒有這方面的問題，但我會記住。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "Now can you tell me a bit about your cleaning staff?",
+        "zh": "現在你能跟我說說你們的清潔人員嗎？",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "JACINTA: Of course. So all our cleaners are very carefully selected.",
+        "zh": "Jacinta：當然。我們所有清潔人員都經過非常謹慎的篩選。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "When they apply to us, they have to undergo a security check with the police to make sure they don’t have any sort of criminal background, and, of course, they have to provide references as well.",
+        "zh": "他們申請時，必須接受警方安全背景調查，以確保沒有任何犯罪紀錄；當然，他們也必須提供推薦人資料。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "Then if we think they might be suitable for the job, we give them training for it.",
+        "zh": "接著，如果我們認為他們可能適合這份工作，就會提供培訓。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "That lasts for two weeks so it’s very thorough, and at the end of it, they have a test.",
+        "zh": "培訓持續兩週，所以非常完整； 結束時他們還要接受測驗。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "If they pass that, we take them on, but we monitor them very carefully – we ask all our clients to complete a review of their performance after every visit and to email it to us.",
+        "zh": "如果他們通過，我們就會錄用， 但仍會非常仔細地監督；我們會請所有客戶在每次服務後填寫清潔人員表現評價，並用電子郵件寄給我們。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "So we can pick up any problems straightaway and deal with them.",
+        "zh": "這樣我們就能立刻發現任何問題並處理。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "CLIENT: OK, well that all sounds good.",
+        "zh": "Client：好的，聽起來都不錯。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "And will I always have the same cleaner?",
+        "zh": "那我會一直由同一位清潔人員服務嗎？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "JACINTA: Yes, we do our best to organise it that way, and we usually manage it.",
+        "zh": "Jacinta：是的，我們會盡力這樣安排，而且通常可以做到。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "CLIENT: Good. That’s fine. Right, so I’d like to go ahead and …",
+        "zh": "Client：很好，那就好。那麼，我想接著……",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-046"
+      }
+    ],
+    "2": [
+      {
+        "en": "As many of you here today have worked in the hotel industry for some time, I’m sure you have experienced the problem of high staff turnover in your hotels.",
+        "zh": "今天在座許多人已經在飯店業工作了一段時間，我相信你們都經歷過飯店員工流動率高的問題。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "Every hotel relies on having loyal and experienced members of staff who make sure that everything runs smoothly.",
+        "zh": "每家飯店都仰賴忠誠且有經驗的員工，確保一切順利運作。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "If staff are constantly changing, it can make life difficult for everyone.",
+        "zh": "如果員工一直更換，會讓所有人的工作都變得困難。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "But why do staff leave frequently in many hotels?",
+        "zh": "但為什麼許多飯店的員工會頻繁離職呢？",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "Of course, many hotel jobs, such as cleaning, are low-skilled and are not well-paid.",
+        "zh": "當然，許多飯店工作，例如清潔，技能要求不高，薪資也不高。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "A lot of managers think it’s this and the long hours that are the main causes of high staff turnover – but what they don’t realise is that it’s the lack of training in many hotel jobs which is a huge factor.",
+        "zh": "很多經理認為，低薪和工時長是員工高流動率的主要原因； 但他們沒有意識到，許多飯店工作缺乏培訓才是一個重大因素。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "So, what kind of problems does a high turnover of staff cause?",
+        "zh": "那麼，高員工流動率會造成什麼問題呢？",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "Well, having to recruit new staff all the time can be very time-consuming, and managers may have to cover some duties while waiting for new staff to arrive.",
+        "zh": "一直招聘新員工非常耗時，而經理在等待新員工到職時，可能還得代為承擔一些工作。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "This means they don’t have time to think about less immediate problems such as how to improve their service.",
+        "zh": "這意味著他們沒有時間思考那些不那麼緊急的問題，例如如何改善服務。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "When staff leave, it can also severely affect the colleagues they leave behind.",
+        "zh": "員工離職時，也會嚴重影響留下來的同事。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "It has a negative effect on remaining staff, who may start to feel that they too should be thinking about leaving.",
+        "zh": "這會對留下來的員工造成負面影響，他們可能也開始覺得自己應該考慮離職。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "So, what can be done to change this situation?",
+        "zh": "那麼，可以做些什麼來改變這種情況呢？",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "Firstly, managers should stop making basic errors which leave their staff feeling upset and resentful.",
+        "zh": "首先，經理應停止犯一些會讓員工感到不滿和怨恨的基本錯誤。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "When organising shifts, for example, make sure you never give certain staff preferential treatment.",
+        "zh": "例如，在安排班表時，一定不要給某些員工特別優待。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "All staff should be given some choice about when they work, and everyone should have to work some evening and weekend shifts.",
+        "zh": "所有員工都應該對工作時間有一定選擇權，而每個人也都應分擔一些晚班和週末班。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "If you treat staff fairly, they’ll be more likely to step in and help when extra staff are needed.",
+        "zh": "如果你公平對待員工，當需要額外人手時，他們更可能願意主動幫忙。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "Keeping staff happy has other tangible benefits for the business.",
+        "zh": "讓員工保持滿意，對企業也有其他實際好處。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "Take the Dunwich Hotel as an example.",
+        "zh": "以 Dunwich Hotel 為例。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "It had been experiencing a problem with staff complaints and in order to deal with this, invested in staff training and improved staff conditions.",
+        "zh": "它曾面臨員工投訴問題，為了解決這點，飯店投資於員工培訓並改善工作條件。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "Not only did the level of complaints fall, but they also noticed a significant increase in the amount each customer spent during their stay.",
+        "zh": "不僅投訴數量下降，他們還注意到每位顧客入住期間的消費金額明顯增加。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "They have now introduced a customer loyalty scheme which is going really well.",
+        "zh": "他們現在推出了一項顧客忠誠計畫，進展非常順利。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "Now I’d like to look at some ways you can reduce staff turnover in your hotels, and I’ll do this by giving some examples of hotels where I’ve done some training recently.",
+        "zh": "現在我想看看一些可以降低飯店員工流動率的方法，我會用最近我做過培訓的一些飯店作為例子。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "The Sun Club received feedback which showed that staff thought managers didn’t value their opinions.",
+        "zh": "The Sun Club 收到的回饋顯示，員工認為經理不重視他們的意見。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "They weren’t made to feel they were partners who were contributing to the success of the business as a whole.",
+        "zh": "他們沒有感覺自己是為整個企業成功作出貢獻的夥伴。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "This situation has changed.",
+        "zh": "這種情況現在已經改變。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "Junior staff at all levels are regularly invited to meetings where their ideas are welcomed.",
+        "zh": "各層級的基層員工現在會定期受邀參加會議，而他們的想法也受到歡迎。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "A year ago, The Portland recognised the need to invest in staff retention.",
+        "zh": "一年前，The Portland 意識到需要投資於員工留任。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "Their first step was to introduce a scheme for recognising talent amongst their employees.",
+        "zh": "他們的第一步，是推出一項辨識員工中潛力人才的計畫。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "The hope is that organising training for individuals with management potential will encourage them to stay with the business.",
+        "zh": "他們希望為具備管理潛力的人安排培訓，能鼓勵這些人留在企業中。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "At Bluewater, managers decided to recognise 50 high achievers from across the company’s huge hotel chain.",
+        "zh": "在 Bluewater，經理們決定從公司龐大的飯店連鎖體系中表揚 50 名高績效員工。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "As a reward, they’re sent on an all-expenses-paid trip abroad every year.",
+        "zh": "作為獎勵，他們每年會獲得一次全額支付費用的海外旅行。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "Fun is an important element in the trips, but there’s also the opportunity to learn something useful.",
+        "zh": "旅行中的樂趣很重要，但同時也有機會學到有用的東西。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "This year’s trip included a visit to a brewery, where staff learned about the new beer that would be served in the hotel.",
+        "zh": "今年的旅行包括參觀一家啤酒廠，員工在那裡了解飯店即將供應的新啤酒。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "Pentlow Hotels identified that retention of junior reception staff was an issue.",
+        "zh": "Pentlow Hotels 發現基層接待員的留任是一個問題。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "In order to encourage them to see that working in a hotel could be worthwhile and rewarding, with good prospects, they introduced a management programme.",
+        "zh": "為了讓他們看到在飯店工作可以有價值、有回報且具備良好前景，飯店推出了一項管理計畫。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "These staff were given additional responsibilities and the chance to work in various roles in the hotel.",
+        "zh": "這些員工被賦予額外責任，並有機會在飯店中擔任不同角色。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-036"
+      },
+      {
+        "en": "Green Planet wanted to be seen as a caring employer.",
+        "zh": "Green Planet 希望被視為一個關心員工的雇主。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-037"
+      },
+      {
+        "en": "To make life easier for staff, many of whom had childcare responsibilities, the hotel began issuing vouchers to help cover the cost of childcare.",
+        "zh": "為了讓員工生活更輕鬆，其中許多人有育兒責任，飯店開始發放代金券，幫助支付托育費用。",
+        "sourcePages": [
+          32,
+          33
+        ],
+        "id": "p2-row-038"
+      },
+      {
+        "en": "Louise Marsh at The Amesbury has one of the best staff retention rates in the business.",
+        "zh": "The Amesbury 的 Louise Marsh 擁有業界最佳員工留任率之一。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-039"
+      },
+      {
+        "en": "Since she joined the company, she has made a huge effort to achieve this by creating a co-operative and supportive environment.",
+        "zh": "自她加入公司以來，她透過建立合作且支持性的環境，為達成這一點付出了巨大努力。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-040"
+      },
+      {
+        "en": "For her, the staff are part of a large family where everyone is valued.",
+        "zh": "對她而言，員工是一個大家庭的一部分，每個人都受到重視。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-041"
+      },
+      {
+        "en": "OK, now I’d like to …",
+        "zh": "好的，現在我想……",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-042"
+      }
+    ],
+    "3": [
+      {
+        "en": "JEANNE: Hi Thomas, how are you enjoying the course so far?",
+        "zh": "Jeanne：嗨，Thomas，到目前為止你覺得這門課怎麼樣？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "THOMAS: Yeah, I think it’s good.",
+        "zh": "Thomas：嗯，我覺得不錯。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "JEANNE: Remind me – why did you decide to study sports science?",
+        "zh": "Jeanne：提醒我一下，你為什麼決定讀運動科學？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "Didn’t you want to be a professional athlete when you were at school?",
+        "zh": "你上學時不是想成為職業運動員嗎？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "THOMAS: Yeah – that was my goal, and all my classmates assumed I would achieve it; they thought I was brilliant.",
+        "zh": "Thomas：是的，那曾是我的目標，而且所有同學都以為我會做到；他們覺得我很出色。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "JEANNE: That must have been a nice feeling.",
+        "zh": "Jeanne：那感覺一定很好。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "THOMAS: Mm, I thought I could win anything.",
+        "zh": "Thomas：嗯，我當時覺得自己什麼都能贏。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "There was no one who could run faster than me.",
+        "zh": "沒有人跑得比我快。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "JEANNE: Exactly – so what happened?",
+        "zh": "Jeanne：正是如此，那後來發生了什麼？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "Did your mum and dad want you to be more “academic”?",
+        "zh": "你爸媽希望你更專注於學業嗎？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "THOMAS: Not at all. Perhaps they should have pushed me harder, though.",
+        "zh": "Thomas：完全不是。不過也許他們當時應該更督促我。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "JEANNE: What do you mean?",
+        "zh": "Jeanne：你是什麼意思？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "THOMAS: I think I should have practised more.",
+        "zh": "Thomas：我覺得我應該練得更多。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "JEANNE: What makes you say that?",
+        "zh": "Jeanne：為什麼這麼說？",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "THOMAS: Well, I went out to Kenya for a couple of weeks to train …",
+        "zh": "Thomas：嗯，我去肯亞訓練了幾週……",
+        "sourcePages": [
+          35
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "JEANNE: Really! I didn’t know that.",
+        "zh": "Jeanne：真的！我不知道這件事。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "THOMAS: I was chosen to go there out of loads of kids and run with some of the top teenage athletes in the world.",
+        "zh": "Thomas：我是從很多孩子中被選出來去那裡，和世界上一些頂尖青少年運動員一起跑步。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "And … I was so calm about it.",
+        "zh": "而且……我對這件事很冷靜。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "I just kept thinking how fortunate I was.",
+        "zh": "我一直在想自己有多幸運。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "What a great chance this was!",
+        "zh": "這是一個多麼好的機會！",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "Everyone back home was so proud of me.",
+        "zh": "家裡所有人都為我感到驕傲。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "But once we started competing, I very quickly realised I wasn’t good enough.",
+        "zh": "但一開始比賽，我很快就意識到自己不夠好。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "JEANNE: That must have been a huge shock.",
+        "zh": "Jeanne：那一定是很大的打擊。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "THOMAS: I thought “this can’t be happening”!",
+        "zh": "Thomas：我當時想：「這不可能發生！」",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "I was used to winning.",
+        "zh": "我已經習慣贏了。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "JEANNE: I’m sorry to hear that.",
+        "zh": "Jeanne：聽到這件事我很遺憾。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "THOMAS: It’s OK. I’m over it now and I think it’s much better to do a university course and this one has such a variety of sports-related areas.",
+        "zh": "Thomas：沒事。我現在已經走出來了，而且我覺得讀大學課程更好，這門課涵蓋了很多和運動相關的領域。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "It’s going to be good.",
+        "zh": "會很不錯的。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "JEANNE: Oh, I agree – I chose it because of that.",
+        "zh": "Jeanne：哦，我同意。我就是因為這點才選它的。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "THOMAS: So Jeanne – have you thought of any ideas for the discussion session next week on technology and sport?",
+        "zh": "Thomas：那麼 Jeanne，你有想到下週科技與運動討論課的任何想法嗎？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "JEANNE: We have to cover more than one sport, don’t we?",
+        "zh": "Jeanne：我們得涵蓋不只一項運動，對吧？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "THOMAS: Yeah.",
+        "zh": "Thomas：對。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "JEANNE: You know – we always think technology is about the future, but we could gather some ideas about past developments in sport.",
+        "zh": "Jeanne：你知道，我們總是覺得科技是關於未來的，但我們也可以整理一些過去運動發展中的科技變化。",
+        "sourcePages": [
+          37,
+          38
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "THOMAS: Look at early types of equipment perhaps?",
+        "zh": "Thomas：也許可以看看早期的運動器材？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "Uh, I remember reading something about table tennis bats once – how they ended up being covered with pimpled rubber.",
+        "zh": "呃，我記得曾讀過一些關於乒乓球拍的內容，說它們最後是怎麼覆蓋上顆粒橡膠的。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "JEANNE: Cos they were just wooden at first, I’d imagine.",
+        "zh": "Jeanne：我想它們最早只是木製的吧。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "THOMAS: Yeah. In about the 1920s, a factory was making rolls of the rubber in bulk for something like horse harnesses.",
+        "zh": "Thomas：是的。大約在 1920 年代，有一家工廠大量生產成卷橡膠，好像是用於馬具之類的東西。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "JEANNE: Really!",
+        "zh": "Jeanne：真的嗎！",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "THOMAS: Yeah – and someone realised that it’d make a perfect covering for the wooden bats.",
+        "zh": "Thomas：是啊，然後有人意識到這種橡膠非常適合覆蓋在木製球拍上。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "JEANNE: So what about cricket – that’s had a few innovative changes.",
+        "zh": "Jeanne：那板球呢？它也有一些創新變化。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "Maybe the pads they wear on their legs?",
+        "zh": "也許是他們腿上戴的護墊？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "THOMAS: I don’t think they’ve changed much but, I’m just looking on the internet … and it says that when the first cricket helmet came in, in 1978, the Australian batsman who first wore it was booed and jeered by people watching because it was so ugly!",
+        "zh": "Thomas：我不覺得那些變化很大，但我正在網上看……這裡說第一頂板球頭盔在 1978 年出現時，第一位戴上它的澳洲擊球手被觀眾喝倒采和嘲笑，因為它太醜了！",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "JEANNE: Wow, players have to protect themselves from getting hurt!",
+        "zh": "Jeanne：哇，球員必須保護自己不受傷啊！",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "I mean everyone wears one now.",
+        "zh": "我的意思是，現在大家都戴了。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "THOMAS: Mm, unlike the cycle helmet.",
+        "zh": "Thomas：嗯，不像自行車安全帽。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "JEANNE: Well, unless you’re a professional, but you’re right, many ordinary bikers don’t wear a helmet.",
+        "zh": "Jeanne：嗯，除非是職業選手， 不過你說得對，很多普通騎士不戴安全帽。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "THOMAS: Hey, look at these pictures of original helmet designs.",
+        "zh": "Thomas：嘿，看看這些早期安全帽設計的照片。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "This one looks like an upside-down bowl!",
+        "zh": "這個看起來像倒扣的碗！",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "JEANNE: Yet, the woman’s laughing – she’s so proud to be wearing it!",
+        "zh": "Jeanne：可是那位女士在笑，她戴著它看起來很驕傲！",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "THOMAS: It says serious cyclists ended up with wet hair from all the hard exercise.",
+        "zh": "Thomas：這裡說，認真騎車的人因為大量運動，最後頭髮都濕了。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "JEANNE: I guess that’s why they have large air vents in them now so that the skin can breathe more easily.",
+        "zh": "Jeanne：我想這就是為什麼現在的安全帽有大通風孔，讓皮膚比較容易透氣。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "THOMAS: OK, so we’ve done helmets.",
+        "zh": "Thomas：好，安全帽我們說完了。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "What about golf balls or better still golf clubs – they’ve changed a lot.",
+        "zh": "那高爾夫球呢，或者更好的是高爾夫球桿，它們變化很大。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "JEANNE: Yeah – I remember my great grandfather telling me that because a club was made entirely of wood, it would easily break and players had to get another.",
+        "zh": "Jeanne：是啊，我記得曾祖父告訴我，以前球桿完全由木頭製成，很容易斷，球員不得不換新的。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "THOMAS: There’s no wood at all in them now, is there?",
+        "zh": "Thomas：現在裡面完全沒有木頭了，對吧？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-055"
+      },
+      {
+        "en": "JEANNE: No – they’re much more powerful.",
+        "zh": "Jeanne：沒有了，而且現在的球桿強度大得多。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-056"
+      },
+      {
+        "en": "THOMAS: The same must be true of hockey sticks.",
+        "zh": "Thomas：曲棍球桿一定也是這樣。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-057"
+      },
+      {
+        "en": "JEANNE: I don’t think so because players still use wooden sticks today.",
+        "zh": "Jeanne：我不這麼認為，因為球員現在仍然使用木製球桿。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-058"
+      },
+      {
+        "en": "What it does say here, though, is that when the game started you had to produce a stick yourself.",
+        "zh": "不過這裡說，這項運動剛開始時，球員必須自己製作球桿。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-059"
+      },
+      {
+        "en": "THOMAS: I guess they just weren’t being manufactured.",
+        "zh": "Thomas：我想那時候還沒有大規模生產。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-060"
+      },
+      {
+        "en": "So, one more perhaps. What about football?",
+        "zh": "那再說一個吧。足球怎麼樣？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-061"
+      },
+      {
+        "en": "JEANNE: Well, I know the first balls were made of animal skin.",
+        "zh": "Jeanne：嗯，我知道最早的足球是用動物皮做的。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-062"
+      },
+      {
+        "en": "THOMAS: Yeah, they covered them with pieces of leather that were stitched together, but … the balls let in water when it rained.",
+        "zh": "Thomas：是的，球的外層是由縫在一起的皮革片覆蓋，但…… 下雨時球會進水。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-063"
+      },
+      {
+        "en": "JEANNE: Oh, that would have made them much heavier.",
+        "zh": "Jeanne：哦，那會讓它們重很多。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-064"
+      },
+      {
+        "en": "THOMAS: That’s right. You can imagine the damage to players’ necks when the ball was headed.",
+        "zh": "Thomas：沒錯。你可以想像球員頂球時，這對脖子造成多大傷害。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-065"
+      },
+      {
+        "en": "JEANNE: How painful that must have been!",
+        "zh": "Jeanne：那一定很痛！",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-066"
+      },
+      {
+        "en": "THOMAS: Yeah, well, I think we can put together some useful ideas …",
+        "zh": "Thomas：是啊，嗯，我覺得我們可以整理出一些有用的想法 ……",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-067"
+      }
+    ],
+    "4": [
+      {
+        "en": "Hello everyone. Today we’re going to look at another natural food product and that’s maple syrup.",
+        "zh": "大家好。今天我們要來看另一種天然食品，那就是楓糖漿。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "What is this exactly?",
+        "zh": "它到底是什麼呢？",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "Well, maple syrup looks rather like clear honey, but it’s not made by bees; it’s produced from the plant fluid – or sap – inside the maple tree and that makes maple syrup a very natural product.",
+        "zh": "楓糖漿看起來有點像清澈的蜂蜜，但它不是由蜜蜂製成的；它是由楓樹內部的植物液，也就是樹液製成，因此楓糖漿是一種非常天然的產品。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Maple syrup is a thick, golden, sweet-tasting liquid that can be bought in bottles or jars and poured onto food such as waffles and ice cream or used in the baking of cakes and pastries.",
+        "zh": "楓糖漿是一種濃稠、金黃色、 味道甜美的液體，可以裝在瓶子或罐子裡購買，倒在鬆餅和冰淇淋等食物上，也可以用於烘焙蛋糕和糕點。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "It contains no preservatives or added ingredients, and it provides a healthy alternative to refined sugar.",
+        "zh": "它不含防腐劑或添加成分，是精製糖較健康的替代品。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "Let’s just talk a bit about the maple tree itself, which is where maple syrup comes from.",
+        "zh": "接著我們來談談楓糖漿來源的楓樹本身。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "So, there are many species of maple tree, and they’ll grow without fertilizer in areas where there’s plenty of moisture in the soil.",
+        "zh": "楓樹有許多種類，只要土壤中水分充足，即使不施肥也能生長。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "However, they’ll only do this if another important criterion is fulfilled, which is that they must have full or partial sun exposure during the day and very cool nights – and I’ll talk more about that in a minute.",
+        "zh": "不過，它們還需要滿足另一個重要條件，那就是白天必須有全日照或部分日照，夜晚則要非常涼爽——這點我稍後會再說明。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "There are only certain parts of the world that provide all these conditions: one is Canada, and by that, I mean all parts of Canada, and the other is the north-eastern states of North America.",
+        "zh": "世界上只有某些地區能提供所有這些條件：其中一個是加拿大，我指的是加拿大各地；另一個是北美東北部各州。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "In these areas, the climate suits the trees perfectly.",
+        "zh": "在這些地區，氣候非常適合楓樹。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "In fact, Canada produces over two-thirds of the world’s maple syrup, which is why the five-pointed maple leaf is a Canadian symbol and has featured on the flag since 1964.",
+        "zh": "事實上，加拿大生產全球超過三分之二的楓糖漿，這也是為什麼五角楓葉是加拿大象徵， 並自 1964 年起出現在加拿大國旗上。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "So how did maple syrup production begin?",
+        "zh": "那麼，楓糖漿的生產是如何開始的呢？",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "Well, long before Europeans settled in these parts of the world, the indigenous communities had started producing maple sugar.",
+        "zh": "早在歐洲人定居這些地區之前，原住民社群就已經開始製作楓糖。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "They bored holes in the trunks of maple trees and used containers made of tree bark to collect the liquid sap as it poured out.",
+        "zh": "他們在楓樹樹幹上鑽孔，並用樹皮製成容器，收集流出的液態樹液。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "As they were unable to keep the liquid for any length of time – they didn’t have storage facilities in those days – they boiled the liquid by placing pieces of rock that had become scorching hot from the sun into the sap.",
+        "zh": "由於他們無法長時間保存液體 ——當時沒有儲存設備——他們會把被太陽曬得滾燙的石塊放入樹液中，藉此將液體煮沸。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "They did this until it turned into sugar, and they were then able to use this to sweeten their food and drinks.",
+        "zh": "他們反覆這樣做，直到樹液變成糖，然後就能用它來為食物和飲品增甜。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "Since that time, improvements have been made to the process, but it has changed very little overall.",
+        "zh": "自那時起，製作流程雖然有一些改良，但整體變化很小。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "So let’s look at the production of maple syrup today.",
+        "zh": "那麼我們來看看如今楓糖漿的生產方式。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Clearly, the maple forests are a valuable resource in many Canadian and North American communities.",
+        "zh": "顯然，楓樹林在許多加拿大和北美社區中都是寶貴資源。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "The trees have to be well looked after and they cannot be used to make syrup until the trunks reach a diameter of around 25 centimetres.",
+        "zh": "這些樹必須受到良好照料，而且只有當樹幹直徑達到約 25 公分時，才能用來製作糖漿。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "This can take anything up to 40 years.",
+        "zh": "這可能需要長達 40 年。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "As I’ve already mentioned, maple trees need the right conditions to grow and also to produce sap. Why is this?",
+        "zh": "正如我已經提到的，楓樹需要合適條件才能生長並產生樹液。為什麼呢？",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "Well, what happens is that during a cold night, the tree absorbs water from the soil, and that rises through the tree’s vascular system.",
+        "zh": "情況是這樣的：在寒冷夜晚，樹木會從土壤中吸收水分，水分會透過樹的維管系統向上移動。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "But then in the warmer daytime, the change in temperature causes the water to be pushed back down to the bottom of the tree.",
+        "zh": "但到了較溫暖的白天，溫度變化會使水分被推回樹的底部。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "This continual movement – up and down – leads to the formation of the sap needed for maple syrup production.",
+        "zh": "這種上下來回的持續流動，促成了製作楓糖漿所需樹液的形成。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "When the tree is ready, it can be tapped and this involves drilling a small hole into the trunk and inserting a tube into it that ends in a bucket.",
+        "zh": "當樹準備好後，就可以取樹液了；這需要在樹幹上鑽一個小孔，插入一根通向桶子的管子。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "The trees can often take several taps, though the workers take care not to cause any damage to the healthy growth of the tree itself.",
+        "zh": "一棵樹通常可以插入幾個取液口，不過工人會小心避免損害樹木本身的健康生長。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "The sap that comes out of the trees consists of 98 percent water and 2 percent sugar and other nutrients.",
+        "zh": "從樹中流出的樹液含有 98% 的水，以及 2% 的糖和其他營養物質。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "It has to be boiled so that much of that water evaporates, and this process has to take place immediately, using what are called evaporators.",
+        "zh": "它必須被煮沸，讓大量水分蒸發，而且這個過程必須立即進行，使用所謂的蒸發器。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "These are basically extremely large pans – the sap is poured into these, a fire is built and the pans are then heated until the sap boils.",
+        "zh": "這些基本上是非常大的鍋子； 樹液被倒入其中，然後生火加熱，直到樹液沸騰。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "As it does this, the water evaporates, and the syrup begins to form.",
+        "zh": "在這個過程中，水分蒸發，糖漿開始形成。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "The evaporation process creates large quantities of steam, and the sap becomes thicker and denser, and, at just the right moment, when the sap is thick enough to be called maple syrup, the worker removes it from the heat.",
+        "zh": "蒸發過程會產生大量蒸汽，樹液也會變得越來越濃稠；在恰當時刻，也就是樹液濃到可以稱為楓糖漿時，工人會把它從火上移開。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "After this process, something called “sugar sand” has to be filtered out as this builds up during the boiling and gives the syrup a cloudy appearance and a slightly gritty taste.",
+        "zh": "之後，必須濾除一種叫做 “sugar sand” 的物質，因為它會在煮沸過程中形成，使糖漿看起來混濁，並帶有輕微沙粒感。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-033"
+      },
+      {
+        "en": "Once this has been done, the syrup is ready to be packaged so that it can be used for a whole variety of products.",
+        "zh": "完成這一步後，糖漿就可以包裝，並用於各式各樣的產品。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-034"
+      },
+      {
+        "en": "It takes 40 litres of sap to produce one litre of maple syrup so you can get an idea of how much is needed!",
+        "zh": "製作一公升楓糖漿需要 40 公升樹液，所以你可以想像所需的樹液量有多大！",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-035"
+      },
+      {
+        "en": "So that’s the basic process. In places like Quebec where …",
+        "zh": "這就是基本流程。在 Quebec 這樣的地方……",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-036"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "floor / floors",
+      "explanation": "題目寫： “Cleaning the _____ throughout the apartment” Client 先說自己沒有 carpets： “No, I don’t have any” 但接著補充： “the floor would need cleaning.” Jacinta 回應： “we’d do that in every room.” “in every room” 對應題目的 “throughout the apartment”，所以基本套餐包括清潔整個公寓的地板。 答案可寫 floor 或 floors。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "2": {
+      "answer": "fridge",
+      "explanation": "題目在每週 additional services 下寫： “Cleaning the _____” Jacinta 原本提議每週清潔 oven，但 Client 說： “I hardly ever use that” 接著問： “can you do the fridge?” 並確認： “Would you like that done every week?” “Yes, definitely.” 所以最後同意的每週服務是清潔 fridge。 中伏位：oven 先被提出，但 Client 沒有選；真正確認加入服務的是 fridge。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "3": {
+      "answer": "shirts",
+      "explanation": "題目寫： “Ironing clothes — _____ only” Client 說： “It wouldn’t be much, just my shirts for work that week.” 所以他只需要熨工作穿的襯衫。 答案是 shirts。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "4": {
+      "answer": "windows",
+      "explanation": "題目在每月服務下寫： “Cleaning all the _____ from the inside” Jacinta 說： “if the inside of your windows need cleaning, we could do that.” Client 解釋自己住在 15 樓，外側已有 specialists 定期清理： “but the inside does get a bit grubby.” 所以每月需要清潔的是窗戶內側。 答案是 windows。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "5": {
+      "answer": "balcony",
+      "explanation": "題目寫： “Washing down the _____” Client 問： “would you be able to do something about the balcony?” 並說： “it could do with a wash every month or so.” 所以題目的 “washing down” 對應每月清洗 balcony。 答案是 balcony。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "6": {
+      "answer": "electrician",
+      "explanation": "題目寫： “They can organise a plumber or an _____ if necessary.” Jacinta 說如果有水管問題，可以安排 plumber，接著： “And the same thing if you need an electrician.” 所以答案是 electrician。 題目前有 an，也可從文法確認需要單數職業名詞。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "7": {
+      "answer": "dust",
+      "explanation": "題目寫： “A special cleaning service is available for customers who are allergic to _____.” Jacinta 介紹特殊 vacuum system： “capturing up to 99% of all the dust in the air.” 接著說： “if you’re troubled by allergies, this can make a big difference.” 因此這項特殊服務適合對 dust 過敏的人。 答案是 dust。 這題需要把兩句連起來理解： 吸走大量 dust → 改善 indoor air quality → 幫助 allergy sufferers",
+      "sourcePages": [
+        51
+      ]
+    },
+    "8": {
+      "answer": "police",
+      "explanation": "題目寫： “all cleaners have a background check carried out by the _____.” 錄音說： “they have to undergo a security check with the police” 目的在於確認沒有 criminal background。 所以答案是 police。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "9": {
+      "answer": "training",
+      "explanation": "題目寫： “All cleaners are given _____ for two weeks.” 錄音說： “we give them training for it.” 接著： “That lasts for two weeks” 所以答案是 training。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "10": {
+      "answer": "review",
+      "explanation": "題目寫： “Customers send a _____ after each visit.” 錄音說： “we ask all our clients to complete a review of their performance after every visit and to email it to us.” “after every visit” 直接對應題目的 “after each visit”。 所以答案是 review。",
+      "sourcePages": [
+        53,
+        54
+      ]
+    },
+    "11": {
+      "answer": "A — a lack of training",
+      "explanation": "題目問：很多 hotel managers 沒有意識到員工經常離職的真正重要原因是甚麼。 錄音先說 managers 通常認為： ● low pay ● long hours 是主要原因。 講者隨即指出他們忽略了： “what they don’t realise is that it’s the lack of training … which is a huge factor.” 題目控制詞正是 unaware，直接對應 “don’t realise”。 所以答案是 A。 中伏位：B 和 C 都確實存在，也會影響員工，但 speaker 特別強調 managers 沒有察覺的因素是 training。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "12": {
+      "answer": "A — an increased workload",
+      "explanation": "題目問 high staff turnover 對 managers 有甚麼影響。 錄音說不停招聘新人： “can be very time-consuming” 而且 managers： “may have to cover some duties while waiting for new staff to arrive.” 換句話說，原本屬於其他員工的工作，有一部分會落到 manager 身上，因此工作量增加。 所以答案是 A — an increased workload。 中伏位：錄音之後確實提到 remaining staff 的情緒受到負面影響，但那一段講的是其他員工，題目特別問 managers。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "13": {
+      "answer": "A — failing to treat staff equally",
+      "explanation": "題目問 managers 應該永遠避免哪一個錯誤。 錄音說： “make sure you never give certain staff preferential treatment.” 並強調： “All staff should be given some choice…” 以及： “If you treat staff fairly…” preferential treatment = 對部分員工偏心；反方向就是沒有平等對待所有人。 所以答案是 A。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "14": {
+      "answer": "C — a rise in spending per customer",
+      "explanation": "題目問 Dunwich Hotel 改善 staff retention 後，出現了甚麼 unexpected benefit。 錄音說改善 training 和 conditions 後，staff complaints 的確下降。 除此之外，他們還發現： “a significant increase in the amount each customer spent during their stay.” 這才是額外、較出乎意料的 business benefit。 所以答案是 C。 中伏位：loyalty scheme 是酒店之後推出的新措施；題目問的是改善員工留任後已經觀察到的 benefit 。",
+      "sourcePages": [
+        56,
+        57
+      ]
+    },
+    "15": {
+      "answer": "A — improving relationships and teamwork",
+      "explanation": "題目是 The Sun Club。 問題原本是員工覺得： “managers didn’t value their opinions.” 現在 junior staff： “are regularly invited to meetings where their ideas are welcomed.” 這讓員工更有參與感，也更像整個 business 的合作夥伴。 所以核心方法是改善管理層與員工之間的關係及合作。 答案是 A。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "16": {
+      "answer": "C — providing career opportunities",
+      "explanation": "題目是 The Portland。 酒店推出： “a scheme for recognising talent” 並為有： “management potential” 的人安排 training，希望他們留在企業。 這是在讓員工看到晉升與職涯發展路徑。 所以答案是 C。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "17": {
+      "answer": "B — offering incentives and financial benefits",
+      "explanation": "題目是 Bluewater Hotels。 公司表揚 50 位 high achievers，獎勵是： “an all-expenses-paid trip abroad every year.” 免費海外旅行是一項明確的 incentive / financial benefit。 所以答案是 B。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "18": {
+      "answer": "C — providing career opportunities",
+      "explanation": "題目是 Pentlow Hotels。 為了讓 junior reception staff 覺得工作有： “good prospects” 酒店推出： “a management programme” 並給員工： “additional responsibilities and the chance to work in various roles” 這些安排都在建立未來晉升和職涯發展機會。 所以答案是 C。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "19": {
+      "answer": "B — offering incentives and financial benefits",
+      "explanation": "題目是 Green Planet。 酒店發現很多 staff 有 childcare responsibilities，因此： “began issuing vouchers to help cover the cost of childcare.” childcare vouchers 能直接減輕員工支出，是一項財務福利。 所以答案是 B。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "20": {
+      "answer": "A — improving relationships and teamwork",
+      "explanation": "題目是 The Amesbury。 Louise Marsh 建立： “a co-operative and supportive environment.” 並把 staff 視為： “part of a large family where everyone is valued.” 重點顯然是團隊關係、互相支持與歸屬感。 所以答案是 A。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "21": {
+      "answer": "C and E",
+      "explanation": "C — He could have worked harder at them Thomas 回顧自己學生時期的運動表現，說： “Perhaps they should have pushed me harder” 接著直接承認： “I think I should have practised more.” 所以他現在認為自己當年可以投入更多訓練。 答案 C。 E — His fellow students admired him Thomas 說： “all my classmates assumed I would achieve it; they thought I was brilliant.” 也就是同學非常看好他的運動能力。 所以 E 正確。 中伏位：父母沒有對他失望；Thomas 反而說 parents 沒有要求他更 academic。B 也沒有支持，因為問題並非 training 太難，而是他後來發現自己練習得不夠。",
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    "22": {
+      "answer": "C and E",
+      "explanation": "C — He could have worked harder at them Thomas 回顧自己學生時期的運動表現，說： “Perhaps they should have pushed me harder” 接著直接承認： “I think I should have practised more.” 所以他現在認為自己當年可以投入更多訓練。 答案 C。 E — His fellow students admired him Thomas 說： “all my classmates assumed I would achieve it; they thought I was brilliant.” 也就是同學非常看好他的運動能力。 所以 E 正確。 中伏位：父母沒有對他失望；Thomas 反而說 parents 沒有要求他更 academic。B 也沒有支持，因為問題並非 training 太難，而是他後來發現自己練習得不夠。",
+      "sourcePages": [
+        60,
+        61
+      ]
+    },
+    "23": {
+      "answer": "A and D",
+      "explanation": "D — gratitude Thomas 剛到 Kenya 時說自己非常 calm，並一直想： “how fortunate I was.” 以及： “What a great chance this was!” 他對自己獲得這個機會感到非常幸運、感激。 所以 D 正確。 A — disbelief 真正開始和世界級青少年運動員競爭後，他迅速發現自己： “wasn’t good enough.” Jeanne 說這一定是 huge shock。 Thomas 回憶自己的反應： “this can’t be happening!” 這就是典型的 disbelief——難以相信眼前發生的事。 所以 A 正確。 這題其實呈現兩個不同階段： 到 Kenya 初期 → gratitude 開始真正競賽 → disbelief",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "24": {
+      "answer": "A and D",
+      "explanation": "D — gratitude Thomas 剛到 Kenya 時說自己非常 calm，並一直想： “how fortunate I was.” 以及： “What a great chance this was!” 他對自己獲得這個機會感到非常幸運、感激。 所以 D 正確。 A — disbelief 真正開始和世界級青少年運動員競爭後，他迅速發現自己： “wasn’t good enough.” Jeanne 說這一定是 huge shock。 Thomas 回憶自己的反應： “this can’t be happening!” 這就是典型的 disbelief——難以相信眼前發生的事。 所以 A 正確。 這題其實呈現兩個不同階段： 到 Kenya 初期 → gratitude 開始真正競賽 → disbelief",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "25": {
+      "answer": "B — The material was being mass produced for another purpose",
+      "explanation": "題目是 table tennis bat。 錄音說 1920s 有一家 factory： “making rolls of the rubber in bulk” 原本用途是： “something like horse harnesses.” 後來才有人發現這種 rubber 適合覆蓋 wooden bats。 所以材料原本已經為另一種用途大量生產。 答案是 B。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "26": {
+      "answer": "F — It was unpopular among spectators",
+      "explanation": "題目是 cricket helmet。 第一位戴 helmet 的 Australian batsman： “was booed and jeered by people watching” 原因是 helmet： “was so ugly!” booed and jeered 表示觀眾非常不喜歡。 所以答案是 F。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "27": {
+      "answer": "A — It could cause excessive sweating",
+      "explanation": "題目是 cycle helmet。 錄音說： “serious cyclists ended up with wet hair from all the hard exercise.” Jeanne 解釋現在 helmets 有： “large air vents … so that the skin can breathe more easily.” 也就是早期設計通風不足，容易令騎士大量出汗。 所以答案是 A。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "28": {
+      "answer": "D — It often had to be replaced",
+      "explanation": "題目是 golf club。 Jeanne 說以前 club： “was made entirely of wood” 所以： “it would easily break and players had to get another.” 容易斷 → 需要重新換一支。 所以答案是 D。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "29": {
+      "answer": "C — People often needed to make their own",
+      "explanation": "題目是 hockey stick。 錄音說運動早期： “you had to produce a stick yourself.” Thomas 推測： “they just weren’t being manufactured.” 所以早期 players 經常需要自己製作。 答案是 C。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "30": {
+      "answer": "G — It caused injuries",
+      "explanation": "題目是 football。 早期 football 外層是 leather，遇雨會吸水： “the balls let in water” 結果： “made them much heavier.” Thomas 接著說： “You can imagine the damage to players’ necks when the ball was headed.” 所以早期 football 的設計會造成身體傷害。 答案是 G。 這題要連起三步： 皮革吸水 → 球變重 → 頂球時衝擊加大 → neck injuries",
+      "sourcePages": [
+        64,
+        65
+      ]
+    },
+    "31": {
+      "answer": "golden",
+      "explanation": "題目寫 maple syrup： “colour described as _____” 錄音形容它是： “a thick, golden, sweet-tasting liquid” 所以答案是 golden。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "32": {
+      "answer": "healthy",
+      "explanation": "題目寫： “very _____ compared to refined sugar” 錄音說 maple syrup： “provides a healthy alternative to refined sugar.” 所以答案是 healthy。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "33": {
+      "answer": "climate",
+      "explanation": "題目寫： “best growing conditions and _____ are in Canada and North America” 錄音先列出 maple tree 所需條件：moisture、sunny days、cool nights。 再說： “In these areas, the climate suits the trees perfectly.” 所以 Canada 和 North America 的優勢在於 climate 符合生長需求。 答案是 climate。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "34": {
+      "answer": "rock / rocks",
+      "explanation": "題目寫早期 maple sugar producers： “used hot _____ to heat the sap” 錄音說： “placing pieces of rock that had become scorching hot from the sun into the sap.” 所以他們用被曬得很熱的石頭加熱樹液。 答案可寫 rock 或 rocks。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "35": {
+      "answer": "diameter",
+      "explanation": "題目寫： “Tree trunks may not have the correct _____ until they have been growing for 40 years.” 錄音說樹木要等到樹幹： “reach a diameter of around 25 centimetres.” 接著： “This can take anything up to 40 years.” 所以題目把「25 cm 的 diameter」和「可能要 40 年」結合起來。 答案是 diameter。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "36": {
+      "answer": "tube",
+      "explanation": "題目寫： “A tap is drilled into the trunk and a _____ carries the sap into a bucket.” 錄音說： “drilling a small hole into the trunk and inserting a tube into it that ends in a bucket.” tube 是把 sap 從 tree trunk 引到 bucket 的通道。 所以答案是 tube。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "37": {
+      "answer": "fire",
+      "explanation": "題目寫： “Large pans of sap called evaporators are heated by means of a _____.” 錄音說： “a fire is built and the pans are then heated until the sap boils.” 所以加熱 evaporators 的來源是 fire。 答案是 fire。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "38": {
+      "answer": "steam",
+      "explanation": "題目寫： “A lot of _____ is produced during the evaporation process.” 錄音直接說： “The evaporation process creates large quantities of steam.” large quantities = a lot of。 所以答案是 steam。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "39": {
+      "answer": "cloudy",
+      "explanation": "題目寫： “‘Sugar sand’ is removed because it makes the syrup look _____ and affects the taste.” 錄音說 sugar sand： “gives the syrup a cloudy appearance and a slightly gritty taste.” 題目將： cloudy appearance → look cloudy 所以答案是 cloudy。 這裡 sugar sand 需要被 filtered out，有兩個原因： 外觀變 cloudy + 味道帶 gritty 感題目第一個空格只問外觀，因此填 cloudy。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "40": {
+      "answer": "litre / liter",
+      "explanation": "題目寫： “A huge quantity of sap is needed to make a _____ of maple syrup.” 錄音給出明確比例： “It takes 40 litres of sap to produce one litre of maple syrup.” 題目沒有問需要多少 sap；它問這大量 sap 最終製成多少 maple syrup。 所以： 40 litres sap → 1 litre maple syrup 答案是 litre；美式拼法 liter 也可接受。 中伏位： 40 是原料 sap 的數量，空格位於 “make a _____ of maple syrup”，因此要填最終產品單位 litre。",
+      "sourcePages": [
+        70
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 316.8391875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%201.mp3",
+        "audioSha256": "2e4752b0dd4a46ad8f41a498c6887169571359ac870c8e46fe9b7e2a28487fb6",
+        "transcriptSha256": "56d7b0d64c37c6cabd9fcbb5792417eab41e9fcc880d51a7ed5f8cc1690efca7",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9934,
+        "lines": [
+          {
+            "start": 44.16,
+            "end": 47.9,
+            "coverage": 0.9318
+          },
+          {
+            "start": 48.56,
+            "end": 53.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.32,
+            "end": 54.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 55.26,
+            "end": 60.16,
+            "coverage": 0.9643
+          },
+          {
+            "start": 60.7,
+            "end": 66.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 66.78,
+            "end": 71.78,
+            "coverage": 0.9859
+          },
+          {
+            "start": 72.72,
+            "end": 74.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 74.72,
+            "end": 77.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.5,
+            "end": 80.92,
+            "coverage": 0.9643
+          },
+          {
+            "start": 81.42,
+            "end": 83.96,
+            "coverage": 0.9778
+          },
+          {
+            "start": 84.66,
+            "end": 84.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 85.26,
+            "end": 93.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 93.98,
+            "end": 97.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 98.36,
+            "end": 100.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 101.24,
+            "end": 106.64,
+            "coverage": 0.9688
+          },
+          {
+            "start": 106.98,
+            "end": 107.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 108.3,
+            "end": 111.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.84,
+            "end": 115.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.06,
+            "end": 119.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.52,
+            "end": 126.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 126.66,
+            "end": 130.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.32,
+            "end": 132.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 132.96,
+            "end": 140.2,
+            "coverage": 0.9239
+          },
+          {
+            "start": 140.88,
+            "end": 143.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 144.26,
+            "end": 148.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 149.38,
+            "end": 154.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 155.02,
+            "end": 157.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 198.9,
+            "end": 204.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 204.78,
+            "end": 213.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.2,
+            "end": 216.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 216.88,
+            "end": 218.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 219.04,
+            "end": 223.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 224.2,
+            "end": 237.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 237.56,
+            "end": 240.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.32,
+            "end": 245.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 246.2,
+            "end": 249.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 249.6,
+            "end": 253.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 254.38,
+            "end": 264.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.7,
+            "end": 269.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 270.18,
+            "end": 274.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 275.52,
+            "end": 286.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 287.16,
+            "end": 290.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.66,
+            "end": 292.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 293.5,
+            "end": 296.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.06,
+            "end": 301.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.34,
+            "end": 305.94,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 444.31675,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%202.mp3",
+        "audioSha256": "78c34c03e175685497d63adda7cfd96e35d21a915449b24a6750342eaaa550bd",
+        "transcriptSha256": "dccdad4f8147cc37ee802132bca1896b2a26206371078878f50619fdeea526d8",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9968,
+        "lines": [
+          {
+            "start": 52.62,
+            "end": 64.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 65.4,
+            "end": 74.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.32,
+            "end": 80.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.44,
+            "end": 85.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.06,
+            "end": 93.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 94.62,
+            "end": 109.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.06,
+            "end": 115.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 116.66,
+            "end": 128.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.04,
+            "end": 135.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.88,
+            "end": 142.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.66,
+            "end": 150.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 151.08,
+            "end": 153.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 154.98,
+            "end": 162.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.68,
+            "end": 170.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.5,
+            "end": 179.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.72,
+            "end": 187.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 189.46,
+            "end": 194.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 195.0,
+            "end": 197.5,
+            "coverage": 0.9333
+          },
+          {
+            "start": 198.74,
+            "end": 208.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 209.98,
+            "end": 219.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 220.3,
+            "end": 225.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.16,
+            "end": 283.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.22,
+            "end": 291.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 292.46,
+            "end": 298.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 299.62,
+            "end": 301.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 302.54,
+            "end": 308.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.4,
+            "end": 315.2,
+            "coverage": 0.9833
+          },
+          {
+            "start": 316.76,
+            "end": 322.42,
+            "coverage": 0.9868
+          },
+          {
+            "start": 323.52,
+            "end": 331.2,
+            "coverage": 0.9906
+          },
+          {
+            "start": 332.74,
+            "end": 341.7,
+            "coverage": 0.9885
+          },
+          {
+            "start": 342.5,
+            "end": 347.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.92,
+            "end": 355.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 357.04,
+            "end": 364.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.3,
+            "end": 372.14,
+            "coverage": 0.9853
+          },
+          {
+            "start": 372.84,
+            "end": 382.92,
+            "coverage": 0.9841
+          },
+          {
+            "start": 384.1,
+            "end": 390.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 391.84,
+            "end": 395.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 396.72,
+            "end": 406.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 408.86,
+            "end": 414.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 415.2,
+            "end": 422.98,
+            "coverage": 0.9808
+          },
+          {
+            "start": 423.7,
+            "end": 428.7,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 429.72,
+            "end": 431.76,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      },
+      "3": {
+        "duration": 382.77225,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%203.mp3",
+        "audioSha256": "eda7b905d49b962010fb39019f71798156b5e644826f3cdc6696e8c0b39232f7",
+        "transcriptSha256": "82bb808d6d3ad9b89d0cd806002b7943fd453527aebc4ca0007843e715f13055",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9948,
+        "lines": [
+          {
+            "start": 41.74,
+            "end": 45.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 45.48,
+            "end": 46.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 47.22,
+            "end": 50.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 51.3,
+            "end": 54.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.48,
+            "end": 59.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 60.34,
+            "end": 61.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 62.38,
+            "end": 63.88,
+            "coverage": 0.9259
+          },
+          {
+            "start": 64.68,
+            "end": 67.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.82,
+            "end": 70.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.9,
+            "end": 73.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 74.06,
+            "end": 77.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.16,
+            "end": 78.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 79.42,
+            "end": 81.16,
+            "coverage": 0.9667
+          },
+          {
+            "start": 81.68,
+            "end": 82.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 83.1,
+            "end": 86.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 86.52,
+            "end": 89.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 89.62,
+            "end": 95.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.16,
+            "end": 99.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.46,
+            "end": 102.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 103.06,
+            "end": 104.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.38,
+            "end": 107.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 108.08,
+            "end": 112.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 113.18,
+            "end": 115.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 115.66,
+            "end": 117.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 118.2,
+            "end": 119.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.58,
+            "end": 120.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.18,
+            "end": 130.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 130.98,
+            "end": 131.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 132.42,
+            "end": 134.92,
+            "coverage": 0.931
+          },
+          {
+            "start": 183.26,
+            "end": 189.08,
+            "coverage": 0.9639
+          },
+          {
+            "start": 189.5,
+            "end": 192.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.9,
+            "end": 193.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 193.34,
+            "end": 201.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.08,
+            "end": 204.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 205.92,
+            "end": 212.64,
+            "coverage": 0.9787
+          },
+          {
+            "start": 213.2,
+            "end": 215.74,
+            "coverage": 0.973
+          },
+          {
+            "start": 216.1,
+            "end": 223.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 224.28,
+            "end": 224.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.24,
+            "end": 229.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 230.36,
+            "end": 234.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 235.44,
+            "end": 238.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 238.66,
+            "end": 254.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 255.26,
+            "end": 259.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 260.16,
+            "end": 262.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 262.38,
+            "end": 264.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.3,
+            "end": 271.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 272.22,
+            "end": 275.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.58,
+            "end": 279.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 279.06,
+            "end": 284.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 284.36,
+            "end": 289.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.52,
+            "end": 295.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 296.48,
+            "end": 298.24,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 299.68,
+            "end": 305.38,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 305.66,
+            "end": 315.34,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 315.72,
+            "end": 317.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.3,
+            "end": 320.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.9,
+            "end": 322.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 323.5,
+            "end": 328.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 329.08,
+            "end": 335.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 336.52,
+            "end": 338.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.34,
+            "end": 343.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 344.24,
+            "end": 347.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 348.36,
+            "end": 356.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 356.06,
+            "end": 358.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 359.4,
+            "end": 364.04,
+            "coverage": 0.9242
+          },
+          {
+            "start": 364.76,
+            "end": 366.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.94,
+            "end": 370.86,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 448.7575625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%204.mp3",
+        "audioSha256": "4cff5190a125953334af719ab4896ef2bccf19385aca09a90aa27aec2ec1471a",
+        "transcriptSha256": "a1b0889dfa4f66a35575d1eb16502b82c2c572b5e4f95d1a512dd61bcb68102d",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9938,
+        "lines": [
+          {
+            "start": 70.73,
+            "end": 78.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 79.56,
+            "end": 80.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.08,
+            "end": 97.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 98.98,
+            "end": 113.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 113.5,
+            "end": 122.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.42,
+            "end": 129.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 130.36,
+            "end": 140.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.86,
+            "end": 156.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 157.88,
+            "end": 171.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 173.26,
+            "end": 177.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 178.34,
+            "end": 191.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.46,
+            "end": 196.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 196.04,
+            "end": 205.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 206.52,
+            "end": 215.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 217.04,
+            "end": 231.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 232.68,
+            "end": 240.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.58,
+            "end": 248.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.56,
+            "end": 257.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.78,
+            "end": 265.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.32,
+            "end": 276.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.78,
+            "end": 279.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 280.92,
+            "end": 289.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.36,
+            "end": 300.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.34,
+            "end": 309.16,
+            "coverage": 0.9495
+          },
+          {
+            "start": 309.9,
+            "end": 318.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.72,
+            "end": 330.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 331.9,
+            "end": 341.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.54,
+            "end": 350.22,
+            "coverage": 0.8391
+          },
+          {
+            "start": 351.28,
+            "end": 361.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 362.38,
+            "end": 373.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 374.78,
+            "end": 380.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 381.24,
+            "end": 396.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 397.66,
+            "end": 409.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 409.88,
+            "end": 417.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 419.08,
+            "end": 428.24,
+            "coverage": 0.9767
+          },
+          {
+            "start": 429.52,
+            "end": 443.64,
+            "coverage": 0.9778
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 74.72,
+        "line": 7,
+        "evidenceScore": 45.0
+      },
+      "2": {
+        "part": 1,
+        "time": 93.98,
+        "line": 12,
+        "evidenceScore": 38.0
+      },
+      "3": {
+        "part": 1,
+        "time": 108.3,
+        "line": 16,
+        "evidenceScore": 62.0
+      },
+      "4": {
+        "part": 1,
+        "time": 126.66,
+        "line": 20,
+        "evidenceScore": 69.0
+      },
+      "5": {
+        "part": 1,
+        "time": 144.26,
+        "line": 24,
+        "evidenceScore": 62.0
+      },
+      "6": {
+        "part": 1,
+        "time": 214.2,
+        "line": 29,
+        "evidenceScore": 57.0
+      },
+      "7": {
+        "part": 1,
+        "time": 224.2,
+        "line": 32,
+        "evidenceScore": 55.0
+      },
+      "8": {
+        "part": 1,
+        "time": 254.38,
+        "line": 37,
+        "evidenceScore": 64.0
+      },
+      "9": {
+        "part": 1,
+        "time": 265.7,
+        "line": 38,
+        "evidenceScore": 43.0
+      },
+      "10": {
+        "part": 1,
+        "time": 275.52,
+        "line": 40,
+        "evidenceScore": 104.0
+      },
+      "11": {
+        "part": 2,
+        "time": 94.62,
+        "line": 5,
+        "evidenceScore": 32.14
+      },
+      "12": {
+        "part": 2,
+        "time": 116.66,
+        "line": 7,
+        "evidenceScore": 55.0
+      },
+      "13": {
+        "part": 2,
+        "time": 163.68,
+        "line": 13,
+        "evidenceScore": 53.0
+      },
+      "14": {
+        "part": 2,
+        "time": 209.98,
+        "line": 19,
+        "evidenceScore": 63.0
+      },
+      "15": {
+        "part": 2,
+        "time": 302.54,
+        "line": 25,
+        "evidenceScore": 55.0
+      },
+      "16": {
+        "part": 2,
+        "time": 316.76,
+        "line": 27,
+        "evidenceScore": 27.0
+      },
+      "17": {
+        "part": 2,
+        "time": 342.5,
+        "line": 30,
+        "evidenceScore": 36.0
+      },
+      "18": {
+        "part": 2,
+        "time": 384.1,
+        "line": 35,
+        "evidenceScore": 58.0
+      },
+      "19": {
+        "part": 2,
+        "time": 396.72,
+        "line": 37,
+        "evidenceScore": 49.0
+      },
+      "20": {
+        "part": 2,
+        "time": 423.7,
+        "line": 40,
+        "evidenceScore": 39.0
+      },
+      "21": {
+        "part": 3,
+        "time": 54.48,
+        "line": 4,
+        "evidenceScore": 61.0
+      },
+      "22": {
+        "part": 3,
+        "time": 54.48,
+        "line": 4,
+        "evidenceScore": 61.0
+      },
+      "23": {
+        "part": 3,
+        "time": 103.06,
+        "line": 19,
+        "evidenceScore": 23.0
+      },
+      "24": {
+        "part": 3,
+        "time": 103.06,
+        "line": 19,
+        "evidenceScore": 23.0
+      },
+      "25": {
+        "part": 3,
+        "time": 216.1,
+        "line": 36,
+        "evidenceScore": 28.0
+      },
+      "26": {
+        "part": 3,
+        "time": 238.66,
+        "line": 41,
+        "evidenceScore": 33.0
+      },
+      "27": {
+        "part": 3,
+        "time": 284.36,
+        "line": 49,
+        "evidenceScore": 55.0
+      },
+      "28": {
+        "part": 3,
+        "time": 305.66,
+        "line": 53,
+        "evidenceScore": 43.0
+      },
+      "29": {
+        "part": 3,
+        "time": 336.52,
+        "line": 59,
+        "evidenceScore": 31.0
+      },
+      "30": {
+        "part": 3,
+        "time": 359.4,
+        "line": 64,
+        "evidenceScore": 56.0
+      },
+      "31": {
+        "part": 4,
+        "time": 98.98,
+        "line": 3,
+        "evidenceScore": 50.0
+      },
+      "32": {
+        "part": 4,
+        "time": 113.5,
+        "line": 4,
+        "evidenceScore": 61.0
+      },
+      "33": {
+        "part": 4,
+        "time": 173.26,
+        "line": 9,
+        "evidenceScore": 64.0
+      },
+      "34": {
+        "part": 4,
+        "time": 217.04,
+        "line": 14,
+        "evidenceScore": 84.0
+      },
+      "35": {
+        "part": 4,
+        "time": 266.32,
+        "line": 19,
+        "evidenceScore": 63.0
+      },
+      "36": {
+        "part": 4,
+        "time": 319.72,
+        "line": 25,
+        "evidenceScore": 90.0
+      },
+      "37": {
+        "part": 4,
+        "time": 362.38,
+        "line": 29,
+        "evidenceScore": 71.0
+      },
+      "38": {
+        "part": 4,
+        "time": 381.24,
+        "line": 31,
+        "evidenceScore": 70.0
+      },
+      "39": {
+        "part": 4,
+        "time": 397.66,
+        "line": 32,
+        "evidenceScore": 73.0
+      },
+      "40": {
+        "part": 4,
+        "time": 419.08,
+        "line": 34,
+        "evidenceScore": 72.0
+      }
+    }
+  }
+}

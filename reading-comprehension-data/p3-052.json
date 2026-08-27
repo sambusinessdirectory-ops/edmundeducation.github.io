@@ -1,0 +1,299 @@
+{
+  "id": "p3-052",
+  "catalogueId": "p3-052",
+  "title": "What is Meaning",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 52,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-052-what-is-meaning",
+  "source": {
+    "filename": "Practice 52 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "a6094ab77b7ceaab447b175739ecd89044e6e367935435684c6d7023b6a45833"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "What Is Meaning? Why do we respond to words and symbols in the ways we do? The end product of education, yours and mine and everybody’s, is the total pattern of reactions and possible reactions we have inside ourselves. If you did not have within you at this moment the pattern of reactions that we call ‘the ability to read’, you would see here only meaningless black marks on paper. Because of the trained patterns of response, you are (or are not) stirred to patriotism by martial music, your feelings of reverence are aroused by symbols of your religion, you listen more respectfully to the health advice of someone who has “MD” after his name than to that of someone who hasn’t. What I call here a “pattern of reactions”, then, is the sum total of the ways we act in response to events, to words, and to symbols."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Our reaction patterns, or semantic habits, are the internal and most important residue of all the years of education or miseducation we may have received from our parents’ conduct toward us in childhood and from their teachings, from the formal education we may have had, from all the lectures we have listened to, from the radio programs and the movies and television shows we have experienced, from all the books and newspapers and comic strips we have read, from the conversations we have had with friends and associates, and from all our experiences. If, as the result of all these influences that make us what we are, our semantic habits are reasonably similar to those of most people around us, we are regarded as “normal,” or perhaps “dull.” If our semantic habits are noticeably different from those of others, we are regarded as ‘individualistic’ or ‘original’, or, if the differences are disapproved of or viewed with alarm, as “crazy.”"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Semantics is sometimes defined in dictionaries as ‘the science of the meaning of words’—which would not be a bad definition if people didn’t assume that the search for the meanings of words begins and ends with looking them up in a dictionary. If one stops to think for a moment, it is clear that to define a word, as a dictionary does, is simply to explain the word with more words. To be thorough about defining, we should next have to define the words used in the definition, then define the words used in defining the words used in the definition and so on. Defining words with more words, in short, gets us at once into what mathematicians call an “infinite regress”. Alternatively, it can get us into the kind of runaround we sometimes encounter when we look up “impertinence” and find it defined as “impudence,” so we look up “impudence” and find it defined as “impertinence.” Yet—and here we come to another common reaction pattern—people often act as if words can be explained fully with more words. To a person who asked for a definition of jazz, Louis Armstrong is said to have replied, “Man, when you got to ask what it is, you’ll never get to know,” proving himself to be an intuitive semanticist as well as a great trumpet player."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Semantics, then, does not deal with the “meaning of words” as that expression is commonly understood. P. W. Bridgman, the Nobel Prize-winning physicist, once wrote, “The true meaning of a term is to be found by observing what a man does with it, not by what he says about it.” He made an enormous contribution to science by showing that the meaning of a scientific term lies in the operations, the things done, that establish its validity, rather than in verbal definitions."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Here is a simple, everyday kind of example of “operational” definition. If you say, “This table measures six feet in length,” you could prove it by taking a one-foot ruler, performing the operation of laying it end to end while counting, “One…two…three…four…” But if you say—and revolutionists have started uprisings with just this statement—‘Man is born free, but everywhere he is in chains!’—what operations could you perform to demonstrate its accuracy or inaccuracy?"
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "But let us carry this suggestion of “operationalism” outside the physical sciences where Bridgman applied it, and observe what “operations” people perform as the result of both the language they use and the language other people use in communicating with them. Here is a personnel manager studying an application blank. He comes to the words “Education: Harvard University,” and drops the application blank in the wastebasket (that’s the “operation”) because, as he would say if you asked him, “I don’t like Harvard men.” This is an instance of “meaning” at work—but it is not a meaning that can be found in dictionaries."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "If I seem to be taking a long time to explain what semantics is about, it is because I am trying, in the course of explanation, to introduce the reader to a certain way of looking at human behavior. I focus on human responses because, so far as we know, human beings are the only creatures that have, over and above that biological equipment which we have in common with other creatures, the additional capacity for manufacturing symbols and systems of symbols. When we react to a flag, we are not reacting simply to a piece of cloth, but to the meaning with which it has been symbolically endowed. When we react to a word, we are not reacting to a set of sounds, but to the meaning with which that set of sounds has been symbolically endowed."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "A basic idea in general semantics, therefore, is that the meaning of words (or other symbols) is not in the words, but in our own semantic reactions. If I were to tell a shockingly obscene story in Arabic or Hindustani or Swahili before an audience that understood only English, no one would blush or be angry; the story would be neither shocking nor obscene; indeed, it would not even be a story. Likewise, the value of a dollar bill is not in the bill, but in our social agreement to accept it as a symbol of value. If that agreement were to break down through the collapse of our government, the dollar bill would become only a scrap of paper. We do not understand a dollar bill by staring at it long and hard. We understand it by observing how people act with respect to it. We understand it by understanding the social mechanisms and the loyalties that keep it meaningful. Semantics is therefore a social study, basic to all other social studies."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27–31 on your answer sheet.\n\n\n27 What point is made in the first paragraph?\n A The aim of education is to teach people to read.\n B Everybody has a different pattern of reactions.\n C Print carries meaning only to those who have learned an appropriate way to respond.\n D Writers should make sure their works satisfy a variety of readers.\n\n\n28 According to the second paragraph, people are judged by\n A their level of education.\n B the variety of experience.\n C how conventional their responses are.\n D complex situations.\n\n\n29 What point is made in the third paragraph?\n A Standard definitions are incapable of defining words precisely.\n B A dictionary is most scientific in defining words.\n C A dictionary should define words in as few words as possible.\n D Mathematicians could define words accurately.\n\n\n30 What does the writer suggest by referring to Louis Armstrong?\n A He is an expert on language.\n B Music and language are similar.\n C He provides insight into how words are defined.\n D Playing trumpet is easier than defining words.\n\n\n31 What does the writer intend to show about the example of the personnel manager?\n A Harvard men are not necessarily competitive in the job market.\n B Meaning cannot always be shared by others.\n C The idea of operationalism does not make much sense outside the physical sciences.\n D Job applicants should take care when filling out application forms."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 35,
+      "text": "Questions 32–35\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 32–35 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n32 _________________ Some statements are incapable of being proved or disproved.\n33 _________________ Meaning that is personal to individuals is less worthy of study than\nshared meanings.\n34 _________________ Flags and words elicit responses for the same reason.\n35 _________________ A story can be entertaining without being understood."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete each sentence with the correct ending, A–H, below.\nWrite the correct letter, A–H, in boxes 36–40 on your answer sheet.\n A                        is meaningless.\n\n B                        has lasting effects on human behaviour.\n\n C                        is a symbol that has lost its meaning.\n\n D                        can be understood only in its social context.\n\n E                        can provide inadequate explanation of meaning.\n\n F                        reflects the variability of human behaviour.\n\n G                        emphasises the importance of analysing how words are used.\n\n H                        suggests that certain types of behaviours carry more meaning than others.\n36 ___________ A comic strip\n37 ___________ A dictionary\n38 ___________ Bridgman\n39 ___________ A story in a language the audience cannot understand\n40 ___________ A dollar bill"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What point is made in the first paragraph?",
+      "translation": "第一段提出了甚麼重點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to the second paragraph, people are judged by",
+      "translation": "根據第二段，人們會根據甚麼被評價？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What point is made in the third paragraph?",
+      "translation": "第三段提出了甚麼重點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What does the writer suggest by referring to Louis Armstrong?",
+      "translation": "作者提到 Louis Armstrong，是想暗示甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What does the writer intend to show about the example of the personnel manager?",
+      "translation": "作者舉 personnel manager 的例子，是想說明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Some statements are incapable of being proved or disproved.",
+      "translation": "有些 statements 無法被證明或反證。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Meaning that is personal to individuals is less worthy of study than shared meanings.",
+      "translation": "屬於個人的 meaning，比共享的 meaning 較不值得研究。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ Flags and words elicit responses for the same reason.",
+      "translation": "旗幟和文字引發人們反應的原因相同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "_________________ A story can be entertaining without being understood.",
+      "translation": "一個故事即使不被理解，也可以具有娛樂性。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ A comic strip",
+      "translation": "一篇 comic strip 會對人類行為產生持久影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ A dictionary",
+      "translation": "字典對 meaning 的解釋可能不足。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ Bridgman",
+      "translation": "Bridgman 強調分析詞語如何被使用的重要性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ A story in a language the audience cannot understand",
+      "translation": "用聽眾不懂的語言講述的故事，對該聽眾來說沒有 meaning。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ A dollar bill",
+      "translation": "一張美元鈔票只能放在社會語境中理解。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-052/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-052/page-5.jpg"
+  ]
+}

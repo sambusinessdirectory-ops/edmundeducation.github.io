@@ -1,0 +1,286 @@
+{
+  "id": "p1-161",
+  "catalogueId": "p1-161",
+  "title": "Mungo Man",
+  "sourceHeading": "Mungo Man",
+  "passage": 1,
+  "practice": 161,
+  "version": "20260827-corpus1",
+  "analysisId": "mungo-man",
+  "source": {
+    "filename": "Practice 161 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "700925c2b1e65b4d8931a4a57ce0773f02fdc258e34b305672013060cd075f96"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Fifty thousand years ago, a lush landscape greeted the first Australians making their way towards the south-east of the continent. Temperatures were cooler than now. Megafauna—giant prehistoric animals such as marsupial lions, goannas and the rhinoceros-sized diprotodon—were abundant. Together, the three prominent sets of remains found at Lake Mungo tell archaeologists a story about early Australians. Mungo Man lived around the shores of the lake with his family. When he was young, Mungo Man lost his two lower canine teeth, possibly knocked out in a ritual. He grew to nearly 1.7 m in height. Over the years his molar teeth became worn and scratched, possibly from eating a gritty diet or stripping the long leaves of water reeds with his teeth to make twine. As Mungo Man grew older his bones ached with arthritis, especially his right elbow, which was so damaged that bits of bone were completely worn out or broken away. Such wear and tear is typical of people who have used a woomera to throw spears over many years. Mungo Man reached a good age for the hard life of a hunter-gatherer and died when he was about 50. His family mourned him and carefully buried him in the lunette, laying him on his back with his hands crossed in his lap and sprinkling him with red ochre. Mungo Man is the oldest known example in the world of such a ritual."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "This treasure trove of history was found by the University of Melbourne geologist Professor Jim Bowler in 1969. He was searching for ancient lakes and came across the charred remains of Mungo Lady, who had been cremated. In 1974, he found a second complete skeleton, Mungo Man, buried 300 metres away. Using carbon dating, a technique reliable only for specimens up to around 40,000 years old, the skeleton was first estimated at 28,000 to 32,000 years old. A comprehensive study of 25 different sediment layers at Lake Mungo concludes that both graves are 40,000 years old."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "This is much younger than the age of 62,000 years attributed to Mungo Man in 1999 by a team led by Professor Alan Thorne, of the Australian National University. The modern-day story of the science of Mungo also has its fair share of rivalry because Thorne is the country’s leading opponent of the Out of Africa theory—the idea that Homo sapiens had a single place of origin. Dr Alan Thorne supports the multiregional explanation: modern humans arose simultaneously in Africa, Europe and Asia from one of our predecessors, Homo erectus, which left Africa more than 1.5 million years ago. If Mungo Man were descended from ancestors who had left Africa within the past 200,000 years, Thorne argues, then his mitochondrial DNA should have looked like that of the other samples."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "However, Out of Africa supporters are not about to abandon their beliefs because of the Australian research. Professor Chris Stringer, from the Natural History Museum in London, UK, said that the research community would want to see the work repeated in other labs before major conclusions were drawn from the Australian research. But even assuming the DNA sequences were correct, Professor Stringer said they could simply mean that there was much more genetic diversity in the past than was previously realised. “There is no evidence here that the ancestry of these Australian fossils goes back a million or two million years. It’s much more likely that modern humans came out of Africa.” For Bowler, these debates are irritating, speculative distractions from the study’s main findings. At 40,000 years old, Mungo Man and Mungo Lady remain Australia’s oldest human burials and the earliest evidence on Earth of cultural sophistication, he says. Modern humans had not even reached North America by this time. In 1997, Pääbo’s research group recovered an mtDNA fingerprint from the Feldhofer Neanderthal skeleton uncovered in Germany in 1865—the first Neanderthal remains ever found."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In its 1999 study, Thorne’s team used three techniques to date Mungo Man at 62,000 years old, and it stands by its figures. It dated bone, tooth enamel and some sand. Bowler has strongly challenged the results ever since. Dating human bones is “notoriously unreliable”, he says. Moreover, the sand sample Thorne’s group dated was taken hundreds of metres from the burial site. “You don’t have to be a gravedigger … to realise the age of the sand is not the same as the age of the grave,” says Bowler."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Thorne counters that Bowler’s team used one dating technique, while he used three. Best practice is to have at least two methods produce the same result. A Thorne team member, Professor Rainer Grün, says the fact that the latest results were consistent between laboratories doesn’t mean they are absolutely correct. “We now have two data sets that are contradictory. I do not have a plausible explanation.” Now, however, Thorne says the age of Mungo Man is irrelevant to this debate about human origins. Recent fossil finds show that modern humans were in China 110,000 years ago. “So Mungo Man’s ancestors had plenty of time to reach Australia. It doesn’t matter whether he is 40,000 or 60,000 years old.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Dr Tim Flannery, a proponent of the controversial theory that Australia’s megafauna were wiped out 46,000 years ago in a “blitzkrieg” of hunting by the arriving people, also claims the new Mungo dates support this view. In 2001, Dr Richard Roberts of Wollongong University, a member of Bowler’s team, and Flannery, director of the South Australian Museum, published research on their blitzkrieg theory. They dated 28 sites across the continent, arguing that their analysis showed the megafauna died out suddenly 46,000 years ago. Flannery praises the Bowler team’s research on Mungo Man as “the most thorough and rigorous dating” of ancient human remains. He says the finding places humans at Lake Mungo between 46,000 and 50,000 years ago—a critical period in Australia’s history. There is no evidence of a dramatic climatic change then, he says. “It’s my view that humans arrived and extinction took place in almost the same geological instant.”"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Bowler, however, is sceptical of Flannery’s theory and says the Mungo study provides no definitive new evidence to support it. He argues that climate change around 40,000 years ago was more intense than had been previously realised and could have played a role in the megafauna’s demise. “To blame the earliest Australians for their complete extinction is drawing a longbow.”"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–8",
+    "g9": "Questions 9–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 8,
+      "text": "Questions 1–8\nMatch each statement with the correct person, A–F.\nWrite the correct letter, A–F, in boxes 1–8 on your answer sheet.\nNB You may use any letter more than once.\n A                                      Jim Bowler\n\n B                                      Alan Thorne\n\n C                                      Svante Pääbo\n\n D                                      Tim Flannery\n\n E                                      Chris Stringer\n\n F                                      Rainer Grün\n1 ____________ He was searching for ancient lakes when he found the cremated remains of\nMungo Lady.\n2 ____________ He expressed scepticism about the reliability of DNA analysis of the fossils.\n3 ____________ He dated Mungo Man substantially younger than the previous estimate of\n62,000 years.\n4 ____________ He said that Mungo Man’s precise age was irrelevant to the debate about\nhuman origins.\n5 ____________ His research group recovered an mtDNA fingerprint from the first Neanderthal\nremains found in Europe.\n6 ____________ He supports the idea that hunting by early humans caused Australia’s\nmegafauna to become extinct.\n7 ____________ He proposed a multiregional explanation instead of a single place of origin.\n8 ____________ He argued that climate change, rather than prehistoric human activity,\ncontributed to the megafauna’s extinction."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 14,
+      "text": "Questions 9–14\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–14 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n9 The Lake Mungo remains provide archaeologists with vivid evidence of human activity in the\narea.\n10 Weapons used by Mungo Man were found among the Lake Mungo remains.\n11 Mungo Man is the world’s oldest known archaeological evidence of a burial ritual of this kind.\n12 The skeletons of Mungo Man and Mungo Lady were uncovered in the same year.\n13 Scientists disagree about the origins of the earliest Homo sapiens.\n14 Supporters of the Out of Africa theory criticised the Australian researchers for using an\noutdated research method."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ He was searching for ancient lakes when he found the cremated remains of Mungo Lady.",
+      "translation": "他在尋找古代湖泊時，發現了被火化的 Mungo Lady 遺骸。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ He expressed scepticism about the reliability of DNA analysis of the fossils.",
+      "translation": "他對化石 DNA 分析的可靠性表示懷疑。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ He dated Mungo Man substantially younger than the previous estimate of 62,000 years.",
+      "translation": "他把 Mungo Man 的年代測定為比之前 62,000 年的估算年輕得多。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ He said that Mungo Man’s precise age was irrelevant to the debate about human origins.",
+      "translation": "他說 Mungo Man 的精確年齡對人類起源的辯論已經無關緊要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ His research group recovered an mtDNA fingerprint from the first Neanderthal remains found in Europe.",
+      "translation": "他的研究團隊從歐洲首次發現的尼安德塔人遺骸中取得 mtDNA 指紋。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ He supports the idea that hunting by early humans caused Australia’s megafauna to become extinct.",
+      "translation": "他支持這個看法：早期人類的狩獵導致澳洲巨型動物滅絕。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ He proposed a multiregional explanation instead of a single place of origin.",
+      "translation": "他提出多地區起源解釋，而非單一起源地的說法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ He argued that climate change, rather than prehistoric human activity, contributed to the megafauna’s extinction.",
+      "translation": "他認為氣候變化，而非史前人類活動，促成了巨型動物的滅絕。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "The Lake Mungo remains provide archaeologists with vivid evidence of human activity in the area.",
+      "translation": "Lake Mungo 的遺骸為考古學家提供了該地區人類活動的鮮明證據。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Weapons used by Mungo Man were found among the Lake Mungo remains.",
+      "translation": "Mungo Man 使用過的武器在 Lake Mungo 遺骸之中被發現。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Mungo Man is the world’s oldest known archaeological evidence of a burial ritual of this kind.",
+      "translation": "Mungo Man 是世界上已知最古老的這類葬禮儀式考古證據。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "The skeletons of Mungo Man and Mungo Lady were uncovered in the same year.",
+      "translation": "Mungo Man 和 Mungo Lady 的骨骸是在同一年被發現的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Scientists disagree about the origins of the earliest Homo sapiens.",
+      "translation": "科學家對最早 Homo sapiens 的起源存在分歧。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Supporters of the Out of Africa theory criticised the Australian researchers for using an outdated research method.",
+      "translation": "Out of Africa 理論的支持者批評澳洲研究者使用過時的研究方法。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-161/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-161/page-6.jpg"
+  ]
+}

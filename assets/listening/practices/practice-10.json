@@ -1,0 +1,4083 @@
+{
+  "schemaVersion": 1,
+  "practice": 10,
+  "title": "IELTS Listening Practice 10",
+  "source": {
+    "file": "IELTS Listening - Practice - 10.pdf",
+    "sha256": "1995fe833807982ee7adaf2c9fdf47d5aba1d267857ffe8d7a20f42634e620c8",
+    "pageCount": 72,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Part 1\nQuestions 1–5\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nWorking at Milo’s Restaurants\nBenefits\n● 1 __________ provided for all staff\n● 2 __________ during weekdays at all Milo’s Restaurants\n● 3 __________ provided after midnight\nPerson specification\n● must be prepared to work well in a team\n● must care about maintaining a high standard of 4 __________\n● must have a qualification in 5 __________",
+          "page": 5
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-10-page-5-1.webp",
+          "alt": "Practice 10, source question diagram/table, PDF page 5",
+          "text": "",
+          "page": 5
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● 1 __________ provided for all staff",
+          "translation": "",
+          "answer": "training",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● 2 __________ during weekdays at all Milo’s Restaurants",
+          "translation": "",
+          "answer": "discount",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "● 3 __________ provided after midnight",
+          "translation": "",
+          "answer": "taxi",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "● must care about maintaining a high standard of 4 __________",
+          "translation": "",
+          "answer": "service",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● must have a qualification in 5 __________",
+          "translation": "",
+          "answer": "English",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "Location: _____ Street",
+          "translation": "",
+          "answer": "Wivenhoe",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "Making sure _____ is clean",
+          "translation": "",
+          "answer": "equipment",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "Starting salary £ _____ per hour",
+          "translation": "",
+          "answer": "9.75",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "Maintaining stock and organising _____",
+          "translation": "",
+          "answer": "deliveries",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "No work on a _____ once a month",
+          "translation": "",
+          "answer": "Sunday",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11 and 12\nChoose TWO letters, A–E.\nWhat are the TWO main reasons why this site has been chosen for the housing\ndevelopment?\nA. It has suitable geographical features.\nB. There is easy access to local facilities.\nC. It has good connections with the airport.\nD. The land is of little agricultural value.\nE. It will be convenient for workers.\nQuestions 13 and 14\nChoose TWO letters, A–E.\nWhich TWO aspects of the planned housing development have people given\npositive feedback about?\nA. the facilities for cyclists\nB. the impact on the environment\nC. the encouragement of good relations between residents\nD. the low cost of all the accommodation\nE. the rural location",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–20\nLabel the map below.\nWrite the correct letter, A–I, next to Questions 15–20.\n15. School __________\n16. Sports centre __________\n17. Clinic __________\n18. Community centre __________\n19. Supermarket __________\n20. Playground __________",
+          "page": 8
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-10-page-8-1.webp",
+          "alt": "Practice 10, source question diagram/table, PDF page 8",
+          "text": "",
+          "page": 8
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            11,
+            12
+          ],
+          "prompt": "Choose TWO letters, A–E. What are the TWO main reasons why this site has been chosen for the housing development?",
+          "translation": "",
+          "answers": [
+            "B",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "It has suitable geographical features.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "There is easy access to local facilities.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "It has good connections with the airport.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "The land is of little agricultural value.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "It will be convenient for workers.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            13,
+            14
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO aspects of the planned housing development have people given positive feedback about?",
+          "translation": "",
+          "answers": [
+            "B",
+            "C"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "the facilities for cyclists",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the impact on the environment",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the encouragement of good relations between residents",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the low cost of all the accommodation",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "the rural location",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "School",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "Sports centre",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Clinic",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Community centre",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "Supermarket",
+          "translation": "",
+          "answer": "H",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "Playground",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "A",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "B",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "C",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "D",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "E",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "F",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "G",
+              "zh": ""
+            },
+            {
+              "key": "H",
+              "en": "H",
+              "zh": ""
+            },
+            {
+              "key": "I",
+              "en": "I",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        10,
+        11,
+        12
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21–24\nChoose the correct letter, A, B or C.\n21. Why do the students think the Laki eruption of 1783 is so important?\nA. It was the most severe eruption in modern times.\nB. It led to the formal study of volcanoes.\nC. It had a profound effect on society.\n22. What surprised Adam about observations made at the time?\nA. the number of places producing them\nB. the contradictions in them\nC. the lack of scientific data to support them\n23. According to Michelle, what did the contemporary sources say about\nthe Laki haze?\nA. People thought it was similar to ordinary fog.\nB. It was associated with health issues.\nC. It completely blocked out the sun for weeks.\n24. Adam corrects Michelle when she claims that Benjamin Franklin\nA. came to the wrong conclusion about the cause of the haze.\nB. was the first to identify the reason for the haze.\nC. supported the opinions of other observers about the haze.",
+          "page": 10
+        },
+        {
+          "type": "text",
+          "text": "Questions 25 and 26\nChoose TWO letters, A–E. Which TWO issues following the Laki eruption surprised\nthe students?\nA. how widespread the effects were\nB. how long-lasting the effects were\nC. the number of deaths it caused\nD. the speed at which the volcanic ash cloud spread\nE. how people ignored the warning signs",
+          "page": 11
+        },
+        {
+          "type": "text",
+          "text": "Questions 27–30\nWhat comment do the students make about the impact of the Laki eruption on\nthe following countries?\nChoose FOUR answers from the box and write the correct letter, A–F, next to\nQuestions 27–30.\nComments\nA. This country suffered the most severe loss of life.\nB. The impact on agriculture was predictable.\nC. There was a significant increase in deaths of young people.\nD. Animals suffered from a sickness.\nE. This country saw the highest rise in food prices in the world.\nF. It caused a particularly harsh winter.\nCountries\n27. Iceland __________\n28. Egypt __________\n29. UK __________\n30. USA __________",
+          "page": 12
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "Why do the students think the Laki eruption of 1783 is so important?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "It was the most severe eruption in modern times.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "It led to the formal study of volcanoes.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "It had a profound effect on society.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "What surprised Adam about observations made at the time?",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "the number of places producing them",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "the contradictions in them",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the lack of scientific data to support them",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "According to Michelle, what did the contemporary sources say about the Laki haze?",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "People thought it was similar to ordinary fog.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "It was associated with health issues.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "It completely blocked out the sun for weeks.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "Adam corrects Michelle when she claims that Benjamin Franklin",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "came to the wrong conclusion about the cause of the haze.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "was the first to identify the reason for the haze.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "supported the opinions of other observers about the haze.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 3,
+          "numbers": [
+            25,
+            26
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO issues following the Laki eruption surprised the students?",
+          "translation": "",
+          "answers": [
+            "A",
+            "B"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "how widespread the effects were",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "how long-lasting the effects were",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "the number of deaths it caused",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "the speed at which the volcanic ash cloud spread",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "how people ignored the warning signs",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "Iceland",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "This country suffered the most severe loss of life.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The impact on agriculture was predictable.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "There was a significant increase in deaths of young people.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Animals suffered from a sickness.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "This country saw the highest rise in food prices in the world.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It caused a particularly harsh winter.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "Egypt",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "This country suffered the most severe loss of life.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The impact on agriculture was predictable.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "There was a significant increase in deaths of young people.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Animals suffered from a sickness.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "This country saw the highest rise in food prices in the world.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It caused a particularly harsh winter.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "UK",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "This country suffered the most severe loss of life.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The impact on agriculture was predictable.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "There was a significant increase in deaths of young people.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Animals suffered from a sickness.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "This country saw the highest rise in food prices in the world.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It caused a particularly harsh winter.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "USA",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "This country suffered the most severe loss of life.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "The impact on agriculture was predictable.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "There was a significant increase in deaths of young people.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "Animals suffered from a sickness.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "This country saw the highest rise in food prices in the world.",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "It caused a particularly harsh winter.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nPockets\nReason for choice of subject\n● They are 31 __________ but can be overlooked by consumers and\ndesigners.\nPockets in men’s clothes\n● Men started to wear 32 __________ in the 18th century.\n● A 33 __________ sewed pockets into the lining of the garments.\n● The wearer could use the pockets for small items.\n● Bigger pockets might be made for men who belonged to a certain type of\n34 __________.",
+          "page": 14
+        },
+        {
+          "type": "text",
+          "text": "Pockets in women’s clothes\n● Women’s pockets were less 35 __________ than men’s.\n● Women were very concerned about pickpockets.\n● Pockets were produced in pairs using 36 __________ to link them\ntogether.\n● Pockets hung from the women’s 37 __________ under skirts and\npetticoats.\n● Items such as 38 __________ could be reached through a gap in the\nmaterial.\n● Pockets, of various sizes, stayed inside clothing for many decades.\n● When dresses changed shape, hidden pockets had a negative effect on the\n39 __________ of women.\n● Bags called “pouches” became popular, before women carried a 40\n__________.",
+          "page": 15
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● They are 31 __________ but can be overlooked by consumers and",
+          "translation": "",
+          "answer": "convenient",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "● Men started to wear 32 __________ in the 18th century.",
+          "translation": "",
+          "answer": "suits",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● A 33 __________ sewed pockets into the lining of the garments.",
+          "translation": "",
+          "answer": "tailor",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "34 __________.",
+          "translation": "",
+          "answer": "profession",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● Women’s pockets were less 35 __________ than men’s.",
+          "translation": "",
+          "answer": "visible",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "● Pockets were produced in pairs using 36 __________ to link them",
+          "translation": "",
+          "answer": "string",
+          "alternatives": [
+            "strings"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "● Pockets hung from the women’s 37 __________ under skirts and",
+          "translation": "",
+          "answer": "waist",
+          "alternatives": [
+            "waists"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "● Items such as 38 __________ could be reached through a gap in the",
+          "translation": "",
+          "answer": "perfume",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "39 __________ of women.",
+          "translation": "",
+          "answer": "image",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "● Bags called “pouches” became popular, before women carried a 40 __________.",
+          "translation": "",
+          "answer": "handbag",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "WOMAN: So, I understand you're interested in restaurant work?",
+        "zh": "女士：好的，我了解到你對餐廳工作有興趣，對嗎？",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "MAN: Yes. I've got a bit of experience and I can provide references.",
+        "zh": "男士：是的。我有一些工作經驗，也可以提供推薦人資料。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "WOMAN: That's good. I can check all that later.",
+        "zh": "女士：很好。那些我稍後可以再確認。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "Now, Milo's Restaurants have some vacancies at the moment.",
+        "zh": "目前 Milo’s Restaurants 有一些職缺。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "They're a really good company to work for. Lots of benefits.",
+        "zh": "他們是一家很好的公司，員工福利很多。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "MAN: Oh right.",
+        "zh": "男士：哦，明白。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "WOMAN: Yes. They've got a very good reputation for looking after staff.",
+        "zh": "女士：是的。他們在照顧員工方面口碑很好。",
+        "sourcePages": [
+          21
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "For example, all employees get training – even temporary staff.",
+        "zh": "例如，所有員工都會接受培訓，連臨時員工也包括在內。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "MAN: Oh really? That's quite unusual, isn't it?",
+        "zh": "男士：真的嗎？那挺少見的， 不是嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "WOMAN: Certainly is.",
+        "zh": "女士：確實是。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "MAN: And do staff get free uniforms too?",
+        "zh": "男士：那員工也會有免費制服嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "WOMAN: Um … you just need to wear a white T-shirt and black trousers, it says here. So I guess not …",
+        "zh": "女士：嗯……這裡寫著你只需要穿白色 T 恤和黑色長褲。所以我想應該沒有免費制服……",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "But another benefit of working for a big company like this is that you can get a discount at any of their restaurants.",
+        "zh": "不過，在這樣的大公司工作還有另一個好處，就是你可以在他們旗下任何一家餐廳享有折扣。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "MAN: Even at weekends?",
+        "zh": "男士：週末也可以嗎？",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "WOMAN: No, but you'll be working then anyway.",
+        "zh": "女士：不行，不過反正你週末也會上班。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "MAN: Oh yes. I suppose so.",
+        "zh": "男士：哦，是的。我想也是。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "Most of their restaurants are in the city centre, aren't they?",
+        "zh": "他們大多數餐廳都在市中心， 對吧？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "So, easy to get to by bus?",
+        "zh": "所以搭公車應該很方便？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "WOMAN: Yes. That's right.",
+        "zh": "女士：是的，沒錯。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "But if you have to do a late shift and finish work after midnight, the company will pay for you to get a taxi home.",
+        "zh": "但如果你上晚班，工作到午夜以後，公司會支付你搭計程車回家的費用。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "MAN: I probably won't need one.",
+        "zh": "男士：我大概不需要。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "I think I'd use my bike.",
+        "zh": "我想我會騎腳踏車。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "WOMAN: OK. Now, they do have some quite specific requirements for the kind of person they're looking for.",
+        "zh": "女士：好的。現在，他們對想招聘的人確實有一些相當具體的要求。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "Milo's is a young, dynamic company and they're really keen on creating a strong team.",
+        "zh": "Milo’s 是一家年輕、有活力的公司，他們非常重視建立一支強大的團隊。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "It's really important that you can fit in and get on well with everyone.",
+        "zh": "你能融入團隊並和大家相處融洽，這非常重要。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "MAN: Yeah. I've got no problem with that. It sounds good, actually.",
+        "zh": "男士：可以。這方面我沒問題。 其實聽起來很不錯。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "The last place I worked for was quite demanding too.",
+        "zh": "我上一份工作的地方要求也很高。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "We had to make sure we gave a really high level of service.",
+        "zh": "我們必須確保提供非常高水準的服務。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "WOMAN: That's good to hear because that will be equally important at Milo's.",
+        "zh": "女士：很高興聽你這麼說，因為這在 Milo’s 也同樣重要。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "I know they want people who have an eye for detail.",
+        "zh": "我知道他們想要注重細節的人。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "MAN: That's fine. I'm very used to working in that kind of environment.",
+        "zh": "男士：沒問題。我很習慣在那種環境中工作。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "WOMAN: Perfect. So the only other thing that's required is good communication skills, so you'll need to have a certificate in English.",
+        "zh": "女士：太好了。唯一另一項要求是良好的溝通能力，所以你需要有英文證書。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "MAN: Sure.",
+        "zh": "男士：好的。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "WOMAN: OK. Let's have a look at the current job vacancies at Milo's.",
+        "zh": "女士：好。我們來看看 Milo’s 目前的職缺。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "The first one is in Wivenhoe Street.",
+        "zh": "第一個在 Wivenhoe Street。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "MAN: Sorry, where?",
+        "zh": "男士：抱歉，哪裡？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "WOMAN: Wivenhoe. W-I-V-E-N-H-O-E.",
+        "zh": "女士：Wivenhoe， W-I-V-E-N-H-O-E。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "It's quite central, just off Cork Street.",
+        "zh": "它位置很靠近市中心，就在 Cork Street 附近。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "MAN: Oh right.",
+        "zh": "男士：哦，好的。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "WOMAN: They're looking for a breakfast supervisor.",
+        "zh": "女士：他們正在招聘早餐主管。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "MAN: That would be OK.",
+        "zh": "男士：那可以。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "WOMAN: So you're probably familiar with the kind of responsibilities involved.",
+        "zh": "女士：那你可能熟悉這類工作的責任。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "Obviously checking that all the portions are correct, etc., and then things like checking all the procedures for cleaning the equipment are being followed.",
+        "zh": "很明顯，要檢查所有餐點份量是否正確等等，還有確認設備清潔流程是否都有被遵守。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "MAN: OK. And what about the salary?",
+        "zh": "男士：好的。薪水呢？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "In my last job I was getting £9.50 per hour.",
+        "zh": "我上一份工作的時薪是 9.50 英鎊。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "I was hoping to get a bit more than that.",
+        "zh": "我希望這次能比那個高一點。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "WOMAN: Well, to begin with, you'd be getting £9.75 but that goes up to £11.25 after three months.",
+        "zh": "女士：嗯，一開始是每小時 9.75 英鎊，但三個月後會升到 11.25 英鎊。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "MAN: That's not too bad.",
+        "zh": "男士：那還不錯。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "And I suppose it's a very early start?",
+        "zh": "我想這份工作開始得很早吧？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "WOMAN: Mmm. That's the only unattractive thing about this job.",
+        "zh": "女士：嗯。這是這份工作唯一不太吸引人的地方。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "But then you have the afternoons and evenings free.",
+        "zh": "但這樣你下午和晚上就有空。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "So the restaurant starts serving breakfast from 7 a.m.",
+        "zh": "餐廳早上 7 點開始供應早餐。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "And you'd have to be there at 5.30 to set everything up.",
+        "zh": "你必須 5 點半到那裡，把一切準備好。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "But you'd be finished at 12.30.",
+        "zh": "但你 12 點半就下班了。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "MAN: Mmm. Well, as you say, there are advantages to that.",
+        "zh": "男士：嗯。就像你說的，那也有好處。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "WOMAN: Now, you might also be interested in the job at the City Road branch.",
+        "zh": "女士：另外，你可能也會對 City Road 分店的工作感興趣。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-056"
+      },
+      {
+        "en": "That's for a junior chef, so again a position of responsibility.",
+        "zh": "那是初級廚師的職位，所以同樣是有責任的職位。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-057"
+      },
+      {
+        "en": "MAN: I might prefer that, actually.",
+        "zh": "男士：其實我可能更喜歡那個。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-058"
+      },
+      {
+        "en": "WOMAN: Right, well obviously this role would involve supporting the sous chef and other senior staff.",
+        "zh": "女士：好的，這個職位顯然需要協助副主廚和其他資深員工。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-059"
+      },
+      {
+        "en": "And you'd be responsible for making sure there's enough stock each week – and sorting out all the deliveries.",
+        "zh": "你還要負責確保每週庫存充足，並整理所有送貨。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-060"
+      },
+      {
+        "en": "MAN: I've never done that before, but I imagine it's fairly straightforward, once you get the hang of it.",
+        "zh": "男士：我以前沒做過這個，但我想一旦上手，應該相當簡單。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-061"
+      },
+      {
+        "en": "WOMAN: Yes, and you'd be working alongside more experienced staff to begin with, so I'm sure it wouldn't be a problem.",
+        "zh": "女士：是的，而且一開始你會和更有經驗的員工一起工作， 所以我相信這不會是問題。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-062"
+      },
+      {
+        "en": "The salary's slightly higher here.",
+        "zh": "這個職位的薪水稍微高一些。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-063"
+      },
+      {
+        "en": "It's an annual salary of £23,000.",
+        "zh": "年薪是 23,000 英鎊。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-064"
+      },
+      {
+        "en": "MAN: Right.",
+        "zh": "男士：好的。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-065"
+      },
+      {
+        "en": "WOMAN: I know that if they like you, it's likely you'll be promoted quite quickly.",
+        "zh": "女士：我知道如果他們欣賞你，你很可能很快會升職。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-066"
+      },
+      {
+        "en": "So that's worth thinking about.",
+        "zh": "所以這值得考慮。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-067"
+      },
+      {
+        "en": "MAN: Yes. It does sound interesting.",
+        "zh": "男士：是的。聽起來確實很有意思。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-068"
+      },
+      {
+        "en": "What are the hours like?",
+        "zh": "工作時間怎麼樣？",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-069"
+      },
+      {
+        "en": "WOMAN: The usual, I think.",
+        "zh": "女士：我想是一般時間。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-070"
+      },
+      {
+        "en": "There's a lot of evening and weekend work, but they're closed on Mondays.",
+        "zh": "晚上和週末工作比較多，但他們星期一不營業。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-071"
+      },
+      {
+        "en": "But you do get one Sunday off every four weeks.",
+        "zh": "不過你每四週可以休一個星期天。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-072"
+      },
+      {
+        "en": "So would you like me to send off your …",
+        "zh": "那你要我幫你送出你的……",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-073"
+      }
+    ],
+    "2": [
+      {
+        "en": "Hello everyone.",
+        "zh": "大家好。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "It's good to see that so many members of the public have shown up for our presentation on the new housing development planned on the outskirts of Nunston.",
+        "zh": "很高興看到這麼多民眾來參加我們關於 Nunston 郊區新住宅開發計畫的介紹會。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "I'm Mark Reynolds and I'm Communications Manager at the development.",
+        "zh": "我是 Mark Reynolds，是這個開發項目的傳訊經理。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "I'll start by giving you a brief overview of our plans for the development.",
+        "zh": "我會先簡要介紹一下我們的開發計畫。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "So one thing I'm sure you'll want to know is why we've selected this particular site for a housing development.",
+        "zh": "我相信你們一定想知道，我們為什麼選擇這個特定地點來做住宅開發。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "At present it's being used for farming, like much of the land around Nunston.",
+        "zh": "目前這片土地和 Nunston 周圍許多土地一樣，被用於農業。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "But because of the new industrial centre in Nunston, there's a lot of demand for housing for employees in the region, as many employees are having to commute long distances at present.",
+        "zh": "但由於 Nunston 新建了工業中心，該地區員工對住房有很大需求，因為目前許多員工不得不長距離通勤。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "Of course, there's also the fact that we have an international airport just 20 minutes' drive away, but although that's certainly convenient, it wasn't one of our major criteria for choosing the site.",
+        "zh": "當然，這裡距離國際機場只有 20 分鐘車程，這確實很方便， 但那並不是我們選址的主要標準之一。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "We were more interested in the fact that there's an excellent hospital just 15 kilometres away, and a large secondary school even closer than that.",
+        "zh": "我們更看重的是，距離這裡 15 公里處有一家很好的醫院，而且還有一所大型中學，距離更近。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "One drawback to the site is that it's on quite a steep slope, but we've taken account of that in our planning so it shouldn't be a major problem.",
+        "zh": "這個地點的一個缺點是位於相當陡的斜坡上，但我們在規劃中已經考慮到這一點，所以應該不會是大問題。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "We've had a lot of positive feedback about the plans.",
+        "zh": "我們收到了許多關於這些計畫的正面回饋。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "People like the wide variety of accommodation types and prices, and the fact that it's only a short drive to get out into the countryside from the development.",
+        "zh": "人們喜歡住宿類型和價格的多樣性，也喜歡從開發區開車很短時間就能到鄉村。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "We were particularly pleased that so many people liked the designs for the layout of the development.",
+        "zh": "我們特別高興有這麼多人喜歡開發區的布局設計。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "The majority of people said it generally made a good impression and blended in well with the natural features of the landscape, with provision made for protecting trees and wildlife on the site.",
+        "zh": "大多數人表示，整體設計給人良好印象，並且與景觀的自然特色融合得很好，同時也規劃了保護場地內樹木和野生動物的措施。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "Some people have mentioned that they'd like to see more facilities for cyclists, and we'll look at that.",
+        "zh": "有些人提到希望看到更多自行車相關設施，我們會考慮這一點。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "But the overall feedback has been that the design and facilities of the development make it seem a place where people of all ages can live together happily.",
+        "zh": "不過整體回饋是，這個開發區的設計和設施讓它看起來像是一個各年齡層的人都能愉快共住的地方。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "OK. So I'll put a map of the proposed development up on the screen.",
+        "zh": "好的。現在我會把擬議開發區的地圖放到螢幕上。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "You'll see it's bounded on the south side by the main road, which then goes on to Nunston.",
+        "zh": "你們會看到，它南側以主路為界，而這條主路通往 Nunston 。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "Another boundary is formed by London Road, on the western side of the development.",
+        "zh": "另一條邊界是 London Road， 位於開發區西側。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "Inside the development there'll be about 400 houses and 3 apartment blocks.",
+        "zh": "開發區內將有大約 400 棟房屋和 3 棟公寓樓。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "There'll also be a school for children up to 11 years old.",
+        "zh": "也會有一所供 11 歲以下兒童就讀的學校。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "If you look at the South Entrance at the bottom of the map, there's a road from there that goes right up through the development.",
+        "zh": "如果你們看地圖底部的南入口，會看到有一條路從那裡一路向上穿過開發區。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "The school will be on that road, at the corner of the second turning to the left.",
+        "zh": "學校會在那條路上，位於第二個左轉路口的角落。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "A large sports centre is planned with facilities for indoor and outdoor activities.",
+        "zh": "我們計畫建一座大型運動中心，配備室內和戶外活動設施。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "This will be on the western side of the development, just below the road that branches off from London Road.",
+        "zh": "它會位於開發區西側，就在從 London Road 分出來的道路下方。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "There'll be a clinic where residents can go if they have any health problems.",
+        "zh": "這裡也會有一間診所，居民有健康問題時可以前往。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "Can you see the lake towards the top of the map?",
+        "zh": "你們能看到地圖上方附近的湖嗎？",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "The clinic will be just below this, to the right of a street of houses.",
+        "zh": "診所就在湖的下方，位於一排房屋街道的右側。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "There'll also be a community centre for people of all ages.",
+        "zh": "這裡也會有一座適合各年齡層使用的社區中心。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "On the northeast side of the development, there'll be a row of specially designed houses specifically for residents over 65, and the community centre will be adjoining this.",
+        "zh": "在開發區東北側，會有一排專為 65 歲以上居民設計的房屋， 社區中心將與它相鄰。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "We haven't forgotten about shopping.",
+        "zh": "我們也沒有忘記購物需求。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "There'll be a supermarket between the two entrances to the development.",
+        "zh": "在開發區兩個入口之間會有一家超市。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "We're planning to leave the three large trees near London Road, and it'll be just to the south of these.",
+        "zh": "我們計畫保留 London Road 附近的三棵大樹，而超市就在這些樹的南邊。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "It's planned to have a playground for younger children.",
+        "zh": "我們也計畫設置一個給年幼兒童使用的遊樂場。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-034"
+      },
+      {
+        "en": "If you look at the road that goes up from the South Entrance, you'll see it curves round to the left at the top, and the playground will be in that curve, with nice views of the lake.",
+        "zh": "如果你們看從南入口向上延伸的那條路，會看到它在上方往左彎，遊樂場就在那個彎道裡，還可以看到很美的湖景。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-035"
+      },
+      {
+        "en": "OK, so now does anyone …",
+        "zh": "好的，那麼現在有人……",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-036"
+      }
+    ],
+    "3": [
+      {
+        "en": "ADAM: So, Michelle, shall we make a start on our presentation?",
+        "zh": "Adam：那麼，Michelle，我們開始準備簡報吧？",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "We haven't got that much time left.",
+        "zh": "我們剩下的時間不多了。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "MICHELLE: No, Adam. But at least we've done all the background reading.",
+        "zh": "Michelle：是啊，Adam。不過至少我們已經完成所有背景閱讀了。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "I found it really interesting – I'd never even heard of the Laki eruption before this.",
+        "zh": "我覺得這真的很有趣，在這之前我甚至從沒聽過 Laki 火山噴發。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "ADAM: Me neither.",
+        "zh": "Adam：我也沒有。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "I suppose 1783 is a long time ago.",
+        "zh": "我想 1783 年確實是很久以前了。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "MICHELLE: But it was a huge eruption and it had such devastating consequences.",
+        "zh": "Michelle：但那是一次巨大的噴發，而且造成了毀滅性的後果。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "ADAM: I know.",
+        "zh": "Adam：我知道。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "It was great there were so many primary sources to look at.",
+        "zh": "有這麼多原始資料可以看，真的很不錯。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "It really gives you a sense of how catastrophic the volcano was.",
+        "zh": "這真的讓人感受到那次火山噴發有多災難性。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "People were really trying to make sense of the science for the first time.",
+        "zh": "人們當時第一次真正試圖理解其中的科學。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "MICHELLE: That's right.",
+        "zh": "Michelle：沒錯。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "But what I found more significant was how it impacted directly and indirectly on political events, as well as having massive social and economic consequences.",
+        "zh": "但我覺得更重要的是，它如何直接和間接影響政治事件，同時也造成巨大的社會和經濟後果。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "ADAM: I know. That should be the main focus of our presentation.",
+        "zh": "Adam：我知道。那應該是我們簡報的重點。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "MICHELLE: The observations made by people at the time were interesting, weren't they?",
+        "zh": "Michelle：當時人們做出的觀察很有趣，不是嗎？",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "I mean, they all gave a pretty consistent account of what happened, even if they didn't always use the same terminology.",
+        "zh": "我的意思是，即使他們不一定使用相同術語，他們對發生的事情描述得相當一致。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "ADAM: Yeah. I was surprised there were so many weather stations established by that time – so, you know, you can see how the weather changed, often by the hour.",
+        "zh": "Adam：是啊。我很驚訝那時候已經建立了這麼多氣象站，所以你可以看到天氣如何變化， 而且常常是按小時記錄。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "MICHELLE: Right. Writers at the time talked about the Laki haze to describe the volcanic fog that spread across Europe.",
+        "zh": "Michelle：對。當時的作家用「 Laki haze」來形容蔓延到歐洲各地的火山霧。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "They all realised that this wasn't the sort of fog they were used to – and of course this was in pre-industrial times – so they hadn't experienced sulphur-smelling fog before.",
+        "zh": "他們都意識到這不是他們習慣的普通霧，而且當時還是前工業時代，所以他們以前沒有經歷過帶硫磺味的霧。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "ADAM: No, that's true.",
+        "zh": "Adam：是啊，沒錯。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "MICHELLE: Reports from the period blamed the haze for an increase in headaches, respiratory issues and asthma attacks.",
+        "zh": "Michelle：當時的報告把頭痛、 呼吸系統問題和哮喘發作增加歸咎於這片霧霾。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "And they all describe how it covered the sun and made it look a strange red colour.",
+        "zh": "他們也都描述它如何遮住太陽，讓太陽看起來呈現奇怪的紅色。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "ADAM: Must have been very weird.",
+        "zh": "Adam：那一定很詭異。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "MICHELLE: It's interesting that Benjamin Franklin wrote about the haze.",
+        "zh": "Michelle：有趣的是 Benjamin Franklin 也寫過這片霧霾。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "Did you read that?",
+        "zh": "你有讀到嗎？",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "He was the American ambassador in Paris at the time.",
+        "zh": "他當時是美國駐巴黎大使。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "ADAM: Yeah. At first no one realised that the haze was caused by the volcanic eruption in Iceland.",
+        "zh": "Adam：有。起初沒有人意識到這片霧霾是由冰島火山噴發造成的。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "MICHELLE: It was Benjamin Franklin who realised that before anyone else.",
+        "zh": "Michelle：是 Benjamin Franklin 比任何人都先意識到這點。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "ADAM: He's often credited with that, apparently.",
+        "zh": "Adam：顯然，人們常把這個功勞歸給他。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "But a French naturalist beat him to it – I can't remember his name.",
+        "zh": "但其實一位法國博物學家比他更早指出這點——我不記得那人的名字了。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "I'd have to look it up.",
+        "zh": "我得查一下。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "Then other naturalists had the same idea – all independently of each other.",
+        "zh": "後來其他博物學家也有相同想法，而且都是彼此獨立提出的。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "MICHELLE: Oh right. We should talk about the immediate impact of the eruption, which was obviously enormous – especially in Iceland, where so many people died.",
+        "zh": "Michelle：哦，對。我們應該談談火山噴發的直接影響，這顯然非常巨大，尤其是在冰島，那裡死了很多人。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "ADAM: Mmm. You'd expect that – and the fact that the volcanic ash drifted so swiftly – but not that the effects would go on for so long.",
+        "zh": "Adam：嗯。這一點可以預料， 還有火山灰迅速飄散也可以預料，但沒想到影響會持續那麼久。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "Or that two years after the eruption, strange weather events were being reported as far away as North America and North Africa.",
+        "zh": "也沒想到噴發兩年後，遠至北美和北非都還有奇怪天氣事件的報告。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "MICHELLE: No. I found all that hard to believe too.",
+        "zh": "Michelle：是啊。我也覺得那些很難相信。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "It must have been terrible – and there was nothing anyone could do about it, even if they knew the ash cloud was coming in their direction.",
+        "zh": "那一定很可怕，而且即使人們知道火山灰雲正朝他們的方向飄來，也完全無能為力。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "MICHELLE: We should run through some of the terrible consequences of the eruption experienced in different countries.",
+        "zh": "Michelle：我們應該快速梳理一下不同國家經歷的可怕後果。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "There's quite a varied range.",
+        "zh": "影響範圍相當多樣。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "ADAM: Starting with Iceland, where the impact on farming was devastating.",
+        "zh": "Adam：先從冰島開始，那裡農業受到毀滅性打擊。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "MICHELLE: Mmm. One of the most dramatic things there was the effect on livestock as they grazed in the fields.",
+        "zh": "Michelle：嗯。那裡最劇烈的影響之一，是對在田野中吃草的牲畜造成的影響。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "They were poisoned because they ate vegetation that had been contaminated with fluorine as a result of the volcanic fallout.",
+        "zh": "牠們中毒了，因為吃了被火山沉降物中的氟污染的植物。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "ADAM: That was horrible.",
+        "zh": "Adam：那太可怕了。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "In Egypt, the bizarre weather patterns led to a severe drought and as a result the Nile didn't flood, which meant the crops all failed.",
+        "zh": "在埃及，異常天氣導致嚴重乾旱，結果尼羅河沒有氾濫，這表示農作物全部歉收。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "MICHELLE: It's so far from where the eruption happened and yet the famine there led to more people dying than any other country.",
+        "zh": "Michelle：埃及離火山噴發地那麼遠，但那裡的饑荒造成的死亡人數卻比任何其他國家都多。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "It was worse than the plague.",
+        "zh": "情況比瘟疫還糟。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "ADAM: OK. Then in the UK the mortality rate went up a lot – presumably from respiratory illnesses.",
+        "zh": "Adam：好。接著在英國，死亡率大幅上升，推測是因為呼吸系統疾病。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "According to one report it was about double the usual number and included an unusually high percentage of people under the age of 25.",
+        "zh": "根據一份報告，死亡人數約為平常的兩倍，而且 25 歲以下的人所占比例異常高。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "MICHELLE: Mmm. I think people will be surprised to hear that the weather in the USA was badly affected too.",
+        "zh": "Michelle：嗯。我想人們聽到美國天氣也受到嚴重影響時會很驚訝。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "George Washington even makes a note in his diary that they were snowbound until March in Virginia.",
+        "zh": "George Washington 甚至在日記中寫到，他們在 Virginia 一直被大雪困到三月。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "That was before he became president.",
+        "zh": "那是在他成為總統之前。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "ADAM: Yes, and there was ice floating down the Mississippi, which was unprecedented.",
+        "zh": "Adam：是的，而且 Mississippi River 上還有浮冰，這是前所未有的。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "MICHELLE: Astonishing, really. Anyway, what do you think …",
+        "zh": "Michelle：真的很驚人。不管怎樣，你覺得……",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-053"
+      }
+    ],
+    "4": [
+      {
+        "en": "Good morning.",
+        "zh": "早安。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "Now, we've been asked to choose an aspect of European clothing or fashion and to talk about its development over time.",
+        "zh": "我們被要求選擇歐洲服裝或時尚的一個方面，並談談它隨時間的發展。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "I decided to focus on a rather small area of clothing and that's pockets.",
+        "zh": "我決定聚焦在服裝中一個相當小的部分，也就是口袋。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "I chose pockets for two reasons, really.",
+        "zh": "我選擇口袋其實有兩個原因。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "We all have them – in jeans, jackets, coats, for example – and even though we often carry bags or briefcases as well, nothing is quite as convenient as being able to pop your phone or credit card into your pocket.",
+        "zh": "我們都有口袋，例如牛仔褲、 夾克、外套上都有。即使我們也常常攜帶包包或公事包，但沒有什麼比把手機或信用卡直接放入口袋更方便。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "Yet, I suspect that, other than that, people don't really think about pockets too much and they're rather overlooked as a fashion item.",
+        "zh": "然而，我認為除此之外，人們其實不太會特別思考口袋，而且口袋作為時尚元素也常被忽略。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "It's certainly very interesting to go back in time and see how pockets developed for men and women.",
+        "zh": "回到過去看看男女服裝中口袋如何發展，確實非常有趣。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "In the 18th century, fashions were quite different from the way they are now, and pockets were too.",
+        "zh": "在 18 世紀，時尚和現在非常不同，口袋也是如此。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "If we think about male fashion first … that was the time when suits became popular.",
+        "zh": "如果我們先看男性時尚，那正是西裝開始流行的時期。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Trousers were knee-length only and referred to as ‘breeches’, the waistcoats were short and the jackets were long, but all three garments were lined with material and pockets were sewn into this cloth by whichever tailor the customer used.",
+        "zh": "當時褲子只到膝蓋，稱為 breeches；背心較短，外套較長，但這三種衣物都有內襯，而顧客所找的裁縫會把口袋縫進這些內襯布料中。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "The wearer could then carry small objects such as pencils or coins on their person and reach them through a gap in the lining.",
+        "zh": "穿著者因此可以隨身攜帶鉛筆或硬幣等小物件，並透過內襯的開口拿取。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "Coat pockets became increasingly decorative on the outside for men who wanted to look stylish.",
+        "zh": "對於想看起來時髦的男性來說，外套外側的口袋變得越來越具裝飾性。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "But they were often larger but plainer if the wearer was someone with a profession who needed to carry medical instruments – a doctor or physician, for example.",
+        "zh": "但如果穿著者從事某種職業， 需要攜帶醫療器具，例如醫生或內科醫師，口袋通常會更大，但樣式更樸素。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "The development of women's pockets was a little different.",
+        "zh": "女性口袋的發展則有些不同。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "For one thing, they weren't nearly as visible or as easy to reach as men's.",
+        "zh": "首先，女性口袋遠不像男性口袋那樣明顯，也不如男性口袋那麼容易拿取。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "In the 18th and 19th centuries, women carried numerous possessions on their person and some of these could be worth a lot of money.",
+        "zh": "在 18 和 19 世紀，女性會隨身攜帶許多物品，其中一些可能價值不菲。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "Women were more vulnerable to theft and wealthy women, in particular, worried constantly about pickpockets.",
+        "zh": "女性更容易成為偷竊目標，尤其是富有女性，經常擔心扒手。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "So – what they did was to have a pair of pockets made that were tied together with string.",
+        "zh": "所以她們會做一對口袋，並用繩子把它們連在一起。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "The pockets were made of fabric, which might be recycled cloth if the wearer had little money or something more expensive, such as linen, sometimes featuring very delicate embroidery.",
+        "zh": "口袋由布料製成；如果穿著者經濟不寬裕，可能會使用回收布料，若較有錢則可能使用較昂貴的亞麻布，有時還會有非常精緻的刺繡。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "Women tied the pockets around their waist so that they hung beneath their clothes.",
+        "zh": "女性會把口袋綁在腰間，讓它們垂掛在衣服下面。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "Remember, skirts were long then and there was plenty of room to hide a whole range of small possessions between the layers of petticoats that were commonly worn.",
+        "zh": "要記得，當時裙子很長，而且常穿多層襯裙，因此有足夠空間在層層衣物之間藏放各種小物件。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "They would have an opening in the folds of their skirts through which they could reach whatever they needed, like their perfume.",
+        "zh": "她們會在裙子的褶皺處留一個開口，透過那裡拿到需要的東西，例如香水。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "Working women, of course, also needed to carry around items that they might use for whatever job or trade they were involved in.",
+        "zh": "當然，職業女性也需要隨身攜帶工作或生意中可能會用到的物品。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "But their pairs of pockets still remained on the inside of their clothing, they just got bigger or longer – sometimes reaching down to their knees!",
+        "zh": "但她們的一對口袋仍然留在衣服內側，只是變得更大或更長，有時甚至垂到膝蓋！",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "So the tie-on pockets went well into the 19th century and only changed when fashion altered towards the end of that period.",
+        "zh": "因此，這種綁在身上的口袋一直延續到 19 世紀，直到該時期末期時尚發生變化才改變。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "That's when dresses became tighter and less bulky, and the pairs of pockets became very noticeable – they stood out too much and detracted from the woman's image.",
+        "zh": "那時連身裙變得更貼身、不再那麼厚重，而成對口袋變得非常明顯，太過突出，影響了女性形象。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "Women who had been used to carrying around a range of personal possessions – and still wanted to – needed somewhere to carry these items about their person.",
+        "zh": "已經習慣隨身攜帶各種私人物品，並且仍想繼續這樣做的女性，需要找到其他地方來攜帶這些物品。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "That was when small bags, or pouches as they were known, came into fashion and, of course, they inevitably led on to the handbag of more modern times, particularly when fashion removed pockets altogether.",
+        "zh": "於是小包，也就是當時所稱的 pouches，開始流行起來；當然，尤其在時尚完全取消口袋之後，它們不可避免地發展成了更現代的手提包。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-028"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "training",
+      "explanation": "題目寫： “_____ provided for all staff” 錄音介紹 Milo’s 的員工福利時說： “all employees get training – even temporary staff.” “all employees” 對應題目的 “all staff”；“get training” 改寫成 “training provided”。 所以答案是 training。 中伏位：男士接著問有沒有 free uniforms，但女士的回答是 “I guess not”。制服沒有列入這項福利， training 才是所有員工都有的。",
+      "sourcePages": [
+        48
+      ]
+    },
+    "2": {
+      "answer": "discount",
+      "explanation": "題目寫： “_____ during weekdays at all Milo’s Restaurants” 錄音說： “you can get a discount at any of their restaurants.” 男士問： “Even at weekends?” 女士回答： “No…” 因此這項福利是所有 Milo’s Restaurants 都可享有的 discount，使用時間限於 weekdays。 答案是 discount。 中伏位：題目中的 “during weekdays” 來自錄音對 weekends 的排除。聽到 “any of their restaurants” 時也要注意，它表示適用於所有分店，並非所有日期。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "3": {
+      "answer": "taxi",
+      "explanation": "題目寫： “_____ provided after midnight” 錄音說： “if you have to do a late shift and finish work after midnight, the company will pay for you to get a taxi home.” 公司支付回家 taxi 費用，所以題目濃縮成： taxi provided after midnight 答案是 taxi。男士說自己可能會騎 bike，只是個人選擇；公司的正式福利仍然是 taxi。",
+      "sourcePages": [
+        49
+      ]
+    },
+    "4": {
+      "answer": "service",
+      "explanation": "題目寫： “must care about maintaining a high standard of _____” 男士談上一份工作時說： “We had to make sure we gave a really high level of service.” 女士立即回應： “that will be equally important at Milo’s.” “high level of service” 就是題目的 “high standard of service”。 所以答案是 service。 這題要留意對話分工：要求最初由男士描述舊工作帶出，再由女士確認 Milo’s 同樣重視這一點。",
+      "sourcePages": [
+        50
+      ]
+    },
+    "5": {
+      "answer": "English",
+      "explanation": "題目寫： “must have a qualification in _____” 錄音說： “you’ll need to have a certificate in English.” certificate in English = qualification in English。 所以答案是 English。 前面的 communication skills 是需要這項證書的原因；空格問的是 qualification 的科目。",
+      "sourcePages": [
+        50,
+        51
+      ]
+    },
+    "6": {
+      "answer": "Wivenhoe",
+      "explanation": "圖片表格寫： “Location: _____ Street” 錄音說： “The first one is in Wivenhoe Street.” 男士沒聽清楚後，女士再拼字： “W-I-V-E-N-H-O-E.” 所以空格只填 Wivenhoe。 中伏位：Cork Street 也出現在後面，但只是用來補充位置：“just off Cork Street”。真正的分店地址是 Wivenhoe Street。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "7": {
+      "answer": "equipment",
+      "explanation": "圖片寫： “Making sure _____ is clean” 錄音描述 breakfast supervisor 的工作： “checking all the procedures for cleaning the equipment are being followed.” 題目把「檢查設備清潔程序有沒有遵守」簡化成「確保設備乾淨」。 因此： cleaning the equipment → making sure equipment is clean 答案是 equipment。 這裡 equipment 是不可數名詞，所以搭配 “is clean”，也與表格文法完全吻合。",
+      "sourcePages": [
+        51
+      ]
+    },
+    "8": {
+      "answer": "9.75",
+      "explanation": "圖片寫： “Starting salary £ _____ per hour” 錄音附近有三個薪金數字，要逐一貼上標籤： ● £9.50 = 男士上一份工作的時薪 ● £9.75 = Milo’s 這份工作的起薪 ● £11.25 = 工作三個月後的時薪女士說： “to begin with, you'd be getting £9.75 but that goes up to £11.25 after three months.” 題目控制詞是 Starting salary，正好對應 “to begin with”。 所以答案是 9.75。 這類數字題不能只抓到某個金額；一定要先確認每個數字代表甚麼。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "9": {
+      "answer": "deliveries",
+      "explanation": "圖片寫 junior chef 的工作包括： “Maintaining stock and organising _____” 錄音說： “making sure there’s enough stock each week – and sorting out all the deliveries.” 題目直接把兩項職責並列： ● making sure there’s enough stock → maintaining stock ● sorting out deliveries → organising deliveries 所以答案是 deliveries。",
+      "sourcePages": [
+        52
+      ]
+    },
+    "10": {
+      "answer": "Sunday",
+      "explanation": "圖片寫： “No work on a _____ once a month” 錄音先說： “they’re closed on Mondays.” 後面再說： “you do get one Sunday off every four weeks.” 這裡要仔細看題目的 once a month。Monday 是每星期餐廳都關門；每四週額外休一天的安排則是 Sunday。 one Sunday every four weeks ≈ one Sunday once a month 所以答案是 Sunday。 中伏位：Monday 很容易被抄進去，因為它也是「不用工作」的日子；但題目用 “once a month” 把答案鎖定在 Sunday。",
+      "sourcePages": [
+        53,
+        54
+      ]
+    },
+    "11": {
+      "answer": "B and E",
+      "explanation": "題目問的是選這塊土地建住宅的 TWO main reasons，所以附近有優點並不足夠，還要確認 speaker 把它當作主要選址標準。 B — There is easy access to local facilities 錄音說： “We were more interested in the fact that there’s an excellent hospital just 15 kilometres away, and a large secondary school even closer…” hospital 和 secondary school 都屬於 local facilities；“more interested” 清楚表示這是重要選址因素。 所以 B 正確。 E — It will be convenient for workers 錄音先交代新 industrial centre 帶來大量住宅需求： “there’s a lot of demand for housing for employees in the region” 因為目前： “many employees are having to commute long distances.” 在附近興建住宅，就能讓這些 workers 不必長途通勤，因此選址對員工十分方便。 所以 E 正確。 中伏位：airport 只有 20 分鐘車程，看似很吸引，但 speaker 明確說： “it wasn’t one of our major criteria.” A 也不合，因為 steep slope 被形容成 site 的 drawback。D 更沒有支持；土地目前確實用於 farming，但錄音沒有說農業價值很低。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "12": {
+      "answer": "B and E",
+      "explanation": "題目問的是選這塊土地建住宅的 TWO main reasons，所以附近有優點並不足夠，還要確認 speaker 把它當作主要選址標準。 B — There is easy access to local facilities 錄音說： “We were more interested in the fact that there’s an excellent hospital just 15 kilometres away, and a large secondary school even closer…” hospital 和 secondary school 都屬於 local facilities；“more interested” 清楚表示這是重要選址因素。 所以 B 正確。 E — It will be convenient for workers 錄音先交代新 industrial centre 帶來大量住宅需求： “there’s a lot of demand for housing for employees in the region” 因為目前： “many employees are having to commute long distances.” 在附近興建住宅，就能讓這些 workers 不必長途通勤，因此選址對員工十分方便。 所以 E 正確。 中伏位：airport 只有 20 分鐘車程，看似很吸引，但 speaker 明確說： “it wasn’t one of our major criteria.” A 也不合，因為 steep slope 被形容成 site 的 drawback。D 更沒有支持；土地目前確實用於 farming，但錄音沒有說農業價值很低。",
+      "sourcePages": [
+        54,
+        55
+      ]
+    },
+    "13": {
+      "answer": "B and C",
+      "explanation": "題目問公眾對 housing development 的哪些方面給了 positive feedback。 B — the impact on the environment 錄音說大多數人認為設計： “blended in well with the natural features of the landscape” 而且： “provision [was] made for protecting trees and wildlife on the site.” 這些都是 development 與自然環境相處方式的正面評價，所以對應 B。 C — the encouragement of good relations between residents speaker 說整體 feedback 認為： “the design and facilities … make it seem a place where people of all ages can live together happily.” 這不只是住宅外觀好看，也涉及不同年齡居民能共同生活、建立良好社區關係。 所以 C 正確。 中伏位：cyclists 的設施被提到，但大家要求 more facilities，代表目前方案仍有改善空間，因此 A 不能算正面 feedback。住宿有不同 prices，不代表所有 accommodation 都是 low cost。至於 countryside， 錄音說的是「短程車程即可到達」，與「住宅本身位於 rural location」並不相同。 註：你這次沒有附 Part 2 的地圖本體，所以 G / C / D / B / H / A 的字母我會依照你提供的官方答案；位置本身則完全用 transcript 解釋。我不會把沒有看到的地圖細節當成已核對。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "14": {
+      "answer": "B and C",
+      "explanation": "題目問公眾對 housing development 的哪些方面給了 positive feedback。 B — the impact on the environment 錄音說大多數人認為設計： “blended in well with the natural features of the landscape” 而且： “provision [was] made for protecting trees and wildlife on the site.” 這些都是 development 與自然環境相處方式的正面評價，所以對應 B。 C — the encouragement of good relations between residents speaker 說整體 feedback 認為： “the design and facilities … make it seem a place where people of all ages can live together happily.” 這不只是住宅外觀好看，也涉及不同年齡居民能共同生活、建立良好社區關係。 所以 C 正確。 中伏位：cyclists 的設施被提到，但大家要求 more facilities，代表目前方案仍有改善空間，因此 A 不能算正面 feedback。住宿有不同 prices，不代表所有 accommodation 都是 low cost。至於 countryside， 錄音說的是「短程車程即可到達」，與「住宅本身位於 rural location」並不相同。 註：你這次沒有附 Part 2 的地圖本體，所以 G / C / D / B / H / A 的字母我會依照你提供的官方答案；位置本身則完全用 transcript 解釋。我不會把沒有看到的地圖細節當成已核對。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "15": {
+      "answer": "G — School",
+      "explanation": "錄音說先從地圖底部的 South Entrance 看： “there’s a road from there that goes right up through the development.” 學校的位置是： “on that road, at the corner of the second turning to the left.” 所以定位步驟是： South Entrance → 沿主路向上 → 數到第二個左轉 → 找轉角位置官方答案對應 G。 這類地圖題不能只抓 “left”；真正有辨識力的是 second turning to the left + corner。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "16": {
+      "answer": "C — Sports centre",
+      "explanation": "錄音給 sports centre 的兩個定位點： “on the western side of the development” 以及： “just below the road that branches off from London Road.” 所以要先找西邊界 London Road，再找從它分出的道路，sports centre 位於那條支路的下方。 官方答案是 C。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "17": {
+      "answer": "D — Clinic",
+      "explanation": "錄音先給一個非常醒目的地標： “Can you see the lake towards the top of the map?” 接著： “The clinic will be just below this, to the right of a street of houses.” 因此 clinic 必須同時符合： 在上方湖泊正下方 + 在住宅街右側官方答案對應 D。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "18": {
+      "answer": "B — Community centre",
+      "explanation": "錄音說： “On the northeast side … there’ll be a row of specially designed houses … for residents over 65” 然後： “the community centre will be adjoining this.” 所以先找 development 的東北角，再找 elderly housing，community centre 就與它相鄰。 官方答案是 B。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "19": {
+      "answer": "H — Supermarket",
+      "explanation": "錄音提供兩層定位： “There’ll be a supermarket between the two entrances” 接著又補充： “three large trees near London Road … it’ll be just to the south of these.” 因此要找的點同時滿足： 兩個入口之間 + 三棵大樹南面官方答案是 H。 第二個線索特別重要，因為 “between the two entrances” 可能涵蓋較大片區域；三棵樹能進一步精確定位。",
+      "sourcePages": [
+        58
+      ]
+    },
+    "20": {
+      "answer": "A — Playground",
+      "explanation": "錄音再次由 South Entrance 的主路開始： “the road … goes up from the South Entrance” 到了上方： “it curves round to the left at the top” 而 playground： “will be in that curve, with nice views of the lake.” 因此遊樂場不是單純靠近 lake；它的精確位置是在道路上方左彎形成的 curve 裡。 官方答案是 A。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "21": {
+      "answer": "C — It had a profound effect on society",
+      "explanation": "題目問兩位學生為甚麼認為 1783 Laki eruption so important。 Michelle 說她覺得最 significant 的地方是： “how it impacted directly and indirectly on political events, as well as having massive social and economic consequences.” Adam 馬上說： “That should be the main focus of our presentation.” 所以他們看重的並不只是火山本身規模大，而是它對政治、社會和經濟造成深遠影響。 political + social + economic consequences → profound effect on society 因此答案是 C。",
+      "sourcePages": [
+        59
+      ]
+    },
+    "22": {
+      "answer": "A — the number of places producing them",
+      "explanation": "題目問 Adam 對當時 observations 的甚麼地方感到驚訝。 Michelle 說不同人的描述其實很一致。Adam 接著說： “I was surprised there were so many weather stations established by that time” 這表示當時已經有相當多地方系統地記錄天氣，甚至： “often by the hour.” 所以他驚訝的是觀測來源／觀測地點的數量之多。 答案是 A。 中伏位：B 的 contradictions 與錄音相反，Michelle 明確說 accounts “pretty consistent”。C 也不合，因為 weather stations 正提供了相當具體的科學數據。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "23": {
+      "answer": "B — It was associated with health issues",
+      "explanation": "題目問 contemporary sources 怎樣描述 Laki haze。 Michelle 說當時報告： “blamed the haze for an increase in headaches, respiratory issues and asthma attacks.” 這些全都是 health problems，因此 haze 被當時的人與健康問題聯繫起來。 所以答案是 B。 中伏位：A 方向相反，因為人們知道這種 haze 與普通 fog 不同。C 也說得過頭；錄音只說 haze “covered the sun and made it look a strange red colour”，沒有說太陽完全消失數星期。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "24": {
+      "answer": "B — was the first to identify the reason for the haze",
+      "explanation": "Michelle 說： “It was Benjamin Franklin who realised that before anyone else.” Adam 隨即修正： “He’s often credited with that … But a French naturalist beat him to it.” 因此 Adam 修正的不是 Franklin 對 haze 原因的判斷內容；Franklin 的火山解釋本身沒有被推翻。需要更正的是誰最先提出這個解釋。 所以答案是 B。 這題的邏輯是： Michelle：Franklin 第一個發現 → Adam：法國 naturalist 更早 → Franklin 不是第一人",
+      "sourcePages": [
+        61
+      ]
+    },
+    "25": {
+      "answer": "A and B",
+      "explanation": "題目問的是：Laki eruption 之後的影響中，哪兩件事令兩位學生感到意外。 這題的關鍵不只在找 eruption 的後果，更要追蹤 speaker 的態度詞， 例如 expect / not expect / hard to believe。 A — how widespread the effects were Adam 說： “two years after the eruption, strange weather events were being reported as far away as North America and North Africa.” Laki eruption 發生在 Iceland，但影響竟然遠至 North America 和 North Africa。這說明影響範圍非常廣，直接對應： as far away as North America and North Africa → widespread effects Michelle 隨即回應： “I found all that hard to believe too.” “hard to believe” 明確顯示她也對這種廣泛程度感到驚訝，所以 A 正確。 B — how long-lasting the effects were Adam 在同一段說： “but not that the effects would go on for so long.” 這幾乎直接對應選項 B： effects would go on for so long → long-lasting effects 後面更提供具體時間證據： “two years after the eruption, strange weather events were being reported…” 即火山爆發兩年後，其他地方仍有異常天氣，證明影響持續時間遠超他們預期。 Michelle 同樣說： “I found all that hard to believe too.” 因此兩位學生都對影響持續如此長時間感到意外，答案 B。 中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were",
+      "sourcePages": [
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    "26": {
+      "answer": "A and B",
+      "explanation": "題目問的是：Laki eruption 之後的影響中，哪兩件事令兩位學生感到意外。 這題的關鍵不只在找 eruption 的後果，更要追蹤 speaker 的態度詞， 例如 expect / not expect / hard to believe。 A — how widespread the effects were Adam 說： “two years after the eruption, strange weather events were being reported as far away as North America and North Africa.” Laki eruption 發生在 Iceland，但影響竟然遠至 North America 和 North Africa。這說明影響範圍非常廣，直接對應： as far away as North America and North Africa → widespread effects Michelle 隨即回應： “I found all that hard to believe too.” “hard to believe” 明確顯示她也對這種廣泛程度感到驚訝，所以 A 正確。 B — how long-lasting the effects were Adam 在同一段說： “but not that the effects would go on for so long.” 這幾乎直接對應選項 B： effects would go on for so long → long-lasting effects 後面更提供具體時間證據： “two years after the eruption, strange weather events were being reported…” 即火山爆發兩年後，其他地方仍有異常天氣，證明影響持續時間遠超他們預期。 Michelle 同樣說： “I found all that hard to believe too.” 因此兩位學生都對影響持續如此長時間感到意外，答案 B。 中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were",
+      "sourcePages": [
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    "27": {
+      "answer": "D — Animals suffered from a sickness",
+      "explanation": "題目國家是 Iceland。 錄音說當地 farming 遭到重大打擊，其中牲畜： “were poisoned because they ate vegetation that had been contaminated with fluorine” 也就是牲畜吃下受污染植物後生病、中毒。 所以答案是： D — Animals suffered from a sickness 這裡的重點不是農作物本身，而是 livestock 的健康受到 volcanic fallout 影響。",
+      "sourcePages": [
+        65
+      ]
+    },
+    "28": {
+      "answer": "A — This country suffered the most severe loss of life",
+      "explanation": "題目國家是 Egypt。 錄音建立了一條因果鏈： bizarre weather → severe drought → Nile did not flood → crops failed → famine Michelle 最後說： “the famine there led to more people dying than any other country.” “more … than any other country” 直接表示 Egypt 的死亡人數最高。 所以答案是 A。 這也是一題很好的 IELTS 改寫： more people dying than any other country → most severe loss of life",
+      "sourcePages": [
+        65
+      ]
+    },
+    "29": {
+      "answer": "C — There was a significant increase in deaths of young people",
+      "explanation": "題目國家是 UK。 錄音先說 mortality rate： “went up a lot” 根據一份報告： “about double the usual number” 而且其中： “an unusually high percentage of people under the age of 25.” 所以不只整體死亡率增加，年輕死者比例也異常高。 這正好對應： C — significant increase in deaths of young people",
+      "sourcePages": [
+        66
+      ]
+    },
+    "30": {
+      "answer": "F — It caused a particularly harsh winter",
+      "explanation": "題目國家是 USA。 Michelle 說 George Washington 在 Virginia 記錄： “they were snowbound until March” Adam 再補充： “there was ice floating down the Mississippi, which was unprecedented.” 一直被大雪困到三月，再加上 Mississippi 出現前所未見的浮冰，這些都顯示冬季異常嚴寒。 所以答案是 F — a particularly harsh winter。",
+      "sourcePages": [
+        66,
+        67
+      ]
+    },
+    "31": {
+      "answer": "convenient",
+      "explanation": "題目寫： “They are _____ but can be overlooked by consumers and designers.” 講者選擇 pockets 作主題，其中一個原因是： “nothing is quite as convenient as being able to pop your phone or credit card into your pocket.” 之後又說 pockets： “are rather overlooked as a fashion item.” 所以題目把兩個理由合併： pockets are convenient + pockets are often overlooked 答案是 convenient。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "32": {
+      "answer": "suits",
+      "explanation": "題目寫： “Men started to wear _____ in the 18th century.” 錄音說： “In the 18th century … that was the time when suits became popular.” 所以答案是 suits。 這一點是介紹男裝 pockets 發展的背景：西裝開始流行後，pockets 也逐漸被縫進不同 garment 的 lining。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "33": {
+      "answer": "tailor",
+      "explanation": "題目寫： “A _____ sewed pockets into the lining of the garments.” 錄音說三種衣物都有 lining： “pockets were sewn into this cloth by whichever tailor the customer used.” 所以負責把 pockets 縫進內襯的是 tailor。 題目前有 “A”，所以使用單數 tailor。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "34": {
+      "answer": "profession",
+      "explanation": "題目寫： “Bigger pockets might be made for men who belonged to a certain type of _____.” 錄音說如果穿衣者是： “someone with a profession who needed to carry medical instruments” 例如 doctor / physician，口袋會： “larger but plainer.” 所以 bigger pockets 的設計與某些工作需要攜帶工具有關。 答案是 profession。 醫生只是錄音提供的例子；題目問的是更上一層的類別。",
+      "sourcePages": [
+        68
+      ]
+    },
+    "35": {
+      "answer": "visible",
+      "explanation": "題目寫： “Women’s pockets were less _____ than men’s.” 錄音直接比較男女 pockets： “they weren’t nearly as visible or as easy to reach as men’s.” 題目只抽取第一項比較，所以答案是 visible。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "36": {
+      "answer": "string / strings",
+      "explanation": "題目寫： “Pockets were produced in pairs using _____ to link them together.” 錄音說： “a pair of pockets … were tied together with string.” tied together = linked together，所以答案是 string。 官方也接受 strings。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "37": {
+      "answer": "waist / waists",
+      "explanation": "題目寫： “Pockets hung from the women’s _____ under skirts and petticoats.” 錄音說： “Women tied the pockets around their waist so that they hung beneath their clothes.” around their waist → hung from the waist。 所以答案是 waist；官方亦接受 waists。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "38": {
+      "answer": "perfume",
+      "explanation": "題目寫： “Items such as _____ could be reached through a gap in the material.” 錄音說 skirts 的 folds 有 opening： “through which they could reach whatever they needed, like their perfume.” 所以答案是 perfume。 這裡的 “gap in the material” 對應錄音的 “opening in the folds of their skirts”。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "39": {
+      "answer": "image",
+      "explanation": "題目寫： “When dresses changed shape, hidden pockets had a negative effect on the _____ of women.” 這一題要理解服裝變化帶來的因果。 早期 dresses 比較寬鬆、厚重，women 可以把大 pockets 藏在 layers of clothing 裡。到了 19 世紀後期： “dresses became tighter and less bulky” 結果原本隱藏的 pockets： “became very noticeable – they stood out too much” 最後： “detracted from the woman’s image.” 所以變化過程是： 裙裝變貼身 → pockets 更容易突出 → 破壞整體外觀／形象 “detracted from” 表示削弱、損害，因此題目改寫成 “had a negative effect on”。 答案是 image。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "40": {
+      "answer": "handbag",
+      "explanation": "題目寫： “Bags called ‘pouches’ became popular, before women carried a _____.” 錄音描述 pockets 逐漸退出女性時尚後的替代方式： “small bags, or pouches as they were known, came into fashion” 接著說： “they inevitably led on to the handbag of more modern times.” 所以這是一條服飾演變線： hidden tie-on pockets → pouches → modern handbag 題目的 “before women carried a _____” 正是在問 pouches 之後發展出的現代用品。 因此答案是 handbag。",
+      "sourcePages": [
+        72
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 372.53225,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%201.mp3",
+        "audioSha256": "f4f1b301daf8d33487778a089c079fe0b0f0d7af24ee4958eefba71bb28dc3a7",
+        "transcriptSha256": "20b5984ad70584a7d67cb6bc56965a6c72a02586abaca3bf56b41f22fdf3db52",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9974,
+        "lines": [
+          {
+            "start": 46.37,
+            "end": 49.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 49.62,
+            "end": 53.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.58,
+            "end": 56.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 56.84,
+            "end": 61.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 61.54,
+            "end": 64.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 65.12,
+            "end": 65.4,
+            "coverage": 0.7143,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "ASR writes Alright where the PDF writes Oh right; both words occupy this reply interval."
+          },
+          {
+            "start": 65.74,
+            "end": 69.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.34,
+            "end": 74.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 74.56,
+            "end": 77.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 77.66,
+            "end": 78.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.86,
+            "end": 81.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.52,
+            "end": 89.98,
+            "coverage": 0.9706
+          },
+          {
+            "start": 90.56,
+            "end": 97.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 97.78,
+            "end": 98.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 99.2,
+            "end": 101.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 102.0,
+            "end": 103.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 104.42,
+            "end": 108.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 108.44,
+            "end": 110.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 110.34,
+            "end": 111.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 111.62,
+            "end": 118.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 119.4,
+            "end": 120.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 120.8,
+            "end": 122.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 122.7,
+            "end": 129.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 129.68,
+            "end": 134.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 135.34,
+            "end": 138.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 139.24,
+            "end": 142.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.44,
+            "end": 146.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.18,
+            "end": 150.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 150.78,
+            "end": 154.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 155.16,
+            "end": 157.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 158.08,
+            "end": 161.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 161.76,
+            "end": 169.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 169.52,
+            "end": 169.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 177.14,
+            "end": 215.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 215.52,
+            "end": 217.62,
+            "coverage": 0.9655
+          },
+          {
+            "start": 218.12,
+            "end": 218.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 219.48,
+            "end": 226.16,
+            "coverage": 0.9375
+          },
+          {
+            "start": 226.82,
+            "end": 229.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.46,
+            "end": 230.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 230.56,
+            "end": 232.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 233.32,
+            "end": 234.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 234.96,
+            "end": 238.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 239.62,
+            "end": 248.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 248.42,
+            "end": 250.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 251.58,
+            "end": 255.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 255.64,
+            "end": 257.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.28,
+            "end": 266.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 266.76,
+            "end": 267.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 268.52,
+            "end": 270.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.02,
+            "end": 274.2,
+            "coverage": 0.9773
+          },
+          {
+            "start": 274.2,
+            "end": 277.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.96,
+            "end": 281.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 281.92,
+            "end": 286.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 286.46,
+            "end": 288.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 288.5,
+            "end": 291.94,
+            "coverage": 0.9744
+          },
+          {
+            "start": 292.42,
+            "end": 296.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.38,
+            "end": 301.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.02,
+            "end": 303.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 304.04,
+            "end": 310.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 310.3,
+            "end": 316.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 317.46,
+            "end": 322.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 323.24,
+            "end": 329.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.54,
+            "end": 332.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.74,
+            "end": 335.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 336.22,
+            "end": 336.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 337.02,
+            "end": 341.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 341.94,
+            "end": 343.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 343.66,
+            "end": 345.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 345.96,
+            "end": 347.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 347.9,
+            "end": 349.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 349.6,
+            "end": 353.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 353.94,
+            "end": 357.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 358.06,
+            "end": 360.18,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 407.5885625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%202.mp3",
+        "audioSha256": "d9bc67574639d4cb83e042d07ed6122680932229be790cfa92506a530c3eb642",
+        "transcriptSha256": "2ffb05aa9deb45c251d846c75d8cc8cbfdf2a083c6fe18899b13e7286d94f7b9",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9952,
+        "lines": [
+          {
+            "start": 42.6,
+            "end": 43.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 44.34,
+            "end": 53.7,
+            "coverage": 0.976
+          },
+          {
+            "start": 53.7,
+            "end": 59.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 60.76,
+            "end": 65.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 66.74,
+            "end": 74.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.84,
+            "end": 82.34,
+            "coverage": 0.9344
+          },
+          {
+            "start": 83.02,
+            "end": 96.04,
+            "coverage": 0.9866
+          },
+          {
+            "start": 97.24,
+            "end": 111.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.74,
+            "end": 124.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 124.9,
+            "end": 137.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 138.96,
+            "end": 142.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.08,
+            "end": 154.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 155.58,
+            "end": 162.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.22,
+            "end": 177.52,
+            "coverage": 0.9938
+          },
+          {
+            "start": 178.52,
+            "end": 185.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 186.4,
+            "end": 197.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.64,
+            "end": 255.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 257.3,
+            "end": 264.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 265.3,
+            "end": 271.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 271.9,
+            "end": 278.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 280.08,
+            "end": 284.58,
+            "coverage": 0.9592
+          },
+          {
+            "start": 285.62,
+            "end": 293.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.68,
+            "end": 300.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.34,
+            "end": 308.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 309.56,
+            "end": 317.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 318.54,
+            "end": 323.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.66,
+            "end": 327.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 328.6,
+            "end": 334.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 335.32,
+            "end": 339.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.44,
+            "end": 353.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 354.76,
+            "end": 357.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 358.48,
+            "end": 362.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 363.7,
+            "end": 371.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 372.94,
+            "end": 376.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 377.24,
+            "end": 391.44,
+            "coverage": 0.9858
+          },
+          {
+            "start": 391.44,
+            "end": 396.12,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 398.419625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%203.mp3",
+        "audioSha256": "25b3ef5c68476b90f42504e009e8a836d2f44b2cd54f2db15b9e3716022373e0",
+        "transcriptSha256": "841cb1b2dfc942924397a8ae3a6aa8a617540e6293aee72c3594d035a5e1d9af",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9963,
+        "lines": [
+          {
+            "start": 65.78,
+            "end": 68.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 70.12,
+            "end": 71.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 71.96,
+            "end": 75.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.38,
+            "end": 81.38,
+            "coverage": 0.9853
+          },
+          {
+            "start": 81.64,
+            "end": 82.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.98,
+            "end": 85.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 85.98,
+            "end": 90.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 91.26,
+            "end": 91.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 92.26,
+            "end": 95.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 96.16,
+            "end": 100.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.96,
+            "end": 104.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 105.3,
+            "end": 105.84,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.54,
+            "end": 116.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.48,
+            "end": 120.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.28,
+            "end": 125.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 125.84,
+            "end": 133.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 134.24,
+            "end": 143.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 143.94,
+            "end": 151.4,
+            "coverage": 0.9888
+          },
+          {
+            "start": 152.1,
+            "end": 162.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.14,
+            "end": 163.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 164.46,
+            "end": 171.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 171.76,
+            "end": 176.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 177.64,
+            "end": 179.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 180.0,
+            "end": 183.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 184.28,
+            "end": 185.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 185.58,
+            "end": 188.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 189.2,
+            "end": 194.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 194.68,
+            "end": 199.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 199.7,
+            "end": 201.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 202.38,
+            "end": 206.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 206.52,
+            "end": 207.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 207.92,
+            "end": 212.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 213.32,
+            "end": 224.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.06,
+            "end": 234.02,
+            "coverage": 0.9899
+          },
+          {
+            "start": 234.56,
+            "end": 241.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 242.16,
+            "end": 245.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 245.9,
+            "end": 255.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 292.06,
+            "end": 297.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 298.74,
+            "end": 301.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 301.74,
+            "end": 305.0,
+            "coverage": 0.8571
+          },
+          {
+            "start": 305.94,
+            "end": 312.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.02,
+            "end": 320.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 320.66,
+            "end": 321.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 322.32,
+            "end": 331.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.26,
+            "end": 339.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.74,
+            "end": 342.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.88,
+            "end": 349.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 350.7,
+            "end": 359.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 359.64,
+            "end": 366.86,
+            "coverage": 0.987
+          },
+          {
+            "start": 367.76,
+            "end": 374.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 375.34,
+            "end": 377.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 377.1,
+            "end": 382.18,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 383.38,
+            "end": 386.6,
+            "coverage": 1.0,
+            "refined": true
+          }
+        ]
+      },
+      "4": {
+        "duration": 351.2163125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%204.mp3",
+        "audioSha256": "962b776f791b737b0feb0358422d2dc0ae01d82807c16fdcd4869c2383a75aea",
+        "transcriptSha256": "d4439d459c4400c6aa61e19383a11a1587ca42e174c025a0b637967cc95cf547",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9975,
+        "lines": [
+          {
+            "start": 70.86,
+            "end": 71.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 72.8,
+            "end": 80.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 81.28,
+            "end": 86.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 87.4,
+            "end": 90.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.66,
+            "end": 106.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 107.02,
+            "end": 115.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 117.38,
+            "end": 123.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 124.26,
+            "end": 131.06,
+            "coverage": 1.0
+          },
+          {
+            "start": 132.02,
+            "end": 138.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.06,
+            "end": 158.22,
+            "coverage": 0.9897
+          },
+          {
+            "start": 159.64,
+            "end": 168.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 169.52,
+            "end": 175.32,
+            "coverage": 0.9747
+          },
+          {
+            "start": 176.46,
+            "end": 187.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 191.84,
+            "end": 196.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 198.04,
+            "end": 203.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 203.8,
+            "end": 213.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.58,
+            "end": 222.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 223.42,
+            "end": 229.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 230.18,
+            "end": 243.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 244.28,
+            "end": 249.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 250.48,
+            "end": 260.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 261.14,
+            "end": 268.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.78,
+            "end": 277.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 277.94,
+            "end": 288.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.54,
+            "end": 300.5,
+            "coverage": 0.97
+          },
+          {
+            "start": 301.52,
+            "end": 312.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.86,
+            "end": 323.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.92,
+            "end": 340.64,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 70.34,
+        "line": 7,
+        "evidenceScore": 61.0
+      },
+      "2": {
+        "part": 1,
+        "time": 90.56,
+        "line": 12,
+        "evidenceScore": 61.0
+      },
+      "3": {
+        "part": 1,
+        "time": 111.62,
+        "line": 19,
+        "evidenceScore": 106.0
+      },
+      "4": {
+        "part": 1,
+        "time": 147.18,
+        "line": 27,
+        "evidenceScore": 66.0
+      },
+      "5": {
+        "part": 1,
+        "time": 161.76,
+        "line": 31,
+        "evidenceScore": 56.0
+      },
+      "6": {
+        "part": 1,
+        "time": 215.52,
+        "line": 34,
+        "evidenceScore": 49.0
+      },
+      "7": {
+        "part": 1,
+        "time": 239.62,
+        "line": 42,
+        "evidenceScore": 83.0
+      },
+      "8": {
+        "part": 1,
+        "time": 258.28,
+        "line": 46,
+        "evidenceScore": 97.0
+      },
+      "9": {
+        "part": 1,
+        "time": 310.3,
+        "line": 59,
+        "evidenceScore": 84.0
+      },
+      "10": {
+        "part": 1,
+        "time": 353.94,
+        "line": 71,
+        "evidenceScore": 54.0
+      },
+      "11": {
+        "part": 2,
+        "time": 112.74,
+        "line": 8,
+        "evidenceScore": 117.0
+      },
+      "12": {
+        "part": 2,
+        "time": 112.74,
+        "line": 8,
+        "evidenceScore": 117.0
+      },
+      "13": {
+        "part": 2,
+        "time": 163.22,
+        "line": 13,
+        "evidenceScore": 49.0
+      },
+      "14": {
+        "part": 2,
+        "time": 163.22,
+        "line": 13,
+        "evidenceScore": 49.0
+      },
+      "15": {
+        "part": 2,
+        "time": 285.62,
+        "line": 21,
+        "evidenceScore": 56.0
+      },
+      "16": {
+        "part": 2,
+        "time": 309.56,
+        "line": 24,
+        "evidenceScore": 45.0
+      },
+      "17": {
+        "part": 2,
+        "time": 328.6,
+        "line": 27,
+        "evidenceScore": 55.0
+      },
+      "18": {
+        "part": 2,
+        "time": 340.44,
+        "line": 29,
+        "evidenceScore": 37.0
+      },
+      "19": {
+        "part": 2,
+        "time": 358.48,
+        "line": 31,
+        "evidenceScore": 43.0
+      },
+      "20": {
+        "part": 2,
+        "time": 377.24,
+        "line": 34,
+        "evidenceScore": 39.0
+      },
+      "21": {
+        "part": 3,
+        "time": 106.54,
+        "line": 12,
+        "evidenceScore": 101.0
+      },
+      "22": {
+        "part": 3,
+        "time": 134.24,
+        "line": 16,
+        "evidenceScore": 64.0
+      },
+      "23": {
+        "part": 3,
+        "time": 164.46,
+        "line": 20,
+        "evidenceScore": 70.0
+      },
+      "24": {
+        "part": 3,
+        "time": 194.68,
+        "line": 27,
+        "evidenceScore": 52.0
+      },
+      "25": {
+        "part": 3,
+        "time": 234.56,
+        "line": 34,
+        "evidenceScore": 98.0
+      },
+      "26": {
+        "part": 3,
+        "time": 234.56,
+        "line": 34,
+        "evidenceScore": 98.0
+      },
+      "27": {
+        "part": 3,
+        "time": 313.02,
+        "line": 41,
+        "evidenceScore": 71.0
+      },
+      "28": {
+        "part": 3,
+        "time": 332.26,
+        "line": 44,
+        "evidenceScore": 53.0
+      },
+      "29": {
+        "part": 3,
+        "time": 350.7,
+        "line": 47,
+        "evidenceScore": 56.0
+      },
+      "30": {
+        "part": 3,
+        "time": 377.1,
+        "line": 51,
+        "evidenceScore": 58.0
+      },
+      "31": {
+        "part": 4,
+        "time": 90.66,
+        "line": 4,
+        "evidenceScore": 97.0
+      },
+      "32": {
+        "part": 4,
+        "time": 132.02,
+        "line": 8,
+        "evidenceScore": 44.92
+      },
+      "33": {
+        "part": 4,
+        "time": 140.06,
+        "line": 9,
+        "evidenceScore": 80.0
+      },
+      "34": {
+        "part": 4,
+        "time": 176.46,
+        "line": 12,
+        "evidenceScore": 76.0
+      },
+      "35": {
+        "part": 4,
+        "time": 198.04,
+        "line": 14,
+        "evidenceScore": 66.0
+      },
+      "36": {
+        "part": 4,
+        "time": 223.42,
+        "line": 17,
+        "evidenceScore": 36.9
+      },
+      "37": {
+        "part": 4,
+        "time": 244.28,
+        "line": 19,
+        "evidenceScore": 88.0
+      },
+      "38": {
+        "part": 4,
+        "time": 261.14,
+        "line": 21,
+        "evidenceScore": 80.0
+      },
+      "39": {
+        "part": 4,
+        "time": 301.52,
+        "line": 25,
+        "evidenceScore": 59.0
+      },
+      "40": {
+        "part": 4,
+        "time": 324.92,
+        "line": 27,
+        "evidenceScore": 68.0
+      }
+    }
+  }
+}

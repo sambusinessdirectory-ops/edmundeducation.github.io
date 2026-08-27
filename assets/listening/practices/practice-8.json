@@ -1,0 +1,4154 @@
+{
+  "schemaVersion": 1,
+  "practice": 8,
+  "title": "IELTS Listening Practice 8",
+  "source": {
+    "file": "IELTS Listening - Practice - 8.pdf",
+    "sha256": "c4ee1140f302a1fec5024972837b60cdb205505db9f10c161e6256f09b75f531",
+    "pageCount": 74,
+    "corrections": []
+  },
+  "parts": [
+    {
+      "part": 1,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Part 1\nQuestions 1–6\nComplete the notes below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\nFirst Day at Work\n● Name of supervisor: 1 __________\n● Where to leave coat and bag: use 2 __________ in staffroom\n● See Tiffany in HR:\n○ to give 3 __________ number\n○ to collect 4 __________\n● Location of HR office: on 5 __________ floor\n● Supervisor’s mobile number: 6 __________",
+          "page": 4
+        },
+        {
+          "type": "text",
+          "text": "Questions 7–10\nComplete the table below.\nWrite ONE WORD ONLY for each answer.",
+          "page": 5
+        },
+        {
+          "type": "image",
+          "src": "assets/listening/practices/images/practice-8-page-5-1.webp",
+          "alt": "Practice 8, source question diagram/table, PDF page 5",
+          "text": "",
+          "page": 5
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 1,
+          "prompt": "● Name of supervisor: 1 __________",
+          "translation": "",
+          "answer": "Kaeden",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 2,
+          "prompt": "● Where to leave coat and bag: use 2 __________ in staffroom",
+          "translation": "",
+          "answer": "locker",
+          "alternatives": [
+            "lockers"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 3,
+          "prompt": "○ to give 3 __________ number",
+          "translation": "",
+          "answer": "passport",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 4,
+          "prompt": "○ to collect 4 __________",
+          "translation": "",
+          "answer": "uniform",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 5,
+          "prompt": "● Location of HR office: on 5 __________ floor",
+          "translation": "",
+          "answer": "third",
+          "alternatives": [
+            "3rd"
+          ]
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 6,
+          "prompt": "● Supervisor’s mobile number: 6 __________",
+          "translation": "",
+          "answer": "0412665903",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 7,
+          "prompt": "Bakery section — Use _____ labels",
+          "translation": "",
+          "answer": "yellow",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 8,
+          "prompt": "Sushi takeaway counter — Re-stock with _____ boxes if needed",
+          "translation": "",
+          "answer": "plastic",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 9,
+          "prompt": "Meat and fish counters — Collect _____ from the cold-room",
+          "translation": "",
+          "answer": "ice",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 1,
+          "number": 10,
+          "prompt": "Must wear special _____",
+          "translation": "",
+          "answer": "gloves",
+          "alternatives": []
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        7,
+        8,
+        9
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 11 and 12\nChoose TWO letters, A–E.\nWhich TWO problems with some training programmes for new runners does\nLiz mention?\nA. There is a risk of serious injury.\nB. They are unsuitable for certain age groups.\nC. They are unsuitable for people with health issues.\nD. It is difficult to stay motivated.\nE. There is a lack of individual support.\nQuestions 13 and 14\nChoose TWO letters, A–E.\nWhich TWO tips does Liz recommend for new runners?\nA. doing two runs a week\nB. running in the evening\nC. going on runs with a friend\nD. listening to music during runs\nE. running very slowly",
+          "page": 7
+        },
+        {
+          "type": "text",
+          "text": "Questions 15–18\nWhat reason prevented each of the following members of the Compton Park\nRunners Club from joining until recently?\nWrite the correct letter, A, B or C, next to Questions 15–18.\nReasons\nA. a lack of confidence\nB. a dislike of running\nC. a lack of time\nClub members\n15. Ceri __________\n16. James __________\n17. Leo __________\n18. Mark __________",
+          "page": 8
+        },
+        {
+          "type": "text",
+          "text": "Questions 19 and 20\nChoose the correct letter, A, B or C.\n19. What does Liz say about running her first marathon?\nA. It had always been her ambition.\nB. Her husband persuaded her to do it.\nC. She nearly gave up before the end.\n20. Liz says new runners should sign up for a race\nA. every six months.\nB. within a few weeks of taking up running.\nC. after completing several practice runs.",
+          "page": 9
+        }
+      ],
+      "questions": [
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            11,
+            12
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO problems with some training programmes for new runners does Liz mention?",
+          "translation": "",
+          "answers": [
+            "C",
+            "E"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "There is a risk of serious injury.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They are unsuitable for certain age groups.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They are unsuitable for people with health issues.",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "It is difficult to stay motivated.",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "There is a lack of individual support.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "part": 2,
+          "numbers": [
+            13,
+            14
+          ],
+          "prompt": "Choose TWO letters, A–E. Which TWO tips does Liz recommend for new runners?",
+          "translation": "",
+          "answers": [
+            "A",
+            "D"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "en": "doing two runs a week",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "running in the evening",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "going on runs with a friend",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "listening to music during runs",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "running very slowly",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 15,
+          "prompt": "Ceri",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "a lack of confidence",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a dislike of running",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a lack of time",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 16,
+          "prompt": "James",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "a lack of confidence",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a dislike of running",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a lack of time",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 17,
+          "prompt": "Leo",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "a lack of confidence",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a dislike of running",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a lack of time",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 18,
+          "prompt": "Mark",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "a lack of confidence",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "a dislike of running",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "a lack of time",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 19,
+          "prompt": "What does Liz say about running her first marathon?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "It had always been her ambition.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "Her husband persuaded her to do it.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "She nearly gave up before the end.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 2,
+          "number": 20,
+          "prompt": "Liz says new runners should sign up for a race",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "every six months.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "within a few weeks of taking up running.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "after completing several practice runs.",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        11,
+        12,
+        13
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 21–25\nChoose the correct letter, A, B or C.\n21. Kieran thinks the packing advice given by Jane’s grandfather is\nA. common sense.\nB. hard to follow.\nC. over-protective.\n22. How does Jane feel about the books her grandfather has given her?\nA. They are not worth keeping.\nB. They should go to a collector.\nC. They have sentimental value for her.\n23. Jane and Kieran agree that hardback books should be\nA. put out on display.\nB. given as gifts to visitors.\nC. more attractively designed.",
+          "page": 11
+        },
+        {
+          "type": "text",
+          "text": "24. While talking about taking a book from a shelf, Jane\nA. describes the mistakes other people make doing it.\nB. reflects on a significant childhood experience.\nC. explains why some books are easier to remove than others.\n25. What do Jane and Kieran suggest about new books?\nA. Their parents liked buying them as presents.\nB. They would like to buy more of them.\nC. Not everyone can afford them.",
+          "page": 12
+        },
+        {
+          "type": "text",
+          "text": "Questions 26–30\nWhere does Jane’s grandfather keep each of the following types of books in his\nshop?\nChoose FIVE answers from the box and write the correct letter, A–G, next to\nQuestions 26–30.\nLocation of books\nA. near the entrance\nB. in the attic\nC. at the back of the shop\nD. on a high shelf\nE. near the stairs\nF. in a specially designed space\nG. within the café\nTypes of books\n26. rare books __________\n27. children’s books __________\n28. unwanted books __________\n29. requested books __________\n30. coursebooks __________",
+          "page": 13
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 21,
+          "prompt": "Kieran thinks the packing advice given by Jane’s grandfather is",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "common sense.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "hard to follow.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "over-protective.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 22,
+          "prompt": "How does Jane feel about the books her grandfather has given her?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "They are not worth keeping.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They should go to a collector.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "They have sentimental value for her.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 23,
+          "prompt": "Jane and Kieran agree that hardback books should be",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "put out on display.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "given as gifts to visitors.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "more attractively designed.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 24,
+          "prompt": "While talking about taking a book from a shelf, Jane",
+          "translation": "",
+          "answer": "B",
+          "options": [
+            {
+              "key": "A",
+              "en": "describes the mistakes other people make doing it.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "reflects on a significant childhood experience.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "explains why some books are easier to remove than others.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 25,
+          "prompt": "What do Jane and Kieran suggest about new books?",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "Their parents liked buying them as presents.",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "They would like to buy more of them.",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "Not everyone can afford them.",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 26,
+          "prompt": "rare books",
+          "translation": "",
+          "answer": "D",
+          "options": [
+            {
+              "key": "A",
+              "en": "near the entrance",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "in the attic",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "at the back of the shop",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "on a high shelf",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "near the stairs",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "in a specially designed space",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "within the café",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 27,
+          "prompt": "children’s books",
+          "translation": "",
+          "answer": "F",
+          "options": [
+            {
+              "key": "A",
+              "en": "near the entrance",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "in the attic",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "at the back of the shop",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "on a high shelf",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "near the stairs",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "in a specially designed space",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "within the café",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 28,
+          "prompt": "unwanted books",
+          "translation": "",
+          "answer": "A",
+          "options": [
+            {
+              "key": "A",
+              "en": "near the entrance",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "in the attic",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "at the back of the shop",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "on a high shelf",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "near the stairs",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "in a specially designed space",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "within the café",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 29,
+          "prompt": "requested books",
+          "translation": "",
+          "answer": "C",
+          "options": [
+            {
+              "key": "A",
+              "en": "near the entrance",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "in the attic",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "at the back of the shop",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "on a high shelf",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "near the stairs",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "in a specially designed space",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "within the café",
+              "zh": ""
+            }
+          ]
+        },
+        {
+          "type": "choice",
+          "part": 3,
+          "number": 30,
+          "prompt": "coursebooks",
+          "translation": "",
+          "answer": "G",
+          "options": [
+            {
+              "key": "A",
+              "en": "near the entrance",
+              "zh": ""
+            },
+            {
+              "key": "B",
+              "en": "in the attic",
+              "zh": ""
+            },
+            {
+              "key": "C",
+              "en": "at the back of the shop",
+              "zh": ""
+            },
+            {
+              "key": "D",
+              "en": "on a high shelf",
+              "zh": ""
+            },
+            {
+              "key": "E",
+              "en": "near the stairs",
+              "zh": ""
+            },
+            {
+              "key": "F",
+              "en": "in a specially designed space",
+              "zh": ""
+            },
+            {
+              "key": "G",
+              "en": "within the café",
+              "zh": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "instruction": "Answer the questions using the instructions in the original question paper below.",
+      "instructionZh": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "sourcePages": [
+        15,
+        16
+      ],
+      "sourceBlocks": [
+        {
+          "type": "text",
+          "text": "Questions 31–40\nComplete the notes below.\nWrite ONE WORD ONLY for each answer.\nTree Planting\nReforestation projects should:\n● include a range of tree species\n● not include invasive species because of possible 31 __________ with\nnative species\n● aim to capture carbon, protect the environment and provide sustainable\nsources of 32 __________ for local people\n● use tree seeds with a high genetic diversity to increase resistance to 33\n__________ and climate change\n● plant trees on previously forested land which is in a bad condition, not\nselect land which is being used for 34 __________",
+          "page": 15
+        },
+        {
+          "type": "text",
+          "text": "Large-scale reforestation projects\n● Base planning decisions on information from accurate 35 __________.\n● Drones are useful for identifying areas in Brazil which are endangered by\nkeeping 36 __________ and illegal logging.\nLampang Province, Northern Thailand\n● A forest was restored in an area damaged by mining.\n● A variety of native fig trees were planted, which are important for:\n○ supporting many wildlife species\n○ increasing the 37 __________ of recovery by attracting animals\nand birds, e.g. 38 __________ were soon attracted to the area.\nInvolving local communities\n● Destruction of mangrove forests in Madagascar made it difficult for\npeople to make a living from 39 __________.\n● The mangrove reforestation project:\n○ provided employment for local people\n○ restored a healthy ecosystem\n○ protects against the higher risk of 40 __________",
+          "page": 16
+        }
+      ],
+      "questions": [
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 31,
+          "prompt": "● not include invasive species because of possible 31 __________ with",
+          "translation": "",
+          "answer": "competition",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 32,
+          "prompt": "sources of 32 __________ for local people",
+          "translation": "",
+          "answer": "food",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 33,
+          "prompt": "● use tree seeds with a high genetic diversity to increase resistance to 33 __________ and climate change",
+          "translation": "",
+          "answer": "disease",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 34,
+          "prompt": "select land which is being used for 34 __________",
+          "translation": "",
+          "answer": "agriculture",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 35,
+          "prompt": "● Base planning decisions on information from accurate 35 __________.",
+          "translation": "",
+          "answer": "maps",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 36,
+          "prompt": "keeping 36 __________ and illegal logging.",
+          "translation": "",
+          "answer": "cattle",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 37,
+          "prompt": "○ increasing the 37 __________ of recovery by attracting animals",
+          "translation": "",
+          "answer": "speed",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 38,
+          "prompt": "and birds, e.g. 38 __________ were soon attracted to the area.",
+          "translation": "",
+          "answer": "monkeys",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 39,
+          "prompt": "people to make a living from 39 __________.",
+          "translation": "",
+          "answer": "fishing",
+          "alternatives": []
+        },
+        {
+          "type": "gap",
+          "part": 4,
+          "number": 40,
+          "prompt": "○ protects against the higher risk of 40 __________",
+          "translation": "",
+          "answer": "flooding",
+          "alternatives": []
+        }
+      ]
+    }
+  ],
+  "transcript": {
+    "1": [
+      {
+        "en": "KAEDEN: Hello Charlotte. I'm Kaeden, one of the supervisors. Welcome to the team.",
+        "zh": "Kaeden：你好，Charlotte。我是 Kaeden，這裡的主管之一。歡迎加入我們的團隊。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-001"
+      },
+      {
+        "en": "CHARLOTTE: Hi Aiden.",
+        "zh": "Charlotte：你好，Aiden。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-002"
+      },
+      {
+        "en": "KAEDEN: It's Kaeden.",
+        "zh": "Kaeden：是 Kaeden。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-003"
+      },
+      {
+        "en": "CHARLOTTE: I'm so sorry.",
+        "zh": "Charlotte：真的很抱歉。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-004"
+      },
+      {
+        "en": "KAEDEN: Don't worry. People often get my name wrong; they never know how to spell it.",
+        "zh": "Kaeden：別擔心。大家經常把我的名字弄錯，也不知道怎麼拼。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-005"
+      },
+      {
+        "en": "It's K-A-E-D-E-N, in case you ever need to write it.",
+        "zh": "是 K-A-E-D-E-N，以防你之後需要寫下來。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-006"
+      },
+      {
+        "en": "CHARLOTTE: I'll try and remember.",
+        "zh": "Charlotte：我會努力記住。",
+        "sourcePages": [
+          22
+        ],
+        "id": "p1-row-007"
+      },
+      {
+        "en": "KAEDEN: So, there are a few practical things you need to sort out this morning.",
+        "zh": "Kaeden：那麼，今天早上你需要先處理幾件實際事項。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-008"
+      },
+      {
+        "en": "Then I'll show you what you're going to do today.",
+        "zh": "然後我會告訴你今天要做什麼。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-009"
+      },
+      {
+        "en": "CHARLOTTE: The email I received said to go to the front desk, to show my letter of appointment and pick up my badge.",
+        "zh": "Charlotte：我收到的電子郵件說， 要去前台出示任命信，並領取我的識別證。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-010"
+      },
+      {
+        "en": "KAEDEN: You'll need that for the staffroom and other areas of the supermarket where shoppers aren't allowed.",
+        "zh": "Kaeden：你需要那個才能進入員工休息室，以及超市裡其他顧客不能進入的區域。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-011"
+      },
+      {
+        "en": "So, after you've finished at the front desk, I'll take you to the staffroom.",
+        "zh": "所以你在前台辦完後，我會帶你去員工休息室。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-012"
+      },
+      {
+        "en": "Put your coat and rucksack in one of the lockers there. Take whichever one is free.",
+        "zh": "把你的外套和背包放進那裡的其中一個置物櫃。哪個空著就用哪個。",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-013"
+      },
+      {
+        "en": "CHARLOTTE: Will I have a key?",
+        "zh": "Charlotte：我會有鑰匙嗎？",
+        "sourcePages": [
+          23
+        ],
+        "id": "p1-row-014"
+      },
+      {
+        "en": "KAEDEN: Yes. Try not to lose it. At the end of the day, leave it in the door for the next person to use.",
+        "zh": "Kaeden：會的。盡量別弄丟。一天結束時，把鑰匙留在櫃門上，方便下一個人使用。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-015"
+      },
+      {
+        "en": "CHARLOTTE: Will do.",
+        "zh": "Charlotte：好的。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-016"
+      },
+      {
+        "en": "KAEDEN: You also need to go to the HR department to see Tiffany. She's really helpful.",
+        "zh": "Kaeden：你還需要去人力資源部找 Tiffany。她人很好，也很願意幫忙。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-017"
+      },
+      {
+        "en": "CHARLOTTE: I was told to bring my passport with me. HR need to take a note of the number in it.",
+        "zh": "Charlotte：有人告訴我要帶護照。 人資部需要記下裡面的號碼。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-018"
+      },
+      {
+        "en": "KAEDEN: That's right. Or you can show your ID card.",
+        "zh": "Kaeden：沒錯。或者你也可以出示身分證。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-019"
+      },
+      {
+        "en": "CHARLOTTE: I don't have one of those.",
+        "zh": "Charlotte：我沒有身分證。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-020"
+      },
+      {
+        "en": "KAEDEN: OK. Tiffany will give you a uniform.",
+        "zh": "Kaeden：好的。Tiffany 會給你一套制服。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-021"
+      },
+      {
+        "en": "They have lots in different sizes, so you just tell her what you need.",
+        "zh": "他們有很多不同尺寸，所以你只要告訴她你需要什麼尺碼就可以。",
+        "sourcePages": [
+          24
+        ],
+        "id": "p1-row-022"
+      },
+      {
+        "en": "I won't come with you to HR – I've got to go and sort something else out. Problem with a bread slicer.",
+        "zh": "我不會陪你去人資部——我得去處理別的事情。麵包切片機出了點問題。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-023"
+      },
+      {
+        "en": "CHARLOTTE: Is the HR office near the staffroom?",
+        "zh": "Charlotte：人資辦公室在員工休息室附近嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-024"
+      },
+      {
+        "en": "KAEDEN: The staffroom's on the first floor, and HR are a couple of floors above that, on the third floor. There's a staircase outside the staffroom.",
+        "zh": "Kaeden：員工休息室在一樓，人資部在上面幾層，也就是三樓。員工休息室外面有樓梯。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-025"
+      },
+      {
+        "en": "CHARLOTTE: OK.",
+        "zh": "Charlotte：好的。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-026"
+      },
+      {
+        "en": "KAEDEN: When you've finished with HR, come and find me in the bakery section of the shop.",
+        "zh": "Kaeden：你在人資部辦完後，就到店裡的烘焙區找我。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-027"
+      },
+      {
+        "en": "CHARLOTTE: I'm looking forward to getting started.",
+        "zh": "Charlotte：我很期待開始工作。",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-028"
+      },
+      {
+        "en": "KAEDEN: I'll just give you my phone number, in case you can't find me. Have you got your phone there?",
+        "zh": "Kaeden：我把我的電話號碼給你， 以防你找不到我。你手機在身邊嗎？",
+        "sourcePages": [
+          25
+        ],
+        "id": "p1-row-029"
+      },
+      {
+        "en": "CHARLOTTE: Yes... OK, ready.",
+        "zh": "Charlotte：在……好了，準備好了。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-030"
+      },
+      {
+        "en": "KAEDEN: It's oh-four-one-two double-six-five nine-oh-three.",
+        "zh": "Kaeden：是 0-4-1-2-6-6-5-9-0-3。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-031"
+      },
+      {
+        "en": "CHARLOTTE: OK, done.",
+        "zh": "Charlotte：好的，記下了。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-032"
+      },
+      {
+        "en": "KAEDEN: So, Charlotte, your tasks today are in the bakery section, on the sushi counter, and on the meat and fish counters.",
+        "zh": "Kaeden：那麼，Charlotte，你今天的工作會在烘焙區、壽司櫃台，以及肉類和魚類櫃台。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-033"
+      },
+      {
+        "en": "The first job is to check sell-by dates on the bread and cakes.",
+        "zh": "第一項工作是檢查麵包和蛋糕的銷售期限。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-034"
+      },
+      {
+        "en": "If any of the dates are today's, put a new price label on the packaging.",
+        "zh": "如果日期是今天，就在包裝上貼上新的價格標籤。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-035"
+      },
+      {
+        "en": "CHARLOTTE: What if any of the labels are yesterday's dates, or older?",
+        "zh": "Charlotte：如果標籤上的日期是昨天或更早呢？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-036"
+      },
+      {
+        "en": "Do I throw those items away?",
+        "zh": "我要把那些商品丟掉嗎？",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-037"
+      },
+      {
+        "en": "KAEDEN: Yes, but that shouldn't happen – we check the stock every day.",
+        "zh": "Kaeden：是的，但那應該不會發生 ——我們每天都會檢查庫存。",
+        "sourcePages": [
+          26
+        ],
+        "id": "p1-row-038"
+      },
+      {
+        "en": "When something needs a new price label, put a yellow one on the package, next to the original price.",
+        "zh": "如果商品需要新的價格標籤，就把黃色標籤貼在包裝上，放在原價旁邊。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-039"
+      },
+      {
+        "en": "CHARLOTTE: OK.",
+        "zh": "Charlotte：好的。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-040"
+      },
+      {
+        "en": "KAEDEN: After that, you'll go to the sushi takeaway counter.",
+        "zh": "Kaeden：之後，你會去壽司外帶櫃台。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-041"
+      },
+      {
+        "en": "CHARLOTTE: Will I be preparing boxes of food?",
+        "zh": "Charlotte：我要準備盒裝食物嗎？",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-042"
+      },
+      {
+        "en": "KAEDEN: For today, you'll just be helping the staff.",
+        "zh": "Kaeden：今天你只需要協助其他員工。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-043"
+      },
+      {
+        "en": "CHARLOTTE: Yes, of course.",
+        "zh": "Charlotte：好的，沒問題。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-044"
+      },
+      {
+        "en": "KAEDEN: You'll see lots of flat cardboard boxes at one end of the counter.",
+        "zh": "Kaeden：你會在櫃台一端看到很多平放的紙盒。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-045"
+      },
+      {
+        "en": "Beneath those is where we keep the plastic boxes – we run out of those really quickly, so you should bring more from the storeroom.",
+        "zh": "那些下面放的是塑膠盒——我們很快就會用完，所以你需要從儲藏室多拿一些過來。",
+        "sourcePages": [
+          27
+        ],
+        "id": "p1-row-046"
+      },
+      {
+        "en": "CHARLOTTE: Is that my only task on the sushi counter?",
+        "zh": "Charlotte：那是我在壽司櫃台唯一的工作嗎？",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-047"
+      },
+      {
+        "en": "KAEDEN: No. You also need to clean the area where they prepare the dishes.",
+        "zh": "Kaeden：不是。你還需要清潔他們準備餐點的區域。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-048"
+      },
+      {
+        "en": "There are cloths and bottles of spray by the sink. Oh, and please make sure you clean that too.",
+        "zh": "水槽旁邊有抹布和噴霧瓶。哦，還有，也請務必把水槽清乾淨。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-049"
+      },
+      {
+        "en": "CHARLOTTE: Sure. That's important, isn't it?",
+        "zh": "Charlotte：當然。那很重要，對吧？",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-050"
+      },
+      {
+        "en": "KAEDEN: Absolutely. But you mustn't wash up knives.",
+        "zh": "Kaeden：絕對重要。但你不能清洗刀具。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-051"
+      },
+      {
+        "en": "You have to do some training before you're allowed to touch sharp objects.",
+        "zh": "在你被允許接觸尖銳物品之前， 必須先接受一些訓練。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-052"
+      },
+      {
+        "en": "CHARLOTTE: What should I do if there are any?",
+        "zh": "Charlotte：如果有刀具，我該怎麼辦？",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-053"
+      },
+      {
+        "en": "KAEDEN: Ask someone to put them in the dishwasher.",
+        "zh": "Kaeden：請別人把它們放進洗碗機。",
+        "sourcePages": [
+          28
+        ],
+        "id": "p1-row-054"
+      },
+      {
+        "en": "CHARLOTTE: OK, thanks. I don't want to get anything wrong.",
+        "zh": "Charlotte：好的，謝謝。我不想做錯任何事。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-055"
+      },
+      {
+        "en": "KAEDEN: Don't worry. You'll be fine. And I'll be around to help.",
+        "zh": "Kaeden：別擔心。你會沒問題的。 我也會在附近幫忙。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-056"
+      },
+      {
+        "en": "CHARLOTTE: Right.",
+        "zh": "Charlotte：好的。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-057"
+      },
+      {
+        "en": "KAEDEN: Finally, the meat and fish counters.",
+        "zh": "Kaeden：最後是肉類和魚類櫃台。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-058"
+      },
+      {
+        "en": "You need to clean the area where staff serve customers, including wiping the weighing scales.",
+        "zh": "你需要清潔員工服務顧客的區域，包括擦拭秤重機。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-059"
+      },
+      {
+        "en": "CHARLOTTE: OK. Anything else?",
+        "zh": "Charlotte：好的。還有別的嗎？",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-060"
+      },
+      {
+        "en": "KAEDEN: The fish is laid on ice, but when that starts to melt, you'll need to get more from the cold-room.",
+        "zh": "Kaeden：魚是放在冰上的，但當冰開始融化時，你需要從冷藏室再拿一些冰。",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-061"
+      },
+      {
+        "en": "CHARLOTTE: I know the staff on the food counters wear a hat. Will that be the same for me?",
+        "zh": "Charlotte：我知道食品櫃台的員工會戴帽子。我也需要嗎？",
+        "sourcePages": [
+          29
+        ],
+        "id": "p1-row-062"
+      },
+      {
+        "en": "KAEDEN: You won't be serving customers directly, so no.",
+        "zh": "Kaeden：你不會直接服務顧客，所以不用。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-063"
+      },
+      {
+        "en": "But make sure you put on thermal gloves when you take anything out of the cold-room.",
+        "zh": "但從冷藏室拿東西時，一定要戴上保暖手套。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-064"
+      },
+      {
+        "en": "The temperature's low enough in there to get frostbite from touching things.",
+        "zh": "裡面的溫度很低，碰到東西可能會凍傷。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-065"
+      },
+      {
+        "en": "CHARLOTTE: Understood.",
+        "zh": "Charlotte：明白。",
+        "sourcePages": [
+          30
+        ],
+        "id": "p1-row-066"
+      }
+    ],
+    "2": [
+      {
+        "en": "My name's Liz Fuller and I'm a running coach with Compton Park Runners Club.",
+        "zh": "我叫 Liz Fuller，是 Compton Park Runners Club 的跑步教練。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-001"
+      },
+      {
+        "en": "Welcome to my podcast. If you're thinking about taking up running – I'm here to help.",
+        "zh": "歡迎收聽我的播客。如果你正在考慮開始跑步，我可以幫助你。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-002"
+      },
+      {
+        "en": "There are many training programmes available online which aim to help people build up to running 5 kilometres.",
+        "zh": "網路上有很多訓練計畫，目的是幫助人們逐步達到能跑 5 公里的程度。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-003"
+      },
+      {
+        "en": "Some of them are great and thousands of people of all ages are taking part in 5-kilometre races across the country as a result.",
+        "zh": "其中有些計畫很棒，也因此全國各地有成千上萬、各個年齡層的人參加 5 公里賽跑。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-004"
+      },
+      {
+        "en": "People like them because they're easy to follow and don't push them too hard.",
+        "zh": "人們喜歡這些計畫，因為它們容易遵循，也不會把人逼得太緊。",
+        "sourcePages": [
+          31
+        ],
+        "id": "p2-row-005"
+      },
+      {
+        "en": "However, they don't work for everyone – especially if you suffer from something like a heart condition or asthma, because they're aimed at people with average fitness and running ability.",
+        "zh": "然而，它們並不適合所有人，尤其是如果你有心臟問題或氣喘之類的情況，因為這些計畫是針對體能和跑步能力一般的人設計的。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-006"
+      },
+      {
+        "en": "Another thing is that everyone is different – and if you have any specific questions related to your needs, there's no one to provide any answers.",
+        "zh": "另一點是，每個人都不同；如果你有和自身需求相關的具體問題，沒有人能提供答案。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-007"
+      },
+      {
+        "en": "I have a couple of simple tips I always give to new runners.",
+        "zh": "我有幾個簡單建議，總是會給剛開始跑步的人。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-008"
+      },
+      {
+        "en": "I expect you've been told to run very slowly until your fitness increases – well, I find that can prevent progress.",
+        "zh": "我猜你可能被建議在體能提升前要跑得非常慢——但我發現那反而可能阻礙進步。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-009"
+      },
+      {
+        "en": "You should run at a speed that feels comfortable, but time yourself and try to run a bit faster each time.",
+        "zh": "你應該以自己覺得舒服的速度跑，但要計時，並試著每次跑得稍微快一點。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-010"
+      },
+      {
+        "en": "Listening to music can be very helpful – it takes your mind off things and helps your body get into a rhythm.",
+        "zh": "聽音樂可能很有幫助——它能讓你轉移注意力，也幫助身體進入節奏。",
+        "sourcePages": [
+          32
+        ],
+        "id": "p2-row-011"
+      },
+      {
+        "en": "I'd say that is better than running with a friend – especially as most people are competitive and that's not what you want when you're just starting.",
+        "zh": "我會說這比和朋友一起跑更好， 尤其是大多數人都有競爭心，而剛開始跑步時你並不需要那種壓力。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-012"
+      },
+      {
+        "en": "I don't think the time of day is especially important – some people are better in the evening, while others are morning people – but you need to be consistent, so aim to train regularly – twice a week is enough to begin with.",
+        "zh": "我不認為一天中的跑步時間特別重要——有些人晚上狀態更好，有些人則適合早上——但你需要保持規律，所以目標是定期訓練；一開始每週兩次就足夠了。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-013"
+      },
+      {
+        "en": "New members often say to me that they've been put off running either because they lack confidence, or they don't have time, or they think they dislike running.",
+        "zh": "新會員常對我說，他們以前不想跑步，要不是因為缺乏信心，就是沒有時間，或者以為自己不喜歡跑步。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-014"
+      },
+      {
+        "en": "Ceri, for example, joined the club two years ago at the age of 40.",
+        "zh": "例如，Ceri 兩年前在 40 歲時加入了俱樂部。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-015"
+      },
+      {
+        "en": "She'd always enjoyed running at school but wasn't sure if she'd be able to do it.",
+        "zh": "她上學時一直很喜歡跑步，但不確定自己是否還能做到。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-016"
+      },
+      {
+        "en": "She was worried about being left behind and being the slowest runner.",
+        "zh": "她擔心自己會落後，成為跑得最慢的人。",
+        "sourcePages": [
+          33
+        ],
+        "id": "p2-row-017"
+      },
+      {
+        "en": "But she says she was made to feel so welcome she soon forgot all about that.",
+        "zh": "但她說大家讓她感到非常受歡迎，所以她很快就忘了那些擔心。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-018"
+      },
+      {
+        "en": "James had always hated the idea of running but a friend encouraged him to come along for a taster session and he hasn't looked back.",
+        "zh": "James 一直討厭跑步這件事，但朋友鼓勵他來參加體驗課，之後他就一直跑了下去。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-019"
+      },
+      {
+        "en": "He never misses a training session despite having a really demanding job.",
+        "zh": "儘管工作非常忙碌，他從不缺席訓練。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-020"
+      },
+      {
+        "en": "Leo was worried about having to commit himself to training sessions every week and wasn't sure he'd be able to fit training into his busy schedule.",
+        "zh": "Leo 擔心自己每週都得投入訓練，也不確定能否把訓練安排進繁忙的行程中。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-021"
+      },
+      {
+        "en": "But after experiencing a lot of stress at work he came along to us and gave it a go.",
+        "zh": "不過在工作壓力很大之後，他來到我們這裡並試了一下。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-022"
+      },
+      {
+        "en": "Now he says he feels much more relaxed and he looks forward to his weekly run.",
+        "zh": "現在他說自己放鬆多了，也很期待每週的跑步。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-023"
+      },
+      {
+        "en": "Mark is quite typical of our new members.",
+        "zh": "Mark 是我們新會員中相當典型的一位。",
+        "sourcePages": [
+          34
+        ],
+        "id": "p2-row-024"
+      },
+      {
+        "en": "He's never considered himself to be a sporty person and it was only when he retired that he decided to take up the challenge of trying to run 5 kilometres.",
+        "zh": "他從不認為自己是愛運動的人， 直到退休後才決定接受挑戰，嘗試跑 5 公里。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-025"
+      },
+      {
+        "en": "It took him months to find the courage to contact us but felt reassured immediately as there were other people his age who were only just taking up running for the first time.",
+        "zh": "他花了好幾個月才鼓起勇氣聯絡我們，但一來就放心了，因為還有其他和他年紀相仿、也是第一次開始跑步的人。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-026"
+      },
+      {
+        "en": "My own journey hasn't been easy.",
+        "zh": "我自己的跑步歷程也不容易。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-027"
+      },
+      {
+        "en": "I did my first marathon when I was 37, after having had two kids.",
+        "zh": "我在 37 歲時跑了第一場馬拉松，那時我已經有兩個孩子。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-028"
+      },
+      {
+        "en": "My husband had been running marathons for years, but I never dreamed I'd be doing one with him.",
+        "zh": "我丈夫已經跑馬拉松很多年了， 但我從沒想過自己會和他一起跑。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-029"
+      },
+      {
+        "en": "I managed to complete it in four hours, but I felt like giving up halfway through – it was only the support of the spectators that kept me going.",
+        "zh": "我最後用四小時完成了比賽，但中途我差點想放棄——是觀眾的支持讓我堅持下去。",
+        "sourcePages": [
+          35
+        ],
+        "id": "p2-row-030"
+      },
+      {
+        "en": "I do think signing up for a race of whatever length is motivating – whether it's 5K or 25K – because it's good to have something to work towards and it gives you a sense of achievement.",
+        "zh": "我確實認為報名參加任何距離的比賽都很有激勵作用——不管是 5 公里還是 25 公里——因為有一個努力目標是很好的，也會帶來成就感。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-031"
+      },
+      {
+        "en": "I did my first 10K after only six months, which was certainly very challenging and not something I'd necessarily recommend.",
+        "zh": "我只訓練六個月就跑了第一場 10 公里，這當然非常有挑戰性， 也不一定是我會推薦的做法。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-032"
+      },
+      {
+        "en": "But after you've been training for a few weeks, it's worth putting your name down for a 5K – some people find they only need a few practice runs before taking part in a race, but I'd give yourself a couple of months at least.",
+        "zh": "但在你訓練幾週後，值得報名參加 5 公里賽。有些人發現參賽前只需要練跑幾次，但我會建議至少給自己幾個月時間。",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-033"
+      },
+      {
+        "en": "Well, I hope that's given...",
+        "zh": "好，我希望這些已經讓你……",
+        "sourcePages": [
+          36
+        ],
+        "id": "p2-row-034"
+      }
+    ],
+    "3": [
+      {
+        "en": "KIERAN: So Jane – you'll be off to Denmark soon to do your work placement.",
+        "zh": "Kieran：Jane，你很快就要去丹麥實習了。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-001"
+      },
+      {
+        "en": "JANE: Yes, I'm really looking forward to it and I've just started packing up all my books to put in storage.",
+        "zh": "Jane：是的，我真的很期待，而且我剛開始把所有書打包，準備放進倉庫。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-002"
+      },
+      {
+        "en": "KIERAN: Well, I hope they don't get spoilt.",
+        "zh": "Kieran：嗯，希望它們不會被弄壞。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-003"
+      },
+      {
+        "en": "JANE: It's OK – my grandfather works in a bookshop and he told me how to pack them.",
+        "zh": "Jane：沒事的。我爺爺在書店工作，他告訴我該怎麼打包。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-004"
+      },
+      {
+        "en": "KIERAN: Oh, that's helpful.",
+        "zh": "Kieran：哦，那很有幫助。",
+        "sourcePages": [
+          37
+        ],
+        "id": "p3-row-005"
+      },
+      {
+        "en": "JANE: He says you have to support the spine otherwise the paper can come away from the cover.",
+        "zh": "Jane：他說一定要支撐書脊，否則書頁可能會從封面脫落。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-006"
+      },
+      {
+        "en": "KIERAN: Yeah – that's obvious.",
+        "zh": "Kieran：是啊——這很明顯。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-007"
+      },
+      {
+        "en": "JANE: He also told me to pack them flat in the box not on their side – again because they can bend and if you leave them like that for, say, a year, it's quite hard to get them back to their normal shape.",
+        "zh": "Jane：他還告訴我要把書平放在盒子裡，不要側放——同樣是因為它們會彎曲；如果像那樣放一年，就很難恢復原狀。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-008"
+      },
+      {
+        "en": "KIERAN: Well, it's pretty clear that ruins them, but a lot of people just can't be bothered to protect their books.",
+        "zh": "Kieran：嗯，很明顯那會把書弄壞，但很多人就是懶得保護自己的書。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-009"
+      },
+      {
+        "en": "JANE: He always says it's such a shame that publishers don't use better-quality paper.",
+        "zh": "Jane：他總說出版商不使用更高品質的紙張，真的很可惜。",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-010"
+      },
+      {
+        "en": "KIERAN: It's the acid in the paper that causes the problem, isn't it?",
+        "zh": "Kieran：問題是紙裡的酸性物質造成的，對吧？",
+        "sourcePages": [
+          38
+        ],
+        "id": "p3-row-011"
+      },
+      {
+        "en": "JANE: Yeah – that's why old books go yellow. You know some of the books my grandfather's given me are like that already.",
+        "zh": "Jane：是啊，這就是為什麼舊書會變黃。你知道我爺爺給我的一些書已經那樣了。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-012"
+      },
+      {
+        "en": "KIERAN: Oh...",
+        "zh": "Kieran：哦……",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-013"
+      },
+      {
+        "en": "JANE: I should dump them really if they're going to deteriorate further, but I'd feel bad.",
+        "zh": "Jane：如果它們還會繼續變壞，我其實應該把它們丟掉，但我會覺得很難過。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-014"
+      },
+      {
+        "en": "They'll always remind me of him. He's quite a collector, you know.",
+        "zh": "它們總會讓我想起他。你知道， 他是個很愛收藏的人。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-015"
+      },
+      {
+        "en": "KIERAN: Well, if they're important to you...",
+        "zh": "Kieran：嗯，如果它們對你很重要 ……",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-016"
+      },
+      {
+        "en": "JANE: Yeah – I'd regret just throwing them away.",
+        "zh": "Jane：是啊，直接把它們丟掉我會後悔。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-017"
+      },
+      {
+        "en": "KIERAN: You know, maybe it's because I was taught to treasure books... but I hate seeing students force open the pages – of paperbacks. They press so hard they end up breaking the spine.",
+        "zh": "Kieran：你知道，也許是因為我從小被教導要珍惜書吧……但我很討厭看到學生用力撐開平裝書的書頁。他們壓得太用力，最後把書脊弄斷。",
+        "sourcePages": [
+          39
+        ],
+        "id": "p3-row-018"
+      },
+      {
+        "en": "JANE: I know, but unfortunately, paperbacks aren't designed to last a long time and people know that. Hardbacks aren't quite as weak.",
+        "zh": "Jane：我知道，但不幸的是，平裝書本來就不是設計來長久保存的，大家也知道這點。精裝書就沒那麼脆弱。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-019"
+      },
+      {
+        "en": "KIERAN: Yeah, they're different, I suppose. But I still don't think people value hardbacks like they used to.",
+        "zh": "Kieran：是啊，我想它們是不一樣的。不過我還是覺得人們不像以前那樣重視精裝書了。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-020"
+      },
+      {
+        "en": "JANE: Well, they aren't decorative, are they, like other objects. Plus, nowadays, people don't keep them out on shelves as much as they used to.",
+        "zh": "Jane：嗯，它們不像其他物品那樣有裝飾性，不是嗎？而且現在人們也不像以前那樣把它們擺在書架上。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-021"
+      },
+      {
+        "en": "KIERAN: That's such a pity. When I visit someone – if they have, say, a colourful book on a table, it's the first thing I'm drawn to.",
+        "zh": "Kieran：那真可惜。我去別人家拜訪時，如果他們桌上有一本色彩鮮豔的書，那一定是第一個吸引我的東西。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-022"
+      },
+      {
+        "en": "JANE: I agree – and book covers can be a work of art in themselves. Some are really eye-catching.",
+        "zh": "Jane：我同意——書封本身也可以是一件藝術品。有些真的很吸引人。",
+        "sourcePages": [
+          40
+        ],
+        "id": "p3-row-023"
+      },
+      {
+        "en": "KIERAN: I've always been taught to handle books carefully. If you watch someone take a book off a shelf, well, they usually do it wrong.",
+        "zh": "Kieran：我一直被教導要小心拿書。如果你觀察別人從書架上拿書，嗯，他們通常都拿錯了。",
+        "sourcePages": [
+          40,
+          41
+        ],
+        "id": "p3-row-024"
+      },
+      {
+        "en": "JANE: Ah, my grandfather says, you should put your hand right over the top of the book... or if you can't do that, pull the other books on the shelf aside so that you can hold the whole cover.",
+        "zh": "Jane：啊，我爺爺說，你應該把手直接放在書的上方……如果做不到，就把書架上的其他書挪開， 這樣才能握住整個封面。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-025"
+      },
+      {
+        "en": "KIERAN: When did you learn all this?",
+        "zh": "Kieran：你什麼時候學會這些的？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-026"
+      },
+      {
+        "en": "JANE: He watched me pull a heavy book off the shelf when I was small, and it fell on the floor and broke apart.",
+        "zh": "Jane：我小時候，他看到我從書架上拉下一本很重的書，結果書掉到地上散開了。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-027"
+      },
+      {
+        "en": "KIERAN: Oh dear!",
+        "zh": "Kieran：天啊！",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-028"
+      },
+      {
+        "en": "JANE: I can still remember it!",
+        "zh": "Jane：我到現在還記得！",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-029"
+      },
+      {
+        "en": "KIERAN: You know what I really like?",
+        "zh": "Kieran：你知道我真的很喜歡什麼嗎？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-030"
+      },
+      {
+        "en": "JANE: What?",
+        "zh": "Jane：什麼？",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-031"
+      },
+      {
+        "en": "KIERAN: The smell of new books.",
+        "zh": "Kieran：新書的味道。",
+        "sourcePages": [
+          41
+        ],
+        "id": "p3-row-032"
+      },
+      {
+        "en": "JANE: Me too.",
+        "zh": "Jane：我也是。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-033"
+      },
+      {
+        "en": "KIERAN: My parents used to laugh at me when I was a kid because I loved putting books up to my nose. Almost as much as reading them!",
+        "zh": "Kieran：我小時候，我爸媽常笑我，因為我很喜歡把書拿到鼻子前聞。幾乎和我喜歡讀書一樣！",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-034"
+      },
+      {
+        "en": "JANE: New books aren't cheap, though, are they?",
+        "zh": "Jane：不過新書不便宜，對吧？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-035"
+      },
+      {
+        "en": "KIERAN: I guess we're lucky we can buy them.",
+        "zh": "Kieran：我想我們能買得起已經很幸運了。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-036"
+      },
+      {
+        "en": "JANE: My grandfather stocks second-hand books as well as new ones and they don't smell quite as good.",
+        "zh": "Jane：我爺爺店裡既有二手書也有新書，而二手書聞起來就沒那麼好。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-037"
+      },
+      {
+        "en": "KIERAN: I'd love to have a bookshop like your grandfather. What's it like?",
+        "zh": "Kieran：我很想擁有一家像你爺爺那樣的書店。它是什麼樣子？",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-038"
+      },
+      {
+        "en": "JANE: Well, it's quite big – it's got two floors and an attic, and he stocks all kinds of books really.",
+        "zh": "Jane：嗯，它挺大的——有兩層樓和一個閣樓，而且他真的收藏各種書。",
+        "sourcePages": [
+          42
+        ],
+        "id": "p3-row-039"
+      },
+      {
+        "en": "KIERAN: I guess he treasures things like first editions and other rare books.",
+        "zh": "Kieran：我猜他很珍惜初版書和其他稀有書籍。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-040"
+      },
+      {
+        "en": "JANE: Yeah – you might think he'd keep those in the attic or somewhere.",
+        "zh": "Jane：是啊——你可能會以為他把那些書放在閣樓或某個地方。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-041"
+      },
+      {
+        "en": "KIERAN: ...so they'd be hidden?",
+        "zh": "Kieran：……所以它們會被藏起來？",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-042"
+      },
+      {
+        "en": "JANE: Yeah. But he likes people to know that he has them.",
+        "zh": "Jane：是啊。但他喜歡讓人知道他有那些書。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-043"
+      },
+      {
+        "en": "So, he puts them out in the shop but makes sure you need a ladder to get them.",
+        "zh": "所以他把它們放在店裡展示，但確保你需要梯子才能拿到。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-044"
+      },
+      {
+        "en": "KIERAN: Right. That would prevent any thefts!",
+        "zh": "Kieran：對。那可以防止被偷！",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-045"
+      },
+      {
+        "en": "JANE: Uhuh.",
+        "zh": "Jane：嗯。",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-046"
+      },
+      {
+        "en": "KIERAN: Does he stock books for children?",
+        "zh": "Kieran：他有賣兒童書嗎？",
+        "sourcePages": [
+          43
+        ],
+        "id": "p3-row-047"
+      },
+      {
+        "en": "JANE: He does. He particularly likes to encourage kids to read; he always says that he used to sit under the stairs as a child with a pile of books and read them all.",
+        "zh": "Jane：有。他特別喜歡鼓勵孩子閱讀；他總說自己小時候常坐在樓梯下，抱著一堆書，把它們全讀完。",
+        "sourcePages": [
+          43,
+          44
+        ],
+        "id": "p3-row-048"
+      },
+      {
+        "en": "KIERAN: Is that where he keeps them, then?",
+        "zh": "Kieran：那他現在也把兒童書放在那裡嗎？",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-049"
+      },
+      {
+        "en": "JANE: Not exactly – he's got a dedicated area on the ground floor with cushions so that parents can enter with their toddlers, go there and spend some time reading to them.",
+        "zh": "Jane：不完全是——他在一樓設了一個專門區域，有坐墊，讓家長可以帶幼兒進去，在那裡花時間讀書給他們聽。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-050"
+      },
+      {
+        "en": "KIERAN: Oh cool.",
+        "zh": "Kieran：哦，真酷。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-051"
+      },
+      {
+        "en": "JANE: And then there's a place for pushchairs by the front door. And a café if anyone needs refreshments.",
+        "zh": "Jane：前門旁邊還有放嬰兒推車的地方。如果有人需要飲料點心，也有咖啡館。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-052"
+      },
+      {
+        "en": "KIERAN: That's good to know.",
+        "zh": "Kieran：知道這些真不錯。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-053"
+      },
+      {
+        "en": "JANE: As I said, it's a big shop and there's a storage area out the back as well.",
+        "zh": "Jane：就像我說的，那是一家大書店，後面也有一個儲藏區。",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-054"
+      },
+      {
+        "en": "KIERAN: Oh, what does he keep there? Books he wants to throw away?",
+        "zh": "Kieran：哦，他在那裡放什麼？想丟掉的書嗎？",
+        "sourcePages": [
+          44
+        ],
+        "id": "p3-row-055"
+      },
+      {
+        "en": "JANE: He hardly ever throws anything away – he just leaves unwanted books by the front door for customers to take.",
+        "zh": "Jane：他幾乎從不丟任何東西—— 他只是把不需要的書放在前門旁，讓顧客自行拿走。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-056"
+      },
+      {
+        "en": "KIERAN: Well, that's very nice.",
+        "zh": "Kieran：嗯，那真不錯。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-057"
+      },
+      {
+        "en": "JANE: Yeah – and books people or institutions have requested, they all go at the far end.",
+        "zh": "Jane：是啊——人們或機構預訂的書，則都放在最裡面。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-058"
+      },
+      {
+        "en": "KIERAN: Oh.",
+        "zh": "Kieran：哦。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-059"
+      },
+      {
+        "en": "JANE: He thinks it's best to keep these out of the main shopping area as they're boxed and new.",
+        "zh": "Jane：他覺得最好不要把這些書放在主要購物區，因為它們都是裝箱的新書。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-060"
+      },
+      {
+        "en": "KIERAN: Did you get your coursebooks from him?",
+        "zh": "Kieran：你的課本是從他那裡買的嗎？",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-061"
+      },
+      {
+        "en": "JANE: Naturally. He stocks books for a lot of the colleges.",
+        "zh": "Jane：當然。他為很多學院備有課本。",
+        "sourcePages": [
+          45
+        ],
+        "id": "p3-row-062"
+      },
+      {
+        "en": "He used to keep these books on the first floor, but now there's a new university in my hometown, he's moved them downstairs to attract the students.",
+        "zh": "他以前把這些書放在一樓，但現在我家鄉有了一所新大學，所以他把它們搬到樓下，以吸引學生。",
+        "sourcePages": [
+          45,
+          46
+        ],
+        "id": "p3-row-063"
+      },
+      {
+        "en": "They're actually part of the coffee shop, on low shelves all around it.",
+        "zh": "它們其實就在咖啡店區域裡，放在咖啡店周圍的低書架上。",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-064"
+      },
+      {
+        "en": "KIERAN: Pretty central then. You'll have to take me there some time!",
+        "zh": "Kieran：那位置很中心。你改天一定要帶我去看看！",
+        "sourcePages": [
+          46
+        ],
+        "id": "p3-row-065"
+      }
+    ],
+    "4": [
+      {
+        "en": "Tree planting now dominates political and popular agendas and is often presented as an easy answer to the climate crisis, as well as a way for business corporations to offset their carbon emissions.",
+        "zh": "植樹如今已成為政治和大眾議程中的重要議題，並常被呈現為應對氣候危機的簡單方法， 也是企業抵消碳排放的一種方式。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-001"
+      },
+      {
+        "en": "But unfortunately, tree planting isn't as straightforward as some people think.",
+        "zh": "但不幸的是，植樹並不像有些人想的那麼簡單。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-002"
+      },
+      {
+        "en": "When the wrong trees are planted in the wrong place, it can do considerably more damage than good, failing to help either people or the environment.",
+        "zh": "如果在錯誤的地方種下錯誤的樹，可能弊大於利，既無法幫助人類，也無法幫助環境。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-003"
+      },
+      {
+        "en": "Reforestation projects are currently being undertaken on a huge scale in many countries and it's crucial that the right trees are selected.",
+        "zh": "目前許多國家正在大規模推行再造林計畫，選擇正確的樹種至關重要。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-004"
+      },
+      {
+        "en": "A mix of species should always be planted, typical of the local natural forest ecosystem and including rare and endangered species in order to create a rich ecosystem.",
+        "zh": "應該始終種植多種樹種，包括當地自然森林生態系統中典型的樹種，以及稀有和瀕危物種，以建立豐富的生態系統。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-005"
+      },
+      {
+        "en": "It's important to avoid non-native species that could become invasive.",
+        "zh": "避免可能成為入侵物種的外來樹種非常重要。",
+        "sourcePages": [
+          47
+        ],
+        "id": "p4-row-006"
+      },
+      {
+        "en": "Invasive species are a significant contributor to the current global biodiversity crisis and are often in competition with native species and may threaten their long-term survival.",
+        "zh": "入侵物種是當前全球生物多樣性危機的重要因素，它們經常與本土物種競爭，並可能威脅本土物種的長期生存。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-007"
+      },
+      {
+        "en": "Restoring biodiversity that will maximise carbon capture is key when reforesting an area, but ideally any reforestation project should have several goals.",
+        "zh": "在某個地區進行再造林時，恢復能最大化碳捕捉的生物多樣性是關鍵，但理想情況下，任何再造林計畫都應該有多個目標。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-008"
+      },
+      {
+        "en": "These could include selecting trees that can contribute to wildlife conservation, improve the availability of food for the local community and maintain the stability of soil systems.",
+        "zh": "這些目標可以包括選擇有助於野生動物保護的樹種、改善當地社區食物供應，以及維持土壤系統穩定。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-009"
+      },
+      {
+        "en": "Meeting as many of these goals as possible, whilst doing no harm to local communities, native ecosystems and vulnerable species, is the sign of a highly successful tree-planting scheme.",
+        "zh": "在不傷害當地社區、本土生態系統和脆弱物種的前提下，盡可能實現這些目標，是一個高度成功的植樹計畫標誌。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-010"
+      },
+      {
+        "en": "To ensure the survival and resilience of a planted forest, it's vital to use tree seeds with appropriate levels of genetic diversity: the amount of genetic variation found within a species essential for their survival.",
+        "zh": "為了確保人工林的存活率和韌性，使用具有適當遺傳多樣性的樹種種子非常重要；這指的是一個物種內對其生存至關重要的遺傳變異量。",
+        "sourcePages": [
+          48
+        ],
+        "id": "p4-row-011"
+      },
+      {
+        "en": "Using seeds with low genetic diversity generally lowers the resilience of restored forests, which can make them vulnerable to disease and unable to adapt to climate change.",
+        "zh": "使用遺傳多樣性低的種子通常會降低復育森林的韌性，使其容易受到疾病侵害，也無法適應氣候變化。",
+        "sourcePages": [
+          48,
+          49
+        ],
+        "id": "p4-row-012"
+      },
+      {
+        "en": "Choosing the right location for reforestation projects is as important as choosing the right trees.",
+        "zh": "為再造林計畫選擇正確地點， 和選擇正確樹種一樣重要。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-013"
+      },
+      {
+        "en": "Ultimately, the best area for planting trees would be in formerly forested areas that are in poor condition.",
+        "zh": "歸根結底，最適合植樹的地點，是曾經是森林但目前狀況不佳的地區。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-014"
+      },
+      {
+        "en": "It's better to avoid non-forested landscapes such as natural grasslands, savannas or wetlands as these ecosystems already contribute greatly to capturing carbon.",
+        "zh": "最好避免在非森林地貌植樹， 例如天然草地、熱帶稀樹草原或濕地，因為這些生態系統本身已經對碳捕捉有很大貢獻。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-015"
+      },
+      {
+        "en": "It would also be advantageous to choose an area where trees could provide other benefits, such as recreational spaces.",
+        "zh": "選擇樹木能提供其他好處的地區也很有利，例如提供休閒空間。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-016"
+      },
+      {
+        "en": "Reforesting areas which are currently exploited for agriculture should be avoided as this often leads to other areas being deforested.",
+        "zh": "應避免在目前用於農業的地區進行再造林，因為這往往會導致其他地區被砍伐森林。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-017"
+      },
+      {
+        "en": "Large-scale reforestation projects require careful planning.",
+        "zh": "大規模再造林計畫需要仔細規劃。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-018"
+      },
+      {
+        "en": "Making the right decisions about where to plant trees depends on having the right information.",
+        "zh": "要正確決定在哪裡植樹，取決於是否掌握正確資訊。",
+        "sourcePages": [
+          49
+        ],
+        "id": "p4-row-019"
+      },
+      {
+        "en": "Having detailed and up-to-date maps identifying high-priority areas for intervention is essential.",
+        "zh": "擁有詳細且最新的地圖，以辨識需要優先介入的地區，是非常必要的。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-020"
+      },
+      {
+        "en": "Drone technology is a useful tool in helping to prioritise and monitor areas of degraded forest for restoration.",
+        "zh": "無人機技術是一項有用工具， 可協助確定退化森林復育的優先順序並進行監測。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-021"
+      },
+      {
+        "en": "In Brazil, it's being used to identify and quantify how parts of the Amazon are being devastated by human activities such as rearing cattle and illegal logging.",
+        "zh": "在巴西，無人機被用來識別和量化亞馬遜部分地區如何受到人類活動破壞，例如養牛和非法伐木。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-022"
+      },
+      {
+        "en": "A good example of where the right trees were picked to achieve a restored forest is in Lampang Province in Northern Thailand.",
+        "zh": "選擇正確樹種來成功復育森林的一個好例子，是泰國北部的 Lampang Province。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-023"
+      },
+      {
+        "en": "A previously forested site which had been degraded through mining was reforested by a cement company together with Chiang Mai University.",
+        "zh": "一處原本是森林、後來因採礦而退化的地區，由一家水泥公司和清邁大學合作進行再造林。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-024"
+      },
+      {
+        "en": "After spreading 60 cm of topsoil, they planted 14 different native tree species which included several species of fig.",
+        "zh": "在鋪上 60 公分表土後，他們種植了 14 種不同的本土樹種，其中包括幾種無花果樹。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-025"
+      },
+      {
+        "en": "Figs are a keystone species because of the critical role they play in maintaining wildlife populations.",
+        "zh": "無花果是關鍵物種，因為它們在維持野生動物族群方面發揮重要作用。",
+        "sourcePages": [
+          50
+        ],
+        "id": "p4-row-026"
+      },
+      {
+        "en": "They are central to tropical reforestation projects as they accelerate the speed of the recovery process by attracting animals and birds which act as natural seed dispersers.",
+        "zh": "它們是熱帶再造林計畫的核心，因為它們能吸引動物和鳥類，而這些動物和鳥類會自然散播種子，從而加快復育速度。",
+        "sourcePages": [
+          50,
+          51
+        ],
+        "id": "p4-row-027"
+      },
+      {
+        "en": "This helps to promote diversity through the healthy regrowth of a wide range of plant species.",
+        "zh": "這有助於透過多種植物的健康再生來促進多樣性。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-028"
+      },
+      {
+        "en": "Unlike the majority of fruit trees, figs bear fruit all year round, providing a reliable food source for many species.",
+        "zh": "與大多數果樹不同，無花果全年結果，為許多物種提供穩定的食物來源。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-029"
+      },
+      {
+        "en": "At this site, for example, after only three rainy seasons, monkeys started visiting to eat the fig fruits, naturally dispersing seeds through defecation.",
+        "zh": "例如在這個地點，僅僅三個雨季後，猴子就開始來吃無花果，並透過排便自然散播種子。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-030"
+      },
+      {
+        "en": "Reforestation projects should always aim to make sure that local communities are consulted and involved in the decision-making process.",
+        "zh": "再造林計畫應始終確保諮詢當地社區，並讓他們參與決策過程。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-031"
+      },
+      {
+        "en": "The restoration of mangrove forests in Madagascar is an example of a project which has succeeded in creating real benefits for the community.",
+        "zh": "馬達加斯加紅樹林復育是一個成功為社區創造實際利益的計畫案例。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-032"
+      },
+      {
+        "en": "Destruction of the mangrove forests had a terrible impact on plant and animal life, and also badly affected the fishing industry, which was a major source of employment for local people living in coastal areas.",
+        "zh": "紅樹林遭破壞對動植物生命造成嚴重影響，也嚴重打擊漁業，而漁業是沿海地區當地居民的主要就業來源。",
+        "sourcePages": [
+          51
+        ],
+        "id": "p4-row-033"
+      },
+      {
+        "en": "The reforestation project involved hiring local people to plant and care for the new mangrove trees.",
+        "zh": "這項再造林計畫雇用當地人種植並照顧新的紅樹林。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-034"
+      },
+      {
+        "en": "Millions of mangrove trees have now been planted which has resulted in the return of a healthy aquatic ecosystem.",
+        "zh": "如今已有數百萬棵紅樹林被種下，健康的水生生態系統也因此恢復。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-035"
+      },
+      {
+        "en": "The mangroves also act as a defence against the increased threat of flooding caused by climate change.",
+        "zh": "紅樹林也能抵禦氣候變化導致的洪水風險增加。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-036"
+      },
+      {
+        "en": "What's more, the local economy is more stable and thousands more Madagascans are now able to send their children to school.",
+        "zh": "此外，當地經濟更加穩定，也有更多馬達加斯加人現在能送孩子上學。",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-037"
+      },
+      {
+        "en": "One other important point to consider...",
+        "zh": "另一個需要考慮的重要點是 ……",
+        "sourcePages": [
+          52
+        ],
+        "id": "p4-row-038"
+      }
+    ]
+  },
+  "analysis": {
+    "1": {
+      "answer": "Kaeden",
+      "explanation": "題目寫： “Name of supervisor: _____” 錄音一開始主管自我介紹： “I'm Kaeden, one of the supervisors.” Charlotte 一開始聽成 Aiden，Kaeden 隨即更正並拼字： “It's K-A-E-D-E-N.” 所以答案是 Kaeden。 中伏位：Aiden 是 Charlotte 聽錯的名字。錄音特意安排更正及拼字，因此必須跟最後確認的 Kaeden。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "2": {
+      "answer": "locker / lockers",
+      "explanation": "題目寫： “Where to leave coat and bag: use _____ in staffroom” 錄音說： “Put your coat and rucksack in one of the lockers there.” coat and rucksack 對應題目的 coat and bag；存放地點就是 staffroom 裡的 locker。 所以答案可寫 locker 或 lockers。 中伏位：後面談到 locker 的 key，但題目問的是把外套和袋放在哪裡，答案要填儲物設施本身。",
+      "sourcePages": [
+        53
+      ]
+    },
+    "3": {
+      "answer": "passport",
+      "explanation": "題目寫： “See Tiffany in HR: to give _____ number” Charlotte 說： “I was told to bring my passport with me. HR need to take a note of the number in it.” 因此題目的 “_____ number” 就是 passport number。 答案是 passport。 中伏位：Kaeden 說 ID card 也可以，但 Charlotte 回答自己沒有，所以她實際會提供的是 passport number。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "4": {
+      "answer": "uniform",
+      "explanation": "題目寫： “See Tiffany in HR: to collect _____” 錄音說： “Tiffany will give you a uniform.” “give you” 在表格中整理成 “collect”，表示 Charlotte 到 HR 領取制服。 所以答案是 uniform。",
+      "sourcePages": [
+        54
+      ]
+    },
+    "5": {
+      "answer": "third / 3rd",
+      "explanation": "題目寫： “Location of HR office: on _____ floor” 錄音先提供參照位置： “The staffroom's on the first floor” 再說 HR： “HR are a couple of floors above that, on the third floor.” 因此答案是 third / 3rd。 中伏位：first floor 是 staffroom 所在樓層；題目問 HR office，所以要跟後面確認的 third floor。",
+      "sourcePages": [
+        55
+      ]
+    },
+    "6": {
+      "answer": "0412665903",
+      "explanation": "題目寫： “Supervisor’s mobile number: _____” Kaeden 逐段讀出： “oh-four-one-two double-six-five nine-oh-three.” 整理成數字： 0 4 1 2 6 6 5 9 0 3 所以答案是 0412665903。 這類電話號碼題要留意 double-six = 66，以及 “oh” 代表數字 0。",
+      "sourcePages": [
+        55,
+        56
+      ]
+    },
+    "7": {
+      "answer": "yellow",
+      "explanation": "圖片表格寫： “Bakery section — Use _____ labels” 錄音說如果商品日期是今天，要貼新的 price label，Kaeden 再補充： “put a yellow one on the package” 這裡 one 指前面的 price label，所以題目整理成： yellow labels 答案是 yellow。 中伏位：題目已經有 labels，所以只需要填表示顏色的形容詞 yellow。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "8": {
+      "answer": "plastic",
+      "explanation": "圖片寫： “Sushi takeaway counter — Re-stock with _____ boxes if needed” 錄音先提到： “lots of flat cardboard boxes” 接著說： “Beneath those is where we keep the plastic boxes – we run out of those really quickly, so you should bring more from the storeroom.” “bring more” 就是 re-stock；真正需要補貨的是 plastic boxes。 所以答案是 plastic。 中伏位：cardboard boxes 只是用來幫 Charlotte 找到 plastic boxes 的位置。需要從 storeroom 補充的是 plastic boxes。",
+      "sourcePages": [
+        56
+      ]
+    },
+    "9": {
+      "answer": "ice",
+      "explanation": "圖片寫： “Meat and fish counters — Collect _____ from the cold-room” 錄音說： “The fish is laid on ice, but when that starts to melt, you'll need to get more from the cold-room.” “get more from the cold-room” 對應題目的 “collect _____ from the cold-room”。 因此答案是 ice。",
+      "sourcePages": [
+        57
+      ]
+    },
+    "10": {
+      "answer": "gloves",
+      "explanation": "圖片寫： “Must wear special _____” 錄音說： “make sure you put on thermal gloves when you take anything out of the cold-room.” 題目已用 “special” 概括 thermal 這項特別要求，所以空格填物件名稱： gloves 答案是 gloves。 中伏位：hat 也有被提到，但 Kaeden 說 Charlotte 不直接服務顧客，所以不需要戴。冷藏室真正必須使用的是 thermal gloves。",
+      "sourcePages": [
+        57,
+        58
+      ]
+    },
+    "11": {
+      "answer": "C and E",
+      "explanation": "題目問：Liz 提到某些網上 training programmes 對新跑手有哪兩個問題。 C — They are unsuitable for people with health issues Liz 說這些 programme： “don't work for everyone – especially if you suffer from something like a heart condition or asthma” 原因是： “they're aimed at people with average fitness and running ability.” 心臟問題和 asthma 都屬於 health issues，所以 C 正確。 E — There is a lack of individual support Liz 接著說： “everyone is different” 如果跑手有： “specific questions related to your needs, there's no one to provide any answers.” 沒有人可以針對個人情況回答問題，正好對應 lack of individual support。 所以 E 正確。 中伏位：Liz 說這些 programme “don't push them too hard”，因此 A 的 serious injury 沒有支持；各年齡層人士也在參與，所以 B 不合。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "12": {
+      "answer": "C and E",
+      "explanation": "題目問：Liz 提到某些網上 training programmes 對新跑手有哪兩個問題。 C — They are unsuitable for people with health issues Liz 說這些 programme： “don't work for everyone – especially if you suffer from something like a heart condition or asthma” 原因是： “they're aimed at people with average fitness and running ability.” 心臟問題和 asthma 都屬於 health issues，所以 C 正確。 E — There is a lack of individual support Liz 接著說： “everyone is different” 如果跑手有： “specific questions related to your needs, there's no one to provide any answers.” 沒有人可以針對個人情況回答問題，正好對應 lack of individual support。 所以 E 正確。 中伏位：Liz 說這些 programme “don't push them too hard”，因此 A 的 serious injury 沒有支持；各年齡層人士也在參與，所以 B 不合。",
+      "sourcePages": [
+        58,
+        59
+      ]
+    },
+    "13": {
+      "answer": "A and D",
+      "explanation": "題目問 Liz 推薦哪兩項給 new runners。 A — doing two runs a week Liz 說： “you need to be consistent, so aim to train regularly – twice a week is enough to begin with.” twice a week = 每星期兩次，所以 A 正確。 D — listening to music during runs Liz 說： “Listening to music can be very helpful – it takes your mind off things and helps your body get into a rhythm.” 因此她明確推薦跑步時聽音樂，答案 D。 中伏位：她認為跑得太慢 “can prevent progress”，所以 E 不合；她也說 listening to music 比 running with a friend 更好。至於 morning / evening，她認為時間本身不特別重要。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "14": {
+      "answer": "A and D",
+      "explanation": "題目問 Liz 推薦哪兩項給 new runners。 A — doing two runs a week Liz 說： “you need to be consistent, so aim to train regularly – twice a week is enough to begin with.” twice a week = 每星期兩次，所以 A 正確。 D — listening to music during runs Liz 說： “Listening to music can be very helpful – it takes your mind off things and helps your body get into a rhythm.” 因此她明確推薦跑步時聽音樂，答案 D。 中伏位：她認為跑得太慢 “can prevent progress”，所以 E 不合；她也說 listening to music 比 running with a friend 更好。至於 morning / evening，她認為時間本身不特別重要。",
+      "sourcePages": [
+        59,
+        60
+      ]
+    },
+    "15": {
+      "answer": "A — a lack of confidence",
+      "explanation": "題目人物是 Ceri。 錄音說她以前很喜歡跑步，但： “wasn't sure if she'd be able to do it.” 她還擔心： “being left behind and being the slowest runner.” 這些都是對自己能力缺乏信心的表現，所以答案是 A — a lack of confidence。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "16": {
+      "answer": "B — a dislike of running",
+      "explanation": "題目人物是 James。 錄音說： “James had always hated the idea of running” 直到朋友叫他參加 taster session 才改變。 “hated the idea of running” 直接對應 a dislike of running。 所以答案是 B。 中伏位：他現在工作 demanding，卻 “never misses a training session”，所以缺乏時間並沒有阻止他加入。",
+      "sourcePages": [
+        60
+      ]
+    },
+    "17": {
+      "answer": "C — a lack of time",
+      "explanation": "題目人物是 Leo。 錄音說： “wasn't sure he'd be able to fit training into his busy schedule.” busy schedule + 無法安排 training，核心問題就是時間不足。 所以答案是 C — a lack of time。",
+      "sourcePages": [
+        61
+      ]
+    },
+    "18": {
+      "answer": "A — a lack of confidence",
+      "explanation": "題目人物是 Mark。 錄音說他： “never considered himself to be a sporty person” 而且： “It took him months to find the courage to contact us” “find the courage” 表示他需要很久才建立足夠信心聯絡 club。 所以答案是 A。",
+      "sourcePages": [
+        61,
+        62
+      ]
+    },
+    "19": {
+      "answer": "C — She nearly gave up before the end",
+      "explanation": "題目問 Liz 第一次跑 marathon 的經歷。 她說： “I felt like giving up halfway through” 最後靠： “the support of the spectators” 才繼續跑完。 所以答案是 C — She nearly gave up before the end。 中伏位：她說自己 “never dreamed” 會跑 marathon，所以 A 的 always been her ambition 不合；錄音也沒有說 husband 說服她參加。",
+      "sourcePages": [
+        62
+      ]
+    },
+    "20": {
+      "answer": "B — within a few weeks of taking up running",
+      "explanation": "Liz 說： “after you've been training for a few weeks, it's worth putting your name down for a 5K.” “putting your name down” = sign up，所以她建議開始訓練數星期後就可以報名。 因此答案是 B。 中伏位：後面 “a few practice runs” 說的是有些人實際參賽前只練幾次；題目問何時 sign up，關鍵時間點是 “after … a few weeks”。",
+      "sourcePages": [
+        62,
+        63
+      ]
+    },
+    "21": {
+      "answer": "A — common sense",
+      "explanation": "題目問 Kieran 怎樣看 Jane 爺爺提供的 packing advice。 Jane 說要支撐 spine，Kieran 回： “Yeah – that's obvious.” Jane 再說要把書 flat 放好，Kieran 又說： “it's pretty clear that ruins them” “obvious” 和 “pretty clear” 都表示這些建議在他看來很合理、屬於常識。 所以答案是 A — common sense。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "22": {
+      "answer": "C — They have sentimental value for her",
+      "explanation": "題目問 Jane 怎樣看爺爺送給她的舊書。 她承認書可能繼續 deteriorate，但說： “I'd feel bad.” 原因是： “They'll always remind me of him.” 以及： “I'd regret just throwing them away.” 這些書對她的價值來自和爺爺的情感連結，所以答案是 C — sentimental value。",
+      "sourcePages": [
+        63
+      ]
+    },
+    "23": {
+      "answer": "A — put out on display",
+      "explanation": "題目問 Jane 和 Kieran 都認為 hardback books 應該怎樣處理。 Jane 說人們現在： “don't keep them out on shelves as much as they used to.” Kieran 覺得： “That's such a pity.” 他又說看見桌上的 colourful book 會立刻被吸引；Jane 同意 book covers 本身： “can be a work of art” 所以兩人都認為 hardbacks 值得擺出來展示。 答案是 A — put out on display。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "24": {
+      "answer": "B — reflects on a significant childhood experience",
+      "explanation": "題目問：談到如何從 shelf 拿書時，Jane 做了甚麼。 她先轉述爺爺教她的正確方法，Kieran 問她何時學到這些，Jane 回憶： “He watched me pull a heavy book off the shelf when I was small, and it fell on the floor and broke apart.” 她再說： “I can still remember it!” 這是一段她童年時非常深刻的經歷，也解釋她為甚麼從小學會小心拿書。 所以答案是 B。",
+      "sourcePages": [
+        64
+      ]
+    },
+    "25": {
+      "answer": "C — Not everyone can afford them",
+      "explanation": "題目問兩人對 new books 有甚麼看法。 Jane 說： “New books aren't cheap, though” Kieran 回應： “I guess we're lucky we can buy them.” “we're lucky” 暗示並非每個人都有相同經濟能力，所以答案是： C — Not everyone can afford them",
+      "sourcePages": [
+        65,
+        66
+      ]
+    },
+    "26": {
+      "answer": "D — on a high shelf",
+      "explanation": "題目問 rare books 放在哪裡。 Jane 說爺爺希望顧客知道店裡有 rare books，所以會把它們放在 shop 內，但： “makes sure you need a ladder to get them.” 需要 ladder 才拿得到，表示它們放在很高的 shelf。 所以答案是 D — on a high shelf。 中伏位：Jane 說你可能會以為放在 attic，但那只是最初猜測。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "27": {
+      "answer": "F — in a specially designed space",
+      "explanation": "題目問 children’s books 放在哪裡。 Jane 說： “he's got a dedicated area on the ground floor with cushions” 讓家長帶 toddlers 到那裡一起閱讀。 “dedicated area” 就是特別為兒童閱讀而設計的空間。 所以答案是 F — in a specially designed space。 中伏位：爺爺小時候喜歡坐在 stairs 下看書，但店內兒童書現在沒有放在 stairs 附近。",
+      "sourcePages": [
+        66
+      ]
+    },
+    "28": {
+      "answer": "A — near the entrance",
+      "explanation": "題目問 unwanted books 放在哪裡。 Jane 說： “he just leaves unwanted books by the front door for customers to take.” by the front door = near the entrance。 所以答案是 A。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "29": {
+      "answer": "C — at the back of the shop",
+      "explanation": "題目問 requested books 放在哪裡。 Jane 說： “books people or institutions have requested, they all go at the far end.” 她又說這些書要： “keep these out of the main shopping area” “at the far end” 最符合 at the back of the shop。 所以答案是 C。",
+      "sourcePages": [
+        67
+      ]
+    },
+    "30": {
+      "answer": "G — within the café",
+      "explanation": "題目問 coursebooks 放在哪裡。 Jane 說它們以前放在 first floor，後來搬到 downstairs： “They're actually part of the coffee shop, on low shelves all around it.” 所以現在 coursebooks 位於 café 範圍之內。 答案是 G — within the café。 中伏位：first floor 是以前的位置；題目問目前的 bookshop arrangement。",
+      "sourcePages": [
+        68,
+        69
+      ]
+    },
+    "31": {
+      "answer": "competition",
+      "explanation": "題目寫： “not include invasive species because of possible _____ with native species” 錄音說： “Invasive species … are often in competition with native species” 所以題目幾乎直接保留原句： competition with native species 答案是 competition。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "32": {
+      "answer": "food",
+      "explanation": "題目寫： “provide sustainable sources of _____ for local people” 錄音說 reforestation goals 可以包括： “improve the availability of food for the local community” local community = local people；availability of food 對應 sustainable sources of food。 所以答案是 food。",
+      "sourcePages": [
+        69
+      ]
+    },
+    "33": {
+      "answer": "disease",
+      "explanation": "題目寫： “use tree seeds with a high genetic diversity to increase resistance to _____ and climate change” 錄音說 low genetic diversity： “can make them vulnerable to disease and unable to adapt to climate change.” 如果低多樣性會令森林容易受 disease 影響，那麼高 genetic diversity 就能增加對 disease 的抵抗能力。 所以答案是 disease。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "34": {
+      "answer": "agriculture",
+      "explanation": "題目寫： “not select land which is being used for _____” 錄音說： “Reforesting areas which are currently exploited for agriculture should be avoided” “currently exploited for agriculture” = being used for agriculture。 所以答案是 agriculture。",
+      "sourcePages": [
+        70
+      ]
+    },
+    "35": {
+      "answer": "maps",
+      "explanation": "題目寫： “Base planning decisions on information from accurate _____.” 錄音說大型 reforestation 要作出正確選址決定，需要： “detailed and up-to-date maps identifying high-priority areas” 所以規劃應以準確、最新的 maps 作基礎。 答案是 maps。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "36": {
+      "answer": "cattle",
+      "explanation": "題目寫： “Drones are useful for identifying areas in Brazil which are endangered by keeping _____ and illegal logging.” 錄音說 drone 在 Amazon 用來監測破壞來源，包括： “human activities such as rearing cattle and illegal logging.” rearing cattle = keeping cattle。 所以答案是 cattle。",
+      "sourcePages": [
+        71
+      ]
+    },
+    "37": {
+      "answer": "speed",
+      "explanation": "題目寫： “fig trees … important for increasing the _____ of recovery” 錄音說： “they accelerate the speed of the recovery process” accelerate = increase；speed of the recovery process = speed of recovery。 所以答案是 speed。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "38": {
+      "answer": "monkeys",
+      "explanation": "題目寫： “e.g. _____ were soon attracted to the area.” 錄音解釋 fig trees 會吸引 animals and birds，之後提供具體例子： “after only three rainy seasons, monkeys started visiting to eat the fig fruits” 所以答案是 monkeys。 “started visiting” 表示牠們很快被吸引到該區。",
+      "sourcePages": [
+        72
+      ]
+    },
+    "39": {
+      "answer": "fishing",
+      "explanation": "題目寫： “Destruction of mangrove forests in Madagascar made it difficult for people to make a living from _____.” 這一題的核心是 make a living from _____，即「靠甚麼維生」。 錄音說： “Destruction of the mangrove forests had a terrible impact on plant and animal life, and also badly affected the fishing industry, which was a major source of employment for local people living in coastal areas.” 這裡有一條完整因果鏈： mangrove forests 被破壞 → fishing industry 受到嚴重影響 → 當地人的主要工作來源受損 → 更難靠 fishing 維生所以題目的 “made it difficult for people to make a living from _____” 是把錄音中的 “badly affected the fishing industry” 加上 “major source of employment for local people” 濃縮成一句。 關鍵同義轉換是： fishing industry = 靠 fishing 維生的產業 major source of employment = 主要收入／工作來源 badly affected = 令謀生變得困難因此答案是 fishing。 中伏位：題目沒有問「哪個產業受到影響」這麼簡單，它進一步問當地人靠甚麼謀生。錄音中的 employment 是幫你理解這層經濟關係的關鍵字。題目要求 ONE WORD ONLY，所以從 “fishing industry” 中取出 fishing 最合適。",
+      "sourcePages": [
+        73
+      ]
+    },
+    "40": {
+      "answer": "flooding",
+      "explanation": "題目寫： “The mangrove reforestation project … protects against the higher risk of _____” 這一題要先看清楚句型： protects against the higher risk of _____ 意思是「這個紅樹林復育計畫，可以防範哪一種變得更高的風險？」 錄音說： “The mangroves also act as a defence against the increased threat of flooding caused by climate change.” 這裡的同義轉換非常完整： act as a defence against = protects against increased threat of = higher risk of flooding = flooding 所以整句可以直接重組為： The mangroves protect against the higher risk of flooding. 更重要的是，這裡講的是紅樹林復育後帶來的保護功能。前面錄音已經說 project 提供 employment 、恢復 healthy aquatic ecosystem；到了這一句，焦點轉到另一個額外好處：紅樹林可以作為天然屏障，減低 climate change 帶來的洪水威脅。 所以答案是 flooding。 中伏位：climate change 是風險上升的原因；題目空格問的是被防範的具體危險。 所以邏輯是： climate change → increased threat of flooding → mangroves act as defence 答案要填最後那個實際風險：flooding。",
+      "sourcePages": [
+        74
+      ]
+    }
+  },
+  "timings": {
+    "parts": {
+      "1": {
+        "duration": 363.0498125,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%208%20Part%201.mp3",
+        "audioSha256": "9a601eb962eb2c1faebae734325ff436b99b20ba1f898ee57a6f6460086287f7",
+        "transcriptSha256": "537da84d2823d49be0c8a34ad6ffade914f11ca6431f11ff8180ebe4f75b9d0f",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9937,
+        "lines": [
+          {
+            "start": 51.48,
+            "end": 56.56,
+            "coverage": 0.9649
+          },
+          {
+            "start": 56.82,
+            "end": 57.9,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 58.82,
+            "end": 59.62,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 60.08,
+            "end": 61.1,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 61.36,
+            "end": 66.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 66.52,
+            "end": 72.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 73.1,
+            "end": 74.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.34,
+            "end": 79.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 80.44,
+            "end": 82.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 83.16,
+            "end": 90.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 91.06,
+            "end": 95.88,
+            "coverage": 0.9634
+          },
+          {
+            "start": 96.96,
+            "end": 101.24,
+            "coverage": 0.9655
+          },
+          {
+            "start": 102.04,
+            "end": 106.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.9,
+            "end": 108.36,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 109.18,
+            "end": 115.42,
+            "coverage": 1.0,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Short-window recognition ends the previous speaker at use, before the next reply."
+          },
+          {
+            "start": 115.78,
+            "end": 116.34,
+            "coverage": 0.6667,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Short-window recognition captures both reply words (ASR Will they, PDF Will do). Retain the supplied text."
+          },
+          {
+            "start": 116.94,
+            "end": 121.74,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 122.66,
+            "end": 128.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 128.78,
+            "end": 131.14,
+            "coverage": 0.9375
+          },
+          {
+            "start": 131.52,
+            "end": 132.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.38,
+            "end": 135.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.62,
+            "end": 140.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 140.82,
+            "end": 146.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 146.82,
+            "end": 150.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 150.0,
+            "end": 158.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 158.6,
+            "end": 159.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 159.32,
+            "end": 163.84,
+            "coverage": 0.9683
+          },
+          {
+            "start": 163.84,
+            "end": 166.46,
+            "coverage": 1.0
+          },
+          {
+            "start": 166.46,
+            "end": 172.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 172.68,
+            "end": 176.22,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 177.16,
+            "end": 183.42,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 183.98,
+            "end": 185.56,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 223.02,
+            "end": 231.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 232.7,
+            "end": 236.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 236.98,
+            "end": 240.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 241.56,
+            "end": 245.64,
+            "coverage": 1.0
+          },
+          {
+            "start": 246.4,
+            "end": 248.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 248.14,
+            "end": 251.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.02,
+            "end": 257.44,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 257.88,
+            "end": 258.3,
+            "coverage": 1.0,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Short-window recognition separates Okay from the following sentence."
+          },
+          {
+            "start": 258.94,
+            "end": 261.94,
+            "coverage": 1.0,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Short-window recognition starts After that after the preceding Okay, rather than overlapping it."
+          },
+          {
+            "start": 262.4,
+            "end": 265.06,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 265.68,
+            "end": 268.08,
+            "coverage": 0.9706
+          },
+          {
+            "start": 268.42,
+            "end": 269.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.86,
+            "end": 273.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 274.14,
+            "end": 281.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 281.76,
+            "end": 284.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 285.14,
+            "end": 288.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 289.1,
+            "end": 294.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.54,
+            "end": 296.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.24,
+            "end": 299.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 300.48,
+            "end": 303.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 303.52,
+            "end": 306.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.56,
+            "end": 308.22,
+            "coverage": 1.0
+          },
+          {
+            "start": 308.68,
+            "end": 311.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 312.1,
+            "end": 314.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 315.24,
+            "end": 315.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 316.72,
+            "end": 318.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.02,
+            "end": 324.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.66,
+            "end": 326.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 328.56,
+            "end": 333.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 333.96,
+            "end": 339.64,
+            "coverage": 0.9333
+          },
+          {
+            "start": 340.06,
+            "end": 342.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 343.04,
+            "end": 347.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 347.76,
+            "end": 350.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 351.36,
+            "end": 351.92,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "2": {
+        "duration": 382.0669375,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%208%20Part%202.mp3",
+        "audioSha256": "8d7fe9a7c9113688b3ce11597216279989295bc9fd7998db1c2fc4bb9816adae",
+        "transcriptSha256": "5e82d9391e5d9abe5ea3bdde912844a41fbf21762de1cbf4bf586176be6e2b54",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9911,
+        "lines": [
+          {
+            "start": 43.9,
+            "end": 48.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 48.98,
+            "end": 54.24,
+            "coverage": 1.0
+          },
+          {
+            "start": 54.24,
+            "end": 61.6,
+            "coverage": 0.8526
+          },
+          {
+            "start": 62.44,
+            "end": 71.82,
+            "coverage": 0.8952
+          },
+          {
+            "start": 72.64,
+            "end": 77.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 78.06,
+            "end": 89.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.26,
+            "end": 99.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 100.76,
+            "end": 105.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 106.12,
+            "end": 114.74,
+            "coverage": 1.0
+          },
+          {
+            "start": 115.58,
+            "end": 123.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 123.78,
+            "end": 130.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.86,
+            "end": 140.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 141.44,
+            "end": 156.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 204.16,
+            "end": 214.54,
+            "coverage": 1.0
+          },
+          {
+            "start": 214.54,
+            "end": 219.46,
+            "coverage": 0.9623
+          },
+          {
+            "start": 220.26,
+            "end": 225.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.7,
+            "end": 229.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 230.54,
+            "end": 236.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 237.02,
+            "end": 245.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 246.44,
+            "end": 251.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 252.18,
+            "end": 261.6,
+            "coverage": 1.0
+          },
+          {
+            "start": 262.48,
+            "end": 269.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 269.88,
+            "end": 274.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 276.18,
+            "end": 279.3,
+            "coverage": 1.0
+          },
+          {
+            "start": 280.04,
+            "end": 289.48,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.4,
+            "end": 302.2,
+            "coverage": 1.0
+          },
+          {
+            "start": 303.87,
+            "end": 306.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 307.4,
+            "end": 312.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 313.06,
+            "end": 318.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 319.76,
+            "end": 329.5,
+            "coverage": 1.0
+          },
+          {
+            "start": 330.36,
+            "end": 342.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.7,
+            "end": 351.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 352.82,
+            "end": 366.26,
+            "coverage": 1.0
+          },
+          {
+            "start": 367.12,
+            "end": 368.8,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "3": {
+        "duration": 427.859625,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%208%20Part%203.mp3",
+        "audioSha256": "654075f5b5982911ae81a60cbc4764f2c6badfb1a991ee7987353388256292a7",
+        "transcriptSha256": "9745d0f455aed1c8019880050dc0a16eb3ca23cb18c901e33825984a8e273a49",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9969,
+        "lines": [
+          {
+            "start": 55.8,
+            "end": 59.36,
+            "coverage": 1.0
+          },
+          {
+            "start": 59.78,
+            "end": 66.78,
+            "coverage": 1.0
+          },
+          {
+            "start": 67.3,
+            "end": 68.84,
+            "coverage": 0.9615
+          },
+          {
+            "start": 69.6,
+            "end": 74.96,
+            "coverage": 1.0
+          },
+          {
+            "start": 75.28,
+            "end": 76.1,
+            "coverage": 1.0
+          },
+          {
+            "start": 76.8,
+            "end": 82.08,
+            "coverage": 1.0
+          },
+          {
+            "start": 82.08,
+            "end": 83.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 84.16,
+            "end": 98.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 98.44,
+            "end": 103.88,
+            "coverage": 1.0
+          },
+          {
+            "start": 104.3,
+            "end": 109.0,
+            "coverage": 1.0
+          },
+          {
+            "start": 109.0,
+            "end": 112.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 112.92,
+            "end": 120.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.02,
+            "end": 121.4,
+            "coverage": 1.0
+          },
+          {
+            "start": 121.8,
+            "end": 126.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.76,
+            "end": 131.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 131.98,
+            "end": 133.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 133.8,
+            "end": 136.18,
+            "coverage": 1.0
+          },
+          {
+            "start": 136.18,
+            "end": 147.16,
+            "coverage": 1.0
+          },
+          {
+            "start": 147.94,
+            "end": 157.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 157.66,
+            "end": 163.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 163.8,
+            "end": 173.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 174.24,
+            "end": 182.14,
+            "coverage": 1.0
+          },
+          {
+            "start": 182.34,
+            "end": 189.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 190.34,
+            "end": 197.68,
+            "coverage": 1.0
+          },
+          {
+            "start": 199.08,
+            "end": 210.9,
+            "coverage": 0.9858
+          },
+          {
+            "start": 211.68,
+            "end": 212.76,
+            "coverage": 1.0
+          },
+          {
+            "start": 213.26,
+            "end": 219.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 220.28,
+            "end": 220.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 221.36,
+            "end": 223.52,
+            "coverage": 1.0
+          },
+          {
+            "start": 223.88,
+            "end": 225.28,
+            "coverage": 1.0
+          },
+          {
+            "start": 225.62,
+            "end": 225.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 226.18,
+            "end": 227.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 228.22,
+            "end": 228.56,
+            "coverage": 1.0
+          },
+          {
+            "start": 229.24,
+            "end": 235.38,
+            "coverage": 1.0
+          },
+          {
+            "start": 235.7,
+            "end": 237.88,
+            "coverage": 0.8387
+          },
+          {
+            "start": 238.5,
+            "end": 239.98,
+            "coverage": 1.0
+          },
+          {
+            "start": 240.4,
+            "end": 246.46,
+            "coverage": 0.9868
+          },
+          {
+            "start": 289.9,
+            "end": 293.82,
+            "coverage": 1.0
+          },
+          {
+            "start": 294.36,
+            "end": 302.36,
+            "coverage": 0.9722
+          },
+          {
+            "start": 302.36,
+            "end": 306.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.92,
+            "end": 310.58,
+            "coverage": 1.0
+          },
+          {
+            "start": 311.58,
+            "end": 312.7,
+            "coverage": 1.0
+          },
+          {
+            "start": 312.98,
+            "end": 316.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 316.98,
+            "end": 321.94,
+            "coverage": 1.0
+          },
+          {
+            "start": 322.28,
+            "end": 324.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 324.42,
+            "end": 324.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 325.28,
+            "end": 326.72,
+            "coverage": 1.0
+          },
+          {
+            "start": 327.1,
+            "end": 338.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 338.7,
+            "end": 340.12,
+            "coverage": 1.0
+          },
+          {
+            "start": 340.34,
+            "end": 351.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 351.9,
+            "end": 352.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 353.44,
+            "end": 359.44,
+            "coverage": 1.0
+          },
+          {
+            "start": 359.44,
+            "end": 360.62,
+            "coverage": 1.0
+          },
+          {
+            "start": 360.92,
+            "end": 366.32,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.66,
+            "end": 369.9,
+            "coverage": 1.0
+          },
+          {
+            "start": 370.3,
+            "end": 377.42,
+            "coverage": 1.0
+          },
+          {
+            "start": 377.8,
+            "end": 379.34,
+            "coverage": 1.0
+          },
+          {
+            "start": 379.72,
+            "end": 386.1,
+            "coverage": 1.0,
+            "refined": true,
+            "reviewed": true,
+            "reviewMethod": "focused-audio-window",
+            "reviewNote": "Focused window separates Jane's Yeah from Kieran's preceding very nice."
+          },
+          {
+            "start": 386.76,
+            "end": 387.02,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 387.5,
+            "end": 392.34,
+            "coverage": 1.0,
+            "refined": true
+          },
+          {
+            "start": 392.98,
+            "end": 394.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 395.34,
+            "end": 399.02,
+            "coverage": 1.0
+          },
+          {
+            "start": 399.86,
+            "end": 408.86,
+            "coverage": 1.0
+          },
+          {
+            "start": 409.54,
+            "end": 413.66,
+            "coverage": 1.0
+          },
+          {
+            "start": 413.66,
+            "end": 416.74,
+            "coverage": 1.0
+          }
+        ]
+      },
+      "4": {
+        "duration": 512.5746875,
+        "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%208%20Part%204.mp3",
+        "audioSha256": "39c648d5e7335e3f2491f4e625372d6d08f1c02326fa155a38f2fc11a4ba2577",
+        "transcriptSha256": "dada25e87e9bc6f234653dea56fbece3d4641c38b03bf8cacf27c636ac4042a6",
+        "method": "faster-whisper-base.en-1.2.1-monotonic-word-alignment-v1",
+        "coverage": 0.9981,
+        "lines": [
+          {
+            "start": 69.82,
+            "end": 83.92,
+            "coverage": 1.0
+          },
+          {
+            "start": 85.1,
+            "end": 90.04,
+            "coverage": 1.0
+          },
+          {
+            "start": 90.84,
+            "end": 100.8,
+            "coverage": 1.0
+          },
+          {
+            "start": 102.85,
+            "end": 111.98,
+            "coverage": 0.9914
+          },
+          {
+            "start": 112.9,
+            "end": 125.81,
+            "coverage": 1.0
+          },
+          {
+            "start": 127.05,
+            "end": 131.85,
+            "coverage": 1.0
+          },
+          {
+            "start": 132.91,
+            "end": 146.93,
+            "coverage": 1.0
+          },
+          {
+            "start": 148.49,
+            "end": 162.03,
+            "coverage": 0.9924
+          },
+          {
+            "start": 163.09,
+            "end": 176.07,
+            "coverage": 1.0
+          },
+          {
+            "start": 176.83,
+            "end": 191.79,
+            "coverage": 1.0
+          },
+          {
+            "start": 192.63,
+            "end": 209.95,
+            "coverage": 1.0
+          },
+          {
+            "start": 210.79,
+            "end": 224.93,
+            "coverage": 0.9861
+          },
+          {
+            "start": 226.47,
+            "end": 233.67,
+            "coverage": 1.0
+          },
+          {
+            "start": 234.63,
+            "end": 243.19,
+            "coverage": 0.9775
+          },
+          {
+            "start": 244.11,
+            "end": 257.69,
+            "coverage": 1.0
+          },
+          {
+            "start": 258.73,
+            "end": 267.25,
+            "coverage": 1.0
+          },
+          {
+            "start": 268.61,
+            "end": 279.19,
+            "coverage": 1.0
+          },
+          {
+            "start": 283.65,
+            "end": 288.85,
+            "coverage": 1.0
+          },
+          {
+            "start": 290.27,
+            "end": 295.85,
+            "coverage": 1.0
+          },
+          {
+            "start": 297.07,
+            "end": 305.71,
+            "coverage": 1.0
+          },
+          {
+            "start": 306.87,
+            "end": 316.15,
+            "coverage": 0.9894
+          },
+          {
+            "start": 317.11,
+            "end": 330.99,
+            "coverage": 1.0
+          },
+          {
+            "start": 332.19,
+            "end": 341.11,
+            "coverage": 1.0
+          },
+          {
+            "start": 342.37,
+            "end": 353.13,
+            "coverage": 1.0
+          },
+          {
+            "start": 354.35,
+            "end": 365.51,
+            "coverage": 1.0
+          },
+          {
+            "start": 366.49,
+            "end": 374.33,
+            "coverage": 1.0
+          },
+          {
+            "start": 375.41,
+            "end": 389.41,
+            "coverage": 1.0
+          },
+          {
+            "start": 390.51,
+            "end": 397.35,
+            "coverage": 1.0
+          },
+          {
+            "start": 398.57,
+            "end": 407.77,
+            "coverage": 1.0
+          },
+          {
+            "start": 408.97,
+            "end": 420.71,
+            "coverage": 1.0
+          },
+          {
+            "start": 422.42,
+            "end": 431.69,
+            "coverage": 1.0
+          },
+          {
+            "start": 432.85,
+            "end": 442.69,
+            "coverage": 1.0
+          },
+          {
+            "start": 444.25,
+            "end": 459.81,
+            "coverage": 1.0
+          },
+          {
+            "start": 461.11,
+            "end": 469.19,
+            "coverage": 1.0
+          },
+          {
+            "start": 470.33,
+            "end": 478.27,
+            "coverage": 1.0
+          },
+          {
+            "start": 479.55,
+            "end": 486.59,
+            "coverage": 1.0
+          },
+          {
+            "start": 487.51,
+            "end": 497.13,
+            "coverage": 0.99
+          },
+          {
+            "start": 498.13,
+            "end": 500.61,
+            "coverage": 1.0
+          }
+        ]
+      }
+    },
+    "questions": {
+      "1": {
+        "part": 1,
+        "time": 51.48,
+        "line": 0,
+        "evidenceScore": 47.0
+      },
+      "2": {
+        "part": 1,
+        "time": 102.04,
+        "line": 12,
+        "evidenceScore": 64.0
+      },
+      "3": {
+        "part": 1,
+        "time": 122.66,
+        "line": 17,
+        "evidenceScore": 83.0
+      },
+      "4": {
+        "part": 1,
+        "time": 133.38,
+        "line": 20,
+        "evidenceScore": 46.0
+      },
+      "5": {
+        "part": 1,
+        "time": 150.0,
+        "line": 24,
+        "evidenceScore": 64.0
+      },
+      "6": {
+        "part": 1,
+        "time": 177.16,
+        "line": 30,
+        "evidenceScore": 36.0
+      },
+      "7": {
+        "part": 1,
+        "time": 252.02,
+        "line": 38,
+        "evidenceScore": 45.0
+      },
+      "8": {
+        "part": 1,
+        "time": 274.14,
+        "line": 45,
+        "evidenceScore": 124.0
+      },
+      "9": {
+        "part": 1,
+        "time": 328.56,
+        "line": 60,
+        "evidenceScore": 94.0
+      },
+      "10": {
+        "part": 1,
+        "time": 343.04,
+        "line": 63,
+        "evidenceScore": 84.0
+      },
+      "11": {
+        "part": 2,
+        "time": 78.06,
+        "line": 5,
+        "evidenceScore": 80.0
+      },
+      "12": {
+        "part": 2,
+        "time": 78.06,
+        "line": 5,
+        "evidenceScore": 80.0
+      },
+      "13": {
+        "part": 2,
+        "time": 123.78,
+        "line": 10,
+        "evidenceScore": 86.0
+      },
+      "14": {
+        "part": 2,
+        "time": 123.78,
+        "line": 10,
+        "evidenceScore": 86.0
+      },
+      "15": {
+        "part": 2,
+        "time": 225.7,
+        "line": 16,
+        "evidenceScore": 39.0
+      },
+      "16": {
+        "part": 2,
+        "time": 237.02,
+        "line": 18,
+        "evidenceScore": 35.0
+      },
+      "17": {
+        "part": 2,
+        "time": 252.18,
+        "line": 20,
+        "evidenceScore": 50.0
+      },
+      "18": {
+        "part": 2,
+        "time": 290.4,
+        "line": 25,
+        "evidenceScore": 42.0
+      },
+      "19": {
+        "part": 2,
+        "time": 319.76,
+        "line": 29,
+        "evidenceScore": 31.0
+      },
+      "20": {
+        "part": 2,
+        "time": 352.82,
+        "line": 32,
+        "evidenceScore": 67.0
+      },
+      "21": {
+        "part": 3,
+        "time": 98.44,
+        "line": 8,
+        "evidenceScore": 27.0
+      },
+      "22": {
+        "part": 3,
+        "time": 133.8,
+        "line": 16,
+        "evidenceScore": 28.0
+      },
+      "23": {
+        "part": 3,
+        "time": 163.8,
+        "line": 20,
+        "evidenceScore": 42.0
+      },
+      "24": {
+        "part": 3,
+        "time": 213.26,
+        "line": 26,
+        "evidenceScore": 81.0
+      },
+      "25": {
+        "part": 3,
+        "time": 238.5,
+        "line": 35,
+        "evidenceScore": 27.0
+      },
+      "26": {
+        "part": 3,
+        "time": 316.98,
+        "line": 43,
+        "evidenceScore": 32.0
+      },
+      "27": {
+        "part": 3,
+        "time": 340.34,
+        "line": 49,
+        "evidenceScore": 48.0
+      },
+      "28": {
+        "part": 3,
+        "time": 370.3,
+        "line": 55,
+        "evidenceScore": 57.0
+      },
+      "29": {
+        "part": 3,
+        "time": 379.72,
+        "line": 57,
+        "evidenceScore": 58.0
+      },
+      "30": {
+        "part": 3,
+        "time": 409.54,
+        "line": 63,
+        "evidenceScore": 56.0
+      },
+      "31": {
+        "part": 4,
+        "time": 132.91,
+        "line": 6,
+        "evidenceScore": 47.25
+      },
+      "32": {
+        "part": 4,
+        "time": 163.09,
+        "line": 8,
+        "evidenceScore": 68.0
+      },
+      "33": {
+        "part": 4,
+        "time": 210.79,
+        "line": 11,
+        "evidenceScore": 81.0
+      },
+      "34": {
+        "part": 4,
+        "time": 268.61,
+        "line": 16,
+        "evidenceScore": 91.0
+      },
+      "35": {
+        "part": 4,
+        "time": 297.07,
+        "line": 19,
+        "evidenceScore": 71.0
+      },
+      "36": {
+        "part": 4,
+        "time": 317.11,
+        "line": 21,
+        "evidenceScore": 71.0
+      },
+      "37": {
+        "part": 4,
+        "time": 375.41,
+        "line": 26,
+        "evidenceScore": 62.0
+      },
+      "38": {
+        "part": 4,
+        "time": 408.97,
+        "line": 29,
+        "evidenceScore": 85.0
+      },
+      "39": {
+        "part": 4,
+        "time": 444.25,
+        "line": 32,
+        "evidenceScore": 193.0
+      },
+      "40": {
+        "part": 4,
+        "time": 479.55,
+        "line": 35,
+        "evidenceScore": 105.0
+      }
+    }
+  }
+}

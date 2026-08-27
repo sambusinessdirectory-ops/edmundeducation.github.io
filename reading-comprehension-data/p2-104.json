@@ -1,0 +1,274 @@
+{
+  "id": "p2-104",
+  "catalogueId": "p2-104",
+  "title": "Why are so few tigers man-eaters?",
+  "sourceHeading": "Why Are So Few Tigers Man-Eaters?",
+  "passage": 2,
+  "practice": 104,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-104-why-are-so-few-tigers-man-eaters",
+  "source": {
+    "filename": "Practice 104 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "f5d2c70b49ff43340d9947e7a937b42a672bb346f2266316a2f87f4790219bad"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "As you leave the Bandhavgarh National Park in central India, there is a notice which shows a huge, placid tiger. The notice says, ‘You may not have seen me, but I have seen you.’ There are more than a billion people in India and Indian tigers probably see humans every single day of their lives. Tigers can and do kill almost everything they meet in the jungle; they will even attack elephants and rhinos. Surely, then, it is a little strange that attacks on humans are not more frequent."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Some people might argue that these attacks were in fact common in the past. British writers of adventure stories, such as Jim Corbett, gave the impression that village life in India in the early years of the twentieth century involved a state of constant siege by man-eating tigers. But they may have overstated the terror spread by tigers. There were also far more tigers around in those days (probably 60,000 in the subcontinent compared to just 3,000 today). So in proportion, attacks appear to have been as rare then as they are today."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "It is widely assumed that the constraint is fear; but what exactly are tigers afraid of? Can they really know that we may be even better armed than they are? Surely not. Has the species programmed the experiences of all tigers with humans into its genes to be inherited as instinct? Perhaps. But I think the explanation may be simpler and, in a way, more intriguing."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Since the growth of ethology in the 1950s, we have tried to understand animal behaviour from the animal’s point of view. Until the first elegant experiments by pioneers in the field such as Konrad Lorenz, naturalists wrote about animals as if they were slightly less intelligent humans. Jim Corbett’s breathless accounts of his duels with man-eaters in truth tell us more about Jim Corbett than they do about the animals. The principle of ethology, on the other hand, requires us to try to think as the animal we are studying does, and to observe every tiny detail of its behaviour without imposing our own human significance on its actions."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "I suspect that a tiger’s fear of humans lies not in some preprogrammed ancestral logic but in the way it actually perceives us visually. If you think like a tiger, a human in a car might appear just to be a part of the car, and because tigers don’t eat cars the human is safe—unless the car is menacing the tiger or its cubs, in which case a brave or enraged tiger may charge. A human on foot is a different sort of puzzle. Imagine a tiger sees a man who is 1.8 m tall. A tiger is less than 1 m tall but it may be up to 3 m long from head to tail. So when a tiger sees the man face on, it might not be unreasonable for it to assume that the man is 6 m long. If it meets a deer of this size, it might attack the animal by leaping on its back, but when it looks behind the man it can’t see a back. From the front the man is huge, but looked at from the side he all but disappears. This must be very disconcerting. A hunter has to be confident that it can tackle its prey, and no hunter is confident when disconcerted. This is especially true of a solitary hunter such as the tiger and may explain why lions—particularly young lionesses, which tend to encourage one another to take risks—are more dangerous than tigers."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "If the theory that a tiger is disconcerted to find that a standing human is both very big and yet somehow invisible is correct, the opposite should be true of a squatting human. A squatting human is half the size and presents twice the spread of back, and more closely resembles a medium-sized deer. If tigers were simply frightened of all humans, then a squatting person would be no more attractive as a target than a standing one. This, however, appears not to be the case. Many incidents of attacks on people involve villagers squatting or bending over to cut grass for fodder or building material."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The fact that humans stand upright may therefore not just be something that distinguishes them from nearly all other species, but also a factor that helped them to survive in a dangerous and unpredictable environment. Note Ethology: the branch of zoology that studies the behaviour of animals in their natural habitats."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has seven paragraphs labelled A–G.\nWhich paragraph contains the following information?\nWrite the correct letter A–G in boxes 14–18 on your answer sheet.\n14 _________________ a rejected explanation of why tiger attacks on humans are rare\n15 _________________ a reason why tiger attacks on humans might be expected to happen\nmore often than they do\n16 _________________ examples of situations in which humans are more likely to be attacked\nby tigers\n17 _________________ a claim about the relative frequency of tiger attacks on humans\n18 _________________ an explanation of tiger behaviour based on the principles of ethology"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 23,
+      "text": "Questions 19–23\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 19–23 on your answer sheet write\n\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n19 _________________ Tigers in the Bandhavgarh National Park are a protected species.\n20 _________________ Some writers of fiction have exaggerated the danger of tigers to man.\n21 _________________ The fear of humans may be passed down in a tiger’s genes.\n22 _________________ Konrad Lorenz claimed that some animals are more intelligent than\nhumans.\n23 _________________ Ethology involves applying principles of human behaviour to animals."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nChoose the correct answer, A, B, C or D.\nWrite your answers in boxes 24–26 on your answer sheet.\n\n\n24 Why do tigers rarely attack people in cars?\n A They have learned that cars are not dangerous.\n B They realise that people in cars cannot be harmed.\n C They do not think people in cars are living creatures.\n D They do not want to put their cubs at risk.\n\n\n25 The writer says that tigers rarely attack a man who is standing up because\n A they are afraid of the man’s height.\n B they are confused by the man’s shape.\n C they are puzzled by the man’s lack of movement.\n D they are unable to look at the man directly.\n\n\n26 A human is more vulnerable to tiger attack when squatting because\n A he may be unaware of the tiger’s approach.\n B he cannot easily move his head to see behind him.\n C his head becomes a better target for the tiger.\n D his back appears longer in relation to his height."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ a rejected explanation of why tiger attacks on humans are rare",
+      "translation": "一個被作者放棄或質疑的解釋：為何老虎襲擊人類很少見。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ a reason why tiger attacks on humans might be expected to happen more often than they do",
+      "translation": "一個原因，說明為何我們本來可能預期老虎襲人應該更常發生。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ examples of situations in which humans are more likely to be attacked by tigers",
+      "translation": "一些情況例子，顯示人類在甚麼姿勢或活動中較容易被老虎襲擊。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ a claim about the relative frequency of tiger attacks on humans",
+      "translation": "一個關於老虎襲人相對頻率的說法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ an explanation of tiger behaviour based on the principles of ethology",
+      "translation": "一個根據 ethology 原則解釋老虎行為的說法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Tigers in the Bandhavgarh National Park are a protected species.",
+      "translation": "Bandhavgarh National Park 的老虎是受保護物種。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Some writers of fiction have exaggerated the danger of tigers to man.",
+      "translation": "有些小說或故事作家誇大了老虎對人類的危險。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ The fear of humans may be passed down in a tiger’s genes.",
+      "translation": "老虎對人類的恐懼可能透過基因傳下去。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Konrad Lorenz claimed that some animals are more intelligent than humans.",
+      "translation": "Konrad Lorenz 聲稱某些動物比人類更聰明。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Ethology involves applying principles of human behaviour to animals.",
+      "translation": "Ethology 涉及把人類行為原則套用到動物身上。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Why do tigers rarely attack people in cars?",
+      "translation": "為甚麼老虎很少攻擊坐在車內的人？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "The writer says that tigers rarely attack a man who is standing up because",
+      "translation": "作者說老虎很少攻擊站立的人，原因是……選項： A they are afraid of the man’s height.牠們害怕人的高度。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "A human is more vulnerable to tiger attack when squatting because",
+      "translation": "人蹲下時更容易被老虎攻擊，原因是……選項： A he may be unaware of the tiger’s approach.他可能沒有察覺老虎靠近。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-104/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-104/page-5.jpg"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "p3-100",
+  "catalogueId": "p3-100",
+  "title": "Do You Look Your Age?",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 100,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-100-do-you-look-your-age",
+  "source": {
+    "filename": "Practice 100 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "22f25e0dcb27e02db820d39b2abeb748f31afcaae2b4a424db3dfa96c5854c9e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Do You Look Your Age? It can be hard to guess someone’s exact age. A range of factors may leave marks on our appearance: how much sleep we’ve had – even the way we dress and our view of ourselves. The good news is that just as these factors can add years on to your appearance, it follows that they can also take years off. We don’t always have control over some of those social factors that can make us look younger, but there are other steps we can take to try to stop the ravages of age."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "SOCIAL FACTORS Last month, the University of Southern Denmark published a report, The Influence of Environmental Factors on Facial Ageing, which showed that how we live can affect how old we look. In it, 1,826 twins were photographed and then ten female nurses aged between 25 and 46 years were asked to guess how old the “models” were. The results were intriguing. They showed that belonging to a high social class can make us look up to four years younger, and many other lifestyle factors were shown to affect the way we look. Having children was found to make men look a full year younger, though it had no effect on women, and having four or more children cancelled out the benefit."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Depression and sun exposure were the biggest factors in making you look old before your time. Depression added up to three and a half years to a woman’s perceived age (and 2.4 years for men). Sun exposure piled on at least an extra year. Smoking put on six months for a woman and a year for a man. Meanwhile, having a high BMI (body mass index) was found to take a whole year off for both men and women. “If you are not depressed, not a smoker and not too skinny, you are basically doing well,” says Professor Kaare Christensen (married, three children, non-smoker), one of the report’s authors. Professor Christensen’s report concluded that it was more dangerous for our health to look a year older than to actually be a year older."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "NUTRITION This is possibly the biggest change we can make fairly easily. There are four main factors that prematurely age us: smoking, too much alcohol, lack of fresh fruit and vegetables, and insufficient protein intake. You can immediately tell a smoker. It’s not just the lines around the mouth and eyes, but smoking is dehydrating to the body. Every time you inhale cigarette smoke, you’re taking toxins into the body which have to be diffused and detoxified by the liver and kidneys, and they’re dependent on plenty of fresh water to carry toxins away. Most smokers don’t drink anywhere near enough water."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The really big, quick fix, though, is eating more fresh fruit and vegetables. You can see if someone doesn’t eat enough, or any, fresh fruit and veg in a minute. The skin lacks a freshness and translucency. This is because the skin is the last organ to benefit from the nutrients you eat – the likes of the brain, heart, and lungs all get first share. If someone’s diet is lacking in fruit and veg, the skin will become dehydrated. This is a sign that sufficient nutrients aren’t being delivered, so from an anti-ageing point of view, it’s important to have live, fresh food, and raw food is vital. If you have to cook, steaming will retain at least some of the vitamins and minerals. The other really important thing, and one we tend to miss out on in our diet-obsessed culture, is adequate intake of essential fatty acids (EFAs), from oily fish, nuts, and seeds. EFAs are vital for prolonging life expectancy because every cell in the body has a phospholipid bilayer that protects it, but they also give the skin a dewy, “bouncy”, youthful feel. One of the worst things you can do in terms of looking old is to go on a low-fat diet. Stress is another big one for adding years. We can help support the adrenal and thyroid glands, which take a hammering when we’re stressed, by eating plenty of fresh vitamin C and magnesium for the adrenal glands; and iodine, selenium, zinc, and B vitamins to support the thyroid."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "EXERCISE We’ve come to think of exercise as a pure slimming pursuit and women tend to be rather scared of lifting weights, but building lean tissue through weight-bearing exercise is key to keeping the years at bay. Exercise can help reduce the effects of ageing by slowing down the decline of type II muscle fibres. Generally, type I muscle fibres deal with aerobic activities and type II with anaerobic ones. The type IIs respond to resistance work to improve muscle tone. With ageing, there’s a reduction in frequency, duration, and intensity of habitual activity: we generally move less. So, these type II fibres deteriorate because they simply don’t get enough stimuli."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "SKIN CARE Almost every skin cream promises to make you look younger. It’s a promise many are seduced by, but many end up disappointed. The problem is not that products don’t work, but that people start using them too late and then do not spend enough money. A lot of people skip good skin care until they think they need it, and by then it’s actually too late. In women, the skin around the eyes is the first to go, in men it’s the hands. A good routine should start early because maintenance is much easier than repair."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Your skin also becomes more transparent as you get older, so you need to adapt your make-up and hair colour accordingly. Foundation should be lighter than you’d imagine, and sheerer, and if you want to cover grey, don’t be tempted to go for a too-dark hair colour or block colour – highlights are kind. Don’t forget to apply moisturiser around the back of the neck: it’s the only bit of skin attached to a bone, so it’s important that you look after it to avoid sagging."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in the appropriate box on your answer sheet.\n\n\n27 According to surveys, which of the following social factors makes a person look older?\n A Having more than four children\n B Having a high BMI\n C Spending a long time in the sun\n\n\n28 Which of the following nutritional factors makes a person look older?\n A Eating lots of fruit and vegetables\n B Not eating enough protein\n C Eating lots of meat\n\n\n29 How can exercise help make a person look younger?\n A By making them feel happier\n B It helps keep type II muscle fibres in better condition.\n C It increases oxygen flow.\n\n\n30 What is the main problem with skincare products?\n A People don’t use them early enough.\n B People spend too much money on them.\n C Most skincare products don’t work."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\n\n\nThe Danish survey used photographs of 31 _________________\nThe greatest difference people can make relatively easily is with 32\n_________________\nThe human body uses the 33 _________________ to get rid of toxins.\n A 34 _________________ diet makes people look much older.\nPeople should use 35 _________________ on the back of the neck."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n\n\n36 _________________ A person’s social class can affect how old they look.\n37 _________________ Having children makes men and women look younger.\n38 _________________ Smokers need to drink more water than non-smokers.\n39 _________________ Some people don’t get enough fatty acids because they are slimming.\n40 _________________ Most skin creams contain vitamins that are good for the skin."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to surveys, which of the following social factors makes a person look older?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Which of the following nutritional factors makes a person look older?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "How can exercise help make a person look younger?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What is the main problem with skincare products?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "丹麥調查使用了 31 ______ 的照片。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "人們相對容易作出的最大改變是在 32 ______ 方面。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "人體使用 33 ______ 來清除毒素。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "34 ______ 飲食會令人看起來老很多。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "人們應該在後頸使用 35 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ A person’s social class can affect how old they look.",
+      "translation": "一個人的社會階級會影響他看起來幾歲。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Having children makes men and women look younger.",
+      "translation": "有孩子會令男性和女性都看起來更年輕。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Smokers need to drink more water than non-smokers.",
+      "translation": "吸煙者需要比非吸煙者喝更多水。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Some people don’t get enough fatty acids because they are slimming.",
+      "translation": "有些人因為減肥或節食，沒有攝取足夠脂肪酸。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Most skin creams contain vitamins that are good for the skin.",
+      "translation": "大部分護膚霜含有對皮膚有益的維他命。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-100/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-100/page-6.jpg"
+  ]
+}

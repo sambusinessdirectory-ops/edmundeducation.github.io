@@ -1,0 +1,277 @@
+{
+  "id": "p3-051",
+  "catalogueId": "p3-051",
+  "title": "What Do Babies Know?",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 51,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-051-what-do-babies-know",
+  "source": {
+    "filename": "Practice 51 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "bc62cce2088edbf6d9ba2d6d83a2529e0a6caf8e1d154a5b4fbedfa11f8e4f0d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "What Do Babies Know? As Daniel Haworth is settled into a high chair and wheeled behind a black screen, a sudden look of worry furrows his 9-month-old brow. His dark blue eyes dart left and right in search of the familiar reassurance of his mother’s face. She calls his name and makes soothing noises, but Daniel senses something unusual is happening. He sucks his fingers for comfort, but, finding no solace, his mouth crumples, his body stiffens, and he lets rip an almighty shriek of distress. Such distress is a common response when babies are left alone. His mother picks him up, reassures him, and two minutes later, a chortling and alert Daniel returns to the darkened booth behind the screen and submits himself to BabyLab, a unit set up in 2005 at the University of Manchester in northwest England to investigate how babies think."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Watching infants piece life together, seeing their senses, emotions and motor skills take shape, is a source of mystery and endless fascination—at least to parents and developmental psychologists. We can decode their signals of distress or read a million messages into their first smile. But how much do we really know about what’s going on behind those wide, innocent eyes? How much of their understanding of and response to the world comes preloaded at birth? How much is built from scratch by experience? Such are the questions being explored at BabyLab. Though the facility is just 18 months old and has tested only 100 infants, it’s already challenging current thinking on what babies know and how they come to know it."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Daniel is now engrossed in watching video clips of a red toy train on a circular track. The train disappears into a tunnel and emerges on the other side. A hidden device above the screen is tracking Daniel’s eyes as they follow the train and measuring the diameter of his pupils 50 times a second. As the child gets bored—or “habituated”, as psychologists call the process—his attention level steadily drops. But it picks up a little whenever some novelty is introduced. The train might be green, or it might be blue. And sometimes an impossible thing happens—the train goes into the tunnel one colour and comes out another."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Variations of experiments like this one, examining infant attention, have been a standard tool of developmental psychology ever since the Swiss pioneer of the field, Jean Piaget, started experimenting on his children in the 1920s. Piaget’s work led him to conclude that infants younger than 9 months have no innate knowledge of how the world works or any sense of “object permanence” (that people and things still exist even when they’re not seen). Instead, babies must gradually construct this knowledge from experience. Piaget’s “constructivist” theories were massively influential on postwar educators and psychologists, but over the past 20 years or so they have been largely set aside by a new generation of “nativist” psychologists and cognitive scientists whose more sophisticated experiments led them to theorise that infants arrive already equipped with some knowledge of the physical world and even rudimentary programming for mathematics and language. BabyLab director Sylvain Sirois has been putting these smart-baby theories through a rigorous set of tests. His conclusions so far tend to be more Piagetian: “Babies,” he says, “know nothing.”"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "What Sirois and his postgraduate assistant Iain Jackson are challenging is the interpretation of a variety of classic experiments begun in the mid-1980s in which babies were shown physical events that appeared to violate such basic concepts as gravity, solidity and contiguity. In one such experiment, by University of Illinois psychologist Renée Baillargeon, a hinged wooden panel appeared to pass right through a box. Baillargeon and MIT’s Elizabeth Spelke found that babies as young as three and a half months would reliably look longer at the impossible event than at the normal one. Their conclusion: babies have enough built-in knowledge to recognise that something is wrong."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Sirois does not take issue with the way these experiments were conducted. “The methods are correct and replicable,” he says, “it’s the interpretation that’s the problem.” In a critical review to be published in the forthcoming issue of the European Journal of Developmental Psychology, he and Jackson pour cold water over recent experiments that claim to have observed innate or precocious social cognition skills in infants. His own experiments indicate that a baby’s fascination with physically impossible events merely reflects a response to stimuli that are novel. Data from the eye tracker and the measurement of the pupils (which widen in response to arousal or interest) show that impossible events involving familiar objects are no more interesting than possible events involving novel objects. In other words, after Daniel had seen the red train emerge from the tunnel green a few times, he became as bored as when it stayed the same colour. The mistake of previous research, says Sirois, has been to leap to the conclusion that infants can understand the concept of impossibility from the mere fact that they are able to perceive some novelty in it. “The real explanation is boring,” he says."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "So how do babies bridge the gap between knowing squat and drawing triangles—a task Daniel’s sister Lois, two and a half, is happily tackling as she waits for her brother? “Babies have to learn everything, but as Piaget was saying, they start with a few primitive reflexes that get things going,” says Sirois. For example, hardwired in the brain is an instinct that draws a baby’s eyes to a human face. From brain imaging studies we also know that the brain has some sort of visual buffer that continues to represent objects after they have been removed—a lingering perception rather than conceptual understanding. So when babies encounter novel or unexpected events, Sirois explains, “there’s a mismatch between the buffer and the information they’re getting at that moment. And what you do when you’ve got a mismatch is you try to clear the buffer. And that takes attention.” So learning, says Sirois, is essentially the laborious business of resolving mismatches. “The thing is, you can do a lot of it with this wet sticky thing called a brain. It’s a fantastic statistical-learning machine.” With the experiment over, Daniel picks up a plastic tiger and, chewing thoughtfully on its head, smiles as if to agree."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 27–32 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n27 _________________ A baby’s behaviour after being left alone is not surprising.\n28 _________________ Parents are overestimating what babies know.\n29 _________________ Although only 100 infants have been tested, the results prove current\ntheories about infant knowledge.\n30 _________________ Piaget’s theory was rejected by parents in the 1920s.\n31 _________________ Sylvain Sirois’s conclusion about infant cognition is similar to Piaget’s.\n32 _________________ Sylvain Sirois found serious flaws in the experiments conducted by\nBaillargeon and Spelke."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nComplete each sentence with the correct ending, A–E, below.\nWrite the correct letter, A–E, in boxes 33–37 on your answer sheet.\n A                        before they are born.\n\n B                        before they learn from experience.\n\n C                        after they have seen the same thing for a while.\n\n D                        when facing the possible and impossible events.\n\n E                        when previously seen things reappear.\n33 _____________ Jean Piaget thinks infants younger than 9 months do not know that\nsomething still exists\n34 _____________ Jean Piaget thinks babies acquire knowledge only\n35 _____________ Some cognitive scientists think babies have mechanisms for learning\nlanguage\n36 _____________ Sylvain Sirois thinks that babies respond to novel stimuli\n37 _____________ Sylvain Sirois thinks babies’ attention level will drop"
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 38–40 on your answer sheet.\n\n\n38 What can we know about Daniel in the third paragraph?\n A Daniel’s attention level rose when he saw a blue train.\n B A child’s attention fell when he was accustomed to the changes.\n C The child’s brain activity was monitored with special equipment.\n D The size of the train changed when it came out of the tunnel.\n\n\n39 What does the writer explain in the fourth paragraph?\n A Theories about what babies know changed over time.\n B Why the experiments that had been done before were rejected.\n C Infants have innate knowledge of the external environment.\n D Piaget’s “constructivist” theories were massively influential among parents.\n\n\n40 What does the experiment discussed in the sixth paragraph show?\n A Infants are attracted by the different colours of the trains all the time.\n B Sylvain Sirois criticises misleading interpretations of current experiments.\n C Sylvain Sirois indicates that only impossible events interest children.\n D Sylvain Sirois suggests that novel things attract a baby’s attention."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ A baby’s behaviour after being left alone is not surprising.",
+      "translation": "嬰兒被單獨留下後出現某些反應，並不令人意外。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Parents are overestimating what babies know.",
+      "translation": "父母高估了嬰兒知道的東西。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Although only 100 infants have been tested, the results prove current theories about infant knowledge.",
+      "translation": "雖然只測試了一百名嬰兒，但結果證明了目前關於嬰兒知識的理論。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Piaget’s theory was rejected by parents in the 1920s.",
+      "translation": "Piaget 的理論在 1920 年代被父母拒絕。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Sylvain Sirois’s conclusion about infant cognition is similar to Piaget’s.",
+      "translation": "Sylvain Sirois 對嬰兒認知的結論和 Piaget 的看法相似。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Sylvain Sirois found serious flaws in the experiments conducted by Baillargeon and Spelke.",
+      "translation": "Sylvain Sirois 發現 Baillargeon 和 Spelke 所做的實驗本身有嚴重缺陷。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ Jean Piaget thinks infants younger than 9 months do not know that something still exists",
+      "translation": "Jean Piaget 認為，九個月以下的嬰兒不知道某些東西仍然存在 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ Jean Piaget thinks babies acquire knowledge only",
+      "translation": "Jean Piaget 認為，嬰兒只會 ______ 取得知識。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ Some cognitive scientists think babies have mechanisms for learning language",
+      "translation": "一些認知科學家認為，嬰兒在 ______ 已經有學習語言的機制。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ Sylvain Sirois thinks that babies respond to novel stimuli",
+      "translation": "Sylvain Sirois 認為，嬰兒在 ______ 時會對新奇刺激作出反應。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_____________ Sylvain Sirois thinks babies’ attention level will drop",
+      "translation": "Sylvain Sirois 認為，嬰兒的注意力水平會在 ______ 下降。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What can we know about Daniel in the third paragraph?",
+      "translation": "根據第三段，我們可以知道 Daniel 的甚麼情況？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What does the writer explain in the fourth paragraph?",
+      "translation": "作者在第四段解釋了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "What does the experiment discussed in the sixth paragraph show?",
+      "translation": "第六段討論的實驗顯示了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-051/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-051/page-6.jpg"
+  ]
+}

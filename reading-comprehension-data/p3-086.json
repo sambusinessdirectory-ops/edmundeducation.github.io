@@ -1,0 +1,224 @@
+{
+  "id": "p3-086",
+  "catalogueId": "p3-086",
+  "title": "Making a sound Investment Decision",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 86,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-086-making-a-sound-investment-decision",
+  "source": {
+    "filename": "Practice 86 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "0361a7c16086fde8a9f8cfb01f92452da1c06537a0abd2ee30aa8d958db36a20"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Making a Sound Investment Decision As investors tire of stock market instability, the idea of owning a piece of real estate is gaining in popularity. Now, not everyone has what it takes to become a landlord, but if you can make a go of it, it certainly has the potential to become a good money-earner. Here are some tips from successful real-estate mogul Janet Anderson on how to start building up your property portfolio."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "According to Janet, one of the best ways to identify a bargain is to hunt for foreclosures. Foreclosures are properties banks have repossessed because their owners were unable to meet the mortgage repayments. Banks want a quick sale on these places, Janet says. They want to cut their losses and get their money back as quickly as possible. Developing a network – making connections with city clerks and bank employees who know which properties are about to be sold – can be an excellent way to identify such bargains. And bargains they certainly can prove to be; in a recent fire-sale auction (‘fire-sale auction’ is the phrase that has been coined to describe auction-room events dedicated entirely to the disposal of repossessed assets) a house with a market value nearing $1,000,000, but with a low reserve price designed to encourage bidders and secure a quick sale, went for $450,000; that’s a whopping 55% discount."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "It’s also important to be realistic though and not stretch yourself too far financially. Janet says the biggest mistake you can make is to borrow too much—in other words, to overborrow. For first-time investors, lenders usually demand bigger down payments because you haven’t got a proven track record. That’s more of your money on the table and, therefore, should anything go wrong, you’re in for a big financial hit."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Her business partner, James Nylles, is in complete agreement on this point. He also highlights the fact that the mortgage payments and deposits are only part of the long-term cost of buying a rental property. There is also the cost of repairs, administration and maintenance, property manager’s fees, insurance and so on, all of which require you to hold a significant amount of money in reserve. Failure to factor these in when calculating how much you can afford to part with in mortgage repayments can lead to disaster."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "One of the biggest traps for first-time investors, according to Nylles, is the temptation to pay over the odds to get the property you desire. Buyers often get carried away, especially in the auction-room setting, which can get quite competitive and even descend into a racket of one-upmanship. They end up paying top dollar and landing themselves in a financial situation they can ill afford to be in. Remember, you are in the property game to make money, so the more money you have to pay up front for a property, the less likely you are to recoup your investment in the long run. The good news, however, is that the housing market is not very hot at the moment, which means the danger of overpaying is not so great. Always set emotions to one side and think from a purely business perspective. The question of your liking or disliking the property is irrelevant. As Nylles points out, “You will not be living there.” Business decisions are made in the cold, hard light of day; your objective is to minimise your outlay and maximise your return. Whether you secure a huge home in pristine condition or a tiny flat with barely enough room to stretch out is irrelevant – if the tiny flat gets you a better return on your investment then the choice is a no-brainer."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "And last of all, do your homework. You’ve got to get to know the location in which you are going to invest. Look out for areas which are earmarked for government investment. Urban renewal areas are often very attractive since house and rental prices in such places are low right now but can be expected to rise in the not too distant future. The range of local amenities, safety and the state of the local economy are all important factors to consider, too. As the old saying goes, ‘location, location, location.’ Invest in a good location and you will maximize your rental income."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27–33\nAnswer the questions below using NO MORE THAN THREE WORDS for each answer.\nWhat are investors getting fed up with?\n27 _________________\n\n\nJanet Anderson is involved in the sale of property. What is another phrase used in\nparagraph 1 to describe this type of business?\n28 _________________\n\n\nWhat is one of the best ways to identify a bargain in the property market?\n29 _________________\n\n\nFailure to meet which payments can cause your home to be repossessed?\n30 _________________\n\nWhat do banks want to get back quickly on foreclosed properties?\n31 _________________\n\nDeveloping networks is an excellent way to find what?\n32 _________________\n\nWhat is the biggest error of judgement first-time investors can make, according to\nAnderson?\n33 _________________"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 40,
+      "text": "Questions 34–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn spaces 34–40 below, write\n YES                     if the statement agrees with the views of the writer\n\n NO                      if the statement contradicts the views of the writer\n\n NOT GIVEN               if it is impossible to say what the writer thinks about this\n\n\n34 _________________ Banks demand larger deposits from first-time property investors.\n35 _________________ By making a larger deposit, investors can limit their personal financial\nrisk.\n36 _________________ There are a lot of long-term costs to take into consideration before\npurchasing a rental property.\n37 _________________ Banks require you to hold a lot of money in reserve to meet your\nlong-term property maintenance costs.\n38 _________________ Many investors are tempted to pay more than they should for their\ninvestment properties.\n39 _________________ At the moment, house prices are extremely high in general.\n40 _________________ There are a lot of urban renewal projects that have been earmarked by\nthe government."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ Janet Anderson is involved in the sale of property. What is another phrase used in paragraph 1 to describe this type of business?",
+      "translation": "投資者正在厭倦甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ What is one of the best ways to identify a bargain in the property market?",
+      "translation": "Janet Anderson 從事物業買賣。Paragraph 1 用哪個另一個說法形容這類業務？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ Failure to meet which payments can cause your home to be repossessed?",
+      "translation": "在物業市場中，找出 bargain 的最佳方法之一是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ What do banks want to get back quickly on foreclosed properties?",
+      "translation": "未能支付哪一種款項會令房屋被收回？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ Developing networks is an excellent way to find what?",
+      "translation": "對於被收回的物業，銀行想快速取回甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ What is the biggest error of judgement first-time investors can make, according to Anderson?",
+      "translation": "建立人脈是找到甚麼的好方法？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "根據 Anderson，首次投資者可能犯的最大判斷錯誤是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ Banks demand larger deposits from first-time property investors.",
+      "translation": "銀行會向首次物業投資者要求較大首期。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ By making a larger deposit, investors can limit their personal financial risk.",
+      "translation": "投資者付較大首期，可以限制自己的個人財務風險。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ There are a lot of long-term costs to take into consideration before purchasing a rental property.",
+      "translation": "購買出租物業前，有很多長期成本要考慮。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ Banks require you to hold a lot of money in reserve to meet your long-term property maintenance costs.",
+      "translation": "銀行要求你持有很多 reserve money，以應付長期物業維修成本。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ Many investors are tempted to pay more than they should for their investment properties.",
+      "translation": "很多投資者會受誘惑，為投資物業付出高於合理水平的價錢。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ At the moment, house prices are extremely high in general.",
+      "translation": "目前整體樓價非常高。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_________________ There are a lot of urban renewal projects that have been earmarked by the government.",
+      "translation": "有很多已被政府指定的都市更新項目。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-086/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-086/page-5.jpg"
+  ]
+}

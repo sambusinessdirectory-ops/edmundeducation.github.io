@@ -1,0 +1,258 @@
+{
+  "id": "p1-028",
+  "catalogueId": "p1-028",
+  "title": "Learning by Examples",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 28,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-028-learning-by-examples",
+  "source": {
+    "filename": "Practice 28 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "6d860d75dca16c3b78a30c1e30030200d85b5fb21790b295de258a74b25fed04"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Learning by Example A Learning theory is rooted in the work of Ivan Pavlov, the famous scientist who discovered and documented the principles governing how animals, including humans, learn in the 1900s. Two basic kinds of learning, or conditioning, occur, one of which is famously known as classical conditioning. Classical conditioning happens when an animal learns to associate a neutral stimulus, or signal, with a stimulus that has intrinsic meaning, based on how closely in time the two stimuli are presented."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The classic example of classical conditioning is a dog’s ability to associate the sound of a bell, something that originally has no meaning to the dog, with the presentation of food, something that has a lot of meaning to the dog, a few moments later. Dogs are able to learn the association between the bell and food, and will salivate immediately after hearing the bell once this connection has been made. Years of learning research have led to the creation of a highly precise learning theory that can be used to understand and predict how and under what circumstances almost any animal will learn, including human beings, and eventually help people figure out how to change their behaviours."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "B Role models are a popular notion for guiding child development, but in recent years very interesting research has been done on learning by example in other animals. If the subject of animal learning is taught very much in terms of classical or operant conditioning, it places too much emphasis on how we allow animals to learn and not enough on how they are equipped to learn. To teach a course of mine, I have been dipping profitably into a very interesting and accessible compilation of papers on social learning in mammals, including chimps and human children, edited by Heyes and Galef (1996)."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "C The research reported in one paper started with a school field trip to Israel, to a pine forest where many pine cones were discovered stripped to the central core. So the investigation started with no weighty theoretical intent, but was directed at finding out what was eating the nutritious pine seeds and how they managed to get them out of the cones. The culprit proved to be the versatile and athletic black rat (Rattus rattus), and the technique was to bite each cone scale off at its base, in sequence from base to tip, following the spiral growth pattern of the cone."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "D Urban black rats were found to lack the skill and were unable to learn it even if housed with experienced cone strippers. However, infants of urban mothers cross-fostered by stripper mothers acquired the skill, whereas infants of stripper mothers fostered by an urban mother could not. Clearly, the skill had to be learned from the mother. Further elegant experiments showed that naïve adults could develop the skill if they were provided with cones from which the first complete spiral of scales had been removed, rather like our new photocopier, which you can work out how to use once someone has shown you how to switch it on. In the case of rats, the youngsters take cones away from the mother when she is still feeding on them, allowing them to acquire the complete stripping skill."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "E A good example of adaptive behaviour, we might conclude, but let’s look at the economics. This was determined by measuring the oxygen uptake of a rat stripping a cone in a metabolic chamber to calculate the energetic cost, and comparing it with the benefit of the pine seeds measured by calorimeter. The cost proved to be less than 10% of the energetic value of the cone: an acceptable profit margin."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "F A 1996 paper in Animal Behaviour by Bednekoff and Balda provides a different view of the adaptiveness of social learning. It concerns the seed-caching behaviour of Clark’s nutcracker (Nucifraga columbiana) and the Mexican jay (Aphelocoma ultramarina)."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The former is a specialist, caching 30,000 or so seeds in scattered locations that it will recover over the months of winter. The Mexican jay will also cache food, but is much less dependent upon this than the nutcracker. The two species also differ in their social structure: the nutcracker is rather solitary, while the jay forages in social groups."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "G The experiment was designed to discover not just whether a bird can remember where it hid a seed, but also whether it can remember where it saw another bird hide a seed. The design is slightly comical, with a cacher bird wandering about a room with lots of holes in the floor, hiding food in some of the holes, while being watched by an observer bird perched in a cage. Two days later, cachers and observers are tested for their recovery rate against an estimated random performance. In the role of cacher, not only the nutcracker but also the less specialised jay performed above chance. More surprisingly, however, jay observers were as successful as jay cachers, whereas nutcracker observers did no better than chance. It seems that, whereas the nutcracker is highly adapted at remembering where it hid its own seeds, the socially living Mexican jay is more adept at remembering, and thus exploiting, the caches of others."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\n\nReading Passage 1 has seven paragraphs, A–G.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A–G, in boxes 1–4 on your answer sheet.\n\n     1. __________ A comparison between rats’ learning and human learning\n     2. __________ A reference to the earliest study in animal learning\n\n3. __________ The discovery of who stripped the pine cones\n   4. __________ A description of a cost-effectiveness experiment"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\n\nDo the following statements agree with the information given in Reading Passage 1?\n\nIn boxes 5–8 on your answer sheet, write:\n\nTRUE — if the statement agrees with the information\nFALSE — if the statement contradicts the information\nNOT GIVEN — if there is no information about this\n\n   5. __________ The field trip to Israel was carried out to investigate how black rats\n       learn to strip pine cones.\n   6. __________ The pine cones were stripped from bottom to top by black rats.\n   7. __________ People can learn to use a photocopier once they have been shown\n       the first step.\n   8. __________ Stripping pine cones is instinctive in black rats."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\n\nComplete the summary below using words from the box.\n\nWrite your answers in boxes 9–13 on your answer sheet.\n\nNote: The word box was not included in the source text.\n\nWhile the nutcracker is more able to cache seeds, the jay relies 9. __________ on\ncaching food and is therefore less specialised in this ability, but more 10.\n__________. To study their caching behaviour and their ability to find caches, an\n\nexperiment was designed and carried out to test these two birds for their ability to\nremember where they hid the seeds.\n\nIn the experiment, the cacher bird hid seeds in the ground while the other 11.\n__________. As a result, the nutcracker and the Mexican jay showed different\nperformances in the role of 12. __________ when finding the seeds: the observing\n13. __________ did not do as well as its counterpart."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ A comparison between rats’ learning and human learning",
+      "translation": "老鼠學習和人類學習之間的比較。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ A reference to the earliest study in animal learning",
+      "translation": "提到最早期的動物學習研究。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ The discovery of who stripped the pine cones",
+      "translation": "發現是誰剝掉 pine cones。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "__________ A description of a cost-effectiveness experiment",
+      "translation": "描述一個成本效益實驗。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ The field trip to Israel was carried out to investigate how black rats learn to strip pine cones.",
+      "translation": "那次到以色列的實地考察，是為了研究 black rats 如何學會剝 pine cones。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ The pine cones were stripped from bottom to top by black rats.",
+      "translation": "black rats 由底部到頂部剝 pine cones。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ People can learn to use a photocopier once they have been shown the first step.",
+      "translation": "人們只要被示範第一步，就可以學會使用影印機。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "__________ Stripping pine cones is instinctive in black rats.",
+      "translation": "剝 pine cones 是 black rats 的本能。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "雖然 nutcracker 更擅長儲藏種子，jay 對儲藏食物的依賴 9. ________，因此在這項能力上較不專門化。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "因此牠在這項能力上較不專門化，但更 10. ________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "在實驗中，cacher bird 把種子藏在地上的洞中，而另一隻鳥則 11. ________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "結果，nutcracker 和 Mexican jay 在 12. ________ 角色下尋找種子時，表現不同。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "text",
+      "prompt": "__________ did not do as well as its counterpart.",
+      "translation": "作為觀察者的 13. ________ 表現不如另一方。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-028/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-028/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-028/page-6.jpg"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "p3-151",
+  "catalogueId": "p3-151",
+  "title": "Origin of Species & Continent Formation",
+  "sourceHeading": "Origin of Species and Continent Formation",
+  "passage": 3,
+  "practice": 151,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-151-origin-of-species-continent-formation",
+  "source": {
+    "filename": "Practice 151 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "5e56f30deda39dce3da0a735546b38e42ca2393d977803c18f5d828ab1e1c1c3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The fact that there was once a Pangean supercontinent, a Panthalassa Ocean, and a Tethys Ocean, has profound implications for the evolution of multicellular life on Earth. These considerations were unknown to the scientists of the 19th century – making their scientific deductions even more remarkable. Quite independently of each other, Charles Darwin and his young contemporary Alfred Russel Wallace reached the conclusion that life had evolved by natural selection. Wallace later wrote in My Life of his own inspiration:"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Why do some species die and some live? The answer was clearly that on the whole the best fitted lived. From the effects of disease the most healthy escaped; from enemies the strongest, the swiftest or the most cunning; from famine, the best hunters – then it suddenly flashed on me that this self-acting process would improve the race, because in every generation the inferior would inevitably be killed off and the superior would remain, that is, the fittest would survive."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Both Darwin’s and Wallace’s ideas about natural selection had been influenced by the essays of Thomas Malthus in his Principles of Population. Their conclusion, however, had been the direct result of their personal observation of animals and plants in widely separated geographic locations: Darwin from his experiences during the voyage of the Beagle, and particularly during the ship’s visit to the Galapagos Islands in the East Pacific in 1835; Wallace during his years of travel in the Amazon Basin and in the Indonesian-Australian Archipelago in the 1850s."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Darwin had been documenting his ideas on natural selection for many years when he received a paper on this selfsame subject from Wallace, who asked for Darwin’s opinion and help in getting it published. In July 1858, Charles Lyell and J. D. Hooker, close friends of Darwin, pressed Darwin to present his conclusions so that he would not lose priority to an unknown naturalist. Presiding over the hastily called but now historic meeting of the Linnean Society in London, Lyell and Hooker explained to the distinguished members how “these two gentlemen” (who were absent: Wallace was abroad and Darwin chose not to attend) had “independently and unknown to one another, conceived the same very ingenious theory.”"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Both Darwin and Wallace had realized that the anomalous distribution of species in particular regions had profound evolutionary significance. Subsequently, Darwin spent the rest of his days in almost total seclusion thinking and writing mainly about the origin of species. In contrast, Wallace applied himself to the science of biogeography, the study of the pattern and distribution of species, and its significance, resulting in the publication of a massive two-volume work, The Geographical Distribution of Animals in 1876."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Wallace was a gentle and modest man, but also persistent and quietly courageous. He spent years working in the most arduous possible climates and terrains. In the Malay Archipelago, he made patient and detailed zoological observations and collected a huge number of specimens for museums and collectors—which is how he made a living. One result of his work was the conclusion that there is a distinct faunal boundary, called “Wallace’s Line,” between an Asian realm of animals in Java, Borneo and the Philippines and an Australian realm in New Guinea and Australia. In essence, this boundary posed a difficult question: How on Earth did plants and animals with a clear affinity with the Northern Hemisphere meet with their Southern Hemisphere counterparts along such a distinct Malaysian demarcation zone? Wallace was uncertain about demarcation on one particular island—Celebes, a curiously shaped place that is midway between the two groups. Initially, he assigned its flora and fauna to the Australian side of the line, but later he transferred it to the Asian side. Today we know the reason for his dilemma. 200 million years ago, East and West Celebes were islands with their own natural history lying on opposite sides of the Tethys Ocean. They did not collide until about 15 million years ago. The answer to the main question is that Wallace’s Line categorizes Laurasia-derived flora and fauna (the Asian) and Gondwana-derived flora and fauna (the Australian), which had evolved on opposite shores of the Tethys. The closure of the Tethys Ocean today is manifested by the ongoing collision of Australia/New Guinea with Indochina/Indonesia and the continuing closure of the Mediterranean Sea – a remnant of the Western Tethys Ocean."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In his Origin of Continents and Oceans, Wegener quoted at length from Wallace’s Geographical Distribution of Animals. According to Wegener’s reading, Wallace had identified three clear divisions of Australian animals, which supported his own theory of continental displacement. Wallace had shown that animals long established in southwestern Australia had an affinity with animals in South Africa, Madagascar, India, and Ceylon, but did not have an affinity with those in Asia. Wallace also showed that Australian marsupials and monotremes are clearly related to those in South America, the Moluccas, and various Pacific islands and that none are found in neighboring Indonesia. From this and related data, Wegener concluded that the then broadly accepted “land-bridge” theory could not account for this distribution of animals and that only his theory of continental drift could explain it."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The theory that Wegener dismissed in preference to his own proposed that plants and animals had once migrated across now-submerged intercontinental land bridges. In 1885, one of Europe’s leading geologists, Eduard Suess, theorized that as the rigid Earth cools, its upper crust shrinks and wrinkles like the withering skin of an aging apple. He suggested that the planet’s seas and oceans now fill the wrinkles between once-contiguous plateaus."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Today, we know that we live on a dynamic Earth with shifting, colliding and separating tectonic plates, not a “withering skin”, and the main debate in the field of biogeography has shifted. The discussion now concerns “dispersalism” versus “vicarianism”: unrestricted radiation of species on the one hand and the development of barriers to migration on the other. Dispersal is a short-term phenomenon – the daily or seasonal migration of species and their radiation to the limits of their natural environment on an extensive and continuous landmass. Vicarian evolution, however, depends upon the separation and isolation of a variety of species within the confines of natural barriers in the form of islands, lakes, or shallow seas – topographical features that take a long time to develop."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nUse the information in the passage to match the people (listed A–E) with opinions or deeds\nbelow.\nWrite the appropriate letters A–E in boxes 28–32 on your answer sheet.\n A                                  Suess\n\n B                                  Wallace\n\n C                                  Darwin and Wallace\n\n D                                  Wegener\n\n E                                  Lyell and Hooker\n28 __________ Urged Darwin to publish his scientific findings\n29 __________ Described the physical features of the Earth’s crust.\n30 __________ Believed in continental drift while rejecting the land-bridge theory\n31 __________ Published work on the distribution of animals in different regions.\n32 __________ Argued that species evolve through natural selection."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 35,
+      "text": "Questions 33–35\nThe Reading Passage has nine paragraphs A–I\nWhich paragraph contains the following information?\nWrite the correct letter A–I, in boxes 33–35 on your answer sheet.\n33 __________ The best-adapted animals survived.\n34 __________ A boundary called Wallace’s Line was found between Asian and Australian\nfauna.\n35 __________ Links exist between animals in Australia and Africa."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the following summary of the paragraphs of Reading Passage.\nUsing NO MORE THAN TWO WORDS from the Reading Passage for each answer.\nWrite your answers in boxes 36–40 on your answer sheet.\n\n\nWegener found that continental drift, rather than the “land bridge” theory, could\nexplain the unusual distribution of species. The rejected theory proposed that\nplants and animals had once 36 __________ between continents. Eduard Suess\ncompared the wrinkles in the Earth’s crust to the 37 __________ of an aging\napple. Today, we know that we live on a planet with 38 __________ in constant\nmotion, rather than the kind of Earth Suess described. The central debate in\nbiogeography has shifted to two concepts: “39 __________” and “40\n__________”."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Urged Darwin to publish his scientific findings",
+      "translation": "催促 Darwin 發表他的科學發現。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Described the physical features of the Earth’s crust.",
+      "translation": "描述了地殼的物理特徵。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Believed in continental drift while rejecting the land-bridge theory",
+      "translation": "相信大陸漂移，同時拒絕陸橋理論。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Published work on the distribution of animals in different regions.",
+      "translation": "出版了關於不同地區動物分布的著作。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Argued that species evolve through natural selection.",
+      "translation": "主張物種透過自然選擇演化。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ The best-adapted animals survived.",
+      "translation": "最能適應環境的動物存活下來。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ A boundary called Wallace’s Line was found between Asian and Australian fauna.",
+      "translation": "在亞洲和澳洲動物群之間發現了一條名為 Wallace’s Line 的邊界。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Links exist between animals in Australia and Africa.",
+      "translation": "澳洲和非洲的動物之間存在關聯。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "被拒絕的理論提出，動植物曾經在各大陸之間 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "Eduard Suess 把地殼皺褶比作老蘋果的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "今天我們知道，我們生活在一個有 ______ 不斷運動的星球上，而非 Suess 描述的那種地球。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "生物地理學的核心爭論已轉向兩個概念：“” 和 “”。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "生物地理學的核心爭論已轉向兩個概念：“dispersalism” 和 “______”。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-151/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-151/page-6.jpg"
+  ]
+}

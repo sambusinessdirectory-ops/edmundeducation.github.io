@@ -1,0 +1,265 @@
+{
+  "id": "p3-168",
+  "catalogueId": "p3-168",
+  "title": "Growing up in New Zealand",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 168,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-168-growing-up-in-new-zealand",
+  "source": {
+    "filename": "Practice 168 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "f1259d295848d61c99ba0b7b0bae4979c8f3809af6066e17dd7fd988678fb193"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Growing Up in New Zealand It has long been known that the first one thousand days of life are the most critical in ensuring a person’s healthy future; precisely what happens during this period to any individual has been less well documented. To allocate resources appropriately, public health and education policies need to be based upon quantifiable data, so the New Zealand Ministry of Social Development began a longitudinal study of these early days, with a view to extending it for two decades. Born between March 2009 and May 2010, the 6,846 babies recruited came from a densely populated area of New Zealand, and it is hoped they will be followed until they reach the age of 21."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "By 2014, four reports, collectively known as Growing Up in New Zealand (GUiNZ), had been published, showing New Zealand to be a complex, changing country, with the participants and their families being markedly different from those of previous generations."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Of the 6,846 babies, the majority were identified as European New Zealanders, but one quarter were Maori (indigenous New Zealanders), 20% were Pacific (originating in islands in the Pacific), and one in six were Asian. Almost 50% of the children had more than one ethnicity."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The first three reports of GUiNZ are descriptive, portraying the cohort before birth, at nine months, and at two years of age. Already, the first report, Before we are born, has made history as it contains interviews with the children’s mothers and fathers. The fourth report, which is more analytical, explores the definition of vulnerability for children in their first one thousand days."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Before we are born, published in 2010, describes the hopes, dreams, and realities that prospective parents have. It shows that the average age of parents having a child was 30, and around two-thirds of parents were in legally binding relationships. However, one-third of the children were born to either a mother or a father who did not grow up in New Zealand – a significant difference from previous longitudinal studies in which a vast majority of parents were New Zealanders born and bred. Around 60% of the births in the cohort were planned, and most families hoped to have two or three children. During pregnancy, some women changed their behaviour, with regard to smoking, alcohol, and exercise, but many did not. Such information will be useful for public health campaigns."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Now we are born is the second report. Fifty-two percent of its babies were male and 48% female, with nearly a quarter delivered by caesarean section. The World Health Organisation and New Zealand guidelines recommend babies be breastfed exclusively for six months, but the median duration of exclusive breastfeeding in the GUiNZ cohort was four months since almost one-third of mothers had returned to full-time work. By nine months, the babies were all eating solid food. While 54% of them were living in accommodation their families owned, their parents had almost all experienced a drop in income, sometimes a steep one, mostly due to mothers’ not working. Over 90% of the babies were immunised, and almost all were in very good health. Of the mothers, however, 11% had experienced post-natal depression – an alarming statistic, perhaps, but, once again, useful for mental health campaigns. Many of the babies were put in childcare while their mothers worked or studied, and the providers varied by ethnicity: children who were Maori or Pacific were more likely to be looked after by grandparents; European New Zealanders tended to be sent to daycare."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Now we are two, the third report, provides more insights into the children’s development – physically, emotionally, behaviourally, and cognitively. Major changes in home environments are documented, such as changes in socio-economic circumstances and childcare arrangements. Information was collected both from direct observations of the children and from parental interviews. Once again, a high proportion of New Zealand two-year-olds were in very good health. Two-thirds of the children knew their gender and used their own name or expressed independence in some way. The most common first word was a variation on ‘Mum’, and the most commonly named favourite first food was a banana. Bilingual or multilingual children constituted a large minority, at 40%. Digital exposure was high: one in seven two-year-olds had used a laptop or a children’s computer, and 80% watched TV or DVDs daily; by contrast, 66% had books read to them each day."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The fourth report evaluates twelve environmental risk factors that increase the likelihood of poor developmental outcomes for children and draws on experiences in Western Europe, where the specific factors were collated. This, however, was the first time they had been used in a New Zealand context. The factors include being born to an adolescent mother; having one or both parents on income-tested benefits; and living in cramped conditions."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "In addition to descriptive reports, future reports will focus on children who move in and out of vulnerability to see how these transitions affect their later life."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "To date, GUiNZ has been highly successful with only a very small dropout rate among participants – even those living abroad, predominantly in Australia, have continued to provide information. The portrait GUiNZ paints of a country and its people is indeed revealing."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–33",
+    "g34": "Questions 34–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 33,
+      "text": "Questions 28–33\nDo the following statements agree with the information given in the reading passage?\nIn boxes 28–33 on your answer sheet, write:\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n28 __________ Findings from studies like GUiNZ will inform public policy.\n29 __________ Exactly 6,846 babies formed the GUiNZ cohort.\n30 __________ GUiNZ will probably end when the children reach ten.\n31 __________ Eventually, there will be 21 reports in GUiNZ.\n32 __________ So far, GUiNZ has shown New Zealanders today to be rather similar to those of\n25 years ago.\n33 __________ Parents who took part in GUiNZ believe New Zealand is a good place to raise\nchildren."
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 40,
+      "text": "Questions 34–40\nClassify the following statements according to the report they relate to.\nWrite the correct letter, A, B, C, or D, in boxes 34–40 on your answer sheet.\n A                                                    Report 1\n\n B                                                    Report 2\n\n C                                                    Report 3\n\n D                                                    Report 4\n34 __________ This is unique because it contains interviews with both parents.\n35 __________ This looks at how children might be at risk.\n36 __________ This suggests having a child may lead to financial hardship.\n37 __________ Information for this came from direct observations of children.\n38 __________ This shows many children use electronic devices.\n39 __________ This was modelled on criteria used in Western Europe.\n40 __________ This suggests having a teenage mother could negatively affect a child."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Findings from studies like GUiNZ will inform public policy.",
+      "translation": "像 GUiNZ 這類研究的發現會為公共政策提供依據。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Exactly 6,846 babies formed the GUiNZ cohort.",
+      "translation": "GUiNZ cohort 正好由 6,846 名嬰兒組成。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ GUiNZ will probably end when the children reach ten.",
+      "translation": "GUiNZ 大概會在孩子十歲時結束。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Eventually, there will be 21 reports in GUiNZ.",
+      "translation": "最終 GUiNZ 會有 21 份報告。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ So far, GUiNZ has shown New Zealanders today to be rather similar to those of",
+      "translation": "到目前為止，GUiNZ 顯示今日新西蘭人和 25 年前的人相當相似。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Parents who took part in GUiNZ believe New Zealand is a good place to raise children.",
+      "translation": "參與 GUiNZ 的父母相信新西蘭是一個適合養育孩子的好地方。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ This is unique because it contains interviews with both parents.",
+      "translation": "這份報告很獨特，因為它包含對父母雙方的訪問。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ This looks at how children might be at risk.",
+      "translation": "這份報告探討兒童可能如何處於風險之中。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ This suggests having a child may lead to financial hardship.",
+      "translation": "這份報告暗示生孩子可能會導致經濟困難。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ Information for this came from direct observations of children.",
+      "translation": "這份報告的資料來自對兒童的直接觀察。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ This shows many children use electronic devices.",
+      "translation": "這份報告顯示許多兒童使用電子設備。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ This was modelled on criteria used in Western Europe.",
+      "translation": "這份報告以西歐使用過的準則為模型。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ This suggests having a teenage mother could negatively affect a child.",
+      "translation": "這份報告暗示有一位青少年母親可能會對孩子造成負面影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-168/page-4.jpg"
+  ]
+}

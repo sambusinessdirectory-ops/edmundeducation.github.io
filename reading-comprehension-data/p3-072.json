@@ -1,0 +1,276 @@
+{
+  "id": "p3-072",
+  "catalogueId": "p3-072",
+  "title": "Driverless cars",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 72,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-072-driverless-cars",
+  "source": {
+    "filename": "Practice 72 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "7c4918993d53acd8b34f7872b8ce0733ff30bfda9f7cff2dce205a498b498015"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Driverless Cars Driverless cars may be set to become a reality. At least, that is, if the executives behind the taxi app, Uber, are to be believed. Currently, Uber is taking its biggest steps yet towards a driver-free world, launching the Uber Advanced Technologies Centre in Pittsburgh. The ultimate goal of this institution is to ‘do research and development, primarily in the areas of mapping and vehicle safety and autonomy technology’."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "To date, Uber has provided a chauffeur-driven taxi service for American clients. Venturing into the realms of driverless cars is therefore a new direction which will require massive investment. It is indeed a huge leap of faith on Uber’s part, since technology has yet to catch up with the idea of a fully autonomous vehicle. On the plus side, cars equipped with self-driving technology can already park, stay in their lane and maintain a steady cruising speed. In a patchwork fashion, these capabilities could eventually build towards almost full automation, and Uber believes that car owners will readily embrace the idea of driverless taxis. In Uber’s eyes, current car owners only stand to gain from the introduction of such technology. Hiring a driverless cab means that the client does not have to pay for the cost of the driver in the cab fee. The only cost incurred by clients is for fuel, plus wear and tear. It is certainly an attractive proposition. Uber stands to benefit, too, since employees currently working as taxi drivers will be removed from the company’s payroll. For car users and Uber, it is a win-win situation."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Not everyone, however, will benefit from this technology. The car industry is an obvious example. Not surprisingly, the industry views the concept of self-driving cars with a sense of growing alarm. Such technology could well prove the death knell for private car ownership. As a result, the industry is dragging its feet over the manufacture and introduction of fully automated vehicles onto the market for commercial reasons."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Apart from the commercial aspect, there is also the issue of safety. Whilst a fully automated car could respond to most eventualities in the course of a trip, would it be capable of responding to unforeseen events, such as changes in route or unexpected diversions? Legislative authorities evidently share these safety concerns. Currently, no matter how much automation a car has, the law still requires a driver with a full licence behind the wheel before it can travel on public roads. Whilst robot drivers, on the whole, are generally safer than their human counterparts, that still does not guarantee that they will become legal. As a consortium of researchers put it, ‘If self-driving cars cut the roughly 40,000 annual US traffic fatalities in half, the car makers might get not 20,000 thank-you notes, but 20,000 lawsuits.’"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Interestingly, Uber is now undertaking an aggressive hiring campaign for taxi drivers to meet the demand for its taxi app. It seems that even Uber is less than confident that driverless taxis will soon become a reality. Whether Uber is pursuing a doomed venture or is about to introduce a technology that will be universally welcomed depends entirely on your viewpoint."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "John Reynolds, a Pittsburgh taxi driver, is angry at Uber’s attitude towards fully automated technology. ‘They are completely disregarding individual livelihoods, such as mine, as well as those of big car manufacturers in the pursuit of money. Admittedly things change and we have to roll with the times, but there should be some safeguards in place to protect those potentially affected by the introduction of new technologies. I guess I’m biased, being a taxi driver myself, but it’s difficult to see it objectively.’"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Susie Greenacre, a resident of Pittsburgh, has no such reservations about driverless cars. ‘I’m all for it. Driverless cars have my backing, any day! I hate the stress of rush-hour traffic! I think if I could just hop in a driverless car which would take me anywhere I wanted, I would never want to drive again!’"
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Jason Steiner, a schoolteacher in a Pittsburgh secondary school, is inclined to agree with Susie. ‘Whilst I’m not averse to driving, I would swap the stressful daily commute by car for a driverless journey if I had the chance! It just takes the pressure off driving. I would be slightly wary, though, of being completely dependent on a robot-driven car when it had to react to unexpected obstacles in the road.’"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nChoose the correct letter, A, B, C or D.\n\n\n27 Which of the following statements is accurate?\n A Driverless cars conform to safety regulations.\n B There is an obvious market for fully automated cars.\n C Human drivers are no competition for driverless cars.\n D Potentially, fully automated taxis are more cost-effective than normal taxis.\n\n28 Uber is investing in a technology that\n A will prove controversial.\n B has been tried and tested.\n C is unlikely to prove cost-effective.\n D will be universally welcomed.\n\n29 What is NOT true about driverless cars?\n A They have become a reality in many countries.\n B They may improve road safety.\n C They will reduce the cost of travelling.\n D They will endanger jobs.\n\n30 What can be said about current legislation?\n A It is in favour of driverless cars.\n B It currently doesn’t favour fully automated cars.\n C It is keeping up with technology.\n D It already accommodates driverless cars.\n\n31 What is the general view held by car manufacturers?\n A Driverless cars are more dangerous than non-automated cars.\n B Fully automated cars are too expensive to manufacture.\n C The introduction of driverless cars will threaten their livelihoods.\n D Technology is still too underdeveloped to manufacture driverless cars.\n\n32 What can be said about the writer’s opinion of driverless cars?\n A He is uninterested in, but sceptical about, the development of such technology.\n B He reserves judgement as to whether fully automated cars will become a reality.\n C He believes that such a technology will never become a reality.\n D He is critical of Uber’s plans to introduce fully automated cars."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nLook at the following statements (Questions 33–37) and the list of people.\nMatch each statement to the correct person, A–C.\nYou may use any letter more than once.\n A                                      John Reynolds\n\n B                                      Susie Greenacre\n\n                                        Jason Steiner\n C\n\n\n\n33 ___________ This person is willing to give up control of their vehicle because they\nappreciate the benefits of fully automated cars.\n34 ___________ This person would have no regrets about giving up driving entirely in favour of\nbeing driven by a fully automated car.\n35 ___________ This person is aware that the new technology of driverless cars may not\nprovide an adequate substitute for a human driver.\n36 ___________ This person believes that those affected adversely by new technology should\nbe protected from its effects.\n37 ___________ This person enjoys driving but only under favourable conditions."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nDo the following statements agree with the information given in the text?\nFor Questions 38–40, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n38 _________________ Driverless technology will have to overcome legal and safety obstacles\nto become completely viable.\n39 _________________ Uber has shown complete confidence in its investment in driverless\ncars.\n40 _________________ The safety issues with driverless technology are likely to be resolved\nfairly quickly."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Which of the following statements is accurate?",
+      "translation": "以下哪一項說法準確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Uber is investing in a technology that",
+      "translation": "Uber 正投資一項怎樣的技術？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What is NOT true about driverless cars?",
+      "translation": "關於 driverless cars，哪一項不正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What can be said about current legislation?",
+      "translation": "關於現行法律，可以怎樣說？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What is the general view held by car manufacturers?",
+      "translation": "汽車製造商一般持有甚麼看法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What can be said about the writer’s opinion of driverless cars?",
+      "translation": "關於作者對 driverless cars 的看法，可以怎樣說？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "___________ This person is willing to give up control of their vehicle because they appreciate the benefits of fully automated cars.",
+      "translation": "這個人願意放棄自己控制車輛，因為欣賞 fully automated cars 的好處。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "___________ This person would have no regrets about giving up driving entirely in favour of being driven by a fully automated car.",
+      "translation": "這個人若完全放棄開車、改由 fully automated car 接送，也不會後悔。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "___________ This person is aware that the new technology of driverless cars may not provide an adequate substitute for a human driver.",
+      "translation": "這個人意識到 driverless cars 這項新技術，可能未必能完全取代人類司機。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "___________ This person believes that those affected adversely by new technology should be protected from its effects.",
+      "translation": "這個人認為，受到新科技不利影響的人應得到保護。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "___________ This person enjoys driving but only under favourable conditions.",
+      "translation": "這個人喜歡或至少不抗拒開車，但只在較理想情況下如此。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "_________________ Driverless technology will have to overcome legal and safety obstacles to become completely viable.",
+      "translation": "Driverless technology 若要完全可行，必須克服法律和安全障礙。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "_________________ Uber has shown complete confidence in its investment in driverless cars.",
+      "translation": "Uber 對自己投資 driverless cars 顯示出完全信心。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "_________________ The safety issues with driverless technology are likely to be resolved fairly quickly.",
+      "translation": "Driverless technology 的安全問題很可能會相當快地解決。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-072/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-072/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-072/page-6.jpg"
+  ]
+}

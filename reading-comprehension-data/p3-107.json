@@ -1,0 +1,247 @@
+{
+  "id": "p3-107",
+  "catalogueId": "p3-107",
+  "title": "Striking the right note",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 107,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-107-striking-the-right-note",
+  "source": {
+    "filename": "Practice 107 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "6fc543d8834eb2e896b434b3b7ebe97cd67a0c0650d66042d5fae9ed6cb9e6d3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Striking the right note Is perfect pitch a rare talent possessed solely by the likes of Beethoven? Kathryn Brown discusses this much sought-after musical ability. The uncanny, if sometimes distracting, ability to name a solitary note out of the blue, without any other notes for reference, is a prized musical talent – and a scientific mystery. Musicians with perfect pitch – or, as many researchers prefer to call it, absolute pitch – can often play pieces by ear, and many can transcribe music brilliantly. That’s because they perceive the position of a note in the musical stave – its pitch – as clearly as the fact that they heard it. Hearing and naming the pitch go hand in hand."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "By contrast, most musicians follow not the notes, but the relationship between them. They may easily recognise two notes as being a certain number of tones apart, but could name the higher note as an E only if they are told the lower one is a C, for example. This is relative pitch. Useful, but much less mysterious."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "For centuries, absolute pitch has been thought of as the preserve of the musical elite. Some estimates suggest that maybe fewer than 1 in 2,000 people possess it. But a growing number of studies, from speech experiments to brain scans, are now suggesting that a knack for absolute pitch may be far more common, and more varied, than previously thought. ‘Absolute pitch is not an all-or-nothing feature,’ says Marvin, a music theorist at the University of Rochester in New York State. Some researchers even claim that we could all develop the skill, regardless of our musical talent. And their work may finally settle a decades-old debate about whether absolute pitch depends on melodious genes – or early music lessons."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Music psychologist Diana Deutsch at the University of California in San Diego is the leading voice. Last month at the Acoustical Society of America meeting in Columbus, Ohio, Deutsch reported a study that suggests we all have the potential to acquire absolute pitch – and that speakers of tone languages use it every day. A third of the world’s population – chiefly people in Asia and Africa – speak tone languages, in which a word’s meaning can vary depending on the pitch a speaker uses."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Deutsch and her colleagues asked seven native Vietnamese speakers and 15 native Mandarin speakers to read out lists of words on different days. The chosen words spanned a range of pitches, to force the speakers to raise and lower their voices considerably. By recording these recited lists and taking the average pitch for each whole word, the researchers compared the pitches used by each person to say each word on different days."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Both groups showed strikingly consistent pitch for any given word – often less than a quarter-tone difference between days. ‘The similarity,’ Deutsch says, ‘is mind-boggling.’ It’s also, she says, a real example of absolute pitch. As babies, the speakers learnt to associate certain pitches with meaningful words – just as a musician labels one tone A and another B – and they demonstrate this precise use of pitch regardless of whether or not they have had any musical training, she adds."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Deutsch isn’t the only researcher turning up everyday evidence of absolute pitch. At least three other experiments have found that people can launch into familiar songs at or very near the correct pitches. Some researchers have nicknamed this ability ‘absolute memory’, and they say it pops up in other senses, too. Given studies like these, the real mystery is why we don’t all have absolute pitch, says cognitive psychologist Daniel Levitin of McGill University in Montreal."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Over the past decade, researchers have confirmed that absolute pitch often runs in families. Nelson Freimer of the University of California in San Francisco, for example, is just completing a study that he says strongly suggests the right genes help create this brand of musical genius. Freimer gave tone tests to people with absolute pitch and to their relatives. He also tested several hundred other people who had taken early music lessons. He found that relatives of people with absolute pitch were far more likely to develop the skill than people who simply had the music lessons. ‘There is clearly a familial aggregation of absolute pitch,’ Freimer says."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Freimer says some children are probably genetically predisposed toward absolute pitch – and this innate inclination blossoms during childhood music lessons. Indeed, many researchers now point to this harmony of nature and nurture to explain why musicians with absolute pitch show different levels of the talent."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Indeed, researchers are finding more and more evidence suggesting music lessons are critical to the development of absolute pitch. In a survey of 2,700 students in American music conservatories and college programmes, New York University geneticist Peter Gregersen and his colleagues found that a whopping 32 per cent of the Asian students reported having absolute pitch, compared with just 7 per cent of non-Asian students. While that might suggest a genetic tendency towards absolute pitch in the Asian population, Gregersen says that the type and timing of music lessons probably explains much of the difference."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "For one thing, those with absolute pitch started lessons, on average, when they were five years old, while those without absolute pitch started around the age of eight. Moreover, adds Gregersen, the type of music lessons favoured in Asia, and by many of the Asian families in his study, such as the Suzuki method, often focus on playing by ear and learning the names of musical notes, while those more commonly used in the US tend to emphasise learning scales in a relative pitch way. In Japanese pre-school music programmes, he says, children often have to listen to notes played on a piano and hold up a coloured flag to signal the pitch. ‘There’s a distinct cultural difference,’ he says."
+    },
+    {
+      "number": 12,
+      "label": "12",
+      "text": "Deutsch predicts that further studies will reveal absolute pitch – in its imperfect, latent form – inside all of us. The Western emphasis on relative pitch simply obscures it, she contends. ‘It’s very likely that scientists will end up concluding that we’re all born with the potential to acquire very fine-grained absolute pitch. It’s really just a matter of life getting in the way.’"
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 35,
+      "text": "Questions 28–35\nComplete the notes below using words from the box.\nWrite your answers in boxes 28–35 on your answer sheet.\nNOTES\n\n\nResearch is being conducted into the mysterious musical 28 _________________\nsome people possess known as perfect pitch. Musicians with this talent are able\nto name and sing a 29 _________________ without reference to another and it is\nthis that separates them from the majority who have only 30 _________________\npitch. The research aims to find out whether this skill is the product of genetic\ninheritance or early exposure to 31 _________________ or, as some researchers\nbelieve, a combination of both. One research team sought a link between perfect\npitch and 32 _________________ languages in order to explain the high number\nof Asian speakers with perfect pitch. Speakers of Vietnamese and Mandarin were\nasked to recite 33 _________________ on different occasions and the results\nwere then compared in terms of 34 _________________. A separate study found\nthat the approach to teaching music in many Asian 35 _________________\nemphasised playing by ear whereas the US method was based on the relative\npitch approach.\n\n\nList of words\n ability              music lessons              pitch               words\n\n tone                 relative                   cultures            note"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\n\nReading Passage 3 contains a number of opinions provided by five different scientists. Match\neach opinion (Questions 36–40) with one of the scientists (A–E).\nWrite your answers in boxes 36–40 on your answer sheet.\n A                                             Levitin\n\n B                                             Deutsch\n\n C                                             Gregersen\n\n D                                             Marvin\n\n E                                             Freimer\n\n\nYou may use any of the people A–E more than once.\n36 ____________ Absolute pitch is not a clear-cut issue.\n37 ____________ Anyone can acquire perfect pitch.\n38 ____________ It’s actually surprising that not everyone has absolute pitch.\n39 ____________ Absolute pitch is genetic.\n40 ____________ The important thing is the age at which music lessons are started."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "研究正在探討某些人擁有、稱為 perfect pitch 的神秘音樂 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "有這種才能的音樂人能在沒有另一個參考音的情況下，說出並唱出一個 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "正是這一點把他們和大多數只擁有 ______ pitch 的人區分開來。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "研究想知道這種技能究竟來自遺傳，還是早期接觸 ______，又或者像部分研究者認為的那樣，是兩者結合。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "一個研究團隊試圖找出 perfect pitch 和 ______ languages 之間的關係，以解釋亞洲語言使用者中較高的 perfect pitch 人數。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "越南語和普通話使用者被要求在不同場合朗讀 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "然後，研究結果按 ______ 來比較。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "另一項研究發現，許多亞洲 ______ 中的音樂教學方法強調憑耳朵演奏；美國方法則較偏向相對音感。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "____________ Absolute pitch is not a clear-cut issue.",
+      "translation": "Absolute pitch 並非一個界線非常清楚、非有即無的問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "____________ Anyone can acquire perfect pitch.",
+      "translation": "任何人都有可能獲得 perfect pitch。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "____________ It’s actually surprising that not everyone has absolute pitch.",
+      "translation": "令人驚訝的是，並非人人都有 absolute pitch。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "____________ Absolute pitch is genetic.",
+      "translation": "Absolute pitch 和基因有關。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "____________ The important thing is the age at which music lessons are started.",
+      "translation": "重要的是開始上音樂課的年齡。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-107/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-107/page-6.jpg"
+  ]
+}

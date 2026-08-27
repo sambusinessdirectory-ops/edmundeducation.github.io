@@ -1,4 +1,4 @@
-export function bookmarkLocation(item, transcripts, timings) {
+export function bookmarkLocation(item, transcripts, timings, dataPractice = 1) {
   // Resolve old and new bookmark keys against authored data, never guess timings.
   const key = String(item.item_key || '');
   const rowMatch = key.match(/^practice(\d+):transcript:p([1-4]):line:(\d+)$/)
@@ -6,11 +6,11 @@ export function bookmarkLocation(item, transcripts, timings) {
   let practice, part, index;
   if (rowMatch) [, practice, part, index] = rowMatch.map(Number);
   else {
-    const question = key.match(/^practice1:analysis:q(\d+)$/);
-    const cue = question && timings.questions?.[question[1]];
-    if (cue) { practice = 1; part = cue.part; index = cue.line; }
+    const question = key.match(/^practice(\d+):analysis:q(\d+)$/);
+    const cue = question && timings.questions?.[question[2]];
+    if (cue) { practice = Number(question[1]); part = cue.part; index = cue.line; }
   }
-  if (practice !== 1 || !Number.isInteger(index)) return null;
+  if (practice !== dataPractice || !Number.isInteger(index)) return null;
   const row = transcripts[part]?.[index];
   const range = timings.parts?.[part]?.lines?.[index];
   if (!row || !range || !Number.isFinite(range.start) || !Number.isFinite(range.end) || range.end <= range.start) return null;

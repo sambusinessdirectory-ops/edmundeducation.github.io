@@ -1,0 +1,272 @@
+{
+  "id": "p3-056",
+  "catalogueId": "p3-056",
+  "title": "The Olympic Torch",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 56,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-056-the-olympic-torch",
+  "source": {
+    "filename": "Practice 56 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "230d56e82854ec87619f4c71ace26c23fce7cf39960a0a1884fe0dca9d41a703"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Olympic Torch Beginning in 776 BC, the Greeks held the Olympic Games every four years in Olympia. Back then, the Olympic torch made a long journey before the opening ceremony of each Olympic Games. The Greek people would light a flame in a cauldron on the altar, a ritual devoted to Hera, the Greek goddess of birth and marriage."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The reintroduction of the Olympic flame occurred at the Amsterdam 1928 Games, for which a cauldron was lit, though there was no torch relay. The 1936 Berlin Summer Games featured the first Olympic torch relay, which was not introduced at the Winter Olympics until 1952. However, in that year the torch was lit not in Olympia, Greece, but in Norway, which was considered the birthplace of skiing. It was not until the 1964 Winter Olympics in Innsbruck, Austria, that the Olympic flame was reignited at Olympia."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The torch begins as an abstract concept created by a designer or a group of designers. Several design teams submit their proposals to the Olympic Committee in the hope of getting the chance to create the torch. The winning group develops a design for a torch that has both aesthetic and practical value. After the torch is completed, it must withstand all sorts of severe weather conditions. The appearance of the modern Olympic torch is attributed to Disney artist John Hench, who designed the torch for the 1960 Winter Olympics in Squaw Valley, California. His design laid a solid foundation for all future Olympic torches."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The long journey to the Olympic host city is not completed by one single torch, but by thousands of them, so the torch has to be replicated many times. Approximately 10,000 to 15,000 torches are produced for the thousands of runners who take the torches through every section of the Olympic relay. Each runner can choose to buy his or her torch as a treasured souvenir when he or she finishes his or her part of the relay."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The first torch in the modern Olympics (the 1936 Berlin Games) was made from a slender steel rod with a circular platform at the top and a circular hole in the middle to emit a flame. The runner’s name was also inscribed on the platform as a token of thanks. In the earlier days, torches used everything from gunpowder to olive oil as fuels. Some torches used a combination of hexamine and naphthalene with a flammable fluid. However, these materials weren’t exactly the ideal fuel sources, and they could be quite hazardous at times. In the 1956 Olympics, the torch in the final relay was ignited by magnesium and aluminium, but some flaming pieces fell off and seared the runner’s arms."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "To improve safety, liquid fuels made their first appearance at the 1972 Munich Games. Since then, torches have used fuels pressurised into liquid form. When the fuels are burnt, they turn into gas to produce a flame. Liquid fuel is safer for the runner and can be stored in a light container. The torch at the 1996 Atlanta Summer Olympics was equipped with an aluminium base that accommodated a tiny fuel tank. As the fuel rises through the modified handle, it is squeezed through a brass valve that has thousands of little openings. As the fuel passes through the tiny openings, it accumulates pressure. Once it makes its way through the openings, the pressure decreases and the liquid becomes gas so it can burn."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The torch in 1996 was fuelled by propylene, a type of substance that could produce a bright flame. However, since propylene was carbon-rich, it would produce plenty of smoke which was detrimental to the environment. In 2000, the designers of the Sydney Olympic torch proposed a lighter and cheaper design, which was harmless to the environment. As fuel, they chose a combination of 35 per cent propane (a gas that is used for cooking and heating) and 65 per cent butane (a gas that is obtained from petroleum), thus creating a powerful flame without generating much smoke."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Both the 1996 and 2000 torches used a dual-flame system, enabling the flames to stay lit even in severe weather conditions. The exterior flame burns at a slower rate and at a lower temperature. It can be perceived easily with its big orange flame, but it is unstable. On the other hand, the interior flame burns faster and hotter, generating a small blue flame with great stability, because its inner location offers protection from the wind. Accordingly, the interior flame would serve as a pilot light, which could relight the external flame if it should go out."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "As for the torch at the 2002 Olympics in Salt Lake City, the top section was made of glass in which the flame burned, to reflect that Olympics’ theme, ‘Light the Fire Within’. This torch was of great significance for the design of subsequent torches."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–29",
+    "g30": "Questions 30–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 29,
+      "text": "Questions 27–29\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 27–29 on your answer sheet.\nThe Olympic torch, as requested by the Olympic Committee, will be carefully designed so that it\nis capable of withstanding all kinds of 27 _________________. Generally, the design of the\nmodern Olympic torch has both 28 _________________ value.\nThe torch must be copied, and thousands of torches are constructed to accommodate\nthousands of runners who will carry them through each leg of the Olympic relay. Each runner\nhas an opportunity to purchase the torch as a 29 _________________ at the end of his or her\nleg of the relay."
+    },
+    {
+      "id": "g30",
+      "start": 30,
+      "end": 35,
+      "text": "Questions 30–35\nLook at the following statements (Questions 30–35) and the list of Olympic torches below.\nMatch each statement with the correct Olympic torch, A–H.\nWrite the correct letter, A–H, in boxes 30–35 on your answer sheet.\n\n                           List of Olympic Torches\n\n A                         ancient Greek Olympic flames\n\n B                         Berlin Games torch (1936)\n\n C                         1952 Winter Games flame\n\n D                         1956 Games torch\n\n E                         Munich Games torch (1972)\n\n F                         1996 torch (Atlanta)\n\n G                         2000 torch (Sydney)\n\n H                         2002 torch (Salt Lake City)\n30 __________ first use of liquid fuel\n31 __________ not environmentally friendly\n32 __________ first to record the runner’s name\n33 __________ potentially risky as it burnt the runner’s arms\n34 __________ specially designed around a ‘Light’ theme\n35 __________ not lit in Greece"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nLabel the diagram below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 36–40 on your answer sheet.\n\n\n\n\n36 _________________\n37 _________________\n38 _________________\n39 _________________\n40 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "奧運火炬按照 Olympic Committee 的要求，會被仔細設計，使它能承受各種 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "一般來說，現代奧運火炬的設計同時具有 ______ 價值。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "每位跑手在完成自己那一段接力後，都有機會購買自己的火炬，作為一件 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "__________ first use of liquid fuel",
+      "translation": "首次使用液體燃料。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "__________ not environmentally friendly",
+      "translation": "不環保。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "__________ first to record the runner’s name",
+      "translation": "首次記錄跑手姓名。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "__________ potentially risky as it burnt the runner’s arms",
+      "translation": "有潛在危險，因為它燒傷了跑手的手臂。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "__________ specially designed around a ‘Light’ theme",
+      "translation": "圍繞 “Light” 主題特別設計。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "__________ not lit in Greece",
+      "translation": "沒有在希臘點燃。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "由鋁製底座包覆／容納的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "一個有許多小型 ______ 的黃銅閥門。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "加壓燃料從改良過的 ______ 向上升。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "液體燃料。在 2000 年，它是 ______ 的混合物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "燃燒系統產生 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-056/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-056/page-5.jpg"
+  ]
+}

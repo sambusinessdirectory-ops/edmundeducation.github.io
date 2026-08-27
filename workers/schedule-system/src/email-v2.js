@@ -7,11 +7,25 @@ export function safeDiagnostic(error) {
     .replace(/[\r\n\t]/g, ' ').slice(0,700);
 }
 export async function emailEvent(env, rpc, stage, outcome, details = {}, job = null) {
+  if (env.EMAIL_EVENTS && !job) {
+    if (env.EMAIL_EVENTS.length < 50) env.EMAIL_EVENTS.push({stage,outcome,details,time:new Date().toISOString()});
+    return;
+  }
   if(!env.EMAIL_ADMIN_TOKEN && !job?.jobId) return;
   const event = {p_admin_token:env.EMAIL_ADMIN_TOKEN || null,p_job_id:job?.jobId || null,
     p_request_id:job?.requestId || env.EMAIL_REQUEST_ID || null,p_stage:stage,p_outcome:outcome,p_details:details};
-  try { await rpc(env,'schedule_email_v2_event',event); }
+  try { await rpc(env,'schedule_email_v2_event',event,{timeoutMs:5000}); }
   catch { console.error('EMAIL_AUDIT_UNAVAILABLE', {requestId:event.p_request_id,jobId:event.p_job_id,stage,outcome}); }
+}
+export async function flushEmailEvents(env,rpc) {
+  if(!env.EMAIL_ADMIN_TOKEN || !env.EMAIL_EVENTS?.length) return;
+  const events=env.EMAIL_EVENTS.splice(0);
+  try {
+    const saved=await rpc(env,'schedule_email_v3_events',{p_admin_token:env.EMAIL_ADMIN_TOKEN,p_request_id:env.EMAIL_REQUEST_ID,p_events:events},{timeoutMs:5000});
+    if(!saved) throw new Error('AUDIT_REJECTED');
+  } catch {
+    console.error('EMAIL_AUDIT_UNAVAILABLE',{requestId:env.EMAIL_REQUEST_ID,stages:events.map(e=>e.stage)});
+  }
 }
 async function hmac(env, value) {
   const key = await crypto.subtle.importKey('raw',new TextEncoder().encode(env.SCHEDULE_SERVICE_SECRET),{name:'HMAC',hash:'SHA-256'},false,['sign']);
