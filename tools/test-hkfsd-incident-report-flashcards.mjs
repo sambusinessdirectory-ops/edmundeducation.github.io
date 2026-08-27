@@ -76,7 +76,7 @@ assert.ok(audioMeta?.count >= 136333, `audio manifest is incomplete (${audioMeta
 const html = read("flashcards.html");
 const generator = read("tools/generate-flashcard-audio.py");
 assert.match(html, /flashcards-hkfsd-incident-reports-data\.js\?v=20260818-1/);
-assert.match(html, /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260818-(?:[2-9]|[1-9]\d+)/, "Flash Card audio cache pin was not advanced");
+assert.match(html, /flashcards-audio-manifest\.js\?v=edmund-neural-v1-20260827-(?:[1-9]\d*)/, "Flash Card audio cache pin was not advanced");
 assert.match(html, /const hkfsdIncidentReportDecks = Array\.from\(\{ length: 10 \}/);
 assert.match(html, /route:\s*"government-hkfsd-incident-reports"/);
 assert.match(html, /route === "government-hkfsd-incident-reports"/);
