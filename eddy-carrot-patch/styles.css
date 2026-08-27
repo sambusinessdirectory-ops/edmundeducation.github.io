@@ -103,6 +103,8 @@ h1 {
 .subtitle { margin: 0; color: #59705d; font-size: .76rem; font-weight: 650; white-space: nowrap; }
 
 .stats { display: flex; flex: 0 0 auto; align-items: center; gap: 4px; }
+.topbar { flex-wrap: wrap; }
+.stats { flex-wrap: wrap; max-width: 100%; }
 .stat-pill {
   display: flex;
   align-items: baseline;
@@ -373,3 +375,10 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; } }
+/* Student-owned seed shop; loaded only after the game Start gate. */
+.farm-shop{width:min(880px,calc(100% - 28px));max-height:85dvh;overflow:auto;border:1px solid #dec176;border-radius:24px;background:#fffbec;color:#493814;padding:26px;box-shadow:0 24px 80px #30240855}
+.farm-shop::backdrop{background:#20190799;backdrop-filter:blur(4px)}
+.farm-shop header{display:flex;justify-content:space-between;align-items:center;gap:20px}.farm-shop h2{margin:5px 0;font:700 2rem Georgia,serif}.farm-shop small{letter-spacing:.15em;font-weight:800;color:#936b16}
+.farm-shop button,.farm-shop a{font:700 .9rem system-ui;border:1px solid #dabb66;border-radius:10px;padding:10px 14px;background:#f9d96f;color:#493814;cursor:pointer;text-decoration:none}.farm-shop button:disabled{opacity:.55;cursor:wait}.farm-shop button:focus-visible,.farm-shop a:focus-visible{outline:3px solid #976706;outline-offset:3px}
+.farm-shop-actions{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}.farm-shop-seeds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.farm-shop-seed{display:grid;justify-items:center;gap:8px;text-align:center;border:1px solid #e9dcae;background:#fffef8;border-radius:16px;padding:18px}.farm-shop-seed-icon{display:grid;place-items:center;width:66px;height:66px}.farm-shop-seed-icon img{width:100%;height:100%;object-fit:contain}.farm-shop-seed strong{font-size:1rem}.farm-shop-seed p{margin:0;font-size:.85rem}.farm-shop-seed button{width:100%}#farmShopStatus{color:#9b3f22;line-height:1.5}.farm-shop-toggle{background:#ffde7d!important;color:#493814!important}
+@media(max-width:600px){.farm-shop{padding:20px 16px}.farm-shop-seeds{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.farm-shop-seed{padding:14px 10px}}

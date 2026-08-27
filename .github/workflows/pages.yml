@@ -45,6 +45,9 @@ jobs:
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs
 
+      - name: Validate Eddie Farm points and purchase safety
+        run: node --test tools/test-eddie-farm.mjs
+
       - name: Validate and regenerate the complete Phrasal Verb catalogue
         run: |
           node tools/build-phrasal-verb-expansion.mjs

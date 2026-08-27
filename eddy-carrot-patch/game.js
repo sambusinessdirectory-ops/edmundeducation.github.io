@@ -24,6 +24,11 @@
   var seedNameElement = document.getElementById("seedName");
   var eddyPortrait = document.getElementById("eddyPortrait");
   var productionRuntime = window.EddyProductionRuntime || null;
+  var farmSnapshot = null;
+  var farmBusy = false;
+  var farmRefreshPending = false;
+  var farmShop = document.getElementById("farmShop");
+  var farmShopStatus = document.getElementById("farmShopStatus");
 
   var VIEW = Object.freeze({ width: 1280, height: 720 });
   var WORLD = Object.freeze({ width: 20, height: 16 });
@@ -1019,7 +1024,7 @@
     try {
       var sourceKey = null;
       var saved = null;
-      [SAVE_KEY, PREVIOUS_SAVE_KEY, LEGACY_SAVE_KEY].some(function (key) {
+      (farmSnapshot ? [SAVE_KEY] : [SAVE_KEY, PREVIOUS_SAVE_KEY, LEGACY_SAVE_KEY]).some(function (key) {
         var fallback = readStoredSave(key);
         if (!fallback) return false;
         sourceKey = key;
@@ -1133,8 +1138,96 @@
     return result && best <= INTERACTION_RADIUS ? result : null;
   }
 
-  function interact() {
-    if (isInventoryPanelOpen()) return;
+  function applyFarmSnapshot(snapshot) {
+    if (!snapshot) return;
+    if (!farmSnapshot || farmSnapshot.id !== snapshot.id) {
+      saveGame();
+      farmSnapshot = snapshot;
+      SAVE_KEY = "eddy-carrot-patch-v4:student:" + snapshot.id;
+      inventory.restore([]);
+      plots.forEach(function (plot) { plot.plantedAt = null; plot.cropId = null; });
+      loadSave();
+    }
+    farmSnapshot = snapshot;
+    plots.forEach(function (plot) {
+      var saved = snapshot.plots.find(function (entry) { return entry.id === plot.id; });
+      plot.plantedAt = saved ? Number(saved.plantedAt) : null;
+      plot.cropId = saved && ITEM_DEFINITIONS[saved.cropId] ? saved.cropId : null;
+    });
+    inventory.restore(snapshot.harvests.map(function (item) { return { itemId: item.id, quantity: item.quantity }; }));
+    saveGame();
+    renderFarmShop();
+  }
+
+  function renderFarmShop() {
+    var host = document.getElementById("farmShopSeeds");
+    if (!host) return;
+    host.replaceChildren();
+    document.getElementById("farmPointBalance").textContent = farmSnapshot ? String(farmSnapshot.balance) : "—";
+    document.getElementById("farmShopSummary").textContent = farmSnapshot
+      ? farmSnapshot.name + " · " + farmSnapshot.balance + " points · One seed per purchase"
+      : "Log in to your student account to see your points and buy seeds.";
+    if (!farmSnapshot) return;
+    farmSnapshot.seeds.forEach(function (seed) {
+      var card = document.createElement("article"); card.className = "farm-shop-seed";
+      var icon = document.createElement("span"); icon.className = "farm-shop-seed-icon";
+      var definition = ITEM_DEFINITIONS[seed.id];
+      if (definition) setIconContent(icon, Object.assign({}, definition, { iconUrl: definition.seedIconUrl }), "farm-shop");
+      var title = document.createElement("strong"); title.textContent = seed.name;
+      var quantity = document.createElement("p"); quantity.textContent = "Owned: " + seed.quantity;
+      var buy = document.createElement("button"); buy.type = "button"; buy.textContent = "Buy · " + seed.price + " points";
+      buy.disabled = farmBusy || farmSnapshot.balance < seed.price;
+      buy.addEventListener("click", function () { void farmAction("purchase", { p_seed: seed.id }, seed.name + " seed added."); });
+      card.append(icon, title, quantity, buy); host.append(card);
+    });
+  }
+
+  function clearFarmAccount() {
+    if (!farmSnapshot) return;
+    saveGame(); farmSnapshot = null; SAVE_KEY = "eddy-carrot-patch-v4";
+    inventory.restore([]); plots.forEach(function (plot) { plot.plantedAt = null; plot.cropId = null; });
+    loadSave(); renderFarmShop();
+  }
+
+  async function refreshFarmAccount() {
+    if (farmRefreshPending || farmBusy || !window.EddieFarmAPI) return;
+    var account = window.EddieFarmAPI.student();
+    if (!account?.token || (account.id && farmSnapshot && account.id !== farmSnapshot.id)) clearFarmAccount();
+    farmRefreshPending = true;
+    try {
+      var snapshot = await window.EddieFarmAPI.snapshot();
+      if (snapshot) applyFarmSnapshot(snapshot);
+      else if (farmSnapshot) clearFarmAccount();
+      else renderFarmShop();
+      if (farmShopStatus) farmShopStatus.textContent = "";
+    } catch (error) {
+      if (error.status === 401 || error.status === 403) clearFarmAccount();
+      if (farmShopStatus) farmShopStatus.textContent = error.message;
+    } finally { farmRefreshPending = false; }
+  }
+
+  async function farmAction(kind, args, message) {
+    if (farmBusy) return false;
+    if (!window.EddieFarmAPI?.student()?.token) { openFarmShop(); return false; }
+    farmBusy = true; renderFarmShop();
+    try {
+      var snapshot = await window.EddieFarmAPI.perform(kind, args);
+      applyFarmSnapshot(snapshot);
+      if (farmShopStatus) farmShopStatus.textContent = message;
+      showToast(message); return true;
+    } catch (error) {
+      if (farmShopStatus) farmShopStatus.textContent = error.message;
+      showToast(error.message); return false;
+    } finally { farmBusy = false; renderFarmShop(); }
+  }
+
+  function openFarmShop() {
+    if (farmShop && !farmShop.open) farmShop.showModal();
+    renderFarmShop(); void refreshFarmAccount();
+  }
+
+  async function interact() {
+    if (farmBusy || farmRefreshPending || farmShop?.open || isInventoryPanelOpen()) return;
     var plot = nearestPlot();
     if (!plot) {
       showToast("Walk a little closer to a garden bed.");
@@ -1142,8 +1235,10 @@
     }
     var state = getPlotState(plot, Date.now());
     if (state.name === "empty") {
-      plot.plantedAt = Date.now();
-      plot.cropId = selectedCropId;
+      if (!farmSnapshot) { openFarmShop(); return; }
+      var plantedCrop = selectedCropId;
+      var planted = await farmAction("plant", { p_seed: plantedCrop, p_plot: plot.id }, ITEM_DEFINITIONS[plantedCrop].name + " planted.");
+      if (!planted) return;
       setPlayerAction("plant", actionDuration("ANIMSEQ-EDDY-PLANT-001", 1050));
       var plantedDefinition = ITEM_DEFINITIONS[plot.cropId];
       spawnProductionEffect("FX-SEED-001", plot.worldX, plot.worldY, "plant");
@@ -1159,6 +1254,15 @@
         setPlayerAction("inventoryFull", actionDuration("ANIMSEQ-EDDY-FULL-001", 1250));
         showToast("Inventory full. Free a slot before harvesting.");
         announce("The " + harvestedDefinition.name.toLowerCase() + " remains safely planted because the inventory is full.");
+        return;
+      }
+      if (farmSnapshot) {
+        var harvested = await farmAction("harvest", { p_plot: plot.id }, "Harvested! +1 " + harvestedDefinition.name.toLowerCase() + ".");
+        if (harvested) {
+          setPlayerAction("harvestPickup", combinedActionDuration(["ANIMSEQ-EDDY-HARVEST-001", "ANIMSEQ-EDDY-PICKUP-001"], 1550));
+          spawnProductionEffect("FX-HARVEST-001", plot.worldX, plot.worldY, "harvest");
+          spawnFloatingLoot(plot, harvestedItemId, 1);
+        }
         return;
       }
       var harvestResult = inventory.addItem(harvestedItemId, 1);
@@ -1364,6 +1468,7 @@
       }
       lastClockHudKey = clockHudKey;
     }
+    if (farmBusy || farmRefreshPending) { actionButton.disabled = true; actionButton.textContent = "Syncing farm…"; return; }
     var plot = nearestPlot();
     if (!plot) {
       actionButton.disabled = true;
@@ -1373,7 +1478,7 @@
     var state = getPlotState(plot, now);
     if (state.name === "empty") {
       actionButton.disabled = false;
-      actionButton.textContent = "Plant one " + selectedDefinition.name.toLowerCase() + " seed";
+      actionButton.textContent = farmSnapshot ? "Plant one " + selectedDefinition.name.toLowerCase() + " seed" : "Log in · Seed shop";
     } else if (state.name === "ready") {
       var plotDefinition = ITEM_DEFINITIONS[plot.cropId] || ITEM_DEFINITIONS.carrot;
       actionButton.disabled = !inventory.canAdd(plotDefinition.id, 1);
@@ -2618,6 +2723,12 @@
   registerGameplayStateRoutes();
   initialiseProductionHud();
   loadSave();
+  document.getElementById("farmShopToggle")?.addEventListener("click", openFarmShop);
+  document.getElementById("farmShopClose")?.addEventListener("click", function () { farmShop.close(); });
+  document.getElementById("farmShopRefresh")?.addEventListener("click", refreshFarmAccount);
+  document.addEventListener("visibilitychange", function () { if (!document.hidden) void refreshFarmAccount(); });
+  void refreshFarmAccount();
+  if (new URLSearchParams(window.location.search).get("shop") === "1") openFarmShop();
   renderInventory();
   updateInterface();
   requestAnimationFrame(frame);

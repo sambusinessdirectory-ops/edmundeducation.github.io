@@ -2,6 +2,8 @@
   "use strict";
 
   var RUNTIME_SCRIPTS = Object.freeze([
+    "../supabase-config.js",
+    "../eddie-farm-api.js",
     "loader.js",
     "asset-registry.js",
     "production-runtime.js",

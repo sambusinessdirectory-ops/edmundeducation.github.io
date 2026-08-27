@@ -458,5 +458,14 @@ export const EDMUND_PWA_APPS = Object.freeze([
     "name": "閱讀理解學習系統｜EdmundEducation",
     "shortName": "閱讀理解",
     "manifest": "/pwa-manifests/reading-comprehension.webmanifest"
+  },
+  {
+    "id": "eddie-farm",
+    "href": "eddie-farm.html",
+    "zh": "Eddie Farm 積分系統",
+    "en": "Farm Points",
+    "name": "Eddie Farm 積分系統｜EdmundEducation",
+    "shortName": "Eddie Farm 積分",
+    "manifest": "/pwa-manifests/eddie-farm.webmanifest"
   }
 ].map(Object.freeze));

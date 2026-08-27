@@ -514,9 +514,14 @@ function togglePartAnswers() {
 
 function markPartAnswers() {
   const part = PRACTICE_ONE.parts.find((item) => item.part === state.practicePart);
+  const submitted = {};
   let correct = 0;
   part.questions.forEach((question) => {
     const ok = questionCorrect(question);
+    const answer = questionValue(question);
+    if (question.type === "multi") {
+      question.numbers.forEach((number, index) => { if (answer[index]) submitted[number] = answer[index]; });
+    } else if (String(answer).trim()) submitted[question.number] = String(answer).trim();
     if (ok) correct += question.type === "multi" ? question.numbers.length : 1;
     const key = question.type === "multi" ? question.numbers.join(" & ") : question.number;
     const card = elements.workspace.querySelector(`[data-question-card="${CSS.escape(String(key))}"]`);
@@ -535,6 +540,11 @@ function markPartAnswers() {
   const total = part.questions.reduce((sum, question) => sum + (question.type === "multi" ? question.numbers.length : 1), 0);
   score.textContent = `Part ${part.part}：${correct} / ${total} 題正確`;
   score.hidden = false;
+  if (state.token && Object.keys(submitted).length) {
+    rpc("eddie_farm_listening_submit", { p_token: state.token, p_answers: submitted }).catch(() => {
+      score.textContent += " · Progress could not sync. Check your connection and press Check again.";
+    });
+  }
 }
 
 function showAnswerAnalysis(number, anchor) {
