@@ -24,7 +24,7 @@ test("homepage card 59 and all 18 seed types are connected", () => {
   const context = { window: {} };
   vm.runInNewContext(read("eddy-carrot-patch/asset-registry.js"), context);
   const cropIds = [...JSON.stringify(context.window).matchAll(/"assetId":"CROP-([^"]+)-001","name"/g)].map((m) => m[1].toLowerCase().replaceAll("-", "_"));
-  const sql = read("supabase/migrations/20260827102727_eddie_farm_points.sql");
+  const sql = read("supabase/migrations/20260827103531_eddie_farm_points.sql");
   assert.equal(cropIds.length, 18);
   for (const id of cropIds) assert.ok(sql.includes(`('${id}',`), `${id} must be sold in the shop`);
   assert.match(read("eddy-carrot-patch/game.js"), /await farmAction\("plant"/);
@@ -86,7 +86,7 @@ test("private settings have no frontend defaults or password material", () => {
   const frontend = page + read("eddie-farm.js") + source + read("eddy-carrot-patch/game.js");
   assert.doesNotMatch(frontend, /service_role|password_hash|exercise_count\s*:\s*\d/);
   assert.match(page, /data-farm-rules><\/div>/);
-  const sql = read("supabase/migrations/20260827102727_eddie_farm_points.sql");
+  const sql = read("supabase/migrations/20260827103531_eddie_farm_points.sql");
   assert.match(sql, /revoke all on all tables in schema eddie_farm/);
   assert.match(sql, /revoke all on all functions in schema eddie_farm/);
   assert.doesNotMatch(sql, /insert into eddie_farm\.admin_accounts/);
