@@ -41,6 +41,7 @@ jobs:
           node tools/test-flashcard-conflict-recovery-ui.mjs
           node tools/test-flashcard-pwa-critical-update.mjs
           node tools/test-flashcard-login-singleflight.mjs
+          node tools/test-flashcard-private-decks.mjs
 
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs

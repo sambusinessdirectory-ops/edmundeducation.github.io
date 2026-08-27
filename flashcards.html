@@ -185799,6 +185799,13 @@ window.EDMUND_FLASHCARD_SEED = {
           }
     ];
 
+    // Every teacher-made private deck must have an explicit owner. Unassigned
+    // custom-setup decks stay hidden from students, including aggregate counts.
+    const customSetupDeckAssignments = [
+      { id: "custom-setup/sprint-text-1", studentName: "Jayden", title: "Sprint - Text 1" },
+      { id: "custom-setup/sprint-text-2", studentName: "Jayden", title: "Sprint - Text 2" }
+    ];
+
     const accessSections = [
       { key: "dse", label: "DSE", group: "scope", kind: "route", target: "dse-home" },
       { key: "ielts", label: "IELTS", group: "scope", kind: "route", target: "ielts-home" },
@@ -190187,6 +190194,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function getDeckCards(deckId = currentDeckId) {
+      if (!privateDeckVisibleToStudent(deckId)) return [];
       if (deckId === BOOKMARK_DECK_ID) return getBookmarkedCards();
       const customStore = getCardStore();
       const seedCards = Array.isArray(seedDecks[deckId]) ? seedDecks[deckId] : [];
@@ -190841,6 +190849,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function canAccessDeck(deckId) {
+      if (!privateDeckVisibleToStudent(deckId)) return false;
       const parentKey = sectionKeyForDeck(deckId);
       return canAccessChild(parentKey, subAccessKeyForDeck(deckId));
     }
@@ -191168,10 +191177,12 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function getKnownDeckIds() {
       const customIds = Object.keys(getCardStore()).filter(key => !key.startsWith("__"));
-      return [...new Set([...Object.keys(seedDecks), ...customIds])];
+      return [...new Set([...Object.keys(seedDecks), ...customIds])]
+        .filter(deckId => privateDeckVisibleToStudent(deckId));
     }
 
     function deckCardCount(prefix) {
+      if (!privateDeckVisibleToStudent(prefix)) return 0;
       if (prefix === "bookmarks" || prefix === BOOKMARK_DECK_ID) return bookmarkRowsForStudent().length;
       const unloadedPassage1Count = !window.EDMUND_IELTS_READING_PASSAGE_1_SEED
         && (prefix === IELTS_READING_PASSAGE_1_PREFIX || IELTS_READING_PASSAGE_1_PREFIX.startsWith(`${prefix}/`))
@@ -191207,6 +191218,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function visibleAttemptsForPrefix(prefix, studentName = currentUser?.name) {
       return getAttempts()
         .filter(attempt => attempt.studentName === studentName && attemptMatchesPrefix(attempt, prefix))
+        .filter(attempt => privateDeckVisibleToStudent(attempt.deckId, studentName))
         .filter(attempt => (attempt.startedAt || 0) > latestResetForAttempt(attempt.deckId, studentName));
     }
 
@@ -191222,7 +191234,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function isDeckCompleted(prefix, studentName = currentUser?.name) {
-      if (!studentName) return false;
+      if (!studentName || !privateDeckVisibleToStudent(prefix, studentName)) return false;
       if (/^ielts\/listening\/Practice \d+$/.test(prefix)) {
         return ieltsListeningChildIds(prefix).every(sectionDeckId => isDeckCompleted(sectionDeckId, studentName));
       }
@@ -191232,12 +191244,13 @@ window.EDMUND_FLASHCARD_SEED = {
         return isDeckFullyGreen(prefix, studentName);
       }
 
-      const childDecks = getKnownDeckIds().filter(deckId => deckId.startsWith(`${prefix}/`) && getDeckCards(deckId).length > 0);
+      const childDecks = getKnownDeckIds().filter(deckId => deckId.startsWith(`${prefix}/`)
+        && privateDeckVisibleToStudent(deckId, studentName) && getDeckCards(deckId).length > 0);
       return childDecks.length > 0 && childDecks.every(deckId => isDeckCompleted(deckId, studentName));
     }
 
     function familiarityStatsForPrefix(prefix, studentName = currentUser?.name) {
-      if (!studentName) return { green: 0, red: 0 };
+      if (!studentName || !privateDeckVisibleToStudent(prefix, studentName)) return { green: 0, red: 0 };
       const directCards = getDeckCards(prefix).length;
       if (directCards > 0) {
         const familiarity = getDeckFamiliarity(prefix, studentName);
@@ -191245,7 +191258,8 @@ window.EDMUND_FLASHCARD_SEED = {
       }
 
       return getKnownDeckIds()
-        .filter(deckId => deckId.startsWith(`${prefix}/`) && getDeckCards(deckId).length > 0)
+        .filter(deckId => deckId.startsWith(`${prefix}/`)
+          && privateDeckVisibleToStudent(deckId, studentName) && getDeckCards(deckId).length > 0)
         .reduce((totals, deckId) => {
           const familiarity = getDeckFamiliarity(deckId, studentName);
           totals.green += familiarity.green.length;
@@ -191256,6 +191270,9 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function deckMetaHtml(prefix) {
       if (prefix === "bookmarks") return bookmarkMetaHtml();
+      if (prefix === "custom-setup" && !privateDeckVisibleToStudent(prefix)) {
+        return "<small>暫時未有你的專屬卡組。</small>";
+      }
       const cardCount = deckCardCount(prefix);
       const stats = attemptStatsForPrefix(prefix);
       const familiarity = familiarityStatsForPrefix(prefix);
@@ -191717,16 +191734,27 @@ window.EDMUND_FLASHCARD_SEED = {
       }));
     }
 
-    function isJaydenOnlyCustomDeck(deckId) {
-      return String(deckId || "").startsWith("custom-setup/sprint-text-");
+    function customSetupDecksForStudent(studentName = currentUser?.name) {
+      if (!studentName) return [];
+      if (isAdmin() && studentName === currentUser?.name) return customSetupDeckAssignments;
+      const owner = String(studentName).trim().toLowerCase();
+      return customSetupDeckAssignments.filter(deck => deck.studentName.trim().toLowerCase() === owner);
     }
 
-    function currentUserIsJayden() {
-      return currentUser?.name?.trim().toLowerCase() === "jayden";
+    function privateDeckVisibleToStudent(deckId, studentName = currentUser?.name) {
+      const id = String(deckId || "");
+      const teacherMade = id === "custom-setup" || id.startsWith("custom-setup/");
+      const studentMade = id === "student-custom" || id.startsWith("student-custom/");
+      if (!teacherMade && !studentMade) return true;
+      if (!studentName) return false;
+      // An admin viewing a student account must use that student's ownership,
+      // not the admin's broader management permissions. Never cache by deck ID.
+      if (isAdmin() && studentName === currentUser?.name) return true;
+      const decks = teacherMade ? customSetupDecksForStudent(studentName) : getStudentCustomDecks(studentName);
+      return decks.some(deck => deck.id === id || deck.id.startsWith(`${id}/`));
     }
 
     function deckIsSearchable(deckId) {
-      if (isJaydenOnlyCustomDeck(deckId) && !currentUserIsJayden()) return false;
       const sectionKey = sectionKeyForDeck(deckId);
       return Boolean(sectionKey && canAccessDeck(deckId));
     }
@@ -192030,9 +192058,11 @@ window.EDMUND_FLASHCARD_SEED = {
           addExact(typeId, `政府機構 / ${type}`);
         }
       });
-      addAggregate("custom-setup", "客製 Setup", 2);
-      addExact("custom-setup/sprint-text-1", "客製 Setup / Sprint - Text 1");
-      addExact("custom-setup/sprint-text-2", "客製 Setup / Sprint - Text 2");
+      const assignedCustomDecks = customSetupDecksForStudent();
+      if (assignedCustomDecks.length) {
+        addAggregate("custom-setup", "客製 Setup", assignedCustomDecks.length);
+        assignedCustomDecks.forEach(deck => addExact(deck.id, `客製 Setup / ${deck.title}`));
+      }
       getStudentCustomDecks().forEach(deck => addExact(deck.id, `自製 Flashcards / ${deck.title}`));
 
       return rows.filter(row => deckIsSearchable(row.deckId));
@@ -194420,15 +194450,13 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function showCustomSetup() {
-      const isJayden = currentUser?.name?.trim().toLowerCase() === "jayden";
       showOptions(
         "客製 Setup",
         "選擇你的專屬卡組。",
-        () => isJayden ? `
+        () => customSetupDecksForStudent().length ? `
           <div class="option-column">
-            <h3>Jayden</h3>
-            ${optionButton("Sprint - Text 1", "custom-setup/sprint-text-1", "Sprint - Text 1")}
-            ${optionButton("Sprint - Text 2", "custom-setup/sprint-text-2", "Sprint - Text 2")}
+            <h3>${escapeHtml(isAdmin() ? "專屬卡組" : currentUser.name)}</h3>
+            ${customSetupDecksForStudent().map(deck => optionButton(deck.title, deck.id, deck.title)).join("")}
           </div>
         ` : `<p class="note-text">這裡暫時未有你的專屬卡組。</p>`,
         "columns-grid one"
