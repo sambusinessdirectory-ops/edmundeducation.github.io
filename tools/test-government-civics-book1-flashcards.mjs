@@ -122,7 +122,7 @@ assert(
   "Cross-topic duplicate-front inventory changed"
 );
 assert(html.includes(`<script src="${dataFile}?v=20260808-1"></script>`), "Civics data file is not loaded by flashcards.html");
-assert(html.includes(`${audioManifestFile}?v=edmund-neural-v1-20260818-2`), "Edmund Neural audio cache key is stale");
+assert(html.includes(`${audioManifestFile}?v=edmund-neural-v1-20260827-1`), "Edmund Neural audio cache key is stale");
 assert(audioMeta.complete === true, "Edmund Neural audio manifest is incomplete");
 assert(audioMeta.count >= 134735, `Expected at least 134735 audio mappings; found ${audioMeta.count}`);
 assert(audioMeta.voice === "af_heart", `Unexpected voice ${audioMeta.voice}`);
