@@ -97,12 +97,13 @@
     if (item.systemKey !== "reading-comprehension") return "other";
     const title = String(item.title || "");
     if (/^\[Skimming\]/i.test(title)) return "skimming";
-    if (/^\[答案解析\]/.test(title) || /第\s*\d+\s*題解析/.test(title)) return "analysis";
+    if (/^\[Scanning\]/i.test(title)) return "scanning";
+    if (/^\[(答案解析|分析小節)\]/.test(title) || /第\s*\d+\s*題解析/.test(title)) return "analysis";
     return "reading-content";
   }
 
   function bookmarkTypeLabel(item) {
-    return { "reading-content": "文章與重點字詞", skimming: "Skimming Tips", analysis: "答案解析" }[bookmarkType(item)] || "學習書簽";
+    return { "reading-content": "文章、段落、題目與字詞", skimming: "Skimming Tips", scanning: "Scanning Tips", analysis: "答案解析與分析小節" }[bookmarkType(item)] || "學習書簽";
   }
 
   function openInlineReader(card, reader, button, href, title) {
