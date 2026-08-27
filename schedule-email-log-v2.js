@@ -12,7 +12,7 @@ async function refresh(){
  logs.replaceChildren();
  for(const item of data.logs||[]){
   const row=document.createElement('tr');
-  row.append(element('td',when(item.created_at)),element('td',item.kind?.startsWith('visitor')?`${item.kind==='visitor_confirmation'?'訪客確認信':'訪客更新'} ${EMAIL_TOPICS[item.topic]?.title||''}`:`學生訊息 ${item.template_slot??'已刪除'}`),element('td',`${item.recipient_name||'—'} · ${item.recipient_email}`));
+  row.append(element('td',when(item.created_at)),element('td',item.kind==='writing_submission'?'寫作提交通知（管理員）':item.kind?.startsWith('visitor')?`${item.kind==='visitor_confirmation'?'訪客確認信':'訪客更新'} ${EMAIL_TOPICS[item.topic]?.title||''}`:`學生訊息 ${item.template_slot??'已刪除'}`),element('td',`${item.recipient_name||'—'} · ${item.recipient_email}`));
   const cell=document.createElement('td'),d=document.createElement('details');
   d.append(element('summary',`${item.status} — ${EMAIL_STAGES[item.status]||item.status}`));
   d.append(element('pre',[
