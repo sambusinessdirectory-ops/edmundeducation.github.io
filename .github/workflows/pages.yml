@@ -202,6 +202,7 @@ jobs:
           node tools/test-schedule-self-evaluation-admin.mjs
           node tools/test-schedule-reminder-email-and-hotkeys.mjs
           node tools/test-schedule-email-linked-homework.mjs
+          node tools/test-email-v2.mjs
           node tools/test-schedule-quote-encouragement.mjs
           node tools/test-schedule-announcement-edit.mjs
           node tools/test-schedule-system.mjs

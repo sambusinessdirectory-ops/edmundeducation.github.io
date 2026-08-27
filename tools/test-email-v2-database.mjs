@@ -9,7 +9,7 @@ const db=new PGlite();
 const read=path=>readFile(new URL(path,import.meta.url),'utf8');
 await db.exec(await read('./email-v2-test-baseline.sql'));
 await db.exec(await read('../supabase-schedule-gmail-delivery-20260822.sql'));
-await db.exec(await read('../supabase/migrations/20260827104108_email_audit_preview_subscriptions.sql'));
+await db.exec(await read('../supabase/migrations/20260827110241_email_audit_preview_subscriptions.sql'));
 const secret='isolated-test-service-secret-at-least-32';
 const admin=crypto.randomUUID(),token=crypto.randomUUID(),student=crypto.randomUUID(),request=crypto.randomUUID();
 const scalar=async(sql,args=[])=>Object.values((await db.query(sql,args)).rows[0])[0];

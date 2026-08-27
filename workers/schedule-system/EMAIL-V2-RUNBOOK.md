@@ -2,14 +2,18 @@
 
 ## Activation status
 
-Implemented and tested locally. **Production database approval is still required.**
-Do not publish the dependent frontend or Worker before the database migration succeeds.
+Production database activation was approved and applied on **2026-08-27** (migration
+`20260827110241`). The deployed Worker health endpoint reports `emailVersion: 2`.
+The dependent frontend can now be published. Do not reapply the migration.
+The first production scheduler cycle completed at 11:06 UTC with no error, and
+all five page monitors established their initial baselines. Existing email jobs
+and logs remained at three each; no subscriber records were created by deployment.
 No real recipients were emailed during the automated tests.
 
 ## Deployment order
 
 1. Obtain explicit approval to update the live email queue/database and enable public subscription notifications. Preserve existing student data and all email history. Review the current database backup before applying.
-2. Apply only `supabase/migrations/20260827104108_email_audit_preview_subscriptions.sql` to project `ookkxzgpdclzrrhfmvqx`. Do not blindly push unrelated pending migrations. It creates private subscriber/audit/snapshot tables, replaces queue functions, adds state-history triggers, and changes template deletion to retain delivery records.
+2. Apply only `supabase/migrations/20260827110241_email_audit_preview_subscriptions.sql` to project `ookkxzgpdclzrrhfmvqx` (already applied; these are reference steps for a fresh environment). Do not blindly push unrelated pending migrations. It creates private subscriber/audit/snapshot tables, replaces queue functions, adds state-history triggers, and changes template deletion to retain delivery records.
 3. Run security/performance advisors, inspect new function privileges and RLS, and verify the admin log endpoint's data isolation after deploying the Worker. Existing OAuth secrets stay unchanged.
 4. Deploy `workers/schedule-system`. Its configuration adds `EMAIL_SIGNUP_RATE_LIMITER`. Check `/v1/health` reports `emailVersion: 2`.
 5. Publish only this feature's frontend changes. In Homework → Email 內容設計, select the visitor notification sender if not automatically pinned from the one existing connected administrator. A future Gmail address change on that same admin is supported; queued messages from a different sender stay paused for review.

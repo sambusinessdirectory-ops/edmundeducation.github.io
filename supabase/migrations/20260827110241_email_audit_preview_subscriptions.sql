@@ -1,4 +1,5 @@
 -- Private email audit, immutable assets, and double-opt-in visitor subscriptions.
+-- Filename matches the production migration version applied on 2026-08-27.
 -- Existing custom Homework admin tokens are checked in addition to the Worker secret.
 begin;
 
