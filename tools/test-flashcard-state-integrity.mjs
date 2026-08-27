@@ -157,7 +157,7 @@ assert.match(mutationWriter, /flashcardStagedValues\.set/);
 assert.match(mutationWriter, /flashcardStagedValues\.delete/);
 assert.match(mutationWriter, /isSupabaseStateHydrated\(context\)/);
 assert.ok(
-  mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)") < mutationWriter.indexOf("remoteStore[key] = payload", mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)")),
+  mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)") < mutationWriter.indexOf("remoteStore[key] = durablePayload", mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)")),
   "A synchronized UI mutation must be durably enqueued before its canonical browser value is accepted"
 );
 
@@ -416,6 +416,7 @@ assert.equal(progressRebaseRuntime(
 
 const coalesceRuntime = vm.runInNewContext(`(() => {
   const ATTEMPTS_KEY = "attempts";
+  const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
   const PROGRESS_KEY = "edmundFlashcardProgress";
   const supabaseState = { v2Availability: "available" };
   let uuidSequence = 0;
@@ -504,6 +505,7 @@ assert.equal(coalesceRuntime([
 
 const terminalRecoveryRuntime = vm.runInNewContext(`(() => {
   const ATTEMPTS_KEY = "attempts";
+  const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
   const PROGRESS_KEY = "edmundFlashcardProgress";
   const FLASHCARD_TERMINAL_RECOVERY_CODES = new Set(["version_conflict", "request_id_reuse"]);
   const supabaseState = { v2Availability: "available" };
@@ -516,6 +518,7 @@ const terminalRecoveryRuntime = vm.runInNewContext(`(() => {
   const flashcardStateChecksums = new Map([[ATTEMPTS_KEY, "attempts-v11"], ["progress", "progress-v7"], [PROGRESS_KEY, "saved-progress-v8"]]);
   const flashcardCanonicalValues = new Map([
     [ATTEMPTS_KEY, [{ id: "server", studentName: "Hayley", answeredCount: 5 }]],
+    [FAMILIARITY_KEY, { "Hayley::dse": { green: ["0", "2"], red: [] } }],
     ["progress", { local: 1, external: 2 }],
     [PROGRESS_KEY, { [${JSON.stringify("Hayley::dse")}]: ${JSON.stringify(serverProgressEntry)} }]
   ]);
@@ -527,6 +530,7 @@ const terminalRecoveryRuntime = vm.runInNewContext(`(() => {
   ${extractFunction("flashcardJsonEqual")}
   ${extractFunction("isPlainFlashcardStateObject")}
   ${extractFunction("rebaseFlashcardGenericState")}
+  ${extractFunction("rebaseFlashcardFamiliarityState")}
   ${extractFunction("flashcardProgressAttemptId")}
   ${extractFunction("flashcardProgressNumber")}
   ${extractFunction("flashcardProgressSnapshotStrength")}
@@ -563,6 +567,19 @@ assert.notEqual(recoveredAttempt.mutationId, oldTerminalAttempt.mutationId, "Ter
 assert.deepEqual([...recoveredAttempt.payload.map(row => row.id)], ["server", "local"]);
 assert.equal(recoveredAttempt.status, "queued");
 assert.equal(recoveredAttempt.recoveredFromTerminalCode, "request_id_reuse");
+
+const oldGradeOverlap = queuedRecord(309, "edmundFlashcardFamiliarity",
+  { "Hayley::dse": { green: ["0", "1"], red: [] } },
+  { "Hayley::dse": { green: ["0"], red: [] } });
+Object.assign(oldGradeOverlap, { status: "blocked", requiresResolution: true,
+  terminalScope: "account", receipt: null,
+  lastError: "A queued mutation needs review (overlap:Hayley::dse)." });
+const recoveredGrades = terminalRecoveryRuntime(oldGradeOverlap);
+assert.ok(recoveredGrades, "Legacy whole-deck grade overlaps must recover using per-card reconciliation");
+assert.notEqual(recoveredGrades.mutationId, oldGradeOverlap.mutationId);
+assert.deepEqual([...recoveredGrades.payload["Hayley::dse"].green].sort(), ["0", "1", "2"]);
+assert.equal(recoveredGrades.status, "queued");
+assert.equal(oldGradeOverlap.status, "blocked", "Recovery must not mutate its source evidence");
 
 const disjointTerminal = queuedRecord(
   302,
@@ -673,6 +690,7 @@ assert.equal(terminalRecoveryRuntime({
 
 const queuedFastForwardRuntime = vm.runInNewContext(`(() => {
   const ATTEMPTS_KEY = "attempts";
+  const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
   const PROGRESS_KEY = "edmundFlashcardProgress";
   const supabaseState = { v2Availability: "available" };
   const window = { crypto: { randomUUID: () => "ffffffff-ffff-4fff-8fff-ffffffffffff" } };
@@ -769,7 +787,8 @@ assert.throws(() => queuedFastForwardRuntime({
 const canonicalReload = extractFunction("resolveFlashcardCanonicalState");
 assert.match(canonicalReload, /record\.key !== ATTEMPTS_KEY && receipt\?\.hasCanonicalValue/);
 assert.match(canonicalReload, /await callFlashcardStateReadV2\(context\)/);
-assert.match(canonicalReload, /canonicalVersion !== Number\(receipt\.resultingVersion\)/);
+assert.match(canonicalReload, /canonicalVersion < Number\(receipt\.resultingVersion\)/);
+assert.match(canonicalReload, /canonicalVersion > Number\(receipt\.resultingVersion\)/);
 assert.match(canonicalReload, /canonicalChecksum !== String\(receipt\.resultingChecksum \|\| ""\)/);
 
 const compactReceipt = extractFunction("compactFlashcardV2Receipt");
@@ -827,13 +846,16 @@ assert.match(statusGuard, /系統已切換為唯讀/);
 assert.match(statusGuard, /同步衝突需處理/);
 assert.match(statusGuard, /請按「安全復原」/);
 assert.match(statusGuard, /系統將自動重試/);
-assert.match(statusGuard, /暫存進度同步已隔離/);
+assert.match(statusGuard, /部分紀錄待核對/);
+assert.match(statusGuard, /可繼續學習/);
 assert.doesNotMatch(statusGuard, /同步未完成 · \$\{pending\} 項變更將自動重試/);
 
 const outboxStatusSummaryRuntime = vm.runInNewContext(`(() => {
   const PROGRESS_KEY = "edmundFlashcardProgress";
+  const FAMILIARITY_KEY = "familiarity";
   const FLASHCARD_TERMINAL_RECOVERY_CODES = new Set(["version_conflict", "request_id_reuse"]);
   ${extractFunction("flashcardOutboxRecordRequiresResolution")}
+  ${extractFunction("flashcardTerminalRecoveryCode")}
   ${extractFunction("flashcardOutboxTerminalScope")}
   ${extractFunction("flashcardOutboxTerminalBlocksAccount")}
   ${extractFunction("flashcardOutboxStatusSummary")}
@@ -868,7 +890,7 @@ assert.equal(outboxStatusSummaryRuntime([
 ]).globalBlock, true, "Validation/auth-style terminal failures must remain account-wide fail-closed");
 assert.equal(outboxStatusSummaryRuntime([
   { key: "attempts", status: "conflict", requiresResolution: true, receipt: { code: "version_conflict" } }
-]).globalBlock, true, "A critical attempts conflict must remain account-wide fail-closed");
+]).globalBlock, false, "An ordinary version conflict must not freeze unrelated study saves");
 
 const enqueueOutbox = sourceBetween("function enqueueFlashcardOutboxMutation", "function setupFlashcardOutboxWakeups");
 assert.match(enqueueOutbox, /supabaseState\.outboxPersisting \+= 1/);

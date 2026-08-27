@@ -329,6 +329,7 @@ assert.match(terminalCode, /request_id_reuse/);
 const terminalCodeRuntime = vm.runInNewContext(`(() => {
   const FLASHCARD_TERMINAL_RECOVERY_CODES = new Set(["version_conflict", "request_id_reuse"]);
   const PROGRESS_KEY = "edmundFlashcardProgress";
+  const FAMILIARITY_KEY = "familiarity";
   ${extractFunction("flashcardOutboxRecordRequiresResolution")}
   ${terminalCode}
   return flashcardTerminalRecoveryCode;
@@ -511,11 +512,10 @@ assert.deepEqual(JSON.parse(JSON.stringify(releaseEvents)), [
   { type: "delete", id: "terminal-1" },
   { type: "delete", id: "terminal-2" }
 ]);
-assert.match(recovery, /releaseFlashcardTerminalOutboxRows/);
-assert.ok(
-  recovery.indexOf("canonicalHydrationComplete") < recovery.indexOf("releaseFlashcardTerminalOutboxRows"),
-  "Availability release must run only after canonical cloud hydration succeeds"
-);
+assert.doesNotMatch(recovery, /releaseFlashcardTerminalOutboxRows/,
+  "Automatic/manual recovery must not discard unresolved student changes to clear a warning");
+assert.match(recovery, /if \(wasHydrated\)/,
+  "Active study recovery must preserve hydration and use a background baseline refresh");
 
 // Safe merge must never silently erase a terminal row; the explicit
 // availability-release helper owns archive-before-delete fallback behavior.

@@ -243,6 +243,13 @@
       color: #14532d;
     }
 
+    .flashcard-recovery-panel[data-recovery-state="deferred"],
+    .flashcard-recovery-panel[data-recovery-state="retrying"] {
+      background: #fffbeb;
+      border-color: #fcd34d;
+      color: #78350f;
+    }
+
     .flashcard-recovery-copy {
       display: grid;
       gap: 6px;
@@ -186211,12 +186218,9 @@ window.EDMUND_FLASHCARD_SEED = {
         }
         if (pending) {
           if (supabaseState.outboxErrorClass === "terminal") {
-            if (
-              !supabaseState.outboxGlobalBlock
-              && supabaseState.outboxBlockedKeys?.has(PROGRESS_KEY)
-            ) {
+            if (!supabaseState.outboxGlobalBlock) {
               return {
-                message: `暫存進度同步已隔離 · ${pending} 項變更安全保留，其他學習記錄仍會繼續同步`,
+                message: `部分紀錄待核對 · ${pending} 項變更已保留，可繼續學習；請勿清除瀏覽器資料`,
                 tone: "warning"
               };
             }
@@ -186980,6 +186984,71 @@ window.EDMUND_FLASHCARD_SEED = {
       };
     }
 
+    function rebaseFlashcardFamiliarityState(baseValue, localValue, canonicalValue) {
+      if (!isPlainFlashcardStateObject(baseValue)
+        || !isPlainFlashcardStateObject(localValue)
+        || !isPlainFlashcardStateObject(canonicalValue)) {
+        return { safe: false, value: null, reason: "invalid-familiarity-store" };
+      }
+      const merged = cloneFlashcardSyncPayload(canonicalValue);
+      const decks = new Set([...Object.keys(baseValue), ...Object.keys(localValue), ...Object.keys(canonicalValue)]);
+      for (const deck of decks) {
+        const base = baseValue[deck];
+        const local = localValue[deck];
+        const canonical = canonicalValue[deck];
+        if (flashcardJsonEqual(base, local)) continue;
+        if (flashcardJsonEqual(base, canonical) || flashcardJsonEqual(local, canonical)) {
+          if (local === undefined) delete merged[deck];
+          else merged[deck] = cloneFlashcardSyncPayload(local);
+          continue;
+        }
+        if (!isPlainFlashcardStateObject(local) || !isPlainFlashcardStateObject(canonical)
+          || String(local.deckRevision || "") !== String(canonical.deckRevision || "")) {
+          return { safe: false, value: null, reason: "familiarity-reset-or-revision-overlap" };
+        }
+        // Grade changes concern individual cards, not the whole deck object.
+        // A new answer must not conflict with an acknowledgement for another card.
+        const metadata = entry => Object.fromEntries(Object.entries(entry || {})
+          .filter(([key]) => !["green", "red", "updatedAtByCard"].includes(key)));
+        const result = rebaseFlashcardGenericState(metadata(base), metadata(local), metadata(canonical));
+        if (!result.safe) return result;
+        const gradeSets = new Map([base, local, canonical].map(entry => [entry, {
+          green: new Set((Array.isArray(entry?.green) ? entry.green : []).map(String)),
+          red: new Set((Array.isArray(entry?.red) ? entry.red : []).map(String))
+        }]));
+        const grade = (entry, card) => gradeSets.get(entry).red.has(card) ? "red"
+          : gradeSets.get(entry).green.has(card) ? "green" : "";
+        const time = (entry, card) => Math.max(0, Number(entry?.updatedAtByCard?.[card]) || 0);
+        const cards = new Set([base, local, canonical].flatMap(entry => [
+          ...(Array.isArray(entry?.green) ? entry.green : []),
+          ...(Array.isArray(entry?.red) ? entry.red : [])
+        ]).map(String));
+        const next = { ...result.value, green: [], red: [] };
+        const times = {};
+        for (const card of cards) {
+          const before = grade(base, card), here = grade(local, card), there = grade(canonical, card);
+          const changedHere = here !== before || time(local, card) > time(base, card);
+          const changedThere = there !== before || time(canonical, card) > time(base, card);
+          let chosen = there;
+          if (changedHere && !changedThere) chosen = here;
+          else if (changedHere && changedThere && here !== there) {
+            // Keep a concurrent answer over a removal. Old clients have no card
+            // timestamps; on an exact tie prefer review (red), never erase a card.
+            if (!here || !there) chosen = here || there;
+            else if (time(local, card) !== time(canonical, card)) {
+              chosen = time(local, card) > time(canonical, card) ? here : there;
+            } else chosen = "red";
+          }
+          if (chosen) next[chosen].push(card);
+          const latest = Math.max(time(local, card), time(canonical, card));
+          if (latest) times[card] = latest;
+        }
+        if (Object.keys(times).length) next.updatedAtByCard = times;
+        merged[deck] = next;
+      }
+      return { safe: true, value: merged, reason: "per-card-familiarity-merge" };
+    }
+
     function reconcileFlashcardStateMutation(record, canonicalValue) {
       if (record.key === ATTEMPTS_KEY) {
         if (!flashcardAttemptsPayloadBelongsToRecord(record)) {
@@ -186993,6 +187062,9 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       if (!Object.prototype.hasOwnProperty.call(record, "baseValue")) {
         return { safe: false, value: null, reason: "missing-verified-base" };
+      }
+      if (record.key === FAMILIARITY_KEY) {
+        return rebaseFlashcardFamiliarityState(record.baseValue, record.payload, canonicalValue);
       }
       return record.key === PROGRESS_KEY
         ? rebaseFlashcardProgressState(record.baseValue, record.payload, canonicalValue)
@@ -187199,10 +187271,10 @@ window.EDMUND_FLASHCARD_SEED = {
             await legacyQuarantineRequest(store.delete(candidate.mutationId));
           }
         }
-        await completed;
-        const verifyTransaction = database.transaction(FLASHCARD_OUTBOX_STORE, "readonly");
-        const verifiedComplete = legacyQuarantineTransaction(verifyTransaction);
-        const verifiedStore = verifyTransaction.objectStore(FLASHCARD_OUTBOX_STORE);
+        // Verify within the SAME transaction. A separate read transaction can see
+        // a legitimate coalesced successor or an already-acknowledged deletion and
+        // incorrectly report that durable storage failed.
+        const verifiedStore = store;
         const [verified, supersededRows] = await Promise.all([
           legacyQuarantineRequest(verifiedStore.get(persistedRecord.mutationId)),
           coalesced
@@ -187211,7 +187283,7 @@ window.EDMUND_FLASHCARD_SEED = {
               )))
             : Promise.resolve([])
         ]);
-        await verifiedComplete;
+        await completed;
         if (
           !verified
           || verified.owner !== record.owner
@@ -187251,6 +187323,29 @@ window.EDMUND_FLASHCARD_SEED = {
         const completed = legacyQuarantineTransaction(transaction);
         await legacyQuarantineRequest(transaction.objectStore(FLASHCARD_OUTBOX_STORE).put(record));
         await completed;
+      } finally {
+        database.close();
+      }
+    }
+
+    async function claimFlashcardOutboxMutation(mutationId, context) {
+      const database = await openFlashcardOutboxDatabase();
+      try {
+        const transaction = database.transaction(FLASHCARD_OUTBOX_STORE, "readwrite");
+        const completed = legacyQuarantineTransaction(transaction);
+        const store = transaction.objectStore(FLASHCARD_OUTBOX_STORE);
+        const current = await legacyQuarantineRequest(store.get(mutationId));
+        if (!current || !flashcardOutboxOwnerMatches(current, context)
+          || flashcardOutboxRecordRequiresResolution(current)) {
+          await completed;
+          return null;
+        }
+        // Coalescing cannot remove an inflight row. Claim the current durable row
+        // before preparing transport; never resurrect a stale getAll() snapshot.
+        const claimed = { ...current, status: "inflight", updatedAt: Date.now() };
+        await legacyQuarantineRequest(store.put(claimed));
+        await completed;
+        return claimed;
       } finally {
         database.close();
       }
@@ -187334,7 +187429,8 @@ window.EDMUND_FLASHCARD_SEED = {
         const previousRecords = await Promise.all(
           previousIds.map(mutationId => legacyQuarantineRequest(store.get(mutationId)))
         );
-        if (previousRecords.some(record => !record)) {
+        if (previousRecords.some(record => !record || record.status === "inflight"
+          || flashcardOutboxRecordRequiresResolution(record))) {
           await completed;
           return null;
         }
@@ -187404,12 +187500,10 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function flashcardOutboxTerminalScope(record) {
       if (!flashcardOutboxRecordRequiresResolution(record)) return "";
-      if (["key", "account"].includes(record?.terminalScope)) return record.terminalScope;
       const code = String(record?.receipt?.code || "").toLocaleLowerCase();
-      if (
-        record?.key === PROGRESS_KEY
-        && FLASHCARD_TERMINAL_RECOVERY_CODES.has(code)
-      ) return "key";
+      if (FLASHCARD_TERMINAL_RECOVERY_CODES.has(code)
+        || flashcardTerminalRecoveryCode(record) === "local_rebase_review") return "key";
+      if (["key", "account"].includes(record?.terminalScope)) return record.terminalScope;
       return "account";
     }
 
@@ -187522,6 +187616,10 @@ window.EDMUND_FLASHCARD_SEED = {
         if (title) title.textContent = "正在安全復原 · Safe recovery in progress";
         if (message) message.textContent = "系統正在重新核實雲端紀錄，並只會合併能夠安全合併的待同步變更。請勿關閉此頁或清除瀏覽器資料。";
         if (english) english.textContent = "The system is verifying the cloud record and will merge only changes that can be reconciled safely. Do not close this page or clear browser data.";
+      } else if (mode === "retrying") {
+        if (title) title.textContent = "學習紀錄已保留 · Sync will retry";
+        if (message) message.textContent = "網絡暫時未能完成核對，系統會自動重試。你可以繼續學習；尚未同步的紀錄保留在此瀏覽器，請勿清除瀏覽器資料。";
+        if (english) english.textContent = "The connection check will retry automatically. You may continue studying; unsynced work remains in this browser. Do not clear browser data.";
       } else if (mode === "success") {
         if (flashcardRecoveryUiState.detail === "cloud-record-restored") {
           if (title) title.textContent = "已恢復登入 · Login restored";
@@ -187532,6 +187630,12 @@ window.EDMUND_FLASHCARD_SEED = {
           if (message) message.textContent = "已完成安全核實；你可以繼續使用學習系統。仍在佇列中的一般網絡同步會自動繼續。";
           if (english) english.textContent = "Safety checks are complete and you may continue. Any ordinary network queue will continue automatically.";
         }
+      } else if (!supabaseState.outboxGlobalBlock && isSupabaseStateHydrated()
+        && ["needs-action", "failed"].includes(mode)) {
+        panel.dataset.recoveryState = "deferred";
+        if (title) title.textContent = "部分紀錄待核對 · You can keep studying";
+        if (message) message.textContent = "你可以繼續溫習，已完成的答案及新進度會保留在此瀏覽器。部分紀錄尚未同步到雲端，請勿清除瀏覽器資料。可按下方按鈕重新核對；如仍未完成，請下載復原副本交給管理員。";
+        if (english) english.textContent = "You can keep studying. Completed answers and new progress stay in this browser. Some records are not yet synced to the cloud; do not clear browser data. Retry the check below, or give the recovery copy to your administrator if it remains unresolved.";
       } else if (mode === "failed") {
         if (title) title.textContent = "需要管理員協助 · Administrator help required";
         if (message) message.textContent = "本次安全復原未完成；單純等待不會自行解除。變更仍保留在這個瀏覽器。請勿清除瀏覽器資料、使用私密瀏覽或改用其他裝置。請下載安全復原檔，連同下方支援編號交給管理員；檔案包含未同步學習內容，請勿交給其他人。";
@@ -187558,7 +187662,7 @@ window.EDMUND_FLASHCARD_SEED = {
         download.classList.toggle("hidden", mode !== "failed");
         download.disabled = mode === "recovering" || Boolean(flashcardTerminalRecoveryPromise);
       }
-      if (terminalRows.length && ["needs-action", "failed"].includes(mode)) {
+      if (currentView !== "deck-view" && terminalRows.length && ["needs-action", "failed"].includes(mode)) {
         focusFlashcardRecoveryAction(panel);
       }
     }
@@ -187757,6 +187861,9 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!candidates.length) return { released: 0, storage: "none", bundleId: "" };
 
       const archive = await archiveFlashcardTerminalOutboxRows(context, candidates);
+      if (archive.storage === "unavailable") {
+        throw new Error("The recovery copy was not persisted; pending changes remain untouched.");
+      }
       for (const record of candidates) {
         if (!isSupabaseStateContextCurrent(context)) {
           throw new Error("The active Flashcard account changed while stale conflicts were being released.");
@@ -187787,10 +187894,16 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
+    function flashcardAutomaticRecoveryKey(context) {
+      const ids = flashcardRecoveryRows.filter(flashcardOutboxRecordRequiresResolution)
+        .map(record => String(record.mutationId || "")).sort().join(",");
+      return `${context.owner}:${context.epoch}:${ids}`;
+    }
+
     function scheduleFlashcardAutomaticTerminalRecovery() {
       const context = captureSupabaseStateSaveContext();
       if (!context?.owner || supabaseState.outboxErrorClass !== "terminal") return false;
-      const attemptKey = `${context.owner}:${context.epoch}`;
+      const attemptKey = flashcardAutomaticRecoveryKey(context);
       if (flashcardAutomaticRecoveryAttemptedOwners.has(attemptKey)) return false;
       flashcardAutomaticRecoveryAttemptedOwners.add(attemptKey);
       window.setTimeout(() => {
@@ -187855,7 +187968,29 @@ window.EDMUND_FLASHCARD_SEED = {
             throw new Error("The current Flashcard hydration did not finish within the recovery window.");
           }
 
-          const stateLoaded = await loadStudentStateFromSupabase();
+          const wasHydrated = supabaseState.hydratedOwner === context.owner
+            && supabaseState.hydratedEpoch === context.epoch;
+          let stateLoaded = false;
+          if (wasHydrated) {
+            // Refresh only the canonical baseline during study. Do not clear
+            // hydration or replace local progress while this read is pending.
+            const fresh = await callFlashcardStateReadV2(context);
+            if (fresh.transport !== "v2" || !isSupabaseStateContextCurrent(context)) {
+              throw new Error("The recovery read no longer belongs to this session.");
+            }
+            const rows = new Map((fresh.rows || []).map(row => [row.key, row]));
+            SUPABASE_SYNC_KEYS.forEach(key => {
+              const row = rows.get(key);
+              // A save can finish while this read is in flight. Its newer
+              // acknowledged baseline must not be rolled back by the read.
+              if (Number(row?.version || 0) < flashcardStateVersion(key)) return;
+              setFlashcardCanonicalValue(key, row ? row.value : defaultRemoteValueForKey(key));
+              setFlashcardStateMetadata(key, Number(row?.version || 0), row?.value_checksum || "");
+            });
+            stateLoaded = true;
+          } else {
+            stateLoaded = await loadStudentStateFromSupabase();
+          }
           if (!isSupabaseStateContextCurrent(context)) {
             throw new Error("The active Flashcard account changed during recovery.");
           }
@@ -187892,17 +188027,8 @@ window.EDMUND_FLASHCARD_SEED = {
             summary = applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
           }
 
-          let availabilityRelease = null;
-          if (canonicalHydrationComplete && flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution)) {
-            const terminalRows = flashcardRecoveryRows.filter(flashcardOutboxRecordRequiresResolution);
-            availabilityRelease = await releaseFlashcardTerminalOutboxRows(context, terminalRows);
-            flashcardRecoveryRows = await flashcardOutboxRowsForContext(context);
-            summary = applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
-            terminalRowsRemain = flashcardRecoveryRows.some(flashcardOutboxRecordRequiresResolution);
-            if (!terminalRowsRemain && !summary.globalBlock) {
-              supabaseState.phase = FLASHCARD_SYNC_PHASES.READY;
-            }
-          }
+          // Unresolved changes stay in the durable outbox. Silently archiving
+          // and dropping them is not recovery and can hide completed work.
 
           const recovered = Boolean(
             supabaseState.phase === FLASHCARD_SYNC_PHASES.READY
@@ -187923,24 +188049,22 @@ window.EDMUND_FLASHCARD_SEED = {
           supabaseState.outboxLastError = summary.lastError || "";
           flashcardRecoveryUiState = {
             mode: "success",
-            detail: availabilityRelease?.released ? "cloud-record-restored" : ""
+            detail: ""
           };
           renderFlashcardRecoveryPanel(flashcardRecoveryRows);
           const loginStatus = document.querySelector("[data-login-status]");
           if (loginStatus) loginStatus.textContent = "";
           updateSupabaseStatus(
-            availabilityRelease?.released
-              ? "舊同步衝突已封存；已採用雲端紀錄"
-              : summary.errorClass === "retryable"
+            summary.errorClass === "retryable"
                 ? "同步將自動重試"
                 : "已安全連接",
-            availabilityRelease?.released || summary.errorClass === "retryable" ? "warning" : "live"
+            summary.errorClass === "retryable" ? "warning" : "live"
           );
           hydrateFlashcardDisplayPreferences();
           if (currentView === "login") {
             showAppPanel("dashboard", false);
             window.setTimeout(openRequestedFlashcardTarget, 0);
-          } else {
+          } else if (currentView !== "deck-view") {
             refreshCurrentView();
           }
           window.setTimeout(() => {
@@ -187960,6 +188084,17 @@ window.EDMUND_FLASHCARD_SEED = {
             applyFlashcardOutboxStatusSummary(flashcardRecoveryRows);
           } catch {
             // Never clear or replace the local outbox when recovery inspection fails.
+          }
+          if (isTransientFlashcardStateReadError(error) && isSupabaseStateContextCurrent(context)
+            && isSupabaseStateHydrated(context)) {
+            flashcardRecoveryUiState = { mode: "retrying", detail: "network" };
+            renderFlashcardRecoveryPanel(flashcardRecoveryRows);
+            window.setTimeout(() => {
+              if (!isSupabaseStateContextCurrent(context)) return;
+              flashcardAutomaticRecoveryAttemptedOwners.delete(flashcardAutomaticRecoveryKey(context));
+              scheduleFlashcardAutomaticTerminalRecovery();
+            }, FLASHCARD_OUTBOX_RETRY_CAP_MS);
+            return false;
           }
           flashcardRecoveryUiState = {
             mode: "failed",
@@ -187988,7 +188123,7 @@ window.EDMUND_FLASHCARD_SEED = {
         return code;
       }
 
-      // A same-browser progress queue can advance the canonical version while a
+      // A same-browser learning queue can advance the canonical version while a
       // coalesced sibling is still waiting. If the first reconciliation sees an
       // apparent delete/edit overlap, the row is isolated until a fresh canonical
       // hydration can prove whether the queued result is now safe. These records
@@ -188001,11 +188136,17 @@ window.EDMUND_FLASHCARD_SEED = {
         lastError.startsWith("A queued mutation needs review (")
         || lastError.startsWith("A legacy mutation needs review (")
       ) && lastError.endsWith(").");
+      // Earlier clients used a whole-deck comparison for familiarity and marked
+      // independent card answers as an account-wide overlap. Only that exact
+      // historical error can be reconsidered by the new per-card merge.
+      const legacyFamiliarityOverlap = record?.key === FAMILIARITY_KEY
+        && record?.terminalScope === "account"
+        && /^A (?:queued|legacy) mutation needs review \(overlap:.+\)\.$/.test(lastError);
       if (
-        record?.key === PROGRESS_KEY
+        [PROGRESS_KEY, FAMILIARITY_KEY].includes(record?.key)
         && receiptStatus === "blocked"
         && !record?.receipt
-        && record?.terminalScope === "key"
+        && (record?.terminalScope === "key" || legacyFamiliarityOverlap)
         && (
           localRecoveryClass === "fresh-canonical-rebase"
           || legacyLocalRebaseReview
@@ -188102,7 +188243,7 @@ window.EDMUND_FLASHCARD_SEED = {
         if (!SUPABASE_SYNC_KEYS.includes(record.key)) return;
         const terminal = flashcardOutboxRecordRequiresResolution(record);
         if (terminal) terminalByKey.set(record.key, record);
-        if (terminal && record.key !== ATTEMPTS_KEY) return;
+        if (terminal && ![ATTEMPTS_KEY, PROGRESS_KEY, FAMILIARITY_KEY].includes(record.key)) return;
         if (record.key === ATTEMPTS_KEY) {
           const canonical = Object.prototype.hasOwnProperty.call(record, "canonicalValue")
             ? record.canonicalValue
@@ -188118,6 +188259,9 @@ window.EDMUND_FLASHCARD_SEED = {
       });
       terminalByKey.forEach((record, key) => {
         if (key === ATTEMPTS_KEY || !Object.prototype.hasOwnProperty.call(record, "canonicalValue")) return;
+        // Keep the latest owned learning snapshot visible locally while its key
+        // awaits reconciliation. Canonical metadata remains separate for writes.
+        if ([PROGRESS_KEY, FAMILIARITY_KEY].includes(key) && latestByKey.has(key)) return;
         const canonical = cloneFlashcardSyncPayload(record.canonicalValue);
         latestByKey.set(key, { ...record, payload: canonical });
       });
@@ -188416,6 +188560,14 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     async function resolveFlashcardCanonicalState(record, receipt, context) {
+      if (!isSupabaseStateContextCurrent(context)) throw new Error("The canonical read belongs to an earlier session.");
+      if (Number(receipt.resultingVersion) < flashcardStateVersion(record.key)) {
+        receipt.acknowledgedVersion = receipt.resultingVersion;
+        receipt.acknowledgedChecksum = receipt.resultingChecksum;
+        receipt.resultingVersion = flashcardStateVersion(record.key);
+        receipt.resultingChecksum = flashcardStateChecksum(record.key);
+        return flashcardCanonicalValue(record.key);
+      }
       const canUseCompactReceiptValue = record.key !== ATTEMPTS_KEY && receipt?.hasCanonicalValue;
       if (canUseCompactReceiptValue) {
         return receipt.canonicalValue == null
@@ -188431,11 +188583,28 @@ window.EDMUND_FLASHCARD_SEED = {
         .find(candidate => candidate?.key === record.key);
       const canonicalVersion = row ? Number(row.version || 0) : 0;
       const canonicalChecksum = row && typeof row.value_checksum === "string" ? row.value_checksum : "";
-      if (
-        canonicalVersion !== Number(receipt.resultingVersion)
-        || canonicalChecksum !== String(receipt.resultingChecksum || "")
-      ) {
-        throw flashcardIntegrityError("The canonical reload changed before reconciliation; no local state was overwritten.");
+      if (!isSupabaseStateContextCurrent(context)) throw new Error("The canonical read belongs to an earlier session.");
+      if (flashcardStateVersion(record.key) > Math.max(canonicalVersion, Number(receipt.resultingVersion))) {
+        receipt.acknowledgedVersion = receipt.resultingVersion;
+        receipt.acknowledgedChecksum = receipt.resultingChecksum;
+        receipt.resultingVersion = flashcardStateVersion(record.key);
+        receipt.resultingChecksum = flashcardStateChecksum(record.key);
+        return flashcardCanonicalValue(record.key);
+      }
+      if (!Number.isSafeInteger(canonicalVersion) || canonicalVersion < Number(receipt.resultingVersion)) {
+        throw new Error("The canonical read is behind the acknowledged save; retrying without discarding it.");
+      }
+      if (canonicalVersion === Number(receipt.resultingVersion)
+        && canonicalChecksum !== String(receipt.resultingChecksum || "")) {
+        throw flashcardIntegrityError("The canonical checksum does not match its verified version.");
+      }
+      if (canonicalVersion > Number(receipt.resultingVersion)) {
+        // A save after the receipt is normal. Reconcile with the newer authenticated
+        // read and retain the original receipt version for diagnostic provenance.
+        receipt.acknowledgedVersion = receipt.resultingVersion;
+        receipt.acknowledgedChecksum = receipt.resultingChecksum;
+        receipt.resultingVersion = canonicalVersion;
+        receipt.resultingChecksum = canonicalChecksum;
       }
       return row
         ? cloneFlashcardSyncPayload(row.value)
@@ -188448,8 +188617,10 @@ window.EDMUND_FLASHCARD_SEED = {
       if (record.key === ATTEMPTS_KEY && options.preserveLocalAttempts) {
         canonical = mergeFlashcardAttempts(canonical, remoteStore[ATTEMPTS_KEY] || []);
       }
-      remoteStore[record.key] = cloneFlashcardSyncPayload(canonical);
-      cacheJsonLocally(record.key, canonical);
+      if (!options.preserveLocalValue) {
+        remoteStore[record.key] = cloneFlashcardSyncPayload(canonical);
+        cacheJsonLocally(record.key, canonical);
+      }
       setFlashcardStateMetadata(record.key, receipt.resultingVersion, receipt.resultingChecksum);
       if (record.key === ATTEMPTS_KEY) {
         cacheAccountAttemptsBackup(canonical, {
@@ -188535,7 +188706,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const receiptCode = String(receipt?.code || record?.receipt?.code || "").toLocaleLowerCase();
       const terminalScope = ["key", "account"].includes(options.scope)
         ? options.scope
-        : record.key === PROGRESS_KEY && FLASHCARD_TERMINAL_RECOVERY_CODES.has(receiptCode)
+        : FLASHCARD_TERMINAL_RECOVERY_CODES.has(receiptCode)
           ? "key"
           : "account";
       const optionCanonicalVersion = Number(options.canonicalVersion);
@@ -188582,7 +188753,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     async function handleFlashcardOutboxConflict(record, receipt, context) {
       const canonicalValue = await resolveFlashcardCanonicalState(record, receipt, context);
-      applyFlashcardCanonicalState(record, receipt, context, canonicalValue);
+      applyFlashcardCanonicalState(record, receipt, context, canonicalValue, { preserveLocalValue: true });
       const reconciliation = reconcileFlashcardStateMutation(record, canonicalValue);
 
       if (!reconciliation.safe) {
@@ -188591,7 +188762,7 @@ window.EDMUND_FLASHCARD_SEED = {
           receipt,
           canonicalValue,
           `Version conflict requires review (${reconciliation.reason}).`,
-          { scope: record.key === PROGRESS_KEY ? "key" : "account" }
+          { scope: "key" }
         );
         return {
           rebased: false,
@@ -188610,8 +188781,8 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!persistedReplacement) {
         return { rebased: false, blocked: false, supersededElsewhere: true };
       }
-      remoteStore[record.key] = cloneFlashcardSyncPayload(reconciliation.value);
-      cacheJsonLocally(record.key, reconciliation.value);
+      // Later answers may already be visible locally. Keep that projection; the
+      // merged replacement is durable and will be acknowledged in the background.
       if (record.key === ATTEMPTS_KEY) {
         cacheAccountAttemptsBackup(reconciliation.value, {
           role: "student",
@@ -188731,7 +188902,18 @@ window.EDMUND_FLASHCARD_SEED = {
         }
         let record = originalRecord;
         try {
-          const preparedRecord = prepareFlashcardOutboxRecordForV2(originalRecord);
+          const claimedRecord = await claimFlashcardOutboxMutation(originalRecord.mutationId, context);
+          if (!claimedRecord) {
+            scheduleFlashcardOutboxDrain("queue-advanced", 0);
+            continue;
+          }
+          record = claimedRecord;
+          const preparedRecord = {
+            ...prepareFlashcardOutboxRecordForV2(claimedRecord),
+            status: "inflight",
+            lastAttemptAt: now,
+            updatedAt: now
+          };
           if (preparedRecord.mutationId !== originalRecord.mutationId) {
             const persistedReplacement = await supersedeFlashcardOutboxMutation(
               originalRecord.mutationId,
@@ -188743,16 +188925,15 @@ window.EDMUND_FLASHCARD_SEED = {
             }
             record = persistedReplacement;
           } else record = preparedRecord;
-          record = {
-            ...record,
-            status: "inflight",
-            lastAttemptAt: now,
-            updatedAt: now
-          };
           await updateFlashcardOutboxMutation(record);
           const sendPromise = sendFlashcardOutboxMutation(record, context);
           flashcardOutboxInFlight.set(record.mutationId, sendPromise);
           const receipt = await sendPromise;
+          if (!isSupabaseStateContextCurrent(context)) {
+            // Keep the previous account row for an idempotent replay on its
+            // next login; never apply a late response to a different account.
+            return { acknowledged: acknowledgedCount, pending: rows.length, contextChanged: true };
+          }
           if (receipt?.requestId !== record.mutationId || receipt?.key !== record.key) {
             throw flashcardIntegrityError("The state transport returned a receipt for another mutation.");
           }
@@ -188786,7 +188967,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (!['accepted', 'noop'].includes(receipt.status)) {
             throw flashcardIntegrityError("The durable mutation did not receive an accepted or noop receipt.");
           }
-          if (receipt.transport === "v2") {
+          if (receipt.transport === "v2" && receipt.resultingVersion >= flashcardStateVersion(record.key)) {
             if (receipt.code === "lossless_server_merge") {
               const canonicalValue = await resolveFlashcardCanonicalState(record, receipt, context);
               applyFlashcardCanonicalState(
@@ -188818,10 +188999,10 @@ window.EDMUND_FLASHCARD_SEED = {
               canonicalValue,
               message,
               {
-                scope: record.key === PROGRESS_KEY && /needs review/i.test(message)
+                scope: [PROGRESS_KEY, FAMILIARITY_KEY].includes(record.key) && /needs review/i.test(message)
                   ? "key"
                   : "account",
-                recoveryClass: record.key === PROGRESS_KEY && /^A (?:queued|legacy) mutation needs review \(.+\)\.$/.test(message)
+                recoveryClass: [PROGRESS_KEY, FAMILIARITY_KEY].includes(record.key) && /^A (?:queued|legacy) mutation needs review \(.+\)\.$/.test(message)
                   ? "fresh-canonical-rebase"
                   : "",
                 canonicalVersion: flashcardStateVersion(record.key),
@@ -189059,7 +189240,30 @@ window.EDMUND_FLASHCARD_SEED = {
         const incomingWins = compareFlashcardAttemptStrength(existing, attempt) <= 0;
         const winner = incomingWins ? attempt : existing;
         const loser = incomingWins ? existing : attempt;
-        attemptsById.set(identity, { ...loser, ...winner });
+        const merged = { ...loser, ...winner };
+        // A stronger snapshot is not necessarily a superset of its sibling.
+        // Retain the union of answered cards for the SAME attempt identity.
+        for (const field of ["cardOutcomes", "cardAttempts"]) {
+          if (!Array.isArray(existing[field]) && !Array.isArray(attempt[field])) continue;
+          const byCard = new Map();
+          for (const item of [...(existing[field] || []), ...(attempt[field] || [])]) {
+            if (!item || typeof item !== "object") continue;
+            const key = String(item.key || `${item.deckId || ""}::${item.index ?? item.front ?? ""}`);
+            const prior = byCard.get(key);
+            const incomingLater = Number(item.answeredAt || 0) >= Number(prior?.answeredAt || 0);
+            const combined = prior ? { ...(incomingLater ? prior : item), ...(incomingLater ? item : prior) } : { ...item };
+            if (field === "cardAttempts") combined.count = Math.max(Number(prior?.count || 0), Number(item.count || 0));
+            byCard.set(key, combined);
+          }
+          merged[field] = [...byCard.values()];
+        }
+        merged.updatedAt = Math.max(Number(existing.updatedAt || 0), Number(attempt.updatedAt || 0));
+        merged.answeredCount = Math.max(Number(existing.answeredCount || 0), Number(attempt.answeredCount || 0), merged.cardOutcomes?.length || 0);
+        if (merged.cardOutcomes?.length && merged.cardOutcomes.length >= merged.answeredCount) {
+          merged.green = merged.cardOutcomes.filter(item => item.status === "green").length;
+          merged.red = merged.cardOutcomes.filter(item => item.status === "red").length;
+        }
+        attemptsById.set(identity, merged);
       };
       (Array.isArray(existingValue) ? existingValue : []).forEach(addAttempt);
       (Array.isArray(incomingValue) ? incomingValue : []).forEach(addAttempt);
@@ -189274,17 +189478,20 @@ window.EDMUND_FLASHCARD_SEED = {
         return false;
       }
       if (isSupabaseStateContextCurrent(context) && isSupabaseStateHydrated(context)) {
-        remoteStore[key] = payload;
-        cacheJsonLocally(key, payload);
+        const durablePayload = cloneFlashcardSyncPayload(persisted.payload ?? payload);
+        remoteStore[key] = durablePayload;
+        cacheJsonLocally(key, durablePayload);
         if (key === ATTEMPTS_KEY) {
-          cacheAccountAttemptsBackup(payload, {
+          cacheAccountAttemptsBackup(durablePayload, {
             role: "student",
             id: mutation.studentId,
             name: mutation.studentName
           });
         }
         if (latestStaged?.mutationId === mutation.mutationId) flashcardStagedValues.delete(key);
-        refreshCurrentView();
+        if (currentView !== "deck-view" || ![ATTEMPTS_KEY, PROGRESS_KEY, FAMILIARITY_KEY].includes(key)) {
+          refreshCurrentView();
+        }
       }
       scheduleFlashcardOutboxDrain("mutation", 0);
       return true;
@@ -189363,7 +189570,8 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function flashcardMutationAllowed(context = captureSupabaseStateSaveContext(), key = "") {
       if (supabaseState.phase === FLASHCARD_SYNC_PHASES.RECOVERY_BLOCKED) return false;
-      if (key && supabaseState.outboxBlockedKeys.has(String(key))) return false;
+      if (key && supabaseState.outboxBlockedKeys.has(String(key))
+        && ![PROGRESS_KEY, FAMILIARITY_KEY, ATTEMPTS_KEY].includes(String(key))) return false;
       if (currentUser?.role === "admin") return true;
       if (currentUser?.role !== "student") return false;
       return Boolean(context && isSupabaseStateHydrated(context));
@@ -190520,7 +190728,9 @@ window.EDMUND_FLASHCARD_SEED = {
     function normalizeFamiliarity(value) {
       return {
         green: [...new Set(Array.isArray(value?.green) ? value.green.map(String) : [])],
-        red: [...new Set(Array.isArray(value?.red) ? value.red.map(String) : [])]
+        red: [...new Set(Array.isArray(value?.red) ? value.red.map(String) : [])],
+        ...(value?.updatedAtByCard && typeof value.updatedAtByCard === "object"
+          ? { updatedAtByCard: { ...value.updatedAtByCard } } : {})
       };
     }
 
@@ -190556,6 +190766,7 @@ window.EDMUND_FLASHCARD_SEED = {
       familiarity.green = familiarity.green.filter(index => index !== key);
       familiarity.red = familiarity.red.filter(index => index !== key);
       familiarity[status].push(key);
+      familiarity.updatedAtByCard = { ...familiarity.updatedAtByCard, [key]: Date.now() };
       saveDeckFamiliarity(deckId, familiarity);
     }
 
@@ -194808,6 +195019,10 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!currentUser?.name) return null;
       const saved = getProgressStore()[progressKey(deckId)];
       if (!saved || saved.completed) return null;
+      // A delayed cleanup must not offer a completed attempt as 28/30 again.
+      if (saved.attemptId && getAttempts().some(attempt =>
+        attempt.id === saved.attemptId && attempt.studentName === currentUser.name && attempt.completed
+      )) return null;
       const expectedRevision = deckDataRevision(deckId);
       if (expectedRevision && saved.deckRevision !== expectedRevision) {
         clearSavedProgress(deckId);

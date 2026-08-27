@@ -37,6 +37,7 @@ jobs:
       - name: Validate Flashcard conflict recovery release gate
         run: |
           node tools/test-flashcard-state-integrity.mjs
+          node tools/test-flashcard-sync-resilience.mjs
           node tools/test-flashcard-deck-modes.mjs
           node tools/test-flashcard-conflict-recovery-ui.mjs
           node tools/test-flashcard-pwa-critical-update.mjs

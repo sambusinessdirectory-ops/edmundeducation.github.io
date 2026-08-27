@@ -40,6 +40,12 @@ jobs:
       - name: Verify Flashcard state integrity
         run: node tools/test-flashcard-state-integrity.mjs
 
+      - name: Verify interrupted-sync and completion regressions
+        run: node tools/test-flashcard-sync-resilience.mjs
+
+      - name: Verify recovery does not discard pending work
+        run: node tools/test-flashcard-conflict-recovery-ui.mjs
+
       - name: Verify Flashcard preferences
         run: node tools/test-flashcard-preferences.mjs
 

@@ -141,7 +141,8 @@ const setCardFamiliarity = Function("getDeckFamiliarity", "saveDeckFamiliarity",
   (_deckId, value) => { savedFamiliarity = value; }
 );
 setCardFamiliarity(1, "red", "deck-a");
-assert.deepEqual(savedFamiliarity, { green: ["2"], red: ["3", "1"] }, "a failed answer in green-only mode must immediately downgrade the card to red");
+assert.deepEqual({ green: savedFamiliarity.green, red: savedFamiliarity.red }, { green: ["2"], red: ["3", "1"] }, "a failed answer in green-only mode must immediately downgrade the card to red");
+assert.ok(savedFamiliarity.updatedAtByCard["1"] > 0, "The grade timestamp must survive for per-card conflict resolution");
 const familiarityPersistence = sourceBetween("function saveFamiliarityStore(", "function getCardNotesStore(");
 assert.match(familiarityPersistence, /writeJson\(FAMILIARITY_KEY, store\)/, "familiarity changes must enter the synchronized state writer");
 const familiarityDeckWriter = sourceBetween("function saveDeckFamiliarity(", "function setCardFamiliarity(");
@@ -176,7 +177,7 @@ assert.match(mutationWriter, /if \(!flashcardMutationAllowed\(context, key\)\)/)
 assert.match(mutationWriter, /flashcardStagedValues\.set/);
 assert.match(mutationWriter, /await enqueueFlashcardOutboxMutation\(mutation\)/);
 assert.ok(
-  mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)") < mutationWriter.indexOf("remoteStore[key] = payload", mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)")),
+  mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)") < mutationWriter.indexOf("remoteStore[key] = durablePayload", mutationWriter.indexOf("await enqueueFlashcardOutboxMutation(mutation)")),
   "a synchronized value must reach the durable IndexedDB outbox before becoming canonical browser state"
 );
 
