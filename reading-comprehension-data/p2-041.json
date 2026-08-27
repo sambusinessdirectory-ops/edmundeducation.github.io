@@ -1,0 +1,275 @@
+{
+  "id": "p2-041",
+  "catalogueId": "p2-041",
+  "title": "Antarctica – in from the cold?",
+  "sourceHeading": "Antarctica—In from the Cold?",
+  "passage": 2,
+  "practice": 41,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-041-antarctica-in-from-the-cold",
+  "source": {
+    "filename": "Practice 41 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "1a28382d3eec91bf2bd69a154bdc3467f1735acc5a3b62722787bb845a1b7a9b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "A little over a century ago, men of the ilk of Scott, Shackleton and Mawson battled against Antarctica’s blizzards, cold and deprivation. In the name of Empire and in an age of heroic deeds they created an image of Antarctica that was to last well into the 20th century—an image of remoteness, hardship, bleakness and isolation that was the province of only the most courageous of men. The image was one of a place removed from everyday reality, of a place with no apparent value to anyone."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "As we enter the 21st century, our perception of Antarctica has changed. Although Antarctica is physically no closer and probably no warmer, spending time there still demands a dedication not seen in ordinary life, the continent and its surrounding ocean are increasingly seen to be an integral part of Planet Earth, and a key component in the Earth System. Is this because the world seems a little smaller these days, shrunk by TV and tourism, or is it because Antarctica really does occupy a central spot on Earth’s mantle? Scientific research during the past half century has revealed—and continues to reveal—that Antarctica’s great mass and low temperature exert a major influence on climate and ocean circulation, factors which influence the lives of millions of people all over the globe."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Antarctica was not always cold. The slow break-up of the supercontinent Gondwana with the northward movements of Africa, South America, India and Australia eventually created enough space around Antarctica for the development of an Antarctic Circumpolar Current (ACC), which flowed from west to east under the influence of the prevailing westerly winds. Antarctica cooled, its vegetation perished, glaciation began and the continent took on its present-day appearance. Today the ice that overlies the bedrock is up to 4 km thick, and surface temperatures as low as −89.2°C have been recorded. The icy blast that howls over the ice cap and out to sea—the so-called katabatic wind—can reach 300 km/h, creating fearsome wind-chill effects."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Out of this extreme environment come some powerful forces that reverberate around the world. The Earth’s rotation, coupled with the formation of low-pressure cells off the Antarctic coast, creates a pattern that would give astronauts a view of Antarctica as beautiful as it is awesome. Spinning away to the northeast, the cells grow and deepen, whipping up the Southern Ocean into the mountainous seas so respected by mariners. Recent work is showing that the temperature of the ocean may be a better predictor of rainfall in Australia than is the pressure difference between Darwin and Tahiti—the Southern Oscillation Index. By receiving more accurate predictions, graziers in northern Queensland are able to avoid overstocking in years when rainfall will be poor. Not only does this limit their losses, but it also prevents serious pasture degradation that may take decades to repair. CSIRO is developing this as a prototype forecasting system, but we can confidently predict that as we know more about the Antarctic and Southern Ocean we will be able to enhance and extend our predictive ability."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The ocean’s surface temperature results from the interplay between deep-water temperature, air temperature and ice. Each winter between 4 million and 19 million square kilometres of sea ice forms, locking up huge quantities of heat close to the continent. Only now can we start to unravel the influence of sea ice on the weather that is experienced in southern Australia. In another way, the extent of sea ice exerts an influence far beyond Antarctica. Antarctic krill—the small shrimp-like crustaceans that are the staple diet for baleen whales, penguins, some seals, flighted seabirds and many fish—breed well in years when sea ice is extensive and poorly when it is not. Many species of baleen whales and flighted seabirds migrate between the hemispheres and when the krill are less abundant they do not thrive."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The circulatory system of the world’s oceans is like a huge conveyor belt, moving water and dissolved minerals and nutrients from one hemisphere to the other, and from the ocean’s abyssal depths to the surface. The ACC is the longest current in the world, and has the largest flow. Through it, the deep flows of the Atlantic, Indian and Pacific Oceans are joined to form part of a single global thermohaline circulation. During winter, the howling katabatic winds sometimes scour the ice off patches of the sea’s surface leaving large ice-locked lagoons, or ‘polynyas’. Recent research has shown that as fresh sea ice forms, it is continuously stripped away by the wind and may be blown up to 90 km in a single day. Since only fresh water freezes into ice, the water that remains becomes increasingly salty and dense, sinking until it spills over the continental shelf. Cold water carries more oxygen than warm water, so when it rises, well into the Northern Hemisphere, it reoxygenates and revitalises the ocean. The state of the northern oceans, and their biological productivity, owes much to what happens in the Antarctic."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in boxes 14–18 on your answer sheet.\n14 ____________ An example of research used to develop an agricultural weather-forecasting system\n15 ____________ An explanation of how Antarctic sea ice revitalises the world’s oceans\n16 ____________ A description of a food chain that affects animals’ survival patterns\n17 ____________ A reference to an extreme temperature and a powerful cold wind in Antarctica\n18 ____________ A reference to the former view of Antarctica as a forgotten and insignificant continent"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 21,
+      "text": "Questions 19–21\nMatch each statement with the correct factor, A–F.\nWrite the correct letter, A–F, in boxes 19–21 on your answer sheet.\nGlobally, Antarctica’s enormous size and 19 ____________ influence the climate.\nThe 20 ____________ circulates under the influence of winds blowing from the west.\nOcean temperature and an index based on air pressure can help predict 21 ____________ in\nAustralia.\n\n A                           Antarctic Circumpolar Current (ACC)\n\n B                           katabatic winds\n\n C                           rainfall\n\n D                           temperature\n\n E                           glaciers\n\n F                           pressure"
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 22–26 on your answer sheet.\n22 In paragraph B, the writer intends to\n  A show that Antarctica has become a central topic in media discussions of global warming.\n  B illustrate how its vast sea ice supplies food to millions of living things.\n  C emphasise the significance of Antarctica to the global climate and ocean currents.\n  D illustrate Antarctica’s geographical position at the centre of the Earth.\n\n\n23 Why should Australian farmers monitor the temperature of the Southern Ocean?\n  A It can help them reduce economic losses.\n  B It enables damaged grassland to recover after overgrazing.\n  C It can help prevent livestock from dying.\n  D It enables astronauts to have a clear view of the Antarctic continent.\n\n\n24 Why may whale and seabird numbers decline?\n  A because of killer-whale activity around Antarctica\n  B because seabird migration correlates with ocean salinity\n  C because reduced sea ice makes their food source less productive\n  D because seals fail to reproduce\n\n\n25 What is the ultimate effect of the katabatic winds described in paragraph F?\n  A They increase the speed of the ocean current.\n  B They increase the salinity of surface water.\n  C They carry fresh ice into the oceans.\n  D They build up the mountainous seas feared by mariners.\n\n\n26 What causes Antarctic water to move beyond the continental shelf?\n  A An increase in the water’s salinity and density\n  B The decrease of salt and density of the water\n  C The rising temperature due to global warming\n  D The melting of fresh ice into the ocean"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ An example of research used to develop an agricultural weather-forecasting system",
+      "translation": "一個用來發展農業天氣預測系統的研究例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ An explanation of how Antarctic sea ice revitalises the world’s oceans",
+      "translation": "解釋南極海冰如何令世界海洋重新充氧、恢復活力。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ A description of a food chain that affects animals’ survival patterns",
+      "translation": "描述一條會影響動物生存狀況的食物鏈。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ A reference to an extreme temperature and a powerful cold wind in Antarctica",
+      "translation": "提到南極的極端溫度和強烈冷風。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "____________ A reference to the former view of Antarctica as a forgotten and insignificant continent",
+      "translation": "提到昔日人們把 Antarctica 視為被遺忘、無重要價值的大陸。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "在全球層面，Antarctica 的巨大規模和 __________ 會影響氣候。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "__________ 在西風影響下流動循環。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "海洋溫度和以氣壓為基礎的指數，可以幫助預測澳洲的 __________。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "In paragraph B, the writer intends to",
+      "translation": "在 Paragraph B 中，作者的意圖是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Why should Australian farmers monitor the temperature of the Southern Ocean?",
+      "translation": "為甚麼澳洲農民應該留意 Southern Ocean 的溫度？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Why may whale and seabird numbers decline?",
+      "translation": "為甚麼 whale 和 seabird 數量可能下降？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What is the ultimate effect of the katabatic winds described in paragraph F?",
+      "translation": "Paragraph F 所描述的 katabatic winds 最終造成甚麼效果？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What causes Antarctic water to move beyond the continental shelf?",
+      "translation": "甚麼原因令 Antarctic water 越過大陸棚移動？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-041/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-041/page-5.jpg"
+  ]
+}

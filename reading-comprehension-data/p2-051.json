@@ -1,0 +1,263 @@
+{
+  "id": "p2-051",
+  "catalogueId": "p2-051",
+  "title": "Keep the Water Away",
+  "sourceHeading": "Keep the Water Away",
+  "passage": 2,
+  "practice": 51,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-051-keep-the-water-away",
+  "source": {
+    "filename": "Practice 51 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "b6f181a7935aaee1a732b347ddc929d8b0b71cbee7ae1d8787610510ea1a9472"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Last winter’s floods on the rivers of central Europe were among the worst since the Middle Ages, and as winter storms return, the spectre of floods is returning too. Just weeks ago, the river Rhone in south-east France burst its banks, driving 15,000 people from their homes, and worse could be on the way. Traditionally, river engineers have gone for Plan A: get rid of the water fast, draining it off the land and down to the sea in tall-sided rivers re-engineered as high-performance drains. But however big they dug city drains, however wide and straight they made the rivers, and however high they built the banks, the floods kept coming back to taunt them, from the Mississippi to the Danube. And when the floods came, they seemed to be worse than ever. No wonder engineers are turning to Plan B: sap the water’s destructive strength by dispersing it into fields, forgotten lakes, flood plains and aquifers."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Back in the days when rivers took a more tortuous path to the sea, flood waters lost impetus and volume while meandering across flood plains and idling through wetlands and inland deltas. But today the water tends to have an unimpeded journey to the sea. And this means that when it rains in the uplands, the water comes down all at once. Worse, whenever we close off more flood plains, the river’s flow farther downstream becomes more violent and uncontrollable. Dykes are only as good as their weakest link—and the water will unerringly find it. By trying to turn the complex hydrology of rivers into the simple mechanics of a water pipe, engineers have often created danger where they promised safety, and intensified the floods they meant to end. Take the Rhine, Europe’s most engineered river. For two centuries, German engineers have erased its backwaters and cut it off from its flood plain."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Today, the river has lost 7 percent of its original length and runs up to a third faster. When it rains hard in the Alps, the peak flows from several tributaries coincide in the main river, where once they arrived separately. And with four-fifths of the lower Rhine’s flood plain barricaded off, the waters rise ever higher. The result is more frequent flooding that does ever-greater damage to the homes, offices and roads that sit on the flood plain. Much the same has happened in the US on the mighty Mississippi, which drains the world’s second largest river catchment into the Gulf of Mexico."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The European Union is trying to improve rain forecasts and more accurately model how intense rains swell rivers. That may help cities prepare, but it won’t stop the floods. To do that, say hydrologists, you need a new approach to engineering not just rivers, but the whole landscape. The UK’s Environment Agency—which has been granted an extra £150 million a year to spend in the wake of floods in 2000 that cost the country £1 billion—puts it like this: “The focus is now on working with the forces of nature. Towering concrete walls are out, and new wetlands are in.” To help keep London’s feet dry, the agency is breaking the Thames’s banks upstream and reflooding 10 square kilometres of ancient flood plain at Otmoor outside Oxford. Nearer to London it has spent £100 million creating new wetlands and a relief channel across 16 kilometres of flood plain to protect the town of Maidenhead, as well as the ancient playing fields of Eton College. And near the south coast, the agency is digging out channels to reconnect old meanders on the river Cuckmere in East Sussex that were cut off by flood banks 150 years ago."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The same is taking place on a much grander scale in Austria, in one of Europe’s largest river restorations to date. Engineers are regenerating flood plains along 60 kilometres of the river Drava as it exits the Alps. They are also widening the river bed and channelling it back into abandoned meanders, oxbow lakes and backwaters overhung with willows. The engineers calculate that the restored flood plain can now store up to 10 million cubic metres of flood waters and slow storm surges coming out of the Alps by more than an hour, protecting towns as far downstream as Slovenia and Croatia."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "“Rivers have to be allowed to take more space. They have to be turned from flood-chutes into flood-foilers,” says Nienhuis. And the Dutch, for whom preventing floods is a matter of survival, have gone furthest. A nation built largely on drained marshes and seabed had the fright of its life in 1993 when the Rhine almost overwhelmed it. The same happened again in 1995, when a quarter of a million people were evacuated from the Netherlands. But a new breed of “soft engineers” wants our cities to become porous, and Berlin is their shining example. Since reunification, the city’s massive redevelopment has been governed by tough new rules to prevent its drains becoming overloaded after heavy rains. Harald Kraft, an architect working in the city, says: “We now see rainwater as a resource to be kept rather than got rid of at great cost.” A good illustration is the giant Potsdamer Platz, a huge new commercial redevelopment by Daimler Chrysler in the heart of the city."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Los Angeles has spent billions of dollars digging huge drains and concreting river beds to carry away the water from occasional intense storms. The latest plan is to spend a cool $280 million raising the concrete walls on the Los Angeles River by another 2 metres. Yet many communities still flood regularly. Meanwhile this desert city is shipping in water from hundreds of kilometres away in northern California and from the Colorado River in Arizona to fill its taps and swimming pools, and irrigate its green spaces. It all sounds like bad planning. “In LA we receive half the water we need in rainfall, and we throw it away. Then we spend hundreds of millions to import water,” says Andy Lipkis, an LA environmentalist. Lipkis, together with citizen groups such as Friends of the Los Angeles River and Unpaved LA, wants to beat the urban flood hazard and fill the taps by holding onto the city’s flood water. And it’s not just a pipe dream. The authorities this year launched a $100 million scheme to road-test the porous city in one flood-hit community in Sun Valley. The plan is to catch the rain that falls on thousands of driveways, parking lots and rooftops in the valley. Trees will soak up water from parking lots. Homes and public buildings will capture roof water to irrigate gardens and parks. And road drains will empty into old gravel pits and other leaky places that should recharge the city’s underground water reserves. Result: less flooding and more water for the city. Plan B says every city should be porous, every river should have room to flood naturally and every coastline should be left to build its own defences. It sounds expensive and utopian, until you realise how much we spend trying to drain cities and protect our watery margins—and how bad we are at it."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 14–19 on your answer sheet.\n14 ______________ a new approach carried out in the UK\n15 ______________ Why straightened rivers and dykes can fail\n16 ______________ An apparently unrealistic alternative plan for Los Angeles\n17 ______________ The traditional approach to flood control\n18 ______________ Flood-management efforts in the Netherlands and Germany\n19 ______________ A river project that benefits three countries"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 23,
+      "text": "Questions 20–23\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 20–23 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n20 _________________ In the past, Europeans improved river banks, making floods less\nsevere.\n21 _________________ Flooding has shortened rivers, causing faster flows and greater\ndamage to buildings on flood plains.\n22 _________________ The UK’s new approach is better than Austria’s.\n23 _________________ At least 300,000 people were evacuated from the Netherlands in 1995."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\n\n\nThe UK Environment Agency created wetlands near the town of 24 _________________ to\nprotect it from flooding.\n25 _________________ proposed that cities should be porous, and Berlin provides a good\nexample.\nAnother city frequently hit by severe storms is 26 _________________, despite spending\nbillions of dollars on flood control."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ a new approach carried out in the UK",
+      "translation": "在英國實行的一種新方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ Why straightened rivers and dykes can fail",
+      "translation": "為何被拉直的河流和堤壩可能失敗。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ An apparently unrealistic alternative plan for Los Angeles",
+      "translation": "一個看似不切實際的 Los Angeles 替代方案。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ The traditional approach to flood control",
+      "translation": "傳統防洪方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ Flood-management efforts in the Netherlands and Germany",
+      "translation": "荷蘭和德國的防洪管理措施。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ A river project that benefits three countries",
+      "translation": "一個令三個國家受益的河流工程。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ In the past, Europeans improved river banks, making floods less severe.",
+      "translation": "過去，歐洲人改善河岸，使洪水變得較不嚴重。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Flooding has shortened rivers, causing faster flows and greater damage to buildings on flood plains.",
+      "translation": "洪水令河流變短，造成更快水流，並對 flood plains 上的建築造成更大破壞。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ The UK’s new approach is better than Austria’s.",
+      "translation": "英國的新方法比 Austria 的方法更好。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ At least 300,000 people were evacuated from the Netherlands in 1995.",
+      "translation": "1995 年，荷蘭至少有 300,000 人被疏散。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "UK Environment Agency 在 ______ 鎮附近建立 wetlands，以保護它免受洪水影響。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________ proposed that cities should be porous, and Berlin provides a good example. Another city frequently hit by severe storms is 26 _________________, despite spending billions of dollars on flood control.",
+      "translation": "______ 提出城市應該 porous，而 Berlin 提供了一個好例子。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "另一個經常受強暴雨影響的城市是 ______，儘管它已花費數十億美元防洪。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-051/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-051/page-6.jpg"
+  ]
+}

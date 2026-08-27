@@ -1,0 +1,237 @@
+{
+  "id": "p1-085",
+  "catalogueId": "p1-085",
+  "title": "If at first you don’t succeed…",
+  "sourceHeading": "If at First You Don’t Succeed…",
+  "passage": 1,
+  "practice": 85,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-085-if-at-first-you-dont-succeed",
+  "source": {
+    "filename": "Practice 85  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "b289b73de2db771be02fa0cc06243d6a55e3afbf0837c3259904e3682ddc140f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Broadly speaking, there are two kinds of smokers—smokers who smoke for pleasure and smokers who smoke when stressed. The former use cigarettes when they feel good—for stimulation and relaxation. The latter use cigarettes as a coping mechanism to deal with stress, anger, tiredness, anxiety and so on. Pleasure smokers typically smoke fewer cigarettes a day and may go for extended periods without smoking at all, only having a puff when they are in a place (the bar, for example) they associate with the habit. Smokers who use their habit as a coping mechanism tend, however, to be far more reliant on cigarettes, smoking regularly throughout the day and in larger quantities overall than pleasure smokers. Their overdependence on cigarettes makes the task of quitting much harder because, whereas pleasure smokers can simply look for a substitute stimulant, smokers who use their habit as a coping mechanism must address the underlying problems that compel them to smoke, as well as kicking the habit itself."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "That said, quitting is possible so long as the smoker is at least in contemplation mode. There are six different modes smokers can find themselves in. The first, pre-contemplation, is typically the most difficult point from which to start quitting. This person has never really thought about quitting before, nor sensed any necessity or urgency to quit. He or she is likely to be poorly motivated and willpower is a major hurdle that may prove too much to overcome with such low motivation levels. These smokers tend only to say that they will try to quit when pressured to do so by a loved one, but really they have no desire whatsoever to give up."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Such individuals are unlikely to be affected by public health warnings and rarely listen to the negative publicity smoking receives in the media or place any importance on the wider society’s view of them and their habit. They are relatively content and their long-term prospects of quitting successfully are poor unless they have direct personal experience of smoking’s harmful effects, such as a bereavement in their immediate family or a smoking-related health scare they (or someone close to them) have had. Only this sort of fright may give them the genuine motivation to change their attitude and quit."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Someone who genuinely wants to quit is in what we term “contemplation” mode. These people, the contemplators, are of a mind to quit but still lack the motivation to try. They are constantly saying that they will quit, and often set vague far-off dates for when the act of quitting is likely to occur. A husband might say to his wife, for example: ‘When we have our first child, I will stop smoking.’ Part of him means it, and even acknowledging the need to stop—and the adverse effects smoking would have on his children’s health—is a step in the right direction. However, in reality, while the smoker knows he should quit, his motivation to do so is still not strong and he seriously doubts his own willpower. This is why he draws attention to a time when, as he perceives it, his willpower will have increased – such as after the birth of his firstborn."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Really, the only way to ever successfully give up smoking is to just get on with it. Don’t put it off until tomorrow; the task starts now. Each time we allow ourselves another excuse to have even just one more cigarette, our willpower folds and we succumb to our nicotine cravings. The action mode, then, is the one all current smokers must try to place themselves in. Here, they really are trying to quit and not just talking about it."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "People have different approaches to action mode; some change brands initially, some cut down on the amount they smoke, others wear patches or take other nicotine substitutes, and a few try to go cold turkey, a practice that does not actually have a very high success rate. The key thing that everyone in the action mode has in common is the will to try. Although this resolve is likely to be broken at some point, a smoker who remains firm in their determination to keep trying to quit will, statistically, succeed. For example, more than 70 per cent of ex-smokers (that is, former smokers who have been off cigarettes for in excess of one year) tried and failed to give up once before they were successful. Almost one fifth of all ex-smokers fall into the tried-and-failed-between-two-and-four-times category. One clear message can be drawn from this: keep trying!"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "When you get to the maintenance phase, in which you have stopped smoking completely, but are still within the first year after quitting, there is a tendency to assume that you are out of the woods. Sadly, this is where many people are let down by their overconfidence. Phrases such as ‘I’ll just have one—surely I don’t need them any more’ are not uncommon at this point, and all the hard work it took to quit is undone in a moment or two of madness during which one cigarette quickly becomes two, two become three, and before you know it, you are a fully-fledged addict again. It is important, therefore, to be conscious of the possibility of reverting to type during the first year, and to be on your guard. That said, failure is not the end, so despair not; you have simply entered another phase—relapse."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Relapse is a return to daily smoking after a period of non-smoking. Almost three quarters of smokers will find themselves here the first time they try to quit. There is, however, a danger of giving up on trying to give up at this stage, which is the wrong attitude to take. Failing in the quitting smoking stakes actually makes you less likely to fail the next time you try—practice really makes perfect in this game. Pluck up the courage to try again and you will find yourself in a state very familiar to anyone who has tried to quit: renewed-action mode. In this mode, you are as determined as ever to quit, but you have an edge—you can learn from your past mistakes and keep your expectations realistic."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nLook at the following smoker modes (Questions 1–5) and the list of statements below.\nMatch each mode with the correct statement, A–G.\nWrite the correct letter, A–G.\n                                 Your previous attempts make you statistically more likely to succeed in\n A\n                                 quitting now.\n\n                                 You are considering switching to a weaker cigarette and are trying to\n B\n                                 reduce your daily cigarette consumption for the first time.\n\n C                               After much deliberation, you have finally given in to the urge to smoke.\n\n                                 You dislike being labelled a smoker and tell others that you will quit, but you\n D\n                                 doubt your ability to remove cigarettes from your life.\n\n                                 You are aware of the negative perception of smoking that exists among the\n E                               wider public, but it does not affect you in the slightest, and you are content\n                                 to be labelled a smoker.\n\n                                 You often contemplate returning to smoking but you realise the folly of such\n F\n                                 an action.\n\n G                               Significant life events, such as bereavement, may impede quitting smoking.\n\n\n1 _____________ Pre-contemplation Mode\n2 _____________ Contemplation Mode\n3 _____________ Action Mode\n4 _____________ Relapse Mode\n5 _____________ Renewed-Action Mode"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 13,
+      "text": "Questions 6–13\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nMAKING THE EFFORT TO QUIT\n\n\n Remember\n\n 6 _________________ is only likely to become a goal if the smoker is in what is termed contemplation\n mode (or any subsequent mode that results from this initial state of mind).\n\n Smokers in contemplation mode have good intentions, but their target dates are often 7\n _________________. Their 8 _________________ is still somewhat lacking.\n\n Action mode is the state of mind in which the smoker decides to make a real effort to quit. It does not\n have to involve grand gestures. Simply switching 9 _________________ to a weaker type of cigarette\n is a move in the right direction.\n\n Surprisingly, giving up smoking completely straight away has a low 10 _________________.\n\n Most people who try to quit will have a 11 _________________ and start smoking regularly again at\n some point.\n\n This is no reason to stop trying: most ex-smokers faced 12 _________________ at least once before\n managing to kick the habit.\n\n The push to try again is known as renewed-action mode. People in this mode set 13\n _________________ targets, having learned from their past mistakes. It is the mode most conducive\n to success."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Pre-contemplation Mode",
+      "translation": "你知道大眾對吸煙有負面看法，但這完全不影響你，而且你對自己被視為 smoker 感到相對自在。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Contemplation Mode",
+      "translation": "你不喜歡被視為 smoker，會告訴別人自己將會戒煙，但你懷疑自己是否有能力真正擺脫香煙。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Action Mode",
+      "translation": "你正在考慮轉用較淡的香煙，並第一次嘗試減少每日吸煙量。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Relapse Mode",
+      "translation": "經過一番掙扎後，你終於向吸煙衝動讓步。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Renewed-Action Mode",
+      "translation": "你過去的戒煙嘗試，使你現在從統計上更有機會成功戒煙。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ is only likely to become a goal if the smoker is in what is termed contemplation mode (or any subsequent mode that results from this initial state of mind). Smokers in contemplation mode have good intentions, but their target dates are often 7 _________________. Their 8 _________________ is still somewhat lacking. Action mode is the state of mind in which the smoker decides to make a real effort to quit. It does not have to involve grand gestures. Simply switching 9 _________________ to a weaker type of cigarette is a move in the right direction. Surprisingly, giving up smoking completely straight away has a low 10 _________________. Most people who try to quit will have a 11 _________________ and start smoking regularly again at some point. This is no reason to stop trying: most ex-smokers faced 12 _________________ at least once before managing to kick the habit. The push to try again is known as renewed-action mode. People in this mode set 13 _________________ targets, having learned from their past mistakes. It is the mode most conducive to success.",
+      "translation": "只有當吸煙者處於所謂 contemplation mode 或之後階段時，______ 才較可能成為目標。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "處於 contemplation mode 的吸煙者有良好意圖，但他們設定的目標日期通常很 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "他們的 ______ 仍然有些不足。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "只是轉換到較淡的香煙 ______，也算是朝正確方向走了一步。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "令人意外的是，立即完全戒煙的 ______ 很低。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "大多數嘗試戒煙的人，在某個時候會出現一次 ______，並重新開始規律吸煙。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "這沒有理由讓人停止嘗試：大多數 ex-smokers 在成功戒掉之前，至少曾面對一次 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "處於這個模式的人，因為已從過去錯誤中學習，所以會設定 ______ 的目標。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-085/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-085/page-6.jpg"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "p1-158",
+  "catalogueId": "p1-158",
+  "title": "Facial Expression",
+  "sourceHeading": "Facial Expression",
+  "passage": 1,
+  "practice": 158,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-158-facial-expression",
+  "source": {
+    "filename": "Practice 158 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "89dc75624cec3efa9e4698c4a804de106eccab83ce1be3e57532931af1bb6fb3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "A facial expression consists of one or more movements or positions of the facial muscles beneath the skin. These movements convey the emotional state of the individual to observers. Facial expressions are a form of nonverbal communication. They are a primary means of conveying social information among humans, but also occur in most other mammals and some other animal species. Facial expressions and their significance to the observer can, to some extent, vary between cultures, as descriptions in the works of Charles Darwin indicate."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Humans can adopt a facial expression as a voluntary action. However, because expressions are closely tied to emotion, they are more often involuntary. It can be nearly impossible to avoid expressions for certain emotions, even when it would be strongly desirable to do so; a person who is trying to avoid insulting an individual he or she finds highly unattractive might, nevertheless, show a brief expression of disgust before being able to reassume a neutral expression. Microexpressions are one example of this phenomenon. The close link between emotion and expression can also work in the other direction; it has been observed that voluntarily assuming an expression can actually cause the associated emotion."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Some expressions can be accurately interpreted even between members of different species—anger and extreme contentment being the primary examples. Others, however, are difficult to interpret even in familiar individuals. For instance, disgust and fear can be tough to tell apart. Because faces have only a limited range of movement, expressions rely upon fairly minuscule differences in the proportion and relative position of facial features, and reading them requires considerable sensitivity to the same. Some faces are mistakenly read as expressing emotion even when they are neutral, because their natural proportions resemble those that another face would temporarily assume when expressing emotion."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Also, a person’s eyes reveal much about how they are feeling or what they are thinking. Blink rate can reveal how nervous or at ease a person may be. Research by Boston College professor Joe Tecce suggests that stress levels are revealed by blink rates. He supports his data with statistics on the relation between the blink rates of presidential candidates and their success in their races. Tecce claims that the faster blinker in the presidential debates has lost every election since 1980. Though Tecce’s data are interesting, it is important to recognise that non-verbal communication is multi-channelled, and focusing on only one aspect is reckless. Nervousness can also be measured by examining each candidate’s perspiration, eye contact and stiffness."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "As Charles Darwin noted in his book The Expression of the Emotions in Man and Animals, ‘the young and the old of widely different races, both in humans and animals, express the same state of mind by the same movements’. Still, up to the mid-20th century, most anthropologists believed that facial expressions were entirely learned and could, therefore, differ among cultures. Studies conducted in the 1960s by Paul Ekman eventually supported Darwin’s belief to a large degree."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Ekman’s work on facial expressions had its starting point in the work of psychologist Silvan Tomkins. Ekman showed that, contrary to the belief of some anthropologists, including Margaret Mead, facial expressions of emotion are not culturally determined, but universal across human cultures. The South Fore people of New Guinea were chosen as subjects for one such survey. The study consisted of 189 adults and 130 children from among a very isolated population, as well as twenty-three members of the culture who lived a less isolated lifestyle as a control group. Participants were told a story that described one particular emotion; they were then shown three pictures (two for children) of facial expressions and asked to match the picture that expressed the story’s emotion."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Although the isolated South Fore people identified emotions as accurately as the non-isolated control group, both fear and surprise were consistently misidentified. The study concluded that certain facial expressions correspond to particular emotions and cannot be concealed, regardless of cultural background and whether or not the culture has been isolated or exposed to the mainstream."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The expressions Ekman found to be universal included those indicating anger, disgust, fear, joy, sadness, and surprise (note that none of these emotions has a definitive social component, such as shame, pride, or schadenfreude). Findings on contempt (which is social) are less clear, though there is at least some preliminary evidence that this emotion and its expression are universally recognised. These findings suggest that facial expressions are deeply rooted in human psychology and that different parts of the face can convey specific emotions."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–11",
+    "g12": "Questions 12–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 1–5 on your answer sheet.\nThe results of Ekman’s study showed that fear and surprise were persistently 1\n____________. It concluded that some facial expressions correspond to particular 2\n____________ and cannot be 3 ____________, regardless of 4 ____________ or whether\na culture has been isolated or 5 ____________ to the mainstream."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 11,
+      "text": "Questions 6–11\nReading Passage 1 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 6–11 on your answer sheet.\nNB You may use any letter more than once.\n6 ____________ The difficulty of identifying the actual meaning of facial expressions\n7 ____________ An initial description of the role of culture in facial expressions\n8 ____________ Research data on the relationship between blink rates and success in\nelections\n9 ____________ The social component of several facial expressions\n10 ____________ An indicator of a person’s degree of nervousness\n11 ____________ The relationship between emotions and facial expressions"
+    },
+    {
+      "id": "g12",
+      "start": 12,
+      "end": 13,
+      "text": "Questions 12–13\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 12 and 13 on your answer sheet.\nWhich TWO of the following statements are true according to Ekman’s theory?\n A There is no evidence that animals have facial expressions.\n B There is a relationship between facial expressions and states of mind.\n C Facial expressions differ fundamentally between cultures.\n D Different areas of the face can convey particular emotions.\n E The mind controls men’s facial expressions more clearly than women’s."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "Ekman 研究的結果顯示，恐懼和驚訝一直被怎樣處理／辨認。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "研究總結指出，某些面部表情與特定的甚麼相對應。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "而且不能被怎樣。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "不論甚麼如何。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "或者某個文化是否曾被隔離，還是曾經怎樣接觸主流文化。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "____________ The difficulty of identifying the actual meaning of facial expressions",
+      "translation": "辨認面部表情真正意思的困難。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "____________ An initial description of the role of culture in facial expressions",
+      "translation": "文章最初對文化在面部表情中所扮演角色的描述。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "____________ Research data on the relationship between blink rates and success in elections",
+      "translation": "關於眨眼率和選舉成功之間關係的研究數據。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "____________ The social component of several facial expressions",
+      "translation": "幾種面部表情所涉及的社會成分。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "____________ An indicator of a person’s degree of nervousness",
+      "translation": "一個顯示某人緊張程度的指標。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "____________ The relationship between emotions and facial expressions",
+      "translation": "情緒和面部表情之間的關係。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "根據 Ekman 的理論，以下哪兩項說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "根據 Ekman 的理論，以下哪兩項說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-158/page-4.jpg"
+  ]
+}

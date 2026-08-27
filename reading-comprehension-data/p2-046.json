@@ -1,0 +1,211 @@
+{
+  "id": "p2-046",
+  "catalogueId": "p2-046",
+  "title": "The Development of Plastics",
+  "sourceHeading": "The Development of Plastics",
+  "passage": 2,
+  "practice": 46,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-046-the-development-of-plastics",
+  "source": {
+    "filename": "Practice 46 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "6300d26584ef6a24587c3e2615e4dc1b12d1b3649cf1fecc07cfc880319fe128"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "When rubber was first commercially produced in Europe during the nineteenth century, it rapidly became a very important commodity, particularly in the fields of transportation and electricity. However, during the twentieth century a number of new synthetic materials, called plastics, superseded natural rubber in all but a few applications. Rubber is a polymer—a compound containing large molecules that are formed by the bonding of many smaller, simpler units, repeated over and over again. The same bonding principle—polymerisation—underlies the creation of a huge range of plastics by the chemical industry."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The first plastic was developed as a result of a competition in the USA. In the 1860s, $10,000 was offered to anybody who could replace ivory—supplies of which were declining—with something equally good as a material for making billiard balls. The prize was won by John Wesley Hyatt with a material called celluloid. Celluloid was made by dissolving cellulose, a carbohydrate derived from plants, in a solution of camphor dissolved in ethanol. This new material rapidly found uses in the manufacture of products such as knife handles, detachable collars and cuffs, spectacle frames and photographic film. Without celluloid, the film industry could never have got off the ground at the end of the 19th century."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Celluloid can be repeatedly softened and reshaped by heat, and is known as a thermoplastic. In 1907, Leo Baekeland, a Belgian chemist working in the USA, invented a different kind of plastic, by causing phenol and formaldehyde to react together. Baekeland called the material Bakelite, and it was the first of the thermosets—plastics that can be cast and moulded while hot, but cannot be softened by heat and reshaped once they have set. Bakelite was a good insulator, and was resistant to water, acids and moderate heat. With these properties it was soon being used in the manufacture of switches, household items such as knife handles, and electrical components for cars."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Soon chemists began looking for other small molecules that could be strung together to make polymers. In the 1930s British chemists discovered that the gas ethylene would polymerise under heat and pressure to form a thermoplastic they called polythene. Polypropylene followed in the 1950s. Both were used to make bottles, pipes and plastic bags. A small change in the starting material—replacing a hydrogen atom in ethylene with a chlorine atom—produced PVC (polyvinyl chloride), a hard, fireproof plastic suitable for drains and gutters. And by adding certain chemicals, a soft form of PVC could be produced, suitable as a substitute for rubber in items such as waterproof clothing. A closely related plastic was Teflon, or PTFE (polytetrafluoroethylene). This had a very low coefficient of friction, making it ideal for bearings, rollers, and non-stick frying pans. Polystyrene, developed during the 1930s in Germany, was a clear, glass-like material, used in food containers, domestic appliances and toys. Expanded polystyrene—a white, rigid foam—was widely used in packaging and insulation. Polyurethanes, also developed in Germany, found uses as adhesives, coatings, and—in the form of rigid foams—as insulation materials. They are all produced from chemicals derived from crude oil, which contains exactly the same elements—carbon and hydrogen—as many plastics."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The first of the man-made fibres, nylon, was also created in the 1930s. Its inventor was a chemist called Wallace Carothers, who worked for the DuPont company in the USA. He found that under the right conditions, two chemicals—hexamethylenediamine and adipic acid—would form a polymer that could be pumped out through holes and then stretched to form long glossy threads that could be woven like silk. Its first use was to make parachutes for the US armed forces in World War II. In the post-war years nylon completely replaced silk in the manufacture of stockings. Subsequently many other synthetic fibres joined nylon, including Orlon, Acrilan and Terylene. Today most garments are made of a blend of natural fibres, such as cotton and wool, and man-made fibres that make fabrics easier to look after."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The great strength of plastic is its indestructibility. However, this quality is also something of a drawback: beaches all over the world, even on the remotest islands, are littered with plastic bottles that nothing can destroy. Nor is it very easy to recycle plastics, as different types of plastic are often used in the same items and call for different treatments. Plastics can be made biodegradable by incorporating into their structure a material such as starch, which is attacked by bacteria and causes the plastic to fall apart. Other materials can be incorporated that gradually decay in sunlight—although bottles made of such materials have to be stored in the dark, to ensure that they do not disintegrate before they have been used."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nComplete the table below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 14–20 on your answer sheet.\n Name of         Date of            Country of\n                                                        Property                 Common use\n plastic         invention          origin\n\n                                                                                 14\n Celluloid       1860s              United States\n                                                                                 _________________\n\n                                                                                 16\n 15                                                     Can be cast and\n                                                                                 _________________;\n ____________    1907               United States       moulded but cannot be\n                                                                                 household items; car\n _____                                                  softened again by heat\n                                                                                 components\n\n                                    17\n Polythene       1930s              ____________                                 Bottles\n                                    _____\n\n                                                        18\n Rigid PVC                                                                       Drains and gutters\n                                                        _________________\n\n                                                        19\n Polystyrene     1930s              Germany                                      Food containers\n                                                        _________________\n\n                                                        20\n                                                                                 Adhesives, coatings\n Polyurethanes                      Germany             _________________\n                                                                                 and insulation\n                                                        foams"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 21–26 on your answer sheet write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n\n\n21 _________________ The chemical structure of plastic is very different from that of rubber.\n22 _________________ John Wesley Hyatt was a famous chemist.\n23 _________________ Celluloid and Bakelite react to heat in the same way.\n24 _________________ Combining different types of plastic can make recycling more difficult.\n25 _________________ Adding starch to plastic can make it more durable.\n\n26 _________________ Some plastic containers have to be stored under special conditions."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Celluloid 1860s United States _________________",
+      "translation": "Celluloid 其中一個常見用途是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Can be cast and _________________; ____________ 1907 United States moulded but cannot be household items; car _____ softened again by heat components",
+      "translation": "哪種塑膠於 1907 年在美國發明，熱時可鑄造和塑形，但定型後不能再被熱軟化？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "15 Can be cast and _________________; ____________ 1907 United States moulded but cannot be household items; car _____ softened again by heat components",
+      "translation": "Bakelite 的其中一個用途是 ______、家庭用品和汽車零件。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Polythene 1930s ____________ Bottles _____",
+      "translation": "Polythene 在哪個國家被發現或發明？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Rigid PVC Drains and gutters _________________",
+      "translation": "Rigid PVC 有甚麼性質，使它適合 drains and gutters？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Polystyrene 1930s Germany Food containers _________________",
+      "translation": "Polystyrene 的性質是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Adhesives, coatings Polyurethanes Germany _________________ and insulation foams",
+      "translation": "Polyurethanes 以 ______ foams 的形式用作 insulation。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ The chemical structure of plastic is very different from that of rubber.",
+      "translation": "塑膠的化學結構和橡膠非常不同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ John Wesley Hyatt was a famous chemist.",
+      "translation": "John Wesley Hyatt 是一位著名化學家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Celluloid and Bakelite react to heat in the same way.",
+      "translation": "Celluloid 和 Bakelite 對熱的反應相同。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Combining different types of plastic can make recycling more difficult.",
+      "translation": "把不同種類的塑膠用在同一物品中，會令回收更困難。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Adding starch to plastic can make it more durable.",
+      "translation": "在塑膠中加入 starch 可以令它更耐用。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Some plastic containers have to be stored under special conditions.",
+      "translation": "有些塑膠容器必須在特殊條件下存放。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-046/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-046/page-5.jpg"
+  ]
+}

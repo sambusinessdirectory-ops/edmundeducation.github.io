@@ -1,0 +1,266 @@
+{
+  "id": "p1-072",
+  "catalogueId": "p1-072",
+  "title": "Survivor from the sky",
+  "sourceHeading": "Survivor from the Sky",
+  "passage": 1,
+  "practice": 72,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-072-survivor-from-the-sky",
+  "source": {
+    "filename": "Practice 72  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "16757d07fef386f8b3d23e82aabab9476ecad32c2d27a9786e16ffbbbb07abe3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "In a remarkable documentary, Wings of Hope, German director Werner Herzog recounts the true story of an eighteen-year-old girl, the sole survivor of a plane crash in the Amazon jungle in 1971. Twenty-nine years later, Herzog returns to the jungle with Juliane Koepke, now a 46-year-old biologist, and she tells her amazing story on film."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Juliane had just graduated from high school in Lima, Peru and, with her mother, was flying out to spend Christmas at her father’s research station in the jungle. Half an hour into the flight, they encountered a horrific storm. In the midst of wild turbulence, the plane was struck by lightning and fell into a nosedive. Passengers screamed as baggage flew around the compartment. Then the plane broke into pieces, and suddenly Juliane found herself outside the aircraft, free-falling 30,000 feet. ‘I was suspended in mid-air, still in my seat. It wasn’t so much that I had left the plane but that the plane had left me. It simply wasn’t there any more. I was all alone with my row of seats,’ says Juliane. ‘I sailed on through the air, then I tumbled into a fall. The seatbelt squeezed my stomach and I couldn’t breathe any more.’ Before she lost consciousness, Juliane saw the dense jungle below, ‘a deep green, like broccoli’, with no clearings for hundreds of miles."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Somehow, miraculously, Juliane survived that fall from the sky. In the film, she speculates on a number of factors which may have combined to save her. First, the storm had produced a strong updraft from the thunderclouds. Secondly, being strapped into a row of seats, she was aware of falling in a spiralling movement, like a maple seed pod. Then, hitting the canopy of trees, she tumbled through a maze of vines which slowed her landing in deep mud."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "But surviving the fall, though miraculous in itself, was just the beginning. When Juliane awoke hours later, wet and covered with mud, she was still strapped to her seat. Staggering to her feet, she assessed her injuries: a fractured bone in her neck, concussion and deep cuts in her leg and back. She was also in shock, lost and totally alone in the Amazon jungle."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "No doubt it was her familiarity with the wilderness that enabled her to cope. Her parents were biologists and Juliane had grown up in the jungle. She realised her only hope was to follow a little stream of water nearby, trusting that it would eventually lead to a larger river and rescue. With no provisions, dressed in the miniskirt she had worn on the plane and wearing just one shoe, she set off through the jungle. She passed broken fragments from the plane – a wheel, an engine. ‘Initially, I saw planes circling above me, but after a few days I realised the search had been called off,’ she said."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Surprisingly, she felt no hunger but as the days passed her health was deteriorating rapidly. The gash in her shoulder, where flies had laid their eggs, was now crawling with maggots. ‘I knew I’d perish in the jungle so I stayed in the water.’ Walking in the stream, however, presented one risk more serious than all the others. Before each step, she had to poke ahead in the sand with a stick to avoid treading on poisonous stingrays hidden on the bottom."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "As the stream grew into a river, swimming was the only option. However, here in deeper water, there were new threats. Crocodiles basking on the shores slipped silently into the water as she passed. Juliane trusted that they feared humans and were entering the water to hide. She swam on. On the tenth day, starving and barely conscious, she spotted a hut and a canoe. They belonged to three woodcutters working nearby. Rescue was at hand."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "For Juliane, now 46, reliving such a traumatic experience on film must have been a great challenge. But she shows little emotion. Flying back into the jungle, she sits in the same seat (19F) as on that fateful day. She is dispassionate and unemotional when describing the flight. On the ground, when they finally locate the crash site in the dense jungle, Juliane remains detached and scientific, looking through the debris, now buried under dense vegetation. She examines a girl’s purse, the skeleton of a suitcase. Walking along the stream, she spots the engine that she remembers passing on the third day. Her arms and legs are covered with mosquitoes, but she seems to ignore all discomfort. Then, back in the town, standing in front of a monument erected in memory of the victims of the crash, entitled Alas de Esperanza (Wings of Hope), Juliane comments simply, ‘I emerged as the sole embodiment of hope from this disaster.’"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–3",
+    "g4": "Questions 4–10",
+    "g11": "Questions 11–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 3,
+      "text": "Questions 1–3\nAnswer the following questions using NO MORE THAN THREE WORDS from the passage.\nHow old was Juliane at the time of the crash?\n1 _________________\nWhat is her occupation now?\n2 _________________\nWhat was the cause of the plane crash?\n3 _________________"
+    },
+    {
+      "id": "g4",
+      "start": 4,
+      "end": 10,
+      "text": "Questions 4–10\nChoose the correct letter A–D.\n4 What happened to the plane?\n  A It broke apart in the air.\n  B It hit trees and exploded.\n  C It crashed into a mountainside.\n  D It hit the ground and burst into flames.\n\n5 Which of the following did NOT help to slow her fall?\n  A an updraft caused by storm clouds\n  B hitting vines.\n  C the section of seats to which she was attached\n  D a parachute.\n\n6 Which of the following injuries did she sustain?\n  A a broken foot\n  B a broken arm\n  C concussion\n  D cuts on her head\n\n7 What helped her to survive?\n  A knowledge of the jungle\n  B a map showing the location of the river\n  C appropriate clothing and shoes\n  D food supplies from the plane\n\n8 What was the biggest threat to her survival?\n  A infected wounds\n  B stingrays\n  C starvation\n  D crocodiles\n\n9 How long was she lost in the jungle?\n  A 3 days\n  B 5 days\n  C 10 days\n  D 15 days\n\n10 How was she finally rescued?\n  A A search party found her in the jungle.\n  B Native hunters found her.\n  C She signalled to a plane from the river.\n\nD She reached a campsite along the river."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 14,
+      "text": "Questions 11–14\nDo the following statements agree with the views of the writer in this passage?\nWrite:\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n11 _________________ Other survivors of the crash were found in the jungle.\n12 _________________ Juliane was upset when she revisited the crash site.\n13 _________________ Wings of Hope is the name given to a memorial statue.\n14 _________________ Juliane suffered nightmares for many years as a result of her experience."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ What is her occupation now?",
+      "translation": "Juliane 在空難發生時幾歲？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ What was the cause of the plane crash?",
+      "translation": "她現在的職業是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "這場空難的原因是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "What happened to the plane?",
+      "translation": "飛機發生了甚麼事？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "Which of the following did NOT help to slow her fall?",
+      "translation": "以下哪一項沒有幫助減慢她的墜落？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "Which of the following injuries did she sustain?",
+      "translation": "她受了以下哪一種傷？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "What helped her to survive?",
+      "translation": "甚麼幫助她生存下來？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "What was the biggest threat to her survival?",
+      "translation": "她求生過程中最大的威脅是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "How long was she lost in the jungle?",
+      "translation": "她在叢林中迷失了多久？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "How was she finally rescued?",
+      "translation": "她最後是怎樣獲救的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Other survivors of the crash were found in the jungle.",
+      "translation": "空難的其他生還者在叢林中被找到。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Juliane was upset when she revisited the crash site.",
+      "translation": "Juliane 重訪空難地點時感到情緒激動或難過。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Wings of Hope is the name given to a memorial statue.",
+      "translation": "Wings of Hope 是一座紀念性雕像／紀念物的名稱。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ Juliane suffered nightmares for many years as a result of her experience.",
+      "translation": "Juliane 因這次經歷而多年受噩夢困擾。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-072/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-072/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-072/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-072/page-7.jpg"
+  ]
+}

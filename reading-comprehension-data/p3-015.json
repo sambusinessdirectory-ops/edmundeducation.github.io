@@ -1,0 +1,293 @@
+{
+  "id": "p3-015",
+  "catalogueId": "p3-015",
+  "title": "GENEALOGY",
+  "sourceHeading": "GENEALOGY",
+  "passage": 3,
+  "practice": 15,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-015-genealogy",
+  "source": {
+    "filename": "Practice 15 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "5272a52163977567f450c5a74dce3d3d1d68465a3c4c5ef13480410b1cdf5ec7"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Genealogy, the study of tracing family connections and relationships through history – so building a cohesive family tree, has become an increasingly popular hobby from non-specialist enthusiasts over recent decades. The introduction of the Internet has, in many ways, spurred interest levels since historical information has been made far more accessible than previously. Experts warn, however, that sources obtained from the internet must be considered with caution as they may often contain inaccuracies, often advising novice genealogists to join a family history society where they are able to learn useful skills from experienced researchers."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Originally, prior to developing a more mainstream following, the practice of genealogy focused on establishing the ancestral links of rulers and noblemen often with the purpose of disputing or confirming the legitimacy of inherited rights to wealth or position. More recently, genealogists are often interested in not only where and when previous generations of families lived but also details of their lifestyle and motivations, interpreting the effects of law, political restrictions, immigration and the social conditions on an individual’s or family’s behaviour at the given time. Genealogy searches may also result in location of living relatives and consequently family reunions, in some cases helping to reunite family members who had been separated in the past due to fostering/adoption, migration or war."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "In Australia, there has been a great deal of interest of late, from families wishing to trace their links to the early settlers. As a result of the loss of the American colonies in the 1700s, Britain was in need of an alternative destination for prisoners who could not be accommodated in the country’s overcrowded penal facilities. In 1787, the ‘First Fleet’ which consisted of a flotilla of ships carrying just over 1300 people (of which 753 were convicts or their children and the remainder marines, officers and their family members) left Britain’s shores for Australia. On January 26, 1788 – now celebrated as Australia Day – the fleet landed at Sydney Cove and the first steps to European settlement began."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Genealogy research has led to a shift in attitudes towards convict heritage amongst contemporary Australian society, as family members have been able to establish that their ancestors were, in fact, not hardened and dangerous criminals, but had, in most cases, been harshly punished for minor crimes inspired by desperation and dire economic circumstances. So dramatic has the shift in attitudes been that having family connections to passengers on the ‘First Fleet’ is considered nothing less than prestigious. Convicts Margaret Dawson and Elizabeth Thackeray were amongst the first European women to ever set foot on Australian soil. Details about the former, whose initial death sentence passed for stealing clothes from her employer was commuted to deportation, and the latter expelled for stealing handkerchiefs along with others of similar fate are now available on the internet for eager descendants to track."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Although many of the deported convicts were forbidden to return to Britain, others such as Dawson, were, in theory, expelled for a given term. In reality, however, the costs of attempting to return to the mother country were well beyond the means of the majority. Genealogists now attribute the successful early development of Australia to such ex-convicts who decided to contribute fully to society once their sentence had been served. Many rewards were available to prisoners who displayed exemplary behaviour, including land grants of 30 acres or more, tools for developing and farming the land and access to convict labour. Genealogy studies also show that many former prisoners went on to hold powerful positions in the newly forming Australia society, examples being Francis Greenway – a British architect expelled on conviction of fraud – who went on to design many of Sydney’s most prominent colonial buildings, and Alexander Munro, transported after stealing cheese at the age of 15, who would later build Australia’s first gas works and hold the position of Town Mayor."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In North America, the Mormon Church, headquartered in Salt Lake City, Utah, holds two major genealogical databases, the International Genealogical Index and the Ancestral File, which contain records of hundreds of million individuals who lived between 1500 and 1900 in the United States, Canada and Europe. Resources available to genealogy enthusiasts include the Salt Lake City based Family History Library and more than 4000 branches where microfilms and microfiches can be rented for research and the newer Family Search internet site which provides open access to numerous databases and research sources. Such data sharing practices are central and crucial to genealogical research and the internet has proven to be a major tool in facilitating ease of transfer of information in formats suitable for use in forums and via email. The global level of interest in and demand for such information has proven so intense, that traffic load on release of sources such as Family Search and the British Census for 1901 led to temporary collapse of the host servers."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Experts advise that reliability of sources used for genealogical research should be evaluated in light of four factors which may influence their accuracy, these being the knowledge of the informant, the bias and mental state of the informant, the passage of time and potential for compilation error. First, genealogists should consider who the information was provided by and what he or she could be ascertained to have known. For example, a census record alone is considered unreliable as no named source for the information is likely to be found. A death certificate signed by an identified doctor, however, can be accepted as more reliable. In the case of bias or mental state, researchers are advised to consider that even when information is given by what could be considered a reliable source, that there may have been motivation to be untruthful – continuing to claim a government benefit or avoidance of taxation, for example."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Generally, data recorded at the same time or close to the event being researched is considered to be more reliable than records written at a later point in time, as – while individuals may intend to give a true representation of events – factual information may be misrepresented due to lapses in memory and forgotten details. Finally, sources may be classified as either original or derivative. The latter refers to photocopies, transcriptions, abstracts, translations, extractions, and compilations and has more room for error due to possible misinterpretations, typing errors or loss of additional and crucial parts of the original documentation."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28-32\n\nReading Passage 3 has eight paragraphs A-H.\n\nChoose the correct heading for paragraphs B and D-G from the list of headings below.\n\nWrite the correct number i to ix in boxes 28-32 on your answer sheet.\n\n          List of Headings\n\n\n i        An Embarrassing Heritage\n\n\n ii       Assessing Validity\n\n\n iii      Diversity of Application\n\n\n iv       Interpretation Errors\n\n\n v        Past Usage\n\n\n vi       Useful Sources\n\n\n vii      Australasian Importance\n\n\n viii     Changing Viewpoints\n\n\n ix       Significant Roles\n\nExample: Paragraph C; Answer: vii\n\n\n28 ______________ Paragraph B\n\n\n29 ______________ Paragraph D\n\n\n30 ______________ Paragraph E\n\n\n31 ______________ Paragraph F\n\n\n32 ______________ Paragraph G"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 36,
+      "text": "Questions 33 – 36\n\nDo the following statements agree with the information given in Reading Passage 3?\n\nIn boxes 33 – 36 on your answer sheet, write\n\n    TRUE            if the statement agrees with the information\n\n\n    FALSE           if the statement contradicts the information\n\n\n    NOT GIVEN       If there is no information on this\n\n\n\n33 ________________\nEarly applications of genealogy focused on behaviour, movement and settlement of\npopulations.\n\n\n34 ________________\nThe punishment of deportation was reserved for those who posed a serious threat to\nBritish society.\n\n\n35 ________________\nSome ex-convicts chose to stay in Australia due to the opportunities it presented.\n\n\n36 ________________\nOverwhelming interest in obtaining genealogical information has led to technological\ndifficulties."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37-40\n\nChoose the correct letter A, B, C or D\n\nWrite your answers in boxes 37-40 on your answer sheet\n\n37 Why has recreational genealogy become more popular?\n\nA Because it is now a fashionable hobby.\n\nB Because more people wish to trace missing relatives.\n\nC Because there are less political barriers.\n\nD Because it no longer requires so much effort.\n\n\n38 Whose original sentence for breaking the law was reduced?\n\nFrancis Greenway.\n\nB Margaret Dawson.\n\nC Alexander Munro.\n\nD Elizabeth Thackeray.\n\n\n39 What is fundamental to genealogical research?\n\nA Original records.\n\nB Electronic transfer.\n\nC Pooling of information.\n\nD The IG Index.\n\n40 Why does census information need to be approached with caution?\n\nA Because it cannot easily be attributed to a particular individual.\n\nB Because it is often not validated by a physician.\n\nC Because administration practices in the past were unreliable.\n\nD Because informants may not have been truthful due to financial motivations."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "______________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "______________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "______________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "______________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "______________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "________________ Early applications of genealogy focused on behaviour, movement and settlement of populations.",
+      "translation": "族譜研究的早期用途集中於人口行為、遷移和定居。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "________________ The punishment of deportation was reserved for those who posed a serious threat to British society.",
+      "translation": "族譜研究的早期用途集中於人口行為、遷移和定居。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "________________ Some ex-convicts chose to stay in Australia due to the opportunities it presented.",
+      "translation": "族譜研究的早期用途集中於人口行為、遷移和定居。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "________________ Overwhelming interest in obtaining genealogical information has led to technological difficulties.",
+      "translation": "族譜研究的早期用途集中於人口行為、遷移和定居。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Why has recreational genealogy become more popular?",
+      "translation": "為甚麼作為興趣的族譜研究變得更流行？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Whose original sentence for breaking the law was reduced? Francis Greenway.",
+      "translation": "為甚麼作為興趣的族譜研究變得更流行？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "What is fundamental to genealogical research?",
+      "translation": "為甚麼作為興趣的族譜研究變得更流行？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Why does census information need to be approached with caution?",
+      "translation": "為甚麼作為興趣的族譜研究變得更流行？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-015/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-015/page-7.jpg",
+    "/assets/reading-comprehension/questions/p3-015/page-8.jpg",
+    "/assets/reading-comprehension/questions/p3-015/page-9.jpg",
+    "/assets/reading-comprehension/questions/p3-015/page-10.jpg"
+  ]
+}

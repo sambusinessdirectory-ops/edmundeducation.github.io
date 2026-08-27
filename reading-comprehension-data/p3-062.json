@@ -1,0 +1,258 @@
+{
+  "id": "p3-062",
+  "catalogueId": "p3-062",
+  "title": "The natural world",
+  "sourceHeading": "The Natural World",
+  "passage": 3,
+  "practice": 62,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-062-the-natural-world",
+  "source": {
+    "filename": "Practice 62 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "df6ee7f4c0ba61daecb45afd669e45093609231a5c068c31104da280128240ff"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The natural world is dominated by cycles that are regular and recurring – the moon’s rotation around Earth, the changing of the seasons, the changes between night and day. It is these cycles or rhythms that in part control changes in our metabolism, mood and behaviour, and even the patterns of our sleep."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The circadian rhythm is the cycle that indicates when to be awake and when to be asleep. This is a daily cycle that is controlled by daily rises and falls in light and temperature. As day turns to night, the sun sets and it becomes cooler. Declining light and lower temperatures signal to the body that it is time to slow down and prepare for sleep. Of course, there may be many hours between sunset and the time people actually go to bed, but from sunset onward we generally become increasingly less alert and reaction times can be noticeably slower."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "There are a number of factors that can affect our circadian rhythm. Working night shifts, which require people to work against the body’s natural rhythm, is perhaps the most damaging. Despite getting a good eight hours’ sleep during the day, night shift workers still tend to feel drowsy for at least some of the night. This is the main factor in the increase in workplace accidents during night shifts when compared to the day shift. The seasons can also affect our natural rhythm, with people having less energy during winter months when there is less sunlight and warmth to stimulate the brain. International travel, notably when travelling for more than four hours, can also have a significant effect; in extreme cases, it can take up to seven days for your rhythm to reset after such travel, a phenomenon referred to as jet lag. A similar, although milder, effect can be felt in countries with daylight saving time, when the clocks are moved forward and backward depending on the season."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "There are some tips for helping your body work with your circadian rhythm. First thing in the morning, take a short walk outside or open all the curtains to get as much light as possible through the eyes and into the brain. Lighting levels that affect circadian rhythm in humans are higher than the levels usually used in artificial lighting in homes. In addition to light intensity, wavelength (or colour) is a factor; sunlight is the best source. Plan your work and other activities around the highs and lows of your temperature rhythm. For example, plan easier activities first thing in the morning when you’re not operating at your physical best. Late morning is better for challenging tasks. After lunch you may feel like nodding off. Take scheduled breaks. The best time to exercise is in the late afternoon – your body temperature reaches its daily high, and your body is warmed up and stretched from spending your day at work. Avoid driving at times when you would normally sleep. Sleepy drivers should stop for a nap – playing loud music or opening the windows are ineffective substitutes. At night, close the blinds and curtains and sleep in a dark room. If you work the night shift, use bright lights and music in the workplace to keep your brain alert. Wear an eye mask to block out the light when you want to go to sleep."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Every human—in fact, most non-nocturnal animals—follows the basic rules of the circadian rhythm. However, we also have our own unique body clocks which control the daily changes in how we think and feel, and oversee a number of our personal characteristics such as sleep patterns. Your body clock dictates whether you are a night owl, happy to work late into the night, an early bird who prefers the morning or a hummingbird, happy to work at both ends of the day. Your body clock determines not only your personal sleep patterns, but also whether or not you are grumpy before you have your morning coffee, when and what you need to eat throughout the day, whether you work better in the morning or the afternoon and the best time for you to do exercise. It also affects physical processes, such as body temperature, blood pressure, digestion, hormone levels and brain activity (such as mood, behaviour, and alertness). Your body clock is what causes you to gain a few kilograms in autumn and wintertime and makes it easier to lose weight in spring and summer."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Being aware of a few issues can help us maintain the best rhythms for our body clocks, but there are some tips and tools that can help. Keeping to the same bedtime routine and wake-up schedule, even on your days off, is particularly important – there should be no more than a few hours’ difference in the time you go to bed. Avoiding interruptions to your sleep is also very important. If there is intermittent, irregular noise, use a fan or any white noise device that generates calming sounds. This is particularly important for night shift workers, for whom daytime noises are generally louder; soft background noise can help drown out daytime activity noises. Eat small frequent meals to help stoke your metabolism. This not only helps with weight maintenance but also reinforces the “day” phase of your circadian clock. Eat most of your energy-rich foods earlier in the day and avoid eating a heavy meal near bedtime. Avoid all-nighters, like studying all night before an assessment. Cutting back on sleep the night before may mean that you perform less well. Reduce changes to your work shift, such as changing from night shift to day shift. Avoid alcohol and cigarettes before sleep time. If you feel sleepy during the day, take a short nap. Set an alarm so you sleep for no more than about 20 minutes. If you sleep for longer than a ‘catnap’, you will enter Stage 3 (deep sleep) and find it harder to wake up."
+    }
+  ],
+  "instructions": {
+    "g24": "Questions 24–30",
+    "g31": "Questions 31–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 30,
+      "text": "Questions 24–30\nDo the following statements agree with the information given in the reading passage?\nIn boxes 24–30 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n24 _________________ Our reactions are at their slowest at sunset.\n25 _________________ There are more accidents on the night shift because workers tend to\nget less sleep.\n26 _________________ Short journeys by air have minimal effect on the body’s circadian\nrhythm.\n27 _________________ The circadian rhythm starts when light reaches the brain.\n28 _________________ If a driver is tired, taking a short sleep, listening to music or opening a\nwindow are all equally effective measures for keeping awake.\n29 _________________ Humans share the same trends with regard to their body clocks.\n30 _________________ Many people take a short rest just after eating lunch."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 36,
+      "text": "Questions 31–36\nAnswer the questions below using NO MORE THAN THREE WORDS from the passage for\neach answer.\nWrite your answers in boxes 31–36 on your answer sheet.\nAs well as the intensity, what else is important in sunlight for our circadian rhythm?\n31 _________________\nWhat specific part of the day is the body at its warmest?\n32 _________________\nWhat should night shift workers use to help them sleep?\n33 _________________\nWhat type of person works equally well in the morning and the evening?\n34 _________________\nWhat does our body clock make it easier to do after the winter?\n35 _________________\nWhat should you avoid before bed to help you get a good night’s sleep?\n36 _________________"
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from Reading Passage 3 for each answer.\n\n Keep a good 37 _________________ by following routines. Try to sleep and\n wake at roughly the same times when working and on days off. Use 38\n _________________ noise to help you sleep if there are external distractions.\n Small and regular meals keep your 39 _________________ operating at its best.\n Limit changes to your work shift, and if necessary take a short 40\n _________________ during the day."
+    }
+  ],
+  "questions": [
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "_________________ Our reactions are at their slowest at sunset.",
+      "translation": "我們的反應在日落時最慢。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "_________________ There are more accidents on the night shift because workers tend to get less sleep.",
+      "translation": "夜班有更多意外，是因為工人通常睡得較少。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "_________________ Short journeys by air have minimal effect on the body’s circadian rhythm.",
+      "translation": "短途飛行對身體的晝夜節律影響很小。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "_________________ The circadian rhythm starts when light reaches the brain.",
+      "translation": "晝夜節律在光線到達大腦時開始。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "_________________ If a driver is tired, taking a short sleep, listening to music or opening a window are all equally effective measures for keeping awake.",
+      "translation": "如果司機疲倦，短睡、聽音樂或開窗都是同樣有效的保持清醒方法。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "_________________ Humans share the same trends with regard to their body clocks.",
+      "translation": "人類在 body clock 方面有相同趨勢。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "_________________ Many people take a short rest just after eating lunch.",
+      "translation": "很多人在午飯後會短暫休息。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "_________________ What specific part of the day is the body at its warmest?",
+      "translation": "除了強度之外，陽光中還有甚麼對 circadian rhythm 重要？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "_________________ What should night shift workers use to help them sleep?",
+      "translation": "身體在一天中哪個具體時段最暖？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "_________________ What type of person works equally well in the morning and the evening?",
+      "translation": "夜班工人應該用甚麼來幫助自己睡覺？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "_________________ What does our body clock make it easier to do after the winter?",
+      "translation": "哪一類人在早上和晚上都能同樣工作良好？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "_________________ What should you avoid before bed to help you get a good night’s sleep?",
+      "translation": "冬天過後，body clock 會令我們較容易做甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g31",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "睡前應避免甚麼，才能幫助自己睡得好？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "透過遵循固定日常規律，保持良好的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "如果外界有干擾，可以使用 ______ 噪音來幫助睡眠。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "少量而規律的餐食能令你的 ______ 保持最佳運作。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "減少工作班次變動，如有需要，可在白天短暫 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-062/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-062/page-6.jpg"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "p2-036",
+  "catalogueId": "p2-036",
+  "title": "THE BRIDGE THAT SWAYED",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 36,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-036-the-bridge-that-swayed",
+  "source": {
+    "filename": "Practice 36 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "01ab4ebbaf6d71e2cdbd3e14628e2d610a8766204fb70dc50c725e24d1b8c637"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Bridge That Swayed When the London Millennium footbridge was opened in June 2000, it swayed alarmingly. This generated huge public interest and the bridge became known as London’s “wobbly bridge.” The Millennium Bridge is the first new bridge across the river Thames in London since Tower Bridge opened in 1894, and it is the first ever designed for pedestrians only. The bridge links the City of London near St Paul’s Cathedral with the Tate Modern art gallery on Bankside."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The bridge initially opened on Saturday 10 June 2000. For the opening ceremony, a crowd of over 1,000 people had assembled on the south half of the bridge with a band in front. When they started to walk across with the band playing, there was immediately an unexpectedly pronounced lateral movement of the bridge deck. “It was a fine day and the bridge was on the route of a major charity walk,” one pedestrian later recounted. “At first, it was still. Then it began to sway sideways, just slightly. Then, almost from one moment to the next, when large groups of people were crossing, the wobble intensified. Everyone had to stop walking to retain balance and sometimes to hold onto the handrails for support.” Immediately it was decided to limit the number of people on the bridge, and the bridge was dubbed the ‘wobbly’ bridge by the media who declared it another high-profile British Millennium Project failure. In order to fully investigate and resolve the issue, the decision was taken to close the bridge on 12 June 2000."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Arup, the leading member of the committee in charge of the construction of the bridge, decided to tackle the issue head on. They immediately undertook a fast-track research project to seek the cause and the cure. The embarrassed engineers found videotape recorded that day, which showed the centre span swaying about 3 inches sideways every second and the south span 2 inches every 1.25 seconds. Because there was a significant wind blowing on the opening days (force 3-4) and the bridge had been decorated with large flags, the engineers first thought that winds might be exerting excessive force on the many large flags and banners, but it was rapidly concluded that wind buffeting had not contributed significantly to vibration of the bridge. But after measurements were made in university laboratories of the effects of people walking on swaying platforms and after large-scale experiments with crowds of pedestrians were conducted on the bridge itself, a new understanding and a new theory were developed."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The unexpected motion was the result of a natural human reaction to small lateral movements. It is well known that a suspension bridge has a tendency to sway when troops march over it in lockstep, which is why troops are required to break step when crossing such a bridge. “If we walk on a swaying surface we tend to compensate and stabilise ourselves by spreading our legs further apart but this increases the lateral push”. Pat Dallard, the engineer at Arup, says that you change the way you walk to match what the bridge is doing. It is an unconscious tendency for pedestrians to match their footsteps to the sway, thereby exacerbating it even more. “It’s rather like walking on a rolling ship’s deck: you move one way and then the other to compensate for the roll.” The way people walk does not have to match the bridge’s natural frequency exactly, as it would in resonance; the interaction is more subtle. As the bridge moves, people adjust the way they walk in their own manner. The problem is that when there are enough people on the bridge the total sideways push can overcome the bridge’s ability to absorb it. The movement becomes excessive and continues to increase until people begin to have difficulty walking; they may even have to hold on to the rails."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Professor Fujino Yozo of Tokyo University, who studied the earthquake-resistant Toda Bridge in Japan, believes the horizontal forces caused by walking, running or jumping could cause excessive dynamic lateral vibration of the bridge. He explains that as the structure began moving, pedestrians adjusted their gait to the same lateral rhythm as the bridge; the adjusted footsteps magnified the motion, just as four people standing up in a small boat at the same time would. As more pedestrians locked into the same rhythm, the increasing oscillation led to the dramatic swaying captured on film until people stopped walking altogether, because they could not even keep upright."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In order to design a method of reducing the movements, an immediate research programme was launched by the bridge’s engineering designer Arup. It was decided that the force exerted by the pedestrians had to be quantified and related to the motion of the bridge. Although there are some descriptions of this phenomenon in existing literature, none of these actually quantify the force. So there was no quantitative analytical way to design the bridge against this effect. The efforts to solve the problem quickly received support from a number of universities and research organisations."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The tests at the University of Southampton involved a person walking on the spot on a small shake table. The tests at Imperial College involved persons walking along a specially built, 7.2 m-long platform, which could be driven laterally at different frequencies and amplitudes. These tests have their own limitations. While the Imperial College test platform was so short that only seven or eight steps could be measured at one time, the “walking on the spot” test did not accurately replicate forward walking, although many footsteps could be observed using this method. Neither test could investigate any influence of other people in a crowd on the behaviour of the individual tested."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The results of the laboratory tests provided information which enabled the initial design of a retrofit to be progressed. However, unless the usage of the bridge was to be greatly restricted, only two generic options to improve its performance were considered feasible. The first was to increase the stiffness of the bridge to move all its lateral natural frequencies out of the range that could be excited by the lateral footfall forces, and the second was to increase the damping of the bridge to reduce the resonant response."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nChoose FOUR letters, A–I.\nWrite the correct letters in boxes 14–17 on your answer sheet.\nWhich FOUR of the following could be seen on the day when the bridge opened to\nthe public?\n A the bridge moved vertically\n B the bridge swayed from side to side\n C the bridge swayed violently throughout the opening ceremony\n D it was difficult to keep one’s balance on the bridge\n E pedestrians walked in synchronised steps\n F pedestrians lengthened their footsteps\n G a music band marched across the bridge\n H the swaying rhythm varied between different sections of the bridge\nI flags and banners kept still on the bridge"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 23,
+      "text": "Questions 18–23\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 18–23 on your answer sheet.\nTo understand why the Millennium Bridge swayed, Arup’s engineers studied a video\nrecorded on the opening day. At first, they thought the force of 18\n_________________ might have caused the movement because the bridge carried\nmany flags and banners. New explanations emerged after tests examined how\npeople walk on 19 _________________ surfaces. The tests showed that people\nplace their legs 20 _________________ to maintain balance on a moving floor. Pat\nDallard believes that pedestrians may unconsciously adjust their 21\n_________________ to match a bridge’s sway. Professor Fujino Yozo found that\nbridge vibration can be caused by the 22 _________________ of people walking,\nrunning and jumping, because lateral movement may cause pedestrians to adjust\ntheir gait to the same rhythm until they can no longer stand 23 _________________."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the table below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\n\n\n Test conducted by            Limitation\n\n 24 _________________         Insufficient data collection\n\n 25 _________________         The platform was not long enough\n\n 26 _________________         The test did not reproduce real forward walking"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "以下哪四項是在橋向公眾開放當日可以看到的情況？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "以下哪四項是在橋向公眾開放當日可以看到的情況？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "以下哪四項是在橋向公眾開放當日可以看到的情況？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "以下哪四項是在橋向公眾開放當日可以看到的情況？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "起初，他們認為 _________ 的力量可能導致了橋的移動，因為橋上有很多旗幟和橫幅。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "在測試研究人們如何在 _________ 表面上行走之後，新的解釋出現了。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "測試顯示，人們會把雙腿放得 _________，以便在移動的地面上保持平衡。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "Pat Dallard 認為，行人可能會不自覺地調整自己的 _________，以配合橋的搖晃。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "Professor Fujino Yozo 發現，橋的震動可能由人們 walking、running 和 jumping 所產生的_________ 引起。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "直到他們再也無法 _________ 站立。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________ Insufficient data collection",
+      "translation": "哪個測試有「資料收集不足」的限制？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________ The platform was not long enough",
+      "translation": "哪個測試的平台不夠長？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________ The test did not reproduce real forward walking",
+      "translation": "哪個測試沒有準確重現真正向前行走？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-036/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-036/page-6.jpg"
+  ]
+}

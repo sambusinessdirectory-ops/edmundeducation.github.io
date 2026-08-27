@@ -1,0 +1,319 @@
+{
+  "id": "p1-129",
+  "catalogueId": "p1-129",
+  "title": "Environmentally-Friendly! Vehicles",
+  "sourceHeading": "Environmentally Friendly Vehicles",
+  "passage": 1,
+  "practice": 129,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-129-environmentally-friendly-vehicles",
+  "source": {
+    "filename": "Practice 129 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "5ff9cbf84b6bb23d19b487f46c0b19859d5803d88ddd01f8fd079405ab3fb84f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In the early 1990s, the California Air Resources Board (CARB), the government of California’s “clean air agency”, began a push for more fuel-efficient, lower-emissions vehicles, with the ultimate goal being a move to zero-emissions vehicles such as electric vehicles. In response, automakers developed electric models, including the Chrysler TEVan, Ford Ranger EV pickup truck, GM EV1 and S10 EV pickup, Honda EV Plus hatchback, Nissan lithium-battery Altra EV miniwagon and Toyota RAV4 EV. The Ford Fusion is manufactured at Ford’s Hermosillo Stamping & Assembly plant, located in Sonora, Mexico. I thought going green was supposed to provide the US with more jobs."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The automakers were accused of pandering to the wishes of CARB in order to continue to be allowed to sell cars in the lucrative Californian market, while failing to adequately promote their electric vehicles in order to create the impression that consumers were not interested in the cars, all the while joining oil industry lobbyists in vigorously protesting CARB’s mandate. GM’s programme came under particular scrutiny; in an unusual move, consumers were not allowed to purchase EV1s, but were instead asked to sign closed-end leases, meaning that the cars had to be returned to GM at the end of the lease period, with no option to purchase, despite lessees’ interest in continuing to own the cars. Chrysler, Toyota, and a group of GM dealers sued CARB in federal court, leading to the eventual neutering of CARB’s ZEV Mandate."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "After public protests by EV drivers’ groups upset by the repossession of their cars, Toyota offered the last 328 RAV4-EVs for sale to the general public for six months, until 22 November 2002. Almost all other production electric cars were withdrawn from the market and were in some cases seen to have been destroyed by their manufacturers. Toyota continues to support the several hundred Toyota RAV4-EVs in the hands of the general public and in fleet usage. GM famously deactivated the few EV1s that were donated to engineering schools and museums."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Throughout the 1990s, the appeal of fuel-efficient or environmentally friendly cars declined among Americans, who instead favoured sport utility vehicles, which were affordable to operate despite their poor fuel efficiency thanks to lower gasoline prices. American automakers chose to focus their product lines on the truck-based vehicles, which enjoyed larger profit margins than the smaller cars that were preferred in places like Europe or Japan. In 1999, the Honda Insight hybrid car became the first hybrid to be sold in North America since the little-known Woods hybrid of 1917."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In 1995, Toyota debuted a hybrid concept car at the Tokyo Motor Show, with testing following a year later. The first Prius, model NHW10, went on sale on 10 December 1997. It was available only in Japan, though it has been imported privately into at least the United Kingdom, Australia, and New Zealand. The first-generation Prius, at its launch, became the world’s first mass-produced gasoline-electric hybrid car. The NHW10 Prius styling came from Californian designers, whose proposal was selected over competing designs from other Toyota studios."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In the United States, the NHW11 was the first Prius to be sold. The Prius was marketed between the smaller Corolla and the larger Camry. The published retail price of the car was US$19,995. The NHW11 Prius became more powerful partly to meet Americans’ demand for higher speeds and longer driving distances. Air conditioning and electric power steering were standard equipment. The vehicle was the second mass-produced hybrid on the American market, after the two-seat Honda Insight. While the larger Prius could seat five, its battery pack restricted cargo space."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Hybrids, which featured a combined gasoline-and-electric powertrain, were seen as a balance, offering an environmentally friendly image and improved fuel economy, without being hindered by the limited range of electric vehicles, albeit at a higher price than comparable gasoline cars. Sales were poor; the lack of interest was attributed to the car’s small size and the lack of necessity for a fuel-efficient car at the time. The 2000s energy crisis brought renewed interest in hybrid and electric cars. In America, sales of the Toyota Prius jumped, and a variety of automakers followed suit, releasing hybrid models of their own. Several began to produce new electric car prototypes, as consumers called for cars that would free them from the fluctuations of oil prices."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "In 2000, Hybrid Technologies, later renamed Li-ion Motors, started manufacturing electric cars in Mooresville, North Carolina. Li-ion Motors has, however, faced increasing controversy over ongoing ‘lemon’ issues with its products and alleged attempts to conceal them. California electric-car maker Tesla Motors began developing the Tesla Roadster in 2004. It was first delivered to customers in 2008. The Roadster remained the only highway-capable EV in serial production and available for sale until 2010. Senior leaders at several large automakers, including Nissan and General Motors, have stated that the Roadster was a catalyst that demonstrated that there is pent-up consumer demand for more efficient vehicles. GM Vice Chairman Bob Lutz said in 2007 that the Tesla Roadster inspired him to push GM to develop the Chevrolet Volt, a plug-in hybrid sedan prototype that aims to reverse years of dwindling market share and massive financial losses for America’s largest automaker. In an August 2009 edition of The New Yorker, Lutz was quoted as saying, “All the geniuses here at General Motors kept saying lithium-ion technology is 10 years away, and Toyota agreed with us—and boom, along comes Tesla. So I said, ‘How come some tiny little California startup, run by guys who know nothing about the car business, can do this, and we can’t?’ That was the crowbar that helped break up the logjam.”"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–9",
+    "g10": "Questions 10–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 1–4 on your answer sheet.\n\n\n1 What does the writer think about the Ford Fusion factory in Sonora, Mexico?\n  A The factory should have benefited US domestic industry.\n  B US employment will increase as consumers become more environmentally aware.\n  C More competitive cars will enter the market.\n  D It is difficult to predict the effect.\n\n\n2 During the 1990s, what aspect of environmentally friendly vehicles declined among Americans?\n  A Production.\n  B Attractiveness.\n  C Publicity.\n  D Expectations.\n\n\n3 What did GM notably donate to engineering schools and museums?\n  A EV1s.\n  B CARB vehicles.\n  C RAV4s.\n  D MINI Es.\n\n\n4 Senior leaders at Nissan and GM said the Roadster’s popularity reflected its\n  A legendary concept.\n  B huge market share.\n  C pent-up demand.\n  D engine quality."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 9,
+      "text": "Questions 5–9\nDo the following statements agree with the views of the writer in the reading passage?\nIn boxes 5–9 on your answer sheet, write\n\n YES                        if the statement agrees with the views of the writer\n\n NO                         if the statement contradicts the views of the writer\n\n NOT GIVEN                  if it is impossible to say what the writer thinks about this\n\n\n5 Some automakers were accused of suppressing the true demand for electric cars to protect their\naccess to the lucrative Californian market while appearing to satisfy CARB.\n\n\n6 Toyota sold 328 RAV4-EVs in order to increase its market share.\n\n\n7 In some countries, American automakers preferred larger vehicles because they offered higher profit\nmargins than smaller ones.\n\n\n8 Hybrid cars combine an environmentally friendly image and an electric powertrain with a lower purchase\nprice.\n\n\n9 GM’s declining market share and financial losses helped motivate the company to develop a plug-in\nhybrid."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 14,
+      "text": "Questions 10–14\nComplete the summary using the list of words, A–L, below.\nWrite the correct letter, A–L, in boxes 10–14 on your answer sheet.\n A                                 electric car\n\n B                                 United Kingdom\n\n C                                 market\n\n D                                 concept car\n\n E                                 longer distances\n\n F                                 emissions\n\n G                                 battery\n\n H                                 consumers\n\n I                                 gasoline and electricity\n\n J                                 inspiration\n\n K                                 cargo space\n\n L                                 orientation\n\n\n\n\n     A 10 _________________ was first introduced by Toyota in 1995. It went on sale in 1997 as a\n       new first-generation model. The Prius was sold not only in Japan but was also privately\n       imported into countries such as the 11 _________________ and nations in Oceania. The\n       first-generation Prius was the first mass-produced car powered by 12 _________________.\n       The NHW10 design submitted by Californian designers was selected over competing\n       proposals. The updated NHW11 Prius met Americans’ demand for higher speeds and 13\n       _________________. However, its battery restricted its 14 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "What does the writer think about the Ford Fusion factory in Sonora, Mexico?",
+      "translation": "作者怎樣看 Ford Fusion 位於墨西哥 Sonora 的工廠？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "During the 1990s, what aspect of environmentally friendly vehicles declined among Americans?",
+      "translation": "在 1990 年代，美國人對環保車哪一方面下降了？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "What did GM notably donate to engineering schools and museums?",
+      "translation": "GM 著名地把甚麼捐給工程學校和博物館？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Senior leaders at Nissan and GM said the Roadster’s popularity reflected its",
+      "translation": "Nissan 和 GM 的高層表示，Roadster 的受歡迎反映了它的甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Some automakers were accused of suppressing the true demand for electric cars to protect their access to the lucrative Californian market while appearing to satisfy CARB.",
+      "translation": "一些車廠被指控壓低電動車的真實需求，好保住它們進入有利可圖的加州市場的機會，同時表面上滿足 CARB。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Toyota sold 328 RAV4-EVs in order to increase its market share.",
+      "translation": "Toyota 出售 328 部 RAV4-EVs 是為了增加市場佔有率。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "In some countries, American automakers preferred larger vehicles because they offered higher profit margins than smaller ones.",
+      "translation": "在一些國家，美國車廠偏好較大型車輛，因為它們比小型車有更高利潤率。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Hybrid cars combine an environmentally friendly image and an electric powertrain with a lower purchase price.",
+      "translation": "Hybrid cars 結合環保形象和電動動力系統，而且購買價格較低。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "GM’s declining market share and financial losses helped motivate the company to develop a plug-in hybrid.",
+      "translation": "GM 下降的市場佔有率和財務虧損，幫助推動公司開發 plug-in hybrid。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "Toyota 在 1995 年首次推出了一部 10 __________。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "Prius 不只在日本出售，也被私人進口到一些國家，例如 11 __________ 和大洋洲國家。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "第一代 Prius 是第一部由 12 __________ 驅動的量產車。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "更新版 NHW11 Prius 滿足了美國人對更高速度和 13 __________ 的需求。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "不過，它的電池限制了它的 14 __________。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-129/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-129/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-129/page-7.jpg"
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "p1-075",
+  "catalogueId": "p1-075",
+  "title": "Frogwatch",
+  "sourceHeading": "Frogwatch",
+  "passage": 1,
+  "practice": 75,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-075-frogwatch",
+  "source": {
+    "filename": "Practice 75  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "ed47ed317a8f1a25433a47035b59782544c1e45879d4ac43585ce0b3b00b8190"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Frogwatch, a remarkable success story that began in Western Australia, is the brainchild of Dr Ken Aplin. His work as curator of reptiles and frogs at the Western Australian Museum involved long field trips. He wondered if a community-based frog-monitoring network could help him keep track of frogs. Through such a network, ordinary, untrained members of the community could learn about frog habitats, observe the numbers and types of frogs in their local area, and report this information to the museum."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Launched in 1995, Frogwatch recently gained its 3,221st member, and many people say that this is the best thing the museum has ever done. Each participant receives a ‘Frogwatch Kit’ – a regular newsletter, an audiotape of frog calls and identification sheets. Recently, Frogwatch membership increased dramatically when a mysterious parasitic fungal disease began attacking frogs nationwide. Although research is not yet complete, scientists suspect the fungus originated overseas, perhaps in South America, where frogs have died in catastrophic numbers from a fungal disease genetically similar to the Australian organism."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Researchers in Western Australia needed to know how widespread the infection was in the state’s frog populations. So Aplin sent an ‘F-file’ (frog fungus facts) alert to Frogwatch members, requesting their help. He asked them to deliver dead or dying frogs to him. More than 2,000 frogs have now been examined, half from the museum’s existing collection. Aplin once thought the fungus had arrived in Western Australia only a year or two earlier, but tests now suggest it has been there since the late 1980s."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Frogwatch has proved to be an effective link with the public and Aplin has become a total convert to community participation. He’s now aiming for a network of 15,000 Frogwatch members because the museum cannot afford to use professional resources to monitor frog populations. Much of the frog habitat is on private land, and without community support, monitoring the frogs would be impossible."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Not everyone is convinced by the ‘feel-good’ popularity of Frogwatch. While Aplin believes even tiny backyard ponds can significantly increase frog numbers, Dr Dale Roberts isn’t so sure. A senior zoology lecturer at the University of WA, Roberts agrees the programme has tapped into the public’s enthusiasm for frogs, but he warns that strong public awareness does not amount to sound science."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "He argues that getting the public to send in pages of observations is a good thing, but treating these reports as credible may not be scientifically valid. In addition, he’s not convinced that Frogwatch’s alarmist message about the danger of fungal infection is justified. In Western Australia, for example, there was a long summer and very late, drenching rains that year, following two equally dry years. So, he argues, other factors might have precipitated the deaths. He also questions whether anything could be done about it. If it’s already widespread, it may not be worth the cost and effort of doing anything about it. Even if it’s causing high death rates, he says he can still find every frog species recorded over the past ten years in the south-west of Australia."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Roberts argues that Western Australia is different. Unlike most other states, species are still being discovered there; the disappearances of frog types in Queensland and New South Wales are not occurring in Western Australia, although three south-west species are on the endangered list. Roberts believes that no amount of garden ponds in Perth will help those species, which live in isolated habitats targeted for development."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Aplin’s response is that increasing the number of frog-friendly habitats is important precisely because many Western Australian frog species are found in small, highly restricted locations. He argues that pesticide-free gardens and ponds can give frogs a greater chance of survival as they battle habitat disturbance, environmental pollutants, climatic variations, and now fungal disease. Aplin believes researchers should use the precautionary principle in cases where they don’t yet know enough about the situation. Diseases generally resolve themselves naturally and some frog species will co-evolve with the fungus. Given time, some balance may be restored, but in the shorter term, negative effects are evident."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The nationwide spread of the chytrid fungus is being mapped by Dr Rick Speare, a specialist in amphibian disease at James Cook University. Speare also tests the accuracy of Aplin’s fungus diagnoses and says Frogwatch is ‘an amazing and under-acknowledged system … the best program in Australia for harnessing public interest in frog biology… There are a lot of eyes out there looking for dead or sick frogs, beyond the power of any biologist to collect.’"
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Aplin argues that we should never underestimate the importance of having a community base, especially when governments want to cut research funds: ‘People can protest in ways that a handful of scientists hiding in a laboratory can’t do. For just about every environmental problem, community involvement is fundamental.’ Furthermore, Frogwatch is proving to be a social phenomenon as much as anything else. It seems that ordinary people recognise that frogs are a measure of the environment’s health."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–12",
+    "g13": "Questions 13–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nDo the following statements reflect the claims of the writer of the passage?\nWrite:\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n1 _________________ Frogwatch members need a basic level of scientific training.\n2 _________________ All Frogwatch members live in Western Australia.\n3 _________________ Frogwatch has proved that frogs are disappearing because of a fungus.\n4 _________________ Scientists in WA have examined about two thousand frogs collected by\nFrogwatch.\n5 _________________ The frog fungal disease has been in Western Australia for more than ten years.\n6 _________________ New species of frogs have been found in Western Australia recently."
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 12,
+      "text": "Questions 7–12\nThe reading passage describes the opinions of Dr Ken Aplin, Dr Dale Roberts and Dr Rick Speare in\nrelation to strategies for frog conservation.\nMatch one of the researchers A–C to each of the statements below.\nThere may be more than one correct answer.\nWrite:\n  A – for Dr Aplin\n  B – for Dr Roberts\n  C – for Dr Speare\n\n\nExample\nFrogwatch is the best Australian programme for encouraging public interest in frogs. C\n7 _________________ Although the involvement of large numbers of people is encouraging, this does\nnot guarantee scientifically valid data.\n\n\n8 _________________ The development of frog-friendly backyards will help to conserve frog species.\n\n\n9 _________________ Although it is possible that frogs will adapt to fungal and other problems in the\nlong term, we should take precautions in case this does not occur.\n\n\n10 _________________ As there may be many other explanations for recent frog deaths, it is not worth\nspending a great deal of time and money studying this fungus.\n\n\n11 _________________ Because of the unique geography of Western Australia, most frog species in this\nstate are not in danger of extinction.\n\n\n12 _________________ Frogwatch has greater potential for frog observation than the scientific\ncommunity can achieve."
+    },
+    {
+      "id": "g13",
+      "start": 13,
+      "end": 13,
+      "text": "Question 13\nWrite the appropriate letter A–D.\n13 The main purpose of Frogwatch is …\n  A for people to collect and deliver dead or dying frogs to scientists.\n  B for people to observe and collect information about frog populations for scientists.\n  C for people to allow scientists onto their private land to look at frog habitats.\n  D for people to set up ponds in their gardens as habitat for frogs."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Frogwatch members need a basic level of scientific training.",
+      "translation": "Frogwatch 會員需要基本科學訓練。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ All Frogwatch members live in Western Australia.",
+      "translation": "所有 Frogwatch 會員都住在 Western Australia。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Frogwatch has proved that frogs are disappearing because of a fungus.",
+      "translation": "Frogwatch 已證明青蛙正在因真菌而消失。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Scientists in WA have examined about two thousand frogs collected by Frogwatch.",
+      "translation": "WA 的科學家已檢查約二千隻由 Frogwatch 收集的青蛙。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The frog fungal disease has been in Western Australia for more than ten years.",
+      "translation": "這種青蛙真菌病已在 Western Australia 存在超過十年。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ New species of frogs have been found in Western Australia recently.",
+      "translation": "最近 Western Australia 發現了新的青蛙物種。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Although the involvement of large numbers of people is encouraging, this does not guarantee scientifically valid data.",
+      "translation": "雖然很多人參與令人鼓舞，但這不能保證資料具科學效度。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ The development of frog-friendly backyards will help to conserve frog species.",
+      "translation": "發展對青蛙友善的後院，有助保育青蛙物種。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Although it is possible that frogs will adapt to fungal and other problems in the long term, we should take precautions in case this does not occur.",
+      "translation": "雖然青蛙長遠可能會適應真菌和其他問題，但我們仍應採取預防措施，以防情況沒有自然改善。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ As there may be many other explanations for recent frog deaths, it is not worth spending a great deal of time and money studying this fungus.",
+      "translation": "由於近期青蛙死亡可能有許多其他解釋，因此不值得花大量時間和金錢研究這種真菌。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Because of the unique geography of Western Australia, most frog species in this state are not in danger of extinction.",
+      "translation": "由於 Western Australia 的特殊情況，該州大部分青蛙物種並沒有滅絕危險。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Frogwatch has greater potential for frog observation than the scientific community can achieve.",
+      "translation": "Frogwatch 在青蛙觀察方面的潛力超過科學界單靠自己能做到的程度。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g13",
+      "type": "choice",
+      "prompt": "The main purpose of Frogwatch is …",
+      "translation": "Frogwatch 的主要目的是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-075/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-075/page-5.jpg"
+  ]
+}

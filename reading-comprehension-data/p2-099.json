@@ -1,0 +1,253 @@
+{
+  "id": "p2-099",
+  "catalogueId": "p2-099",
+  "title": "READING THE SCREEN",
+  "sourceHeading": "Reading the Screen Are the electronic media exacerbating illiteracy and making our children stupid? On the contrary, says Colin McCabe, they have the potential to make us truly literate.",
+  "passage": 2,
+  "practice": 99,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-099-reading-the-screen",
+  "source": {
+    "filename": "Practice 99 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8551e06bbc74ef9babd1aaba34a2a73e7ff8b07947869e8a8fc1950a542ce685"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The debate surrounding literacy is one of the most charged in education. On the one hand there is an army of people convinced that traditional skills of reading and writing are declining. On the other, a host of progressives protest that literacy is much more complicated than a simple technical mastery of reading and writing. This second position is supported by most of the relevant academic work over the past 20 years. These studies argue that literacy can only be understood in its social and technical context. In Renaissance England, for example, many more people could read than could write, and within reading there was a distinction between those who could read print and those who could manage the more difficult task of reading manuscript. An understanding of these earlier periods helps us understand today’s ‘crisis in literacy’ debate."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "There does seem to be evidence that there has been an overall decline in some aspects of reading and writing – you only need to compare the tabloid newspapers of today with those of 50 years ago to see a clear decrease in vocabulary and simplification of syntax. But the picture is not uniform and doesn’t readily demonstrate the simple distinction between literate and illiterate which had been considered adequate since the middle of the 19th century."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "While reading and a certain amount of writing are as crucial as they have ever been in industrial societies, it is doubtful whether a fully developed grasp of either is as necessary as it was 30 or 40 years ago. While print retains much of its authority as a source of topical information, television has increasingly usurped this role. The ability to write fluent letters has been undermined by the telephone and research suggests that for many people the only use for writing, outside formal education, is the compilation of shopping lists."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The decision of some car manufacturers to issue their instructions to mechanics as a video pack rather than as a handbook might be taken to spell the end of any automatic link between industrialisation and literacy. On the other hand, it is also the case that ever-increasing numbers of people make their living from writing, which is better rewarded than ever before. Schools are generally seen as institutions where the book rules – film, television and recorded sound have almost no place; but it is not clear that this opposition is appropriate. While you may not need to read and write to watch television, you certainly need to be able to read and write in order to make programmes."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Those who work in the new media are anything but illiterate. The traditional oppositions between old and new media are inadequate for understanding the world which a young child now encounters. The computer has re-established a central place for the written word on the screen, which used to be entirely devoted to the image. There is even anecdotal evidence that children are mastering reading and writing in order to get on to the Internet. There is no reason why the new and old media cannot be integrated in schools to provide the skills needed to become economically productive and politically enfranchised."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Nevertheless, there is a crisis in literacy and it would be foolish to ignore it. To understand that literacy may be declining because it is less central to some aspects of everyday life is not the same as acquiescing in this state of affairs. The production of schoolwork with the new technologies could be a significant stimulus to literacy. How should these new technologies be introduced into the schools? It isn’t enough to call for computers, camcorders and edit suites in every classroom; unless they are properly integrated into the educational culture, they will stand unused. Evidence suggests that this is the fate of most information technology used in the classroom. Similarly, although media studies are now part of the national curriculum, and more and more students are now clamouring to take these courses, teachers remain uncertain about both methods and aims in this area."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "This is not the fault of the teachers. The entertainment and information industries must be drawn into a debate with the educational institutions to determine how best to blend these new technologies into the classroom."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Many people in our era are drawn to the pessimistic view that the new media are destroying old skills and eroding critical judgement. It may be true that past generations were more literate but – taking the pre-19th century meaning of the term – this was true of only a small section of the population. The word literacy is a 19th-century coinage to describe the divorce of reading and writing from a full knowledge of literature. The education reforms of the 19th century produced reading and writing as skills separable from full participation in the cultural heritage."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The new media now point not only to a futuristic cyber-economy; they also make our cultural past available to the whole nation. Most children’s access to these treasures is initially through television. It is doubtful whether our literary heritage has ever been available to or sought out by more than about 5 per cent of the population; it has certainly not been available to more than 10 per cent. But the new media, joined to the old through the public-service tradition of British broadcasting, now make our literary tradition available to all."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nChoose the appropriate letters A–D and write them in boxes 14–17 on your answer\nsheet.\n14 When discussing the debate on literacy in education, the writer notes that\n A children cannot read and write as well as they used to.\n B academic work has improved over the last 20 years.\n C there is evidence that literacy is related to external factors.\n D there are opposing arguments that are equally convincing.\n\n\n15 In the 4th paragraph, the writer’s main point is that\n A the printed word is both gaining and losing power.\n B all inventions bring disadvantages as well as benefits.\n C those who work in manual jobs no longer need to read.\n D the media offer the best careers for those who like writing.\n\n\n16 According to the writer, the main problem that schools face today is\n A how best to teach the skills of reading and writing.\n B how best to incorporate technology into classroom teaching.\n C finding the means to purchase technological equipment.\n D managing the widely differing levels of literacy amongst pupils.\n\n\n17 At the end of the article, the writer is suggesting that\n A literature and culture cannot be divorced.\n B the term ‘literacy’ has not been very useful.\n C 10 per cent of the population never read literature.\n D our exposure to cultural information is likely to increase."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 23,
+      "text": "Questions 18–23\nDo the following statements agree with the views of the writer in Reading Passage 2?\nIn boxes 18–23 on your answer sheet write\n\n YES                    if the statement agrees with the views of the writer\n\n NO                     if the statement contradicts the views of the writer\n\n NOT GIVEN              if it is impossible to say what the writer thinks about this\n\n\n18 _________________ It is not as easy to analyse literacy levels as it used to be.\n19 _________________ Our literacy skills need to be as highly developed as they were\nin the past.\n20 _________________ Illiteracy is on the increase.\n21 _________________ Professional writers earn relatively more than they used to.\n22 _________________ A good literacy level is important for those who work in\ntelevision.\n23 _________________ Computers are having a negative impact on literacy in schools."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the sentences below with words taken from Reading Passage 2.\nWrite your answers in boxes 24–26 on your answer sheet.\nUse NO MORE THAN THREE WORDS for each answer.\n\n\nIn Renaissance England, the best readers were those able to read 24\n_________________\nThe writer uses the example of 25 _________________ to illustrate the\ngeneral fall in certain areas of literacy.\nIt has been shown that after leaving school, the only things that a lot of people\nwrite are 26 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "When discussing the debate on literacy in education, the writer notes that",
+      "translation": "作者討論教育中的 literacy debate 時，指出甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "In the 4th paragraph, the writer’s main point is that",
+      "translation": "第 4 段的主要觀點是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "According to the writer, the main problem that schools face today is",
+      "translation": "根據作者，學校今天面對的主要問題是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "At the end of the article, the writer is suggesting that",
+      "translation": "文章結尾作者暗示甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ It is not as easy to analyse literacy levels as it used to be.",
+      "translation": "分析 literacy levels 已不像以前那麼容易。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Our literacy skills need to be as highly developed as they were in the past.",
+      "translation": "我們的 literacy skills 需要像過去一樣高度發展。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Illiteracy is on the increase.",
+      "translation": "illiteracy 正在增加。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Professional writers earn relatively more than they used to.",
+      "translation": "專業寫作者比以前賺得相對更多。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ A good literacy level is important for those who work in television.",
+      "translation": "對從事 television 工作的人來說，良好的 literacy level 很重要。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Computers are having a negative impact on literacy in schools.",
+      "translation": "Computers 正在對學校中的 literacy 造成負面影響。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "在 Renaissance England，最好的讀者是那些能夠閱讀 ______ 的人。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "作者用 ______ 的例子說明 literacy 某些方面的普遍下降。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "研究顯示，很多人離開學校後唯一會寫的東西是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-099/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-099/page-5.jpg"
+  ]
+}

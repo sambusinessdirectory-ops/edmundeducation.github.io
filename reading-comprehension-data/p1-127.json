@@ -1,0 +1,296 @@
+{
+  "id": "p1-127",
+  "catalogueId": "p1-127",
+  "title": "Paul Nash",
+  "sourceHeading": "Paul Nash",
+  "passage": 1,
+  "practice": 127,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-127-paul-nash",
+  "source": {
+    "filename": "Practice 127 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "a989a045a53badbba1bc194c53f53ed92a1be448f4250f6d28a1049cefcbbdc2"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Paul Nash, the elder son of William Nash and his first wife, Caroline Jackson, was born in London on 11 May 1889. His father was a successful lawyer who became the Recorder of Abingdon. According to Ronald Blythe: “In 1901 the family returned to its native Buckinghamshire, where the garden of Wood Lane House at Iver Heath, and the countryside of the Chiltern Hills, with its sculptural beeches and chalky contours, were early influences on the development of the three children. Their lives were overshadowed by their mother’s mental illness and Nash himself was greatly helped by his nurse who, with some elderly neighbours, introduced him to the universe of plants.”"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Nash was educated at St Paul’s School and the Slade School of Art, where he met Dora Carrington. Unlike some of his contemporaries at the Slade School, Nash remained untouched by the two post-impressionist exhibitions organised by Roger Fry in 1910 and 1912. Instead, he was influenced by the work of William Blake. He also became a close friend of Gordon Bottomley, who took a keen interest in his career."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Nash had his first one-man show, of ink and wash drawings, at the Carfax Gallery in 1912. The following year he shared an exhibition at the Dorian Leigh Gallery with his brother, John Nash. Myfanwy Piper has added: “Nash had a noteworthy sense of order and of the niceties of presentation; his pictures were beautifully framed, drawings mounted, his studio precisely and decoratively tidy, and oddments which he collected were worked up into compositions.”"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Paul Nash was strongly attracted to Dora Carrington. He later recalled: “Carrington… was the dominating personality. I got an introduction to her and eventually won her regard by lending her my braces for a fancy-dress party. We were on the top of a bus and she wanted them then and there.”"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "On the outbreak of war, Nash considered the possibility of joining the British Army. He told a friend: “I am not keen to rush off and be a soldier. The whole damnable war is too horrible of course and I am all against killing anybody, speaking offhand, but besides all that I believe both Jack and I might be more useful as ambulance and Red Cross men, and to that end we are training.” Nash enlisted in the Artists’ Rifles. He told Gordon Bottomley: “I have joined the Artists’ London Regiment of Territorials, the old Corps which started with Rossetti, Leighton, and Millais as members in 1860. Every man must do his bit in this horrible business so I have given up painting. There are many nice creatures in my company and I enjoy the burst of exercise—marching, drilling all day in the open air about the pleasant parts of Regent’s Park and Hampstead Heath.”"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In March 1917, he was sent to the Western Front. Nash, who took part in the offensive at Ypres, had reached the rank of lieutenant in the Hampshire Regiment by 1916. Whenever possible, Nash made sketches of life in the trenches. In May 1917 he was invalided home after a non-military accident. While recuperating in London, Nash worked from his sketches to produce a series of war paintings. This work was well-received when exhibited later that year. As a result of this exhibition and on the advice of Edward Marsh and William Rothenstein, Charles Masterman, head of the government’s War Propaganda Bureau (WPB), decided to recruit Nash as a war artist. In November 1917, in the immediate aftermath of the Battle of Passchendaele, Nash returned to France."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Nash was unhappy with his work as a member of the War Propaganda Bureau. He wrote at the time: “I am no longer an artist. I am a messenger who will bring back word from the men who are fighting to those who want the war to go on forever. Feeble, inarticulate will be my message, but it will have a bitter truth and may burn their lousy souls.” However, as Myfanwy Piper has pointed out: “The drawings he made then, of shorn trees in ruined and flooded landscapes, were the works that made Nash’s reputation. They were shown at the Leicester Galleries in 1918 together with his first efforts at oil painting, in which he was self-taught and quickly successful, though his drawings made in the field had a more immediate public impact.”"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "In 1919, Nash moved to Dymchurch in Kent, beginning his well-known series of pictures of the sea, the breakwaters, and the long wall that prevents the sea from flooding Romney Marsh. This included the Winter Sea and Dymchurch Steps. Nash also painted the landscapes of the Chiltern Hills. In 1924 and 1928 he had successful exhibitions at the Leicester Galleries. Despite this popular acclaim, in 1929 his work became more abstract. In 1933 Nash founded Unit One, the group of experimental painters, sculptors, and architects."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "During the Second World War, Nash was employed by the Ministry of Information and the Air Ministry and paintings produced by him during this period include the Battle of Britain and Totes Meer. His biographer, Myfanwy Piper, has argued: “This war disturbed Nash but did not change his art as the last one had. His style and his habits were formed, and in the new war, he treated his new subjects as he had treated those he had been thinking about for so long. His late paintings, both oils and watercolours, are alternately brilliant and sombre in colour with the light of setting suns and rising moons, spreading over wooded and hilly landscapes.” Paul Nash died at 35 Boscombe Spa Road, Bournemouth, on 11 July 1946."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nChoose FOUR letters, A–G.\nWrite the correct letters in boxes 1–4 on your answer sheet.\nWhich FOUR statements are correct about Nash’s life and work?\n A He stopped making an effort after becoming a high-ranking army officer.\n B He had pursued a dream since childhood.\n C He temporarily stopped painting for a particular reason.\n D He was unaffected by exhibitions that influenced some of his peers.\n E He collaborated artistically with a relative.\n F Some of his paintings were presented chaotically.\n G His work after enlistment attracted less attention than his earlier work."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 10,
+      "text": "Questions 5–10\nThe reading passage has nine paragraphs, A–I.\nWhich paragraph contains the following information?\nWrite the correct letter, A–I, in boxes 5–10 on your answer sheet.\nNB You may use any letter more than once.\n5 A woman whom Nash found attractive\n6 Nash’s enthusiasm for the work of an artist he particularly admired\n7 Nash’s works containing contrasting elements\n8 The real reason Nash joined the military\n9 The significant influence of Nash’s childhood environment on his development\n10 High praise for Nash’s distinctive presentation of his work"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\n11 Because of a successful exhibition of Nash’s wartime work, what was he appointed as?\n_________________\n12 How did Nash learn oil painting? _________________\n13 What change occurred in Nash’s painting style in the late 1920s? _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "以下哪四項關於 Nash 的人生和作品是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "requiresReview": true
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "以下哪四項關於 Nash 的人生和作品是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "requiresReview": true
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "以下哪四項關於 Nash 的人生和作品是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "requiresReview": true
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "以下哪四項關於 Nash 的人生和作品是正確的？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案",
+      "requiresReview": true
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "A woman whom Nash found attractive",
+      "translation": "一位 Nash 覺得有吸引力的女性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Nash’s enthusiasm for the work of an artist he particularly admired",
+      "translation": "Nash 對某位他特別欣賞的藝術家的作品有熱情或受到其吸引。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Nash’s works containing contrasting elements",
+      "translation": "Nash 的作品包含相互對比的元素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "The real reason Nash joined the military",
+      "translation": "Nash 加入軍隊的真正原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "The significant influence of Nash’s childhood environment on his development",
+      "translation": "Nash 童年環境對他成長發展的重要影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "High praise for Nash’s distinctive presentation of his work",
+      "translation": "對 Nash 獨特作品呈現方式的高度讚賞。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Because of a successful exhibition of Nash’s wartime work, what was he appointed as? _________________",
+      "translation": "由於 Nash 的戰時作品展覽成功，他被任命為甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "text",
+      "prompt": "How did Nash learn oil painting? _________________",
+      "translation": "Nash 如何學習油畫？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "text",
+      "prompt": "What change occurred in Nash’s painting style in the late 1920s? _________________",
+      "translation": "在 1920 年代後期，Nash 的繪畫風格發生了甚麼變化？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-127/page-4.jpg"
+  ]
+}

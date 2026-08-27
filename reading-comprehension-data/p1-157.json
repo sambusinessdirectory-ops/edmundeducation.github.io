@@ -1,0 +1,274 @@
+{
+  "id": "p1-157",
+  "catalogueId": "p1-157",
+  "title": "The History Of Salt",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 157,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-157-the-history-of-salt",
+  "source": {
+    "filename": "Practice 157 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "42b70342c00fb0e28cbc4fa4822ff92242b1947fc15790fc10ac78b9990a7dcd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The History of Salt Salt is so simple and plentiful that we almost take it for granted. In chemical terms, salt is a compound formed from sodium and chloride ions, making it one of the most basic substances on Earth. It is also one of the most plentiful: it has been estimated that salt deposits under the state of Kansas alone could supply the entire world’s needs for the next 250,000 years."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "But salt is also an essential element. Without it, life itself would be impossible since the human body requires the mineral in order to function properly. The concentration of sodium ions in the blood is directly related to the regulation of healthy body-fluid levels. And while we are all familiar with its many uses in cooking, we may not be aware that this element is used in some 14,000 commercial applications. From manufacturing pulp and paper to setting dyes in textiles and fabric, from producing soaps and detergents to making our roads safe in winter, salt plays an essential part in our daily lives."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Salt has played a long and influential role in world history. From the dawn of civilisation, it has been a key factor in economic, religious, social and political development. In every corner of the world, it has been the subject of superstition, folklore, and warfare, and has even been used as currency."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "As a precious and portable commodity, salt has long been a cornerstone of economies throughout history. In fact, researcher M.R. Bloch conjectured that civilisation began along the edges of the desert because of the natural surface deposits of salt found there. Bloch also believed that the first war—likely fought near the ancient city of Essalt on the Jordan River—could have been fought over the city’s precious supplies of the mineral."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "In 2200 BC, the Chinese emperor Hsia Yu levied one of the first known taxes. He taxed salt. In Tibet, Marco Polo noted that tiny cakes of salt were pressed with images of the Grand Khan to be used as coins; to this day, it is used as money among the nomads of Ethiopia’s Danakil Plains. Greek slave traders often bartered it for slaves, giving rise to the expression that someone was “not worth his salt.” Roman legionnaires were paid in salt—a salarium, the Latin origin of the word “salary.”"
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Merchants in 12th-century Timbuktu—the gateway to the Sahara Desert and the seat of scholars—valued this mineral as highly as books and gold. In France, Charles of Anjou levied the “gabelle,” a salt tax, in 1259 to finance his conquest of the Kingdom of Naples. Outrage over the gabelle fuelled the French Revolution. Though the revolutionaries eliminated the tax shortly after the fall of Louis XVI, the French Republic re-established the gabelle in the early 19th century; it was not abolished until 1946."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The Erie Canal, an engineering marvel that connected the Great Lakes to New York’s Hudson River in 1825, was called “the ditch that salt built.” Salt tax revenues paid for half the cost of construction of the canal. The British monarchy supported itself with high salt taxes, leading to a bustling black market for the white crystal. In 1785, the Earl of Dundonald wrote that every year in England, 10,000 people were arrested for salt smuggling. In protest against British rule in 1930, Mahatma Gandhi led a 200-mile march to the Arabian Sea to collect untaxed salt for India’s poor."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "In religion and culture, salt has long held an important place, with Greek worshippers consecrating it in their rituals. In the Buddhist tradition, salt repels evil spirits, which is why it is customary to throw it over your shoulder before entering your house after a funeral: it scares off any evil spirits that may be clinging to your back. Shinto also uses it to purify an area. Before sumo wrestlers enter the ring for a match—which is, in reality, an elaborate Shinto rite—a handful is thrown into the centre to drive off malevolent spirits."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "In the south-western United States, the Pueblo worship the Salt Mother. Other native tribes had significant restrictions on who was permitted to eat salt. Hopi legend holds that the angry Warrior Twins punished mankind by placing valuable salt deposits far from civilisation, requiring hard work and bravery to harvest the precious mineral. In 1933, the Dalai Lama was buried sitting up in a bed of salt. Today, a gift of salt endures in India as a potent symbol of good luck and a reference to Mahatma Gandhi’s liberation of India."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "The effects of salt deficiency are highlighted in times of war, when human bodies and national economies are strained to their limits. Thousands of Napoleon’s troops died during the French retreat from Moscow due to inadequate wound healing and lowered resistance to disease—the results of salt deficiency."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–3",
+    "g4": "Questions 4–8",
+    "g9": "Questions 9–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 3,
+      "text": "Questions 1–3\nChoose THREE letters, A–H.\nWrite the correct letters in boxes 1–3 on your answer sheet.\nWhich THREE statements are true of salt?\n A A number of cities take their names from the word ‘salt’.\n B Salt contributed to the French Revolution.\n C The uses of salt are countless.\n D Salt has been produced in China for less than 2,000 years.\n E Salt has many commercial applications.\n F The salt deposits in Kansas are vast.\n G Salt has few industrial uses today.\n H Slaves used salt as currency."
+    },
+    {
+      "id": "g4",
+      "start": 4,
+      "end": 8,
+      "text": "Questions 4–8\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 4–8 on your answer sheet.\nSalt is such an 4 ____________ that people would not be able to live without it. As well as\nits uses in cooking, this basic mineral has thousands of commercial 5 ____________,\nranging from making paper to manufacturing soap. As a prized and 6 ____________, it has\nplayed a major part in the economies of many countries. Salt has not only led to war but has\nalso been used by governments to raise 7 ____________. It also has an important place in\nreligion and culture, where it is used to drive away evil 8 ____________."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 14,
+      "text": "Questions 9–14\nDo the following statements agree with the information given in the reading passage?\nIn boxes 9–14 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n\n\n9 It has been suggested that salt was responsible for the first war.\n10 The first tax on salt was imposed by a Chinese emperor.\n11 Salt is no longer used as a form of currency.\n12 Most of the money needed to construct the Erie Canal came from salt taxes.\n13 Hopi legend says that salt deposits were placed far from civilization to punish humankind.\n14 Salt deficiency is connected with the deaths of many of Napoleon’s soldiers during the retreat\nfrom Moscow."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "以下哪三項關於鹽的陳述是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "以下哪三項關於鹽的陳述是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "以下哪三項關於鹽的陳述是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g4",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "鹽是一種如此 ______ 的東西，以至於人沒有它便無法生存。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g4",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "除了烹調用途外，這種基本礦物還有數以千計的商業 ______，範圍從造紙到製造肥皂。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g4",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "作為一種珍貴且 ______，鹽在許多國家的經濟中扮演了重要角色。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g4",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "鹽不只引發過戰爭，也曾被政府用來籌集 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g4",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "鹽在宗教和文化中也有重要位置，並被用來驅走邪惡的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "It has been suggested that salt was responsible for the first war.",
+      "translation": "有人提出，鹽可能是第一場戰爭的原因。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "The first tax on salt was imposed by a Chinese emperor.",
+      "translation": "第一項鹽稅是由一位中國皇帝徵收的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Salt is no longer used as a form of currency.",
+      "translation": "鹽已經不再被用作貨幣。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Most of the money needed to construct the Erie Canal came from salt taxes.",
+      "translation": "建造 Erie Canal 所需的大部分資金來自鹽稅。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Hopi legend says that salt deposits were placed far from civilization to punish humankind.",
+      "translation": "Hopi 傳說說，鹽礦被放在遠離文明的地方，是為了懲罰人類。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Salt deficiency is connected with the deaths of many of Napoleon’s soldiers during the retreat from Moscow.",
+      "translation": "鹽分缺乏與 Napoleon 軍隊從 Moscow 撤退期間許多士兵的死亡有關。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-157/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-157/page-5.jpg"
+  ]
+}

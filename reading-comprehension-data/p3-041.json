@@ -1,0 +1,290 @@
+{
+  "id": "p3-041",
+  "catalogueId": "p3-041",
+  "title": "Source of Knowledge",
+  "sourceHeading": "Source of Knowledge",
+  "passage": 3,
+  "practice": 41,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-041-source-of-knowledge",
+  "source": {
+    "filename": "Practice 41 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "2c233220d7f6f2d4385af68ab561c332d0cf875c1c7059be4394bf1e569fd59f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "What counts as knowledge? What do we mean when we say that we know something? What is the status of different kinds of knowledge? To explore these questions, we are going to focus on one particular area of knowledge: medicine."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "How do you know when you are ill? This may seem to be an absurd question. You know you are ill because you feel ill; your body tells you that you are ill. You may know that you feel pain or discomfort, but knowing that you are ill is a little more complex. At times, people experience symptoms of illness, but in fact they are simply tired or overworked, or they may just have a hangover. At other times, people may be suffering from a disease and fail to become aware of the illness until it has reached a late stage in its development. So how do we know we are ill, and what counts as knowledge?"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Think about this example. You feel unwell. You have a bad cough and always seem to be tired. Perhaps it could be stress at work, or maybe you should give up smoking. You feel worse. You visit the doctor, who listens to your chest and heart, takes your temperature and blood pressure, and then prescribes antibiotics for your cough."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Things do not improve, but you struggle on, thinking that you should pull yourself together and that perhaps things will ease off at work soon. A return visit to your doctor shocks you. This time, drawing on years of training and experience, the doctor diagnoses pneumonia. This means that you will need bed rest and a considerable amount of time off work. The scenario is transformed. Although you still have the same symptoms, you no longer think that they are caused by pressure at work. You now have proof that you are ill. This is the result of combining your own subjective experience with the diagnosis of someone who has the status of a medical expert. You have a medically authenticated diagnosis and it appears that you are seriously ill; you know you are ill and have evidence on which to base this knowledge."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "This scenario shows many different sources of knowledge. For example, you decide to consult the doctor in the first place because you feel unwell—this is personal knowledge about your own body. However, the doctor’s expert diagnosis is based on experience and training, with sources of knowledge as diverse as other experts, laboratory reports, medical textbooks and years of experience."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "One source of knowledge is the experience of our own bodies: the personal knowledge we have of changes that might be significant, as well as the subjective experience of pain and physical distress. These experiences are mediated by other forms of knowledge, such as the words available to describe our experience and the common sense of our families and friends, as well as ideas drawn from popular culture. Over the past decade, for example, Western culture has placed significant emphasis on stress-related illness in the media. Reference to being ‘stressed out’ has become a common response in daily workplace exchanges and part of popular common-sense knowledge. It is therefore not surprising that we might seek such an explanation for physical symptoms of discomfort."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "We might also rely on the observations of others who know us. Comments from friends and family, such as ‘you do look ill’ or ‘that’s a bad cough’, might be another source of knowledge. Complementary health practices, such as holistic medicine, produce their own bodies of knowledge, on which we might also draw when deciding the nature and degree of our ill health and considering possible treatments."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Perhaps the most influential and authoritative source of knowledge is the medical knowledge provided by the general practitioner. We expect the doctor to have access to expert knowledge. This is socially sanctioned. It would not be acceptable to notify our employer that we simply felt too unwell to turn up for work, or that our faith healer, astrologer, therapist or even our priest thought it was not a good idea. We need an expert medical diagnosis to obtain the necessary certificate if we need to be off work for more than the statutory self-certification period. The knowledge of the medical sciences is privileged in this respect in contemporary Western culture. Medical practitioners are also seen as having the expert knowledge required for them legally to prescribe drugs and treatments to which patients would not otherwise have access. However, there is a range of different knowledge on which we draw when making decisions about our own state of health."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "However, there is more than existing knowledge in this little story; new knowledge is constructed within it. Given the doctor’s medical training and background, she may hypothesise, ‘Is this pneumonia?’ and then look for evidence. She will use observations and instruments to assess the evidence and—critically—interpret it in the light of her training and experience. This creates new knowledge both for you and for the doctor. It will then be added to the doctor’s medical knowledge and may help in future diagnoses of pneumonia."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–34",
+    "g35": "Questions 35–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 34,
+      "text": "Questions 27–34\nReading Passage 3 has nine paragraphs, A–I.\nWhich paragraph contains the following information?\nWrite the correct letter, A–I, in boxes 27–34 on your answer sheet.\nNB You may use any letter more than once.\n\n\n27 ______________ the contrast between the nature of personal judgment and the nature of a\ndoctor’s diagnosis\n28 ______________ a reference to cultural ideas about stress\n29 ______________ Sick leave will not be permitted without professional diagnosis\n30 ______________ how doctors’ opinions are regarded in society\n31 ______________ how a patient’s illness can contribute to new knowledge\n32 ______________ a description of knowledge drawn from non-specialised sources other than\npersonal knowledge\n33 ______________ an example that combines personal experience with a professional\ndiagnosis\n34 ______________ a reference to the fact that some people do not realise they are ill"
+    },
+    {
+      "id": "g35",
+      "start": 35,
+      "end": 40,
+      "text": "Questions 35–40\nComplete the notes below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 35–40 on your answer sheet.\n\n\n Source of Knowledge           Examples\n\n                               Symptoms of a 35 _________________ and tiredness\n\n Personal experience           Doctor’s measurements: 36 _________________ and temperature\n\n                               Common judgement from 37 _________________ around you\n\n                               Medical knowledge from the general 38 _________________\n\n                               For example, a doctor’s medical 39 _________________\n Scientific evidence\n                               Examine the medical hypothesis using previous training and 40\n                               _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ the contrast between the nature of personal judgment and the nature of a doctor’s diagnosis",
+      "translation": "個人判斷的性質，和醫生診斷的性質之間的對比。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ a reference to cultural ideas about stress",
+      "translation": "提到文化中關於 stress 的觀念。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ Sick leave will not be permitted without professional diagnosis",
+      "translation": "沒有專業診斷，就不會獲准病假。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ how doctors’ opinions are regarded in society",
+      "translation": "醫生的意見在社會中如何被看待。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ how a patient’s illness can contribute to new knowledge",
+      "translation": "病人的疾病如何可以促成新知識。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ a description of knowledge drawn from non-specialised sources other than personal knowledge",
+      "translation": "描述除了個人知識之外，來自非專門來源的知識。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ an example that combines personal experience with a professional diagnosis",
+      "translation": "一個把個人經驗和專業診斷結合起來的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ a reference to the fact that some people do not realise they are ill",
+      "translation": "提到有些人沒有意識到自己生病。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g35",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "個人經驗：一個 ______ 和疲倦的症狀。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g35",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "醫生的測量項目：______ 和體溫。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g35",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "來自身邊 ______ 的一般判斷。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g35",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "科學證據：來自 general ______ 的醫學知識。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g35",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "例如，醫生的 medical ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g35",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "運用以往的訓練和 ______ 來檢查醫學假設。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-041/page-5.jpg"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "p2-026",
+  "catalogueId": "p2-026",
+  "title": "Being Left-handed in a Right-handed World",
+  "sourceHeading": "Being Left-Handed in a Right-Handed World The world is designed for right-handed people. Why does a tenth of the population prefer the left?",
+  "passage": 2,
+  "practice": 26,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-026-being-left-handed-in-a-right-handed-world",
+  "source": {
+    "filename": "Practice 26 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "3e4b2ce89c803a74d82df4cf3dc94814fc0ec461ce09ebf914f3aa4941b08101"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The probability that two right-handed people would have a left-handed child is only about 9.5 percent. The chance rises to 19.5 percent if one parent is a lefty and 26 percent if both parents are left-handed. The preference, however, could also stem from an infant’s imitation of his parents. To test genetic influence, beginning in the 1970s, British biologist Marian Annett of the University of Leicester hypothesized that no single gene determines handedness. Rather, during fetal development, a certain molecular factor helps to strengthen the brain’s left hemisphere, which increases the probability that the right hand will be dominant, because the left side of the brain controls the right side of the body, and vice versa. Among the minority of people who lack this factor, handedness develops entirely by chance. Research conducted on twins complicates the theory, however. One in five sets of identical twins involves one right-handed and one left-handed person, despite the fact that their genetic material is the same. Genes, therefore, are not solely responsible for handedness."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Genetic theory is also undermined by results from Peter Hepper and his team at Queen’s University in Belfast, Ireland. In 2004 the psychologists used ultrasound to show that by the 15th week of pregnancy, fetuses already have a preference as to which thumb they suck. In most cases, the preference continued after birth. At 15 weeks, though, the brain does not yet have control over the body’s limbs. Hepper speculates that fetuses tend to prefer whichever side of the body is developing more quickly and that their movements, in turn, influence the brain’s development. Whether this early preference is temporary or holds up throughout development and infancy is unknown. Genetic predetermination is also contradicted by the widespread observation that children do not settle on either their right or left hand until they are two or three years old."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "But even if these correlations were true, they did not explain what actually causes left-handedness. Furthermore, specialization on either side of the body is common among animals. Cats will favor one paw over another when fishing toys out from under the couch. Horses stomp more frequently with one hoof than the other. Certain crabs gesture predominantly with the left or right claw. In evolutionary terms, focusing power and dexterity in one limb is more efficient than having to train two, four or even eight limbs equally. Yet for most animals, the preference for one side or the other is seemingly random. The overwhelming dominance of the right hand is associated only with humans. That fact directs attention toward the brain’s two hemispheres and perhaps toward language."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Interest in hemispheres dates back to at least 1836. That year, at a medical conference, French physician Marc Dax reported on an unusual commonality among his patients. During his many years as a country doctor, Dax had encountered more than 40 men and women for whom speech was difficult, the result of some kind of brain damage. What was unique was that every individual suffered damage to the left side of the brain. At the conference, Dax elaborated on his theory, stating that each half of the brain was responsible for certain functions and that the left hemisphere controlled speech. Other experts showed little interest in the Frenchman’s ideas. Over time, however, scientists found more and more evidence of people experiencing speech difficulties following injury to the left brain. Patients with damage to the right hemisphere most often displayed disruptions in perception or concentration. Major advancements in understanding the brain’s asymmetry were made in the 1960s as a result of so-called split-brain surgery, developed to help patients with epilepsy. During this operation, doctors severed the corpus callosum—the nerve bundle that connects the two hemispheres. The surgical cut also stopped almost all normal communication between the two hemispheres, which offered researchers the opportunity to investigate each side’s activity."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In 1949 neurosurgeon Juhn Wada devised the first test to provide access to the brain’s functional organization of language. By injecting an anaesthetic into the right or left carotid artery, Wada temporarily paralyzed one side of a healthy brain, enabling him to more closely study the other side’s capabilities. Based on this approach, Brenda Milner and the late Theodore Rasmussen of the Montreal Neurological Institute published a major study in 1975 that confirmed the theory that country doctor Dax had formulated nearly 140 years earlier: in 96 percent of right-handed people, language is processed much more intensely in the left hemisphere. The correlation is not as clear in lefties, however. For two-thirds of them, the left hemisphere is still the most active language processor. But for the remaining third, either the right side is dominant or both sides work equally, controlling different language functions. That last statistic has slowed acceptance of the notion that the predominance of right-handedness is driven by left-hemisphere dominance in language processing. It is not at all clear why language control should somehow have dragged the control of body movement with it. Some experts think one reason the left hemisphere reigns over language is because the organs of speech processing—the larynx and tongue—are positioned on the body’s symmetry axis. Because these structures are centred, it may have been unclear, in evolutionary terms, which side of the brain should control them, and it seems unlikely that shared operation would result in smooth motor activity. Language and handedness could have developed preferentially for very different reasons as well. For example, some researchers, including evolutionary psychologist Michael C. Corballis of the University of Auckland in New Zealand, think that the origin of human speech lies in gestures. Gestures predated words and helped language emerge. If the left hemisphere began to dominate speech, it would have dominated gestures, too, and because the left brain controls the right side of the body, the right hand developed more strongly."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Perhaps we will know more soon. In the meantime, we can revel in what, if any, differences handedness brings to our human talents. Popular wisdom says right-handed, left-brained people excel at logical, analytical thinking. Left-handed, right-brained individuals are thought to possess more creative skills and may be better at combining functions associated with both hemispheres. Yet some neuroscientists see such claims as pure speculation. Fewer scientists are ready to claim that left-handedness means greater creative potential. Yet lefties are prevalent among artists, composers and the generally acknowledged great political thinkers. Possibly if these individuals are among the lefties whose language abilities are evenly distributed between hemispheres, the intense interplay required could lead to unusual mental capabilities."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Or perhaps some lefties become highly creative simply because they must be more clever to get by in our right-handed world. This battle, which begins during the very early stages of childhood, may lay the groundwork for exceptional achievements."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has seven sections A–G.\nWhich section contains the following information?\nWrite the correct letter A–G in boxes 14–18 on your answer sheet.\n14 __________ A preference for using one side of the body among animal species\n15 __________ The likelihood that a child will be left-handed\n16 __________ The age at which a preference for one hand becomes established\n17 __________ Occupations in which left-handed people are commonly found\n18 __________ A reference to an early discovery about the functions of the brain’s hemispheres"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 22,
+      "text": "Questions 19–22\nLook at the following researchers (Questions 19–22) and the list of findings below.\nMatch each researcher with the correct finding.\nWrite the correct letter A–G in boxes 19–22 on your answer sheet.\n                          The evolution of language is connected with bodily gesture and may\n A\n                          therefore have affected hand preference.\n\n B                        No single biological factor determines a child’s handedness.\n\n C                        Each hemisphere of the brain controls different bodily functions.\n\n D                        Language is processed mainly in the brain’s left hemisphere.\n\n E                        Speech difficulties often follow brain damage.\n\n                          The faster development of one side of a fetus’s body may influence later\n F\n                          hemispheric preference.\n\n G                        Brain function is fully mature by the end of fetal development.\n\n\n19 __________ Marian Annett\n20 __________ Peter Hepper\n21 __________ Brenda Milner and Theodore Rasmussen\n22 __________ Michael Corballis"
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 23–26 on your answer sheet write\n\n YES                     if the statement agrees with the views of the writer\n\n NO                      if the statement contradicts the views of the writer\n\n NOT GIVEN               if it is impossible to say what the writer thinks about this\n\n\n23 _________________ Research involving twins shows that genes are not the only factor\ndetermining left-handedness.\n24 _________________ Marc Dax’s report was widely accepted in his time.\n25 _________________ Juhn Wada based his findings on his research of people with language\nproblems.\n26 _________________ There tend to be more men with left-handedness than women."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ A preference for using one side of the body among animal species",
+      "translation": "動物物種中偏好使用身體某一邊的現象。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ The likelihood that a child will be left-handed",
+      "translation": "孩子成為左撇子的可能性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ The age at which a preference for one hand becomes established",
+      "translation": "慣用某一隻手的偏好在甚麼年齡固定下來。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Occupations in which left-handed people are commonly found",
+      "translation": "左撇子常見於哪些職業或身份群體。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ A reference to an early discovery about the functions of the brain’s hemispheres",
+      "translation": "提到早期關於大腦半球功能的發現。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Marian Annett",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Peter Hepper",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Brenda Milner and Theodore Rasmussen",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Michael Corballis",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Research involving twins shows that genes are not the only factor determining left-handedness.",
+      "translation": "涉及雙胞胎的研究顯示，基因不是決定左撇子的唯一因素。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Marc Dax’s report was widely accepted in his time.",
+      "translation": "Marc Dax 的報告在他的時代被廣泛接受。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Juhn Wada based his findings on his research of people with language problems.",
+      "translation": "Juhn Wada 的發現基於他對有語言問題人士的研究。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ There tend to be more men with left-handedness than women.",
+      "translation": "左撇子男性通常比女性更多。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-026/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-026/page-6.jpg"
+  ]
+}

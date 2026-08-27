@@ -1,0 +1,250 @@
+{
+  "id": "p1-095",
+  "catalogueId": "p1-095",
+  "title": "Climate Change: Instant Expert",
+  "sourceHeading": "Climate Change: Instant Expert",
+  "passage": 1,
+  "practice": 95,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-095-climate-change-instant-expert",
+  "source": {
+    "filename": "Practice 95 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "a64d6e93cf088160c1830d51a10d3760951529e9dd67dc027a7e2c6c74fd1d01"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Climate change is with us. A decade ago, it was conjecture. Now the future is unfolding before our eyes. Canada’s Inuit see it in disappearing Arctic ice and permafrost. The shantytown dwellers of Latin America and South Asia see it in lethal storms and floods. Europeans see it in disappearing glaciers, forest fires and fatal heat waves. Scientists see it in tree rings, ancient coral and bubbles trapped in ice cores. These reveal that the world has not been as warm as it is now for a millennium or more. The three warmest years on record have all occurred since 1998; 19 of the 20 warmest years have occurred since 1980. And Earth has probably never warmed as fast as in the past 30 years—a period when natural influences on global temperatures, such as solar cycles and volcanoes, should have cooled us down."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Climatologists reporting for the UN Intergovernmental Panel on Climate Change (IPCC) say we are seeing global warming caused by human activities. People are causing the change by burning nature’s vast stores of coal, oil and natural gas. This releases billions of tonnes of carbon dioxide (CO₂) every year, although the changes may actually have started with the dawn of agriculture, say some scientists. The physics of the “greenhouse effect” has been a matter of scientific fact for a century. CO₂ is a greenhouse gas that traps the Sun’s radiation within the troposphere, the lower atmosphere. It has accumulated along with other man-made greenhouse gases, such as methane and chlorofluorocarbons (CFCs). Some studies suggest that cosmic rays may also be involved in warming."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "If current trends continue, we will raise atmospheric CO₂ concentrations to double pre-industrial levels during this century. That will probably be enough to raise global temperatures by around 2°C to 5°C. Some warming is certain, but the degree will be determined by cycles involving melting ice, the oceans, water vapour, clouds and changes to vegetation. Warming is bringing other unpredictable changes. Melting glaciers and precipitation are causing some rivers to overflow, while evaporation is emptying others. Diseases are spreading. Some crops grow faster while others see yields slashed by disease and drought. Clashes over dwindling water resources may cause conflicts in many regions."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "As natural ecosystems—such as coral reefs—are disrupted, biodiversity is reduced. Most species cannot migrate fast enough to keep up, though others are already evolving in response to warming. Thermal expansion of the oceans, combined with melting ice on land, is also raising sea levels. In this century, human activity could trigger an irreversible melting of the Greenland ice sheet. This would condemn the world to a sea-level rise of six metres—enough to flood land occupied by billions of people."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Global warming would be more pronounced were it not for sulphur particles and other pollutants that shade us. Forests and oceans also absorb around half of the CO₂ we produce. But the rate of accumulation of atmospheric CO₂ has doubled since 2001, suggesting that nature’s ability to absorb the gas could now be stretched to the limit. Recent research suggests that natural CO₂ “sinks”, like peat bogs and forests, are actually starting to release CO₂."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "At the Earth Summit in 1992, the world agreed to prevent “dangerous” climate change. The first step was the 1997 Kyoto Protocol, which came into force in 2005. It will bring modest emission reductions from industrialised countries. Many observers say deeper cuts are needed and developing nations, which have large and growing populations, will one day have to join in. Some, including the US Bush administration, say the scientific uncertainty over the pace of climate change is grounds for delaying action. The US and Australia have reneged on Kyoto. Most scientists believe we are underestimating the dangers."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In any case, according to the IPCC, the world needs to quickly improve the efficiency of its energy usage and develop renewable, non-carbon energy sources such as wind, solar, tidal, wave and perhaps nuclear power. This also means developing new methods of converting this clean energy into motive power, such as hydrogen fuel cells for cars. Other less conventional solutions include ideas to stave off warming by “mega-engineering” the planet with giant mirrors to deflect the Sun’s rays, seeding the oceans with iron to generate algal blooms, or burying greenhouse gases below the sea. The bottom line is that we will need to cut CO₂ emissions by 70 per cent to 80 per cent simply to stabilise atmospheric CO₂ concentrations—and thus temperatures. The quicker we do that, the less extreme the heat in our future world will be."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has seven paragraphs (A–G).\nWhich paragraph contains each of the following pieces of information?\n1 ____________ The effects of global warming on animals.\n2 ____________ The ways in which ordinary people can see the global climate is changing.\n3 ____________ The science behind global warming.\n4 ____________ Possible solutions to global warming."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN THREE WORDS from the text.\nWars could be fought over reduced 5 _________________.\nCertain pollutants actually protect us from 6 _________________.\n7 _________________ countries were not required to make cuts in emissions under the Kyoto Protocol.\nAlgal blooms feed on 8 _________________."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nWrite:\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n9 _________________ Volcanoes can influence the global climate.\n10 _________________ Billions of people live near the sea.\n11 _________________ Peat bogs never release CO₂.\n12 _________________ Improving energy efficiency can be done quickly.\n13 _________________ Burying greenhouse gases under the sea is not possible."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The effects of global warming on animals.",
+      "translation": "全球暖化對動物的影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The ways in which ordinary people can see the global climate is changing.",
+      "translation": "普通人可以如何看見全球氣候正在改變。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The science behind global warming.",
+      "translation": "全球暖化背後的科學原理。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Possible solutions to global warming.",
+      "translation": "全球暖化的可能解決方案。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "戰爭可能會因減少的 ______ 而爆發。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "某些污染物實際上保護我們免受 ______ 的影響。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "_________________ countries were not required to make cuts in emissions under the Kyoto Protocol. Algal blooms feed on 8 _________________.",
+      "translation": "______ 國家在 Kyoto Protocol 下未被要求減少排放。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "藻華以 ______ 為養分。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Volcanoes can influence the global climate.",
+      "translation": "火山可以影響全球氣候。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Billions of people live near the sea.",
+      "translation": "數十億人住在海邊附近。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Peat bogs never release CO₂.",
+      "translation": "泥炭沼澤從不釋放 CO₂。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Improving energy efficiency can be done quickly.",
+      "translation": "提高能源效率可以很快完成。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Burying greenhouse gases under the sea is not possible.",
+      "translation": "把溫室氣體埋在海底是不可能的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-095/page-4.jpg"
+  ]
+}

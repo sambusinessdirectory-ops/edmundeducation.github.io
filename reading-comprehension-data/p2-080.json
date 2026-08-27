@@ -1,0 +1,222 @@
+{
+  "id": "p2-080",
+  "catalogueId": "p2-080",
+  "title": "Arctic Survivors",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 80,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-080-arctic-survivors",
+  "source": {
+    "filename": "Practice 80 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "d8214de332dbb9e1af96e41dc9aec7c07eaf8bd906bec51f9ea96a6cbab1ffbf"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Arctic Survivors The Arctic is an area located at the northernmost part of the Earth and includes the Arctic Ocean, Canada, Russia, Greenland, the United States, Norway, Sweden, Finland and Iceland. It consists of an ice-covered ocean, surrounded by treeless permafrost. The area can be defined as north of the Arctic Circle, the approximate limit of the midnight sun and the polar night. The average temperature in July, which is the warmest month, is below 10°C. Colder summer temperatures cause the size, abundance, productivity and variety of plants to decrease. Trees cannot grow in the Arctic, but in its warmest parts, shrubs are common and can reach 2 metres in height."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "A thick blanket of snow lies several feet deep all over the ground. The sun appears for only a few brief hours each day before sinking below the horizon as blackness cloaks the land. As it vanishes, a bitter chill tightens its grip. The Arctic is not a place to be in the throes of winter; it is hostile to almost all animal life. Amphibians would freeze solid here. Nor can reptiles withstand the extreme cold. And yet there are animals here, animals that exhibit a remarkable tolerance of the most inhospitable conditions on the planet."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Less than half a metre beneath the surface of the snow, a furry white creature, no bigger than a hamster, scurries along a tunnel. It is a collared lemming. It and other members of its family have excavated a complex home within the snow field, but it costs the lemmings a great deal to survive here. They pay by using some of their precious and scarce food supply to generate heat within their bodies so that their biochemical processes can continue to function efficiently. But in order to keep fuel costs to a minimum, they must conserve as much energy as they can. A thick insulating coat of fine fur covering all but the lemmings’ eyes achieves this. Fur is the life preserver of the Arctic."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Only one class of animals has fur – the mammals. Fur comprises dense layers of hair. Hair is composed of a substance called keratin. It grows constantly, its roots embedded in the skin and surrounded by nerve fibres so that its owner can sense any movement of the hair. It is this precious fur that gives land mammals the edge necessary to survive the harsh Arctic winter. Without it, wolves, lemmings and arctic foxes alike would surely perish."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The insulation provided by fur comes not from the fur itself, but largely from the layer of air trapped within the fur. Air is an extremely effective insulator, which is the same as saying it is a poor conductor, i.e. it has a very limited ability to conduct heat away from a warm surface. Studies reveal that if a layer of air of about five centimetres could be held in place close to the skin, it would provide the same insulation as does the impressively dense winter coat of the arctic fox. If an arctic fox or wolf is exposed to an air temperature of about minus ten degrees, the temperature near the tips of the fur will match the air temperature, but at the surface of the skin it will be closer to thirty degrees. This represents a temperature difference of around forty degrees. Such effective insulation is only made possible by the layer of trapped air contained within the long, fine and densely packed fur."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "But Arctic mammals have more in their arsenal than just fur to protect them from the elements. Unlike amphibians, reptiles and other classes of animals, they are endotherms, meaning they can generate their own body heat. This is another of the defining characteristics of mammals. It is the mammalian ability to generate heat internally that enables the arctic fox or the lemming to remain warm and active in very cold conditions. Generating heat internally, Arctic mammals can regulate their body temperature independently of external conditions; this is known as thermoregulation. When Arctic mammals are cold, they raise their metabolic rate and produce more heat. When they are warm, the reverse happens. Together, thermoregulation and fur make Arctic mammals perfectly equipped to face the toughest conditions the Arctic can throw at them."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nChoose the correct answer A, B, C or D.\n14 Animals that live in the Arctic\n  A can withstand extremely difficult living conditions.\n  B often freeze solid during winter.\n  C are mainly reptilian.\n  D are mostly frogs or toads.\n\n\n15 Where do lemmings live?\n  A on the surface of the snow.\n  B in tunnels built under the frozen ocean.\n  C in wide tunnels deep underground.\n  D about 50 cm below the surface of the snow.\n\n\n16 Fur is\n  A thick layers of hair.\n  B common to all animal classes.\n  C unhelpful to Arctic animals.\n  D the life preserver only for small Arctic mammals.\n\n\n17 Why is trapped air a good insulator?\n  A It is a good conductor of heat.\n  B Air helps us to breathe.\n  C It is a bad conductor of heat.\n  D It absorbs heat and cold very well.\n\n\n18 If the temperature at the tip of the fur of an arctic fox is minus ten degrees, the temperature at the\nsurface of the skin will be closer to\n  A forty degrees.\n  B ten degrees.\n  C thirty degrees.\n  D thirty-five degrees.\n\n\n19 What is an endotherm?\n  A an animal that can generate heat inside its body.\n  B an animal that cannot generate heat inside its body.\n  C an animal that never gets cold.\n  D an animal that has special insulation.\n\n20 Thermoregulation and fur help Arctic mammals\n A cope with hot temperatures.\n B protect themselves from the elements.\n C regulate the temperature of their surroundings.\n D create a layer of trapped air within their fur."
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\n\n\n The Arctic: winter is something few animals can survive, but there are a select few\n that show an amazing 21 _________________ of the severe winter conditions. Those\n animals have to use their food resources to keep their body temperature high so that\n the biochemical 22 _________________ inside them continue to run. One thing that\n helps them keep their bodies warm is their 23 _________________ which consists of\n thick layers of hair that provide insulation for their bodies; it is their life 24\n _________________. The layer of trapped air that they also have provides very\n effective insulation from cold because it is not a good 25 _________________ of\n heat. In the case of an Arctic mammal getting cold, it deals with it by increasing its 26\n _________________ rate to generate more heat."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Animals that live in the Arctic",
+      "translation": "生活在 Arctic 的動物……選項： A can withstand extremely difficult living conditions.能承受極端艱難的生存環境。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Where do lemmings live?",
+      "translation": "lemmings 住在哪裡？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Fur is",
+      "translation": "Fur 是……選項： A thick layers of hair.厚厚的毛髮層。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Why is trapped air a good insulator?",
+      "translation": "為甚麼 trapped air 是好的保溫物？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "If the temperature at the tip of the fur of an arctic fox is minus ten degrees, the temperature at the surface of the skin will be closer to",
+      "translation": "如果 arctic fox 的 fur tip 溫度是零下十度，皮膚表面的溫度會較接近……選項： A forty degrees.四十度。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "What is an endotherm?",
+      "translation": "endotherm 是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Thermoregulation and fur help Arctic mammals",
+      "translation": "thermoregulation 和 fur 幫助 Arctic mammals……選項： A cope with hot temperatures.應付高溫。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "Arctic winter 很少動物能生存，但仍有少數動物對嚴酷冬季條件展現出驚人的 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "那些動物必須使用食物資源保持體溫，讓體內的 biochemical __________ 繼續運作。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "幫助牠們保持身體溫暖的一樣東西是牠們的 __________，它由厚厚的毛髮層組成。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "它是牠們的生命 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "牠們 fur 內的 trapped air layer 能有效隔絕寒冷，因為它不是良好的熱 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "當 Arctic mammal 感到寒冷時，牠會提高自己的 __________ rate，以產生更多熱量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-080/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-080/page-6.jpg"
+  ]
+}

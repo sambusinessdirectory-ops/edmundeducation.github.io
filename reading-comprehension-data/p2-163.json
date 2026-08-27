@@ -1,0 +1,279 @@
+{
+  "id": "p2-163",
+  "catalogueId": "p2-163",
+  "title": "Crisis! freshwater",
+  "sourceHeading": "Crisis! Freshwater",
+  "passage": 2,
+  "practice": 163,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-163-crisis-freshwater",
+  "source": {
+    "filename": "Practice 163 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8927d54acd9369a41c65ed16763a8db8af096ee7b46bed7fd51c925cb0c25d45"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "As in New Delhi and Phoenix, policymakers worldwide wield great power over how water resources are managed. Wise use of such power will become increasingly important as the years go by because the world’s demand for freshwater is currently overtaking its ready supply in many places, and this situation shows no sign of abating."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "That the problem is well-known makes it no less disturbing: today more than a billion people—one in six worldwide—lack adequate access to safe freshwater. By 2025, according to data released by the United Nations, the freshwater resources of more than half the countries across the globe will undergo either stress—for example, when people increasingly demand more water than is available or safe for use—or outright shortages. By mid-century, as much as three-quarters of the Earth’s population could face scarcities of freshwater."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Scientists expect water scarcity to become more common in large part because the world’s population is rising and many people are getting richer (thus expanding demand) and because global climate change is exacerbating aridity and reducing supply in many regions. What is more, many water sources are threatened by faulty waste disposal, releases of industrial pollutants, fertilizer runoff, and coastal influxes of saltwater into aquifers as groundwater is depleted."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Because lack of access to water can lead to starvation, disease, political instability, and even armed conflict, failure to take action can have broad and grave consequences. Fortunately, to a great extent, the technologies and policy tools required to conserve existing freshwater and to secure more of it are known, and several seem particularly effective. What is needed now is action. Governments and authorities at every level have to formulate and execute plans for implementing the political, economic, and technological measures that can ensure water security now and in the coming decades."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The world’s water problems require, as a start, an understanding of how much freshwater each person requires, along with knowledge of the factors that impede supply and increase demand in different parts of the world. Malin Falkenmark of the Stockholm International Water Institute and other experts estimate that, on average, each person on Earth needs a minimum of 1,000 cubic metres (m³) of water. This is the minimum amount of water each person requires for drinking, hygiene, and growing food. The volume is equivalent to two-fifths of an Olympic-size swimming pool."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Much of the Americas and northern Eurasia enjoy abundant water supplies. But several regions are beset by greater or lesser degrees of ‘physical’ scarcity—whereby demand exceeds local availability. Other areas, among them Central Africa, parts of the Indian subcontinent, and Southeast Asia, contend with ‘economic’ water scarcity, where limited resources and capacity restrict access even though sufficient supplies are available."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "More than half of the precipitation that falls on land is never available for capture or storage because it evaporates from the ground or transpires from plants; this fraction is called green water. The remainder flows into so-called blue-water sources—rivers, lakes, wetlands and aquifers—that people can tap directly. Farm irrigation from these free-flowing bodies is the biggest single human use of freshwater resources, but the intense local demand that cities and industries create often drains the surroundings of ready supplies."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "There is plenty of water, but not always where it is needed. One hundred and ten thousand cubic kilometres of precipitation, nearly 10 times the volume of Lake Superior, falls from the sky onto Earth’s land surface every year. This huge quantity would easily fulfil the requirements of everyone on the planet if the water arrived where and when people needed it. But much of it cannot be captured (top), and the rest is distributed unevenly (bottom). Green water (61.1% of total precipitation): absorbed by soil and plants, then released back into the air: unavailable for withdrawal. Blue water (38.8% of total precipitation): collected in rivers, lakes, wetlands, and groundwater: available for withdrawal before it evaporates or before it reaches the ocean. These figures may not add up to 100% because of rounding. Only 1.5% is directly used by people."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Water supplies fell to critically low levels during severe droughts in recent years. Economic actors had each taken what they regarded as a reasonable share, but they did not consider the needs of the natural environment, which suffered greatly when its inadequate supply was reduced to critical levels by drought. The members of the Murray-Darling Basin Commission are now frantically trying to extricate themselves from the disastrous results of their misallocation of the total water resource. Given the difficulties of sensibly apportioning the water supply within a single nation, imagine the complexities of doing so for international river basins such as that of the Jordan River, which borders Lebanon, Syria, Israel, the Palestinian areas, and Jordan, all of which have claims to the shared, but limited, supply in an extremely parched region. The struggle for freshwater has contributed to civil and military disputes in the area. Only continuing negotiations and compromises have kept this tense situation under control."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–19",
+    "g20": "Questions 20–24",
+    "g25": "Questions 25–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 19,
+      "text": "Questions 15–19\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 15–19 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n15 __________ The outlook for worldwide freshwater demand is unclear.\n16 __________ General awareness of the problem has partly eased the freshwater challenge.\n17 __________ Researchers expect water scarcity to increase because of several compelling\nfactors.\n18 __________ People do not value the careful use of scarce water.\n19 __________ Controversy over water resources is unavoidable between neighbouring\nnations."
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 24,
+      "text": "Questions 20–24\nReading Passage 2 has nine paragraphs, A–I.\nWhich paragraph contains the following information?\nWrite the correct letter, A–I, in boxes 20–24 on your answer sheet.\nNB You may use any letter more than once.\n20 __________ The uneven distribution of water around the world\n21 __________ Natural factors that also concern policymakers\n22 __________ The need for coordinated action involving political, economic and technological\nmeasures\n23 __________ A mismatch between when water is needed and when rain falls\n24 __________ The minimum amount of freshwater a person needs"
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 27,
+      "text": "Questions 25–27\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 25–27 on your answer sheet.\n\n\n\n\nSerious problems such as starvation and armed conflict result from\nwater shortages. In some regions, scarcity is 25 __________ because\nwater is unavailable, while other regions suffer a different kind of\nscarcity because resources and institutions are inadequate. Much of the\nrainfall is unavailable because 26 __________ is impossible after it\nevaporates or transpires from plants. The remaining water enters 27\n__________ that people can tap directly. Irrigation consumes a\nconsiderable amount, while cities and industries create intense local\ndemand."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ The outlook for worldwide freshwater demand is unclear.",
+      "translation": "全球淡水需求的前景並不清楚。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ General awareness of the problem has partly eased the freshwater challenge.",
+      "translation": "人們普遍知道這個問題，已經在某程度上緩和了淡水挑戰。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Researchers expect water scarcity to increase because of several compelling factors.",
+      "translation": "研究人員預計水資源短缺會增加，原因是有幾個有力因素推動。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ People do not value the careful use of scarce water.",
+      "translation": "人們不重視謹慎使用稀缺水資源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Controversy over water resources is unavoidable between neighbouring nations.",
+      "translation": "鄰國之間圍繞水資源的爭議是無可避免的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ The uneven distribution of water around the world",
+      "translation": "世界各地水資源分布不均。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ Natural factors that also concern policymakers",
+      "translation": "政策制定者也需要考慮的自然因素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ The need for coordinated action involving political, economic and technological measures",
+      "translation": "需要涉及政治、經濟和科技措施的協調行動。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ A mismatch between when water is needed and when rain falls",
+      "translation": "需要用水的時間與降雨時間不配合。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ The minimum amount of freshwater a person needs",
+      "translation": "每個人所需的最低淡水量。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "在一些地區，由於水本身不可得，短缺屬於 ______；另一些地區則因資源和制度／能力不足而面對另一種短缺。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "大量降雨無法使用，因為它蒸發或從植物蒸騰後，______ 已經不可能。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "剩下的水進入人們可以直接取用的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-163/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-163/page-6.jpg"
+  ]
+}

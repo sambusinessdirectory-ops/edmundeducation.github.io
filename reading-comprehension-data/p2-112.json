@@ -1,0 +1,284 @@
+{
+  "id": "p2-112",
+  "catalogueId": "p2-112",
+  "title": "Measures to combat infectious disease in tsarist Russia",
+  "sourceHeading": "Measures to Combat Infectious Disease in Tsarist Russia",
+  "passage": 2,
+  "practice": 112,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-112-measures-to-combat-infectious-disease-in-tsarist-russia",
+  "source": {
+    "filename": "Practice 112 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "179d2362a2c75155c80a220f870ef45fa91b9360c8ff03809786a9f690c52e1b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In the second half of the seventeenth century, Russian authorities began implementing controls at the borders of their empire to prevent the importation of plague, a highly infectious and dangerous disease. Information on disease outbreaks occurring abroad was regularly reported to the tsar’s court through various means, including commercial channels (travelling merchants), military personnel deployed abroad, undercover agents, the network of Imperial Foreign Office embassies and representations abroad, and the customs offices. For instance, the heads of customs offices were instructed to question foreigners entering Russia about possible epidemics of dangerous diseases in their respective countries."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "If news of an outbreak came from abroad, relations with the affected country were suspended. For instance, foreign vessels were not allowed to dock in Russian ports if there was credible information about the existence of epidemics in countries from whence they had departed. In addition, all foreigners entering Russia from those countries had to undergo quarantine. In 1665, after receiving news about a plague epidemic in England, Tsar Alexei wrote a letter to King Charles II in which he announced the cessation of Russian trade relations with England and other foreign states. These protective measures appeared to have been effective, as the country did not record any cases of plague during that year and in the next three decades. It was not until 1692 that another plague outbreak was recorded in the Russian province of Astrakhan. This epidemic continued for five months and killed 10,383 people, or about 65 percent of the city’s population. By the end of the seventeenth century, preventive measures had been widely introduced in Russia, including the isolation of persons ill with plague, the imposition of quarantines, and the distribution of explanatory public health notices about plague outbreaks."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "During the eighteenth century, although none of the outbreaks was of the same scale as in the past, plague appeared in Russia several times. For instance, from 1703 to 1705, a plague outbreak that had ravaged Istanbul spread to the Podolsk and Kiev provinces in Russia, and then to Poland and Hungary. After defeating the Swedes in the battle of Poltava in 1709, Tsar Peter I (Peter the Great) dispatched part of his army to Poland, where plague had been raging for two years. Despite preventive measures, the disease spread among the Russian troops. In 1710, the plague reached Riga (then part of Sweden, now the capital of Latvia), where it was active until 1711 and claimed 60,000 lives. During this period, the Russians besieged Riga and, after the Swedes had surrendered the city in 1710, the Russian army lost 9,800 soldiers to the plague. Russian military chronicles of the time note that more soldiers died of the disease after the capture of Riga than from enemy fire during the siege of that city."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Tsar Peter I imposed strict measures to prevent the spread of plague during these conflicts. Soldiers suspected of being infected were isolated and taken to areas far from military camps. In addition, camps were designed to separate divisions, detachments, and smaller units of soldiers. When plague reached Narva (located in present-day Estonia) and threatened to spread to St Petersburg, the newly built capital of Russia, Tsar Peter I ordered the army to cordon off the entire boundary along the Luga River, including temporarily halting all activity on the river. In order to prevent the movement of people and goods from Narva to St Petersburg and Novgorod, roadblocks and checkpoints were set up on all roads. The tsar’s orders were rigorously enforced, and those who disobeyed were hanged."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "However, although the Russian authorities applied such methods to contain the spread of the disease and limit the number of victims, all of the measures were provisional: they were intended to respond to a specific outbreak, and were not designed as a coherent set of measures to be implemented systematically at the first sign of plague. The advent of such a standard response system came a few years later."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The first attempts to organise procedures and carry out proactive steps to control plague date from the aftermath of the 1727–1728 epidemic in Astrakhan. In response to this, the Russian imperial authorities issued several decrees aimed at controlling the future spread of plague. Among these decrees, the ‘Instructions for Governors and Heads of Townships’ required that all governors immediately inform the Senate – a government body created by Tsar Peter I in 1711 to advise the monarch – if plague cases were detected in their respective provinces. Furthermore, the decree required that governors ensure the physical examination of all persons suspected of carrying the disease and their subsequent isolation. In addition, it was ordered that sites where plague victims were found had to be encircled by checkpoints and isolated for the duration of the outbreak. These checkpoints were to remain operational for at least six weeks. The houses of infected persons were to be burned along with all of the personal property they contained, including farm animals and cattle. The governors were instructed to inform the neighbouring provinces and cities about every plague case occurring in their territories. Finally, letters brought by couriers were heated above a fire before being copied."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The implementation by the authorities of these combined measures demonstrates their intuitive understanding of the importance of the timely isolation of infected people to limit the spread of plague."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–21",
+    "g22": "Questions 22–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has seven sections, A–G.\nChoose the correct heading for sections A–F from the list of headings below.\nWrite the correct number, i–viii, in boxes 14–19 on your answer sheet.\n i                            Outbreaks of plague resulting from military campaigns\n\n ii                           Systematic intelligence-gathering about external cases of plague\n\n iii                          Early forms of treatment for plague victims\n\n iv                           The general limitations of early Russian anti-plague measures\n\n v                            Partly successful bans against foreign states affected by plague\n\n vi                           Hostile reactions from foreign states to Russian anti-plague measures\n\n vii                          Various measures to limit outbreaks of plague associated with war\n\n viii                         The formulation and publication of preventive strategies\n14 __________ Section A\n15 __________ Section B\n16 __________ Section C\n17 __________ Section D\n18 __________ Section E\n19 __________ Section F"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 21,
+      "text": "Questions 20–21\nChoose TWO letters, A–E.\nWhich TWO measures did Russia take in the seventeenth century to avoid plague outbreaks?\nWrite your answers in boxes 20 and 21 on your answer sheet.\n     A Cooperation with foreign leaders.\n     B Spying.\n     C Military campaigns.\n     D Restrictions on access to its ports.\n     E Expulsion of foreigners."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 23,
+      "text": "Questions 22–23\nChoose TWO letters, A–E.\nWhich TWO statements are made about Russia in the early eighteenth century?\nWrite your answers in boxes 22 and 23 on your answer sheet.\n A Plague outbreaks were consistently smaller than before.\n B Military casualties at Riga exceeded the number of plague victims.\n C The design of military camps allowed plague to spread quickly.\n D The tsar’s plan to protect St Petersburg from plague was not strictly implemented.\n E Anti-plague measures were generally reactive rather than strategic."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\n\n\n24 An outbreak of plague in __________ prompted the publication of a coherent preventive\nstrategy.\n\n\n25 Provincial governors were ordered to burn the __________ and possessions of plague\nvictims.\n\n\n26 Correspondence was held over a __________ before it was copied."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Section A",
+      "translation": "找出 A 段整段主旨。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Section B",
+      "translation": "判斷 B 段主要內容。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Section C",
+      "translation": "找出 C 段主旨。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Section D",
+      "translation": "判斷 D 段主旨。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Section E",
+      "translation": "找出 E 段整體功能。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Section F",
+      "translation": "判斷 F 段主旨。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "十七世紀俄羅斯採取哪兩項措施避免鼠疫爆發？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "十七世紀俄羅斯採取哪兩項措施避免鼠疫爆發？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "關於十八世紀早期的俄羅斯，文章提出了哪兩個說法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "關於十八世紀早期的俄羅斯，文章提出了哪兩個說法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "An outbreak of plague in __________ prompted the publication of a coherent preventive strategy.",
+      "translation": "在甚麼地方爆發的鼠疫，促使一套連貫的預防策略被發布？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Provincial governors were ordered to burn the __________ and possessions of plague victims.",
+      "translation": "省長被命令焚燒鼠疫受害者的甚麼和財物？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Correspondence was held over a __________ before it was copied.",
+      "translation": "信件在被抄寫前，會被放在甚麼上方？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-112/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-112/page-5.jpg"
+  ]
+}

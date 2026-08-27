@@ -1,0 +1,238 @@
+{
+  "id": "p3-134",
+  "catalogueId": "p3-134",
+  "title": "Global Warming",
+  "sourceHeading": "Global Warming",
+  "passage": 3,
+  "practice": 134,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-134-global-warming",
+  "source": {
+    "filename": "Practice 134 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "92308253377376ab7a55f4857453b75885042efff89091a3027649646ab8e049"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Day after day, we hear about how anthropogenic development is causing global warming. According to an increasingly vocal minority, however, we should be asking ourselves how much of this is media hype, and how much is based on real evidence. It seems – as is so often the case – that it depends on which expert you listen to, or which statistics you study."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Yes, it is true that there is a mass of evidence to indicate that the world is getting warmer, with one of the world’s leading weather predictors stating that air temperatures have shown an increase of just under half a degree Celsius since the beginning of the twentieth century. And while this may not sound like anything worth losing sleep over, the international press would have us believe that the consequences could be devastating. Other experts, however, are of the opinion that what we are seeing is just part of a natural upward and downward swing that has always been part of the cycle of global weather. An analysis of the views of major meteorologists in the United States showed that less than 20% of them believed that any change in temperature over the last hundred years was our own fault – the rest attributed it to natural cyclical changes."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "There is, of course, no denying that we are still at a very early stage in understanding weather. The effects of such variables as rainfall, cloud formation, the seas and oceans, gases such as methane and ozone, or even solar energy are still not really understood, and therefore the predictions that we make using them cannot always be relied on. In 1988, Dr James Hansen predicted that global warming would raise global temperatures, with disastrous consequences for humankind. He argued that there was ‘a strong cause-and-effect relationship between the current climate and human alteration of the atmosphere’. He has since gone on record as stating that using artificial climate models to predict change is all but impossible. In fact, he now believes that, rather than getting hotter, our planet is getting greener as a result of increased carbon dioxide, with the prospect of more vegetation in areas that have recently been frozen wastelands."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "In fact, there is some evidence to suggest that as our computer-based weather models have become more sophisticated, the predicted rises in temperature have been cut back. In addition, if we look at the much-reported rise in global temperature over the last century, a close analysis reveals that the lion’s share of that increase, almost three quarters in total, occurred before man began to “poison” his world with industrial processes and the accompanying greenhouse gas emissions in the second half of the twentieth century."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "So should we pay any attention to those stories that scream out at us from billboards and television news headlines, claiming that man, with his inexhaustible dependence on oil-based machinery and ever more sophisticated forms of transport, is creating a nightmare level of greenhouse gas emissions, poisoning his environment and ripping open the ozone layer? Doubters point to scientific evidence which, they claim, proves that, of all the greenhouse gases, only two per cent come from man-made sources, the rest resulting from natural emissions. Who, then, to believe: the environmentalist exhorting us to leave the car at home, to buy re-usable products packaged in recycled paper and to plant trees in our back yard? Or should we believe the skeptics—including, of course, many big businesses with the most to lose—when they tell us that we are making a mountain out of a molehill? And my own opinion? The jury’s still out as far as I am concerned!"
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–38",
+    "g39": "Questions 39–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 28–32 on your answer sheet.\n28 The author …\n A believes that man is causing global warming\n B believes that global warming is a natural process\n C is sure what the causes of global warming are\n D does not say what he believes the causes of global warming are\n\n\n29 As to the cause of global warming, the author believes that …\n A occasionally, the answer depends on whom you consult\n B the facts always depend on whom you consult\n C often, the answer depends on which expert you consult\n D you should not consult experts\n\n\n30 More than 80% of the top meteorologists in the United States are of the opinion that …\n A global warming should make us lose sleep\n B global warming is not the result of natural cyclical changes, but is man-made\n C the consequences of global warming will be devastating\n D global warming is not man-made, but the result of natural cyclical changes.\n\n\n31 Our understanding of the weather…\n A leads to reliable predictions\n B is variable\n C cannot be denied\n D is not very developed yet\n\n\n32 Which statement reflects Dr James Hansen’s current view?\n A It is nearly impossible to predict weather change using artificial models.\n B The consequences of global warming would be disastrous for humankind.\n C There is a significant link between the current climate and human alteration of the\n   atmosphere.\n D Earth is getting colder."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 38,
+      "text": "Questions 33–38\nDo the statements below agree with the views of the writer in Reading Passage 3?\nIn boxes 33–38 on your answer sheet, write:\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n33 At the same time that computer-based weather models have become more sophisticated,\nweather forecasters have become more expert.\n34 Most of the increase in global temperature happened in the second half of the twentieth\ncentury.\n35 The media wants us to blame ourselves for global warming.\n36 The media encourages the public to use environment-friendly vehicles, such as electric cars,\nto combat global warming.\n37 Environmentalists are very effective at persuading people to be kind to the environment.\n38 Many big businesses are on the side of the sceptics as regards the cause of global warming."
+    },
+    {
+      "id": "g39",
+      "start": 39,
+      "end": 40,
+      "text": "Questions 39–40\nComplete the sentences below.\nUse NO MORE THAN THREE WORDS from the passage for each blank space.\nWrite your answers in boxes 39–40 on your answer sheet.\n\n\nAs well as planting trees and not driving, the environmentalist would like\nus to choose products that are wrapped 39 _________________ and can be\nused more than once.\nBig businesses would have us believe that we are making too much fuss\nabout global warming, because they have 40 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "The author …",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "As to the cause of global warming, the author believes that …",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "More than 80% of the top meteorologists in the United States are of the opinion that …",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Our understanding of the weather…",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Which statement reflects Dr James Hansen’s current view?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "At the same time that computer-based weather models have become more sophisticated, weather forecasters have become more expert.",
+      "translation": "當電腦天氣模型變得更精密時，天氣預報員也變得更專業。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Most of the increase in global temperature happened in the second half of the twentieth century.",
+      "translation": "全球氣溫上升的大部分發生在二十世紀下半葉。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "The media wants us to blame ourselves for global warming.",
+      "translation": "媒體希望我們把全球暖化歸咎於自己，也就是歸咎於人類。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "The media encourages the public to use environment-friendly vehicles, such as electric cars, to combat global warming.",
+      "translation": "媒體鼓勵公眾使用環保車輛，例如電動車，以對抗全球暖化。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Environmentalists are very effective at persuading people to be kind to the environment.",
+      "translation": "環保人士非常有效地說服人們善待環境。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Many big businesses are on the side of the sceptics as regards the cause of global warming.",
+      "translation": "許多大企業在全球暖化成因問題上站在懷疑派一邊。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g39",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "除了種樹和不開車之外，環保人士希望我們選擇用 ______ 包裝，並且可以重複使用的產品。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g39",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "大企業會讓我們相信，我們對全球暖化太小題大做，因為它們有 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-134/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-134/page-5.jpg"
+  ]
+}

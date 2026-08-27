@@ -1,0 +1,215 @@
+{
+  "id": "p1-007",
+  "catalogueId": "p1-007",
+  "title": "AUSTRALIA'S PLATYPUS",
+  "sourceHeading": "AUSTRALIA’S PLATYPUS",
+  "passage": 1,
+  "practice": 7,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-007-australia-s-platypus",
+  "source": {
+    "filename": "Practice 7- IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "a40436b2722d8af647b1a821ff56c7310db39a0f4d323b7dc1b330e18b7e915b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Of all the creatures on the earth, the Australian platypus, Omithorbynchusparadoxus, is perhaps one of the most mysterious and reclusive. Derived from the Latin platys meaning ‘flat and broad’ and pous meaning ‘foot’, the platypus has long been an iconic symbol of Australia. Upon being discovered in Australia in the 1700s, sketches of this unusual creature were made and sent back to England whereupon they were considered by experts to be a hoax. Indeed, the incredible collection of its body parts – broad, flat tail, rubbery snout, webbed feet and short dense fur – make it one of the world’s most unusual animals."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Officially classified as a mammal, the egg-laying platypus is mostly active during the night, a nocturnal animal. As if this combination of characteristics and behaviours were not unusual enough, the platypus is the only Australian mammal known to be venomous. The male platypus has a sharply pointed, moveable spur on its hind foot which delivers a poison capable of killing smaller animals and causing severe pain to humans. The spur – about 2 centimetres in length – is quite similar to the fang of a snake and, if provoked, is used as a means of defence. Those who have been stung by a platypus’ spur report an immediate swelling around the wound followed by increased swelling throughout the affected limb. Excruciating, almost paralysing pain in the affected area accompanies the sting which, in some victims has been known to last for a period of months. One report from a victim who was stung in the palm of the hand states that “…the spur could not be pulled out of the hand until the platypus was killed.” During the breeding season, the amount of venom in the male platypus increases. This has led some zoologists to theorise that the poisonous spur is primarily for asserting dominance amongst fellow-males. To be stung by a male platypus is a rare event with only a very small number of people being on the receiving end of this most reclusive creature."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "In the same area of the hind foot where the male has the poisonous spur, the female platypus only develops two buds which drop off in their first year of life never to appear again. The female platypus produces a clutch of one to three eggs in late winter or spring, incubating them in an underground burrow. The eggs are 15-18 millimetres long and have a whitish, papery shell like those of lizards and snakes. The mother is believed to keep the eggs warm by placing them between her lower belly and curled-up tail for a period of about 10 or 11 days as she rests in an underground nest made of leaves or other vegetation collected from the water. The baby platypus drinks a rich milk which is secreted from two round patches of skin midway along the mother’s bell)’. It is believed that a baby platypus feeds by slurping up milk with rhythmic sweeps of its stubby bill. When the juveniles first enter the water at the age of about four months, they are nearly (80-90%) as long as an adult. Male platypus do not help to raise the young."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "In Australia, the platypus is officially classified as ‘Common but Vulnerable’. As a species, it is not currently considered to be endangered. However, platypus populations are believed to have declined or disappeared in many catchments 1, particularly in urban and agricultural landscapes. In most cases, the specific underlying reasons for the reduction in numbers remain unknown. Platypus surveys have only been carried out in a few catchments in eastern Australia. It is therefore impossible to provide an accurate estimate of the total number of platypus remaining in the wild. Based on recent studies, the average platypus population density along relatively good quality streams in the foothills of Victoria’s Great Dividing Range is only around one to two animals per kilometre of channel. Because platypus are predators near the top of the food chain and require large amounts of food to survive (up to about 30% of a given animal’s body weight each day), it is believed that their numbers are most often limited by the availability of food, mainly in the form of bottom-dwelling aquatic invertebrates such as shrimps, worms, yabbies, pea-shell mussels, and immature and adult aquatic insects. Small frogs and fish eggs are also eaten occasionally, along with some terrestrial insects that fall into the water from overhanging vegetation."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "1 : Catchments are an area of land drained by a creek or river system, or a place set aside for collecting water which runs off the surface of the land."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Until the early twentieth century, platypus were widely killed for (heir fur. The species is now protected by law throughout Australia. Platypus are wild animals with specialised living requirements. It is illegal for members of the public to keep them in captivity. A platypus which has been accidentally captured along a stream or found wandering in an unusual place should never be taken home and treated as a pet, even for a brief time. The animal will not survive the experience. Only a small number of Australian zoos and universities hold a permit to maintain platypus in captivity for legitimate display or research purposes. Current Australian government policy does not allow’ this species to be taken overseas for any reason."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1-5\n\nDo the following statements reflect the claims of the writer?\n\nIn boxes 1-5 on your answer sheet, write\n\n    YES         if the statement agrees with the views of the writer\n\n\n    NO          if the statement contradicts the views of the writer\n\n\n    NOT         if it is impossible to say what the writer thinks about this\n    GIVEN\n\n\n\n1 ________________\nThe appearance of the platypus caused experts to doubt it was real.\n\n\n2 ________________\nThe amount of venom in a male platypus changes during the year.\n\n\n3 ________________ Most platypus live in Eastern Australia.\n\n\n4 ________________ Snake venom and platypus venom are very similar.\n\n\n5 ________________\nBecause their environment is specialised, platypus cannot be kept as pets."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6-9\n\nComplete the summary.\n\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n\nWrite your answers in boxes 6-9 on your answer sheet.\n\n Platypus are unique Australian animals. Although all platypus share many\n similarities, the male and female are somewhat different from each other. For\n example, on the hind feet, the male has a 6________________ while the young\n female has 7________________ .\n\n In the 8________________ the mother keeps her eggs warm and, once born,\n supplies her 9 ________________ . On the other hand, the male platypus does not\n help raise the young at all."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10-13\n\n\n\n\nComplete the sentences below with words taken from Reading Passage 1.\n\nUse NO MORE THAN THREE WORDS for each answer.\n\n\nWrite your answers in boxes 10-13 on your answer sheet.\n\n\n\n\nEven though the platypus is not endangered, it is considered 10 ________________\n\n\nPlatypus numbers in 11 ________________ areas have declined in many catchments.\n\n\nPlatypus numbers are low which is probably due to a lack of 12 ________________\n\n\nPlatypus captivity for research and study purposes requires a 13 ________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ The appearance of the platypus caused experts to doubt it was real.",
+      "translation": "Platypus 的外貌令專家懷疑牠是否真實存在。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ The amount of venom in a male platypus changes during the year.",
+      "translation": "雄性 platypus 體內毒液的量會在一年中某些時期改變。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Most platypus live in Eastern Australia.",
+      "translation": "大多數 platypus 生活在澳洲東部。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Snake venom and platypus venom are very similar.",
+      "translation": "蛇毒和 platypus 毒液非常相似。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "________________ Because their environment is specialised, platypus cannot be kept as pets.",
+      "translation": "由於牠們的生活環境需求特殊，platypus 不能被當作寵物飼養。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "例如，在後足位置，雄性有一個 ______，而年幼雌性有 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "而年幼雌性有 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "在 ______ 中，母親使蛋保持溫暖。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "而幼崽出生後，母親提供牠的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "即使 platypus 未被視為瀕危，牠仍被認為是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "在許多 catchments 中，______ 地區的 platypus 數量已經下降。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "Platypus 數量低，可能是因為缺少 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "為研究和學術目的圈養 platypus 需要一個 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-007/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-007/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-007/page-7.jpg"
+  ]
+}

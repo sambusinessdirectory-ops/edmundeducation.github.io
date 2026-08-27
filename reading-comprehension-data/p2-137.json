@@ -1,0 +1,290 @@
+{
+  "id": "p2-137",
+  "catalogueId": "p2-137",
+  "title": "Paper or Computer?",
+  "sourceHeading": "Paper or Computer?",
+  "passage": 2,
+  "practice": 137,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-137-paper-or-computer",
+  "source": {
+    "filename": "Practice 137 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "cf563a48245d9d666e7063d7dbde0f50c1a42ad666bdefbeb83514a6dfa6ce20"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Computer technology was supposed to replace paper. But that hasn’t happened. Every country in the Western world uses more paper today, on a per-capita basis, than it did ten years ago. The consumption of uncoated free-sheet paper—the most common kind of office paper, for instance—rose almost fifteen per cent in the United States between 1995 and 2000. This is generally taken as evidence of how hard it is to eradicate old, wasteful habits and of how stubbornly resistant we are to the efficiencies offered by computerization. A number of cognitive psychologists and ergonomics experts, however, don’t agree. Paper has persisted, they argue, for very good reasons: when it comes to performing certain kinds of cognitive tasks, paper has many advantages over computers. The dismay people feel at the sight of a messy desk — or the spectacle of air-traffic controllers tracking flights through notes scribbled on paper strips – arises from a fundamental confusion about the role that paper plays in our lives."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The case for paper is made most eloquently in “The Myth of the Paperless Office”, by two social scientists, Abigail Sellen and Richard Harper. They begin their book with an account of a study they conducted at the International Monetary Fund, in Washington, D.C. Economists at the IMF spend most of their time writing reports on complicated economic questions, work that would seem to be perfectly suited to sitting in front of a computer. Nonetheless, the IMF is awash in paper, and Sellen and Harper wanted to find out why. Their answer is that the business of writing reports – at least at the IMF—is an intensely collaborative process, involving the professional judgments and contributions of many people. The economists bring drafts of reports to conference rooms, spread out the relevant pages, and negotiate changes with one another. They go back to their offices and jot down comments in the margin, taking advantage of the freedom offered by the informality of the handwritten note. Then they deliver the annotated draft to the author in person, taking him, page by page, through the suggested changes. At the end of the process, the author spreads out all the pages with comments on his desk and starts to enter them on the computer — moving the pages around as he works, organizing and reorganizing, saving and discarding."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Without paper, this kind of collaborative and iterative work process would be much more difficult. According to Sellen and Harper, paper has a unique set of “affordances” — that is, qualities that permit specific kinds of uses. Paper is tangible: we can pick up a document, flip through it, read little bits here and there, and quickly get a sense of it. Paper is spatially flexible, meaning that we can spread it out and arrange it in the way that suits us best. And it’s tailorable: we can easily annotate it, and scribble on it as we read, without altering the original text. Digital documents, of course, have their own affordances. They can be easily searched, shared, stored, accessed remotely, and linked to other relevant material. But they lack the affordances that really matter to a group of people working together on a report. Sellen and Harper write: “Because paper is a physical embodiment of information, actions performed in relation to paper are, to a large extent, made visible to one’s colleagues. Reviewers sitting around a desk could tell whether a colleague was turning toward or away from a report; whether she was flicking through it or setting it aside. Contrast this with watching someone across a desk looking at a document on a laptop. What are they looking at? Where in the document are they? Are they really reading their email? Knowing these things is important because they help a group coordinate its discussions and reach a shared understanding of what is being discussed.”"
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Paper enables a certain kind of thinking. Picture, for instance, the top of your desk. Chances are that you have a keyboard and a computer screen off to one side, and a clear space roughly eighteen inches square in front of your chair. What covers the rest of the desktop is probably piles—piles of papers, journals, magazines, binders, postcards, videotapes, and all the other artifacts of the knowledge economy. The piles look like a mess, but they aren’t. When a group at Apple Computer studied piling behavior several years ago, they found that even the most disorderly piles usually make perfect sense to the piler, and that office workers could hold forth in great detail about the precise history and meaning of their piles. The pile closest to the cleared, eighteen-inch-square working area, for example, generally represents the most urgent business, and within that pile the most important document of all is likely to be at the top. Piles are living, breathing archives. Over time, they get broken down and resorted, sometimes chronologically and sometimes thematically and sometimes chronologically and thematically; clues about certain documents may be physically embedded in the file by, say, stacking a certain piece of paper at an angle or inserting dividers into the stack."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "But why do we pile documents instead of filing them? Because piles represent the process of active, ongoing thinking. The psychologist Alison Kidd, whose research Sellen and Harper refer to extensively, argues that “knowledge workers” use the physical space of the desktop to hold “ideas which they cannot yet categorize or even decide how they might use.” The messy desk is not necessarily a sign of disorganization. It may be a sign of complexity: those who deal with many unresolved ideas simultaneously cannot sort and file the papers on their desks, because they haven’t yet sorted and filed the ideas in their heads. Kidd writes that many of the people she talked to use the papers on their desks as contextual cues to ‘recover a complex set of threads without difficulty and delay’ when they come in on a Monday morning, or after their work has been interrupted by a phone call. What we see when we look at the piles on our desks is, in a sense, the contents of our brains."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "This idea that paper facilitates a highly specialized cognitive and social process is a far cry from the way we have historically thought about the stuff. Paper first began to proliferate in the workplace in the late nineteenth century as part of the move toward “systematic management.” To cope with the complexity of the industrial economy, managers were instituting company-wide policies and demanding monthly, weekly, or even daily updates from their subordinates. Thus was born the monthly sales report, and the office manual and the internal company newsletter. The typewriter took off in the eighteen-eighties, making it possible to create documents in a fraction of the time it had previously taken, and that was followed closely by the advent of carbon paper, which meant that a typist could create ten copies of that document simultaneously. Paper was important not to facilitate creative collaboration and thought but as an instrument of control."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–23",
+    "g24": "Questions 24–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has six paragraphs, A–F.\nChoose the correct heading for paragraphs A–F from the list below. Write the correct number,\ni–x, in boxes 14–19 on your answer sheet.\n\n                          List of Headings\n\n i                        Paper remains essential for sharing and management\n\n ii                       Piles can inspire rather than indicate disorganisation\n\n iii                      A favourable situation in which economists used paper\n\n iv                       Overview of an unexpected situation: paper survives\n\n v                        A comparison between the efficiency of paper and computers\n\n vi                       The IMF’s paperless office appears to waste paper\n\n vii                      An example of a failed attempt to avoid paper records\n\n viii                     Advantages of using paper in offices\n\n ix                       Piles reflect characteristics of people’s thoughts\n\n x                        The benefit of having a clear space in front of a computer\n\n\n14 Paragraph A\n15 Paragraph B\n16 Paragraph C\n17 Paragraph D\n18 Paragraph E\n19 Paragraph F"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 23,
+      "text": "Questions 20–23\nComplete the following summary of the paragraphs of Reading Passage, using no more than\nthree words from the Reading Passage for each answer. Write your answers in boxes 20–23 on\nyour answer sheet.\nCompared with digital documents, paper has several advantages. First, it allows staff to\nwork in a 20 _________________ way with colleagues. Next, unlike virtual digital versions,\npaper is 21 _________________. Finally, because it is 22 _________________, notes or\ncomments can be added easily. Its shortcoming, however, is a lack of convenience for a\ntask involving a 23 _________________."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 27,
+      "text": "Questions 24–27\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 24–27 on your answer sheet.\n\n\n24 What do the IMF economists say about their way of writing documents?\n A They freely note their comments on drafts.\n B They complete all their writing individually.\n C They share ideas before an electronic version is produced.\n D They use electronic documents exclusively.\n\n\n25 What is implied by the ‘piles’ mentioned in the passage?\n A They have an underlying order.\n B They are necessarily a mess.\n C They are arranged chronologically.\n D They are arranged alphabetically.\n\n\n26 What did managers believe about paper in the industrial economy?\n A Paper records could be used as a management tool.\n B Carbon paper should be compulsory.\n C Teamwork is the most important consideration.\n D Monthly reports are the best approach.\n\n\n27 According to the passage, why has paper not been replaced by electronic documents?\n A paper is inexpensive to buy.\n B it contributed to management theories in western countries.\n C people need time to change their old habits.\n\nD It facilitates collaboration and is useful for implementing and managing tasks."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "首先，它讓員工能以一種 __________ 的方式與同事工作。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "其次，和虛擬的數碼版本不同，紙張是 __________ 的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "最後，因為紙張是 __________ 的，所以可以容易地加上筆記或評語。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "但它的缺點是，遇到涉及 __________ 的任務時不夠方便。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "What do the IMF economists say about their way of writing documents?",
+      "translation": "IMF 的經濟學家在寫文件的方法上，有甚麼做法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "What is implied by the ‘piles’ mentioned in the passage?",
+      "translation": "文章提到的紙堆暗示了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "What did managers believe about paper in the industrial economy?",
+      "translation": "在工業經濟中，管理者認為 paper 有甚麼作用？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "According to the passage, why has paper not been replaced by electronic documents?",
+      "translation": "根據文章，為甚麼 paper 沒有被 electronic documents 取代？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-137/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-137/page-6.jpg",
+    "/assets/reading-comprehension/questions/p2-137/page-7.jpg"
+  ]
+}

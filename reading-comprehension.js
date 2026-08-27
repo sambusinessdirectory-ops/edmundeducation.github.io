@@ -1,10 +1,9 @@
-import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink } from './reading-comprehension-features.mjs?v=20260827-reading3';
+import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink } from './reading-comprehension-features.mjs?v=20260827-corpus1';
 
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-reading-comprehension-session-v1";
-const ARTICLE_ID = "p1-069-albert-einstein";
-const DATA_URL = `reading-comprehension-data/${ARTICLE_ID}.json`;
-const ANALYSIS_URL = `ielts-reading-analysis-data/${ARTICLE_ID}.json`;
+let ARTICLE_ID = "p1-069-albert-einstein";
+const CATALOGUE_VERSION = '20260827-corpus1';
 const AUDIO_MANIFEST = window.EDMUND_READING_AUDIO || {};
 
 const state = {
@@ -13,7 +12,8 @@ const state = {
   timerRunning: false, durationMs: 0, timerStartedAt: 0, timerHandle: 0, autosaveHandle: 0,
   timerMode: "stopwatch", countdownMinutes: 20, forceSubmit: false, submitting: false,
   answerTimings: {}, scanAssignments: {}, wordIndex: 0, toastHandle: 0, dashboard: null,
-  audioItem: null, audioSetup: false, audioStopAt: null, passageTab: 1, exerciseReady: false
+  audioItem: null, audioSetup: false, audioStopAt: null, passageTab: 1, exerciseReady: false,
+  catalogue: [], cataloguePage: 0, cataloguePromise: null, opening: false, savePromise: null
 };
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -66,11 +66,31 @@ async function validateToken(token) {
   window.EdmundSystemNav?.rememberStudentSession({ token: state.token, id: state.user.id, name: state.user.name, role: "student" }); return true;
 }
 async function login(username, password) { const rows = await rpc("flashcard_student_login", { p_name: username, p_password: password }); const row = Array.isArray(rows) ? rows[0] : null; return row?.session_token ? validateToken(String(row.session_token)) : false; }
-async function loadArticleData() {
-  if (state.data && state.analysis) return;
-  const [dataResponse, analysisResponse] = await Promise.all([fetch(DATA_URL, { cache: "no-store" }), fetch(ANALYSIS_URL, { cache: "no-store" })]);
+async function loadCatalogue() {
+  if (state.catalogue.length) return state.catalogue;
+  if (!state.cataloguePromise) state.cataloguePromise = (async () => {
+    const response = await fetch(`reading-comprehension-catalogue.json?v=${CATALOGUE_VERSION}`);
+    if (!response.ok) throw new Error('未能載入文章目錄。');
+    const payload = await response.json();
+    if (!Array.isArray(payload.articles) || !payload.articles.length) throw new Error('文章目錄資料有誤。');
+    state.catalogue = payload.articles; $('[data-catalogue-count]').textContent = String(state.catalogue.length); return state.catalogue;
+  })().finally(() => { state.cataloguePromise = null; });
+  return state.cataloguePromise;
+}
+async function loadArticleData(id = ARTICLE_ID) {
+  await loadCatalogue();
+  const entry = state.catalogue.find((item) => item.id === id);
+  if (!entry) throw new Error('這篇練習暫未開放。');
+  if (state.data?.id === id && state.analysis) return;
+  const analysisFile = entry.analysisId.startsWith('analysis-') || ['mungo-man','if-you-can-get-used-to-the-taste'].includes(entry.analysisId)
+    ? `reading-comprehension-data/${entry.analysisId.startsWith('analysis-') ? entry.analysisId : `analysis-${entry.analysisId}`}.json`
+    : `ielts-reading-analysis-data/${entry.analysisId}.json`;
+  const [dataResponse, analysisResponse] = await Promise.all([fetch(`reading-comprehension-data/${id}.json?v=${entry.version}`), fetch(`${analysisFile}?v=${entry.version}`)]);
   if (!dataResponse.ok || !analysisResponse.ok) throw new Error("未能載入閱讀練習資料。");
-  [state.data, state.analysis] = await Promise.all([dataResponse.json(), analysisResponse.json()]);
+  const [data, analysis] = await Promise.all([dataResponse.json(), analysisResponse.json()]);
+  if (data.id !== id || !Array.isArray(data.questions) || !data.paragraphs?.length) throw new Error('文章資料不符。');
+  ARTICLE_ID = id; state.data = data; state.analysis = analysis;
+  state.activeAnalysis = 0; state.activeSkimming = 0;
 }
 async function loadBookmarks() {
   const token = state.token;
@@ -128,13 +148,30 @@ async function loadDashboard() {
   el.history.innerHTML = attempts.length ? attempts.map((row) => `<article class="history-row"><span><strong>${escapeHtml(row.title || "Albert Einstein")}</strong><br><small>${escapeHtml(new Date(row.started_at).toLocaleString("zh-HK"))}</small></span><span>${Number(row.correct_count || 0)} / ${Number(row.answered_count || 0)} 題正確<br><small>${escapeHtml(formatDuration(row.duration_ms))} · ${row.status === "in_progress" ? "進行中" : "已提交"}</small></span></article>`).join("") : '<p class="empty-state">尚未有練習記錄。</p>';
 }
 function selectPassageTab(number, updateUrl = true) {
-  state.passageTab = number; $$('[data-passage-tab]').forEach((button) => button.setAttribute("aria-selected", String(Number(button.dataset.passageTab) === number))); $$('[data-passage-page]').forEach((page) => { page.hidden = Number(page.dataset.passagePage) !== number; });
+  if (state.passageTab !== number) state.cataloguePage = 0;
+  state.passageTab = number; $$('[data-passage-tab]').forEach((button) => button.setAttribute("aria-selected", String(Number(button.dataset.passageTab) === number))); renderCatalogue();
   if (updateUrl) { const url = new URL(location.href); url.searchParams.set("passage", String(number)); history.replaceState({}, "", url); }
+}
+function catalogueBookmark(entry) {
+  return { key: `${entry.id}:passage`, title: `[文章] ${entry.title}`, detail: `IELTS Reading · Passage ${entry.passage} · Practice ${entry.practice} · 閱讀文章及 ${entry.questionCount} 題練習`, href: readingBookmarkLink({ article: entry.id, kind: 'passage' }) };
+}
+function renderCatalogue() {
+  if (!state.catalogue.length) return;
+  const query = $('[data-catalogue-search]').value.trim().toLocaleLowerCase();
+  const matches = state.catalogue.filter((entry) => entry.passage === state.passageTab && (!query || `${entry.title} practice ${entry.practice}`.toLocaleLowerCase().includes(query)));
+  const pages = Math.max(1, Math.ceil(matches.length / 18)); state.cataloguePage = Math.max(0, Math.min(state.cataloguePage, pages - 1));
+  $('[data-exercise-catalogue]').innerHTML = matches.slice(state.cataloguePage * 18, (state.cataloguePage + 1) * 18).map((entry) => {
+    const saved = state.bookmarks.has(`${entry.id}:passage`);
+    return `<section class="exercise-list panel"><div><p class="eyebrow">IELTS READING · PASSAGE ${entry.passage}</p><h2>${escapeHtml(entry.title)}</h2><p>Practice ${entry.practice} · ${entry.paragraphCount} 個段落 · ${entry.questionCount} 題</p></div><div class="exercise-actions"><button class="secondary-button" type="button" data-catalogue-bookmark="${escapeHtml(entry.id)}" aria-pressed="${saved}">${saved ? '★ 已收藏文章與題目組' : '☆ 收藏文章與題目組'}</button><a class="secondary-button button-link" href="flashcards.html?deck=${encodeURIComponent(`ielts/reading/passage-${entry.passage}/Practice ${entry.practice}`)}">溫習 Flash Cards</a>${entry.downloadId ? `<a class="secondary-button button-link" href="model-essay-downloads.html?catalog=reading-passage-${entry.passage}&amp;item=${encodeURIComponent(entry.downloadId)}">下載練習 PDF</a>` : ''}<button class="primary-button" type="button" data-open-exercise="${escapeHtml(entry.id)}">開始閱讀練習</button></div></section>`;
+  }).join('') || '<p class="panel empty-state">找不到符合的文章，請試試其他名稱或編號。</p>';
+  $('[data-catalogue-status]').textContent = `Passage ${state.passageTab} · ${matches.length} 篇文章`;
+  $('[data-catalogue-page]').textContent = `${state.cataloguePage + 1} / ${pages}`;
+  $('[data-catalogue-previous]').disabled = state.cataloguePage === 0; $('[data-catalogue-next]').disabled = state.cataloguePage >= pages - 1;
 }
 async function openDashboard() {
   pauseTimer(); el.audio.pause();
   if (state.exerciseReady && !state.results.finalized) await saveAttempt(false, false, true);
-  closePopovers(); showView("dashboard"); el.welcome.textContent = `您好，${state.user.name}！請選擇閱讀練習。`;
+  await loadCatalogue(); closePopovers(); showView("dashboard"); el.welcome.textContent = `您好，${state.user.name}！請選擇閱讀練習。`;
   selectPassageTab(Math.max(1, Math.min(3, Number(new URLSearchParams(location.search).get("passage")) || state.passageTab)), false);
   const url = new URL(location.href); ['article', 'view', 'question', 'paragraph', 'section'].forEach((key) => url.searchParams.delete(key)); url.hash = ''; history.replaceState({}, '', url);
   await Promise.all([loadDashboard(), loadBookmarks()]); updateBookmarkControls();
@@ -176,51 +213,73 @@ function interactiveWords(text, context, spoken = false) {
   return html + escapeHtml(text.slice(last));
 }
 function renderPassage() {
-  state.wordIndex = 0; el.passage.innerHTML = state.data.paragraphs.map((paragraph) => `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">PARAGRAPH ${paragraph.number}</span><span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}</div><div class="passage-text-block">${interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div><div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div><button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · 第 ${paragraph.number} 段</button></section>`).join("");
+  state.wordIndex = 0; el.passage.innerHTML = state.data.paragraphs.map((paragraph) => `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">PARAGRAPH ${escapeHtml(paragraph.label || paragraph.number)}</span><span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}</div><div class="passage-text-block">${interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button></section>`).join("");
+  if (state.data.sourceHeading) el.passage.insertAdjacentHTML('afterbegin', `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>`);
+  $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> 第 ${escapeHtml(p.label || p.number)} 段</label>`).join('');
+  const translated = state.data.paragraphs.some((p) => p.translation); el.translationAll.disabled = !translated; el.translationAll.checked = false; $('[data-translation-availability]').hidden = translated;
   renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
 function renderQuestions() {
-  const groupLabels = { trueFalse: state.data.instructions.trueFalse, completion: state.data.instructions.completion, multipleChoice: state.data.instructions.multipleChoice }; let group = "";
+  const groupLabels = state.data.instructions || {}; let group = "";
   el.questions.innerHTML = state.data.questions.map((question) => {
-    const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}</p>` : ""; group = question.group;
-    const options = question.type === "choice" ? `<div class="choice-list">${question.options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="radio" name="q${question.number}" data-answer-part="q${question.number}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ""}</span></label>`; }).join("")}</div>` : `<input class="answer-input" name="q${question.number}" data-answer-part="q${question.number}" aria-label="第 ${question.number} 題答案" autocomplete="off" maxlength="100" placeholder="${escapeHtml(question.placeholder || "輸入答案")}">`;
-    const scanButtons = state.data.paragraphs.map((p) => `<button type="button" data-scan-choice="${question.number}:${p.number}">P${p.number}</button>`).join("");
+    const sourceGroup = state.data.questionGroups?.find((item) => item.id === question.group);
+    const heading = group !== question.group ? `<p class="question-group-heading">${escapeHtml(groupLabels[question.group])}</p>${sourceGroup ? `<div class="original-question-group">${interactiveWords(sourceGroup.text, `g${sourceGroup.start}`)}</div>` : ''}` : ""; group = question.group;
+    const options = ['choice','multiple'].includes(question.type) ? `<div class="choice-list">${question.options.map((entry) => { const option = normalizedOption(entry); return `<label><input type="${question.type === 'multiple' ? 'checkbox' : 'radio'}" name="q${question.number}" data-answer-part="q${question.number}" data-answer-slots="${question.slots || 1}" value="${escapeHtml(option.value)}"><span><strong>${escapeHtml(option.label)}</strong>${option.translation ? `<small class="option-translation" data-question-translation hidden><br>${escapeHtml(option.translation)}</small>` : ""}</span></label>`; }).join("")}</div>${question.type === 'multiple' ? `<small>請選擇 ${question.slots} 項。</small>` : ''}` : `<input class="answer-input" name="q${question.number}" data-answer-part="q${question.number}" aria-label="第 ${question.number} 題答案" autocomplete="off" maxlength="100" placeholder="${escapeHtml(question.placeholder || "輸入答案")}">`;
+    const scanButtons = state.data.paragraphs.map((p) => `<button type="button" data-scan-choice="${question.number}:${p.number}">P${escapeHtml(p.label || p.number)}</button>`).join("");
     return `${heading}<section class="question-card" id="question-${question.number}" data-question="${question.number}"><div class="question-bookmark-row">${readingBookmarkButton('question', question.number)}</div><p class="question-prompt"><span class="question-number">${question.number}</span>${interactiveWords(question.prompt, `q${question.number}`)}</p><p class="question-translation" data-question-translation hidden>${escapeHtml(question.translation)}</p>${options}<div class="question-actions"><button class="scan-button" type="button" data-scan-question="${question.number}">Scan：選擇段落</button><button class="scanning-tip-button" type="button" data-scanning-tip="${question.number}">Scanning 提示</button><button class="reveal-button" type="button" data-reveal="${question.number}">顯示答案及分析</button><span class="question-result" data-question-result="${question.number}"></span></div><div class="scan-chooser" data-scan-chooser="${question.number}" hidden><span>答案最可能在哪一段？</span>${scanButtons}</div><small class="answer-timestamp" data-answer-time="${question.number}" hidden></small></section>`;
-  }).join(""); updateScanControls(); updateAnswerProgress();
+  }).join("");
+  if (state.data.questionPages?.length) el.questions.insertAdjacentHTML('afterbegin', `<details class="original-pages"><summary>查看原題完整排版、圖表及選項</summary>${state.data.questionPages.map((src) => `<a href="${escapeHtml(src)}" target="_blank" rel="noopener"><img src="${escapeHtml(src)}" alt="原題頁面（可開啟放大）" loading="lazy"></a>`).join('')}</details>`);
+  state.data.questions.filter((q) => q.requiresReview).forEach((q) => $(`[data-question="${q.number}"]`).insertAdjacentHTML('afterbegin','<p class="review-notice">原題或答案需教師核對；本題可儲存，但暫不自動計分。</p>'));
+  updateScanControls(); updateAnswerProgress();
 }
-function collectAnswers() { const form = new FormData(el.questionForm); state.data.questions.forEach((question) => { const value = String(form.get(`q${question.number}`) || "").trim(); if (value) state.answers[`q${question.number}`] = value; else delete state.answers[`q${question.number}`]; }); return state.answers; }
+function collectAnswers() { const form = new FormData(el.questionForm); state.data.questions.forEach((question) => { const value = form.getAll(`q${question.number}`).map(String).map((v) => v.trim()).filter(Boolean).sort().join(', '); if (value) state.answers[`q${question.number}`] = value; else delete state.answers[`q${question.number}`]; }); return state.answers; }
 function lockQuestionForm(locked) { $$('input[name^="q"]', el.questionForm).forEach((node) => { node.disabled = locked; }); $('[data-submit-partial]').disabled = locked; $('[type="submit"]', el.questionForm).disabled = locked; }
 function applyResults(payload) {
   const list = payload?.question_results || payload?.results || []; const mapped = Array.isArray(list) ? Object.fromEntries(list.map((row) => [Number(row.question_number), row])) : {};
+  $$('[data-question-result]').forEach((target) => { target.textContent = ''; target.className = 'question-result'; });
   Object.entries(mapped).forEach(([number, row]) => { const target = $(`[data-question-result="${number}"]`); if (!target) return; target.textContent = row.correct ? `✓ 正確 · ${row.correct_answer}` : `✗ 答案：${row.correct_answer}`; target.className = `question-result ${row.correct ? "is-correct" : "is-wrong"}`; });
-  if (payload?.status && payload.status !== "in_progress") { state.results.finalized = true; pauseTimer(); lockQuestionForm(true); el.submissionStatus.textContent = `已提交：${payload.correct_count || 0} / ${payload.answered_count || 0} 題正確。`; }
+  if (payload?.status && payload.status !== "in_progress") { state.results.finalized = true; pauseTimer(); lockQuestionForm(true); el.submissionStatus.textContent = `已提交：${payload.correct_count || 0} / ${payload.answered_count || 0} 題正確。${payload.review_count ? `另有 ${payload.review_count} 題待教師核對，不列入評分。` : ''}`; }
 }
 async function saveAttempt(submit = false, force = false, silent = false, retry = true) {
-  if (!state.token || !state.data || state.submitting || state.results.finalized) return null; collectAnswers(); if (!submit && !Object.keys(state.answers).length && currentDuration() === 0) return null; state.submitting = true;
+  if (state.savePromise) { try { await state.savePromise; } catch { return null; } return saveAttempt(submit, force, silent, retry); }
+  if (!state.token || !state.data || state.submitting || state.results.finalized) return null; collectAnswers(); if (!submit && !state.attemptId && !Object.keys(state.answers).length && currentDuration() === 0) return null; state.submitting = true;
+  const article = ARTICLE_ID; const token = state.token;
+  const request = { p_token: token, p_attempt_id: state.attemptId, p_article_id: article, p_answers: { ...state.answers }, p_duration_ms: Math.round(currentDuration()), p_submit: submit, p_force_submit: force };
   try {
-    const payload = await rpc("reading_comprehension_save_attempt", { p_token: state.token, p_attempt_id: state.attemptId, p_article_id: ARTICLE_ID, p_answers: state.answers, p_duration_ms: Math.round(currentDuration()), p_submit: submit, p_force_submit: force });
+    state.savePromise = rpc("reading_comprehension_save_attempt", request);
+    const payload = await state.savePromise;
+    if (token !== state.token || article !== ARTICLE_ID) return payload;
     if (payload?.attempt_id) state.attemptId = String(payload.attempt_id); applyResults(payload); if (!silent) showToast(submit ? "答案已安全提交。" : "進度已儲存。"); return payload;
   } catch (error) {
-    if (retry && state.attemptId && (error?.code === "P0002" || error?.code === "42883")) { state.attemptId = null; state.submitting = false; return saveAttempt(submit, force, silent, false); }
+    if (retry && state.attemptId && error?.code === "P0002") { state.attemptId = null; state.submitting = false; state.savePromise = null; return saveAttempt(submit, force, silent, false); }
     console.warn("Attempt save failed", error); if (!silent) showToast("暫時未能儲存，請檢查連線後再試。"); return null;
-  } finally { state.submitting = false; }
+  } finally { state.submitting = false; state.savePromise = null; }
 }
 async function submitAnswers(partial = false, force = false) {
   collectAnswers(); const count = Object.keys(state.answers).length;
+  const incompleteMultiple = state.data.questions.find((q) => q.type === 'multiple' && state.answers[`q${q.number}`] && state.answers[`q${q.number}`].split(',').length !== q.slots);
+  if (incompleteMultiple && !force) return showToast(`第 ${incompleteMultiple.number} 題需要選擇 ${incompleteMultiple.slots} 項。`);
   if (!count) return showToast("請先作答至少一題。"); if (!partial && !force && count < state.data.questions.length) return showToast(`尚有 ${state.data.questions.length - count} 題未作答；可先提交已作答題目。`);
-  el.submissionStatus.textContent = "正在提交答案…"; const payload = await saveAttempt(true, force); if (payload && payload.status === "in_progress") el.submissionStatus.textContent = `已批改 ${payload.answered_count || count} 題；可繼續完成其餘題目。`;
+  el.submissionStatus.textContent = "正在提交答案…"; const payload = await saveAttempt(true, force); if (payload && payload.status === "in_progress") el.submissionStatus.textContent = `已批改 ${payload.answered_count ?? count} 題；可繼續完成其餘題目。${payload.review_count ? `另有 ${payload.review_count} 題待教師核對。` : ''}`;
+  if (!payload) el.submissionStatus.textContent = '未能提交；目前答案仍保留在此頁，請稍後再試。';
 }
 
 function showPopover(node) { closePopovers(node); node.hidden = false; requestAnimationFrame(() => node.classList.add("is-visible")); }
 function closePopover(node) { if (!node || node.hidden) return; node.classList.remove("is-visible"); node.hidden = true; }
 function closePopovers(except = null) { [el.skimmingDialog, el.analysisDialog].forEach((node) => { if (node !== except) closePopover(node); }); }
+function overviewForParagraph(number) {
+  const paragraph = state.data?.paragraphs.find((p) => p.number === number);
+  return state.analysis?.paragraphOverview?.paragraphs?.find((item) => String(item.number) === String(paragraph?.label || number));
+}
+function analysisForQuestion(number) { return state.analysis?.questions.find((item) => (item.numbers || [item.number]).includes(number)); }
 function openSkimming(number) {
-  state.activeSkimming = number; const overview = state.analysis?.paragraphOverview?.paragraphs?.find((item) => Number(item.number) === number); $('[data-skimming-kicker]').textContent = `PARAGRAPH ${number}`; $('[data-skimming-title]').textContent = `Skimming Tips · 第 ${number} 段`; $('[data-skimming-content]').innerHTML = `<p>${escapeHtml(overview?.summary || "暫未有段落提示。")}</p>`; $('[data-skimming-bookmark]').textContent = state.bookmarks.has(`${ARTICLE_ID}:skimming:${number}`) ? "★ 已收藏這段提示" : "☆ 收藏這段提示"; showPopover(el.skimmingDialog);
+  if (!state.data?.paragraphs.some((p) => p.number === number)) return;
+  state.activeSkimming = number; const overview = overviewForParagraph(number); $('[data-skimming-kicker]').textContent = `PARAGRAPH ${state.data.paragraphs.find((p) => p.number === number)?.label || number}`; $('[data-skimming-title]').textContent = `Skimming Tips · 第 ${number} 段`; $('[data-skimming-content]').innerHTML = `<p>${escapeHtml(overview?.summary || "這段暫未有獨立 Skimming 提示；可開啟相關題目的 Scanning 及完整分析。")}</p>`; $('[data-skimming-bookmark]').textContent = state.bookmarks.has(`${ARTICLE_ID}:skimming:${number}`) ? "★ 已收藏這段提示" : "☆ 收藏這段提示"; showPopover(el.skimmingDialog);
 }
 function renderAnalysisBlocks(sections) { return (sections || []).map((section) => `<section class="analysis-section"><div class="analysis-section-heading"><h3>${escapeHtml(section.title)}</h3>${section.id ? readingBookmarkButton('section', state.activeAnalysis, section.id) : ''}</div>${(section.blocks || []).map((block) => block.kind === "quote" ? `<blockquote class="analysis-quote">${escapeHtml(block.text)}</blockquote>` : block.kind === "label" ? `<strong>${escapeHtml(block.text)}</strong>` : `<p>${escapeHtml(block.text)}</p>`).join("")}</section>`).join(""); }
 function openAnalysis(number, mode = 'analysis', sectionId = '') {
-  const question = state.analysis.questions.find((item) => Number(item.number) === number); if (!question) return;
+  const question = analysisForQuestion(number); if (!question) return;
   state.activeAnalysis = number; state.analysisMode = mode === 'scanning' ? 'scanning' : sectionId ? 'section' : 'analysis'; state.analysisSection = sectionId;
   const sections = mode === 'scanning' ? scanningSections(question) : sectionId ? question.sections.filter((section) => section.id === sectionId) : question.sections;
   $('[data-analysis-kicker]').textContent = `QUESTION ${number}`;
@@ -242,14 +301,15 @@ function readingBookmarkItem(kind, number = 0, sectionId = '') {
   const title = state.data?.title || 'Albert Einstein';
   const paragraph = state.data?.paragraphs.find((item) => Number(item.number) === number);
   const question = state.data?.questions.find((item) => Number(item.number) === number);
-  const analysis = state.analysis?.questions.find((item) => Number(item.number) === number);
+  const analysis = analysisForQuestion(number);
   const section = analysis?.sections.find((item) => item.id === sectionId);
-  const overview = state.analysis?.paragraphOverview?.paragraphs.find((item) => Number(item.number) === number);
+  const overview = overviewForParagraph(number);
   const blocksText = (sections) => (sections || []).flatMap((item) => (item.blocks || []).map((block) => block.text)).join(' ');
   const keys = { passage: 'passage', questions: 'questions', paragraph: `paragraph:${number}`, question: `question:${number}`, skimming: `skimming:${number}`, scanning: `scanning:${number}`, analysis: `q${number}`, section: `analysis:${number}:${sectionId}` };
   const labels = { passage: '文章與題目組', questions: '整組題目', paragraph: `第 ${number} 段`, question: `第 ${number} 題`, skimming: `Skimming · 第 ${number} 段`, scanning: `Scanning · 第 ${number} 題`, analysis: `第 ${number} 題解析`, section: `第 ${number} 題 · ${section?.title || '分析小節'}` };
   const prefixes = { passage: '文章', questions: '題目組', paragraph: '段落', question: '題目', skimming: 'Skimming', scanning: 'Scanning', analysis: '答案解析', section: '分析小節' };
-  const details = { passage: `IELTS Reading · Passage 1 · Practice 69 · 閱讀文章及 ${state.data?.questions.length || 13} 題練習`, questions: 'Albert Einstein · Practice 69 · 完整題目組', paragraph: paragraph?.text, question: question?.prompt, skimming: overview?.summary, scanning: blocksText(scanningSections(analysis)), analysis: `正確答案：${analysis?.answer || ''}。${blocksText(analysis?.sections.slice(0, 1))}`, section: blocksText(section ? [section] : []) };
+  const entry = state.catalogue.find((item) => item.id === ARTICLE_ID);
+  const details = { passage: `IELTS Reading · Passage ${entry?.passage || 1} · Practice ${entry?.practice || 69} · 閱讀文章及 ${state.data?.questions.length || 13} 題練習`, questions: `${title} · 完整題目組`, paragraph: paragraph?.text, question: question?.prompt, skimming: overview?.summary, scanning: blocksText(scanningSections(analysis)), analysis: `參考答案：${analysis?.answer || ''}。${blocksText(analysis?.sections.slice(0, 1))}`, section: blocksText(section ? [section] : []) };
   return { key: `${ARTICLE_ID}:${keys[kind]}`, title: `[${prefixes[kind]}] ${title}${number ? ` · ${labels[kind]}` : ''}`, detail: String(details[kind] || '').slice(0, 2800), href: readingBookmarkLink({ article: ARTICLE_ID, kind, number, section: kind === 'section' ? sectionId : '' }), label: labels[kind] };
 }
 function readingBookmarkButton(kind, number, sectionId = '') {
@@ -263,6 +323,10 @@ function updateBookmarkControls() {
     button.setAttribute('aria-label', `${saved ? '移除' : '收藏'}${item.label || label}書簽`);
   };
   $$('[data-passage-bookmark]').forEach((button) => update(button, readingBookmarkItem('passage'), '文章與題目組'));
+  $$('[data-catalogue-bookmark]').forEach((button) => {
+    const entry = state.catalogue.find((item) => item.id === button.dataset.catalogueBookmark);
+    if (entry) update(button, catalogueBookmark(entry), '文章與題目組');
+  });
   $$('[data-bookmark-kind]').forEach((button) => {
     const kind = button.dataset.bookmarkKind;
     update(button, readingBookmarkItem(kind, Number(button.dataset.bookmarkNumber || 0), button.dataset.bookmarkSection || ''), { paragraph: '本段', question: '本題', questions: '整組題目', section: '此小節' }[kind] || '提示');
@@ -302,14 +366,14 @@ function renderBookmarkLibrary() {
   }).join('') : `<p class="empty-state">${state.bookmarkError ? '連線恢復後即可顯示已收藏的內容。' : state.bookmarkItems.size ? '此類型暫未有書簽。' : '尚未有閱讀書簽。在文章、段落、題目或提示旁按 ☆ 即可收藏。'}</p>`;
 }
 async function openReadingBookmark(key) {
-  const target = bookmarkTarget(key); if (!target || target.article !== ARTICLE_ID) return showToast('這篇練習暫未開放。');
+  const target = bookmarkTarget(key); if (!target || !state.catalogue.some((item) => item.id === target.article)) return showToast('這篇練習暫未開放。');
   history.replaceState({}, '', readingBookmarkLink(target));
-  await openExercise();
+  await openExercise(target.article);
 }
 async function toggleWordBookmark(word) {
   if (word.classList.contains('is-pending')) return;
   const key = word.dataset.wordKey; const bookmarked = !state.bookmarks.has(key); const context = word.dataset.wordContext; const label = word.textContent.trim(); word.classList.toggle("is-pending", true);
-  try { await setBookmark({ key, title: `[閱讀重點] ${label}`, detail: `Albert Einstein · ${context.startsWith("p") ? `第 ${context.slice(1)} 段` : `第 ${context.slice(1)} 題`} · 點選字詞`, href: `reading-comprehension.html?article=${ARTICLE_ID}#${context.startsWith("p") ? `paragraph-${context.slice(1)}` : `question-${context.slice(1)}`}` }, bookmarked); word.classList.toggle("is-bookmarked", bookmarked); showToast(bookmarked ? `已收藏重點字詞「${label}」。` : `已移除重點字詞「${label}」。`); } catch (error) { console.warn(error); showToast("字詞書簽暫時未能儲存。"); } finally { word.classList.remove("is-pending"); }
+  try { await setBookmark({ key, title: `[閱讀重點] ${label}`, detail: `${state.data.title} · ${context.startsWith("p") ? `第 ${context.slice(1)} 段` : `第 ${context.slice(1)} 題`} · 點選字詞`, href: `reading-comprehension.html?article=${ARTICLE_ID}#${context.startsWith("p") ? `paragraph-${context.slice(1)}` : `question-${context.slice(1)}`}` }, bookmarked); word.classList.toggle("is-bookmarked", bookmarked); showToast(bookmarked ? `已收藏重點字詞「${label}」。` : `已移除重點字詞「${label}」。`); } catch (error) { console.warn(error); showToast("字詞書簽暫時未能儲存。"); } finally { word.classList.remove("is-pending"); }
 }
 
 function paragraphAudioRange(number) {
@@ -318,9 +382,16 @@ function paragraphAudioRange(number) {
 }
 function playParagraph(number) { const range = paragraphAudioRange(number); if (!range) return showToast("本段朗讀暫時未能載入。"); state.audioStopAt = Number(range.end); el.audio.currentTime = Number(range.start); el.audio.play().catch(() => showToast("瀏覽器未能開始播放，請再按一次。")); }
 function setupAudio() {
-  const item = AUDIO_MANIFEST[ARTICLE_ID] || AUDIO_MANIFEST.items?.[ARTICLE_ID]; if (!item?.src) return; state.audioItem = item; el.audio.src = item.src; el.audioToggle.disabled = false; el.audioBack.disabled = false; el.audioSeek.disabled = false; if (state.audioSetup) return; state.audioSetup = true;
+  const item = AUDIO_MANIFEST[ARTICLE_ID] || AUDIO_MANIFEST.items?.[ARTICLE_ID];
+  state.audioItem = item || null; el.audio.pause(); el.audio.currentTime = 0;
+  [el.audioToggle,el.audioBack,el.audioSeek,el.audioRate,el.sync].forEach((node) => { node.disabled = !item?.src; });
+  $$('[data-play-paragraph]').forEach((node) => { node.hidden = !item?.src; });
+  $('[data-audio-availability]').hidden = Boolean(item?.src);
+  if (!item?.src) { el.audio.removeAttribute('src'); el.audio.load(); updateAudioDisplay(); return; }
+  el.audio.src = item.src; el.audioToggle.textContent = '▶ 朗讀全文';
+  if (state.audioSetup) return; state.audioSetup = true;
   el.audio.addEventListener("loadedmetadata", () => { el.audioSeek.max = String(el.audio.duration || 1); updateAudioDisplay(); });
-  el.audio.addEventListener("timeupdate", () => { if (state.audioStopAt !== null && el.audio.currentTime >= state.audioStopAt) { state.audioStopAt = null; el.audio.pause(); } el.audioSeek.value = String(el.audio.currentTime); updateAudioDisplay(); syncWord(item); });
+  el.audio.addEventListener("timeupdate", () => { if (state.audioStopAt !== null && el.audio.currentTime >= state.audioStopAt) { state.audioStopAt = null; el.audio.pause(); } el.audioSeek.value = String(el.audio.currentTime); updateAudioDisplay(); if (state.audioItem) syncWord(state.audioItem); });
   el.audio.addEventListener("play", () => { el.audioToggle.textContent = "❚❚ 暫停朗讀"; }); el.audio.addEventListener("pause", () => { el.audioToggle.textContent = "▶ 朗讀全文"; });
   el.audio.addEventListener("ended", () => { state.audioStopAt = null; $$('.spoken-word.is-active').forEach((node) => node.classList.remove("is-active")); });
 }
@@ -334,14 +405,39 @@ function assignScan(question, paragraph) { state.scanAssignments[question] = par
 function updateScanControls() { $$('[data-scan-question]').forEach((button) => { const p = state.scanAssignments[button.dataset.scanQuestion]; button.textContent = p ? `Scan：P${p}` : "Scan：選擇段落"; button.classList.toggle("has-scan", Boolean(p)); }); $$('[data-scan-choice]').forEach((button) => { const [q, p] = button.dataset.scanChoice.split(":"); button.classList.toggle("is-selected", Number(state.scanAssignments[q]) === Number(p)); }); }
 function renderScanTags() { $$('[data-scan-tags]').forEach((container) => { const paragraph = Number(container.dataset.scanTags); const questions = Object.entries(state.scanAssignments).filter(([, p]) => Number(p) === paragraph).map(([q]) => Number(q)).sort((a, b) => a - b); container.innerHTML = questions.map((q) => `<span class="scan-question-tag" title="第 ${q} 題的 Scan 段落">${q}</span>`).join(""); }); }
 
-async function openExercise() {
-  await loadArticleData();
+async function openExercise(id = ARTICLE_ID) {
+  if (state.opening) return; state.opening = true;
+  try {
+  await loadCatalogue();
+  if (!state.catalogue.some((item) => item.id === id)) throw new Error('這篇練習暫未開放。');
+  const changing = id !== ARTICLE_ID;
+  if (changing && state.exerciseReady) {
+    pauseTimer(); el.audio.pause();
+    if (!state.results.finalized) {
+      collectAnswers(); const needsSave = state.attemptId || Object.keys(state.answers).length || currentDuration();
+      if (needsSave && !await saveAttempt(false, false, true)) throw new Error('未能儲存目前的練習，請稍後再切換文章。');
+    }
+  }
+  await loadArticleData(id);
   // Opening another saved item in the same unfinished exercise must not erase answers.
-  if (!state.exerciseReady || state.results.finalized) {
-    resetAttemptState(); loadScanAssignments(); renderPassage(); renderQuestions(); setupAudio(); lockQuestionForm(false); state.exerciseReady = true;
+  if (changing || !state.exerciseReady || state.results.finalized) {
+    state.exerciseReady = false; resetAttemptState(); loadScanAssignments(); renderPassage(); renderQuestions(); setupAudio(); lockQuestionForm(false);
+    const draft = await rpc('reading_comprehension_current_attempt', { p_token: state.token, p_article_id: ARTICLE_ID });
+    if (draft?.attempt_id) {
+      state.attemptId = draft.attempt_id; state.answers = draft.answers || {}; state.durationMs = Number(draft.duration_ms || 0);
+      $$('input[name^="q"]', el.questionForm).forEach((input) => { const value = state.answers[input.name] || ''; if (input.type === 'radio') input.checked = input.value === value; else if (input.type === 'checkbox') input.checked = value.split(',').map((v) => v.trim()).includes(input.value); else input.value = value; });
+      applyResults(draft);
+    }
+    state.exerciseReady = true;
     updateTranslations(); $$('[data-question-translation]').forEach((node) => { node.hidden = !$('[data-question-translations]').checked; }); el.submissionStatus.textContent = '';
     state.timerHandle = setInterval(updateTimer, 250); state.autosaveHandle = setInterval(() => { if (state.view === 'exercise') saveAttempt(false, false, true); }, 15000);
   }
+  const entry = state.catalogue.find((item) => item.id === ARTICLE_ID);
+  $('[data-exercise-title]').textContent = entry.title; $('#passage-title').textContent = entry.title;
+  $('[data-exercise-kicker]').textContent = `PRACTICE ${entry.practice} · IELTS READING · PASSAGE ${entry.passage}`;
+  $('.questions-panel .pane-heading > .eyebrow').textContent = `QUESTIONS ${entry.questionStart}–${entry.questionEnd}`;
+  document.title = `${entry.title}｜閱讀理解學習系統`;
+  const url = new URL(location.href); url.searchParams.set('article',ARTICLE_ID); url.searchParams.set('passage',String(entry.passage)); history.replaceState({},'',url);
   updateBookmarkControls(); showView("exercise"); updateTimer(); updateAnswerProgress();
   const params = new URLSearchParams(location.search);
   const requestedView = params.get('view');
@@ -352,29 +448,37 @@ async function openExercise() {
     hashTarget.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     hashTarget.setAttribute('tabindex', '-1'); hashTarget.focus({ preventScroll: true });
   }, 200);
+  } catch (error) { console.warn('Could not open Reading exercise',error); if (state.view === 'login' && state.user) await openDashboard(); showToast(error.message || '未能載入練習，請稍後再試。'); }
+  finally { state.opening = false; }
 }
 async function openInitialView() {
-  if (new URLSearchParams(location.search).get('article') === ARTICLE_ID) await openExercise();
+  const id = new URLSearchParams(location.search).get('article');
+  if (state.catalogue.some((item) => item.id === id)) await openExercise(id);
   else await openDashboard();
 }
 
-el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openDashboard); $('[data-open-exercise]').addEventListener("click", openExercise); $('[data-back-dashboard]').addEventListener("click", openDashboard); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
+el.loginForm.addEventListener("submit", handleLogin); el.logout.addEventListener("click", logout); el.home.addEventListener("click", openDashboard); $('[data-back-dashboard]').addEventListener("click", openDashboard); $('[data-refresh-dashboard]').addEventListener("click", loadDashboard);
 $('[data-password-toggle]').addEventListener("click", (event) => { const input = $('input[name="password"]', el.loginForm); const shown = input.type === "text"; input.type = shown ? "password" : "text"; event.currentTarget.textContent = shown ? "顯示" : "隱藏"; event.currentTarget.setAttribute("aria-pressed", String(!shown)); });
 el.progressToggle.addEventListener("click", () => { const open = el.progressToggle.getAttribute("aria-expanded") === "true"; el.progressToggle.setAttribute("aria-expanded", String(!open)); el.progressPanel.hidden = open; el.progressLabel.textContent = open ? "展開 ＋" : "收合 −"; });
 $$('[data-passage-tab]').forEach((button) => button.addEventListener("click", () => selectPassageTab(Number(button.dataset.passageTab))));
 document.addEventListener("click", (event) => {
+  const exerciseButton = event.target.closest('[data-open-exercise]'); if (exerciseButton) return openExercise(exerciseButton.dataset.openExercise || ARTICLE_ID);
+  const catalogueButton = event.target.closest('[data-catalogue-bookmark]'); if (catalogueButton) { const entry = state.catalogue.find((item) => item.id === catalogueButton.dataset.catalogueBookmark); if (entry) return toggleReadingBookmark(catalogueBookmark(entry)).then(renderCatalogue); }
   const passageButton = event.target.closest('[data-passage-bookmark]'); if (passageButton) return togglePassageBookmark();
   const button = event.target.closest('[data-bookmark-kind]'); if (button) return toggleReadingBookmark(readingBookmarkItem(button.dataset.bookmarkKind, Number(button.dataset.bookmarkNumber || 0), button.dataset.bookmarkSection || ''));
   const openButton = event.target.closest('[data-open-reading-bookmark]'); if (openButton) return openReadingBookmark(openButton.dataset.openReadingBookmark);
   const removeButton = event.target.closest('[data-remove-reading-bookmark]'); if (removeButton) return toggleReadingBookmark(state.bookmarkItems.get(removeButton.dataset.removeReadingBookmark), true);
 });
+$('[data-catalogue-search]').addEventListener('input', () => { state.cataloguePage = 0; renderCatalogue(); });
+$('[data-catalogue-previous]').addEventListener('click', () => { state.cataloguePage--; renderCatalogue(); });
+$('[data-catalogue-next]').addEventListener('click', () => { state.cataloguePage++; renderCatalogue(); });
 $('[data-bookmark-library-toggle]').addEventListener('click', () => setBookmarkLibraryOpen($('[data-bookmark-library]').hidden));
 $('[data-bookmark-filter]').addEventListener('change', renderBookmarkLibrary);
 $('[data-refresh-bookmarks]').addEventListener('click', async (event) => { const button = event.currentTarget; button.disabled = true; try { await loadBookmarks(); } finally { button.disabled = false; } });
 $('[data-answer-progress-toggle]').addEventListener('click', () => setAnswerProgressVisible($('[data-answer-progress-content]').hidden, true));
 el.translationButton.addEventListener("click", () => { const open = el.translationButton.getAttribute("aria-expanded") === "true"; el.translationButton.setAttribute("aria-expanded", String(!open)); el.translationPanel.hidden = open; });
 function updateTranslations() { const all = el.translationAll.checked; $$('[data-translation-paragraph]').forEach((checkbox) => { if (all) checkbox.checked = true; checkbox.disabled = all; }); $$('[data-translation-copy]').forEach((copy) => { const selected = $(`[data-translation-paragraph="${copy.dataset.translationCopy}"]`).checked; copy.hidden = !(all || selected); }); }
-el.translationAll.addEventListener("change", updateTranslations); $$('[data-translation-paragraph]').forEach((node) => node.addEventListener("change", updateTranslations));
+el.translationAll.addEventListener("change", updateTranslations); $('[data-translation-options]').addEventListener('change', updateTranslations);
 $('[data-hide-translations]').addEventListener("click", () => { el.translationAll.checked = false; $$('[data-translation-paragraph]').forEach((checkbox) => { checkbox.checked = false; checkbox.disabled = false; }); updateTranslations(); showToast("已隱藏所有文章翻譯。"); });
 $('[data-question-translations]').addEventListener("change", (event) => { $$('[data-question-translation]').forEach((node) => { node.hidden = !event.currentTarget.checked; }); });
 el.passage.addEventListener("click", (event) => { const paragraphAudio = event.target.closest('[data-play-paragraph]'); if (paragraphAudio) return playParagraph(Number(paragraphAudio.dataset.playParagraph)); const button = event.target.closest('[data-skimming]'); if (button) return openSkimming(Number(button.dataset.skimming)); const word = event.target.closest('[data-word-key]'); if (word) toggleWordBookmark(word); });
@@ -386,7 +490,7 @@ el.questions.addEventListener("click", (event) => {
   const reveal = event.target.closest('[data-reveal]'); if (reveal) return openAnalysis(Number(reveal.dataset.reveal));
   const row = event.target.closest('.choice-list label'); if (row) { const radio = $('input[type="radio"]', row); if (radio && !radio.disabled && !radio.checked) { radio.checked = true; radio.dispatchEvent(new Event("change", { bubbles: true })); } }
 });
-function handleAnswerInput(event) { if (!event.target.matches('[data-answer-part]')) return; const match = event.target.name?.match(/^q(\d+)/); if (match) recordAnswerTime(Number(match[1]), event.target.value); updateAnswerProgress(); }
+function handleAnswerInput(event) { if (!event.target.matches('[data-answer-part]')) return; const match = event.target.name?.match(/^q(\d+)/); if (event.target.type === 'checkbox' && event.target.checked) { const q = state.data.questions.find((item) => item.number === Number(match?.[1])); if ($$(`input[name="${event.target.name}"]:checked`,el.questionForm).length > q.slots) { event.target.checked = false; showToast(`本題最多選擇 ${q.slots} 項。`); } } if (match) recordAnswerTime(Number(match[1]), event.target.value); updateAnswerProgress(); }
 el.questionForm.addEventListener("input", handleAnswerInput);
 el.questionForm.addEventListener("change", handleAnswerInput);
 el.questionForm.addEventListener("submit", (event) => { event.preventDefault(); submitAnswers(false, false); }); $('[data-submit-partial]').addEventListener("click", () => submitAnswers(true, false)); $('[data-analysis-bookmark]').addEventListener("click", toggleAnalysisBookmark); $('[data-skimming-bookmark]').addEventListener("click", toggleSkimmingBookmark);

@@ -1,0 +1,239 @@
+{
+  "id": "p2-040",
+  "catalogueId": "p2-040",
+  "title": "From A Novice to An Expert",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 40,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-040-from-a-novice-to-an-expert",
+  "source": {
+    "filename": "Practice 40 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "7ed9fb9741addcec41a2b607cf1911bdee8cbb44ea24000a1f1f9810d6fd43e1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "From a Novice to an Expert Expertise is commitment coupled with creativity. Specifically, it is the commitment of time, energy, and resources to a relatively narrow field of study and the creative energy necessary to generate new knowledge in that field. It takes a considerable amount of time and regular exposure to a large number of cases to become an expert."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "An individual enters a field of study as a novice. The novice needs to learn the guiding principles and rules of a given task in order to perform that task. Concurrently, the novice needs to be exposed to specific cases, or instances, that test the boundaries of such principles. Generally, a novice will find a mentor to guide her through the process of acquiring new knowledge. A fairly simple example would be someone learning to play chess. The novice chess player seeks a mentor to teach her the object of the game, the number of spaces, the names of the pieces, the function of each piece, how each piece is moved, and the necessary conditions for winning, or losing the game."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "In time, and with much practice, the novice begins to recognise patterns of behaviour within cases and, thus, becomes a journeyman. With more practice and exposure to increasingly complex cases, the journeyman finds patterns not only within cases but also between cases. More importantly, the journeyman learns that these patterns often repeat themselves over time. The journeyman still maintains regular contact with a mentor to solve specific problems and learn more complex strategies. Returning to the example of the chess player, the individual begins to learn patterns of opening moves, offensive and defensive game-playing, strategies, and patterns of victory and defeat."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "When a journeyman starts to make and test hypotheses about future behaviour based on past experiences, she begins the next transition. Once she creatively generates knowledge, rather than simply matching superficial patterns, she becomes an expert. At this point, she is confident in her knowledge and no longer needs a mentor as a guide; she becomes responsible for her own knowledge. In the chess example, once a journeyman begins competing against experts, makes predictions based on patterns, and tests those predictions against actual behaviour, she is generating new knowledge and a deeper understanding of the game. She is creating her own case, rather than relying on the cases of others."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The Power of Expertise An expert perceives meaningful patterns in her domain better than non-experts. Where a novice perceives random or disconnected data points, an expert connects regular patterns within and between cases. This ability to identify patterns is not an innate perceptual skill; rather it reflects the organisation of knowledge after exposure to and experience with thousands of cases."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Experts have a deeper understanding of their domains than novices do, and utilise higher-order principles to solve problems. A novice, for example, might group objects together by colour or size, whereas an expert would group the same objects according to their function or utility. Experts comprehend the meaning of data and weigh variables with different criteria within their domains better than novices. Experts recognise variables that have the largest influence on a particular problem and focus their attention on those variables."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Experts have better domain-specific short-term and long-term memory than novices do. Moreover, experts perform tasks in their domains faster than novices and commit fewer errors while problem solving. Interestingly, experts go about solving problems differently than novices. Experts spend more time thinking about a problem to fully understand it at the beginning of a task than do novices, who immediately seek to find a solution. Experts use their knowledge of previous cases as context for creating mental models to solve given problems."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Better at self-monitoring than novices, experts are more aware of instances where they have committed errors or failed to understand a problem. Experts check their solution more often than novices and recognise when they are missing information necessary for solving a problem. Experts are aware of the limits of their domain knowledge and apply their domain’s heuristics to solve problems that fall outside of their experience base."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The Paradox of Expertise The strengths of expertise can also be weaknesses. Although one would expect experts to be good forecasters, they are not particularly good at making predictions about the future. Since the 1930s, researchers have been testing the ability of experts to make forecasts. The performance of experts has been tested against actuarial tables to determine if they are better at making predictions than simple statistical models. Seventy years later, with more than two hundred experiments in different domains, it is clear that the answer is no. If supplied with an equal amount of data about a particular case, an actuarial table is as good, or better, than an expert at making calls about the future. Even if an expert is given more specific case information than is available to the statistical model, the expert does not tend to outperform the actuarial table."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Theorists and researchers differ when trying to explain why experts are less accurate forecasters than statistical models. Some have argued that experts, like all humans, are inconsistent when using mental models to make predictions. That is, the model an expert uses for predicting X in one month is different from the model used for predicting X in the following month, although precisely the same case and the same data set are used in both instances."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "A number of researchers point to human biases to explain unreliable expert predictions. During the last 30 years, researchers have categorised, experimented, and theorised about the cognitive aspects of forecasting. Despite such efforts, the literature shows little consensus regarding the causes or manifestations of human bias."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nComplete the flow-chart below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer. Write your\nanswers in boxes 14–18 on your answer sheet.\n Stage                   Characteristics\n\n                         Needs 14 _________________ to perform a given task; is exposed to\n Novice                  specific cases; and is guided through learning by a 15\n                         _________________.\n\n ↓\n\n                         Begins to identify 16 _________________ within and between cases; is\n Journeyman              often exposed to 17 _________________ cases; and contacts a mentor\n                         when facing difficult problems.\n\n ↓\n\n                         Creates predictions and new 18 _________________; performs tasks\n Expert\n                         independently without a mentor."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 23,
+      "text": "Questions 19–23\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 19–23 on your answer sheet, write\n\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n19 _________________ Novices and experts use the same system to classify objects.\n20 _________________ A novice’s training is focused on memory skills.\n21 _________________ Experts solve problems in their own fields more efficiently than\nnovices.\n22 _________________ When faced with a problem, a novice always tries to solve it\nimmediately.\n23 _________________ Experts are better at recognising their own mistakes and limits."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\n\n\nAlthough experts solve problems effectively within their domains, their strengths can\nalso work against them. Studies show that experts are less 24 _________________\nat forecasting than statistical models. Some researchers suggest that experts, like\neveryone else, are inconsistent; others attribute the problem to 25\n_________________. However, there is little 26 _________________ about the\ncauses or manifestations of this problem."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "Novice 需要甚麼，才能執行某個指定任務？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "novice 在學習過程中由誰指導？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "journeyman 開始在 cases 之內和 cases 之間辨認甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "journeyman 經常接觸怎樣的 cases？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "expert 會創造 predictions 和新的甚麼，並且不再依靠 mentor 獨立完成任務？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Novices and experts use the same system to classify objects.",
+      "translation": "novices 和 experts 使用相同系統來分類物件。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ A novice’s training is focused on memory skills.",
+      "translation": "novice 的訓練重點是記憶技巧。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Experts solve problems in their own fields more efficiently than novices.",
+      "translation": "experts 在自己的領域中比 novices 更有效率地解決問題。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ When faced with a problem, a novice always tries to solve it immediately.",
+      "translation": "面對問題時，novice 會立即嘗試找解決方法。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "_________________ Experts are better at recognising their own mistakes and limits.",
+      "translation": "experts 更善於辨認自己的錯誤和限制。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "研究顯示，experts 在 forecasting 方面比 statistical models 較不怎樣？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "一些 researchers 認為 experts 像所有人一樣不一致；另一些則把問題歸因於甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "然而，關於這個問題的原因或表現形式，幾乎沒有甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-040/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-040/page-6.jpg"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "p3-147",
+  "catalogueId": "p3-147",
+  "title": "Rainwater Harvesting",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 147,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-147-rainwater-harvesting",
+  "source": {
+    "filename": "Practice 147 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "6d4152b8e7463af001a380bfed37fb8fa6d54892f6a5c2440910ae95567e351b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Rainwater Harvesting For two years southern Sri Lanka suffered a prolonged drought, described by locals as “the worst in 50 years”. Some areas didn’t see a successful crop for four or five consecutive seasons. Livestock died, water in wells dropped to dangerously low levels, children were increasingly malnourished and school attendance fell. An estimated 1.6 million people were affected. A Muthukandiya is a village in Moneragala district, one of the drought-stricken areas in the “dry zone” of southern Sri Lanka, where half the country’s population of 18 million lives. Rainfall in the area varies greatly from year to year, often bringing extreme dry spells in between monsoons. But this drought was much worse than usual. Despite some rain in November, only half of Moneragala’s 1,400 tube wells were in working order by March. The drought devastated supplies of rice and freshwater fish, the staple diet of inland villages. Many local industries closed down and villagers headed for the towns in search of work."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "B The villagers of Muthukandiya arrived in the 1970s as part of a government resettlement scheme. Each family was given six acres of land, with no irrigation system. Because crop production, which relies entirely on rainfall, is insufficient to support most families, the village economy relies on men and women working as day labourers in nearby sugar-cane plantations. Three wells have been dug to provide domestic water, but these run dry for much of the year. Women and children may spend several hours each day walking up to three miles (five kilometres) to fetch water for drinking, washing, and cooking."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "C In 1998, communities in the district discussed water problems with Practical Action South Asia. What followed was a drought mitigation initiative based on a low-cost “rainwater harvesting” technology already used in Sri Lanka and elsewhere in the region. It uses tanks to collect and store rain channelled by gutters and pipes as it runs off the roofs of houses."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "D Despite an indigenous tradition of rainwater harvesting and irrigation systems going back to the third century BC, policy-makers in modern times have often overlooked the value of such technologies, and it is only recently that officials have taken much interest in household-level structures. Government and other programmes have, however, been top-down in their conception and application, installing tanks free of charge without providing training in the skills needed to build and maintain them properly. Practical Action South Asia’s project deliberately took a different approach, aiming to build up a local skills base among builders and users of the tanks, and to create structures and systems so that communities can manage their own rainwater harvesting schemes."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "E The community of Muthukandiya was involved throughout. Two meetings were held where villagers analysed their water problems, developed a mitigation plan and selected the rainwater harvesting technology. Two local masons received several days’ on-the-job training in building the 5,000-litre household storage tanks: surface tanks out of ferrocement and underground tanks out of brick. Each system, including tank, pipes, gutters and filters, cost US$195 – equivalent to a month’s income for an average village family. Just over half the cost was provided by the community, in the form of materials and unskilled labour. Practical Action South Asia contributed the rest, including cement, transport and payment for the skilled labour. Households learned how to use and maintain the tanks, and the whole community was trained to keep domestic water supplies clean. A village rainwater harvesting society was set up to run the project. To date, 37 families in and around Muthukandiya have storage tanks. Evaluations show clearly that households with rainwater storage tanks have considerably more water for domestic needs than households relying entirely on wells and ponds. During the driest months, households with tanks may have up to twice as much water available. Their water is much cleaner, too."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "F Nandawathie, a widow in the village, has taken full advantage of the opportunities that rainwater harvesting has brought her family. With a better water supply now close at hand, she began by growing a few vegetables. The income from selling these helped her to open a small shop on her doorstep. This increased her earnings still further, enabling her to apply for a loan to install solar power in her house. She is now thinking of building another tank in her garden so that she can grow more vegetables. Nandawathie also feels safer now that she no longer has to fetch water from the village well in the early morning or late evening. She says that her children no longer complain so much of diarrhoea. And her daughter Sandamalee has more time for schoolwork."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "G In the short term, and on a small scale, the project has clearly been a success. The challenge lies in making such initiatives sustainable and expanding their coverage. At a purely technical level, rainwater harvesting is evidently sustainable. In Muthukandiya, the skills required to build and maintain storage tanks were taught fairly easily and can be shared by the two trained masons, who are now finding work with other development agencies in the district."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "H The non-structural elements of the work, especially its financial and organisational aspects, present a bigger challenge. A revolving fund was set up, with households that had already benefited agreeing to contribute a small monthly amount to pay for maintenance, repairs and new tanks. However, it appears that the revolving fund concept was not fully understood and it has proved difficult to get households to contribute. Recovering costs from interventions that do not generate income directly will always be a difficult proposition, although this can be overcome if the process is explained more fully at the outset."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "I The Muthukandiya initiative was planned as a demonstration project, to show that community-based drought mitigation through rainwater harvesting was feasible. Several other organizations have begun their own projects using the same approach. The feasibility of introducing larger tanks is being investigated."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "J However, a lot of effort and patience are needed to generate the interest, develop the skills and organize the management structures needed to implement sustainable community-based projects. It will probably be some time before rainwater harvesting technologies can spread rapidly and spontaneously across the district’s villages, without external support."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–33",
+    "g34": "Questions 34–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 33,
+      "text": "Questions 28–33\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\n\n\n28 __________ What is the main source of livelihood for local people in Muthukandiya village?\n29 __________ Where do adults work during the day to earn extra money?\n30 __________ What has been dug to supply water for daily household use?\n31 __________ In what year did planning begin for a new drought-mitigation project?\n32 __________ From where do the gutters and pipes collect rainwater?\n33 __________ What enables families to obtain more water for domestic needs than those\nrelying only on wells and ponds?"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 40,
+      "text": "Questions 34–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 34–40 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n\n\n34 __________ Most government initiatives and other programmes have been at least partly\nunsuccessful.\n35 __________ Masons were trained to construct parts of the rainwater-harvesting system.\n36 __________ The cost of rainwater-harvesting systems was shared by local villagers and the\nlocal government.\n37 __________ Tanks increase both the amount and quality of water for domestic use.\n38 __________ A widow had to take a job in the rainwater-harvesting scheme so that she could\nsend her daughter to school.\n39 __________ Households that had benefited began contributing to maintenance and repair\ncosts.\n40 __________ Training two masons at once is much better than training only one."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________ What is the main source of livelihood for local people in Muthukandiya village?",
+      "translation": "Muthukandiya 村民主要靠甚麼維生？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________ Where do adults work during the day to earn extra money?",
+      "translation": "成年人白天在哪裡工作以賺取額外收入？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________ What has been dug to supply water for daily household use?",
+      "translation": "為了供應日常家庭用水，人們挖了甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________ In what year did planning begin for a new drought-mitigation project?",
+      "translation": "新的旱災緩解項目是在甚麼年份開始規劃？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________ From where do the gutters and pipes collect rainwater?",
+      "translation": "gutters and pipes 從哪裡收集雨水？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________ What enables families to obtain more water for domestic needs than those relying only on wells and ponds?",
+      "translation": "甚麼讓家庭比只依賴 wells and ponds 的家庭得到更多家庭用水？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ Most government initiatives and other programmes have been at least partly unsuccessful.",
+      "translation": "大多數政府 initiative 和其他 programme 至少有部分不成功。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ Masons were trained to construct parts of the rainwater-harvesting system.",
+      "translation": "泥水匠接受訓練，學習建造 rainwater-harvesting system 的部分結構。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ The cost of rainwater-harvesting systems was shared by local villagers and the local government.",
+      "translation": "rainwater-harvesting systems 的成本由本地村民和 local government 分擔。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ Tanks increase both the amount and quality of water for domestic use.",
+      "translation": "水箱增加了家庭用水的數量，也提升了水質。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ A widow had to take a job in the rainwater-harvesting scheme so that she could send her daughter to school.",
+      "translation": "一位寡婦必須在 rainwater-harvesting scheme 中工作，才能送女兒上學。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ Households that had benefited began contributing to maintenance and repair costs.",
+      "translation": "已經受惠的家庭開始為 maintenance 和 repair costs 供款。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________ Training two masons at once is much better than training only one.",
+      "translation": "一次訓練兩位泥水匠，比只訓練一位好得多。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-147/page-5.jpg"
+  ]
+}

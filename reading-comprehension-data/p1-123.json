@@ -1,0 +1,258 @@
+{
+  "id": "p1-123",
+  "catalogueId": "p1-123",
+  "title": "Traditional Farming System in Africa",
+  "sourceHeading": "Traditional Farming System in Africa",
+  "passage": 1,
+  "practice": 123,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-123-traditional-farming-system-in-africa",
+  "source": {
+    "filename": "Practice 123 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "dd6436104b6c91e4414f342108c71bfcf5b0f10a37ce559679aaadc7bd96301a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "By tradition, land in Luapula is not owned by individuals but, as in many other parts of Africa, is allocated by the headman or headwoman of a village to people of either sex, according to need. Since land is generally prepared by hand, one ulupwa cannot take on a very large area; in this sense land has not been a limiting resource over large parts of the province. The situation has already changed near the main townships, and there has long been a scarcity of land for cultivation in the Valley. In these areas registered ownership patterns are becoming prevalent."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Most of the traditional cropping in Luapula, as in the Bemba area to the east, is based on citemene, a system whereby crops are grown on the ashes of tree branches. As a rule, entire trees are not felled, but are pollarded so that they can regenerate. Branches are cut over an area of varying size early in the dry season, and are stacked to dry over a rough circle about a fifth to a tenth of the pollarded area. The wood is fired before the rains and in the first year the area is planted with the African cereal finger millet (Eleusine coracana)."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "During the second season, and possibly for a few seasons more, the area is planted with variously mixed combinations of annuals such as maize, pumpkins (Telfairia occidentalis) and other cucurbits, sweet potatoes, groundnuts, Phaseolus beans and various leafy vegetables, grown with a certain amount of rotation. The diverse sequence ends with vegetable cassava, which is often planted into the developing last-but-one crop as a relay."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Richards (1969) observed that the practice of citemene entails a definite division of labour between men and women. A man stakes out a plot in an unobtrusive manner, since it is considered provocative towards one’s neighbours to mark boundaries in an explicit way. The dangerous work of felling branches is the men’s province, and involves much pride. Branches are stacked by the women, and fired by the men. Formerly women and men cooperated in the planting work, but the harvesting was always done by the women. At the beginning of the cycle little weeding is necessary, since the firing of the branches effectively destroys weeds. As the cycle progresses weeds increase and nutrients eventually become depleted to a point where further effort with annual crops is judged not worthwhile: at this point the cassava is planted, since it can produce a crop on nearly exhausted soil. Thereafter the plot is abandoned, and a new area is pollarded for the next citemene cycle."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "When forest is not available—this is increasingly the case nowadays—various ridging systems (ibala) are built on small areas, to be planted with combinations of maize, beans, groundnuts and sweet potatoes, usually relayed with cassava. These plots are usually tended by women, and provide subsistence. Where their roots have year-round access to water tables, mango, guava and oil-palm trees often grow around houses, forming a traditional agroforestry system. In season, some of the fruit is sold by the roadside or in local markets."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The margins of dambos are sometimes planted with local varieties of rice during the rainy season, and adjacent areas are planted with vegetables irrigated with water from the dambo during the dry season. The extent of cultivation is very limited, no doubt because the growing of crops under dambo conditions calls for a great deal of skill. Near towns, some of the vegetable produce is sold in local markets."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Fishing has long provided a much-needed protein supplement to the diet of Luapulans, as well as being the one substantial source of cash. Much fish is dried for sale to areas away from the main waterways. The Mweru and Bangweulu Lake Basins are the main areas of year-round fishing, but the Luapula River is also exploited during the latter part of the dry season. Several previously abundant and desirable species, such as the Luapula salmon or mpumbu (Labeo altivelis) and pale (Sarotherodon machochir) have all but disappeared from Lake Mweru, apparently due to mismanagement."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Fishing has always been a far more remunerative activity in Luapula than crop husbandry. A fisherman may earn more in a week than a bean or maize grower in a whole season. I sometimes heard claims that the relatively high earnings to be obtained from fishing induced an ‘easy come, easy go’ outlook among Luapulan men. On the other hand, someone who secures good but erratic earnings may feel that their investment in an economically productive activity is not worthwhile because Luapulans fail to cooperate well in such activities. Besides, a fisherman with spare cash will find little in the way of working equipment to spend his money on. Better spend one’s money in the bars and have a good time!"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Only small numbers of cattle or oxen are kept in the province owing to the prevalence of the tsetse fly. For the few herds, the dambos provide subsistence grazing during the dry season. The absence of animal draught power greatly limits people’s ability to plough and cultivate land: a married couple can rarely manage to prepare much land by hand-hoeing. Most people keep free-roaming chickens and goats. These act as a reserve for bartering, but may also be occasionally slaughtered for ceremonies or for entertaining important visitors. These animals are not a regular part of most people’s diet."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Citemene has been an ingenious system for providing people with seasonal production of high-quality cereals and vegetables in regions of acid, heavily leached soils. Nutritionally, the most serious deficiency was that of protein. This could at times be alleviated when fish was available, provided that cultivators lived near the Valley and could find the means of bartering for dried fish. The citemene/fishing system was well adapted to the ecology of the miombo regions and sustainable for long periods, but only as long as human population densities stayed at low levels. Although population densities are still much lower than in several countries of Southeast Asia, neither the fisheries nor the forests and woodlands of Luapula are capable, with unmodified traditional practices, of supporting the people in a sustainable manner. Overall, people must learn to intensify and diversify their productive systems while yet ensuring that these systems will remain productive in the future, when even more people will need food. Increasing overall production of food, though a vast challenge in itself, will not be enough, however. At the same time, storage and distribution systems must allow everyone access to at least a moderate share of the total."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–12",
+    "g13": "Questions 13–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nComplete the sentences below with words taken from the reading passage.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 1–4 on your answer sheet.\nIn Luapula, land allocation is in accordance with 1 _________________.\nThe citemene system provides the land with 2 _________________ on which crops are\nplanted.\nDuring the second season, the last crop planted is 3 _________________.\nUnder suitable conditions, fruit trees are planted near 4 _________________."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nClassify the following items according to the correct description.\nWrite the correct letter, A, B or C, in boxes 5–8 on your answer sheet.\nNB You may use any letter more than once.\n A                                                 fish\n\n B                                                 oxen\n\n C                                                 goats\n5 are used on special occasions, such as celebrations.\n6 cannot thrive because they are affected by pests.\n7 provide the largest source of income.\n8 are sold beyond the local area."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 12,
+      "text": "Questions 9–12\nDo the following statements agree with the information given in the reading passage?\nIn boxes 9–12 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n9 People rarely use animals to cultivate land.\n10 During busy periods, children usually take part in the labour force.\n11 Local residents eat goats on a regular basis.\n12 Although citemene is a sophisticated system, it cannot provide enough protein."
+    },
+    {
+      "id": "g13",
+      "start": 13,
+      "end": 13,
+      "text": "Question 13\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in box 13 on your answer sheet.\n13 What is the writer’s opinion of the traditional practices?\n A They can supply all the nutrition that people need.\n B They are not capable of adequately supporting the population.\n C They are productive systems that need no further development.\n D They will be easily modified in the future."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "在 Luapula，土地分配是按照 ______ 進行的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "citemene 系統為土地提供 ______，作物種在其上。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "第二季期間，最後種下的作物是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "在合適條件下，果樹會種在 ______ 附近。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "are used on special occasions, such as celebrations.",
+      "translation": "用於特殊場合，例如慶祝或儀式。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "cannot thrive because they are affected by pests.",
+      "translation": "因受害蟲影響，所以不能興旺繁殖或大量飼養。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "provide the largest source of income.",
+      "translation": "提供最大的收入來源。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "are sold beyond the local area.",
+      "translation": "被售往本地以外的地區。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "People rarely use animals to cultivate land.",
+      "translation": "人們很少使用動物來耕種土地。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "During busy periods, children usually take part in the labour force.",
+      "translation": "在繁忙時期，兒童通常會參與勞動力。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Local residents eat goats on a regular basis.",
+      "translation": "當地居民定期吃山羊。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Although citemene is a sophisticated system, it cannot provide enough protein.",
+      "translation": "雖然 citemene 是一套精巧的制度，但它不能提供足夠蛋白質。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g13",
+      "type": "choice",
+      "prompt": "What is the writer’s opinion of the traditional practices?",
+      "translation": "作者對傳統做法的看法是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-123/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-123/page-6.jpg"
+  ]
+}

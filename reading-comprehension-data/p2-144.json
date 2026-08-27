@@ -1,0 +1,328 @@
+{
+  "id": "p2-144",
+  "catalogueId": "p2-144",
+  "title": "Twin Study: Two of a kind",
+  "sourceHeading": "Twin Study: Two of a Kind",
+  "passage": 2,
+  "practice": 144,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-144-twin-study-two-of-a-kind",
+  "source": {
+    "filename": "Practice 144 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "284ce38cb7491dacbe714cc2702915cad766b94ef1224bebfe2f3e5db13b0671"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "THE scientific study of twins goes back to the late nineteenth century, when Francis Galton, an early geneticist, realised that they came in two varieties: identical twins born from one egg and non-identical twins that had come from two eggs. That insight turned out to be key, although it was not until 1924 that it was used to formulate what is known as the twin rule of pathology, and twin studies really got going."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The twin rule of pathology states that any heritable disease will be more concordant (that is, more likely to be jointly present or absent) in identical twins than in non-identical twins – and, in turn, will be more concordant in non-identical twins than in non-siblings. Early work, for example, showed that the statistical correlation of skin-mole counts between identical twins was 0.4, while non-identical twins had a correlation of only 0.2. (A score of 1.0 implies a perfect correlation, while a score of zero implies no correlation.) This result suggests that moles are heritable, but it also implies that there is an environmental component to the development of moles, otherwise, the correlation in identical twins would be close to 1.0."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Twin research has shown that whether or not someone takes up smoking is determined mainly by environmental factors, but once he does so, how much he smokes is largely down to his genes. And while a person’s religion is clearly a cultural attribute, there is a strong genetic component to religious fundamentalism. Twin studies are also unraveling the heritability of various aspects of human personality. Traits from neuroticism and anxiety to thrill-seeking and novelty-seeking all have large genetic components. Parenting matters, but it does not determine personality in the way that some had thought."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "More importantly, perhaps, twin studies are helping the understanding of diseases such as cancer, asthma, osteoporosis, arthritis and immune disorders. And twins can be used, within ethical guidelines, for medical experiments. A study that administered vitamin C to one twin and a placebo to the other found that it had no effect on the common cold. The lesson from all of today’s twin studies is that most human traits are at least partially influenced by genes. However, for the most part, the age-old dichotomy between nature and nurture is not very useful. Many genetic programs are open to input from the environment, and genes are frequently switched on or off by environmental signals. It is also possible that genes themselves influence their environment. Some humans have an innate preference for participation in sports. Others are drawn to novelty. Might people also be drawn to certain kinds of friends and types of experience? In this way, a person’s genes might shape the environment they act in as much as the environment shapes the actions of the genes."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In the past, such research has been controversial. Josef Mengele, a Nazi doctor working at the Auschwitz extermination camp during the Second World War, was fascinated by twins. He sought them out among arrivals at the camp and preserved them from the gas-chambers for a series of brutal experiments. After the war, Cyril Burt, a British psychologist who worked on the heredity of intelligence, tainted twin research with results that appear, in retrospect, to have been rather too good. Some of his data on identical twins who had been reared apart were probably faked. In any case, the prevailing ideology in the social sciences after the war was Marxist and disliked suggestions that differences in human potential might have underlying genetic causes. Twin studies were thus viewed with suspicion."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The ideological pendulum has swung back, however, as the Human Genome Project and its aftermath have turned genes from abstract concepts into real pieces of DNA. The role of genes in sensitive areas such as intelligence is acknowledged by all but a few die-hards. The interesting questions now concern how nature and nurture interact to produce particular bits of biology, rather than which of the two is more important. Twin studies, which are a good way to ask these questions, are back in fashion, and many twins are enthusiastic participants in this research."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Research at the Twinsburg festival began in a small way, with a single stand in 1979. Gradually, news spread and more scientists began turning up. This year, half a dozen groups of researchers were lodged in a specially pitched research tent. In one corner of this tent, Paul Breslin, who works at the Monell Institute in Philadelphia, watched over several tables where twins sat sipping clear liquids from cups and making notes. It was the team’s third year at Twinsburg. Dr Breslin and his colleagues want to find out how genes influence human perception, particularly the senses of smell and taste and those (warmth, cold, pain, tingle, itch and so on) that result from stimulation of the skin. Perception is an example of something that is probably influenced by both genes and experience. Even before birth, people are exposed to flavours such as chocolate, garlic, mint and vanilla that pass intact into the bloodstream, and thus to the fetus. Though it is not yet clear whether such prenatal exposure shapes taste-perception, there is evidence that it shapes preferences for foods encountered later in life."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "However, there are clearly genetic influences at work, as well – for example in the ability to taste quinine. Some people experience this as intensely bitter, even when it is present at very low levels. Others, whose genetic endowment is different, are less bothered by it. Twin studies make this extremely clear. Within a pair of identical twins, either both, or neither, will find quinine hard to swallow. Non-identical twins will agree less frequently."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "On the other side of the tent, Dennis Drayna, from the National Institute on Deafness and Other Communication Disorders, in Maryland, was studying hearing. He wants to know what happens to sounds after they reach the ear. It is not clear, he says, whether the sound is processed into sensation mostly in the ear or in the brain. Dr Drayna has already been involved in a twin study which revealed that the perception of musical pitch is highly heritable. At Twinsburg, he is playing different words, or parts of words, into the left and right ears of his twinned volunteers. The composite of the two sounds that an individual reports hearing depends on how he processes this diverse information and that, Dr Drayna believes, may well be influenced by genetics."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Elsewhere in the marquee, Peter Miraldi, of Kent State University in Ohio, was trying to find out whether genes affect an individual’s motivation to communicate with others. A number of twin studies have shown that personality and sociability are heritable, so he thinks this is fertile ground. And next to Mr Miraldi was a team of dermatologists from Case Western Reserve University in Cleveland. They are looking at the development of skin disease and male-pattern baldness. The goal of the latter piece of research is to find the genes responsible for making men’s hair fall out."
+    },
+    {
+      "number": 11,
+      "label": "K",
+      "text": "The busiest part of the tent, however, was the queue for forensic-science research into fingerprints. The origins of this study are shrouded in mystery. For many months, the festival’s organisers have been convinced that the Secret Service – the American government agency responsible for, among other things, the safety of the president – is behind it. When The Economist contacted the Secret Service for more information, we were referred to Steve Nash, who is chairman of the International Association for Identification (IAI) and is also a detective in the scientific investigations section of the Marin County Sheriff’s Office in California. The IAI, based in Minnesota, is an organisation of forensic scientists from around the world. Among other things, it publishes the Journal of Forensic Identification."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–19",
+    "g20": "Questions 20–21",
+    "g22": "Questions 22–24",
+    "g25": "Questions 25–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 19,
+      "text": "Questions 15–19\nReading Passage 2 has eleven paragraphs, A–K.\nWhich paragraph contains the following information?\nWrite the correct letter, A–K, in boxes 15–19 on your answer sheet.\nNB You may use any letter more than once.\n15 Research conducted in Ohio.\n16 Medical contributions made by twin research.\n17 Research conducted under life-threatening conditions.\n18 Data on similarities between identical twins.\n19 Reasons why one study was unconvincing."
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 21,
+      "text": "Questions 20–21\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 20–21 on your answer sheet.\n20 _________________ was the first person to conduct research on twins. He divided twins into\ntwo categories: identical and non-identical. Twin research was first applied in medicine in 21\n_________________."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 24,
+      "text": "Questions 22–24\nChoose THREE letters, A–F.\nWrite your answers in boxes 22–24 on your answer sheet.\nWhich THREE research fields were investigated in Ohio, Maryland and Twinsburg?\n A Sensory perception.\n B Cancer.\n C Vitamin D allergy.\n D Mole heredity.\n E Hearing.\n F Male baldness."
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 27,
+      "text": "Questions 25–27\nChoose THREE letters, A–F.\nWrite your answers in boxes 25–27 on your answer sheet.\nWhich THREE findings are supported by the passage?\n A Non-identical twins develop from different eggs.\n B Identical twins are more closely related genetically than non-identical twins.\n C Vitamin C has a clear effect on the common cold.\n D Genetic influence on smoking is stronger than environmental influence.\n E Eating too many sweets during pregnancy leads to skin disease.\n F Hair loss has been found to be connected with a skin condition."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Research conducted in Ohio.",
+      "translation": "在 Ohio 進行或由 Ohio 機構相關研究者進行的研究。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Medical contributions made by twin research.",
+      "translation": "雙胞胎研究在醫學方面作出的貢獻。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Research conducted under life-threatening conditions.",
+      "translation": "在威脅生命的情況下進行的研究。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Data on similarities between identical twins.",
+      "translation": "關於 identical twins 相似度的數據。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Reasons why one study was unconvincing.",
+      "translation": "某項研究令人不信服的原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________ was the first person to conduct research on twins. He divided twins into two categories: identical and non-identical. Twin research was first applied in medicine in 21 _________________.",
+      "translation": "______ 是第一位進行雙胞胎研究的人。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "雙胞胎研究首次被應用於醫學是在 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "Ohio、Maryland 和 Twinsburg 涉及哪三個研究範疇？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "Ohio、Maryland 和 Twinsburg 涉及哪三個研究範疇？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "Ohio、Maryland 和 Twinsburg 涉及哪三個研究範疇？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "以下哪三項 findings 獲文章支持？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "以下哪三項 findings 獲文章支持？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "以下哪三項 findings 獲文章支持？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-144/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-144/page-6.jpg"
+  ]
+}

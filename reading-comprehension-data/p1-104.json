@@ -1,0 +1,304 @@
+{
+  "id": "p1-104",
+  "catalogueId": "p1-104",
+  "title": "Indoor Pollution",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 104,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-104-indoor-pollution",
+  "source": {
+    "filename": "Practice 104 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "db09dc43baba96c6f51635dc5106dbf6d38766174712382b3a7a9a1f643f66b5"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Indoor Pollution Since the early 1980s, we have been only too aware of the devastating effects of large-scale environmental pollution. Such pollution is generally the result of poor government planning in many developing nations or the short-sighted, selfish policies of the already industrialised countries which encourage a minority of the world’s population to squander the majority of its natural resources."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "While events such as the deforestation of the Amazon jungle or the nuclear disaster in Chernobyl continue to receive high media exposure, as do acts of environmental sabotage, it must be remembered that not all pollution is on this grand scale. A large proportion of the world’s pollution has its source much closer to home. The recent spillage of crude oil from a tanker that accidentally discharged its cargo straight into Sydney Harbour not only caused serious damage to the harbour foreshores but also created severely toxic fumes which hung over the suburbs for days and left the angry residents wondering how such a disaster could have been allowed to happen."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Avoiding pollution can be a full-time job. Try not to inhale traffic fumes; keep away from chemical plants and building sites; wear a mask when cycling. It is enough to make you want to stay at home. But that, according to a growing body of scientific evidence, would also be a bad idea. Research shows that levels of pollutants such as hazardous gases, particulate matter and other chemical ‘nasties’ are usually higher indoors than out, even in the most polluted cities. Since the average American spends 18 hours indoors for every hour outside, it looks as though many environmentalists may be attacking the wrong target."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The latest study, conducted by two environmental engineers, Richard Corsi and Cynthia Howard-Reed, of the University of Texas in Austin, and published in Environmental Science and Technology, suggests that it is the process of keeping clean that may be making indoor pollution worse. The researchers found that baths, showers, dishwashers and washing machines can all be significant sources of indoor pollution, because they extract trace amounts of chemicals from the water that they use and transfer them to the air."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Nearly all public water supplies contain very low concentrations of toxic chemicals, most of them left over from the otherwise beneficial process of chlorination. Dr Corsi wondered whether they stay there when water is used, or whether they end up in the air that people breathe. The team conducted a series of experiments in which known quantities of five such chemicals were mixed with water and passed through a dishwasher, a washing machine, a shower head inside a shower stall or a tap in a bath, all inside a specially designed chamber. The levels of chemicals in the effluent water and in the air extracted from the chamber were then measured to see how much of each chemical had been transferred from the water into the air."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The degree to which the most volatile elements could be removed from the water, a process known as chemical stripping, depended on a wide range of factors, including the volatility of the chemical, the temperature of the water and the surface area available for transfer. Dishwashers were found to be particularly effective: the high-temperature spray splashing against the crockery and cutlery produces a nasty plume of toxic chemicals that escapes when the door is opened at the end of the cycle."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "In fact, in many cases, the degree of exposure to toxic chemicals in tap water by inhalation is comparable to the exposure that would result from drinking the stuff. This is significant because many people are so concerned about water-borne pollutants that they drink only bottled water, whose worldwide sales are forecast to reach $72 billion by next year. Dr Corsi’s results suggest that they are being exposed to such pollutants anyway simply by breathing at home. The aim of such research is not, however, to encourage the use of gas masks when unloading the washing machine. Instead, it is to bring a sense of perspective to the debate about pollution. According to Dr Corsi, disproportionate effort is wasted campaigning against certain forms of outdoor pollution, when there is as much or more cause for concern indoors, right under people’s noses."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Using gas cookers and burning candles, for example, can both result in indoor levels of carbon monoxide and particulate matter that are just as high as those to be found outside, amid heavy traffic. Overcrowded classrooms whose ventilation systems were designed for smaller numbers of children frequently contain levels of carbon dioxide that would be regarded as unacceptable on board a submarine. ‘New car smell’ is the result of high levels of toxic chemicals, not cleanliness. Laser printers, computers, carpets and paints all contribute to the noxious indoor mix. The implications of indoor pollution for health are unclear. But before worrying about the problems caused by large-scale industry, it makes sense to consider small-scale pollution at home and welcome an international debate about it. Scientists investigating indoor pollution will gather next month in Edinburgh at the Indoor Air conference to discuss the problem. Perhaps unwisely, the meeting is being held indoors."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nChoose the appropriate letters A–D and write them in boxes 1–6 on your answer sheet.\n\n\n1 In the first paragraph, the writer argues that pollution\n  A has increased since the eighties.\n  B is at its worst in industrialised countries.\n  C results from poor relations between nations.\n  D is caused by human self-interest.\n\n\n2 The Sydney Harbour oil spill was the result of a\n  A ship refuelling in the harbour.\n  B tanker pumping oil into the sea.\n  C collision between two oil tankers.\n  D deliberate act of sabotage.\n\n\n3 In the third paragraph the writer suggests that\n  A people should avoid working in cities.\n  B Americans spend too little time outdoors.\n  C hazardous gases are concentrated in industrial suburbs.\n  D there are several ways to avoid city pollution.\n\n\n4 The Corsi research team hypothesised that\n  A toxic chemicals can pass from air to water.\n  B pollution is caused by dishwashers and baths.\n  C city water contains insufficient chlorine.\n  D household appliances are poorly designed.\n\n\n5 As a result of their experiments, Dr Corsi’s team found that\n  A dishwashers are very efficient machines.\n  B tap water is as polluted as bottled water.\n  C indoor pollution rivals outdoor pollution.\n  D gas masks are a useful protective device.\n\n\n6 Regarding the dangers of pollution, the writer believes that\n  A there is a need for rational discussion.\n  B indoor pollution is a recent phenomenon.\n  C people should worry most about their work environment.\n  D industrial pollution causes specific diseases."
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 13,
+      "text": "Questions 7–13\nReading Passage 1 describes a number of cause and effect relationships.\nMatch each Cause (Questions 7–13) in List A with its Effect (A–J) in List B.\nWrite the appropriate letters (A–J) in boxes 7–13 on your answer sheet.\n\n\nList A: CAUSES\n7 _____________ Industrialised nations use a lot of energy.\n8 _____________ Oil spills into the sea.\n9 _____________ The researchers publish their findings.\n10 _____________ Water is brought to a high temperature.\n11 _____________ People fear pollutants in tap water.\n12 _____________ Air conditioning systems are inadequate.\n13 _____________ Toxic chemicals are abundant in new cars.\n\n\nList B: EFFECTS\n A                           The focus of pollution moves to the home.\n\n B                           The levels of carbon monoxide rise.\n\n C                           The world’s natural resources are unequally shared.\n\n D                           People demand an explanation.\n\n E                           Environmentalists look elsewhere for an explanation.\n\n F                           Chemicals are effectively stripped from the water.\n\n G                           A clean odour is produced.\n\n H                           Sales of bottled water increase.\n\n I                           The levels of carbon dioxide rise.\n\n J                           The chlorine content of drinking water increases."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "In the first paragraph, the writer argues that pollution",
+      "translation": "第一段中，作者認為污染……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The Sydney Harbour oil spill was the result of a",
+      "translation": "Sydney Harbour 的漏油事故是由甚麼造成的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "In the third paragraph the writer suggests that",
+      "translation": "第三段中，作者提出……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The Corsi research team hypothesised that",
+      "translation": "Corsi 研究團隊提出的假設是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "As a result of their experiments, Dr Corsi’s team found that",
+      "translation": "Corsi 博士團隊的實驗結果顯示……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Regarding the dangers of pollution, the writer believes that",
+      "translation": "關於污染的危險，作者認為……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_____________ Industrialised nations use a lot of energy.",
+      "translation": "工業化國家使用大量能源。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_____________ Oil spills into the sea.",
+      "translation": "油洩漏到海中。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_____________ The researchers publish their findings.",
+      "translation": "研究人員發表研究結果。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_____________ Water is brought to a high temperature.",
+      "translation": "水被加熱到高溫。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_____________ People fear pollutants in tap water.",
+      "translation": "人們害怕自來水中的污染物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_____________ Air conditioning systems are inadequate.",
+      "translation": "空調或通風系統不足。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_____________ Toxic chemicals are abundant in new cars. List B: EFFECTS",
+      "translation": "新車中有大量有毒化學物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-104/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-104/page-5.jpg"
+  ]
+}

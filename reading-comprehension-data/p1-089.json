@@ -1,0 +1,219 @@
+{
+  "id": "p1-089",
+  "catalogueId": "p1-089",
+  "title": "The Search for Colour",
+  "sourceHeading": "The Search for Colour",
+  "passage": 1,
+  "practice": 89,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-089-the-search-for-colour",
+  "source": {
+    "filename": "Practice 89  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "ffd74194f4887c4d8900c4426163e839364f84f1a8cd85d649e6fad89507d430"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "We seldom reflect on the artificial colour of modern merchandise. A blue car is blue; a red chair, red; a green bicycle, green. But why does it have colour? The answer is that its surface contains pigment. If the pigment was originally dissolved in a carrier liquid to transfer the colour, it is known as a dye. Whatever the case, colour is the most visible element in the objects we desire, so pigments can be said to underlie customer choice and, therefore, almost all commercial transactions. Consequently, the production of these substances is big business, now accounting for over twenty billion dollars annually in global sales—yet there was a time when none of it existed."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Going back into the mists of prehistory, objects, tools, and clothing were all in natural, muted tones. The first pigments used were of mineral origin—from natural clays tinted by the presence of iron oxides. The best-known examples are the gold colour of ochre, the brown of umber, and the yellow of sienna. These were ground up and mixed with fat to create paint, used, for example, in the earliest European cave paintings. Ash and charcoal (derived from heating wood in the absence of oxygen) were also used to provide black, but in the search for colour, it was soon discovered that biological matter, such as plants, animal waste, molluscs, and insects, could yield more interesting results."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Crimson—a bright red colour—is a good example. It was extracted from kermes, a small insect found on southern European oak trees. The pigment comes from carminic acid produced inside the creature’s body, which discourages predation by birds or other insects. However, with the trees being large and bushy, and the sap-feeding insects few and far between, pigment production was a meticulous and time-consuming process. This increased the price of the product, the end result being that, in Northern Europe, pure crimson long remained a luxury colour for clothing and textiles."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Interestingly, across the Pacific Ocean, people were producing the same colour from the same chemical in another insect. These insects were cochineals: small, scaly creatures which breed in abundant clusters on the fleshy leaves of a commonly occurring cactus. These insects have many advantages over kermes. Being so prolific and so easily seen by predators, they need to produce higher concentrations of carminic acid for protection, up to a quarter of their body weight. The pigment which results is also stronger and longer-lasting. Finally, the insects are far more easily obtained, being simply scraped or knocked off the cactus leaves. Thus, after the Spanish conquest of Mexico, cochineals replaced kermes almost completely, becoming a lucrative Central American export for the next few centuries."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The lure of crimson was only exceeded by the vivid ‘Tyrian purple’—a colour which had been held in the highest regard since antiquity. Its source was the medium-sized Murex sea snail. Distributed around the Mediterranean coast, early civilisations there soon realised that the mucus the snail secretes when poked and prodded could be treated to produce a purplish-blue dye which did not fade with time. However, thousands of sea snails and a complicated, still little-understood process were needed to produce even a small amount of pigment. The colour was therefore so expensive that only the ruling classes could afford it. This led to purple becoming associated with royalty. Roman emperors traditionally wore clothing of this colour."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "For a less durable blue suitable for dyeing clothes, people discovered that the indigo plant could be used. Its leaves were fermented and left to age; the resulting sediment was then dried, treated and reduced to a blue powder. This pigment can, in fact, be said to be the oldest pigment used to colour fabric. It is one reason jeans were originally blue, and remain so to this day, indigo being the dye used to colour them. However, it was not suitable for painting or artistic purposes. For that, European artists used a mixture derived from the grinding up of lapis lazuli, a semi-precious stone, whose only known source was in far-off Afghanistan. Consequently, this colour was very costly, and many artists avoided it altogether. Others, however, were deliberately extravagant in its use, producing proportionally more expensive paintings."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The cost of this paint resulted in much experimentation during the Industrial Revolution in search of chemical-based alternatives. This eventually led to the first modern synthetic pigment, Prussian Blue. Discovered in Germany in the early 18th century, it was rapidly put into production and exported, giving artists around the world the first cheap yet stable blue pigment. Other chemists were making similar breakthroughs. The vivid purple of the Murex snail was accidentally produced by an English chemist, William Perkin, who soon put ‘mauveine’ into commercial production. With such efforts, affordable pigments were soon found in all colours."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Mass production followed, bringing industrial prosperity to Northern Europe but causing decline in many parts of the world where organic pigments were still produced by traditional methods. In the Americas, for example, the crimson of cochineals, having long been a Spanish monopoly and a rich source of export income, went into steady decline. However, all was not lost. In this modern age, there has been a shift back towards natural products, even in pigments, and this has seen a resurgence in the popularity of cochineals. The pigment is now commercially produced in several countries, with Peru being the largest exporter."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nComplete the sentences.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nUltimately, pigments are important because they are so 1 _________________.\nUmber and sienna are examples of 2 _________________.\nOriginally, more unusual colours were derived from 3 _________________.\nGenerally, predators of insects do not like the taste of 4 _________________."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nDo the following statements agree with the information given in Reading Passage One?\nWrite:\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n5 _________________ Kermes were easy to collect.\n6 _________________ Kermes produce better pigment than cochineals.\n7 _________________ Kermes are bigger than cochineals.\n8 _________________ Cochineals are still a valuable crop."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nComplete the summary of the second half of the passage.\nChoose ONE WORD from the passage for each answer.\n\n The best purple originally came from the 9 _________________ of sea snails, although the oldest\n pigment for clothing was from the 10 _________________ of indigo. The blue pigment used for\n painting came from a 11 _________________ that cost so much that an artificial replacement,\n Prussian Blue, was eventually produced, being not only inexpensive but also 12 _________________.\n Ironically, the prized purple colour was discovered 13 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "歸根究底，顏料之所以重要，是因為它們非常 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "Umber 和 sienna 是 ______ 的例子。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "起初，較特別的顏色來自 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "一般來說，昆蟲的捕食者不喜歡 ______ 的味道。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Kermes were easy to collect.",
+      "translation": "Kermes 很容易採集。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Kermes produce better pigment than cochineals.",
+      "translation": "Kermes 產生的顏料比 cochineals 更好。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Kermes are bigger than cochineals.",
+      "translation": "Kermes 比 cochineals 大。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Cochineals are still a valuable crop.",
+      "translation": "Cochineals 現在仍然是一種有價值的商業產物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "最好的紫色最初來自海螺的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "雖然最古老的衣物染色顏料來自 indigo 的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "用於繪畫的藍色顏料來自一種非常昂貴的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "人工替代品 Prussian Blue 最終被製造出來，它不但便宜，也很 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "諷刺的是，珍貴的紫色是 ______ 被發現的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-089/page-4.jpg"
+  ]
+}

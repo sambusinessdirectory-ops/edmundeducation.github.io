@@ -1,0 +1,224 @@
+{
+  "id": "p1-045",
+  "catalogueId": "p1-045",
+  "title": "T-Rex: Hunter or Scavenger?",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 45,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-045-t-rex-hunter-or-scavenger",
+  "source": {
+    "filename": "Practice 45  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "0db3cedad5d4914e0080b2044e00566e1af92fa5a2d929484416578b4f070450"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "T. rex: Hunter or Scavenger? Jack Horner is an unlikely academic: his dyslexia is so severe that he has trouble reading a book. Yet he can read the imprint of life in sandstone or muddy shale across a span of 100 million years. This gift has made him curator of palaeontology at Montana State University’s Museum of the Rockies, leader of a multimillion-dollar scientific project to expose a complete slice of life from 68 million years ago, and a consultant to Steven Spielberg and other Hollywood figures."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "His father had a sand and gravel quarry in Montana, and the young Horner was a collector of stones and bones, complete with notes about when and where he found them. “My father had owned a ranch when he was younger, in Montana,” he says. “He was enough of a geologist, being a sand and gravel man, to have a pretty good notion that they were dinosaur bones. So when I was eight years old he took me back to the area that had been his ranch, to where he had seen these big old bones. I picked up one. I am pretty sure it was the upper arm bone of a duckbilled dinosaur: it probably wasn’t a duckbilled dinosaur but closely related to that. I catalogued it, and took good care of it, and then later when I was in high school, I excavated my first dinosaur skeleton. It obviously started before I was eight, and I have literally been driven ever since. I feel like I was born this way.”"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Horner spent seven years at university but never graduated. ‘I have a learning disability—I would call it a learning difference: dyslexia, they call it—and I had a terrible time with English, foreign languages and similar subjects. A degree in geology or biology required two years of a foreign language. There was no way in the world I could do that. In fact, I did not really pass English. So I could not earn a degree; I simply was not capable of it. But I took all the required courses, wrote a thesis and did all sorts of things. I have the education; I just do not have the piece of paper,’ he says."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "‘We definitely know that we are working on a very broad coastal plain, with streams and rivers bordered by conifers and hardwood plants; the areas between the rivers were probably covered with ferns. There were no grasses at all, only ferns and bushes—an unusual landscape, rather like taking the south-eastern United States, particularly Georgia and Florida, mixing it with the moors of England and flattening it out,’ he says. ‘Triceratops is very common; they are the cows of the Cretaceous and are everywhere. Duck-billed dinosaurs are relatively common, though not as common as Triceratops. T. rex, for a meat-eating dinosaur, is also very common. What we would consider the predator–prey ratio seems completely out of scale. Interestingly, the small dromaeosaurs, which we know were effective predators, have not been found.’"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "That is why he sees T. rex not as the lion of the Cretaceous savannah but as its vulture. ‘Look at the wildebeest that migrate across the Serengeti in Africa: of a million animals, about 200,000 die during the annual migration. That creates a tremendous supply of carrion. You therefore have hyenas and enormous numbers of scavenging vultures, but not many animals that are efficient predators. If T. rex were a top predator, especially considering its size, you would expect it to be extremely rare—much rarer than the small dromaeosaurs. Yet T. rex is everywhere; it is a dime a dozen,’ he says. A twelve-tonne T. rex is an enormous vulture, but Horner does not see the animal as clumsy. He stood by his theory and findings and remained committed to further research, but said he would, of course, reevaluate his view if additional evidence or alternative explanations emerged."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "He examined the leg bones of T. rex and compared the length of the thigh bone, or upper leg, with that of the shin bone, or lower leg. He found that the thigh bone was equal in length to, or slightly longer than, the shin bone and was much thicker and heavier. This suggested that the animal was built to be a slow walker rather than a fast runner. By contrast, fossils of fast-running predatory dinosaurs consistently showed a shin bone longer than the thigh bone. The same pattern can be observed in modern animals built to run fast, such as the ostrich and cheetah."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "He also studied the fossil teeth of T. rex and compared them with those of Velociraptor, putting another nail in the coffin of the ‘T. rex as hunter’ theory. Velociraptor’s teeth were like steak knives: sharp, razor-edged and capable of tearing through flesh with ease. T. rex’s teeth were huge and sharp at the tip but otherwise blunt. Propelled by enormous jaw muscles, they enabled the animal only to crush bones."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Using the evidence presented in his documentary, Horner argued that the image of T. rex as a ruthless hunting and killing machine is probably a myth. The scientific clues he uncovered suggested that T. rex was a slow, sluggish animal with poor vision and an extraordinary sense of smell. It often reached its ‘prey’ after the true hunters had finished feeding and sometimes had to frighten them away from a carcass. To do that, T. rex had to be ugly, menacing and smelly. This is true of nearly all scavengers: they are usually vile and unpleasant-looking."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 1–7 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n1 _________________ At the age of eight, Jack Horner knew exactly which dinosaur the bone from his\nfather’s former ranch belonged to.\n2 _________________ Jack Horner earned a university degree.\n3 _________________ Jack Horner believes that prey should greatly outnumber predators.\n4 _________________ The number of T. rex was equivalent to the number of vultures in the Serengeti.\n5 _________________ The hypothesis that T. rex was a top predator conflicts with the predator–prey\nratio Horner found.\n6 _________________ Jack Horner refused to consider any other interpretation of the T. rex evidence.\n7 _________________ Jack Horner was the first person in the world to discover T. rex bones."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nComplete the following summary of the paragraphs of Reading Passage, using NO MORE THAN TWO\nWORDS from the Reading Passage for each answer.\nWrite your answers in Boxes 8–13 on your answer sheet.\nJack Horner found that T. rex’s 8 _________________ was shorter than its thigh bone,\ndemonstrating that it was actually a 9 _________________, unlike other swift animals such as the\nostrich or 10 _________________, which were built to 11 _________________. Another piece of\nevidence supporting his idea was that T. rex’s teeth were rather 12 _________________, allowing it\nonly to 13 _________________ hard bones instead of tearing flesh like Velociraptor."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ At the age of eight, Jack Horner knew exactly which dinosaur the bone from his father’s former ranch belonged to.",
+      "translation": "Jack Horner 八歲時，已經準確知道父親舊牧場那塊骨頭屬於哪種恐龍。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Jack Horner earned a university degree.",
+      "translation": "Jack Horner 取得了大學學位。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Jack Horner believes that prey should greatly outnumber predators.",
+      "translation": "Jack Horner 認為獵物的數量應該大大多於捕食者。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The number of T. rex was equivalent to the number of vultures in the Serengeti.",
+      "translation": "T. rex 的數量和 Serengeti 的禿鷲數量相等。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The hypothesis that T. rex was a top predator conflicts with the predator–prey ratio Horner found.",
+      "translation": "T. rex 是頂級捕食者這個假說，和 Horner 發現的捕食者—獵物比例相衝突。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Jack Horner refused to consider any other interpretation of the T. rex evidence.",
+      "translation": "Jack Horner 拒絕考慮任何其他對 T. rex 證據的解釋。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Jack Horner was the first person in the world to discover T. rex bones.",
+      "translation": "Jack Horner 是世界上第一個發現 T. rex 骨頭的人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "Jack Horner 發現 T. rex 的 ______ 比 thigh bone 短。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "這證明 T. rex 實際上是一種 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "不像其他快速動物，例如 ostrich 或 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "牠們的身體構造適合 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "支持他觀點的另一項證據是，T. rex 的牙齒相當 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "這只容許牠 ______ 堅硬骨頭，而不能像 Velociraptor 一樣撕裂肉。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-045/page-4.jpg"
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "id": "p2-093",
+  "catalogueId": "p2-093",
+  "title": "British Universities Seek Quantity and Quality",
+  "sourceHeading": "British Universities Seek Quantity and Quality",
+  "passage": 2,
+  "practice": 93,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-093-british-universities-seek-quantity-and-quality",
+  "source": {
+    "filename": "Practice 93 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "c46eb7937f85f7a03fbb64b5a69889fecba4f5301048e2195372de0e727d46bb"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Pity the poor British professor. Once upon a time in the halcyon 1960s, his students were a privileged few, an academic elite drawn from the top four per cent of the population. New university arrivals were literate and numerate; crimes against grammar were the exception rather than the rule. According to a new comprehensive survey of British university faculty and staff, all that has changed. “They [incoming students] don’t know how to write essays; they just assemble bits from the Internet,” commented a disgruntled Oxford tutor. “Even the cream of candidates do not necessarily know how to use an apostrophe,” added another."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The decline in student competence parallels a dramatic increase in British university and college enrolment over the past decade, spurred in recent years by Prime Minister Tony Blair’s push for half of all young Britons to obtain a university degree. As professors and business owners alike decry the quality of university students and graduates, more than a few observers are questioning the wisdom of packing ivory towers with the masses. Students themselves may begin to question whether higher education is overvalued, with tuition rates set to rise steeply next fall."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "British universities and colleges are teeming with almost 2.5 million young adults, a 12-fold increase over 1960s numbers, and up almost fifty per cent over the past decade alone. A report published last month for the Association of Graduate Recruiters found that almost half of the top 200 employers of university graduates were unhappy with the calibre of candidates. The recent survey, conducted by Oxford University and Universities & Colleges Admissions Service (UCAS), listed a catalogue of complaints about freshmen which had led in some cases to year-long courses being deferred by a year."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "“You are getting students going to higher education now who wouldn’t have done so 20 years ago, and in some ways that’s a good thing, as it widens opportunity,” says Geoff Hayward, lecturer at Oxford University’s educational studies department. There were, he adds, “genuine concerns about young people and their capacity to benefit from higher education”. Part of the problem, Mr Hayward says, lies in the way teenagers are taught in school, prepped assiduously for exams at the expense of broader understanding. Despite the students’ academic failings, the Oxford/UCAS survey did find they were more tech-savvy and better at oral communication than their predecessors."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Nevertheless, concerns about the state of Britain’s university system are deepening this year as its funding faces one of its biggest shake-ups in decades. Following the lead of America, Australia, and New Zealand among others, universities will introduce a new annual £3,000 ($6,000) tuition fee for students next year – nearly triple the current fee. The charge, brought in by the government to drum up cash for a perennially underfunded sector, is expected to saddle graduates with debts of at least £12,000 ($24,000), according to the National Union of Students (NUS), making some think twice about whether to study. Already, official figures show the number of university applicants fell this year for the first time in six years, by 3.4 per cent."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "“We’ve said all along that this policy will deter prospective students from going to university,” says Julian Nicholds, NUS vice-president for education. “About 13,000 fewer prospective students have applied this year, and that is only attributable to the threat of debt in the future.” For the government, the fall in applicants is slightly awkward. Tony Blair’s Labour administration has committed itself to boosting the number of young people in higher education to fifty per cent by 2010. That might prove tricky if teenagers – and their parents – are deterred by the burgeoning cost of study."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Alison Wolf, an expert at King’s College London and author of a book called Does Education Matter? concedes that the added fees might make students think twice but says the price increase won’t turn them away. “When a degree has become as important as it has in our society, all the evidence is that fees will not have an impact because it’s still economically worthwhile to get a degree,” says Ms Wolf. Estimates suggest graduates will still earn as much as £400,000 ($800,000) more over a lifetime than non-graduates; a little debt will be worth it in the long run, she says."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Bill Rammell, higher education minister, says Blair’s target of fifty per cent enrolment is “an economic and social necessity”. He also points out that by 2012, an estimated 6.8 million graduate jobs will have been created, requiring increasing numbers of university-educated workers. “It is therefore crucial that we are able to produce sufficient numbers of highly skilled, employable graduates to fill those posts,” says Mr Rammell. “Most industrialised countries have targets to expand university numbers.”"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "However, Wolf says the government’s fifty per cent target is “nuts”. “There is no evidence that it is important for economic growth,” she contends. “Switzerland is the richest country in Europe and has one of the lowest numbers of graduates.” A market-based society, she says, is capable of working out what kind of workers it needs without government-mandated quotas, which may end up encouraging people to go to university who might do better pursuing vocational endeavours. “It would make more sense for society if lots of people didn’t go to university for the wrong reasons,” she says, “but as long as employers continue to use degrees as a filter device for screening candidates, demand for degrees will remain high.”"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has nine paragraphs, A–I.\nWhich paragraph does each of the following headings best fit?\n14 _________________ Higher fees\n15 _________________ Many employers unhappy\n16 _________________ Government’s push for numbers\n17 _________________ Paying is worth it"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nWrite the corresponding letters in answer boxes 18–22 in any order.\n A Higher education is overvalued.\n B Certain students have had to postpone taking courses.\n C Students nowadays are better at using technology.\n D The number of university applications has declined this year.\n E The government wants 50% of young people in higher education.\n F Alison Wolf agrees with Julian Nicholds.\n G Bill Rammell agrees with Tony Blair.\n H Switzerland is following Britain’s example."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nAccording to the information given in the text, choose the correct answer or answers\nfrom the choices given.\n\n\n23 University students nowadays are criticised for their lack of\n A mathematical ability.\n B essay writing ability.\n C criminal behaviour.\n\n\n24 Geoff Hayward is concerned about\n A the quality of students.\n B the ability of students to communicate properly.\n C schools focusing too much on examinations.\n\n\n25 Bill Rammell points out that\n A Britain doesn’t have enough graduates.\n B there are 6.8 million graduates in Britain.\n C other countries want to increase the number of graduates.\n\n\n26 Wolf believes\n A Switzerland is better than Britain.\n B market forces should determine how many people go to university.\n C employers use degrees to shorten lists of applicants."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Higher fees",
+      "translation": "更高學費。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Many employers unhappy",
+      "translation": "很多僱主不滿。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Government’s push for numbers",
+      "translation": "政府推動增加入讀人數。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Paying is worth it",
+      "translation": "付錢讀大學是值得的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "隨著下個秋季學費將大幅上升，學生自己也可能開始質疑高等教育是否被高估。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "隨著下個秋季學費將大幅上升，學生自己也可能開始質疑高等教育是否被高估。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "隨著下個秋季學費將大幅上升，學生自己也可能開始質疑高等教育是否被高估。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "隨著下個秋季學費將大幅上升，學生自己也可能開始質疑高等教育是否被高估。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "隨著下個秋季學費將大幅上升，學生自己也可能開始質疑高等教育是否被高估。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "University students nowadays are criticised for their lack of",
+      "translation": "現今大學生被批評缺乏甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Geoff Hayward is concerned about",
+      "translation": "Geoff Hayward 擔心甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Bill Rammell points out that",
+      "translation": "Bill Rammell 指出甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Wolf believes",
+      "translation": "Wolf 認為甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-093/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-093/page-6.jpg"
+  ]
+}

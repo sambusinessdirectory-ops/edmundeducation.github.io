@@ -1,0 +1,207 @@
+{
+  "id": "p1-012",
+  "catalogueId": "p1-012",
+  "title": "MOUNT EVEREST AND HILLARY",
+  "sourceHeading": "MOUNT EVEREST AND HILLARY",
+  "passage": 1,
+  "practice": 12,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-012-mount-everest-and-hillary",
+  "source": {
+    "filename": "Practice 12 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "e6968df643b89e21112c063ec86caa130221976082e4ece950cddca60c5fe9cf"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Mount Everest, also known as Sagarmartha (Goddess of the Sky), is 8,348 metres tall, the highest mountain on earth above sea level. Formed about 60 million years ago and lying between Tibet and Nepal, Mount Everest appeals to climbers of every level, from novice to experienced climber. Each mountaineer pays a considerable amount of money to an experienced guide to help them achieve a successful climb. Everest was given its official English name in 1865 by the Royal Geographic Society upon recommendation of Andrew Waugh, the British Surveyor General of India at the time."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "When Everest was officially announced as the world’s highest mountain in 1852, it won interest from people all over the world, and the idea of climbing all (lie way to the summit was viewed as the ultimate feat. Nobody was able to climb Everest until 1920 when Tibet first opened its borders to outsiders, and between 1920 and 1952, seven major expeditions failed to reach the tip of Mount Everest, In fact, the mountain has a history of adversity and failure. With advances in climbing equipment in the last ten years or so, and more experienced guides, the fatality rates have dropped from 37% in 1990 to 4% in 2004. Nonetheless, the deadliest year in Mount Everest’s history was 1996, when 19 people died near the summit."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "In 1924, Mount Everest claimed the lives of its first two climbers. George Mallory and Andrew Irvine were two British climbers, attempting to reach the summit. The men were last seen heading for the top of the mountain until clouds surrounded Everest and they disappeared. Mallory’s body was not seen again until 75 years on, in May of 1999, and Irvine’s body is yet to be found. There is still no evidence as to whether these two men made it to the top or not, although disputes rages on, Those that believe the pair were the first; to climb Everest point to two specific points, firstly, Mallory’s daughter has always said that Mallory carried a photograph of his wife on his person with the intention of leaving it on the summit when he reached it. This photo was not found on the body when it was discovered. Secondly, Mallory’s snow goggles were in his pocket when the body was found, indicating that he died at night. This implies that he and Irvine had made a push for the summit and were descending very late in the day. Given their known departure time and movements, had they not made the summit, it is unlikely that they would have still been out by nightfall."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The first time the actual peak of this monstrous mountain was reached was in 1953, in a combined effort by Sir Edmund Hillary and Tenzing Norgay. On the 29th of May that year, the duo conquered this epic mountain, standing at the highest point in the world for a brief 15 minutes. After a brief but fruitless search for evidence of the 1924 Mallory expedition, they buried a cross and some candy in the snow, taking a few photographs of the historic event. As Norgay had never operated a camera, there are no photographs of Hillary on top of the mountain, just shots of Norgay, and some additional photos looking down the mountain, ensuring evidence of their conquest and that the ascent was not faked."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "When the news reached London on June 2nd, Sir Edmund Hillary was knighted in the Order of the British Empire and Norgay (a subject of the King of Nepal) was granted the George Medai by the UK, Sir Hillary turned to Antarctic exploration and led the New Zealand section of the Trans-Antarctic expedition from 1955 to 1958. In 1958, he took part in a mechanised expedition to the South Pole. Hillary continued to organise further mountain- climbing expeditions but, as the years passed, he became more and more concerned with the welfare of the Nepalese people. In the 1960s, he returned to Nepal, to aid in the development of the society, building clinics, hospitals and schools. After conquering Everest, Sir Edmund Hillary devoted most of his life to helping the Sherpa people of Nepal through the Himalayan Trust."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In January 2007, Sir Edmund Hillary went to Antarctica to commemorate the 50th anniversary of the founding of Scott Base. He flew to the station on 18 January 2007 with a delegation including the Prime Minister. On the 22nd of April 2007, while on a trip to Kathmandu, he was reported to have suffered a fall. There was no comment on the nature of his illness and lie did not immediately seek treatment. He was hospitalized after returning to New Zealand. Sadly, Sir Edmund Hillary died of a heart attack on the morning of January the 11th 2008. Hillary’s life was marked by wonderful achievements, his giving nature, grand discovery, and excitement. But he was a humble man who did not admit to being the first man to reach the summit of Everest until long after 1386, well after the death of his climbing companion Tenzing Norgay."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The latest record for climbing Mount Everest was set on the 30th of May in 2005 by Nepalese Mona Mulepati and PemDorje Sherpa, who were the first couple to get married on top of Mount Everest."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–12"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\n\nAnswer the questions below using NO MORE THAN THREE WORDS AND/OR A\nNUMBER from the passage for each answer.\n\nWrite your answers in boxes 1 – 6 on your answer sheet.\n\nWho suggested that the name Everest be used to refer to the mountain?\n\n1 ________________\n\n\nWhich country prevented explorers climbing Everest until 1920?\n\n2 ________________\n\n\nWhat has not yet been recovered?\n\n3 ________________\n\n\nWhat was not found on Mallory’s body that indicates he may have reached the summit?\n\n4 ________________\n\n\nWho was photographed at the top of the mountain?\n\n5 ________________\n\n\nWhat was the name of Hillary’s charitable organisation?\n\n6 ________________"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 12,
+      "text": "Questions 7–12\n\nDo the following statements agree with the information given in the reading passage?\n\nIn boxes 7- 12 on your answer sheet write\n\n    TRUE           if the statement agrees with the information\n\n\n    FALSE          if the statement contradicts the information\n\n\n    NOT GIVEN      If there is no information on this\n\n\n\n7 ________________ Mortality rates on Everest have consistently declined since 1990.\n\n\n8 ________________ Hillary found evidence of the Mallory expedition.\n\n\n9 ________________\nPhotographs were taken from the summit as proof of the Hillary/ Norgay climb.\n\n\n10 ________________\nBoth Hillary and Norgay received recognition of their achievement from Britain.\n\n\n11 ________________\nHillary was the first person to reach the South Pole by mechanised transport.\n\n\n12 ________________\nHillary’s death was attributed to an accident that occurred in Kathmandu."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "________________ Which country prevented explorers climbing Everest until 1920?",
+      "translation": "是誰建議使用 Everest 這個名稱來指稱這座山？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "________________ What has not yet been recovered?",
+      "translation": "直到 1920 年以前，是哪一個國家阻止探險家攀登 Everest？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "________________ What was not found on Mallory’s body that indicates he may have reached the summit?",
+      "translation": "有甚麼至今仍未被尋獲？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "________________ Who was photographed at the top of the mountain?",
+      "translation": "在 Mallory 的遺體上，哪一樣沒有被發現的東西顯示他可能曾到達山頂？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "text",
+      "prompt": "________________ What was the name of Hillary’s charitable organisation?",
+      "translation": "誰被拍到在山頂？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "text",
+      "prompt": "________________",
+      "translation": "Hillary 的慈善組織名稱是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "________________ Mortality rates on Everest have consistently declined since 1990.",
+      "translation": "自 1990 年以來，Everest 的死亡率一直持續下降。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "________________ Hillary found evidence of the Mallory expedition.",
+      "translation": "Hillary 找到了 Mallory 遠征隊的證據。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "________________ Photographs were taken from the summit as proof of the Hillary/ Norgay climb.",
+      "translation": "人們從山頂拍攝了照片，作為 Hillary / Norgay 成功登頂的證明。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "________________ Both Hillary and Norgay received recognition of their achievement from Britain.",
+      "translation": "Hillary 和 Norgay 都因他們的成就而獲得英國方面的表揚。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "________________ Hillary was the first person to reach the South Pole by mechanised transport.",
+      "translation": "Hillary 是第一位以機械化交通工具抵達 South Pole 的人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "________________ Hillary’s death was attributed to an accident that occurred in Kathmandu.",
+      "translation": "Hillary 的死亡被歸因於他在 Kathmandu 發生的一場意外。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-012/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-012/page-6.jpg"
+  ]
+}

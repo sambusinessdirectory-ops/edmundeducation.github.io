@@ -1,0 +1,248 @@
+{
+  "id": "p1-135",
+  "catalogueId": "p1-135",
+  "title": "The hidden lives of solitary bees",
+  "sourceHeading": "The Hidden Lives of Solitary Bees There are 275 different species of bee in Great Britain and Ireland. Apart from the familiar honeybee and 25 species of bumblebee, the rest are known as solitary bees.",
+  "passage": 1,
+  "practice": 135,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-135-the-hidden-lives-of-solitary-bees",
+  "source": {
+    "filename": "Practice 135 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "102b1d8e37f005ce971fd85ac0451cb582b0f71717bd21f0aad0b4a9424b02a3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Solitary bees are unlike ‘social’ honeybees and bumblebees, which live in large colonies consisting of a queen whose function is to lay the eggs, while the workers gather pollen and nectar to feed the tiny grubs. With solitary bees, there are typically just males and females. They mate, the male dies and the female makes a nest."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Ian Beavis is a naturalist and blogger with a mission to raise the profile of the many solitary bees, whose pollinating services are so important, yet so little recognised. Solitary bees inhabit gardens, parks, woodlands, fields and cliffs. In fact they represent 95 per cent of the world’s bee species. Leading wildlife illustrator Richard Lewington, best known for his beautiful paintings of butterflies, says, ‘Solitary bees are so useful to gardeners and commercially valuable. Yet until recently they barely registered in the public consciousness. I wanted to help publicise their vital role in our lives.’ The problem with solitary bees has long been one of identification—with more than 240 species to choose from, and no accessible guidebook, where do people start? So Richard Lewington has spent his spare time over the past few years working on a new guide to the bees of Great Britain and Ireland. This, amazingly, is the first book of its kind to be published for over a century."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "How do solitary bees live? A female solitary bee constructs a nest and then lays her eggs in individual cells, lining or sealing them with various materials depending on the species of bee—red mason bees use mud; leafcutter bees use sections of leaf. The female leaves what naturalists call a ‘parcel’ of pollen and nectar for each of her little grubs to feed on. When the female has laid all her eggs, she dies. The emerging grubs eat, grow and develop into adults the following year."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "While some bees are plentiful and widespread, others have been designated as rare or are very local in distribution. In 2013, Ian Beavis came across what has long been known as one of Britain’s rarest species, the banded mining bee. An impressive species with white hairs on its face, the banded mining bee nests in the ground, typically on steep banks. Ian Beavis explains that it always chooses bare earth because it doesn’t like having to eat through plant roots to make its nest. Females feed on a variety of plants, but seem particularly fond of yellow dandelions that bloom from spring to autumn."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Another bee that has attracted naturalists’ attention is the ivy bee. It was only identified as a distinct species in 1993. It is one of a number of bees that have been able to establish themselves in Britain due to the recent warmer winters. About the same size as a honeybee, with distinctive orange-yellow banding on its abdomen, it was initially thought to feed only on ivy, but has since been seen visiting other plants."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The discoveries about ivy bees show how rewarding the study of solitary bees can be, but the ivy bee is not the only species whose habits are changing. Ian Beavis believes we can see in solitary bees the beginning of social behaviour. He explains that many species make their nests close to each other in huge groups, and there are some, like Andrena scotica, in which several bees use the same entrance without becoming aggressive. It’s not difficult to see how this behaviour, which could be seen as the foundation of social behaviour, might evolve in the future into worker bees sharing care of the grubs. Indeed, some of Britain’s solitary bees, Lasioglossum malachurum for example, are already demonstrating this type of social behaviour. So will all solitary bees evolve into social insects? Not necessarily. According to Ian Beavis, there are advantages to social behaviour but there are also advantages to nesting alone. Bees that nest socially are targets for predators, diseases and parasites."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Pesticides can also pose a threat to solitary bees. At the University of Sussex in England, Beth Nicholls is conducting research into the effects of certain pesticides on the red mason bee. She explains, ‘We know that pesticides harm social bees, but very little research has been done into solitary bees.’ Honeybees fly throughout the summer, so they may be exposed to different levels of pesticides. But if the shorter flight period of solitary bees—the red mason bee only flies from March to May—coincides with peak pesticide levels, that might be disastrous. If the red mason bee declines dramatically, it could affect the fruit-growing industry. According to Beth Nicholls, it is much more efficient at pollinating orchard trees. Social bees carry pollen in ‘baskets’ on their back legs, but a female red mason bee carries it on the underside of her abdomen. This is a messier way of transporting it, and so more pollen is transferred to other flowers. The social bees’ method is much ‘tidier’, so once they have collected the pollen and tucked it away behind their legs, it won’t be dropped."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Solitary bees are all around us. We need to start paying attention to them before it’s too late."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 1–4 on your answer sheet.\n\n\n1 Ian Beavis and Richard Lewington both believe that solitary bees\n A are as interesting as many butterfly species.\n B have an extremely varied range of habitats.\n C should be appreciated much more widely.\n D are valued by many gardeners.\n\n\n2 What does the writer find surprising about the new book on bees?\n A It includes such a wide range of species.\n B Some of the species in it are hard to differentiate.\n C Richard Lewington gave up his main work to write it.\n D It had been so long since a similar guide was produced.\n\n\n3 Beth Nicholls explains that red mason bees\n A have been studied more extensively than other bees.\n B may suffer more from pesticides than social bees.\n C have an advantage because of when they fly.\n D have certain similarities with honeybees.\n\n\n4 Why does Beth Nicholls consider red mason bees valuable pollinators?\n A They regularly lose some of the pollen they are carrying.\n B They transport pollen with great care.\n C Their pollination season is longer than that of social bees.\n D The females collect most of the pollen."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nLook at the following statements (Questions 5–8) and the list of solitary bees below.\nMatch each statement with the correct bee, A–E.\nWrite the correct letter, A–E, in boxes 5–8 on your answer sheet.\nNB You may use any letter more than once.\n\n                                 List of Solitary Bees\n\n A                               The banded mining bee\n\n B                               The ivy bee\n\n C                               Andrena scotica\n\n D                               Lasioglossum malachurum\n\n E                               The red mason bee\n5 Some members of this species have started to contribute more to the care of the young.\n6 This species avoids areas covered with vegetation when selecting nest sites.\n7 This species has a favourite flower on which it feeds.\n8 This species has been found in Britain only in the past few years."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nThe Life of the Solitary Bee\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 9–13 on your answer sheet.\nFemale solitary bees make their nests with separate 9 _________________ where\nindividual eggs are deposited. Females try to ensure the survival of all their 10\n_________________. They do this by providing suitable food in what is referred to as a 11\n_________________. Solitary bees use a range of substances to make their nests\ncomfortable and secure, such as plant material or 12 _________________. Although some\nsolitary bees are common, certain species are thought to be 13 _________________.\nThe different solitary bees vary widely in their distribution: some are found throughout\nBritain, while others are much more geographically restricted."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Ian Beavis and Richard Lewington both believe that solitary bees",
+      "translation": "Ian Beavis 和 Richard Lewington 都認為 solitary bees……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "What does the writer find surprising about the new book on bees?",
+      "translation": "作者覺得這本新的蜜蜂書有甚麼令人驚訝？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Beth Nicholls explains that red mason bees",
+      "translation": "Beth Nicholls 解釋 red mason bees……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Why does Beth Nicholls consider red mason bees valuable pollinators?",
+      "translation": "Beth Nicholls 為甚麼認為 red mason bees 是有價值的授粉者？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "Some members of this species have started to contribute more to the care of the young.",
+      "translation": "這個物種中有些成員已開始更多參與照顧幼蟲或後代。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "This species avoids areas covered with vegetation when selecting nest sites.",
+      "translation": "這個物種選擇築巢地點時，會避開有植物覆蓋的地方。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "This species has a favourite flower on which it feeds.",
+      "translation": "這個物種有一種特別喜歡取食的花。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "This species has been found in Britain only in the past few years.",
+      "translation": "這個物種只是近年才在英國被發現或建立族群。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "雌性 solitary bees 會築巢，巢中有分開的 ______，個別卵會被放在其中。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "雌蜂會盡力確保牠們所有 ______ 能夠存活。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "牠們透過提供合適食物來做到這一點；這些食物被稱為一個 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "solitary bees 會用不同材料讓巢更舒適和安全，例如植物材料或 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "雖然有些 solitary bees 很常見，但某些物種被認為是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-135/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-135/page-5.jpg"
+  ]
+}

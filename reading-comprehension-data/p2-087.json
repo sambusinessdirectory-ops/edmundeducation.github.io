@@ -1,0 +1,240 @@
+{
+  "id": "p2-087",
+  "catalogueId": "p2-087",
+  "title": "Esperanto",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 87,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-087-esperanto",
+  "source": {
+    "filename": "Practice 87 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "7ab75df23b25b4217f5120a0c9582ed30112ff876fde9257532503185de23c63"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Esperanto Ĉu vi parolas Esperanton? Ne? Can you understand this? Should you be expected to? Depending on who you ask, between 10,000 and two million people in places all over the world could understand this sentence, and presumably reply in this same language. And it is not one that ever evolved through any natural process. To give it its technical name, it is a ‘constructed auxiliary language’. More specifically, it is ‘Esperanto’, and out of the several attempts throughout modern history to create artificial languages, Esperanto remains the most widely spoken."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "‘Widely spoken’ is a relative term here. Compared to any natural language, the number of Esperanto speakers remains pitiably small — a far cry from the high hopes of its inventor, Dr Ludwig Zamenhof, who was an eye doctor and had grown up in the racially divided Eastern European town of Bialystok. In this complex and uneasy mixture of Poles, Jews, Russians, and Germans, each speaking their own language, the idealistic Zamenhof lamented how these languages so obviously categorised the city’s residents into different, and often hostile, groups. He resolved to create an easily learnt and politically neutral language, one that would transcend nationality, ethnicity, race, colour, and creed. It would be a universal second language, and his first book detailing this idea was published in 1887."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Surprisingly perhaps, the concept quickly gained acceptance and a loyal following. It seems that in a linguistically divided Eastern Europe, many people possessed the same idealism which drove Zamenhof. From there it spread to the West and then into the Americas and Asia. Esperanto journals, magazines and clubs were formed, ultimately leading to the first world congress of Esperanto speakers in France, in 1905. These congresses have been held every year since then, apart from when world wars delayed proceedings. And today, Esperanto is still present, although very much under the radar. Although it has not achieved official-language status in any state or governing body, it is occasionally taught at schools and educational institutions on an informal or experimental basis."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "What actually keeps Esperanto going is the motivation of those who become interested. Language books, journals and various online and video-based self-learning technologies exist, as does an active speaking community, but the key question remains whether it is worth investing the time in acquiring the language. In other words, does it have any innate advantages over other languages or equip its speakers with a useful skill in life? The first question can be promptly answered. Proponents explain that, by being so simple and internally consistent, Esperanto is easy to learn and can be mastered in a fraction of the time needed for any conventional language."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "While we may accept that, the second question is far more problematic and raises further issues, the main one being whether the language is even necessary. Would international communication indeed be better if we all spoke Esperanto? Are there not other factors involved? And why cannot the English language take that role (which it virtually has)? Why divert state funds to support what may always remain a marginalised speech community, especially when there exist so many other languages spoken by far more people and offering far greater utility? The answers are emotional, complex, and confusing."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "One problem with Esperanto is that it is culturally European. Its vocabulary and internal rules of construction derive from European languages, making it difficult for Asian learners. There is also a large and imposing vocabulary, with many nouns rather idiosyncratically chosen, and a certain unnecessary complexity which Zamenhof (who was not a professional linguist) had not recognised. In 1894, he suggested a ‘reformed Esperanto’; however, the Esperanto speakers of that day were loath to alter a language which they had already mastered, rejecting Zamenhof’s proposals, and also those of a special French committee formed 13 years later to discuss the adoption of a standard international language."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "In the meantime, another artificial language had emerged. Called ‘Ido’, it was a product of various academics who embedded the changes that Esperanto was thought to need. This new language, sharing the same lofty goals, divided the support base of Esperanto. A large number defected to Ido, which then underwent further changes through committee after committee, eventually leading to the formation of an independent academy. However, Ido suffered a substantial decline following the death of its best-known advocate in a car accident and the advent of World War One. After the war, its most vocal proponent published his own constructed language, ‘Novial’, making the schism all too confusing, such that the original Esperanto quickly became the predominant language of its type."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Esperanto may lead the field, but it falls far short of the aim of both its creator and many of its speakers — that of a truly global second language uniting all in mutual understanding. Commitment to this high-minded goal, almost universally shared in the early days of the language, has mellowed among many followers, who are now content simply to participate in a special linguistic culture and community. The unlikelihood of achieving more than this was even admitted at an Esperanto convention in 1980, although many still cling to the pracelo, the ‘original goal’, of an official status and worldwide use. Will this ever be achieved? All I can say is estus agrable pensi tiel, sed preskaŭ certe ne estos."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nWrite TRUE, FALSE, or NOT GIVEN.\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n14 _________________ The number of Esperanto speakers is quite large.\n15 _________________ Zamenhof spoke many languages.\n16 _________________ Esperanto is easier to learn than other languages.\n17 _________________ Esperanto World Congresses have been held every year since 1905."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 21,
+      "text": "Questions 18–21\nComplete the sentences.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nThe different ethnic groups in Zamenhof’s hometown were frequently 18\n_________________\nThe first Esperanto speakers shared Zamenhof’s 19 _________________\nEnglish now essentially provides the means of 20 _________________\nOfficial support of Esperanto could be considered a waste of 21 _________________"
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nAnswer the questions.\nChoose the correct letter, E, I, or B.\n E                                                  Esperanto\n\n I                                                  Ido\n\n B                                                  Both\nWhich language\n22 _________ had many stages in its development?\n23 _________ had its development affected by World War One?\n24 _________ has some strange words?\n25 _________ was designed by many people?\n\n26 _________ has never achieved its aim?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ The number of Esperanto speakers is quite large.",
+      "translation": "Esperanto 使用者數量相當龐大。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Zamenhof spoke many languages.",
+      "translation": "Zamenhof 會說很多種語言。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Esperanto is easier to learn than other languages.",
+      "translation": "Esperanto 比其他語言更容易學。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Esperanto World Congresses have been held every year since 1905.",
+      "translation": "Esperanto World Congresses 自 1905 年以來每年都舉行。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "Zamenhof 家鄉的不同族群經常是 ______ 的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "最早的 Esperanto 使用者與 Zamenhof 共享他的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "English 現在基本上提供了 ______ 的方式。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "官方支持 Esperanto 可能被視為浪費 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ had many stages in its development?",
+      "translation": "哪一種語言在發展中經歷了很多階段？",
+      "options": [
+        "B",
+        "E",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ had its development affected by World War One?",
+      "translation": "哪一種語言的發展受到 World War One 影響？",
+      "options": [
+        "B",
+        "E",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ has some strange words?",
+      "translation": "哪一種語言有一些奇怪的詞？",
+      "options": [
+        "B",
+        "E",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ was designed by many people?",
+      "translation": "哪一種語言由很多人設計？",
+      "options": [
+        "B",
+        "E",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ has never achieved its aim?",
+      "translation": "哪一種語言從未達成其目標？",
+      "options": [
+        "B",
+        "E",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-087/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-087/page-5.jpg"
+  ]
+}

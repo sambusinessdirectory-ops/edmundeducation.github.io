@@ -1,0 +1,247 @@
+{
+  "id": "p2-142",
+  "catalogueId": "p2-142",
+  "title": "Global warming: Prevent poles from melting",
+  "sourceHeading": "Global Warming: Preventing the Poles from Melting",
+  "passage": 2,
+  "practice": 142,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-142-global-warming-prevent-poles-from-melting",
+  "source": {
+    "filename": "Practice 142 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8cbb8398e10605791335ad421ad0d7660b6c3f9028228b6f8bc3cab59d345661"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Such is our dependence on fossil fuels, and such is the volume of carbon dioxide we have already released into the atmosphere, that most climate scientists agree significant global warming is now inevitable. The best we can hope to do is keep it at a reasonable level, and even that is going to be an uphill task. At present, the only serious option on the table is to cut back our carbon emissions. While a few countries are making major strides, most are having great difficulty even stemming the rate of increase, let alone reversing it. Consequently, an increasing number of scientists are exploring alternatives. These all fall under the banner of geoengineering—generally defined as the intentional, large-scale manipulation of the environment."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Geoengineering has been shown to work, at least on a small and localised scale, for decades. May Day parades in Moscow have taken place under clear blue skies after aircraft deposited dry ice, silver iodide and cement powder to disperse clouds. Many schemes now proposed seek to do the opposite and reduce the amount of sunlight reaching the planet. One scheme aims to cool the Earth generally by releasing aerosol sprays into the stratosphere above the Arctic, creating clouds of sulphur dioxide that would cause global dimming. The idea is modelled on historical volcanic eruptions such as Mount Pinatubo in the Philippines in 1991, which produced a short-term drop of 0.5°C in global temperatures. Artillery, high-flying aircraft or balloons could deliver the aerosols."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Instead of concentrating on global cooling, other schemes focus on reversing polar melting. One idea is to bolster an ice cap by spraying it with water. Pumps would carry water from beneath the sea ice; the spray would emerge as snow or ice particles, producing thicker sea ice with a higher albedo—the proportion of sunlight reflected by a surface—and reflecting more summer radiation. Scientists have also considered blocking the flow of Greenland’s ice with reinforced cables to prevent icebergs from moving into the sea. Veli Albert Kallio, a Finnish scientist, says this is impractical because the force of the ice would eventually snap the cables and rapidly release a large quantity of frozen ice into the sea. Kallio believes, however, that cables like those used in suspension bridges might divert, rather than halt, the southward movement of ice from Spitsbergen. ‘It would stop the ice moving south, and local currents would see it float northwards,’ he says."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Several geoengineering ideas are being examined in the Russian Arctic. These include planting millions of birch trees: according to Kallio, their white bark would increase the amount of reflected sunlight. The loss of their leaves in winter would also allow snow to reflect radiation. By contrast, native evergreen pines tend to shade the snow and absorb radiation. Ice-breaking vessels could deliberately break up and scatter coastal sea ice in Arctic and Antarctic waters during their respective autumns. Diverting Russian rivers could also increase cold-water flow into ice-forming areas and slow warming. ‘You would need the wind to blow the right way,’ Kallio says, ‘but in the right conditions, letting ice float free and head north would enhance ice growth.’"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "But will such ideas ever be implemented? The main counterarguments are, first, that geoengineering is a ‘cop-out’ that allows us to continue living as we do rather than reducing carbon emissions; and, second, that even if a scheme works, its side effects may outweigh its advantages. There is also the daunting prospect of maintaining and repairing any scheme, as well as the consequences of technical failure. ‘I think all of us agree that if we were to end geoengineering on a given day, the planet would return to its pre-engineered condition very rapidly, probably within 10 to 20 years,’ says Dr Phil Rasch, chief scientist for climate change at the US-based Pacific Northwest National Laboratory. ‘That is certainly something to worry about. I would consider geoengineering only as a strategy to employ while we manage the transition to a non-fossil-fuel economy.’ ‘The risk with geoengineering projects is that you can overshoot,’ says Dr Dan Lunt of the University of Bristol. ‘You may bring global temperatures back to pre-industrial levels, but the poles could still be warmer than they should be and the tropics cooler than before industrialisation.’"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The principal reason the mainstream scientific community countenances geoengineering is that most researchers have little faith in politicians’ ability to agree on—and then introduce—the necessary carbon cuts. Even leading conservation organisations believe the subject is worth exploring. As climate-change adviser Dr Martin Sommerkorn says: ‘Human-induced climate change has brought humanity to a point where it is important not to exclude careful consideration of this topic and its possibilities, despite the potential drawbacks. If, over the coming years, science tells us that the planet’s climate sensitivity is even greater—and that is not unrealistic—then we may be best served by not having to start our thinking from scratch.’"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n14 The existence of geoengineering projects distracts from the real task of changing the way we\nlive.\n15 Circumstances in which geoengineering has demonstrated success.\n16 Frustrating maintenance problems associated with geoengineering projects.\n17 Support for geoengineering arising from a lack of confidence in governments.\n18 Greater success in fighting climate change in some parts of the world than in others."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 23,
+      "text": "Questions 19–23\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 19–23 on your answer sheet.\nGeoengineering Projects\n A range of geoengineering ideas has been proposed, aiming either to prevent the ice caps\n   from melting or to stop the general rise in global temperatures. One scheme to discourage\n   the melting of ice and snow involves introducing 19 _________________ to the Arctic\n   because of their colour. Ice could be encouraged to build up by dispersing it along the\n   coasts with special ships and changing the direction of some 20 _________________,\n   although this scheme depends on particular weather conditions. Another way of increasing\n   the amount of ice involves using 21 _________________ to bring water to the surface. A\n   scheme to stop ice moving would use 22 _________________, but this method is more\n   likely to prevent the ice from travelling in one direction than to stop it altogether. A proposal\n   for cooling global temperatures is based on what happened after 23 _________________\n   in the past and involves creating clouds of gas."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nLook at the following people (Questions 24–26) and the list of opinions below.\nMatch each person with the correct opinion, A–E.\nWrite the correct letter, A–E, in boxes 24–26 on your answer sheet.\n24 Phil Rasch\n25 Dan Lunt\n26 Martin Sommerkorn\n\n                          List of Opinions\n\n                          The problems associated with geoengineering should not prevent serious\n A\n                          consideration of the ideas.\n\n B                        Some geoengineering projects are more likely to succeed than others.\n\n C                        Geoengineering offers only short-term relief.\n\n                          A positive outcome of geoengineering may have a negative consequence\n D\n                          elsewhere.\n\n E                        The aims of most geoengineering projects are unclear."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "The existence of geoengineering projects distracts from the real task of changing the way we live.",
+      "translation": "geoengineering projects 的存在會令人分心，避開真正要做的事，也就是改變我們的生活方式。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Circumstances in which geoengineering has demonstrated success.",
+      "translation": "geoengineering 曾經展示成功的情況。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Frustrating maintenance problems associated with geoengineering projects.",
+      "translation": "geoengineering projects 所涉及的棘手維修問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Support for geoengineering arising from a lack of confidence in governments.",
+      "translation": "由於對政府缺乏信心，因此出現對 geoengineering 的支持。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Greater success in fighting climate change in some parts of the world than in others.",
+      "translation": "世界某些地方在對抗氣候變化方面比其他地方更成功。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "其中一個阻止冰雪融化的方案，是因為某物的顏色而把它們引入北極。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "可以用特殊船隻沿海岸分散海冰，並改變某些東西的方向，以促進冰的形成；不過這個方案取決於特定天氣條件。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "另一個增加冰量的方法，是使用某種工具把水帶到表面。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "一個阻止冰移動的方案會使用某種東西；但這個方法較可能阻止冰向某個方向移動，而非完全停止冰的移動。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "一個降低全球溫度的提案，基於過去某事件之後發生的情況，並涉及製造氣體雲。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Phil Rasch",
+      "translation": "把 Phil Rasch 配對到最符合他的意見。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Dan Lunt",
+      "translation": "把 Dan Lunt 配對到最符合他的意見。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Martin Sommerkorn List of Opinions The problems associated with geoengineering should not prevent serious",
+      "translation": "把 Martin Sommerkorn 配對到最符合他的意見。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-142/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-142/page-5.jpg"
+  ]
+}

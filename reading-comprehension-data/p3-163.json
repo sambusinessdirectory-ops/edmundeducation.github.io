@@ -1,0 +1,357 @@
+{
+  "id": "p3-163",
+  "catalogueId": "p3-163",
+  "title": "Tele-working",
+  "sourceHeading": "Teleworking",
+  "passage": 3,
+  "practice": 163,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-163-tele-working",
+  "source": {
+    "filename": "Practice 163 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "6d177f5bb5e8bbc6e5c7b26bdf1acc1c479b82b890869d20d3b5638d2c313815"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Teleworking—working remotely from an office—is said to have many benefits for organisations, the environment and society. It provokes mixed reactions from its acolytes and those that experience it first-hand. Whether you like it or not, it is true to say that work is no longer dependent on geography and this opens up a range of opportunities for working in new ways and environments."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The surveys show “that the productivity increase is not primarily because of longer working hours (as is sometimes suggested). Although prevalent, working more is just one of a number of influencing factors, and not the most important.” An unusual comparison of the performance of teleworkers with a closely matched control group of non-teleworkers found that not only was productivity higher but also that absenteeism and error rates were lower."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Two other areas in which SUSTEL has added to the economic impact knowledge base are absenteeism and space utilisation. In the case of absenteeism, over 60 per cent of those surveyed stated that telework had enabled them to work when they were prevented from reaching a work location (usually through illness or transport problems). In around half the cases, respondents also identified substantial reductions in space requirements – to the point where one organisation had completely done away with a central office. Regarding non-commuting weekend travel, home-based workers, who include a substantial population of people who are not telecommuters, spend more time shopping away from home than traditional workers."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Half-time telecommuting could reduce carbon emissions by over 51 million metric tons a year—the equivalent of taking all of New York’s commuters off the road. Additional carbon footprint savings will come from reduced office energy, roadway repairs, urban heating, office construction, business travel, and paper usage (as electronic documents replace paper). Although energy utilization will continue to grow as we expand our industry and improve our standard of living, efficient use of energy will always be of prime importance. By telecommuting to work instead of using more conventional methods, there is a great potential to save energy. The three major areas where energy can be conserved are vehicle-related materials and resources; highway-related materials and resources; and work-related materials and resources."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "A tremendous amount of energy is required to produce transportation equipment such as automobiles, buses, trains and jet aircraft. If telecommuting is promoted, there will be less use of this equipment and less energy will be required for production, maintenance and repair of this equipment. Fuel resources and gases needed to operate this equipment will be reduced. Building, repairing, and maintaining highways also require a great deal of energy, not only to operate construction and repair equipment but also to manufacture and transport the required materials. An increase in the percentage of people telecommuting to work will decrease the need for expanded highways and associated road maintenance. The first two areas are related to getting to work."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Socially, the SUSTEL research found that most survey respondents felt that teleworking gave them a better quality of life and work-life balance. Many also reported health benefits. A significant number also stated that they were using local services more and becoming more involved in their local communities. The loss of teamwork and team spirit within teleworking populations was tackled through ideas such as Oracle’s ‘FUNctional’ offices. Designed to increase communication and interaction when people are at the office, they are bright and focused around a central cafe to stimulate ideas and face-to-face contact."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The finding that many teleworkers report both longer working hours and a better quality of life is paradoxical. More time working is usually associated with increased stress, domestic tension and other factors that reduce the quality of life. One possible explanation is that, for many individuals, their increased working hours will be less than the time they have saved in commuting. Hence, they still have more time available for family and other activities. For some, the stress associated with commuting (especially for long distances) may be less than that arising from additional working time. Perhaps most significantly, teleworking can in effect create time through opportunities for multi-tasking or greater control of activities. As one survey respondent noted, “Although the amount of time has not changed it has made the weekends freer, as domestic activities can be fitted in during lunchtimes or early morning.”"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "When you work in an office or a cubicle and something goes wrong with any hardware or software you have the option of calling in the IT man. In fact, all of the equipment that you use at the office is supported by technical staff. That means that regular updates and maintenance for various and sundry office tools like land-line phones, computers, internet connections, laptops, cell phones, printers, and other office equipment are all up to you when you work from home. You will surely encounter technical problems; when you do, where will you get the support and help you need? If your computer hard drive crashed today, would you have the funds to replace it?"
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–35",
+    "g36": "Questions 36–39",
+    "g40": "Questions 40–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 35,
+      "text": "Questions 28–35\nComplete the summary using the list of words, A–N below.\nWrite the correct letter, A–N, in boxes 28–35 on your answer sheet.\n A                        pollution\n\n B                        internet energy\n\n C                        paper usage\n\n D                        construction and maintenance\n\n E                        materials\n\n F                        shopping\n\n G                        productivity\n\n H                        fuels and gases\n\n I                        electronically\n\n J                        IT\n\n K                        equipment\n\n L                        company\n\n M                        work-related\n\n N                        geography\n\n\nTeleworking is said to have many benefits for both society and companies. A\nsurvey found that telecommuters spend more time 28 __________ than traditional\nworkers during non-commuting weekend travel. Teleworking also benefits the\nenvironment by reducing 29 __________ through decreased road repairs, urban\nheating, and even 30 __________, because office staff can send documents 31\n__________. In addition, vehicle-related, highway-related, and 32 __________\nmaterials will be saved. Traditionally, a great deal of energy is required to produce\n33 __________, including public transport and private cars. With the rise of\ntelecommuting, resources and 34 __________ will be saved. Energy and materials\nused in 35 __________ will also be conserved."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 39,
+      "text": "Questions 36–39\nComplete each sentence with the correct ending, A–F, below.\nWrite the correct letter, A–F, in boxes 36–39 on your answer sheet.\n A                         stress and tension\n\n B                         consumption of goods\n\n C                         the problem of less communication with colleagues\n\n D                         problems when equipment does not work\n\n E                         transport equipment such as automobiles\n\n F                         technical support staff\n36 __________ More working time is often connected with:\n37 __________ Oracle’s ‘FUNctional’ office concept aims to improve:\n38 __________ When you work in an office, equipment such as computers and printers is\nmaintained by:\n39 __________ When you work from home and use hardware and software:"
+    },
+    {
+      "id": "g40",
+      "start": 40,
+      "end": 40,
+      "text": "Question 40\nChoose the correct letter, A, B, C, or D.\n\n\n\n\n40. What is the author’s attitude towards teleworking?\n\nA. The author is surprised by its rapid growth.\nB. The author is unconcerned about its future development.\nC. The author believes it is generally positive and encouraging.\nD. The author is worried about the economic problems that may arise."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "在非通勤的周末出行中，遠距工作者比傳統工作者花更多時間 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "遠距工作也透過減少道路維修、城市熱化等方式，降低 ______，從而有利環境。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "透過減少道路維修、城市熱化，甚至減少 ______，因為辦公室員工可以 ______ 發送文件。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "因為辦公室員工可以 ______ 發送文件。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "此外，車輛相關、公路相關和 ______ 材料將會被節省。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________, including public transport and private cars. With the rise of telecommuting, resources and 34 __________ will be saved. Energy and materials used in 35 __________ will also be conserved.",
+      "translation": "傳統上，生產 ______ 需要大量能源，包括公共交通和私家車。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "隨著遠距工作增加，資源以及 ______ 將會被節省。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "用於 ______ 的能源和材料也會被節省。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ More working time is often connected with:",
+      "translation": "更長工作時間通常和甚麼有關？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ Oracle’s ‘FUNctional’ office concept aims to improve:",
+      "translation": "Oracle 的 “FUNctional” 辦公室概念旨在改善甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ When you work in an office, equipment such as computers and printers is maintained by:",
+      "translation": "當你在辦公室工作時，電腦和打印機等設備由誰維護？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "__________ When you work from home and use hardware and software:",
+      "translation": "當你在家工作並使用硬件和軟件時，會怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g40",
+      "type": "choice",
+      "prompt": "What is the author’s attitude towards teleworking?",
+      "translation": "作者對遠距工作的態度是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-163/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-163/page-5.jpg"
+  ]
+}

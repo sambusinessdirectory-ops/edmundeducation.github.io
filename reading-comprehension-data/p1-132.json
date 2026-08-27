@@ -1,0 +1,310 @@
+{
+  "id": "p1-132",
+  "catalogueId": "p1-132",
+  "title": "Father of modern management",
+  "sourceHeading": "Father of Modern Management",
+  "passage": 1,
+  "practice": 132,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-132-father-of-modern-management",
+  "source": {
+    "filename": "Practice 132 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "4a0571c4623f802cc3ec5a5d3dc2715ca01724dc26bcc0c986c1039ce3cad4bc"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Peter Drucker was one of the most important management thinkers of the past hundred years. He wrote about 40 books and thousands of articles and he never rested in his mission to persuade the world that management matters. “Management is an organ of institutions … the organ that converts a mob into an organisation, and human efforts into performance.” Did he succeed? The range of his influence was extraordinary. Wherever people grapple with tricky management problems, from big organisations to small ones, from the public sector to the private, and increasingly in the voluntary sector, you can find Drucker’s fingerprints."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "His first two books—The End of Economic Man (1939) and The Future of Industrial Man (1942)—had their admirers, including Winston Churchill, but they annoyed academic critics by ranging so widely over so many different subjects. Still, the second of these books attracted attention with its passionate insistence that companies had a social dimension as well as an economic purpose. His third book, The Concept of the Corporation, became an instant bestseller and has remained in print ever since."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The two most interesting arguments in The Concept of the Corporation actually had little to do with the decentralisation fad. They were to dominate his work. The first had to do with “empowering” workers. Drucker believed in treating workers as resources rather than just as costs. He was a harsh critic of the assembly-line system of production that then dominated the manufacturing sector—partly because assembly lines moved at the speed of the slowest and partly because they failed to engage the creativity of individual workers. The second argument had to do with the rise of knowledge workers. Drucker argued that the world is moving from an “economy of goods” to an economy of “knowledge”—and from a society dominated by an industrial proletariat to one dominated by brain workers. He insisted that this had profound implications for both managers and politicians. Managers had to stop treating workers like cogs in a huge inhuman machine and start treating them as brain workers. In turn, politicians had to realise that knowledge, and hence education, was the single most important resource for any advanced society. Yet Drucker also thought that this economy had implications for knowledge workers themselves. They had to come to terms with the fact that they were neither “bosses” nor “workers”, but something in between: entrepreneurs who had responsibility for developing their most important resource, brainpower, and who also needed to take more control of their own careers, including their pension plans."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "However, there was also a hard side to his work. Drucker was responsible for inventing one of the rational school of management’s most successful products—“management by objectives”. In one of his most substantial works, The Practice of Management (1954), he emphasised the importance of managers and corporations setting clear long-term objectives and then translating those long-term objectives into more immediate goals. He argued that firms should have an elite corps of general managers, who set these long-term objectives, and then a group of more specialised managers. For his critics, this was a retreat from his earlier emphasis on the soft side of management. For Drucker it was all perfectly consistent: if you rely too much on empowerment you risk anarchy, whereas if you rely too much on command-and-control you sacrifice creativity. The trick is for managers to set long-term goals, but then allow their employees to work out ways of achieving those goals. If Drucker helped make management a global industry, he also helped push it beyond its business base. He was emphatically a management thinker, not just a business one. He believed that management is “the defining organ of all modern institutions”, not just corporations."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "There are three persistent criticisms of Drucker’s work. The first is that he focused on big organisations rather than small ones. The Concept of the Corporation was in many ways a fanfare to big organisations. As Drucker said, “We know today that in modern industrial production, particularly in modern mass production, the small unit is not only inefficient, it cannot produce at all.” The book helped to launch the “big organisation boom” that dominated business thinking for the next 20 years. The second criticism is that Drucker’s enthusiasm for management by objectives helped to lead business down a dead end. Most of today’s best organisations have abandoned this idea—at least in the mechanistic form that it rapidly assumed. They prefer to allow ideas, including ideas for long-term strategies, to bubble up from the bottom and middle of the organisations rather than being imposed from on high. Thirdly, Drucker is criticised for being a maverick who has increasingly been left behind by the increasing rigour of his chosen field. There is no single area of academic management theory that he made his own."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "There is some truth in the first two arguments. Drucker never wrote anything as good as The Concept of the Corporation on entrepreneurial start-ups. Drucker’s work on management by objectives sits uneasily with his earlier and later writings on the importance of knowledge workers and self-directed teams. But the third argument is short-sighted and unfair because it ignores Drucker’s pioneering role in creating the modern profession of management. He produced one of the first systematic studies of a big company. He pioneered the idea that ideas can help galvanise companies. The biggest problem with evaluating Drucker’s influence is that so many of his ideas have passed into conventional wisdom. In other words, he is the victim of his own success. His writings on the importance of knowledge workers and empowerment may sound a little banal today. But they certainly weren’t banal when he first dreamed them up in the 1940s, or when they were first put into practice in the Anglo-Saxon world in the 1980s. Moreover, Drucker continued to produce new ideas into his 90s. His work on the management of voluntary organisations remained at the cutting edge."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–10",
+    "g11": "Questions 11–12",
+    "g13": "Questions 13–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nThe reading passage has six paragraphs, A–F.\nChoose the correct heading for each paragraph from the list below.\nWrite the correct number, i–ix, in boxes 1–6 on your answer sheet.\n\n                            List of Headings\n\n i                          The popularity and impact of Drucker’s work\n\n ii                         Finding fault with Drucker\n\n iii                        The impact of economic globalisation\n\n iv                         Government regulation of business\n\n v                          Drucker’s early publications\n\n vi                         Drucker’s view of balanced management\n\n vii                        Drucker’s rejection of big business\n\n viii                       An appreciation of the strengths and weaknesses of Drucker’s work\n\n ix                         The changing role of the employee\n1 Paragraph A\n2 Paragraph B\n3 Paragraph C\n4 Paragraph D\n5 Paragraph E\n6 Paragraph F"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 10,
+      "text": "Questions 7–10\nDo the following statements agree with the views of the writer in the reading passage?\nIn boxes 7–10 on your answer sheet, write\n\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n7 Drucker believed that employees should have the same status as employers in a company.\n8 Drucker argued that managers and politicians would dominate the economy during a social transition.\n9 Drucker supported the idea that workers should not define themselves solely by their employment\nrelationship and should take responsibility for developing their intellectual resources.\n10 Drucker’s work on management is out of date in modern times."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 12,
+      "text": "Questions 11–12\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 11 and 12 on your answer sheet.\nWhich TWO of the following statements are true of Drucker’s views?\n  A High-ranking executives and workers should occupy balanced positions in management practice.\n  B Young executives should have opportunities to begin in low-level jobs.\n  C Greater emphasis should be placed on developing trade unions.\n  D Management should provide workers with tools for self-appraisal instead of controlling them through\n    external forces.\n  E Leaders should look beyond the details of management and establish strategic goals."
+    },
+    {
+      "id": "g13",
+      "start": 13,
+      "end": 14,
+      "text": "Questions 13–14\nChoose TWO letters, A–E.\nWrite the correct letters in boxes 13 and 14 on your answer sheet.\nWhich TWO criticisms of Drucker and his views are mentioned in the passage?\n  A His work focuses too much on large organisations and ignores small ones.\n  B His work is too broad and lacks precision and factual accuracy.\n  C He placed greater emphasis on objectives set by corporate executives than on those proposed by\n    ordinary workers.\n  D He behaved like a maverick and did not establish his own school of management.\n  E He overstated the case for knowledge workers when warning businesses to prepare."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph A",
+      "translation": "選出 A 段最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "選出 B 段最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph C",
+      "translation": "選出 C 段最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph D",
+      "translation": "選出 D 段最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "選出 E 段最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "選出 F 段最合適的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Drucker believed that employees should have the same status as employers in a company.",
+      "translation": "Drucker 相信員工在公司中應該和僱主有相同地位。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Drucker argued that managers and politicians would dominate the economy during a social transition.",
+      "translation": "Drucker 認為在社會轉型期間，經濟將由管理者和政治人物主導。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Drucker supported the idea that workers should not define themselves solely by their employment relationship and should take responsibility for developing their intellectual resources.",
+      "translation": "Drucker 支持這個想法：工作者不應只用僱傭關係界定自己，也應負責發展自己的智力資源。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Drucker’s work on management is out of date in modern times.",
+      "translation": "Drucker 的管理研究在現代已經過時。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "以下哪兩項符合 Drucker 的觀點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "以下哪兩項符合 Drucker 的觀點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g13",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "文章提到以下哪兩項對 Drucker 及其觀點的批評？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g13",
+      "type": "choice",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "文章提到以下哪兩項對 Drucker 及其觀點的批評？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-132/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-132/page-6.jpg"
+  ]
+}

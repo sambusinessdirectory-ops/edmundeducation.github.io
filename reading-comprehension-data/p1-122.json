@@ -1,0 +1,303 @@
+{
+  "id": "p1-122",
+  "catalogueId": "p1-122",
+  "title": "THE ‘BEAUTIFUL’ GAME",
+  "sourceHeading": "The ‘Beautiful’ Game",
+  "passage": 1,
+  "practice": 122,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-122-the-beautiful-game",
+  "source": {
+    "filename": "Practice 122 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "92eda55e07ec9e47ca5732cfc921b4d447c7284f72a0df1f73b814b44f978446"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Every nation has a sport to represent it. In the US, there is baseball; in New Zealand, rugby. In the UK, football is the national sporting obsession. While many UK teams have gained international recognition, Manchester United is among those most well-known on a global scale. Yet while most people, regardless of their sporting preference or nationality, have some passing knowledge of Manchester United, fewer can claim knowledge of the origins of the team. Manchester United came into being in 1902 as a result of the bankruptcy of the team formerly known as Newton Heath. Newton Heath began life as Newton Heath LYR (Lancashire and Yorkshire Railway) club and, as the name suggests, the original team consisted of railway workers. Despite turning professional in 1885 and becoming a founding member of the Football League in 1889, Newton Heath—nicknamed the ‘Heathens’—was constantly troubled by financial difficulties."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Salvation came in the form of local brewer John Henry Davis, who agreed to invest in the team on condition of being given some interest in running it. After consideration of the alternative titles of Manchester Central and Manchester Celtic, the club was christened Manchester United in April 1902. United’s first manager, though officially titled Secretary, was Ernest Mangnall, who was appointed in September 1903, but it was not until the 1905–06 season that United experienced its first taste of success. His side reached the quarter-finals of the FA Cup and were runners-up in the second division."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In 1907, United claimed the championship for the first time and won the first-ever Charity Shield trophy in 1908. In the following year, United claimed the FA Cup trophy after beating Bristol City. Manchester United moved to its new stadium, Old Trafford, in early 1910. The move to the stadium, owned by the John Henry Davis brewery (a Manchester beer-making company), proved fortunate as on 17 February 1910, two days before the team’s first scheduled game, the previous stadium, Bank Street, was destroyed in a fire. The new stadium had a capacity for a crowd of 80,000 spectators and despite losing their first game there to Liverpool, Manchester United were once again league champions at the end of the first full season playing at Old Trafford."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The following years were to be less successful. From 1912 to the onset of the First World War, no significant victories were achieved. During the war, the football league was suspended and only regional competitions took place. In 1919, Manchester United returned to league football with only two of the original members in the team."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Although Britain has a long and proud history of football adoration, contemporary football supporters from the UK have gained a negative reputation for outbursts of violence against rival supporters, earning the label ‘football hooligans’. The phenomenon of football hooliganism has attracted the attention of a number of researchers and psychologists who have offered theories relating to its causes. It is generally agreed that a combination of factors may initiate this type of antisocial behaviour and that it is unrealistic to contend that all such behaviour stems from a particular psychological make-up or belongs to a specific age or class. Experts do, however, believe that rampaging hooligan behaviour can instil a sense of belonging and ‘community’ in participants who feel that they can strongly identify with their group, regardless of the fact that the group’s behaviour is negative."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Analysts also argue that the motivations for outbursts of violence experienced in an international setting are even more complex. Whilst alcohol and xenophobia no doubt play a part, they say, some psychologists hold that policing tactics, to a large degree, dictate the level of disturbance likely to occur. Evidence supports the view that confrontational policing is much more likely to escalate than to calm incidents of trouble. The media’s actions have also been criticised due to the belief by some that messages given in newspaper reporting may also exacerbate the existing problem of football hooliganism."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Critics say that certain headlines used by tabloid newspapers may glorify acts of violence and, at the very least, the prolific news reports which are published in the UK about this issue cause perpetrators to receive undue attention and acknowledgement for their actions. Whilst few disagree that football hooliganism is a significant social problem, many researchers hold that sensationalist media reporting may also be creating undue panic since the problem is often presented as much more widespread than it really is. Extreme cases of hooliganism among British fans have declined significantly over recent years, and while it may take some considerable time for the negative reputation they have earned to subside, it is also true that a large proportion of supporters have no involvement in violence and simply share a love of the game."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–3",
+    "g4": "Questions 4–7",
+    "g8": "Questions 8–12"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 3,
+      "text": "Questions 1–3\nChoose THREE letters, A–G.\nWrite the correct letters in boxes 1–3 on your answer sheet.\nNB Your answers may be given in any order.\nWhich THREE of the following statements are true of Newton Heath?\n  A Newton Heath football club was established in 1902.\n  B It was the only Lancashire-based club at the time.\n  C It developed from a club with a similar name.\n  D It ceased being an amateur team in 1885.\n  E It was the most famous British football club of the period.\n  F The club experienced financial difficulties.\n  G Its name changed once more before it became Manchester United."
+    },
+    {
+      "id": "g4",
+      "start": 4,
+      "end": 7,
+      "text": "Questions 4–7\nComplete the summary using the list of words, A–K, below.\nWrite the correct letter, A–K, in boxes 4–7 on your answer sheet.\n\n\n\nAccording to expert opinion, there is little 4 _________________ that football hooliganism\noccurs as a result of a number of issues and does not necessarily correlate with age,\npsychological profile or 5 _________________. External triggers such as newspaper reports\nand antagonistic 6 _________________ can contribute to escalation of the problem in certain\nsituations. Some psychologists believe that such behaviour and membership of trouble-making\ngroups can give certain individuals a sense of 7 _________________ that may otherwise be\nmissing from their lives.\n\n A                                            isolation\n\n B                                            policing\n\n C                                            anger\n\n D                                            occupation\n\n E                                            belief\n\n F                                            proof\n\n G                                            class\n\n H                                            intelligence\n\n I                                            excitement\n\n J                                            unity\n\n K                                            doubt"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 12,
+      "text": "Questions 8–12\n\n\nThe reading passage has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 8–12 on your answer sheet.\nNB Each paragraph may be used more than once.\n\n\n\n\n8 Details of conditions attached to an offer of financial assistance to the club\n\n\n9 A reason national competitions were disrupted\n\n\n10 Information suggesting that the public may perceive violence at football matches as more widespread\nthan it is\n\n\n11 Deliberations about the name Manchester United\n\n\n12 A reference to a new competition"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "以下哪三項關於 Newton Heath 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "以下哪三項關於 Newton Heath 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "以下哪三項關於 Newton Heath 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "根據專家意見，幾乎沒有 4 ________：足球流氓行為是由多個因素造成的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "……而且不一定和年齡、心理特徵或 5 ________ 相關。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "外在誘因，例如報紙報道和對抗式 6 ________，在某些情況下可能令問題升級。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g4",
+      "type": "choice",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "一些心理學家相信，這種行為以及加入滋事群體，可以給某些人一種 7 ________ 的感覺；這種感覺在他們生活中可能原本缺失。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "Details of conditions attached to an offer of financial assistance to the club",
+      "translation": "關於給球會財政援助時所附帶條件的細節。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "A reason national competitions were disrupted",
+      "translation": "全國性比賽受干擾的原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "Information suggesting that the public may perceive violence at football matches as more widespread than it is",
+      "translation": "有資料暗示公眾可能以為足球比賽暴力比實際情況更普遍。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "Deliberations about the name Manchester United",
+      "translation": "關於 Manchester United 這個名稱的商議或考慮。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "A reference to a new competition",
+      "translation": "提到一項新比賽。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-122/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-122/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-122/page-6.jpg"
+  ]
+}

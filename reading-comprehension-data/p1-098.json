@@ -1,0 +1,250 @@
+{
+  "id": "p1-098",
+  "catalogueId": "p1-098",
+  "title": "From Hand to Mouth",
+  "sourceHeading": "From Hand to Mouth",
+  "passage": 1,
+  "practice": 98,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-098-from-hand-to-mouth",
+  "source": {
+    "filename": "Practice 98 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "7994dc520f777605b7105fc6db80735c17d5aba3f987cfe017446ff45b024f9c"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Once again, southern Africa is facing a severe food crisis. It is a chronic problem—and shouldn’t be. At the Trinity Hospital in Malawi’s southern Nsanje district, three-year-old Mboyi is lying listless, his face against the wall. His belly is badly bloated and his skin is peeling off his legs. His mother explains that the family has not been able to harvest anything this year, because of poor rainfall. Mothers in the area are already bringing malnourished children to hospitals in alarming numbers. Yet it will be another six months before the next harvest."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Aid agencies are sounding the alarm, hoping that help will come before haunting images of emaciated children, such as those recently seen in Niger, appear on Western television screens. The UN’s World Food Programme (WFP) says that close to 12 million people across southern Africa will need food aid before the next harvest. The agency is short of more than $150 million to feed them over the next six months. Malawi and Zimbabwe are by far the hungriest, but Mozambique, Zambia, Lesotho, and Swaziland are also affected. The drought may be southern Africa’s worst in a decade. The crucial rains of January, when newly planted crops need water, did not come on time. Nor, in some places, did seeds and fertiliser. Maize, the staple food, is scarce in some areas; prices in markets have shot up beyond the means of the hungriest."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Though the problem is particularly severe this year, it recurs across southern Africa. Food is produced mainly by subsistence farmers on small plots with no irrigation; their fate is tied to rain falling in the right amount at the right time. Bad roads and unreliable transport make it expensive to move food and seeds. Without proper marketing channels, small farmers cannot sell whatever surplus they may have outside their neighbourhoods. This leaves southern Mozambicans hungry, even when crops are plentiful up north. Maize is ill-suited to the climate, needing too much water. In Malawi, there are too many people for the land. Partly due to bad farming, yields are low. And the region has the world’s highest rate of AIDS."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Many small farmers struggle to make ends meet even in good years, so one bad season can be disastrous. And in Swaziland and Mozambique, they are facing their fourth dry year in a row. Unable to grow enough to feed themselves or borrow their way out of hard times, farmers end up losing the few assets they have. In Malawi, those without anything left often resort to cutting and selling firewood, further eroding the soil and making their plots still less productive, or else fishing in already depleted waters. Others venture into crocodile-infested rivers to dig out water-lily tubers for food."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Bad government policy sometimes makes things worse. In Zimbabwe, once the region’s breadbasket, land grabs have crippled commercial agriculture and irrigation systems. Hyperinflation and lack of foreign exchange make it hard to buy seeds and fertiliser, while fuel shortages stymie crop transport. A recent operation to “clean up” cities by bulldozing supposedly illegal dwellings has left another 700,000 people destitute, adding to the ranks of the hungry. The government has so far refused to endorse the UN’s proposed emergency programme to help those affected. Other governments are less bloody-minded. Malawi, the worst-hit country, with 5 million people (nearly half its population) needing food handouts, wants help. In July, President Bingu wa Mutharika asked his compatriots to give to a “feed the nation” fund: so far, $565,000 has been collected. In August, the UN appealed for $88 million. The World Bank will give $30 million."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Harnessing what the region already has would go a long way to offsetting its chronic hunger. In southern Malawi, rivers regularly flood—and are badly managed. By contrast, a big sugar plantation in Nchalo, its sprinklers spitting out arcs of water, is a green oasis. On a smaller but no less hopeful scale, the nearby Chitsukwa irrigation scheme cost only about $20,000 and provided canals and enough low-tech pumps to water 18 hectares (45 acres), which sustain 176 farmers. Along the canal, women with babies on their backs labour on what look like portable stairmasters, pumping water into their fields: the maize is flourishing. Now armed with better knowledge, farmers are aiming at three crops a year, instead of the precarious single one to which they were accustomed. A few kilometres down the road, the land is hopelessly dry and barren."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Uladi Mussa, Malawi’s minister for agriculture and food security, insists that expanding small-scale irrigation is a top priority. The potential is there, he explains, but Malawi lacks the know-how and money to do it on its own. Zambia and Mozambique have both welcomed exiled white Zimbabwean farmers, whose skills are already boosting local agriculture. Meanwhile, chronic hunger is threatening southern Africa’s future generations. Close to half of Malawi’s children under five are stunted. Schools unable to feed their pupils report drops in attendance, as children are too weak to walk or are forced to help their parents find food. For them, the damage will remain long after the rains have come."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has 7 paragraphs (A–G).\nWhich paragraph contains each of the following pieces of information?\n1 ___________ The main reasons why there is a lack of food in southern Africa year after year\n2 ___________ How small development schemes can help to solve the problem\n3 ___________ The things that some desperate farmers do to feed themselves and their families\n4 ___________ The size and cost of the problem in southern Africa"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for each gap.\nThe January rains are described as ‘crucial’ because 5 _________________ need the water.\nMaize is an unsuitable crop in much of southern Africa because it requires 6 _________________\nIn Zimbabwe, much agricultural produce cannot be moved because of 7 _________________\n8 _________________ can be used instead of irrigation canals to water crops."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n9 _________________ Some farmers didn’t get seeds to plant this season.\n10 _________________ Poor infrastructure means that parts of Mozambique are without food while other\nparts have plenty.\n11 _________________ Southern Africa does not have many of the resources it needs to help solve its\nfood problem.\n12 _________________ Zimbabwe’s government policies have actually helped neighbouring countries in\none way.\n13 _________________ About half of Malawi’s children aged under 5 are malnourished."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ The main reasons why there is a lack of food in southern Africa year after year",
+      "translation": "southern Africa 年復一年缺糧的主要原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ How small development schemes can help to solve the problem",
+      "translation": "小型發展計劃如何幫助解決問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ The things that some desperate farmers do to feed themselves and their families",
+      "translation": "一些絕望農民為了養活自己和家人所做的事情。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ The size and cost of the problem in southern Africa",
+      "translation": "southern Africa 糧食問題的規模和成本。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "一月的雨被形容為「關鍵」，因為 5 ________ 需要水。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "玉米在 southern Africa 很多地方都不適合種植，因為它需要 6 ________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "在 Zimbabwe，很多農產品無法運輸，原因是 7 ________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "_________________ can be used instead of irrigation canals to water crops.",
+      "translation": "8 ________ 可以用來灌溉作物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Some farmers didn’t get seeds to plant this season.",
+      "translation": "有些農民今季沒有得到種子來播種。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Poor infrastructure means that parts of Mozambique are without food while other parts have plenty.",
+      "translation": "基礎設施差，導致 Mozambique 有些地區缺糧，但其他地區糧食充足。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Southern Africa does not have many of the resources it needs to help solve its food problem.",
+      "translation": "Southern Africa 並沒有很多能幫助解決糧食問題的資源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Zimbabwe’s government policies have actually helped neighbouring countries in one way.",
+      "translation": "Zimbabwe 的政府政策在某一方面實際上幫助了鄰近國家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ About half of Malawi’s children aged under 5 are malnourished.",
+      "translation": "Malawi 約一半五歲以下兒童營養不良。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-098/page-4.jpg"
+  ]
+}

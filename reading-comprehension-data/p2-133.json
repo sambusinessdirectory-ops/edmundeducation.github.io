@@ -1,0 +1,280 @@
+{
+  "id": "p2-133",
+  "catalogueId": "p2-133",
+  "title": "Museum Blockbuster",
+  "sourceHeading": "Museum Blockbuster",
+  "passage": 2,
+  "practice": 133,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-133-museum-blockbuster",
+  "source": {
+    "filename": "Practice 133 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "7cb8bc24fc40ab7561aa5f22665b9acc55e825c7b4f49783ce82a89ef038593b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Since the 1980s, the term ‘blockbuster’ has become fashionable for spectacular exhibitions at museums, art galleries and science centres. These exhibitions have the ability to attract large crowds and often large corporate sponsors. One existing definition of a blockbuster was offered by Elsen (1984): a blockbuster is a “… large-scale loan exhibition that people who normally don’t go to museums will stand in line for hours to see …” James Rosenfield, writing in Direct Marketing in 1993, has described a successful blockbuster exhibition as a “… triumph of both curatorial and marketing skills …” My own definition of a blockbuster is “a popular, high-profile exhibition on display for a limited period that attracts the general public, who are prepared both to stand in line and to pay a fee in order to attend the exhibition.” What both Elsen and Rosenfield omit in their descriptions of a blockbuster is that people are prepared to pay a fee to see a blockbuster and that the term blockbuster can just as easily apply to a movie or a museum exhibition."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Merely naming an exhibition or movie a blockbuster, however, does not make it a blockbuster. The term can only apply when the item in question has had an overwhelmingly successful response from the public. However, in literature from both the UK and the USA, other words that also appear in descriptions of a blockbuster are “less scholarly”, “non-elitist” and “populist”. Detractors argue that blockbusters are designed to appeal to the lowest common denominator, while others extol the virtues of encouraging scholars to cooperate on projects and to provide exhibitions that cater for a broad selection of the community rather than an elite sector."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Maintaining and increasing visitor levels is paramount in the new museology. This requires continued product development: not only the creation or hiring of blockbuster exhibitions, but also regular exhibition changes and innovations. In addition, members of the visiting public have become customers rather than visitors, and the skills that are valued in museums, science centres and galleries to keep the new customers coming through the door have changed. High on the list of requirements are commercial, business, marketing and entrepreneurial skills. Curators are now administrators. Being a director of an art gallery no longer requires an arts degree. As the Economist succinctly summarised in 1994, essential requirements for a director included ‘business nous and public-relations skills’, along with the ability to compete with other museums to stage travelling exhibitions that draw huge crowds."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The new museology has resulted in the convergence of museums, the heritage industry, tourism, and the pursuits of profit and pleasure. This has given rise to much debate about the appropriateness of adapting the activities of institutions so that they more closely reflect the priorities of the marketplace and whether it is appropriate to see museums primarily as tourist attractions. At many institutions, you can now hold office functions in the display areas, or have dinner with the dinosaurs. Whatever commentators may think, managers of museums, art galleries and science centres worldwide are looking for artful ways to blend culture and commerce, and blockbuster exhibitions are at the top of the list. But while blockbusters are all part of the new museology, there is proof that you don’t need a museum, science centre or art gallery to benefit from the drawing power of a blockbuster or to stage a blockbuster."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "But do blockbusters held in public institutions really create a surplus to fund other activities? If the bottom line is profit, then according to the accounting records of many major museums and galleries, blockbusters do make money. For some museums overseas, it may be the money that they need to update parts of their collections or to repair buildings that are in need of attention. For others in Australia, it may be the opportunity to illustrate that they are attempting to pay their way, by recovering part of their operating costs or funding other operating activities with off-budget revenue. This makes the economic rationalists cheerful. However, not all exhibitions that are hailed as blockbusters will be blockbusters, and some will not make money. It is also unlikely that the accounting systems of most institutions will recognise the real cost of either creating or hiring a blockbuster."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Blockbusters require large capital expenditure, and draw on resources across all branches of an organisation; however, the costs don’t end there. There is a human-resource management cost in addition to a measurable ‘real’ dollar cost. Receiving a touring exhibition involves large expenditure as well, and draws resources from across functional management structures in a project-management style. General labourers, building-services staff, front-of-house staff, technicians, and promotion, education and administration staff are all required to perform additional tasks. Furthermore, as an increasing number of institutions in Australia try their hand at increasing visitor numbers, memberships (and therefore revenue) by staging blockbuster exhibitions, it may be less likely that blockbusters will continue to provide a surplus to subsidise other activities due to the competitive nature of the market. There are only so many consumer dollars to go around, and visitors will need to choose between blockbuster products."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Unfortunately, when the bottom line is the most important objective in mounting blockbuster exhibitions, this same objective can be hard to maintain. Creating, mounting or hiring blockbusters is exhausting for staff, with the real costs throughout an institution difficult to calculate. Although the direct aims may be financial, creating or hiring a blockbuster has many positive spin-offs; by raising their profile through a popular blockbuster exhibition, a museum will be seen in a more favourable light at budget time. Blockbusters mean crowds, and crowds are good for the local economy, providing increased employment for shops, hotels, restaurants, the transport industry and retailers. Blockbusters expose staff to the vagaries and pressures of the marketplace and may lead to creative excellence. Either the success or failure of a blockbuster may highlight the need for managers and policymakers to rethink their strategies. However, the new museology and the apparent trend towards blockbusters make it likely that museums, art galleries and particularly science centres will be seen as part of the entertainment and tourism industry, rather than as cultural icons deserving of government and philanthropic support."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Perhaps the best pathway to take is one that balances both blockbusters and regular exhibitions. However, this easy middle ground may only work if you have enough space, and have alternate sources of funding to continue to support the regular, less exciting fare. Perhaps the advice should be to make sure that your regular activities and exhibitions are more enticing, and find out what your local community wants from you. The question now at most museums and science centres is “What blockbusters can we tour to overseas venues and will it be cost-effective?”"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–21",
+    "g22": "Questions 22–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nReading Passage 2 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 14–17 on your answer sheet.\nNB You may use any letter more than once.\n14 A reason for changing the exhibition programs.\n15 The time people are prepared to wait in a queue to see an exhibition.\n16 Terms used to refer to blockbusters.\n17 Controversy over the target audience for a blockbuster."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 21,
+      "text": "Questions 18–21\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 18–21 on your answer sheet.\nRather than being treated simply as visitors, members of the public have become 18\n_________________, requiring museums to create or hire blockbuster exhibitions and\nmake regular changes and innovations. A magazine summarised 19 _________________\nand business acumen as important qualities for directors, along with the ability to attract\nlarge audiences. 20 _________________ has contributed to the convergence of museums,\nthe heritage industry, tourism and the pursuit of profit and pleasure. This has led to debate\nover whether museums should primarily be regarded as 21 _________________."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 23,
+      "text": "Questions 22–23\nChoose TWO letters A–E.\nWrite your answers in boxes 22–23 on your answer sheet.\nThe list below gives some advantages of a blockbuster.\nWhich TWO advantages are mentioned by the writer of the text?\n A To provide enough money to repair buildings.\n B To maintain and increase visitor numbers.\n C To blend culture and commerce in museums, art galleries and science centres.\n D To benefit local businesses.\n E To benefit museum directors."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nChoose THREE letters A–F.\nWrite your answers in boxes 24–26 on your answer sheet.\nThe list below gives some disadvantages of a blockbuster.\nWhich THREE disadvantages are mentioned by the writer of the text?\n A Visitors are left unsure which exhibitions to choose.\n B Workers become tired because of the additional workload.\n C The content becomes more entertaining than cultural.\n D General labourers are required to perform additional tasks.\n E Huge amounts of capital must be invested in specialists.\n F Staff are exposed to the vagaries and pressures of the marketplace."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A reason for changing the exhibition programs.",
+      "translation": "改變展覽節目的原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "The time people are prepared to wait in a queue to see an exhibition.",
+      "translation": "人們願意排隊多久去看一個展覽。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Terms used to refer to blockbusters.",
+      "translation": "用來描述 blockbusters 的詞語。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Controversy over the target audience for a blockbuster.",
+      "translation": "blockbuster 目標觀眾所引起的爭議。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "公眾不再只被視為 visitors，而變成了 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "一本雜誌總結說，館長的重要條件包括 ______ 和商業頭腦。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "______ 促成了 museums、heritage industry、tourism，以及 profit and pleasure 的融合。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "這引起爭論：museums 是否應主要被視為 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "提供足夠金錢去修葺建築物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "提供足夠金錢去修葺建築物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "員工因額外工作量而變得疲累。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "員工因額外工作量而變得疲累。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "員工因額外工作量而變得疲累。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-133/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-133/page-6.jpg"
+  ]
+}

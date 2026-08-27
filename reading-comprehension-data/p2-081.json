@@ -1,0 +1,261 @@
+{
+  "id": "p2-081",
+  "catalogueId": "p2-081",
+  "title": "Surfs Up",
+  "sourceHeading": "Surf’s Up",
+  "passage": 2,
+  "practice": 81,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-081-surfs-up",
+  "source": {
+    "filename": "Practice 81 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "f8f6a9046da5a5881e8c5a2564b5cb7fecd686170e0ce600ae1ccc79b1d23406"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "There are two major subdivisions of surfing: longboarding and shortboarding. Their respective names represent differences in the type of surfboard used. Longboards are, as the name suggests, much longer and require a different riding style from shortboards."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Surfboards were originally made of solid wood and were large and cumbersome, often weighing in excess of 100 pounds. Nowadays, they are more commonly constructed from polyurethane foam, making them much lighter, which means better manoeuvrability for the boarder. This is especially beneficial for longboarders, whose boards can measure up to 3 metres in length. Successful longboarders must learn to carry out difficult walking manoeuvres up and down the board so as to set themselves in the optimal position for catching and riding the wave. The lighter the board, the easier it becomes to execute such manoeuvres. Shortboarders, whose boards are usually between 1.8 and 2 metres long, also benefit from greater manoeuvrability and are able to turn and adjust more quickly thanks to the lighter boards."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "It is claimed that surfing was first observed by European explorers among native Tahitians in 1767. Later travellers also reported seeing naked locals, both men and women, amusing themselves in the surf off the coast of Hawaii. Perhaps this is one of the reasons why the sport is synonymous with the South Pacific and Hawaii in particular. Today, however, the popularity of surfing is such that surf clubs have popped up almost everywhere, from the windy west coast of Ireland to the ultrachic Californian beaches. Indeed, it is in Northern California where perhaps the most famous and glamorous surfing takes place."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The prospective surfer would be well advised to consider the dangers associated with the sport before he takes to the waves. Like all water sports, surfing carries with it the inherent danger of drowning. Although the board itself offers buoyancy, it can also be a hindrance, and a deadly one at that if its leash becomes entangled in a reef, holding the surfer underwater. Ideal water conditions for surfing can be extremely demanding on the body, too, and require the surfer to be an extremely competent swimmer."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Collisions with sandbanks, reefs, surfboards and other surfers can also be extremely hazardous and can lead to concussion – a death sentence if the surfer is not rescued from the water quickly. Although rarer, attacks by marine animals are not uncommon, with sharks, rays, seals and jellyfish posing the greatest threats. You certainly need to be a courageous soul to brave the waves in this sport."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "But for those who insist on giving it a go, the rewards can be very gratifying, and it isn’t too expensive to get up and running either. Surf schools in popular destinations offer multi-day beginner and intermediate courses that focus on the fundamentals. Five-day courses start from as little as £100 and there are all-inclusive camps, too, which cover accommodation, meals, lessons and equipment. Longboards, given their superior paddling speed and stability, are usually preferred by coaches for use with beginners. Typically, the courses break down the technique into separate skills: the first being how to get into position to catch a wave and the second being how to ride the wave without falling off. Balance, of course, plays a crucial role, so a lot of time is dedicated to balance training exercises as well."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Difficult though it may be to master the art of surfing, it can also be extremely rewarding, and there are few feelings to compare with the exhilaration of riding out your first wave. So, for those daredevil adrenaline junkies among you who fancy having a go, details of a surf club near you can be found on the British Surfing Association’s website, britsurf.co.uk. And try to remember, as your feet dangle over the side of the board, that Jaws was just a film; it almost certainly won’t happen to you!"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–21",
+    "g22": "Questions 22–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nChoose the correct letter A, B, C or D.\n\n\n14 Longboards and shortboards\n A often weigh more than 100 pounds today.\n B are usually made out of solid wood.\n C require surfers to perform difficult walking manoeuvres.\n D are lighter and more manoeuvrable today.\n\n\n15 The sport of surfing\n A was invented by a group of European explorers.\n B was first observed by native Tahitians.\n C is commonly performed naked by both men and women.\n D was first practised in the South Pacific.\n\n\n16 Surfing has become very popular\n A in windy coastal areas.\n B on the fashionable west coast of Ireland.\n C in Tahiti in recent years.\n D all around the world.\n\n\n17 Before a novice surfer takes to the water, he should\n A check the latest weather report.\n B avoid big waves.\n C have good buoyancy.\n D be aware of the risks involved.\n\n18 Although a surfboard can help you stay buoyant, it can also\n A get in the way of your safety in some cases.\n B help you escape from dangerous sea life.\n C be a very dangerous weapon.\n D prevent concussion or death.\n\n\n\n19 Unless you are pulled from the water quickly, a bad collision can prove\n A hard to escape.\n B life-saving.\n C fatal.\n D rare."
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 21,
+      "text": "Questions 20–21\nChoose TWO letters, A–E.\nWhich TWO of the following are hazards that surfers face?\n A being held underwater by reefs.\n B the potential for shark attacks.\n C frequent encounters with jellyfish.\n D demanding water conditions.\n E hazardous rescue attempts."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 23,
+      "text": "Questions 22–23\nChoose TWO letters, A–E.\nWhich TWO of the following are true about surfing?\n A It can become a rewarding career.\n B It can be very rewarding as you see yourself improve.\n C It can be an adrenaline rush.\n D It can be expensive to start.\n E It can be dangerous for swimmers around you."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.\n Feature                                Details\n\n Subdivisions of surfing                Longboarding; shortboarding\n\n Surfing originated in                  The South Pacific\n\n                                        24 _________________; a board leash entangled in a\n Common dangers include                 reef can be deadly; difficult water conditions; collisions\n                                        and concussion; attacks by local sea life\n\n Starting cost of five-day courses      £ 25 _________________\n\n 26 _________________ include           Accommodation; meals; lessons; equipment"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Longboards and shortboards",
+      "translation": "Longboards 和 shortboards 兩者如何？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "The sport of surfing",
+      "translation": "關於 surfing 這項運動，哪一項說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Surfing has become very popular",
+      "translation": "Surfing 已變得非常流行，在哪裡？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Before a novice surfer takes to the water, he should",
+      "translation": "初學者下水前應該怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Although a surfboard can help you stay buoyant, it can also",
+      "translation": "雖然 surfboard 可以幫你保持浮力，但它也可能怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Unless you are pulled from the water quickly, a bad collision can prove",
+      "translation": "如果你沒有很快被拉離水面，嚴重碰撞可能會變成怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "以下哪兩項是 surfers 會面對的危險？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "以下哪兩項是 surfers 會面對的危險？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "以下哪兩項關於 surfing 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "以下哪兩項關於 surfing 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________; a board leash entangled in a Common dangers include reef can be deadly; difficult water conditions; collisions and concussion; attacks by local sea life Starting cost of five-day courses £ 25 _________________",
+      "translation": "常見危險包括 ______；板繩纏在礁石上可能致命；困難水況；碰撞和腦震盪；本地海洋生物攻擊。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "五日課程的起始費用：£______",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "_________________ include Accommodation; meals; lessons; equipment",
+      "translation": "______ 包括住宿、膳食、課堂和設備。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-081/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-081/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-081/page-6.jpg"
+  ]
+}

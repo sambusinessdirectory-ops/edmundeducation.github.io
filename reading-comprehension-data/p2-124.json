@@ -1,0 +1,303 @@
+{
+  "id": "p2-124",
+  "catalogueId": "p2-124",
+  "title": "Tool for ancient writing",
+  "sourceHeading": "Tools for Ancient Writing",
+  "passage": 2,
+  "practice": 124,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-124-tool-for-ancient-writing",
+  "source": {
+    "filename": "Practice 124 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "42e281bfb9eb1c21762ee0c8bdb24b9ceacee9f9404093390c5496904220d889"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "With time, the record-keepers developed systematized symbols from their drawings. These symbols represented words and sentences but were easier and faster to draw and universally understood. The discovery of clay made portable records possible (you can’t carry a cave wall around with you). Early merchants used clay tokens with pictographs to record the quantities of materials traded or shipped. These tokens date back to about 8,500 B.C. With the high volume and the repetition inherent in record keeping, pictographs evolved and slowly lost their picture detail. They became abstract figures representing sounds in spoken communication. The alphabet replaced pictographs between 1700 and 1500 B.C. in the Sinaitic world. The current Hebrew alphabet and writing became popular around 600 B.C. About 400 B.C. the Greek alphabet was developed. Greek was the first script written from left to right. Byzantine and Roman (later Latin) scripts subsequently developed from Greek. Initially, all writing systems used only uppercase letters. When writing instruments became refined enough to produce detailed letter forms, lowercase letters were also introduced (around 600 A.D.)."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The earliest means of writing that approached pen and paper as we know them today was developed by the Greeks. They employed a writing stylus, made of metal, bone, or ivory, to place marks upon wax-coated tablets. The tablets were made in hinged pairs, closed to protect the scribe’s notes. The first examples of handwriting (purely text messages made by hand) originated in Greece. The Greek scholar Cadmus is credited with inventing written correspondence—messages on paper sent from one person to another."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Writing was advancing beyond chiselling pictures into stone or wedging pictographs into wet clay. The Chinese invented and perfected ‘Indian ink’. Originally designed for blacking the surfaces of raised stone-carved hieroglyphics, the ink was a mixture of soot from pine smoke and lamp oil mixed with the gelatin of donkey skin and musk. The ink invented by the Chinese philosopher Tien-Lcheu (2697 B.C.) became common by the year 1200 B.C. Other cultures developed inks using natural dyes and colours derived from berries, plants, and minerals. In early writings, different coloured inks had ritual meanings attached to each colour."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The invention of inks paralleled the introduction of paper. The early Egyptians, Romans, Greeks and Hebrews used papyrus and parchment. One of the oldest pieces of writing on papyrus known to us today is the Egyptian “Prisse Papyrus”, which dates back to 2000 B.C. The Romans made reed pens suited to parchment and ink from the hollow stems of marsh grasses, especially jointed bamboo. They converted bamboo stems into a primitive form of a fountain pen. They cut one end into the form of a pen nib or point. A writing fluid or ink filled the stem. Squeezing the reed forced the fluid to the nib."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "By 400 A.D., a stable ink made from iron salts, nutgalls and gum had been developed. This basic formula remained in use for centuries. Its colour when first applied to paper was a bluish-black, rapidly turning into a darker black and then over the years fading to the familiar dull brown colour commonly seen in old documents. Wood-fibre paper was invented in China in 105 A.D. but, because the Chinese kept the process secret, knowledge of it reached Japan only around 700 A.D. and was brought to Spain by the Arabs in 711 A.D. Paper was not widely used throughout Europe until paper mills were built in the late 14th century."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The writing instrument that dominated for the longest period in history (over one thousand years) was the quill pen. Introduced around 700 A.D., the quill is a pen made from a bird feather. The strongest quills were the five outer feathers taken from the left wings of living birds in spring. The left wing was favoured because the feathers curved outward and away when used by a right-handed writer. Goose feathers were most common; swan feathers, being scarcer and more expensive, were of premium grade. For making fine lines, crow feathers were the best, and then came the feathers of the eagle, owl, hawk, and turkey."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "There were also disadvantages associated with the use of quill pens, including a lengthy preparation time. Early European sheets of parchment made from animal skins required much scraping and cleaning. Margins were drawn with lead and a ruler. To sharpen the quill, the writer needed a special knife (the origin of the term ‘penknife’). Beneath the writer’s high-top desk was a coal stove, used to dry the ink as fast as possible."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Plant-fibre paper became the primary medium for writing after Johannes Gutenberg’s dramatic invention of the printing press with replaceable wooden or metal letters in 1436. Simpler kinds of printing—for example, name stamps used much earlier in China—did not find their way to Europe. Over subsequent centuries, many printing technologies, including offset printing, were developed from Gutenberg’s machine."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Articles written by hand had resembled printed letters until scholars began to change the form of writing, using capitals and small letters, writing with more of a slant and connecting letters. Gradually writing became better suited to the writing speed permitted by the new instruments. The credit for inventing Italian ‘running hand’ or cursive handwriting with its Roman capitals and small letters goes to Aldus Manutius of Venice, who departed from the old set forms in 1495 A.D. By the end of the 16th century, the old Roman capitals and Greek letterforms transformed into the 26 letters of the alphabet that we know today, both for upper and lower-case letters. When writers had both better inks and paper, and handwriting had developed into both an art form and an everyday occurrence, humanity’s inventive nature once again turned to improving the writing instrument, leading to the development of the modern fountain pen."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–15",
+    "g16": "Questions 16–16",
+    "g17": "Questions 17–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 15,
+      "text": "Questions 14–15\nChoose TWO letters, A–E.\nWhich TWO features are inherent in record keeping?\nWrite your answers in boxes 14 and 15 on your answer sheet.\n A Ease and speed.\n B Large volume.\n C Portability.\n D Convenience.\n E Repetition."
+    },
+    {
+      "id": "g16",
+      "start": 16,
+      "end": 16,
+      "text": "Question 16\nChoose the correct letter, A, B, C or D.\nWrite your answer in box 16 on your answer sheet.\n16 What delayed the spread of wood-fibre papermaking for so long?\n A Scarcity.\n B Complexity.\n C Secrecy among its inventors.\n D High cost."
+    },
+    {
+      "id": "g17",
+      "start": 17,
+      "end": 23,
+      "text": "Questions 17–23\nReading Passage 2 has nine paragraphs, A–I.\nWhich paragraph contains the following information?\nWrite the correct letter, A–I, in boxes 17–23 on your answer sheet.\nNB You may use any letter more than once.\n17 __________ the operating principle of primitive pens made from plant stems\n18 __________ the writing tool used for the longest period\n19 __________ a writing fluid first developed by the Chinese\n20 __________ uppercase letters as the only original letter form\n21 __________ the origin of written correspondence\n22 __________ the parallel development of two basic writing materials\n23 __________ a design that protected written content"
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\nWrite your answers in boxes 24–26 on your answer sheet.\n24 What made quill pens inconvenient to use? __________\n25 When did another breakthrough occur after plant-fibre paper became the main writing\nmedium? __________\n26 What type of pen resulted from humanity’s ingenuity in improving writing tools? __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "哪兩個特徵是記錄工作本身固有的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "哪兩個特徵是記錄工作本身固有的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g16",
+      "type": "choice",
+      "prompt": "What delayed the spread of wood-fibre papermaking for so long?",
+      "translation": "甚麼原因令木纖維造紙技術長時間未能廣泛傳播？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ the operating principle of primitive pens made from plant stems",
+      "translation": "由植物莖製成的原始筆，其操作原理。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ the writing tool used for the longest period",
+      "translation": "使用時間最長的書寫工具。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ a writing fluid first developed by the Chinese",
+      "translation": "一種最初由中國人發展出的書寫液。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ uppercase letters as the only original letter form",
+      "translation": "大寫字母是最初唯一的字母形式。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ the origin of written correspondence",
+      "translation": "書面通信的起源。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ the parallel development of two basic writing materials",
+      "translation": "兩種基本書寫材料的同步發展。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ a design that protected written content",
+      "translation": "一種可以保護書寫內容的設計。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "What made quill pens inconvenient to use? __________",
+      "translation": "甚麼令羽毛筆使用起來不方便？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "When did another breakthrough occur after plant-fibre paper became the main writing medium? __________",
+      "translation": "植物纖維紙成為主要書寫媒介後，另一項突破在甚麼時候出現？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "What type of pen resulted from humanity’s ingenuity in improving writing tools? __________",
+      "translation": "人類改良書寫工具的創新精神，最後帶來哪一種筆？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-124/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-124/page-7.jpg"
+  ]
+}

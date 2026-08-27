@@ -1,0 +1,293 @@
+{
+  "id": "p1-103",
+  "catalogueId": "p1-103",
+  "title": "Tackling Obesity in the Western World",
+  "sourceHeading": "Tackling Obesity in the Western World",
+  "passage": 1,
+  "practice": 103,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-103-tackling-obesity-in-the-western-world",
+  "source": {
+    "filename": "Practice 103 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "de4010d0a40b0d7923f2c5ed149028f06f2fa2e6d68191f0e41d1a710b8ec2cf"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Obesity is a huge problem in many Western countries and one which now attracts considerable medical interest as researchers take up the challenge to find a ‘cure’ for the common condition of being seriously overweight. However, rather than take responsibility for their weight, obese people have often sought solace in the excuse that they have a slow metabolism, a genetic hiccup which sentences more than half the Australian population (63% of men and 47% of women) to a life of battling with their weight. The argument goes like this: it doesn’t matter how little they eat, they gain weight because their bodies break down food and turn it into energy more slowly than those with a so-called normal metabolic rate."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "‘This is nonsense,’ says Dr Susan Jebb from the Dunn Nutrition Unit at Cambridge in England. Despite the persistence of this metabolism myth, science has known for several years that the exact opposite is in fact true. Fat people have faster metabolisms than thin people. ‘What is very clear,’ says Dr Jebb, ‘is that overweight people actually burn off more energy. They have more cells, bigger hearts, bigger lungs and they all need more energy just to keep going.’"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "It took only one night, spent in a sealed room at the Dunn Unit, to disabuse one of their patients of the beliefs of a lifetime: her metabolism was fast, not slow. By sealing the room and measuring the exact amount of oxygen she used, researchers were able to show her that her metabolism was not the culprit. It wasn’t the answer she expected and probably not the one she wanted, but she took the news philosophically."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Although the metabolism myth has been completely disproved, science has far from ruled out our genes as factors responsible for making us whatever weight we are, fat or thin. One of the world’s leading obesity researchers, geneticist Professor Stephen O’Rahilly, goes so far as to say we are on the threshold of a complete change in the way we view not only morbid obesity, but also everyday overweight. Prof. O’Rahilly’s groundbreaking work in Cambridge has proven that obesity can be caused by our genes. ‘These people are not weak-willed, slothful or lazy,’ says Prof. O’Rahilly. ‘They have a medical condition due to a genetic defect and that causes them to be obese.’"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In Australia, the University of Sydney’s Professor Ian Caterson says that while major genetic defects may be rare, many people probably have minor genetic variations that combine to dictate weight and are responsible for things such as how much we eat, the amount of exercise we do and the amount of energy we need. When you add up all these little variations, the result is that some people are genetically predisposed to putting on weight. He says while the fast/slow metabolism debate may have been settled, that doesn’t mean some other subtle change in the metabolism gene won’t be found in overweight people. He is confident that science will, eventually, be able to ‘cure’ some forms of obesity but the only effective way for the vast majority of overweight and obese people to lose weight is a change of diet and an increase in exercise."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Despite the $500 million a year Australians spend trying to lose weight and the $830 million it costs the community in health care, obesity has reached epidemic proportions here, as it has in all Western nations. Until recently, research and treatment for obesity had concentrated on behaviour modification, drugs to decrease appetite and surgery. How the drugs worked was often not understood and many caused severe side effects and even death in some patients. Surgery for obesity has also claimed many lives."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "It has long been known that a part of the brain called the hypothalamus is responsible for regulating hunger, among other things. But it wasn’t until 1994 that Professor Jeffrey Friedman from Rockefeller University in the US sent science in a new direction by studying an obese mouse. Prof. Friedman found that, unlike its thin brothers, the fat mouse did not produce a hitherto unknown hormone called leptin. Manufactured by the fat cells, leptin acts as a messenger, sending signals to the hypothalamus to turn off the appetite. Previously, the fat cells were thought to be responsible simply for storing fat. Prof. Friedman gave the fat mouse leptin and it lost 30% of its body weight in two weeks."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "On the other side of the Atlantic, Prof. O’Rahilly read about this research with great excitement. For many months two blood samples had lain in the bottom of his freezer, taken from two extremely obese young cousins. He hired a doctor to develop a test for leptin in human blood, which eventually resulted in the discovery that the blood of neither child contained the hormone. When one cousin was given leptin, she lost a stone in weight and Prof. O’Rahilly made medical history. Here was the first proof that a genetic defect could cause obesity in humans. But leptin deficiency turned out to be an extremely rare condition and there is a lot more research to be done before the ‘magic’ cure for obesity is ever found."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 8,
+      "text": "Questions 1–8\nReading Passage 1 has eight paragraphs (A–H).\nFrom the list of headings below choose the most suitable heading for each paragraph.\nWrite the appropriate numbers (i–xi) in boxes 1–8 on your answer sheet.\n\n                            List of Headings\n\n i                          Obesity in animals\n\n ii                         Hidden dangers\n\n iii                        Proof of the truth\n\n iv                         New perspective on the horizon\n\n v                          No known treatment\n\n vi                         Rodent research leads the way\n\n vii                        Expert explains energy requirements of obese people\n\n viii                       A very uncommon complaint\n\n ix                         Nature or nurture\n\n x                          Shifting the blame\n\n xi                         Lifestyle change required despite new findings\nParagraph A 1 ________________\nParagraph B 2 ________________\nParagraph C 3 ________________\nParagraph D 4 ________________\nParagraph E 5 ________________\nParagraph F 6 ________________\nParagraph G 7 ________________\nParagraph H 8 ________________"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nComplete the summary of Reading Passage 1 (Questions 9–13) using words from the box.\nWrite your answers in boxes 9–13 on your answer sheet.\n Weight                 Exercise             Sleep               Mind             Body\n\n Metabolism             Less                 Behaviour           More\n\n Physical               Use                  Mental              Consume          Genetic\n\n\n\nOBESITY\n\n\nExample\nPeople with a weight problem often try to deny responsibility.\nThey do this by seeking to blame their 9 ________________ for the fact that they are overweight and\nerroneously believe that they use 10 ________________ energy than thin people to stay alive. However,\nrecent research has shown that a 11 ________________ problem can be responsible for obesity as some\npeople seem programmed to 12 ________________ more than others. The new research points to a shift\nfrom trying to change people’s 13 ________________ to seeking an answer to the problem in the\nlaboratory."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "他們透過把自己超重的事歸咎於自己的 ____________，來否認責任。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "並錯誤相信自己為了維持生命，比瘦人使用 ____________ 能量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "然而，近期研究顯示，一個 ____________ 問題可能導致肥胖。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "因為有些人似乎被設定成比其他人 ____________ 更多。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "新研究顯示焦點有所轉移：從試圖改變人們的 ____________，轉向在實驗室尋找答案。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-103/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-103/page-6.jpg"
+  ]
+}

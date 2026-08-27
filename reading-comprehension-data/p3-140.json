@@ -1,0 +1,265 @@
+{
+  "id": "p3-140",
+  "catalogueId": "p3-140",
+  "title": "Digital diet",
+  "sourceHeading": "Digital Diet",
+  "passage": 3,
+  "practice": 140,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-140-digital-diet",
+  "source": {
+    "filename": "Practice 140 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "0abd199b548b12481be9a2db77e5c590d37c16b364edc78ec418f8950fb94dcb"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Telecommuting, Internet shopping and online meetings may save energy as compared with in-person alternatives, but as the digital age moves on, its green reputation is turning a lot browner. E-mailing, number crunching and Web searches in the U.S. consumed as much as 61 billion kilowatt-hours last year, or 1.5 per cent of the nation’s electricity—half of which comes from coal. In 2005 the computers of the world ate up 123 billion kilowatt-hours of energy, a number that will double by 2010 if present trends continue, according to Jonathan Koomey, a staff scientist at Lawrence Berkeley National Laboratory. As a result, the power bill to run a computer over its lifetime will surpass the cost of buying the machine in the first place, giving Internet and computer companies a business reason to cut energy costs, as well as an environmental one."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "One of the biggest energy sinks comes not from the computers themselves but from the air-conditioning needed to keep them from overheating. For every kilowatt-hour of energy used for computing in a data centre, another kilowatt-hour is required to cool the furnace-like racks of servers."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "For Internet giant Google, this reality has driven efforts such as the installation of a solar array that can provide 30 per cent of the peak power needs of its Mountain View, Calif., headquarters, as well as increased purchases of renewable energy. But to deliver Web pages within seconds, the firm must maintain hundreds of thousands of computer servers in cavernous buildings. “It’s a good thing to worry about server energy efficiency,” remarks Google’s green energy czar Bill Weihl. “We are actively working to maximise the efficiency of our data centres, which account for most of the energy Google consumes worldwide.” Google will funnel some of its profits into a new effort, dubbed RE<C (for “renewable energy cheaper than coal,” as Google translates it), to make sources such as solar-thermal, high-altitude wind and geothermal energy cheaper than coal “within years, not decades,” according to Weihl."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "In the meantime, the industry as a whole has employed a few tricks to save watts. Efforts include cutting down on the number of transformations the electricity itself must undergo before achieving the correct operating voltage; rearranging the stacks of servers and the mechanics of their cooling; and using software to create multiple “virtual” computers, rather than having to deploy several real ones. Such virtualization has allowed computer maker Hewlett-Packard to consolidate 86 data centers spread throughout the world to just three, with three backups, says Pat Tiernan, the firm’s vice president of social and environmental responsibility."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The industry is also tackling the energy issue at the computer-chip level. With every doubling of processing power in recent years has come a doubling in power consumption. But to save energy, chipmakers such as Intel and AMD have shifted to so-called multicore technology, which packs multiple processors into one circuit rather than separating them. “When we moved to multicore—away from a linear focus on megahertz and gigahertz—and throttled down microprocessors, the energy savings were pretty substantial,” says Allyson Klein, Intel’s marketing manager for its Ecotech Initiative. Chipmakers continue to shrink circuits on the nanoscale as well, which means a chip needs less electricity to deliver the same performance, she adds."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "With such chips, more personal computers will meet various efficiency standards, such as Energy Star compliance (which mandates that a desktop consume no more than 65 watts). The federal government, led by agencies such as NASA and the Department of Defense, may soon require all their purchases to meet the Electronic Product Environmental Assessment Tool standard. And Google, Intel and others have formed the Climate Savers Computing Initiative, an effort to cut power consumption from all computers by 50 per cent by 2010."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Sleep modes and other power management tools built into most operating systems can offer savings today. Yet about 90 per cent of computers do not have such settings enabled, according to Klein. Properly activated, they would prevent a computer from causing the emission of thousands of kilograms of carbon dioxide from power plants every year. But if powering down or unplugging the computer (the only way it uses zero power) is not an option, then perhaps the most environmentally friendly use of all those wasted computing cycles is in helping to model climate change. The University of Oxford’s ClimatePrediction.net offers an opportunity to at least predict the consequences of all that coal burning."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "CO2 Stats is a free tool that can be embedded into any website to calculate the carbon dioxide emissions associated with using it. That estimate is based on an assumption of 300 watts of power consumed by the personal computer, network and server involved—or 16.5 milligrams of CO2 emitted every second of use. “The typical carbon footprint is roughly equivalent to 1.5 people breathing,” says physicist Alexander Wissner-Gross of Harvard University, who co-created the Web tool."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nUse the information in the passage to match the people (listed A–E) with opinions or deeds below. Write\nthe appropriate letters A–E in boxes 27–32 on your answer sheet.\nNB you may use any letter more than once\n A                                 Jonathan Koomey\n\n B                                 Allyson Klein\n\n C                                 Pat Tiernan\n\n D                                 Bill Weihl\n\n E                                 Alexander Wissner-Gross\n27 __________ Identified ways to optimise energy use in major parts of a company\n28 __________ Described a major innovation in a small but important computer component\n29 __________ Aimed to develop alternative energy sources in the near future\n30 __________ Estimated that computers would consume an astonishing amount of energy within a few\nyears if current trends continued\n31 __________ Described a powerful technique for consolidating computing resources\n32 __________ Reported that most computers fail to activate built-in power-management tools"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 36,
+      "text": "Questions 33–36\nDo the following statements agree with the information given in Reading Passage 3? In boxes 33–36 on\nyour answer sheet, write:\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n33 __________ Cooling servers does not require an amount of energy comparable to that used for\ncomputing.\n34 __________ It seems that the number of servers has a severe impact on Internet connection speeds.\n35 __________ Several companies from other fields have joined the Internet industry in a collaborative\neffort to save energy.\n36 __________ Government action is expected to help save energy in the near future."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete the following summary of the paragraphs of Reading Passage, using NO MORE THAN THREE\nWORDS from the Reading Passage for each answer. Write your answers in boxes 37–40 on your answer\nsheet.\n\n\nEfforts to save energy have also reached the 37 __________. Processing power\nand power consumption have risen together. Some firms have therefore switched\nto 38 __________, integrating several processors into a single circuit to achieve\nsignificant energy savings. Chipmakers also continue to 39 __________ at the\nnanoscale, so chips use less energy while maintaining the same 40 __________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Identified ways to optimise energy use in major parts of a company",
+      "translation": "指出如何優化公司主要部分的能源使用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Described a major innovation in a small but important computer component",
+      "translation": "描述一項出現在細小但重要的電腦部件中的重大創新。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Aimed to develop alternative energy sources in the near future",
+      "translation": "目標是在不久將來發展替代能源。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Estimated that computers would consume an astonishing amount of energy within a few years if current trends continued",
+      "translation": "估計如果目前趨勢持續，電腦在幾年內會消耗驚人的能源。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Described a powerful technique for consolidating computing resources",
+      "translation": "描述一項可整合電腦資源的強大技術。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Reported that most computers fail to activate built-in power-management tools",
+      "translation": "報告指出，大多數電腦沒有啟用內置的電源管理工具。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Cooling servers does not require an amount of energy comparable to that used for computing.",
+      "translation": "冷卻伺服器不需要與運算用電相若的能源量。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ It seems that the number of servers has a severe impact on Internet connection speeds.",
+      "translation": "看來伺服器數量對互聯網連線或網頁傳送速度有重大影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Several companies from other fields have joined the Internet industry in a collaborative effort to save energy.",
+      "translation": "幾家來自其他領域的公司，與互聯網行業一起參與一項節能合作行動。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "__________ Government action is expected to help save energy in the near future.",
+      "translation": "政府行動預計會在不久將來幫助節省能源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "節省能源的努力也已到達 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "因此，一些公司已轉向 ______，把幾個處理器整合進單一電路，以取得顯著節能效果。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "晶片製造商也繼續在納米尺度 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "所以晶片在保持相同 ______ 的同時，使用較少能源。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-140/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-140/page-5.jpg"
+  ]
+}

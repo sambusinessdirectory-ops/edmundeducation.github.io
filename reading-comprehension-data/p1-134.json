@@ -1,0 +1,247 @@
+{
+  "id": "p1-134",
+  "catalogueId": "p1-134",
+  "title": "Reclaiming the future of aral sea",
+  "sourceHeading": "Reclaiming the Future of the Aral Sea",
+  "passage": 1,
+  "practice": 134,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-134-reclaiming-the-future-of-aral-sea",
+  "source": {
+    "filename": "Practice 134 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "7bebca9094ddb5ba1003d77047c7aee0adb98f65818d51e8566ba06d44df32f6"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The Aral Sea gets almost all its water from the Amu and Syr rivers. Over the millennia the Amu’s course has drifted away from the sea, causing it to shrink. But the lake always rebounded as the Amu shifted back again. Today heavy irrigation for crops such as cotton and rice siphons off much of the two rivers, severely cutting flow into their deltas and thus into the sea. Evaporation vastly outpaces any rainfall, snowmelt or groundwater supply, reducing water volume and raising salinity. The Soviet Union hid the sea’s demise for decades until 1985, when leader Mikhail Gorbachev revealed the great environmental and human tragedy. By the late 1980s the sea’s level had dropped so much that the water had separated into two distinct bodies: the Small Aral (north) and the Large Aral (south). By 2007 the south had split into a deep western basin, a shallow eastern basin and a small, isolated gulf. The Large Aral’s volume had dropped from 708 to only 75 cubic kilometres (km³), and salinity had risen from 14 to more than 100 grams per litre (g/l). The 1991 dissolution of the Soviet Union divided the lake between newly formed Kazakhstan and Uzbekistan, ending a grand Soviet plan to channel in water from distant Siberian rivers and establishing competition for the dwindling resource."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Desiccation of the Aral Sea has wrought severe consequences. Greatly reduced river flows ended the spring floods that sustained wetlands with freshwater and enriched sediment. The number of fish species in the lakes dropped from 32 to 6 because of rising salinity and loss of spawning and feeding grounds (most survived in the river deltas). Commercial fisheries, which caught 40,000 metric tons of fish in 1960, were gone by the mid-1980s; more than 60,000 related jobs were lost. The most common remaining lake occupant was the Black Sea flounder, a saltwater fish introduced in the 1970s, but by 2003 it had disappeared from the southern lakes because salinity was more than 70 g/l, double that of a typical ocean. Shipping on the Aral also ceased because the water receded many kilometres from the major ports of Aralsk to the north and Moynak in the south; keeping increasingly long channels open to the cities became too costly. Groundwater levels dropped with falling lake levels, intensifying desertification."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The receding sea has exposed and dried 54,000 square kilometres of seabed, which is choked with salt and in some places laced with pesticides and other agricultural chemicals deposited by runoff from area farming. Strong windstorms blow salt, dust and contaminants as far as 500 km. Winds from the north and northeast drive the most severe storms, seriously impacting the Amu delta to the south—the most densely settled and most economically and ecologically important area in the region. Airborne sodium bicarbonate, sodium chloride and sodium sulfate kill or retard the growth of natural vegetation and crops—a cruel irony given that irrigating those crops starves the sea. Health experts say the local population suffers from high levels of respiratory illnesses, throat and oesophageal cancer, and digestive disorders caused by breathing and ingesting salt-laden air and water. Liver and kidney ailments, as well as eye problems, are common. The loss of fish has also greatly reduced dietary variety, worsening malnutrition and anaemia, particularly in pregnant women."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Returning the entire Aral Sea to its 1960s state is unrealistic. The annual inflow from the Syr and Amu rivers would have to be quadrupled from the recent average of 13 km³. The only means would be to curtail irrigation, which accounts for 92 per cent of water withdrawals. Yet four of the five former Soviet republics in the Aral Sea basin (Kazakhstan is the exception) intend to expand irrigation, mainly to feed growing populations. Switching to less water-intensive crops, such as replacing cotton with winter wheat, could help, but the two primary irrigating nations, Uzbekistan and Turkmenistan, intend to keep cotton to earn foreign currency. The extensive irrigation canals could be greatly improved; many are simply cuts through sand, and they allow enormous quantities of water to seep away. Modernising the entire system could save 12 km³ a year but would cost at least $16 billion. The basin states do not have the money or the political will. Kazakhstan has nonetheless tried to partially restore the northern Aral."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "We expect salinities in the Small Aral to settle at three to 14 g/l, depending on location. At these levels many more indigenous species should return, although the saltwater kambala would disappear from most places. Further restoration is possible. For example, if irrigation improvements raised the average annual inflow from the Syr to 4.5 km³, which is entirely feasible, the lake’s level could stabilise at about 47 metres. This change would bring the shoreline to within eight kilometres of Aralsk, the former major port city, close enough to allow recovery of an earlier channel that connected the city to the receding waters. The channel would give large commercial fishing vessels access to the sea, and shipping could restart. Marshlands and fish populations would improve even more because of a further reduction in salinity. Outflow to the southern lakes could also increase, helping their restoration. Such a plan would require a much longer and higher dike, as well as reconstruction of the gate facility, and it is not clear that Kazakhstan has the means or desire to pursue it. The country is, however, now discussing more modest proposals to bring water closer to Aralsk."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The Large Aral faces a difficult future; it continues to shrink rapidly. Only a long, narrow channel connects the shallow eastern basin and the deeper western basin, and this could close altogether. If countries along the Amu make no changes, we estimate that at current rates of groundwater inflow and evaporation, an isolated eastern basin would stabilise at an area of 4,300 square kilometres (km²). But it would average only 2.5 metres deep. Salinity would exceed 100 g/l, possibly reaching 200 g/l; the only creatures that could live in it would be brine shrimp and bacteria. The western basin’s fate depends on groundwater inflow, estimates for which are uncertain. One of us (Aladin) has noted numerous freshwater springs on the western cliffs. Our most reliable calculations indicate that the basin would settle at about 2,100 km². The lake would still be relatively deep, reaching 37 metres in spots, but salinity would rise well above 100 g/l."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nThe reading passage has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in boxes 1–6 on your answer sheet.\nNB You may use any letter more than once.\n1 A mission that is impossible\n2 An extremely worrying trend for one main part of the Aral Sea\n3 An unfinished project for political reasons\n4 A promising recovery in the future\n5 A severely affected populated area\n6 The disclosure of a major secret"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 9,
+      "text": "Questions 7–9\nDo the following statements agree with the information given in the reading passage?\nIn boxes 7–9 on your answer sheet, write\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n7 In response to population growth, not all nations near the Aral Sea are considering plans that would\nexacerbate the problems facing it.\n8 Kazakhstan’s willingness to take further action to restore the Small Aral Sea is uncertain.\n9 The western basin appears to have a predetermined future regardless of groundwater inflow."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nComplete the following summary.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 10–13 on your answer sheet.\nThe 10 _________________ carried by floodwaters are the main resources sustaining the wetlands.\nThese floods ceased because of the decrease in 11 _________________ into the Aral Sea. The\nnumber of fish species declined dramatically because of the increase in 12 _________________\nand the loss of grounds for 13 _________________, one example being the disappearance of a\nparticular fish species. Fisheries and shipping also suffered greatly from these changes."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A mission that is impossible",
+      "translation": "一項不可能完成的任務。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "An extremely worrying trend for one main part of the Aral Sea",
+      "translation": "Aral Sea 其中一個主要部分出現極令人擔憂的趨勢。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "An unfinished project for political reasons",
+      "translation": "一項因政治原因而未完成或被終止的計劃。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A promising recovery in the future",
+      "translation": "未來有希望的恢復前景。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A severely affected populated area",
+      "translation": "一個受嚴重影響的人口聚居地區。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The disclosure of a major secret",
+      "translation": "一個重大秘密被公開。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "In response to population growth, not all nations near the Aral Sea are considering plans that would exacerbate the problems facing it.",
+      "translation": "為回應人口增長，並非所有 Aral Sea 附近國家都正在考慮會加劇其問題的計劃。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Kazakhstan’s willingness to take further action to restore the Small Aral Sea is uncertain.",
+      "translation": "Kazakhstan 是否願意採取進一步行動恢復 Small Aral Sea，仍不確定。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "The western basin appears to have a predetermined future regardless of groundwater inflow.",
+      "translation": "western basin 的未來似乎已經預先固定，不受地下水流入量影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "洪水帶來的 __________ 是維持濕地的主要資源。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "這些洪水停止，是因為流入 Aral Sea 的 __________ 減少。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "魚類物種數量大幅下降，是因為 __________ 增加，以及 __________ 場地消失；其中一個例子是某種魚消失。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "魚類物種數量大幅下降，是因為鹽度增加，以及用作 __________ 的場地消失；其中一個例子是某種魚消失。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-134/page-5.jpg"
+  ]
+}

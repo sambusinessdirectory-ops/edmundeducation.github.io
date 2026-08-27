@@ -1,0 +1,288 @@
+{
+  "id": "p3-047",
+  "catalogueId": "p3-047",
+  "title": "Motivating Drives",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 47,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-047-motivating-drives",
+  "source": {
+    "filename": "Practice 47 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "cf670d9e8f9508a14ef24e339e789d7df5a4bdf7ee6bbf8dc43236068ae59d25"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Motivating Drives Scientists have been researching ways to motivate employees for many years. Much of this work focuses on relationships and seeks to build a comprehensive model for further study. This is especially important when the business goal is to turn unmotivated teams into productive ones. However, such research has limitations: it can be like studying the movement of a car without examining its engine."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Motivation is what drives people to succeed and plays a vital role in enhancing organisational development. It is important to study the motivation of employees because it is related to the emotions and behaviour of employees. Recent studies have identified four motivational drives. They are the drive to acquire, the drive to bond, the drive to comprehend and the drive to defend."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The Drive to Acquire The drive to acquire must be met to optimise both acquisition and achievement. This involves how outstanding performance is recognised and what benefits and career opportunities are provided. Sometimes, however, a written letter of appreciation generates more motivation than a thousand-dollar cheque and can act as an invisible force that boosts engagement. Successful organisations and leaders need to focus not only on material rewards but also on other organisational levers that drive motivation."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The Drive to Bond The drive to bond is also key to driving motivation. There are many kinds of bonds between people, such as friendship and family ties. Within a company, employees want to feel that they belong and are an essential part of the organisation. This sense of belonging motivates them. Employees show the greatest commitment when this internal motivation influences the direction, intensity and persistence of their decisions and behaviour within the company."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The Drive to Comprehend The drive to comprehend motivates many employees to higher performance. For years, it has been known that setting stretch goals can have a major impact on performance. Organisations need to ensure that the various job roles provide employees with stimulation that challenges them or allows them to grow. Employees don’t want to do meaningless things or monotonous jobs. If a job does not provide them with personal meaning and fulfilment, they will leave the company."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The Drive to Defend The drive to defend is often the hardest lever to pull. This drive manifests itself as a quest to create and promote justice, fairness, and the ability to express ourselves freely. The organisational lever for this basic human motivator is resource allocation. This drive is also met through an employee’s sense of connection to a company. If their company merges with another, they may show concern."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Two studies examined the relationships between the four drives and motivation. An article based on them was later published in Harvard Business Review. Its authors emphasised four-drive theory and empirical investigation. Using surveys of employees at Fortune 500 companies and two other global businesses (P company and H company), the article explains how independent drives influence employees’ behaviour and how organisational levers boost employee motivation."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The studies show that the drive to bond is most strongly associated with commitment, while the drive to comprehend is most related to how much effort employees devote to work. The drive to acquire can be satisfied by a reward system that ties rewards to performance, and gives the best people opportunities for advancement. For the drive to defend, a study of the merger of P company and H company shows that employees in the former company showed an unusually cooperative attitude."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The key to successfully motivating employees is to meet all drives. Each of these drives is important if we are to understand employee motivation. These four drives, while not necessarily the only human drives, are the ones that are central to a unified understanding of modern human life."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–34",
+    "g35": "Questions 35–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 27–31 on your answer sheet.\n\n\n27 According to the passage, what are we told about the study of motivation?\n A The theory of motivating employees has only recently started to attract attention in\n   organisations.\n B It is very important for managers to know how to motivate their subordinates because it is\n   related to the salary of employees.\n C Researchers have tended to be too theoretical in their studies.\n D The goal of employee motivation is to increase the profits of organisations\n\n\n28 What can be inferred from the passage about the study of people’s drives?\n A Satisfying employees’ drives can lead to positive changes in behaviour.\n B Satisfying employees’ drives will negatively affect their emotions.\n C Satisfying employees’ drives can increase companies’ production.\n D Satisfying employees’ drives will result in employees’ outstanding performance.\n\n29 According to paragraph three, what is needed to optimise employees’ performance?\n A The drive to acquire and the achievement element\n B Outstanding performance and recognition\n C Career fulfilment and a thousand-dollar cheque\n D Financial incentive and recognition\n\n30 According to paragraph five, how does “the drive to comprehend” help employees perform\nbetter?\n A It can help employees better understand the development of their organisations.\n B It can help employees feel that their work is meaningful to their companies.\n C It can help employees set higher goals.\n D It can provide employees with repetitive tasks.\n\n31 According to paragraph six, which of the following is true about “drive to defend”?\n A Organisational resources are the most difficult to allocate.\n B It is more difficult to implement than the drive to comprehend.\n C Employees think it is very important to voice their own opinions.\n D Employees think it is very important to feel connected to a company after a merger."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 34,
+      "text": "Questions 32–34\nChoose THREE letters, A–F.\nWrite the correct letters in boxes 32–34 on your answer sheet.\nWhich THREE of the following statements are true of the study of drives?\n A Employees will be motivated if they feel that they belong to the company.\n B If employees have an opportunity to join a training and development programme, their\n   motivation will be enhanced.\n C If employees’ working goals are aligned with organisational objectives, their motivation will\n   be reinforced.\n D If employees’ motivation is very low, companies should find a way to increase their salary\n   as their first priority.\n E If employees find their work insufficiently challenging, they will leave the company.\n F Employees will worry if their company merges with another company.\n\n\n32 __________\n33 __________\n34 __________"
+    },
+    {
+      "id": "g35",
+      "start": 35,
+      "end": 40,
+      "text": "Questions 35–40\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 35–40 on your answer sheet, write\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n\n\n35 _________________ Increasing pay can lead to high work motivation.\n36 _________________ The study shows that local companies benefit more than global\ncompanies.\n37 _________________ Employees achieve the greatest commitment if their drive to\ncomprehend is met.\n38 _________________ Employees in the former company showed an unusual attitude during\nthe merger of two companies.\n39 _________________ The two studies were conducted to analyse the relationship between\nnatural drives and employees’ attitudes.\n40 _________________ A reward system causes a company to lose profits."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to the passage, what are we told about the study of motivation?",
+      "translation": "根據文章，關於 motivation 的研究，作者告訴我們甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What can be inferred from the passage about the study of people’s drives?",
+      "translation": "從文章可推斷，研究人的 drives 有甚麼意義？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to paragraph three, what is needed to optimise employees’ performance?",
+      "translation": "根據第三段，要優化員工表現，需要甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to paragraph five, how does “the drive to comprehend” help employees perform better?",
+      "translation": "根據第五段，drive to comprehend 如何幫助員工有更好表現？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to paragraph six, which of the following is true about “drive to defend”?",
+      "translation": "根據第六段，關於 drive to defend，哪一項正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "_________________ Increasing pay can lead to high work motivation.",
+      "translation": "加薪可以帶來高度工作 motivation。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "_________________ The study shows that local companies benefit more than global companies.",
+      "translation": "研究顯示，本地公司比全球公司得益更多。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "_________________ Employees achieve the greatest commitment if their drive to comprehend is met.",
+      "translation": "如果員工的 drive to comprehend 被滿足，他們會達到最高 commitment。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "_________________ Employees in the former company showed an unusual attitude during the merger of two companies.",
+      "translation": "在兩家公司合併期間，前一家公司員工表現出一種不尋常態度。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "_________________ The two studies were conducted to analyse the relationship between natural drives and employees’ attitudes.",
+      "translation": "這兩項研究是為了分析 natural drives 與員工 attitudes 之間的關係。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "_________________ A reward system causes a company to lose profits.",
+      "translation": "獎勵制度會導致公司失去利潤。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-047/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-047/page-5.jpg"
+  ]
+}

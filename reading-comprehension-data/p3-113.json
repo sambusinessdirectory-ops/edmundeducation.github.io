@@ -1,0 +1,318 @@
+{
+  "id": "p3-113",
+  "catalogueId": "p3-113",
+  "title": "The accidental rainforest",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 113,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-113-the-accidental-rainforest",
+  "source": {
+    "filename": "Practice 113 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "4e906c1969a8e19816a8c975fa94e0b150287ad039f35acd7f58d1fdfb734d8c"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The accidental rainforest According to ecological theory, rainforests are supposed to develop slowly over millions of years. But now ecologists are being forced to reconsider their ideas. When Peter Osbeck, a Swedish priest, stopped off at the mid-Atlantic island of Ascension in 1752 on his way home from China, he wrote of ‘a heap of ruinous rocks’ with a bare, white mountain in the middle. All it boasted was a couple of dozen species of plant, most of them ferns and some of them unique to the island."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "And so it might have remained. But in 1843 British plant collector Joseph Hooker made a brief call on his return from Antarctica. Surveying the bare earth, he concluded that the island had suffered some natural calamity that had denuded it of vegetation and triggered a decline in rainfall that was turning the place into a desert. The British Navy, which by then maintained a garrison on the island, was keen to improve the place and asked Hooker’s advice. He suggested an ambitious scheme for planting trees and shrubs that would revive rainfall and stimulate a wider ecological recovery. And, perhaps lacking anything else to do, the sailors set out with a will."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "In 1845, a naval transport ship from Argentina delivered a batch of seedlings. In the following years, more than 200 species of plant arrived from South Africa; from England came 700 packets of seeds, including those of two species that especially liked the place: bamboo and prickly pear. With sailors planting several thousand trees a year, the bare white mountain was soon cloaked in green and renamed Green Mountain, and by the early twentieth century the mountain’s slopes were covered with a variety of trees and shrubs from all over the world."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Modern ecologists throw up their hands in horror at what they see as Hooker’s environmental anarchy. The exotic species wrecked the indigenous ecosystem, squeezing out the island’s endemic plants. In fact, Hooker knew well enough what might happen. However, he saw greater benefit in improving rainfall and encouraging more prolific vegetation on the island."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "But there is a much deeper issue here than the relative benefits of sparse endemic species versus luxuriant imported ones. And as botanist David Wilkinson of Liverpool John Moores University in the UK pointed out after a recent visit to the island, it goes to the heart of some of the most dearly held tenets of ecology. Conservationists’ understandable concern for the fate of Ascension’s handful of unique species has, he says, blinded them to something quite astonishing—the fact that the introduced species have been a roaring success."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Today’s Green Mountain, says Wilkinson, is ‘a fully functioning man-made tropical cloud forest’ that has grown from scratch from a ragbag of species collected more or less at random from all over the planet. But how could it have happened? Conventional ecological theory says that complex ecosystems such as cloud forests can emerge only through evolutionary processes in which each organism develops in concert with others to fill particular niches. Plants co-evolve with their pollinators and seed dispersers, while microbes in the soil evolve to deal with the leaf litter."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "But that’s not what happened on Green Mountain. And the experience suggests that perhaps natural rainforests are constructed far more by chance than by evolution. Species, say some ecologists, don’t so much evolve to create ecosystems as make the best of what they have. ‘The Green Mountain system is a man-made system that has produced a tropical rainforest without any co-evolution between its constituent species,’ says Wilkinson."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Not everyone agrees. Alan Gray, an ecologist at the University of Edinburgh in the UK, argues that the surviving endemic species on Green Mountain, though small in number, may still form the framework of the new ecosystem. The new arrivals may just be an adornment, with little structural importance for the ecosystem."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "But to Wilkinson this sounds like clutching at straws. And the idea of the instant formation of rainforests sounds increasingly plausible as research reveals that supposedly pristine tropical rainforests from the Amazon to south-east Asia may in places be little more than the overgrown gardens of past rainforest civilisations."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "The most surprising thing of all is that no ecologists have thought to conduct proper research into this human-made rainforest ecosystem. A survey of the island’s flora conducted six years ago by the University of Edinburgh was concerned only with endemic species. They characterised everything else as a threat. And the Ascension authorities are currently turning Green Mountain into a national park where introduced species, at least the invasive ones, are earmarked for culling rather than conservation."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "Conservationists have understandable concerns, Wilkinson says. At least four endemic species have gone extinct on Ascension since the exotics started arriving. But in their urgency to protect endemics, ecologists are missing out on the study of a great enigma."
+    },
+    {
+      "number": 12,
+      "label": "12",
+      "text": "‘As you walk through the forest, you see lots of leaves that have had chunks taken out of them by various insects. There are caterpillars and beetles around,’ says Wilkinson. ‘But where did they come from? Are they endemic or alien? If alien, did they come with the plant on which they feed or discover it on arrival?’ Such questions go to the heart of how rainforests happen."
+    },
+    {
+      "number": 13,
+      "label": "13",
+      "text": "The Green Mountain forest holds many secrets. And the irony is that the most artificial rainforest in the world could tell us more about rainforest ecology than any number of natural forests."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–32",
+    "g33": "Questions 33–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 32,
+      "text": "Questions 27–32\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 27–32 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n27 _________________ When Peter Osbeck visited Ascension, he found no inhabitants on the\nisland.\n28 _________________ The natural vegetation on the island contained some species which\nwere found nowhere else.\n29 _________________ Joseph Hooker assumed that human activity had caused the decline in\nthe island’s plant life.\n30 _________________ British sailors on the island took part in a major tree planting project.\n31 _________________ Hooker sent details of his planting scheme to a number of different\ncountries.\n32 _________________ The bamboo and prickly pear seeds sent from England were\nunsuitable for Ascension."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 37,
+      "text": "Questions 33–37\nComplete each sentence with the correct ending A–G from the box below.\nWrite the correct letter A–G in boxes 33–37 on your answer sheet.\n A                       other rainforests may have originally been planted by man.\n\n B                       many of the island’s original species were threatened with destruction.\n\n                         the species in the original rainforest were more successful than the newer\n C\n                         arrivals.\n\n                         rainforests can only develop through a process of slow and complex\n D\n                         evolution.\n\n E                       steps should be taken to prevent the destruction of the original ecosystem.\n\n F                       randomly introduced species can coexist together.\n\n                         the introduced species may have less ecological significance than the\n G\n                         original ones.\n33 _________________ The reason for modern conservationists’ concern over Hooker’s tree\nplanting programme is that\n34 _________________ David Wilkinson says the creation of the rainforest in Ascension is\nimportant because it shows that\n35 _________________ Wilkinson says the existence of Ascension’s rainforest challenges the\ntheory that\n36 _________________ Alan Gray questions Wilkinson’s theory, claiming that\n37 _________________ Additional support for Wilkinson’s theory comes from findings that"
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nChoose the correct letter, A, B, C or D\nWrite your answers in boxes 38–40 on your answer sheet.\n\n\n38 Wilkinson suggests that conservationists’ concern about the island is misguided because\n A it is based on economic rather than environmental principles.\n B it is not focusing on the most important question.\n C it is encouraging the destruction of endemic species.\n D it is not supported by the local authorities.\n\n\n39 According to Wilkinson, studies of insects on the island could demonstrate\n A the possibility of new ecological relationships.\n B a future threat to the ecosystem of the island.\n C the existence of previously unknown species.\n D a chance for the survival of rainforest ecology.\n\n\n40 Overall, what feature of the Ascension rainforest does the writer stress?\n A the conflict of natural and artificial systems\n B the unusual nature of its ecological structure\n C the harm done by interfering with nature\n D the speed and success of its development"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ When Peter Osbeck visited Ascension, he found no inhabitants on the island.",
+      "translation": "Peter Osbeck 到訪 Ascension 時，發現島上沒有居民。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ The natural vegetation on the island contained some species which were found nowhere else.",
+      "translation": "島上的天然植被包含一些在其他地方找不到的物種。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Joseph Hooker assumed that human activity had caused the decline in the island’s plant life.",
+      "translation": "Joseph Hooker 假設人類活動導致島上植物生命衰退。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ British sailors on the island took part in a major tree planting project.",
+      "translation": "島上的 British sailors 參與了一項大型種樹計劃。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Hooker sent details of his planting scheme to a number of different countries.",
+      "translation": "Hooker 把自己種植方案的細節寄給多個不同國家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ The bamboo and prickly pear seeds sent from England were unsuitable for Ascension.",
+      "translation": "從 England 送來的 bamboo 和 prickly pear 種子不適合 Ascension。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ The reason for modern conservationists’ concern over Hooker’s tree planting programme is that",
+      "translation": "現代 conservationists 擔心 Hooker 的種樹計劃，是因為島上許多原生物種受到破壞威脅。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ David Wilkinson says the creation of the rainforest in Ascension is important because it shows that",
+      "translation": "David Wilkinson 認為 Ascension rainforest 的形成重要，因為它顯示隨機引入的物種可以共存。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ Wilkinson says the existence of Ascension’s rainforest challenges the theory that",
+      "translation": "Wilkinson 認為 Ascension rainforest 的存在挑戰了一個理論：rainforests 只能透過漫長而複雜的演化過程形成。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ Alan Gray questions Wilkinson’s theory, claiming that",
+      "translation": "Alan Gray 質疑 Wilkinson 的理論，認為外來物種的生態重要性可能低於原有物種。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "_________________ Additional support for Wilkinson’s theory comes from findings that",
+      "translation": "Wilkinson 理論的額外支持，來自一些發現：其他 rainforests 可能最初也是由人類種植出來的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "Wilkinson suggests that conservationists’ concern about the island is misguided because",
+      "translation": "Wilkinson 認為 conservationists 對這座島的擔憂有偏差，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "According to Wilkinson, studies of insects on the island could demonstrate",
+      "translation": "根據 Wilkinson，研究島上的 insects 可以展示甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "Overall, what feature of the Ascension rainforest does the writer stress?",
+      "translation": "整體來看，作者最強調 Ascension rainforest 的哪一個特點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-113/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-113/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-113/page-7.jpg"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "p3-066",
+  "catalogueId": "p3-066",
+  "title": "Sunday Is a Fun Day for Modern Brits",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 66,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-066-sunday-is-a-fun-day-for-modern-brits",
+  "source": {
+    "filename": "Practice 66 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "c8b81eddcc80d25d62041989f02c22ee733e01cae0e82e130f38c3030a576430"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Sunday Is a Fun Day for Modern Brits In a new study, Essex University sociologists have dissected the typical British Sunday and found we get up later and do fewer chores than we did 40 years ago – and we are far more likely to be out shopping or enjoying ourselves than cooking Sunday lunch. Academics at the university’s Institute of Social and Economic Research asked 10,000 people to keep a detailed diary of how they spent Sundays in 2001. Then they compared the results with 3,500 diaries written in 1961, a treasure trove of information that had been uncovered ‘in two egg boxes and a tea chest’ in the basement of the BBC by ISER’s director, Professor Jonathan Gershuny."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The contrast between the two periods could not be more striking. Forty years ago, Sunday mornings were a flurry of activity as men and women – especially women – caught up on their weekly chores and cooked up a storm in the kitchen. Women rarely allowed themselves any ‘leisure’ until the afternoon, after the dishes were cleaned. In 1961, more than a fifth of all men and women in Britain were sitting at a table by 2 p.m., most likely tucking into a roast with all the trimmings. Then there would be another rush to the table between 5 p.m. and 6 p.m. for high tea."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Since the arrival of brunch, the gastropub and the all-you-can-eat Sunday buffet at the local curry house, such traditional mealtimes have largely disappeared. Today, we graze throughout the day. You only have two free days a week. You don’t want to have to waste one because there is nothing to do but watch TV. Sunday has leapfrogged Saturday in the fun stakes. On Saturdays, you are recovering from the week. Sundays are the last bastion of the weekend – you want to get as much as possible out of the day before you have to go back to work."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "According to researchers, the ability to trail around B&Q has made the most dramatic difference to our Sundays. In 1961, adults spent an average of 20 minutes a day shopping; by 2001, it was 50 minutes. ‘Shopping used to be a gender-segregated activity that would take place during the week, while the husband was at work. Now it’s as much a male activity as a female one,’ said Gershuny. We’re all more likely to be relaxing or shopping on a Sunday morning these days than scrubbing the floor or putting up shelves. ‘Men now stay in bed longer, and get up not, as previously, to work around the house, but rather to shop or to pursue other outside leisure activities.’"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Men do about the same amount of unpaid work around the house on Sundays as they used to, but it is spread throughout the whole day, instead of crammed into the morning. Women do considerably less than 40 years ago. Indeed, men and women were ‘pretty much different species’ in 1961, as far as the way they spent Sundays was concerned, with men far more likely to be out of the house – at the pub or playing football – before lunch. ‘For women, leisure happened only in the afternoon. But by 2001, the shapes of men’s and women’s Sundays were much more similar,’ says the report."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "‘Sunday for me is all about holding on to the weekend and trying to stave off Monday. An ideal Sunday would involve getting up and having a nice lunch. Sometimes we cook, but more often I go out to get a roast or bangers and mash at a gastropub. If it is a nice day, there is nothing better than sitting outside in the beer garden, reading the Sunday papers – one tabloid and one broadsheet – with a Guinness, extra cold. Sunday is often a chance to visit other parts of London, as long as it is not too far. I use Sundays to go clothes shopping, or to the cinema. I often go to Camden market, as I love the international foods on offer and hunting for bargains and vintage clothes.’"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Jonathan Bentley Atchison (25, Clapham, London, works in communications) ‘I am usually at home making the Sunday lunch. Some friends go out to eat, but my husband Mark loves a roast, so we don’t. After that, I do the washing, like every day, and then I take my daughter Grace to netball and watch her play. Mark potters around – last Sunday, he tidied the garage. He works six days a week, so on Sunday he stays at home. I don’t like shopping on a Sunday because every man and his dog is out. I don’t work, so I can do it in the week. I tend to watch television and chill out. When summer comes, we go to barbecues at family or friends’ houses. When I was growing up, my dad would do the gardening and paint the fences while my mum would do housework.’"
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Hazel Hallows (42, Manchester, housewife, married with three children) ‘When we were at home, I would get out in the garden, and my late wife Rose would cook the Sunday lunch and do the housework. I was an engineer, and Rose worked full-time as a supermarket manageress. In 1961, we had just moved to Bristol, and I spent Sunday maintaining the new house. The washing and ironing had to be done – it was a working-together atmosphere. We would sometimes go and spend the day with Rose’s sister or other relatives. In 1961, it was the first time I had a new car, so we spent time in the countryside or garden centres. Now, I get up on Sundays and spend a couple of hours reading the newspapers.’ Bryan Jones (79, pensioner, Frampton Cotterell, near Bristol)"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in the appropriate box on your answer sheet.\n\n\n27 According to the diaries, in 1961, women rarely had free time on Sunday\n A mornings.\n B afternoons.\n C evenings.\n\n\n28 People want to do more on Sundays because\n A more shops are open.\n B it is a good day to graze.\n C they are tired on Saturdays.\n\n\n29 Shopping habits have changed since 1961 in that\n A people shop less at weekends.\n B men shop more than women.\n C men do as much shopping as women.\n\n\n30 Compared with 1961,\n A women do far less housework on Sundays.\n B men do far less housework on Sundays.\n C men and women do far less housework on Sundays."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\n\n\nProfessor Gershuny discovered thousands of 31 _________________ at the\nBBC.\nIn 1961, people ate 32 _________________ at 5 or 6 o’clock.\nIn 2001, people spent 33 _________________ 50 minutes on shopping on\nSundays.\nShopping is something that is not as 34 _________________ as it was in\n1961.\nIn 1961, men would often go for a drink or be 35 _________________ before\nlunch."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n\n\n36 _________________ Mr. Atchison usually eats out.\n37 _________________ Mrs. Hallows’ husband does no household chores on Sundays.\n38 _________________ Mrs. Hallows thinks the shops are too busy on Sundays.\n39 _________________ Mr. Jones is a widower.\n40 _________________ Mr. Jones does household chores on Sundays."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "According to the diaries, in 1961, women rarely had free time on Sunday",
+      "translation": "根據日記，1961 年女性在星期日甚麼時段很少有空閒時間？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "People want to do more on Sundays because",
+      "translation": "人們想在星期日做更多事，原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Shopping habits have changed since 1961 in that",
+      "translation": "自 1961 年以來，購物習慣有甚麼變化？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Compared with 1961,",
+      "translation": "與 1961 年相比，現在星期日家務分工有甚麼變化？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "Professor Gershuny 在 BBC 發現了數以千計的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "1961 年，人們在 5 點或 6 點吃 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "2001 年，人們在星期日購物花了 ______ 50 分鐘。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "購物不像 1961 年那樣 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "1961 年，男性午餐前常會去喝一杯，或者 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Mr. Atchison usually eats out.",
+      "translation": "Atchison 先生通常外出用餐。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Mrs. Hallows’ husband does no household chores on Sundays.",
+      "translation": "Hallows 太太的丈夫星期日完全不做家務。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Mrs. Hallows thinks the shops are too busy on Sundays.",
+      "translation": "Hallows 太太認為星期日商店太多人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Mr. Jones is a widower.",
+      "translation": "Jones 先生是鰥夫，即妻子已去世的男性。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Mr. Jones does household chores on Sundays.",
+      "translation": "Jones 先生星期日會做家務。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-066/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-066/page-5.jpg"
+  ]
+}

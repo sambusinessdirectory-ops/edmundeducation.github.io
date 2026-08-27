@@ -1,0 +1,289 @@
+{
+  "id": "p3-118",
+  "catalogueId": "p3-118",
+  "title": "Video game research",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 118,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-118-video-game-research",
+  "source": {
+    "filename": "Practice 118 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "7105bfb133a7128a9afa1141328a07fe1130257119ace9c8b333d8780d476da0"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Video Game Research Although video games were first developed for adults, they are no longer exclusively reserved for the grown-ups in the home. In 2006, Rideout and Hamel reported that as many as 29 percent of preschool children (children between two and six years old) in the United States had played console video games, and 18 percent had played hand-held ones. Given young children’s insatiable eagerness to learn, coupled with the fact that they are clearly surrounded by these media, we predict that preschoolers will both continue and increasingly begin to adopt video games for personal enjoyment. Although the majority of gaming equipment is still designed for a much older target audience, once a game system enters the household it is potentially available for all family members, including the youngest. Portable systems have done a particularly good job of penetrating the younger market."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Research in the video game market is typically done at two stages: some time close to the end of the product cycle, in order to get feedback from consumers, so that a marketing strategy can be developed; and at the very end of the product cycle to ‘fix bugs’ in the game. While both of those types of research are important, and may be appropriate for dealing with adult consumers, neither of them aids in designing better games, especially when it comes to designing for an audience that may have particular needs, such as preschoolers or senior citizens. Instead, exploratory and formative research has to be undertaken in order to truly understand those audiences, their abilities, their perspectives, and their needs. In the spring of 2007, our preschool-game production team at Nickelodeon had a hunch that the Nintendo DS – with its new features, such as the microphone, small size and portability, and its relatively low price point – was a ripe gaming platform for preschoolers. There were a few games on the market at the time which had characters that appealed to the younger set, but our game producers did not think that the game mechanics or design were appropriate for preschoolers. What exactly preschoolers could do with the system, however, was a bit of a mystery. So we set about doing a study to answer the query: What could we expect preschoolers to be capable of in the context of hand-held game play, and how might the child development literature inform us as we proceeded with the creation of a new outlet for this age group?"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Our context in this case was the United States, although the games that resulted were also released in other regions, due to the broad international reach of the characters. In order to design the best possible DS product for a preschool audience, we were fully committed to the ideals of a ‘user-centered approach’, which assumes that users will be at least considered, but ideally consulted during the development process. After all, when it comes to introducing a new interactive product to the child market, and particularly such a young age group within it, we believe it is crucial to assess the range of physical and cognitive abilities associated with their specific developmental stage."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Revelle and Medoff (2002) review some of the basic reasons why home entertainment systems, computers, and other electronic gaming devices, are often difficult for preschoolers to use. In addition to their still developing motor skills (which make manipulating a controller with small buttons difficult), many of the major stumbling blocks are cognitive. Though preschoolers are learning to think symbolically, and understand that pictures can stand for real-life objects, the vast majority are still unable to read and write. Thus, using text-based menu selections is not viable. Mapping is yet another obstacle since preschoolers may be unable to understand that there is a direct link between how the controller is used and the activities that appear before them on screen. Though this aspect is changing, in traditional mapping systems real-life movements do not usually translate into game-based activity."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Over the course of our study, we gained many insights into how preschoolers interact with various platforms, including the DS. For instance, all instructions for preschoolers need to be in voice-over, and include visual representations, and this has been one of the most difficult areas for us to negotiate with respect to game design on the DS. Because the game cartridges have very limited memory capacity, particularly in comparison to console or computer games, the ability to capture large amounts of voice-over data via sound files or visual representations of instructions becomes limited. Text instructions take up minimal memory, so they are preferable from a technological perspective. Figuring out ways to maximise sound and graphics files, while retaining the clear visual and verbal cues that we know are critical for our youngest players, is a constant give-and-take. Another of our findings indicated that preschoolers may use either a stylus, or their fingers, or both, although they are not very accurate with either. One of the very interesting aspects of the DS is that the interface, which is designed to respond to stylus interactions, can also effectively be used with the tip of the finger. This is particularly noteworthy in the context of preschoolers for two reasons. Firstly, as they have trouble with fine motor skills and their hand-eye coordination is still in development, they are less exact with their stylus movements; and secondly, their fingers are so small that they mimic the stylus very effectively, and therefore by using their fingers they can often be more accurate in their game interactions."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 27–31 on your answer sheet, write:\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n\n\n27 _________________ Video game use amongst preschool children is higher in the US than in\nother countries.\n28 _________________ The proportion of preschool children using video games is likely to rise.\n29 _________________ Parents in the US who own gaming equipment generally allow their\nchildren to play with it.\n30 _________________ The type of research which manufacturers usually do is aimed at\nimproving game design.\n31 _________________ Both younger and older consumers of games require specifically\ntargeted research."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 36,
+      "text": "Questions 32–36\nComplete the summary using the list of words/phrases, A–I, below.\nProblems for preschool users of video games\n A                                actions\n\n B                                buttons\n\n C                                cognitive skills\n\n D                                concentration\n\n E                                fingers\n\n F                                pictures\n\n G                                sounds\n\n H                                spoken instructions\n\n I                                written menus\n\n\nPreschool children find many electronic games difficult, because neither\ntheir motor skills nor their 32 _________________ are sufficiently\ndeveloped.\nCertain types of control are hard for these children to manipulate, for\nexample, 33 _________________ can be more effective than styluses.\nAlso, although they already have the ability to relate 34 _________________\nto real-world objects, preschool children are largely unable to understand\nthe connection between their own 35 _________________ and the\nmovements they can see on the screen. Finally, very few preschool\nchildren can understand 36 _________________."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nChoose the correct letter, A, B, C or D.\n37 In 2007, what conclusion did games producers at Nickelodeon come to?\n A The preschool market was unlikely to be sufficiently profitable.\n B One of their hardware products would probably be suitable for preschoolers.\n C Games produced by rival companies were completely inappropriate for preschoolers.\n D They should put their ideas for new games for preschoolers into practice.\n\n\n38 The study carried out by Nickelodeon\n A was based on children living in various parts of the world.\n B focused on the kinds of game content that interest preschoolers.\n C investigated the specific characteristics of the target market.\n D led to products which appealed mainly to US consumers.\n\n\n39 Which problem do the writers highlight concerning games instructions for young children?\n A Spoken instructions take up a lot of the available memory.\n B Written instructions have to be expressed very simply.\n C The children do not follow instructions consistently.\n D The video images distract attention from the instructions.\n\n\n40 Which is the best title for Reading Passage 3?\n A An overview of video games software for the preschool market\n B Researching and designing video games for preschool children\n C The effects of video games on the behaviour of young children\n D Assessing the impact of video games on educational achievement"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Video game use amongst preschool children is higher in the US than in other countries.",
+      "translation": "美國 preschool children 使用 video games 的比例高於其他國家。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ The proportion of preschool children using video games is likely to rise.",
+      "translation": "使用 video games 的 preschool children 比例可能會上升。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Parents in the US who own gaming equipment generally allow their children to play with it.",
+      "translation": "美國擁有 gaming equipment 的父母通常容許孩子玩這些設備。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ The type of research which manufacturers usually do is aimed at improving game design.",
+      "translation": "製造商通常進行的研究，目的是改善 game design。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "_________________ Both younger and older consumers of games require specifically targeted research.",
+      "translation": "較年幼和較年長的遊戲消費者都需要專門針對他們的研究。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "Preschool children 覺得很多 electronic games 困難，因為他們的 motor skills 和 32 ______ 都尚未充分發展。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "某些控制方式對這些兒童來說很難操作；例如，33 ______ 可能比 styluses 更有效。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "此外，雖然他們已經能夠把 34 ______ 和現實世界物件聯繫起來……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "preschool children 大多未能理解自己的 35 ______ 和螢幕上看到的 movement 之間的聯繫。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "最後，很少 preschool children 能理解 36 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "In 2007, what conclusion did games producers at Nickelodeon come to?",
+      "translation": "2007 年，Nickelodeon 的遊戲製作人得出甚麼看法？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "The study carried out by Nickelodeon",
+      "translation": "Nickelodeon 進行的研究……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Which problem do the writers highlight concerning games instructions for young children?",
+      "translation": "作者指出 young children 的 game instructions 有甚麼問題？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Which is the best title for Reading Passage 3?",
+      "translation": "本文最合適的標題是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-118/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-118/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-118/page-6.jpg"
+  ]
+}

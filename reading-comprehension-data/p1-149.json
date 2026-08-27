@@ -1,0 +1,269 @@
+{
+  "id": "p1-149",
+  "catalogueId": "p1-149",
+  "title": "Density and Crowding",
+  "sourceHeading": "Density and Crowding",
+  "passage": 1,
+  "practice": 149,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-149-density-and-crowding",
+  "source": {
+    "filename": "Practice 149 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "436ecc17b78ab6f9609ddd08ebce3afb845cd2f40b96745c628ffd4d1da0512b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Of the myriad problems humanity faces today, there are three significant trends which stand above all others in importance: the unprecedented population growth throughout the world—a net increase of 1,400,000 people per week, with all its associated consequences; the increasing urbanisation of these people, so that more and more of them are rushing into cities and urban areas of the world; and the tremendous explosion of communication and social contact throughout the world, so that every part of the world is now aware of every other part. All of these trends are producing increased crowding and the perception of crowding."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "It is important to emphasise at the outset that crowding and density are not necessarily the same. Density is the number of individuals per unit area or unit space. It is a simple physical measurement. Crowding is a product of density, communication, contact, and activity. It implies a pressure, a force, and a psychological reaction. It may occur at widely different densities. The frontiersman may have felt crowded when someone built a homestead a mile away. The suburbanite may feel relatively uncrowded in a small house on a half-acre lot if it is surrounded by trees, bushes, and a hedgerow, even though he lives at a much higher physical density than did the frontiersman. Hence, crowding is very much a psychological and ecological phenomenon, not just a physical condition."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "A classic crowding study was done by Calhoun (1962), who put rats into a physical environment designed to accommodate 50 rats and provided enough food, water, and nesting materials for the number of rats in the environment. The rat population peaked at 80, creating crowded living conditions. Although the rats experienced no resource limitations other than space restriction, a number of negative conditions developed: the two most dominant males took harems of several female rats and occupied more than their share of space, leaving other rats even more crowded; many females stopped building nests and abandoned their infant rats; the pregnancy rate declined; infant and adult mortality rates increased; more frequent aggressive physical attacks occurred; sexual variation increased, including hypersexuality, inhibited sexuality, homosexuality, and bisexuality."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Calhoun’s results have led to other research on crowding’s effects on human beings, and these research findings have suggested that high density is not the single cause of negative effects on humans. When crowding is defined only in terms of spatial density (the amount of space per person), the effects of crowding are variable. However, if crowding is defined in terms of social density, or the number of people who must interact, then crowding better predicts negative psychological and physical effects."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "There are several reasons why crowding makes us feel uncomfortable. One reason is related to stimulus overload: there are just too many stimuli competing for our attention. We cannot notice or respond to all of them. This feeling is typical of the harried mother, who has several children competing for her attention, while she is on the phone and the doorbell is ringing. This leaves her feeling confused, fatigued and yearning to withdraw from the situation. There are strong feelings of a lack of privacy—being unable to pay attention to what you want without being repeatedly interrupted or observed by others."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Field studies done in a variety of settings illustrate that social density is associated with negative effects on human beings. In prison studies, males generally became more aggressive with increases in density. In male prisons, inmates living in higher-density conditions were more likely to become involved in fights. Males rated themselves as more aggressive in small rooms (a situation of high spatial density), whilst the females rated themselves as more aggressive in large rooms (Stokols et al., 1973). These differences relate to the different personal space requirements of the genders. Moreover, Baum and Greenberg found that high density reduces attraction—both physical attraction and liking towards others—and that its impact varies by gender, with males experiencing a more extreme reaction. The greater the density, the less helping behaviour occurs. One reason why the level of helping behaviour may be reduced in crowded situations is linked to the concept of diffusion of responsibility. The more people who are present in a situation that requires help, the less often help is given. This may be due to the fact that people diffuse responsibility among themselves with no one feeling that they ought to be the one to help."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "How, then, should we address these problems? The more control a person has over a crowded environment, the less negatively they experience it and the less crowding they perceive (Schmidt and Keating). The ability to cope with crowding is also influenced by the relationship the individual has with the other people in the situation. High density will be interpreted less negatively if individuals experience it with people they like. One of the main coping strategies employed to limit the impact of high density is social withdrawal. This includes behaviours such as averting the gaze and using negative body language to attempt to block any potential intrusions."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nReading Passage 1 has seven paragraphs, A–G.\nChoose the correct heading for each paragraph from the list below.\nWrite the correct number, i–x, in boxes 1–7 on your answer sheet.\n                          Subsequent research offering a clearer interpretation of Calhoun’s\n i\n                          findings\n\n ii                       The social effects of crowding\n\n iii                      Psychological reactions to crowding\n\n iv                       Problems that contribute to crowding\n\n v                        The diffusion of responsibility\n\n vi                       Why crowding makes people uncomfortable\n\n vii                      Definitions of crowding and density\n\n viii                     Ways to cope with crowded environments\n\n ix                       Differences in how crowding affects attraction in men and women\n\n x                        The nature and results of Calhoun’s experiment\n\n\n1 ____________ Paragraph A\n2 ____________ Paragraph B\n3 ____________ Paragraph C\n4 ____________ Paragraph D\n5 ____________ Paragraph E\n6 ____________ Paragraph F\n7 ____________ Paragraph G"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nComplete the sentences below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 8–13 on your answer sheet.\n8 Repeated interruptions leave the harried mother frustrated by a lack of ____________.\n9 Inmates in high-density settings were more likely to become involved in ____________.\n10 The different reactions of men and women are associated with their differing requirements for\n____________.\n11 Baum and Greenberg found that, especially among men, ____________ declined as density\nincreased.\n12 Diffusion of responsibility may explain why a person is reluctant to ____________.\n13 Schmidt and Keating suggest that greater ____________ would reduce the stress caused by\ncrowding."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Repeated interruptions leave the harried mother frustrated by a lack of ____________.",
+      "translation": "反覆被打斷令那位忙亂的母親因缺乏 ____________ 而感到沮喪。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Inmates in high-density settings were more likely to become involved in ____________.",
+      "translation": "在高密度環境中的囚犯更可能捲入 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "The different reactions of men and women are associated with their differing requirements for ____________.",
+      "translation": "男女不同反應與他們對 ____________ 的不同需要有關。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Baum and Greenberg found that, especially among men, ____________ declined as density increased.",
+      "translation": "Baum 和 Greenberg 發現，尤其在男性之中，隨著密度增加，____________ 下降。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Diffusion of responsibility may explain why a person is reluctant to ____________.",
+      "translation": "責任分散可能解釋為何一個人不願意 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Schmidt and Keating suggest that greater ____________ would reduce the stress caused by crowding.",
+      "translation": "Schmidt 和 Keating 指出，更多 ____________ 可以減少 crowding 造成的壓力。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-149/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-149/page-5.jpg"
+  ]
+}

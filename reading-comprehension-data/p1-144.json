@@ -1,0 +1,304 @@
+{
+  "id": "p1-144",
+  "catalogueId": "p1-144",
+  "title": "The Exploration of Mars",
+  "sourceHeading": "The Exploration of Mars",
+  "passage": 1,
+  "practice": 144,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-144-the-exploration-of-mars",
+  "source": {
+    "filename": "Practice 144 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "193fa06c12f54179c7f6c378209eaa7c22cbcf161fe0166be44b670a21e1e404"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In 1877, Giovanni Schiaparelli, an Italian astronomer, made drawings and maps of the Martian surface that suggested strange features. The images from telescopes at this time were not as sharp as today’s. Schiaparelli said he could see a network of lines, or canali. In 1894, an American astronomer, Percival Lowell, made a series of observations of Mars from his observatory at Flagstaff, Arizona, USA. Lowell was convinced a great network of canals had been dug to irrigate crops for the Martian race! He suggested that each canal had fertile vegetation on either side, making them noticeable from Earth. Drawings and globes he made show a network of canals and oases all over the planet."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The idea that there was intelligent life on Mars gained strength in the late 19th century. In 1898, H.G. Wells wrote a science fiction classic, The War of the Worlds, about an invading force of Martians who try to conquer Earth. They use highly advanced technology (advanced for 1898) to crush human resistance in their path. In 1917, Edgar Rice Burroughs wrote the first in a series of 11 novels about Mars. Strange beings and rampaging Martian monsters gripped the public’s imagination. A radio broadcast by Orson Welles on Halloween night in 1938 of The War of the Worlds caused widespread panic across America. People ran into the streets in their pyjamas—millions believed the dramatic reports of a Martian invasion."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Probes are very important to our understanding of other planets. Much of our recent knowledge comes from these robotic missions into space. The first images sent back from Mars came from Mariner 4 in July 1965. They showed a cratered and barren landscape, more like the surface of our Moon than Earth. In 1969, Mariners 6 and 7 were launched and took 200 photographs of Mars’s southern hemisphere and pole on fly-by missions. But these provided little additional information. In 1971, Mariner 9’s mission was to orbit the planet every 12 hours. In 1975, the USA sent two Viking probes to the planet, each with a lander and an orbiter. The landers had sampler arms to scoop up Martian rocks and did experiments to try to find signs of life. Although no life was found, they sent back the first colour pictures of the planet’s surface and atmosphere from pivoting cameras."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The Martian meteorite found on Earth raised doubts about the preceding analysis. The ALH84001 meteorite was discovered in December 1984 in Antarctica, by members of the ANSMET project. The sample was ejected from Mars about 17 million years ago and spent 11,000 years in or on the Antarctic ice sheets. Composition analysis by NASA revealed a kind of magnetite that, on Earth, is only found in association with certain microorganisms. Some structures resembling the mineralised casts of terrestrial bacteria and their appendages, fibrils or by-products occur in the rims of carbonate globules and pre-terrestrial aqueous alteration regions. The size and shape of the objects are consistent with terrestrial fossilised nanobacteria, but the existence of nanobacteria themselves remains controversial."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In 1965, the Mariner 4 probe discovered that Mars had no global magnetic field that would protect the planet from potentially life-threatening cosmic radiation and solar radiation; observations made in the late 1990s by the Mars Global Surveyor confirmed this discovery. Scientists speculate that the lack of magnetic shielding helped the solar wind blow away much of Mars’s atmosphere over the course of several billion years. After mapping cosmic radiation levels at various depths on Mars, researchers have concluded that any life within the first several metres of the planet’s surface would be killed by lethal doses of cosmic radiation. In 2007, it was calculated that DNA and RNA damage by cosmic radiation would limit life on Mars to depths greater than 7.5 metres below the planet’s surface. Therefore, the best potential locations for discovering life on Mars may be in subsurface environments that have not been studied yet. Disappearance of the magnetic field may have played a significant role in the process of Martian climate change. According to scientists’ assessments, Mars’s climate gradually changed from warm and wet to cold and dry after its magnetic field vanished."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "NASA’s recent missions have focused on another question: whether Mars held lakes or oceans of liquid water on its surface in the ancient past. Scientists have found hematite, a mineral that forms in the presence of water. Thus, the mission of the Mars Exploration Rovers of 2004 was not to look for present or past life, but for evidence of liquid water on the surface of Mars in the planet’s ancient past. Liquid water, necessary for Earth life and for metabolism as generally conducted by species on Earth, cannot exist on the surface of Mars under its present low atmospheric pressure and temperature, except briefly at the lowest shaded elevations; it does not appear naturally at the surface today. In March 2004, NASA announced that its rover Opportunity had discovered evidence that Mars was, in the ancient past, a wet planet. This raised hopes that evidence of past life might be found on the planet today. ESA confirmed that the Mars Express orbiter had directly detected huge reserves of water ice at Mars’s south pole in January 2004."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Using SOLID, a detector for signs of life that could also be used in environments similar to the Martian subsoil, researchers from the Centre of Astrobiology in Spain and the Catholic University of the North in Chile found an ‘oasis’ of microorganisms two metres below the surface of the Atacama Desert. “We have named it a ‘microbial oasis’ because we found microorganisms developing in a habitat that was rich in rock salt and other highly hygroscopic compounds that absorb water,” explained Victor Parro, researcher from the Centre of Astrobiology in Spain. “If similar microbes exist on Mars, or if their remains have survived in conditions like those we found in the Atacama Desert, we could detect them with instruments like SOLID,” Parro said."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Even more intriguing, however, is the alternative scenario proposed by the Spanish scientists: those samples might be found to use DNA, as life on Earth does, as their genetic code. It is extremely unlikely that a molecule as specialised and complex as DNA could have evolved separately on the two planets. Such a finding would indicate a common origin for Martian and Earthly life. Under this scenario, life based on DNA first appeared on Mars and then spread to Earth, where it then evolved into the myriad forms of plants and creatures that exist today. If this were found to be the case, we would have to face the logical conclusion: we are all Martian. If not, we would continue to search for signs of life."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–10",
+    "g11": "Questions 11–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nReading Passage 1 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 1–6 on your answer sheet.\n1 ____________ Evidence of Mars found on Earth\n2 ____________ The possibility that life on Mars and Earth had a common origin\n3 ____________ Canals depicted specifically as an agricultural system\n4 ____________ A project designed to identify life under Mars-like conditions\n5 ____________ A dramatic change in the Martian climate\n6 ____________ Scientific attempts to find liquid water"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 10,
+      "text": "Questions 7–10\nChoose the correct letter, A, B, C or D.\n\n\n7 What did Percival Lowell conclude from his observations of Mars?\n A Arizona was the ideal place from which to observe the planet.\n B The canals on Mars were wider than waterways on Earth.\n C Mars showed signs of deliberately constructed waterways and agriculture similar to Earth’s.\n D The observations revealed active Martian life.\n\n\n8 How did public views of Mars change from the nineteenth century onwards?\n A People believed they had experienced a Martian attack.\n B People learnt about Mars through popular literature.\n C People acquired new ideas by listening to a famous radio programme.\n D People attended public lectures about Mars.\n\n\n9 According to the probes sent into space in the 1960s, which statement about Mars is correct?\n A Its landscape was full of rocks and rivers.\n B It appeared less vivid and hospitable than Earth.\n C Its surface consisted of the same substance as the Moon.\n D Later probes returned identical images.\n\n\n10 What was the significance of the project using SOLID in the Atacama Desert?\n A It could investigate organisms under Martian-like conditions.\n B It could not detect life in Mars-like conditions.\n C It proved that the Atacama was the only suitable test site.\n D It found that no life existed in the desert."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 14,
+      "text": "Questions 11–14\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 11–14 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n11 According to The War of the Worlds, Martian technology was superior to human technology\nin every field at that time.\n12 The evidence returned by the Viking probes has never been challenged.\n13 Analysis of a Martian meteorite found a substance associated with certain microorganisms.\n14 According to Víctor Parro, SOLID will be deployed on Mars after DNA is identified on Earth."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Evidence of Mars found on Earth",
+      "translation": "在地球上找到的火星證據。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The possibility that life on Mars and Earth had a common origin",
+      "translation": "火星生命與地球生命可能有共同起源。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Canals depicted specifically as an agricultural system",
+      "translation": "運河被具體描繪成農業灌溉系統。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A project designed to identify life under Mars-like conditions",
+      "translation": "一個設計來在類火星條件下識別生命的項目。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A dramatic change in the Martian climate",
+      "translation": "火星氣候的劇烈變化。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Scientific attempts to find liquid water",
+      "translation": "科學家尋找液態水的嘗試。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "What did Percival Lowell conclude from his observations of Mars?",
+      "translation": "Percival Lowell 從他的火星觀察中得出甚麼結論？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "How did public views of Mars change from the nineteenth century onwards?",
+      "translation": "從十九世紀起，公眾對火星的看法如何改變？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "According to the probes sent into space in the 1960s, which statement about Mars is correct?",
+      "translation": "根據 1960 年代發射到太空的探測器，哪一句關於火星的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "What was the significance of the project using SOLID in the Atacama Desert?",
+      "translation": "在 Atacama Desert 使用 SOLID 的項目有甚麼重要性？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "According to The War of the Worlds, Martian technology was superior to human technology in every field at that time.",
+      "translation": "根據《世界大戰》，當時火星科技在每一個領域都優於人類科技。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "The evidence returned by the Viking probes has never been challenged.",
+      "translation": "Viking probes 傳回的證據從未受到質疑。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Analysis of a Martian meteorite found a substance associated with certain microorganisms.",
+      "translation": "對火星隕石的分析發現了一種與某些微生物有關的物質。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "According to Víctor Parro, SOLID will be deployed on Mars after DNA is identified on Earth.",
+      "translation": "根據 Víctor Parro，SOLID 會在地球上識別 DNA 後被部署到火星。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-144/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-144/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-144/page-8.jpg"
+  ]
+}

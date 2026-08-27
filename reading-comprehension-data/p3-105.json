@@ -1,0 +1,275 @@
+{
+  "id": "p3-105",
+  "catalogueId": "p3-105",
+  "title": "‘talented’ or ‘gifted’?",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 105,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-105-talented-or-gifted",
+  "source": {
+    "filename": "Practice 105 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "184d5d5802b970b3de427d053cd06f77cd32d83c46052836f9fcab3c5061786d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "‘talented’ or ‘gifted’? What do we mean by being ‘talented’ or ‘gifted’? The most obvious way is to look at the work someone does and, if they are capable of significant success, label them as talented. The purely quantitative route – ‘percentage definition’ – looks not at individuals, but at simple percentages, such as the top five per cent of the population, and labels them – by definition – as gifted. This definition has fallen from favour, eclipsed by the advent of IQ tests favoured by luminaries such as Professor Hans Eysenck, in which a series of written or verbal tests of general intelligence leads to an intelligence score."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The IQ test has been eclipsed in turn. Most people studying intelligence and creativity in the new millennium now prefer a broader definition, using a multifaceted approach where talents in many areas are recognised rather than purely concentrating on academic achievement. If we are therefore assuming that talented, creative or gifted individuals may need to be assessed across a range of abilities, does this mean intelligence can run in families as a genetic or inherited tendency? Mental dysfunction – such as schizophrenia – can, so is an efficient mental capacity passed on from parent to child?"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Animal experiments throw some light on this question, and on the whole area of whether it is genetics, the environment or a combination of the two that allows for intelligence and creative ability. Different strains of rats show great differences in intelligence or ‘rat reasoning’. If these are brought up in normal conditions and then run through a maze to reach a food goal, the ‘bright’ strain makes far fewer wrong turns than the ‘dull’ ones. But if the environment is made dull and boring, the number of errors becomes equal. Return the rats to an exciting maze and the discrepancy returns as before – but is much smaller. In other words, a dull rat in a stimulating environment will almost do as well as a bright rat who is bored in a normal one. This principle applies to humans too – someone may be born with innate intelligence, but their environment probably has the final say over whether they become creative or even a genius."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Evidence now exists that most young children, if given enough opportunities and encouragement, are able to achieve significant and sustainable levels of academic or sporting prowess. Bright or creative children are often physically very active at the same time, and so may receive more parental attention as a result – almost by default – in order to ensure their safety. They may also talk earlier, and this, in turn, breeds parental interest. This can sometimes cause problems with other siblings who may feel jealous even though they themselves may be bright. Their creative talents may be undervalued and so never come to fruition. Two themes seem to run through famously creative families as a result. The first is that the parents were able to identify the talents of each child, and nurture and encourage these accordingly but in an even-handed manner. Individual differences were encouraged, and friendly sibling rivalry was not seen as a particular problem. If the father is, say, a famous actor, there is no undue pressure for his children to follow him onto the boards, but instead their chosen interests are encouraged. There need not even be any obvious talent in such a family since there always needs to be someone who sets the family career in motion, as in the case of the Sheen acting dynasty."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Martin Sheen was the seventh of ten children born to a Spanish immigrant father and an Irish mother. Despite intense parental disapproval, he turned his back on entrance exams to university and borrowed cash from a local priest to start a fledgling acting career. His acting successes in films such as Badlands and Apocalypse Now made him one of the most highly regarded actors of the 1970s. Three sons – Emilio Estevez, Ramon Estevez and Charlie Sheen – have followed him into the profession as a consequence of being inspired by his motivation and enthusiasm."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "A stream seems to run through creative families. Such children are not necessarily smothered with love by their parents. They feel loved and wanted, and are secure in their home, but are often surrounded more by an atmosphere of work, where following a calling appears to be important. They may see from their parents that it takes time and dedication to be a master of a craft, and so are in less of a hurry to achieve for themselves once they start to work."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The generation of creativity is complex: it is a mixture of genetics, the environment, parental teaching and luck that determines how successful or talented family members are. This last point – luck – is often not mentioned where talent is concerned, but plays an undoubted part. Mozart, considered by many to be the finest composer of all time, was lucky to be living in an age that encouraged the writing of music. He was brought up surrounded by it; his father was a musician who encouraged him to the point of giving up his job to promote his child genius, and he learnt musical composition with frightening speed – the speed of a genius. Mozart himself simply wanted to create the finest music ever written but did not necessarily view himself as a genius – he could write sublime music at will, and so often preferred to lead a hedonistic lifestyle that he found more exciting than writing music to order."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Albert Einstein and Bill Gates are two more examples of people whose talents have blossomed by virtue of the times they were living in. Einstein was a solitary, somewhat slow child who had affection at home but whose phenomenal intelligence emerged without any obvious parental input. This may have been partly due to the fact that at the start of the 20th century a lot of the Newtonian laws of physics were being questioned, leaving a fertile ground for ideas such as his to be developed. Bill Gates may have had the creative vision to develop Microsoft, but without the new computer age dawning at the same time he may never have achieved the position on the world stage he now occupies."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–29",
+    "g30": "Questions 30–32",
+    "g33": "Questions 33–34",
+    "g35": "Questions 35–39",
+    "g40": "Questions 40–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 29,
+      "text": "Questions 28–29\nComplete the notes, which show how the approaches to defining ‘talent’ have changed.\nChoose ONE or TWO WORDS from the passage for each answer.\nWrite your answers in boxes 28–29 on your answer sheet.\n\n\n\n\n28. __________________\n\n29. __________________"
+    },
+    {
+      "id": "g30",
+      "start": 30,
+      "end": 32,
+      "text": "Questions 30–32\nWhich THREE of the following does the writer regard as a feature of creative families?\nWrite the appropriate letters A–F in boxes 30–32 on your answer sheet.\n A a higher than average level of parental affection\n B competition between brothers and sisters\n C parents who demonstrate vocational commitment\n D strong motivation to take exams and attend university\n E a patient approach to achieving success\n F the identification of the most talented child in the family"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 34,
+      "text": "Questions 33–34\nChoose the appropriate letters A–D and write them in boxes 33–34 on your answer sheet.\n33 The rat experiment was conducted to show that\n A certain species of rat are more intelligent than others.\n B intelligent rats are more motivated than ‘dull’ rats.\n C a rat’s surroundings can influence its behaviour.\n D a boring environment has little impact on a ‘bright’ rat.\n\n\n34 The writer cites the story of Martin Sheen to show that\n A he was the first in a creative line.\n B his parents did not have his creative flair.\n C he became an actor without proper training.\n D his sons were able to benefit from his talents."
+    },
+    {
+      "id": "g35",
+      "start": 35,
+      "end": 39,
+      "text": "Questions 35–39\nDo the following statements agree with the claims of the writer in Reading Passage 3?\nIn boxes 35–39 on your answer sheet, write\n YES                       if the statement agrees with the views of the writer\n\n NO                        if the statement contradicts the views of the writer\n\n NOT GIVEN                 if it is impossible to say what the writer thinks about this\n35 ________________ Intelligence tests have now been proved to be unreliable.\n36 ________________ The brother or sister of a gifted older child may fail to fulfil their own\npotential.\n37 ________________ The importance of luck in the genius equation tends to be ignored.\n38 ________________ Mozart was acutely aware of his own remarkable talent.\n39 ________________ Einstein and Gates would have achieved success in any era."
+    },
+    {
+      "id": "g40",
+      "start": 40,
+      "end": 40,
+      "text": "Question 40\nFrom the list below choose the most suitable title for the whole of Reading Passage 3.\nWrite the appropriate letter A–D in box 40 on your answer sheet.\n A                         Geniuses in their time\n\n B                         Education for the gifted\n\n C                         Revising the definition of intelligence\n\n D                         Nurturing talent within the family\n\n40 ________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________________",
+      "translation": "完成筆記，顯示「定義 talent / gifted」的方法如何改變。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "text",
+      "prompt": "__________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g30",
+      "type": "choice",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "The rat experiment was conducted to show that",
+      "translation": "老鼠實驗是為了顯示甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "The writer cites the story of Martin Sheen to show that",
+      "translation": "作者引用 Martin Sheen 的故事，是為了說明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "________________ Intelligence tests have now been proved to be unreliable.",
+      "translation": "智力測驗現在已被證明不可靠。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "________________ The brother or sister of a gifted older child may fail to fulfil their own potential.",
+      "translation": "一個 gifted older child 的兄弟姊妹，可能無法發揮自己的潛能。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "________________ The importance of luck in the genius equation tends to be ignored.",
+      "translation": "在解釋 genius 如何形成時，luck 的重要性往往被忽略。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "________________ Mozart was acutely aware of his own remarkable talent.",
+      "translation": "Mozart 非常清楚自己擁有非凡才能。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g35",
+      "type": "choice",
+      "prompt": "________________ Einstein and Gates would have achieved success in any era.",
+      "translation": "Einstein 和 Gates 在任何時代都會成功。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g40",
+      "type": "choice",
+      "prompt": "________________",
+      "translation": "從選項中選出最適合整篇文章的標題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-105/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-105/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-105/page-7.jpg"
+  ]
+}

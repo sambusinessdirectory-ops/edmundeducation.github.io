@@ -1,0 +1,269 @@
+{
+  "id": "p1-020",
+  "catalogueId": "p1-020",
+  "title": "The psychology in Happiness",
+  "sourceHeading": "The psychology in Happiness",
+  "passage": 1,
+  "practice": 20,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-020-the-psychology-in-happiness",
+  "source": {
+    "filename": "Practice 20 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "eac92ec67fe0ddcdcfb1d428afbe6c601a9492df7e553ce8da863ab6bebd014a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In the late 1990s, psychologist Martin Seligman of the University of Pennsylvania urged colleagues to observe optimal moods with the same intensity with which they had for so long studied pathologies: we would never learn about the full range of human functions unless we knew as much about mental wellness as we do about mental illness. A new generation of psychologists built up a respectable body of research on positive character traits and happiness-boosting practices. At the same time, developments in neuroscience provided new clues to what makes us happy and what that looks like in the brain. Self-appointed experts took advantage of the trend with guarantees to eliminate worry, stress, dejection and even boredom. This happiness movement has provoked a great deal of opposition among psychologists who observe that the preoccupation with happiness has come at the cost of sadness, an important feeling that people have tried to banish from their emotional repertoire. Allan Horwitz of Rutgers laments that young people who are naturally weepy after breakups are often urged to medicate themselves instead of working through their sadness. Wake Forest University’s Eric Wilson fumes that the obsession with happiness amounts to a “craven disregard” for the melancholic perspective that has given rise to the greatest works of art. “The happy man” he writes, “is a hollow man.”"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "After all people are remarkably adaptable. Following a variable period of adjustment, we bounce back to our previous level of happiness, no matter what happens to us. (There are some scientifically proven exceptions, notably suffering the unexpected loss of a job or the loss of a spouse. Both events tend to permanently knock people back a step.) Our adaptability works in two directions. Because we are so adaptable, points out Professor Sonja Lyubomirsky of the University of California, we quickly get used to many of the accomplishments we strive for in life, such as landing the big job or getting married. Soon after we reach a milestone, we start to feel that something is missing. We begin coveting another worldly possession or eyeing a social advancement. But such an approach keeps us tethered to a treadmill where happiness is always just out of reach, one toy or one step away. It’s possible to get off the treadmill entirely by focusing on activities that are dynamic surprising, and attention- absorbing, and thus less likely to bore us than, say, acquiring shiny new toys."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Moreover, happiness is not a reward for escaping pain. Russ Harris, the author of The Happiness Trap, calls popular conceptions of happiness dangerous because they set people up for a “struggle against reality”. They don’t acknowledge that real life is full of disappointments, loss, and inconveniences. “If you’re going to live a rich and meaningful life,” Harris says, “you’re going to feel a full range of emotions.” Action toward goals other than happiness makes people happy. It is not crossing the finish line that is most rewarding, it is anticipating achieving the goal. University of Wisconsin neuroscientist Richard Davidson has found that working hard toward a goal, and making progress to the point of expecting a goal to be realized, not only activates positive feelings but also suppresses negative emotions such as fear and depression."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "We are constantly making decisions, ranging from what clothes to put on, to whom we should marry, not to mention all those flavors of ice cream. We base many of our decisions on whether we think a particular preference will increase our well-being. Intuitively, we seem convinced that the more choices we have, the better off we will ultimately be. But our world of unlimited opportunity imprisons us more than it makes us happy. In what Swarthmore psychologist Barry Schwartz calls “the paradox of choice,” facing many possibilities leaves us stressed out – and less satisfied with whatever we do decide. Having too many choices keeps us wondering about all the opportunities missed."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Besides, not everyone can put on a happy face. Barbara Held, a professor of psychology at Bowdoin College, rails against “the tyranny of the positive attitude”. “Looking on the bright side isn’t possible for some people and is even counterproductive” she insists. “When you put pressure on people to cope in a way that doesn’t fit them, it not only doesn’t work, it makes them feel like a failure on top of already feeling bad.” The one-size-fits-all approach to managing emotional life is misguided, agrees Professor Julie Norem, author of The Positive Power of Negative Thinking. In her research, she has shown that the defensive pessimism that anxious people feel can be harnessed to help them get things done, which in turn makes them happier. A naturally pessimistic architect, for example, can set low expectations for an upcoming presentation and review all of the bad outcomes that she’s imagining, so that she can prepare carefully and increase her chances of success."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "By contrast, an individual who is not living according to their values, will not be happy, no matter how much they achieve. Some people, however, are not sure what their values are. In that case Harris has a great question: “Imagine I could wave a magic wand to ensure that you would have the approval and admiration of everyone on the planet, forever. What, in that case, would you choose to do with your life?” Once this has been answered honestly, you can start taking steps toward your ideal vision of yourself. The actual answer is unimportant, as long as you’re living consciously. The state of happiness is not really a state at all. It’s an ongoing personal experiment."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–8",
+    "g9": "Questions 9–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1-6\n\nReading Passage has six paragraphs, A–F.\n\nWhich paragraph mentions the following?\n\nWrite the correct letter, A–F, in boxes 1–6 on your answer sheet.\n\nNB You may use any letter more than once.\n\n1 _____________ the need for individuals to understand what really matters to them\n\n2 _____________ tension resulting from a wide variety of alternatives\n\n3 _____________ the hope of success as a means of overcoming unhappy feelings\n\n4 _____________ people who call themselves specialists\n\n5 _____________ human beings’ capacity for coping with change\n\n6 _____________ doing things which are interesting in themselves"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 8,
+      "text": "Questions 7-8\n\nChoose TWO letters, A-E.\n\nWrite the correct letters in boxes 7 and 8 on your answer sheet\n\n\nWhich TWO of the following people argue against aiming for constant happiness\n\nA Martin Seligman\n\nB Eric Wilson\n\nC Sonja Lyubomirsky\n\nD Russ Harris\n\nE Barry Schwartz"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 10,
+      "text": "Questions 9-10\n\nChoose TWO letters, A-E.\n\nWrite the correct letters in boxes 9 and 10.\n\n\n\nWhich TWO of the following beliefs are identified as mistaken in the text\n\nA Inherited wealth brings less happiness than earned wealth.\n\nB Social status affects our perception of how happy we are.\n\nC An optimistic outlook ensures success.\n\nD Unhappiness can and should be avoided.\n\nE Extremes of emotion are normal in the young."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11-13\n\nComplete the sentences below.\n\nChoose NO MORE THAN ONE WORD from the passage for each answer.\n\nWrite your answers in boxes 11-13 on your answer sheet.\n\n\n\nIn order to have a complete understanding of how people’s minds work, Martin\nSeligman suggested that research should examine our most positive 11\n________________ as closely as it does our psychological problems.\n\n\nSoon after arriving at a 12 ________________ in their lives, people become\naccustomed to what they have achieved and have a sense that they are lacking something.\n\n\nPeople who are 13 ________________ by nature are more likely to succeed if they\nmake thorough preparation for a presentation."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ the need for individuals to understand what really matters to them",
+      "translation": "個人需要明白自己真正重視甚麼。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ tension resulting from a wide variety of alternatives",
+      "translation": "因太多選擇而造成的壓力或緊張。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ the hope of success as a means of overcoming unhappy feelings",
+      "translation": "以對成功的期待，作為克服不快情緒的方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ people who call themselves specialists",
+      "translation": "自稱專家的人。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ human beings’ capacity for coping with change",
+      "translation": "人類應對變化的能力。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ doing things which are interesting in themselves",
+      "translation": "做一些活動本身就有趣，而非只為了外在獎賞。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "以下哪兩個人反對把持續快樂當成目標？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "以下哪兩個人反對把持續快樂當成目標？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "文章指出以下哪兩種信念是錯誤的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "文章指出以下哪兩種信念是錯誤的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "為了完整理解人的心理運作，Martin Seligman 建議研究應像研究心理問題一樣仔細研究人最正面的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "在人生中到達某個 ______ 後不久，人們會習慣自己已取得的成就，並感到仍缺少某些東西。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "天生 ______ 的人，如果為 presentation 作徹底準備，較有可能成功。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-020/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-020/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-020/page-8.jpg",
+    "/assets/reading-comprehension/questions/p1-020/page-9.jpg"
+  ]
+}

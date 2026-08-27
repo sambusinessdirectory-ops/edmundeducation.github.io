@@ -1,0 +1,345 @@
+{
+  "id": "p1-014",
+  "catalogueId": "p1-014",
+  "title": "MOBILE PHONES AND DRIVING",
+  "sourceHeading": "MOBILE PHONES AND DRIVING",
+  "passage": 1,
+  "practice": 14,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-014-mobile-phones-and-driving",
+  "source": {
+    "filename": "Practice 14 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "ac7b78f87479b944aa4ab8f62d3234f4d249659c3b3e243887c3c295a573ed6f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Though once perceived as a luxury, cell phones have become a common possession over the last ten years or so. Due to modern day technology and public demand cell phones have been made affordable to most. However, one of the most controversial topics of today is whether or not we should be using our cell phones whilst driving. Does it pose a danger to ourselves and other drivers? Or doesn’t it make any difference to the likelihood of an accident."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Several countries around the world have already imposed a national Jaw with heavy infringements. More recently the UK, Australia and Finland have joined the ranks of countries opposing this very hazardous act, with Ireland imposing the harshest penalties on the continent (a third offence can mean 3 months imprisonment). Also in Europe, the Netherlands is fining offenders 2000 Euros and 2 weeks in jail."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "This dangerous distraction contributes largely to motor vehicle accidents and the statistics are increasing daily as we continue to take our eyes off the road to call or even more dangerously text. Research by road safety groups suggests speaking on a phone whilst driving increases your chances of an accident, increasing to nine times more likely when texting. Time and again, in study after study replicated across the world, the use of a cell phone by the driver has been proven, beyond any sense of reasonable doubt, to dramatically increase the probability of a motor vehicle crash."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "In New Zealand, a proposal made by a previous Labour led Government suggests a $50 fine and 27 demerit points for any person using a cell phone whilst driving, although the Ministry of Transport is still preparing a report based on public consultation. Although this is only a pending idea, the government knows this will be a difficult infringement to police but a start needs to be made and people need to understand the consequences of what potentially could happen. It is a common misconception that hands free kits are safe to use, but research conducted by Waikato University has proven that these can be equally as dangerous as hand held phones."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "On one hand, using a cell phone whilst driving has become an integral part of our lives and is going to be a hard habit to kick. But it has been proven that our reaction time is never fast enough when confronted with a road hazard, but if you are having a conversation at the same time it will slow your reaction time by even more. Most people find it takes 2 and a half seconds to react in a dangerous situation but if you are on the phone you can add another 2 seconds onto that. Your attention is divided; part of you concentrates on your conversation, the other on driving. The demands of die conversation and the road are competing, therefore making it a cognitive distraction as well as physical as you are removing one hand from the steering wheel to hold the phone. On the other hand, an American radio host suggested that banning cell phones whilst driving was taking it a step too far, “if we ban cell phones, what’s next? No billboards, coffee drinking, or CD players?” The host agreed that texting whilst driving was a danger but phoning was not."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Many people agreed with him in saying that texting was a definite hazard as the act of looking down would lead your eyes off the road. However, doesn’t holding a conversation while driving seem just as distracting as eating food or reaching for a CD? Accidents were happening decades before the cell phone was introduced so should we be taking this matter so seriously?"
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Obviously opinions will differ on this matter, and it will always remain a debatable issue. A long list of countries seems to be following the trend and imposing a law against cell phones on the road, but there is still an even longer list yet to follow. Lack of data leaves uncertain results but it seems research is ongoing and surveys and tests are being carried out on a regular basis to reach some kind of conclusion as to just how dangerous and potentially fatal this habit may be."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–11",
+    "g12": "Questions 12–16"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1-6\n\nReading Passage 1 has seven paragraphs A – G.\n\nChoose the correct heading for paragraphs B – G from the list of headings below.\n\nWrite the correct number i-x in boxes 1-6.\n\nList of Headings\n\n\ni        Impact of mobile phones in hazards\n\n\nii       Texting statistics\n\n\niii      International reactions\n\n\niv       Further research required\n\n\nv        Evidence from around the globe\n\n\nvi       Challenges of enforcement\n\n\nvii      Global agreement on penalties\n\n\nviii     Contradictory data\n\n\nix       Risks of talking to passengers\n\n\nx        Balancing the risks\n\n1 ___________ Paragraph B\n\n\n2 ___________ Paragraph C\n\n\n3 ___________ Paragraph D\n\n\n4 ___________ Paragraph E\n\n\n5 ___________ Paragraph F\n\n\n6 ___________ Paragraph G"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 11,
+      "text": "Questions 7-11\n\nLook at the following list of statement (questions 7-11) based on ‘Mobile phones and\ndriving’\n\nMatch the statement with the correct person or department A-E.\n\n    A      Ministry of Transport\n\n\n    B      Road safety groups\n\n\n    C      Waikato University\n\n\n    D      American radio host\n\n\n    E      The New Zealand government\n\n\n\n7 ___________ is currently putting together feedback from the general public.\n\n\n8 ___________ proposed specific penalties for mobile phone use while driving.\n\n\n9 ___________ statistically proven the higher likelihood of an accident.\n\n\n10 ___________ believes any use of a phone while driving has potential risks.\n\n\n11 ___________ speaking on the phone is an overrated risk."
+    },
+    {
+      "id": "g12",
+      "start": 12,
+      "end": 16,
+      "text": "Questions 12-16\n\nDo the following statements agree with the information given in the reading passage?\n\nIn boxes 12-16 an your answer sheet write\n\n    TRUE           if the statement agrees with the information\n\n\n    FALSE          if the statement contradicts the information\n\n\n    NOT GIVEN      If there is no information on this\n\n\n\n12 ________________\nThe law in Ireland regarding mobile phone use while driving is the world’s most serious.\n\n\n13 ________________\nAccording to research conducted by road safety groups, speaking on a phone makes an\naccident nine times more likely.\n\n\n14 ________________\nReaction times in an emergency are doubled if the driver is using a mobile.\n\n\n15 ________________\nEating while driving is statistically as dangerous as using a mobile.\n\n\n16 ________________ More research is required to form a clearer conclusion."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "為 B 段選出最適合的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "為 C 段選出最適合的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "為 D 段選出最適合的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "為 E 段選出最適合的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph F",
+      "translation": "為 F 段選出最適合的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph G",
+      "translation": "為 G 段選出最適合的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "___________ is currently putting together feedback from the general public.",
+      "translation": "目前正在整理來自公眾的回饋意見。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "___________ proposed specific penalties for mobile phone use while driving.",
+      "translation": "提出開車使用手機的具體處罰措施。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "___________ statistically proven the higher likelihood of an accident.",
+      "translation": "以統計或研究方式證明事故可能性更高。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "___________ believes any use of a phone while driving has potential risks.",
+      "translation": "認為開車時任何形式的手機使用都有潛在風險。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "___________ speaking on the phone is an overrated risk.",
+      "translation": "認為開車講電話的風險被誇大。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "________________ The law in Ireland regarding mobile phone use while driving is the world’s most serious.",
+      "translation": "愛爾蘭關於開車使用手機的法律是全世界最嚴厲的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "________________ According to research conducted by road safety groups, speaking on a phone makes an accident nine times more likely.",
+      "translation": "根據道路安全團體的研究，開車講電話會令事故機率增加到九倍。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "________________ Reaction times in an emergency are doubled if the driver is using a mobile.",
+      "translation": "如果駕駛人正在使用手機，緊急情況下的反應時間會加倍。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "________________ Eating while driving is statistically as dangerous as using a mobile.",
+      "translation": "統計上，開車吃東西和使用手機一樣危險。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "________________ More research is required to form a clearer conclusion.",
+      "translation": "需要更多研究，才能得出更清楚的結論。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-014/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-014/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-014/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-014/page-8.jpg",
+    "/assets/reading-comprehension/questions/p1-014/page-9.jpg"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "p1-115",
+  "catalogueId": "p1-115",
+  "title": "Geoff Brash",
+  "sourceHeading": "Geoff Brash Geoff Brash, who died in 2010, was a gregarious Australian businessman and philanthropist who encouraged the young to reach their potential.",
+  "passage": 1,
+  "practice": 115,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-115-geoff-brash",
+  "source": {
+    "filename": "Practice 115 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "f6ad4138e18bd59d59b6d1ad6b9feb2b16717f16874b33d2c6015edb4dc9e193"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Born in Melbourne to Elsa and Alfred Brash, he was educated at Scotch College. His sister, Barbara, became a renowned artist and printmaker. His father, Alfred, ran the Brash retail music business that had been founded in 1862 by his grandfather, the German immigrant Marcus Brasch, specialising in pianos. It carried the slogan ‘A home is not a home without a piano.’"
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "As a young man, Brash enjoyed the good life, playing golf and sailing, and spending some months travelling through Europe on a leisurely holiday. He worked for a time at Myer department stores before joining the family business in 1949 and quickly began to put his stamp on things. In one of his first management decisions, he diverged from his father’s sense of frugal aesthetics by re-carpeting the old man’s office while he was away. After initially complaining about his extravagance, his father grew to accept the change and gave his son increasing responsibility in the business."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "After World War II (1939–1945), Brash’s began to focus on white goods, such as washing machines and refrigerators, as the consumer boom took hold. However, while his father was content with the business he had built, the younger Brash viewed expansion as vital. When Geoff Brash took over as managing director in 1957, the company had two stores, but, after floating it on the stock exchange the following year, he expanded rapidly and opened suburban stores, as well as buying into familiar music industry names such as Allans, Palings and Suttons. Eventually, 170 stores traded across the continent under the Brash’s banner."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Geoff Brash learned from his father’s focus on customer service. Alfred Brash had also been a pioneer in introducing a share scheme for his staff, and his son retained and expanded the plan following the float."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Geoff Brash was optimistic and outward-looking. As a result, he was a pioneer in both accessing and selling new technology and developing overseas relationships. He sourced and sold electric guitars, organs, and a range of other modern instruments, as well as state-of-the-art audio and video equipment. He developed a relationship with Taro Kakehashi, the founder of Japan’s Roland group, which led to a joint venture that brought electronic musical devices to Australia."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In 1965, Brash and his wife attended a trade fair in Guangzhou, the first of its kind in China; the couple were among the first Western businesspeople allowed into the country following Mao Zedong’s Communist Revolution. He returned there many times, helping advise the Chinese in establishing a high-quality piano factory in Beijing; he became the factory’s agent in Australia. Brash also took leading jazz musicians Don Burrows and James Morrison to China, on a trip that reintroduced jazz to many Chinese musicians."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "He stood down as executive chairman of Brash’s in 1988, but under the new management debt became a problem, and in 1994 the banks called in administrators. The company was sold to Singaporean interests and continued to trade until 1998, when it again went into administration. The Brash name then disappeared from the retail world. Brash was greatly disappointed by the collapse and the eventual disappearance of the company he had run for so long. But it was not long before he invested in a restructured Allans music business."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Brash was a committed philanthropist who, in the mid-1980s, established the Brash Foundation, which eventually morphed, with other partners, into the Soundhouse Music Alliance. This was a not-for-profit organisation overseeing and promoting multimedia music-making and education for teachers and students. The Soundhouse offers teachers and young people the opportunity to explore the latest music technology and use it to compose and record their own music, either alone or in collaboration. The organisation has also established branches in New Zealand, South Africa and Ireland, as well as numerous sites around Australia."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nDo the following statements agree with the information given in Reading Passage 1?\nWrite\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n1 _________________ The Brash business originally sold pianos.\n2 _________________ Geoff Brash’s first job was with his grandfather’s company.\n3 _________________ Alfred Brash thought that his son wasted money.\n4 _________________ By the time Geoff Brash took control, the Brash business was selling\nsome electrical products.\n5 _________________ Geoff Brash had ambitions to open Brash stores in other countries."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 10,
+      "text": "Questions 6–10\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS OR A NUMBER from the passage for each answer.\nWhich arrangement did Alfred Brash set up for his employees? 6 _________________\nWhich Japanese company did Geoff Brash collaborate with? 7 _________________\nWhat type of event in China marked the beginning of Geoff Brash’s relationship with that\ncountry? 8 _________________\nWhat style of music did Geoff Brash help to promote in China? 9 _________________\nWhen did the Brash company finally stop doing business? 10 _________________"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nSoundhouse Music Alliance\nGrew out of the Brash Foundation.\n A non-commercial organisation providing support for music and music 11\n   _________________\nAllows opportunities for using up-to-date 12 _________________\n\nHas 13 _________________ in several countries."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The Brash business originally sold pianos.",
+      "translation": "Brash 這盤生意最初售賣鋼琴。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Geoff Brash’s first job was with his grandfather’s company.",
+      "translation": "Geoff Brash 的第一份工作是在他祖父創立的公司。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Alfred Brash thought that his son wasted money.",
+      "translation": "Alfred Brash 認為他的兒子浪費金錢。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ By the time Geoff Brash took control, the Brash business was selling some electrical products.",
+      "translation": "到 Geoff Brash 接掌公司時，Brash business 已經在售賣一些電器產品。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Geoff Brash had ambitions to open Brash stores in other countries.",
+      "translation": "Geoff Brash 有志向在其他國家開設 Brash stores。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "Alfred Brash 為他的員工設立了哪一項安排？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "Geoff Brash 與哪一間日本公司合作？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "Geoff Brash 與中國關係的開始，是中國哪一類活動？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "Geoff Brash 幫助在中國推廣哪一種音樂風格？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "Brash 公司最終在甚麼時候停止營業？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "一個非商業組織，為音樂和音樂 ____________ 提供支持。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "提供使用最新 ____________ 的機會。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "在幾個國家設有 ____________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-115/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-115/page-5.jpg"
+  ]
+}

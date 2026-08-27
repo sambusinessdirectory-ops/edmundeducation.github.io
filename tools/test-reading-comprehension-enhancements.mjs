@@ -10,6 +10,7 @@ const [source, html, css, dataText, analysisText] = await Promise.all([
   read('reading-comprehension-data/p1-069-albert-einstein.json'), read('ielts-reading-analysis-data/p1-069-albert-einstein.json')
 ]);
 const data = JSON.parse(dataText), analysis = JSON.parse(analysisText);
+const catalogue = JSON.parse(await read('reading-comprehension-catalogue.json')).articles;
 const id = data.id || 'p1-069-albert-einstein';
 const blankParts = data.questions.flatMap((q) => q.type === 'choice'
   ? q.options.map((option) => ({ part: `q${q.number}`, type: 'radio', checked: false, value: typeof option === 'string' ? option : option.value }))
@@ -81,13 +82,13 @@ const context = vm.createContext({
   matchMedia: () => ({ matches: false }), getComputedStyle: () => ({ position: 'static' }),
   requestAnimationFrame: (fn) => fn(), setTimeout: () => 1, clearTimeout() {}, setInterval: () => 1, clearInterval() {},
   localStorage: { setItem: (k, v) => storage.set(k, v), getItem: (k) => storage.get(k) },
-  sessionStorage: { removeItem() {} }, testData: data, testAnalysis: analysis,
+  sessionStorage: { removeItem() {} }, testData: data, testAnalysis: analysis, testCatalogue: catalogue,
   testRpc: async (name, args) => { calls.push({ name, args }); return []; }
 });
 const definitions = source.replace(/^import[^\n]+\n/, '').split('el.loginForm.addEventListener("submit", handleLogin);')[0];
 vm.runInContext(definitions, context);
 const run = (code) => vm.runInContext(code, context);
-run('state.data = testData; state.analysis = testAnalysis; state.token = "test-only-token"; state.user = {name:"Test",id:"test"}; rpc = testRpc;');
+run('state.data = testData; state.analysis = testAnalysis; state.catalogue = testCatalogue; state.token = "test-only-token"; state.user = {name:"Test",id:"test"}; rpc = testRpc;');
 node('[data-bookmark-filter]').value = 'all';
 run('renderPassage(); renderQuestions();');
 assert.equal((node('[data-passage]').innerHTML.match(/data-bookmark-kind="paragraph"/g) || []).length, 5);
@@ -129,8 +130,9 @@ groups.set('[data-passage-tab]', [1, 2, 3].map((n) => Object.assign(node(`tab${n
 groups.set('[data-passage-page]', [1, 2, 3].map((n) => Object.assign(node(`page${n}`), { dataset: { passagePage: String(n) } })));
 run('selectPassageTab(3);');
 assert.equal(node('[data-bookmark-library]').hidden, false, 'Passage switches never close bookmark mode');
-assert.equal(node('page3').hidden, false);
-assert.equal(node('page1').hidden, true);
+assert.match(node('[data-exercise-catalogue]').innerHTML, /PASSAGE 3/);
+assert.doesNotMatch(node('[data-exercise-catalogue]').innerHTML, /PASSAGE 1/);
+assert.equal((node('[data-exercise-catalogue]').innerHTML.match(/data-open-exercise=/g) || []).length, 18);
 assert.ok(html.indexOf('class="bookmark-library panel"') < html.indexOf('data-passage-page="1"'), 'bookmarks are the first exercise option');
 run('setAnswerProgressVisible(false, true)');
 assert.equal(storage.get('edmund-reading-progress-hidden'), 'true');

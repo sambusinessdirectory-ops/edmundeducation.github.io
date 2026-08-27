@@ -1,0 +1,283 @@
+{
+  "id": "p1-051",
+  "catalogueId": "p1-051",
+  "title": "The “Extinct” Grass in Britain",
+  "sourceHeading": "The ‘Extinct’ Grass in Britain",
+  "passage": 1,
+  "practice": 51,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-051-the-extinct-grass-in-britain",
+  "source": {
+    "filename": "Practice 51  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "66d36eccfb81af7cf2d1a5e6a647454313af9546927cd7d5f14a5e991852b1c0"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The British grass interrupted brome was once declared extinct, like the dodo. Named for its gappy seed head, this unprepossessing grass was found nowhere else in the world. Victorian-era gardening experts were the first to record it. In the early 20th century, it grew widely across southern England, but it quickly vanished and by 1972 could no longer be found. Even seeds stored at Cambridge University Botanic Garden as an insurance policy were dead because they had mistakenly been kept at room temperature. Admirers of the grass were devastated."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Reports of its disappearance, however, were not entirely correct. Interrupted brome has enjoyed a revival that owes little to science. Thanks to one gardening enthusiast, it now thrives as a pot plant. The prospect of reintroducing Britain’s almost-extinct grass into the wild has excited conservationists everywhere."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "At first, Philip Smith did not realise that this highly unusual grass was growing at his home. When he heard that it had become extinct, he decided to surprise his fellow botanists. At a meeting of the British Botanical Society in Manchester in 1979, he seized his opportunity. After lamenting the demise of interrupted brome and saying, ‘What a pity we did not study it further!’, he suddenly displayed his pots of the supposedly ‘extinct’ grass for everyone to see."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Smith had preserved seeds collected in 1963 from the grass’s last stronghold at Pampisford, just as it began to disappear from the wild. He cultivated the grass year after year. Ultimately, his curiosity about the plant—not a scientific or technological project—saved it."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "For now, the future of interrupted brome is secure. Seeds from Smith’s plants have been safely stored in the cutting-edge facilities of the Millennium Seed Bank at Wakehurst Place in Sussex, while living plants thrive in the botanic gardens at Kew, Edinburgh and Cambridge. Seeds have also been saved at sites across the country, and the grass now flourishes in several public gardens."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The grass will now be reintroduced to the British countryside. As part of the Species Recovery Project, English Nature plans to return interrupted brome to the agricultural landscape, provided willing farmers can be found. Unfortunately, the grass is neither beautiful nor practical; it is unquestionably a weed that few people value today. It was probably never widespread enough to trouble farmers, and no one now prizes its productivity or nutritional qualities. As a crop, it leaves much to be desired by agriculturalists."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Smith’s research has sought to discover where the grass came from and points to mutations in other weedy grasses as the most likely source. Its relationship to soft brome is so close that the great Victorian taxonomist Professor Hackel initially classified interrupted brome as merely a variety of that species. George Claridge Druce, a nineteenth-century botanist, recorded the grass and convinced his peers that it deserved recognition as a species in its own right. Despite growing up in poverty and being self-taught, Druce became the leading botanist of his time."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The origin of the grass may be clear, but the timing of its emergence is harder to determine. One clue lies in its tendency to grow as a weed in fields containing fodder crops, particularly nitrogen-fixing legumes such as sainfoin, lucerne and clover. According to agricultural historian Joan Thirsk, humble sainfoin and its companions were first recorded in Britain in the early 17th century. Seeds imported from the Continent were sown in pastures to feed horses and other livestock. At first, however, only a few enthusiastic gentlemen used the new crops for their prized horses."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Before long, the need to feed parliamentary armies in Scotland, England and Ireland became more pressing than ever, and farmers had to produce more bread, cheese and beer. By 1650, legumes were increasingly incorporated into arable rotations as green manure to boost grain yields. Nathaniel Fiennes’s Sainfoin Improved, a bestseller published in 1671, helped spread the word. With the arrival of sainfoin, clover and lucerne, Britain’s own rogue grass had suddenly appeared."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Although credit for discovering interrupted brome belongs to Miss A. M. Barnard, who collected the first specimens at Odsey, Bedfordshire, in 1849, the grass had probably lurked undetected in the English countryside for at least a century. Smith believes that this botanical equivalent of the dodo probably evolved in the late 17th or early 18th century, once sainfoin became established. The rise of the motor car and the consequent decline in fodder crops for horses caused the brome’s fortunes to fall rapidly during the 20th century. Sainfoin has now almost vanished from the countryside, although its colourful flowers occasionally appear in lowland nature reserves. More recently, artificial fertilisers have made legume rotations unnecessary."
+    },
+    {
+      "number": 11,
+      "label": "K",
+      "text": "This close association with unfashionable crops creates problems for anyone seeking to re-establish interrupted brome in the modern countryside. Like many once-common arable weeds, including corncockle, its seeds do not survive long in the soil. Each spring, the brome depended on farmers resowing its seeds; before weedkillers and sophisticated seed sieves, plentiful brome seed would have contaminated stocks of crop seed. Fragile seeds are not its only problem: the species is also reluctant to release them as they ripen. According to Smith, the grass will struggle even under optimal conditions and cannot easily compete with the more resilient plants of today’s improved agricultural landscape."
+    },
+    {
+      "number": 12,
+      "label": "L",
+      "text": "Nevertheless, interrupted brome’s inability to thrive independently may offer some benefits. Any farmer willing to foster this unique part of the world’s flora can be confident that it will never become an invasive pest. Restoring the grass to its rightful home could bring further benefits, particularly if this unusual species is recognised as a national treasure. British farmers gave interrupted brome the opportunity to evolve in the first place. Conservationists hope to see it growing again in its natural habitat and perhaps one day becoming a badge of honour for a new generation of environmentally conscious farmers."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 8,
+      "text": "Questions 1–8\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 1–8 on your answer sheet, write\n\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n1 _________________ The name ‘interrupted brome’ comes from the fact that this unprepossessing\ngrass disappeared for a time.\n2 _________________ Stored interrupted brome seeds could not germinate because they were\naccidentally kept at an unsuitable temperature.\n3 _________________ Philip Smith works at the University of Manchester.\n4 _________________ English Nature plans to restore interrupted brome using seeds from Kew Botanic\nGardens.\n5 _________________ Interrupted brome grew as an unwanted weed alongside sainfoin.\n6 _________________ Legumes were used for feeding livestock and enriching the soil.\n7 _________________ The spread of interrupted brome depended on farmers resowing its seeds.\n8 _________________ Only weedkillers can prevent interrupted brome from becoming an invasive pest."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nLook at the following opinions or deeds (Questions 9–13) and the list of people below.\nMatch each opinion or deed with the correct person, A–F.\nWrite the correct letter, A–F, in Boxes 9–13 on your answer sheet.\n9 ____________ classified interrupted brome as a variety of another brome\n10 ____________ convinced others of interrupted brome’s status as a separate species\n11 ____________ said that sainfoin was first found more than 300 years ago.\n12 ____________ helped farmers know that sainfoin is useful for enriching the soil.\n13 ____________ collected the first sample of interrupted brome.\n\n A                                    A. M. Barnard\n\n B                                    Philip Smith\n\n C                                    George Claridge Druce\n\n D                                    Joan Thirsk\n\n E                                    Professor Hackel\n\n F                                    Nathaniel Fiennes"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The name ‘interrupted brome’ comes from the fact that this unprepossessing grass disappeared for a time.",
+      "translation": "“interrupted brome” 這個名稱來自這種不起眼的草曾經消失過一段時間這件事。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Stored interrupted brome seeds could not germinate because they were accidentally kept at an unsuitable temperature.",
+      "translation": "儲存的 interrupted brome 種子無法發芽，因為它們被意外地保存在不合適的溫度下。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Philip Smith works at the University of Manchester.",
+      "translation": "Philip Smith 在 University of Manchester 工作。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ English Nature plans to restore interrupted brome using seeds from Kew Botanic Gardens.",
+      "translation": "English Nature 計劃使用來自 Kew Botanic Gardens 的種子來恢復 interrupted brome。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Interrupted brome grew as an unwanted weed alongside sainfoin.",
+      "translation": "Interrupted brome 曾作為不受歡迎的雜草，與 sainfoin 一起生長。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Legumes were used for feeding livestock and enriching the soil.",
+      "translation": "Legumes 曾被用來餵牲畜，也用來改善或肥沃土壤。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The spread of interrupted brome depended on farmers resowing its seeds.",
+      "translation": "Interrupted brome 的擴散依賴農民重新播種它的種子。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Only weedkillers can prevent interrupted brome from becoming an invasive pest.",
+      "translation": "只有 weedkillers 能防止 interrupted brome 變成 invasive pest。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ classified interrupted brome as a variety of another brome",
+      "translation": "把 interrupted brome 分類為另一種 brome 的一個 variety。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ convinced others of interrupted brome’s status as a separate species",
+      "translation": "說服其他人相信 interrupted brome 是一個獨立 species。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ said that sainfoin was first found more than 300 years ago.",
+      "translation": "指出 sainfoin 在三百多年前已首次被發現或記錄。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ helped farmers know that sainfoin is useful for enriching the soil.",
+      "translation": "幫助農民知道 sainfoin 對改善土壤有用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "____________ collected the first sample of interrupted brome.",
+      "translation": "收集了 interrupted brome 的第一個樣本。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-051/page-4.jpg"
+  ]
+}

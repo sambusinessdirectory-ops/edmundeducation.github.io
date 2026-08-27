@@ -1,0 +1,285 @@
+{
+  "id": "p2-113",
+  "catalogueId": "p2-113",
+  "title": "Early occupations around the river Thames",
+  "sourceHeading": "Early Occupations Around the River Thames",
+  "passage": 2,
+  "practice": 113,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-113-early-occupations-around-the-river-thames",
+  "source": {
+    "filename": "Practice 113 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "bf10e1681cfa6bae60e9aa23acfb9cc6db68d2f52dd949124acd2618343d66da"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In her pioneering survey, Sources of London English, Laura Wright has listed the variety of medieval workers who earned their living from the River Thames. The baillies of Queenhithe and Billingsgate acted as customs officers. There were conservators, who were responsible for maintaining the embankments and the weirs, and there were the garthmen who worked in the fish garths (enclosures). Then there were galleymen and lightermen and shoutmen, called after the names of their boats, and there were hookers who were named after the manner in which they caught their fish. The searcher patrolled the Thames in search of illegal fish weirs, and the tideman worked on its banks and foreshores whenever the tide permitted him to do so."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "All of these occupations persisted for many centuries, as did those jobs that depended upon the trade of the river. Yet it was not easy work for any of the workers. They carried most goods upon their backs, since the rough surfaces of the quays and nearby streets were not suitable for wagons or large carts; the merchandise characteristically arrived in barrels which could be rolled from the ship along each quay. If the burden was too great to be carried by a single man, then the goods were slung on poles resting on the shoulders of two men. It was a slow and expensive method of business."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "However, up to the eighteenth century, river work was seen in a generally favourable light. For Langland, writing in the fourteenth century, the labourers working on river merchandise were relatively prosperous. And the porters of the seventeenth and early eighteenth centuries were, if anything, aristocrats of labour, enjoying high status. However, in the years from the late eighteenth to the early nineteenth century, there was a marked change in attitude. This was in part because the working river was within the region of the East End of London, which in this period acquired an unenviable reputation. By now, dockside labour was considered to be the most disreputable, and certainly the least desirable form of work."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "It could be said that the first industrial community in England grew up around the Thames. With the host of river workers themselves, as well as the vast assembly of ancillary trades such as tavern-keepers and laundresses, food-sellers and street-hawkers, shopkeepers and marine store dealers – there was a workforce of many thousands congregated in a relatively small area. There were more varieties of business to be observed by the riverside than in any other part of the city. As a result, with the possible exception of the area known as Seven Dials, the East End was also the most intensively inhabited region of London."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "It was a world apart, with its own language and its own laws. From the sailors in the opium dens of Limehouse to the smugglers on the malarial flats of the estuary, the workers of the river were not part of any civilised society. The alien world of the river had entered them. That alienation was also expressed in the slang of the docks, which essentially amounted to backslang, or the reversal of ordinary words. This backslang also helped in the formulation of Cockney rhyming slang, so that the vocabulary of Londoners was directly affected by the life of the Thames."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The reports in the nineteenth-century press reveal a heterogeneous world of dock labour, in which the crowds of casuals waiting for work at the dock gates at 7.45 a.m. include penniless refugees, bankrupts, old soldiers, broken-down gentlemen, discharged servants, and ex-convicts. There were some 400–500 permanent workers who earned a regular wage and who were considered to be the patricians of dockside labour. However, there were some 2,500 casual workers who were hired by the shift. The work for which they competed fiercely had become ever more unpleasant. Steam power could not be used for the cranes, for example, because of the danger of fire. So the cranes were powered by treadmills. Six to eight men entered a wooden cylinder and, laying hold of ropes, would tread the wheel round. They could lift nearly 20 tonnes to an average height of 27 feet (8.2 metres), forty times in an hour. This was part of the life of the river unknown to those who were intent upon its more picturesque aspects."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–21",
+    "g22": "Questions 22–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has six paragraphs, A–F.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–ix, in boxes 14–19 on your answer sheet.\n i                          A mixture of languages and nationalities\n\n ii                         The creation of an exclusive identity\n\n iii                        The duties involved in various occupations\n\n iv                         An unprecedented population density\n\n v                          Imports and exports transported by river\n\n vi                         Transporting heavy loads manually\n\n vii                        Temporary work for large numbers of people\n\n viii                       Hazards associated with riverside work\n\n ix                         The changing status of riverside occupations\n14 __________ Paragraph A\n15 __________ Paragraph B\n16 __________ Paragraph C\n17 __________ Paragraph D\n18 __________ Paragraph E\n19 __________ Paragraph F"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 21,
+      "text": "Questions 20–21\nChoose TWO letters, A–E.\nWhich TWO statements are made about work by the River Thames before the eighteenth\ncentury?\nWrite your answers in boxes 20 and 21 on your answer sheet.\n     A Goods were transported from the river by cart.\n     B The workforce was very poorly paid.\n     C Occupations were specialised.\n     D Workers were generally looked down upon.\n     E Physical strength was required."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 23,
+      "text": "Questions 22–23\nChoose TWO letters, A–E.\nWhich TWO statements are made about life by the River Thames in the early nineteenth\ncentury?\nWrite your answers in boxes 22 and 23 on your answer sheet.\n\n\n A The area was very crowded.\n B There was an absence of crime.\n C Casual work was in great demand.\n D Several different languages were in use.\n E Inhabitants were known for their friendliness."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\n\n\n24 In the nineteenth century, only a minority of dock workers received a __________.\n25 Cranes were operated manually because __________ created a risk of fire.\n26 Observers who were unfamiliar with London’s docks found the River Thames __________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "十八世紀以前，文章對 River Thames 附近工作作出了哪兩項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "十八世紀以前，文章對 River Thames 附近工作作出了哪兩項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "十九世紀初，文章對 River Thames 一帶生活作出了哪兩項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "十九世紀初，文章對 River Thames 一帶生活作出了哪兩項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "In the nineteenth century, only a minority of dock workers received a __________.",
+      "translation": "在十九世紀，只有少數碼頭工人得到 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Cranes were operated manually because __________ created a risk of fire.",
+      "translation": "起重機以人力操作，因為 __________ 造成火災風險。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Observers who were unfamiliar with London’s docks found the River Thames __________.",
+      "translation": "不熟悉 London docks 的觀察者會覺得 River Thames __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-113/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-113/page-5.jpg"
+  ]
+}

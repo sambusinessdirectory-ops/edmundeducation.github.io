@@ -1,0 +1,281 @@
+{
+  "id": "p3-053",
+  "catalogueId": "p3-053",
+  "title": "Can Hurricanes be Moderated or Diverted?",
+  "sourceHeading": "Can Hurricanes Be Moderated or Diverted?",
+  "passage": 3,
+  "practice": 53,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-053-can-hurricanes-be-moderated-or-diverted",
+  "source": {
+    "filename": "Practice 53 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "6c9853329fd9bcf404a2acb29e86bc07980ed70a3a6e548cd74c5302229058de"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Each year, massive swirling storms with winds exceeding 74 miles per hour sweep across tropical oceans and strike shorelines, often devastating vast swaths of territory. When these roiling tempests strike densely inhabited territories, they have the power to kill thousands and cause property damage worth billions of dollars. Moreover, almost nothing stands in their way. But can we ever find a way to control these formidable forces of nature?"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "To see why hurricanes and other severe tropical storms may be susceptible to human intervention, a researcher must first learn about their nature and origins. Hurricanes grow from clusters of thunderstorms above the tropical seas. Oceans in low-latitude areas continuously release heat and moisture into the atmosphere, producing warm, moist air above the sea surface. When this kind of air rises, the water vapour in it condenses to form clouds and precipitation. Condensation releases the solar heat used to evaporate the water at the ocean surface. This so-called latent heat of condensation makes the air more buoyant, causing the air to rise higher in a self-reinforcing feedback process. Eventually, the tropical depression begins to form and strengthen, creating the familiar eye—the calm central hub around which a hurricane spins. When it reaches land, the hurricane no longer has a continuous supply of warm water, which causes it to swiftly weaken."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Our current research was inspired by an intuition I had while studying chaos theory 30 years ago. The reason why long-range forecasting is complicated is that the atmosphere is highly sensitive to small influences and tiny mistakes can compound fast in the weather-forecasting models. However, this sensitivity also made me realise something: if we intentionally applied some slight inputs to a hurricane, we might create a strong influence that could affect the storm, either by steering it away from densely populated areas or by slowing it down. Back then, I was not able to test my ideas, but thanks to advances in computer simulation and remote-sensing technologies over the last 10 years, I can now renew my interest in large-scale weather control."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "To find out whether the sensitivity of the atmospheric system could be exploited to adjust such robust atmospheric phenomena as hurricanes, our research team ran simulation experiments on computers for a hurricane named Iniki that occurred in 1992. The current forecasting technologies were far from perfect, so we were surprised that our first simulation was an immediate success. With the goal of altering the path of Iniki in mind, we first picked the spot where we wanted the storm to stop after six hours. Then we used this target to generate artificial observations and put these into the computer model."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The most significant alteration turned out to be the initial temperatures and winds. Usually, the temperature changes across the grid were only tenths of a degree, but the most noteworthy change, which was an increase of almost two degrees Celsius, took place in the lowest model layer to the west of the storm centre. The calculations produced wind-speed changes of two or three miles per hour. However, in several spots, the rates shifted by as much as 20 mph due to minor redirections of the winds close to the storm’s centre. In terms of structure, the initial and altered versions of Hurricane Iniki seemed almost the same, but the changes in critical variables were so substantial that the altered storm veered west during the first six hours of the simulation and then travelled due north, leaving Kauai untouched."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Future earth-orbiting solar power stations, equipped with large mirrors to focus the sun’s rays and panels of photovoltaic cells to gather and send energy to the Earth, might be adapted to beam microwaves that would be absorbed by water vapour molecules inside or around the storm. The microwaves would cause the water molecules to vibrate and heat up the surrounding air, thereby causing the hurricane to slow down or move in a preferred direction."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Computer simulations of hurricanes have suggested that changing precipitation, evaporation and air temperature could make a difference to a storm’s route or abate its winds. Intervention could take many forms: precisely targeted clouds seeded with silver iodide or other rainfall-inducing agents might deprive a hurricane of the water it needs to grow by disrupting its formidable eyewall, which is the essential characteristic of a severe tropical storm."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–38",
+    "g39": "Questions 39–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27–33\nReading Passage 3 has seven paragraphs, A–G.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–viii, in boxes 27–33 on your answer sheet.\n\n                          List of Headings\n\n i                        Hurricanes in history\n\n ii                       How hurricanes form\n\n iii                      How a laboratory exercise rerouted a hurricane\n\n iv                       Exciting ways to utilise future technologies\n\n v                        Are hurricanes unbeatable?\n\n vi                       Revisiting earlier ideas\n\n vii                      How lives might have been saved\n\n viii                     A range of low-tech methods\n\n\n27 ___________ Paragraph A\n28 ___________ Paragraph B\n29 ___________ Paragraph C\n30 ___________ Paragraph D\n31 ___________ Paragraph E\n32 ___________ Paragraph F\n33 ___________ Paragraph G"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 38,
+      "text": "Questions 34–38\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 34–38 on your answer sheet\n\n\n Hurricanes originate as groups of 34 _________________ over the tropical\n oceans. Low-latitude seas continuously provide heat and moisture to the\n atmosphere, producing warm, humid air above the sea surface. When this air\n rises, the water vapour in it condenses to form clouds and precipitation. 35\n _________________ releases heat—the solar heat it took to evaporate the water\n at the ocean surface. This so-called latent 36 _________________ of\n condensation makes the air more buoyant, causing it to ascend still higher in a\n self-reinforcing feedback process. Eventually, the tropical depression begins to\n organise and strengthen, forming the familiar 37 _________________ —the\n calm central hub around which a hurricane spins. On passing over 38\n _________________, the hurricane’s sustaining source of warm water is cut off,\n which leads to the storm’s rapid weakening."
+    },
+    {
+      "id": "g39",
+      "start": 39,
+      "end": 40,
+      "text": "Questions 39–40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 39–40 on your answer sheet.\n\n\n39 What encouraged the writer to restart researching hurricane control?\n A the enormous damage hurricanes cause.\n B advances in computer technology.\n C the requirement of some local people.\n D the writer’s study of chaos theory.\n\n\n40 What was the writer’s reaction after the first experiment?\n A surprised that their intervention had achieved very little.\n B ecstatic about the first experiment’s success.\n C surprised that their intervention had the intended effect.\n D regretful about the experiment’s likely success."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph A",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph F",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph G",
+      "translation": "每年，風速超過每小時 74 英里的巨大旋轉風暴都會橫掃熱帶海洋並襲擊海岸，經常摧毀大片地區。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "Hurricanes 起源於 tropical oceans 上方的一群甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "甚麼會釋放 heat，也就是當初用來讓 ocean surface 的水蒸發的 solar heat？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "這種所謂 condensation 的 latent ______ 使空氣更有浮力。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "最後，tropical depression 開始組織和增強，形成 familiar ______，也就是 hurricane 旋轉的平靜中心。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "當 hurricane 經過甚麼之後，它持續獲得 warm water 的來源被切斷，因此迅速減弱？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "What encouraged the writer to restart researching hurricane control?",
+      "translation": "甚麼鼓勵作者重新開始研究 hurricane control？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g39",
+      "type": "choice",
+      "prompt": "What was the writer’s reaction after the first experiment?",
+      "translation": "第一次實驗後，作者有甚麼反應？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-053/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-053/page-5.jpg"
+  ]
+}

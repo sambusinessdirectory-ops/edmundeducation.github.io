@@ -1,0 +1,286 @@
+{
+  "id": "p1-046",
+  "catalogueId": "p1-046",
+  "title": "Ants Could Teach Ants",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 46,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-046-ants-could-teach-ants",
+  "source": {
+    "filename": "Practice 46  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "f459a236bfdcaeaa77344362481b440e54de07a1a88c596d2886f0ff4e276e27"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Ants Could Teach Ants The ants are tiny and usually nest between rocks on the south coast of England. Transformed into research subjects at the University of Bristol, they raced along a tabletop in search of food—and then, remarkably, returned to guide others. Time and again, followers trailed behind leaders, darting back and forth along the route, presumably to memorise landmarks. Once a follower had its bearings, it tapped the leader with its antennae, prompting the lesson literally to proceed to the next step. The ants were only looking for food, but the researchers said that the careful way in which leaders guided followers—thereby turning them into leaders in their own right—made Temnothorax albipennis the first known non-human animal to exhibit teaching behaviour."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "“Tandem running is an example of teaching, to our knowledge the first in a non-human animal, that involves bidirectional feedback between teacher and pupil,” remarks Nigel Franks, professor of animal behaviour and ecology, whose paper on the ant educators was published last week in the journal Nature."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "No sooner was the paper published, of course, than another educator questioned it. Marc Hauser, a psychologist and biologist and one of the scientists who came up with the definition of teaching, said it was unclear whether the ants had learned a new skill or merely acquired new information."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Later, Franks conducted a further study and found that there were even races between leaders. With guidance from a leader, ants could find food more quickly. The help comes at a cost to the leader, however, because it would normally reach the food about four times faster if it were not hampered by a follower. This supports the hypothesis that leaders deliberately slow down to pass their skills to followers. The students who worked with Franks on the video project supported his interpretation."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Opposing views still arose, however. Hauser noted that mere communication of information is commonplace in the animal world. Consider a species, for example, that uses alarm calls to warn fellow members about the presence of a predator. Sounding the alarm can be costly, because the animal may draw the attention of the predator to itself. But it allows others to flee to safety. “Would you call this teaching?” wrote Hauser. “The caller incurs a cost. The naïve animals gain a benefit and new knowledge that better enables them to learn about the predator’s location than if the caller had not called. This happens throughout the animal kingdom, but we don’t call it teaching, even though it is clearly a transfer of information.”"
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Tim Caro, a zoologist, presented two cases of animal communication. He found that cheetah mothers taking their cubs on hunts gradually allowed the cubs to do more of the hunting—for example, progressing from killing a gazelle and allowing young cubs to eat it to merely tripping the gazelle and letting the cubs finish it off. At one level, such behaviour might be called teaching, except that the mother was not directly teaching the cubs to hunt; she was facilitating different stages of learning. In another example, birds that watched other birds use a stick to locate food such as insects were later observed doing the same thing themselves."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Psychologists study animal behaviour partly to understand the evolutionary roots of human behaviour, Hauser said. The challenge in deciding whether other animals truly teach one another, he added, is that human teaching involves a ‘theory of mind’: teachers are aware that students do not know something. He questioned whether Franks’s leader ants really knew that their followers were ignorant. Could the leaders simply have been following an instinctive rule to proceed when followers tapped them on the legs or abdomen? And did leaders that guided followers to food, only to find that the experimenter had removed it, incur the followers’ wrath? That, Hauser said, would suggest that a follower ant actually knew the leader was better informed and was not merely following an instinctive routine."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The controversy went on, and for good reason. The occurrence of teaching in ants, if proven to be true, indicates that teaching can evolve in animals with tiny brains. It is probably the value of information in social animals that determines when teaching will evolve rather than the constraints of brain size."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Bennett Galef Jr, a psychologist who studies animal behaviour and social learning at McMaster University in Canada, maintained that ants were unlikely to have a ‘theory of mind’. Leaders and followers may simply follow instinctive routines that are not based on an understanding of what is happening in another ant’s brain. He warned that scientists may be barking up the wrong tree when they seek not only examples of human-like behaviour in other animals but also the human-like thinking presumed to underlie it. Animals may behave in ways similar to humans without having a similar cognitive system, he said, so their behaviour is not necessarily a reliable guide to how humans came to think as they do."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nLook at the following statements (Questions 1–5) and the list of people in the box below.\nMatch each statement with the correct person, A, B, C or D.\nWrite the correct letter, A, B, C or D, in Boxes 1–5 on your answer sheet.\nNB You may use any letter more than once.\n1 ___________ Animals could use objects to locate food.\n2 ___________ Ants demonstrate two-way, interactive teaching behaviour.\n3 ___________ It is risky to claim that ants teach one another as humans do.\n4 ___________ Ant leadership makes finding food faster.\n5 ___________ Communication between ants does not necessarily constitute teaching.\n\n A                                       Nigel Franks\n\n B                                       Marc Hauser\n\n C                                       Tim Caro\n\n D                                       Bennett Galef Jr."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nChoose FOUR letters, A–H\nWrite your answers in Boxes 6–9 on your answer sheet.\nWhich FOUR of the following behaviours of animals are mentioned in the passage?\n  A touch one another with their antennae\n  B warn others when danger is present\n  C escape from predators\n  D protect their young\n  E hunt food for their young\n  F fight one another\n  G use tools such as twigs\n  H eat a variety of foods"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nDo the following statements agree with the claims of the writer in Reading Passage 1?\nIn Boxes 10–13 on your answer sheet, write\n\n YES                        if the statement agrees with the views of the writer\n\n NO                         if the statement contradicts the views of the writer\n\n NOT GIVEN                  if it is impossible to say what the writer thinks about this\n10 _________________ Ants’ tandem running involves only one-way communication.\n11 _________________ Franks’s theory immediately gained many supporters after publication.\n12 _________________ Ants’ teaching behaviour is the same as that of humans.\n13 _________________ Cheetahs share their kills with their young."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Animals could use objects to locate food.",
+      "translation": "動物可以使用物件來尋找食物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Ants demonstrate two-way, interactive teaching behaviour.",
+      "translation": "螞蟻展示了雙向互動式教學行為。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ It is risky to claim that ants teach one another as humans do.",
+      "translation": "聲稱螞蟻像人類一樣互相教學，是有風險的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Ant leadership makes finding food faster.",
+      "translation": "螞蟻 leader 的引導能令找食物更快。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Communication between ants does not necessarily constitute teaching.",
+      "translation": "螞蟻之間的溝通不一定構成 teaching。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "當 follower 找到方向後，牠會用 antennae 觸碰 leader，令這堂「課」真的進入下一步。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "當 follower 找到方向後，牠會用 antennae 觸碰 leader，令這堂「課」真的進入下一步。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "當 follower 找到方向後，牠會用 antennae 觸碰 leader，令這堂「課」真的進入下一步。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "當 follower 找到方向後，牠會用 antennae 觸碰 leader，令這堂「課」真的進入下一步。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Ants’ tandem running involves only one-way communication.",
+      "translation": "螞蟻的 tandem running 只涉及單向溝通。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Franks’s theory immediately gained many supporters after publication.",
+      "translation": "Franks 的理論發表後立即得到很多支持者。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Ants’ teaching behaviour is the same as that of humans.",
+      "translation": "螞蟻的教學行為和人類的教學行為相同。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Cheetahs share their kills with their young.",
+      "translation": "獵豹會把自己獵殺的獵物分享給幼崽。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-046/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-046/page-5.jpg"
+  ]
+}

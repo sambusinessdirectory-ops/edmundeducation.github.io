@@ -1,0 +1,220 @@
+{
+  "id": "p3-166",
+  "catalogueId": "p3-166",
+  "title": "Alfred Nobel: The man behind the Nobel Prize",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 166,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-166-alfred-nobel-the-man-behind-the-nobel-prize",
+  "source": {
+    "filename": "Practice 166 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "e4d8162c08fdf5a4adf8819ee60bb6f6fc8bb24d5e30dd4082417c7812e0c6dd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Alfred Nobel: The Man Behind the Nobel Prize A Since 1901, the Nobel Prize has been honoring men and women from all corners of the globe for outstanding achievements in physics, chemistry, medicine, literature, and for efforts to promote peace. The foundations for the prize were laid in 1895 when Alfred Nobel wrote his last will, leaving much of his wealth to the establishment of the Nobel Prize."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "B Alfred Nobel was born in Stockholm on October 21, 1833. His father, Immanuel Nobel, was an engineer and inventor who built bridges and buildings in Stockholm. In connection with his construction work, Immanuel Nobel also experimented with different techniques for blasting rocks. Successful in his industrial and business ventures, Immanuel Nobel was able, in 1842, to bring his family to St. Petersburg. There, his sons were given a first-class education by private teachers. The training included natural sciences, languages and literature. By the age of 17, Alfred Nobel was fluent in Swedish, Russian, French, English and German. His primary interests were in English literature and poetry as well as in chemistry and physics. Alfred’s father, who wanted his sons to join his enterprise as engineers, disliked Alfred’s interest in poetry and found his son rather introverted."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "C In order to widen Alfred’s horizons, his father sent him abroad for further training in chemical engineering. During a two-year period, Alfred Nobel visited Sweden, Germany, France and the United States. In Paris, the city he came to like best, he worked in the private laboratory of Professor T. J. Pelouze, a famous chemist. There he met the young Italian chemist Ascanio Sobrero who, three years earlier, had invented nitroglycerine, a highly explosive liquid. But it was considered too dangerous to be of any practical use. Although its explosive power greatly exceeded that of gunpowder, the liquid would explode in a very unpredictable manner if subjected to heat and pressure. Alfred Nobel became very interested in nitroglycerine and how it could be put to practical use in construction work. He also realized that the safety problems had to be solved and a method had to be developed for the controlled detonation of nitroglycerine."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "D After his return to Sweden in 1863, Alfred Nobel concentrated on developing nitroglycerine as an explosive. Several explosions, including one in 1864 in which his brother Emil and several other persons were killed, convinced the authorities that nitroglycerine production was exceedingly dangerous. They forbade further experimentation with nitroglycerine within the Stockholm city limits and Alfred Nobel had to move his experimentation to a barge anchored on Lake Malaren. Alfred was not discouraged, and in 1864 he was able to start mass production of nitroglycerine. To make the handling of nitroglycerine safer, Alfred Nobel experimented with different additives. He soon found that mixing nitroglycerine with kieselguhr would turn the liquid into a paste which could be shaped into rods of a size and form suitable for insertion into drilling holes. In 1867 he patented this material under the name dynamite. To be able to detonate the dynamite rods, he also invented a detonator (blasting cap) which could be ignited by lighting a fuse. These inventions were made at the same time as the pneumatic drill came into general use. Together these inventions drastically reduced the cost of blasting rock, drilling tunnels, building canals and many other forms of construction work."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "E The market for dynamite and detonating caps grew very rapidly and Alfred Nobel also proved himself to be a very skillful entrepreneur and businessman. Over the years he founded factories and laboratories in some 90 different places in more than 20 countries. Although he lived in Paris much of his life, he was constantly traveling. When he was not traveling or engaging in business activities, Nobel himself worked intensively in his various laboratories, first in Stockholm and later in other places. He focused on the development of explosives technology as well as other chemical inventions including such materials as synthetic rubber and leather, artificial silk, etc. By the time of his death in 1896, he had 355 patents."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "F Intensive work and travel did not leave much time for private life. At the age of 43, he was feeling like an old man. At this time he advertised in a newspaper: “Wealthy, highly-educated elderly gentleman seeks a lady of mature age, versed in languages, as secretary and supervisor of household.” The most qualified applicant turned out to be an Austrian woman, Countess Bertha Kinsky. After working a very short time for Nobel, she decided to return to Austria to marry Count Arthur von Suttner. In spite of this, Alfred Nobel and Bertha von Suttner remained friends and kept writing letters to each other for decades. Over the years Bertha von Suttner became increasingly critical of the arms race. She wrote a famous book, Lay Down Your Arms and became a prominent figure in the peace movement. No doubt this influenced Alfred Nobel when he wrote his final will, which was to include a Prize for persons or organizations who promoted peace. Several years after the death of Alfred Nobel, the Norwegian Storting (Parliament) decided to award the 1905 Nobel Peace Prize to Bertha von Suttner."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "G Alfred Nobel died in San Remo, Italy, on December 10, 1896. When his will was opened it came as a surprise that his fortune was to be used for Prizes in Physics, Chemistry, Physiology or Medicine, Literature and Peace. The executors of his will were two young engineers, Ragnar Sohlman and Rudolf Lilljequist. They set about forming the Nobel Foundation as an organization to take care of the financial assets left by Nobel for this purpose and to coordinate the work of the Prize-Awarding Institutions. This was not without its difficulties since the will was contested by relatives and questioned by authorities in various countries."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "H Alfred Nobel’s greatness lay in his ability to combine the penetrating mind of the scientist and inventor with the forward-looking dynamism of the industrialist. Nobel was very interested in social and peace-related issues and held what were considered radical views in his era. He had a great interest in literature and wrote his own poetry and dramatic works. The Nobel Prizes became an extension and a fulfillment of his lifetime interests."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–33",
+    "g34": "Questions 34–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 33,
+      "text": "Questions 28–33\nDo the following statements agree with the information given in the reading passage?\nIn boxes 28–33 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n28 __________ The first Nobel Prize was awarded in 1895.\n29 __________ Nobel’s father wanted his son to have a better education than he himself had\nreceived.\n30 __________ Nobel was an unsuccessful businessman.\n31 __________ Bertha von Suttner was selected by Nobel himself for the first peace prize.\n32 __________ The Nobel Foundation was established after the death of Nobel.\n33 __________ Nobel’s social involvement was uncommon in the 1800s."
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 40,
+      "text": "Questions 34–40\nComplete the notes below using NO MORE THAN TWO WORDS from the passage.\nWrite your answers in boxes 34–40 on your answer sheet.\n\n\nEducation:\nHaving accumulated a great fortune in business, Nobel’s father was determined to give his son\nthe best education and sent him abroad to be trained in 34 __________. During Nobel’s studies\nin Paris, he worked in a private laboratory, where he came into contact with a young chemist, 35\n__________, and his invention, nitroglycerine, a more powerful explosive than 36 __________.\n\n\nBenefits in construction:\nNobel became very interested in this new explosive and experimented with it. However,\nnitroglycerine was too dangerous and experiments with it were banned within the city of 37\n__________. Nobel therefore moved his experiments to a lake. To make nitroglycerine easier to\nuse, Nobel invented dynamite along with 38 __________. At the same time, the 39 __________\ncame into general use; together, these inventions dramatically lowered the 40 __________ of\nconstruction work."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ The first Nobel Prize was awarded in 1895.",
+      "translation": "第一個 Nobel Prize 在 1895 年頒發。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Nobel’s father wanted his son to have a better education than he himself had received.",
+      "translation": "Nobel 的父親希望兒子接受比自己當年更好的教育。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Nobel was an unsuccessful businessman.",
+      "translation": "Nobel 是一位不成功的商人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Bertha von Suttner was selected by Nobel himself for the first peace prize.",
+      "translation": "Bertha von Suttner 是由 Nobel 本人選為第一位和平獎得主的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ The Nobel Foundation was established after the death of Nobel.",
+      "translation": "Nobel Foundation 是在 Nobel 死後成立的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "__________ Nobel’s social involvement was uncommon in the 1800s.",
+      "translation": "Nobel 對社會議題的參與在 1800 年代並不常見。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "……把他送到海外接受 ______ 訓練。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "……他接觸到一位年輕化學家 ______，以及他的發明 nitroglycerine。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "nitroglycerine 是一種比 ______ 更強力的爆炸物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "有關它的實驗在 ______ 市內被禁止。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "Nobel 發明 dynamite，同時也發明了 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "同一時期，______ 開始普遍使用。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "這些發明共同大幅降低了 construction work 的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-166/page-5.jpg"
+  ]
+}

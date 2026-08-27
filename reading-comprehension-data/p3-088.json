@@ -1,0 +1,235 @@
+{
+  "id": "p3-088",
+  "catalogueId": "p3-088",
+  "title": "Continents Collide!",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 88,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-088-continents-collide",
+  "source": {
+    "filename": "Practice 88 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "ae6b3cbba4b10344847e7adf34d950e15975cdd32a4ca637db0dff6edbfb90c3"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Continents Collide! The idea that the continents are moving was first proposed by a German meteorologist, Alfred Wegener, in a book published in 1915. He had gathered a great deal of careful and tantalising evidence, the most obvious being the simple observation that the great landmasses of the world seem to fit together, jigsaw-like, a striking example being the coastlines of either side of the Atlantic Ocean. Wegener was even able to theorise, correctly, that all the continents were once assembled into a supercontinent (now called Pangaea). Pangaea broke up into Laurasia (which became North America and Eurasia) and Gondwana (which became the remaining continents)."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Unfortunately, Wegener could propose no propulsive force for this movement, apart from the vague and erroneous suggestion that it might be centrifugal force. He also severely overestimated the speed of this motion. These problems, and the fact that he was a meteorologist (rather than a geologist), meant that, upon publishing his ideas, the scientific community was resolutely and implacably hostile. It is an interesting example of a not-uncommon case in which a scientist who was fundamentally correct was denied any recognition in his lifetime. Semmelweis, who advocated the washing of hands before surgery as a way to reduce hospital fatalities, is another example. Wegener died unexpectedly on an expedition in Greenland, probably of a heart attack—and, in death as in life, he was left out in the cold."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The first hints of Gondwana’s existence came from similar fossil plants and animals from the same geological period being found across South America, Africa, Antarctica, India and Australia. Similarly, the composition and nature of the rocks along corresponding coastlines told the same story. Yet, to become scientifically credible, the theory needed evidence of a propulsive force to move such huge continents (in the same way that Semmelweis’s ideas needed the germ theory of disease). It was only in the 1960s, decades after Wegener’s death, that hard evidence for his theory began to accumulate and eventually became overwhelming."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The theory is now called ‘plate tectonics’, since it was proven that the Earth’s surface is fractured into ‘plates’. These bump and grind as they steadily move at infinitesimally slow speeds in given directions, driven by ‘convection currents’. These are formed by the vast circulation of superheated rock from the planet’s molten interior. This material cools as it nears the surface, eventually sinking once again towards the centre. Add to this the rotation of the Earth itself, and there is a complicated and barely understood set of cyclic swirls of molten rock, producing drags and pulls on each tectonic plate, the sum of which results in a steady migration."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Of course, this motion is slow, typically at the speed at which fingernails grow, and at its fastest, the rate at which hair does. But by being consistent and essentially unstoppable, the results can be spectacular, particularly when plates meet. Here, the release of heat and the resulting buckling and melting give rise to geological events such as earthquakes, and geological features such as mountains, volcanoes, and oceanic ridges and trenches. Plate boundaries see most of the world’s active volcanoes, with the Pacific Plate’s ‘Ring of Fire’ being a good example. Volcanism may sometimes occur in the middle of plates, but this has been theorised to be a result of ‘hotspots’: anomalously hot areas of interior rock which melt through the plate, forcing an escape to the surface."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Plate boundaries come in three types. First, transform boundaries, where the plates grind past each other. It was once thought that the well-known Aegir Ridge was an example, until studies showed that it had never been active, whereas the periodic earthquakes along California’s San Andreas Fault show the very opposite case. The second type is divergent boundaries, where the two plates slide apart from each other. Mid-oceanic ridges, such as in the Atlantic, and active rift zones, such as in East Africa, are examples. Finally, there are convergent boundaries, where the two plates slide towards each other. This can form either a subduction zone (if one plate moves underneath the other) or a continental collision. Deep marine trenches are formed in the former case. As the descending plate is heated in the Earth’s interior, it releases trapped water, and immense heat and pressure rise to the surface, causing mountains and volcanoes such as the Andes to form."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The best example of a continental collision is the Indian plate, which is steadily and implacably migrating straight into Central Asia. The Himalayas of Nepal and northern India, the Karakoram Ranges of northern Pakistan, and the highlands of Afghanistan are all part of the complex fold system that resulted, producing some of the highest peaks in the world. There are also deep valleys that receive meltwater runoff from the far side of these mountains, creating some mighty rivers, such as the Indus, the Irrawaddy, and the Mekong. Interestingly, the Himalayas are still growing, meaning that the summit of Mount Everest is perhaps a couple of metres higher now than when people first stood there in 1953, presumably making it just that little bit harder to reach."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–28",
+    "g29": "Questions 29–32",
+    "g33": "Questions 33–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 28,
+      "text": "Questions 27–28\nComplete the sentences.\nChoose ONE WORD from the passage for each answer.\nThe combination of North America and Eurasia had the name 27 _________________\nThe combination of Laurasia and Gondwana had the name 28 _________________"
+    },
+    {
+      "id": "g29",
+      "start": 29,
+      "end": 32,
+      "text": "Questions 29–32\nChoose the correct letter, A, B, C, or D.\n29 Scientists disliked Wegener’s idea because he\n A was German.\n B made simple observations.\n C was a meteorologist.\n D made too many suggestions.\n\n\n30 Both Wegener and Semmelweis\n A died prematurely.\n B lacked crucial evidence.\n C were never given recognition.\n D were German.\n\n\n31 The motion of tectonic plates\n A is faster than hair growth.\n B does not change.\n C is well understood.\n D can start cyclic swirls.\n\n\n32 Volcanoes are formed away from plate boundaries due to\n A buckling and melting.\n B oceanic effects.\n C geological events.\n D heated regions."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 35,
+      "text": "Questions 33–35\nComplete the diagram.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\nTectonic Forces at Work\n\n\n\n\n33 _________________\n34 _________________\n35 _________________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the table.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n Type of Boundary                      Related Example\n\n Transform                             36 _________________\n\n 37 _________________                  East African Rift\n\n                                       Central Asian ranges (resulting in tall mountains, deep\n Convergent I: 38 _________________\n                                       valleys, and several 39 _________________)\n\n Convergent II: 40 _________________   Andes Mountains"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "North America 和 Eurasia 組合起來的名稱是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "Laurasia 和 Gondwana 組合起來的名稱是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g29",
+      "type": "choice",
+      "prompt": "Scientists disliked Wegener’s idea because he",
+      "translation": "科學家不喜歡 Wegener 的想法，原因是他……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g29",
+      "type": "choice",
+      "prompt": "Both Wegener and Semmelweis",
+      "translation": "Wegener 和 Semmelweis 兩人共同點是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g29",
+      "type": "choice",
+      "prompt": "The motion of tectonic plates",
+      "translation": "構造板塊的運動……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g29",
+      "type": "choice",
+      "prompt": "Volcanoes are formed away from plate boundaries due to",
+      "translation": "遠離板塊邊界形成的火山，是由於……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________ East African Rift Central Asian ranges (resulting in tall mountains, deep Convergent I: 38 _________________ valleys, and several 39 _________________) Convergent II: 40 _________________ Andes Mountains",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "中亞山脈造成高山、深谷，以及幾條……",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-088/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-088/page-5.jpg"
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "p2-056",
+  "catalogueId": "p2-056",
+  "title": "How are deserts formed?",
+  "sourceHeading": "How Are Deserts Formed?",
+  "passage": 2,
+  "practice": 56,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-056-how-are-deserts-formed",
+  "source": {
+    "filename": "Practice 56 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8bf744836042120fb1df2813fcd9daf5b4fa71badcdec961e090c33e4923e0f6"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "A desert refers to a barren section of land, mainly in arid and semi-arid areas, where there is almost no precipitation, and the environment is hostile to life. Deserts have been classified in a number of ways, generally combining total precipitation, the number of days on which rain falls, temperature, humidity, and sometimes additional factors. In some places, deserts have clear boundaries marked by rivers, mountains or other landforms, while in other places, there are no clear-cut borders between desert and other landscapes."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "In arid areas where there is no vegetation cover protecting the land, sand and dust storms will frequently take place. This phenomenon often occurs at desert margins instead of within the deserts, where there are already no finer materials left. When a steady wind starts to blow, fine particles on the open ground will begin vibrating. As the wind picks up, some of the particles are lifted into the air. When they fall onto the ground, they hit other particles which will then be jerked into the air in their turn, initiating a chain reaction."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "There has been a great deal of publicity about how severe desertification can be, but the academic community has never agreed on the causes of desertification. A common misunderstanding is that a shortage of precipitation causes desertification—even the land in some barren areas will soon recover after the rain falls. In fact, more often than not, human activities are responsible for desertification. It might be true that the explosion in world population, especially in developing countries, is the primary cause of soil degradation and desertification. Since the population density has increased, cultivation has expanded into progressively drier areas. These regions are especially prone to periods of severe drought, which explains why crop failures are common. Growing most crops requires the natural vegetation cover to be removed first; when crop failures occur, extensive tracts of land are devoid of plant cover and thus susceptible to wind and water erosion. Throughout the 1990s, dryland areas went through a population growth of 18.5 per cent, mostly in severely impoverished developing countries."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Raising livestock in semi-arid areas accelerates soil erosion and is one cause of advancing desertification. In such areas where the vegetation is dominated by grasses, livestock grazing is a major economic activity. Grasses are necessary for anchoring vulnerable topsoil in a dryland area. When a specific field is used to graze an excessively large herd, the field will lose vegetation cover, and the soil will be trampled and pulverised, leaving the topsoil exposed to destructive forces such as wind and sudden thunderstorms. For centuries, nomads have moved their flocks and herds wherever pasture can be found, and oases have offered opportunities for a more settled way of living. For some nomads, wherever they move to, the desert follows."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Trees are of great importance when it comes to maintaining topsoil and reducing wind speed. In many Asian countries, firewood is the chief fuel used for cooking and heating, which has caused uncontrolled clear-cutting of forests in dryland ecosystems. When too many trees are cut down, windstorms and dust storms tend to occur."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Political conflicts and wars can also contribute to desertification. To escape invading enemies, refugees may move en masse into some of the planet’s most vulnerable ecosystems. They may bring farming practices that are unsuited to their new environment."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "In the 20th century, one US state had a large section of farmland that had turned into desert. Since then, measures have been implemented to prevent desertification from recurring. People are encouraged to find livelihoods that place fewer demands on local land and natural resources but can still generate a viable income. Such livelihoods include but are not limited to dryland aquaculture for raising fish and crustaceans and producing industrial compounds derived from microalgae, greenhouse agriculture, and tourism-related activities. Another way to prevent the recurrence of desertification is to improve the economic prospects in city centres and places outside of drylands. Changing the general economic and institutional structures that create new opportunities for people to support themselves would alleviate the current pressures accompanying the desertification processes."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Today, new technologies are being used to address the problems caused by desertification. Satellites have been used to investigate the influence that people and livestock have on desertification. Even so, alternative technologies are still needed to address the problems and processes of desertification."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nReading Passage 2 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 14–20 on your answer sheet.\nNB You may use any letter more than once.\n14 __________ a reference to the irregular movement of particles\n15 __________ mention of a productive land turning into a desert in the 20th century\n16 __________ types of deserts\n17 __________ mention of technological methods used to address desertification\n18 __________ the influence of traditional livestock-grazing practices on desertification\n19 __________ a lack of agreement among scientists about the causes of desertification\n20 __________ a description of the adverse effects of growing food crops"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 21–26 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n21 _________________ It is difficult to ascertain where the deserts end in some areas.\n22 _________________ The media are uninterested in the problems of desertification.\n23 _________________ The most common cause of desertification is the lack of rainfall.\n24 _________________ Raising livestock in semi-arid areas will increase soil erosion.\n25 _________________ People in Asian countries no longer use firewood as the chief fuel.\n26 _________________ Technology for studying the effects of people and livestock on\ndesertification has not yet been developed."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ a reference to the irregular movement of particles",
+      "translation": "提到 particles 不規則或連鎖式移動的地方。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ mention of a productive land turning into a desert in the 20th century",
+      "translation": "提到 20 世紀時，一片有生產力的土地變成 desert。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ types of deserts",
+      "translation": "deserts 的類型或分類方式。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ mention of technological methods used to address desertification",
+      "translation": "提到用科技方法處理 desertification 的地方。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ the influence of traditional livestock-grazing practices on desertification",
+      "translation": "傳統 livestock grazing practices 對 desertification 的影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ a lack of agreement among scientists about the causes of desertification",
+      "translation": "科學家或學術界對 desertification 成因缺乏共識。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ a description of the adverse effects of growing food crops",
+      "translation": "描述種植糧食作物帶來的負面影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ It is difficult to ascertain where the deserts end in some areas.",
+      "translation": "在某些地區，很難確定 deserts 在哪裡結束。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ The media are uninterested in the problems of desertification.",
+      "translation": "媒體對 desertification 問題不感興趣。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ The most common cause of desertification is the lack of rainfall.",
+      "translation": "desertification 最常見的原因是 rainfall 不足。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Raising livestock in semi-arid areas will increase soil erosion.",
+      "translation": "在 semi-arid areas 飼養 livestock 會增加 soil erosion。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ People in Asian countries no longer use firewood as the chief fuel.",
+      "translation": "亞洲國家的人們不再把 firewood 作為主要燃料。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Technology for studying the effects of people and livestock on desertification has not yet been developed.",
+      "translation": "用來研究 people 和 livestock 對 desertification 影響的科技尚未被開發。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-056/page-4.jpg"
+  ]
+}

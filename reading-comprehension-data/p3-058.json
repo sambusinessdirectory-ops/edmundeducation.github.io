@@ -1,0 +1,300 @@
+{
+  "id": "p3-058",
+  "catalogueId": "p3-058",
+  "title": "Texting the Television",
+  "sourceHeading": "Texting the Television",
+  "passage": 3,
+  "practice": 58,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-058-texting-the-television",
+  "source": {
+    "filename": "Practice 58 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "a2686e49d4a0323781d02c1166062e10ed58a318faff29ba171b977b4544bc41"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Once upon a time, if a television show with any self-respect wanted to target a young audience, it needed to have an e-mail address. However, on European TV shows, such addresses are gradually being replaced by telephone numbers so that audiences can text the show from their mobile phones. It therefore comes as no surprise that, according to Gartner’s research, texting has recently surpassed Internet usage across Europe. Besides, among the many uses of text messaging, one of the fastest-growing uses is to interact with television. Gartner’s statistics show that 20% of French teenagers, 11% of British teenagers and 9% of German teenagers have responded to TV programmes by sending a text message."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "This phenomenon can be largely attributed to the rapid growth of reality TV shows such as ‘Big Brother’, where viewers get to decide the result through voting. The majority of reality shows are now open to text-message voting, and in some shows like the latest series of Norway’s ‘Big Brother’, most votes are collected in this manner. But TV-texting isn’t just about voting. News shows encourage viewers to comment by texting messages; game shows enable the audience to be part of the competition; music shows answer requests by taking text messages; and broadcasters set up on-screen chatrooms. TV audiences tend to sit on the sofa with their mobile phones right by their sides, and ‘it’s a natural way to interact,’ says Adam Daum of Gartner."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Mobile service providers charge premium rates for messages to certain numbers, which is why TV-texting can bring in a lot of cash. Take the latest British series of ‘Big Brother’ as an example. It brought about 5.4 million text-message votes and £1.35 million ($2.1 million) in profit. In Germany, MTV’s ‘Videoclash’ encourages the audience to vote for one of two rival videos, and attracts up to 40,000 texts per hour. Each text costs €0.30 ($0.29), according to a consultancy based in Amsterdam. The Belgian quiz show ‘1 Against 100’ had an eight-round texting match on the side, which brought in 110,000 participants in one month, and each of them paid €0.50 for each question. In Spain, a cryptic-crossword clue invites the audience to send their answers by text at a cost of €1 so that they can be entered into the draw to win a €300 prize. Normally, 6,000 viewers would participate within one day. At the moment, TV-related text messaging accounts for a considerable proportion of mobile service providers’ data revenues. In July, mmO2, a British operator, reported unexpectedly strong results, which could be attributed to the massive volume of text traffic created by ‘Big Brother’. Providers usually receive 40–50 per cent of the revenue from each text, and the rest is divided among the broadcaster, the programme producer and the company which supplies the message-processing technology. So far, revenues generated from text messages have been an indispensable part of the business model for various shows. Obviously, there has been grumbling that the providers take too much of the share. Endemol, the Netherlands-based production firm that is responsible for many reality TV shows including ‘Big Brother’, has begun constructing its own database for mobile-phone users. It plans to set up a direct billing system with the users and bypass the providers."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Why has the combination of television and text messaging proved so successful? One crucial aspect is the emergence of special four-, five- or six-digit numbers known as ‘short codes’. Every provider has control over its own short codes, but not until recently have they come to realise that it would make much more sense to work together to offer short codes compatible with all networks. The emergence of these universal short codes was a game-changer, because short codes are much easier to remember when shown on screen, according to Lars Becker of Flytxt, a mobile-marketing company."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Operators’ cooperation in expanding the market is part of a broader trend, observes Katrina Bond of Analysys, a consultancy. Faced with a choice between protecting their margins and allowing a new medium to emerge, providers previously chose the former. WAP, a technology for mobile-phone users to read cut-down web pages on their screens, failed because of service providers’ reluctance to share revenue with content providers. Now that they’ve learnt their lesson, they are altering the way they operate. Orange, a French operator, has gone so far as to launch a rate card for sharing text-message revenue, a new level of transparency that used to be unimaginable."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "At a recent conference, Han Weegink of CMG, a company that provides text-message infrastructure to the television industry, pointed out that the television industry is changing in a subtle yet fundamental way. Instead of the traditional one-way presentation, more and more TV shows now involve viewers’ reactions. Certainly, engaging audiences more has always been the promise of interactive TV. Interactive TV was originally designed to work with special set-top boxes, which could be directly plugged into the TV. However, as Mr Daum points out, that method was flawed in many ways. Developing and testing software for multiple, incompatible types of set-top box could be costly, not to mention that the 40% (or lower) market penetration is below that of mobile phones (around 85%). What’s more, it’s quicker to develop and set up apps for mobile phones. ‘You can approach the market more quickly, and you don’t have to go through as many greedy middlemen,’ Mr Daum says. Providers of set-top box technology are now adding texting functionality to the design of their products."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The triumph of TV-related texting reminds everyone in the business of how easily a fancy technology can suddenly be replaced by a less complicated, lower-tech method. That being said, the old-fashioned approach to interactive TV is not necessarily over; at least it proves that strong demand for interactive services still exists. It appears that the viewers would sincerely like to do more than simply stare at the TV screen. After all, couch potatoes would love some thumb exercises."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nReading Passage 3 has seven sections, A–G.\nChoose the correct heading for sections B–E and G from the list of headings below.\nWrite the correct number, i–ix, in boxes 28–32 on your answer sheet.\n\n                          List of Headings\n\n i                        The use of short codes on the TV screen\n\n ii                       An overview of a fast-growing business\n\n iii                      Growing interest in profitable games\n\n iv                       Why the Netherlands takes the leading role\n\n v                        A new perspective on sharing the business opportunities\n\n vi                       Factors relevant to the rapid increase in interactive TV\n\n vii                      Revenue gains and profit sharing\n\n                          The possibility of complex technology being replaced by simpler\n viii\n                          alternatives\n\n ix                       A change of mind among set-top-box providers\n28 ___________ Section B\n29 ___________ Section C\n30 ___________ Section D\n31 ___________ Section E\n32 ___________ Section G"
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 35,
+      "text": "Questions 33–35\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 33–35 on your answer sheet.\n\n\n33 In Europe, research suggests that young audiences spend more money on\n A sending text messages.\n B writing e-mails.\n C watching TV programmes.\n D talking through mobile phones.\n\n\n34 What would happen when reality TV shows invite the audience to vote?\n A Viewers would get an attractive bonus.\n B They would be part of the competition.\n C Their questions would be answered.\n D Their participation could change the result.\n\n\n35 Interactive TV will change from concentrating on set-top devices to\n A increasing their share in the market.\n B setting up a modified set-top box.\n C building an embedded message platform.\n D marching into the European market."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nLook at the following descriptions (Questions 36–40) and the list of companies below.\nMatch each description with the correct company, A–F.\nWrite the correct letter, A–F, in boxes 36–40 on your answer sheet.\n\n                                    List of Companies\n\n A                                  Flytxt\n\n B                                  Analysys\n\n C                                  Endemol\n\n D                                  CMG\n\n E                                  mmO2\n\n F                                  Gartner\n\n\n36 ___________ offered mobile-phone messaging technology\n37 ___________ earned a considerable amount of money through a famous programme\n38 ___________ expressed the view that short codes are convenient to remember when\ndisplayed on screen\n39 ___________ built its own mobile-user database\n40 ________ indicated that it is easy for people to send messages while watching interactive TV"
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ Section B",
+      "translation": "這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother，在這類節目中，觀眾可以透過投票決定結果。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ Section C",
+      "translation": "這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother，在這類節目中，觀眾可以透過投票決定結果。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ Section D",
+      "translation": "這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother，在這類節目中，觀眾可以透過投票決定結果。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ Section E",
+      "translation": "這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother，在這類節目中，觀眾可以透過投票決定結果。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ Section G",
+      "translation": "這個現象大致可歸因於 reality TV shows 的快速增長，例如 Big Brother，在這類節目中，觀眾可以透過投票決定結果。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "In Europe, research suggests that young audiences spend more money on",
+      "translation": "在歐洲，研究暗示年輕觀眾在甚麼方面花費更多？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "What would happen when reality TV shows invite the audience to vote?",
+      "translation": "當 reality TV shows 邀請觀眾投票時，會發生甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Interactive TV will change from concentrating on set-top devices to",
+      "translation": "Interactive TV 會由集中於 set-top devices，轉向甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ offered mobile-phone messaging technology",
+      "translation": "提供 mobile-phone messaging technology。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ earned a considerable amount of money through a famous programme",
+      "translation": "透過一個著名節目賺到可觀收入。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ expressed the view that short codes are convenient to remember when displayed on screen",
+      "translation": "表示 short codes 顯示在螢幕上時很方便記住。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "___________ built its own mobile-user database",
+      "translation": "建立自己的 mobile-user database。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "________ indicated that it is easy for people to send messages while watching interactive TV",
+      "translation": "指出人們看 interactive TV 時很容易發送訊息。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-058/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-058/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-058/page-6.jpg"
+  ]
+}

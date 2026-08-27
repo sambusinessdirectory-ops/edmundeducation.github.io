@@ -1,0 +1,301 @@
+{
+  "id": "p2-108",
+  "catalogueId": "p2-108",
+  "title": "Inside the mind of the consumer",
+  "sourceHeading": "Inside the Mind of the Consumer Could brain-scanning technology provide an accurate way to assess the appeal of new products and the effectiveness of advertising?",
+  "passage": 2,
+  "practice": 108,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-108-inside-the-mind-of-the-consumer",
+  "source": {
+    "filename": "Practice 108 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "07b2a03d4083f407c97a3e11c7345a911853f089b51cee7322218f6e195c1bf5"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Marketing people are no longer prepared to take your word for it that you favour one product over another. They want to scan your brain to see which one you really prefer. Using the tools of neuroscientists, such as electroencephalogram (EEG) mapping and functional magnetic resonance imaging (fMRI), they are trying to learn more about the mental processes behind purchasing decisions. The resulting fusion of neuroscience and marketing is inevitably being called ‘neuromarketing’."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The first person to apply brain-imaging technology in this way was Gerry Zaltman of Harvard University in the late 1990s. The idea remained in obscurity until 2001, when BrightHouse, a marketing consultancy based in Atlanta, Georgia, set up a dedicated neuromarketing arm, BrightHouse Neurostrategies Group. (BrightHouse lists Coca-Cola, Delta Airlines and Home Depot among its clients.) But the company’s name may itself simply be an example of clever marketing. BrightHouse does not scan people while showing them specific products or campaign ideas, but bases its work on the results of more general fMRI-based research into consumer preferences and decision-making carried out at Emory University in Atlanta."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Can brain scanning really be applied to marketing? The basic principle is not that different from focus groups and other traditional forms of market research. A volunteer lies in an fMRI machine and is shown images or video clips. In place of an interview or questionnaire, the subject’s response is evaluated by monitoring brain activity. fMRI provides real-time images of brain activity, in which different areas “light up” depending on the level of blood flow. This provides clues to the subject’s subconscious thought patterns. Neuroscientists know, for example, that the sense of self is associated with an area of the brain known as the medial prefrontal cortex. A flow of blood to that area while the subject is looking at a particular logo suggests that he or she identifies with that brand."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "At first, it seemed that only companies in Europe were prepared to admit that they used neuromarketing. Two carmakers, DaimlerChrysler in Germany and Ford’s European arm, ran pilot studies in 2003. But more recently, American companies have become more open about their use of neuromarketing. Lieberman Research Worldwide, a marketing firm based in Los Angeles, is collaborating with the California Institute of Technology (Caltech) to enable movie studios to market-test film trailers. More controversially, the New York Times recently reported that a political consultancy, FKF Research, has been studying the effectiveness of campaign commercials using neuromarketing techniques."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Whether all this is any more than a modern-day version of phrenology, the Victorian obsession with linking lumps and bumps in the skull to personality traits, is unclear. There have been no large-scale studies, so scans of a handful of subjects may not be a reliable guide to consumer behaviour in general. Of course, focus groups and surveys are flawed too: strong personalities can steer the outcomes of focus groups, and people do not always tell opinion pollsters the truth. And even honest people cannot always explain their preferences."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "That is perhaps where neuromarketing has the most potential. When asked about cola drinks, most people claim to have a favourite brand, but cannot say why they prefer that brand’s taste. An unpublished study of attitudes towards two well-known cola drinks, Brand A and Brand B, carried out last year at a college of medicine in the US found that most subjects preferred Brand B in a blind tasting. fMRI scanning showed that drinking Brand B lit up a region called the ventral putamen, which is one of the brain’s ‘reward centres’, far more brightly than Brand A. But when told which drink was which, most subjects said they preferred Brand A, which suggests that its stronger brand image outweighs the more pleasant taste of the other drink."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "“People form many unconscious attitudes that are obviously beyond traditional methods that utilise introspection,” says Steven Quartz, a neuroscientist at Caltech who is collaborating with Lieberman Research. With over $100 billion spent each year on marketing in America alone, any firm that can more accurately analyse how customers respond to products, brands and advertising could make a fortune."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Consumer advocates are wary. Gary Ruskin of Commercial Alert, a lobby group, thinks existing marketing techniques are powerful enough. “Already, marketing is deeply implicated in many serious pathologies,” he says. “That is especially true of children, who are suffering from an epidemic of marketing-related diseases, including obesity and type-2 diabetes. Neuromarketing is a tool to amplify these trends.”"
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Dr Quartz counters that neuromarketing techniques could equally be used for benign purposes. “There are ways to utilise these technologies to create more responsible advertising,” he says. Brain-scanning could, for example, be used to determine when people are capable of making free choices, to ensure that advertising falls within those bounds."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Another worry is that brain-scanning is an invasion of privacy and that information on the preferences of specific individuals will be misused. But neuromarketing studies rely on small numbers of volunteer subjects, so that seems implausible. Critics also object to the use of medical equipment for frivolous rather than medical purposes. But as Tim Ambler, a neuromarketing researcher at the London Business School, says: ‘A tool is a tool, and if the owner of the tool gets a decent rent for hiring it out, then that subsidises the cost of the equipment, and everybody wins.’ Perhaps more brain-scanning will someday explain why some people like the idea of neuromarketing, but others do not."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has ten paragraphs, A–J.\nChoose the correct heading for Paragraphs B–G from the list of headings below.\nWrite the correct number (i–x) in boxes 14–19 on your answer sheet.\n14 _____________ Paragraph B\n15 _____________ Paragraph C\n16 _____________ Paragraph D\n17 _____________ Paragraph E\n18 _____________ Paragraph F\n19 _____________ Paragraph G\n\n\n                         List of Headings\n\n i                       A description of the procedure\n\n ii                      An international research project\n\n iii                     An experiment to investigate consumer responses\n\n iv                      Marketing an alternative name\n\n v                       A misleading name\n\n vi                      A potentially profitable line of research\n\n vii                     Medical dangers of the technique\n\n viii                    Drawbacks to marketing tools\n\n ix                      Broadening applications\n\n x                       What is neuromarketing?"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 22,
+      "text": "Questions 20–22\nLook at the following people (Questions 20–22) and the list of opinions below.\nMatch each person with the opinion credited to him.\nWrite the correct letter A–F in boxes 20–22 on your answer sheet.\n20 _____________ Steven Quartz\n21 _____________ Gary Ruskin\n22 _____________ Tim Ambler\n\n\n                          List of opinions\n\n                          Neuromarketing could be used to contribute towards the cost of medical\n A\n                          technology.\n\n B                        Neuromarketing could use introspection as a tool in marketing research.\n\n C                        Neuromarketing could be a means of treating medical problems.\n\n D                        Neuromarketing could make an existing problem worse.\n\n E                        Neuromarketing could lead to the misuse of medical equipment.\n\n F                        Neuromarketing could be used to prevent the exploitation of consumers."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nComplete the summary below using words from the passage.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 23–26 on your answer sheet.\nNeuromarketing can provide valuable information on attitudes to particular 23\n_________________. It may be more reliable than surveys, in which people can be 24\n_________________, or focus groups, where they may be influenced by others. It also\nallows researchers to identify the subject’s 25 _________________ thought patterns.\nHowever, some people are concerned that it could lead to problems such as an increase in\ndisease among 26 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph G List of Headings i A description of the procedure ii An international research project iii An experiment to investigate consumer responses iv Marketing an alternative name v A misleading name vi A potentially profitable line of research vii Medical dangers of the technique viii Drawbacks to marketing tools ix Broadening applications x What is neuromarketing?",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_____________ Steven Quartz",
+      "translation": "Steven Quartz 的觀點是：neuromarketing 可用來避免消費者被利用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_____________ Gary Ruskin",
+      "translation": "Gary Ruskin 認為 neuromarketing 可能令既有問題惡化。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_____________ Tim Ambler List of opinions Neuromarketing could be used to contribute towards the cost of medical",
+      "translation": "Tim Ambler 認為 neuromarketing 可以為 medical technology 的成本提供補貼。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "Neuromarketing 可以提供有價值的資訊，了解人們對特定 _________ 的態度。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "它可能比 surveys 更可靠，因為在 surveys 中，人們可能會 _________；在 focus groups 中，人們可能會受其他人影響。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "它也讓研究者識別受試者的 _________ thought patterns。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "然而，有些人擔心它可能帶來問題，例如令 _________ 之中的疾病增加。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-108/page-6.jpg",
+    "/assets/reading-comprehension/questions/p2-108/page-7.jpg"
+  ]
+}

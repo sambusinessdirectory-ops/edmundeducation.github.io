@@ -1,0 +1,249 @@
+{
+  "id": "p3-101",
+  "catalogueId": "p3-101",
+  "title": "The Fame Machine",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 101,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-101-the-fame-machine",
+  "source": {
+    "filename": "Practice 101 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "7ee8d232d3252cc1663a0585120aa8a5cce9cd2e8fb00107cc7fecd801e69457"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Fame Machine Fascination with what Aaron Spelling, a prolific producer of American soap operas, once called “rich people having problems that money can’t solve” is universal. Star-struck Britain’s fascination has no equal. The country has a profusion of titles devoted to chronicling even the smallest doings of celebrities. Britons buy almost half as many celebrity magazines as Americans do, despite having a population that is only one fifth the size. Celebrity news often makes the front page of British tabloid newspapers, providing a formidable distribution channel for stories about celebrities. New figures from the Audit Bureau of Circulations show that the ten best-selling celebrity publications and ten most popular tabloids have a combined circulation of 23 million."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Satisfying this voracious demand has turned what was once a shoddy, amateurish business into an entertainment industry in its own right. Its business model has two distinguishing features. First, celebrity has become the product – rather than just a device for marketing films or music. The “talent” (if that is the word) owes its standing chiefly to the celebrity machine and not to any particular gift. It therefore depends on the attentions of the press to make money. Second, celebrities, agents, photographers, and picture desks have found that the most efficient way to create an endless supply of celebrity news is to work together. A business that used to be based on intrusion has discovered a preference for collaboration."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "It is also expanding abroad. In the past few weeks, Northern & Shell has launched an American edition of OK!, a celebrity magazine that already has Australian, Chinese, and Middle Eastern editions. EMAP recently launched Closer in France and already publishes a South African edition of Heat, a best-seller in Britain. Celebrity hounds who cut their teeth in Britain’s competitive market are in demand abroad. The National Enquirer, a hard-nosed American scandal sheet famed for pushing back the boundaries of taste – and of free speech – was relaunched earlier in the year by a team led by Paul Field, formerly of The Sun, and stuffed with alumni of British tabloids and magazines."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Celebrity magazines were not a British invention. Hello!, which is still widely read but which has been waning of late, originated in Spain, where Hola! provided a hint of glamour to women under Franco’s drab reign. Before that, magazines grew up around the film industry in America. Some reported what the studios wanted them to say; others, such as Confidential – which became the biggest-selling magazine in America in the 1950s – aimed to dish the dirt on the stars. In Britain, celebrity news has been used to sell newspapers for more than a century. The News of the World, which gleefully reported aristocratic scandals in the 19th century, first appeared in the same year as Dickens’s “A Christmas Carol”."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Modern Britain has given gossip a new sophistication. Part of the secret has been to separate celebrity revenue streams. Julian Henry of Henry’s House, an agency for celebrities, distinguishes between a celebrity’s craft (such as singing, stripping, or kicking footballs) and their celebrity rating, which has a trajectory of its own, and often has an inverse relationship to the talent a famous person has, or once had. This second stream can often be more valuable than the first, and Britain’s celebrity industry has become adept at creating and selling it."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Take Peter Andre and Katie Price, who are to marry later this month. The pop singer and the model better known as Jordan met when their careers were flagging, on a reality TV show – that essential new cog in the celebrity machine. They have sold rights to the wedding, built around a Cinderella theme, as an exclusive to OK! for a small fortune (a price, the gossip press says, that has irked Victoria Beckham, whose marriage to her footballer husband was covered by a million-pound contract). In the past, such sums have been reserved for authentic stars such as Michael Douglas and Catherine Zeta-Jones. The deal included more than wedding snaps: over a year of the couple’s life – from prenuptial nerves to the first birthday of the expected offspring – was bundled together and sold as a commodity. Ms. Price, who once said the only book she had read was the story of the Yorkshire Ripper, has now signed a three-book deal with Random House."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Paul Ashford of Northern & Shell, the company that owns OK!, calls this stuff “relationship journalism”, and it is pretty easy to spot. The process has become so effective that the three celebrities who insiders say shift most copies of OK! have all been manufactured in this way. With celebrity stories able to have such a powerful effect on sales, it is unsurprising that their manufacture is not left to chance. Modern celebrity in Britain is also more egalitarian. Tittle-tattle about dukes and duchesses is worth less than stories on ordinary folk, partly because ordinary folk make for more colourful copy. The News of the World boosted circulation by 250,000 when it put the Beckhams on its cover last year after David Beckham was alleged to have had a love affair. Such cases show how celebrities’ willing participation can come back to haunt them if they transgress. This is less common than you might think: many of the celebrity pictures that look like plain intrusion into private lives are staged."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "This is partly thanks to the profit motive. Many celebrities don’t see why they should give away their image when they could make money from it. Darren Lyons runs a photography agency called Big Pictures that specialises in shooting celebrities through long lenses as if for a paparazzi picture. The profits from the picture sales are then split between the subject, the agency, and the photographer. “We’re almost known as the friendly paparazzi,” grins Mr. Lyons from the high-backed, red leather judicial chair in his office, a lion-skin rug spread across the floor. Collaboration allows celebrities to retain some control over choosing the pictures that appear."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in the appropriate box on your answer sheet.\n\n\n27 British people buy\n A as many celebrity magazines as Americans do.\n B more celebrity magazines per head of population than Americans.\n C a grand total of 23 million celebrity magazines each year.\n\n\n28 The National Enquirer is\n A a tasteful magazine.\n B now owned by British people.\n C now employing many British journalists.\n\n\n29 The News of the World\n A is an American newspaper.\n B has been published for over a hundred years.\n C published extracts from “A Christmas Carol”.\n\n\n30 Darren Lyons\n A works with celebrities.\n B is disliked by many celebrities.\n C doesn’t co-operate with newspapers and magazines."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\nBritain’s celebrity industry is good at 31 _________________ a celebrity rating.\nPeter Andre and Katie Price’s wedding will have a 32 _________________\nAccording to some, the three stars that increase sales of OK! the most all\nparticipate in 33 _________________\n34 _________________ make more interesting subjects for stories.\nIf celebrities co-operate with agencies and photographers, they 35\n_________________ with regard to which photographs of them are published."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n36 _________________ Aaron Spelling has produced many American soap operas.\n37 _________________ The “talent” (paragraph 2) refers to the celebrity.\n38 _________________ Confidential was first published in the 1950s.\n39 _________________ At Henry’s House, the celebrity’s ability is linked to their celebrity\nrating.\n40 _________________ Peter Andre and Katie Price were becoming more successful when\nthey met."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "British people buy",
+      "translation": "英國人購買名人雜誌的情況是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The National Enquirer is",
+      "translation": "《National Enquirer》現在有甚麼情況？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The News of the World",
+      "translation": "《News of the World》的情況是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Darren Lyons",
+      "translation": "Darren Lyons 的工作方式是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "英國名人產業很擅長 ______ celebrity rating。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "Peter Andre 和 Katie Price 的婚禮將會有一個 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "據一些人所說，最能推高 OK! 銷量的三位明星，都參與了 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "_________________ make more interesting subjects for stories. If celebrities co-operate with agencies and photographers, they 35 _________________ with regard to which photographs of them are published.",
+      "translation": "______ 作為故事題材更有趣。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "如果名人和機構、攝影師合作，他們在刊登哪些照片方面可以 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Aaron Spelling has produced many American soap operas.",
+      "translation": "Aaron Spelling 製作過很多美國 soap operas。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ The “talent” (paragraph 2) refers to the celebrity.",
+      "translation": "Paragraph 2 中的 “talent” 指的是 celebrity。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Confidential was first published in the 1950s.",
+      "translation": "《Confidential》在 1950 年代首次出版。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ At Henry’s House, the celebrity’s ability is linked to their celebrity rating.",
+      "translation": "在 Henry’s House 的說法中，名人的能力和 celebrity rating 有關聯。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Peter Andre and Katie Price were becoming more successful when they met.",
+      "translation": "Peter Andre 和 Katie Price 相識時，事業正變得更成功。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-101/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-101/page-5.jpg"
+  ]
+}

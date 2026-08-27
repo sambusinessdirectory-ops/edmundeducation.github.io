@@ -1,0 +1,234 @@
+{
+  "id": "p2-074",
+  "catalogueId": "p2-074",
+  "title": "The cells from hell",
+  "sourceHeading": "The Cells from Hell Recently, an international team of biologists met to discuss what they believe is a global crisis caused by the sudden appearance of strange marine microorganisms capable of poisoning not just fish but people too.",
+  "passage": 2,
+  "practice": 74,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-074-the-cells-from-hell",
+  "source": {
+    "filename": "Practice 74 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "955482f73fe2439b48b31a560d913ac225630128478cbc46066c4f5495fd1747"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "In the mid-1980s, fishermen in North Carolina, on the eastern coast of the United States, began complaining about mysterious fish kills. They were convinced that pollution was responsible but nobody would listen. That changed in 1988 after an accident at a research centre. Tank after tank of fish suddenly died. Researchers spotted an unknown microorganism in the water. It was later named Pfiesteria."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Pfiesteria belongs to a prehistoric group of algae that are part plant, part animal. They are called dinoflagellates after the tiny whips or flagella that propel them through the water. Magnified a thousand times they are some of the strangest and most beautiful creatures in the sea. They are at the bottom of the food chain but, to deter fish from swallowing them, some have evolved powerful toxins."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "As the researchers were to discover, Pfiesteria doesn’t just discourage fish. It actively hunts them, then eats them. Fish are one of its preferred foods but one of the intriguing things about Pfiesteria is that it will eat everything from bacteria to dead plant and animal remains all the way up to mammalian tissues. So its food spans the entire food web of an estuary. Gradually the researchers realised that nothing in the water was safe from Pfiesteria. It could harm humans too. A misdirected air-conditioning duct from a room containing the toxins nearly killed one of the researchers. He suffered a host of symptoms ranging from profuse sweating, tingling hands and feet, to liver and kidney problems, as well as memory loss."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "As the research intensified, some startling discoveries were made. In tanks, Pfiesteria was quite content to behave like a plant and photosynthesise. However, when fish were added, a dramatic transformation occurred: Pfiesteria switched to attack mode. In a matter of minutes it changed shape and secreted a toxin. The fish quickly became disoriented and within five minutes all were dead. Pfiesteria changed shape again and devoured them. Once it had eaten its fill, it vanished. No one had ever seen an organism do this before."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Initially scientists believed this was part of a natural cycle, but on closer examination, it seemed pollution was to blame. When the water containing the biggest fish kills was analysed, scientists found high levels of pollution. But pollution is just one of the factors that can boost the transformation in Pfiesteria. Others include large numbers of fish travelling and feeding together in poorly flushed areas with abundant algae and other food sources. That is the perfect habitat for Pfiesteria."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "But Pfiesteria is not the only concern. In the oceans all around the world similar kinds of algae are now materialising and turning toxic. In the last decade, these algal blooms¹ have poisoned sea lions in California, caused catastrophic fish kills in the Pacific, the Mediterranean and the North Sea, and devastated the shellfish industry in New Zealand. Researchers from forty-seven nations met recently to share the latest information about harmful algal blooms. They heard about new types of toxins and discussed possible links between toxic algae and whale strandings. But what dominated the proceedings was news that toxic algae are spreading to new shores in ballast water carried by ships."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "That may have already happened in Australian waters. A tuna kill in 1996 cost fish farmers an estimated $45 million. The official explanation was that a storm was to blame. But there were also reports of orange-brown streaks in the water. When a water sample was examined, it was found to be teeming with an alga never before seen in Australia, called Chattonella. The same Chattonella killed half a billion dollars’ worth of fish in Japan in 1972."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "A toxin produced by this alga was also present in the livers of the dead tuna. Despite this powerful evidence, the official explanation remains that the storm was the killer. However, in Japan this was a prime example of an algal bloom induced by the waste products of the aquaculture industry itself, and of course that is not something that the tuna industry wants to hear."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "It is clear that Chattonella is present in Australian waters. But there is little knowledge of what else may surface or where it may have come from. What is of greater concern is that, in Australia and around the world, there is a reluctance to acknowledge that it is human activity that is triggering the transformation of normally benign organisms into increasingly dangerous forms. If we continue to mismanage the way nutrients and pollutants are released into the environment, we will have to confront new versions of the cells from hell."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Glossary ¹ algal bloom: The rapid growth under specific conditions of minute aquatic plants"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nComplete the summary below.\nChoose your answers from the box below the summary.\nThere are more words than you need so you will not use all of them.\n\n Pfiesteria is a microorganism (Example) with some unusual characteristics. Under normal\n conditions, it acts like a 14 _________________ but it has also developed powerful 15\n _________________ as a defence against being eaten by fish. When the fish are disabled\n and killed by the neurotoxins, the organism 16 _________________ them and it 17\n _________________ afterward.\n\n\nList of Words\n\n jaws                      grows                         animal\n\n kills                     eats                          poisons\n\n plant                     disappears                    microorganism\n\n bacteria                  fish                          dies"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 21,
+      "text": "Questions 18–21\nFill in the blanks with NO MORE THAN THREE WORDS from the passage.\n\n Conditions which favour the growth of toxic algae include high levels of 18\n _________________ and 19 _________________ fish feeding together. Research scientists\n at the international conference learned about 20 _________________ toxic algae and how\n they are spreading around the world in water 21 _________________."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nClassify the following as:\n A                       caused by Pfiesteria\n\n B                       caused by Chattonella\n\n C                       caused by an unidentified microorganism\nExample\nSerious illness of researcher A\n22 _________ death of sea-lions off the coast of California (1990s)\n23 _________ fish kill in Japan (1972)\n24 _________ shellfish industry losses in New Zealand (1990s)\n25 _________ tuna industry losses in Australia (1990s)\n26 _________ fish kill in North Carolina (1980s)"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "在正常情況下，它表現得像一種 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "但它也發展出強力的 ______，作為避免被魚吃掉的防禦。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "當魚被神經毒素弄至失去能力並死亡後，這種生物會 ______ 牠們。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "然後它之後會 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "有利於 toxic algae 增長的條件包括高水平的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "以及 ______ 魚聚集在一起覓食。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "國際會議上的研究科學家了解到 ______ toxic algae。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "以及它們如何在 ______ 的水中傳播到世界各地。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ death of sea-lions off the coast of California (1990s)",
+      "translation": "1990 年代 California 海岸 sea lions 死亡。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ fish kill in Japan (1972)",
+      "translation": "1972 年 Japan 的魚類死亡事件。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ shellfish industry losses in New Zealand (1990s)",
+      "translation": "1990 年代 New Zealand shellfish industry 的損失。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ tuna industry losses in Australia (1990s)",
+      "translation": "1990 年代 Australia tuna industry 的損失。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "_________ fish kill in North Carolina (1980s)",
+      "translation": "1980 年代 North Carolina 的魚類死亡事件。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-074/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-074/page-6.jpg"
+  ]
+}

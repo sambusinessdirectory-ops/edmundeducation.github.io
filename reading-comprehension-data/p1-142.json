@@ -1,0 +1,273 @@
+{
+  "id": "p1-142",
+  "catalogueId": "p1-142",
+  "title": "Can Scientists tell us: What happiness is?",
+  "sourceHeading": "Can Scientists Tell Us What Happiness Is?",
+  "passage": 1,
+  "practice": 142,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-142-can-scientists-tell-us-what-happiness-is",
+  "source": {
+    "filename": "Practice 142 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "bc6d1f6ffefdc04b03433842b3b15c599c4160e7f3b776c51e5f52ae84cd3847"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Economists accept that if people describe themselves as happy, then they are happy. However, psychologists differentiate between levels of happiness. The most immediate type involves a feeling: pleasure or joy. But sometimes happiness is a judgment that life is satisfying, and does not imply an emotional state. Esteemed psychologist Martin Seligman has spearheaded an effort to study the science of happiness. The bad news is that we’re not wired to be happy. The good news is that we can do something about it. Since its origins in a Leipzig laboratory 130 years ago, psychology has had little to say about goodness and contentment. Mostly psychologists have concerned themselves with weakness and misery. There are libraries full of theories about why we get sad, worried, and angry. It hasn’t been respectable science to study what happens when lives go well. Positive experiences, such as joy, kindness, altruism and heroism, have mainly been ignored. For every 100 psychology papers dealing with anxiety or depression, only one concerns a positive trait."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "A few pioneers in experimental psychology bucked the trend. Professor Alice Isen of Cornell University and colleagues have demonstrated how positive emotions make people think faster and more creatively. Showing how easy it is to give people an intellectual boost, Isen divided doctors making a tricky diagnosis into three groups: one received candy, one read humanistic statements about medicine, one was a control group. The doctors who had candy displayed the most creative thinking and worked more efficiently. Inspired by Isen and others, Seligman got stuck in. He raised millions of dollars of research money and funded 50 research groups involving 150 scientists across the world. Four positive psychology centres opened, decorated in cheerful colours and furnished with sofas and baby-sitters. There were get-togethers on Mexican beaches where psychologists would snorkel and eat fajitas, then form “pods” to discuss subjects such as wonder and awe. A thousand therapists were coached in the new science."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "But critics are demanding answers to big questions. What is the point of defining levels of happiness and classifying the virtues? Aren’t these concepts vague and impossible to pin down? Can you justify spending funds to research positive states when there are problems such as famine, flood and epidemic depression to be solved? Seligman knows his work can be belittled alongside trite notions such as “the power of positive thinking”. His plan to stop the new science floating “on the waves of self-improvement fashion” is to make sure it is anchored to positive philosophy above, and to positive biology below."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "And this takes us back to our evolutionary past. Homo sapiens evolved during the Pleistocene era (1.8 million to 10,000 years ago), a time of hardship and turmoil. It was the Ice Age, and our ancestors endured long freezes as glaciers formed, then ferocious floods as the ice masses melted. We shared the planet with terrifying creatures such as mammoths, elephant-sized ground sloths and sabre-toothed cats. But by the end of the Pleistocene, all these animals were extinct. Humans, on the other hand, had evolved large brains and used their intelligence to make fire and sophisticated tools, to develop language and social rituals. Survival in a time of adversity forged our brains into a persistent mould. Professor Seligman says: “Because our brain evolved during a time of ice, flood and famine, we have a catastrophic brain. The brain works by looking for what’s wrong. The problem is, that worked in the Pleistocene era. It favoured you, but it doesn’t work in the modern world”."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Although most people rate themselves as happy, there is a wealth of evidence to show that negative thinking is deeply ingrained in the human psyche. Experiments show that we remember failures more vividly than successes. We dwell on what went badly, not what went well. Of the six universal emotions, four—anger, fear, disgust and sadness—are negative and only one, joy, is positive. (The sixth, surprise, is neutral.) According to the psychologist Daniel Nettle, author of Happiness, and one of the Royal Institution lecturers, each negative emotion tells us “something bad has happened” and suggests a different course of action."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "What is it about the structure of the brain that underlies our bias towards negative thinking? And is there a biology of joy? At Iowa University, neuroscientists studied what happens when people are shown pleasant and unpleasant pictures. When subjects see landscapes or dolphins playing, part of the frontal lobe of the brain becomes active. But when they are shown unpleasant images—a bird covered in oil or a dead soldier with part of his face missing—the response comes from more primitive parts of the brain. The ability to feel negative emotions derives from an ancient danger-recognition system formed early in the brain’s evolution. The prefrontal cortex, which registers happiness, is the part used for higher thinking, an area that evolved later in human history."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Our difficulty, according to Daniel Nettle, is that the brain systems for liking and wanting are separate. Wanting involves two ancient regions—the amygdala and the nucleus accumbens—that communicate using the chemical dopamine to form the brain’s reward system. They are involved in anticipating the pleasure of eating and in addiction to drugs. A rat will press a bar repeatedly, ignoring sexually available partners, to receive electrical stimulation of the “wanting” parts of the brain. But having received brain stimulation, the rat eats more but shows no sign of enjoying the food it craved. In humans, a drug like nicotine produces much craving but little pleasure."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "In essence, what the biology lesson tells us is that negative emotions are fundamental to the human condition and it’s no wonder they are difficult to eradicate. At the same time, by a trick of nature, our brains are designed to crave but never really achieve lasting happiness."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–12",
+    "g13": "Questions 13–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nReading Passage 1 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 1–7 on your answer sheet.\n1 ____________ An experiment in which several groups were formed, one of which received a\npositive incentive\n2 ____________ A review of a poorly researched area of psychology\n3 ____________ A contrast between the brain’s responses to positive and negative stimuli\n4 ____________ A sceptical view that the research was a waste of money\n5 ____________ A substance that produces much wanting but little liking\n6 ____________ A conclusion that lasting happiness is difficult to achieve because of the nature\nof the brain\n7 ____________ A description listing the categories of human emotion"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 12,
+      "text": "Questions 8–12\nComplete the summary below.\nChoose NO MORE THAN FOUR WORDS from the passage for each answer.\nWrite your answers in boxes 8–12 on your answer sheet.\n\n  A few pioneers in experimental psychology studied what happens when lives go well.\n  Professor Alice Isen divided doctors making a tricky diagnosis into three groups. In addition to\n  a control group, one group was asked to read humanistic statements about medicine and\n  another received 8 ____________. The latter group displayed the most creative thinking and\n  worked more efficiently. Critics questioned the value of 9 ____________ both levels of\n  happiness and classifying virtues. Seligman responded with an evolutionary theory: survival in\n  times of adversity forged our brains to look for what is wrong because we have a 10\n  ____________.\n\n\nThere is a wealth of evidence that negative thinking is deeply ingrained in the human\npsyche. At Iowa University, neuroscientists compared the areas of the brain activated when\n\npeople saw pleasant and unpleasant pictures. When positive images such as 11\n____________ were shown, part of the frontal lobe became active. When unpleasant\nimages were shown, however, the response came from 12 ____________ of the brain."
+    },
+    {
+      "id": "g13",
+      "start": 13,
+      "end": 13,
+      "text": "Question 13\nChoose the correct letter, A, B, C or D.\n13 According to Daniel Nettle, what can scientists conclude about happiness from the final two\nparagraphs?\n A Brain systems always combine liking and wanting.\n B Negative emotions can easily be eliminated by positive thinking.\n C Happiness resembles nicotine: we crave it but derive little pleasure from it.\n D The brain’s internal mechanisms do not help us achieve lasting happiness."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ An experiment in which several groups were formed, one of which received a positive incentive",
+      "translation": "一個實驗把人分成幾組，其中一組得到正面激勵。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A review of a poorly researched area of psychology",
+      "translation": "對心理學中一個研究不足領域的回顧。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A contrast between the brain’s responses to positive and negative stimuli",
+      "translation": "大腦對正面和負面刺激反應的對比。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A sceptical view that the research was a waste of money",
+      "translation": "一種懷疑看法，認為這項研究花錢不值得。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A substance that produces much wanting but little liking",
+      "translation": "一種會製造大量渴求、但帶來很少喜歡或享受的物質。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A conclusion that lasting happiness is difficult to achieve because of the nature of the brain",
+      "translation": "一個結論：由於大腦本質，持久幸福很難達成。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A description listing the categories of human emotion",
+      "translation": "一段列出人類情緒類別的描述。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "除了控制組外，一組被要求閱讀關於醫學的人文陳述，另一組收到 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "批評者質疑 ______ 幸福層次以及分類 virtues 的價值。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "Seligman 以進化理論回應：逆境中的生存經驗塑造了我們的大腦，使它會尋找錯誤和危險，因為我們有一個 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "當正面圖片，例如 ______，被展示時，額葉的一部分會活躍。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "但當不愉快圖片被展示時，反應來自大腦中 ______ 的部分。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g13",
+      "type": "choice",
+      "prompt": "According to Daniel Nettle, what can scientists conclude about happiness from the final two paragraphs?",
+      "translation": "根據 Daniel Nettle，從最後兩段科學家可以對 happiness 得出甚麼結論？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-142/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-142/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-142/page-6.jpg"
+  ]
+}

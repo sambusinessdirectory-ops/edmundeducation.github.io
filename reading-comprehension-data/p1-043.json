@@ -1,0 +1,209 @@
+{
+  "id": "p1-043",
+  "catalogueId": "p1-043",
+  "title": "Ancient Chinese Chariots",
+  "sourceHeading": "Ancient Chinese Chariots",
+  "passage": 1,
+  "practice": 43,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-043-ancient-chinese-chariots",
+  "source": {
+    "filename": "Practice 43  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "f37fad26eea0a32ef8810f01156f0267b8476796073112850c82c661be246710"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The Shang Dynasty or Yin Dynasty, according to traditional historiography, ruled in the Yellow River valley during the second millennium BCE. Archaeological work at the Ruins of Yin (near modern-day Anyang), which has been identified as the last Shang capital, uncovered eleven major Yin royal tombs and the foundations of palaces and ritual sites, containing weapons of war and remains from both animal and human sacrifices."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The Tomb of Fu Hao is an archaeological site at Yinxu, the ruins of Yin, the ancient capital of the Shang Dynasty, within the modern city of Anyang in Henan Province, China. Discovered in 1976, it was identified as the final resting place of the queen and military general Fu Hao. The artefacts unearthed from the grave included objects made of jade, bone and bronze. These grave goods are confirmed by the oracle texts, which constitute almost all of the first-hand written record we possess of the Shang Dynasty. Beneath the body was a small pit containing the remains of six sacrificial dogs, while along the edge lay the skeletons of human slaves—evidence of human sacrifice."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The Terracotta Army was discovered on 29 March 1974, east of Xi’an in Shaanxi. Local farmers found the terracotta soldiers by chance while digging a well during a drought, about 1.6 km (1 mile) east of the Qin emperor’s tomb at Mount Li (Lishan), a region riddled with underground springs and watercourses. Experts currently estimate that there are 8,000 soldiers, together with 130 chariots, 530 horses and 150 cavalry horses, to ward off dangers in the afterlife. By contrast, the burial of Tutankhamun yielded six complete but dismantled chariots of unparalleled richness and sophistication. Each was designed for two people and had its axle sawn through so that it could be brought along the narrow corridor into the tomb."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Excavations of ancient Chinese chariots have confirmed the descriptions in the earliest texts. Wheels were constructed from a variety of woods: elm provided the hub, rosewood the spokes and oak the felloes. The hub was drilled through to form an empty space into which the tapering axle was fitted, and the whole was covered with leather to retain lubricating oil. Although the number of spokes varied, by the fourth century BCE a wheel usually had between eighteen and thirty-two. Records show how thoroughly each completed wheel was tested: flotation and weighing were regarded as the best measures of balance, and even empty spaces in the assembly were checked with millet grains. One outstanding constructional feature of the ancient Chinese wheel was dishing. This refers to the dish-like shape of an advanced wooden wheel, which resembles a flat cone. On occasion, wheelwrights strengthened a dished wheel with a pair of struts running from rim to rim on either side of the hub. Because these extra supports were inserted separately into the felloes, they added even greater strength to the wheel. Leather was wrapped around the edge of the wheel to retain the bronze."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Within a millennium, however, Chinese chariot-makers had developed a vehicle with shafts, the precursor of the true carriage or cart. This design did not appear in Europe until the end of the Roman Empire. Because the shafts curved upwards and the harness pressed against a horse’s shoulders rather than its neck, the shaft chariot was extremely efficient. The halberd was also a standard chariot weapon. It usually measured well over 3 metres in length, so a chariot warrior wielding it sideways could strike down the charioteer in a passing chariot. Tests on sand showed that the chariot was quite fast. At full speed, such passes were very dangerous for the crews of both chariots."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The advantages offered by the new chariots were not lost on the Warring States, whose conflicts continued until the Qin unification of China. Qin Shi Huang was buried in the most opulent tomb complex ever constructed in China, a sprawling, city-sized collection of underground caverns containing everything the emperor would need for the afterlife. Even an army of terracotta soldiers, called the Terracotta Army, was buried there. The ancient Chinese, like many peoples including the ancient Egyptians, believed that objects and even people buried with a person could accompany that person into the afterlife."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nDo the following statements agree with the information given in Reading Passage 1?\nIn Boxes 1–4 on your answer sheet, write\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n1 _________________ When discovered, the written records of the grave goods proved to be accurate.\n2 _________________ Human skeletons in the Anyang tomb were identified as soldiers killed in war.\n3 _________________ The Terracotta Army was discovered by local people by chance.\n4 _________________ King Tutankhamun’s tomb is larger than Emperor Qin’s tomb."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 10,
+      "text": "Questions 5–10\nComplete the notes below.\nChoose ONE WORD from the passage for each answer.\nWrite your answers in Boxes 5–10 on your answer sheet.\nThe hub is made from the wood of the 5 _________________ tree.\nThe hole through the hub held a tapering axle, which was wrapped in leather to retain 6\n_________________.\nThe number of spokes varied from 18 to 7 _________________.\nThe shape of the wheel resembles a 8 _________________.\nTwo 9 _________________ were used to strengthen the wheel.\nLeather was wrapped around the edge of the wheel to retain 10 _________________."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.\nFrom which part of a horse’s body did the shaft-chariot design remove pressure?\n11 _________________\nOn what kind of surface did researchers measure the chariot’s speed?\n12 _________________\nIn what part of his afterlife complex was Emperor Qin Shi Huang buried?\n13 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ When discovered, the written records of the grave goods proved to be accurate.",
+      "translation": "墓葬被發現後，關於陪葬品的書面記錄證明是準確的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Human skeletons in the Anyang tomb were identified as soldiers killed in war.",
+      "translation": "安陽墓中的人類骨架被確認為戰死士兵。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The Terracotta Army was discovered by local people by chance.",
+      "translation": "兵馬俑是由當地人偶然發現的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ King Tutankhamun’s tomb is larger than Emperor Qin’s tomb.",
+      "translation": "Tutankhamun 國王的墓比秦始皇的墓大。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "車輪的 hub 是由 ______ 樹的木材製成。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "穿過 hub 的孔容納一條逐漸變細的 axle，外面包皮革以保留 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "spokes 的數量由 18 到 ______ 不等。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "車輪的形狀像一個 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "兩個 ______ 被用來加固車輪。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "皮革包在車輪邊緣，用來保留 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "text",
+      "prompt": "_________________ On what kind of surface did researchers measure the chariot’s speed?",
+      "translation": "shaft-chariot 設計把壓力從馬身體哪個部位移走？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "text",
+      "prompt": "_________________ In what part of his afterlife complex was Emperor Qin Shi Huang buried?",
+      "translation": "研究者在甚麼表面上測量戰車速度？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "秦始皇被埋葬在其來世建築群中的哪個部分？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-043/page-4.jpg"
+  ]
+}

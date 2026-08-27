@@ -1,0 +1,252 @@
+{
+  "id": "p3-054",
+  "catalogueId": "p3-054",
+  "title": "Quantitative Research in Education",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 54,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-054-quantitative-research-in-education",
+  "source": {
+    "filename": "Practice 54 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "528457b6f23636de97e5a945179d03658cc1d8b88bfa3f608b8aca4aba5750b4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Quantitative Research in Education Many educational researchers used to work on the assumption that children experience different phases of development, and that they cannot perform complex cognitive operations until they have reached an advanced stage of cognitive development. For example, the researcher Jean Piaget conducted a well-known experiment in which he asked children to compare the amount of liquid in containers with different shapes. Those containers had the same capacity, but even when the young children were shown that the same amount of fluid could be poured between the containers, many of them still believed that one contained more than the other. Piaget concluded that the children were incapable of performing the logical task of understanding that the two containers held the same amount of liquid despite their different shapes, because their cognitive development had not reached the necessary phase. Critics of his work, such as Donaldson, have questioned this interpretation. They point out the possibility that the children might simply have been unwilling to play the experimenter’s game, or that they did not quite understand the question asked by the experimenter. These criticisms may be valid, but more importantly, they suggest that experiments are social situations in which interpersonal interactions take place. The implication is that Piaget’s investigation and attempts to replicate it measure not only children’s capacity for logical thought, but also how well they understood the instructions, how willing they were to comply, how clearly the experimenters communicated and how effectively they motivated the children."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The same kinds of criticisms have been directed at psychological and educational tests. For instance, Mehan argues that the participants might interpret the test questions differently from the way the experimenter intended. In a language development test, researchers show children a picture of a medieval fortress, complete with a moat, drawbridge and parapets, alongside three initial consonants: D, C and G. The children are required to circle the correct initial consonant for ‘castle’. The answer is C, but many children choose D. When asked what the name of the building was, the children responded ‘Disneyland’. They adopted the line of reasoning expected by the experimenter but arrived at the wrong answer. The score sheet does not prove that a child lacks reasoning ability; it records only that the child gave a different answer rather than the one the tester expected."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "This raises questions about the validity of the measures on which quantitative research findings are usually based. Some scholars such as Donaldson consider these to be technical issues, which can be resolved through more rigorous experimentation. In contrast, others like Mehan reckon that the problems are not merely with particular experiments or tests, but they might legitimately jeopardise the validity of all research of this type."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Meanwhile, there are also questions regarding the assumption in quantitative educational research that causes can be identified through physical and/or statistical manipulation of the variables. Critics argue that this does not take into consideration the nature of human social life by assuming it to be made up of static, mechanical causal relationships, while in reality, it includes complicated procedures of interpretation and negotiation, which do not come with determinate results. From this perspective, it is not clear that we can understand the pattern and mechanism behind people’s behaviours simply in terms of causal relationships, which are the focus of quantitative research. It is implied that social life is much more contextually variable and complex."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Such criticisms of quantitative educational research have also inspired more and more educational researchers to adopt qualitative methodologies over the last three or four decades. These researchers have steered away from measuring and manipulating variables experimentally or statistically. There are many forms of qualitative research, loosely described by terms like ‘ethnography’, ‘case study’, ‘participant observation’, ‘life history’, ‘unstructured interviewing’, ‘discourse analysis’ and so on. Generally speaking, though, it has the following characteristics: Qualitative research has an intensive focus on exploring the nature of certain phenomena in the field of education, instead of setting out to test hypotheses about them. It also tends to deal with ‘unstructured data’, which refers to the kind of data that have not been coded during the collection process according to a closed set of analytical categories. As a result, when engaging in observation, qualitative researchers use audio or video devices to record what happens or write detailed, open-ended field notes, instead of coding behaviour according to a predetermined set of categories, which is what quantitative researchers would typically do when conducting ‘systematic observation’. Similarly, in an interview, interviewers will ask open-ended questions instead of ones that require specific, predefined answers of the kind typical of a postal questionnaire. Actually, qualitative interviews are often designed to resemble casual conversations."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The primary forms of data analysis include verbal descriptions and explanations and involve explicit interpretations of both the meanings and functions of human behaviours. At most, quantification and statistical analysis only play a subordinate role. The sociology of education and evaluation studies were the two areas of educational research where criticism of quantitative research and the development of qualitative methodologies initially emerged in the most intense way. A series of studies conducted by Lacey, Hargreaves and Lambert in a boys’ grammar school, a boys’ secondary modern school, and a girls’ grammar school in Britain in the 1960s marked the beginning of the trend towards qualitative research in the sociology of education. Researchers employed an ethnographic or participant observation approach, although they did also collect some quantitative data, for instance on friendship patterns among the students. These researchers observed lessons, interviewed both the teachers and the students, and examined school records. They studied the schools for a considerable amount of time and spent many months gathering data and tracking changes over time."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–36",
+    "g37": "Questions 37–39",
+    "g40": "Questions 40–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nLook at the following statements or descriptions (Questions 28–32) and the list of people below.\nMatch each statement or description with the correct person or people, A, B, C or D.\nWrite the correct letter, A, B, C or D, in boxes 28–32 on your answer sheet.\nNB You may use any letter more than once.\n\n                          List of People\n\n A                        Piaget\n\n B                        Mehan\n\n C                        Donaldson\n\n D                        Lacey, Hargreaves and Lambert\n\n\n28 ___________ A wrong answer indicates a child’s different perspective rather than an inability\nto reason.\n29 ___________ The logical reasoning involved in the experiment is beyond the children’s\nstage of cognitive development.\n30 ___________ Children’s reluctance to follow the rules of the experiment or\nmiscommunication may be another explanation.\n31 ___________ There is evidence of a systematic observation approach to research.\n32 ___________ There is a flaw in experiments on children’s language development."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 36,
+      "text": "Questions 33–36\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 33–36 on your answer sheet.\nIn Piaget’s experiment, he asked children to compare the amount of 33\n_________________ in different containers.\nIn Mehan’s test, many children gave the answer 34 _________________\ninstead of identifying the word beginning with C.\nSome people criticised the results of Piaget’s experiment, but Donaldson\nthought the flaw could be rectified by 35 _________________.\nMost qualitative research conducted by Lacey, Hargreaves and Lambert\nwas done in a 36 _________________."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 39,
+      "text": "Questions 37–39\nChoose THREE letters, A–F.\nWrite the correct letters in boxes 37–39 on your answer sheet.\nThe list below includes characteristics of qualitative research.\nWhich THREE are mentioned by the writer of the passage?\n\n\n A Coding behaviour in terms of a predefined set of categories.\n B Designing an interview to resemble a casual conversation.\n C Working with well-organised data in a closed set of analytical categories.\n D Collecting detailed data rather than large amounts of questionnaire data.\n E Asking for open-ended answers in questionnaires.\n F Recording the research setting and taking notes."
+    },
+    {
+      "id": "g40",
+      "start": 40,
+      "end": 40,
+      "text": "Question 40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in box 40 on your answer sheet.\n\n\n40 What is the main idea of the passage?\n A to prove that quantitative research is most applicable to children’s education.\n B to illustrate society’s lack of a deep understanding of educational approaches.\n C to explain quantitative research and the criticisms of it.\n D to imply that qualitative research is flawless compared with quantitative research."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ A wrong answer indicates a child’s different perspective rather than an inability to reason.",
+      "translation": "錯誤答案顯示孩子有不同理解角度，並不代表孩子沒有推理能力。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ The logical reasoning involved in the experiment is beyond the children’s stage of cognitive development.",
+      "translation": "實驗所涉及的邏輯推理超出了孩子當時的認知發展階段。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ Children’s reluctance to follow the rules of the experiment or miscommunication may be another explanation.",
+      "translation": "孩子不願意配合實驗規則，或實驗中出現溝通問題，可能是另一種解釋。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ There is evidence of a systematic observation approach to research.",
+      "translation": "有證據顯示研究採用了有系統的觀察方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "___________ There is a flaw in experiments on children’s language development.",
+      "translation": "兒童語言發展測試存在缺陷。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "在 Piaget 的實驗中，他要求孩子比較不同容器中 ______ 的份量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "在 Mehan 提到的測試中，許多孩子給出 ______ 這個答案，而沒有識別出 C 開頭的詞。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "有些人批評 Piaget 實驗的結果，但 Donaldson 認為這個缺陷可以透過 ______ 修正。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "Lacey、Hargreaves 和 Lambert 進行的大部分 qualitative research，是在 ______ 中完成的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "下面哪些是文章提到的 qualitative research 特徵？選三項。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "下面哪些是文章提到的 qualitative research 特徵？選三項。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "下面哪些是文章提到的 qualitative research 特徵？選三項。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g40",
+      "type": "choice",
+      "prompt": "What is the main idea of the passage?",
+      "translation": "全文主旨是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-054/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-054/page-5.jpg"
+  ]
+}

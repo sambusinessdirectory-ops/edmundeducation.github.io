@@ -1,0 +1,330 @@
+{
+  "id": "p1-015",
+  "catalogueId": "p1-015",
+  "title": "Depression",
+  "sourceHeading": "DEPRESSION",
+  "passage": 1,
+  "practice": 15,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-015-depression",
+  "source": {
+    "filename": "Practice 15 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "3b5b6a7e1f695a5539dc1540398c8f438d72eb138c32eacd997d30a9b308ce7e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "It is often more difficult for outsiders and non-sufferers to understand mental rather than physical illness in others. While it may be easy for us to sympathise with individuals living with the burden of a physical illness or disability, there is often a stigma attached to being mentally ill, or a belief that such conditions only exist in individuals who lack the strength of character to cope with the real world. The pressures of modern life seem to have resulted in an increase in cases of emotional disharmony and government initiatives in many countries have, of late, focussed on increasing the general public’s awareness and sympathy towards sufferers of mental illness and related conditions."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Clinical depression, or ‘major depressive disorder’, a state of extreme sadness or despair, is said to affect up to almost 20% of the population at some point in their lives prior to the age of 40. Studies have shown that this disorder is the leading cause of disability in North America; in the UK almost 3 million people are said to be diagnosed with some form of depression at any one time, and experts believe that as many as a further 9 million other cases may go undiagnosed. World Health Organisation projections indicate that clinical depression may become the second most significant cause of disability’ on a global scale by 2020. However, such figures are not unanimously supported, as some experts believe that the diagnostic criteria used to identify՛ the condition are not precise enough, leading to other types of depression being wrongly classified as ‘clinical’."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Many of us may experience periods of low morale or mood and feelings of dejection, as a natural human response to negative events in our lives such as bereavement, redundancy or breakdown of a relationship. Some of us may even experience periods of depression and low levels of motivation which have no tangible reason or trigger. Clinical depression is classified as an on-going state of negativity, with no tangible cause, where sufferers enter a spiral of persistent negative thinking, often experiencing irritability, perpetual tiredness and listlessness. Sufferers of clinical depression are said to be at higher risk of resorting to drug abuse or even suicide attempts than the rest of the population."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Clinical depression is generally diagnosed when an individual is observed to exhibit an excessively depressed mood and/or ‘anhedonia’ – an inability to experience pleasure from positive experiences such as enjoying a meal or pleasurable social interaction – for a period of two weeks or more, in conjunction with five or more additional recognised symptoms. These additional symptoms may include overwhelming feelings of sadness; inability to sleep, or conversely, excessive sleeping; feelings of guilt, nervousness, abandonment or fear; inability to concentrate; interference with memory capabilities; fixation with death or extreme change in eating habits and associated weight gain or loss."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "E. Clinical depression was originally solely attributed to chemical imbalance in the brain, and while anti-depressant drugs which work to optimise levels of ‘feel good’ chemicals – serotonin and norepinephrine – are still commonly prescribed today, experts now believe that onset of depression may be caused by a number, and often combination of, physiological and socio-psychological factors. Treatment approaches vary quite dramatically from place to place and are often tailored to an individual’s particular situation; however, some variation of a combination of medication and psychotherapy is most commonly used. The more controversial electroconvulsive therapy (ECT) may also be used where initial approaches fail. In extreme cases, where an individual exhibits behaviour which Indicates that they may cause physical harm to themselves, psychiatric hospitalisation may be necessary as a form of intensive therapy."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Some recent studies, such as those published by the Archives of General Psychiatry, hold that around a quarter of diagnosed clinical depression cases should actually be considered as significant but none-the-less ordinary sadness and maladjustment to coping with trials in life, indicating that in such cases, psychotherapy rather than treatment through medication is required. Recovery as a result of psychotherapy tends, in most cases, to be a slower process than improvements related to medication; however, improvements as a result of psychological treatment, once achieved, have been observed in some individuals to be more long term and sustainable than those attained through prescription drugs. Various counselling approaches exist, though all focus on enhancing the subject’s ability to function on a personal and interpersonal level. Sessions involve encouragement of an individual to view themselves and their relationships in a more positive manner, with the intention of helping patients to replace negative thoughts with a more positive outlook."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "It is apparent that susceptibility to depression can run in families. However, it remains unclear as to whether this is truly an inherited genetic trait or whether biological and environmental factors common to family members may be at the root of the problem. In some cases, sufferers of depression may need to unlearn certain behaviours and attitudes they have established in life and develop new coping strategies designed to help them deal with problems they may encounter, undoing patterns of destructive behaviour they may have observed in their role models and acquired for themselves."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1-5\n\nReading Passage 1 has seven sections A-G.\n\nWhich paragraph contains the following information?\n\nWrite the correct letters A-G in boxes 1-5 on your answer sheet.\n\n1 ______________ Details of treatment alternatives for worst case scenario depression.\n\n\n2 ______________ Information regarding cases where drug treatment is inappropriate.\n\n\n3 ______________\nDetails of how those diagnosed with depression may be more vulnerable than other\nmembers of society,\n\n\n4 ______________\nInformation about society’s attitudes to depression and similar illnesses.\n\n\n5 ______________\nInformation regarding why estimates of incidence of future growth in cases may be\noverly exaggerated."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 8,
+      "text": "Questions 6-8\n\nChoose THREE letters A-G.\n\nWrite your answers in boxes 6-8 on your answer sheet.\n\nNB Your answers may be given in any order\n\nWhich THREE of the following statements are true of depression?\n\n\n\nA    Governments have generally failed to take action to educate the general public\nabout the condition.\n\nB   The highest reported number of cases are in the USA.\n\nC    In Britain, it is likely that there are more individuals who live with the condition\nwithout the help of a doctor than those being officially treated.\n\nD    Clinical depression may be triggered by divorce.\n\nE   Lethargy may be one of the symptoms of depression.\n\nF   Prescribed pharmaceuticals have radically changed over recent years.\n\nG    Approaches to treating depression are not universal."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9-13\n\nComplete the summary of paragraphs F and G with the list of words A-L below.\n\nWrite the correct letter A-L in boxes 9-13 on your answer sheet.\n\n A         gratifying\n\n\n B         longevity\n\n\n C         ambition\n\n\n D         optimistic\n\n\n E         pessimistic\n\n\n F         difficulty\n\n\n G         inconclusive\n\n\n H         self-image\n\n\n I         gradual\n\n\n J         unequivocal\n\n\n K         immediate\n\n\n L         categorical\n\nWhilst recovery through counselling rather than medicine may be more 9\n______________ , results once achieved may have more 10 ______________ with\nsome patients.\n\n\nCounselling sessions are geared towards improving the subject’s relationship with others\nand their own 11 ______________ , encouraging sufferers of depression to take on a\nmore 12 ______________outlook.\n\n\nThe extent to which genetic disposition and sociological factors impact on state of mind\nis 13 ______________. Many people undergoing counselling therapy do so with the\npurpose of unlearning negative behaviour and reactions."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "______________ Details of treatment alternatives for worst case scenario depression.",
+      "translation": "最嚴重情況下，憂鬱症可採取哪些替代治療方式的細節。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "______________ Information regarding cases where drug treatment is inappropriate.",
+      "translation": "某些情況下不適合用藥物治療的資訊。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "______________ Details of how those diagnosed with depression may be more vulnerable than other members of society,",
+      "translation": "被診斷為憂鬱症的人，如何比其他社會成員更脆弱。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "______________ Information about society’s attitudes to depression and similar illnesses.",
+      "translation": "社會對憂鬱症及相關心理疾病的態度。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "______________ Information regarding why estimates of incidence of future growth in cases may be overly exaggerated.",
+      "translation": "為何對未來病例增長的估計可能被過度誇大的資訊。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "以下哪三項關於 depression 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "以下哪三項關於 depression 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "以下哪三項關於 depression 的說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "雖然透過諮商而非藥物康復，過程可能更加 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "但一旦取得成果，對某些病人而言，結果可能有更高的 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "諮商療程旨在改善個體與他人的關係，以及其自身的 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "鼓勵憂鬱症患者採取更 ______ 的人生觀或看法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "遺傳傾向與社會因素對心理狀態影響到甚麼程度，目前仍 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-015/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-015/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-015/page-8.jpg",
+    "/assets/reading-comprehension/questions/p1-015/page-9.jpg"
+  ]
+}

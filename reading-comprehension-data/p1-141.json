@@ -1,0 +1,240 @@
+{
+  "id": "p1-141",
+  "catalogueId": "p1-141",
+  "title": "Design the mat and Foot health",
+  "sourceHeading": "Design the Mat and Foot Health",
+  "passage": 1,
+  "practice": 141,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-141-design-the-mat-and-foot-health",
+  "source": {
+    "filename": "Practice 141 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "51c49b18aab4a052d4506505a994618e93b8608f377c421250da6135c7631703"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Indoor types will appreciate the cobblestone walkway, a knobbly textured plastic mat that they can wobble along in the comfort of their own homes. And for the more adventurous, there are shoes designed to throw you off balance."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The technology may be cutting edge, but its origins are deep and exotic. Research into the idea that flat floors could be detrimental to our health was pioneered back in the late 1960s. While others in Long Beach, California, contemplated peace and love, podiatrist Charles Brantingham and physiologist Bruce Beekman were concerned with more pedestrian matters. They reckoned that the growing epidemic of high blood pressure, varicose veins and deep-vein thromboses might be linked to the uniformity of the surfaces that we tend to stand and walk on."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The trouble, as they saw it, was that walking continuously on flat floors, sidewalks and streets concentrates forces on just a few areas of the foot. As a result, these surfaces are likely to be far more conducive to chronic stress syndromes than natural ones, where the foot meets the ground in a wide variety of orientations. The anatomy of the foot parallels that of the human hand—each having 26 bones, 33 joints and more than 100 muscles, tendons and ligaments. Modern lifestyles waste all this flexibility in your socks. Brantingham and Beekman became convinced that damage was being done simply by people standing on even surfaces and that this could be rectified by introducing a wobble."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "To test their ideas, they got 65 clerks and factory workers to try standing on a variable terrain floor—spongy mats with varying amounts of give across the surface. This modest irregularity allowed the soles of the volunteers’ feet to deviate slightly from the horizontal each time they shifted position. As the researchers hoped, this simple intervention turned out to make a huge difference over just a few weeks. Just a slight wobble from the floor activated a host of muscles in people’s legs, which in turn helped to pump blood back to their hearts. The muscle action prevented the pooling of blood in their feet and legs, reducing the stress on the entire cardiovascular system. And two-thirds of the volunteers reported feeling much less tired. Yet decades later, the flooring of the world’s workplaces remains relentlessly smooth."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Earlier this year, however, the idea was given a new lease of life when researchers in Oregon announced findings from a similar experiment with people over 60. John Fisher and colleagues at the Oregon Research Institute in Eugene designed a mat intended to replicate the effect of walking on cobblestones. In tests funded by the National Institute on Aging, they got some 50 adults to walk on the mats in their stockinged feet for less than an hour three times a week. After 16 weeks, these people showed marked improvements in balance and mobility, and even a significant reduction in blood pressure. People in a control group who walked on ordinary floors also improved but not as dramatically."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The mats are now on sale at $35. “Our first 1,000 cobblestone mats sold in three weeks,” Fisher says. Production is now being scaled up. Even so, demand could exceed supply if this foot-stimulating activity really is a “useful non-pharmacological approach for preventing or controlling hypertension in older adults”, as the researchers believe. They are not alone in extolling the revitalising powers of cobblestones. Reflexologists have long advocated walking on textured surfaces to stimulate so-called “acupoints” on the soles of the feet. Practitioners of this unorthodox therapy believe that pressure applied to particular spots on the foot connects directly to corresponding organs and somehow enhances their function. In China, spas, hotels, apartment blocks and even factories promote their cobblestone paths as healthful amenities. Fisher admits he got the idea from regular visits to the country. In Beijing and Shanghai, city dwellers take daily walks along cobbled paths to improve their health. “In the big cities, people take off their shoes and walk on these paths for 5 or 10 minutes, perhaps several times a day,” Fisher says."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The idea is now taking off in Europe too. People in Germany, Austria and Switzerland can visit “barefoot parks” and walk along “paths of the senses”—with mud, logs, stone and moss underfoot—to receive what’s known there as reflex-zone massage. And it is not difficult to construct your own “health pathway”. American reflexologists Barbara and Kevin Kunz, based in Albuquerque, New Mexico, advise that you cobble together a walkway using broom handles, bamboo poles, hosepipes, gravel, pebbles, dried peas, driftwood, fallen logs, sand, doormats and strips of turf."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "If your enthusiasm for DIY doesn’t stretch to this, and Fisher’s cobblestone mats are all sold out, there is another option. A new shoe on the market claims to transform flat, hard, artificial surfaces into something like natural uneven ground. “These shoes have an unbelievable effect,” says Benno Nigg, an exercise scientist at the human performance laboratory of the University of Calgary in Canada, which has done contract research for the shoe’s manufacturers. “They are one of the best things to have happened to humankind for years.” Known as Masai Barefoot Technology, or MBTs, the shoes have rounded soles that cause you to rock slightly when you stand still, exercising the small muscles around the ankle that are responsible for fore-aft stability. Forces in the joint are reduced, putting less strain on the system, Nigg claims."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nDo the following statements agree with the information given in the reading passage?\nIn boxes 1–5 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n1 Charles Brantingham and Bruce Beekman pioneered research into the connection between\nhypertension and walking-surface conditions.\n2 People who walked on cobblestones experienced a deterioration in their physical condition.\n3 Production of Fisher’s cobblestone mats is booming because of strong demand for the\nproduct.\n4 The customised pathway proposed by Barbara and Kevin Kunz was inspired by an overseas\ntrip.\n5 Benno Nigg suggests that Masai Barefoot Technology shoes have a specific age restriction."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 8,
+      "text": "Questions 6–8\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 6–8 on your answer sheet.\n6 Which of the following is true of Brantingham and Beekman’s variable-terrain experiment in\nparagraph D?\n A Spongy mats made the volunteers feel unbalanced.\n B A feature of Chinese culture makes the experiment applicable only in certain areas.\n C More than half of the participants reported a positive response.\n D The method unexpectedly cured cardiovascular disease.\n7 John Fisher and colleagues at the Oregon Research Institute found that\n A people who walked on specially designed mats improved only in blood pressure.\n B the control group’s blood pressure improved, but not as much as that of the other group.\n C older people improved more dramatically than younger people.\n D the 16-week testing period was the significant factor in the experiment.\n8 Why are MBT shoes beneficial to health?\n A Specially designed soles make the feet more stable.\n B The researcher has previous experience in this field.\n C African-style shoes were very successful in shops.\n D They protect the ankles and muscles around the feet."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nComplete the following summary.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 9–13 on your answer sheet.\n\n\nThe anatomy of the human foot is complex and 9 _________________ that of the human\nhand. An experiment conducted on employees showed that body movement on surfaces\nwith different conditions can lower the 10 _________________ on the heart. Similar results\nwere found in another experiment conducted by a researcher at the Oregon Research\nInstitute. The test also showed a substantial 11 _________________ in blood pressure.\nReflexologists advise people to walk on textured surfaces to stimulate certain points in the\nbody through the 12 _________________ of the feet. Finally, the writer suggests that\npeople can build their own health 13 _________________ instead of buying special mats\nand shoes."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Charles Brantingham and Bruce Beekman pioneered research into the connection between hypertension and walking-surface conditions.",
+      "translation": "Charles Brantingham 和 Bruce Beekman 開創了關於高血壓與行走表面條件之間關係的研究。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "People who walked on cobblestones experienced a deterioration in their physical condition.",
+      "translation": "在鵝卵石上行走的人，身體狀況變差了。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Production of Fisher’s cobblestone mats is booming because of strong demand for the product.",
+      "translation": "由於產品需求強勁，Fisher 的鵝卵石墊產量正在快速增加。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The customised pathway proposed by Barbara and Kevin Kunz was inspired by an overseas trip.",
+      "translation": "Barbara 和 Kevin Kunz 建議的自製小路，是受到一次海外旅行啟發。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Benno Nigg suggests that Masai Barefoot Technology shoes have a specific age restriction.",
+      "translation": "Benno Nigg 表示，Masai Barefoot Technology 鞋有特定年齡限制。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Which of the following is true of Brantingham and Beekman’s variable-terrain experiment in paragraph D?",
+      "translation": "以下哪一項正確描述 Paragraph D 中 Brantingham 和 Beekman 的 variable-terrain experiment？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "John Fisher and colleagues at the Oregon Research Institute found that",
+      "translation": "John Fisher 和 Oregon Research Institute 的同事發現……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "Why are MBT shoes beneficial to health?",
+      "translation": "為甚麼 MBT 鞋對健康有益？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "人類足部的解剖結構很複雜，並且與人手的解剖結構 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "一項在員工身上進行的實驗顯示，在不同表面條件上產生的身體活動可以降低心臟所承受的______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "這項測試也顯示血壓有大幅 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "反射療法師建議人們在有紋理的表面上行走，透過腳的 ______ 刺激身體某些點。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "最後，作者建議人們可以自建自己的健康 ______，不用購買特別的墊或鞋。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-141/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-141/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-141/page-7.jpg"
+  ]
+}

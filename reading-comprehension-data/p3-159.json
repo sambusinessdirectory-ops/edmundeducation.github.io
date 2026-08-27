@@ -1,0 +1,292 @@
+{
+  "id": "p3-159",
+  "catalogueId": "p3-159",
+  "title": "Designed to Last",
+  "sourceHeading": "Designed to Last Could better design cure our throwaway culture?",
+  "passage": 3,
+  "practice": 159,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-159-designed-to-last",
+  "source": {
+    "filename": "Practice 159 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "c79d57377469a30d770b0bac8fe439e4c68e48a8748f3e1a54967f0a5af3f4da"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Jonathan Chapman, a senior lecturer at the University of Brighton, UK, is one of a new breed of “sustainable designers”. Like many of us, they are concerned about the huge waste associated with Western consumer culture and the damage this does to the environment. Some, like Chapman, aim to create objects we will want to keep rather than discard. Others are working to create more efficient or durable consumer goods or goods designed with recycling in mind. The waste entailed in our fleeting relationships with consumer durables is colossal."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Domestic power tools, such as electric drills, are a typical example of such waste. However much DIY the purchaser plans to do, the truth is that these things are thrown away having been used, on average, for just ten minutes. Most will serve ‘conscience time’, gathering dust on a shelf in the garage; people are reluctant to admit that they have wasted their money. However, the end is inevitable: thousands of years in landfill sites. In its design, manufacture, packaging, transportation, and disposal, a power tool consumes many times its own weight in resources, all for a shorter active lifespan than that of the average small insect."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "To understand why we have become so wasteful, we should look to the underlying motivation of consumers. ‘People own things to give expression to who they are and to show what group of people they feel they belong to,’ Chapman says. In a world of mass production, however, that symbolism has lost much of its potency. For most of human history, people had an intimate relationship with objects they used or treasured. Often they made the objects themselves, or family members passed them on. For more specialist objects, people relied on expert manufacturers living close by, whom they probably knew personally. Chapman points out that all these factors gave objects a history – a narrative – and an emotional connection that today’s mass production cannot match. Without these personal connections, consumerist culture instead idolizes novelty. We know we can’t buy happiness, but the chance to remake ourselves with glossy, box-fresh products seems irresistible. When the novelty fades we simply renew the excitement by buying more new stuff: what John Thackara of Doors of Perception, a network for sharing ideas about the future of design, calls the “schlock of the new”."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "As a sustainable designer, Chapman’s solution is what he calls “emotionally durable design”. Think about your favourite old jeans. They just don’t have the right feel until they have been worn and washed a hundred times, do they? It is like they are sharing your life story. You can fake that look, but it isn’t the same. Chapman says the gradual unfolding of a relationship like this transforms our interactions with objects into something richer than simple utility. Swiss industrial analyst Walter Stahel, visiting professor at the University of Surrey, calls it the “teddy-bear factor”. No matter how ragged and worn a favourite teddy becomes, we don’t rush out and buy another one. As adults, our teddy bear connects us to our childhoods, and this protects it from obsolescence. Stahel says this is what sustainable design needs to do."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "It is not simply about making durable items that people want to keep. Sustainable design is a matter of properly costing the whole process of production, energy use, and disposal. “It is about the design of systems, the design of culture,” says Tim Cooper from the Centre for Sustainable Consumption at Sheffield Hallam University in Britain. He thinks sustainable design has been “surprisingly slow to take off” but says looming environmental crises and resource depletion are pushing it to the top of the agenda."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Thackara agrees. For him, the roots of impending environmental collapse can be summarized in two words: weight and speed. We are making more stuff than the planet can sustain and using vast amounts of energy moving more and more of it around ever faster. The Information Age was supposed to lighten our economies and reduce our impact on the environment, but the reverse seems to be happening. We have simply added information technology to the industrial era and hastened the developed world’s metabolism, Thackara argues."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Once you grasp that, the cure is hardly rocket science: minimize waste and energy use, stop moving stuff around so much and use people more. Ezio Manzini, Professor of industrial design at Politecnico di Milano University, Italy, describes the process of moving to a post-throwaway society as “changing the engine of an aircraft in mid-flight”. Even so, he believes it can be done, and he is not alone."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Manzini says a crucial step would be to redesign our globalized world into what he calls the “multi-local society”. His vision is that every resource, from food to electricity generation, should as far as possible be sourced and distributed locally. These local hubs would then be connected to national and global networks to allow the most efficient use and flow of materials."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "So what will post-throwaway consumerism look like? For a start, we will increasingly buy sustainably designed products. This might be as simple as installing energy-saving light bulbs, more efficient washing machines, or choosing locally produced groceries with less packaging."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "We will spend less on material goods and more on services. Instead of buying a second car, for example, we might buy into a car-sharing network. We will also buy less and rent a whole lot more: why own things that you hardly use, especially things that are likely to be updated all the time? Consumer durables will be sold with plans already in place for their disposal. Electronic goods will be designed to be recyclable, with the extra cost added to the retail price as prepayment. As consumers become increasingly concerned about the environment, many big businesses are eagerly adopting sustainable design and brushing up their green credentials to please their customers and stay one step ahead of the competition."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nChoose the correct letter, A, B, C, or D.\nWrite your answers in boxes 28–32 on your answer sheet.\n28. What does \"conscience time\" imply in paragraph 2?\n\nA. People feel guilty when they throw things away easily.\nB. The shelf in the garage needs cleaning.\nC. Consumers are unaware of the waste problem.\nD. The power tool should be placed in the right place after being used.\n\n\n\n29. Prior to mass production, people owned things to show their...\n\nA. quality\nB. status\nC. character\nD. history\n\n\n\n30. The word \"narrative\" in paragraph 3 refers to...\n\nA. the novelty culture pursued by customers\nB. the motivation for buying new products\nC. object stories that relate personally and meaningfully to their owners\nD. the image created by manufacturers\n\n\n\n31. Without a personal connection, people buy new stuff for...\n\nA. sharing\nB. freshness\nC. collection\nD. family members\n\n\n\n32. The writer quotes the old jeans and teddy bear to illustrate that...\n\nA. products are used only for their practical utility.\nB. producers should create more special products to attract consumers.\nC. Chapman had a poor childhood.\nD. emotional connections make us keep objects for longer."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 36,
+      "text": "Questions 33–36\n\nComplete the summary using the list of words, A–H, below.\nWrite the correct letter, A–H, in boxes 33–36 on your answer sheet.\n A                                                    properly\n\n B                                                    energy\n\n C                                                    locally\n\n D                                                    economy\n\n E                                                    slowly\n\n F                                                    speed\n\n G                                                    quickly\n\n H                                                    metabolism\n\n\n\nTim Cooper claims that although sustainable design proceeds 33 __________, the\ncoming problems are pushing the movement. In agreement with Tim Cooper,\nThackara believes that the origins of the looming environmental crises are weight\nand 34 __________. Technology, which was assumed to have a positive effect on\nsociety, actually accelerates the world’s 35 __________. To address this, Manzini\nproposes a ‘multi-local society’, which means that every resource should be\nlocated and redeployed 36 __________."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nDo the following statements agree with the claims of the writer in the reading passage?\nIn boxes 37–40 on your answer sheet, write\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n37 __________ People often buy things that are seldom used and throw them away.\n38 __________ In a post-throwaway society, we will pay extra money after disposing of electronic goods.\n39 __________ Some businesses have jumped on the sustainability bandwagon.\n40 __________ Companies will spend less on repairs in the future."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "What does \"conscience time\" imply in paragraph 2?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Prior to mass production, people owned things to show their...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "The word \"narrative\" in paragraph 3 refers to...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "Without a personal connection, people buy new stuff for...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "The writer quotes the old jeans and teddy bear to illustrate that...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g33",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ People often buy things that are seldom used and throw them away.",
+      "translation": "人們常常買一些很少使用的東西，然後把它們丟掉。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ In a post-throwaway society, we will pay extra money after disposing of electronic goods.",
+      "translation": "在後拋棄型社會中，我們會在棄置電子產品之後支付額外費用。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ Some businesses have jumped on the sustainability bandwagon.",
+      "translation": "一些企業已經加入可持續發展這股潮流。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "__________ Companies will spend less on repairs in the future.",
+      "translation": "公司將來會在維修方面花更少錢。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-159/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-159/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-159/page-6.jpg"
+  ]
+}

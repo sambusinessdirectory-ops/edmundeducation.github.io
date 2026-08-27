@@ -1,0 +1,272 @@
+{
+  "id": "p1-105",
+  "catalogueId": "p1-105",
+  "title": "The Great Australian Fence",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 105,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-105-the-great-australian-fence",
+  "source": {
+    "filename": "Practice 105 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "3e81c1caee306aa0ece0a1846cadaab5c17790619491bc17aaedea6699354639"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Great Australian Fence A war has been going on for almost a hundred years between the sheep farmers of Australia and the dingo, Australia’s wild dog. To protect their livelihood, the farmers built a wire fence, 3,307 miles of continuous wire mesh, reaching from the coast of South Australia all the way to the cotton fields of eastern Queensland, just short of the Pacific Ocean."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The Fence is Australia’s version of the Great Wall of China, but even longer, erected to keep out hostile invaders, in this case hordes of yellow dogs. The empire it preserves is that of the woolgrowers, sovereigns of the world’s second-largest sheep flock, after China’s—some 123 million head—and keepers of a wool export business worth four billion dollars. Never mind that more and more people—conservationists, politicians, taxpayers and animal lovers—say that such a barrier would never be allowed today on ecological grounds. With sections of it almost a hundred years old, the dog fence has become, as conservationist Lindsay Fairweather ruefully admits, ‘an icon of Australian frontier ingenuity’."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "To appreciate this unusual outback monument and to meet the people whose livelihoods depend on it, I spent part of an Australian autumn travelling the wire. It’s known by different names in different states: the Dog Fence in South Australia, the Border Fence in New South Wales and the Barrier Fence in Queensland. I would call it simply the Fence."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "For most of its prodigious length, this epic fence winds like a river across a landscape that, unless a big rain has fallen, scarcely has rivers. The eccentric route, prescribed mostly by property lines, provides a sampler of outback topography: the Fence goes over sand dunes, past salt lakes, up and down rock-strewn hills, through dense scrub and across barren plains."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The Fence stays away from towns. Where it passes near a town, it has actually become a tourist attraction visited on bus tours. It marks the traditional dividing line between cattle and sheep. Inside, where the dingoes are legally classified as vermin, they are shot, poisoned and trapped. Sheep and dingoes do not mix and the Fence sends that message mile after mile."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "What is this creature that by itself threatens an entire industry, inflicting several million dollars of damage a year despite the presence of the world’s most obsessive fence? Cousin to the coyote and the jackal, descended from the Asian wolf, Canis lupus dingo is an introduced species of wild dog. Skeletal remains indicate that the dingo was introduced to Australia more than 3,500 years ago, probably with Asian seafarers who landed on the north coast. The adaptable dingo spread rapidly and in a short time became the top predator, killing off all its marsupial competitors. The dingo looks like a small wolf with a long nose, short pointed ears and a bushy tail. Dingoes rarely bark; they yelp and howl. Standing about 22 inches at the shoulder—slightly taller than a coyote—the dingo is Australia’s largest land carnivore."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The woolgrowers’ war against dingoes, which is similar to the sheep ranchers’ rage against coyotes in the US, started not long after the first European settlers disembarked in 1788, bringing with them a cargo of sheep. Dingoes officially became outlaws in 1830 when governments placed a bounty on their heads. Today, bounties for problem dogs killing sheep inside the Fence can reach $500. As pioneers penetrated the interior with their flocks of sheep, fences replaced shepherds until, by the end of the 19th century, thousands of miles of barrier fencing crisscrossed the vast grazing lands."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "‘The dingo started out as a quiet observer,’ writes Roland Breckwoldt, in A Very Elegant Animal: The Dingo, ‘but soon came to represent everything that was dark and dangerous on the continent.’ It is estimated that since sheep arrived in Australia, dingo numbers have increased a hundredfold. Though dingoes have been eradicated from parts of Australia, an educated guess puts the population at more than a million."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Eventually, government officials and graziers agreed that one well-maintained fence, placed on the outer rim of sheep country and paid for by taxes levied on woolgrowers, should supplant the maze of private netting. By 1960, three states joined their barriers to form a single dog fence."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "The intense private battles between woolgrowers and dingoes have usually served to define the Fence only in economic terms. It marks the difference between profit and loss. Yet the Fence casts a much broader ecological shadow, for it has become a kind of terrestrial dam, deflecting the flow of animals inside and out. The ecological side effects appear most vividly at Sturt National Park. In 1845, explorer Charles Sturt led an expedition through these parts on a futile search for an inland sea. For Sturt and other early explorers, it was a rare event to see a kangaroo. Now they are ubiquitous, for without a native predator the kangaroo population has exploded inside the Fence. Kangaroos are now cursed more than dingoes. They have become the rivals of sheep, competing for water and grass. In response, state governments cull more than three million kangaroos a year to keep Australia’s national symbol from overrunning the pastoral lands. Park officials, who recognise that the fence is to blame, respond to the excess of kangaroos by saying, ‘The fence is there, and we have to live with it.’"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–11",
+    "g12": "Questions 12–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nChoose the appropriate letters A–D and write them in boxes 1–4 on your answer sheet.\n\n\n1 Why was the fence built?\n  A to separate the sheep from the cattle\n  B to stop the dingoes from being slaughtered by farmers\n  C to act as a boundary between properties\n  D to protect the Australian wool industry\n\n\n2 On what point do the conservationists and politicians agree?\n  A Wool exports are vital to the economy.\n  B The fence poses a threat to the environment.\n  C The fence acts as a useful frontier between states.\n  D The number of dogs needs to be reduced.\n\n\n3 Why did the author visit Australia?\n  A to study Australian farming methods\n  B to investigate how the fence was constructed\n  C because he was interested in life around the fence\n  D because he wanted to learn more about the wool industry\n\n\n4 How does the author feel about the fence?\n  A impressed\n  B delighted\n  C shocked\n  D annoyed"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 11,
+      "text": "Questions 5–11\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 5–11 on your answer sheet write\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n5 _________________ The fence serves a different purpose in each state.\n6 _________________ The fence is only partially successful.\n7 _________________ The dingo is indigenous to Australia.\n8 _________________ Dingoes have flourished as a result of the sheep industry.\n9 _________________ Dingoes are known to attack humans.\n10 _________________ Kangaroos have increased in number because of the fence.\n11 _________________ The author does not agree with the culling of kangaroos."
+    },
+    {
+      "id": "g12",
+      "start": 12,
+      "end": 13,
+      "text": "Questions 12–13\nChoose the appropriate letters A–D and write them in boxes 12–13 on your answer sheet.\n\n\n12 When did the authorities first acknowledge the dingo problem?\n  A 1788\n  B 1830\n  C 1845\n  D 1960\n\n\n13 How do the park officials feel about the fence?\n  A philosophical\n  B angry\n  C pleased\n  D proud"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Why was the fence built?",
+      "translation": "這條圍欄為甚麼被建造？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "On what point do the conservationists and politicians agree?",
+      "translation": "保育人士和政治人物在哪一點上意見一致？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Why did the author visit Australia?",
+      "translation": "作者為甚麼到澳洲？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "How does the author feel about the fence?",
+      "translation": "作者對這條 Fence 的感覺如何？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ The fence serves a different purpose in each state.",
+      "translation": "這條 Fence 在每個州都有不同用途。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ The fence is only partially successful.",
+      "translation": "這條 Fence 只取得部分成功。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ The dingo is indigenous to Australia.",
+      "translation": "dingo 是澳洲原生物種。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Dingoes have flourished as a result of the sheep industry.",
+      "translation": "dingoes 因羊業而大量繁盛。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Dingoes are known to attack humans.",
+      "translation": "dingo 以攻擊人類聞名。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ Kangaroos have increased in number because of the fence.",
+      "translation": "kangaroos 因為 Fence 而增加了數量。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "_________________ The author does not agree with the culling of kangaroos.",
+      "translation": "作者不同意撲殺 kangaroos。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "When did the authorities first acknowledge the dingo problem?",
+      "translation": "當局最早在甚麼時候承認 dingo 問題？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "How do the park officials feel about the fence?",
+      "translation": "公園官員對 Fence 的感覺如何？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-105/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-105/page-5.jpg"
+  ]
+}

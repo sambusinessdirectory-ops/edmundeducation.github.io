@@ -1,0 +1,244 @@
+{
+  "id": "p1-055",
+  "catalogueId": "p1-055",
+  "title": "The Innovation of Grocery Stores",
+  "sourceHeading": "The Innovation of Grocery Stores",
+  "passage": 1,
+  "practice": 55,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-055-the-innovation-of-grocery-stores",
+  "source": {
+    "filename": "Practice 55  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "e9a88b353be3d06c7441c3f7135a0c8cf8d16aeaf671535dcb17f599e901404e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "At the beginning of the 20th century, American grocery stores offered full service: customers asked clerks behind counters for the items they wanted, and the clerks wrapped them. To save time, customers could have delivery boys take their shopping lists to a store, or deliver the lists themselves, then return later to pay for the goods. Grocery stores generally stocked only one brand of each item. Early chains such as A&P, although full-service, made shopping time-consuming and inefficient."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Born in Virginia, Clarence Saunders left school at fourteen in 1895 and began work as a grocery clerk. While working, he noticed how inefficient the shopping process was. In an era without computers, the system was cumbersome and wasted considerable time and money. With enthusiasm and imagination, Saunders proposed an unprecedented solution: consumers would serve themselves, an idea that could revolutionise the entire industry."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In 1902, Saunders moved to Memphis to put his idea into practice by establishing a wholesale grocery cooperative. He divided his new store into three areas. A ‘front lobby’ served as both entrance and exit and contained the checkouts. A ‘sales department’ allowed customers to walk along aisles and select their own groceries. Clerks no longer retrieved every item; instead, neatly arranged aisles and shelves displayed the goods and allowed shoppers to browse. From a gallery above the sales department, supervisors could observe customers without disturbing them. A third area, the ‘stockroom’, contained large refrigerators for keeping products fresh and was open only to staff. The new layout accommodated more customers at once and contributed to phenomena that had previously been unimaginable, including impulse buying and, later, the supermarket."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "On 6 September 1916, Saunders launched the self-service revolution in the United States by opening the first Piggly Wiggly at 79 Jefferson Street in Memphis, Tennessee. The store featured a turnstile at its entrance. Unlike customers in conventional groceries, Piggly Wiggly shoppers selected goods from shelves and paid for the items themselves. They were not at the mercy of staff but could roam freely, inspect products and choose what they needed. Items were clearly priced, and no one pressured customers to buy unwanted goods. The greatest benefit was lower prices. ‘It is good for both the consumer and retailer because it cuts costs,’ noted George T. Haley, a professor at the University of New Haven and director of the Centre for International Industry Competitiveness. ‘If you look at how grocery stores operated before Piggly Wiggly and Alpha Beta, you find that a great many workers were involved, and labour is a major expense.’ Chains such as Piggly Wiggly therefore cut unnecessary costs."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Piggly Wiggly and other self-service stores rapidly gained popularity. Saunders opened nine Memphis branches in the first year, immediately applied for a patent on the self-service concept and began franchising the stores. Through self-service and franchising, the chain grew to nearly 1,300 locations by 1923. Piggly Wiggly sold $100 million in groceries—equivalent to about $1.3 billion today—and became the nation’s third-largest grocery retailer. It was listed on the New York Stock Exchange, where its share price doubled between late 1922 and March 1923. Saunders contributed greatly to the design and layout of grocery stores and even invented the turnstile to keep customers moving smoothly through the entrance."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Clarence Saunders died in 1953, leaving a lasting legacy symbolised chiefly by Piggly Wiggly, whose model spread widely and endured."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nReading Passage 1 has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in Boxes 1–5 on your answer sheet.\nNB You may use any letter more than once.\n1 ____________ layout of Clarence Saunders’ store\n2 ____________ a reference to a reduction by chain stores in labour costs\n3 ____________ how Clarence Saunders implemented his idea\n4 ____________ how people used to shop before Clarence Saunders’ stores opened\n5 ____________ a description of the economic success generated by Saunders’s stores"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 10,
+      "text": "Questions 6–10\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in Boxes 6–10 on your answer sheet.\nClarence Saunders’s first job in a grocery store was as 6 _________________.\nIn Saunders’s store, customers paid for goods in the 7 _________________.\nCustomers were under surveillance while shopping in the 8 _________________.\nAnother area was called the ‘9 _________________’ and was accessible only to staff.\nIn Saunders’s design, much of the work was done by the 10 _________________."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in Boxes 11–13 on your answer sheet.\n\n\n11 Why did Clarence Saunders want to improve grocery stores?\n  A He wanted to transfer business to retailing.\n  B He thought it was profitable.\n  C He thought this would make customers’ lives more convenient.\n  D He wanted to create a new shop by himself.\n\n\n12 The Piggly Wiggly store was\n  A located in Virginia.\n  B characterised primarily by self-service.\n  C initially very unpopular with customers.\n  D expected to have a poor future.\n\n\n13 Today, Clarence Saunders is chiefly remembered for\n  A the opening of a fully automatic store near his first store.\n  B the popularity of his Piggly Wiggly store at the time.\n  C his association with Piggly Wiggly stores.\n  D having his name printed alongside that of his famous store."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ layout of Clarence Saunders’ store",
+      "translation": "Clarence Saunders 店舖的布局。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ a reference to a reduction by chain stores in labour costs",
+      "translation": "提到連鎖店降低人工成本。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ how Clarence Saunders implemented his idea",
+      "translation": "Clarence Saunders 如何實行他的想法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ how people used to shop before Clarence Saunders’ stores opened",
+      "translation": "Clarence Saunders 的店開業前，人們過去如何購物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ a description of the economic success generated by Saunders’s stores",
+      "translation": "描述 Saunders 的店帶來的經濟成功。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "Clarence Saunders 在雜貨店的第一份工作是做 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "在 Saunders 的店裡，顧客在 ______ 付款。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "顧客在 ______ 購物時受到觀察。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "另一個區域叫作 ______，並且只供員工進入。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "在 Saunders 的設計中，很多工作由 ______ 完成。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Why did Clarence Saunders want to improve grocery stores?",
+      "translation": "Clarence Saunders 為甚麼想改良雜貨店？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "The Piggly Wiggly store was",
+      "translation": "Piggly Wiggly 這間店的主要特點是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Today, Clarence Saunders is chiefly remembered for",
+      "translation": "今天，人們主要因甚麼記得 Clarence Saunders？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-055/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-055/page-5.jpg"
+  ]
+}

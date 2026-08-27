@@ -1,0 +1,313 @@
+{
+  "id": "p1-026",
+  "catalogueId": "p1-026",
+  "title": "William Gilbert and Magnetism",
+  "sourceHeading": "William Gilbert and Magnetism",
+  "passage": 1,
+  "practice": 26,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-026-william-gilbert-and-magnetism",
+  "source": {
+    "filename": "Practice 26 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "ed23193c697786b0d7912d38e58a21f2d12adf87a6f2c9b1d6b3637fcde96a57"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The sixteenth and seventeenth centuries saw two great pioneers of modern science: Galileo and Gilbert. The impact of their findings was immense. Gilbert was the first modern scientist and is also regarded as the acknowledged father of the sciences of electricity and magnetism. He was an English scholar and physician at the court of Queen Elizabeth I. Before him, all that was known about electricity and magnetism was essentially what the ancients had known: that the lodestone possessed magnetic properties and that amber and jet, when rubbed, would attract bits of paper or other substances of low specific gravity. However, he is less well known than he deserves."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "William Gilbert was born before Galileo. He was born into a prominent local family in Colchester, Essex, England, on 24 May 1544. He went to grammar school and then studied medicine at St John’s College, Cambridge, graduating in 1573. Later, he travelled on the Continent and eventually settled in London."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "He was a very successful and eminent doctor. This success culminated in his election as President of the Royal College of Physicians. He was also appointed personal physician to Queen Elizabeth I and faithfully served her until her death. However, he did not outlive the Queen for long. He died on 30 November 1603, only a few months after his appointment as personal physician to King James I."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Gilbert was first interested in chemistry, but later changed his focus because of the considerable mysticism involved in alchemy, such as the transmutation of metals. He gradually developed an interest in physics after studying the great minds of antiquity, particularly the ancient Greeks’ knowledge of lodestones, strange minerals with the power to attract iron. In the meantime, Britain became a major seafaring nation in 1588 when the Spanish Armada was defeated, opening the way to British settlement in America. British ships depended on the magnetic compass, yet no one understood why it worked. Did the Pole Star attract it, as Columbus once speculated? Or was there a magnetic mountain at the pole, as described in the Odyssey, which ships would never approach because sailors thought its pull would yank out all their iron nails and fittings? For nearly 20 years, William Gilbert conducted ingenious experiments to understand magnetism. His major work was On the Magnet, Magnetic Bodies, and the Great Magnet of the Earth."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Gilbert’s discoveries were very important to modern physics. He investigated the nature of magnetism and electricity, and he even coined the word “electric”. Early beliefs about magnetism were largely entangled with superstition. For example, some people believed that rubbing garlic on a lodestone could neutralise its magnetism. Sailors even believed that the smell of garlic could interfere with the action of a compass, which is why helmsmen were forbidden to eat it near a ship’s compass. Gilbert also found that metals could be magnetised. He named the ends of a magnet the “north pole” and the “south pole”. Magnetic poles can attract or repel each other, depending on their polarity. In addition, ordinary iron is always attracted to a magnet. Although Gilbert began to study the relationship between magnetism and electricity, sadly, he did not complete this work. His research on static electricity using amber and jet only demonstrated that electrically charged objects could act like magnets by attracting small pieces of paper and other light objects. It was a French scientist named Charles du Fay who later discovered that there are actually two types of electrical charge."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Gilbert also questioned traditional astronomical beliefs. Although he was influenced by Copernican thought, he did not clearly state whether he believed the Earth was at the centre of the universe or in orbit around the sun. However, he believed that stars were not equidistant from the Earth, but had their own Earth-like planets orbiting around them. Gilbert believed that the Earth itself was like a giant magnet, which is why compasses always point north. In his view, the Earth rotated on an axis aligned with its magnetic polarity. He even compared the polarity of a magnet to the polarity of the Earth and built an entire magnetic philosophy on this analogy. In his explanation, magnetism was the soul of the Earth. Thus, a perfectly spherical lodestone, when aligned with the Earth’s poles, would wobble by itself in 24 hours. Furthermore, he believed that the sun and other stars wobbled just as the Earth did around a crystal core. He also speculated that the moon might be a magnet caused to orbit by its magnetic attraction to the Earth. This was perhaps the first proposal that a force might cause a celestial orbit."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Gilbert’s research method was revolutionary because he used experiments rather than relying purely on logic and reasoning, as the ancient Greek philosophers had done. It represented a new attitude towards scientific investigation. Until then, scientific experiments had not been common practice. It was because of this scientific attitude, together with his contribution to our knowledge of magnetism, that a unit of magnetomotive force, also known as magnetic potential, was named the gilbert in his honour. His approach of careful observation and experimentation, rather than reliance on the authoritative opinions or deductive philosophy of others, laid the foundation for modern science."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\n\nReading Passage 1 has seven paragraphs, A–G.\n\nChoose the correct heading for each paragraph from the list of headings below.\n\nWrite the correct number, i–x, in boxes 1–7 on your answer sheet.\n\nList of Headings\n\n      Number                                  Heading\n\n\ni              Early years of Gilbert\n\n\nii             What was new about his scientific research method\n\n\niii            The development of chemistry\n\n\niv             Questioning traditional astronomy\n\n\nv              Pioneers of early science\n\n\nvi             Professional and social recognition\n\n\nvii            Becoming President of the Royal College of Physicians\n\n\nviii           The great work of Gilbert\n\n\nix             His discoveries about magnetism\n\n\nx              His change of focus\n\nAnswers\n\n Question      Paragraph                             Answer\n\n\n1            Paragraph A      __________\n\n\n2            Paragraph B      __________\n\n\n3            Paragraph C      __________\n\n\n4            Paragraph D      __________\n\n\n5            Paragraph E      __________\n\n\n6            Paragraph F      __________\n\n\n7            Paragraph G      __________"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 10,
+      "text": "Questions 8–10\n\nDo the following statements agree with the information given in Reading Passage 1?\n\nIn boxes 8–10 on your answer sheet, write:\n\n    Answer                                       Meaning\n\n\nTRUE            if the statement agrees with the information\n\n\nFALSE           if the statement contradicts the information\n\n\nNOT             if there is no information on this\nGIVEN\n\n\n\n\n     Question                            Statement                          Answer\n\n\n8                  He is less famous than he should be.                   ________\n                                                                          __\n\n\n9                  He was famous as a doctor before he was employed       ________\n                   by the Queen.                                          __\n\n\n10                 He lost faith in the medical theories of his time.     ________\n                                                                          __"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\n\nChoose THREE letters, A–F.\n\nWrite your answers in boxes 11–13 on your answer sheet.\n\nWhich THREE of the following were part of Gilbert’s discoveries, beliefs, or scientific\nproposals?\n\n Lette                                        Statement\n    r\n\n\nA        Metal can be transformed into another metal.\n\n\nB        Garlic can remove magnetism.\n\n\nC        Metals can be magnetised.\n\n\nD        Stars are at different distances from the Earth.\n\n\nE        The Earth wobbles on its axis.\n\n\nF        There are two types of electrical charge.\n\nQuestion                                    Answer\n\n\n11          __________\n\n\n12          __________\n\n\n13          __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph A __________",
+      "translation": "為 A 段選出最能概括全段的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph B __________",
+      "translation": "為 B 段選出最能概括全段的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph C __________",
+      "translation": "為 C 段選出最能概括全段的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph D __________",
+      "translation": "為 D 段選出最能概括全段的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph E __________",
+      "translation": "為 E 段選出最能概括全段的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph F __________",
+      "translation": "為 F 段選出最能概括全段的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph G __________",
+      "translation": "為 G 段選出最能概括全段的標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "He is less famous than he should be. ________ __",
+      "translation": "他的名氣低於他應得的程度。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "He was famous as a doctor before he was employed ________ by the Queen. __",
+      "translation": "在受 Queen Elizabeth I 聘用之前，他已經是一位有名望的醫生。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "He lost faith in the medical theories of his time. ________ __",
+      "translation": "他對當時的醫學理論失去信心。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "以下哪三項屬於 Gilbert 的發現、信念或科學提議？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "以下哪三項屬於 Gilbert 的發現、信念或科學提議？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "以下哪三項屬於 Gilbert 的發現、信念或科學提議？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-026/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-026/page-8.jpg",
+    "/assets/reading-comprehension/questions/p1-026/page-9.jpg",
+    "/assets/reading-comprehension/questions/p1-026/page-10.jpg",
+    "/assets/reading-comprehension/questions/p1-026/page-11.jpg",
+    "/assets/reading-comprehension/questions/p1-026/page-12.jpg"
+  ]
+}

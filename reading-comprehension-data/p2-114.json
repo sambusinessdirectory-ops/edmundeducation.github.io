@@ -1,0 +1,285 @@
+{
+  "id": "p2-114",
+  "catalogueId": "p2-114",
+  "title": "Acquiring the principles of mathematics and science",
+  "sourceHeading": "Acquiring the Principles of Mathematics and Science",
+  "passage": 2,
+  "practice": 114,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-114-acquiring-the-principles-of-mathematics-and-science",
+  "source": {
+    "filename": "Practice 114 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "2c4d35a07a273af0b86c1f853541f14a4005021a005bc62e8052956d27fcd68e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "It has been pointed out that learning mathematics and science is not so much learning facts as learning ways of thinking. It has also been emphasised that in order to learn science, people often have to change the way they think in ordinary situations. For example, in order to understand even simple concepts such as heat and temperature, the idea of temperature as a measure of heat must be abandoned and a distinction between ‘temperature’ and ‘heat’ must be learned. These changes in ways of thinking are often referred to as conceptual changes. But how do conceptual changes happen? How do young people change their ways of thinking as they develop and as they learn in school?"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Traditional instruction based on telling students how modern scientists think does not seem to be very successful. Students may learn the definitions, the formulae, the terminology, and yet still maintain their previous conceptions. This difficulty has been illustrated many times, for example, when instructed students are interviewed about heat and temperature. It is often identified by teachers as a difficulty in applying the concepts learned in the classroom; students may be able to repeat a formula but fail to use the concept represented by the formula when they explain observed events."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The psychologist Piaget suggested an interesting hypothesis relating to the process of cognitive change in children. Cognitive change was expected to result from the pupils’ own intellectual activity. When confronted with a result that challenges their thinking – that is, when faced with conflict – pupils realise that they need to think again about their own ways of solving problems, regardless of whether the problem is one in mathematics or in science. He hypothesised that conflict brings about disequilibrium, and then triggers equilibration processes that ultimately produce cognitive change. For this reason, according to Piaget and his colleagues, in order for pupils to progress in their thinking they need to be actively engaged in solving problems that will challenge their current mode of reasoning. However, Piaget also pointed out that young children do not always discard their ideas in the face of contradictory evidence. They may actually discard the evidence and keep their theory."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Piaget’s hypothesis about how cognitive change occurs was later translated into an educational approach which is now termed ‘discovery learning’. Discovery learning initially took what is now considered the ‘lone learner’ route. The role of the teacher was to select situations that challenged the pupils’ reasoning; and the pupils’ peers had no real role in this process. However, it was subsequently proposed that interpersonal conflict, especially with peers, might play an important role in promoting cognitive change. This hypothesis, originally advanced by Perret-Clermont (1980) and Doise and Mugny (1984), has been investigated in many recent studies of science teaching and learning."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Christine Howe and her colleagues, for example, have compared children’s progress in understanding several types of science concepts when they are given the opportunity to observe relevant events. In one study, Howe and her colleagues compared the progress of children aged 8 to 12 in understanding what influences motion down a slope. In order to ascertain the role of conflict in group work, they created two kinds of groups according to a pre-test: one in which the children had dissimilar views, and a second in which the children had similar views. They found support for the idea that children in the groups with dissimilar views progressed more after their training sessions than those who had been placed in groups with similar views. However, they found no evidence to support the idea that the children worked out their new conceptions during their group discussions, because progress was not actually observed in a post-test immediately after the sessions of group work, but rather in a second test given around four weeks after the group work."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In another study, Howe and her colleagues set out to investigate whether the progress obtained through pair work could be a function of the exchange of ideas. They investigated the progress made by pupils aged 12 to 15 in understanding the path of falling objects, a topic that usually involves conceptual difficulties. In order to create pairs of pupils with varying levels of dissimilarity in their initial conceptions, the pupils’ predictions and explanations of the path of falling objects were assessed before they were engaged in pair work. The work sessions involved solving computer-presented problems, again about predicting and explaining the paths of falling objects. A post-test, given to individuals, assessed the progress made by pupils in their conceptions of what influenced the path of falling objects."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–21",
+    "g22": "Questions 22–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has six paragraphs, A–F.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i–ix, in boxes 14–19 on your answer sheet.\n i                           A suggested modification to a theory about learning\n\n ii                          The problem of superficial understanding\n\n iii                         The relationship between scientific understanding and age\n\n iv                          The rejection of a widely held theory\n\n v                           The need to develop new concepts in daily life\n\n vi                          The claim that a perceived contradiction can assist mental development\n\n vii                         Implications for the training of science teachers\n\n viii                        An experiment to assess the benefits of exchanging views with a partner\n\n ix                          Evidence for the delayed benefits of disagreement between pupils\n14 __________ Paragraph A\n15 __________ Paragraph B\n16 __________ Paragraph C\n17 __________ Paragraph D\n18 __________ Paragraph E\n19 __________ Paragraph F"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 21,
+      "text": "Questions 20–21\nChoose TWO letters, A–E.\nWhich TWO statements about learning are attributed to Piaget by the writer?\nWrite your answers in boxes 20 and 21 on your answer sheet.\n     A Teachers can assist learning by explaining difficult concepts.\n     B Mental challenge is a stimulus to learning.\n     C Repetition and consistency of input aid cognitive development.\n     D Children sometimes reject evidence that conflicts with their preconceptions.\n     E Children can help one another make cognitive progress."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 23,
+      "text": "Questions 22–23\nChoose TWO letters, A–E.\nWhich TWO statements describe Howe’s experiment with children aged 8 to 12?\nWrite your answers in boxes 22 and 23 on your answer sheet.\n A The children were assessed on their ability to understand a scientific problem.\n B All the children worked in mixed-ability groups.\n C The children who talked most made the least progress.\n D The teacher helped the children understand a scientific problem.\n E The children were given a total of three tests at different times."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\nHow Children Learn\nPiaget proposed that learning takes place when children encounter ideas that do not\ncorrespond to their current beliefs. The application of this theory gave rise to a\nteaching method known as 24 __________. At first, this approach focused only on\nthe relationship between individual pupils and their 25 __________. Later,\nresearchers such as Perret-Clermont became interested in the role that interaction\nwith 26 __________ might also play in a pupil’s development."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "作者把哪兩個關於 learning 的說法歸於 Piaget？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "作者把哪兩個關於 learning 的說法歸於 Piaget？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "哪兩個選項描述 Howe 對 8–12 歲兒童做的實驗？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "哪兩個選項描述 Howe 對 8–12 歲兒童做的實驗？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "這個理論的應用產生了一種稱為 ______ 的教學方法。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "起初，這種方法只集中於個別學生和他們的 ______ 之間的關係。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "後來，Perret-Clermont 等研究者開始關注與 ______ 互動在學生發展中可能也扮演的角色。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-114/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-114/page-5.jpg"
+  ]
+}

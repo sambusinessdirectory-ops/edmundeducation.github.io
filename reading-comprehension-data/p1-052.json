@@ -1,0 +1,296 @@
+{
+  "id": "p1-052",
+  "catalogueId": "p1-052",
+  "title": "The Connection Between Culture and Thought",
+  "sourceHeading": "The Connection Between Culture and Thought",
+  "passage": 1,
+  "practice": 52,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-052-the-connection-between-culture-and-thought",
+  "source": {
+    "filename": "Practice 52  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "a5672156064c34eaf3eeaed2ed65827caa6ac290f9a1db6d3508a11077d054e4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The world’s population has surpassed 7 billion and continues to grow. Across the globe, humans have many differences. These differences can be influenced by factors such as geography, climate, politics, nationality and many others. Culture is one such aspect that can change the way people behave."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Your culture may influence your clothing, your language, and many aspects of your life. But is culture influential enough to change the way an individual thinks? It has long been believed that people from different cultures would think differently. For example, a young boy from a farm would talk about cows while a boy from New York would talk about cars. If two young children from different countries were asked what they thought about a painting, they would answer differently because of their cultural backgrounds."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In recent years, new research has challenged this long-held belief. This work is not the first, however, to explore the possibility that culture can change how we think; earlier studies provided valuable insight into the question. One of the earliest projects was carried out in the Soviet Union and sought to determine whether culture affected people’s ways of processing thoughts. The researchers focused on how living environment and nationality might influence cognition. Nisbett’s experiment investigated this aspect of cognitive psychology, and he conducted several versions to test different processes."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "One experiment led by Nisbett and Masuda showed participants an animated video of a large fish swimming among smaller fish and other sea creatures, then asked them to describe the scene. Japanese participants tended to focus on the aquatic background, including plants and the colour of the water, as well as relationships between the large and small fish. American participants focused on individual fish, particularly the larger, more distinctive-looking one. The experiment suggested that members of Eastern cultures focus more on the overall picture, whereas those from Western cultures focus more on individuals."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In another experiment, performed by Nisbett and Choi, participants were presented with convincing evidence supporting a position. Both Korean and American groups initially expressed strong support. After receiving evidence opposing that position, Koreans began to modify or reduce their support, whereas Americans strengthened their support for the original argument. This suggested that in Korean culture, support for an argument depends more on context. Ideas and conclusions are flexible, so individuals may be more willing to change their minds. Americans, by contrast, were less willing to alter their original conclusion."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Nisbett and Ara devised an experiment to test thought processing in Eastern and Western cultures. Participants were given the argument: ‘All animals with fur hibernate. Rabbits have fur. Therefore, rabbits hibernate.’ People from Eastern cultures questioned the conclusion because they knew that some furry animals do not hibernate. American participants, however, considered the statement correct. They assumed that if the logical deduction was based on a correct premise, the conclusion must also be right."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "These early experiments might seem to confirm the original premise that culture affects how we think. Recent researchers, however, have criticised both that view and Nisbett’s experiments. Although the studies challenged earlier beliefs about thought processing, the extent to which other factors shaped the results required further discussion. Fischer considers Nisbett’s work valuable because it provides qualitative descriptions, although not results from a controlled environment. Chang partly agrees, noting that social factors might also influence the findings."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Another criticism of Nisbett’s experiments is that culture was studied as a sub-factor of nationality. The experiments assumed that culture would be the same among all members of a nationality. For example, every American who participated in the experiments could be assumed to have the same culture. In reality, culture is much more complicated than nationality. These early experiments did not control for other factors, such as socioeconomic status, education, ethnicity, and regional differences in culture. All of these factors could have a big effect on the individual’s response."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "A third criticism of Nisbett’s experiment is that the content itself should have been more abstract, such as a puzzle or an IQ test. With objective content, such as nature and animals, people from different countries of the world might have different preconceived ideas about these animals. Prior knowledge based on geographic location would further complicate the results. A test that is more abstract, or more quantitative, would provide a more controlled study of how cognitive processing works for different groups of people."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "The research on culture’s effect on cognitive processing still goes on today, and while some criticisms exist of Nisbett’s early studies, the projects still provide valuable insight. It is important for future research projects to control carefully for variables such as culture. Something like culture is complex and difficult to define. It can also be influenced by many other variables, such as geography or education styles. When studying a variable like culture, it is critical that the researcher create a clear definition for what is—and what is not—considered culture."
+    },
+    {
+      "number": 11,
+      "label": "K",
+      "text": "Another important consideration in modern research is ethics. Researchers must consider carefully whether their findings could harm any group involved. In an increasingly globalised employment market, generalisations about nationalities can damage prospective employees. Such information might also affect the design of tests and university-admissions standards, potentially favouring one group or disadvantaging another. When studying culture and nationality, researchers should consider every positive and negative effect their published conclusions may have."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nReading Passage 1 has eleven paragraphs, A–K.\nWhich paragraph contains the following information?\nWrite the correct letter, A–K, in Boxes 1–5 on your answer sheet.\nNB You may use any letter more than once.\n1 _____________ All people have the same reaction to a certain point of view.\n2 _____________ Qualitative descriptions are valuable in exploring thought processing.\n3 _____________ Different cultures will affect the description of the same scene.\n4 _____________ Young people in different geographical locations were expected to think very\ndifferently.\n5 _____________ Eastern people are less likely to stick to their argument."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nLook at the following statements (Questions 6–9) and the list of researchers below.\nMatch each statement with the correct researcher, A–C.\nWrite the correct letter, A–C, in Boxes 6–9 on your answer sheet.\nNB You may use any letter more than once.\n A                                       Nisbett & Masuda\n\n B                                       Nisbett & Choi\n\n C                                       Nisbett & Ara\n6 ___________ Geographical location affects people’s position on certain arguments.\n7 ___________ Animated images reveal different processing strategies.\n8 ___________ Eastern participants challenge a deduction because they know its conclusion is untrue.\n9 ___________ Eastern people find more difficulty when asked to identify the same object."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in Boxes 10–13 on your answer sheet.\nResearchers in the Soviet Union wanted to find out how 10 _________________ and nationality\ninfluenced the way people think.\nNisbett and Ara’s experiment shows that, for Americans, if a logical deduction is based on a correct\npremise, the 11 _________________ should be right.\n\nFischer considers Nisbett’s research valuable because it was conducted in a 12\n_________________ way rather than in a controlled environment.\nFuture researchers studying culture’s effect on cognitive processing should begin with a clear 13\n_________________ of culture as a variable."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ All people have the same reaction to a certain point of view.",
+      "translation": "所有人對某一個觀點有相同反應。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Qualitative descriptions are valuable in exploring thought processing.",
+      "translation": "質性描述對探索思考處理方式有價值。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Different cultures will affect the description of the same scene.",
+      "translation": "不同文化會影響人們如何描述同一個場景。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Young people in different geographical locations were expected to think very differently.",
+      "translation": "不同地理位置的年輕人被認為會有很不同的想法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ Eastern people are less likely to stick to their argument.",
+      "translation": "東方人較不容易堅持原本論點。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Geographical location affects people’s position on certain arguments.",
+      "translation": "地理位置或文化群體會影響人們對某些論點的立場。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Animated images reveal different processing strategies.",
+      "translation": "動畫影像揭示不同的認知處理策略。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Eastern participants challenge a deduction because they know its conclusion is untrue.",
+      "translation": "東方參加者因知道結論不符合現實，所以質疑一個推論。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Eastern people find more difficulty when asked to identify the same object.",
+      "translation": "東方人在辨認同一物件時遇到較大困難。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "requiresReview": true
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "蘇聯研究者想找出 ______ 和國籍如何影響人們思考。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "Nisbett and Ara 的實驗顯示，對美國人來說，如果邏輯推論建立在正確前提上，______ 就應該正確。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "Fischer 認為 Nisbett 的研究有價值，因為它以 ______ 方式進行，而非在受控環境中得出結果。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "未來研究文化如何影響認知處理時，研究者應先清楚 ______ 文化這個變項。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-052/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-052/page-5.jpg"
+  ]
+}

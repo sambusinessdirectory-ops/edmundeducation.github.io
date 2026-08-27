@@ -1,0 +1,285 @@
+{
+  "id": "p3-037",
+  "catalogueId": "p3-037",
+  "title": "Living Dunes",
+  "sourceHeading": "Living Dunes When you think of a sand dune, you probably picture a barren pile of lifeless sand. But sand dunes are actually dynamic natural structures. They grow, shift and travel. They crawl with living things. Some sand dunes even sing.",
+  "passage": 3,
+  "practice": 37,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-037-living-dunes",
+  "source": {
+    "filename": "Practice 37 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "9d5cc05ecafcf05d045c5c2a963ffcaf626a516df5ca2e76ccac7fc6c6073b08"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Although no more than a pile of wind-blown sand, dunes can roll over trees and buildings, march relentlessly across highways, devour vehicles in their path, and threaten crops and factories in Africa, the Middle East, and China. In some places, killer dunes even roll in and swallow up towns. Entire villages have disappeared under the sand. In a few instances the government built new villages for those displaced only to find that the new villages themselves were buried several years later. Preventing sand dunes from overwhelming cities and agricultural areas has become a priority for the United Nations Environment Programme."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Some of the most significant experimental measurements on sand movement were performed by Ralph Bagnold, a British engineer who worked in Egypt prior to World War II. Bagnold investigated the physics of particles moving through the atmosphere and deposited by wind. He recognised two basic dune types, the crescentic dune, which he called “barchan” and the linear dune, which he called longitudinal or “seif” (Arabic for “sword”). The crescentic barchan dune is the most common type of sand dune. As its name suggests, this dune is shaped like a crescent moon with points at each end, and it is usually wider than it is long. Some types of barchan dunes move faster over desert surfaces than any other type of dune. The linear dune is straighter than the crescentic dune with ridges as its prominent feature. Unlike crescentic dunes, linear dunes are longer than they are wide—in fact, some are more than 100 miles (about 160 kilometres) long. Dunes can also be composed of smaller dunes of different types, called complex dunes."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Despite the complicated dynamics of dune formation, Bagnold noted that a sand dune generally needs the following three things to form: a large amount of loose sand in an area with little vegetation—usually on the coast or in a dried-up river, lake or seabed; a wind or breeze to move the grains of sand; and an obstacle, which could be as small as a rock or as big as a tree, that causes the sand to lose momentum and settle. Where these three variables merge, a sand dune forms."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "As the wind picks up the sand, the sand travels, but generally only about an inch or two above the ground, until an obstacle causes it to stop. The heaviest grains settle against the obstacle, and a small ridge or bump forms. The lighter grains are deposited on the other side of the obstacle. Wind continues to move sand up to the top of the pile until the pile is so steep that it collapses under its own weight. The collapsing sand comes to rest when it reaches just the right steepness to keep the dune stable. The repeating cycle of sand inching up the windward side to the dune crest, then slipping down the dune’s slip face, allows the dune to inch forward, migrating in the direction the wind blows."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Depending on the speed and direction of the wind and the weight of the local sand, dunes will develop into different shapes and sizes. Stronger winds tend to make taller dunes; gentler winds tend to spread them out. If the direction of the wind generally remains the same over the years, dunes gradually shift in that direction. But a dune is “a curiously dynamic creature”, wrote Farouk El-Baz in National Geographic. Once formed, a dune can grow, change shape, move with the wind and even breed new dunes. Some of these offspring may be carried on the back of the mother dune. Others are born and race downwind, outpacing their parents."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Sand dunes can even be heard ‘singing’ in more than 30 locations worldwide, and in each place the sounds have their own characteristic frequency, or note. When the thirteenth-century explorer Marco Polo encountered the weird and wonderful noises made by desert sand dunes, he attributed them to evil spirits. The sound is unearthly. The volume is also unnerving. Adding to the tone’s otherworldliness is the inability of the human ear to localise the source of the noise. Stéphane Douady of the French national research agency CNRS and his colleagues have been delving deeper into dunes in Morocco, Chile, China and Oman, and believe they can now explain the exact mechanism behind this acoustic phenomenon."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The group hauled sand back to the laboratory and set it up in channels with automated pushing plates. The sands still sang, proving that the dune itself was not needed to act as a resonating body for the sound, as some researchers had theorised. To make the booming sound, the grains have to be of a small range of sizes, all alike in shape: well-rounded. Douady’s key discovery was that this synchronised frequency—which determines the tone of sound—is the result of the grain size. The larger the grain, the lower the key. He has successfully predicted the notes emitted by dunes in Morocco, Chile and the US simply by measuring the size of the grains they contain. Douady also discovered that the singing grains had a smooth, varnish-like coating of minerals such as silicon, iron and manganese. This coating probably formed on the sand when the dunes once lay beneath an ancient ocean. But in the muted grains this coat had been worn away, which explains why only some dunes can sing. He admits he is unsure exactly what role the coating plays in producing the noise. The mysterious dunes, it seems, aren’t quite ready yet to give up all of their secrets."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27–33\nReading Passage 3 has seven paragraphs, A–G.\nChoose the correct heading for paragraphs A–G from the list of headings below. Write the\ncorrect number, i–x, in boxes 27–33 on your answer sheet.\n\n                         List of Headings\n\n i                       Shaping and reforming\n\n ii                      Causes of desertification\n\n iii                     A combination of specific conditions is needed\n\n iv                      Potential threat to industry and communication\n\n v                       An old superstition demystified\n\n vi                      Differences and similarities\n\n vii                     A continuous cycling process\n\n viii                    Habitat for rare species\n\n ix                      Replicating the process in the laboratory\n\n x                       Commonest type of dune\n\n\n27 ____________ Paragraph A\n28 ____________ Paragraph B\n29 ____________ Paragraph C\n30 ____________ Paragraph D\n31 ____________ Paragraph E\n32 ____________ Paragraph F\n33 ____________ Paragraph G"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 36,
+      "text": "Questions 34–36\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 34–36 on your answer sheet.\n\n\nThe 34 _________________ dune is said to have long ridges that can\nextend hundreds of miles.\nAccording to Bagnold, an 35 _________________ is needed to stop the\nsand from moving before a dune can form.\nStéphane Douady believes the singing of dunes is not a spiritual\nphenomenon, but purely 36 _________________."
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 37–40 on your answer sheet.\n\n\n There are many different types of dunes, two of which are most commonly\n found in deserts throughout the world, the linear dune and the 37\n _________________ dune, sometimes also known as the crescentic dune. It has\n long been known that in some places dunes can even sing and the answer lies\n in the sand itself. To produce singing sand in the laboratory, all the grains must\n have similar 38 _________________. And scientists have discovered that the\n size of the grains can affect the 39 _________________ of the sound. But the\n function of the varnish composed of a mixture of 40 _________________ still\n remains puzzling."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "____________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "______ 沙丘據說有很長的 ridge，可延伸數百英里。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "根據 Bagnold，在沙丘形成之前，需要一個 ______ 令沙停止移動。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "Stéphane Douady 認為沙丘唱歌並非精神或靈異現象，而是純粹 ______ 現象。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "世界各地沙漠中常見很多不同類型的沙丘，其中兩種是 linear dune 和 ______ dune；後者有時也稱為 crescentic dune。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "要在實驗室中產生會唱歌的沙，所有沙粒必須有相似的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "科學家發現，沙粒大小會影響聲音的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "但這層由多種 ______ 組成、像 varnish 一樣的塗層，其功能仍令人困惑。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-037/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-037/page-6.jpg"
+  ]
+}

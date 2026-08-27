@@ -1,0 +1,344 @@
+{
+  "id": "p1-153",
+  "catalogueId": "p1-153",
+  "title": "The Beginning of Football",
+  "sourceHeading": "The Beginning of Football",
+  "passage": 1,
+  "practice": 153,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-153-the-beginning-of-football",
+  "source": {
+    "filename": "Practice 153 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "d9443e47ba8eb2ddde773903e4ec1344d7a94fb148a6263c05f09d2c45102485"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Football as we now know it developed in Britain in the 19th century, but the game is far older than this. In fact, the term has historically been applied to games played on foot, as opposed to those played on horseback, so ‘football’ hasn’t always involved kicking a ball. It has generally been played by men, though at the end of the 17th century, games were played between married and single women in a town in Scotland. The married women regularly won."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The very earliest form of football for which we have evidence is the ‘tsu’chu’, which was played in China and may date back 3,000 years. It was played in front of the Emperor during festivities to mark his birthday. It involved kicking a leather ball through a 30–40 cm opening into a small net fixed onto long bamboo canes—a feat that demanded great skill and excellent technique."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Another form of the game, also originating from the Far East, was the Japanese ‘kemari’, which dates from about the fifth century and is still played today. It is a circular, dignified and ceremonial game requiring certain skills, but it is not competitive in the way the Chinese game was, nor is there any struggle for possession of the ball. The players pass the ball to one another in a relatively small space, trying not to let it touch the ground."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The Romans had a much livelier game, ‘harpastum’. Each team member had his own specific tactical assignment, and the spectators took a noisy interest in the proceedings and the score. The role of the feet was so small as scarcely to be of consequence. The game remained popular for 700 or 800 years, but, although it was taken to England, it is doubtful whether it can be considered a forerunner of contemporary football."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The game that flourished in Britain from the 8th to the 19th centuries was substantially different from all the previously known forms—more disorganised, more violent, more spontaneous and usually played by an indefinite number of players. Frequently, the games took the form of a heated contest between whole villages. Kicking opponents was allowed, as was almost everything else."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "There was tremendous enthusiasm for football, even though the authorities repeatedly intervened to restrict it as a public nuisance. In the 14th and 15th centuries, England, Scotland and France all made football punishable by law, because of the disorder that commonly accompanied it, or because the well-loved recreation prevented subjects from practising more useful military disciplines. None of these efforts had much effect."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The English passion for football was particularly strong in the 16th century, influenced by the popularity of the rather better organised Italian game of ‘calcio’. English football was as rough as ever, but it found a prominent supporter in the school headmaster Richard Mulcaster. He pointed out that it had positive educational value and promoted health and strength. Mulcaster claimed that all that was needed was to refine it a little, limit the number of participants in each team and, more importantly, have a referee to oversee the game."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The game persisted in a disorganised form until the early 19th century, when a number of influential English schools developed their own adaptations. In some, including Rugby School, the ball could be touched with the hands or carried; opponents could be tripped up and even kicked. It was recognised in educational circles that, as a team game, football helped to develop such fine qualities as loyalty, selflessness, co-operation, subordination and deference to the team spirit. A ‘games cult’ developed in schools and some form of football became an obligatory part of the curriculum."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "In 1863, developments reached a climax. At Cambridge University, an initiative began to establish some uniform standards and rules that would be accepted by everyone, but there were essentially two camps: the minority—Rugby School and some others—wished to continue with their own form of the game, in particular allowing players to carry the ball. In October of the same year, eleven London clubs and schools sent representatives to establish a set of fundamental rules to govern the matches played amongst them. This meeting marked the birth of the Football Association."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "The dispute concerning kicking and tripping opponents and carrying the ball was discussed thoroughly at this and subsequent meetings, until eventually, on 8 December, the die-hard exponents of the Rugby style withdrew, marking a final split between rugby and football. Within eight years, the Football Association already had 50 member clubs, and the first football competition in the world was started—the FA Cup."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nReading Passage 1 has ten paragraphs, A–J.\nChoose the correct heading for paragraphs D–J from the list below.\nWrite the correct number, i–x, in boxes 1–7 on your answer sheet.\n i                          Limited success in suppressing the game\n\n ii                         Opposition to the role of football in schools\n\n iii                        A way of developing moral values\n\n iv                         Football matches between countries\n\n v                          A game that has survived\n\n vi                         Separation into two sports\n\n vii                        Proposals for minor improvements\n\n viii                       Attempts to standardise the game\n\n ix                         Probably not an early version of football\n\n x                          A rough and disorganised form of football\nExample: Paragraph C — v\n1 ____________ Paragraph D\n2 ____________ Paragraph E\n3 ____________ Paragraph F\n4 ____________ Paragraph G\n5 ____________ Paragraph H\n6 ____________ Paragraph I\n7 ____________ Paragraph J"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nComplete each sentence with the correct ending, A–I.\nWrite the correct letter, A–I, in boxes 8–13 on your answer sheet.\n A                           was seen as something to be encouraged in the young.\n\n B                           involved individual players having different responsibilities.\n\n C                           was influenced by a game from another country.\n\n D                           was a cooperative effort by all the players.\n\n E                           distracted people from more important activities.\n\n F                           was played by teams of a fixed size.\n\n G                           was less popular than it later became.\n\n H                           was often played by one community against another.\n\n I                           formed part of a celebration.\n8 ____________ Tsu’chu\n9 ____________ Kemari\n10 ____________ Harpastum\n11 ____________ From the eighth century onwards, football in the British Isles\n12 ____________ In the past, the authorities opposed football because they believed it\n13 ____________ Once football was accepted in educational settings, it"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph D",
+      "translation": "很可能並非足球的早期版本目標段落：Paragraph D",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph E",
+      "translation": "一種粗暴而混亂的足球形式目標段落：Paragraph E",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph F",
+      "translation": "壓制這項遊戲的成效有限目標段落：Paragraph F",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph G",
+      "translation": "提出小幅改良建議目標段落：Paragraph G",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph H",
+      "translation": "培養品德價值的方法目標段落：Paragraph H",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph I",
+      "translation": "嘗試使比賽標準化目標段落：Paragraph I",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph J",
+      "translation": "分裂成兩種運動目標段落：Paragraph J",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "____________ Tsu’chu",
+      "translation": "Tsu’chu 是慶祝活動的一部分。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "____________ Kemari",
+      "translation": "Kemari 是所有玩家共同合作完成的活動。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "____________ Harpastum",
+      "translation": "Harpastum 涉及不同球員各自承擔不同職責。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "____________ From the eighth century onwards, football in the British Isles",
+      "translation": "從八世紀起，英倫群島的足球經常是一個社群對抗另一個社群。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "____________ In the past, the authorities opposed football because they believed it",
+      "translation": "過去官方反對足球，因為他們認為足球使人分心，無法從事更重要的活動。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "____________ Once football was accepted in educational settings, it",
+      "translation": "一旦足球在教育環境中被接受，它就被視為值得在年輕人中鼓勵的事物。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-153/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-153/page-6.jpg"
+  ]
+}

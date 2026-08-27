@@ -1,0 +1,214 @@
+{
+  "id": "p1-094",
+  "catalogueId": "p1-094",
+  "title": "Fordlandia",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 94,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-094-fordlandia",
+  "source": {
+    "filename": "Practice 94 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "22ac52daba51824f931fef4092d8098290f7c8a9e96db4ad970766a839de9d8a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Fordlandia Natural latex, or rubber, comes from the sap of rubber trees. Native to the Amazon region of South America, these trees had long underpinned a Brazilian monopoly, and the boom in wild rubber had made many remote jungle towns rich, until thousands of the tree’s seeds were smuggled out by an entrepreneurial Brit, Henry Wickham. These were used to start plantations throughout British-controlled East Asia, where the trees, facing none of their natural insect or fungal enemies, thrived. Thus, the Brazilian rubber boom crashed, leaving control of the world’s supplies with the plantation owners in Malaysia (where, to this day, most of the world’s natural rubber is still produced)."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "But in the late 1920s, the automobile tycoon Henry Ford had a vision. He believed in vertical integration—that is, a supply chain of car parts and products brought under his ownership. With his factories producing hundreds of thousands of cars, each of them needing rubber tyres, Ford wanted his own source of rubber and resented dealing with the British plantation interests. He therefore decided to buy a huge tract of Amazonian rainforest, where he would transplant his American workers and lifestyle, in order to make the largest rubber plantation on the planet. It would be called Fordlandia—ambitious, grandiose, and doomed from the beginning."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The first mistake was to hire a rather untrustworthy Brazilian to scout for the best location in the Amazon. This man recommended a damp, rocky, and infertile series of hillsides near the Tapajós River, a tributary of the wide and mighty Amazon. In 1928, Ford blindly acquired a 10,000-square-kilometre concession and immediately ordered extensive infrastructure to be built—at huge cost. To this end, a vast array of equipment arrived: earth-moving machinery, tractors, stump-pullers, trains, prefabricated living quarters and food-making equipment. The surface forest was cleared, scores of Ford’s employees were relocated, and out of this wilderness sprang an instant slice of America, complete with a modern hospital, library, hotels, ice cream makers, and row upon row of prefabricated houses positioned along nicely paved streets."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The second big mistake was that, incredibly, Ford never thought to consult trained horticulturists. He naively assumed that his own company engineers, who had proved their worth in the production of cars, would prove equally adept at this agricultural endeavour. Thus, they planted the rubber trees close together, believing that they would flourish in their home environment. However, in the Amazonian jungle, wild rubber trees are actually few and far between—a defence against the abundant insects that chew, drill, suck and bite. In such environments, monoculture farming approaches are dubious at best. Ford’s young rubber trees had no sooner appeared from the ground than they were attacked by caterpillars, ants, red spiders, and most significantly, South American leaf blight, which, to this day, limits the number of rubber plantations in this, the tree’s native land."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The next problem arose from cultural differences. The newly planted fields required hundreds of local workers, who, although well paid, were expected to follow Ford’s patronising vision of a healthy lifestyle. Instead of the local custom of working before and after the scorching heat in the middle of the day, Ford’s workers were forced to do the standard company 9-to-5 shift. Similarly, they had to eat American food and take part in weekend activities considered sufficiently wholesome, such as poetry readings and square dancing. Alcohol was strictly forbidden at work, in the housing estates, or within Fordlandia’s sphere of influence. After a year of being denied their local customs, the disgruntled workers had had enough, and a riot followed, leaving the hapless American staff scurrying into the jungle to escape injury. The riot was finally quelled with the arrival of the Brazilian army."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "After three years with no significant quantity of rubber to show for the effort, Ford did what he should have done from the beginning and hired a trained horticulturist. The expert ultimately concluded that, regardless of how the rubber trees were planted, the land was unsuitable for their cultivation. With such humiliating news, anyone less stubborn would have given up, yet Ford purchased another tract of land some fifty miles downstream of the Tapajós River—flatter, drier, better drained, and more suitable for machinery—and started all over again. This time, Ford imported blight-resistant Malaysian rubber trees and brought in much more horticultural expertise. Still, 10 years later, in 1942, the operation could only produce a paltry 750 tons of latex rubber. Ford’s factories were hoping for almost 40,000 tons."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "The final nail in the coffin was the development of synthetic rubber, and in 1945, it was time to admit defeat, although it was not Ford who did so. By that time he was old and ill and had relinquished control of his company to his grandson, Henry Ford II, who closed down the entire rubber operation. The holdings were sold back to the Brazilian government for a pittance, resulting in a loss of over $20 million (which would be more than ten times as much in today’s terms)—a complete and utter financial disaster."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nDo the following statements agree with the information given in Reading Passage One?\nWrite:\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n1 _________________ Henry Wickham destroyed the Brazilian rubber boom.\n2 _________________ Rubber trees are well suited to Malaysia.\n3 _________________ The Tapajós River is very wide.\n4 _________________ Fordlandia may have succeeded."
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 10,
+      "text": "Questions 5–10\nComplete the table.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n                 Fordlandia’s Problems                           Results\n\n                 The first tract of land was not 5               No 6 _________________ of rubber\n One\n                 _________________ for rubber trees.             was produced.\n\n                 7 _________________ were unfamiliar with        An unwise 8 _________________\n Two\n                 farming.                                        approach was used.\n\n                 Workers were not allowed to follow 9\n Three                                                           A 10 _________________ occurred.\n                 _________________."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nComplete the sentences.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nThe most significant natural enemy of rubber trees is 11 _________________.\nPlantations definitely need the skills of 12 _________________.\nFordlandia closed down upon the invention of 13 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Henry Wickham destroyed the Brazilian rubber boom.",
+      "translation": "Henry Wickham 摧毀了巴西橡膠熱潮。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Rubber trees are well suited to Malaysia.",
+      "translation": "橡膠樹很適合在馬來西亞生長。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The Tapajós River is very wide.",
+      "translation": "Tapajós River 非常寬闊。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ Fordlandia may have succeeded.",
+      "translation": "Fordlandia 有可能成功。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "第一塊土地不 5 __________ 橡膠樹。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "沒有產出 6 __________ 的橡膠。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "_________________ were unfamiliar with An unwise 8 _________________ Two farming. approach was used. Workers were not allowed to follow 9 Three A 10 _________________ occurred. _________________.",
+      "translation": "7 __________ 不熟悉農業。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "他們使用了一種不明智的 8 __________ 方法。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "工人不被允許遵從 9 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "發生了一場 10 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "橡膠樹最重要的天敵是 11 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "種植園明顯需要 12 __________ 的技能。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "Fordlandia 在 13 __________ 發明後關閉。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-094/page-4.jpg"
+  ]
+}

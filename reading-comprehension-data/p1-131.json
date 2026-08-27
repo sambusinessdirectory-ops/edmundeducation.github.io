@@ -1,0 +1,330 @@
+{
+  "id": "p1-131",
+  "catalogueId": "p1-131",
+  "title": "Light pollution",
+  "sourceHeading": "Light Pollution",
+  "passage": 1,
+  "practice": 131,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-131-light-pollution",
+  "source": {
+    "filename": "Practice 131 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "af716354b9b4bab8a0d855d7c5640d094dedc96c0e4504cc32c967b711efec8a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "If humans were truly at home under the light of the moon and stars, we would go into darkness happily, the midnight world as visible to us as it is to the vast number of nocturnal species on this planet. Instead, we are diurnal creatures, with eyes adapted to living in the sun’s light. This is a basic evolutionary fact, even though most of us don’t think of ourselves as diurnal beings any more than we think of ourselves as primates or mammals, or Earthlings. Yet it’s the only way to explain what we’ve done to the night: We’ve engineered it to receive us by filling it with light."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "This kind of engineering is no different from damming a river. Its benefits come with consequences—called light pollution—whose effects scientists are only now beginning to study. Light pollution is largely the result of bad lighting design, which allows artificial light to shine outward and upward into the sky, where it’s not wanted, instead of focusing it downward, where it is. Ill-designed lighting washes out the darkness of night and radically alters the light levels and light rhythms to which many forms of life, including ourselves, have adapted."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Now most of humanity lives under intersecting domes of reflected, refracted light, of scattering rays from overlit cities and suburbs, from light-flooded highways and factories. Nearly all of nighttime Europe is a nebula of light, as is most of the United States and all of Japan. In the South Atlantic, the glow from a single fishing fleet—squid fishermen luring their prey with metal halide lamps—can be seen from space, burning brighter, in fact, than Buenos Aires or Rio de Janeiro."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "We’ve lit up the night as if it were an unoccupied country, when nothing could be further from the truth. Among mammals alone, the number of nocturnal species is astonishing. Light is a powerful biological force, and in many species, it acts as a magnet, a process being studied by researchers such as Travis Longcore and Catherine Rich, co-founders of the Los Angeles-based Urban Wildlands Group. The effect is so powerful that scientists speak of songbirds and seabirds being “captured” by searchlights on land or by the light from gas flares on marine oil platforms, circling and circling in the thousands until they drop. Migrating at night, birds are apt to collide with brightly lit tall buildings; immature birds on their first journey suffer disproportionately."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Insects, of course, cluster around streetlights, and feeding at those insect clusters is now ingrained in the lives of many bat species. In some Swiss valleys, the European lesser horseshoe bat began to vanish after streetlights were installed, perhaps because those valleys were suddenly filled with light-feeding pipistrelle bats. Other nocturnal mammals—including desert rodents, fruit bats, opossums, and badgers—forage more cautiously under the permanent full moon of light pollution because they’ve become easier targets for predators."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Some birds—blackbirds and nightingales, among others—sing at unnatural hours in the presence of artificial light. Scientists have determined that long artificial days—and artificially short nights—induce early breeding in a wide range of birds. And because a longer day allows for longer feeding, it can also affect migration schedules. One population of Bewick’s swans wintering in England put on fat more rapidly than usual, priming them to begin their Siberian migration early. The problem, of course, is that migration, like most other aspects of bird behaviour, is a precisely timed biological behaviour. Leaving early may mean arriving too soon for nesting conditions to be right."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Nesting sea turtles, which show a natural predisposition for dark beaches, find fewer and fewer of them to nest on. Their hatchlings, which gravitate towards the brighter, more reflective sea horizon, find themselves confused by artificial lighting behind the beach. In Florida alone, hatchling losses number in the hundreds of thousands every year. Frogs and toads living near brightly lit highways suffer nocturnal light levels that are as much as a million times brighter than normal, throwing nearly every aspect of their behaviour out of joint, including their nighttime breeding choruses."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Of all the pollution we face, light pollution is perhaps the most easily remedied. Simple changes in lighting design and installation yield immediate changes in the amount of light spilt into the atmosphere and, often, immediate energy savings."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "It was once thought that light pollution only affected astronomers, who need to see the night sky in all its glorious clarity. And, in fact, some of the earliest civic efforts to control light pollution—in Flagstaff, Arizona, half a century ago—were made to protect the view from Lowell Observatory, which sits high above that city. Flagstaff has tightened its regulations since then, and in 2001 it was declared the first International Dark Sky City. By now the effort to control light pollution has spread around the globe. More and more cities and even entire countries, such as the Czech Republic, have committed themselves to reducing unwanted glare."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "Unlike astronomers, most of us may not need an undiminished view of the night sky for our work, but like most other creatures we do need darkness. Darkness is as essential to our biological welfare, to our internal clockwork, as light itself. The regular oscillation of waking and sleep in our lives—one of our circadian rhythms—is nothing less than a biological expression of the regular oscillation of light on Earth. So fundamental are these rhythms to our being that altering them is like altering gravity."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Questions 1–6\nThe reading passage has ten paragraphs, A–J.\nWhich paragraph contains the following information?\nWrite the correct letter, A–J, in boxes 1–6 on your answer sheet.\n1 A cause of light pollution\n2 A city that has successfully reduced light pollution\n3 The importance of darkness\n4 The prevalence of light pollution around the world\n5 Methods of reducing light pollution\n6 The reason humans have changed the night"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 8,
+      "text": "Questions 7–8\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 7 and 8 on your answer sheet.\n7 How does light pollution affect living creatures?\n  A Through poor lighting design.\n  B By changing the cities and suburbs to which creatures are accustomed.\n  C By changing the directions of light.\n  D By changing the light levels and rhythms to which creatures are adapted.\n8 Which aspect of animals’ lives is NOT mentioned as being affected by unwanted light?\n  A Migration.\n  B Reproduction.\n  C Natural lifespan.\n  D Feeding."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nMatch each animal with the correct information, A–G.\nWrite the correct letter, A–G, in boxes 9–13 on your answer sheet.\n\n\n9 Songbirds\n10 Horseshoe bats\n11 Nightingales\n12 Bewick’s swans\n13 Sea turtles\n\n\n A                          eat too much and migrate early.\n\n B                          do not like to sing at night.\n\n C                          are attracted by light and then crash.\n\n D                          suffer food shortages because of competitors.\n\n E                          become easier targets for predators.\n\n F                          are active at unusual times.\n\n G                          have trouble breeding."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A cause of light pollution",
+      "translation": "光污染的一個成因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A city that has successfully reduced light pollution",
+      "translation": "一個成功減少光污染的城市。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The importance of darkness",
+      "translation": "黑暗的重要性。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The prevalence of light pollution around the world",
+      "translation": "光污染在世界各地的普遍程度。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Methods of reducing light pollution",
+      "translation": "減少光污染的方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The reason humans have changed the night",
+      "translation": "人類改變夜晚的原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "How does light pollution affect living creatures?",
+      "translation": "光污染如何影響生物？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "Which aspect of animals’ lives is NOT mentioned as being affected by unwanted light?",
+      "translation": "以下哪一項動物生活層面沒有被文章提及受到多餘光線影響？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Songbirds",
+      "translation": "鳴禽。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Horseshoe bats",
+      "translation": "馬蹄蝠。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Nightingales",
+      "translation": "夜鶯。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Bewick’s swans",
+      "translation": "Bewick’s swans，一種天鵝。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Sea turtles",
+      "translation": "海龜。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-131/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-131/page-5.jpg"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "p2-131",
+  "catalogueId": "p2-131",
+  "title": "Conflicting climatic phenomena co-existing on the Mars",
+  "sourceHeading": "Conflicting Climatic Phenomena Coexisting on Mars",
+  "passage": 2,
+  "practice": 131,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-131-conflicting-climatic-phenomena-co-existing-on-the-mars",
+  "source": {
+    "filename": "Practice 131 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "ea3a40fedfc5c12f40416115f255efa88b41e7137f0c3ccbabbfee9cb5eb9438"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "On Mars, signs of wetness keep pouring in: deeply carved river valleys, vast deltas and widespread remnants of evaporating seas have convinced many experts that liquid water may have covered large parts of the Red Planet for a billion years or more. But most efforts to explain how Martian climate ever permitted such clement conditions come up dry. Bitterly cold and parched today, Mars needed a potent greenhouse atmosphere to sustain its watery past. A thick layer of heat-trapping carbon dioxide from volcanoes probably shrouded the young planet, but climate models indicate time and again that CO2 alone could not have kept the surface above freezing."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Now, inspired by the surprising discovery that sulfur minerals are pervasive in the Martian soil, scientists are beginning to suspect that CO2 had a warm-up partner: sulfur dioxide (SO2). Like CO2, SO2 is a common gas emitted when volcanoes erupt, a frequent occurrence on Mars when it was still young. A hundredth or even a thousandth of a percent SO2 in Mars’s early atmosphere could have provided the extra boost of greenhouse warming that the Red Planet needed to stay wet, explains geochemist Daniel P. Schrag of Harvard University."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "That may not sound like much, but for many gases, even minuscule concentrations are hard to maintain. On our home planet, SO2 provides no significant long-term warmth because it combines almost instantly with oxygen in the atmosphere to form sulfate, a type of salt. Early Mars would have been virtually free of atmospheric oxygen, though, so SO2 would have stuck around much longer."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "“When you take away oxygen, it’s a profound change, and the atmosphere works really differently,” Schrag remarks. According to Schrag and his colleagues, that difference also implies that SO2 would have played a starring role in the Martian water cycle—thus resolving another climate conundrum, namely, a lack of certain rocks."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Schrag’s team contends that on early Mars, much of the SO2 would have combined with airborne water droplets and fallen as sulfurous acid rain, rather than transforming into a salt as on Earth. The resulting acidity would have inhibited the formation of thick layers of limestone and other carbonate rocks. Researchers assumed Mars would be chock-full of carbonate rocks because their formation is such a fundamental consequence of the humid, CO2-rich atmosphere. Over millions of years, this rock-forming process has sequestered enough of the carbon dioxide spewed from volcanoes on Earth to limit the buildup of the gas in the atmosphere. Stifling this CO2-sequestration step on early Mars would have forced more of the gas to accumulate in the atmosphere—another way SO2 could have boosted greenhouse warming, Schrag suggests."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Some scientists doubt that SO2 was really up to these climatic tasks. Even in an oxygen-free atmosphere, SO2 is still extremely fragile; the sun’s ultraviolet radiation splits apart SO2 molecules quite readily, points out James F. Kasting, an atmospheric chemist at Pennsylvania State University. In Kasting’s computer models of Earth’s early climate, which is often compared with that of early Mars, this photochemical destruction capped SO2 concentrations at one thousandth as much as Schrag and his colleagues describe. “There may be ways to make this idea work,” Kasting says. “But it would take some detailed modeling to convince skeptics, including me, that it is actually feasible.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Schrag admits that the details are uncertain, but he cites estimates by other researchers who suggest that early Martian volcanoes could have spewed enough SO2 to keep pace with the SO2 destroyed photochemically. Previous findings also indicate that a thick CO2 atmosphere would have effectively scattered the most destructive wavelengths of ultraviolet radiation—yet another example of an apparently mutually beneficial partnership between CO2 and SO2 on early Mars."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Kasting maintains that an SO2 climate feedback could not have made early Mars as warm as Earth, but he does allow for the possibility that SO2 concentrations may have remained high enough to keep the planet partly defrosted, with perhaps enough rainfall to form river valleys. On that point, Schrag does not quibble. ‘Our hypothesis doesn’t depend at all on whether there was a big ocean, a few lakes or just a few little puddles,’ he says. ‘Warm doesn’t mean warm like the Amazon. It could mean warm like Iceland—just warm enough to create those river valleys.’ With SO2, it takes only a little. If sulfur dioxide warmed early Mars, as a new hypothesis suggests, minerals called sulfites would have formed in standing water at the surface. No sulfites have yet turned up, possibly because no one was looking for them. The next-generation rover, the Mars Science Laboratory, is well equipped for the search. Scheduled to launch in 2009, the rover (shown here in an artist’s conception) will be the first to carry an X-ray diffractometer, which can scan and identify the crystal structure of any mineral it encounters."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 14–19 on your answer sheet.\nNB You may use any letter more than once.\n14 A problem indirectly solved by SO2\n15 A device with an astounding ability for detection\n16 A potential contributor to warming on Mars that interacts with CO2.\n17 The destructive effect of sunlight proposed by opponents.\n18 A specific condition on early Mars that allowed SO2 to remain in the atmosphere for a long\ntime.\n19 Conflicting climatic phenomena coexisting on Mars."
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 22,
+      "text": "Questions 20–22\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 20–22 on your answer sheet, write\n\n TRUE                      if the statement agrees with the information\n\n FALSE                     if the statement contradicts the information\n\n NOT GIVEN                 if there is no information on this\n\n\n20 Schrag has provided concrete evidence to counter sceptics of his view.\n21 Increasing evidence supports the leading role of SO2 in warming Mars.\n22 Sulfites may not have been detected because no one was looking for them."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nSummary\nComplete the summary below. Choose NO MORE THAN THREE WORDS from the passage for\neach answer. Write your answers in boxes 23–26 on your answer sheet.\n\n\nSchrag’s team argues that 23 _________________, formed when SO2\ncombined with 24 _________________, would have inhibited the buildup of\nthick layers of limestone and other carbonate rocks. A humid, CO2-rich\natmosphere could produce thick layers of 25 _________________. Over time,\nenough CO2 from volcanoes was sequestered to limit the buildup of the gas in\nthe atmosphere. Stopping this process would have allowed SO2 to accelerate\n26 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A problem indirectly solved by SO2",
+      "translation": "一個由 SO2 間接解決的問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A device with an astounding ability for detection",
+      "translation": "一種有驚人偵測能力的儀器。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A potential contributor to warming on Mars that interacts with CO2.",
+      "translation": "一種可能促成火星暖化、並與 CO2 互相配合的因素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "The destructive effect of sunlight proposed by opponents.",
+      "translation": "反對者提出陽光具有破壞作用。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "A specific condition on early Mars that allowed SO2 to remain in the atmosphere for a long time.",
+      "translation": "早期火星上一個令 SO2 能長時間留在大氣中的特定條件。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Conflicting climatic phenomena coexisting on Mars.",
+      "translation": "火星上同時存在互相衝突的氣候現象或氣候證據。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Schrag has provided concrete evidence to counter sceptics of his view.",
+      "translation": "Schrag 已經提供具體證據來反駁懷疑他觀點的人。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Increasing evidence supports the leading role of SO2 in warming Mars.",
+      "translation": "越來越多證據支持 SO2 在火星暖化中扮演主導角色。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Sulfites may not have been detected because no one was looking for them.",
+      "translation": "sulfites 可能未被發現，是因為以前沒有人在找它們。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "Schrag 團隊認為，當 SO2 與 24 ______ 結合時形成的 23 ______，會抑制厚層 limestone 和其他 carbonate rocks 的累積。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "當 SO2 與 24 ______ 結合時形成。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "潮濕且富含 CO2 的大氣可以產生厚層的 25 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "_________________.",
+      "translation": "停止這個過程會令 SO2 加速 / 加強 26 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-131/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-131/page-5.jpg"
+  ]
+}

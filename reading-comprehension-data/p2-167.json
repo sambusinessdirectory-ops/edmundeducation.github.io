@@ -1,0 +1,307 @@
+{
+  "id": "p2-167",
+  "catalogueId": "p2-167",
+  "title": "Warning: Mondays are bad for your heart",
+  "sourceHeading": "Warning: Mondays Are Bad for Your Heart",
+  "passage": 2,
+  "practice": 167,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-167-warning-mondays-are-bad-for-your-heart",
+  "source": {
+    "filename": "Practice 167 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "502c92e54159b22da51a287d36cd0638b388752bf13869d84b7e588dcddd665f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "That ‘Monday morning feeling’ could be a crushing pain in the chest which leaves you sweating and gasping for breath. Recent research from Germany and Italy shows that heart attacks are more common on Monday mornings and doctors blame the stress of returning to work after the weekend break."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The risk of having a heart attack on any given day should be one in seven, but a six-year study coordinated by researchers at the Free University of Berlin involving more than 2,600 Germans revealed that the average person had a 20 per cent higher chance of having a heart attack on a Monday than on any other day."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Working Germans are particularly vulnerable, with a 33 per cent higher risk at the beginning of the working week. Non-workers, by comparison, appear to be no more at risk on a Monday than any other day."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "A study of 11,000 Italians identified 8 a.m. on a Monday morning as the most stressful time for the heart, and both studies showed that Sunday is the least stressful day, with fewer heart attacks in both countries."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The findings could lead to a better understanding of what triggers heart attacks, according to Dr. Stefan Willich of the Free University. ‘We know a lot about long-term risk factors such as smoking and cholesterol, but we don’t know what actually triggers heart attacks, so we can’t make specific recommendations about how to prevent them,’ he said."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Monday mornings have a double helping of stress for the working body as it makes a rapid transition from sleep to activity, and from the relaxing weekend to the pressures of work. ‘When people get up, their blood pressure and heart rate go up and there are hormonal changes in their bodies,’ Willich explained. ‘All these things can have an adverse effect on the circulatory system and increase the risk of a clot in the arteries which will cause a heart attack.’ ‘When people return to work after a weekend off, the pace of their life changes. They have a higher workload, more stress, more anger and more physical activity,’ said Willich. ‘We need to know how these events cause changes in the body before we can understand if they cause heart attacks.’"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "But although it is tempting to believe that returning to work increases the risk of a heart attack, both Willich and the Italian researchers admit that it is only a partial answer. Both studies showed that the over-65s are also vulnerable on a Monday morning even though most no longer work. The reason for this is not clear, but the Italian team at the Luigi Sacco Hospital in Milan speculate that social interactions—the thought of facing another week and all its pressures—may play a part."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "What is clear, however, is that the Monday morning peak seems to be consistent from northern Germany to southern Italy in spite of the differences in diet and lifestyle."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Willich is reluctant at this stage to make specific recommendations, but he suggests that anyone who suffers from heart disease should take it easy on Monday mornings and leave potentially stressful meetings until midweek. ‘People should try to create a pleasant working environment,’ he added. ‘Maybe this risk applies only to those who see work as a burden, and people who enjoy their work are not so much at risk. We need to find out more.’"
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–18",
+    "g19": "Questions 19–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 18,
+      "text": "Questions 15–18\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 15–18 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n15 __________ Unemployed Germans have a higher risk of heart attack than employed Germans.\n16 __________ Unemployed Italians have a lower risk of heart attack than unemployed Germans.\n17 __________ Germans are at risk of heart attack because they consume large amounts of fatty food.\n18 __________ Cholesterol and smoking trigger heart attacks."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 27,
+      "text": "Questions 19–27\nChoose the best heading for each paragraph, A–I, from the list below.\nWrite the appropriate number, i–ix, in boxes 19–27 on your answer sheet.\n\n List of Headings\n\n i                          The exact cause of heart attacks\n\n ii                         The safest day\n\n iii                        Breathless, sweaty and crushed\n\n iv                         Reducing the risk of heart attack\n\n v                          High-risk Monday\n\n vi                         Mondays: riskier regardless of diet and lifestyle\n\n vii                        Unemployed and safer\n\n viii                       Older people also at risk\n\n ix                         Bodily adaptations\n19 __________ Paragraph A\n20 __________ Paragraph B\n21 __________ Paragraph C\n22 __________ Paragraph D\n23 __________ Paragraph E\n24 __________ Paragraph F\n25 __________ Paragraph G\n26 __________ Paragraph H\n27 __________ Paragraph I"
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Unemployed Germans have a higher risk of heart attack than employed Germans.",
+      "translation": "失業德國人比受僱德國人有更高心臟病風險。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Unemployed Italians have a lower risk of heart attack than unemployed Germans.",
+      "translation": "失業意大利人比失業德國人有較低心臟病風險。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Germans are at risk of heart attack because they consume large amounts of fatty food.",
+      "translation": "德國人有心臟病風險，是因為他們吃大量高脂肪食物。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "__________ Cholesterol and smoking trigger heart attacks.",
+      "translation": "膽固醇和吸煙會觸發心臟病發作。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph A",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph B",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph C",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph D",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph E",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph F",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph G",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph H",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Paragraph I",
+      "translation": "那種「星期一早上的感覺」可能是胸口壓痛，令人冒汗並喘不過氣。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-167/page-4.jpg"
+  ]
+}

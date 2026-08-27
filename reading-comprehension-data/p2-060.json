@@ -1,0 +1,295 @@
+{
+  "id": "p2-060",
+  "catalogueId": "p2-060",
+  "title": "Park the Car Permanently",
+  "sourceHeading": "Park the Car Permanently",
+  "passage": 2,
+  "practice": 60,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-060-park-the-car-permanently",
+  "source": {
+    "filename": "Practice 60 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "8abd1a1e4266f54f4b9d20ee03d701244ef4c00a0550b46a85cf4f41b6005e59"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "More than a million people are likely to be disappointed by their experience of the Government’s attempts to improve the democratic process. They may have signed an online petition against road pricing, but ministers are determined to push ahead with plans to make it more expensive to drive. The Government is convinced that this is the only way to reduce congestion and the environmental damage caused by motoring."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Why wait until you are forced off the road by costly charges? You may enjoy the convenience of your car, but the truth is that for huge numbers of people, owning a car makes little financial sense. You’d be far better off giving it up and relying on other forms of transport. “I’m 47 and I’ve never owned a car, despite having a job that requires me to travel all over the South-East to visit clients,” says Donnachadh McCarthy, an environmental expert who specialises in advising people on how to be greener. “A car is a huge financial commitment, as well as being a psychological addiction. Not owning a vehicle is far more practical than most people realise.”"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "It may seem as if cars have never been cheaper. After all, it is now possible to buy a brand-new car for less than £4,800 – the Perodua Kelisa, if you’re interested. There are plenty of decent vehicles you can buy straight from the showroom for between £5,000 and £7,000. Of course, if you buy second-hand, the prices will be even lower. However, the falling purchase price of cars masks the fact that it has never been more expensive to own and run a vehicle. The estimate is that the cost of running a car rose by more than ten per cent last year alone. The annual cost of running your own vehicle is put at an average of £5,539, or £107 a week. While drivers who do less or more than the average mileage each year will spend correspondingly less or more, many of the costs of car ownership are fixed – and therefore unavoidable."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Depreciation – the fact that your vehicle loses a large chunk of its resale value each year – is one problem, accounting for £2,420 a year. The cost of finance packages, which most people have to resort to in order to pay for at least part of the price of a new car, has also been rising – to an average of £1,040 a year. Then there’s insurance, maintenance, tax, and breakdown insurance, all of which will cost you broadly the same amount, however many miles you do. Only fuel costs are truly variable. While petrol prices are the most visible indicator of the cost of running a car, for the typical driver they account for less than one-fifth of the real costs each year. In other words, leaving aside all the practical and psychological barriers to giving up your car, in financial terms, doing so makes sense for many people."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Take the cost of public transport, for example. In London, the most expensive city in the UK, the most expensive annual Travelcard, allowing travel in any zone at any time, costs just over £1,700. You could give up your car and still have thousands of pounds to spare to spend on occasional car hire. In fact, assuming that you have the most expensive Travelcard in London, you could hire a cheap car from a company such as easyCar for about 30 weeks a year, and still be better off overall than if you own your own vehicle. Not that car hire is necessarily the most cost-effective option for people who are prepared to do without a car but may still need to drive occasionally."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Streetcar, one of several “car clubs” with growing numbers of members, reckons that using its vehicles twice a week, every week, for a year, would cost you just £700. Streetcar’s model operates similarly to those of its main rivals, Citycarclub and Whizzgo. These three companies, which now operate in 20 of Britain’s towns and cities, charge their members a refundable deposit – £150 at Streetcar – and then provide them with an electronic smart card. This enables members to get into the vehicles, which are left parked in set locations, and the keys are then found in the glove compartment. Members pay an hourly rate for the car – £4.95 is the cost at Streetcar – and return it to the same spot, or to a different designated parking place."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Car sharing is an increasingly popular option for people making the same journeys regularly – to and from work, for example. Many companies run schemes that help colleagues who live near each other and work in the same place to contact each other so they can share the journey to work. Liftshare and Carshare are two national organisations that maintain online databases of people who would be prepared to team up. Other people may be able to replace part or all of their journey to work – or any journeys, for that matter – with low-cost transport such as a bicycle, or even by walking. The more you can reduce your car use, however you gain access to it, the more you will save."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has seven paragraphs (A–G).\nWhich paragraph does each of the following headings best fit?\n14 ______________ Don’t wait!\n15 ______________ Team up\n16 ______________ Join a club\n17 ______________ Use public transport"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nWrite the corresponding letters in answer boxes 18–22 in any order.\n A McCarthy claims people can become addicted to using cars.\n B The cost of using a car rose by over ten per cent last year.\n C Most British people borrow money to help buy cars.\n D Many people need cars to drive in London occasionally.\n E Streetcar operates in over 20 cities in Britain.\n F Streetcar’s cars must be left at specific locations.\n G Car sharing is becoming more popular with people who live and work near each other.\n H The government wants to encourage people to go to work on foot or by bicycle."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nAccording to the information given in the text, choose the correct answer or answers from\nthe choices given.\n\n\n23 The government has decided\n A not to follow protestors’ suggestions.\n B to become more democratic.\n C to go ahead with charging drivers to use roads.\n\n\n24 Cars are often\n A relatively cheap in Britain.\n B relatively expensive to operate in Britain.\n C sold second-hand in Britain.\n\n\n25 Fuel costs\n A make up about 20 per cent of the cost of running a car.\n B are related to the amount drivers pay for their cars.\n C depend on how far you drive.\n\n\n26 Using public transport\n A will save money for British motorists, except in London.\n B and renting a car part of the time can save money.\n C costs Londoners about £1,700 a year."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ Don’t wait!",
+      "translation": "不要等；不要等到被迫才行動。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ Team up",
+      "translation": "組隊；與別人合作同行。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ Join a club",
+      "translation": "加入一個車會或會員制組織。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ Use public transport",
+      "translation": "使用公共交通。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "McCarthy 認為人們可能會對用車上癮。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "McCarthy 認為人們可能會對用車上癮。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "McCarthy 認為人們可能會對用車上癮。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "McCarthy 認為人們可能會對用車上癮。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "McCarthy 認為人們可能會對用車上癮。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "The government has decided",
+      "translation": "政府已經決定……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Cars are often",
+      "translation": "汽車經常／往往……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Fuel costs",
+      "translation": "燃油成本……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Using public transport",
+      "translation": "使用公共交通……",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-060/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-060/page-5.jpg"
+  ]
+}

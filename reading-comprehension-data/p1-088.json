@@ -1,0 +1,214 @@
+{
+  "id": "p1-088",
+  "catalogueId": "p1-088",
+  "title": "It’s Dynamite",
+  "sourceHeading": "It’s Dynamite",
+  "passage": 1,
+  "practice": 88,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-088-its-dynamite",
+  "source": {
+    "filename": "Practice 88  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "f02df3dc99662a29a8a1b815a29968a34f52fd42e2ffa0ea348f79b72fcad4f8"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "In 1866, an American railroad company was constructing a tunnel through the Sierra Nevada mountains. Workers encountered particularly hard rock and ordered three crates of the only blasting explosive that could do the job: nitroglycerine. The first of these crates arrived in a postal centre in San Francisco, and upon being accidentally dropped, promptly exploded, killing all 15 people present. The point was taken. ‘Nitro’ was dangerously shock-sensitive. Its transportation was soon banned, and from then on, it had to be manufactured in on-site laboratories – an expensive and still quite dangerous task, as the number of deadly explosions would demonstrate."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The history of nitroglycerine is full of such sad events. It was first synthesised in 1847 by Ascanio Sobrero, an Italian chemist, and he was so frightened by his discovery that he did not immediately publish his findings. He was also the first to caution the world against its use, in both private letters and a journal article, arguing that it was impossible to handle the substance safely. However, it was soon discovered that when frozen (at about 5°C), nitro was much less sensitive to shock. The problem arose when it was thawed back into liquid form, at which point it became even more unstable. Again, a mounting death toll would testify to this fact."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Yet nitroglycerine always remained in demand, being the first practical mining explosive produced. Prior to this, gunpowder had been used, but it was limited and clumsy. Gunpowder is a ‘low’ explosive, meaning that it ‘burns’ from layer to layer, producing gases which expand at less than the speed of sound. Nitro is a ‘high’ explosive, meaning that it ‘detonates’ – that is, reacts when triggered by a virtually instantaneous shock wave, producing gases which expand at more than the speed of sound. Gunpowder could not efficiently shatter rock (although it was suitable for bullets and artillery shells). Only nitro could really do the job, and the Swedish chemist Alfred Nobel became interested."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Nobel’s companies were shifting from the production of iron and steel to the almost exclusive manufacture of cannons, armaments, and gunpowder, and he saw the commercial value in making nitroglycerine manageable. He began experimenting—at considerable cost. In 1864, his younger brother and several workers were killed in a factory explosion. Undeterred, Nobel built a new factory in the remote hills of Germany, determined to find the answer. He first tried combining nitro with conventional gunpowder, marketing the final product as ‘blasting oil’, yet accidental explosions continued. His factory was destroyed on two more occasions!"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The breakthrough finally came when Nobel’s company mixed liquid nitroglycerine with an inert absorbent silicate sand, known as ‘diatomaceous earth’. This was produced by grinding down diatomite, a rock found around the local hills. It is similar to volcanic pumice, being very light and highly porous, yet it is actually the fossilised remains of diatoms, a hard-shelled form of algae. This combination immediately made nitro less dangerous to handle and, because it was solid, more convenient to package and transport. Nobel patented his invention in 1867 under the name of ‘dynamite’, based on ‘dynamis’, the Greek word for ‘power’."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "In its best-known form, dynamite was made in short paper-wrapped sticks consisting of three-quarters nitro and one-quarter diatomaceous earth, but it would always remain dangerous to manufacture, store, and use. Over time, the nitro can seep out, crystallising on the outside of the sticks or pooling at the bottom of storage boxes, with all the consequent instability that raw nitro possesses. Nevertheless, in an age of extensive railroad and tunnel construction, the product would earn Nobel a great fortune. Yet, while high explosives serve a commendable purpose in peacetime engineering projects, Nobel’s fortune was also based on weapons of death and destruction, and the public knew it."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Nobel himself was to become greatly perturbed, especially because of the events surrounding the death of his brother Ludvig. French newspapers mistook Ludvig’s death for Alfred’s and published an obituary. Alfred happened to be in France at the time, and one can only wonder at his reaction upon reading about his own death! Yet the obituary was harsh and condemnatory, calling Nobel the ‘merchant of death’, someone who ‘became rich by finding ways to kill more people faster than ever before’. It was certainly this event which influenced him, in 1895, to write a new will and testament, one year before he died. It would astonish everyone, and change the course of history. When Alfred Nobel died, single and childless, at the age of 63, he specified that, apart from some minor bequests, his vast fortune (about 200 million dollars in today’s money) be set aside for the establishment of the Nobel Prizes. These would be awarded annually to those who had conferred the ‘greatest benefit on mankind’ in physics, chemistry, peace, medicine, and literature. Nobel’s strategy worked, as the Nobel Prizes are now considered among the most prestigious in the world. Few consider that all that money came from nitroglycerine, dynamite, gunpowder, and armament manufacture—activities that indirectly caused incalculable human carnage."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nComplete the summary of the first three paragraphs.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\n Nitroglycerine could explode with even a small 1 _________________; it was therefore the\n cause of a growing 2 _________________. It was able to 3 _________________ because,\n unlike gunpowder, it 4 _________________. When 5 _________________, nitro could be\n handled more safely, yet deaths continued."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nAnswer the questions.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWhat were the two products that Nobel’s companies originally manufactured?\n6 _________________\nWhat was the first nitroglycerine product called?\n7 _________________\nWhat rock does diatomite resemble?\n8 _________________\nIn what field was dynamite used most beneficially?\n9 _________________"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nDo the following statements agree with the information given in Reading Passage One?\nWrite:\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n\n\n10 _________________ Dynamite is safer than nitroglycerine.\n11 _________________ French newspapers condemned Alfred Nobel because of his wealth.\n12 _________________ Nobel’s will left some money to his friends.\n13 _________________ Many now condemn Nobel for his production of weapons."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "Nitroglycerine 甚至受到很小的__________也可能爆炸。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "因此，它造成不斷增加的__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "它能夠__________，因為與 gunpowder 不同，它會__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "它能夠炸碎岩石，因為與 gunpowder 不同，它會__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "當 nitro 被__________時，它可以較安全地處理，但死亡事件仍然持續。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ What was the first nitroglycerine product called?",
+      "translation": "Nobel 的公司原本製造哪兩種產品？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ What rock does diatomite resemble?",
+      "translation": "第一種 nitroglycerine 產品叫甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________ In what field was dynamite used most beneficially?",
+      "translation": "diatomite 像哪一種岩石？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "dynamite 在哪個領域中最有益地被使用？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Dynamite is safer than nitroglycerine.",
+      "translation": "Dynamite 比 nitroglycerine 安全。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ French newspapers condemned Alfred Nobel because of his wealth.",
+      "translation": "法國報紙譴責 Alfred Nobel，是因為他的財富。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Nobel’s will left some money to his friends.",
+      "translation": "Nobel 的遺囑把一些錢留給了他的朋友。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Many now condemn Nobel for his production of weapons.",
+      "translation": "現在有許多人因 Nobel 生產武器而譴責他。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-088/page-4.jpg"
+  ]
+}

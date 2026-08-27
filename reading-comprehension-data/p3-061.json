@@ -1,0 +1,301 @@
+{
+  "id": "p3-061",
+  "catalogueId": "p3-061",
+  "title": "Constellation",
+  "sourceHeading": "Constellations",
+  "passage": 3,
+  "practice": 61,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-061-constellation",
+  "source": {
+    "filename": "Practice 61 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "7da840e75798322edfccb6c14da08ee3512d7255b5f39be934ef7195d4f69f9e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "A constellation is a group of stars which, when viewed collectively, appear to have physical proximity in the sky. Constellation boundaries and definitions as used today in Western culture, and as defined by the International Astronomical Union (IAU), were formalised in 1930 by Eugene Delporte. There are 88 official constellations recognised by the IAU; those visible in the Northern Hemisphere are based on constellations established by the ancient Greeks. The constellations of the southern hemisphere—which were invisible to the Greeks because of their geographical location—were not defined until the early modern era."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Arguably, the twelve constellations through which the sun passes – as used to represent the signs of the zodiac to define birth characteristics – are the most culturally significant and well-known of those established by the ancient Greeks. Cultural differences in interpretation and definition of star constellations mainly relate to these zodiac interpretations. Chinese constellations, for example, differ from those defined in the Western world because ancient Chinese astronomy developed independently; they include 28 ‘Xiu’ or ‘mansions’ instead of the 12 western zodiac counterparts. In Hindu/Vedic astronomy, in which constellations are known as ‘rashis’, 12 rashis corresponding directly to the twelve Western star signs are acknowledged; these are, however, divided again into 27 ‘Nakshatras’ or ‘lunar houses’. Many cultures have an intricate mythology behind the stars and their constellations. In Greek mythology, for example, Pegasus, the winged horse, is said to have sprung from the decapitated head of Medusa, and later was used by the god-king Zeus to carry thunder and lightning to Earth, before being placed among the constellations."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In Western astronomy, all modern constellation names derive from Latin. Some stars within the constellations are named using the genitive form of the Latin word, following the usual rules of Latin grammar. For example, the genitive form of Pisces, the Fishes, is Piscium. In addition, all constellation names have a standard three-letter abbreviation as assigned by the IAU, under which, for example, Pisces becomes Psc."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Some star patterns that laypeople wrongly consider to be constellations are actually ‘asterisms’—groups of stars that appear to form patterns in the sky—and are not among the 88 officially defined constellations. A famous example of an asterism often mistaken for a constellation is the ‘Big Dipper’ (as it is termed in North America) or the ‘Plough’ as it is known in the UK. In astronomical terms, this famous star formation is in fact considered only part of the larger constellation known as Ursa Major."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In order to identify the position of stars relative to the Earth, there are a number of different celestial coordinate systems that can provide a detailed reference point in space. There are many different systems, all of which are largely similar but differ in the position of the fundamental plane – the division between northern and southern hemispheres. The five most common celestial systems are the Horizontal system, the Equatorial system, the Ecliptical system, the Galactic system and the Supergalactic system."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The launch of the Hubble Space Telescope in April 1990 changed the way that astronomers saw the universe, providing detailed digital images of constellations, planets and gas clouds that had never been seen before. Compared to ground-based telescopes, Hubble is not particularly large. With a primary mirror diameter of 2.4 metres (94.5 inches), Hubble would be considered a medium-sized telescope on the ground. However, the combination of its precision optics, state-of-the-art instrumentation, and unprecedented pointing stability and control allows Hubble to more than make up for its lack of size, giving it a range of well over 12 billion light-years."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The telescope’s location above the Earth’s atmosphere also has a number of significant advantages over land-based telescopes. The atmosphere bends light due to a phenomenon known as diffraction (this is what causes starlight to appear to twinkle and leads to the often blurred images seen through ground-based telescopes). The Hubble Space Telescope can also observe infrared light that would otherwise be blocked by the atmosphere."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Despite early setbacks – one of the reflective mirrors had to be replaced after it was found to have been ground incorrectly and did not produce the images expected – the telescope has reignited interest in space amongst the general public – an important outcome, given that taxpayers funded the telescope’s research, deployment and maintenance."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 35,
+      "text": "Questions 28–35\nReading Passage 3 has eight paragraphs A–H.\nChoose the correct heading for paragraphs A–H from the list of headings below.\nWrite the correct number, i–xii, in boxes 28–35.\n\n                          List of Headings\n\n i                        Different methods of locating and identifying\n\n ii                       A better view of the constellations\n\n iii                      Technological advances in research and development\n\n iv                       Atmospheric weaknesses of telescopes in orbit\n\n v                        Different interpretations of star groupings\n\n vi                       Common misconceptions\n\n vii                      Bypassing terrestrial limitations\n\n viii                     Renewed interest in the stars\n\n ix                       Ethnic differences in celestial mapping\n\n x                        Formal marking of constellations\n\n xi                       Universal myths of constellations\n\n xii                      Historical and modern reference\n28 _____________ Paragraph A\n29 _____________ Paragraph B\n30 _____________ Paragraph C\n31 _____________ Paragraph D\n32 _____________ Paragraph E\n33 _____________ Paragraph F\n34 _____________ Paragraph G\n35 _____________ Paragraph H"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the summary below using NO MORE THAN TWO WORDS.\nWrite the correct answers in boxes 36–40.\n\n Despite an initial flaw in a 36 _________________, the Hubble space telescope\n is superior to telescopes on land as it can identify 37 _________________ which\n would not normally reach the Earth’s surface. This is all the more impressive\n given that Hubble is only classified as a 38 _________________ telescope.\n Being above the atmosphere, it also has the advantage of not being affected by\n 39 _________________, which would otherwise lead to 40 _________________\n images."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph H",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x",
+        "xi",
+        "xii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "儘管 Hubble 初期有一個 ______ 的缺陷，它仍優於地面望遠鏡。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "它能識別／觀察到通常無法到達地球表面的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "這一點更令人印象深刻，因為 Hubble 只被歸類為一台 ______ telescope。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________, which would otherwise lead to 40 _________________ images.",
+      "translation": "由於位於大氣層之上，它也有不受 ______ 影響的優勢。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "這種現象本會導致 ______ images。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-061/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-061/page-5.jpg"
+  ]
+}

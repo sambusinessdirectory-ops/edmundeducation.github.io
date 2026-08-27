@@ -1,0 +1,303 @@
+{
+  "id": "p2-072",
+  "catalogueId": "p2-072",
+  "title": "Just relax …",
+  "sourceHeading": "Just Relax …",
+  "passage": 2,
+  "practice": 72,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-072-just-relax",
+  "source": {
+    "filename": "Practice 72 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "18f574d99ad8477fe7fa37544ec52f5ff922aa1d602dc659a6b03b486349f04e"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Hypnosis is an intriguing and fascinating process. A trance-like mental state is induced in one person by another, who appears to have the power to command that person to obey instructions without question. Hypnotic experiences were described by the ancient Egyptians and Greeks, whilst references to deep sleep and anaesthesia have been found in the Bible and in the Jewish Talmud. In the mid-1700s, Franz Mesmer, an Austrian physician, developed his theory of ‘animal magnetism’, which was the belief that the cause of disease was the ‘improper distribution of invisible magnetic fluids’. Mesmer used water tubs and magnetic wands to direct these supposed fluids to his patients. In 1784, a French commission studied Mesmer’s claims and concluded that these ‘cures’ were only imagined by the patients. However, people continued to believe in this process of ‘mesmerism’ and it was soon realised that successful results could be achieved without the need for magnets and water."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The term hypnotism was first used by James Braid, a British physician who studied suggestion and hypnosis in the mid-1800s. He demonstrated that hypnosis differed from sleep, that it was a physiological response and not the result of secret powers. During the same period, James Esdaile, a Scottish doctor working in India, used hypnotism as an anaesthetic in over 200 major surgical operations, including leg amputations. Later that century, a French neurologist, Jean Charcot, successfully experimented with hypnosis in his clinic for nervous disorders."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Since then, scientists have shown that the state of hypnosis is a natural human behaviour that can affect psychological, social and/or physical experiences. The effects of hypnotism depend on the ability, willingness and motivation of the person being hypnotised. Although hypnosis has been compared to dreaming and sleepwalking, it is not actually related to sleep. It involves a more active and intense mental concentration on the part of the person being hypnotised. Hypnotised people can talk, write and walk about and they are usually fully aware of what is being said and done."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "There are various techniques used to induce hypnosis. The best-known is a series of simple suggestions repeated continuously in the same tone of voice. The subject is instructed to focus their attention on an object or fixed point, while being told to relax, breathe deeply, and allow the eyelids to grow heavy and close. As the person responds, their state of attention changes, and this altered state often leads to other changes. For example, the person may experience different levels of awareness, consciousness, imagination, memory and reasoning, or may become more responsive to suggestions. Additional phenomena may be produced or eliminated such as blushing, sweating, paralysis, muscle tension or anaesthesia. Although these changes can occur with hypnosis, none of these experiences is unique to it. People who are very responsive to hypnosis are also more responsive to suggestions when they are not hypnotised. This responsiveness increases during hypnotism. This explains why hypnosis takes only a few seconds for some, whilst others cannot be easily hypnotised."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "It is a common misunderstanding that hypnotists are able to force people to perform criminal acts or any other acts against their will. In fact, subjects can resist suggestions, and they retain their ability to distinguish right from wrong. This misunderstanding is often the result of public performances where subjects perform ridiculous or highly embarrassing actions at the command of the hypnotist. These people are usually instructed not to recall their behaviour after re-emerging from the hypnotic state, so it appears that they were powerless while hypnotised. The point to remember, however, is that these individuals chose to participate, and the success of hypnotism depends on the willingness of a person to be hypnotised."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Interestingly, there are different levels of hypnosis that can be achieved. Thus deep hypnosis can be induced to provide anaesthesia for surgery, childbirth or dentistry. This contrasts with a lighter state of hypnosis, which deeply relaxes the patient who will then follow simple directions. This latter state may be used to treat mental health problems, as it allows patients to feel calm while simultaneously thinking about distressing feelings or painful memories. Thus patients can learn new responses to situations or come up with solutions to problems. This can help recovery from psychological conditions such as anxiety, depression or phobias. Sometimes, after traumatic incidents, memory of the events may be blocked. For example, some soldiers develop amnesia (loss of memory) as a result of their experiences during wartime. Through hypnosis these repressed memories can be retrieved and treated. A variation of this treatment involves age regression, in which the hypnotist takes the patient back to a specific age. In this way patients may remember events and feelings from that time, which may affect their current well-being."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Physicians have also made use of the ability of a hypnotised person to remain in a given position for long periods of time. In one case, doctors had to graft skin onto a patient’s badly damaged foot. First, skin from the person’s abdomen was grafted onto his arm; then the graft was transferred to his foot. With hypnosis, the patient held his arm tightly in position over his abdomen for three weeks, then over his foot for four weeks. Even though these positions were unusual, the patient at no time felt uncomfortable!"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Hypnosis has occasionally been used with witnesses and victims of crime to enable people to remember important clues, such as a criminal’s physical appearance or other significant details that might help to solve a crime. However, as people can both lie and make mistakes while hypnotised, the use of hypnotism in legal situations can cause serious problems. Also, hypnosis cannot make a person divulge secret information if they don’t want to. This was confirmed by the Council on Scientific Affairs of the American Medical Association, which reported in 1985 that memories refreshed through hypnosis may include inaccurate information, false memories, and confabulation (fact and fantasy combined)."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–23",
+    "g24": "Questions 24–28"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nThe passage has eight sections A–H.\nChoose the most suitable heading for sections B–F from the list of headings below.\nWrite the appropriate numbers (i–x).\nThere are more headings than sections, so you will not use all of them.\nExample answer\nSection A x\n14 ___________ Section B\n15 ___________ Section C\n16 ___________ Section D\n17 ___________ Section E\n18 ___________ Section F\n\n                          List of Headings\n\n i                        Use of hypnotism in criminal cases\n\n ii                       The normality of hypnotised subjects’ behaviour\n\n iii                      Early medical experiments with hypnotism\n\n iv                       Early association of hypnosis with psychology\n\n v                        Dangers of hypnotism\n\n vi                       How to hypnotise\n\n vii                      Hypnosis and free will\n\n viii                     Difference between mesmerism and hypnotism\n\n ix                       Therapeutic uses of hypnosis\n\n x                        Origins of hypnosis (Example)"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 23,
+      "text": "Questions 19–23\nComplete the notes on the history of hypnosis using NO MORE THAN THREE WORDS from\nthe passage.\n\n\n References to hypnosis can be found in both the Talmud and the 19\n _________________. Even when Mesmer’s 20 _________________ were not used,\n successful results occurred without them. Braid identified hypnosis as a natural 21\n _________________ response, rather than magical or mystical. Early psychological\n studies showed the difference between sleep and hypnosis. Successful hypnosis\n requires the subject’s active 22 _________________. Consequently subjects can\n speak or move around and are 23 _________________ of their surroundings."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 28,
+      "text": "Questions 24–28\nChoose the correct letter A–D.\n24 In order to induce hypnosis, the hypnotist will …\n A encourage the person to relax using a steady, repetitive tone of voice.\n B say a specific set of words in a special tone of voice.\n C say any words but in a particular tone of voice.\n D encourage the person to relax while focussing on a slowly moving object.\n\n\n25 Hypnotised subjects can be instructed to …\n A do something they have previously said is against their wishes.\n B demonstrate physical strength they would normally not have.\n C reveal confidential information against their will.\n D do something that they would not normally be opposed to doing.\n\n\n26 Past events are recalled under hypnosis …\n A to entertain the hypnotist.\n B to allow subjects to reassess them without distress.\n C to help the subjects improve their memories.\n D to make the subject feel younger.\n\n\n27 After surgery, hypnosis may be used …\n A to make drugs unnecessary.\n B to keep the patient mobile.\n C to make the patient forget to move.\n D to minimise the patient’s discomfort while immobile.\n\n\n28 The American Medical Association reported that …\n A people lie when giving evidence under hypnosis.\n B people should be hypnotised before giving evidence.\n C evidence given under hypnosis may be unreliable.\n D secret evidence can be obtained through hypnosis."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section B",
+      "translation": "B 段最適合哪一個 heading？",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section C",
+      "translation": "C 段最適合哪一個 heading？",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section D",
+      "translation": "D 段最適合哪一個 heading？",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section E",
+      "translation": "E 段最適合哪一個 heading？",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section F List of Headings i Use of hypnotism in criminal cases ii The normality of hypnotised subjects’ behaviour iii Early medical experiments with hypnotism iv Early association of hypnosis with psychology v Dangers of hypnotism vi How to hypnotise vii Hypnosis and free will viii Difference between mesmerism and hypnotism ix Therapeutic uses of hypnosis x Origins of hypnosis (Example)",
+      "translation": "F 段最適合哪一個 heading？",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "在 Talmud 和 _________ 中都可以找到與 hypnosis 相關的提及。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "即使沒有使用 Mesmer 的 _________，仍然可以取得成功結果。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "Braid 把 hypnosis 確認為一種自然的 _________ response，而非魔法或神秘力量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "成功的 hypnosis 需要受試者主動的 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "因此，受試者可以說話或走動，並且對周圍情況 _________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "In order to induce hypnosis, the hypnotist will …",
+      "translation": "為了引發 hypnosis，催眠者會……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Hypnotised subjects can be instructed to …",
+      "translation": "被催眠的受試者可以被指示去……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Past events are recalled under hypnosis …",
+      "translation": "在 hypnosis 下回憶過去事件，是為了……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "After surgery, hypnosis may be used …",
+      "translation": "手術後，hypnosis 可能被用來……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "The American Medical Association reported that …",
+      "translation": "American Medical Association 報告指出……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-072/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-072/page-6.jpg",
+    "/assets/reading-comprehension/questions/p2-072/page-7.jpg"
+  ]
+}

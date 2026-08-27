@@ -1,0 +1,284 @@
+{
+  "id": "p2-038",
+  "catalogueId": "p2-038",
+  "title": "Tasmanian Tiger",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 38,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-038-tasmanian-tiger",
+  "source": {
+    "filename": "Practice 38 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "0f432c8a103ae182a98a1a63a47c7c4942de3d75859bb98e8558c9b3b12cde17"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Tasmanian Tiger Although it was called a tiger, it looked like a dog with black stripes on its back and it was the largest known carnivorous marsupial of modern times. Yet, despite its fame for being one of the most fabled animals in the world, it is one of the least understood of Tasmania’s native animals. The scientific name for the Tasmanian tiger is Thylacine and it is believed to have become extinct in the 20th century."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Fossils of thylacines dating from about 12 million years ago have been dug up at various places in Victoria, South Australia and Western Australia. They were widespread in Australia 7,000 years ago, but have probably been extinct on the continent for 2,000 years. This is believed to be because of the introduction of dingoes around 8,000 years ago. Because of disease, thylacine numbers may have been declining in Tasmania at the time of European settlement 200 years ago, but the decline was certainly accelerated by the new arrivals. The last known Tasmanian Tiger died in Hobart Zoo in 1936 and the animal is officially classified as extinct. Technically, this means that it has not been officially sighted in the wild or in captivity for 50 years. However, there are still unsubstantiated sightings."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Hans Naarding, whose study of animals had taken him around the world, was conducting a survey of a species of endangered migratory bird. What he saw that night is now regarded as the most credible recorded sighting of a thylacine that many believe has been extinct for more than 70 years."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "“I had to work at night,” Naarding takes up the story. “I was in the habit of intermittently shining a spotlight around. The beam fell on an animal in front of the vehicle, less than 10 m away. Instead of risking movement by grabbing for a camera, I decided to register very carefully what I was seeing. The animal was about the size of a small shepherd dog, a very healthy male in prime condition. What set it apart from a dog, though, was a slightly sloping hindquarter, with a fairly thick tail forming a straight continuation of the backline of the animal. It had 12 distinct stripes on its back, continuing onto its butt. I knew perfectly well what I was seeing. As soon as I reached for the camera, it disappeared into the tea-tree undergrowth and scrub.”"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The director of Tasmania’s National Parks at the time, Peter Morrow, decided in his wisdom to keep Naarding’s sighting of the thylacine secret for two years. When the news finally broke, it was accompanied by pandemonium. “I was besieged by television crews, including four broadcasting live from Japan, and others from the United Kingdom, Germany, New Zealand and South America,” said Naarding."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Government and private search parties combed the region, but no further sightings were made. The tiger, as always, had escaped to its lair, a place many insist exists only in our imagination. But since then, the thylacine has staged something of a comeback, becoming part of Australian mythology."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "There have been more than 4,000 claimed sightings of the beast since it supposedly died out, and the number of claims reported to authorities now averages 150 a year. Randolph Rose, an associate professor of zoology at the University of Tasmania, has said he dreams of seeing a thylacine. But Rose, who in his 35 years in Tasmanian academia has fielded countless reports of thylacine sightings, is now convinced that his dream will go unfulfilled."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "“The consensus among conservationists is that, usually, any animal with a population base of less than 1,000 is headed for extinction within 60 years,” says Rose. “Sixty years ago, there was only one thylacine that we know of, and that was in Hobart Zoo,” he says."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Dr. David Pemberton, curator of zoology at the Tasmanian Museum and Art Gallery, whose PhD thesis was on the thylacine, says that despite scientific thinking that 500 animals are required to sustain a population, the Florida panther is down to a dozen or so animals and, while it does have some inbreeding problems, is still ticking along. “I’ll take a punt and say that, if we manage to find a thylacine in the scrub, it means that there are 50-plus animals out there.”"
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "After all, animals can be notoriously elusive. The strange fish known as the coelacanth, with its “proto-legs”, was thought to have died out along with the dinosaurs about 70 million years ago until a specimen was dragged to the surface in a shark net off the south-east coast of South Africa in 1938."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "Wildlife biologist Nick Mooney has the unenviable task of investigating all “sightings” of the tiger totalling 4,000 since the mid-1980s, and averaging about 150 a year. It was Mooney who was first consulted late last month about the authenticity of digital photographic images purportedly taken by a German tourist while on a recent bushwalk in the state. At face value, Mooney says, the account of the sighting, and the two photographs submitted as proof, amount to one of the most convincing cases for the species’ survival he has seen."
+    },
+    {
+      "number": 12,
+      "label": "12",
+      "text": "And Mooney has seen it all—the mistakes, the hoaxes, the illusions and the plausible accounts of sightings. Hoaxers aside, most people who report sightings end up believing they have seen a thylacine, and are themselves believable to the point that they could pass a lie-detector test, according to Mooney. Others, having tabled a creditable report, then become utterly obsessed like the Tasmanian who has registered 99 thylacine sightings to date. Mooney has seen individuals bankrupted by the obsession, and families destroyed. “It is a blind optimism that something is, rather than a cynicism that something isn’t,” Mooney says. “If something crosses the road, it’s not a case of ‘I wonder what that was?’ Rather, it is a case of ‘that’s a thylacine!’ It is a bit like a gold prospector’s blind faith, ‘it has got to be there’.”"
+    },
+    {
+      "number": 13,
+      "label": "13",
+      "text": "However, Mooney treats all reports at face value. “I never try to embarrass people, or make fools of them. But the fact that I don’t pack the car immediately they ring can often be taken as ridicule. Obsessive characters get irate that someone in my position is not out there when they think the thylacine is there.”"
+    },
+    {
+      "number": 14,
+      "label": "14",
+      "text": "But Hans Naarding, whose sighting of a striped animal two decades ago was the highlight of “a life of animal spotting”, remains bemused by the time and money people waste on tiger searches. He says resources would be better applied to saving the Tasmanian devil, and helping migratory bird populations that are declining as a result of shrinking wetlands across Australia."
+    },
+    {
+      "number": 15,
+      "label": "15",
+      "text": "Could the thylacine still be out there? “Sure,” Naarding says. But he also says any discovery of surviving thylacines would be “rather pointless”. “How do you save a species from extinction? What could you do with it? If there are thylacines out there, they are better off right where they are.”"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 14–17 on your answer sheet.\nThe Tasmanian tiger, also called the thylacine, resembled a dog and had 14\n_________________ on its coat. Fossils show that thylacines existed as early as 15\n_________________ years ago. They once lived throughout 16 _________________\nbefore disappearing from the mainland. Soon after the arrival of 17 _________________\nsettlers, the Tasmanian population began to decline more rapidly."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 23,
+      "text": "Questions 18–23\nLook at the following statements (Questions 18–23) and the list of people below. Match each\nstatement with the correct person, A, B, C or D.\nWrite the correct letter, A, B, C or D, in boxes 18–23 on your answer sheet.\nNB You may use any letter more than once.\n18 __________ His report of seeing a live thylacine in the wild attracted international interest.\n19 __________ Many eyewitness reports are unreliable.\n20 __________ A species does not always need a particular minimum number of animals to\nsurvive.\n21 __________ There is no hope of finding a surviving Tasmanian tiger.\n22 __________ If any Tasmanian tigers remain, they should be left undisturbed.\n23 __________ The interpretation of evidence can be affected by people’s beliefs.\n\n                                        List of People\n\n A                                      Hans Naarding\n\n B                                      Randolph Rose\n\n C                                      David Pemberton\n\n D                                      Nick Mooney"
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 24–26 on your answer sheet.\n\n\n24 Hans Naarding’s sighting resulted in\n A cooperative efforts by the government and organisations to protect the thylacine.\n B widespread interest in finding a living thylacine.\n C an increase in the number of reported thylacine sightings worldwide.\n D increased popularity of the thylacine in literature.\n\n\n25 The example of the coelacanth illustrates that\n A it lived during the same period as the dinosaurs.\n B dinosaurs evolved legs.\n C some animals are difficult to find in the wild.\n D claims that a species is extinct can be mistaken.\n\n\n26 Mooney believes that all reports of sightings should be\n A given some credence even when the claims are untrue.\n B acted upon immediately.\n C viewed as equally untrustworthy.\n D questioned and carefully investigated."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "Tasmanian tiger，又叫 thylacine，外形像狗，身上有 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "化石顯示 thylacines 早在 ______ 年前已經存在。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "牠們曾經遍布 ______，之後從大陸消失。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "在 ______ 定居者到來後不久，Tasmania 的 thylacine 數量開始更快速下降。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "__________ His report of seeing a live thylacine in the wild attracted international interest.",
+      "translation": "他在野外看見活 thylacine 的報告，引起國際關注。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "__________ Many eyewitness reports are unreliable.",
+      "translation": "許多目擊報告並不可靠。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "__________ A species does not always need a particular minimum number of animals to survive.",
+      "translation": "一個物種不一定永遠需要某個固定最低數量才能存活。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "__________ There is no hope of finding a surviving Tasmanian tiger.",
+      "translation": "找到仍然存活的 Tasmanian tiger 已沒有希望。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "__________ If any Tasmanian tigers remain, they should be left undisturbed.",
+      "translation": "如果還有 Tasmanian tigers 存在，牠們應該被留在原地，不應受干擾。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "__________ The interpretation of evidence can be affected by people’s beliefs. List of People",
+      "translation": "人們的信念會影響他們如何詮釋證據。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Hans Naarding’s sighting resulted in",
+      "translation": "Hans Naarding 的目擊事件導致甚麼結果？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "The example of the coelacanth illustrates that",
+      "translation": "coelacanth 這個例子說明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "choice",
+      "prompt": "Mooney believes that all reports of sightings should be",
+      "translation": "Mooney 認為所有目擊報告都應該怎樣處理？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-038/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-038/page-6.jpg"
+  ]
+}

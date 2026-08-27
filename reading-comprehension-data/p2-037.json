@@ -1,0 +1,265 @@
+{
+  "id": "p2-037",
+  "catalogueId": "p2-037",
+  "title": "Storytelling, From Prehistoric Craves To Modern Cinemas",
+  "sourceHeading": "Storytelling: From Prehistoric Caves to Modern Cinemas",
+  "passage": 2,
+  "practice": 37,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-037-storytelling-from-prehistoric-craves-to-modern-cinemas",
+  "source": {
+    "filename": "Practice 37 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "82ef6896d94a7918abac13d1909347e50bbd9e8c0e7a141f1c2c925e380cd4b0"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "It was told, we suppose, to people crouched around a fire: a tale of adventure, most likely—relating some close encounter with death: a remarkable hunt, an escape from mortal danger; a vision, or something else out of the ordinary. Whatever its thread, the weaving of this story was done with a prime purpose. The listeners must be kept listening. They must not fall asleep. So, as the story went on, its audience’s interest had to be sustained by one question above all: What happens next?"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The first fireside stories in human history can never be known. They were kept in the heads of those who told them. This method of storage is not necessarily inefficient. From documented oral traditions in Australia, the Balkans and other parts of the world we know that specialised storytellers and poets can recite from memory literally thousands of lines, in verse or prose, verbatim – word for word. But while memory is rightly considered an art in itself, it is clear that a primary purpose of making symbols is to have a system of reminders or mnemonic cues – signs that assist us to recall certain information in the mind’s eye."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "In some Polynesian communities, a notched memory stick may help to guide a storyteller through successive stages of recitation. But in other parts of the world, the activity of storytelling historically resulted in the development or even the invention of writing systems. One theory about the arrival of literacy in ancient Greece, for example, argues that the epic tales about the Trojan War and the wanderings of Odysseus traditionally attributed to Homer were just so enchanting to hear that they had to be preserved. So the Greeks, c. 750–700 BC, borrowed an alphabet from their neighbours in the eastern Mediterranean, the Phoenicians."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The custom of recording stories on parchment and other materials can be traced in many manifestations around the world, from the priestly papyrus archive of ancient Egypt to the birch-bark scrolls on which the North American Ojibway Indians set down their creation myth. It is a well-tried and universal practice: so much so that to this day storytime is probably most often associated with words on paper. The formal practice of narrating a story aloud would seem—so we assume—to have given way to newspapers, novels and comic strips. This, however, is not the case. Statistically it is doubtful that the majority of humans currently rely upon the written word to get access to stories. So what is the alternative source?"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Each year, over 7 billion people will go to watch the latest offering from Hollywood, Bollywood and beyond. The supreme storyteller of today is cinema. The movies, as distinct from still photography, seem to be an essentially modern phenomenon. This is an illusion, for there are, as we shall see, certain ways in which the medium of film is indebted to very old precedents of arranging ‘sequences’ of images. But any account of visual storytelling must begin with the recognition that all storytelling beats with a deeply atavistic pulse: that is, a ‘good story’ relies upon formal patterns of plot and characterisation that have been embedded in the practice of storytelling over many generations."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Thousands of scripts arrive every week at the offices of the major film studios. But aspiring screenwriters really need look no further for essential advice than the fourth-century BC Greek philosopher Aristotle. He left some incomplete lecture notes on the art of telling stories in various literary and dramatic modes, a slim volume known as the Poetics. Though he can never have envisaged the popcorn-fuelled actuality of a multiplex cinema, Aristotle is almost prescient about the key elements required to get the crowds flocking to such a cultural hub. He analyzed the process with cool rationalism. When a story enchants us, we lose the sense of where we are; we are drawn into the story so thoroughly that we forget it is a story being told. This is, in Aristotle’s phrase, ‘the suspension of disbelief’."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "We know the feeling. If ever we have stayed in our seats, stunned with grief, as the credits roll by, or have felt nervous about taking a shower at home for days after seeing that vivid evocation of horror, then we have suspended disbelief. We have been caught, or captivated, in the storyteller’s web. Did it all really happen? We really thought so for a while. Aristotle must often have witnessed this suspension of disbelief. He taught at Athens, the city where theatre developed as a primary form of civic ritual and recreation. Two theatrical types of storytelling, tragedy and comedy, caused Athenian audiences to lose themselves in sadness and laughter respectively. Tragedy, for Aristotle, was particularly potent in its capacity to enlist and then purge the emotions of those watching the story unfold on the stage, so he tried to identify those factors in the storyteller’s art that brought about such engagement. He had, as an obvious sample for analysis, not only the fifth-century BC masterpieces of Classical Greek tragedy written by Aeschylus, Sophocles and Euripides. Beyond them stood Homer, whose stories even then had canonical status: The Iliad and The Odyssey were already considered literary landmarks—stories by which all other stories should be measured. So what was the secret of Homer’s narrative art?"
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "It was not hard to find. Homer created credible heroes. His heroes belonged to the past; they were mighty and magnificent, yet they were not, in the end, fantasy figures. He made his heroes sulk, bicker, cheat and cry. They were, in short, characters—protagonists of a story that an audience would care about, would want to follow, would want to know what happens next. As Aristotle saw, the hero who shows a human side—some flaw or weakness to which mortals are prone is intrinsically dramatic."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nReading Passage 2 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 14–18 on your answer sheet.\n14 ______________ A mistaken belief about how people obtain stories today\n15 ______________ The classification of stories\n16 ______________ The fundamental purpose of storytelling\n17 ______________ A description of reciting stories without assistance\n18 ______________ How to make story characters appealing"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 22,
+      "text": "Questions 19–22\nClassify each group according to whether they\n A                        adopted a writing system from another country\n\n B                        used organic materials to record stories\n\n C                        used tools to assist in telling stories\nWrite the correct letter, A, B or C in boxes 19–22 on your answer sheet.\n19 __________ Egyptians\n20 __________ Ojibway\n21 __________ Polynesians\n22 __________ Greeks"
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nComplete the sentences below with ONE WORD ONLY from the passage.\nWrite your answers in boxes 23–26 on your answer sheet.\nAristotle wrote a book on the art of storytelling called the 23 _________________.\nAristotle believed that the most powerful type of story for moving an audience was 24\n_________________.\nAristotle viewed Homer’s works as 25 _________________.\n\nAristotle believed that appealing heroes should have some 26 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ A mistaken belief about how people obtain stories today",
+      "translation": "一個關於現代人如何取得故事的錯誤想法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ The classification of stories",
+      "translation": "故事類型的分類。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ The fundamental purpose of storytelling",
+      "translation": "講故事最根本的目的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ A description of reciting stories without assistance",
+      "translation": "描述不用輔助工具、單靠記憶背誦故事。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "______________ How to make story characters appealing",
+      "translation": "怎樣令故事角色吸引觀眾。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Egyptians",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Ojibway",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Polynesians",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ Greeks",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "Aristotle 寫了一本關於 storytelling 藝術的書，名叫 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "Aristotle 認為最能打動觀眾的故事類型是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "Aristotle 把 Homer 的作品視為 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "Aristotle 認為吸引人的英雄應該有某種 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-037/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-037/page-5.jpg"
+  ]
+}

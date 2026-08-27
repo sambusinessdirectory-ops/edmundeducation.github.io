@@ -1,0 +1,355 @@
+{
+  "id": "p1-139",
+  "catalogueId": "p1-139",
+  "title": "Sand Dunes",
+  "sourceHeading": "Sand Dunes",
+  "passage": 1,
+  "practice": 139,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-139-sand-dunes",
+  "source": {
+    "filename": "Practice 139 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "962e324b47dc7976c713793661b060b5b69d8a503ee35cf4d7f715cd8dc10a16"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "One of the main problems posed by sand dunes is their encroachment on human habitats. Sand dunes move by different means, all of them aided by the wind. Sand dunes threaten buildings and crops in Africa, the Middle East, and China. Preventing sand dunes from overwhelming cities and agricultural areas has become a priority for the United Nations Environment Programme. On the other hand, dune habitats provide niches for highly specialised plants and animals, including numerous rare and endangered species."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Sand is usually composed of hard minerals such as quartz that cannot be broken down into silt or clay. Yellow, brown and reddish shades of sand indicate the presence of iron compounds. Red sand is composed of quartz coated by a layer of iron oxide. White sands are nearly pure gypsum. Sand with a high percentage of silicate can be used in glassmaking. Sandstone forms when sand mixed with lime, chalk or another binding material is deposited in layers at the bottom of a sea or elsewhere and compressed into rock by the pressure of overlying sediments over thousands or millions of years."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The most common dune form on Earth and on Mars is crescentic. Crescent-shaped mounds are generally wider than they are long. The slipfaces are on the concave sides of the dunes. These dunes form under winds that blow consistently from one direction, and they also are known as barchans or transverse dunes. Some types of crescentic dunes move more quickly over desert surfaces than any other type of dune. A group of dunes moved more than 100 metres per year between 1954 and 1959 in China’s Ningxia Province, and similar speeds have been recorded in the Western Desert of Egypt. The largest crescentic dunes on Earth, with mean crest-to-crest widths of more than 3 kilometres, are in China’s Taklamakan Desert."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Radially symmetrical, star dunes are pyramidal sand mounds with slipfaces on three or more arms that radiate from the high centre of the mound. They tend to accumulate in areas with multidirectional wind regimes. Star dunes grow upward rather than laterally. They dominate the Grand Erg Oriental of the Sahara. In other deserts, they occur around the margins of the sand seas, particularly near topographic barriers. In the southeastern Badain Jaran Desert of China, the star dunes are up to 500 metres tall and may be the tallest dunes on Earth. Straight or slightly sinuous sand ridges typically much longer than they are wide are known as linear dunes. They may be more than 160 kilometres (99 mi) long. Some linear dunes merge to form Y-shaped compound dunes. Many form in bidirectional wind regimes. The long axes of these dunes extend in the resultant direction of sand movement. Linear loess hills known as pahas are superficially similar."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Once sand begins to pile up, ripples and dunes can form. Wind continues to move sand up to the top of the pile until the pile is so steep that it collapses under its own weight. The collapsing sand comes to rest when it reaches just the right steepness to keep the dune stable. This angle, usually about 30–34°, is called the angle of repose. Every pile of loose particles has a unique angle of repose, depending upon the properties of the material it’s made of, such as the grain size and roundness. Ripples grow into dunes as wind and sand input increase."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The repeating cycle of sand inching up the windward side to the dune crest and then slipping down the dune’s slip face allows the dune to inch forward, migrating in the direction the wind blows. As you might guess, all of this climbing and then slipping leaves its mark on the internal structure of the dune. The image on the right shows a fossil sand dune structure preserved in the Merced Formation at Fort Funston, Golden Gate National Recreation Area. The sloping lines or laminations you see are the preserved slip faces of a migrating sand dune. This structure is called cross-bedding and can be the result of either wind or water currents. The larger the cross-bedded structure, however, the more likely it is to be formed by wind, rather than water."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Sand dunes can “sing” at a level up to 115 decibels and generate sounds in different notes. The dunes at Sand Mountain in Nevada usually sing in a low C but can also sing in B and C sharp. The La Mar de Dunas in Chile hum in F while those at the Ghord Lahmar in Morocco howl in G sharp. The sounds are produced by avalanches of sand generated by blowing winds. For a while, it was thought that the avalanches caused the entire dune to resonate like a flute or violin, but if that were true, then differently sized dunes would produce different notes. In the mid-2000s, American, French and Moroccan scientists visiting sand dunes in Morocco, Chile, China and Oman published a paper in Physical Review Letters reporting that the sounds were produced by collisions between grains of sand that caused the motions of the grains to become synchronised, causing the outer layer of a dune to vibrate like the cone of a loudspeaker, producing sound. The tone of the sounds depended primarily on the size of the grains."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Scientists performed a computer simulation of the patterns and dynamics of desert dunes in a laboratory. Dune patterns observed in deserts were reproduced. From the initial random state, star and linear dunes were produced, depending on the variability of the wind direction. The efficiency of sand transport was calculated through the course of development. Scientists found that sand transport was most efficient in linear transverse dunes. The efficiency in sand transport always increased throughout the evolution, and the way it increased was stepwise. They also found that the shadow zone, the region in which sand cannot move, shrank through the course of evolution, which greatly helped them build a model to simulate sand movement."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–8",
+    "g9": "Questions 9–10",
+    "g11": "Questions 11–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 8,
+      "text": "Questions 1–8\nChoose the correct heading for paragraphs A–H from the list below.\nWrite the correct number, i–x, in boxes 1–8 on your answer sheet.\n\n                            List of Headings\n\n i                          Potential threats to buildings and crops despite the benefits\n\n ii                         The cycle of sand moving forwards with the wind\n\n iii                        Protection methods in various countries\n\n iv                         Scientists simulate sand movement and build a model in a laboratory\n\n v                          An explanation of sand composition\n\n vi                         Singing sand dunes\n\n vii                        Other types of sand dunes\n\n viii                       Personal opinions on related issues\n\n ix                         Reasons why sand dunes form\n\n x                          The most common dune type\n\n\n1 Paragraph A\n2 Paragraph B\n3 Paragraph C\n4 Paragraph D\n5 Paragraph E\n6 Paragraph F\n7 Paragraph G\n8 Paragraph H"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 10,
+      "text": "Questions 9–10\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 9 and 10 on your answer sheet.\n\n\n9 What is white sand mainly composed of?\n     A Quartz.\n     B Gypsum.\n     C Lime.\n     D Iron.\n\n\n10 Which type of sand dune is NOT mentioned in the passage?\n     A Linear.\n     B Crescentic.\n     C Overlap.\n     D Star."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 14,
+      "text": "Questions 11–14\nComplete the summary using the list of words, A–J, below.\nWrite the correct letter, A–J, in boxes 11–14 on your answer sheet.\n A                                                  quartz\n\n B                                                  shape\n\n C                                                  pressure\n\n D                                                  tone\n\n E                                                  protection\n\n F                                                  category\n\n G                                                  minerals\n\n H                                                  sing\n\n I                                                  laboratory\n\n J                                                  direction\nThe crescentic dune is a common 11 _________________ on both Earth and Mars; other types of\nsand dune also exist. Different colours of sand reflect different components; some are rich in 12\n_________________ that cannot easily be broken down into clay. Sand dunes can 13\n_________________ at a particular level of sound intensity, and each grain size creates a different\n14 _________________ in the sound."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph H",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "What is white sand mainly composed of?",
+      "translation": "白沙主要由甚麼構成？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "Which type of sand dune is NOT mentioned in the passage?",
+      "translation": "哪一種沙丘類型沒有在文章中提及？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "Crescentic dune 是地球和火星上常見的一種 ______；其他沙丘類型也存在。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "不同顏色的沙反映不同成分；有些富含不能輕易分解成黏土的 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "沙丘可以在某一聲音強度水平下 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "_________________ in the sound.",
+      "translation": "每種沙粒大小會在聲音中產生不同的 ______。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-139/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-139/page-5.jpg"
+  ]
+}

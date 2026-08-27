@@ -1,0 +1,239 @@
+{
+  "id": "p1-062",
+  "catalogueId": "p1-062",
+  "title": "LOOKING IN THE TELESCOPE",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 62,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-062-looking-in-the-telescope",
+  "source": {
+    "filename": "Practice 62  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "ea22e7befe39e9db731640a977d3b043fdc8898469dd5b2ba75665099d4a9249"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Looking Through the Telescope A story is told that around 400 years ago some children were fooling around in an eyeglass shop. They noticed that when they placed lenses one on top of the other, they were able to see a considerable distance. They played around with the concept for a while, experimenting with what happened when they varied the distance between the lenses. Hans Lippershey, the Dutch lens maker who eventually applied for the first telescope patent, credited the children with inspiring his invention of the first telescope."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The first telescopes built in the early 1600s were very primitive inventions allowing the user to see around three times farther than the naked eye. It was not long, however, before Italian astronomer Galileo heard about the invention, which, through the use of correctly positioned lenses, allowed people to see things a long way away. That description was all Galileo needed; within 24 hours, he had developed a better telescope. In fact, the improvements Galileo made to Lippershey’s telescope were quite dramatic. Whereas the original version had a magnification of three, the new telescope had a magnification of around 30. Galileo achieved these extraordinary results by determining the correct relative positions of the lenses and by making higher-quality lenses of his own. Although Galileo originally thought the objects were stars, better-quality lenses—and some scientific analysis—eventually enabled him to observe the moons of Jupiter. Galileo’s refracting telescopes – so called due to the way they handled the light that passed through them – were the standard at that time."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Some 70 years later, British scientist Isaac Newton explored the way a prism refracts white light into an array of colours. He recognised that a lens was a circular prism and that the separation of colours limited the effectiveness of the telescopes in use at the time. Newton created a reflective telescope, one that used a dish-shaped or parabolic mirror to collect light and concentrate the image before it was visible in the eyepiece. Thus, lenses used for magnification in telescopes were replaced by mirrors. Mirrors have since been the standard for telescopes. In fact, according to telescope researcher Dr Carl Addams, the basic designs of telescopes have not changed much in the last 100 years. What has changed, however, is the way technology has been used to improve them. For example, the largest telescopes in the world today are around 10 metres in diameter and the mirrors placed within them are so finely polished that even at the microscopic level there are no scratches or bumps on them at all. To achieve such a flawless surface requires a very expensive process that operates with the utmost precision."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Footnote: Refraction is the change in direction of a ray of light as it passes through glass or water."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The mid-1700s saw the discovery and production of the achromatic telescope. This type of telescope differed from previous ones in the way it handled the different wavelengths of light. The first person who succeeded in making achromatic refracting telescopes seems to have been the Englishman Chester Moore Hall. The telescope design used two pieces of special optical glass known as crown and flint. Each side of each piece was ground and polished and then the two pieces were assembled together. Achromatic lenses bring two wavelengths – typically red and blue – into focus in the same plane. Makers of achromatic telescopes had difficulty locating discs of flint glass of the required purity needed to construct them. In the late 1700s, prizes were offered by the French Academy of Sciences for any chemist or glass manufacturer who could create perfect discs of optical flint glass; however, no one was able to provide a large disc of suitable purity and clarity."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Currently the largest telescopes are around eight to ten metres in size. These extremely expensive and sophisticated pieces of equipment are located primarily throughout Europe and America. Dr Addams believes that the telescopes of the future will be a gigantic improvement on what is currently considered state-of-the-art. Telescopes that are 20 or 30 metres in diameter are currently being planned, and a European firm has proposed building a 100-metre telescope. Addams says, ‘Producing glass of the quality needed for a 100-metre telescope is like building a lens the size of a football field whose largest bump is only one ten-thousandth the width of a human hair.’ The engineering and technology required to build such a flawless reflective surface is most impressive."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 1–5 on your answer sheet.\n1 According to the writer, the first telescope was\n  A invented by children.\n  B made by a lens maker.\n  C a reflective telescope.\n  D quite a complex piece of equipment.\n\n\n2 The writer states that Galileo\n  A improved on the design of the first telescope.\n  B created the first reflective telescope.\n  C took 24 hours to make a reflective telescope.\n  D allowed people to see three times farther than the first telescope.\n\n\n3 The Galileo telescope was better than the first telescope because it\n  A used mirrors rather than glass.\n  B was longer than the first telescope.\n  C used better lens positioning and quality.\n  D used better quality lenses and glass.\n\n\n4 The writer states that today large telescopes are\n  A 20 or 30 metres in size.\n  B as big as 100 metres.\n  C very costly items.\n  D as good as will ever be built.\n\n\n5 Large, powerful telescopes are difficult to build because\n  A designs have not changed in nearly 100 years.\n  B it is difficult to locate the flint glass needed for them.\n  C the area needed to house the telescope is simply too large.\n  D the mirrors must have an extremely reflective, flawless surface."
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 10,
+      "text": "Questions 6–10\nClassify the following features as belonging to\n A                                     the achromatic telescope\n\n B                                     the reflective telescope\n\n C                                     the refracting telescope\nWrite the correct letter A, B or C, in boxes 6–10 on your answer sheet.\n6 _________________ The first telescopes made.\n7 _________________ Uses a series of lenses one on top of the other.\n8 _________________ Highly polished mirrors.\n9 _________________ First use of mirrors to collect light.\n10 _________________ Two pieces of glass stuck together."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11–13\nComplete the summary below using words from the passage.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 11–13 on your answer sheet..\n There have been a number of changes in telescopes since they were first invented. For example, Galileo’s\n telescope increased the magnification of the earlier telescope to a factor of 30. He did this by altering the lenses’\n 11 _________________ and also constructing lenses 12 _________________. Other improvements followed but\n the most significant step forward, and still a major factor today in telescope design, has been the inclusion of 13\n _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "According to the writer, the first telescope was",
+      "translation": "根據作者，第一個望遠鏡是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The writer states that Galileo",
+      "translation": "作者說 Galileo……目標段落：Paragraph 2",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The Galileo telescope was better than the first telescope because it",
+      "translation": "Galileo 的望遠鏡比第一個望遠鏡好，原因是它……目標段落：Paragraph 2",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The writer states that today large telescopes are",
+      "translation": "作者說今天的大型望遠鏡……目標段落：Paragraph 5，亦可用 Paragraph 3 後半補充。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Large, powerful telescopes are difficult to build because",
+      "translation": "大型強力望遠鏡難以建造，原因是……目標段落：Paragraphs 3 and 5",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ The first telescopes made.",
+      "translation": "最早製造的望遠鏡。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ Uses a series of lenses one on top of the other.",
+      "translation": "使用一系列互相疊放的鏡片。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ Highly polished mirrors.",
+      "translation": "高度打磨的鏡面。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ First use of mirrors to collect light.",
+      "translation": "首次使用鏡面收集光線。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "_________________ Two pieces of glass stuck together.",
+      "translation": "兩片玻璃合在一起。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "text",
+      "prompt": "_________________ and also constructing lenses 12 _________________. Other improvements followed but the most significant step forward, and still a major factor today in telescope design, has been the inclusion of 13 _________________.",
+      "translation": "他透過改變鏡片的 ______ 來做到這一點。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "並且製作 ______ 的鏡片。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "後來還有其他改良，但最重要的一步，而且今天仍是望遠鏡設計的重要因素，是加入了 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-062/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-062/page-5.jpg"
+  ]
+}

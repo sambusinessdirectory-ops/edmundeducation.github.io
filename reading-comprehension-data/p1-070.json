@@ -1,0 +1,225 @@
+{
+  "id": "p1-070",
+  "catalogueId": "p1-070",
+  "title": "Prison: The Solution or the Problem?",
+  "sourceHeading": "",
+  "passage": 1,
+  "practice": 70,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-070-prison-the-solution-or-the-problem",
+  "source": {
+    "filename": "Practice 70  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "34e7bc81ca350ca174bd26251b2c47edcd99d4b131e9086397ac10896d337ad1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Prison: The Solution or the Problem? In the Netherlands and parts of the USA such as Johnson County, a move towards rehabilitating offenders has helped to reduce both crime and incarceration rates. Bucking this trend, the UK’s prison population has increased by an average of 3.6% per year since 1993. As the situation currently stands, the incarceration rate in England and Wales is 148 per 100,000 compared to 98 in France, 82 in the Netherlands and 79 in Germany. Without a shadow of a doubt, out of all European countries, the UK has adopted the most hardline approach to offenders."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The trend towards imposing prison sentences on offenders in the UK seems all the harsher because the Dutch Justice Ministry is actively in the process of systematically closing down prisons. In the period between 2010 and 2015, 28 prisons were closed in total. If anything, the Dutch reform of the prison system has been accelerating at a phenomenal pace, with 19 of the prisons being shut down in 2014 alone."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "As would be expected, closures of prisons in the Netherlands have led to a drop in the numbers of incarcerated offenders. This is also largely due to the fact that those convicted are choosing electronic tagging instead of incarceration. However, there is more to these statistics than meets the eye. Defying all expectations of the pro-incarceration lobbyists, crime rates in the Netherlands are also decreasing in direct proportion to the closure of prisons."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "With such statistics laid bare for all to see, many are now beginning to question the validity of incarceration as a method of reforming offenders. This concern is all the greater because the average prison place costs the taxpayer £37,648 per year – a hefty sum for a service that fails to deliver, especially since there are vastly cheaper and more effective methods to deal with offenders. Allowing offenders to be tagged electronically rather than be incarcerated would save around £35 million per year for every 1,000 convicted offenders. Serving a probation or community service order would also be 12 times less costly than the average prison placement for an offender."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "More tellingly, reoffending statistics published by the UK Ministry of Justice show a lower rate among offenders who receive a community sentence rather than a custodial one. This supports the argument that serving a prison term tends to create rather than alleviate the problem of crime. As a Conservative white paper concluded in 1990, ‘We know that prison is an expensive way of making bad people worse.’ Interestingly, the report also argued that there should be a range of community-based sentences which would be cheaper and more effective alternatives to prison."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Quite apart from the cost and relative ineffectiveness of incarceration is the short-sightedness of imposing a custodial sentence in the first place. A punitive system of incarceration presupposes that the prisoner needs to be punished for bad behaviour. Since the prisoner is considered answerable for their behaviour, it is believed that they are also completely responsible for their actions. Such an approach overlooks social and economic factors that can play an integral role in the incidence of crime. Such an oversight only serves to perpetuate crime and punish offenders who need help rather than a penal sentence."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "It would do no harm for the UK to look to the Netherlands as an example of reducing crime by addressing social problems as a means of reducing incarceration. In the Netherlands, the focus is on deterring crime by investing in social services rather than seeking purely to punish the offender. In addition, those who do offend are helped with rehabilitation programmes."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Overlooking the social circumstances of the offender can also be detrimental to children’s welfare, especially if a mother is convicted and given a custodial sentence. Often, childcare arrangements are not in place when custodial sentences are handed down to mothers caring for children. In fact, research suggests that more than half of the women who go to court are not expecting a custodial sentence, leaving arrangements for the children haphazard at best. The number of children who fall foul of the custodial system in this way totals a staggering 17,000 per year. Worse still, figures show that adult children of imprisoned mothers are more likely to be convicted of a crime than adult children of imprisoned fathers. Viewing the offender and their crime in isolation and disregarding all other social and environmental factors is therefore mistaken, if not downright morally reprehensible."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "All evidence would seem to point to a much-needed shake-up of the English penal system. As things stand, there are too many losers and no identifiable winners. It was Dostoevsky who said: ‘The degree of civilisation in a society is revealed by entering its prisons.’ Maybe we would do better to go one step further and amend his quotation to ‘The degree of civilisation in a society is revealed by not having prisons and instead by addressing social issues in society itself.’"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nComplete the sentences below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n  A decrease in crime in the Netherlands and parts of the US is attributable more to 1\n    _________________ than to incarceration.\nThe closure of prisons in the Netherlands 2 _________________ at an unprecedented rate over\nrecent years.\nAgainst 3 _________________, the Netherlands is seeing a drop in crime along with the closure of\nprisons.\nSince statistics do not support the argument for incarceration, this has made many 4\n_________________ of such a practice.\nIn fact, incarceration may serve to fuel rather 5 _________________ crime, thereby defeating the\npurpose of such a punishment.\nIn recognition of the fact that custodial sentences achieve little, less costly and 6\n_________________ were put forward by the Conservatives in 1990.\nCrime is not only down to individual behaviour but is also a result of 7 _________________\ninfluences."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nDo the following statements agree with the information given in the text?\nFor questions 8–13, write\n\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n8 _________________ Mothers who receive a custodial sentence are worse role models for their children\nthan fathers who receive similar sentences.\n9 _________________ Custodial sentences are intended primarily to reform prisoners.\n10 _________________ Factors other than an individual’s guilt are rarely taken into account by the\nEnglish judicial system.\n11 _________________ A proven link exists between mothers receiving a custodial sentence and their\noffspring committing crimes in later life.\n12 _________________ The English judicial system stands to benefit from incarcerating offenders.\n13 _________________ There are signs that custodial sentences are becoming less popular in the UK."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 1 · 請參照上方原題",
+      "translation": "Netherlands 和美國部分地區犯罪率下降，更多可歸因於 ______，而非監禁。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 2 · 請參照上方原題",
+      "translation": "近年來，Netherlands 關閉監獄的速度 ______，達到前所未有的程度。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 3 · 請參照上方原題",
+      "translation": "與 ______ 相反，Netherlands 在關閉監獄的同時，犯罪率也正在下降。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 4 · 請參照上方原題",
+      "translation": "由於統計數字不支持監禁論點，這使許多人開始 ______ 這種做法。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "事實上，incarceration 可能會加劇犯罪，而非 ______ 犯罪，因此違背這種懲罰的目的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "因為承認 custodial sentences 成效有限，Conservatives 在 1990 年提出了成本較低且 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "犯罪不只源於個人行為，也受到 ______ 影響。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Mothers who receive a custodial sentence are worse role models for their children than fathers who receive similar sentences.",
+      "translation": "被判 custodial sentence 的母親，比被判類似刑罰的父親更不是好榜樣。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Custodial sentences are intended primarily to reform prisoners.",
+      "translation": "Custodial sentences 的主要目的，是 reform prisoners。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Factors other than an individual’s guilt are rarely taken into account by the English judicial system.",
+      "translation": "除了個人罪責之外，其他因素很少被 English judicial system 考慮。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ A proven link exists between mothers receiving a custodial sentence and their offspring committing crimes in later life.",
+      "translation": "母親被判 custodial sentence 和其子女日後犯罪之間，存在已被數字顯示的關聯。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ The English judicial system stands to benefit from incarcerating offenders.",
+      "translation": "English judicial system 會從監禁 offenders 中得益。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ There are signs that custodial sentences are becoming less popular in the UK.",
+      "translation": "有跡象顯示 custodial sentences 在 UK 正變得較不常用或較不受制度偏好。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-070/page-4.jpg"
+  ]
+}

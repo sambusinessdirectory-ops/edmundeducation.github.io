@@ -1,0 +1,234 @@
+{
+  "id": "p3-064",
+  "catalogueId": "p3-064",
+  "title": "Low-Cost Lamps Light Rural India",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 64,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-064-low-cost-lamps-light-rural-india",
+  "source": {
+    "filename": "Practice 64 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "032a292d2a0d57d5b17d2faeba2717979284d36f4de8c4282d6e1c0a801b2983"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Low-Cost Lamps Light Rural India Until three months ago, life in this humble village without electricity would come to a halt after sunset. Inside his mud-and-clay home, Ganpat Jadhav’s three children used to study in the dim, smoky glow of a kerosene lamp, but their monthly fuel quota of four litres ran out in just a fortnight. They then had to strain their eyes using the light from a cooking fire. That all changed with the installation of low-cost, energy-efficient lamps that are powered entirely by the sun. The lights were installed by the Grameen Surya Bijli Foundation (GSBF), an Indian non-governmental organisation focused on bringing light to rural India. Some 100,000 Indian villages do not yet have electricity. The GSBF lamps use LEDs—light-emitting diodes—that are four times more efficient than a conventional bulb. After the $55 installation cost, solar energy powers the lamp free of charge. LED lighting, like cell phones, is another example of a technology whose low cost could allow the rural poor to leap into the 21st century."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "As many as 1.5 billion people – nearly 80 million in India alone – light their houses using kerosene as their primary lighting medium. The fuel is dangerous, dirty and—despite being subsidised—consumes nearly four per cent of a typical rural Indian household’s budget. A recent report by the Intermediate Technology Development Group suggests that indoor air pollution from such lighting media results in 1.6 million deaths worldwide every year. LED lamps, or more specifically white LEDs, are believed to produce nearly 200 times more useful light than a kerosene lamp and almost 50 times as much useful light as a conventional bulb. “This technology can light an entire rural village with less energy than that used by a single conventional 100-watt light bulb,” says Dave Irvine-Halliday, a professor of electrical engineering at the University of Calgary, Canada and the founder of Light Up the World Foundation (LUTW). Founded in 1997, LUTW has used LED technology to bring light to nearly 10,000 homes in remote and disadvantaged corners of some 27 countries, including India, Nepal, Sri Lanka, Bolivia, and the Philippines."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The technology, which is not yet widely known in India, faces some scepticism here. “LED systems are revolutionising rural lighting, but this isn’t a magic solution to the world’s energy problems,” says Ashok Jhunjhunwala, head of the electrical engineering department at the Indian Institute of Technology, Madras. Nearly 60 per cent of India’s rural population burns 180 million tonnes of biomass each year in primitive wood-burning stoves. These stoves are smoky and only 10–15 per cent efficient. Against this background, Jhunjhunwala emphasises the need for a clean energy source, not just for lighting but for other domestic purposes as well. In April, the Indian government launched an ambitious project to bring electricity to 112,000 rural villages in the next decade. However, the remote locations of the villages will make reaching this goal difficult. A. K. Lakhina, the chairman of India’s Rural Electrification Corporation, says the Indian government recognises the potential of LED lighting powered by solar technology but has expressed reservations about its high costs. “If only LEDs weren’t imported but manufactured locally,” he says, “and in bulk.”"
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The lamps installed in nearly 300 homes by GSBF cost nearly half the price of other solar lighting systems. Jasjeet Singh Chaddha, the founder of the NGO, currently imports his LEDs from China. He wants to set up an LED manufacturing unit and a solar panel manufacturing unit in India. If manufactured locally, the cost of his LED lamp could plummet to $22, because the lamps would no longer incur heavy import duties. “We need close to $5 million for this,” he says. Mr. Chaddha says he has also asked the government to exempt the lamps from such duties, but to no avail. An entrepreneur who made his money in plastics, Chaddha has poured his own money into the project, providing the initial installations free of charge. As he looks to make the project self-sustainable, he recognises that it is only urban markets—which have also shown a keen interest in LED lighting—that can afford the higher price. The rural markets in India cannot afford it, he says, until the prices are brought down. The rural markets would be able to afford it, says Mr. Irvine-Halliday, if they had access to microcredit. He says that in Tembisa, a shanty town in Johannesburg, he found that almost 10,000 homes spent more than $60 each on candles and paraffin every year. As calculations revealed, these families could pay for a solid-state lighting system in just over a year if their weekly payments matched what they would normally spend on candles and paraffin—if they had access to microcredit. LUTW is in the process of creating such a microcredit facility for South Africa."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "In villages near Khadakwadi, the newly installed LED lamps are a source of envy even to those connected to the grid. Those connected to the grid have to endure power cuts of up to six or seven hours a day. Constant energy shortages and blackouts are a common problem because of too few power plants and transmission and distribution losses caused by old technology and theft of electricity from the grid. LED systems require far less maintenance, have a longer service life and, as villagers jokingly say, “no electricity bills”. The lamps provided by GSBF have enough power to provide just four hours of light a day. Nevertheless, four hours is enough for people to finish their work early in the evening, and the lamps are more reliable than light from India’s electrical grid. Villagers are trained by GSBF officials to make the most of the new lamps. An official from GSBF instructs Jadhav and his family to clean the lamp regularly. “Its luminosity and life will diminish if you let the dust settle on it,” he warns them."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in the appropriate box on your answer sheet.\n\n\n27 The GSBF lamps\n A provide light for 100,000 Indian villages.\n B are very expensive to install.\n C are powered by the sun.\n\n\n28 More than half of India’s rural population uses\n A kerosene as a cooking fuel.\n B biomass as a cooking fuel.\n C solar power as a cooking fuel.\n\n\n29 In India, the GSBF lamps are too expensive for most people\n A in rural areas.\n B in urban areas.\n C in all areas.\n\n\n30 The GSBF lamps\n A are not as reliable as electricity from the national power grid.\n B require skill to use.\n C only provide four hours of light a day."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for\neach gap.\n\n\nAnother example of inexpensive technology helping poor people in rural\nareas is 31 _________________\nKerosene lamps and conventional bulbs produce less 32\n_________________ than GSBF lamps.\nIt is unlikely that the Indian government will achieve its aim of connecting\n112,000 villages to electricity because many villages are 33\n_________________\nGSBF lamps would be cheaper if it were not for 34 _________________\nUsers need to wipe 35 _________________ off the LED in order to keep it\nworking well."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n36 _________________ Ganpat Jadhav’s monthly ration of kerosene was insufficient.\n37 _________________ Kerosene causes many fires in homes in developing countries.\n38 _________________ LED systems could solve the world’s energy problems.\n39 _________________ Chaddha has so far funded the GSBF lamp project himself.\n40 _________________ Microcredit would help to get more people to use LED lamps."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The GSBF lamps",
+      "translation": "GSBF 的燈具具有哪一項特點？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "More than half of India’s rural population uses",
+      "translation": "印度農村人口超過一半使用甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "In India, the GSBF lamps are too expensive for most people",
+      "translation": "在印度，GSBF lamps 對哪一類人來說太昂貴？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The GSBF lamps",
+      "translation": "GSBF 的燈具還有哪一項特點？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "另一個幫助農村貧困人口的低成本科技例子是 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "Kerosene lamps 和 conventional bulbs 產生的 ______ 比 GSBF lamps 少。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "印度政府未必容易達成把 112,000 條村接上電力的目標，因為許多村莊都很 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "如果沒有 ______，GSBF lamps 會更便宜。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "使用者需要把 ______ 從 LED 上擦走，才能保持它運作良好。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Ganpat Jadhav’s monthly ration of kerosene was insufficient.",
+      "translation": "Ganpat Jadhav 每月配給的 kerosene 不足夠。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Kerosene causes many fires in homes in developing countries.",
+      "translation": "Kerosene 在發展中國家的家庭中造成很多火災。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ LED systems could solve the world’s energy problems.",
+      "translation": "LED systems 可以解決世界能源問題。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Chaddha has so far funded the GSBF lamp project himself.",
+      "translation": "到目前為止，Chaddha 自己出資支持 GSBF lamp project。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Microcredit would help to get more people to use LED lamps.",
+      "translation": "Microcredit 會幫助更多人使用 LED lamps。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-064/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-064/page-5.jpg"
+  ]
+}

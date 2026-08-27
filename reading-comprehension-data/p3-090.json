@@ -1,0 +1,255 @@
+{
+  "id": "p3-090",
+  "catalogueId": "p3-090",
+  "title": "The Mother of All Languages",
+  "sourceHeading": "The Mother of All Languages",
+  "passage": 3,
+  "practice": 90,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-090-the-mother-of-all-languages",
+  "source": {
+    "filename": "Practice 90 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "6f30a519219c9538f56eaf8ee22cbac11e584005e6002105079076333c2a8947"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "In 1786, William Jones, a British judge stationed in India, made what must be ranked as one of the most amazing discoveries of all time, yet it is little known outside of linguistic circles. Jones was studying Sanskrit, a long-dead Indian language used only in classical or liturgical texts. Upon examining many of the words, he was struck by their similarity to the two most ancient languages known at that time: Greek and Latin. He would later write that Sanskrit has ‘a stronger affinity’ with these other languages ‘than could possibly have been produced by accident’."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Jones drew the conclusion that Greek and Latin, and even the Germanic languages (including English), were all related to Sanskrit, and thus, logically, all of them must necessarily have evolved from a single earlier language. Subsequent scholars were able to confirm this, adding to this linguistic family all of the Romance languages (French, Spanish, and others), Slavic languages (Russian, Czech, and many others), and the Indo-Iranian languages (Persian, Afghan and many others). There are, in fact, hundreds of languages and dialects all over Europe, Iran, and South Asia, whose ancestry can now be traced to an original Indo-European language, now called Proto-Indo-European, or PIE for short."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "According to linguistic theory, proto-languages are usually spoken over relatively limited geographical areas, over a short time span, and by a tightly-knit community. The implication is simple but stunning: some single ancient tribe which spoke this mother of languages eventually took over most of the middle and western Eurasian landmass, spreading their language with them. This subsequently evolved into many others over the course of time, creating a language family which now has the greatest number of speakers in the world. The big question concerns who these Proto-Indo-Europeans were and where their ancestral homeland lay."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Archaeologists have examined many sites of European prehistory, occasionally identifying these as the homeland of the PIE population. This is often done with nationalistic overtones, arousing the anger of others in this field, and there still remains controversy over each claim. It is linguistic evidence which provides, perhaps, more definite clues. The similarities in vocabulary between all PIE’s daughter languages have allowed linguists to deduce a probable grammar and fairly extensive vocabulary. It is tempting to read into this a tentative lifestyle and location, with the quaint proviso that it remains ‘at best, highly speculative’."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Looking at just one example, there are PIE words for the temperate trees of the Northern Hemisphere, but not tropical or Mediterranean varieties. This indicates a northern European location, with a cold climate. And so, with such detailed linguistic analysis, the most widely accepted theory places the PIE origin in the Caspian Steppe – a vast region of temperate grass and shrubland north of the Black Sea, across present-day Ukraine, southern Russia, and Kazakhstan. Their language was spoken around 4000 BC (plus or minus a millennium, since exact dates are impossible at such an early stage in European prehistory)."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "What then enabled this single tribe to advance outwards and take over Eurasia? Some geneticists have suggested that it was the domestication of the horse, perhaps giving that tribe a hitherto unheard-of military superiority (as the Huns and the Mongols would do many thousands of years later). Some of them have also suggested that the discovery of farming was the impetus of this tribe’s advance, as with a stable and steady food supply at hand, their numbers could increase at the expense of the other fragmented hunter-gathering tribes roaming the wilds of Eurasia. Perhaps then, PIE simply moved alongside the outward spread of agriculture, together with a rapidly expanding and interbreeding population."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "But even PIE must have evolved from some earlier language, and audacious linguists are digging deeper into the past. PIE gave birth to a large family of languages, but there are other families, such as Afro-Asiatic (which includes Arabic), Dravidian (comprising the many languages of Southern India), and Altaic (which includes Mongolian and Japanese). It has been proposed that these themselves may all belong to a ‘macro-family’, sometimes called Proto-Nostratic. Most linguists maintain that, although it is theoretically possible that such an original language existed, it is next to impossible to prove, since resemblances among languages can also be due to chance, and thus they remain sceptical of such a claim."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Still, it is mind-boggling that perhaps almost every single language on Earth can ultimately be traced back to a single source spoken by a small group of individuals. This language is sometimes called Proto-Human, the mother of all languages. One interesting theory posited by geologists is that a huge catastrophe occurred in the not-so-distant past some 70,000 years ago, linked to the volcanic eruption of Mount Toba in Indonesia. According to this theory, the eruption reduced the world population to a small band of survivors whose Proto-Human language gave rise to all subsequent languages. If this is true, it is intriguing to think that had that catastrophe not occurred, we would all be speaking totally different languages today."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–39",
+    "g40": "Questions 40–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nComplete the sentences.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\nWilliam Jones’s findings are mostly known within 27 _________________.\nA community which speaks a proto-language is 28 _________________\nProto-Indo-Europeans might have come from the 29 _________________\nMount Toba was the site of a 30 _________________"
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nWrite the correct letter, A–E.\nNB: Use each answer only once.\n A                                    Archaeologists\n\n B                                    Geneticists\n\n C                                    Geologists\n\n D                                    Linguists\n\n E                                    Scholars\nWhich people\n31 ___________ believe that reliable nutrition may be the answer?\n32 ___________ have categorised very many languages?\n33 ___________ often face anger and controversy?\n34 ___________ are sceptical about some issues?\n35 ___________ have speculated about a disaster?"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 39,
+      "text": "Questions 36–39\nComplete the flow chart.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\nThe Evolution of Language\n\n\n\n\n36 _________________\n37 _________________\n38 _________________\n39 _________________"
+    },
+    {
+      "id": "g40",
+      "start": 40,
+      "end": 40,
+      "text": "Question 40\nChoose the correct letter, A, B, C, or D.\n40 The author thinks the subject is\n A complicated.\n B controversial.\n C interesting.\n D fascinating."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "William Jones 的發現主要在 ______ 之內為人所知。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "使用 proto-language 的社群是 ______ 的。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "Proto-Indo-Europeans 可能來自 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "Mount Toba 是一次 ______ 的發生地。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "___________ believe that reliable nutrition may be the answer?",
+      "translation": "哪一類人認為穩定可靠的食物供應可能是答案？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "___________ have categorised very many languages?",
+      "translation": "哪一類人把大量語言歸入分類？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "___________ often face anger and controversy?",
+      "translation": "哪一類人經常面對憤怒和爭議？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "___________ are sceptical about some issues?",
+      "translation": "哪一類人對某些主張保持懷疑？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "___________ have speculated about a disaster?",
+      "translation": "哪一類人推測曾發生一場災難？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g40",
+      "type": "choice",
+      "prompt": "The author thinks the subject is",
+      "translation": "作者認為這個主題是怎樣的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-090/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-090/page-5.jpg"
+  ]
+}

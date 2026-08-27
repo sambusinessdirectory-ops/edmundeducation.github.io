@@ -1,0 +1,277 @@
+{
+  "id": "p2-102",
+  "catalogueId": "p2-102",
+  "title": "IT’S ECO-LOGICAL",
+  "sourceHeading": "It’s Eco-logical Planning an eco-friendly holiday can be a minefield for the well-meaning traveller, says Steve Watkins. But help is now at hand.",
+  "passage": 2,
+  "practice": 102,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-102-its-eco-logical",
+  "source": {
+    "filename": "Practice 102 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "2ea6e7372256a885c1ad1656b5f2caab1aa31ad7433d52c717c8f9c615ca01e4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "If there were awards for tourism phrases that have been hijacked, diluted and misused then ‘ecotourism’ would earn top prize. The term first surfaced in the early 1980s, reflecting a surge in environmental awareness and a realisation by tour operators that many travellers wanted to believe their presence abroad would not have a negative impact. It rapidly became the hottest marketing tag a holiday could carry."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "These days the ecotourism label is used to cover anything from a two-week tour living with remote Indonesian tribes, to a one-hour motorboat trip through an Australian gorge. In fact, any tour that involves cultural interaction, natural beauty spots, wildlife or a dash of soft adventure is likely to be included in the overflowing ecotourism folder. There is no doubt that the original motives behind the movement were honourable attempts to provide a way for those who cared to make informed choices, but the lack of regulations and a standard industry definition left many travellers lost in an ecotourism jungle."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "It is easier to understand why the ecotourism market has become so overcrowded when we look at its wider role in the world economy. According to World Tourism Organisation figures, ecotourism is worth US$20 billion a year and makes up one-fifth of all international tourism. Add to this an annual growth rate of around five per cent and the pressure for many operators, both in developed and developing countries, to jump on the accelerating bandwagon is compelling. Without any widely recognised accreditation system, consumers have been left to investigate the credentials of operators themselves. This is a time-consuming process and many travellers take an operator’s claims at face value, only adding to the proliferation of fake ecotours."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "However, several simple questions can help assess a company’s commitment to minimising its environmental impact and maximising the benefits to the local community in the tourism area. For example, does the company use recycled or sustainable, locally harvested materials to build its tourist properties? Does it pay fair wages to all employees? Does it offer training to employees? It is common for city entrepreneurs to own tour companies in country areas, which can mean the money you pay ends up in the city rather than in the community being visited. By taking a little extra time to investigate the ecotourism options, not only can you direct your custom to worthy operators, but you will often find that the experience they offer is far more rewarding."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The ecotourism business is still very much in need of a shake-up and a standardised approach. There are a few organisations that have sprung up in the last ten years or so that endeavour to educate travellers and operators about the benefits of responsible ecotourism. Founded in 1990, the Ecotourism Society (TES) is a non-profit organisation of travel industry, conservation and ecological professionals, which aims to make ecotourism a genuine tool for conservation and sustainable development. Helping to create inherent economic value in wilderness environments and threatened cultures has undoubtedly been one of the ecotourism movement’s most notable achievements. TES organises an annual initiative to further aid the development of the ecotourism industry. This year it is launching ‘Your Travel Choice Makes a Difference’, an educational campaign aimed at helping consumers understand the potential positive and negative impacts of their travel decisions. TES also offers guidance on the choice of ecotour and has established a register of approved ecotourism operators around the world."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "A leading ecotourism operator in the United Kingdom is Tribes, which won the 1999 Tourism Concern and Independent Traveller’s World ‘Award for Most Responsible Tour Operator’. Amanda Marks, owner and director of Tribes, believes that the ecotourism industry still has some way to go to get its house in order. Until now, no ecotourism accreditation scheme has really worked, principally because there has been no systematic way of checking that accredited companies actually comply with the code of practice. Amanda believes that the most promising system is the recently relaunched Green Globe 21 scheme. The Green Globe 21 award is based on the sustainable development standards contained in Agenda 21 from the 1992 Earth Summit and was originally coordinated by the World Travel & Tourism Council (WTTC). The scheme is now an independent concern, though the WTTC still supports it. Until recently, tour companies became affiliates and could use the Green Globe logo merely on payment of an annual fee, hardly a suitable qualifying standard. However, in November 1999 Green Globe 21 introduced an annual, independent check on operators wishing to use the logo."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Miriam Cain, from the Green Globe 21 marketing department, explains that current and new affiliates will now have one year to ensure that their operations comply with Agenda 21 standards. If they fail the first inspection, they can only reapply once. The inspection process is not a cheap option, especially for large companies, but the benefits of having Green Globe status and the potential operational cost savings that complying with the standards can bring should be significant. ‘We have joint ventures with organisations around the world, including Australia and the Caribbean, that will allow us to effectively check all affiliate operators,’ says Miriam. The scheme also allows destination communities to become Green Globe 21 approved."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "For a relatively new industry it is not surprising that ecotourism has undergone teething pains. However, there are signs that things are changing for the better. With a committed and unified approach by the travel industry, local communities, travellers and environmental experts could make ecotourism a tag to be proud of and to trust."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–22",
+    "g23": "Questions 23–24",
+    "g25": "Questions 25–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nDo the following statements agree with the views of the writer in Reading Passage 2?\nIn boxes 14–19 on your answer sheet write\n\n YES                       if the statement agrees with the views of the writer\n\n NO                        if the statement contradicts the views of the writer\n\n NOT GIVEN                 if it is impossible to say what the writer thinks about this\n14 _________________ The term ‘ecotourism’ has become an advertising gimmick.\n15 _________________ The intentions of those who coined the term ‘ecotourism’ were sincere.\n16 _________________ Ecotourism is growing at a faster rate than any other type of travel.\n17 _________________ It is surprising that so many tour organisations decided to become\ninvolved in ecotourism.\n18 _________________ Tourists have learnt to make investigations about tour operators before\nusing them.\n19 _________________ Tourists have had bad experiences on ecotour holidays."
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 22,
+      "text": "Questions 20–22\nAccording to the information given in the reading passage, which THREE of the following\nare true of the Ecotourism Society (TES)?\nWrite the appropriate letters A–F in boxes 20–22 on your answer sheet.\n A It has monitored the growth in ecotourism.\n B It involves a range of specialists in the field.\n C It has received public recognition for the role it performs.\n D It sets up regular ecotour promotions.\n E It offers information on ecotours at an international level.\n F It consults with people working in tourist destinations."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 24,
+      "text": "Questions 23–24\nAccording to the information given in the reading passage, which TWO of the following are\ntrue of the Green Globe 21 award?\nWrite the appropriate letters A–E in boxes 23–24 on your answer sheet.\n A The scheme is self-regulating.\n B Amanda Marks was recruited to develop the award.\n C Prior to 1999 companies were not required to pay for membership.\n D Both tour operators and tour sites can apply for affiliation.\n E It intends to reduce the number of ecotour operators."
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 27,
+      "text": "Questions 25–27\nUsing NO MORE THAN THREE WORDS, answer the following questions.\nWrite your answers in boxes 25–27 on your answer sheet.\nWhich body provides information on global tourist numbers?\n25 _________________\nWho often gains financially from tourism in rural environments?\n26 _________________\nWhich meeting provided the principles behind the Green Globe 21 regulations?\n27 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ The term ‘ecotourism’ has become an advertising gimmick.",
+      "translation": "“ecotourism” 這個詞已經變成一種廣告噱頭。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ The intentions of those who coined the term ‘ecotourism’ were sincere.",
+      "translation": "最初創造或使用 “ecotourism” 這個概念的人，動機是真誠的。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Ecotourism is growing at a faster rate than any other type of travel.",
+      "translation": "Ecotourism 的增長速度比任何其他旅遊類型都快。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ It is surprising that so many tour organisations decided to become involved in ecotourism.",
+      "translation": "很多旅遊機構決定加入 ecotourism，這令人意外。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Tourists have learnt to make investigations about tour operators before using them.",
+      "translation": "旅客已學會在使用旅遊營辦商前先調查它們。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Tourists have had bad experiences on ecotour holidays.",
+      "translation": "旅客在 ecotour holidays 中有過不愉快經驗。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "根據文章，以下哪三項關於 Ecotourism Society（TES）是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "根據文章，以下哪三項關於 Ecotourism Society（TES）是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "根據文章，以下哪三項關於 Ecotourism Society（TES）是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "根據文章，以下哪兩項關於 Green Globe 21 award 是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "根據文章，以下哪兩項關於 Green Globe 21 award 是正確的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "text",
+      "prompt": "_________________ Who often gains financially from tourism in rural environments?",
+      "translation": "哪個機構提供全球旅遊人數／旅遊數字方面的資料？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "text",
+      "prompt": "_________________ Which meeting provided the principles behind the Green Globe 21 regulations?",
+      "translation": "在鄉郊地區旅遊中，誰經常獲得金錢收益？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g25",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "哪個會議提供了 Green Globe 21 規例背後的原則？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-102/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-102/page-5.jpg"
+  ]
+}

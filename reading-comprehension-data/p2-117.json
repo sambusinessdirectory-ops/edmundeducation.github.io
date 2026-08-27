@@ -1,0 +1,235 @@
+{
+  "id": "p2-117",
+  "catalogueId": "p2-117",
+  "title": "The Dinosaurs Footprints and Extinction",
+  "sourceHeading": "The Dinosaurs’ Footprints and Extinction",
+  "passage": 2,
+  "practice": 117,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-117-the-dinosaurs-footprints-and-extinction",
+  "source": {
+    "filename": "Practice 117 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "efe07c9c7b7f12995fcbdadeb9c9f4e9cd4e2b0adb68ad015283e30949f97123"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "EVERYBODY knows that the dinosaurs were killed by an asteroid. Something big hit the earth 65 million years ago and, when the dust had fallen, so had the great reptiles. There is thus a nice, if ironic, symmetry in the idea that a similar impact brought about the dinosaurs’ rise. That is the thesis proposed by Paul Olsen, of Columbia University, and his colleagues in this week’s Science."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Dinosaurs first appeared in the fossil record 230 million years ago, during the Triassic period. But they were mostly small, and they shared the earth with lots of other sorts of reptile. It was in the subsequent Jurassic, which began 202 million years ago, that they overran the planet and turned into the monsters depicted in the book and movie “Jurassic Park”. (Actually, though, the dinosaurs that appeared on screen were from the still more recent Cretaceous period.) Dr Olsen and his colleagues are not the first to suggest that the dinosaurs inherited the earth as the result of an asteroid strike. But they are the first to show that the takeover did, indeed, happen in a geological eyeblink."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Dinosaur skeletons are rare. Dinosaur footprints are, however, surprisingly abundant. And the sizes of the prints are as good an indication of the sizes of the beasts as are the skeletons themselves. Dr Olsen and his colleagues, therefore, concentrated on prints, not bones."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The prints in question were made in eastern North America, a part of the world then full of rift valleys similar to those in East Africa today. Like the modern African rift valleys, the Triassic/Jurassic American ones contained lakes, and these lakes grew and shrank at regular intervals because of climatic changes caused by periodic shifts in the earth’s orbit. (A similar phenomenon is responsible for modern ice ages.) That regularity, combined with reversals in the earth’s magnetic field, which are detectable in the tiny fields of certain magnetic minerals, means that rocks from this place and period can be dated to within a few thousand years. As a bonus, squishy lake-edge sediments are just the things for recording the tracks of passing animals. By dividing the labour between themselves, the ten authors of the paper were able to study such tracks at 80 sites."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The researchers looked at 18 so-called ichnotaxa. These are recognisable types of footprint that cannot be matched precisely with the species of animal that left them. But they can be matched with a general sort of animal, and thus act as an indicator of the fate of that group, even when there are no bones to tell the story. Five of the ichnotaxa disappear before the end of the Triassic, and four march confidently across the boundary into the Jurassic. Six, however, vanish at the boundary, or only just splutter across it; and three appear from nowhere, almost as soon as the Jurassic begins."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "That boundary itself is suggestive. The first geological indication of the impact that killed the dinosaurs was an unusually high level of iridium in rocks at the end of the Cretaceous when the beasts disappeared from the fossil record. Iridium is normally rare at the earth’s surface, but it is more abundant in meteorites. When people began to believe the impact theory, they started looking for other Cretaceous-end anomalies. One that turned up was a surprising abundance of fern spores in rocks just above the boundary layer—a phenomenon known as a “fern spike”."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "That matched the theory nicely. Many modern ferns are opportunists. They cannot compete against plants with leaves, but if a piece of land is cleared by, say, a volcanic eruption, they are often the first things to set up shop there. An asteroid strike would have stripped much of the Earth of its vegetation, and provided a paradise for ferns. A fern spike in the rocks is thus a good indication that something terrible has happened."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Both an iridium anomaly and a fern spike appear in rocks at the end of the Triassic, too. That accounts for the disappearing ichnotaxa: the creatures that made them did not survive the holocaust. The surprise is how rapidly the new ichnotaxa appear. Eubrontes giganteus, for example, appears a mere 10,000 years after the iridium anomaly. The Eubrontes prints were made by theropods—the dinosaur group that went on to produce such nightmares as Allosaurus and Tyrannosaurus—and Eubrontes is already 20 per cent bigger than any theropod track recorded from the Triassic."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Dr Olsen and his colleagues suggest that the explanation for this rapid increase in size may be a phenomenon called ecological release. This is seen today when reptiles (which, in modern times, tend to be small creatures) reach islands where they face no competitors. The most spectacular example is on the Indonesian island of Komodo, where local lizards have grown so large that they are often referred to as dragons. The dinosaurs, in other words, could flourish only when the competition had been knocked out."
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "That leaves the question of where the impact happened. No large crater in the Earth’s crust seems to be 202 million years old. It may, of course, have been overlooked. Old craters are eroded and buried, and not always easy to find. Alternatively, it may have vanished. Although the continental crust is more or less permanent, the ocean floor is constantly recycled by the tectonic processes that bring about continental drift. There is no ocean floor left that is more than 200 million years old, so a crater that formed in the ocean would have been swallowed up by now."
+    },
+    {
+      "number": 11,
+      "label": "K",
+      "text": "There is a third possibility, however. This is that the crater is known, but has been misdated. The Manicouagan “structure”, a crater in Quebec, is thought to be 214 million years old. It is huge – some 100 km across – and seems to be the largest of between three and five craters that formed within a few hours of each other as the lumps of a disintegrated comet hit the earth one by one."
+    }
+  ],
+  "instructions": {
+    "g15": "Questions 15–20",
+    "g21": "Questions 21–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g15",
+      "start": 15,
+      "end": 20,
+      "text": "Questions 15–20\nDo the following statements agree with the views of the writer in Reading Passage 2?\nWrite YES, NO or NOT GIVEN in boxes 15–20 on your answer sheet.\n\n\n YES                       if the statement agrees with the views of the writer\n\n NO                        if the statement contradicts the views of the writer\n\n NOT GIVEN                 if it is impossible to say what the writer thinks about this\n\n\n15 Dr Paul Olsen and his colleagues believe that an asteroid impact may also have led to the\nrise of the dinosaurs.\n16 Books and films such as Jurassic Park often exaggerate the size of dinosaurs.\n17 Dinosaur footprints provide more useful evidence than dinosaur skeletons.\n18 Dr Olsen chose footprints because they are more detectable than evidence from the Earth’s\nmagnetic field when dating geological events to within a few thousand years.\n19 Ichnotaxa allow dinosaur footprints to be matched to the exact species that made them.\n20 More iridium is found at the Earth’s surface than in meteorites."
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 27,
+      "text": "Questions 21–27\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 21–27 on your answer sheet.\n\n\nDr Olsen and his colleagues used a phenomenon called 21 __________ to explain the\nlarge size of Eubrontes. This is similar to what happens when reptiles reach a place where\nthere are no 22 __________. For example, on the island of Komodo, native lizards grow so\nlarge that people refer to them as 23 __________.\nWhy, then, has no trace of the ancient impact been found? One possibility is that we have\n24 __________ the evidence. Old craters are difficult to spot, or the crater may have 25\n__________ because of movements in the Earth’s crust. Even a crater formed in the ocean\nwould have been 26 __________ by crustal movement. A third possibility is that the\npotential evidence—one or more craters—has been 27 __________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Dr Paul Olsen and his colleagues believe that an asteroid impact may also have led to the rise of the dinosaurs.",
+      "translation": "Dr Paul Olsen 和他的同事認為，小行星撞擊也可能導致恐龍崛起。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Books and films such as Jurassic Park often exaggerate the size of dinosaurs.",
+      "translation": "像 Jurassic Park 這類書籍和電影經常誇大恐龍的體型。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Dinosaur footprints provide more useful evidence than dinosaur skeletons.",
+      "translation": "恐龍足跡比恐龍骨骼提供更有用的證據。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Dr Olsen chose footprints because they are more detectable than evidence from the Earth’s magnetic field when dating geological events to within a few thousand years.",
+      "translation": "Olsen 博士選擇足跡，是因為在把地質事件定年到幾千年範圍內時，足跡比地球磁場證據更容易偵測。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "Ichnotaxa allow dinosaur footprints to be matched to the exact species that made them.",
+      "translation": "Ichnotaxa 可以讓恐龍足跡和留下足跡的精確物種配對。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g15",
+      "type": "choice",
+      "prompt": "More iridium is found at the Earth’s surface than in meteorites.",
+      "translation": "地球表面的 iridium 比隕石中的更多。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "Olsen 博士和同事用一種叫做 ______ 的現象，解釋 Eubrontes 的巨大體型。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "這類似於爬行類到達一個沒有 ______ 的地方時所發生的情況。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "例如在 Komodo 島，本地蜥蜴長得很大，以致人們稱牠們為 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "text",
+      "prompt": "__________ the evidence. Old craters are difficult to spot, or the crater may have 25 __________ because of movements in the Earth’s crust. Even a crater formed in the ocean would have been 26 __________ by crustal movement. A third possibility is that the potential evidence—one or more craters—has been 27 __________.",
+      "translation": "一個可能性是，我們已經 ______ 了證據。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "古老撞擊坑很難發現，或者撞擊坑可能因地殼運動而 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "即使撞擊坑形成於海洋，也會因地殼運動而被 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g21",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "第三種可能是，潛在證據，即一個或多個撞擊坑，已被 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-117/page-5.jpg"
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": "p1-119",
+  "catalogueId": "p1-119",
+  "title": "Biology of Bitterness",
+  "sourceHeading": "Biology of Bitterness To many people, grapefruit is palatable only when doused in sugar. Bitter blockers like adenosine monophosphate could change that.",
+  "passage": 1,
+  "practice": 119,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-119-biology-of-bitterness",
+  "source": {
+    "filename": "Practice 119 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "b78c0892acbb5d3a9dc3a6d92e460ba19873faed368eb8c9ee9771b20263a615"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "There is a reason why grapefruit juice is served in little glasses: most people don’t want to drink more than a few ounces at a time. Naringin, a natural chemical compound found in grapefruit, tastes bitter. Some people like that bitterness in small doses and believe it enhances the general flavour, but others would rather avoid it altogether. So juice packagers often select grapefruit with low naringin, though the compound has antioxidant properties that some nutritionists contend may help prevent cancer and arteriosclerosis."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "It is possible, however, to get the goodness of grapefruit juice without the bitter taste. I found that out by participating in a test conducted at the Linguagen Corporation, a biotechnology company in Cranbury, New Jersey. Sets of two miniature white paper cups, labelled 304 and 305, were placed before five people seated around a conference table. Each of us drank from one cup and then the other, cleansing our palates between tastes with water and a soda cracker. Even the smallest sip of 304 had grapefruit’s unmistakable bitter bite. But 305 was smoother; there was the sour taste of citrus but none of the bitterness of naringin. This juice had been treated with adenosine monophosphate, or AMP, a compound that blocks the bitterness in foods without making them less nutritious."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Taste research is a booming business these days, with scientists delving into all five basic tastes—sweet, bitter, sour, salty and umami, the savoury taste of protein. Bitterness is of special interest to industry because of its untapped potential in food. There are thousands of bitter-tasting compounds in nature. They defend plants by warning animals away and protect animals by letting them know when a plant may be poisonous. But the system isn’t foolproof. Grapefruit and cruciferous vegetables like Brussels sprouts and kale are nutritious despite—and sometimes because of—their bitter-tasting components. Over time, many people have learned to love them, at least in small doses. “Humans are the only species that enjoys bitter taste,” says Charles Zuker, a neuroscientist at the University of California School of Medicine at San Diego. “Every other species is averse to bitter because it means bad news. But we have learned to enjoy it. We drink coffee, which is bitter, and quinine [in tonic water] too. We enjoy having that spice in our lives.” Because bitterness can be pleasing in small quantities but repellent when intense, bitter blockers like AMP could make a whole range of foods, drinks, and medicines more palatable—and therefore more profitable."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "People have varying capacities for tasting bitterness, and the differences appear to be genetic. About 75 per cent of people are sensitive to the taste of the bitter compounds phenylthiocarbamide and 6-n-propylthiouracil, while 25 per cent are insensitive. Those who are sensitive to phenylthiocarbamide seem to be less likely than others to eat cruciferous vegetables, according to Stephen Wooding, a geneticist at the University of Utah. Some people, known as supertasters, are especially sensitive to 6-n-propylthiouracil because they have an unusually high number of taste buds. Supertasters tend to shun all kinds of bitter-tasting things, including vegetables, coffee, and dark chocolate. Perhaps as a result, they tend to be thin. They’re also less fond of alcoholic drinks, which are often slightly bitter. Dewar’s Scotch, for instance, tastes somewhat sweet to most people. ‘But a supertaster tastes no sweetness at all, only bitterness,’ says Valerie Duffy, an associate professor of dietetics at the University of Connecticut at Storrs."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "In one recent study, Duffy found that supertasters consume alcoholic beverages, on average, only two to three times a week, compared with five or six times for the average nontaster. Each taste bud, which looks like an onion, consists of 50 to 100 elongated cells running from the top of the bud to the bottom. At the top is a little clump of receptors that capture the taste molecules, known as tastants, in food and drink. The receptors function much like those for sight and smell. Once a bitter signal has been received, it is relayed via proteins known as G proteins. The G protein involved in the perception of bitterness, sweetness, and umami was identified in the early 1990s by Linguagen’s founder, Robert Margolskee, at Mount Sinai School of Medicine in New York City. Known as gustducin, the protein triggers a cascade of chemical reactions that lead to changes in ion concentrations within the cell. Ultimately, this delivers a signal to the brain that registers as bitter. “The signaling system is like a bucket brigade,” Margolskee says. “It goes from the G protein to other proteins.”"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In 2000, Zuker and others found some 30 different kinds of genes that code for bitter-taste receptors. “We knew the number would have to be large because there is such a large universe of bitter tastants,” Zuker says. Yet no matter which tastant enters the mouth or which receptor it attaches to, bitter always tastes the same to us. The only variation derives from its intensity and the ways in which it can be flavoured by the sense of smell. “Taste cells are like a light switch,” Zuker says. “They are either on or off.”"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Once they figured out the taste mechanism, scientists began to think of ways to interfere with it. They tried AMP, an organic compound found in breast milk and other substances, which is created as cells break down food. AMP has no bitterness of its own, but when it is put into foods, Margolskee and his colleagues discovered that it attaches to bitter-taste receptors. As effective as it is, AMP may not be able to dampen every type of bitter taste, because it probably doesn’t attach to all 30 bitter-taste receptors. So Linguagen has scaled up the hunt for other bitter blockers with a technology called high-throughput screening. Researchers start by coaxing cells in culture to activate bitter-taste receptors. Then candidate substances, culled from chemical compound libraries, are dropped onto the receptors, and scientists look for evidence of a reaction."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "In time, some taste researchers believe, compounds like AMP will help make processed foods less unhealthy. Consider, for example, that a single cup of Campbell’s chicken noodle soup contains 850 milligrams of sodium chloride, or table salt—more than a third of the recommended daily allowance. The salt masks the bitterness created by the high temperatures used in the canning process, which cause sugars and amino acids to react. Part of the salt could be replaced by another salt, potassium chloride, which tends to be scarce in some people’s diets. Potassium chloride has a bitter aftertaste, but that could be eliminated with a dose of AMP. Bitter blockers could also be used in place of cherry or grape flavouring to take the harshness out of children’s cough syrup, and they could dampen the bitterness of antihistamines, antibiotics, certain HIV drugs, and other medications."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "A number of foodmakers have already begun to experiment with AMP in their products, and other bitter blockers are being developed by rival firms such as Senomyx in La Jolla, California. In a few years, perhaps, after food companies have taken the bitterness from canned soup and TV dinners, they can set their sights on something more useful: a bitter blocker in a bottle that any of us can sprinkle on our Brussels sprouts or stir into our grapefruit juice."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–8",
+    "g9": "Questions 9–12",
+    "g13": "Questions 13–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 8,
+      "text": "Questions 1–8\nThe reading passage has nine paragraphs, A–I.\nWhich paragraph contains the following information?\nWrite the correct letter, A–I, in boxes 1–8 on your answer sheet.\n1 An experiment on bitterness\n2 A look at a future application\n3 Bitterness conveys different information to humans and animals\n4 How a bitter signal travels through the body\n5 How AMP blocks bitterness\n6 How a bitter blocker may make food healthier\n7 The source of bitterness in a fruit\n8 A genetic basis for sensitivity to bitterness"
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 12,
+      "text": "Questions 9–12\nSummary\nComplete the following summary.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 9–12 on your answer sheet.\nThe reason grapefruit tastes bitter is that it contains a substance called 9\n_________________. However, bitterness plays a significant role for plants: it signals that a\nparticular plant may be 10 _________________. Humans have different genetically\ndetermined abilities to taste bitterness. According to a scientist at the University of Utah, 11\n_________________ have exceptionally large numbers of 12 _________________, which\nallow them to perceive bitter compounds."
+    },
+    {
+      "id": "g13",
+      "start": 13,
+      "end": 14,
+      "text": "Questions 13–14\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 13 and 14 on your answer sheet.\n13 What is the main feature of AMP according to the passage?\n A It offsets bitter flavours in food.\n B It exists only in cup 304.\n C It tastes like citrus.\n D It reacts chemically when it meets a biscuit.\n14 What is the main function of a G protein?\n A It collects taste molecules.\n B It identifies different flavour elements.\n C It breaks down large molecules.\n D It transmits bitter signals to the brain."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "An experiment on bitterness",
+      "translation": "一個關於苦味的實驗。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A look at a future application",
+      "translation": "對未來應用的一個展望。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Bitterness conveys different information to humans and animals",
+      "translation": "苦味對人類和動物傳遞不同資訊。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "How a bitter signal travels through the body",
+      "translation": "苦味訊號如何在身體中傳遞。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "How AMP blocks bitterness",
+      "translation": "AMP 如何阻擋苦味。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "How a bitter blocker may make food healthier",
+      "translation": "bitter blocker 如何可能令食物更健康。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The source of bitterness in a fruit",
+      "translation": "某種水果苦味的來源。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "A genetic basis for sensitivity to bitterness",
+      "translation": "對苦味敏感的基因基礎。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "grapefruit 之所以嘗起來苦，是因為它含有一種叫做 ______ 的物質。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "然而，苦味對植物有重要作用：它發出訊號，表示某種植物可能 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "根據 University of Utah 一位科學家的說法，______ 有異常大量的 ______，因此能感知苦味化合物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "根據 University of Utah 一位科學家的說法，supertasters 有異常大量的 ______，因此能感知苦味化合物。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g13",
+      "type": "choice",
+      "prompt": "What is the main feature of AMP according to the passage?",
+      "translation": "根據文章，AMP 的主要特徵是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g13",
+      "type": "choice",
+      "prompt": "What is the main function of a G protein?",
+      "translation": "G protein 的主要功能是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-119/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-119/page-6.jpg"
+  ]
+}

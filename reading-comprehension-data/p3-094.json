@@ -1,0 +1,208 @@
+{
+  "id": "p3-094",
+  "catalogueId": "p3-094",
+  "title": "The International Space Station",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 94,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-094-the-international-space-station",
+  "source": {
+    "filename": "Practice 94 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "19aa498aa9569c2fe72f8a85c288282e120dfdf4b20359db63861ba1ede40d04"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The International Space Station Just before sunrise, on a clear night, look up, and you may be able to see it travelling steadily across the dark, starry sky. It will take about four minutes to pass — too fast to be a planet, too slow to be a shooting star. What is it, then? It is the International Space Station (ISS), on one of its 15 orbits per day. The sun’s light has lit it up while your surroundings remain dark, but don’t discount that white dot as something inconsequential. About $100 billion has been spent on it so far, and it will need much more money by the time it ceases operation, sometime after 2025."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "This enormous cost could not, of course, be paid by one nation. The ISS was necessarily a joint effort by no fewer than five different space agencies: America’s NASA, Russia’s RKA, Canada’s CSA, Japan’s JAXA, and the European equivalent, ESA. Similarly, with the difficulty in ferrying payloads into this environment, a project of the scale of the ISS could not be a ready-made station (such as the earliest varieties). The ISS was built module by module, each one flown into space and then intricately connected. It eventually became an awkward-looking conglomeration, yet, when viewed with planet Earth in the background, it is a grand and inspiring monument to humankind’s ingenuity."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Such a construction would immediately break to pieces under its own weight in ordinary gravity—but, because the station is in orbit, its weight is not felt. The station is constantly free-falling under Earth’s gravitational pull, yet never hitting the planet due to the station’s lateral velocity. This will, however, not continue forever. With its low-Earth orbit, there is aerodynamic drag from the faint atmosphere through which the station continually ploughs. This results in a small yet steady and perceptible loss of speed, and consequent orbital decay. Contributing to this loss are, surprisingly, tidal forces. Being so large and loosely connected, the parts of the ISS further from the Earth flex more than the parts closer, using up energy."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The largest component of the ISS is the Truss Structure, a non-pressurised ten-segment spine to which are connected the station’s extensive solar arrays at one end and thermal radiators towards the centre. Perpendicular to this are the pressurised modules. The station actually began with one of these: Zarya, first launched in 1998. Only two weeks later, Unity was directly attached to this, its most notable feature being the protruding Cupola — a large seven-windowed viewing room, absolutely essential for the psychological wellbeing of the crew. It took almost two more years before Zvezda was attached to Zarya’s opposite end. Later, the Truss Structure was fixed to the Unity Module, followed by the Harmony Module beyond that."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The station’s interior is no less complicated, and with a six-member crew staying on board for up to six months, the life-support systems are crucial. Because the station is in the airless and deadly vacuum of space, atmospheric control — that is, maintaining a stable Earth-like atmosphere — is the most important element. This has, in fact, always presented the greatest challenge in spacecraft design. In 1967, the Apollo 1 craft used a pure-oxygen atmosphere, with tragic consequences. Although this allowed a lower air pressure (better from an engineering standpoint), pure oxygen more readily fuels combustion. A random spark started a fire which raced through the craft, killing all three crew members, and the experiment was never repeated."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The ISS’s main source of oxygen is the ‘Elektron’ system, which uses an electric current to break apart water molecules. The oxygen produced is vented into the pressurised modules, while the other by-product, hydrogen, is vented into space. This system generates enough oxygen for a six-member crew, although it has proven so unreliable that the emergency backups have been regularly required: bottled oxygen (ferried up by unmanned supply craft), a solid-fuel oxygen generator, and a chemical one, in the Zvezda and Zarya Modules, respectively. Their output is circulated with strong (and noisy) fans, without which the air around immobile astronauts would stagnate. A bubble of their own exhaled carbon dioxide would form, leaving them oxygen-deprived and struggling to breathe."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "This indicates that life on the ISS is no pleasure cruise. The close and cramped quarters, the awkward and uncomfortable facilities, the strict eating, hygiene, and two-hour-per-day exercise protocols, the dizziness and fatigue induced in that weightless environment, and the long workday devoted to maintenance and scientific experiments, all create a difficult life. These conditions, together with human isolation, can strain relationships and aggravate tensions. And if this were not enough, there is a direct physical risk from solar radiation due to the periodic flares that erupt from the sun’s surface. As one returning crew member said, “It’s an interesting place for a visit, but you wouldn’t want to live there.”"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nAnswer the questions.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWhat does the ISS physically look like from Earth?\n27 _________________\nWhat does the ISS physically look like from space?\n28 _________________\nWhat forced the five space agencies to work together on the ISS?\n29 _________________\nWhat were the original space stations like?\n30 _________________\nWhat stops the ISS from striking the Earth?\n31 _________________"
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 37,
+      "text": "Questions 32–37\nLabel the diagram with specific terms.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\n\n\n32 _________________\n33 _________________\n34 _________________\n35 _________________\n36 _________________\n37 _________________"
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nComplete the table by giving the cause of each effect or incident.\nChoose NO MORE THAN TWO WORDS from the passage for each cause.\n Effect/Incident                         One cause                    Another cause\n\n ISS slowing down                        aerodynamic drag             38 _________________\n\n Apollo 1 fire                           39 _________________         random spark\n\n ISS crew-member stress                  difficult life               40 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ What does the ISS physically look like from space?",
+      "translation": "從地球看，ISS 的外觀像甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ What forced the five space agencies to work together on the ISS?",
+      "translation": "從太空看，ISS 的外觀像甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ What were the original space stations like?",
+      "translation": "甚麼迫使五個 space agencies 共同建造 ISS？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________ What stops the ISS from striking the Earth?",
+      "translation": "早期的 space stations 是怎樣的？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "甚麼阻止 ISS 撞向地球？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "34 要填「釋放／排出甚麼」。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g32",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "緊急氧氣產生器，屬於甚麼類型？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "ISS 減速的一個原因是 aerodynamic drag，另一個原因是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "Apollo 1 火災的一個原因是 random spark，另一個原因是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "ISS crew-member stress 的一個原因是 difficult life，另一個原因是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-094/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-094/page-5.jpg"
+  ]
+}

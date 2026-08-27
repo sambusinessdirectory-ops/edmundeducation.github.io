@@ -1,0 +1,231 @@
+{
+  "id": "p3-135",
+  "catalogueId": "p3-135",
+  "title": "Extinct: the Giant Deer",
+  "sourceHeading": "Extinct: The Giant Deer Saber-toothed cats, mastodons, giant sloths, woolly rhinos, and many other large, shaggy mammals are widely thought to have died out around the end of the last ice age, some 10,500 years ago.",
+  "passage": 3,
+  "practice": 135,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-135-extinct-the-giant-deer",
+  "source": {
+    "filename": "Practice 135 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "3f1b271adbfae8123fafb80c4ba6f0543eafdfee5d9224e03e2a46f498edeef1"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The Irish elk is also known as the giant deer (Megaloceros giganteus). Analysis of ancient bones and teeth by scientists based in Britain and Russia shows the huge herbivore survived until about 5,000 BC – more than three millennia later than previously believed. The research team says this suggests that additional factors besides climate change probably hastened the giant deer’s eventual extinction. The factors could include hunting or habitat destruction by humans."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "The Irish elk, so-called because its well-preserved remains are often found in lake sediments under peat bogs in Ireland, first appeared about 400,000 years ago in Europe and Central Asia. Through a combination of radiocarbon dating of skeletal remains and the mapping of locations where the remains were unearthed, the team shows the Irish elk was widespread across Europe before the last “big freeze.” The deer’s range later contracted to the Ural Mountains, in modern-day Russia, which separate Europe from Asia."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The giant deer made its last stand in western Siberia, some 3,000 years after the ice sheets receded, said the study’s co-author, Adrian Lister, professor of palaeobiology at University College London, England. “The eastern foothills of the Urals became very densely forested about 8,000 years ago, which could have pushed them on to the plain,” he said. He added that pollen analysis indicates the region then became very dry in response to further climatic change, leading to the loss of important food plants. “In combination with human pressures, this could have finally snuffed them out,” Lister said."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Hunting by humans has often been put forward as a contributory cause of extinction of the Pleistocene megafauna. The team, though, said their new date for the Irish elk’s extinction hints at an additional human-made problem – habitat destruction. Lister said, “We haven’t got just hunting 7,000 years ago – this was also about the time the first Neolithic people settled in the region. They were farmers who would have cleared the land.” The presence of humans may help explain why the Irish elk was unable to tough out the latest of many climatic fluctuations – periods it had survived in the past."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Meanwhile, Lister cast doubt on another possible explanation for the deer’s demise – the male’s huge antlers. Some scientists have suggested this exaggerated feature – the result of females preferring stags with the largest antlers, possibly because they advertised a male’s fitness – contributed to the mammal’s downfall. They say such antlers would have been a serious inconvenience in the dense forests that spread northward after the last ice age. But, Lister said, “That’s a hard argument to make because the deer previously survived perfectly well through wooded interglacials [warmer periods between ice ages].” Some research has suggested that a lack of sufficient high-quality forage caused the extinction of the elk. High amounts of calcium and phosphate compounds are required to form antlers, and therefore large quantities of these minerals are required for the massive structures of the Irish elk. The males (and male deer in general) met this requirement partly by drawing minerals from their bones, then replenishing them from food plants after the antlers had grown or reclaiming nutrients from discarded antlers (as has been observed in extant deer). Thus, in the antler growth phase, the giant deer suffered from a condition similar to osteoporosis. When the climate changed at the end of the last glacial period, the vegetation in the animal’s habitat also changed to species that presumably could not provide sufficient amounts of the required minerals, at least in the western part of its range."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The extinction of megafauna around the world was almost completed by the end of the last ice age. It is believed that megafauna initially came into existence in response to glacial conditions and became extinct with the onset of warmer climates. Tropical and subtropical areas have experienced less radical climatic change. The most dramatic of these changes was the transformation of a vast area of North Africa into the world’s largest desert. Significantly, Africa escaped major faunal extinction as did tropical and sub-tropical Asia. The human exodus from Africa and our entrance into the Americas and Australia were also accompanied by climate change. Australia’s climate changed from cold-dry to warm-dry. As a result, surface water became scarce. Most inland lakes became completely dry or dry in the warmer seasons. Most large, predominantly browsing animals lost their habitat and retreated to a narrow band in eastern Australia, where there were permanent water supplies and better vegetation. Some animals may have survived until about 7,000 years ago. If people have been in Australia for up to 60,000 years, then megafauna must have co-existed with humans for at least 30,000 years. Regularly hunted modern kangaroos survived not only 10,000 years of Aboriginal hunting, but also an onslaught of commercial shooters."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The group of scientists led by A. J. Stuart focused on northern Eurasia—essentially Europe and Siberia—where the best data show that animals became extinct during the Late Pleistocene. Some cold-adapted animals survived into the final part of the cold stage and then became extinct, indicating two distinct phases of extinction. Neither phase clearly coincided with the replacement of Neanderthals by modern humans. Nor was there a simple correspondence between these extinctions and either human arrival or climate change alone. Instead, the evidence points to a combined effect: a fundamental change in climate reorganised the vegetation, and this change, together with the presence of advanced Palaeolithic humans, caused the wave of extinction. The data also reveal a profound contrast: extinctions in northern Eurasia were moderate and staggered, whereas those in North America were severe and sudden. These patterns relate to differences in the timing of human arrival. Extinction followed human predation, but only during periods of fundamental environmental change."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–32",
+    "g33": "Questions 33–35",
+    "g36": "Questions 36–39",
+    "g40": "Questions 40–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 32,
+      "text": "Questions 28–32\nComplete the following summary of Reading Passage 3.\nUse NO MORE THAN THREE WORDS from Reading Passage 3 for each answer.\nWrite your answers in boxes 28–32 on your answer sheet.\n\n\nThe remains of the Irish elk were first found in Europe and Central Asia\napproximately 28 _________________. Around 29 _________________, they were\ndriven onto the plains after their range contracted to the Ural Mountains. Hunting\nwas considered an important factor in the Irish elk’s extinction, but humans did\nnot begin hunting them until 30 _________________; the animals had previously\nsurvived a variety of climatic fluctuations.\nThe huge antlers may also have contributed to their extinction, although this is\ncontroversial because they survived well through 31 _________________. It is\ngenerally believed that, by the end of the last ice age, many large mammals had\nbecome extinct about 32 _________________."
+    },
+    {
+      "id": "g33",
+      "start": 33,
+      "end": 35,
+      "text": "Questions 33–35\nProvide answers to the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\n33 Which physical characteristic may have contributed to the extinction of the Irish elk?\n34 Which nutrients were needed to maintain the Irish elk’s huge antlers?\n35 Evidence from which region suggested that human arrival contributed to megafaunal\nextinction?"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 39,
+      "text": "Questions 36–39\nChoose the correct letter, A–D, and write your answers in boxes 36–39 on your answer sheet.\n A                                              Eurasia\n\n B                                              Australia\n\n C                                              Asia\n\n D                                              Africa\n36 the region where humans had little impact on megafaunal extinction\n37 the region where climate change was mild and the fauna survived\n38 the region where both humans and climate change contributed to extinction\n39 the region where climate change alone caused a major extinction"
+    },
+    {
+      "id": "g40",
+      "start": 40,
+      "end": 40,
+      "text": "Question 40\nChoose the correct letter, A, B, C or D.\n40 Which statement is true according to the Stuart team’s findings?\n A Neanderthals rather than modern humans caused the extinction in Europe.\n B Palaeolithic humans in Europe alone killed large animals such as the giant deer.\n C Climatic change was not solely responsible for megafaunal extinction in Europe.\n D Moderate and staggered extinction was mainly the result of fundamental climatic change."
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 28 · 請參照上方原題",
+      "translation": "Irish elk 的遺骸／物種最早大約在 ______ 出現在 Europe and Central Asia。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 29 · 請參照上方原題",
+      "translation": "大約在 ______，牠們的活動範圍縮小到 Ural Mountains 後，被推向 plains。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 30 · 請參照上方原題",
+      "translation": "Hunting 曾被視為 Irish elk 滅絕的重要因素，但人類直到 ______ 才開始狩獵牠們；這些動物此前已經撐過多次氣候波動。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "巨大鹿角也可能促成牠們滅絕，但這一點有爭議，因為牠們曾順利撐過 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "一般認為，到 last ice age 結束時，很多大型 mammals 大約在 ______ 滅絕。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Which physical characteristic may have contributed to the extinction of the Irish elk?",
+      "translation": "Irish elk 的哪一項 physical characteristic 可能促成牠滅絕？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Which nutrients were needed to maintain the Irish elk’s huge antlers?",
+      "translation": "哪些 nutrients 是維持 Irish elk 巨大鹿角所需的？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g33",
+      "type": "text",
+      "prompt": "Evidence from which region suggested that human arrival contributed to megafaunal extinction?",
+      "translation": "哪個地區的 evidence 顯示 human arrival 可能促成 megafaunal extinction？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "the region where humans had little impact on megafaunal extinction",
+      "translation": "人類對 megafaunal extinction 影響較小的地區。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "the region where climate change was mild and the fauna survived",
+      "translation": "氣候變化較溫和，而且 fauna 得以存活的地區。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "the region where both humans and climate change contributed to extinction",
+      "translation": "人類和 climate change 共同促成 extinction 的地區。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "the region where climate change alone caused a major extinction",
+      "translation": "主要由 climate change 造成大型滅絕的地區。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g40",
+      "type": "choice",
+      "prompt": "Which statement is true according to the Stuart team’s findings?",
+      "translation": "根據 Stuart team 的 findings，哪個說法正確？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-135/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-135/page-6.jpg"
+  ]
+}

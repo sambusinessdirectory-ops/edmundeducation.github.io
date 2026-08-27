@@ -1,0 +1,308 @@
+{
+  "id": "p1-106",
+  "catalogueId": "p1-106",
+  "title": "Twist in the Tale",
+  "sourceHeading": "Twist in the Tale Fears that television and computers would kill children’s desire to read couldn’t have been more wrong. With sales roaring, a new generation of authors has become publishing’s newest and unlikeliest group of literary stars.",
+  "passage": 1,
+  "practice": 106,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-106-twist-in-the-tale",
+  "source": {
+    "filename": "Practice 106 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "192d1e9a0cb83a317db77004899bff3f97491cb0d761d9f6e77ca712c0563c51"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Less than three years ago, doom merchants were predicting that the growth in video games and the rise of the Internet would sound the death knell for children’s literature. But contrary to popular myth, children are reading more books than ever. A recent survey by Books Marketing found that children up to the age of 11—girls in particular—read for an average of four hours a week."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Moreover, the children’s book market, which traditionally was seen as a poor cousin to the more lucrative and successful adult market, has come into its own. Publishing houses are now making considerable profits on the back of new children’s books and children’s authors can now command significant advances. ‘Children’s books are going through an incredibly fertile period,’ says Wendy Cooling, a children’s literature consultant. ‘There’s a real buzz around them. Book clubs are happening, sales are good, and people are much more willing to listen to children’s authors.’"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The main growth area has been the market for eight to fourteen-year-olds, and there is little doubt that the boom has been fuelled by the bespectacled apprentice, Harry Potter. So influential has J. K. Rowling’s series of books been that they have helped to make reading fashionable for pre-teens. ‘Harry made it OK to be seen on a bus reading a book,’ says Cooling. ‘To a child, that is important.’ The current buzz around the publication of the fourth Harry Potter book beats anything in the world of adult literature."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "‘People still tell me, “Children don’t read nowadays”,’ says David Almond, the award-winning author of children’s books such as Skellig. ‘The truth is that they are skilled, creative readers. When I do classroom visits, they ask me very sophisticated questions about use of language, story structure, chapters and dialogue.’ No one is denying that books are competing with other forms of entertainment for children’s attention, but it seems as though children find a special kind of mental nourishment within the printed page."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "‘A few years ago, publishers lost confidence and wanted to make books more like television, the medium that frightened them most,’ says children’s book critic Julia Eccleshare. ‘But books aren’t TV, and you will find that children always say that the good thing about books is that you can see them in your head. Children are demanding readers,’ she says. ‘If they don’t get it in two pages, they’ll drop it.’"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "No longer are children’s authors considered mere sentimentalists or failed adult writers. ‘Some feted adult writers would kill for the sales,’ says Almond, who sold 42,392 copies of Skellig in 1999 alone. And advances seem to be growing too: UK publishing outfit Orion recently negotiated a six-figure sum from US company Scholastic for The Seeing Stone, a children’s novel by Kevin Crossley-Holland, the majority of which will go to the author."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "It helps that once smitten, children are loyal and even fanatical consumers. Author Jacqueline Wilson says that children spread news of her books like a bushfire. ‘My average reader is a girl of ten,’ she explains. ‘They’re sociable and acquisitive. They collect. They have parties—where books are a good present. If they like something, they have to pass it on.’ After Rowling, Wilson is currently the best-selling children’s writer, and her sales have boomed over the past three years. She has sold more than three million books, but remains virtually invisible to adults, although most ten-year-old girls know about her."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Children’s books are surprisingly relevant to contemporary life. Provided they are handled with care, few topics are considered off-limits for children. One senses that children’s writers relish the chance to discuss the whole area of topics and language. But Anne Fine, author of many award-winning children’s books, is concerned that the British literati still ignore children’s culture. ‘It’s considered worthy but boring,’ she says."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "‘I think there’s still a way to go,’ says Almond, who wishes that children’s books were taken more seriously as literature. Nonetheless, he derives great satisfaction from his child readers. ‘They have a powerful literary culture,’ he says. ‘It feels as if you’re able to step into the store of mythology and ancient stories that run through all societies and encounter the great themes: love and loss and death and redemption.’"
+    },
+    {
+      "number": 10,
+      "label": "J",
+      "text": "At the moment, the race is on to find the next Harry Potter. The bidding for new books at Bologna this year—the children’s equivalent of the Frankfurt Book Fair—was as fierce as anything anyone has ever seen. All of which bodes well for the long-term future of the market—and for children’s authors, who have traditionally suffered the lowest profile in literature, despite the responsibility of their role."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–10",
+    "g11": "Questions 11–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nLook at the following list of people A–E and the list of statements (Questions 1–7).\nMatch each statement with one of the people listed.\n A                                       Wendy Cooling\n\n B                                       David Almond\n\n C                                       Julia Eccleshare\n\n D                                       Jacqueline Wilson\n\n E                                       Anne Fine\nWrite the appropriate letters A–E in boxes 1–7 on your answer sheet.\n1 ____________ Children take pleasure in giving books to each other.\n2 ____________ Reading in public is an activity that children have not always felt comfortable about\ndoing.\n3 ____________ Some well-known writers of adult literature regret that they earn less than popular\nchildren’s writers.\n4 ____________ Children are quick to decide whether they like or dislike a book.\n5 ____________ Children will read many books by an author that they like.\n6 ____________ The public do not realise how much children read today.\n7 ____________ We are experiencing a rise in the popularity of children’s literature."
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 10,
+      "text": "Questions 8–10\nUsing NO MORE THAN THREE WORDS taken from the reading passage, answer the following\nquestions.\nWrite your answers in boxes 8–10 on your answer sheet.\n8 _________________ For which age group have sales of books risen the most?\n9 _________________ Which company has just invested heavily in an unpublished children’s book?\n10 _________________ Who is currently the best-selling children’s writer?"
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 14,
+      "text": "Questions 11–14\nReading Passage 1 has ten paragraphs A–J.\nWhich paragraph mentions the following (Questions 11–14)?\nWrite the appropriate letters (A–J) in boxes 11–14 on your answer sheet.\n11 ___________ the fact that children are able to identify and discuss the important elements of fiction\n12 ___________ the undervaluing of children’s society\n13 ___________ the impact of a particular fictional character on the sales of children’s books\n14 ___________ an inaccurate forecast regarding the reading habits of children"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Children take pleasure in giving books to each other.",
+      "translation": "孩子喜歡互相送書。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Reading in public is an activity that children have not always felt comfortable about doing.",
+      "translation": "孩子過去未必一直覺得在公共場合閱讀是自在的事。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Some well-known writers of adult literature regret that they earn less than popular children’s writers.",
+      "translation": "一些著名成人文學作家會羨慕或懊惱自己賺得比受歡迎兒童作家少。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Children are quick to decide whether they like or dislike a book.",
+      "translation": "孩子會很快決定自己喜不喜歡一本書。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Children will read many books by an author that they like.",
+      "translation": "孩子如果喜歡某位作者，會讀那位作者的很多本書。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The public do not realise how much children read today.",
+      "translation": "大眾沒有意識到今天孩子其實讀得很多。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ We are experiencing a rise in the popularity of children’s literature.",
+      "translation": "兒童文學的受歡迎程度正在上升。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ For which age group have sales of books risen the most?",
+      "translation": "哪一個年齡組別的書本銷售增長最大？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Which company has just invested heavily in an unpublished children’s book?",
+      "translation": "哪一間公司剛剛重金投資了一本尚未出版的兒童書？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "text",
+      "prompt": "_________________ Who is currently the best-selling children’s writer?",
+      "translation": "目前最暢銷的兒童作家是誰？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "___________ the fact that children are able to identify and discuss the important elements of fiction",
+      "translation": "孩子能夠辨認並討論小說的重要元素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "___________ the undervaluing of children’s society",
+      "translation": "兒童文化或兒童社群被低估。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "___________ the impact of a particular fictional character on the sales of children’s books",
+      "translation": "某個虛構角色對兒童書銷售的影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "___________ an inaccurate forecast regarding the reading habits of children",
+      "translation": "一個關於兒童閱讀習慣的不準確預測。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-106/page-4.jpg"
+  ]
+}

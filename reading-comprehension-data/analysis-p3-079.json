@@ -1,0 +1,514 @@
+{
+  "id": "analysis-p3-079",
+  "catalogueId": "p3-079",
+  "catalogueIds": [
+    "p3-079"
+  ],
+  "passage": 3,
+  "title": "Mystery of the mummies",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "A",
+    "B",
+    "B",
+    "C",
+    "A / B",
+    "D",
+    "A",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D",
+      "answerKey": "D",
+      "prompt": "Question 27",
+      "translation": "Balabanova 對發現的哪一方面最感驚訝？",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 even more shocked。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "she was even more shocked at the hostile response to her publication."
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較級 even more 表明最令她驚訝的是學界敵意，而非最初的檢驗結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A",
+      "answerKey": "A",
+      "prompt": "Question 28",
+      "translation": "Lescot 的調查排除了甚麼可能性？",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 contamination、abdomen 及 droppings。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "These samples, which could not be ‘droppings’, were then tested."
+            },
+            {
+              "kind": "paragraph",
+              "text": "她從腹部抽取新樣本並全程錄影，排除煙草由考古學家煙斗偶然掉落的說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B",
+      "answerKey": "B",
+      "prompt": "Question 29",
+      "translation": "為何 Ramses II 體內的煙草發現遭忽視？",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 ignored 後的解釋。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "It raised too many questions and was too far outside commonly accepted scientific views."
+            },
+            {
+              "kind": "paragraph",
+              "text": "證據挑戰既有觀點，提出太多難以處理的問題，對應 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B",
+      "answerKey": "B",
+      "prompt": "Question 30",
+      "translation": "最先在木乃伊中發現來自美洲的物質。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "比較 1976 與 1992。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "In 1976, the mummified remains of Ramses II arrived in Paris for repair work."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lescot 的發現在 1976 年，早於 Balabanova 的 1992 年。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C",
+      "answerKey": "C",
+      "prompt": "Question 31",
+      "translation": "因缺乏證據而反對跨洋貿易說。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 John Baines 與 artefacts。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "there are no artefacts found either in Europe or in America."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baines 以缺少出土實物為反對理由。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "A / B",
+      "answerKey": "A / B",
+      "prompt": "Question 32",
+      "translation": "須回應對研究方法的攻擊。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位 Balabanova 的 false result 及 Lescot 的 contamination。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "Dr Lescot responded to this charge of contamination by carefully extracting new samples from the abdomen"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩人均重新驗證結果；Lescot 明確回應污染指控，Balabanova 亦面對造假及檢驗可能錯誤的質疑。原題允許多個正確對應，A 或 B 均可。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "D",
+      "answerKey": "D",
+      "prompt": "Question 33",
+      "translation": "提出古埃及廣泛貿易的證據。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 Martin Bernal 及 Chinese silk。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "You have the Chinese silk definitely arriving in Egypt by 1000 BC."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bernal 以中國絲綢抵達埃及支持古代長途貿易。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A",
+      "answerKey": "A",
+      "prompt": "Question 34",
+      "translation": "研究結果發表後引起爭議。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 published a paper 與 insulting letters。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "She received many insulting letters, accusing her of fraud."
+            },
+            {
+              "kind": "paragraph",
+              "text": "主語回指 Balabanova；她發表論文後遭到指控。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 35",
+      "translation": "已有證據證明古埃及種植煙草。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "區分在木乃伊中發現煙草與在埃及種植煙草。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "The discovery of tobacco fragments in the mummified body of Ramses II"
+            },
+            {
+              "kind": "paragraph",
+              "text": "發現體內煙草並非栽種證據。文章討論輸入及貿易的可能性，沒有確認煙草曾在古埃及栽種。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "YES",
+      "answerKey": "YES",
+      "prompt": "Question 36",
+      "translation": "跨大西洋貿易路線可能在數千年前已存在。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描最後一段 exclude the hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "It is no longer possible to exclude the hypothesis of transoceanic trade in ancient times."
+            },
+            {
+              "kind": "paragraph",
+              "text": "不能再排除該假說，對應 may have existed；不是斷言已獲證實。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 37",
+      "translation": "古埃及人擅長造船。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "搜尋與造船技術相關的敘述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "Could Ancient Egyptian trade have stretched all the way across the Atlantic Ocean?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出跨洋貿易的可能性並不等於評價埃及人的造船技術；文中沒有說明。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "YES",
+      "answerKey": "YES",
+      "prompt": "Question 38",
+      "translation": "學界普遍拒絕古埃及與美洲接觸的觀點。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 majority of archaeologists。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "to the majority of archaeologists, the idea is hardly worth talking about."
+            },
+            {
+              "kind": "paragraph",
+              "text": "多數考古學家甚至不認為值得討論，符合 generally rejects。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 39",
+      "translation": "異常檢驗結果可能來自北非植物 qat。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "搜尋植物名稱 qat。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "If the cocaine found in mummies could not be explained by contamination, fake mummies or Egyptian plants containing it"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章概括提到植物的解釋，但完全沒有提及 qat，不能自行補入。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B",
+      "answerKey": "B",
+      "prompt": "Question 40",
+      "translation": "本文主旨是甚麼？",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "重讀最後一段的 beliefs 與 uncertain。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "what is believed to be proven may actually be uncertain."
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文以新檢驗結果挑戰舊有知識，核心是長久信念可被新資訊動搖。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Mystery of the mummies.pdf",
+    "sha256": "e921cca6679052a84b984bd4df20f12ef9faddf8a39667c8c9a6dd2edb051ee8",
+    "pageCount": 20
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": null
+}

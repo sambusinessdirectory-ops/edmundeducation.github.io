@@ -1,0 +1,271 @@
+{
+  "id": "p2-154",
+  "catalogueId": "p2-154",
+  "title": "Blue-footed Boobies",
+  "sourceHeading": "Blue-footed Boobies",
+  "passage": 2,
+  "practice": 154,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-154-blue-footed-boobies",
+  "source": {
+    "filename": "Practice 154 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "a25a0b190b8cbbb676e24f02e7dd0bd59abaf2f6bfc13413a3d7822a0df14057"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Boobies are a small group of seabirds native to tropical and subtropical oceans throughout the world. Their diet consists mainly of fish. They are specialised fish-eaters that feed on small schooling fish like sardines, anchovies, mackerel, and flying fish. When their prey is in sight, they fold their long wings back around their streamlined bodies and plunge into the water from as high as 80 feet; they are so streamlined that they barely make a splash. They travel in parties of about 12 to areas of water with large schools of small fish. When the lead bird sees a fish shoal in the water, it will signal the rest of the group and they will all dive together. Surprisingly, individuals do not eat with the hunting group, preferring to eat on their own, usually in the early morning or late afternoon."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "There are three varieties on the Galapagos: the blue-footed, red-footed, and masked boobies. They are all members of the same family and differ not only in appearance but also in behaviour. The blue-footed and red-footed boobies mate throughout the year, while the masked boobies have an annual mating cycle that differs from island to island. All catch fish in a similar manner, but in different areas: the blue-footed booby does its fishing close to shore, while the masked booby goes slightly farther out, and the red-footed booby fishes at the farthest distances from shore."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Although the origin of the name ‘booby’ is uncertain, some believe it comes from the Spanish word bobo, meaning ‘stupid’ or ‘clown’. The name was probably inspired by the bird’s clumsiness on land and its apparently unwarranted bravery. The blue-footed booby is extremely vulnerable to human visitors because it seems unafraid of them. Its clumsiness and lack of fear made it easy for people to capture, kill and eat."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The blue-footed booby’s characteristic feet play a significant part in its famous courtship ceremony, the ‘booby dance’. The male walks around the female, raising his bright blue feet straight up in the air while bringing his ‘shoulders’ towards the ground and crossing the bottom tips of his wings high above the ground. He also raises his bill up towards the sky to try to win his mate over. The female may also participate in these activities—lifting her feet, sky-pointing, and of course, squawking at her mate. After mating, another ritual occurs: a nest-building display, although the nest is never used because they nest on the bare ground. When the female is ready to lay her eggs, they scrape the existing nest away so she can nest on exposed ground. Sun-baked islands form the booby’s breeding grounds. When ready, the female blue-footed booby lays one to three eggs."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "After mating, two or three eggs are laid in a shallow depression on flat or gently sloping ground. Both male and female take turns incubating the eggs. Unlike most birds, the booby does not develop brood patches (areas of bare skin on the breast) to warm the eggs during incubation. Instead, it uses its broad webbed feet, which have large numbers of prominent blood vessels, to transmit heat essential for incubation. The eggs are thick-shelled so they can withstand the full weight of an incubating bird."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "After hatching, the male plays a major role in bringing fish home. He can bring back a constant supply of small fish for the chicks, which must be fed continuously. The reason is that the male has a longer tail than the female in relation to his body size, which makes him able to execute shallower dives and to feed closer to shore. The female takes on a larger role as time passes. As the chicks grow, the need to feed them becomes greater than the need to protect them and both adults must fish to provide enough food."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "When times are good, the parents may successfully fledge all three chicks, but in harder times, they may still lay as many eggs yet only obtain enough food to raise one. The problem is usually solved by the somewhat callous-sounding system of ‘opportunistic sibling murder.’ The firstborn chick is larger and stronger than its nestmates as a result of hatching a few days earlier and also because the parents feed the larger chick. If food is scarce, the firstborn will get more food than its nestmates and will outcompete them, causing them to starve. The above system optimises the reproductive capacity of the blue-footed booby in an unpredictable environment. The system ensures that, if possible, at least one chick will survive a period of shortage rather than all three dying of starvation under a more ‘humane’ system."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nThe reading passage has seven paragraphs, A–G.\nChoose the correct heading for paragraphs A–G from the list below.\nWrite the correct number, i–ix, in boxes 14–19 on your answer sheet.\n\n List of Headings\n\n i                        An unusual way of incubating eggs\n\n ii                       The feeding habits of the red-footed booby\n\n iii                      Folding wings for a purpose\n\n iv                       Rearing the young\n\n v                        Classification of boobies\n\n vi                       Diving for food\n\n vii                      A survival mechanism during food shortages\n\n viii                     Mating and breeding\n\n ix                       The origin of the booby’s name\n\n\n14 __________ Paragraph A\n15 __________ Paragraph B\nExample: Paragraph C — ix\n16 __________ Paragraph D\n17 __________ Paragraph E\n18 __________ Paragraph F\n19 __________ Paragraph G"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 22,
+      "text": "Questions 20–22\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 20–22 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n20 __________ Boobies are frightened when humans approach them.\n21 __________ Female boobies eat more than males.\n22 __________ When food is insufficient, larger chicks are fed at the expense of their smaller\nnestmates’ survival."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in boxes 23–26 on your answer sheet.\n\n\nThe courtship of the blue-footed booby consists of the male flaunting\nhis blue feet and dancing to impress the female. During the dance, the\nmale spreads his wings and stamps his feet on the ground, with his bill\n23 __________. After mating, the booby’s unusual behaviour continues\nwith a 24 __________ ritual that serves no practical purpose. When the\nfemale lays eggs, the parents incubate them beneath their 25\n__________, which contain 26 __________ to transmit heat because the\nbirds lack brood patches."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph B Example: Paragraph C — ix",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ Boobies are frightened when humans approach them.",
+      "translation": "當人類靠近 boobies 時，牠們會害怕。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ Female boobies eat more than males.",
+      "translation": "雌性 boobies 比雄性吃得更多。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "__________ When food is insufficient, larger chicks are fed at the expense of their smaller nestmates’ survival.",
+      "translation": "當食物不足時，較大的雛鳥會得到餵食，而較小的同巢雛鳥會因此犧牲生存機會。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "text",
+      "prompt": "__________. After mating, the booby’s unusual behaviour continues with a 24 __________ ritual that serves no practical purpose. When the female lays eggs, the parents incubate them beneath their 25 __________, which contain 26 __________ to transmit heat because the birds lack brood patches.",
+      "translation": "在舞蹈期間，雄鳥張開 / 展示翅膀並踏腳，鳥喙保持向上的姿態。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "交配後，booby 的異常行為繼續出現：有一個沒有實際用途的築巢儀式。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "雌鳥產蛋後，父母用牠們的蹼足孵蛋；這些蹼足含有血管，用來傳熱，因為這些鳥沒有 brood patches。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "這些蹼足含有血管，用來傳熱，因為這些鳥沒有 brood patches。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-154/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-154/page-5.jpg"
+  ]
+}

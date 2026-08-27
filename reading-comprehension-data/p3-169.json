@@ -1,0 +1,299 @@
+{
+  "id": "p3-169",
+  "catalogueId": "p3-169",
+  "title": "The fluoridation controversy",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 169,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-169-the-fluoridation-controversy",
+  "source": {
+    "filename": "Practice 169 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "0a33e61f7b44715367c04383cc4bca2644e210e3be40b7c43aa864a967cc2225"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The Fluoridation Controversy The long-standing debate about whether to fluoridate our drinking water continues. Fluoridation is the addition of fluorine to public water supplies with the aim of reducing tooth decay. The fluorine, when mixed with water, becomes fluoride and the desired concentration of fluoride in public water is approximately one part per million, depending on the regional temperature and hence the amount of water people are likely to drink. Many studies, such as those from McClure (1970) to Burt (1983), have shown that when children drink fluoridated water, their average rate of tooth decay seems greatly reduced. A typical figure claimed is a 50 percent reduction. This apparently enormous benefit for children’s teeth is the major argument in favor of fluoridation."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Three main grounds for opposition to fluoridation have been expressed. First, opponents claim the benefits are exaggerated or not established. Second, there are claims of health risks to some members of the population, for example, allergic reactions. It is also accepted that high levels of fluoride can cause discoloration of otherwise healthy teeth. Proponents do not consider this to be a problem in such small concentrations, whereas opponents disagree – especially because some people drink more water and obtain much more than the standard 1 milligram of fluoride per day. Third, fluoridation is thought to be an infringement on individual rights because it is compulsory medication of all members of a community."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "An understanding of the fluoridation issue has important implications. If, according to the experts, fluoridation is unquestionably a beneficial and non-hazardous measure, then the wisdom of allowing the public to vote on and reject it must be questioned."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Almost all studies that have been done have assumed that the scientific aspects of the controversy are unproblematic, and they have excluded science from sociological examination. The traditional view is that science is a special kind of knowledge, which is established through scientific methods and objectively applied by members of a scientific community. However, in recent years there has been a major challenge to this picture by a sociology of science that shows how scientific knowledge is socially negotiated, and inevitably linked to the values of the relevant parties, both scientists and nonscientists. These challengers do not see scientific knowledge as exempt from social inquiry."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Kuhn (1970) argued that scientific knowledge does not always develop as an orderly process, but is characterized by periodic revolutions, in which the methods of study and the assessment criteria change in a fragmented way. According to Kuhn, the shift from one scientific way of thinking to another is not made solely on the basis of clear rules of formal scientific practice, but can include social factors, though Kuhn has never developed a full analysis of what these might be. Collins (1975) took this concept further when he asserted that the outcome of experiments was not something whose meaning could be immediately comprehended, but rather something for interpretation, discussion between scientists, and reinterpretation in the light of other experiments."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "One interpretation of this analysis of science is that traditional distinctions between facts and theories, and between scientific knowledge and values, can no longer be justified. Because social processes are involved at all stages of the creation, evaluation, and establishment of scientific knowledge, social values may also be involved."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "In the same way as many scientists who study fluoridation have overlooked social values, sociologists have also downplayed an important part of the debate by ignoring the number of eminent scientists who have questioned aspects of fluoridation. An example is the study by Sutton in 1960, which analyzed the classic North American studies of the effect of fluoridation on tooth decay, and found that each showed significant methodological shortcomings. Sutton’s detailed study casts doubt on the extent of reductions in tooth decay from fluoridation. Yet Sutton’s book is not cited in a single analysis of the fluoridation issue by any sociologist. In a situation of some scientific uncertainty, differences in values are highlighted. A supporter of fluoridation might argue, ‘The evidence for the benefits of fluoridation is quite substantial, while the evidence for harm is limited and dubious. I think the likely benefits outweigh the possible dangers; hence I support fluoridation because it is the cheapest and easiest way to make sure every child reaps the benefits.’ An opponent might argue, ‘Though the evidence for the benefits of fluoridation is substantial, there is some doubt about it. Since fluoridation is not necessary for good teeth, we should forego the benefits if there is some slight chance of harm. Some scientists claim that a small percentage of the population could be harmed by fluoride. Therefore I oppose fluoridation of water supplies and favor the voluntary use of fluoride tablets by those who want to take them.’"
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Both arguments consider the scientific evidence concerning fluoridation, but differ in their assessments of the social benefits and costs. This difference is not between rationality and irrationality but is a legitimate difference in values, for example, the positive value placed on good teeth, the negative value placed on possible health risks, and the social benefits or costs of compulsory or voluntary intake of fluorides."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "From the sociological point of view, opposition to fluoridation is not necessarily irrational. Rather, claims to rationality and to scientific authority are better seen as part of a strategy to promote fluoridation than as incontrovertible statements of fact. Second, social values are likely to be bound up in any decision about fluoridation, so this is not an issue on which declarations by scientific experts ought to be considered the final word."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27–31\nChoose the correct letter, A, B, C, or D.\nWrite the correct letter in boxes 27–31 on your answer sheet.\n\n\n\n27. The optimum amount of fluoride in fluoridated water is calculated partly\naccording to...\n\nA. how hot the area is.\nB. how warm the water is.\nC. how many dental problems there are in the community.\nD. how much fluoride the community chooses to have in its water.\n\n28. One reason the writer gives for opposing fluoridation is that...\n\nA. it may contribute to tooth decay.\nB. it may be unacceptably expensive for the public.\nC. compulsory fluoridation takes away personal freedom.\nD. excessive fluoride could be added to the water by mistake.\n\n29. The writer mentions Kuhn in order to...\n\nA. contrast his view with that of Collins.\nB. support the rational nature of scientific inquiry.\nC. demonstrate that Kuhn did not argue his case adequately.\nD. show that science can be influenced by non-scientific considerations.\n\n30. What did Sutton’s research discover about earlier studies in North America?\n\nA. There were flaws in the way they were conducted.\nB. The scientists involved had achieved unique results.\nC. Supporters of fluoridation had not understood its long-term effects.\nD. Fluoridation had a greater effect on tooth decay than previously believed.\n\n31. In the final paragraph, what does the writer say about scientists?\n\nA. They should reveal their true motivations.\nB. They should not be responsible for deciding fluoridation policy.\nC. They are concerned solely with scientific truth.\nD. They cannot reach an agreement on the issue of fluoridation."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 35,
+      "text": "Questions 32–35\nDo the following statements agree with the views of the writer in the reading passage?\nIn boxes 32–35 on your answer sheet, write\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n32 __________ Scientific knowledge should be kept separate from social values.\n33 __________ Many sociologists have disregarded the doubts that some scientists have\nconcerning fluoridation.\n34 __________ Sutton’s findings have been given insufficient attention by scientists outside of\nNorth America.\n35 __________ There are valid arguments on both sides of the fluoridation debate."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete each sentence with the correct ending, A–G, below. Write the correct letter, A–G, in\nboxes 36–40 on your answer sheet.\n\n List of Endings\n\n A                        results of scientific research are not always understood at first\n\n B                        scientific knowledge is established through objective methods\n\n C                        people should be able to choose whether they want fluoride\n\n D                        there is insufficient proof to support a cautious approach\n\n E                        the risks of fluoridation outweigh its benefits\n\n F                        children are not the only ones who benefit from fluoridation\n\n G                        scientific knowledge is affected by the beliefs of everyone concerned\nThe traditional view of science is that 36 __________\nA sociological view of science argues that 37 __________\nCollins is of the opinion that 38 __________\nThe writer suggests that a supporter of fluoridation may conclude that 39 __________\nThe writer suggests that an opponent of fluoridation may conclude that 40 __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The optimum amount of fluoride in fluoridated water is calculated partly according to...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "One reason the writer gives for opposing fluoridation is that...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The writer mentions Kuhn in order to...",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What did Sutton’s research discover about earlier studies in North America?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "In the final paragraph, what does the writer say about scientists?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Scientific knowledge should be kept separate from social values.",
+      "translation": "科學知識應該和社會價值保持分離。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Many sociologists have disregarded the doubts that some scientists have concerning fluoridation.",
+      "translation": "很多社會學家忽略了一些科學家對加氟的質疑。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ Sutton’s findings have been given insufficient attention by scientists outside of North America.",
+      "translation": "Sutton 的發現未得到北美以外科學家的足夠重視。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "choice",
+      "prompt": "__________ There are valid arguments on both sides of the fluoridation debate.",
+      "translation": "加氟爭議雙方都有合理論點。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-169/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-169/page-6.jpg"
+  ]
+}

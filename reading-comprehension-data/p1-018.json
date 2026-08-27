@@ -1,0 +1,283 @@
+{
+  "id": "p1-018",
+  "catalogueId": "p1-018",
+  "title": "THE EVOLUTION OF LANGUAGE",
+  "sourceHeading": "THE EVOLUTION OF LANGUAGE",
+  "passage": 1,
+  "practice": 18,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-018-the-evolution-of-language",
+  "source": {
+    "filename": "Practice 18 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "3136a93a8adb706cf853cc39f8d461e3f7719c37c1163b4d747098467d464b23"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Language everywhere changes over time; it has to. A central reason that necessitates modification is to allow for developments in our world to be expressed. For example, the technological revolution alone has been responsible for the addition of a plethora of words to our vocabulary: hard drive, software, modem to name just a few. The Japanese writing script katakana, which was originally introduced in the 9th century as a means by which Buddhist monks could correctly interpret Chinese pronunciations, is now most commonly used to embrace foreign words for which there is no original Japanese character; pizza or hamburger for example. Likewise the western world’s exposure to and familiarity with foreign cultures now means that words such as sushi, nam bread and kebab, for example, are used by diners on a regular basis."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "However, expansion of our vocabulary is just one element involved in how and why language evolves. Given the variation of dialects or regional accents present in most language systems, it is clear that an individual’s interpretation of what is actually correct and commonly used will vary quite dramatically, since this perception is based upon a combination of factors including the age, educational level and region of the country a person is from. As we go about our daily lives and interact with others from different backgrounds and experiences, the language we hear is often taken on board and incorporated into the way in which we communicate ourselves. Many phrases with American origins are now commonplace in British English for example, due to the frequency with which they are heard on television and in the movies."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Changes in language are often driven by the young and many such changes are commonly considered by older people to be a disintegration of standards rather than an evolution and an improvement. Let’s consider an Americanism commonly used by youngsters in all parts of the English speaking world. Used as an alternative to “Tom said…” it is now commonplace to hear “Tom goes, the pay rise was unacceptable.” or, “Tom was all, the pay rise was unacceptable.”; much to the horror of many traditionalists. However, this modification could also be considered to be adding to and not detracting from our ability to communicate effectively. To illustrate, let’s consider the original phrase “Tom said”; it is used solely to show the listener that we are reporting the words of Tom, while the modern variation, “Tom goes” has literally the same meaning. However, if the speaker chooses instead to use the latter phrase, “Tom was all”, they are also able to convey the message that Tom had an emotional reaction to the situation they are reporting, therefore a much more effective method of communicating information has been created, some may say. However, should the now commonly used texting abbreviations such as ‘gr8t’ (great) and ‘l8r’ (later) become permanent replacements of the original words, it is likely that even the most liberal amongst us would be horrified."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Variations on language are usually more readily accepted into informal language prior to them being absorbed for use in formal writing. Examples of words that we now commonly use, but were once considered incorrect, are ‘pea’ and ‘hopefully’. Let’s take pea; it derived from the word ‘pease’, which being an uncountable noun has the same form regardless of whether one or more pease were being spoken about. However, this was commonly overlooked and misunderstood, and through error the singular form of the vegetable became ‘pea’. More recently ‘hopefully’ was considered by many to be an inappropriate alternative to ‘I hope’; at best only accepted in informal use. The word hopefully is now’ fully acceptable in both informal speech and formal writing."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Some people believe that traditional usages of language are always more superior and refined than modern variations even when the reasons behind the rule were dubious in the first place. For example, it was once seriously frowned upon to split an infinitive in a sentence and even today it is considered grammatically incorrect to do so. To demonstrate, let’s consider the following sentence: ‘The examiner asked me to quietly leave the room’; this was considered incorrect as the word ‘quietly’ splits the infinitive of the verb ‘to leave’. The origins of this rule hail back to the 17th century when scholars believed that the English language should be adapted to follow the rules of Latin; then considered the perfect language. Since splitting infinitives in Latin is impossible, it was decided that splitting infinitives in English, even though possible, was not acceptable, Given that initial motivations behind the rule were questionable and the clarity of meaning of the sentence is not compromised in the ‘incorrect’ form, it could be argued that this grammar rule is a prime example of an unnecessary sanction which is likely to be abandoned in the future."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "As language evolves, changes in grammar structures which would result in confusion of the actual meaning of the sentences are unlikely; however, the meanings of words are often modified or altered beyond recognition by different generations and can be easily misinterpreted by other social groups. Take, for example, the modern version of the word ‘bad’ meaning ‘great’ when used in contemporary slang. Many slang words remain dated in the era in which they are developed, for example words like ‘to beef, meaning to complain (introduced in the 1920’s) are not only dated but may not even be understood in a modern context, while others such as ‘guy’ become absorbed into mainstream language. Who knows what future generations will add to the ever changing environment of communication?"
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–10",
+    "g11": "Questions 11–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1-4\n\nReading Passage 1 has six paragraphs A-F.\n\nChoose the correct heading for paragraphs B, C, E and F from the list of headings below.\n\nWrite the correct number i-viii in boxes 1-4 on your answer sheet.\n\n          List of Headings\n\n\n i        Historical acceptance of change\n\n\n ii       The Generation Gap\n\n\n iii      Influences on speech\n\n\n iv       Ancient writing in Asia\n\n\n v        Cultural evolution and its impact on language\n\n\n vi       Slang expected in the future\n\n\n vii      Questioning logic\n\n\n viii     Lifespan of vocabulary\n\nExample: Paragraph A; Answer: v\n\n1 ____________ Paragraph B\n\n2 ____________ Paragraph C\nExample: Paragraph D; Answer: i\n\n3 ____________ Paragraph E\n\n4 ____________ Paragraph F"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 10,
+      "text": "Questions 5-10\n\nDo the following statements reflect the claims of the writer in Reading Passage 1? Write:\n\n YES                if the statement agrees with the views of the writer\n\n\n NO                 if the statement contradicts the views of the writer\n\n\n NOT GIVEN          if it is impossible to say what the writer thinks about this\n\n\nWrite the correct answer YES, NO or NOT GIVEN in boxes 5-10 on your answer sheet.\n\n5 ________________\nIf language were static, it would negatively affect our ability to incorporate other\ncultures into our own way of life.\n\n6 ________________\nThe language we grow up knowing and that we adopt through new experiences have\nequal effects on the way we speak.\n\n7 ________________\nEnglish used in Britain has changed more than American English over recent years.\n\n8 ________________\nSome older variations of language are more expressive than more modern forms.\n\n9 ________________\nAll modern adaptations of language are suitable for mainstream use.\n\n10 ________________\nAll word usage has changed over time due to misunderstandings of meaning."
+    },
+    {
+      "id": "g11",
+      "start": 11,
+      "end": 13,
+      "text": "Questions 11-13\n\nComplete the summary of paragraphs E and F with the list of words A-H below.\n\nWrite the correct letter A-H in boxes 11-13 on your answer sheet.\n\nSome grammar rules such as avoiding 11 ______________ are deeply entrenched in\nhistory and were created by academics who wished to perfect the English language.\n\nIt is likely, however, since they do not impact on the 12 ______________ of the\nsentence that such rules are likely to be 13 ______________ in the future. In the same\nway, many contemporary words in common usage today are likely to become defunct.\n\n A        Slang\n\n\n B        Split infinitives\n\n\n C        Grammatically incorrect\n\n\n D        Meaning\n\n\n E        Recognition\n\n\n F        Disregarded\n\n\n G        Misinterpreted\n\n\n H        Confusion"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph C Example: Paragraph D; Answer: i",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "________________ If language were static, it would negatively affect our ability to incorporate other cultures into our own way of life.",
+      "translation": "如果語言是靜止不變的，它會對我們把其他文化融入自己生活方式的能力造成負面影響。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "________________ The language we grow up knowing and that we adopt through new experiences have equal effects on the way we speak.",
+      "translation": "我們從小學會的語言，以及後來透過新經驗吸收的語言，對我們說話方式有同等影響。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "________________ English used in Britain has changed more than American English over recent years.",
+      "translation": "近年來，英國使用的英語比美國英語變化更大。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "________________ Some older variations of language are more expressive than more modern forms.",
+      "translation": "某些較舊的語言變體比現代形式更有表達力。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "________________ All modern adaptations of language are suitable for mainstream use.",
+      "translation": "所有現代語言改造都適合主流使用。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g5",
+      "type": "choice",
+      "prompt": "________________ All word usage has changed over time due to misunderstandings of meaning.",
+      "translation": "所有詞語用法隨時間改變，都是因為意思被誤解。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "有些語法規則，例如避免 __________，深深植根於歷史，並由希望完善英語的學者創造出來。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "然而，由於它們不影響句子的 __________，這些規則將來很可能……目標段落：Paragraph E",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g11",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "……這些規則將來很可能會被 __________。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-018/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-018/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-018/page-7.jpg",
+    "/assets/reading-comprehension/questions/p1-018/page-8.jpg"
+  ]
+}

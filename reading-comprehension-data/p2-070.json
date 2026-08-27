@@ -1,0 +1,266 @@
+{
+  "id": "p2-070",
+  "catalogueId": "p2-070",
+  "title": "Did tea and beer bring about industrialisation?",
+  "sourceHeading": "Did Tea and Beer Bring About Industrialisation?",
+  "passage": 2,
+  "practice": 70,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-070-did-tea-and-beer-bring-about-industrialisation",
+  "source": {
+    "filename": "Practice 70 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "b71aeffce99a3dc2671dbfc40cdbf05a9cd6a772cf4d41c2234006d1d3015db4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Alan Macfarlane thinks he could rewrite history. The professor of anthropological science at King’s College, Cambridge has, like other historians, spent decades trying to understand the enigma of the Industrial Revolution. Why did this momentous event – the world-changing birth of industry – happen in Britain? And why did it happen at the end of the 18th century?"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Macfarlane compares the question to a puzzle. He claims that there were about 20 different factors and all of them needed to be present before the revolution could happen. The chief conditions are to be found in history textbooks. For industry to ‘take off’, there needed to be the technology and power to drive factories, large urban populations to provide cheap labour, easy transport to move goods around, an affluent middle-class willing to buy mass-produced objects, a market-driven economy, and a political system that allowed this to happen. While this was the case for England, other nations, such as Japan, Holland and France also met some of these criteria. All these factors must have been necessary but not sufficient to cause the revolution. Holland had everything except coal, while China also had many of these factors. Most historians, however, are convinced that one or two missing factors are needed to solve the puzzle."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The missing factors, he proposes, are to be found in every kitchen cupboard. Tea and beer, two of the nation’s favourite drinks, drove the revolution. Tannin, the active ingredient in tea, and hops, used in making beer, both have antiseptic properties. This, plus the fact that both are made with boiled water, helped prevent epidemics of waterborne diseases, such as dysentery, in densely populated urban areas."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Historians had noticed one interesting factor around the mid-18th century that required explanation. Between about 1650 and 1740, the population was static. But then there was a burst in population. The infant mortality rate halved in the space of 20 years, and this happened in both rural areas and cities, and across all classes. Four possible causes have been suggested. There could have been a sudden change in the viruses and bacteria present at that time, but this is unlikely. Was there a revolution in medical science? But this was a century before Lister introduced antiseptic surgery. Was there a change in environmental conditions? There were improvements in agriculture that wiped out malaria, but these were small gains. Sanitation did not become widespread until the 19th century. The only option left was food. But the height and weight statistics show a decline. So the food got worse. Efforts to explain this sudden reduction in child deaths appeared to draw a blank."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "This population burst seemed to happen at just the right time to provide labour for the Industrial Revolution. But why? When the Industrial Revolution started, it was economically efficient to have people crowded together forming towns and cities. But crowded living conditions bring disease, particularly from human waste. Some research in the historical records revealed that there was a change in the incidence of waterborne disease at that time, especially dysentery. Macfarlane deduced that whatever the British were drinking must have been important in controlling disease. They drank beer and ale. For a long time, the English were protected by the strong antibacterial agent in hops, which were added to make beer last. But in the late 17th century a tax was introduced on malt. The poor turned to water and gin, and in the 1720s the mortality rate began to rise again. Then it suddenly dropped again. What was the cause?"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Macfarlane looked to Japan, which was also developing large cities at about the same time, and also had no sanitation. Waterborne diseases in the Japanese population were far fewer than those in Britain. Could it be the prevalence of tea in their culture? That was when Macfarlane thought about the role of tea in Britain. The history of tea in Britain provided an extraordinary coincidence of dates. Tea was relatively expensive until Britain started direct trade with China in the early 18th century. By the 1740s, about the time that infant mortality was falling, the drink was common. Macfarlane guesses that the fact that water had to be boiled, together with the stomach-purifying properties of tea so eloquently described in Buddhist texts, meant that the breast milk provided by mothers was healthier than it had ever been. No other European nation drank tea so often as the British, which, by Macfarlane’s logic, pushed the other nations out of the race for the Industrial Revolution."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "But if tea is a factor in the puzzle, why didn’t this cause an industrial revolution in Japan? Macfarlane notes that in the 17th century, Japan had large cities, high literacy rates and even a futures market. However, Japan decided against a work-based revolution by giving up labour-saving devices, even animals, to avoid putting people out of work. Astonishingly, the nation that we now think of as one of the most technologically advanced, entered the 19th century having almost abandoned the wheel. While Britain was undergoing the Industrial Revolution, Macfarlane notes wryly, Japan was undergoing an industrious one."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "The Cambridge academic considers the mystery solved. He adds that he thinks the UN should encourage aid agencies to take tea to the world’s trouble spots, along with rehydration sachets and food rations."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–22",
+    "g23": "Questions 23–25"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nThe passage has 8 sections A–H.\nChoose the most suitable headings for paragraphs B–F from the list of headings below.\nWrite the appropriate numbers (i–x).\nThere are more headings than sections so you will not use all of them.\n\n                          List of Headings\n\n i                        The significance of tea drinking\n\n ii                       Possible solution to the puzzle\n\n iii                      Industry in Holland and France\n\n iv                       Significant population increase\n\n v                        The relationship between drinks and disease\n\n vi                       Gin drinking and industrialisation\n\n vii                      Dysentery prevention in Japan and Holland\n\n viii                     Japan’s waterborne diseases\n\n ix                       Preconditions necessary for Industrial Revolution\n\n x                        Introduction\n\n\nExample Answer\nSection A x\n14 ___________ Section B\n15 ___________ Section C\n16 ___________ Section D\n17 ___________ Section E\n18 ___________ Section F"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 22,
+      "text": "Questions 19–22\nComplete the table using NO MORE THAN THREE WORDS from the passage.\n                  SOCIAL CHANGE IN                                             EFFECT ON\n CENTURY                                        REASON\n                  BRITAIN                                                      POPULATION\n\n mid-17th         main drinks were still beer   Hops helped to make beer\n                                                                               no significant change\n century          and ale (example)             last longer\n\n                                                beer becomes expensive\n late 17th        gin becomes more popular,\n                                                because of 19                  mortality rate goes up\n century          especially with poor people\n                                                _________________\n\n                  20 _________________\n early 18th                                     Britain starts trade with      mortality rate goes\n                  drinking starts to become\n century                                        China                          down\n                  widespread\n\n                                                22 _________________\n                  decline in urban deaths\n mid-18th                                       water used for tea and beer;   infant mortality rate\n                  caused by 21\n century                                        antibacterial qualities of     goes down by half\n                  _________________\n                                                tannin"
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 25,
+      "text": "Questions 23–25\nChoose the correct letter A–D.\n23 In 1740 there was a population explosion in Britain because …\n A large numbers of people moved to live in cities.\n B larger quantities of beer were drunk.\n C of the health protecting qualities of beer and tea.\n D of the Industrial Revolution.\n\n\n24 According to the author, the Japanese did not industrialise because they didn’t …\n A like drinking beer.\n B want animals to work.\n C like using wheels.\n D want unemployment.\n\n\n25 Macfarlane thinks he has discovered why …\n A the British drink beer and tea.\n B industrialisation happened in Britain when it did.\n C the Japanese did not drink beer.\n\nD sanitation wasn’t widespread until the 19th century."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Section F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "啤酒因為 ______ 變得昂貴。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________ early 18th Britain starts trade with mortality rate goes drinking starts to become century China down widespread",
+      "translation": "18 世紀初，______ 的飲用開始普及。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "由 ______ 引起的城市死亡下降。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________ decline in urban deaths mid-18th water used for tea and beer; infant mortality rate caused by 21 century antibacterial qualities of goes down by half _________________ tannin",
+      "translation": "用於茶和啤酒的 ______ 水；tannin 的抗菌性質。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "In 1740 there was a population explosion in Britain because …",
+      "translation": "1740 年前後英國出現人口爆發，原因是……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "According to the author, the Japanese did not industrialise because they didn’t …",
+      "translation": "按照作者說法，日本沒有工業化，因為他們不想……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Macfarlane thinks he has discovered why …",
+      "translation": "Macfarlane 認為自己已經發現了為甚麼……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-070/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-070/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-070/page-6.jpg"
+  ]
+}

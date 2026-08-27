@@ -1,0 +1,278 @@
+{
+  "id": "p1-083",
+  "catalogueId": "p1-083",
+  "title": "The Final Frontier for Tourism",
+  "sourceHeading": "The Final Frontier for Tourism",
+  "passage": 1,
+  "practice": 83,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-083-the-final-frontier-for-tourism",
+  "source": {
+    "filename": "Practice 83  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "2a54272860756c64c5cc60117c35a0eca9dce16c3c67cbf4d42035497a8c3d04"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "For some reason, humankind has always looked towards the stars and dreamt of one day making the voyage into the unknown and exploring outer space. Perhaps it is our innate curiosity, or perhaps the challenge presented by the seemingly impossible; whatever the lure, the quest to venture into space has become an obsession for many."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "On a memorable July day in 1969 one man made a giant leap for his kind. Neil Armstrong touched down on the moon as the world watched with bated breath. Was this a beginning or the culmination of years of endeavour that pushed science to its very limits? Well, it has been a long time indeed since the last moon landing, more than 40 years, but science has not stood still in the interim, nor have our dreams become any less ambitious. According to NASA, plans are afoot for a manned mission to Mars at some point after 2020. A return to the moon has been scheduled sooner – perhaps 2018 if NASA’s new Crew Exploration Vehicle (CEV) is rolled out on time. It may not be Hollywood razzle-dazzle-style progress; it may even be painstakingly slow, but rest assured that plans are afoot for something very ambitious and special indeed, and NASA may be back in the headlines making waves and history again, just as it did on that fateful day in 1969, in the not-too-distant future."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "That said, it is the prospect of space tourism for the masses that has captured the headlines recently, and this may not be such a distant dream as people might expect. In 2001, an American multimillionaire, Dennis Tito, became the first space tourist, spending ten days on the International Space Station along with his crew of Russian cosmonauts, and fulfilling a lifelong ambition in the process. He described the experience rather paradoxically as ‘indescribable’—everything that he had thought it would be and more. A year later, South African millionaire Mark Shuttleworth followed in his footsteps. On his return to Earth, he said, ‘Every second will be with me for the rest of my life.’ Clearly these men had a once-in-a-lifetime experience, but this came at a hefty price: both men paid $20 million for the pleasure of their space adventures."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "At present, space tourism is undoubtedly reserved for an elite and wealthy few, but what of the future? If Eric Anderson, president of Space Adventures, the company that organised Tito and Shuttleworth’s trips, is to be believed, it will be the next big thing. ‘Everyone’s looking for a new experience,’ he says. Indeed, Space Adventures is planning to offer rocket trips to the public for $100,000 within the next few years, so perhaps space tourism is closer than we think. Another company, The Space Island Group, is planning to build a space hotel inspired by the spaceship in the film 2001: A Space Odyssey. Gene Meyers, the company’s president, predicts that in 2020 a five-day holiday at the hotel will cost less than $25,000. Imagine, he says, a five-star hotel with all the usual luxuries, except that each morning you’ll be greeted by mind-blowing views of outer space. This is certainly food for thought for adventure-seeking holiday planners. That said, unless there is a serious spike in inflation between now and 2020, $25,000 will remain a considerable sum to pay for a recreational activity, once-in-a-lifetime or not. But that is perhaps missing the point—the prospect of affordable space travel is getting closer and closer and it is only a matter of time before it becomes a reality."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Other companies have even more ambitious plans. Bigelow Aerospace is spending close to $500 million on a project to build a 700-metre spaceship to fly tourists to the moon. The spaceship will be able to hold 100 guests, each with a private room offering truly unique views of the Earth’s sunset. Even the Hilton Hotel Group wants to get in on the act with talk of plans to build a Hilton on the moon. For the present, only millionaires can enjoy the privilege of a space journey, but in the words of one Bob Dylan, ‘The times they are a-changin’.’ Perhaps sooner than you’d think."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nReading Passage 1 has five paragraphs A–E.\nChoose the correct heading for each paragraph A–E from the list of headings below.\nWrite the correct number i–viii in the spaces 1–5 below.\n\n                             List of Headings\n\n i                           Not worth the cost\n\n ii                          Space travel: past, present and future\n\n iii                         Russian innovations\n\n iv                          A profitable investment\n\n v                           The future of tourism\n\n vi                          Insatiable desire for adventure\n\n vii                         The first space tourists\n\n viii                        Moon hotels\n1 ___________ Paragraph A\n2 ___________ Paragraph B\n3 ___________ Paragraph C\n4 ___________ Paragraph D\n5 ___________ Paragraph E"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nLook at the following people (Questions 6–9) and the list of statements below.\nMatch each person with the correct statement, A–F.\nWrite the correct letter, A–F, in spaces 6–9.\n A                            touched down on the moon in 1969\n\n B                            believes space tourism will be popular in the near future\n\n C                            spent ten days on the International Space Station\n\n D                            was the second tourist to travel into space\n\n E                            predicts space holidays will be more affordable by 2020\n\n F                            will build a hotel inspired by a film\n6 ___________ Dennis Tito\n7 ___________ Mark Shuttleworth\n8 ___________ Eric Anderson\n9 ___________ Gene Meyers"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn spaces 10–13 below, write:\n\n TRUE                         if the statement agrees with the information\n\n FALSE                        if the statement contradicts the information\n\n NOT GIVEN                    if there is no information on this\n10 _________________ Bigelow Aerospace’s spaceship will offer unique views of the Moon’s sunset.\n11 _________________ The Hilton Hotel Group has ambitious plans to organise cheap space journeys.\n12 _________________ NASA plans to launch a mission to Mars, but first it is hoping to return to the\nmoon.\n13 _________________ At the moment, space tourism is too expensive for ordinary people; only the very\nrich can travel to space."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph A",
+      "translation": "為 Paragraph A 選最合適標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "為 Paragraph B 選最合適標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "為 Paragraph C 選最合適標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "為 Paragraph D 選最合適標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "為 Paragraph E 選最合適標題。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Dennis Tito",
+      "translation": "Dennis Tito 對應哪一項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Mark Shuttleworth",
+      "translation": "Mark Shuttleworth 對應哪一項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Eric Anderson",
+      "translation": "Eric Anderson 對應哪一項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "___________ Gene Meyers",
+      "translation": "Gene Meyers 對應哪一項描述？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ Bigelow Aerospace’s spaceship will offer unique views of the Moon’s sunset.",
+      "translation": "Bigelow Aerospace 的太空船將提供月球日落的獨特景觀。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ The Hilton Hotel Group has ambitious plans to organise cheap space journeys.",
+      "translation": "Hilton Hotel Group 有雄心勃勃的計劃，要組織廉價太空旅程。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ NASA plans to launch a mission to Mars, but first it is hoping to return to the moon.",
+      "translation": "NASA 計劃發射火星任務，但它希望先重返月球。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "_________________ At the moment, space tourism is too expensive for ordinary people; only the very rich can travel to space.",
+      "translation": "目前，太空旅遊對普通人來說太昂貴；只有非常富有的人能去太空旅行。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-083/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-083/page-5.jpg"
+  ]
+}

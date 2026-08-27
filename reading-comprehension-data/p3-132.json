@@ -1,0 +1,264 @@
+{
+  "id": "p3-132",
+  "catalogueId": "p3-132",
+  "title": "How to handle the Sun",
+  "sourceHeading": "How to Handle the Sun",
+  "passage": 3,
+  "practice": 132,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-132-how-to-handle-the-sun",
+  "source": {
+    "filename": "Practice 132 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "04f68c9a559b7f4a6772b60ad94f9bdae0e6c67177adee22fdc1b17498e9a818"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The medical world appears to be divided on the effects of the sun upon the human body. From statements like, “There is no known relationship between a tan and health” to “perhaps sun-tanned skin absorbs the ultraviolet rays and converts them into helpful energy”, there are some things which are still the topic of research. Doctors agree on one of the benefits of the sun – vitamin D. It is well known that vitamin D is acquired from the direct rays of the sun – an entirely separate miracle from sun tanning. The sun’s ultraviolet rays penetrate only a tiny amount into the human skin, but in the process, they irradiate an element in the skin called ergosterol, which is a substance that stores up reserves of vitamin D received from the sun. This is both healthy and beneficial for human skin."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "All around the Western World, people have developed an obsession with the sun. In many western countries, a suntan has become the trademark of a healthy, active, outdoor person. The basic reddish hue just beneath the surface of our skin is the outward reflection of the millions of red corpuscles flowing through tiny blood vessels. This is most noticeable in the pure skin of a baby which can change in a moment from porcelain white (with anger or a switch in temperature) to crimson. In Caucasians, this colouring is somewhat hidden by an acquired layer of sun-made pigment, which varies in tone according to the complexion and occupation of the individual."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Locale plays a big part in the effectiveness of the suntan. Mountaintops and beaches are nonpareil sun spas because they receive far purer sunlight than the rest of the land. Urban areas with their smoke and smog act as a filter removing all the healthy properties of the sun. Perhaps the seashore is best of all, with its air estimated to have at least a fifth of a per cent more oxygen than inland air – free of city and inland dust, tars, pollen, and allergens."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The sun has long been called nature’s greatest health giver and healer and has played a chief role at health resorts ever since August Rollier, the Swiss father of heliotherapy, opened his first high-Alps sanatorium in 1903. Dr. W. W. Coblenz suggests that the sun cure is a major factor in the treatment of at least 23 skin diseases, ranging from acne and eczema to ulcers and wounds. Another specialist, Dr Richard Kovacs, writes, “Sun treatment is often helpful to persons suffering from general debility – repeated colds, respiratory diseases, influenza and the like”. “After a long winter, the return to the sun,” writes Dr Leonard Dodds, the British sunlight scholar, “is a general stimulus to the body, more potent if applied after a period when it has been lacking, and it gradually loses its effect if exposure is over-prolonged, even when not excessive.”"
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Over many years of study, dermatologists have proven that excessive exposure to sunlight for years is responsible for a large proportion of skin cancer amongst the population. Year-round outdoor workers face the greatest risk of permanent skin damage, 90% of which occurs on the heavily exposed hands and face. The first line of defense against permanent sun damage is the skin’s own natural fatty matter and sweat, which combine to form an oily acid surface shield against the ultraviolet rays. At the beach, saltwater washes away this natural oily coat; the hot sun overworks the sweat glands, making the excess sweat ineffective; and the dry wind and hot sun combine to dehydrate the skin itself. Over the years, women have shown far greater wisdom in the care of their skin than men. Since the ladies of ancient Egypt first began to apply the fat of the so-called sacred temple cats to their faces, women have been tireless in waging this battle against damage to the skin from the sun. Both sexes now contribute annually to a multi-million dollar global sunscreen business."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Other parts of the human body which tend to suffer from exposure to the sun are the eyes and hair. Many years ago, optometrists undertook studies in America to examine the influence of the sun upon the eyes by studying Atlantic City lifeguards and found that even a few hours in the bright sun without sunglasses could cause a significant loss of vision – a loss that might take several weeks to recover from. So gradual was the change that the lifeguards were unaware that their sight had been affected. The solution to this problem was to introduce sunglasses as a standard part of the lifeguard uniform. These were dark enough to absorb most of the sun’s harmful infrared and ultraviolet rays."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The sun has a lesser impact on the hair, but prolonged exposure leaves it brittle and dry. Haircare professionals recommend a nutritional cream treatment with a substance containing lanolin to restore your hair’s natural softness. These treatments usually come in the form of leave-in conditioners, and should be applied frequently, just as you would a sunscreen for the skin. Or, easier still, wear a hat. Wearing a hat has a dual effect: it protects the hair and helps to prevent the most dangerous of outdoor afflictions: sunstroke."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nLook at the following people (Questions 27–30) and the list of statements below.\nMatch each person with the correct statement.\nWrite the correct letter A–H in boxes 27–30 on your answer sheet.\n A                        believes that the benefits of the sun are not scientifically provable\n\n B                        claims to have discovered the vitamin released in the skin by the sun\n\n C                        suggests that the sun is an excellent healer\n\n D                        invented the first sunscreen\n\n E                        suggests that the sun assists with common illnesses\n\n F                        thinks that initially, the sun is of benefit to the body\n\n G                        is unsure about the benefits of the sun\n\n H                        opened the first specialised hospital\n\n\n27 Richard Kovacs\n28 August Rollier\n29 W. Coblenz\n30 Leonard Dodds"
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 31–35 on your answer sheet, write:\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n31 Most doctors agree when it comes to the health benefits of the sun.\n32 Beaches are best for a suntan because the air has far less pollution.\n33 Women applied fat to their skin for protection from the sun.\n34 Extended exposure of the eyes to the sun can lead to blindness.\n35 The human eye cannot heal itself when it is damaged by the sun."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nComplete the summary using the words from the box.\nHandling the Sun\nMany doctors agree that skin cancer can be caused by excessive exposure to the\nsun. As far as the human body is concerned, it is primarily the face and hands\nthat are 36 _________________. When human skin is exposed to the sun, the\nbody has a defence: a 37 _________________ of the skin’s natural oils and acids.\nFor some time, women have been more effective than men in 38\n_________________ for their skin. The eyes are also significantly affected by the\nsun.\nThe damage often goes undetected because it happens quite 39\n_________________. Hair, on the other hand, becomes dry and brittle after\nextended exposure to the sun. Hair-care professionals recommend a\nlanolin-based conditioner to 40 _________________ this problem. A simple hat\nmay be the best solution for protecting the hair.\n\n\n overcome                                   maintaining\n\n located                                    mixed\n\n quickly                                    extended\n\n prolonged                                  blend\n\n arrangement                                succeed\n\n combined                                   surprisingly\n\n slowly                                     triumph\n\n affected                                   caring\n\n minding"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Richard Kovacs",
+      "translation": "另一位專家 Richard Kovacs 醫生寫道：「日光治療常常有助於身體虛弱的人，例如經常感冒、呼吸道疾病、流感等。」題目選項 E 說 “the sun assists with common illnesses”，其中 assists 對應 “is often helpful to”； common illnesses 對應 repeated colds、respiratory diseases、influenza。這些都是常見疾病或常見身體不適，所以 Q27 答案是 E。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "August Rollier",
+      "translation": "日光療法之父 August Rollier 於 1903 年開設了他的第一所高阿爾卑斯療養院。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "W. Coblenz",
+      "translation": "W. W. Coblenz 醫生指出，日光療法是治療至少 23 種皮膚病的重要因素，範圍由暗瘡、濕疹，到潰瘍和傷口。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Leonard Dodds",
+      "translation": "漫長冬天之後重新接觸陽光，對身體是一種普遍刺激；若之前有一段缺乏陽光的時期，效果會更強。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "Most doctors agree when it comes to the health benefits of the sun.",
+      "translation": "談到陽光對健康的好處時，大部分醫生意見一致。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "Beaches are best for a suntan because the air has far less pollution.",
+      "translation": "海灘最適合曬黑，因為空氣污染少得多。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "Women applied fat to their skin for protection from the sun.",
+      "translation": "女性把脂肪塗在皮膚上，以防止太陽造成傷害。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "Extended exposure of the eyes to the sun can lead to blindness.",
+      "translation": "眼睛長時間暴露在陽光下，可能導致視力喪失。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "The human eye cannot heal itself when it is damaged by the sun.",
+      "translation": "眼睛被陽光傷害後不能自行恢復。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "就人體而言，主要是臉和手受到影響。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "當皮膚暴露在陽光下，身體有一道防線：皮膚天然油脂和酸性物質的混合。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "長久以來，女性比男性更懂得照顧自己的皮膚。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "這種傷害常常未被察覺，因為它發生得相當緩慢。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "護髮專業人士建議使用含 lanolin 的護髮產品來處理這個問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-132/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-132/page-5.jpg"
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "id": "p2-042",
+  "catalogueId": "p2-042",
+  "title": "Saving the British Bitterns",
+  "sourceHeading": "Saving the British Bitterns",
+  "passage": 2,
+  "practice": 42,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-042-saving-the-british-bitterns",
+  "source": {
+    "filename": "Practice 42 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "d1028ffc585cb057bae30ac8465d6faf1d789324c4c4d79be93c9d6ee4b5a004"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Breeding bitterns became extinct in the UK by 1886, but following recolonisation early in the 20th century, numbers rose to a peak of about 70 booming, or singing, males in the 1950s before falling to fewer than 20 by the 1990s. By the late 1980s, it was clear that the bittern was in trouble, but little information was available on which to base recovery measures."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Bitterns have cryptic plumage and a shy nature and usually remain hidden within reed-bed vegetation. Our first challenge was to develop standard methods for monitoring their numbers. The boom of the male bittern is its most distinctive feature during the breeding season, and we developed a way to count males from the sound pattern unique to each individual. This makes the number of booming males in the UK much more certain and enables us to estimate local survival from one year to the next."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Our first direct understanding of the habitat needs of breeding bitterns came from comparisons of reed bed sites that had lost their booming birds with those that retained them. This research showed that bitterns had been retained in reed beds where the natural process of succession, or drying out, had been slowed through management. Based on this work, broad recommendations on how to manage and rehabilitate reed beds for bitterns were made, and funding was provided through the EU LIFE Fund to manage 13 sites within the core breeding range. This project, though led by the RSPB, involved many other organisations."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "To refine these recommendations and provide fine-scale, quantitative habitat prescriptions for the bitterns’ preferred feeding habitat, we radio-tracked male bitterns on the RSPB’s Minsmere and Leighton Moss reserves. This showed clear preferences for feeding in the wetter reed bed margins, particularly within the reed bed next to larger open pools. The average home range sizes of the male bitterns we followed (about 20 hectares) provided a good indication of the area of reed bed needed when managing or creating habitat for this species. Female bitterns undertake all the incubation and care of the young, so it was important to understand their needs as well. Over the course of our research, we located 87 bittern nests and found that female bitterns preferred to nest in areas of continuous vegetation, well into the reed bed, but where water was still present during the driest part of the breeding season."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The success of the habitat prescriptions developed from this research has been spectacular. For instance, at Minsmere, booming bittern numbers gradually increased from one to 10 following reed bed lowering, a management technique designed to halt the drying out process. After a low point of 11 booming males in 1997, bittern numbers in Britain responded to all the habitat management work and started to increase for the first time since the 1950s."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The final phase of research involved understanding the diet, survival and dispersal of bittern chicks. To do this we fitted small radio tags to young bittern chicks in the nest, to determine their fate through to fledging and beyond. Many chicks did not survive to fledging and starvation was found to be the most likely reason for their demise. The fish prey fed to chicks was dominated by those species penetrating into the reed edge. So, an important element of recent studies (including a PhD with the University of Hull) has been the development of recommendations on habitat and water conditions to promote healthy native fish populations."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Once independent, radio-tagged young bitterns were found to seek out new sites during their first winter; a proportion of these would remain on new sites to breed if the conditions were suitable. A second EU LIFE-funded project aims to provide these suitable sites in new areas. A network of 19 sites developed through this partnership project will secure a more sustainable UK bittern population with successful breeding outside of the core area, less vulnerable to chance events and sea level rise."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "By 2004, the number of booming male bitterns in the UK had increased to 55, with almost all of the increase being on those sites undertaking management based on advice derived from our research. Although science has been at the core of the bittern story, success has only been achieved through the trust, hard work and dedication of all the managers, owners and wardens of sites that have implemented, in some cases very drastic, management to secure the future of this wetland species in the UK. The constructed bunds and five major sluices now control the water level over 82 ha, with a further 50 ha coming under control in the winter of 2005/06. Reed establishment has principally used natural regeneration or planted seedlings to provide small core areas that will in time expand to create a bigger reed area. To date nearly 275,000 seedlings have been planted and reed cover is extensive. Over 3 km of new ditches have been formed, 3.7 km of existing ditches have been re-profiled and 2.2 km of old meander (former estuarine features) has been cleaned out."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Bitterns now winter regularly at the site, and there is some indication that they remain longer into spring. No breeding has yet occurred, but a booming male was present in spring 2004. Several wildfowl species breed there, together with many reed-bed passerines, including reed buntings and reed, sedge and grasshopper warblers. Numbers of wintering shoveler have increased so that the site now supports a nationally important wintering population. Malltraeth Reserve is part of the UK network of key sites for the water vole, a UK priority species, and 12 monitoring transects have been established. Otters and brown hares occur at the site, as does the rare plant pillwort."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26",
+    "g27": "Questions 27–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nReading Passage 2 has nine paragraphs, A–I.\nChoose the correct heading for paragraphs A–D and F–H from the list below.\nWrite the correct number, i–ix, in boxes 14–20 on your answer sheet.\n i                          Research findings about habitat and the resulting management decisions\n\n ii                         Fluctuations in bittern numbers\n\n iii                        Protecting young bitterns\n\n iv                         International cooperation succeeds\n\n v                          Developing a method for counting bitterns\n\n vi                         The importance of food\n\n vii                        Research produces successful results\n\n viii                       Research into reed-bed habitat\n\n ix                         A reserve that supports wintering bitterns\n\n\n14 _____________ Paragraph A\n15 _____________ Paragraph B\n16 _____________ Paragraph C\n17 _____________ Paragraph D\n18 _____________ Paragraph F\n19 _____________ Paragraph G\n20 _____________ Paragraph H"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.\nWhen did the number of breeding bitterns reach its peak?\n21 _________________\nHow is the bittern’s nature described?\n22 _________________\nWhat is the main cause of death among bittern chicks?\n23 _________________\nWhat is the main food of bittern chicks?\n24 _________________\nWhat system is intended to secure a stable bittern population?\n25 _________________\nBesides bitterns and rare vegetation, which mammals benefit from the project?\n26 _________________"
+    },
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 27,
+      "text": "Question 27\nChoose the correct letter, A, B, C or D.\nWrite your answer in box 27 on your answer sheet.\n\n\n27 What is the main purpose of this passage?\n  A to describe the main characteristics of the bittern\n  B to show how cooperation can protect an endangered species\n  C to describe the difficulty of obtaining information about the bittern’s habitat and diet\n  D to explain how to save wetlands and reed beds in the UK"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph H",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "text",
+      "prompt": "_________________ How is the bittern’s nature described?",
+      "translation": "breeding bitterns 的數量在甚麼時候達到高峰？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "text",
+      "prompt": "_________________ What is the main cause of death among bittern chicks?",
+      "translation": "bittern 的 nature 被描述成怎樣？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "text",
+      "prompt": "_________________ What is the main food of bittern chicks?",
+      "translation": "bittern chicks 死亡的主要原因是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "text",
+      "prompt": "_________________ What system is intended to secure a stable bittern population?",
+      "translation": "bittern chicks 的主要食物是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "text",
+      "prompt": "_________________ Besides bitterns and rare vegetation, which mammals benefit from the project?",
+      "translation": "甚麼系統旨在確保一個穩定／可持續的 bittern population？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "除了 bitterns 和 rare vegetation 之外，哪些 mammals 也受益於這個 project？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What is the main purpose of this passage?",
+      "translation": "這篇文章的主要目的 是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-042/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-042/page-6.jpg"
+  ]
+}

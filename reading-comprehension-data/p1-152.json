@@ -1,0 +1,239 @@
+{
+  "id": "p1-152",
+  "catalogueId": "p1-152",
+  "title": "Smell and Memory: Smell like yesterday",
+  "sourceHeading": "Smell and Memory: Smells Like Yesterday Why does the scent of a fragrance or the mustiness of an old trunk trigger such powerful memories of childhood? New research has the answer, writes Alexandra Witze.",
+  "passage": 1,
+  "practice": 152,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-152-smell-and-memory-smell-like-yesterday",
+  "source": {
+    "filename": "Practice 152 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "1ea4b2933a1187886d43104e23f562c6bcd110a396f7266a9976869774c942f0"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "You probably pay more attention to a newspaper with your eyes than with your nose. But lift the paper to your nostrils and inhale. The smell of newsprint might carry you back to your childhood, when your parents perused the paper on Sunday mornings. Or maybe some other smell takes you back—the scent of your mother’s perfume, the pungency of a driftwood campfire. Specific odours can spark a flood of reminiscences. Psychologists call it the “Proustian phenomenon” after French novelist Marcel Proust. Near the beginning of the masterpiece In Search of Lost Time, Proust’s narrator dunks a madeleine cookie into a cup of tea and the scent and taste unleash a torrent of childhood memories for 3,000 pages."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Now, this phenomenon is getting the scientific treatment. Neuroscientists such as Rachel Herz, a cognitive neuroscientist at Brown University in Providence, Rhode Island, have discovered, for instance, how sensory memories are shared across the brain, with different brain regions remembering the sights, smells, tastes and sounds of a particular experience. Meanwhile, psychologists have demonstrated that memories triggered by smells can be more emotional, as well as more detailed, than memories not related to smells. When you inhale, odour molecules set brain cells dancing within a region known as the amygdala, a part of the brain that helps control emotion. In contrast, the other senses, such as taste or touch, get routed through other parts of the brain before reaching the amygdala. The direct link between odours and the amygdala may help explain the emotional potency of smells. “There is this unique connection between the sense of smell and the part of the brain that processes emotion,” says Rachel Herz."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "But the links don’t stop there. Like an octopus reaching its tentacles outward, the memory of smells affects other brain regions as well. In recent experiments, neuroscientists at University College London (UCL) asked 15 volunteers to look at pictures while smelling unrelated odours. For instance, the subjects might see a photo of a duck paired with the scent of a rose, and then be asked to create a story linking the two. Brain scans taken at the time revealed that the volunteers’ brains were particularly active in a region known as the olfactory cortex, which is known to be involved in processing smells. Five minutes later, the volunteers were shown the duck photo again, but without the rose smell. And in their brains, the olfactory cortex lit up again, the scientists reported recently. The fact that the olfactory cortex became active in the absence of the odour suggests that people’s sensory memory of events is spread across different brain regions. Imagine going on a seaside holiday, says UCL team leader Jay Gottfried. The sight of the waves becomes stored in one area, whereas the crash of the surf goes elsewhere, and the smell of seaweed in yet another place. There could be advantages to having memories spread around the brain. “You can reawaken that memory from any one of the sensory triggers,” says Gottfried. “Maybe the smell of the sun lotion, or a particular sound from that day, or the sight of a rock formation.” Or—in the case of an early hunter-gatherer out on a plain—the sight of a lion might be enough to trigger the urge to flee, rather than having to wait for the sound of its roar and the stench of its hide to kick in as well."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Remembered smells may also carry extra emotional baggage, says Herz. Her research suggests that memories triggered by odours are more emotional than memories triggered by other cues. In one recent study, Herz recruited five volunteers who had vivid memories associated with a particular perfume, such as Opium for Women and Juniper Breeze from Bath and Body Works. She took images of the volunteers’ brains as they sniffed that perfume and an unrelated perfume without knowing which was which. (They were also shown photos of each perfume bottle.) Smelling the specified perfume activated the volunteers’ brains the most, particularly in the amygdala, and in a region called the hippocampus, which helps in memory formation. Herz published the work earlier this year in the journal Neuropsychologia."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "But she couldn’t be sure that the other senses wouldn’t also elicit a strong response. So in another study Herz compared smells with sounds and pictures. She had 70 people describe an emotional memory involving three items—popcorn, fresh-cut grass and a campfire. The items were then presented through sights, sounds and smells. For instance, the person might see a picture of a lawnmower, then sniff the scent of grass and finally listen to the lawnmower’s sound. Memories triggered by smell were more evocative than memories triggered by either sights or sounds."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Odour-evoked memories may be not only more emotional but also more detailed. Working with colleague John Downes, psychologist Simon Chu of the University of Liverpool started researching odour and memory partly because of his grandmother’s stories about Chinese culture. As generations gathered to share oral histories, they would pass a small pot of spice or incense around; later, when they wanted to remember the story in as much detail as possible, they would pass the same smell around again. “It kind of fits with a lot of anecdotal evidence on how smells can be really good reminders of past experiences,” Chu says. And scientific research seems to bear out the anecdotes. In one experiment, Chu and Downes asked 42 volunteers to tell a life story, then tested to see whether odours such as coffee and cinnamon could help them remember more detail in the story. They could."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Despite such studies, not everyone is convinced that Proust can be scientifically analysed. In the June issue of Chemical Senses, Chu and Downes exchanged critiques with renowned perfumer and chemist J. Stephan Jellinek. Jellinek chided the Liverpool researchers for, among other things, presenting the smells and asking the volunteers to think of memories, rather than seeing what memories were spontaneously evoked by the odours. But there’s only so much science can do to test a phenomenon that’s inherently different for each person, Chu says. Meanwhile, Jellinek has also been collecting anecdotal accounts of Proustian experiences, hoping to find some common links between the experiences. “I think there is a case to be made that surprise may be a major aspect of the Proust phenomenon,” he says. “That’s why people are so struck by these memories.” No one knows whether Proust ever experienced such a transcendental moment. But his notions of memory, written as fiction nearly a century ago, continue to inspire today’s scientists."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nMatch each statement with the correct person, A–C.\nWrite the correct letter, A–C, in boxes 1–5 on your answer sheet.\nNB You may use any letter more than once.\n A                                       Rachel Herz\n\n B                                       Simon Chu\n\n C                                       Jay Gottfried\n\n\n1 ____________ Found that different components of sensory memories are stored in different\nareas of the brain\n2 ____________ A particular smell can prompt detailed recall of an event\n3 ____________ The connection between smell and emotional brain regions differs from that of\nother senses\n4 ____________ Storing information in different locations can help us avoid danger\n5 ____________ Smell processing can occur in the brain even when no smell is present"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nChoose the correct letter, A, B, C or D.\n6 In paragraph B, what do the experiments conducted by Herz and other scientists show?\n A Women are more easily addicted to opium.\n B Smell has a stronger general connection to the brain than the other senses.\n C Smell is more important than the other senses.\n D A particular area of the brain links emotion directly to the sense of smell.\n\n\n7 What does Herz’s second experiment suggest?\n A Its result directly conflicts with the first experiment.\n B It supports the result of her first experiment.\n C Sights and sounds trigger memories to the same degree.\n D A lawnmower is the ideal subject for this type of experiment.\n\n\n8 What was the outcome of the experiment conducted by Chu and Downes?\n A Smell is the only effective element in the Chinese tradition.\n B Half of the volunteers told detailed stories.\n C Certain odours helped storytellers recall more detail.\n D The odour of cinnamon was stronger than that of coffee.\n\n\n9 What criticism did Jellinek make of Chu and Downes in Chemical Senses?\n A Their method did not test which memories smells evoked spontaneously.\n B Liverpool was not a suitable place for the experiment.\n C There was no way to identify the specific memories that were aroused.\n D The experiment could be improved by using coffee."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 10–13 on your answer sheet.\nIn the UCL experiments, participants looked at a picture while smelling a flower and were\nthen asked to 10 ____________ linking the two. A technique called 11 ____________\nshowed that a brain region called the 12 ____________ was particularly active. In another\nexperiment inspired by Chinese elders, storytellers could recall detailed anecdotes when a\npot of 13 ____________ or incense was passed around."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Found that different components of sensory memories are stored in different areas of the brain",
+      "translation": "發現感官記憶的不同組成部分儲存在大腦不同區域。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A particular smell can prompt detailed recall of an event",
+      "translation": "某一種特定氣味可以促使人詳細回憶某件事。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The connection between smell and emotional brain regions differs from that of other senses",
+      "translation": "嗅覺與情緒腦區的連接方式，和其他感官不同。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Storing information in different locations can help us avoid danger",
+      "translation": "把資訊儲存在不同位置可以幫助我們避開危險。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ Smell processing can occur in the brain even when no smell is present",
+      "translation": "即使沒有氣味存在，大腦中仍可能出現氣味處理活動。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "In paragraph B, what do the experiments conducted by Herz and other scientists show?",
+      "translation": "在 B 段中，Herz 和其他科學家的實驗顯示了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "What does Herz’s second experiment suggest?",
+      "translation": "Herz 的第二個實驗顯示了甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "What was the outcome of the experiment conducted by Chu and Downes?",
+      "translation": "Chu 和 Downes 的實驗結果是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "choice",
+      "prompt": "What criticism did Jellinek make of Chu and Downes in Chemical Senses?",
+      "translation": "Jellinek 在 Chemical Senses 中對 Chu 和 Downes 作出了甚麼批評？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "在 UCL 實驗中，參加者一邊聞花香一邊看圖片，然後被要求 10 ____________，把兩者連起來。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "一種叫作 11 ____________ 的技術顯示，一個稱為 12 ____________ 的腦區特別活躍。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "一種叫作 brain scans 的技術顯示，一個稱為 12 ____________ 的腦區特別活躍。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "另一個受中國長者傳統啟發的實驗中，當一小壺 13 ____________ 或香被傳遞時，講故事的人能回憶更詳細的軼事。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-152/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-152/page-7.jpg"
+  ]
+}

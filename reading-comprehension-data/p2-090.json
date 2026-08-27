@@ -1,0 +1,230 @@
+{
+  "id": "p2-090",
+  "catalogueId": "p2-090",
+  "title": "Sampling Bias",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 90,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-090-sampling-bias",
+  "source": {
+    "filename": "Practice 90 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "e5c8b69a7561f348165fa9ff3668a9c3b61124313ba7ec0281b61a3ce90b00e8"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Sampling Bias Our primitive ancestors left many paintings on the walls inside caves. Additionally, inside and near these places there is evidence of fire pits, refuse sites and burial sites. However, one could equally imagine this same evidence of daily life on exposed cliffs or hillsides, on trees or animal skins, and beside rivers and coastlines. Such evidence, if it existed, would have long been washed, eroded, or rotted away. Thus, prehistoric people are characterised as ‘cavemen’, presumed to have a predilection for dwelling in these places only because that is where most evidence is found. This ‘caveman effect’ is an example of what is known as ‘sampling bias’ — one of the biggest problems when conducting any form of statistical data gathering."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Surveys, for example, are popular because they are easy to administer and relatively cost-effective, particularly if conducted remotely through technical means, such as telephone, mail, email, or the Internet. Surveys also lend themselves to obtaining particularly large numbers of respondents, which, in theory, allows a greater chance of sampling all the variations of the target population. They can also be standardised with fixed questions and responses (such as ‘tick the box’ or ‘closed-ended’ questions). This allows easy collation, analysis, and presentation of results, all with the air of precision that mathematics brings. Such surveys, however, have proven notoriously unreliable because of the difficulty in obtaining representative samples. In other words, the sampling is biased, or skewed in favour of certain outcomes."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Let us look at some examples. If one calls people on mobile phones, it immediately excludes those who favour landlines, and thus the sample of respondents may be those who are more technically conversant, skewing data based on, say, technical issues (‘How often do you use the Internet?’). If one rings domestic homes during the daytime, most of those who work during the day will be excluded. Those who answer are more likely to be the unemployed, disabled, elderly, and retired, skewing data based on, say, work-related issues (‘How important is work in your life?’). No matter how large the sampling size is, sampling bias can immediately invalidate the results."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "One of the subtler forms of sampling bias is known as self-selection. No matter how rigorously the respondents are chosen to be random and characteristic of the target population, those who choose to respond will be different from those who do not. Generally, respondents who are willing to invest time in giving answers obviously want to say something, whereas those who choose not to answer probably do not. Thus, any survey in which many respondents do not answer, do not give clear answers, or only give cursory or unthinking answers, is immediately invalidated, since opinionated perspectives are disproportionately represented."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "This is such an immediate and obvious problem that it has given rise to techniques to maximise the possibility of garnering responses. One of the more effective techniques is to give respondents advance notice (often through the mail) that highlights the time, nature and mode of delivery of the survey and expresses appreciation for their assistance. The interviewers themselves must be sufficiently trained in correct question-asking techniques, and, with cranks, salespeople, and scam artists abounding, interviewers must introduce themselves, their company and the nature of the interview fully and with evident sincerity, in order to gain the trust of those they are talking to."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Even with this, sampling bias can easily arise due to the number of variables in place, since it only takes one to skew the data. If taking samples from a specific location — say, a street corner—then it may be that this location is in the business district, excluding ordinary workers from the sample. It may be that it is near a restaurant district, excluding those who cook more often for themselves. If there is a health club nearby, the majority of respondents may be much healthier than the average of the population. If it is on a university campus, designed to poll university students, is it near the engineering or the arts faculty? The part-time or full-time schools? Are they rich or poor? Male or female? What about race, colour, gender, religion, socio-economic background, and first language? The list goes on and on."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "One method to deal with this is to make sure all targeted groups are represented, if only a little, and make mathematical extrapolations to correct the bias. For this to work, the degree of underrepresentation needs to be quantified exactly, and one needs to assume the underrepresented respondents are indeed typical of their kind. If, for example, one aims to find the population’s opinion on the outcome of an election but can, for whatever reason, interview only one woman for every four men, the responses of the women could be multiplied by four, and thus, one can assume, guardedly and with many provisos, that the sampling bias from gender has been corrected. But that does assume all the other variables which introduce bias have been excluded — often a very problematic assumption to make."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–24",
+    "g25": "Questions 25–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nDo the following statements agree with the information given in Reading Passage Two?\nWrite:\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n14 _________________ Cavemen were often very good artists.\n15 _________________ Surveys can be done cheaply by telephone.\n16 _________________ Surveys can usually give reliable information.\n17 _________________ Elderly and disabled people are often at home during the day.\n18 _________________ Larger survey samples can reduce sampling bias."
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 24,
+      "text": "Questions 19–24\nComplete the flowchart.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n\n\n\n19 _________________\n20 _________________\n21 _________________\n22 _________________\n23 _________________\n24 _________________"
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 26,
+      "text": "Questions 25–26\nChoose the correct letter, A, B, C, or D.\n25 The number of sampling variables\n A is usually not so large.\n B can result in important input being lost.\n C means many locations need to be used.\n D can result in lists being necessary.\n\n\n26 Mathematical extrapolation\n A can yield confident results.\n B requires responses from both men and women.\n C needs exact ratios.\n D needs many respondents."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Cavemen were often very good artists.",
+      "translation": "穴居人通常是很出色的藝術家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Surveys can be done cheaply by telephone.",
+      "translation": "調查可以透過電話以低成本進行。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Surveys can usually give reliable information.",
+      "translation": "調查通常可以提供可靠資訊。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Elderly and disabled people are often at home during the day.",
+      "translation": "長者和殘疾人士日間經常在家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_________________ Larger survey samples can reduce sampling bias.",
+      "translation": "較大的調查樣本可以減少抽樣偏差。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "這格要填一種較隱微的 sampling bias 名稱。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "這格要填在調查中被過度代表的內容。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "這格要填處理 self-selection 問題的一個方法：增加回覆數量。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "這格要填訪員需要具備甚麼條件。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "這格要填訪員為建立信任需要提供的東西，內容包括自己、公司和訪問性質。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g19",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "這格要填訪員完整介紹自己的最終目的：取得受訪者甚麼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "The number of sampling variables",
+      "translation": "抽樣變項的數量……選項 B 中文意思：可能導致重要輸入／重要資料被排除或流失。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "choice",
+      "prompt": "Mathematical extrapolation",
+      "translation": "數學外推法……選項 C 中文意思：需要精確比例。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-090/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-090/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-090/page-6.jpg"
+  ]
+}

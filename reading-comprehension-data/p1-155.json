@@ -1,0 +1,256 @@
+{
+  "id": "p1-155",
+  "catalogueId": "p1-155",
+  "title": "Consecutive and Simultaneous Translation",
+  "sourceHeading": "Consecutive and Simultaneous Translation",
+  "passage": 1,
+  "practice": 155,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-155-consecutive-and-simultaneous-translation",
+  "source": {
+    "filename": "Practice 155 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "b91ae2ddda2764124934abc8eb044c38b495092cc08e3c77d10465ad79838a00"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "When people are faced with a foreign-language barrier, the usual way around it is to find someone to interpret or translate for them. The term ‘translation’ is the neutral term used for all tasks where the meaning expressed in one language (the source language) is rendered in another (the ‘target’ language), whether the medium is spoken, written, or signed. In specific professional contexts, however, a distinction is drawn between people who work with spoken or signed language (interpreters) and those who work with the written language (translators). There are certain tasks that blur this distinction, as when source speeches are turned into target writing. But usually the two roles are seen as quite distinct, and it is unusual to find one person who is equally happy with both occupations. Some writers on translation, indeed, consider the interpreting task to be more suitable for extrovert personalities, and the translating task for introverts."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Interpreting is today widely known from its use in international political life. When senior ministers from different language backgrounds meet, the television record invariably shows a pair of interpreters hovering in the background. At major conferences, such as the United Nations General Assembly, the presence of headphones is a clear indication that a major linguistic exercise is taking place. In everyday circumstances, interpreters are frequently needed, especially in cosmopolitan societies formed by new generations of immigrants and Gastarbeiter, or guest workers. Often, the business of law courts, hospitals, local health clinics, classrooms, or industrial tribunals cannot be carried on without the presence of an interpreter. Given the importance and frequency of this task, therefore, it is remarkable that so little study has been made of what actually happens when interpreting takes place, and of how successful an exercise it is."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "There are two main kinds of oral translation—consecutive and simultaneous. In consecutive translation, the translation starts after the original speech or some part of it has been completed. Here the interpreter’s strategy and the final results depend, to a great extent, on the length of the segment to be translated. If the segment is just a sentence or two, the interpreter closely follows the original speech. As often as not, however, the interpreter is expected to translate a long speech which has lasted for scores of minutes or even longer. In this case he has to remember a great number of messages and keep them in mind until he begins his translation. To make this possible the interpreter has to take notes on the original messages; various systems of notation have been suggested for the purpose. The study of, and practice in, such notation is an integral part of the interpreter’s training, as are special exercises to develop his memory."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Doubtless the recency of developments in the field partly explains this neglect. One procedure, consecutive interpreting, is very old—and presumably dates from the Tower of Babel! Here, the interpreter translates after the speaker has finished speaking. This approach is widely practised in informal situations, as well as in committees and small conferences. In larger and more formal settings, however, it has been generally replaced by simultaneous interpreting—a recent development that arose from the availability of modern audio equipment and the advent of increased international interaction following the Second World War."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Of the two procedures, it is the second that has attracted most interest because of the complexity of the task and the remarkable skills required. In no other context of human communication is anyone routinely required to listen and speak at the same time, preserving an exact semantic correspondence between the two modes. Moreover, there is invariably a delay of a few words between the stimulus and the response, because of the time it takes to assimilate what is being said in the source language and to translate it into an acceptable form in the target language. This ‘ear-voice span’ is usually about 2–3 seconds, but it may be as long as 10 seconds if the text is complex. The brain has to remember what has just been said, attend to what is currently being said, and anticipate the construction of what is about to be said. As you start a sentence, you are taking a leap in the dark; you are mortgaging your grammatical future; the original sentence may suddenly be turned in such a way that your translation of its end cannot easily be reconciled with your translation of its start. Great nimbleness is called for."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "How it is all done is not at all clear. That it is done at all is a source of some wonder, given the often lengthy periods of interpreting required, the confined environment of an interpreting booth, the presence of background noise, and the awareness that major decisions may depend upon the accuracy of the work. Other considerations, such as cultural background, also require interpreters to pay close attention to the backgrounds of authors and recipients and to take account of differences between source and target languages."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Research projects have now begun to look at these factors—to determine, for example, how far successful interpreting is affected by poor listening conditions or the speed at which the source language is spoken. It seems that an input speed of 100–120 words per minute is a comfortable rate for interpreting, with an upper limit of around 200 w.p.m. But even small increases in speed can dramatically affect the accuracy of output. In one controlled study, when speeds were gradually increased in a series of stages from 95 to 164 w.p.m., the ear-voice span also increased with each stage, and the amount correctly interpreted showed a clear decline. Also, as the interpreting load increases, there are not only more errors of commission (mistranslations and cases of vagueness replacing precision), but also more errors of omission as words and segments of meaning are filtered out. These are important findings, given the need for accuracy in international communication. What is needed is a more detailed identification of the problem areas, and of the strategies speakers, listeners, and interpreters use to solve them. There is an urgent need to expand what has so far been one of the most neglected fields of communication research."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–5",
+    "g6": "Questions 6–9",
+    "g10": "Questions 10–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 5,
+      "text": "Questions 1–5\nChoose the correct letter, A, B, C or D.\n\n\n1 How does the author define translation at the beginning of the passage?\n  A In abstract and concrete terms\n  B In both general and specialised senses\n  C By giving several examples of different meanings\n  D As having different meanings in different professions\n\n\n2 The use of headphones at a United Nations conference indicates that\n  A a television programme is being recorded\n  B a radio programme is on the air\n  C two sides are debating\n  D a major linguistic exercise is taking place\n\n\n3 Why does the author refer to the Tower of Babel?\n  A The secret of interpreting is stored in the Tower.\n  B Interpreters first appeared at the time of the Tower of Babel.\n  C Consecutive interpreting has a long history.\n  D Consecutive interpreting should be abandoned.\n\n\n4 Which statement about simultaneous interpreting is correct?\n  A It is an old and obsolete method.\n  B It does not require exceptional professional ability.\n  C It relies on specialised equipment.\n  D Its ear–voice span is always less than two seconds.\n\n\n5 When a long section must be interpreted consecutively, what will an interpreter most probably do?\n  A Remember only selected parts in advance\n  B Break the section into smaller parts first\n  C Respond as quickly as possible\n  D Remember the entire section before beginning the translation"
+    },
+    {
+      "id": "g6",
+      "start": 6,
+      "end": 9,
+      "text": "Questions 6–9\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in boxes 6–9 on your answer sheet.\nThe ear–voice span normally lasts about 6 ____________, depending on the complexity of the text;\nit may sometimes reach 7 ____________. When researchers examined the relevant factors, they\nfound that a comfortable input rate was 8 ____________ w.p.m. In a controlled experiment,\naccuracy declined as the ear–voice span increased when the speed rose from 95 to 164 w.p.m. The\nupper limit, however, was around 9 ____________ w.p.m."
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 13,
+      "text": "Questions 10–13\nChoose FOUR letters, A–G.\nWrite the correct letters in boxes 10–13 on your answer sheet.\nWhich FOUR of the following factors affect interpreting?\n  A The structure and grammar of source-language sentences\n  B The speed of incoming speech\n  C Background noise\n  D The interpreter’s emotional state\n  E Differences in cultural background\n  F Awareness of the need for precision\n  G The maximum volume of the speakers"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "How does the author define translation at the beginning of the passage?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "The use of headphones at a United Nations conference indicates that",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Why does the author refer to the Tower of Babel?",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Which statement about simultaneous interpreting is correct?",
+      "translation": "在較大型、較正式的場合，它通常已被 simultaneous interpreting 取代；simultaneous interpreting 是較新的發展，源於現代音響設備的出現。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "When a long section must be interpreted consecutively, what will an interpreter most probably do?",
+      "translation": "可是，口譯員往往要翻譯一段長達數十分鐘甚至更久的演說。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "這種「耳—聲間距」通常約為 2 至 3 秒。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "如果文本複雜，它可能長達 10 秒。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "看來，每分鐘 100 至 120 詞的輸入速度是口譯的舒適速度。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g6",
+      "type": "text",
+      "prompt": "Question 9 · 請參照上方原題",
+      "translation": "上限約為每分鐘 200 詞。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "研究項目已開始研究這些因素，例如成功口譯在多大程度上受差劣聆聽條件或源語言語速影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "研究項目已開始研究這些因素，例如成功口譯在多大程度上受差劣聆聽條件或源語言語速影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "研究項目已開始研究這些因素，例如成功口譯在多大程度上受差劣聆聽條件或源語言語速影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g10",
+      "type": "choice",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "研究項目已開始研究這些因素，例如成功口譯在多大程度上受差劣聆聽條件或源語言語速影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-155/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-155/page-6.jpg"
+  ]
+}

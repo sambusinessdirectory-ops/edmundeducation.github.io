@@ -1,0 +1,259 @@
+{
+  "id": "p1-074",
+  "catalogueId": "p1-074",
+  "title": "Sleeping on the job",
+  "sourceHeading": "Sleeping on the Job",
+  "passage": 1,
+  "practice": 74,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-074-sleeping-on-the-job",
+  "source": {
+    "filename": "Practice 74  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "419291a33d6298e1203dbac7e30b5b33a30049c9f43e243907a212e421c7a983"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "North Americans are not known for taking siestas. There is a tendency to associate afternoon naps with laziness and unproductiveness. Latin Americans and people in some European cultures take a different view. In Mexico and Greece, for example, it is customary to close businesses between noon and about 4:00 pm – siesta time. Recent studies show that if you can take a nap lasting 15 to 30 minutes while at work in the afternoon, you’ll be more alert, more energetic, happier at work, more productive and therefore more likely to get ahead. Napping on the job is not yet a trend, but there is serious talk in academic circles about the merits of ‘power napping’."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "By some estimates, the average American collects an annual ‘sleep debt’ of 500 hours, calculated against an assumed norm of eight hours a night. Two out of three Americans get less than eight hours of sleep a night during the workweek, according to a recent study by the National Sleep Foundation in Washington. Forty per cent say they’re so tired that it interferes with their daily activities. Sleep researcher William Anthony, a professor of psychology at Boston University, says fatigue is a significant problem in modern society. He says sleepiness is a leading cause of auto accidents, second only to drunkenness. All that drowsiness costs an estimated $18 billion annually in lost productivity. ‘We have a simple message,’ says Professor Anthony. ‘People should be allowed to nap during their breaks. The rationale is a productivity one – workers are sleepy, and when they’re sleepy on the job they’re not productive.’"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Some companies are encouraging sleep at work, primarily for safety. The Metropolitan Transit Authority, which runs the New York subway system and two suburban railroads, is considering power naps for its train operators and bus drivers. Another railway has started letting its train operators take nap breaks of up to 45 minutes but only when trains are stopped at designated spots off the main lines and dispatchers have been notified. Some overseas air carriers permit airline pilots, when not on duty, to nap in the cockpit. Airlines in the United States have not yet accepted this practice."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "According to the Encyclopedia of Sleep and Dreaming: ‘There is a biologically based tendency to fall asleep in mid-afternoon just as there is a tendency to fall asleep at night. Moreover, if sleep the night before is reduced or disturbed for any reason, a nap the subsequent afternoon is not only more likely to occur, but it can also relieve sleepiness and increase alertness.’ The nap zone, documented in numerous studies, is typically between noon and 3:00 pm. Some people power through this natural slowdown with caffeine or sugar, but if employers allowed naps, the benefits would include improvements in mood and performance, especially in mid-afternoon. Workers would concentrate better and persevere in tasks longer. Workers commonly sneak naps even without permission, but some companies have begun encouraging naps as part of their policies aimed at boosting production. One US distributor is opening a 2,000-square-foot nap facility that provides beds for up to 20 of its 225 workers at a time. A company in Japan sets up tents in business offices, provides eyeshades and earplugs, and encourages employees to snooze in the middle of the workday. According to Professor Anthony, ‘You’re not going to see napping at traditional types of operations … but in 21st-century-style operations, this isn’t going to be a perk. It’s going to have more to do with productivity. Smart employers increasingly understand that their employees need rest to do their best.’"
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Some suspect that corporate naptime, like other perks, is just a way to keep people at the office longer. On the other hand, growing flexibility in working hours is making naps more common for some workers. With eleven million Americans telecommuting and another forty million working out of their homes full- or part-time, office hours are basically as long as you can stay awake. One thing is sure: longer commutes, more intense and stressful workdays, and higher production demands are taking a toll. So, with Americans sleeping less and working longer hours, some employers are warming up to the idea that a little nap in the middle of the day can be good for business."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–1",
+    "g2": "Questions 2–6",
+    "g7": "Questions 7–9",
+    "g10": "Questions 10–11",
+    "g12": "Questions 12–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 1,
+      "text": "Question 1\nCircle the correct answer A–D.\n1 According to the passage, which of the following statements is supported by recent research?\n  A Napping is an indicator of laziness.\n  B Two-thirds of Americans sleep too much.\n  C Napping in the workplace is a current trend.\n  D Short naps at work increase productivity."
+    },
+    {
+      "id": "g2",
+      "start": 2,
+      "end": 6,
+      "text": "Questions 2–6\nDo the following statements reflect the claims of the writer in Passage 1?\nWrite:\n YES                         if the statement agrees with the views of the writer\n\n NO                          if the statement contradicts the views of the writer\n\n NOT GIVEN                   if it is impossible to say what the writer thinks about this\n2 _________________ The number one cause of car accidents is fatigue.\n3 _________________ People who nap in the afternoon are lazy.\n4 _________________ A nap in the middle of the day can improve your mood.\n5 _________________ People who nap regularly live longer.\n6 _________________ The majority of Americans sleep at least eight hours a night."
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 9,
+      "text": "Questions 7–9\nChoose one phrase from the list in the box (A–F) to complete each of the following sentences.\n7 _________________ Humans are biologically programmed to …\n8 _________________ Employees of some progressive companies are encouraged to …\n9 _________________ Traditional employers are likely to …\n\n A                           drink coffee to stay awake during the afternoon\n\n B                           have a nap during breaks\n\n C                           fall asleep when they are bored\n\n D                           sneak naps without permission\n\n E                           resist the trend toward napping\n\n F                           fall asleep in the afternoon"
+    },
+    {
+      "id": "g10",
+      "start": 10,
+      "end": 11,
+      "text": "Questions 10–11\nComplete the following sentences using NO MORE THAN THREE WORDS from the passage.\nIn the transportation industry, napping is a matter of 10 _________________\nOn some airlines, pilots can sleep in the cockpit if 11 _________________"
+    },
+    {
+      "id": "g12",
+      "start": 12,
+      "end": 13,
+      "text": "Questions 12–13\nCircle the correct answer A–D.\n\n\n12 According to the writer, in America the workplace is becoming …\n  A less flexible.\n  B more exciting.\n  C less demanding.\n  D more stressful.\n\n\n13 According to the writer, what is the main reason why employers support the idea of naps at work?\n  A for health reasons\n  B to promote safety\n  C to increase productivity\n  D to encourage creativity"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "According to the passage, which of the following statements is supported by recent research?",
+      "translation": "根據文章，以下哪一項說法受到近期研究支持？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g2",
+      "type": "choice",
+      "prompt": "_________________ The number one cause of car accidents is fatigue.",
+      "translation": "汽車意外的首要原因是疲勞。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g2",
+      "type": "choice",
+      "prompt": "_________________ People who nap in the afternoon are lazy.",
+      "translation": "下午小睡的人很懶。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g2",
+      "type": "choice",
+      "prompt": "_________________ A nap in the middle of the day can improve your mood.",
+      "translation": "日間小睡可以改善心情。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g2",
+      "type": "choice",
+      "prompt": "_________________ People who nap regularly live longer.",
+      "translation": "經常午睡的人壽命更長。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g2",
+      "type": "choice",
+      "prompt": "_________________ The majority of Americans sleep at least eight hours a night.",
+      "translation": "大多數美國人每晚至少睡八小時。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Humans are biologically programmed to …",
+      "translation": "人類在生理上有下午入睡的傾向。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Employees of some progressive companies are encouraged to …",
+      "translation": "一些較前衛公司的員工受到鼓勵，可以在休息時間小睡。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "choice",
+      "prompt": "_________________ Traditional employers are likely to …",
+      "translation": "傳統僱主很可能抗拒工作午睡的趨勢。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "在交通運輸業，小睡是一個 ______ 問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g10",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "在一些航空公司，飛行員如果 ______，便可以在駕駛艙睡覺。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "According to the writer, in America the workplace is becoming …",
+      "translation": "根據作者，在美國，工作場所正在變得……",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g12",
+      "type": "choice",
+      "prompt": "According to the writer, what is the main reason why employers support the idea of naps at work?",
+      "translation": "根據作者，僱主支持工作小睡的主要原因是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-074/page-4.jpg",
+    "/assets/reading-comprehension/questions/p1-074/page-5.jpg"
+  ]
+}

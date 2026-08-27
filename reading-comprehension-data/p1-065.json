@@ -1,0 +1,232 @@
+{
+  "id": "p1-065",
+  "catalogueId": "p1-065",
+  "title": "Secret of Thailand’s Success?",
+  "sourceHeading": "Secret of Thailand’s Success?",
+  "passage": 1,
+  "practice": 65,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-065-secret-of-thailands-success",
+  "source": {
+    "filename": "Practice 65  IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "163916a15f719cd40cfb9fd175590dc3dd13565df19bcf928680175c6d550caf"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Officials across Asia are increasingly being asked a question: Why are your economies so vibrant? Answers include young and swelling populations, decreased debt, growing cities, emerging middle-class consumer sectors, evolving markets and, of course, China’s rise. Add this to the list: women and their increasing role in Asia’s economies. The idea is that the more opportunities women have, the more vibrant economies are and, consequently, the less need there is to amass a huge public debt to boost growth. It is an idea bolstered by a new survey by MasterCard International Inc., which compares the socioeconomic status of women and men in Asia-Pacific nations. The gauge uses four key indicators: participation in the labour force, college education, managerial positions, and above-median income."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Which Asian nation is doing best when it comes to women’s advancement? Thailand. It scored 92.3 out of a possible 100, and according to MasterCard’s index, 100 represents gender equality. The survey was based on interviews with 300 to 350 women in thirteen nations and national statistics. Malaysia came in second with a score of 86.2, while China came in third with 68.4. The average score in Asia was 67.7. At the bottom of the list is South Korea (45.5), followed by Indonesia (52.5), and Japan (54.5). Perhaps it is a bizarre coincidence, yet MasterCard’s findings fit quite neatly with two important issues in Asia: economic leadership and debt. Thailand, Malaysia, and China are three economies widely seen as the future of Asia. Thailand’s economic boom in recent years has prompted many leaders in the region to look at its growth strategy. Malaysia, which has a female central bank governor, is one of Asia’s rising economic powers. China, of course, is the world’s hottest economy, and one that is shaking up trade patterns and business decisions everywhere."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Something all three economies have in common is an above-average level of female participation. The three lowest-ranked economies share severe long-term economic challenges: high levels of debt and a neglected female workforce. Research in economic history provides very clear evidence of women’s role in economic growth and development, says Yuwa Hedrick-Wong, an economic adviser to MasterCard. The more extensively women participate in all areas of economic activity, the greater the likelihood of stronger economic growth. That, Hedrick-Wong says, means societies and economies that consistently fail to make full use of women’s abilities and talents in business and the workplace will suffer the consequences. Take Korea, whose economy has been stagnating in recent years. Immediately following the 1997–1998 Asian financial crisis, Korea became a regional role model as growth boomed and unemployment fell. Yet a massive increase in household debt left consumers overexposed and growth slowed."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Maybe it is just a coincidence that Korea also ranks low on measures of gender equality published by the United Nations. As of 2003, for example, it ranked below Honduras, Paraguay, Mauritius, and Ukraine in terms of women’s economic and political empowerment. Utilising more of its female workforce would deepen Korea’s labour pool and increase potential growth rates in the economy. The same goes for Japan. The reluctance of Asia’s biggest economy to increase female participation and let more women into the executive suite exacerbates its biggest long-term challenge: a declining birth rate. In 2003, the number of children per Japanese woman fell to a record low of 1.29 compared with about 2 in the early 1970s. Preliminary government statistics suggest the rate declined further in 2004. The trend is nothing short of a crisis for a highly indebted nation of 126 million that has yet to figure out how to fund the national pension system down the road. Yet Japan has been slow to realise that for many women, the decision to delay childbirth is a form of rebellion against societal expectations to have children and become housewives."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "It may be 2005, yet having children is a career-ending decision for millions of bright, ambitious and well-educated Japanese women. Until this is corrected, Japan’s birth rate will drop and economic growth will lag. UN Secretary-General Kofi Annan was absolutely right earlier this month when he said no other policy is as likely to raise economic productivity as the empowerment of women. Here in Thailand, the government is getting some decent marks in this regard, and the economy’s 6 per cent-plus growth rate may be a direct result. Thailand still has a long way to go. Yet the Bank of Thailand’s deputy governor, Tarisa Watanagase, is a woman, as are seven of nine assistant governors. Then there’s Jada Wattanasiritham, who runs Siam Commercial Bank Plc, Thailand’s fourth-biggest lender. How many female chief executives can you name in Japan or Korea? Viewed broadly across Asia, MasterCard’s survey is on to something: it suggests that giving women more opportunities to contribute to an economy is not just about fairness, but dollars and sense, too."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has five paragraphs (A–E).\nWhich paragraph contains each of the following pieces of information?\n1 _________________ The fact that a woman runs one of Thailand’s biggest banks\n2 _________________ The number of countries included in the survey\n3 _________________ The fact that Japan’s birth rate is falling quickly\n4 _________________ The criteria used to get a score for each country"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN THREE WORDS from the text for each gap.\nHigher consumption in the 5 _________________ sector of the market is one reason that Asia’s\neconomies are doing well.\nThe scores were decided through a combination of interviews and 6 _________________.\nHigher 7 _________________ has created an economic problem for Korea.\nJapanese politicians have not yet decided how to get money for the 8 _________________."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n9 _________________ Other countries are looking at the example of Thailand to see if its policies can\nhelp their economies.\n10 _________________ Higher female participation in an economy always leads to greater economic\ngrowth.\n11 _________________ Female participation in the economy is lower in Japan than in most other\ndeveloped economies.\n12 _________________ Most of the Bank of Thailand’s assistant governors are female.\n13 _________________ The writer considers ‘fairness’ to be a bad reason for giving women top jobs."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The fact that a woman runs one of Thailand’s biggest banks",
+      "translation": "一名女性管理泰國其中一間大型銀行這個事實。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The number of countries included in the survey",
+      "translation": "調查包含多少個國家。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The fact that Japan’s birth rate is falling quickly",
+      "translation": "日本出生率正在快速下降這個事實。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_________________ The criteria used to get a score for each country",
+      "translation": "計算每個國家分數所使用的標準。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "市場中 ______ 階層的消費上升，是亞洲經濟表現良好的其中一個原因。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "這些分數由訪問和 ______ 的組合決定。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "較高的 ______ 為 Korea 造成經濟問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "日本政界尚未決定如何為 ______ 籌措資金。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Other countries are looking at the example of Thailand to see if its policies can help their economies.",
+      "translation": "其他國家正在參考 Thailand 的例子，看看它的政策或發展策略能否幫助自身經濟。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Higher female participation in an economy always leads to greater economic growth.",
+      "translation": "經濟中女性參與率較高，總是會帶來更大經濟增長。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Female participation in the economy is lower in Japan than in most other developed economies.",
+      "translation": "日本女性參與經濟的程度低於大多數其他已發展經濟體。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Most of the Bank of Thailand’s assistant governors are female.",
+      "translation": "Bank of Thailand 的大多數助理總裁是女性。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ The writer considers ‘fairness’ to be a bad reason for giving women top jobs.",
+      "translation": "作者認為「公平」是給女性高層職位的一個壞理由。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-065/page-4.jpg"
+  ]
+}

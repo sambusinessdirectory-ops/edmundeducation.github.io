@@ -1,0 +1,273 @@
+{
+  "id": "p3-008",
+  "catalogueId": "p3-008",
+  "title": "TEAM BUILDING",
+  "sourceHeading": "TEAM BUILDING",
+  "passage": 3,
+  "practice": 8,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-008-team-building",
+  "source": {
+    "filename": "Practice 8 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "a822aeea485923c8a194e52edd173aeb039f692522bd79931109111f67fd48f5"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Particularly in times of economic downturn, efficiency is of supreme importance across all industry bases; whilst companies may be looking to cut their costs, many still invest in staff motivation, training and development programmes, having developed an understanding of just how crucial strong internal relationships can be for success."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Louise Edwards of HR Success says that one of the barriers she comes across time and time again is that corporate heads often seem to understand that ‘team building’ is important but are not quite sure what it is or how to achieve it. In the terms of a sports club, she says, the team (i.e. what it is and how it is defined) is obvious and easy to identify. In contrast, she says, within a company – particularly a multi-layered, larger organisation, definitions may become more confused. Many define a business ‘team’ as the group of people who report to the same boss – a department, for example. However, according to Edwards, it is more productive to define a team as a group of people working towards a common goal. In training terms, therefore, this group could be members of a department with the same roles and responsibilities, such as a sales team with the common goal of selling or even the organisation as a whole, whose ‘goal’ in this case is the continued success of the organisation, their many different skills and roles all contributing to this in a number of ways."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Brenda Durham of Corporate Trouble-Shooters believes it inevitable that to some extent conflict will exist in a successful workplace since the necessary diversity of skills and personalities required for success will also unavoidably lead to misunderstandings and disharmony from time to time. A cohesive unit that minimises friction, she believes, can however be developed in any organisation committed to investment in its people. Whilst the taking on of external expertise for staff training and team building programmes can be costly, a number of companies, particularly those with a robust human resources department, are undertaking the training themselves. Liaison Wizards, established in 2001 and headed by Jeff Blackshaw, offers free training and development advice to companies wishing to offer motivation seminars designed in house, in the belief that contextualised training is always more effective. The company’s own business model is based upon generating revenue from advertising on their popular website – a great success, so far, having surpassed financial projections for each year it has been in operation to date."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Blackshaw likens the key to successful corporate team building to the tactics employed in a less formal sporting environment. He says that bonds, connections and empathy developed between members of a rugby team, for example, can also be developed within a department in the business world or even at company level. He says that good team work is fostered by respect, encouragement, shared enthusiasm and a caring and supportive workplace. Trying to exploit or dictate to personnel is sure to lead to failure, Blackshaw says."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Brian Osbourne, Human Resources Director of Opmax Inc, believes that programmes developed in house are inherently more likely to be of greater success than external offerings for two main reasons. Most importantly, he says, people are much easier to motivate if they themselves can be involved in designing and deciding activities – this level of consultation at the planning stage being much easier to achieve for an internal department than an external consultant. Of only slightly less importance, says Osbourne, training activities must be perceived by participants as providing outcomes geared towards developing the individuals’ potential, Once again, programmes developed by people with an insight into the personalities and culture at hand can be more easily tailored to suit the distinctive needs of that particular audience."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "According to Osbourne, one of the biggest barriers to successful staff training is the perception that activities are too game-focussed, with no real objectives; many professionals, believing that such games are trite or patronising, are unable to appreciate the hidden benefits of building understanding and camaraderie within the group. If presented correctly, within the correct context and in conjunction with other, more staid approaches, Louise Edwards holds that games can be an enormous asset in staff training. In simple terms, Edwards defines the objectives of team building activities as a process, starting with the first stage – the clarification of the collective goals. This leads to the identification of the inhibitors preventing achievement of those goals and the introduction of enablers which will assist in goal achievement. This is followed by stage four – the final stage, where outcomes are measured and from that point on are monitored to ensure that goals are achieved and continue to be achieved. In stages 2 and 3 (identifying barriers and introducing positive alternatives) Edwards believes that the use of humour goes a long way towards relationship building on a personal level through development of empathy and removal of antipathy, ultimately fostering cooperation and support on a more formal level."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Alan Kidman, HR Manager of Tellam Industries agrees that the use of humour and games within a training context can go a long way towards helping an organisation achieve its goals. He has recently designed a two month long in house team building programme for senior management and will soon be delivering the first of a series of 8 workshops and activities. The goal of the project, he says, was to strengthen communication and support within the extremely diverse departments of the organisation. Heads of six departments, collectively responsible for over 200 staff members, are to be involved in the series of seminars. The programme, Kidman says, is experimental and if it proves to be a success is also intended for use in the organisation’s branches overseas. Previously the organisation has taken a more formalised approach to staff development training relying on methods such as psychometric testing discussions, motivational conferences and formal appraisals. The new, and as yet untried, approach will challenge participants in, by comparison, rather radical ways. One initiative, for example, requiring the writing, organisation and delivery of a theatrical performance to which all staff members will be invited to view."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Team building and motivational approaches include a wide variety of methodologies, techniques, theories and tools. Experts generally agree that different options may succeed or fail depending upon the culture of the organisation in which they are implemented. A fit with the personalities involved in crucial to success. Not only is delivery of appropriate training sessions themselves important but professional and measurable follow up is also a must."
+    }
+  ],
+  "instructions": {
+    "g26": "Questions 26–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g26",
+      "start": 26,
+      "end": 30,
+      "text": "Questions 26-30\n\nDo the following statements agree with the information given in the reading passage?\n\nIn boxes 26 -30 on your answer sheet write\n\n    TRUE            if the statement agrees with the information\n\n\n    FALSE           if the statement contradicts the information\n\n\n    NOT GIVEN       If there is no information on this\n\n\n\n26 ________________\nTypical stresses of working with different people are removed with the correct training.\n\n\n27 ________________\nLiaison Wizards claims that training has increased their income every year since the\ncompany started..\n\n\n28 ________________\nMany companies are unsuccessful because they are dogmatic and take advantage of staff.\n\n\n29 ________________\nIn house training is more successful primarily because employees feel more involved in\nthe planning..\n\n30 ________________ The value of games as a training tool can be misunderstood."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31-35\n\nLook at the following list of statements based on Reading Passage 3.\n\nMatch the statement with the correct person A-E. You can use each letter more than once.\n\n    A     Louise Edwards\n\n\n    B     Brenda Durham\n\n\n    C     Jeff Blackshaw\n\n\n    D     Brian Osborne\n\n\n    E     Alan Kidman\n\n\n31 ____________ Many companies will experience friction between staff.\n\n\n32 ____________ Training specifically tailored to a company is more efficient than\ngeneric training.\n\n\n33 ____________ Modern methods of training, although still only being piloted, can\nbring people from different perspectives together.\n\n\n34 ____________ Successful team relationships are formed in a positive work\nenvironment.\n\n\n35 ____________ A lack of clarity as to what the term ‘team building’ means."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36-40\n\n\nComplete the summary USING NO MORE THAN TWO WORDS from Reading\nPassage 3 for each answer.\n\n    Team building can be considered to have 36 ________________ clear stages.\n    Initially, it is essential to be clear as to the 37 ________________ of the entire team\n    or company.\n\n\n    Those barriers which are preventing the team from achieving these aims are\n    identified as 38 ________________ , and are addressed by introducing enablers.\n    Here the use of 39 ________________ can be used to help build a cooperative\n    relationship. Finally, success can be quantified and continually 40\n    ________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 26,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "________________ Typical stresses of working with different people are removed with the correct training.",
+      "translation": "只要有合適培訓，與不同人共事時產生的典型壓力就會被消除。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "________________ Liaison Wizards claims that training has increased their income every year since the company started..",
+      "translation": "Liaison Wizards 聲稱，自公司成立以來，培訓每年都增加了公司的收入。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "________________ Many companies are unsuccessful because they are dogmatic and take advantage of staff.",
+      "translation": "很多公司失敗，是因為它們武斷並利用員工。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "________________ In house training is more successful primarily because employees feel more involved in the planning..",
+      "translation": "內部培訓較成功，主要原因是員工覺得自己更能參與規劃。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g26",
+      "type": "choice",
+      "prompt": "________________ The value of games as a training tool can be misunderstood.",
+      "translation": "遊戲作為培訓工具的價值可能會被誤解。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "____________ Many companies will experience friction between staff.",
+      "translation": "很多公司都會經歷員工之間的摩擦。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "____________ Training specifically tailored to a company is more efficient than generic training.",
+      "translation": "專門按公司情況設計的培訓，比一般化培訓更有效。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "____________ Modern methods of training, although still only being piloted, can bring people from different perspectives together.",
+      "translation": "現代培訓方法雖仍在試行階段，但可以把不同角度的人凝聚起來。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "____________ Successful team relationships are formed in a positive work environment.",
+      "translation": "成功的團隊關係是在正面的工作環境中形成的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "choice",
+      "prompt": "____________ A lack of clarity as to what the term ‘team building’ means.",
+      "translation": "對 team building 這個詞的意思缺乏清晰理解。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "接着是第四階段，即最後階段。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "釐清共同目標。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 38 · 請參照上方原題",
+      "translation": "識別那些阻礙達成目標的因素。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 39 · 請參照上方原題",
+      "translation": "Edwards 認為，幽默的使用對建立關係很有幫助。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "Question 40 · 請參照上方原題",
+      "translation": "成果會被衡量，並從那時起受到監察。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-008/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-008/page-7.jpg",
+    "/assets/reading-comprehension/questions/p3-008/page-8.jpg"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "p2-088",
+  "catalogueId": "p2-088",
+  "title": "A Meat-Eater’s Counter",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 88,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-088-a-meat-eaters-counter",
+  "source": {
+    "filename": "Practice 88 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "6099ab6912bf8e440f86a20803572f3c3c6f29910b562848b6edb415ea55f57b"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "A Meat-Eater’s Counter A You might be forgiven sometimes for thinking that vegetarians are somehow superior human beings. In today’s climate of New Age spiritualism, animal rights, and Mother Earth naturalism, confirmed meat-eaters must necessarily be categorised as selfish, environmentally irresponsible, spiritually deprived gluttons, whose dietary desire is akin to cannibalism. Each lamb chop, carving of roast beef, or chicken drumstick signifies a brutal execution of a sentient animal, to whose suffering we remain callously indifferent. Here, I would like to offer some arguments to counter the more extreme claims of the bean-sprout crowd."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "B Vegetarians’ first justification is that eating meat is cruel to animals. But when pondering cruelty, it may pay to reflect on how animals fare in the wild. I was recently watching a documentary concerning herbivores on the African plains — where the parasite- and insect-tormented herds lead lives of hair-raising and nerve-jittering bolts and dashes as they are constantly stalked by a range of predators. Now, compare this to the animals munching grass in our domestic pastures. Our four-legged friends, watered, well-fed, and attended to when sick, have an essentially stress-free and easy existence."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "C But vegetarians claim that our slaughterhouses deal out brutal deaths. Brutal? Let us reflect again on that documentary. At one point, it showed an injured zebra, an animal which was quickly spotted by a pack of hyenas. The rest was a display of such cruelty and barbarity that it would make vegetarians think twice before intoning the mantra that ‘nature is good’. Yet being viciously torn to pieces by snapping jaws is more or less the inevitable end of most animals in the wild. It is simply a fact that they do not expire peacefully — they face, instead, brutalising and painful exits. If they do not become another animal’s dinner, they starve to death, or are victims of floods, droughts, and other merciless acts of nature. Compared to this, the relatively quick and clean death that we humans deliver to our cud-chewing cousins must be considered a privileged way to go."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "D So, eating meat is not ‘cruel’ — at least, not compared to the natural world, and in fact can even allow the animals in question a certain quality of life that they would almost certainly never enjoy in the wild. But the vegetarians counter that we, the human species, have a higher awareness, and should avail ourselves of other forms of food, rather than causing the deaths of living creatures. Yet it is worth realising that for tens of thousands of years our species did not have this luxury of choice. Killing animals was essential to staying alive. It is only very recently (in terms of human history) that society has reached a stage of affluence whereby a sufficient quantity of non-animal nutrition can be obtained, and then only by a small, privileged percentage of the world’s population. Thus, the argument from moral high ground is, at best, an arbitrary one."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "E But then the vegetarians come out with their next core claim to superiority — that their diet is healthier. Eating meat is going to have such nasty consequences for the heart, lungs, kidneys, and immune system that we will end up in an early grave. One can agree that this may be true for people who eat too much meat, but is it true for those who eat meat in moderation as part of an otherwise balanced diet? So many dubious facts and figures are produced to ‘prove’ the vegetarians’ viewpoint that I would recommend a quick read of a well-known book entitled ‘How to Lie with Statistics’. This emphasises two foundations for statistical validity: gaining truly representative samples, and eliminating outside variables, both of which the green-eaters ignore."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "F It is the second point I would like to look at. The lean and fit, health-conscious vegetarian doing his daily yoga and nightly guitar-strumming will certainly live much longer, on average, than the meat-eating, chain-smoking, beer-swilling, doughnut-chomping couch potato of this world, but this may not be because of, or in any way related to, the former’s abstinence from meat. It is not hard to deduce that those cigarettes, beer, doughnuts and a sedentary lifestyle are almost certainly responsible for the meat-eater’s diminished life expectancy. For a true comparison, one must compare lean and fit, health-conscious vegetarians with lean and fit, health-conscious non-vegetarians, the latter group including moderate amounts of meat in their diets."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "G And this is the point. It is almost impossible in this complex, mixed, and multifaceted modern society to find enough people who can constitute a truly representative sample, while eliminating the many outside variables. Anyone asserting that statistics ‘prove’ vegetarians live longer must note that, compared with the average “sofa sprouts”, these vegetarians have already made a very rigorous, disciplined and health-enhancing lifestyle change, which is probably accompanied by many other similar choices, all of which are almost certainly the real cause of any statistical trends. Factor these into the equation, and so far there is no convincing statistical evidence that vegetarianism is better for health."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage Two has seven paragraphs, A–G.\nChoose the correct heading for Paragraphs B–G from the list of headings.\nWrite the correct number, i–x, for each answer.\n                        List of Headings\n\n i                      Animals attack\n\n ii                     Needless killing countered\n\n iii                    Better people?\n\n iv                     A need for statistics\n\n v                      The real cause of longer lives\n\n vi                     Untrustworthy numbers\n\n vii                    Cruel killing countered\n\n viii                   Comparing lives\n\n ix                     Quick efficient killing\n\n x                      The real cause of early deaths\n\n Example                Answer\n\n Paragraph A            ….iii….\n\n 14 __________          Paragraph B\n\n 15 __________          Paragraph C\n\n 16 __________          Paragraph D\n\n 17 __________          Paragraph E\n\n 18 __________          Paragraph F\n\n 19 __________          Paragraph G"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 23,
+      "text": "Questions 20–23\nComplete the table.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n                     Domestic Animals             Wild Animals\n\n                                                  threatened by numerous 21\n Life is             20 _________________\n                                                  _________________\n\n Death is            22 _________________         brutalising and painful.\n\n                     have some 23\n They                                             are unlikely to have this easy existence.\n                     _________________"
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the table.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nFind two interesting terms used in the text to refer to\n\n                              One Term                       Another Term\n\n vegetarians.                 bean-sprout crowd              24 _________________\n\n sheep and cattle.            25 _________________           cud-chewing cousins\n\n lazy people.                 couch potatoes                 26 _________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph B",
+      "translation": "找出 B 段整段主旨。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph C",
+      "translation": "判斷 C 段主要反駁哪一個說法。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph D",
+      "translation": "判斷 D 段主要處理哪個 vegetarian argument。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph E",
+      "translation": "找出 E 段如何處理素食健康論。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph F",
+      "translation": "判斷 F 段如何解釋 meat-eater 較短壽的可能原因。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Paragraph G",
+      "translation": "判斷 G 段如何解釋素食者可能較長壽的原因。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "家畜的生活是怎樣的？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "野生動物的生活受到許多甚麼威脅？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "家畜的死亡被作者形容為怎樣？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "text",
+      "prompt": "Question 23 · 請參照上方原題",
+      "translation": "作者認為家畜擁有某種甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "找出文中用來指素食者的另一個有趣稱呼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "找出文中用來指羊和牛等家畜的另一個有趣稱呼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "找出文中用來指懶散人士的另一個有趣稱呼。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-088/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-088/page-5.jpg"
+  ]
+}

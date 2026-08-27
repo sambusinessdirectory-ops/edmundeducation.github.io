@@ -1,0 +1,279 @@
+{
+  "id": "p2-172",
+  "catalogueId": "p2-172",
+  "title": "Chinstrap Penguin Population In The Last 50 Years",
+  "sourceHeading": "Chinstrap Penguin Population in the Last 50 Years",
+  "passage": 2,
+  "practice": 172,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-172-chinstrap-penguin-population-in-the-last-50-years",
+  "source": {
+    "filename": "Practice 172 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "beba72aadf56a002102e8d5028fa896e5c7b37a5260ebefc4a4bfd611936674a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The chinstrap penguin has a cap of black plumage, a white face, and a continuous band of black feathers extending from one side of the head to the other, the ‘chinstrap’. The northern part of the Antarctic Peninsula, several Antarctic and subantarctic islands, and the uninhabited Balleny Islands between Antarctica and New Zealand are habitats of the species."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Antarctic penguin colonies in some parts of Antarctica have declined during the past 50 years, mostly because of climate change, researchers say. Scientists discovered that populations in colonies of chinstrap penguins, also known as ringed or bearded penguins, have declined dramatically since they were last surveyed almost 50 years ago. The findings were surprising because, until now, the chinstraps have been deemed of ‘least concern’ by the International Union for Conservation of Nature (IUCN). ‘We really didn’t know what to expect, and then we found this huge decline on Elephant Island,’ Noah Strycker, an ornithologist and penguin researcher at Stony Brook University, told CNN from aboard the Greenpeace ship Esperanza in Antarctica. ‘It’s a little bit worrying as it means that something is shifting in the ecosystem and the fall in penguin numbers is reflecting that shift.’"
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Every colony on Elephant Island, a crucial penguin habitat northeast of the Antarctic Peninsula, experienced a population decline, according to the independent researchers who joined a Greenpeace expedition to the region. Elephant Island was last surveyed in 1971, and there were 122,550 pairs of penguins across all colonies. However, the recent count revealed just 52,786 pairs—a drop of almost 60%. On Elephant Island, the size of the population change varied from colony to colony, and the most significant decline was recorded at a colony known as Chinstrap Camp, where the population fell by 77%."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The latest study was published just days after an all-time Antarctic high of 18.3°C (64.94°F) was recorded on 6 February. The previous high of 17.5°C (63.5°F) was recorded in March 2015. Scientists recorded the temperature at Argentina’s Esperanza research station, according to the country’s meteorological agency."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The reduced sea ice and warmer oceans caused by climate change have reduced the amount of krill, the main component of the penguins’ diet. ‘Climate change is probably the underlying factor, and the effects are rippling through the food chain,’ Strycker said. ‘Penguins, seals, and whales all depend on krill, which depends on ice. So if climate change affects the ice, that impacts on everything else.’ Heather J. Lynch, associate professor of ecology and evolution at New York’s Stony Brook University and one of the expedition’s research leads, said: ‘Such significant declines in penguin numbers suggest that the Southern Ocean’s ecosystem has fundamentally changed in the last 50 years and that the impacts of this are rippling up the food web to species like chinstrap penguins.’ She added that ‘while several factors may have a role to play, all the evidence we have points to climate change as being responsible for the changes we are seeing.’"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "However, there was also some good news, as the researchers reported an increase in gentoo-penguin populations in neighbouring colonies, beyond Elephant Island. ‘It’s interesting, as a tale of two penguins on the Antarctic Peninsula,’ said Strycker. ‘The gentoo is a species from further north and they appear to be colonising the area and are actually increasing in numbers.’"
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The Greenpeace ship Esperanza has been documenting the threat to the oceans worldwide and transporting scientists on overseas expeditions. For the first time, Low Island in the South Shetland Islands, north of the Antarctic Peninsula, has been surveyed properly. Researchers from Stony Brook and Northeastern University in Boston use manual and drone techniques to survey a series of significant but relatively unknown chinstrap-penguin colonies there. The results are, however, not yet available. Greenpeace has been campaigning for the establishment of three Antarctic sanctuaries to protect many of the colonies surveyed. These would be off-limits to humans."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Louisa Casson, Greenpeace Oceans Campaigner, said in a statement: ‘Penguins are an iconic species, but this new research shows how the climate emergency is decimating their numbers and having far-reaching impacts on wildlife in the most remote corners of Earth. This is a critical year for our oceans. Governments must respond to the science and agree on a strong Global Ocean Treaty at the United Nations this spring that can create a network of ocean sanctuaries to protect marine life and help these creatures adapt to our rapidly changing climate.’"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nReading Passage 2 has eight paragraphs, A–H.\nWhich paragraph contains the following information?\nWrite the correct letter, A–H, in boxes 14–20 on your answer sheet.\nNB You may use any letter more than once.\n14 __________ The highest temperatures ever recorded\n15 __________ A comparison between current and past records of penguin populations\n16 __________ Places that people are prohibited from entering\n17 __________ Places where chinstrap penguins live\n18 __________ Measures intended to protect marine species\n19 __________ Factors contributing to a decline in the penguins’ food supply\n20 __________ A description of a particular species"
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 23,
+      "text": "Questions 21–23\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 21–23 on your answer sheet, write\n\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n\n\n21 __________ The IUCN showed little concern about the decline in chinstrap-penguin\nnumbers.\n22 __________ Climate change is one reason for changes in the chinstrap penguin’s food\nchain.\n23 __________ Gentoo penguins are not affected by climate change."
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the notes below.\nChoose ONE WORD from the passage for each answer.\nWrite your answers in boxes 24–26 on your answer sheet.\nThe Greenpeace Ship Esperanza\n\n The ship has been           record the 24 __________ to marine life around the\n used to:                    world;\n\n                             transport 25 __________ on overseas expeditions;\n\n                             support the creation of 26 __________ to protect\n                             surveyed colonies."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ The highest temperatures ever recorded",
+      "translation": "有史以來錄得的最高氣溫。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ A comparison between current and past records of penguin populations",
+      "translation": "現時和過去企鵝數量紀錄的比較。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Places that people are prohibited from entering",
+      "translation": "人類被禁止進入的地方。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Places where chinstrap penguins live",
+      "translation": "chinstrap penguins 的棲息地。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Measures intended to protect marine species",
+      "translation": "旨在保護海洋物種的措施。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Factors contributing to a decline in the penguins’ food supply",
+      "translation": "導致企鵝食物供應下降的因素。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ A description of a particular species",
+      "translation": "對某一物種的描述。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ The IUCN showed little concern about the decline in chinstrap-penguin numbers.",
+      "translation": "IUCN 對 chinstrap penguin 數量下降顯示出較低關注。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Climate change is one reason for changes in the chinstrap penguin’s food chain.",
+      "translation": "氣候變化是 chinstrap penguin 食物鏈變化的原因之一。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "__________ Gentoo penguins are not affected by climate change.",
+      "translation": "Gentoo penguins 不受氣候變化影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "這艘船曾被用來記錄全球 marine life 面對的 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "運送 ______ 參與海外考察。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "支持建立 ______，以保護已調查的 colonies。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-172/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-172/page-5.jpg"
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "id": "p1-024",
+  "catalogueId": "p1-024",
+  "title": "Synaesthesia",
+  "sourceHeading": "Synaesthesia",
+  "passage": 1,
+  "practice": 24,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-024-synaesthesia",
+  "source": {
+    "filename": "Practice 24 - IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "3fe44c73a9c0b5d7e046177820507fc003313d878d495356705be73b9ba5619a"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Imagine a page with a square box in the middle. The box is lined with rows of the number 5, repeated over and over. All of the 5s are identical in size, font and colour, and equally distributed across the box. There is, however, a trick: among those 5s, hiding in plain sight is a single, capital letter S. Almost the same in shape, it is impossible to spot without straining your eyes for a good few minutes. Unless that is, you are a grapheme – colour synaesthete – a person who sees each letter and number in diﬀerent colours. With all the 5s painted in one colour and the rogue S painted in another, a grapheme – colour synaesthete will usually only need a split second to identify the latter."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Synaesthesia, loosely translated as “senses coming together” from the Greek words syn (“with”) and aesthesis (“sensation”), is an interesting neurological phenomenon that causes diﬀerent senses to be combined. This might mean that words have a particular taste (for example, the word “door” might taste like bacon), or that certain smells produce a particular colour. It might also mean that each letter and number has its own personality-the letter A might be perky, the letter B might be shy and self-conscious, etc. Some synaesthetes might even experience other people’s sensations, for example feeling pain in their chest when they witness a film character gets shot. The possibilities are endless: even though synaesthesia is believed to aﬀect less than 5% of the general population, at least 60 diﬀerent combinations of senses have been reported so far. What all these sensory associations have in common is that they are all involuntary and impossible to repress and that they usually remain quite stable over time."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Synaesthesia was first documented in the early 19th century by German physician Georg Sachs, who dedicated two pages of his dissertation on his own experience with the condition. It wasn’t, however, until the mid-1990s that empirical research proved its existence when Professor Simon Baron-Cohen and his colleagues used fMRls on six synaesthetes and discovered that the parts of the brain associated with vision were active during auditory stimulation, even though the subjects were blindfolded."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "What makes synaesthesia a particularly interesting condition is that it isn’t an illness at all. If anything, synaesthetes often report feeling sorry for the rest of the population, as they don’t have the opportunity to experience the world in a multisensory fashion like they do. Very few drawbacks have been described, usually minimal: for instance, some words might have an unpleasant taste (imagine the word “hello” tasting like spoilt milk), while some synaesthetes find it distressing when they encounter people with names which don’t reflect their personality (imagine meeting a very interesting person named “Lee”, when the letter E has a dull or hideous colour for you-or vice versa). Overall, however, synaesthesia is widely considered more of a blessing than a curse and it is often linked to intelligence and creativity, with celebrities such as Lady Gaga and Pharrell Williams claiming to have it."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Another fascinating side of synaesthesia is the way it could potentially benefit future generations. In a 2013 study, Dr Witthof and Dr Winawer discovered that grapheme-colour synaesthetes who had never met each other before experienced strikingly similar pairings between graphemes and colours-pairings which were later traced back to a popular set of Fischer-Price magnets that ten out of eleven participants distinctly remembered possessing as children. This was particularly peculiar as synaesthesia is predominantly considered to be a hereditary condition, and the findings suggested that a synaesthete’s environment might play a determining role in establishing synaesthetic associations. If that was true, researchers asked, then might it not be possible that synaesthesia can actually be taught?"
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "As it turns out, the benefits of teaching synaesthesia would be tremendous. According to research conducted by Dr Clare Jonas at the University of East London, teaching people to create grapheme-colour associations the same way as a synaesthete may have the possibility to improve cognitive function and memory. As she put it, ‘one possibility is guarding against cognitive decline in older people-using synaesthesia in the creation of mnemonics to remember things such as shopping lists.’ To that end, researchers in the Netherlands have already begun developing a web browser plug-in that will change the colours of certain letters. Rothen and his colleagues corroborate the theory: in a paper published in 2011, they suggest that synaesthesia might be more than a hereditary condition, as the non-synaesthetic subjects of their study were able to mimic synaesthetic associations long after leaving the lab."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "There is obviously still a long way to go before we can fully understand synaesthesia and what causes it. Once we do, however, it might not be too long before we find out how to teach non-synaesthetes how to imitate its symptoms in a way that induces the same benefits 4.4% of the world’s population currently enjoy."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–11",
+    "g12": "Questions 12–14"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1-7\n\nThe reading passage has 7 paragraphs, A-G.\n\nWhich paragraph contains the following information?\n\nWrite the correct letter, A-G, in boxes 1-7 on your answer sheet.\n\n\n1 _____________ some of the disadvantages related to synaesthesia\n\n\n2 _____________ what scientists think about synaesthesia’s real-life usefulness\n\n\n3 _____________ a prediction for the future of synaesthesia\n\n\n4 _____________ an example of how grapheme-colour synaesthesia works\n\n\n5 _____________ a brief history of synaesthesia\n\n\n6 _____________ some of the various different types of synaesthesia\n\n\n7 _____________ information about a study that suggests synaesthetic symptoms\naren’t arbitrary"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 11,
+      "text": "Questions 8-11\n\nDo the following statements agree with the information given in Reading Passage 1?\n\nIn boxes 8-11 on your answer sheet, write\n\n    TRUE             if the statement agrees with the information\n\n\n    FALSE            if the statement contradicts the information\n\n\n    NOT GIVEN        If there is no information on this\n\n\n\n8 ________________ There are 60 different types of synaesthesia.\n\n\n9 ________________ Before Professor Simon Baron-Cohen’s research, synaesthesia\nwas thought to be a myth.\n\n\n10 ________________ A lot of celebrities are aﬀected by synaesthesia.\n\n\n11 ________________ Most scientists believe that synaesthesia runs in families."
+    },
+    {
+      "id": "g12",
+      "start": 12,
+      "end": 14,
+      "text": "Questions 12-14\n\nComplete the summary.\n\nChoose ONE WORD ONLY from the passage for each answer.\n\nWrite your answers in boxes 12-14 on your answer sheet\n\n\n\n\nSynaesthesia is a unique neurological condition that causes different senses to get\nmixed\n\nRecent research has suggested that teaching synaesthesia to non-synaesthetes can\nenhance 12 ________________ and guard against the deterioration of cognitive 13\n________________ unfortunately, it might be a while before we come up with a\nbeneficial way to 14 ________________ it to the general population."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ some of the disadvantages related to synaesthesia",
+      "translation": "與 synaesthesia 相關的一些缺點。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ what scientists think about synaesthesia’s real-life usefulness",
+      "translation": "科學家認為 synaesthesia 在現實生活中有甚麼實用價值。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ a prediction for the future of synaesthesia",
+      "translation": "一個關於 synaesthesia 未來的預測。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ an example of how grapheme-colour synaesthesia works",
+      "translation": "一個說明 grapheme-colour synaesthesia 如何運作的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ a brief history of synaesthesia",
+      "translation": "synaesthesia 的簡短歷史。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ some of the various different types of synaesthesia",
+      "translation": "synaesthesia 的一些不同類型。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "_____________ information about a study that suggests synaesthetic symptoms aren’t arbitrary",
+      "translation": "某項研究指出 synaesthetic symptoms 並非隨機、任意產生。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "________________ There are 60 different types of synaesthesia.",
+      "translation": "synaesthesia 有 60 種不同類型。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "________________ Before Professor Simon Baron-Cohen’s research, synaesthesia was thought to be a myth.",
+      "translation": "在 Professor Simon Baron-Cohen 的研究之前，synaesthesia 被認為是神話或虛構。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "________________ A lot of celebrities are aﬀected by synaesthesia.",
+      "translation": "很多名人受到 synaesthesia 影響。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "________________ Most scientists believe that synaesthesia runs in families.",
+      "translation": "大多數科學家相信 synaesthesia 會在家族中遺傳。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g12",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "近期研究指出，把 synaesthesia 教給非共感者，能增強 12 __________，並防止 cognitive 13__________ 退化。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g12",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "……防止 cognitive 13 __________ 的退化。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 14,
+      "group": "g12",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "可惜，我們可能還要一段時間，才能想出一個有益的方法，把它 14 __________ 給一般大眾。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-024/page-5.jpg",
+    "/assets/reading-comprehension/questions/p1-024/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-024/page-7.jpg"
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "p1-113",
+  "catalogueId": "p1-113",
+  "title": "Reducing electricity consumption on the Isle of Eigg",
+  "sourceHeading": "Reducing Electricity Consumption on the Isle of Eigg",
+  "passage": 1,
+  "practice": 113,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-113-reducing-electricity-consumption-on-the-isle-of-eigg",
+  "source": {
+    "filename": "Practice 113 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "b007687738f85b375d8aaa8dbeb9c9e20903714ae329e135a1e64acb3bb876d4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Background The Isle of Eigg is situated off the west coast of Scotland, and is reached by ferry from the mainland. For the island community of about a hundred residents, it has always been expensive to import products, materials and skilled labour from the mainland, and this has encouraged a culture of self-sufficiency and careful use of resources. Today, although the island has most modern conveniences, CO2 emissions per household are 20 percent lower than the UK average, and electricity use is 50 percent lower. When Eigg designed its electricity grid, which was switched on in February 2008, it quickly became apparent that in order to keep the capital building costs down, it would be necessary to manage demand. This would also allow the island to generate most of its electricity from renewable sources, mainly water, wind and solar power. This goal was overseen by the Eigg Heritage Trust (EHT)."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The technology Eigg manages electricity demand mainly by capping the instantaneous power that can be used to five kilowatts (kW) for a household and ten kW for a business. If usage goes over the limit, the electricity supply is cut off and the maintenance team must be called to switch it back on again. All households and businesses have energy monitors, which display current and cumulative electricity usage, and sound an alarm when consumption reaches a user-defined level, usually set a few hundred watts below the actual limit. The result is that Eigg residents have a keen sense of how much power different electrical appliances use, and are careful to minimise energy consumption. Demand is also managed by warning the entire island when renewable energy generation is lower than demand and diesel generators are operating to back it up—a so-called ‘red light day’, as opposed to ‘green light days’ when there is sufficient renewable energy. Residents then take steps to reduce electricity demand even further, or postpone demand until renewable energy generation has increased."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Energy use on the island has also been reduced through improved wall and loft insulation in homes, new boilers, solar water heating, car-sharing and various small, energy-saving measures in households. New energy supplies are being developed, including sustainably harvested forests to supply wood for heating. Eigg Heritage Trust has installed insulation in all of its own properties at no cost to the tenants, while private properties have paid for their own insulation to be installed. The same applies to installations of solar water heating, although not all Trust properties have received this as yet. The Trust also operates a Green Grants scheme, under which residents can claim 50 percent of the cost of equipment to reduce carbon emissions, up to a limit of £300. Purchases included bikes, solar water heating, secondary glazing, thicker curtains, and greenhouses to grow food locally, rather than importing it."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Environmental benefits Prior to the installation of the new electricity grid and renewable energy generation, most households on Eigg used diesel generators to supply electricity, resulting in significant carbon emissions. Homes were also poorly insulated and had old, inefficient oil-burning boilers, or used coal for heating. The work of the Eigg Heritage Trust to reduce energy use has resulted in significant reductions in carbon emissions from the island’s households and businesses. The average annual electricity use per household is just 2,160 kilowatt hours (kWh), compared to a UK average in 2008 of 4,198 kWh. Domestic carbon emissions have fallen by 47 percent, from 8.4 to 4.45 tonnes per year. This compares to average UK household emissions of 5.5 to 6 tonnes per year. The emissions should fall even further over the next few years as the supply of wood for heating increases."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Social benefits The completion of Eigg’s electricity grid has made a significant difference to the island’s residents, freeing them from dependence on diesel generators and providing them with a stable and affordable power supply. A reliable electricity supply has brought improvements in other areas, for example, better treatment of drinking water in some houses, and the elimination of the constant noise of diesel generators. Improved home insulation and heating have also yielded benefits, making it more affordable to keep homes at a comfortable temperature. One of the incentives for capping electricity use, rather than charging different amounts according to usage, was to make access to energy equitable. Every household has the same five kW cap, irrespective of income, thereby distributing the available resources equally across the island’s population."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Economic and employment benefits Eigg’s electricity grid supports four part-time maintenance jobs on the island, and residents have also been employed for building work to improve Trust-owned houses and other buildings. Likewise, the start of organised harvesting of wood for heating has created several forestry jobs for residents. A part-time ‘green project manager’ post has also been created. A wider economic impact has come from having a reliable and affordable electricity supply, which has enabled several new businesses to start up, including restaurants, shops, guest houses and self-catering accommodation. As Eigg has become known for cutting carbon emissions and protecting the environment, an increasing number of visitors have come to the island to learn about its work, bringing a further economic benefit to the residents."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–7",
+    "g8": "Questions 8–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 7,
+      "text": "Questions 1–7\nAnswer the questions below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each\nanswer.\n1 _________________ Approximately how many people live on Eigg?\n2 _________________ What proportion of a UK household’s electricity consumption does an\nEigg household consume?\n3 _________________ Apart from wind and sun, where does most of Eigg’s electricity come\nfrom?\n4 _________________ What device measures the amount of electricity Eigg’s households are\nusing?\n5 _________________ When renewable energy supplies are insufficient, what backs them up?\n6 _________________ What has EHT provided free of charge in all the houses it owns?\n7 _________________ Which gardening aid did some Eigg inhabitants claim grants for?"
+    },
+    {
+      "id": "g8",
+      "start": 8,
+      "end": 13,
+      "text": "Questions 8–13\nDo the following statements agree with the information given in Reading Passage 1? Write\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n8 _________________ Electricity was available for the first time on Eigg when a new grid was\nswitched on.\n9 _________________ Eigg’s carbon emissions are now much lower than before.\n10 _________________ Wood will soon be the main source of heating on Eigg.\n11 _________________ Eigg is quieter as a result of having a new electricity supply.\n12 _________________ Well-off households pay higher prices for the use of extra electricity.\n13 _________________ The new electricity grid has created additional employment\nopportunities on Eigg."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Approximately how many people live on Eigg?",
+      "translation": "大約有多少人住在 Eigg？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ What proportion of a UK household’s electricity consumption does an Eigg household consume?",
+      "translation": "Eigg 一個家庭的用電量，相當於英國家庭用電量的多少比例？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Apart from wind and sun, where does most of Eigg’s electricity come from?",
+      "translation": "除了風和太陽之外，Eigg 大部分電力還來自哪裡？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ What device measures the amount of electricity Eigg’s households are using?",
+      "translation": "哪一種裝置量度 Eigg 家庭正在使用多少電？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ When renewable energy supplies are insufficient, what backs them up?",
+      "translation": "當可再生能源供應不足時，甚麼會作為後備支援？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ What has EHT provided free of charge in all the houses it owns?",
+      "translation": "EHT 在自己擁有的所有房屋中免費提供了甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g1",
+      "type": "text",
+      "prompt": "_________________ Which gardening aid did some Eigg inhabitants claim grants for?",
+      "translation": "一些 Eigg 居民申請補助購買哪一種園藝輔助物？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Electricity was available for the first time on Eigg when a new grid was switched on.",
+      "translation": "當新電網啟用時，Eigg 第一次有了電力供應。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Eigg’s carbon emissions are now much lower than before.",
+      "translation": "Eigg 現在的碳排放比以前低很多。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Wood will soon be the main source of heating on Eigg.",
+      "translation": "木材很快會成為 Eigg 主要取暖來源。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Eigg is quieter as a result of having a new electricity supply.",
+      "translation": "由於有了新的電力供應，Eigg 變得更安靜。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ Well-off households pay higher prices for the use of extra electricity.",
+      "translation": "富裕家庭若使用額外電力，需要支付更高價格。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g8",
+      "type": "choice",
+      "prompt": "_________________ The new electricity grid has created additional employment opportunities on Eigg.",
+      "translation": "新電網為 Eigg 創造了額外就業機會。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-113/page-5.jpg"
+  ]
+}

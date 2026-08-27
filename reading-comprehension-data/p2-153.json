@@ -1,0 +1,227 @@
+{
+  "id": "p2-153",
+  "catalogueId": "p2-153",
+  "title": "British Architecture",
+  "sourceHeading": "British Architecture",
+  "passage": 2,
+  "practice": 153,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-153-british-architecture",
+  "source": {
+    "filename": "Practice 153 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "4fa938b0cf3bef3f1ba171932b65823ad39023ecae0a517808aeb1e6b688128f"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Architecture is about evolution, not revolution. It used to be thought that once the Romans pulled out of Britain in the fifth century, their elegant villas, carefully planned towns and engineering marvels like Hadrian’s Wall simply fell into decay as British culture was plunged into the Dark Ages. It took the Norman Conquest of 1066 to bring back the light, and the Gothic cathedral builders of the Middle Ages played an important part in the revival of British culture. However, the truth is not as simple as that. Romano-British culture—and that included architecture along with language, religion, political organisation and the arts—survived long after the Roman withdrawal. And although the Anglo-Saxons had a sophisticated building style of their own, little survives to bear witness to their achievements as the vast majority of Anglo-Saxon buildings were made of wood."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Even so, the period between the Norman landing at Pevensey in 1066 and the day in 1485 when Richard III lost his horse and his head at Bosworth, ushering in the Tudors and the Early Modern period, marks a rare flowering of British building. And it is all the more remarkable because the underlying ethos of medieval architecture was ‘fitness for purpose’. The great cathedrals and parish churches that lifted up their towers to heaven were not only acts of devotion in stone; they were also fiercely functional buildings. Castles served their particular purpose and their battlements and turrets were for use rather than ornament. In a sense, the buildings of the 16th century were also governed by fitness for purpose—only now, the purpose was very different. In domestic architecture, in particular, buildings were used to display status and wealth."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "This stately and curious workmanship showed itself in various ways. A greater sense of security led to more outward-looking buildings, as opposed to the medieval arrangement where the need for defence created houses that faced inward onto a courtyard or series of courtyards. This allowed for much more in the way of exterior ornament. The rooms themselves tended to be bigger and lighter—as an expensive commodity, the use of great expanses of glass was in itself a statement of wealth. There was also a general move towards balanced and symmetrical exteriors with central entrances."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "With the exception of Inigo Jones (1573–1652), whose confident handling of classical detail and proportion set him apart from all other architects of the period, most early seventeenth-century buildings tended to take the innocent exuberance of late Tudor work one step further. But during the 1640s and 1650s the Civil War and its aftermath sent many gentlemen and nobles to the Continent either to escape the fighting or, when the war was lost, to follow Charles II into exile. There they came into contact with French, Dutch and Italian architecture and, with Charles’s restoration in 1660, there was a flurry of building activity as royalists reclaimed their property and built themselves houses reflecting the latest European trends. The British Baroque was a reassertion of authority, an expression of absolutist ideology by men who remembered a world turned upside down during the Civil War. The style is heavy and rich, sometimes overblown and melodramatic. The politics which underpin it are questionable, but its products are breathtaking."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The huge glass-and-iron Crystal Palace, designed by Joseph Paxton to house the Great Exhibition of 1851, shows another strand to nineteenth-century architecture—one which embraced new industrial processes. But it wasn’t long before even this confidence in progress came to be regarded with suspicion. Mass production resulted in buildings and furnishings that were too perfect, as the individual craftsman no longer had a major role in their creation. Railing against the dehumanising effects of industrialisation, reformers like John Ruskin and William Morris made a concerted effort to return to hand-crafted, pre-industrial manufacturing techniques. Morris’s influence grew from the production of furniture and textiles, until by the 1880s a generation of principled young architects was following his call for good, honest construction."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The most important trends in early twentieth-century architecture simply passed Britain by. Whilst Gropius was working on cold, hard expanses of glass, and Le Corbusier was experimenting with the use of reinforced concrete frames, we had staid establishment architects like Edwin Lutyens producing Neo-Georgian and Renaissance country houses for an outmoded landed class. In addition, there were slightly batty architect-craftsmen, the heirs of William Morris, still trying to turn the clock back to before the Industrial Revolution by making chairs and spurning new technology. Only a handful of Modern Movement buildings of any real merit were produced here during the 1920s and 1930s, and most of these were the work of foreign architects such as Serge Chermayeff, Berthold Lubetkin and Ernő Goldfinger who had settled in this country."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "After the Second World War the situation began to change. The Modern Movement’s belief in progress and the future struck a chord with the mood of post-war Britain and, as reconstruction began under Attlee’s Labour government in 1945, there was a desperate need for cheap housing which could be produced quickly. The use of prefabricated elements, metal frames, concrete cladding and the absence of decoration—all of which had been embraced by Modernists abroad and viewed with suspicion by the British—were adopted to varying degrees for housing developments and schools. Local authorities, charged with the task of rebuilding city centres, became important patrons of architecture. This represented a shift away from the private individuals who had dominated the architectural scene for centuries."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Since the war, corporate bodies such as local authorities, national and multinational companies, and large educational institutions have dominated British architecture. By the late 1980s the Modern Movement, unfairly blamed for the social experiments implicit in high-rise housing, had lost out to irony and spectacle in the shape of post-modernism, with its cheerful borrowings from anywhere and any period. But now, in the new millennium, even post-modernism is showing signs of age. What comes next? Post-post-modernism?"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nComplete the sentences below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 14–20 on your answer sheet.\n14 Anglo-Saxon architecture failed to survive because the buildings were constructed from __________.\n15 Unlike medieval architecture, sixteenth-century buildings were intended to represent __________.\n16 Costly glass was used extensively as a __________ in those years.\n17 Inigo Jones was skilled at handling __________.\n18 William Morris favoured the production of __________ made using pre-industrial manufacturing\ntechniques.\n19 Architects such as __________ provided landowners with conservative houses.\n20 After the Second World War, architectural commissions shifted from private individuals to __________."
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 21–26 on your answer sheet.\n21 The defining feature of medieval architecture was that it was\n  A immense.\n  B functional.\n  C decorative.\n  D bizarre.\n\n\n22 What contributed to the development of outward-looking buildings in the sixteenth century?\n  A greater security\n  B beauty\n  C quality\n  D technology\n\n\n23 Why were buildings in the 1660s influenced by the latest European trends?\n  A Because the war had been lost.\n  B Because craftspeople came from all over Europe.\n  C Because the properties belonged to gentlemen and nobles.\n  D Because the monarch returned from the Continent.\n\n\n24 What kind of impression did the British Baroque convey?\n  A toughness\n  B steadiness\n  C mildness\n  D conservatism\n\n\n25 The individual craftsperson ceased to play a major role in creation following the emergence of\n  A the Crystal Palace.\n  B a return to pre-industrial manufacturing.\n  C industrial-scale production.\n  D ornamentation.\n\n\n26 Building styles changed after the Second World War as a result of\n  A abundant materials.\n  B local authorities.\n  C a shortage of cheap housing.\n  D conservative views."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Anglo-Saxon architecture failed to survive because the buildings were constructed from __________.",
+      "translation": "Anglo-Saxon 建築未能保存下來，因為那些建築由 __________ 建成。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Unlike medieval architecture, sixteenth-century buildings were intended to represent __________.",
+      "translation": "和中世紀建築相比，十六世紀建築旨在代表或展示 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Costly glass was used extensively as a __________ in those years.",
+      "translation": "在那些年代，昂貴的玻璃被大量使用，作為一種 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Inigo Jones was skilled at handling __________.",
+      "translation": "Inigo Jones 擅長處理 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "text",
+      "prompt": "William Morris favoured the production of __________ made using pre-industrial manufacturing techniques.",
+      "translation": "William Morris 支持生產使用前工業化製造技術製成的 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Architects such as __________ provided landowners with conservative houses.",
+      "translation": "像 __________ 這樣的建築師，為地主階層提供保守風格的房屋。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "text",
+      "prompt": "After the Second World War, architectural commissions shifted from private individuals to __________.",
+      "translation": "第二次世界大戰後，建築委託從私人個體轉向 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "The defining feature of medieval architecture was that it was",
+      "translation": "中世紀建築的決定性特徵是它具有甚麼性質？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "What contributed to the development of outward-looking buildings in the sixteenth century?",
+      "translation": "甚麼因素促成十六世紀向外展示的建築發展？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Why were buildings in the 1660s influenced by the latest European trends?",
+      "translation": "為甚麼 1660 年代的建築受到最新歐洲潮流影響？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "What kind of impression did the British Baroque convey?",
+      "translation": "British Baroque 傳達出甚麼樣的印象？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "The individual craftsperson ceased to play a major role in creation following the emergence of",
+      "translation": "在甚麼出現之後，個別工匠在創作中不再扮演重要角色？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "Building styles changed after the Second World War as a result of",
+      "translation": "第二次世界大戰後，建築風格因甚麼原因而改變？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-153/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-153/page-6.jpg"
+  ]
+}

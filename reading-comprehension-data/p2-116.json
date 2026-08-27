@@ -1,0 +1,259 @@
+{
+  "id": "p2-116",
+  "catalogueId": "p2-116",
+  "title": "Neanderthals and modern humans",
+  "sourceHeading": "Neanderthals and Modern Humans",
+  "passage": 2,
+  "practice": 116,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-116-neanderthals-and-modern-humans",
+  "source": {
+    "filename": "Practice 116 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "c749aed8c9f0efec4354c845ac3908f9b70973bdc1ec3ffea224c030d8aec303"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The evolutionary processes that have made modern humans so different from other animals are hard to determine without an ability to examine human species that have not achieved similar things. However, in a scientific masterpiece, Svante Pääbo and his colleagues from the Max Planck Institute for Evolutionary Anthropology, in Leipzig, have made such a comparison possible. In 2009, at a meeting of the American Association for the Advancement of Science, they made public an analysis of the genome [1] of Neanderthal man."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Homo neanderthalensis, to give its proper name, lived in Europe and parts of Asia from 400,000 years ago to 30,000 years ago. Towards the end of this period it shared its range with interlopers in the form of Homo sapiens [2], who were spreading out from Africa. However, the two species did not settle down to a stable cohabitation. For reasons which are as yet unknown, the arrival of Homo sapiens in a region was always quickly followed by the disappearance of Neanderthals."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Before 2009, Dr Pääbo and his team had conducted only a superficial comparison between the DNA of Neanderthals and modern humans. Since then, they have performed a more thorough study and, in doing so, have shed a fascinating light on the intertwined history of the two species. That history turns out to be more intertwined than many had previously believed."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Dr Pääbo and his colleagues compared their Neanderthal genome (painstakingly reconstructed from three bone samples collected from a cave in Croatia) with that of five living humans from various parts of Africa and Eurasia. Previous genetic analysis, which had only examined DNA passed from mother to child in cellular structures called mitochondria, had suggested no interbreeding between Neanderthals and modern humans. The new, more extensive examination, which looks at DNA in the cell nucleus rather than in the mitochondria, shows this conclusion is wrong. By comparing the DNA in the cell nucleus of Africans (whose ancestors could not have crossbred with Neanderthals, since they did not overlap with them) and various Eurasians (whose ancestors could have crossbred with Neanderthals), Dr Pääbo has shown that Eurasians are between one per cent and four per cent Neanderthal."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "That is intriguing. It shows that even after several hundred thousand years of separation, the two species were interfertile. It is strange, though, that no Neanderthal mitochondrial DNA has turned up in modern humans, since the usual pattern of invasion in historical times was for male invaders to mate with women from the population they had invaded. One piece of self-knowledge, then – at least for non-Africans – is that they have a dash of Neanderthal in them. But Dr Pääbo’s work also illuminates the differences between the species. By comparing modern humans, Neanderthals, and chimpanzees, it is possible to distinguish genetic changes which are shared by several species of human in their evolution away from the great-ape lineage, from those which are unique to Homo sapiens."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "More than 90 per cent of the ‘human accelerated regions’ [3] that have been identified in modern people are found in Neanderthals too. However, the rest are not. Dr Pääbo has identified 212 parts of the genome that seem to have undergone significant evolution since the species split. The state of genome science is still quite primitive, and it is often unclear what any given bit of DNA is actually doing. But an examination of the 20 largest regions of DNA that have evolved in this way shows that they include several genes which are associated with cognitive ability, and whose malfunction causes serious mental problems. These genes therefore look like good places to start the search for modern humanity’s essence."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The newly evolved regions of DNA also include a gene called RUNX2, which controls bone growth. That may account for differences in the shape of the skull and the rib cage between the two species. By contrast, an earlier phase of the study had already shown that Neanderthals and moderns share the same version of a gene called FOXP2, which is involved in the ability to speak, and which differs in chimpanzees. It is all, then, very promising – and a second coup in quick succession for Dr Pääbo. Another of his teams has revealed the existence of a hitherto unsuspected species of human, using mitochondrial DNA found in a little-finger bone. If that species, too, could have its full genome read, humanity’s ability to know itself would be enhanced even further. [1] an individual’s complete set of genes [2] the scientific name for modern humans [3] regions of the human genome that evolved very rapidly"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–18",
+    "g19": "Questions 19–23",
+    "g24": "Questions 24–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 18,
+      "text": "Questions 14–18\nLook at the following characteristics and the list of species below.\nMatch each characteristic with the correct species, A, B or C.\nWrite the correct letter, A, B or C, in boxes 14–18 on your answer sheet.\nNB You may use any letter more than once.\n14 __________ Once lived in Europe and Asia.\n15 __________ Originated in Africa.\n16 __________ Did not survive long after the arrival of immigrants.\n17 __________ Interbred with another species.\n18 __________ Appears not to have passed mitochondrial DNA to another species.\n\n A                         Homo neanderthalensis\n\n B                         Homo sapiens\n\n C                         both Homo neanderthalensis and Homo sapiens"
+    },
+    {
+      "id": "g19",
+      "start": 19,
+      "end": 23,
+      "text": "Questions 19–23\nReading Passage 2 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter, A–G, in boxes 19–23 on your answer sheet.\n19 __________ an account of the rejection of a theory\n20 __________ a reference to an unexplained link between two events\n21 __________ the identification of a skill-related gene common to both Neanderthals and\nmodern humans\n22 __________ the announcement of a scientific breakthrough\n23 __________ an interesting gap in existing knowledge"
+    },
+    {
+      "id": "g24",
+      "start": 24,
+      "end": 26,
+      "text": "Questions 24–26\nComplete the summary below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n\n\nThe Nature of Modern Humans\nRecent work in evolutionary anthropology has made it possible to compare\nmodern humans with related species. Genetic analysis produced several new\nfindings. First, despite the length of time for which Homo sapiens and Homo\nneanderthalensis had developed separately, 24 __________ did take place.\nSecondly, genes that evolved after modern humans split from Neanderthals\nare connected with cognitive ability and skeletal 25 __________. The potential\nfor this research to shed light on modern humans was strengthened further\nwhen analysis of a 26 __________ led to the discovery of a new human\nspecies."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Once lived in Europe and Asia.",
+      "translation": "曾經生活在歐洲和亞洲。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Originated in Africa.",
+      "translation": "起源於非洲。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Did not survive long after the arrival of immigrants.",
+      "translation": "在外來者到達後，沒有存活很久。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Interbred with another species.",
+      "translation": "曾與另一個物種通婚或交配繁衍。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "__________ Appears not to have passed mitochondrial DNA to another species.",
+      "translation": "看起來沒有把 mitochondrial DNA 傳給另一個物種。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ an account of the rejection of a theory",
+      "translation": "一段關於某個理論或結論被推翻的描述。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ a reference to an unexplained link between two events",
+      "translation": "提到兩件事之間有關聯，但原因未明。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ the identification of a skill-related gene common to both Neanderthals and modern humans",
+      "translation": "指出一個與技能相關、Neanderthals 和 modern humans 共同擁有的基因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ the announcement of a scientific breakthrough",
+      "translation": "公布一項科學突破。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g19",
+      "type": "choice",
+      "prompt": "__________ an interesting gap in existing knowledge",
+      "translation": "現有認識中一個有趣的缺口或奇怪空白。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 24 · 請參照上方原題",
+      "translation": "首先，儘管 Homo sapiens 和 Homo neanderthalensis 已分開演化很長時間，__________ 的確發生過。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "第二，modern humans 與 Neanderthals 分化後演化出的基因，與 cognitive ability 和骨骼__________ 有關。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g24",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "當對一個 __________ 的分析導致發現新的人類物種時，這項研究幫助我們理解 modern humans 的潛力進一步增強。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-116/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-116/page-5.jpg"
+  ]
+}

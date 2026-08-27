@@ -1,0 +1,268 @@
+{
+  "id": "p1-097",
+  "catalogueId": "p1-097",
+  "title": "Fix it with Flavour",
+  "sourceHeading": "Fix It with Flavour",
+  "passage": 1,
+  "practice": 97,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-097-fix-it-with-flavour",
+  "source": {
+    "filename": "Practice 97 IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "0af48a6e53329eb02ba14c44cabd62d50479f11bc7ee5c77769eb9d53d2d0add"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Gabriele Dionisi, a 38-year-old Italian computer wizard living in London, is a true individualist when it comes to food. He has been known to live for days on dry toast and mashed potato. He’s also very fond of tinned mackerel with biscuits, washed down with, say, an apple-and-tomato milkshake. For some unfathomable reason, he sometimes has problems with his guts. Then he makes himself a hot cup of camomile tea with honey and half a spoonful of chilli flakes. “It’s an old Italian recipe,” he says. “My grandmother taught me to make it. It’s very good for digestion.”"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Spices such as chilli have been used for medicinal purposes in Europe for centuries. Medieval herbalists believed that spices could be used to treat a range of pains, diseases, and ailments. Sometimes they got it right; sometimes they were way off the end of the spice rack. For example, they used to pound up cloves to extract the oil, which was used to treat toothache. Sensible move: modern scientists know that cloves contain eugenol, a chemical which is an effective local anaesthetic. Cloves also contain salicylic acid, the basis of aspirin."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Ginger was held to be good for stomach upsets, and it is now known to have anti-nausea properties. It is also believed to have a painkilling effect, which is being studied at the University of Arizona. Unfortunately, those muddled medieval medics also believed that ginger was a cure for the Black Death—it isn’t—and that eating borage would give you courage, just because the words rhymed."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Doctors in India have long used spices as medicines. They understood that spices could be used as remedies. Their motto was, ‘Let food be thy medicine.’ The Indian chef’s favourite medical spice is turmeric, the yellow ingredient used in almost all Indian cookery. Turmeric is an antiseptic and disinfectant, and it is used widely not so much for its taste but for its antibacterial properties."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Turmeric is used in Indian homes as a first-aid treatment. For example, if you had a small cut on your finger, you’d run it under the tap and then dust the wound with turmeric. It is also supposed to be a cure for arthritis, and scientists are now researching its potential ability to suppress the growth of cancer cells."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In 2002, staff at the oncology department of Leicester University noticed that of 500 patients with colon cancer, only two were Asian, despite the fact that 20 per cent of the population in Leicester is Asian. The scientists believed this was due to their spicy diet. And, in America, researchers at the Columbia University College of Physicians and Surgeons are investigating Zyflamend, a herbal treatment for arthritis, which contains turmeric and ginger. Zyflamend has shown an ability to reduce prostate cancer cell proliferation by as much as 78% and induce cancer cell death."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Studies at the Indian Institute of Science, in Bangalore, suggest that curcumin, the chemical that gives turmeric its yellow colour, might also help to treat malaria. Mice were infected with the malaria parasite Plasmodium berghei and given oral doses for five consecutive days. After 20 days, a third of the treated mice were alive, whereas the untreated animals all died by day 13."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "If you want to know what chillies do to the body, cut open a fresh chilli and hold it on the back of your hand for 15 or 20 minutes. It will make the hand red and sore. If you eat it in excess, it can give you gastric problems. However, in small doses, chilli can aid digestion. Chilli contains vitamins A and E and is a good source of potassium, beta carotene, and folic acid. Also, chilli contains twice as much vitamin C as an orange, and it really can help to protect the body from colds and flu. One chilli contains 100 mg of vitamin C—more than the recommended daily amount—and capsaicin, the chemical in chillies that gives them heat, is also a natural decongestant."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "The pleasure of chillies comes from the pain of eating them. Literally, the burning sensation in the mouth triggers the release of endorphins, opiate-like painkilling chemicals, in the brain. This makes you feel good; so good, in fact, that it is possible to become a chilli junkie. In the light of this, perhaps the late Signora Dionisi should have taught her favourite grandson how to make something other than chilli camomile tea."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–4",
+    "g5": "Questions 5–8",
+    "g9": "Questions 9–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 4,
+      "text": "Questions 1–4\nThe text has 9 paragraphs (A–I).\nWhich paragraph contains each of the following pieces of information?\n1 ____________ The reason that turmeric is yellow\n2 ____________ How turmeric is used by Indians\n3 ____________ A medieval remedy for stomach upsets\n4 ____________ The method Gabriele Dionisi uses to treat stomach upsets"
+    },
+    {
+      "id": "g5",
+      "start": 5,
+      "end": 8,
+      "text": "Questions 5–8\nComplete the following sentences using NO MORE THAN TWO WORDS from the text for each gap.\nThe article refers to medieval herbalists as 5 _________________ because they didn’t always use herbs\nproperly.\nThe article provides no support for the suggestion that turmeric can help to deal with 6\n_________________, though this is being investigated.\n  A single chilli provides more 7 _________________ than a person needs in a day.\nEating chillies creates a feeling of 8 _________________ thanks to the release of endorphins."
+    },
+    {
+      "id": "g9",
+      "start": 9,
+      "end": 13,
+      "text": "Questions 9–13\nDo the following statements agree with the information given in Reading Passage 1?\nIn boxes 9–13 on your answer sheet, write\n TRUE                        if the statement agrees with the information\n\n FALSE                       if the statement contradicts the information\n\n NOT GIVEN                   if there is no information on this\n9 _________________ Cloves are used to make aspirin.\n10 _________________ Turmeric is not used in Indian cooking because of its taste.\n11 _________________ Zyflamend can kill cancer cells.\n12 _________________ Chillies help prevent colds because they contain capsaicin.\n13 _________________ Signora Dionisi taught her favourite grandson many traditional Italian recipes."
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The reason that turmeric is yellow",
+      "translation": "turmeric 呈黃色的原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ How turmeric is used by Indians",
+      "translation": "印度人如何使用 turmeric。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ A medieval remedy for stomach upsets",
+      "translation": "一種中世紀用來處理 stomach upsets 的療法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "____________ The method Gabriele Dionisi uses to treat stomach upsets",
+      "translation": "Gabriele Dionisi 用來處理 stomach upsets 的方法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 5 · 請參照上方原題",
+      "translation": "文章把中世紀 herbalists 稱為 ______，因為他們並不總是正確使用草藥或香料。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 6 · 請參照上方原題",
+      "translation": "文章沒有提供充分證據支持 turmeric 可以處理 ______ 的說法，雖然這方面正在被研究。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 7 · 請參照上方原題",
+      "translation": "一隻 chilli 提供的 ______ 超過一個人每日所需。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g5",
+      "type": "text",
+      "prompt": "Question 8 · 請參照上方原題",
+      "translation": "吃 chillies 會因 endorphins 釋放而產生一種 ______ 的感覺。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Cloves are used to make aspirin.",
+      "translation": "Cloves 被用來製造 aspirin。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Turmeric is not used in Indian cooking because of its taste.",
+      "translation": "Turmeric 在印度烹調中使用，原因不在於它的味道。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Zyflamend can kill cancer cells.",
+      "translation": "Zyflamend 能殺死 cancer cells。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Chillies help prevent colds because they contain capsaicin.",
+      "translation": "Chillies 能幫助預防 colds，是因為它們含有 capsaicin。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g9",
+      "type": "choice",
+      "prompt": "_________________ Signora Dionisi taught her favourite grandson many traditional Italian recipes.",
+      "translation": "Signora Dionisi 教了她最喜歡的孫子很多傳統意大利配方。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-097/page-4.jpg"
+  ]
+}

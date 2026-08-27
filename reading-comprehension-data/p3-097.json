@@ -1,0 +1,254 @@
+{
+  "id": "p3-097",
+  "catalogueId": "p3-097",
+  "title": "Are You Being Served?",
+  "sourceHeading": "",
+  "passage": 3,
+  "practice": 97,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-097-are-you-being-served",
+  "source": {
+    "filename": "Practice 97 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "866c1ec89be9a167ff0787f5b690218a4915b150876cff7bcadfabef598ce4ba"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Are You Being Served? The world’s factory, it turns out, has a sizeable canteen attached, not to mention an office block and shopping mall. Last month’s official revision of China’s gross domestic product revealed an economy worth 16 trillion yuan ($1.9 trillion) in 2004, 17% more than previously thought. Some $265 billion of the increase – 93% of it – was ascribed to the services sector. As a result, services’ share of the economy has jumped by nine percentage points, to 41%, compared with 46% for manufacturing and 13% for primary industries (mainly agriculture and mining)."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Where has all this extra activity come from? The bulk of it is obvious to any traveller in China. As people grow wealthier, they want more restaurants and bars, clothes stores, car dealerships, bookshops, private hospitals, English language classes and beauty salons. In many of these businesses, however, turnover and profits have not previously been captured by a statistical system geared to measuring factory production. The small, often private, companies that dominate these areas have also often been at pains to escape notice – and therefore taxes."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Li Deshui, commissioner of China’s National Bureau of Statistics, confirms that most of the newly unearthed GDP comes from three categories. The first is wholesale, retail and catering; the second, transport, storage, post and telecommunications. While postal and telecoms services are still state-controlled and thus readily measured, more than a million small trucking and removal companies are not. The third activity is real estate, booming particularly in the coastal cities and increasingly inland too, leading to an influx of private money – not least from overseas speculators. Property development has, in turn, boosted demand for architects, decorators, do-it-yourself stores and other building services."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "There is more to China’s services boom than dishing up stir-fries, shipping boxes and fitting out apartments. Recent years have seen a surge in media and technology services, including the internet; in financial services such as leasing; and in education and leisure. In a small way, for example, China is starting to rival India as an outsourcing hub: less for call-centres that require excellent English than for such tasks as preparing reports and patent filings. In October Microsoft took a stake in a Chinese software firm in Dalian, a city in north-east China with a thriving outsourcing industry preparing tax returns and software for companies from Japan and South Korea."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "China’s rapid economic growth is fuelling demand for accountants, lawyers, bankers and all manner of consultants, as Chinese companies expand and restructure. Specialists in marketing, advertising and public relations advise on the relatively new area of marketing products and developing brands. The new wealth has other consequences, too. China now has nearly a million security guards. It can offer its new rich everything from cosmetic surgeons to pet salons."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Meanwhile, a huge new market is opening up for private education—fuelled by the combination of a poor public system, the preoccupation of middle-class parents with giving their (often) only child the best chances, and demand from business. Chinese families spend more on education than on anything except housing – the market for courses, books and materials more than doubled from 2002 levels, to $90 billion in 2005. Richer households have also caused a tourism boom, which is still chiefly domestic, though more mainlanders are venturing overseas as visa restrictions are lifted. The World Travel & Tourism Council predicts that China’s annual tourism market will more than triple to $300 billion within a decade."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "China’s services sector, on this basis, is well-developed and roughly as large as those of Japan and South Korea were at a similar stage of development, notes the HSBC bank. In reality, it is bigger still, since the GDP revision cannot capture activities such as kerbside lending and tax-dodging cash transactions in property or entertainment—all of which Dong Tao, chief Asia economist at CSFB, another bank, reckons add another $220 billion to the economy. Even so, the 41% of GDP claimed by services in China remains below the 60–75% typical in developed countries. It is smaller even than India’s 52%."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "One reason for this is a bias towards manufacturing—“China’s ‘real-men-make-stuff’ attitude,” as Gordon Orr of McKinsey’s Shanghai office puts it. This has led to a plethora of ill-thought-through regulations for services, made worse by China’s continuing suspicion of private business, which is mostly concentrated in the services sector. The lack of a national trucking licence, for example, means hauliers must get approval from each province to move goods across the country and unload them on to different trucks at each border—delaying delivery and increasing spoilage and pilfering. In retailing, local governments often maintain inefficient supply chains, in part to protect local jobs. David Wei, head of B&Q in China, says his 48 do-it-yourself stores on the mainland are served by 1,800 suppliers, compared with 600 suppliers in Britain for more than 300 stores."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "Worse, though China took an early decision to invite foreign direct investment into manufacturing, it has been reluctant to open up services. Diana Farrell, director of the McKinsey Global Institute, the consultancy’s think-tank, argues that allowing more foreign investment in services could bring not just capital and technology but a competitive dynamic. The presence of Carrefour and Wal-Mart has led to domestic copycats, creating innovation and productivity growth."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–30",
+    "g31": "Questions 31–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 30,
+      "text": "Questions 27–30\nFor each question, only ONE of the choices is correct.\nWrite the corresponding letter in boxes 27–30 on your answer sheet.\n\n\n27 “The world’s factory” refers to\n A the total amount of goods produced in the world.\n B China.\n C the United States.\n\n\n28 It is not easy to measure the finances of\n A large state-owned companies.\n B foreign companies.\n C numerous small companies.\n\n\n29 Real estate has helped increase the size of the service economy because\n A real estate is a service industry.\n B it involves a lot of investment from abroad.\n C developing real estate requires services.\n\n\n30 The largest portion of household spending in China goes towards\n A education.\n B accommodation.\n C travel."
+    },
+    {
+      "id": "g31",
+      "start": 31,
+      "end": 35,
+      "text": "Questions 31–35\nComplete the following sentences using NO MORE THAN THREE WORDS from the text.\n\n\nChina is not really a rival to India in the role of an 31 _________________.\nMost tourism in China is 32 _________________.\nMany transactions in the real estate and leisure industries are in cash and\nthat leads to 33 _________________.\nMost private business in China is 34 _________________ in the service\nsector.\nChina has brought far less 35 _________________ into services, slowing\ndevelopment of that sector."
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36–40\nDo the following statements agree with the information given in Reading Passage 3?\nIn boxes 36–40 on your answer sheet, write:\n TRUE                     if the statement agrees with the information\n\n FALSE                    if the statement contradicts the information\n\n NOT GIVEN                if there is no information on this\n36 _________________ Officially, the largest sector in China is the service sector.\n37 _________________ Some of the newly discovered GDP comes from the education sector.\n38 _________________ Dalian is a successful outsourcing centre for Japan and Korea.\n39 _________________ As visa restrictions are lowered, Chinese people are expected to\nspend more than $300 billion on tourism.\n40 _________________ China’s services sector is about the same size as Japan’s and South\nKorea’s."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "“The world’s factory” refers to",
+      "translation": "原來這個「世界工廠」旁邊還有一個相當大的飯堂，更有辦公大樓和購物中心。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "It is not easy to measure the finances of",
+      "translation": "然而，在許多這類企業中，營業額和利潤過去沒有被一套偏向量度工廠生產的統計系統捕捉到。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "Real estate has helped increase the size of the service economy because",
+      "translation": "第三類活動是房地產，尤其在沿海城市興旺起來，內陸地區也越來越活躍，並吸引大量私人資金流入，其中也包括海外投機者。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "The largest portion of household spending in China goes towards",
+      "translation": "中國家庭在教育上的花費比任何項目都多，除了住房之外。",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 31 · 請參照上方原題",
+      "translation": "例如，中國正以較小規模開始和印度競爭外判中心的角色。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 32 · 請參照上方原題",
+      "translation": "較富裕的家庭也帶來旅遊熱潮，而這股熱潮仍然主要是國內旅遊。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 33 · 請參照上方原題",
+      "translation": "GDP 修訂仍無法捕捉一些活動，例如路邊借貸，以及房地產或娛樂業中避稅的現金交易。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 34 · 請參照上方原題",
+      "translation": "中國對私人企業仍然抱有疑心，而私人企業主要集中在服務業。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g31",
+      "type": "text",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "更糟的是，雖然中國很早就決定吸引外國直接投資進入製造業，但它一直不太願意開放服務業。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Officially, the largest sector in China is the service sector.",
+      "translation": "按官方數字，中國最大的經濟部門是服務業。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Some of the newly discovered GDP comes from the education sector.",
+      "translation": "部分新發現的 GDP 來自教育 sector。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ Dalian is a successful outsourcing centre for Japan and Korea.",
+      "translation": "大連是為日本和韓國服務的成功外判中心。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ As visa restrictions are lowered, Chinese people are expected to spend more than $300 billion on tourism.",
+      "translation": "隨著簽證限制放寬，中國人預計會在旅遊上花超過 3000 億美元。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "choice",
+      "prompt": "_________________ China’s services sector is about the same size as Japan’s and South Korea’s.",
+      "translation": "中國服務業和日本、南韓的服務業大約一樣大。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-097/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-097/page-5.jpg"
+  ]
+}

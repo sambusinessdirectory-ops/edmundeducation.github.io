@@ -1,0 +1,215 @@
+{
+  "id": "p2-047",
+  "catalogueId": "p2-047",
+  "title": "The History of Pencil",
+  "sourceHeading": "The History of the Pencil",
+  "passage": 2,
+  "practice": 47,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-047-the-history-of-pencil",
+  "source": {
+    "filename": "Practice 47 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "54f35161a612c38aa3597aff926d37e0b8706bfb517f7a5c3d4352dcad87fbb8"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The story of the pencil began with a lightning strike. Graphite, the principal material used to make pencils, was discovered at Borrowdale in England in 1564, when lightning struck a local tree during a storm. Local people found that the black substance at the roots of the unfortunate tree differed from the ash of burnt wood. It was soft and left marks everywhere. Chemistry was still in its infancy, so people mistook the substance for lead, which is equally black but much heavier. Local people soon used it to mark their sheep for ownership and counting."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Britain became a major source of mined graphite, but the first pencil was invented elsewhere. Because graphite is soft, it requires some form of casing. In Italy, graphite sticks were initially wrapped in string or sheepskin for stability, creating what may have been the world’s first pencils. Around 1560, an Italian couple produced what were probably the first plans for the modern wood-cased carpenter’s pencil. Their version was flat, oval and more compact, and was made by hollowing out a stick of juniper wood. Soon afterwards, in 1662, German craftspeople developed a superior technique: they carved two wooden halves, inserted a graphite stick and glued the halves together—essentially the same method used today. News of these early pencils spread widely and attracted artists throughout the known world."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Although a pencil’s graphite core is still called its lead, modern pencils contain no lead. The ‘lead’ is actually a mixture of finely ground graphite and clay powders. This mixture is important because the amount of clay added determines the pencil’s hardness, while the time spent grinding the mixture determines the lead’s quality. The more clay that is added, the harder the core becomes. Many pencils around the world, and almost all in Europe, are graded using the European system. This naming system uses B for black and H for hard. A pencil’s grade may be described by a sequence of Hs or Bs, such as BB and BBB for progressively softer leads and HH and HHH for progressively harder ones. The standard writing pencil is graded HB."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "In England, pencils continued to be made from whole pieces of sawn graphite. With mass production, however, pencils became dramatically more popular in many countries with each passing decade. As demand rose, so did the appetite for graphite."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "According to the United States Geological Survey, global production of natural graphite in 2012 totalled 1,100,000 tonnes. The major producers included China, India, Brazil, North Korea and Canada. In contrast to its familiar use in pencils, graphite was also widely employed by the military. During the reign of Elizabeth I, Borrowdale graphite was used as a refractory lining for cannonball moulds, producing rounder, smoother balls that could be fired farther and thereby strengthening the English navy. This particular graphite deposit was extremely pure and soft and could easily be broken into sticks. Because of its military importance, the Crown strictly controlled this unique mine and its output."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The claim that the United States did not use pencils in space until it spent $1,000 developing a zero-gravity pencil is fiction. Russian astronauts are widely known to have used grease pencils, which did not present a breakage problem. Their American counterparts also used pencils in space before a true zero-gravity pencil was invented. The Americans favoured mechanical pencils, which produced finer, clearer lines than the smudged lines left by the grease pencils favoured by the Russians. However, the lead tips of mechanical pencils broke frequently. A fragment of graphite floating around a space capsule could enter someone’s eye or find its way into machinery or electronics, causing a short circuit or other problems. Although the Americans later invented zero-gravity pencils, they continued using mechanical pencils for many years."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Against the backdrop of a digitised world, the pencil’s prospects may seem bleak. In reality, they are not. Pencils are now used so widely that they can be found everywhere, including classrooms, meeting rooms and art studios. A broad range of people will probably continue using them: students for mathematics, artists for sketching, waiters and waitresses for recording orders, make-up artists for applying cosmetics, and architects for producing blueprints. The possibilities seem limitless."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–20",
+    "g21": "Questions 21–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 20,
+      "text": "Questions 14–20\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in boxes 14–20 on your answer sheet.\nGraphite was found beneath a 14 _________________ at Borrowdale. It was messy to use\nbecause it was 15 _________________.\nEarly users employed graphite to mark 16 _________________. People found graphite 17\n_________________ in Britain.\nThe first pencil consisted of graphite wrapped in 18 _________________ or animal skin.\nBecause graphite was too soft, 19 _________________ was added to make it harder.\nRussian astronauts preferred 20 _________________ pencils for writing in space."
+    },
+    {
+      "id": "g21",
+      "start": 21,
+      "end": 26,
+      "text": "Questions 21–26\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 21–26 on your answer sheet, write\n\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n21 _________________ Italy was probably the first country in the world to make pencils.\n22 _________________ German craftspeople used several kinds of wood to make pencils.\n23 _________________ Graphite makes a pencil harder and sharper.\n24 _________________ Pencils are no longer produced in Britain.\n25 _________________ American astronauts did not use pencils in space.\n26 _________________ Pencils are unlikely to be used in the future."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "Graphite 在 Borrowdale 的一棵 ______ 下面被發現。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 15 · 請參照上方原題",
+      "translation": "它用起來很容易弄髒，因為它很 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "早期使用者用 graphite 來標記 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "人們發現 Britain 有被 ______ 的 graphite / Britain 是 graphite 的開採來源。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "第一種鉛筆由 graphite 組成，外面包著 ______ 或動物皮。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "因為 graphite 太軟，所以加入 ______ 令它更硬。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "Russian astronauts 較喜歡用 ______ pencils 在太空書寫。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Italy was probably the first country in the world to make pencils.",
+      "translation": "Italy 可能是世界上第一個製作鉛筆的國家。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ German craftspeople used several kinds of wood to make pencils.",
+      "translation": "德國工匠使用了幾種不同木材來製作鉛筆。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Graphite makes a pencil harder and sharper.",
+      "translation": "Graphite 令鉛筆更硬、更尖銳。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Pencils are no longer produced in Britain.",
+      "translation": "Britain 現在已經不再生產鉛筆。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ American astronauts did not use pencils in space.",
+      "translation": "美國太空人在太空中沒有使用鉛筆。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g21",
+      "type": "choice",
+      "prompt": "_________________ Pencils are unlikely to be used in the future.",
+      "translation": "鉛筆將來不太可能被使用。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-047/page-5.jpg"
+  ]
+}

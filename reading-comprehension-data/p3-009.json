@@ -1,0 +1,258 @@
+{
+  "id": "p3-009",
+  "catalogueId": "p3-009",
+  "title": "PROBLEM SOLVING AND DECISION MAKING",
+  "sourceHeading": "PROBLEM SOLVING AND DECISION MAKING",
+  "passage": 3,
+  "practice": 9,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-009-problem-solving-and-decision-making",
+  "source": {
+    "filename": "Practice 9 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "6dfa714d9a94b0cd61af2387d78f8f9b37caaad0661d7c9b9280ebd5713413dd"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "In the business world, much as in life in general, there are challenges that need to be faced, problems that need solutions and decisions that need to be made and acted upon. Over recent years, the psychology behind problem solving and decision making in a business context has been analysed and taught at a tertiary level."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Marie Scrive, senior lecturer at Carling University, argues that poor management skills can be identified in many arenas, but few are perhaps as illustrative as the ability to make accurate judgements about a course of action to overcome an obstacle. She argues that there is a tendency for decisions to be made quickly, leading to only short term solutions and a recurrence of the problem at a later date. Pressure from other managers, senior staff or even employees can cause those in middle management to make decisions based quickly, reacting at speed to a problem that would have been better solved by a calmer, more inclusive style of management, However, Martin Hewings, author of Strategic Thinking, believes that the root of the issue is not in the speed at which a response is required but in a flawed way of looking at the problem from the outset. His argument is that most repetitive problems are actually not permanently resolved because of a lack of focus as to the true nature of the problem. He advocates a system whereby the problem must be clearly defined before the appropriate course of action can be decided upon, and this is achieved by applying questions to the problem itself: why is this happening? When is this happening? With whom is this happening?"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Garen Filke, Managing Director of a large paper supply company, has put Hewings’ steps to the test, and although he referred to the results as ‘potentially encouraging’, there remains the feeling that the focus on who is causing the problem, and this in itself is the main reason for any implemented solution to falter if not fail. With over 30 years of management experience, Filke holds that looking at the problem as an organic entity in itself, without reference to who may be at fault, or at least exacerbating the issue, is the only way to find a lasting solution. Finger-pointing and blaming leads to an uncomfortable work environment where problems grow, and ultimately have a detrimental effect on the productivity of the workplace."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Anne Wicks believes that our problem solving abilities are first run through five distinct filters, and that good managers are those that can negotiate these filters to arrive at an unbiased, logical and clear solution. Wicks has built the filters into a ladder through which all decisions have the potential to be coloured, the first step being programming – from the day we are born, there is an amount of conditioning that means we accept or reject certain points of view, almost a reflex action. Programming will of course vary from person to person, but is often more marked when comparing nationalities. Our programming is the base of our character, but this is then built on our beliefs, remembering that for someone to believe something does not necessarily mean it is true. So having built from programming to belief, Wicks argues that next on the ladder are our feelings – how we personally react to an issue will skew how we look at solving it. If you feel that someone involved is being unfair or unreasonable, then a solution could over-compensate for this, which of course would not be effective in the long run. This has the potential to impact on the next step – our attitudes. This involves not only those attitudes that are resistant to change, but also the daily modifications in how we feel – our mood. A combination of all these steps on the ladder culminate in our actions – what we choose to do or not do – and this is the step that most directly controls the success or failure of the decision making process."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "For some, however, the more psycho-analytical approach to problem solving has little place in a business decision – a point of view held by John Tate, former CEO of Allied Enterprise and Shipping, who believes the secret behind a solid decision is more mechanical. Tate argues that a decision should be made after a consideration of all alternatives, and a hierarchical structure that then takes responsibility for the decision and, most importantly, follows that decision through to verify whether the problem has indeed been resolved. From his point of view, a flawed decision is not one that did not work, but one that was decided on by too many people leaving no single person with sufficient accountability to ensure its success."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27-33\n\nMatch each statement with the correct person.\n\nWrite the correct answer A-D in boxes 27-33 on your answer sheet.\n\n          List of People\n\n\n A        Marie Scrive\n\n\n B        Martin Hewings\n\n\n C        Garen Filke\n\n\n D        Anne Wicks\n\n\n E        John Tate\n\n27 ______________ A successful solution can only be found when there is a clear\ncorporate structure for decision making.\n\n\n\n28 ______________ Decisions made without full consideration of the details are a\npotential by-product of pressure.\n\n\n\n29 ______________ Decision making that does not look into motives for the issue is\nthe primary reason for continued problems.\n\n\n\n30 ______________ Poor decision making is the most easily identified form of weak\nmanagerial ability.\n\n\n\n31 ______________ Seeking a staff member on whom responsibility can be placed can\nhave negative effects.\n\n\n\n32 ______________ Decision making abilities are at least partly formulated long\nbefore they have any business application.\n\n\n\n33 ______________ Long term solutions can only be found by asking the right\nquestions."
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 37,
+      "text": "Questions 34-37\n\nComplete the flowchart below. Choose ONE WORD ONLY from the passage for each\nanswer. Write your answers in boxes 34 to 37 on your answer sheet.\n\nACTIONS\n\nwhat we opt to either do or not do\n\n↑\n\n\nATTITUDES\n\ncan be short term and relate to 37 ________________ at a particular time\n\n↑\n\n\n36________________\n\ncould lead to complications when reacting to others\n\n↑\n\n\nBELIEFS\n\npossibly only personally held beliefs, not necessarily universally 35\n________________\n\n↑\n\n\n34 ________________\n\nconditioned to react; often influenced by place of birth"
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38-40\n\nDo the following statements agree with the views given in Reading Passage 3?\n\nIn boxes 38-40 on your answer sheet write\n\n    YES            if the statement agrees with the views of the writer\n\n\n    NO             if the statement contradicts the views of the writer\n\n\n    NOT GIVEN      if it is impossible to say what the writer thinks about this\n\n\n\n38 ________________ It is only in recent years that the mental processes behind\ndecision making have been studied.\n\n\n39 ________________ Garen Filke completely disagrees with the conclusion drawn by\nMartin Hewings.\n\n\n40 ________________ John Tate believes that successful decision making is not related\nto psychology."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ A successful solution can only be found when there is a clear corporate structure for decision making.",
+      "translation": "只有在決策有清楚企業架構時，才可能找到成功的解決方案。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ Decisions made without full consideration of the details are a potential by-product of pressure.",
+      "translation": "在壓力之下，管理者可能未充分考慮細節便作決定。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ Decision making that does not look into motives for the issue is the primary reason for continued problems.",
+      "translation": "決策如果沒有探究問題背後的原因，就會成為問題持續出現的主要原因。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ Poor decision making is the most easily identified form of weak managerial ability.",
+      "translation": "差劣決策是最容易看出管理能力不足的一種表現。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ Seeking a staff member on whom responsibility can be placed can have negative effects.",
+      "translation": "尋找某個可以歸責的員工，可能帶來負面影響。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ Decision making abilities are at least partly formulated long before they have any business application.",
+      "translation": "人在商業場合使用決策能力之前，這些能力至少已有部分在很早以前形成。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "______________ Long term solutions can only be found by asking the right questions.",
+      "translation": "長遠解決方案只能透過提出正確問題來找到。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "text",
+      "prompt": "________________ conditioned to react; often influenced by place of birth",
+      "translation": "被制約去作出反應；常受出生地影響。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "Question 35 · 請參照上方原題",
+      "translation": "信念可能只是個人持有的看法，未必普遍為真。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 36 · 請參照上方原題",
+      "translation": "在對他人作出反應時，可能導致複雜問題。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "text",
+      "prompt": "Question 37 · 請參照上方原題",
+      "translation": "態度可以是短期的，與某一刻的心情有關。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "________________ It is only in recent years that the mental processes behind decision making have been studied.",
+      "translation": "決策背後的心理過程只是在近年才開始被研究。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "________________ Garen Filke completely disagrees with the conclusion drawn by Martin Hewings.",
+      "translation": "Garen Filke 完全不同意 Martin Hewings 得出的結論。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "________________ John Tate believes that successful decision making is not related to psychology.",
+      "translation": "John Tate 認為成功決策與心理學關係不大。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-009/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-009/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-009/page-7.jpg",
+    "/assets/reading-comprehension/questions/p3-009/page-8.jpg"
+  ]
+}

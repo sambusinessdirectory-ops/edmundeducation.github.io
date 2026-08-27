@@ -1,0 +1,294 @@
+{
+  "id": "p2-101",
+  "catalogueId": "p2-101",
+  "title": "ROBOTS",
+  "sourceHeading": "Robots Since the dawn of human ingenuity, people have devised ever more cunning tools to cope with work that is dangerous, boring, onerous, or just plain nasty. That compulsion has culminated in robotics – the science of conferring various human capabilities on machines.",
+  "passage": 2,
+  "practice": 101,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-101-robots",
+  "source": {
+    "filename": "Practice 101 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "de852e41b43cda87546d7ce80b9de4baef7380217c46cba2b9bc9b746240fab4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The modern world is increasingly populated by quasi-intelligent gizmos whose presence we barely notice but whose creeping ubiquity has removed much human drudgery. Our factories hum to the rhythm of robot assembly arms. Our banking is done at automated teller terminals that thank us with rote politeness for the transaction. Our subway trains are controlled by tireless robo-drivers. Our mine shafts are dug by automated moles, and our nuclear accidents – such as those at Three Mile Island and Chernobyl – are cleaned up by robotic muckers fit to withstand radiation. Such is the scope of uses envisioned by Karel Capek, the Czech playwright who coined the term ‘robot’ in 1920 (the word ‘robota’ means ‘forced labour’ in Czech). As progress accelerates, the experimental becomes the exploitable at record pace."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Other innovations promise to extend the abilities of human operators. Thanks to the incessant miniaturisation of electronics and micromechanics, there are already robot systems that can perform some kinds of brain and bone surgery with submillimetre accuracy – far greater precision than highly skilled physicians can achieve with their hands alone. At the same time, techniques of long-distance control will keep people even farther from hazard. In 1994 a ten-foot-tall NASA robotic explorer called Dante, with video-camera eyes and spiderlike legs, scrambled over the menacing rim of an Alaskan volcano while technicians 2,000 miles away in California watched the scene by satellite and controlled Dante’s descent."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "But if robots are to reach the next stage of labour-saving utility, they will have to operate with less human supervision and be able to make at least a few decisions for themselves – goals that pose a formidable challenge. ‘While we know how to tell a robot to handle a specific error,’ says one expert, ‘we can’t yet give a robot enough common sense to reliably interact with a dynamic world.’ Indeed the quest for true artificial intelligence (AI) has produced very mixed results. Despite a spasm of initial optimism in the 1960s and 1970s, when it appeared that transistor circuits and microprocessors might be able to perform in the same way as the human brain by the 21st century, researchers lately have extended their forecasts by decades if not centuries."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "What they found, in attempting to model thought, is that the human brain’s roughly one hundred billion neurons are much more talented – and human perception far more complicated – than previously imagined. They have built robots that can recognise the misalignment of a machine panel by a fraction of a millimetre in a controlled factory environment. But the human mind can glimpse a rapidly changing scene and immediately disregard the 98 per cent that is irrelevant, instantaneously focusing on the woodchuck at the side of a winding forest road or the single suspicious face in a tumultuous crowd. The most advanced computer systems on Earth can’t approach that kind of ability, and neuroscientists still don’t know quite how we do it."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Nonetheless, as information theorists, neuroscientists, and computer experts pool their talents, they are finding ways to get some lifelike intelligence from robots. One method renounces the linear, logical structure of conventional electronic circuits in favour of the messy, ad hoc arrangement of a real brain’s neurons. These ‘neural networks’ do not have to be programmed. They can ‘teach’ themselves by a system of feedback signals that reinforce electrical pathways that produce correct responses and, conversely, wipe out connections that produce errors. Eventually the net wires itself into a system that can pronounce certain words or distinguish certain shapes."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "In other areas researchers are struggling to fashion a more natural relationship between people and robots in the expectation that someday machines will take on some tasks now done by humans in, say, nursing homes. This is particularly important in Japan, where the percentage of elderly citizens is rapidly increasing. So experiments at the Science University of Tokyo have created a ‘face robot’ – a life-size, soft plastic model of a female head with a video camera embedded in the left eye – as a prototype. The researchers’ goal is to create robots that people feel comfortable around. They are concentrating on the face because they believe facial expressions are the most important way to transfer emotional messages. We read those messages by interpreting expressions to decide whether a person is happy, frightened, angry, or nervous. Thus the Japanese robot is designed to detect emotions in the person it is ‘looking at’ by sensing changes in the spatial arrangement of the person’s eyes, nose, eyebrows, and mouth. It compares those configurations with a database of standard facial expressions and guesses the emotion. The robot then uses an ensemble of tiny pressure pads to adjust its plastic face into an appropriate emotional response."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "Other labs are taking a different approach, one that doesn’t try to mimic human intelligence or emotions. Just as computer design has moved away from one central mainframe in favour of myriad individual workstations – and single processors have been replaced by arrays of smaller units that break a big problem into parts that are solved simultaneously – many experts are now investigating whether swarms of semi-smart robots can generate a collective intelligence that is greater than the sum of its parts. That’s what beehives and ant colonies do, and several teams are betting that legions of mini-critters working together like an ant colony could be sent to explore the climate of planets or to inspect pipes in dangerous industrial situations."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–24",
+    "g25": "Questions 25–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nReading Passage 2 has seven paragraphs, A–G.\nFrom the list of headings below choose the most suitable heading for each paragraph.\nWrite the appropriate numbers (i–x) in boxes 14–19 on your answer sheet.\n\n                         List of Headings\n\n i                       Some success has resulted from observing how the brain functions.\n\n ii                      Are we expecting too much from one robot?\n\n iii                     Scientists are examining the humanistic possibilities.\n\n iv                      There are judgements that robots cannot make.\n\n v                       Has the power of robots become too great?\n\n vi                      Human skills have been heightened with the help of robotics.\n\n vii                     There are some things we prefer the brain to control.\n\n viii                    Robots have quietly infiltrated our lives.\n\n ix                      Original predictions have been revised.\n\n x                       Another approach meets the same result.\n\n 14 _____________        Paragraph A\n\n 15 _____________        Paragraph B\n\n 16 _____________        Paragraph C\n\n 17 _____________        Paragraph D\n\n 18 _____________        Paragraph E\n\n 19 _____________        Paragraph F\nExample Answer\nParagraph G ii"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 24,
+      "text": "Questions 20–24\nDo the following statements agree with the information given in Reading Passage 2? In boxes\n20–24 on your answer sheet write\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n20 _________________ Karel Capek successfully predicted our current uses for robots.\n21 _________________ Lives were saved by the NASA robot, Dante.\n22 _________________ Robots are able to make fine visual judgements.\n23 _________________ The internal workings of the brain can be replicated by robots.\n24 _________________ The Japanese have the most advanced robot systems."
+    },
+    {
+      "id": "g25",
+      "start": 25,
+      "end": 27,
+      "text": "Questions 25–27\nComplete the summary below with words taken from paragraph F.\nUse NO MORE THAN THREE WORDS for each answer.\nWrite your answers in boxes 25–27 on your answer sheet.\nThe prototype of the Japanese ‘face robot’ observes humans through a 25\n_________________ which is embedded in its head. It then refers to a 26\n_________________ of typical ‘looks’ that the human face can have, to decide what\nemotion the person is feeling. To respond to this expression, the robot alters its own\nexpression using a number of 27 _________________."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "_____________ Paragraph F Example Answer Paragraph G ii",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Karel Capek successfully predicted our current uses for robots.",
+      "translation": "Karel Capek 成功預見了我們今天對 robots 的用途。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Lives were saved by the NASA robot, Dante.",
+      "translation": "NASA 機械人 Dante 拯救了人的生命。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ Robots are able to make fine visual judgements.",
+      "translation": "Robots 能作出精細的視覺判斷。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ The internal workings of the brain can be replicated by robots.",
+      "translation": "人腦內部運作可以被 robots 複製。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g20",
+      "type": "choice",
+      "prompt": "_________________ The Japanese have the most advanced robot systems.",
+      "translation": "日本人擁有最先進的 robot systems。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 25 · 請參照上方原題",
+      "translation": "日本 “face robot” 的原型透過一個嵌在頭部的 __________ 觀察人類。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 26 · 請參照上方原題",
+      "translation": "然後它參考一個人臉典型「樣貌」的 __________，以判斷那個人正感受到甚麼情緒。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g25",
+      "type": "text",
+      "prompt": "Question 27 · 請參照上方原題",
+      "translation": "為了回應這個表情，robot 會使用多個 __________ 來改變自己的表情。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-101/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-101/page-6.jpg"
+  ]
+}

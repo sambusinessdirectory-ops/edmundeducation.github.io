@@ -1,0 +1,271 @@
+{
+  "id": "p2-057",
+  "catalogueId": "p2-057",
+  "title": "The automobile’s history",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 57,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-057-the-automobiles-history",
+  "source": {
+    "filename": "Practice 57 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "7c69a4494ccaa8c7c48d83f839dfe1939aa6d5e14e7b3e488cb0e4831840eaa6"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "The History of the Automobile The history of the automobile dates back to 1769, when steam-powered vehicles were invented to carry people. In 1806, the first cars powered by an internal combustion engine came into being, paving the way for the widespread modern petrol-fuelled internal-combustion engine introduced in 1885."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "It is generally acknowledged that the first practical automobiles equipped with petrol- or gasoline-powered internal combustion engines were invented almost at the same time by different German inventors who were working on their own. Karl Benz built his first automobile in 1885 in Mannheim. Benz obtained a patent for his invention on 29 January 1886, and in 1888, he started to produce automobiles in a company that later became the renowned Mercedes-Benz."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "At the beginning of the twentieth century, the automobile entered the transport market as a product for the wealthy. Drivers at that time were an adventurous bunch; they would go out regardless of the weather, even though they were not protected by an enclosed body or a convertible top. Everybody in the community knew who owned what car, and cars immediately became a symbol of identity and status. Later, cars became more popular among the public because they allowed people to travel whenever and wherever they wanted. Thus, the price of automobiles in Europe and North America kept dropping, and more people from the middle class could afford them. This growing affordability was due especially to Henry Ford, who did two crucial things. First, he set the price of his cars as low as possible; second, he paid his employees wages high enough to afford the cars they made."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The United States led the adoption of interchangeable parts and assembly-line mass production, and from 1914, this concept was significantly reinforced by Henry Ford. This marked the debut of large-scale production-line manufacture of affordable automobiles. A Ford car came off fully assembled from the line every 15 minutes, an interval shorter than with any previous method. It not only raised productivity but also reduced labour requirements. Ford significantly lowered the chance of injury by carrying out complicated safety procedures in production—particularly assigning workers to specific locations rather than giving them the freedom to wander around. This mixture of high wages and high efficiency was known as Fordism, which provided a valuable lesson for most major industries."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The prototype Bantam BRC was the first Jeep automobile and the primary light four-wheel-drive vehicle used by the US Army and the Allies. During World War II and the postwar period, sales of Jeeps skyrocketed. Since then, many Jeep derivatives with similar military and civilian functions have been created and continuously upgraded in other countries."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Throughout the 1950s, engine power and vehicle speeds increased, designs evolved into more integrated and artistic forms, and car ownership expanded globally. In the 1960s, the landscape changed as Detroit was confronted with foreign competition. European manufacturers used the latest technology, and Japan came into the picture as a serious automobile producer. General Motors, Chrysler, and Ford dabbled with radical small cars such as the GM A-bodies with little success. As joint ventures such as the British Motor Corporation consolidated the market, captive imports and badge-engineered cars proliferated throughout the US and the UK. BMC first launched a revolutionary space-efficient Mini in 1959, which went on to achieve strong global sales. Previously sold under the Austin and Morris names, the Mini became an individual marque in 1969. Corporate consolidation also reached Italy when niche makers such as Maserati, Ferrari, and Lancia were bought by larger enterprises. By the end of the 20th century, there had been a sharp fall in the number of automobile marques."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "In the US, car performance dominated marketing, as exemplified by pony cars and muscle cars. However, in the 1970s, everything changed as the American automobile industry suffered from the 1973 oil crisis, competition with Japanese and European imports, automobile emission-control regulations and a lack of innovation. The irony in all this was that full-size sedans such as Cadillac and Lincoln scored a huge comeback during the economic crisis."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "On the technology front, the most important developments of the post-war era were the widespread use of independent suspension, wider application of fuel injection, and a growing emphasis on safety in automobile design. Mazda achieved considerable success with its rotary engine, which nevertheless acquired a reputation as a polluting gas-guzzler."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The modern era has also witnessed a sharp rise in engine power with the help of computerised engine-management systems. Nowadays, most automobiles in use are powered by an internal combustion engine, fuelled by petrol or diesel. Exhaust gases from both fuels pollute the air and contribute to climate change and global warming."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–19",
+    "g20": "Questions 20–26",
+    "g27": "Questions 27–27"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 19,
+      "text": "Questions 14–19\nLook at the following descriptions (Questions 14–19) and the list of automobile brands below.\nMatch each description with the correct automobile brand, A–G.\nWrite the correct letter, A–G, in boxes 14–19 on your answer sheet.\n\n                          List of Automobile Brands\n\n A                        Ford\n\n B                        the BMC Mini\n\n C                        Cadillac and Lincoln\n\n D                        Mercedes-Benz\n\n E                        Mazda\n\n F                        Jeep\n\n G                        Maserati, Ferrari, and Lancia\n14 ___________ began producing the first practical automobiles\n15 ___________ mass-produced cars that ordinary consumers could afford\n16 ___________ used automobile space efficiently\n17 ___________ continuously improved the car’s overall performance\n18 ___________ achieved strong sales even during an economic recession\n19 ___________ achieved considerable success with a rotary engine"
+    },
+    {
+      "id": "g20",
+      "start": 20,
+      "end": 26,
+      "text": "Questions 20–26\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each\nanswer.\nWrite your answers in boxes 20–26 on your answer sheet.\nWhat important engine feature became widespread in the nineteenth century?\n20 _________________\nWhat did a car symbolise to wealthy people at the beginning of the twentieth century?\n21 _________________\nHow long did Ford’s assembly line take to produce a car?\n22 _________________\nWhat major historical event caused the American automobile industry to struggle against\nJapanese imports?\n23 _________________\nWhat was Mazda’s rotary engine reputed to be?\n24 _________________\nWhat has greatly increased with the use of computerised engine-management systems?\n25 _________________\nWhat substance contributes to pollution, climate change and global warming?\n26 _________________"
+    },
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 27,
+      "text": "Question 27\nChoose the correct letter, A, B, C or D.\n27 What is the main idea of the passage?\n A The influence of cars on the environment.\n B The historical development and innovation in car designs.\n C The beginning of modern gasoline-engine design.\n D The history of humans and the automobile industry."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ began producing the first practical automobiles",
+      "translation": "開始生產第一批實用汽車。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ mass-produced cars that ordinary consumers could afford",
+      "translation": "大量生產普通消費者買得起的汽車。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ used automobile space efficiently",
+      "translation": "有效運用汽車內部空間。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ continuously improved the car’s overall performance",
+      "translation": "持續改善汽車整體性能。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ achieved strong sales even during an economic recession",
+      "translation": "即使在經濟衰退期間也取得強勁銷售。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ achieved considerable success with a rotary engine",
+      "translation": "憑 rotary engine 取得相當成功。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________ What did a car symbolise to wealthy people at the beginning of the twentieth century?",
+      "translation": "十九世紀有哪一項重要引擎特徵變得普及？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________ How long did Ford’s assembly line take to produce a car?",
+      "translation": "二十世紀初，汽車對富人來說象徵甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________ What major historical event caused the American automobile industry to struggle against Japanese imports?",
+      "translation": "Ford 的裝配線生產一輛車需要多久？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________ What was Mazda’s rotary engine reputed to be?",
+      "translation": "哪一個重大歷史事件令美國汽車業在面對日本進口車時陷入困境？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________ What has greatly increased with the use of computerised engine-management systems?",
+      "translation": "Mazda 的 rotary engine 有甚麼名聲？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________ What substance contributes to pollution, climate change and global warming?",
+      "translation": "在 computerised engine-management systems 的幫助下，甚麼大幅增加？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g20",
+      "type": "text",
+      "prompt": "_________________",
+      "translation": "哪一種物質造成污染，並促成氣候變化和全球暖化？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "What is the main idea of the passage?",
+      "translation": "本文主旨是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-057/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-057/page-5.jpg"
+  ]
+}

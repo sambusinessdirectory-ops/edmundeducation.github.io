@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <script defer src="/pwa-register.js"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20260822-night-invitation1">
-  <link rel="stylesheet" href="reading-comprehension.css?v=20260827-reading3">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20260827-corpus1">
 </head>
 <body>
   <a class="skip-link" href="#reading-main">跳至主要內容</a>
@@ -70,7 +70,7 @@
     <section class="view" data-view="dashboard" hidden>
       <section class="dashboard-hero panel">
         <div><p class="eyebrow">READING COMPREHENSION</p><h1>閱讀理解學習系統</h1><p data-welcome>選擇一篇文章開始練習。</p></div>
-        <div class="dashboard-count"><strong>01</strong><span>篇閱讀練習</span></div>
+        <div class="dashboard-count"><strong data-catalogue-count>437</strong><span>篇閱讀練習</span></div>
       </section>
       <button class="progress-disclosure panel" type="button" data-progress-toggle aria-expanded="false" aria-controls="reading-progress-panel">
         <span><strong>查看練習進展</strong><small>按日期查看完成題數與練習時間</small></span><span data-progress-label>展開 ＋</span>
@@ -99,6 +99,11 @@
           <div class="reading-bookmark-list" data-reading-bookmark-list></div>
         </div>
       </section>
+      <section class="catalogue-tools panel" aria-label="搜尋閱讀練習">
+        <label>搜尋文章或練習編號<input type="search" data-catalogue-search placeholder="文章名稱 / Practice 編號" autocomplete="off"></label>
+        <p data-catalogue-status role="status">正在載入文章目錄…</p>
+      </section>
+      <div data-exercise-catalogue>
       <section class="exercise-list panel" aria-labelledby="exercise-list-title" data-passage-page="1">
         <div><p class="eyebrow">IELTS READING · PASSAGE 1</p><h2 id="exercise-list-title">Albert Einstein</h2><p>Practice 69 · 5 個段落 · 13 題</p></div>
         <div class="exercise-actions">
@@ -110,6 +115,8 @@
       </section>
       <section class="empty-passage panel" data-passage-page="2" hidden><p class="eyebrow">IELTS READING · PASSAGE 2</p><h2>Passage 2</h2><p>練習內容即將加入。</p></section>
       <section class="empty-passage panel" data-passage-page="3" hidden><p class="eyebrow">IELTS READING · PASSAGE 3</p><h2>Passage 3</h2><p>練習內容即將加入。</p></section>
+      </div>
+      <nav class="catalogue-pagination" aria-label="文章目錄分頁"><button class="secondary-button" type="button" data-catalogue-previous>← 上一頁</button><span data-catalogue-page></span><button class="secondary-button" type="button" data-catalogue-next>下一頁 →</button></nav>
       <section class="history panel"><div class="section-heading"><div><p class="eyebrow">ATTEMPT RECORD</p><h2>練習記錄</h2></div><button class="secondary-button" type="button" data-refresh-dashboard>重新整理</button></div><div data-history-list><p class="empty-state">尚未有練習記錄。</p></div></section>
     </section>
 
@@ -122,7 +129,7 @@
         <button type="button" data-answer-progress-toggle aria-expanded="true" aria-controls="answer-progress-content">隱藏進度</button>
       </div>
       <section class="exercise-header panel">
-        <div><button class="text-button" type="button" data-back-dashboard>← 返回閱讀練習</button><p class="eyebrow">PRACTICE 69 · IELTS READING · PASSAGE 1</p><h1>Albert Einstein</h1></div>
+        <div><button class="text-button" type="button" data-back-dashboard>← 返回閱讀練習</button><p class="eyebrow" data-exercise-kicker>PRACTICE 69 · IELTS READING · PASSAGE 1</p><h1 data-exercise-title>Albert Einstein</h1></div>
         <div class="timer-card" data-timer-card>
           <div class="timer-display"><span data-timer-mode-label>計時（選用）</span><time data-timer>00:00</time></div>
           <button class="timer-toggle" type="button" data-timer-toggle>▶ 開始</button>
@@ -137,7 +144,8 @@
           <button class="secondary-button" type="button" data-translation-menu aria-expanded="false">中文翻譯 ▾</button>
           <div class="translation-menu" data-translation-panel hidden>
             <label><input type="checkbox" data-translation-all> 顯示全文翻譯</label>
-            <fieldset><legend>或選擇指定段落</legend><label><input type="checkbox" data-translation-paragraph="1"> 第 1 段</label><label><input type="checkbox" data-translation-paragraph="2"> 第 2 段</label><label><input type="checkbox" data-translation-paragraph="3"> 第 3 段</label><label><input type="checkbox" data-translation-paragraph="4"> 第 4 段</label><label><input type="checkbox" data-translation-paragraph="5"> 第 5 段</label></fieldset>
+            <fieldset data-translation-options><legend>或選擇指定段落</legend><label><input type="checkbox" data-translation-paragraph="1"> 第 1 段</label><label><input type="checkbox" data-translation-paragraph="2"> 第 2 段</label><label><input type="checkbox" data-translation-paragraph="3"> 第 3 段</label><label><input type="checkbox" data-translation-paragraph="4"> 第 4 段</label><label><input type="checkbox" data-translation-paragraph="5"> 第 5 段</label></fieldset>
+            <p data-translation-availability hidden>這篇文章的全文中文翻譯尚未加入；現有中文解析可在各題開啟。</p>
             <button class="hide-translations-button" type="button" data-hide-translations>隱藏所有翻譯</button>
           </div>
         </div>
@@ -148,6 +156,7 @@
           <time data-audio-time>00:00 / 00:00</time>
           <label class="speed-control"><span>速度</span><select data-audio-rate><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label>
           <label><input type="checkbox" data-sync-highlight checked> 同步標示</label>
+          <span data-audio-availability hidden>本篇朗讀尚未加入</span>
         </div>
       </section>
 
@@ -176,6 +185,6 @@
   <script src="supabase-config.js"></script>
   <script src="reading-comprehension-audio-manifest.js?v=20260825-reading2"></script>
   <script src="shared-system-nav.js?v=20260822-night-invitation1"></script>
-  <script type="module" src="reading-comprehension.js?v=20260827-reading3"></script>
+  <script type="module" src="reading-comprehension.js?v=20260827-corpus1"></script>
 </body>
 </html>

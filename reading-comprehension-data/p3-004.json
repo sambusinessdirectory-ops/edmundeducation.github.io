@@ -1,0 +1,234 @@
+{
+  "id": "p3-004",
+  "catalogueId": "p3-004",
+  "title": "Criminal Rehabilitation: A Difficult Issue",
+  "sourceHeading": "Criminal Rehabilitation: A Difficult Issue",
+  "passage": 3,
+  "practice": 4,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-004-criminal-rehabilitation-a-difficult-issue",
+  "source": {
+    "filename": "Practice 4 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "88fef29abaa873f16281783db2a7098e94bc1dfa5d65186db944a80a10c18178"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "When convicted criminals have served long terms of imprisonment, it is obvious that, upon their release, one cannot necessarily expect them to be reformed and able to reintegrate into society. In the potentially rough and violent ganglands of prisons, quite the opposite may occur, which raises a difficult dilemma in the criminal justice system. To maintain social order, those who break the law are expected to be punished, yet that same maintenance of order means that rehabilitation must be given a high emphasis."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "The ethic of rehabilitation is based on the assumption that criminal tendencies are not necessarily permanent, and that former inmates can successfully lead lives in which they contribute positively to society. The ultimate goal is to prevent them from reoffending, an event technically known as criminal recidivism. Prisons therefore contain systems of education or therapy, as well as assessment to determine whether inmates have truly developed remorse for past misdeeds, an ability to reintegrate into society, and intentions to do so. Assessing this accurately is a difficult issue, and it must be accepted that there are some people who can never be rehabilitated, however much we try."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "The term psychopath is often used here, one of the key determiners of this condition being an inability to learn from past mistakes. Techniques towards improving their behaviour are thus unlikely to work. Obviously, recidivism is highly correlated with this condition, yet studies have shown that psychopathie prisoners are equally likely to be released from prisons as non-psychopathic ones. This is often explained by the fact that psychopathic individuals develop better strategies at disguising their intentions, and become more adept at tricking others. Treatment and therapy merely give them knowledge of penal and judicial procedures, which they can then twist to their advantage, colloquially known as ‘system cracking’."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Cases such as these reveal the biggest problem with rehabilitation: the difficulty of reading the deepest intentions of human beings. Nevertheless, inmates will be released, and consequently need assistance for their reintegration into society. This is most commonly done through parole, which involves serving the remainder of a sentence outside of prison. This is different from probation, which is used instead of prison sentences, and consequently places greater restrictions upon the subject. A similar system is supervised release, where the subject faces the same restrictions as probation, but only after serving the entire prison sentence. Whatever the case, the parole officer will monitor the released inmate, offering support and assistance wherever possible."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The decision about whether to grant parole usually lies with a parole board. Members may be judges, psychiatrists, criminologists, and appointed citizens from the local community. The common factor is that they all have a good education, and are judged to be of high moral standing. Yet again, trying to assess the inmate’s psychological state and what intentions lie within is problematic at best. Good conduct while inside the prison system is the most obvious prerequisite, but other factors based on the support networks existing outside also play a role. Having already established a permanent residence, and having gained employment, is usually mandatory."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Upon being released on parole, there are still a variety of regulatory conditions to be met. These include the obvious, such as obeying the law, and contacting the parole officer at specified intervals, but may be more individual and specific, such as the non-use of drugs and alcohol, and return to the home residence before a certain time (known as a curfew). Upon ignoring any of these, an arrest warrant is issued, parole time is stopped, and there follows a parole violation hearing. The parole board then makes a decision about whether to revoke the parole (which sees the subject reincarcerated) or to allow parole to continue. As mentioned, such decisions are not a hard science, and mistakes can be made."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "It is this which can make parole a controversial and politically charged issue. It only takes one highly publicised crime from a person on parole to sway public opinion violently against this system. Thus, the political will is often lacking, which has seen, for example, some US states abolish the parole system completely, and others having done so for specific offences. This is often a response to public pressure, rather than a considered assessment of the pros and cons. As always, the same argument applies without parole as an intermediate step, released inmates may face an uphill battle to avoid recidivism, costing society much more in the longer term."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "A more innovative method to encourage rehabilitation is ‘time off for good behaviour’. For each year of imprisonment, it automatically allots inmates who exhibit good behaviour a certain number of days. This means that, year after year, the ‘good time’ is accrued, resulting in an eventual release perhaps one third of the sentence earlier. However, if the inmates commit more than a certain number of infractions, or particularly serious ones, they then forfeit their time, and must complete the full, duration of their sentence."
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–31",
+    "g32": "Questions 32–35",
+    "g36": "Questions 36–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 31,
+      "text": "Questions 27-31\n\nWrite\n\n    TRUE                if the statement agrees with the information\n\n\n    FALSE               if the statement contradicts the information\n\n\n    NOT GIVEN           If there is no information on this\n\n\n\n27 __________ Many prison inmates can become worse in prison.\n\n28 __________ Prisons usually have good education and therapy systems.\n\n29 __________ Psychopathic prisoners often reoffend after being released.\n\n30 __________ Supervised release is stricter than parole.\n\n31 __________ The abolition of the parole system is usually done after much thought."
+    },
+    {
+      "id": "g32",
+      "start": 32,
+      "end": 35,
+      "text": "Questions 32-35\n\nComplete the flow chart.\n\nChoose NO MORE THAN THREE WORDS from the passage for each answer\n\n\n\n\n32 __________\n\n33 __________\n\n34 __________\n\n35 __________"
+    },
+    {
+      "id": "g36",
+      "start": 36,
+      "end": 40,
+      "text": "Questions 36-40\n\nWrite the specific term for each definition.\n\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\n\n Specific Term       Definition\n\n\n 36 __________ reoffending, after being released from prison\n\n\n 37 __________ manipulating prison officials and procedures\n\n\n 38 __________ an alternative to prison sentences\n\n\n 39 __________ having to be at one’s home by a predetermined time\n\n\n 40 __________ time deducted from the sentences of well-behaved prisoners"
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Many prison inmates can become worse in prison.",
+      "translation": "很多囚犯在監獄中可能變得更差。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Prisons usually have good education and therapy systems.",
+      "translation": "監獄通常有良好的教育和治療系統。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Psychopathic prisoners often reoffend after being released.",
+      "translation": "psychopathic prisoners 出獄後經常再次犯罪。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ Supervised release is stricter than parole.",
+      "translation": "Supervised release 比 parole 更嚴格。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "__________ The abolition of the parole system is usually done after much thought.",
+      "translation": "取消 parole system 通常是在深思熟慮之後作出的。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g32",
+      "type": "text",
+      "prompt": "__________",
+      "translation": "parole board 作出建議；這些人受過良好教育，並且具備 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g32",
+      "type": "text",
+      "prompt": "__________",
+      "translation": "由 ______ 監察。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g32",
+      "type": "text",
+      "prompt": "__________",
+      "translation": "subject 違反了一項 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g32",
+      "type": "text",
+      "prompt": "__________",
+      "translation": "會舉行 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g36",
+      "type": "text",
+      "prompt": "__________ reoffending, after being released from prison",
+      "translation": "出獄後再次犯罪。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g36",
+      "type": "text",
+      "prompt": "__________ manipulating prison officials and procedures",
+      "translation": "操控監獄人員和相關程序。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g36",
+      "type": "text",
+      "prompt": "__________ an alternative to prison sentences",
+      "translation": "監禁刑罰的替代方案。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g36",
+      "type": "text",
+      "prompt": "__________ having to be at one’s home by a predetermined time",
+      "translation": "必須在指定時間前回到家中。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g36",
+      "type": "text",
+      "prompt": "__________ time deducted from the sentences of well-behaved prisoners",
+      "translation": "因囚犯行為良好而從刑期中扣減的時間。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-004/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-004/page-6.jpg",
+    "/assets/reading-comprehension/questions/p3-004/page-7.jpg"
+  ]
+}

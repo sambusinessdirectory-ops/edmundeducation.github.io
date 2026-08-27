@@ -1,0 +1,335 @@
+{
+  "id": "p3-096",
+  "catalogueId": "p3-096",
+  "title": "The Immunisation Controversy",
+  "sourceHeading": "The Immunisation Controversy",
+  "passage": 3,
+  "practice": 96,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-096-the-immunisation-controversy",
+  "source": {
+    "filename": "Practice 96 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "bf311ee0a116d328a1f6c21e96178a591f7beb36a452ff6d49f376068fb46696"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Carl Sagan once said, ‘Science loses ground to pseudoscience because the latter seems to offer more comfort.’ Yes, hard science, proven facts, and indisputable logic are often not sufficiently consoling, and thus routinely eliminated from the equation. Never, though, has this been more distressing than with the so-called ‘anti-vaccination’ movement. The end result has been the needless death of very young children, the most helpless of bystanders, and yet it seems there is no end in sight."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "It is strange to believe that vaccination, with such a long and distinguished track record, is now under assault. Smallpox, for example, had killed over half a billion human beings throughout history but was eradicated — completely removed from the face of the Earth — via immunisation programmes. Similarly, polio, rubella, whooping cough, measles, and a slew of other diseases that routinely decimated young people are now, virtually, things of the past. The days of high infant mortality, short life spans, and nasty, brutish lives are indeed long gone, and we owe it all to this crucial insight into disease prevention."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "And this is part of the problem. With the once terrible epidemics lying outside of human memory, a growing number of people are convinced that vaccinations are no longer necessary, and that the small risk of adverse effects outweighs the benefits. One reason for this belief is that many genetic disorders related to brain impairment emerge at around two years of age — that is, the same period in which babies receive vaccinations. If, among a vaccinated group, one in a hundred babies is destined to develop autism, then observable symptoms of the problem will likely appear after a vaccination, leading distraught parents to link one event to the other."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "This misattribution is compounded by the Internet, which now hosts a sprawling network of anti-vaccination lobby groups and websites, filled with unsubstantiated claims, fraudulent research, anecdotal evidence, and the passionate tirades of multitudes, firmly convinced of the correctness of their case. Authority is undermined, statistics ignored, and hard science excluded. Is it so surprising? If creationists and alternative medicine practitioners can gain respectability and widespread public and political support, so too can the pseudoscience of the anti-vaccinationists. When faced with this wave of propaganda, it would be hard for many parents, motivated by the intense desire to protect their children, not to be influenced."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "At this point, it must be clarified that there is no credible evidence whatsoever to support the anti-vaccinationists’ claims. Over a score of peer-reviewed studies have found no link between the MMR (measles/mumps/rubella) vaccine and autism, or even more subtle neurological problems, and support continuing vaccination. The so-called increase in autism so often attributed to vaccinations merely results from more accurate diagnoses. Children who in the past would have been labelled as ‘retarded’ or ‘slow’ are now identified as having one of the three main grades of autism (which is probably genetically determined). Yet this argument falls on deaf ears, and the counter-claimants have succeeded in reducing vaccination rates among certain communities to the extent that outbreaks of preventable childhood illnesses (such as polio, meningitis, and measles) are occurring."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The MMR controversy is a sad case. In 1998, a high-profile paper linked this vaccine to autism. It was later shown that the author was receiving funds from various groups engaged in a lawsuit against vaccine manufacturers, and that the study was both ethically and methodologically faulty. Data had been manipulated, and results misreported. Similar studies found no link whatsoever, and in 2004, the medical journal which hosted the original article formally retracted its conclusion. Yet vaccination rates in the UK had dropped to 80% in the subsequent years. In late 1999, a measles outbreak occurred in North Dublin (which had vaccination rates as low as 60%), resulting in 100 hospitalisations and three deaths."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "One of the key arguments of the anti-vaccinationists is that they have the right to choose their medication. These people attack what they see as the impersonal, intrusive, and uncaring edifice of modern medical science. However, the success of immunisation programmes depends on a sufficiently high proportion of the population being immune, which forces the disease to die out through lack of carriers. If there are enough susceptible individuals to provide a chain of disease transmission, safety is compromised for all, and this is why free choice should not be an issue, particularly when the hard evidence presents an overwhelming case. Personally, I would have thought that when children started dying from preventable diseases, the anti-vaccinationists’ case would also die."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "But there are other agendas at play. Anti-vaccinationists can posture as moral crusaders, dismissing those who support immunisation as being in the pay of big pharmaceutical companies, which they see as dishonest and immoral. Talk show hosts, women’s magazines, paid ‘experts’, lawyers, and media celebrities, all benefit from creating controversy where none exists, while alternative medicine practitioners and snake-oil salesmen all oppose vaccination, believing that their own slew of pills, potions and unproven expensive treatments does the job better. Against all this, how can rational science prevail?"
+    }
+  ],
+  "instructions": {
+    "g27": "Questions 27–33",
+    "g34": "Questions 34–36",
+    "g37": "Questions 37–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g27",
+      "start": 27,
+      "end": 33,
+      "text": "Questions 27–33\nReading Passage Three has eight paragraphs, A–H.\nChoose the correct heading for Paragraphs B–H from the list of headings.\nWrite the correct number, i–x, for each answer.\n\n                          List of Headings\n\n i                        Easy publicity\n\n ii                       Increasing outbreaks of disease\n\n iii                      Some real reasons\n\n iv                       All or nothing\n\n v                        Autism on the rise\n\n vi                       Past successes\n\n vii                      A sad consequence\n\n viii                     An unfortunate coincidence\n\n ix                       A simple explanation\n\n x                        Some dubious evidence\n\n Example                  Answer\n\n Paragraph A              ….. vii ……\n\n 27 ___________           Paragraph B\n\n 28 ___________           Paragraph C\n\n 29 ___________           Paragraph D\n\n 30 ___________           Paragraph E\n\n 31 ___________           Paragraph F\n\n 32 ___________           Paragraph G\n\n 33 ___________           Paragraph H"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 36,
+      "text": "Questions 34–36\nChoose THREE answers from the list and write the correct letter, A–G, next to the questions.\nFor which THREE reasons, A–G, do anti-vaccinationists oppose vaccinations?\n\n\n A Believing they cause problems\n B Wanting to save money\n C Wanting freedom of choice\n D Not believing drug manufacturers\n E The pain of vaccinations\n F The influence of creationists\n G Preferring alternative medicine\n34 __________\n35 __________\n36 __________"
+    },
+    {
+      "id": "g37",
+      "start": 37,
+      "end": 40,
+      "text": "Questions 37–40\nChoose the correct letter, A, B, C, or D.\n37 Autism is\n A sometimes caused by vaccinations.\n B a very subtle neurological disorder.\n C most likely inherited.\n D increasing.\n38 The 1998 paper was\n A the cause of falling vaccination rates.\n B defended by the medical journal.\n C verified by other studies.\n D funded by patients.\n39 Vaccinations\n A have removed most smallpox from the world.\n B are supported by solid evidence.\n C are defended on some websites.\n D are no longer necessary.\n\n40 Alternative medicine practitioners\n A believe vaccinations are generally good.\n B can be impersonal and uncaring.\n C are often supported by politicians.\n D are often quite cheap."
+    }
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph B",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 28,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph C",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph D",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph E",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph F",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph G",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g27",
+      "type": "choice",
+      "prompt": "___________ Paragraph H",
+      "translation": "疫苗接種有悠久而傑出的紀錄。",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "他們認為少量副作用風險大於疫苗好處。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "他們認為少量副作用風險大於疫苗好處。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "他們認為少量副作用風險大於疫苗好處。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Autism is",
+      "translation": "這很可能是由基因決定的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "The 1998 paper was",
+      "translation": "1998 年，一篇高調論文把這種疫苗和 autism 聯繫起來。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Vaccinations",
+      "translation": "二十多項 peer-reviewed studies 都沒有發現 MMR vaccine 和 autism 有關。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g37",
+      "type": "choice",
+      "prompt": "Alternative medicine practitioners",
+      "translation": "如果 creationists 和 alternative medicine practitioners 可以獲得體面地位，以及廣泛的公眾和政治支持……選項 C 的 are often supported by politicians 對應原文 political support。雖然原文不是說每一位 practitioner 都一定有 politician 支持，但選項 C 是四個選項中最能根據原文成立的一項。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-096/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-096/page-5.jpg",
+    "/assets/reading-comprehension/questions/p3-096/page-6.jpg"
+  ]
+}

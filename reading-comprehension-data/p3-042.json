@@ -1,0 +1,306 @@
+{
+  "id": "p3-042",
+  "catalogueId": "p3-042",
+  "title": "E-training",
+  "sourceHeading": "E-Training",
+  "passage": 3,
+  "practice": 42,
+  "version": "20260827-corpus1",
+  "analysisId": "p3-042-e-training",
+  "source": {
+    "filename": "Practice 42 - IETLS 閱讀練習 - Passage 3.pdf",
+    "sha256": "a5659401a850203b8f629603dbb0aeaea77fe1afdcf86427512ccf771c9306f5"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "E-learning is an umbrella term for online learning, web-based training, and technology-delivered instruction, which can greatly benefit corporations. IBM, for instance, claims that the introduction of its e-training programme, Basic Blue, whose purpose is to train new managers, saved the company about $200 million in 1999. Cutting the travel expenses required to bring employees and instructors to a central classroom accounts for the lion’s share of the savings. With an online course, employees can learn from any Internet-connected PC, anywhere in the world. Ernst and Young reduced training costs by 35 per cent while improving consistency and scalability."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "In addition to generally positive economic benefits, other advantages such as convenience, standardised delivery, self-paced learning, and variety of available content have made e-learning a high priority for many corporations. E-learning is widely believed to offer flexible “any time, any place” learning. The claim for “any place” is valid in principle and is a great development. Many people can engage with rich learning materials that were simply unavailable in an era of paper-based or broadcast distance learning. For teaching specific information and skills, e-training holds great promise. It can be especially effective at helping employees prepare for IT certification programmes. E-learning also seems to effectively address topics such as sexual harassment education, safety training and management training — all areas where a clear set of objectives can be identified. Ultimately, training experts recommend a “blended” approach that combines both online and in-person training as the subject requires. E-learning is not a universal solution. But if it helps reduce costs and the number of windowless classrooms filled with snoring students, it definitely has its advantages."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Much of the discussion about implementing e-learning has focused on the technology, but as Driscoll and others have reminded us, e-learning is not just about technology; it also involves many human factors. As any capable manager knows, teaching employees new skills is critical to a smoothly running business. Having said that, however, the traditional route of classroom instruction runs the risk of being expensive, slow and, often, ineffective. Perhaps the classroom’s greatest disadvantage is the fact that it takes employees out of their jobs. Every minute an employee is sitting in a classroom training session is a minute they’re not out on the floor working. It now looks as if there is a way to circumvent these traditional training drawbacks. E-training promises more effective teaching techniques by integrating audio, video, animation, text and interactive materials with the intent of teaching each student at his or her own pace. In addition to higher performance results, there are other immediate benefits to students such as increased time on task, higher levels of motivation, and reduced test anxiety for many learners. A California State University Northridge study reported that e-learners performed 20 per cent better than traditional learners. Nelson reported a significant difference between the mean grades earned by 406 university students in traditional and distance-education classes, with the distance learners outperforming the traditional learners."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "On the other hand, nobody said e-training technology would be cheap. E-training service providers, on average, charge from $10,000 to $60,000 to develop one hour of online instruction. This price varies depending on the complexity of the training topic and the media used. HTML pages are a little cheaper to develop while streaming-video presentations or flash animations cost more. Course content is just the starting point for costs. A complete e-learning solution also includes the technology platform (the computers, applications and network connections that are used to deliver the courses). This technology platform, known as a learning management system (LMS), can either be installed on site or outsourced. Add to this the necessary investments in network bandwidth to deliver multimedia courses, and you’re left holding one heck of a bill. For the LMS infrastructure and a dozen or so online courses, costs can top $500,000 in the first year. These kinds of costs mean that custom e-training is, for the time being, an option only for large organisations. For those companies that have a large enough staff, the e-training concept pays for itself. Aware of this fact, large companies are investing heavily in online training. Today, over half of the 400-plus courses that Rockwell Collins offers are delivered instantly to its clients in an e-learning format, a change that has reduced its annual training costs by 40 per cent. Many other success stories exist."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "E-learning isn’t expected to replace the classroom entirely. For one thing, bandwidth limitations are still an issue in presenting multimedia over the Internet. Furthermore, e-training isn’t suited to every mode of instruction or topic. For instance, it’s rather ineffective at imparting cultural values or building teams. If your company has a unique corporate culture, it would be difficult to convey that to first-time employees through a computer monitor. Group training sessions are more suitable for these purposes. In addition, there is a perceived loss of research time because of the work involved in developing and teaching online classes. Professor Wallin estimated that it required between 500 and 1,000 person-hours, that is, Wallin-hours, to keep the course at the appropriate level of currency and usefulness. (Distance learning instructors often need technical skills, no matter how advanced the courseware system.) That amounts to between a quarter and half of a person-year. Finally, teaching materials require computer literacy and access to equipment. Any e-learning system involves basic equipment and a minimum level of computer knowledge in order to perform the tasks required by the system. A student who does not possess these skills or does not have access to these tools cannot succeed in an e-learning programme."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "While few people debate the obvious advantages of e-learning, systematic research is needed to confirm that learners are actually acquiring and using the skills that are being taught online, and that e-learning is the best way to achieve the outcomes in a corporate environment. Nowadays, a blended-learning approach, which refers to a mix of different learning environments, is gaining popularity. It combines traditional face-to-face classroom methods with more modern computer-mediated activities. According to its proponents, the strategy creates a more integrated approach for both instructors and learners. Formerly, technology-based materials played a supporting role to face-to-face instruction. Through a blended learning approach, technology will be more important."
+    }
+  ],
+  "instructions": {
+    "g28": "Questions 28–33",
+    "g34": "Questions 34–37",
+    "g38": "Questions 38–40"
+  },
+  "questionGroups": [
+    {
+      "id": "g28",
+      "start": 28,
+      "end": 33,
+      "text": "Questions 28–33\n\nThe reading passage has six paragraphs, A–F.\nChoose the correct heading for paragraphs A–F from the list below.\nWrite the correct number, i–x, in boxes 28–33 on your answer sheet.\n\n                           List of Headings\n\n i                         Overview of the benefits of e-training\n\n ii                        IBM’s successful training choice\n\n iii                       Future direction and a new style of teaching\n\n iv                        Learners’ achievement and advanced teaching materials\n\n v                         Limitations of e-training compared with traditional classes\n\n vi                        Multimedia over the Internet can be a solution\n\n vii                       Technology can be a major financial burden\n\n viii                      Distance learners outperform traditional university learners\n\n ix                        Other advantages besides economic considerations\n\n x                         Training delivered through computers\n\n\n28 _____________ Paragraph A\n29 _____________ Paragraph B\n30 _____________ Paragraph C\n31 _____________ Paragraph D\n32 _____________ Paragraph E\n33 _____________ Paragraph F"
+    },
+    {
+      "id": "g34",
+      "start": 34,
+      "end": 37,
+      "text": "Questions 34–37\nThe reading passage has six paragraphs, A–F.\nWhich paragraph contains the following information?\nWrite the correct letter, A–F, in boxes 34–37 on your answer sheet.\n\n\n34 _____________ Project Basic Blue at IBM was highly successful.\n35 _____________ E-learning is a priority for many corporations because of its flexibility.\n36 _____________ The combination of the traditional and e-training environments may prevail.\n37 _____________ An example of rapid electronic delivery for a company’s products to its\ncustomers."
+    },
+    {
+      "id": "g38",
+      "start": 38,
+      "end": 40,
+      "text": "Questions 38–40\nChoose THREE letters, A–E.\nWrite your answers in boxes 38–40 on your answer sheet.\n A Technical facilities are difficult to obtain.\n B Presenting multimedia over the Internet is restricted due to the bandwidth limitations.\n C It is ineffective at imparting unique corporate values to new employees.\n D Employees must spend long periods away from their jobs to attend training.\n E More preparation time is needed to keep the course at a suitable level.\n\n\n\n38 __________\n39 __________\n40 __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph A",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 29,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 30,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 31,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 32,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 33,
+      "group": "g28",
+      "type": "choice",
+      "prompt": "_____________ Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 34,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_____________ Project Basic Blue at IBM was highly successful.",
+      "translation": "IBM 的 Basic Blue project 非常成功。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 35,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_____________ E-learning is a priority for many corporations because of its flexibility.",
+      "translation": "E-learning 因其靈活性而成為許多公司的優先事項。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 36,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_____________ The combination of the traditional and e-training environments may prevail.",
+      "translation": "傳統訓練環境和 e-training 環境的結合可能會成為主流。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 37,
+      "group": "g34",
+      "type": "choice",
+      "prompt": "_____________ An example of rapid electronic delivery for a company’s products to its customers.",
+      "translation": "某公司把產品快速以電子方式傳送給客戶的例子。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 38,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "首先，在 Internet 上呈現 multimedia 時，bandwidth limitations 仍然是一個問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 39,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "首先，在 Internet 上呈現 multimedia 時，bandwidth limitations 仍然是一個問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 40,
+      "group": "g38",
+      "type": "choice",
+      "prompt": "__________",
+      "translation": "首先，在 Internet 上呈現 multimedia 時，bandwidth limitations 仍然是一個問題。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p3-042/page-4.jpg",
+    "/assets/reading-comprehension/questions/p3-042/page-5.jpg"
+  ]
+}

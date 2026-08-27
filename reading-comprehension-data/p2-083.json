@@ -1,0 +1,264 @@
+{
+  "id": "p2-083",
+  "catalogueId": "p2-083",
+  "title": "Subtitling: Some Strategies",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 83,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-083-subtitling-some-strategies",
+  "source": {
+    "filename": "Practice 83 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "02afb74a133926871a578929d2b93024ee89c825d72890d5aab0cea6256551a4"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Subtitling: Some Strategies When movies made in one language are shown to speakers of another, the two methods of resolving the language barrier are subtitling and dubbing. Subtitling is the written translation of the words, usually appearing discreetly at the bottom of the screen, while dubbing is the recording of voices in the target language."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Dubbing, although seemingly more accessible to movie watchers, comes with many disadvantages. For a start, it is expensive; hence, it needs a large audience to justify the cost, yet even big films carry no guarantee of such commercial success. In addition, the dubbed voices may seem detached or inappropriate to the characters, and the absurdity of having an undereducated American ruffian say, ‘Je voudrais déclarer un vol’, can become too much, affecting the audience’s appreciation of the film. Finally, films and TV programmes now have an increasingly rapid turnover rate, and subtitling is faster and more practical in such situations."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "However, one should not assume subtitling is easier than dubbing. Subtitling requires careful strategies, and here I will outline some of them. In order to do this, a sample movie is needed, and the one examined here is an Italian movie subtitled into English. Comprehension of subtitles will always be affected by lack of familiarity with the values, beliefs, and interactive differences between the host and viewing cultures. The subtitlers need to be aware of this in order to convey the intended meaning. Thus, before beginning any work, a brief ‘cultural audit’ is absolutely necessary, involving a comparison of the two cultures in relation to the storyline of the movie."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "The movie is set in the late 1960s, at a time when the wealth and materialism of American society were very pronounced, in contrast to the relative poverty of Italian village life. The plot tells the story of a poor couple who dream of winning large sums of money by gambling in a card game against a wealthy elderly American woman, who occasionally visits Italy just for that purpose. The final thematic assertion that there are more important things than money reflects the warmth and solidarity of the Italian village in the face of adversity. Although these themes are universal, one could speculate that a Western audience might not like or identify with them as much, given the increasing urbanisation and materialism of their own society."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The most immediate translation issue relates to the movie’s title. ‘Lo Scopone Scientifico’ translates as ‘Scientific Scopone’, whereas the English title is ‘The Scientific Card Player’. ‘Scopone’ is the name of a traditional Italian card game of great antiquity. Obviously, the translators could not use this name because it was obscure to Western viewers, but they inserted a blander, less appropriate term. An even clearer subtitling lapse is that the betting is always done using, apparently, ludicrously high figures. Subtitles such as ‘Let’s start with a million’ regularly jump out. This is a literal translation of the figures (in Italian lire), yet the English-speaking audience would associate the figures with dollars. The result is an apparent lack of plausibility, changing the comedic nature of the film."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "With respect to the specific subtitling strategies used, there are five. Let us begin with the subtitle, ‘The old bag’s here.’ This is idiomatic in English, being an insulting term for an elderly woman. However, it is a simple expression comprising only two words, one of which is literally intended (‘old’). I would speculate that the same idiom occurs in Italian (that is, the direct translation of ‘old’ and ‘bag’ in Italian carries the same idiomatic meaning). This is the strategy of Transfer, where the full expression is given without consideration of time or space. Otherwise, there could well be a closely aligned idiom, in which case the strategy would be Imitation, where there are similar lexical elements between both languages."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Continuing with idioms, we read, ‘Catches win matches’. This derives from certain ball games, such as cricket, where catching the ball after it is struck by the batsman contributes towards winning the game. No such sports are followed in Italy. Thus, one can be certain that other words were used in the original Italian, but that these had a similar pragmatic effect (in meaning and idiomatic nature). The strategy used is thus Paraphrasing, where different expressions specific to the source language (Italian) and target language (English) are required."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "Later on, we read, ‘A sign of destiny’. When this subtitle appears, there are actually two or three people speaking with equal force at the same time. Space and time constraints render it impossible to have them all translated, so only the quoted subtitle appears, using the strategy known as Condensation. Finally, we read scopa – an Italian word referring to a variation of the central card game. Because the term is unique to Italy, there is no equivalent word in English, so the strategy used here is Resignation, where the subtitler leaves the word in the original language. The meaning remains obvious from the context, and only in such minimal and unlikely situations does this strategy become acceptable."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nChoose the correct letter, A, B, C or D.\n14 Dubbing can\n A appeal to larger audiences.\n B seem silly.\n C increase appreciation of the film.\n D be faster.\n\n\n15 Cultural audits\n A look at one culture.\n B are long and involved.\n C help comprehension.\n D are not normally required.\n\n\n16 The movie which was examined\n A has common human themes.\n B has a surprising ending.\n C is set in an Italian city.\n D involves two main actors.\n\n\n17 Scopone\n A is a relatively new game.\n B is known to the Western audience.\n C is a bland term.\n D has a variation called scopa."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nWrite TRUE, FALSE, or NOT GIVEN.\n TRUE                    if the statement agrees with the information\n\n FALSE                   if the statement contradicts the information\n\n NOT GIVEN               if there is no information on this\n\n\n18 _________________ The English title is a subtitling lapse.\n19 _________________ Transfer and imitation are interesting strategies.\n20 _________________ Paraphrasing is often used.\n21 _________________ Resignation can be used in many situations.\n22 _________________ Almost all Italians love scopa."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nMatch the translation example with its associated fact.\nWrite the correct letter, A–D, next to the questions.\n A                       a practical decision\n\n B                       clarified by the situation\n\n C                       using other words, but with the same meaning\n\n D                       probably exists in the source language\n\n\n23 __________ ‘The old bag’\n24 __________ ‘Catches win matches’\n25 __________ ‘A sign of destiny’\n26 __________ ‘Scopa’"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Dubbing can",
+      "translation": "配音可能會怎樣？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Cultural audits",
+      "translation": "文化審查 / 文化評估有甚麼作用？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "The movie which was examined",
+      "translation": "文章分析的那套電影有甚麼特點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Scopone",
+      "translation": "Scopone 有甚麼特點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ The English title is a subtitling lapse.",
+      "translation": "英文片名是一個字幕 / 翻譯失誤。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Transfer and imitation are interesting strategies.",
+      "translation": "Transfer 和 Imitation 是有趣的策略。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Paraphrasing is often used.",
+      "translation": "Paraphrasing 經常被使用。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Resignation can be used in many situations.",
+      "translation": "Resignation 可以用在很多情況。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Almost all Italians love scopa.",
+      "translation": "幾乎所有意大利人都喜歡 scopa。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ ‘The old bag’",
+      "translation": "“old bag” 這個侮辱年長女性的習語。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ ‘Catches win matches’",
+      "translation": "“Catches win matches” 這個英語習語。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ ‘A sign of destiny’",
+      "translation": "“A sign of destiny” 這句字幕。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "__________ ‘Scopa’",
+      "translation": "“scopa” 這個意大利語詞。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-083/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-083/page-5.jpg"
+  ]
+}

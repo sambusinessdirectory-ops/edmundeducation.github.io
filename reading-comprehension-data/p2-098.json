@@ -1,0 +1,270 @@
+{
+  "id": "p2-098",
+  "catalogueId": "p2-098",
+  "title": "Fruit that Falls Far from the Tree",
+  "sourceHeading": "Fruit That Falls Far from the Tree",
+  "passage": 2,
+  "practice": 98,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-098-fruit-that-falls-far-from-the-tree",
+  "source": {
+    "filename": "Practice 98 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "39822a3022845611e6a7ab526ced5aa3aa92c489964d2adccf4debda8d5ba930"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "In the 2002 football World Cup, France, the reigning world champions, suffered a humiliating defeat to unfancied Senegal. All 11 members of the victorious Senegalese team had played for European clubs. They were not alone. By 2000, the first and second divisions of Europe’s leagues had poached enough African players to field 70 teams. So, have greedy European clubs deprived Senegal of its best footballers, or has the prospect of a lucrative career in Europe encouraged more Senegalese to take up the beautiful game?"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "This question is posed by a new book, “Give Us Your Best and Brightest”, by Devesh Kapur and John McHale. The authors are development economists first, football fans second (if at all). They see the emigration of African players as a highly visible example of the “brain drain”. Less visible, but more worrying, is the departure of the poor world’s doctors, nurses, and teachers to more lucrative job markets in the rich world. Ghana, for example, has only 6.2 doctors per 100,000 people. Perhaps three-quarters of its doctors leave within ten years of qualifying."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The answer to the Senegal conundrum is of course “both”: the best players leave, and the dream of emulating them motivates many others to take their place. The real question is whether the second effect outweighs the first, leaving the game in Senegal stronger or weaker than it otherwise would be. A few economists, including Andrew Mountford, of Royal Holloway (part of the University of London), and Oded Stark, of the University of Bonn, think the net effect of the brain drain is similarly ambiguous. The prospect of securing a visa to America or Australia should tempt more people in poor countries to invest in education. Mr Stark calls this a “brain gain”. If the temptation is strong enough, and the chances of landing a visa low enough, the poor country could even come out ahead: it might gain more qualified (if disappointed) doctors and engineers than it loses."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "As with all debates about the brain drain, theory has run ahead of evidence. The numbers on international flows of people are much patchier than those on cross-border flows of goods or capital. In a recent paper, Mr Stark and his co-authors investigate internal migration instead. The rural villages of Mexico lose many of their brightest sons and daughters to jobs in cities or border towns. Those Mexicans who leave their home villages tend to be better educated than those who stay. Despite this, the example the leavers set (and the job leads they provide) raises the average level of schooling of those left behind. Because they can aspire to a world beyond the village, even if they never reach it, young Mexicans have an added reason to stay in school beyond a ninth year, the authors show."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Even if the brain drain does leave a country with a better-educated populace, is this necessarily a good thing? Education is not free, and some of those who gambled on a diploma as a ticket overseas will regret their decision. Mr Stark assumes that people in poor countries tend to demand too little education. A person’s productivity depends on the skills of those around him, as well as his own. Because of these spillovers, an individual’s education is worth more to the economy as a whole than it is to himself, and he will underinvest in it as a result. Mr Stark sees limited emigration as one way to fix this market failure."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "India’s software engineers are perhaps an example of this principle at work. Indian students had little reason to learn computer coding before there was a software industry to employ them. Such an industry could not take root without computer engineers to man it. The dream of a job in Silicon Valley, however, was enough to lure many of India’s bright young things into coding, and that was enough to hatch an indigenous software industry where none existed before."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "India’s valley dwellers represent just one contingent in a much larger diaspora. According to the most exhaustive study of the brain drain, released last month by the World Bank, there were 1.04 million Indian-born people, educated past secondary school, living in the 30 relatively rich countries of the OECD in 2000. (An unknown number of them acquired their education outside their country of birth, the report notes.) This largely successful diaspora is more than just something to envy and emulate. Its members can be a source of know-how and money, and provide valuable entrées into foreign markets and supply chains."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "Messrs Kapur and McHale think India’s relatively happy experience with its educated émigrés is more likely to be the exception than the rule. Its million-strong brain drain represents just 4.3% of its vast graduate population, according to the Bank. By contrast, almost 47% of Ghana’s highly educated native sons live in the OECD; for Guyana, the figure is 89%. This is not a stimulative leeching of talent; it is a haemorrhage."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "Emigration, as Mr Stark suggests, might be a spur to greater accomplishment, and the poor world’s talent, like Senegal’s footballers, deserves a chance to compete on a global stage. It is not easy to run a managed “emigration” policy. The drain of educated minds from poor countries is mostly determined by host countries’ rules, not home countries’ interests. There will be tremendous pressure to loosen those rules in the future, not least because, as the baby-boom generation retires, it will seek to “backfill the taxpaying workforce behind it”, as Messrs Kapur and McHale put it. The rich world no longer welcomes the tired and the huddled; it looks set to compete ever more fiercely for the bright and the qualified."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has nine paragraphs, A–I.\nWhich paragraph does each of the following headings best fit?\n14 _____________ Brain gain or brain drain?\n15 _____________ Brain haemorrhage\n16 _____________ Migrants can be connectors\n17 _____________ Opportunities lead to longer education"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nWrite the corresponding letters in answer boxes 18–22 in any order.\n\n\n A Emigration of health care workers is more important than that of footballers.\n B If the chances of getting a visa to a rich country are low, this could benefit poor countries.\n C It is difficult to measure the flow of money across national borders.\n D A person’s productivity depends, to a certain extent, on the productivity of those around\n   them.\n E Many Indians were unsuccessful in getting to America, so they set up coding industries in\n   India.\n F Most Indian-born people with degrees got those degrees outside India.\n G Most Indian emigrants return to India.\n H International migration policy is largely decided by rich countries rather than poor ones."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nAccording to the information given in the text, choose the correct answer from the choices\ngiven.\n\n\n23 Senegal\n A was not expected to beat France in the 2002 World Cup.\n B provides most of the African football players in Europe.\n C provides more footballers to Europe than any other African country.\n\n\n24 The departure of football players from Senegal for Europe is beneficial because\n A they are not actually the best players.\n B they encourage other people to play football.\n C there are too many footballers in Senegal.\n\n\n25 Oded Stark researched internal migration because\n A he is from Mexico.\n B international migration is hard to measure.\n C Mexicans tend to migrate within their own country.\n\n\n26 India’s brain drain is not a big problem because\n A it represents a small percentage of India’s highly educated population.\n B Indian people are spread all over the world.\n C India’s government restricts emigration carefully."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "_____________ Brain gain or brain drain?",
+      "translation": "是人才流失，還是人才增益？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "_____________ Brain haemorrhage",
+      "translation": "人才大量失血。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "_____________ Migrants can be connectors",
+      "translation": "移民可以成為連接者。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "_____________ Opportunities lead to longer education",
+      "translation": "機會促使人接受更長教育。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "醫護人員外流比足球員外流更重要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "醫護人員外流比足球員外流更重要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "醫護人員外流比足球員外流更重要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "醫護人員外流比足球員外流更重要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "醫護人員外流比足球員外流更重要。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Senegal",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "The departure of football players from Senegal for Europe is beneficial because",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Oded Stark researched internal migration because",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "India’s brain drain is not a big problem because",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-098/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-098/page-5.jpg"
+  ]
+}

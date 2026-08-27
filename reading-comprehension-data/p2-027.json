@@ -1,0 +1,260 @@
+{
+  "id": "p2-027",
+  "catalogueId": "p2-027",
+  "title": "A New Ice Age",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 27,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-027-a-new-ice-age",
+  "source": {
+    "filename": "Practice 27 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "5e5e140b3b5bf4320f5baff164b7640411d36ef73e5a837f4b818784a73c37c9"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "A New Ice Age William Curry is a serious, sober climate scientist, not an art critic. But he has spent a lot of time perusing Emanuel Gottlieb Leutze’s famous painting “George Washington Crossing the Delaware”, which depicts a boatload of colonial American soldiers making their way to attack English and Hessian troops the day after Christmas in 1776. “Most people think these other guys in the boat are rowing, but they are actually pushing the ice away,” says Curry, tapping his finger on a reproduction of the painting. Sure enough, the lead oarsman is bashing the frozen river with his boot. “I grew up in Philadelphia. The place in this painting is 30 minutes away by car. I can tell you, this kind of thing just doesn’t happen anymore.”"
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "But it may again soon. And ice-choked scenes, similar to those immortalised by the 16th-century Flemish painter Pieter Brueghel the Elder, may also return to Europe. His works, including the 1565 masterpiece “Hunters in the Snow”, make the now-temperate European landscapes look more like Lapland. Such frigid settings were commonplace during a period dating roughly from 1300 to 1850 because much of North America and Europe was in the throes of a little ice age. And now there is mounting evidence that the chill could return. A growing number of scientists believe conditions are ripe for another prolonged cooldown, or small ice age. While no one is predicting a brutal ice sheet like the one that covered the Northern Hemisphere with glaciers about 12,000 years ago, the next cooling trend could drop average temperatures 5 degrees Fahrenheit over much of the United States and 10 degrees in the Northeast, northern Europe, and northern Asia."
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "“It could happen in 10 years,” says Terrence Joyce, who chairs the Woods Hole Physical Oceanography Department. “Once it does, it can take hundreds of years to reverse.” And he is alarmed that Americans have yet to take the threat seriously."
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "A drop of 5 to 10 degrees entails much more than simply bumping up the thermostat and carrying on. Both economically and ecologically, such quick, persistent chilling could have devastating consequences. A 2002 report titled “Abrupt Climate Change: Inevitable Surprises”, produced by the National Academy of Sciences, pegged the cost from agricultural losses alone at $100 billion to $250 billion while also predicting that damage to ecosystems could be vast and incalculable. A grim sampler: disappearing forests, increased housing expenses, dwindling fresh water, lower crop yields, and accelerated species extinctions."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "The reason for such huge effects is simple. A quick climate change wreaks far more disruption than a slow one. People, animals, plants, and the economies that depend on them are like rivers, says the report: “For example, high water in a river will pose few problems until the water runs over the bank, after which levees can be breached and massive flooding can occur. Many biological processes undergo shifts at particular thresholds of temperature and precipitation.”"
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "Political changes since the last ice age could make survival far more difficult for the world’s poor. During previous cooling periods, whole tribes simply picked up and moved south, but that option doesn’t work in the modern, tense world of closed borders. “To the extent that abrupt climate change may cause rapid and extensive changes of fortune for those who live off the land, the inability to migrate may remove one of the major safety nets for distressed people,” says the report."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "But first things first. Isn’t the Earth actually warming? Indeed it is, says Joyce. In his cluttered office, full of soft light from the foggy Cape Cod morning, he explains how such warming could actually be the surprising culprit of the next mini-ice age. The paradox is a result of the appearance over the past 30 years in the North Atlantic of huge rivers of fresh water – the equivalent of a 10-foot-thick layer – mixed into the salty sea. No one is certain where the fresh torrents are coming from, but a prime suspect is melting Arctic ice, caused by a build-up of carbon dioxide in the atmosphere that traps solar energy."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The freshwater trend is major news in ocean-science circles. Bob Dickson, a British oceanographer who sounded an alarm at a February conference in Honolulu, has termed the drop in salinity and temperature in the Labrador Sea – a body of water between northeastern Canada and Greenland that adjoins the Atlantic – “arguably the largest full-depth changes observed in the modern instrumental oceanographic record”."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "The trend could cause a little ice age by subverting the northern penetration of Gulf Stream waters. Normally, the Gulf Stream, laden with heat soaked up in the tropics, meanders up the east coasts of the United States and Canada. As it flows northward, the stream surrenders heat to the air. Because the prevailing North Atlantic winds blow eastward, a lot of the heat wafts to Europe. That’s why many scientists believe winter temperatures on the Continent are as much as 36 degrees Fahrenheit warmer than those in North America at the same latitude. Frigid Boston, for example, lies at almost precisely the same latitude as balmy Rome. And some scientists say the heat also warms Americans and Canadians. “It’s a real mistake to think of this solely as a European phenomenon,” says Joyce."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "Having given up its heat to the air, the now-cooler water becomes denser and sinks into the North Atlantic by a mile or more in a process oceanographers call thermohaline circulation. This massive column of cascading cold is the main engine powering a deep-water current called the Great Ocean Conveyor that snakes through all the world’s oceans. But as the North Atlantic fills with fresh water, it grows less dense, making the waters carried northward by the Gulf Stream less able to sink. The new mass of relatively fresh water sits on top of the ocean like a big thermal blanket, threatening the thermohaline circulation. That in turn could make the Gulf Stream slow or veer southward. At some point, the whole system could simply shut down, and do so quickly. “There is increasing evidence that we are getting closer to a transition point, from which we can jump to a new state.”"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nChoose the correct letter A, B, C or D.\nWrite your answers in boxes 14–17 on your answer sheet.\n14 The writer uses paintings in the opening paragraphs to illustrate\n A possible future climate change.\n B climate change of the last two centuries.\n C that the river no longer freezes in winter.\n D how George Washington led his troops across the river.\n\n\n15 Which of the following do scientists believe to be possible?\n A The temperature may drop over much of the Northern Hemisphere.\n B It will be colder than 12,000 years ago.\n C The entire Northern Hemisphere will be covered in ice.\n D Europe will look more like Lapland.\n\n\n16 Why might the world’s poor find it difficult to survive another ice age?\n A People don’t live in tribes anymore.\n B Politics are changing too fast today.\n C Abrupt climate change causes people to live off their land.\n D Migration has become impossible because borders are closed.\n\n\n17 Why is continental Europe much warmer in winter than North America at the same latitude?\n A Prevailing winds carry much of the heat released by tropical currents towards Europe.\n B Europe and North America are at different latitudes.\n C The Gulf Stream has stopped yielding heat to the air.\n D The Gulf Stream moves north along the east coast of North America."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nLook at the following statements (Questions 18–22) and the list of people and organisations\nbelow.\nMatch each statement with the correct person or organisation, A–D.\nWrite the appropriate letter A–D in boxes 18–22 on your answer sheet.\nNB You may use any letter more than once.\n\n\n18 _____________ Most Americans are not prepared for the next ice age.\n19 _____________ The result of abrupt climate change is catastrophic.\n20 _____________ The world is not as cold as it once was.\n21 _____________ Global warming is closely connected to the ice age.\n22 _____________ Warned a conference about changes in ocean water.\n\n\n                          List of People and Organisations\n\n A                        William Curry\n\n B                        Terrence Joyce\n\n C                        Bob Dickson\n\n D                        National Academy of Sciences"
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nComplete the flow chart below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\n\n\n\n\n23. ______________________\n\n24. ______________________\n\n25. ______________________\n\n26. ______________________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "The writer uses paintings in the opening paragraphs to illustrate",
+      "translation": "作者在開首幾段使用畫作，是為了說明甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Which of the following do scientists believe to be possible?",
+      "translation": "科學家認為以下哪一項是有可能發生的？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Why might the world’s poor find it difficult to survive another ice age?",
+      "translation": "為甚麼世界上的貧困人口可能難以在另一個冰期中生存？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Why is continental Europe much warmer in winter than North America at the same latitude?",
+      "translation": "為甚麼同一緯度下，歐洲大陸冬天比北美暖得多？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ Most Americans are not prepared for the next ice age.",
+      "translation": "大多數美國人尚未準備好面對下一次冰期。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ The result of abrupt climate change is catastrophic.",
+      "translation": "abrupt climate change 的結果是災難性的。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ The world is not as cold as it once was.",
+      "translation": "世界不像以前那麼寒冷。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ Global warming is closely connected to the ice age.",
+      "translation": "global warming 和 ice age 有密切關係。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ Warned a conference about changes in ocean water. List of People and Organisations",
+      "translation": "在會議上警告 ocean water 出現變化。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "text",
+      "prompt": "______________________",
+      "translation": "來自熱帶的暖水向北流動後，會失去較多 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "text",
+      "prompt": "______________________",
+      "translation": "水變得更 ______，然後下沉。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "text",
+      "prompt": "______________________",
+      "translation": "這條 deep ocean current 被稱為 ______。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "text",
+      "prompt": "______________________",
+      "translation": "______ 增加，令海水變得較不 dense，較難下沉。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-027/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-027/page-6.jpg",
+    "/assets/reading-comprehension/questions/p2-027/page-7.jpg"
+  ]
+}

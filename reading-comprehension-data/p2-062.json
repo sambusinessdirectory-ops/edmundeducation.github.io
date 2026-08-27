@@ -1,0 +1,294 @@
+{
+  "id": "p2-062",
+  "catalogueId": "p2-062",
+  "title": "The Brains Business",
+  "sourceHeading": "The Brains Business",
+  "passage": 2,
+  "practice": 62,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-062-the-brains-business",
+  "source": {
+    "filename": "Practice 62 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "0751a84a8753be3d4bdf506d0e1f3f13bfa6b286652f05ad1ae8bb6a3964ee9d"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "For those of a certain age and educational background, it is hard to think of higher education without thinking of ancient institutions. Some universities are of a venerable age – the University of Bologna was founded in 1088, the University of Oxford in 1096 – and many of them have a strong sense of tradition. The truly old ones make the most of their pedigrees, and those of a more recent vintage work hard to create an aura of antiquity. Yet these tradition-loving (or -creating) institutions are currently enduring a thunderstorm of changes so fundamental that some say the very idea of the university is being challenged. Universities are experimenting with new ways of funding (most notably through student fees), forging partnerships with private companies and engaging in mergers and acquisitions. Such changes are tugging at the ivy’s roots."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "This is happening for four reasons. The first is the democratisation of higher education – “massification” in the language of the educational profession. In the rich world, massification has been going on for some time. The proportion of adults with higher educational qualifications in developed countries almost doubled between 1975 and 2000, from 22 per cent to 41 per cent. Most of the rich countries are still struggling to digest this huge growth in numbers. Now massification is spreading to the developing world. China doubled its student population in the late 1990s, and India is trying to follow suit."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "The second reason is the rise of the knowledge economy. The world is in the grips of a “soft revolution” in which knowledge is replacing physical resources as the main driver of economic growth. Between 1985 and 1997, the contribution of knowledge-based industries to total value added increased from 51 per cent to 59 per cent in Germany and from 45 per cent to 51 per cent in Britain. The best companies are now devoting at least a third of their investment to knowledge-intensive intangibles such as R&D, licensing, and marketing. Universities are among the most important engines of the knowledge economy. Not only do they produce the brain workers who man it, they also provide much of its backbone, from laboratories to libraries to computer networks."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "The third factor is globalisation. The death of distance is transforming academia just as radically as it is transforming business. The number of people from developed countries studying abroad has doubled over the past twenty years, to 1.9 million; universities are opening campuses all around the world; and a growing number of countries are trying to turn higher education into an export industry. The fourth is competition. Traditional universities are being forced to compete for students and research grants, and private companies are trying to break into a sector which they regard as “the new healthcare”. The World Bank calculates that global spending on higher education amounts to $300 billion a year, or 1 per cent of global economic output. There are more than 80 million students worldwide, and 3.5 million people are employed to teach them or look after them."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "All this sounds as though a golden age for universities has arrived. However, inside academia, particularly in Europe, it does not feel like it. Academics complain and administrators are locked in bad-tempered exchanges with the politicians who fund them. What has gone wrong? The biggest problem is the role of the state. If more and more governments are embracing massification, few of them are willing to draw the appropriate conclusion from their enthusiasm: that they should either provide the requisite funds (as the Scandinavian countries do) or allow universities to charge realistic fees. Many governments have tried to square the circle through tighter management, but management cannot make up for lack of resources."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "So, in all too many parts of the academic world, the writer Kingsley Amis’s famous dictum that more means worse is coming to pass. Academic salaries are declining when measured against similar jobs elsewhere, and buildings and libraries are deteriorating. In mega-institutions such as the University of Rome (180,000 students), the National University of Mexico (more than 200,000), and Turkey’s Anadolu University (530,000), individual attention to students is bound to take a back seat. The innate conservatism of the academic profession does not help. The modern university was born in a very different world from the current one, a world in which only a tiny minority of the population entered higher education, yet many academics have been reluctant to make allowances for massification. Italian universities, for instance, still insist that all students undergo a viva voce examination by a full professor, lasting an average of about five minutes."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "What, if anything, can be done? Techno-utopians believe that higher education is ripe for revolution. The university, they say, is a hopelessly antiquated institution, wedded to outdated practices such as tenure and lectures, and incapable of serving a new world of mass audiences and just-in-time information. “Thirty years from now the big university campuses will be relics,” says Peter Drucker, a veteran management guru. “I consider the American research university of the past 40 years to be a failure.” Fortunately, in his view, help is on the way in the form of Internet tuition and for-profit universities. Cultural conservatives, on the other hand, believe that the best way forward is backward. They think it is foolish to waste higher education on people who would rather study “Seinfeld” than Socrates, and disingenuous to confuse the pursuit of truth with the pursuit of profit."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nThe text has seven paragraphs (A–G).\nWhich paragraph does each of the following headings best fit?\n14 ___________ Education for the masses\n15 ___________ Future possibilities\n16 ___________ Globalisation and competition\n17 ___________ Funding problem"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nAccording to the text, FIVE of the following statements are true.\nWrite the corresponding letters in answer boxes 18–22 in any order.\n\n\n A Some universities are joining with each other.\n B There are not enough graduates in developed countries.\n C Most companies in developed countries devote a third of their profits to research and\n   development.\n D The number of people from developed countries studying outside their home countries has\n   doubled in the last two decades.\n E Scandinavian governments provide enough money for their universities.\n F The largest university in the world is in Turkey.\n G Italian students must have a five-minute interview with a professor before being accepted\n   into university.\n H Peter Drucker foresees the end of university campuses."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nAccording to the information given in the text, choose the correct answer or answers from\nthe choices given.\n\n\n23 Universities are responding to change by\n A constructing new buildings in old styles so they appear old and traditional.\n B introducing new subjects for study.\n C charging students higher fees.\n\n\n24 The knowledge economy is\n A on the rise most of all in Germany.\n B not fully appreciated in Britain.\n C heavily reliant on universities.\n\n\n25 Current problems at universities, especially in Europe, include\n A administrators arguing with government funders.\n B problems with funding.\n C poor management.\n\n\n26 Possible solutions put forward by reformists and conservatives include\n A greater use of technology.\n B employing management gurus to teach.\n C teaching fewer students."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Education for the masses",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Future possibilities",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Globalisation and competition",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Funding problem",
+      "translation": "",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 18 · 請參照上方原題",
+      "translation": "有些大學正在互相合併或結合。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 19 · 請參照上方原題",
+      "translation": "有些大學正在互相合併或結合。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 20 · 請參照上方原題",
+      "translation": "有些大學正在互相合併或結合。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 21 · 請參照上方原題",
+      "translation": "有些大學正在互相合併或結合。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "Question 22 · 請參照上方原題",
+      "translation": "有些大學正在互相合併或結合。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "Universities are responding to change by",
+      "translation": "大學正在怎樣回應變化？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "The knowledge economy is",
+      "translation": "知識經濟是怎樣的？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Current problems at universities, especially in Europe, include",
+      "translation": "目前大學面對的問題，尤其在歐洲，包括哪些？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "multiple",
+      "prompt": "Possible solutions put forward by reformists and conservatives include",
+      "translation": "改革派和保守派提出的可能解決方法包括哪些？",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "placeholder": "依照原題字數限制輸入答案",
+      "slots": 2
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-062/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-062/page-5.jpg"
+  ]
+}

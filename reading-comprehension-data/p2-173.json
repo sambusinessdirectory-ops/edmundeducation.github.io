@@ -1,0 +1,249 @@
+{
+  "id": "p2-173",
+  "catalogueId": "p2-173",
+  "title": "Bovids",
+  "sourceHeading": "Bovids",
+  "passage": 2,
+  "practice": 173,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-173-bovids",
+  "source": {
+    "filename": "Practice 173 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "86c6a6e7508a652d313fea654ece4a6aeb98ba6968400f8262f5f7715cea2b82"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "The family of mammals called bovids belongs to the Artiodactyl class, which also includes giraffes. Bovids are a highly diverse group consisting of 137 species, some of which are man’s most important domestic animals."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "Bovids are well represented in most parts of Eurasia and the islands of Southeast Asia, but they are by far the most numerous and diverse in Africa. Some species of bovid are solitary, but others live in large groups with complex social structures. Although bovids have adapted to a wide range of habitats, from arctic tundra to deep tropical forests, the majority of species favour open grassland, scrub or desert. This diversity of habitat is also matched by great diversity in size and form: at one extreme is the royal antelope of West Africa, which stands a mere 25 cm at the shoulder; at the other, the massively built bison of North America and Europe, which grow to a shoulder height of 2.2 m."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Despite differences in size and appearance, bovids are united by the possession of certain common features. All species are ruminants, which means that they retain undigested food in their stomachs, and regurgitate it as necessary. Bovids are almost exclusively herbivorous."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "Typically, their teeth are highly modified for browsing and grazing: grass or foliage is cropped with the upper lip and lower incisors (the upper incisors are usually absent), and then ground down by the cheek teeth. As well as having cloven, or split, hooves, the males of all bovid species and the females of most species carry horns. Bovid horns have bony cores covered in a sheath of horny material that is constantly renewed from within; they are unbranched and never shed. They vary in shape and size: the relatively simple horns of a large Indian buffalo may measure around 4 m from tip to tip along the outer curve, while the various gazelles have horns with a variety of elegant curves."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "Five groups, or subfamilies, may be distinguished: Bovinae, Antilopinae, Caprinae, Cephalophinae and Antilocapridae. The subfamily Bovinae comprises most of the larger bovids, including the African bongo, nilgai, eland, bison and cattle. Unlike most other bovids, they are all non-territorial. The ancestors of the various species of domestic cattle—banteng, gaur, yak and water buffalo—are generally rare and endangered in the wild, while the auroch (the ancestor of the domestic cattle of Europe) is extinct."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "The term ‘antelope’ is not a very precise zoological name—it is used loosely to describe a number of bovids that have followed different lines of development. Antelopes are typically long-legged, fast-running species, often with long horns that may be laid along the back when the animal is in full flight. There are two main subgroups of antelope: Hippotraginae, which includes the oryx and the addax, and Antilopinae, which generally contains slighter and more graceful animals such as gazelles and springboks. Antelopes are mainly grassland species, but many have adapted to flooded grasslands: pukus, waterbucks and lechwes are all good at swimming, usually feeding in deep water, while the sitatunga has long, splayed hooves that enable it to walk freely on swampy ground."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "The subfamily Caprinae includes sheep and goats, together with various relatives such as the goral and the tahr. Most are woolly or have long hair. Several species, such as wild goats, chamois and ibex, are agile cliff- and mountain-dwellers. Tolerance of extreme conditions is most marked in this group: Barbary and bighorn sheep have adapted to arid deserts, while Rocky Mountain sheep survive high up in mountains and musk oxen in arctic tundra."
+    },
+    {
+      "number": 8,
+      "label": "H",
+      "text": "African duikers belong to the Cephalophinae subfamily. They are generally small and solitary, often living in thick forest. Although they feed mainly on grass and leaves, some duikers—unlike most other bovids—are believed to eat insects and feed on dead animal carcasses, and may even kill small animals."
+    },
+    {
+      "number": 9,
+      "label": "I",
+      "text": "The pronghorn is the sole surviving member of Antilocapridae, a New World subfamily of herbivorous ruminants found in North America. It is similar in appearance and habits to the Old World antelope. Although greatly reduced in numbers since the arrival of Europeans and the subsequent enclosure of grasslands, the pronghorn is still found in considerable numbers throughout North America, from Washington State to Mexico. When alarmed by the approach of wolves or other predators, hairs on the pronghorn’s rump stand erect, thereby revealing and emphasising the white patch there. At this warning signal, the whole herd gallops off at a speed of over 60 km per hour."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–16",
+    "g17": "Questions 17–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 16,
+      "text": "Questions 14–16\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 14–16 on your answer sheet.\n\n\n14 In which region is the greatest variety of bovids found?\n A Africa\n B Eurasia\n C North America\n D Southeast Asia\n\n\n15 Most bovids prefer to live\n A in isolation.\n B in small groups.\n C in tropical forests.\n D in wide-open spaces.\n\n\n16 Which feature do all bovids have in common?\n A Their horns are short.\n B They have upper incisors.\n C They store undigested food in their bodies.\n D Their hooves are undivided."
+    },
+    {
+      "id": "g17",
+      "start": 17,
+      "end": 21,
+      "text": "Questions 17–21\nLook at the following characteristics (Questions 17–21) and the list of subfamilies below.\nMatch each characteristic with the correct subfamily, A, B, C or D.\nWrite the correct letter, A, B, C or D, in boxes 17–21 on your answer sheet.\nNB You may use any letter more than once.\n A                                       Antilopinae\n\n B                                       Bovinae\n\n C                                       Caprinae\n\n D                                       Cephalophinae\n17 __________ Can endure very harsh environments\n18 __________ Includes oxen and cattle\n19 __________ May supplement its diet with meat\n20 __________ Can usually move at high speed\n21 __________ Does not defend a particular territory"
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in boxes 22–26 on your answer sheet.\n22 What is the smallest species of bovid called? __________\n23 Which species of Bovinae is now extinct? __________\n24 What enables the sitatunga to move over wetland? __________\n25 What kind of terrain do Barbary sheep inhabit? __________\n26 What is the only surviving member of the Antilocapridae subfamily? __________"
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "In which region is the greatest variety of bovids found?",
+      "translation": "哪一個地區有最多種類的 bovids？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Most bovids prefer to live",
+      "translation": "大部分 bovids 較喜歡住在哪裡？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "Which feature do all bovids have in common?",
+      "translation": "所有 bovids 共有哪一項特徵？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ Can endure very harsh environments",
+      "translation": "能忍受非常惡劣的環境。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ Includes oxen and cattle",
+      "translation": "包括牛類，例如 oxen 和 cattle。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ May supplement its diet with meat",
+      "translation": "可能會用肉類補充飲食。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ Can usually move at high speed",
+      "translation": "通常可以高速移動。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g17",
+      "type": "choice",
+      "prompt": "__________ Does not defend a particular territory",
+      "translation": "不保衛特定領地。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "text",
+      "prompt": "What is the smallest species of bovid called? __________",
+      "translation": "最小的 bovid 物種叫甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "text",
+      "prompt": "Which species of Bovinae is now extinct? __________",
+      "translation": "哪一種 Bovinae 物種現在已經滅絕？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "text",
+      "prompt": "What enables the sitatunga to move over wetland? __________",
+      "translation": "甚麼使 sitatunga 能在濕地上移動？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "text",
+      "prompt": "What kind of terrain do Barbary sheep inhabit? __________",
+      "translation": "Barbary sheep 棲息於哪種地形或環境？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "text",
+      "prompt": "What is the only surviving member of the Antilocapridae subfamily? __________",
+      "translation": "Antilocapridae 亞科唯一仍存活的成員是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-173/page-5.jpg",
+    "/assets/reading-comprehension/questions/p2-173/page-6.jpg"
+  ]
+}

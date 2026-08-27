@@ -1,0 +1,280 @@
+{
+  "id": "p2-032",
+  "catalogueId": "p2-032",
+  "title": "Optimism and Health",
+  "sourceHeading": "",
+  "passage": 2,
+  "practice": 32,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-032-optimism-and-health",
+  "source": {
+    "filename": "Practice 32 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "4d38e5447fc1ea461e49bdc6a2b8c1bb8824fc04fdc54e505cb4684e7cd3fb38"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "1",
+      "text": "Optimism and Health Mindset is all. How you start the year will set the template for the rest, and two scientifically backed character traits hold the key: optimism and resilience (if the prospect leaves you feeling pessimistically spineless, the good news is that you can significantly boost both of these qualities)."
+    },
+    {
+      "number": 2,
+      "label": "2",
+      "text": "Faced with 12 months of a plummeting economy and rising human distress, staunchly maintaining a rosy view might seem deludedly Pollyannaish. But here we encounter the optimism paradox. As Brice Pitt, an emeritus professor of the psychiatry of old age at Imperial College, London, told me: “Optimists are unrealistic. Depressive people see things as they really are, but that is a disadvantage from an evolutionary point of view. Optimism is a piece of evolutionary equipment that carried us through millennia of setbacks.”"
+    },
+    {
+      "number": 3,
+      "label": "3",
+      "text": "Optimists have plenty to be happy about. In other words, if you can convince yourself that things will get better, the odds of it happening will improve – because you keep on playing the game. In this light, optimism “is a habitual way of explaining your setbacks to yourself”, reports Martin Seligman, the psychology professor and author of Learned Optimism. The research shows that when times get tough, optimists do better than pessimists – they are more successful at work, respond better to stress, suffer fewer depressive episodes, and achieve more personal goals. Studies also show that belief can help with the financial pinch. Chad Wallens, a social forecaster at the Henley Centre who surveyed middle-class Britons’ beliefs about income, has found that “the people who feel wealthiest, and those who feel poorest, actually have almost the same amount of money at their disposal. Their attitudes and behaviour patterns, however, are different from one another.”"
+    },
+    {
+      "number": 4,
+      "label": "4",
+      "text": "Optimists have something else to be cheerful about – in general, they are more robust. For example, a study of 660 volunteers by the Yale University psychologist Dr. Becca Levy found that thinking positively adds an average of seven years to your life. Other American research claims to have identified a physical mechanism behind this. A Harvard Medical School study of 670 men found that the optimists have significantly better lung function. The lead author, Dr. Rosalind Wright, believes that attitude somehow strengthens the immune system. “Preliminary studies on heart patients suggest that, by changing a person’s outlook, you can reduce their mortality risk,” she says. Few studies have tried to ascertain the proportion of optimists in the world. But a 1995 nationwide survey conducted by the American magazine Adweek found that about half the population counted themselves as optimists, with women slightly more apt than men (53 per cent versus 48 per cent) to see the sunny side."
+    },
+    {
+      "number": 5,
+      "label": "5",
+      "text": "Of course, there is no guarantee that optimism will insulate you from the crunch’s worst effects, but the best strategy is still to keep smiling and thank your lucky stars. Because (as every good sports coach knows) adversity is character-forming – so long as you practise the skills of resilience. Research among tycoons and business leaders shows that the path to success is often littered with failure: a record of sackings, bankruptcies and blistering castigation. But instead of curling into a foetal ball beneath the coffee table, they resiliently pick themselves up, learn from their pratfalls and march boldly towards the next opportunity."
+    },
+    {
+      "number": 6,
+      "label": "6",
+      "text": "The American Psychological Association defines resilience as the ability to adapt in the face of adversity, trauma or tragedy. A resilient person may go through difficulty and uncertainty, but he or she will doggedly bounce back."
+    },
+    {
+      "number": 7,
+      "label": "7",
+      "text": "Optimism is one of the central traits required in building resilience, say Yale University investigators in the Annual Review of Clinical Psychology. They add that resilient people learn to hold on to their sense of humour and this can help them to keep a flexible attitude when big changes of plan are warranted. The ability to accept your lot with equanimity also plays an important role, the study adds."
+    },
+    {
+      "number": 8,
+      "label": "8",
+      "text": "The sociologist Steven Stack reports that one of the best ways to acquire resilience is by experiencing a difficult childhood in the Journal of Social Psychology. For example, short men are less likely to commit suicide than tall guys, he says, because shorties develop psychological defence skills to handle the bullies and mickey-taking that their lack of stature attracts. By contrast, those who enjoyed adversity-free youths can get derailed by setbacks later on because they’ve never been inoculated against aggro."
+    },
+    {
+      "number": 9,
+      "label": "9",
+      "text": "If you are handicapped by having had a happy childhood, then practising proactive optimism can help you to become more resilient. Studies of resilient people show that they take more risks; they court failure and learn not to fear it."
+    },
+    {
+      "number": 10,
+      "label": "10",
+      "text": "And despite being thick-skinned, resilient types are also more open than average to other people. Bouncing through knockbacks is all part of the process."
+    },
+    {
+      "number": 11,
+      "label": "11",
+      "text": "It’s about optimistic risk-taking – being confident that people will like you. Simply smiling and being warm to people can help. It’s an altruistic path to self-interest – and if it achieves nothing else, it will reinforce an age-old adage: hard times can bring out the best in you."
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–22",
+    "g23": "Questions 23–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nComplete the summary below. Choose NO MORE THAN TWO WORDS from Reading Passage\n2 for each answer.\n    A Yale University study found that optimism can add an average of 14 _________________\n      years to a person’s life. A Harvard study suggests a biological basis: optimists have better\n      15 _________________ because a positive outlook strengthens the 16\n      _________________. A study of 17 _________________ was cited as further evidence."
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 22,
+      "text": "Questions 18–22\nComplete each sentence with the correct ending A–H.\n18 _____________ Brice Pitt believes\n19 _____________ Research at the Henley Centre finds\n20 _____________ The Adweek survey finds\n21 _____________ The Annual Review of Clinical Psychology reports\n22 _____________ Steven Stack reports\n\n\n    A                       material wealth does not necessarily create happiness.\n\n    B                       optimists tend to be unrealistic about human evolution.\n\n    C                       optimism is advantageous to human evolution.\n\n    D                       adversity fosters resilience.\n\n    E                       levels of optimism vary by gender.\n\n    F                       a good sense of humour supports flexibility.\n\n    G                       equanimity under stress helps build resilience.\n\n    H                       an optimistic outlook is a habit."
+    },
+    {
+      "id": "g23",
+      "start": 23,
+      "end": 26,
+      "text": "Questions 23–26\nDo the following statements agree with the claims of the writer in Reading Passage 2?\nIn boxes 23–26 on your answer sheet write\n\n YES                      if the statement agrees with the views of the writer\n\n NO                       if the statement contradicts the views of the writer\n\n NOT GIVEN                if it is impossible to say what the writer thinks about this\n23 _________________ The health benefits of optimism have long been known.\n24 _________________ Optimists have better relationships with people than pessimists.\n25 _________________ People who had happy childhoods may be unable to practise\noptimism.\n26 _________________ Resilient people are often both open and thick-skinned."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 14 · 請參照上方原題",
+      "translation": "一項 Yale University 研究發現，optimism 可以平均為一個人的壽命增加 __________ 年。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "text",
+      "prompt": "_________________ because a positive outlook strengthens the 16 _________________. A study of 17 _________________ was cited as further evidence.",
+      "translation": "Harvard study 提出一個生物學基礎：optimists 有更好的 __________，因為正面 outlook 會強化__________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 16 · 請參照上方原題",
+      "translation": "因為正面 outlook 會強化 __________。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "text",
+      "prompt": "Question 17 · 請參照上方原題",
+      "translation": "一項關於 __________ 的研究被引用為進一步證據。",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ Brice Pitt believes",
+      "translation": "Brice Pitt 相信……選項 C：“optimism is advantageous to human evolution.”",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ Research at the Henley Centre finds",
+      "translation": "Henley Centre 的研究發現……選項 A：“material wealth does not necessarily create happiness.”",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ The Adweek survey finds",
+      "translation": "Adweek survey 發現……選項 E：“levels of optimism vary by gender.”",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ The Annual Review of Clinical Psychology reports",
+      "translation": "Annual Review of Clinical Psychology 報告指出……選項 F：“a good sense of humour supports flexibility.”",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_____________ Steven Stack reports",
+      "translation": "Steven Stack 報告指出……選項 D：“adversity fosters resilience.”",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ The health benefits of optimism have long been known.",
+      "translation": "optimism 對健康的好處早已為人所知。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Optimists have better relationships with people than pessimists.",
+      "translation": "optimists 和人的關係比 pessimists 更好。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ People who had happy childhoods may be unable to practise optimism.",
+      "translation": "童年幸福的人可能無法練習 optimism。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g23",
+      "type": "choice",
+      "prompt": "_________________ Resilient people are often both open and thick-skinned.",
+      "translation": "resilient people 通常既 open，又 thick-skinned。",
+      "options": [
+        "YES",
+        "NO",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-032/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-032/page-5.jpg"
+  ]
+}

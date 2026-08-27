@@ -1,0 +1,272 @@
+{
+  "id": "p2-034",
+  "catalogueId": "p2-034",
+  "title": "Activities for Children",
+  "sourceHeading": "Activities for Children",
+  "passage": 2,
+  "practice": 34,
+  "version": "20260827-corpus1",
+  "analysisId": "p2-034-activities-for-children",
+  "source": {
+    "filename": "Practice 34 - IETLS 閱讀練習 - Passage 2.pdf",
+    "sha256": "1234472f6bc989db0a5496e1e4bc00127680873283f42ce467ab7a280cc38b16"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Twenty-five years ago, children in London walked to school and played in parks and playing fields after school and at the weekend. Today they are usually driven to school by parents anxious about safety and spend hours glued to television screens or computer games. Meanwhile, community playing fields are being sold off to property developers at an alarming rate. ‘This change in lifestyle has, sadly, meant greater restrictions on children,’ says Neil Armstrong, Professor of Health and Exercise Sciences at the University of Exeter. ‘If children continue to be this inactive, they’ll be storing up big problems for the future.’"
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "In 1985, Professor Armstrong headed a five-year research project into children’s fitness. The results, published in 1990, were alarming. The survey, which monitored 700 11-16-year-olds, found that 48 per cent of girls and 41 per cent of boys already exceeded safe cholesterol levels set for children by the American Heart Foundation. Armstrong adds, “The heart is a muscle and needs exercise, or it loses its strength.” It also found that 13 per cent of boys and 10 per cent of girls were overweight. More disturbingly, the survey found that over a four-day period, half the girls and one-third of the boys did less exercise than the equivalent of a brisk 10-minute walk. High levels of cholesterol, excess body fat and inactivity are believed to increase the risk of coronary heart disease."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Physical education is under pressure in the UK – most schools devote little more than 100 minutes a week to it in curriculum time, which is less than many other European countries. Three European countries—France, Austria and Switzerland—give children a head start in PE and offer at least two hours in primary and secondary schools. These findings, from the European Union of Physical Education Associations, prompted specialists in children’s physiology to call on European governments to give youngsters a daily PE programme. The survey shows that the UK ranks 13th out of the 25 countries, with Ireland bottom, averaging under an hour a week for PE. From age six to 18, British children received, on average, 106 minutes of PE a week. Professor Armstrong, who presented the findings at the meeting, noted that since the introduction of the national curriculum there had been a marked fall in the time devoted to PE in UK schools, with only a minority of pupils getting two hours a week."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "As a former junior football international, Professor Armstrong is a passionate advocate for sport. Although the Government has poured millions into beefing up sport in the community, there is less commitment to it as part of the crammed school curriculum. This means that many children never acquire the necessary skills to thrive in team games. If they are no good at them, they lose interest and establish an inactive pattern of behaviour. When this is coupled with a poor diet, it will lead inevitably to weight gain. Seventy per cent of British children give up all sport when they leave school, compared with only 20 per cent of French teenagers. Professor Armstrong believes that there is far too great an emphasis on team games at school. “We need to look at the time devoted to PE and balance it between individual and pair activities, such as aerobics and badminton, as well as team sports.” He added that children need to have the opportunity to take part in a wide variety of individual, partner and team sports."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "The good news, however, is that a few small companies and children’s activity groups have responded positively and creatively. ‘Take That!’ shouts Gloria Thomas, striking a disco pose astride her mini-space hopper. ‘Take That!’ echoes a flock of toddlers, adopting outrageous poses astride their space hoppers. ‘Michael Jackson!’ she shouts, and they all give a spoof, fan-crazed shriek. During the wild and chaotic hopper race across the studio floor, commands like these are issued and greeted with unrestrained glee. The sight of 15 bouncing seven-year-olds, who seem about to launch into orbit with every bounce, brings tears to the eyes. Uncoordinated, loud, excited and emotional, children provide raw comedy."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Any cardiovascular exercise is a good option, and it doesn’t necessarily have to be high intensity. It can be anything that gets your heart rate up, such as walking the dog, swimming, running, skipping, hiking. “Even walking through the grocery store can be exercise,” Samis-Smith said. The children do not know that they are at a Fit Kids class, and that the fun is a disguise for the serious exercise plan they’re covertly being taken through. Fit Kids trains parents to run fitness classes for children. ‘Ninety per cent of children don’t like team sports,’ says company director, Gillian Gale."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "A prevention survey found that children whose parents keep in shape are much more likely to maintain healthy body weights themselves. ‘There’s nothing worse than telling a child what he needs to do and not doing it yourself,’ says Elizabeth Ward, R.D., a Boston nutritional consultant and author of Healthy Foods, Healthy Kids. ‘Set a good example and get your nutritional house in order first.’ In the 1930s and 1940s, children expended 800 calories a day simply by walking, carrying water and doing other chores, notes Fima Lifshitz, M.D., a pediatric endocrinologist in Santa Barbara. ‘Now, children in obese families expend only 200 calories a day in physical activity,’ Lifshitz says. ‘Incorporate more movement into family life: park farther from shops at the mall, take the stairs instead of the lift, and walk to nearby friends’ houses instead of driving.’"
+    }
+  ],
+  "instructions": {
+    "g14": "Questions 14–17",
+    "g18": "Questions 18–21",
+    "g22": "Questions 22–26"
+  },
+  "questionGroups": [
+    {
+      "id": "g14",
+      "start": 14,
+      "end": 17,
+      "text": "Questions 14–17\nReading Passage 2 has seven paragraphs, A–G.\nWhich paragraph contains the following information?\nWrite the correct letter A–G in boxes 14–17 on your answer sheet.\n14 ___________ Changes in children’s health and living conditions\n15 ___________ A health organisation’s monitoring of physical activity\n16 ___________ A comparison of exercise time in the UK and other countries\n17 ___________ An inappropriate approach to school sport"
+    },
+    {
+      "id": "g18",
+      "start": 18,
+      "end": 21,
+      "text": "Questions 18–21\nDo the following statements agree with the information given in Reading Passage 2?\nIn boxes 18–21 on your answer sheet, write\n\n TRUE                       if the statement agrees with the information\n\n FALSE                      if the statement contradicts the information\n\n NOT GIVEN                  if there is no information on this\n18 _________________ According to the American Heart Foundation’s limits, boys have higher\ncholesterol levels than girls.\n19 _________________ British children generally do less exercise than children in some other European\ncountries.\n20 _________________ Skipping is becoming increasingly popular in UK schools.\n21 _________________ According to Healthy Kids, parents’ first task is to encourage their children to\nmaintain a healthy body weight."
+    },
+    {
+      "id": "g22",
+      "start": 22,
+      "end": 26,
+      "text": "Questions 22–26\nChoose the correct letter, A, B, C or D.\nWrite your answers in boxes 22–26 on your answer sheet.\n\n\n22 What concerns Professor Neil Armstrong in paragraph A?\n  A Spending more time watching television harms children’s academic performance.\n  B Parents have less time to spend with their children.\n  C The future health of British children\n  D The increasing pace of property development\n\n\n23 What point does Armstrong make in paragraph B?\n  A Everyone needs a ten-minute walk every day.\n  B Children should be more active to exercise the heart.\n  C Girls are in a better situation than boys.\n  D Exercise can cure many diseases.\n\n\n24 What is the aim of Fit Kids training?\n  A to make a profit by running several sessions\n  B to focus on only one activity for each child\n  C to teach parents how to organise fitness activities for children\n  D to promote team sport as the best form of exercise\n\n\n25 What does Lifshitz suggest at the end of the passage?\n  A Create more opportunities for physical activity.\n  B Take the lift to save time.\n  C Children should expend more than 200 calories every day.\n  D People should always walk rather than drive.\n\n\n26 What is the main idea of the passage?\n  A Overweight children face future health risks.\n  B Children in the UK need appropriate forms of exercise.\n  C The government has taken the wrong approach to children’s activity.\n  D Parents play the most important role in children’s activity."
+    }
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ Changes in children’s health and living conditions",
+      "translation": "兒童健康和生活條件的變化。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 15,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ A health organisation’s monitoring of physical activity",
+      "translation": "一個健康組織／健康標準背景下，對兒童體能活動的監測。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 16,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ A comparison of exercise time in the UK and other countries",
+      "translation": "英國和其他國家的運動時間比較。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 17,
+      "group": "g14",
+      "type": "choice",
+      "prompt": "___________ An inappropriate approach to school sport",
+      "translation": "學校運動中一種不合適的做法。",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 18,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ According to the American Heart Foundation’s limits, boys have higher cholesterol levels than girls.",
+      "translation": "按照 American Heart Foundation 的標準，男孩的膽固醇水平比女孩高。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 19,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ British children generally do less exercise than children in some other European countries.",
+      "translation": "英國兒童一般比某些其他歐洲國家的兒童少做運動。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 20,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ Skipping is becoming increasingly popular in UK schools.",
+      "translation": "跳繩在英國學校中越來越受歡迎。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 21,
+      "group": "g18",
+      "type": "choice",
+      "prompt": "_________________ According to Healthy Kids, parents’ first task is to encourage their children to maintain a healthy body weight.",
+      "translation": "按照 Healthy Kids 的說法，父母的首要任務是鼓勵孩子維持健康體重。",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 22,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What concerns Professor Neil Armstrong in paragraph A?",
+      "translation": "Paragraph A 中，Neil Armstrong 擔心甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 23,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What point does Armstrong make in paragraph B?",
+      "translation": "Armstrong 在 Paragraph B 提出甚麼重點？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 24,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What is the aim of Fit Kids training?",
+      "translation": "Fit Kids training 的目的是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 25,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What does Lifshitz suggest at the end of the passage?",
+      "translation": "文章最後 Lifshitz 建議甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 26,
+      "group": "g22",
+      "type": "choice",
+      "prompt": "What is the main idea of the passage?",
+      "translation": "本文主旨是甚麼？",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p2-034/page-4.jpg",
+    "/assets/reading-comprehension/questions/p2-034/page-5.jpg"
+  ]
+}

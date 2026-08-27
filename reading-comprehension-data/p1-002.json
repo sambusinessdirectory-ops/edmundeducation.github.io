@@ -1,0 +1,258 @@
+{
+  "id": "p1-002",
+  "catalogueId": "p1-002",
+  "title": "Turtles",
+  "sourceHeading": "Save the Turtles",
+  "passage": 1,
+  "practice": 2,
+  "version": "20260827-corpus1",
+  "analysisId": "p1-002-turtles",
+  "source": {
+    "filename": "Practice 2- IETLS 閱讀練習 - Passage 1.pdf",
+    "sha256": "135eb29852b130d3293aa9887c983ff5afb45f5cebc80da9037fdfe089343767"
+  },
+  "paragraphs": [
+    {
+      "number": 1,
+      "label": "A",
+      "text": "Leatherback turtles follow the general sea turtle body plan of having a large, flattened, round body with two pairs of very large flippers and a short tail. Like other sea turtles, the leatherback’s flattened forelimbs are adapted for swimming in the open ocean. Claws are absent from both pairs of flippers. The Leatherback’s flippers are the largest in proportion to its body among extant sea turtles. Leatherback’s front flippers can grow up to 2.7 meters (9 ft) in large specimens, the largest flippers (even in comparison to its body) of any sea turtle. As the last surviving member of its family, the leatherback turtle has several distinguishing characteristics that differentiate it from other sea turtles. Its most notable feature is that it lacks the bony carapace of the other extant sea turtles."
+    },
+    {
+      "number": 2,
+      "label": "B",
+      "text": "During the past month, four turtles have washed up along Irish coasts from Wexford to Kerry. These turtles are more typical of warmer waters and only occur in Irish waters when they stray off course. It is likely that they may have originated from Florida, America. Two specimens have been taken to Coastal and Marine Resources Centre (stored at the National Maritime College), University College Cork, where a necropsy (post mortem for animals) will be conducted to establish their age, sex and their exact origin. During this same period, two leatherback turtles were found in Scotland, and a rare Kemp’s Ridley turtle was found in Wales, thus making it an exceptional month for stranded turtles in Ireland and the UK."
+    },
+    {
+      "number": 3,
+      "label": "C",
+      "text": "Actually, There has been extensive research conducted regarding the sea turtles’ abilities to return to their nesting regions and sometimes exact locations from hundreds of miles away. In the water, their path is greatly affected by powerful currents. Despite their limited vision, and lack of landmarks in the open water, turtles are able to retrace their migratory paths. Some explanations of this phenomenon have found that sea turtles can detect the angle and intensity of the earth’s magnetic fields."
+    },
+    {
+      "number": 4,
+      "label": "D",
+      "text": "However, Loggerhead turtles are not normally found in Irish waters, because water temperatures here are far too cold for their survival. Instead, adult loggerheads prefer the warmers waters of the Mediterranean, the Caribbean and North America’s east coast. The four turtles that were found have probably originated from the North American population of loggerheads. However it will require genetic analysis to confirm this assumption. It is thought that after leaving their nesting beach as hatchlings (when they measure 4.5 cm in length), these tiny turtles enter the North Atlantic Gyre (a giant circular ocean current) that takes them from America, across to Europe (Azores area), down towards North Africa, before being transported back again to America via a different current. This remarkable round trip may take many years during which these tiny turtles grow by several centimetres a year. Loggerheads may circulate around the North Atlantic several times before they settle in the coastal waters of Florida or the Caribbean."
+    },
+    {
+      "number": 5,
+      "label": "E",
+      "text": "These four turtles were probably on their way around the Atlantic when they strayed a bit too far north from the Gulf Stream. Once they did, their fate was sealed, as the cooler waters of the North East Atlantic are too cold for loggerheads (unlike leatherback turtles which have many anatomical and physiological adaptations to enable them to swim in our seas). Once in cool waters, the body of a loggerhead begins to shut down as they get ‘cold stunned’, then get hypothermia and die."
+    },
+    {
+      "number": 6,
+      "label": "F",
+      "text": "Leatherbacks are in immanent danger of extinction. A critical factor (among others) is the harvesting of eggs from nests. Valued as a food delicacy, Leatherback eggs are falsely touted to have aphrodisiacal properties in some cultures. The leatherback, unlike the Green Sea turtle, is not often killed for its meat; however, the increase in human populations coupled with the growing black market trade has escalated their egg depletion. Other critical factors causing the leatherbacks’ decline are pollution such as plastics (leatherbacks eat this debris thinking it is jellyfish; fishing practices such as longline fishing and gill nets, and development on habitat areas. Scientists have estimated that there are only about 35,000 Leatherback turtles in the world."
+    },
+    {
+      "number": 7,
+      "label": "G",
+      "text": "We are often unable to understand the critical impact a species has on the environment—that is, until that species becomes extinct. Even if we do not know the role a creature plays in the health of the environment, past lessons have taught us enough to know that every animal and plant is one important link in the integral chain of nature. Some scientists now speculate that the Leatherback may play an important role in the recovery of diminishing fish populations. Since the Leatherback consumes its weight in jellyfish per day, it helps to keep Jellyfish populations in check. Jellyfish consume large quantities of fish larvae. The rapid decline in Leatherback populations over the last 50 years has been accompanied by a significant increase in jellyfish and a marked decrease in fish in our oceans. Saving sea turtles is an International endeavor."
+    }
+  ],
+  "instructions": {
+    "g1": "Questions 1–6",
+    "g7": "Questions 7–13"
+  },
+  "questionGroups": [
+    {
+      "id": "g1",
+      "start": 1,
+      "end": 6,
+      "text": "Question 1–6\nChoose the most suitable headings for paragraphs B–G from the list of headings below.\n\nWrite appropriate numbers (i–x) in boxes 1–6 on your answer sheet.\n\nNB There are more headings than paragraphs, so you will not use them all.\n\n\n\n\nList of Headings\ni. Sea turtles are found in unusual locations\nii. Unique features of the Leatherbacks\niii. The Leatherback’s contribution\niv. Methods used for routes tracking\nv. Predict the migration routes\nvi. Remains multiplicity within the species\nvii. The progress of hatching\nviii. The fate of the lost turtles\nix. What are trips supposed to look like?\nx. Factors leading to population decline\n\n\n\n   1. Paragraph B\n   2. Paragraph C\n   3. Paragraph D\n   4. Paragraph E\n   5. Paragraph F\n   6. Paragraph G"
+    },
+    {
+      "id": "g7",
+      "start": 7,
+      "end": 13,
+      "text": "Question 7–13\nChoose words from the passage to answer the questions 7–13.\nWrite NO MORE THAN THREE WORDS for each answer.\n\n\n\n   7. How many Leatherback turtles are there in the world?\n   8. What is the most noticeable difference between other sea turtles and\n      leatherbacks?\n   9. What candle therback turtles to die in Irish waters?\n   10.Where did the four turtles probably come from?\n   11.By which means can sea turtles retrace their migratory paths?\n   12.For what purpose are Green Sea turtles killed by people?\n   13.What kind of species will benefit from a decline in Leatherback populations?"
+    }
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph B",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 2,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph C",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 3,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph D",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 4,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph E",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 5,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph F",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 6,
+      "group": "g1",
+      "type": "choice",
+      "prompt": "Paragraph G",
+      "translation": "",
+      "options": [
+        "i",
+        "ii",
+        "iii",
+        "iv",
+        "v",
+        "vi",
+        "vii",
+        "viii",
+        "ix",
+        "x"
+      ],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 7,
+      "group": "g7",
+      "type": "text",
+      "prompt": "How many Leatherback turtles are there in the world?",
+      "translation": "世界上有多少隻 Leatherback turtles？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 8,
+      "group": "g7",
+      "type": "text",
+      "prompt": "What is the most noticeable difference between other sea turtles and leatherbacks?",
+      "translation": "其他 sea turtles 和 leatherbacks 最明顯的差異是甚麼？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 9,
+      "group": "g7",
+      "type": "text",
+      "prompt": "What candle therback turtles to die in Irish waters? 10.Where did the four turtles probably come from? 11.By which means can sea turtles retrace their migratory paths? 12.For what purpose are Green Sea turtles killed by people? 13.What kind of species will benefit from a decline in Leatherback populations?",
+      "translation": "是甚麼導致 loggerhead turtles 在 Irish / North East Atlantic waters 死亡？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 10,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 10 · 請參照上方原題",
+      "translation": "這四隻 turtles 可能來自哪裡？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 11,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 11 · 請參照上方原題",
+      "translation": "sea turtles 透過甚麼方式重走 migratory paths？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 12,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 12 · 請參照上方原題",
+      "translation": "人們為了甚麼目的殺 Green Sea turtles？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    },
+    {
+      "number": 13,
+      "group": "g7",
+      "type": "text",
+      "prompt": "Question 13 · 請參照上方原題",
+      "translation": "哪種物種會因 Leatherback populations 下降而得益？",
+      "options": [],
+      "placeholder": "依照原題字數限制輸入答案"
+    }
+  ],
+  "questionPages": [
+    "/assets/reading-comprehension/questions/p1-002/page-6.jpg",
+    "/assets/reading-comprehension/questions/p1-002/page-7.jpg"
+  ]
+}

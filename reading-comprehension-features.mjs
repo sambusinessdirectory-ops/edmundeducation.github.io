@@ -31,7 +31,7 @@ export const BOOKMARK_LABELS = {
 };
 
 export function bookmarkTarget(key) {
-  const word = /^word:([^:]+):([pq])(\d+):w\d+$/.exec(key);
+  const word = /^word:([^:]+):([pqg])(\d+):w\d+$/.exec(key);
   if (word) return { article: word[1], kind: 'word', number: Number(word[3]), context: word[2] };
   const match = /^([^:]+):(passage|questions|paragraph|question|skimming|scanning|analysis|q\d+)(?::(\d+))?(?::([\w-]+))?$/.exec(key);
   if (!match) return null;
