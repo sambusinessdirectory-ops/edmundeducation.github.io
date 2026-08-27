@@ -89,8 +89,35 @@ async function loadArticleData(id = ARTICLE_ID) {
   if (!dataResponse.ok || !analysisResponse.ok) throw new Error("未能載入閱讀練習資料。");
   const [data, analysis] = await Promise.all([dataResponse.json(), analysisResponse.json()]);
   if (data.id !== id || !Array.isArray(data.questions) || !data.paragraphs?.length) throw new Error('文章資料不符。');
+  if (state.token && !data.paragraphs.every((p) => p.translation)) {
+    try {
+      const translation = await rpc('reading_comprehension_article_translation', { p_token: state.token, p_article_id: id });
+      applyArticleTranslation(data, translation);
+    } catch (error) {
+      // Optional support must never prevent the English exercise from opening.
+      data.translationLoadFailed = true;
+      console.warn('Reading translation unavailable', error);
+    }
+  }
   ARTICLE_ID = id; state.data = data; state.analysis = analysis;
   state.activeAnalysis = 0; state.activeSkimming = 0;
+}
+function applyArticleTranslation(data, translation) {
+  if (!translation || translation.articleId !== data.id || translation.locale !== 'zh-Hant'
+      || translation.sourceTitle !== data.title || translation.sourceHeading !== (data.sourceHeading || '')
+      || typeof translation.title !== 'string' || !translation.title.trim()
+      || typeof translation.heading !== 'string'
+      || !Array.isArray(translation.paragraphs) || translation.paragraphs.length !== data.paragraphs.length) return false;
+  // Reject the entire payload on source drift: never attach Chinese to a
+  // different English paragraph or silently show an incomplete translation.
+  if (!data.paragraphs.every((paragraph, index) => {
+    const copy = translation.paragraphs[index];
+    return copy?.number === paragraph.number && copy.source === paragraph.text
+      && typeof copy.translation === 'string' && copy.translation.trim();
+  })) return false;
+  data.paragraphs.forEach((paragraph, index) => { paragraph.translation = translation.paragraphs[index].translation; });
+  data.titleTranslation = translation.title; data.headingTranslation = translation.heading;
+  return true;
 }
 async function loadBookmarks() {
   const token = state.token;
@@ -214,9 +241,11 @@ function interactiveWords(text, context, spoken = false) {
 }
 function renderPassage() {
   state.wordIndex = 0; el.passage.innerHTML = state.data.paragraphs.map((paragraph) => `<section class="passage-paragraph" id="paragraph-${paragraph.number}"><div class="paragraph-heading"><span class="paragraph-label">PARAGRAPH ${escapeHtml(paragraph.label || paragraph.number)}</span><span class="scan-tags" data-scan-tags="${paragraph.number}" aria-label="已選擇此段的題目"></span><button class="paragraph-audio-button" type="button" data-play-paragraph="${paragraph.number}" aria-label="朗讀第 ${paragraph.number} 段">▶ 朗讀本段</button>${readingBookmarkButton('paragraph', paragraph.number)}</div><div class="passage-text-block">${interactiveWords(paragraph.text, `p${paragraph.number}`, true)}</div>${paragraph.translation ? `<div class="translation-copy" data-translation-copy="${paragraph.number}" hidden lang="zh-Hant">${escapeHtml(paragraph.translation)}</div>` : ''}<button class="skimming-button" type="button" data-skimming="${paragraph.number}">Skimming Tips · ${escapeHtml(paragraph.label || paragraph.number)}</button></section>`).join("");
-  if (state.data.sourceHeading) el.passage.insertAdjacentHTML('afterbegin', `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>`);
+  if (state.data.sourceHeading) el.passage.insertAdjacentHTML('afterbegin', `<p class="source-heading">${escapeHtml(state.data.sourceHeading)}</p>${state.data.headingTranslation ? `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.headingTranslation)}</p>` : ''}`);
+  if (state.data.titleTranslation && !state.data.headingTranslation) el.passage.insertAdjacentHTML('afterbegin', `<p class="translation-copy" data-translation-heading hidden lang="zh-Hant">${escapeHtml(state.data.titleTranslation)}</p>`);
   $('[data-translation-options]').innerHTML = '<legend>或選擇指定段落</legend>' + state.data.paragraphs.filter((p) => p.translation).map((p) => `<label><input type="checkbox" data-translation-paragraph="${p.number}"> 第 ${escapeHtml(p.label || p.number)} 段</label>`).join('');
   const translated = state.data.paragraphs.some((p) => p.translation); el.translationAll.disabled = !translated; el.translationAll.checked = false; $('[data-translation-availability]').hidden = translated;
+  $('[data-translation-availability]').textContent = state.data.translationLoadFailed ? '中文翻譯暫時未能載入；你仍可閱讀英文及作答，請稍後重新整理。' : '這篇文章的完整中文翻譯正在逐篇整理中。';
   renderScanTags();
 }
 function normalizedOption(option) { return typeof option === "string" ? { value: option, label: option, translation: "" } : option; }
@@ -477,7 +506,7 @@ $('[data-bookmark-filter]').addEventListener('change', renderBookmarkLibrary);
 $('[data-refresh-bookmarks]').addEventListener('click', async (event) => { const button = event.currentTarget; button.disabled = true; try { await loadBookmarks(); } finally { button.disabled = false; } });
 $('[data-answer-progress-toggle]').addEventListener('click', () => setAnswerProgressVisible($('[data-answer-progress-content]').hidden, true));
 el.translationButton.addEventListener("click", () => { const open = el.translationButton.getAttribute("aria-expanded") === "true"; el.translationButton.setAttribute("aria-expanded", String(!open)); el.translationPanel.hidden = open; });
-function updateTranslations() { const all = el.translationAll.checked; $$('[data-translation-paragraph]').forEach((checkbox) => { if (all) checkbox.checked = true; checkbox.disabled = all; }); $$('[data-translation-copy]').forEach((copy) => { const selected = $(`[data-translation-paragraph="${copy.dataset.translationCopy}"]`).checked; copy.hidden = !(all || selected); }); }
+function updateTranslations() { const all = el.translationAll.checked; $$('[data-translation-paragraph]').forEach((checkbox) => { if (all) checkbox.checked = true; checkbox.disabled = all; }); $$('[data-translation-copy]').forEach((copy) => { const selected = $(`[data-translation-paragraph="${copy.dataset.translationCopy}"]`)?.checked; copy.hidden = !(all || selected); }); $$('[data-translation-heading]').forEach((copy) => { copy.hidden = !(all || $$('[data-translation-paragraph]').some((checkbox) => checkbox.checked)); }); }
 el.translationAll.addEventListener("change", updateTranslations); $('[data-translation-options]').addEventListener('change', updateTranslations);
 $('[data-hide-translations]').addEventListener("click", () => { el.translationAll.checked = false; $$('[data-translation-paragraph]').forEach((checkbox) => { checkbox.checked = false; checkbox.disabled = false; }); updateTranslations(); showToast("已隱藏所有文章翻譯。"); });
 $('[data-question-translations]').addEventListener("change", (event) => { $$('[data-question-translation]').forEach((node) => { node.hidden = !event.currentTarget.checked; }); });

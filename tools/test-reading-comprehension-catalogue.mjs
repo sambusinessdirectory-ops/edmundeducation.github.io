@@ -3,12 +3,14 @@ import assert from 'node:assert/strict';
 import { readFile, stat } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import vm from 'node:vm';
+import { inventory } from './reading-translations.mjs';
 import { calculateAnswerProgress, scanningSections, BOOKMARK_LABELS, bookmarkTarget, readingBookmarkLink } from '../reading-comprehension-features.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = (path) => readFile(new URL(path, root), 'utf8');
 const json = async (path) => JSON.parse(await read(path));
 const catalogue = (await json('reading-comprehension-catalogue.json')).articles;
+const translations = new Map((await inventory()).rows.map(row => [row.article_id, row.content]));
 const seed = await json('tools/reading-comprehension-answer-seed.json');
 const held = new Set([
   ...[8,13,22,25,53,66,71,79,90,91,107,112,118,121,133,164].map(n => `p1-${String(n).padStart(3,'0')}`),
@@ -61,7 +63,7 @@ for (const entry of catalogue) {
   }
   if (entry.id !== 'p1-069-albert-einstein') {
     assert.equal(entry.audio, false, 'Do not promise ungenerated narration');
-    assert.equal(entry.translations, false, 'Do not promise untranslated paragraphs');
+    assert.equal(entry.translations, data.paragraphs.every(p => Boolean(p.translation)), 'Static catalogue flags describe bundled translations; database translations load separately');
     assert.ok(data.questionPages.length && data.questionGroups.length);
   }
 }
@@ -85,6 +87,7 @@ function node(selector) {
 const location = new URL('https://edmundeducation.com/reading-comprehension.html');
 const rpc = async (name,args) => {
   calls.push({name,args});
+  if(name==='reading_comprehension_article_translation') return translations.get(args.p_article_id) || null;
   if(name==='reading_comprehension_current_attempt') return { attempt_id:`test-${args.p_article_id}`,answers:{},duration_ms:0,status:'in_progress',question_results:[] };
   if(name==='reading_comprehension_save_attempt') return {attempt_id:args.p_attempt_id||'new-test',article_id:args.p_article_id,status:'in_progress',answers:args.p_answers,question_results:[]};
   return [];
@@ -113,7 +116,7 @@ for (const id of ['p1-001','p2-064','p2-119','p2-169','p3-079','p3-172']) {
   assert.equal(run('ARTICLE_ID'),id);
   assert.equal((node('[data-questions]').innerHTML.match(/data-scanning-tip=/g)||[]).length,articles.get(id).data.questions.length);
   assert.match(node('[data-questions]').innerHTML,/original-pages/);
-  assert.equal(node('[data-translation-all]').disabled,true);
+  assert.equal(node('[data-translation-all]').disabled,!translations.has(id));
   assert.doesNotMatch(node('[data-passage]').innerHTML, /undefined/);
 }
 run('selectPassageTab(3);');
