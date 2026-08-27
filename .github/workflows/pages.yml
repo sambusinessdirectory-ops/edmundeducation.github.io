@@ -29,6 +29,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Validate membership preview and payment-disabled security boundary
+        run: |
+          node --test tools/test-membership-foundation.mjs
+          npm test --prefix workers/membership
+
       - name: Validate Flashcard conflict recovery release gate
         run: |
           node tools/test-flashcard-state-integrity.mjs
@@ -273,6 +278,7 @@ jobs:
             --exclude='song-appreciation-data.js' \
             --exclude='tools' \
             --exclude='workers' \
+            --exclude='supabase' \
             --exclude='assets/speaking-system/audio/edmund-neural/part1/' \
             --exclude='assets/speaking-system/audio/edmund-neural/part3/' \
             ./ _site/

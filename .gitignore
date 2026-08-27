@@ -5,3 +5,5 @@
 **/__pycache__/
 .flashcards-audio-build/
 tmp/
+supabase/.temp/
+supabase/.branches/

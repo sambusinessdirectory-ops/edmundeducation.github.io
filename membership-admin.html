@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow"><meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>會員計劃管理 · Edmund Education</title><link rel="stylesheet" href="membership.css?v=20260827-1">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous" defer></script>
+  <script src="supabase-config.js" defer></script><script src="membership-admin.js" type="module"></script>
+  <meta name="theme-color" content="#173d3b">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <header class="member-header"><a class="member-brand" href="membership.html"><img src="assets/homepage-optimized/company-logo.webp" width="48" height="48" alt="Edmund Education"><span>Edmund Education<small>MEMBERSHIP ADMIN</small></span></a><nav><a href="membership.html" target="_blank" rel="noopener">檢視公開頁 ↗</a><button id="logout" class="button button-outline" hidden>登出</button></nav></header>
+  <main class="admin-main">
+    <section id="login-view" class="admin-login"><span class="eyebrow">PRIVATE WORKSPACE</span><h2>會員計劃管理</h2><p class="quiet">此登入只供會員計劃管理員使用，不會登入或改動學生帳戶。</p><form id="admin-login-form"><label class="field">Admin username<input id="admin-name" autocomplete="username" maxlength="80" required></label><label class="field">Password<input id="admin-password" type="password" autocomplete="current-password" maxlength="72" required></label><button id="login-button" class="button button-dark" type="submit">Admin login →</button></form><p id="login-status" class="quiet error admin-status" role="alert"></p><p class="quiet">密碼由伺服器驗證，不儲存在網頁。管理階段最長 1 小時。</p></section>
+    <section id="admin-view" hidden>
+      <div class="admin-intro"><div><span class="eyebrow">EDMUND / MEMBERSHIP STUDIO</span><h1>準備好您的會員計劃。</h1><p class="quiet">方案、收款架構與推出清單，集中在這裡管理。</p></div><span class="status-pill">FOUNDATION · 收款鎖定</span></div>
+      <div class="notice"><span aria-hidden="true">◌</span><div><strong>現在可以儲存草稿及公布計劃預覽，不能啟用付款。</strong><p>尚未連接 Stripe，也未啟用付款後的帳戶建立程序。設定 Price ID 不會自行開啟收費。</p></div></div>
+      <form id="configuration-form">
+        <section class="admin-panel"><span class="eyebrow">01 / PLAN DESIGN</span><h2>月費方案</h2><p class="quiet">金額、包含系統與條款由您決定。未勾選「在公開頁顯示」的方案只存為草稿。最多 12 個方案。</p><div id="plan-editors"></div><button id="add-plan" class="button button-outline" type="button">＋ 新增方案草稿</button></section>
+        <section class="admin-panel"><span class="eyebrow">02 / BUSINESS SETTINGS</span><h2>聯絡資料與訂閱政策</h2><div class="admin-grid">
+          <label class="field">公司 / 收款方名稱<input data-setting="company_name" maxlength="160" placeholder="待確認"></label>
+          <label class="field">客服電郵<input data-setting="support_email" type="email" maxlength="254" placeholder="support@example.com"></label>
+          <label class="field">訂閱條款網址（HTTPS）<input data-setting="terms_url" type="url" maxlength="1000" placeholder="https://..."></label>
+          <label class="field">私隱政策網址（HTTPS）<input data-setting="privacy_url" type="url" maxlength="1000" placeholder="https://..."></label>
+          <label class="field">條款版本<input data-setting="policy_version" maxlength="80" placeholder="待確認"></label>
+          <label class="field">付款失敗寬限期（日）<input data-setting="grace_days" type="number" min="0" max="30" step="1" placeholder="未決定"></label>
+          <label class="field full-width">續期與取消說明<textarea data-setting="cancellation_text" maxlength="4000" placeholder="請先決定正式政策；不會替您預設試用或退款承諾。"></textarea></label>
+          <label class="field full-width">退款說明<textarea data-setting="refund_text" maxlength="4000" placeholder="待確認"></textarea></label>
+        </div><p class="admin-note">這裡只儲存普通設定。Stripe secret key、webhook secret 和服務金鑰必須放在伺服器 Secrets，請勿填入任何欄位。</p></section>
+        <section class="admin-panel"><span class="eyebrow">03 / GO-LIVE CHECKLIST</span><h2>正式收款前的檢查</h2><ul id="readiness" class="readiness"></ul><p class="quiet">清單是推出提示，不是繞過驗證的開關。即使資料齊全，這個版本的付款端點仍會拒絕建立收費。</p></section>
+        <div class="save-bar"><div><strong>只公布已準備好的內容</strong><p id="saved-at">尚未儲存</p></div><div class="admin-actions"><button id="save-draft" class="button button-outline" type="submit">儲存草稿</button><button id="publish-preview" class="button button-dark" type="button">儲存並公布預覽</button></div></div><p id="save-status" class="admin-status quiet" role="status"></p>
+      </form>
+      <section class="admin-panel"><span class="eyebrow">04 / BILLING OVERVIEW</span><h2>訂閱與處理紀錄</h2><div class="metric-grid"><div><strong id="subscription-count">0</strong><small>訂閱紀錄</small></div><div><strong id="event-count">0</strong><small>付款事件</small></div><div><strong id="job-count">0</strong><small>待處理啟用工作</small></div></div><p class="empty-records">付款及帳戶啟用尚未開放；此處不會顯示模擬交易。</p></section>
+      <section class="admin-panel"><span class="eyebrow">05 / PAYMENT ARCHITECTURE</span><h2>收款與學習權限，分開管理。</h2><div class="architecture-steps"><div><h3>Stripe</h3><p>託管付款頁、月費訂閱、發票及客戶帳單管理。</p><span class="small-label">待連接</span></div><div><h3>Cloudflare Worker</h3><p>固定價格驗證、簽名 webhook、重複事件防護與背景處理。</p><span class="small-label">已建立端點骨架 · 鎖定</span></div><div><h3>Supabase</h3><p>私人設定、訂閱紀錄、啟用工作及學習權限資料。</p><span class="small-label">管理設定已連接</span></div></div><p class="quiet">現有學生登入與進度保持原樣。新會員的電郵驗證、一次性啟用、權限驗證與取消後保留進度，將在 Stripe 測試階段完成。</p></section>
+    </section>
+  </main>
+</body>
+</html>

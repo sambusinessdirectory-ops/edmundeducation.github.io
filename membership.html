@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Edmund 學習系統會員計劃。瀏覽月費方案、了解登記流程；無需先登入。">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>會員計劃 · Edmund Education</title>
+  <link rel="canonical" href="https://edmundeducation.com/membership.html">
+  <link rel="stylesheet" href="membership.css?v=20260827-1">
+  <meta property="og:title" content="Edmund 學習系統 · 會員計劃">
+  <meta property="og:description" content="為持續學習，留一個位置。月費會員計劃籌備中。">
+  <meta property="og:image" content="https://edmundeducation.com/assets/homepage-optimized/company-logo.webp">
+  <meta property="og:url" content="https://edmundeducation.com/membership.html">
+  <script src="supabase-config.js" defer></script>
+  <script src="membership.js" type="module"></script>
+  <meta name="theme-color" content="#173d3b">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <header class="member-header">
+    <a class="member-brand" href="index.html"><img src="assets/homepage-optimized/company-logo.webp" width="48" height="48" alt="Edmund Education"><span>Edmund Education<small>MEMBERSHIP · 會員計劃</small></span></a>
+    <nav aria-label="頁首導覽"><a href="index.html">返回首頁</a><a class="button button-outline" href="membership-admin.html">Admin login <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="member-hero">
+      <div class="hero-copy"><span class="eyebrow">A LITTLE EVERY DAY</span><h1>為持續學習，<br>留一個位置。</h1><p class="lead">Edmund 學習系統 <span>會員計劃</span></p><p>選擇適合自己的月費方案，讓英文學習成為日常的一部分。<br>瀏覽與選購無需先登入學生帳戶。</p><a class="button button-dark" href="#plans">了解會員計劃 <span aria-hidden="true">↓</span></a></div>
+      <aside class="hero-note"><span class="eyebrow">MEMBERSHIP / 月費會員</span><div class="note-mark" aria-hidden="true">E.</div><h2>每一天，<br>累積一點進步。</h2><div class="note-rule"></div><span class="status-pill">籌備中 · 暫未開放付款</span><p>方案價格與包含內容將於公布後顯示。</p></aside>
+    </section>
+    <div class="notice" role="status"><span aria-hidden="true">◌</span><div><strong>會員付款服務尚未啟用</strong><p>Stripe 尚未連接。目前不會收費、不會建立訂閱，也不會改動現有學生的使用權限。</p></div></div>
+    <section id="plans" class="member-section"><div class="section-heading"><div><span class="eyebrow">01 / FIND YOUR PLAN</span><h2>您的下一步，由這裡開始。</h2></div><span class="subtle-label">MONTHLY MEMBERSHIP</span></div>
+      <div id="plan-list" class="plan-grid"><article class="plan-card placeholder-plan"><span class="small-label">即將公布</span><h3>月費會員計劃</h3><p class="plan-price">價格待公布</p><p>包含的學習系統、月費及訂閱條款，將在正式開放前清楚列明。</p><button class="button button-dark" disabled>尚未開放訂閱</button></article></div><p id="catalog-message" class="quiet" role="status"></p>
+    </section>
+    <section class="member-section journey"><div><span class="eyebrow">02 / HOW IT WILL WORK</span><h2>簡單登記，<br>安心開始。</h2><p>以下是正式開放後的預定流程。</p></div><ol><li><span>01</span><div><h3>選擇計劃與學習者</h3><p>付款人與學習者可為不同人，方便家長代學生登記。</p></div></li><li><span>02</span><div><h3>前往安全付款頁</h3><p>預計透過 Stripe 付款頁以信用卡或支援的 Apple Pay 付款；本站不收集卡號。</p></div></li><li><span>03</span><div><h3>確認付款，啟用學習帳戶</h3><p>伺服器確認付款後，再發送一次性啟用連結。返回本頁並不代表付款成功。</p></div></li></ol></section>
+    <section class="member-section faq"><span class="eyebrow">BEFORE YOU JOIN</span><h2>登記前，先了解清楚。</h2><details open><summary>現在需要建立學生帳戶嗎？</summary><p>不需要。此會員計劃頁供公眾直接瀏覽。服務目前仍在籌備中，未開放登記或收款。</p></details><details><summary>月費、續期及取消安排是甚麼？</summary><p id="cancellation-copy">月費、續期及取消安排尚待公布；正式付款前會清楚列出，並要求您同意相關條款。</p><p id="refund-copy"></p></details><details><summary>可以由家長付款嗎？</summary><p>預定登記流程會分開記錄付款人與學習者資料，帳單寄給付款人，帳戶啟用訊息寄給學習者。</p></details><details><summary>現有學生的資料會改變嗎？</summary><p>不會。這次先建立會員服務架構，不會更改現有帳戶、學習進度或使用權限。</p></details></section>
+  </main>
+  <footer class="member-footer"><span>Edmund Education · 學習，每天一點。</span><div><a id="privacy-link" href="privacy-policy.html">私隱政策</a><a id="terms-link" href="terms-of-service.html">網站使用條款</a><a id="support-link" hidden>聯絡我們</a></div></footer>
+</body>
+</html>

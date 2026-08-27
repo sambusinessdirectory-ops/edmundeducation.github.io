@@ -93,7 +93,7 @@ assert.match(register, /username\.addEventListener\("change", \(\) => reveal\(Bo
 assert.match(register, /password\.scrollIntoView\(\{ block: "center", behavior: "smooth" \}\)/);
 
 const allHtml = (await readdir(root)).filter((name) => name.endsWith(".html"));
-const adminOnlyPasswordPages = new Set(["daily-newsletter.html", "english-study.html", "forum.html", "major-music.html", "news-analysis.html", "schedule-motivation-admin.html"]);
+const adminOnlyPasswordPages = new Set(["daily-newsletter.html", "english-study.html", "forum.html", "major-music.html", "membership-admin.html", "news-analysis.html", "schedule-motivation-admin.html"]);
 for (const name of allHtml) {
   const html = await read(name);
   if (!/type="password"/.test(html) || adminOnlyPasswordPages.has(name)) continue;
