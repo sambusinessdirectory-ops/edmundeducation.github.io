@@ -1,5 +1,6 @@
-import {previewEmail,validateEmailDraft,checkEmailSpelling} from './email-preview.mjs';
+import {previewEmail,validateEmailDraft,checkEmailSpelling} from './email-preview.mjs?v=20260828-email4';
 import {submitWithRecovery,resolveSubmission,submissionMessage} from './email-submit.mjs';
+import {recordAttempt,EMAIL_UI_VERSION} from './email-attempt.mjs?v=20260828-email4';
 const SESSION_KEY = "edmund-schedule-session-v1";
 const settings = window.EDMUND_SUPABASE || {};
 const workerBaseUrl = String(window.EDMUND_SCHEDULE_CONFIG?.workerBaseUrl || "").replace(/\/+$/, "");
@@ -239,7 +240,10 @@ function renderTemplate(data, displayIndex) {
     if(pendingSubmission) {setStatus('請先使用上方「確認結果／安全解鎖」核對上次要求，避免重複寄送。',true);return;}
     activeSubmission=true;
     busy=true;const controls=[...card.querySelectorAll('button,input,select,textarea')].map(node=>({node,disabled:node.disabled}));controls.forEach(({node})=>node.disabled=true);
-    const requestId=crypto.randomUUID();let objectUrl='',savedSuccessfully=false;
+    const requestId=crypto.randomUUID();let objectUrl='',savedSuccessfully=false,step='validation',uploadStarted=false;
+    const trace=(stage,state)=>recordAttempt({storage:sessionStorage,key:pendingKey+':attempts',requestId,slot:data.slot,stage,step,state,api});
+    trace('preview_requested');
+    report(`正在準備${sendNow?'發送預覽':'儲存'}；尚未發送。要求 ID：${requestId}`);
     try {
       const recipientIds=[...recipients.querySelectorAll('input:checked')].map(b=>b.value);
       const selected=snapshot.students.filter(s=>recipientIds.includes(s.studentId));
@@ -251,21 +255,26 @@ function renderTemplate(data, displayIndex) {
         let imageSource='';
         if(signature.files?.[0]) {objectUrl=URL.createObjectURL(signature.files[0]);imageSource=objectUrl;}
         else if(data.hasSignatureImage && !removeSignature.checked) {
-          const assets=await api(`/v1/admin/email/templates/${data.slot}/assets`);
+          step='assets';trace('preview_assets');
+          const assets=await api(`/v1/admin/email/templates/${data.slot}/assets`,{headers:{'X-Email-Request-ID':requestId}});
           if(assets.revision!==data.revision) throw new Error('草稿已在其他頁面更新。請重新整理後再次預覽。');
           if(assets.signatureContent) imageSource=`data:${assets.signatureContentType};base64,${assets.signatureContent.replace(/\s/g,'')}`;
         }
-        approval=await previewEmail({content:textarea.value,recipients:selected,imageSource,signatureLink:signatureLink.value,attachments:[...existing,...files],sender:snapshot.sender.connectedEmail,action:sendNow?'確認發送':'確認儲存並啟用定期發送'});
-        if(!approval) return;
+        step='preview';
+        approval=await previewEmail({content:textarea.value,recipients:selected,imageSource,signatureLink:signatureLink.value,attachments:[...existing,...files],sender:snapshot.sender.connectedEmail,action:sendNow?`確認發送 ${selected.length} 封`:'確認儲存並啟用定期發送',onStage:stage=>trace(stage)});
+        if(!approval) {report(`已取消預覽；沒有提交或發送電郵。要求 ID：${requestId}`);return;}
       }
+      step='prepare_upload';
       const form=makeSubmission(approval,sendNow);
       storePending({requestId,slot:data.slot,sendNow});
       report(`正在上傳並${sendNow?'儲存及排隊':'儲存'}訊息 ${displayIndex+1}… 請先不要重新整理或離開本頁。`);
+      step='upload';uploadStarted=true;trace('browser_upload');
       const result=await submitWithRecovery({api,slot:data.slot,form,requestId,onProgress:report});
+      trace('browser_receipt',result.state);
       storePending(null);
       savedSuccessfully=result.state!=='cancelled';
       report(submissionMessage(result),result.state==='cancelled');
-    } catch(error) {report(`${error.message||'未能完成。'} 要求 ID：${requestId}。若已排隊，請先檢查 Email Log，避免重寄。`,true);}
+    } catch(error) {trace('browser_failed');report(`${uploadStarted?'提交結果尚未確認；請先核對結果，避免重寄。':'尚未提交，沒有因此次操作新增電郵。'} ${error.message||'未能完成。'} 步驟：${step}。要求 ID：${requestId}`,true);}
     finally {busy=false;activeSubmission=false;controls.forEach(({node,disabled})=>node.disabled=disabled);if(objectUrl) URL.revokeObjectURL(objectUrl);if(savedSuccessfully) await reloadSnapshot().catch(()=>{});}
   }
   card.querySelector('[data-save]').addEventListener('click',()=>submit(false));
@@ -343,6 +352,7 @@ async function init() {
     token = saved.adminToken;
     const ownerHash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(token));
     pendingKey='edmund-email-pending-v3:'+Array.from(new Uint8Array(ownerHash)).map(x=>x.toString(16).padStart(2,'0')).join('');
+    document.querySelector('[data-email-version]').textContent=`Email 系統版本：${EMAIL_UI_VERSION}`;
     try {pendingSubmission=JSON.parse(sessionStorage.getItem(pendingKey)||'null');} catch {pendingSubmission=null;}
     updateRecovery();
     await reloadSnapshot();

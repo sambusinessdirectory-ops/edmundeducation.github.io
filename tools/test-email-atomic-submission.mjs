@@ -68,7 +68,7 @@ try {
 } finally {await db.close();}
 
 const originalFetch=globalThis.fetch,events=[],background=[];
-let releaseAudit,savedPayload;
+let releaseAudit,savedPayload,holdAudit=true;
 const json=data=>new Response(JSON.stringify(data),{headers:{'Content-Type':'application/json'}});
 const env={ALLOWED_ORIGIN:'https://edmundeducation.com',SUPABASE_URL:'https://db.example.invalid',SUPABASE_ANON_KEY:'fake-public',SCHEDULE_SERVICE_SECRET:'fake-secret'};
 globalThis.fetch=async(url,options)=>{
@@ -76,7 +76,8 @@ globalThis.fetch=async(url,options)=>{
  const name=String(url).split('/').pop(),body=JSON.parse(options.body);
  if(name==='schedule_announcement_admin_auth') return json([{id:admin}]);
  if(name==='schedule_email_v3_submit') {savedPayload=body.p_payload;return json(receipt);}
- if(name==='schedule_email_v3_events') {events.push(...body.p_events);await new Promise(resolve=>{releaseAudit=resolve;});return json(true);}
+ if(name==='schedule_email_v3_events') {events.push(...body.p_events);if(holdAudit)await new Promise(resolve=>{releaseAudit=resolve;});return json(true);}
+ if(name==='schedule_email_v2_admin' && body.p_operation==='logs')return json({logs:[],requests:[]});
  throw new Error(`Unexpected RPC: ${name}`);
 };
 try {
@@ -87,6 +88,16 @@ try {
  assert.equal(response.status,202);assert.deepEqual((await response.json()).emailIds,receipt.emailIds);
  assert.equal(Buffer.from(savedPayload.signatureContent,'base64').length,image.length);assert.equal(savedPayload.attachments[0].sizeBytes,pdf.length);
  assert.ok(background.length>=2);assert.ok(events.some(e=>e.stage==='request_complete'));releaseAudit();await Promise.all(background);
+ holdAudit=false;events.length=0;
+ const diagnostic=new Request('https://worker.example/v1/admin/email/client-events',{method:'POST',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json','X-Email-Request-ID':crypto.randomUUID()},body:JSON.stringify({slot:1,stage:'browser_failed',step:'validation',version:'20260828-email4',content:'must-not-log',email:'must-not-log@example.invalid',token:'must-not-log'})});
+ assert.equal((await worker.fetch(diagnostic,env)).status,202);
+ assert.equal(events.length,1);assert.equal(events[0].stage,'browser_failed');assert.equal(events[0].details.source,'browser');
+ assert.equal(JSON.stringify(events).includes('must-not-log'),false);
+ const reads=await worker.fetch(new Request('https://worker.example/v1/admin/email/logs',{headers:{Authorization:`Bearer ${token}`}}),env);assert.equal(reads.status,200);assert.equal(events.length,1,'Log refresh must not create a fake send diagnostic');
+ const invalid=new Request('https://worker.example/v1/admin/email/client-events',{method:'POST',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({slot:1,stage:'gmail_accepted'})});
+ assert.equal((await worker.fetch(invalid,env)).status,400);
+ assert.equal(events.some(e=>e.stage==='gmail_accepted'),false,'Browser must not claim provider acceptance');
+ assert.equal((await worker.fetch(new Request('https://worker.example/v1/admin/email/client-events',{method:'POST',body:'{}'}),env)).status,401);
  console.log('PASS Worker: multipart file bytes preserved; background audit does not delay authoritative receipt; in-flight operation registered with waitUntil.');
 } finally {globalThis.fetch=originalFetch;}
 

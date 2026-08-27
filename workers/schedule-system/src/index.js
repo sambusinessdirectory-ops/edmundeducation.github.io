@@ -1,17 +1,19 @@
 import { renderEmailHtml } from '../../../email-shared.mjs';
+import { ATTEMPT_STAGES } from '../../../email-attempt.mjs';
 import { emailEvent, flushEmailEvents, safeDiagnostic, visitorRoute, unsubscribeUrl, checkPageUpdates } from './email-v2.js';
 const GMAIL_SEND_SCOPE = "https://www.googleapis.com/auth/gmail.send";
 
 export default {
   async fetch(request, env, ctx) {
     const isEmail = new URL(request.url).pathname.startsWith('/v1/admin/email/');
+    const auditRequest = isEmail && request.method!=='OPTIONS' && new URL(request.url).pathname!=='/v1/admin/email/client-events' && !(request.method==='GET' && new URL(request.url).pathname==='/v1/admin/email/logs');
     const incomingId = request.headers.get('X-Email-Request-ID') || '';
     env = {...env, EMAIL_REQUEST_ID: /^[a-f0-9-]{36}$/i.test(incomingId) ? incomingId : crypto.randomUUID(), EMAIL_ADMIN_TOKEN: bearerToken(request), EMAIL_EVENTS:[]};
     const operation=(async()=>{
     try {
-      if(isEmail && request.method!=='OPTIONS') await emailEvent(env,rpc,'request_received','started',{method:request.method,path:new URL(request.url).pathname});
+      if(auditRequest) await emailEvent(env,rpc,'request_received','started',{method:request.method,path:new URL(request.url).pathname});
       const response = await route(request, env);
-      if(isEmail && request.method!=='OPTIONS') {
+      if(auditRequest || (isEmail && !response.ok && request.method!=='OPTIONS')) {
         const errorBody=response.ok?null:await response.clone().json().catch(()=>null);
         await emailEvent(env,rpc,response.ok?'request_complete':'request_failed',response.ok?'ok':'error',{httpStatus:response.status,...(errorBody?.error?{error:safeDiagnostic(errorBody.error)}:{})});
       }
@@ -48,10 +50,25 @@ async function route(request, env) {
   }
 
   if (url.pathname === "/v1/health" && request.method === "GET") {
-    return json({ ok: true, service: "edmund-schedule-system", emailVersion:3 }, 200, request, env);
+    return json({ ok: true, service: "edmund-schedule-system", emailVersion:4 }, 200, request, env);
   }
   const visitor = await visitorRoute(request,env,{rpc,json,readLimitedJson,sha256Hex});
   if(visitor) return visitor;
+  if(url.pathname==='/v1/admin/email/client-events' && request.method==='POST') {
+    const admin=await authenticateAdmin(request,env);
+    if(!admin) return json({error:'Administrator authentication required'},401,request,env);
+    const body=await readLimitedJson(request,2048);
+    if(!Object.hasOwn(ATTEMPT_STAGES,body.stage) || !Number.isInteger(body.slot) || body.slot<1 || body.slot>999) return json({error:'Invalid diagnostic event'},400,request,env);
+    // Browser observations are explicitly labelled and cannot claim a Gmail
+    // acceptance or a committed queue entry. Do not store arbitrary client data.
+    await emailEvent(env,rpc,body.stage,body.stage==='browser_failed'?'error':'info',{
+      source:'browser',slot:body.slot,
+      step:['validation','assets','preview','prepare_upload','upload'].includes(body.step)?body.step:null,
+      state:['queued','saved','cancelled'].includes(body.state)?body.state:null,
+      version:/^\d{8}-email\d+$/.test(body.version||'')?body.version:'unknown'
+    });
+    return json({recorded:true,requestId:env.EMAIL_REQUEST_ID},202,request,env);
+  }
   const receiptMatch=url.pathname.match(/^\/v1\/admin\/email\/requests\/([a-f0-9-]{36})(\/resolve)?$/i);
   if(receiptMatch && ((request.method==='GET' && !receiptMatch[2]) || (request.method==='POST' && receiptMatch[2]))) {
     const admin=await authenticateAdmin(request,env);

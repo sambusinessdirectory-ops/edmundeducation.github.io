@@ -1,5 +1,35 @@
 # Email v2: activation and debugging
 
+## Pre-submit diagnostics update (emailVersion 4)
+
+On 28 August at 00:20–00:24 Hong Kong time, the reported successful request
+entries were all `GET /v1/admin/email/logs`. The database still contained four
+historical delivery jobs and zero v3 submission receipts. Thus these entries
+were not evidence of new sends. The exact browser stopping point was not
+recorded by v3 and must not be inferred from those GET requests.
+
+- The preview checks spelling automatically while the admin reviews it. One
+  final button explicitly says `確認發送 N 封`. Cancelling explicitly says no
+  email was submitted. Unavailable spelling checks still allow an explicit override.
+- Before upload, failures now say **not submitted**, with a step and request ID.
+  After upload starts, uncertain results remain locked behind receipt recovery.
+- `/v1/admin/email/client-events` records only allowlisted browser observations,
+  stage, slot, version and state. It requires admin authentication and cannot
+  create jobs or claim Gmail acceptance. No content, addresses, credentials or
+  attachment bytes are recorded. The browser keeps 60 metadata checkpoints per
+  admin session as a fallback when the network is unavailable.
+- Successful log reads no longer pollute request diagnostics. Historical reads
+  are grouped under **not sends**. Browser observations never substitute for
+  an authoritative `submit_committed`/job record.
+- Regression tests use the actual preview together with the designer (the old
+  designer test bypassed preview). Real-browser local checks cover stored image
+  plus PDF, real Harper, and one-click final confirmation. Transport is isolated;
+  these checks do not prove real mailbox delivery. A fresh admin-selected test
+  must produce a website email ID and then be confirmed in the recipient mailbox.
+
+No new migration, OAuth change, historical resend, or recipient change is needed.
+Deploy the Worker first, then Pages. Additional test: `node tools/test-email-attempts.mjs`.
+
 ## Attachment reliability update (emailVersion 3)
 
 Migration `20260827123503_email_atomic_submission.sql` adds an additive, private

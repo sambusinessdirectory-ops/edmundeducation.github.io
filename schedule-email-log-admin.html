@@ -29,7 +29,7 @@
     <section class="panel" data-gate>正在驗證管理員登入…</section>
     <section data-app hidden>
       <section class="panel"><form data-search-form class="button-row"><label>記錄類別<select data-audience><option value="all">全部</option><option value="student">學生帳戶</option><option value="visitor">訪客訂閱（非學生）</option></select></label><label>搜尋電郵／完整 ID<input data-search type="search" maxlength="254"></label><button class="primary">搜尋</button><button type="button" class="secondary" data-refresh>重新整理</button></form><p data-log-status role="status"></p><p class="helper">展開 Details 查看逐步檢查點。結果不確定時，先在寄件 Gmail 搜尋 <code>rfc822msgid:網站ID@edmundeducation.com</code>，不要直接重寄。</p><div class="table-wrap"><table><thead><tr><th>時間</th><th>訊息</th><th>收件人</th><th>狀態／Details</th></tr></thead><tbody data-logs></tbody></table></div><p data-empty hidden>沒有符合的記錄。</p><div class="button-row"><button data-prev>上一頁</button><span data-page></span><button data-next>下一頁</button></div></section>
-      <section class="panel"><h2>儲存／上載要求診斷</h2><p>包括尚未產生電郵 ID 的要求（最近 100 個檢查點；保留 30 天）。</p><div data-requests></div></section>
+      <section class="panel"><h2>預覽／儲存／上載要求診斷</h2><p>包括尚未產生電郵 ID 的要求（最近 100 個檢查點；保留 30 天）。「要求完成」只代表該步驟完成；只有隊列記錄中的電郵 ID 才代表已排隊。</p><div data-requests></div><details><summary>本瀏覽器的預覽記錄（包括未能連線的步驟）</summary><p>只限目前登入工作階段；這些記錄不能證明已排隊或已送達。</p><div data-local-attempts></div></details></section>
       <section class="panel"><h2>訪客訂閱名冊（非學生帳戶）</h2><p>最近 200 位。只有 active（已確認）的訪客會收到頁面更新通知。重新訂閱可更改選擇。</p><div class="table-wrap"><table><thead><tr><th>名稱</th><th>電郵</th><th>狀態</th><th>訂閱頁面</th><th>確認時間</th></tr></thead><tbody data-subscribers></tbody></table></div></section>
       <section class="panel"><h2>排程器與公開頁面更新檢查</h2><p data-scheduler></p><p>約每 5 分鐘檢查；首次建立基準不寄通知。瀏覽器內的私人草稿不會觸發。</p><div data-monitors></div></section>
     </section>
@@ -37,6 +37,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
-  <script type="module" src="schedule-email-log-v2.js?v=20260827-email3"></script>
+  <script type="module" src="schedule-email-log-v2.js?v=20260828-email4"></script>
 </body>
 </html>
