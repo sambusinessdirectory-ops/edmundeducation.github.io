@@ -26,7 +26,8 @@ is not evidence that it has been uploaded. Record verified uploads below.
 ## Verified database uploads
 
 2026-08-27: p1-001 through p1-007, p1-009, p1-010 and p1-011.
-10 of 436 articles; 74 paragraphs; 426 articles remain. Next: p1-012.
+2026-08-28: also p1-012, p1-014 and p1-015.
+13 of 436 articles; 95 paragraphs; 423 articles remain. Next: p1-016.
 Database content and English-source hashes match the validated local rows exactly.
 Authenticated RPC reads passed; anonymous requests and invalid student tokens
 were rejected. All synthetic test records were rolled back. Direct client table
@@ -37,3 +38,6 @@ Editorial flags in p1-007 and p1-009 record questionable claims in the English
 source. These are not silent corrections to the exercise; the translations
 preserve what the source says. The wine passage likewise describes historical
 health and naming claims, rather than providing updated medical or legal advice.
+Additional notes in p1-012, p1-014 and p1-015 record obvious source typos or
+historical medical/legal claims. The Everest translation explicitly identifies
+the source's suspect altitude and year rather than silently replacing them.
