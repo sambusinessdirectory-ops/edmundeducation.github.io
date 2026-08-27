@@ -75,6 +75,7 @@ const htmlPages = [
   "proverb-system.html",
   "quotes-system.html",
   "reading-comprehension.html",
+  "eddie-farm.html",
   "reading-logic-system.html",
   "recorded.html",
   "resources.html",

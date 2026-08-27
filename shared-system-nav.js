@@ -65,7 +65,8 @@
     { id: "poem-english", href: "poem-english-system.html", zh: "詩句賞識系統", en: "Poem English" },
     { id: "bookmark-directory", href: "bookmark-directory.html", zh: "學生書簽總目錄", en: "Bookmark Directory" },
     { id: "execution", href: "execution-system.html", zh: "執行動力系統", en: "Execution Psychology" },
-    { id: "reading-comprehension", href: "reading-comprehension.html", zh: "閱讀理解學習系統", en: "Reading Comprehension" }
+    { id: "reading-comprehension", href: "reading-comprehension.html", zh: "閱讀理解學習系統", en: "Reading Comprehension" },
+    { id: "eddie-farm", href: "eddie-farm.html", zh: "Eddie Farm 積分系統", en: "Farm Points" }
   ]);
 
   const SESSION_KEYS = Object.freeze({
@@ -323,7 +324,28 @@
     ensurePasswordButton();
     syncPomodoroOwner();
     tickPomodoro();
+    recordFarmVisit();
     return true;
+  }
+
+  let farmVisitPending = false;
+  async function recordFarmVisit() {
+    const candidate = studentSessionCandidate();
+    const config = window.EDMUND_SUPABASE;
+    if (farmVisitPending || !candidate?.token || !config?.url || !config.anonKey || document.visibilityState === "hidden") return;
+    const day = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    const key = "eddie-farm-visit-v1:" + (candidate.id || candidate.name);
+    try { if (sessionStorage.getItem(key) === day) return; } catch { /* Server also deduplicates. */ }
+    farmVisitPending = true;
+    try {
+      const response = await fetch(`${config.url}/rest/v1/rpc/eddie_farm_visit`, {
+        method: "POST", cache: "no-store", credentials: "omit",
+        headers: { apikey: config.anonKey, "Content-Type": "application/json" },
+        body: JSON.stringify({ p_token: candidate.token }), signal: AbortSignal.timeout(10000)
+      });
+      if (response.ok) { try { sessionStorage.setItem(key, day); } catch { /* Optional cache. */ } }
+    } catch { /* Learning remains available; retry on the next visible tick. */ }
+    finally { farmVisitPending = false; }
   }
 
   function forgetStudentSession() {
@@ -1211,6 +1233,9 @@
   // Run the session bridge synchronously so app scripts later in the document
   // can restore a compatible same-origin student session immediately.
   bridgeStudentSession(studentSessionCandidate(), true);
+  recordFarmVisit();
+  window.setInterval(recordFarmVisit, 60000);
+  document.addEventListener("visibilitychange", recordFarmVisit);
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initialise, { once: true });
   else initialise();
 })();

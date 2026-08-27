@@ -122,6 +122,7 @@
           <p class="subtitle">Plant, grow, harvest and collect.</p>
         </div>
         <div class="stats" role="group" aria-label="Farm status">
+          <button id="farmShopToggle" class="stat-pill farm-shop-toggle" type="button" aria-haspopup="dialog"><span aria-hidden="true">🛍️</span><strong id="farmPointBalance">—</strong><span>Points · Seed shop</span></button>
           <button id="inventoryToggle" class="stat-pill inventory-toggle" type="button" aria-expanded="false" aria-controls="inventoryPanel">
             <span id="inventoryIcon" class="stat-icon" aria-hidden="true">🥕</span>
             <strong id="carrotCount">0</strong>
@@ -204,6 +205,13 @@
         </p>
       </section>
     </main>
+    <dialog id="farmShop" class="farm-shop" aria-labelledby="farmShopTitle">
+      <header><div><small>EDDIE FARM</small><h2 id="farmShopTitle">Seed shop</h2></div><button id="farmShopClose" type="button" aria-label="Close seed shop">✕</button></header>
+      <p id="farmShopSummary">Log in to see your points and seeds.</p>
+      <p id="farmShopStatus" role="status" aria-live="polite"></p>
+      <div class="farm-shop-actions"><a href="../eddie-farm.html?return=farm">My account · Log in</a><button id="farmShopRefresh" type="button">Refresh</button></div>
+      <div id="farmShopSeeds" class="farm-shop-seeds"></div>
+    </dialog>
     <script src="start-gate.js" defer></script>
   </body>
 </html>
