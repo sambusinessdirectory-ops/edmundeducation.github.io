@@ -256,3 +256,61 @@ audio { width: 100%; min-height: 54px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
 }
+
+/* Listening study tools: the existing navy/teal/cream palette is shared. */
+.site-header.edmund-system-header { width:100%; max-width:100%; margin-left:0; }
+.admin-login-link { margin-top:24px; font-size:.9rem; }
+.listening-admin-login { max-width:660px; margin:30px auto; }
+.bookmark-first-card { background:linear-gradient(135deg,#e4f9f1,#fff5d9); border-color:#75b7a7; }
+.study-toolbar { display:flex; align-items:end; flex-wrap:wrap; gap:16px; margin:28px 0 16px; }
+.study-toolbar label:first-child { flex:1; min-width:200px; }
+.study-toolbar label { min-width:145px; }
+.bookmark-library { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; padding-bottom:180px; }
+.bookmark-study-card { padding:28px; min-width:0; border-radius:24px; }
+.bookmark-study-card h2 { margin:14px 0; font-size:1.6rem; overflow-wrap:anywhere; }
+.bookmark-detail,.recording-transcript { white-space:pre-wrap; line-height:1.8; overflow-wrap:anywhere; }
+.bookmark-difficulty { margin:22px 0; padding:14px 0; border-block:1px solid var(--line); display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
+.bookmark-difficulty span small { display:block; color:var(--muted); font-size:.75rem; margin-top:4px; }
+.difficulty-stars { display:flex; gap:1px; }
+.difficulty-stars button { width:44px; min-height:44px; padding:2px; border:0; background:transparent; color:#64717d; font:2rem/1 system-ui; }
+.difficulty-stars .is-filled { color:#966a08; }
+button:focus-visible,a:focus-visible { outline:3px solid var(--teal); outline-offset:3px; }
+button:disabled { cursor:default; opacity:.5; }
+.bookmark-actions,.transcript-row-actions,.recorder-controls { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.bookmark-actions a { text-decoration:none; display:inline-flex; align-items:center; }
+.transcript-row-actions { margin-top:10px; }
+.transcript-row-actions button { font-size:.85rem; min-height:44px; padding:8px 12px; }
+.row-audio-player { position:fixed; z-index:100; bottom:16px; left:50%; transform:translateX(-50%); width:min(1000px,calc(100% - 28px)); display:flex; align-items:center; gap:14px; padding:16px; background:#f5fffb; border:1px solid var(--aqua); }
+.row-audio-player>div { min-width:160px; }
+.row-audio-player small { display:block; color:var(--muted); margin-top:5px; }
+.row-audio-player audio { flex:1; min-width:180px; }
+.row-audio-player label { min-width:72px; }
+.listening-recorder { width:min(850px,calc(100% - 24px)); max-height:90vh; max-height:90dvh; padding:clamp(18px,4vw,36px); border:1px solid var(--line); border-radius:26px; color:var(--ink); background:#fffcf5; box-shadow:var(--shadow); }
+.listening-recorder::backdrop { background:rgba(9,33,49,.6); backdrop-filter:blur(5px); }
+.recorder-heading { display:flex; align-items:center; justify-content:space-between; gap:14px; }
+.recorder-heading h2 { margin:10px 0; }
+.recording-transcript { padding:18px; border:1px solid var(--line); background:white; border-radius:16px; }
+.recording-status { min-height:2em; line-height:1.65; color:var(--teal); font-weight:700; }
+.recorder-controls { margin:16px 0 24px; }
+.recorder-controls time { font:700 1.2rem/1.5 system-ui; font-variant-numeric:tabular-nums; }
+.recorder-help { font-size:.9rem; color:var(--muted); line-height:1.7; }
+.saved-recording { padding:18px 0; border-top:1px solid var(--line); }
+.saved-recording small { display:block; margin-top:8px; color:var(--muted); }
+.admin-report-wrap { overflow:auto; border-radius:18px; border:1px solid var(--line); background:white; }
+.admin-bookmark-table { width:100%; border-collapse:collapse; min-width:650px; }
+.admin-bookmark-table th { background:var(--navy); color:white; text-align:left; }
+.admin-bookmark-table th,.admin-bookmark-table td { padding:18px; border-bottom:1px solid var(--line); vertical-align:top; }
+.admin-bookmark-table td:nth-child(2) { min-width:250px; max-width:750px; }
+.admin-bookmark-table p { white-space:pre-wrap; overflow-wrap:anywhere; line-height:1.7; }
+.admin-bookmark-table td:nth-child(3) { color:#8b6208; white-space:nowrap; }
+@media(max-width:760px) {
+  .bookmark-library { grid-template-columns:1fr; }
+  .bookmark-study-card { padding:22px; }
+  .row-audio-player { flex-wrap:wrap; gap:8px; bottom:8px; padding:12px; }
+  .row-audio-player>div { flex:1; }
+  .row-audio-player audio { order:3; width:100%; flex-basis:100%; }
+  .row-audio-player label { font-size:.8rem; }
+  .row-audio-player select { min-height:38px; padding:6px; }
+  .listening-recorder .recorder-controls button { flex:1 1 auto; }
+  .difficulty-stars button { width:40px; }
+}

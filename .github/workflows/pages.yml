@@ -41,6 +41,7 @@ jobs:
           node tools/test-flashcard-conflict-recovery-ui.mjs
           node tools/test-flashcard-pwa-critical-update.mjs
           node tools/test-flashcard-login-singleflight.mjs
+          node tools/test-flashcard-private-decks.mjs
 
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs
@@ -172,7 +173,10 @@ jobs:
           node tools/verify-flashcard-audio-flashcard-expansion.mjs --require-complete
 
       - name: Validate Listening portal, 80-track catalogue and playback speeds
-        run: node tools/test-listening-system.mjs
+        run: |
+          node tools/test-listening-system.mjs
+          node tools/test-grammar-listening-practice1.mjs
+          node --test tools/test-listening-study.mjs
 
       - name: Validate IELTS Listening Practice download catalogue and thumbnails
         run: node tools/test-ielts-listening-download-catalog.mjs
