@@ -46,7 +46,7 @@ jobs:
         run: node tools/generate-ielts-reading-index.mjs
 
       - name: Validate Eddie Farm points and purchase safety
-        run: node --test tools/test-eddie-farm.mjs
+        run: node --test tools/test-eddie-farm.mjs tools/test-eddie-farm-i18n.mjs
 
       - name: Validate and regenerate the complete Phrasal Verb catalogue
         run: |
