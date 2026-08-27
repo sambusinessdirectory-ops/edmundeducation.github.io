@@ -219,6 +219,17 @@ jobs:
           node tools/test-parent-communication-system.mjs
           node tools/test-schedule-account-admin-parity.mjs
 
+      - name: Validate atomic email uploads and lost-response recovery
+        env:
+          EMAIL_QA_MODULES: ${{ github.workspace }}/tools/email-qa/node_modules
+        run: |
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node tools/test-email-atomic-submission.mjs
+          node tools/test-email-submit-ui.mjs
+          node tools/test-email-v2-database.mjs
+          node tools/test-email-v2-ui.mjs
+          node tools/test-writing-submission-email.mjs
+
       - name: Validate Speaking sticky recorder, repeated recordings and private storage
         run: |
           node tools/test-speaking-recorder-workflow.mjs
