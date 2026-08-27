@@ -1,3 +1,5 @@
+import { createListeningStudy } from './listening-study.js?v=20260827-study1';
+
 const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CATALOGUE = window.EDMUND_LISTENING_CATALOG || { practices: [] };
 const SESSION_KEY = "edmund-listening-session-v1";
@@ -96,6 +98,7 @@ function bookmarkHref(part, anchor = "") {
 
 async function setListeningBookmark(button) {
   if (!state.token) return showToast("請先登入才可收藏內容。");
+  const ownerToken = state.token;
   const word = String(button.dataset.bookmarkWord || "");
   const source = String(button.dataset.bookmarkSource || "");
   const context = String(button.dataset.bookmarkContext || "");
@@ -112,7 +115,9 @@ async function setListeningBookmark(button) {
       p_title: title, p_detail: detail,
       p_href: bookmarkHref(part, anchor), p_bookmarked: bookmarked
     });
+    if (state.token !== ownerToken) return;
     if (bookmarked) state.listeningBookmarks.add(itemKey); else state.listeningBookmarks.delete(itemKey);
+    study.updateLocalBookmark({ item_key: itemKey, title, detail, href: bookmarkHref(part, anchor) }, bookmarked);
     if (source) document.querySelectorAll(`[data-bookmark-source="${CSS.escape(source)}"]`).forEach((item) => item.dataset.bookmarked = String(bookmarked));
     document.querySelectorAll(`[data-bookmark-item="${CSS.escape(itemKey)}"]`).forEach((item) => item.dataset.bookmarked = String(bookmarked));
     document.querySelectorAll(`[data-analysis-dialog-bookmark][data-bookmark-item="${CSS.escape(itemKey)}"]`).forEach((item) => { item.textContent = bookmarked ? "★ 已收藏解析" : "☆ 收藏解析"; });
@@ -126,8 +131,7 @@ async function setListeningBookmark(button) {
 async function loadListeningBookmarks() {
   if (!state.token) return;
   try {
-    const rows = await rpc("learning_portal_list_bookmarks", { p_token: state.token, p_system_key: "listening" });
-    state.listeningBookmarks = new Set((Array.isArray(rows) ? rows : []).map((row) => String(row.item_key)));
+    await study.loadBookmarks();
   } catch (error) { console.warn("Listening bookmarks load failed", error); }
 }
 
@@ -156,11 +160,12 @@ function showToast(message) {
 function showView(name, { scroll = true } = {}) {
   state.view = name;
   elements.views.forEach((view) => { view.hidden = view.dataset.view !== name; });
-  const signedIn = Boolean(state.user && state.token);
+  const adminView = name === 'admin' && Boolean(state.listeningAdminName);
+  const signedIn = adminView || Boolean(state.user && state.token);
   elements.user.hidden = !signedIn;
   elements.logout.hidden = !signedIn;
-  document.querySelectorAll("[data-home]").forEach((button) => { button.hidden = !signedIn || name === "dashboard"; });
-  if (signedIn) elements.user.textContent = `${state.user.name} · 學生`;
+  document.querySelectorAll("[data-home]").forEach((button) => { button.hidden = adminView || !signedIn || name === "dashboard"; });
+  if (signedIn) elements.user.textContent = adminView ? `${state.listeningAdminName} · 管理員` : `${state.user.name} · 學生`;
   if (scroll) window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -268,6 +273,7 @@ async function restoreSession() {
 }
 
 async function logout() {
+  if (!await study.logout()) return;
   pauseAllAudio();
   const floating = document.querySelector("[data-floating-audio]");
   if (floating) floating.hidden = true;
@@ -302,6 +308,7 @@ function updateRoute(section = "", practice = 0, part = 0) {
 function openRequestedRoute() {
   const requested = routeParams();
   elements.welcome.textContent = `您好，${state.user.name}！請選擇聆聽練習。`;
+  if (new URL(location.href).searchParams.get('section') === 'bookmarks') return study.openBookmarks();
   if (requested.section === "dse") return openSection("dse", { update: false });
   if (requested.section === "ielts" && requested.practice) return openPractice(requested.practice, requested.part, { update: false });
   if (requested.section === "ielts") return openSection("ielts", { update: false });
@@ -332,7 +339,7 @@ function openSection(section, options = {}) {
 function renderPracticeGrid() {
   elements.sort.value = state.sort;
   const practices = [...CATALOGUE.practices].sort((left, right) => state.sort === "desc" ? right.practice - left.practice : left.practice - right.practice);
-  elements.practiceGrid.innerHTML = practices.map((item) => `
+  elements.practiceGrid.innerHTML = `<button class="practice-card bookmark-first-card" type="button" data-open-bookmarks><span>☆</span><strong>我的書簽 · Bookmarks</strong><small>逐行重聽 · 難度星級 · 朗讀練習</small></button>` + practices.map((item) => `
     <button class="practice-card" type="button" data-open-practice="${item.practice}">
       <span>${String(item.practice).padStart(2, "0")}</span>
       <strong>Practice ${item.practice}</strong>
@@ -371,7 +378,7 @@ function renderTrackCards() {
     return `<article class="track-card${requested}" id="part-${part}" data-track-part="${part}">
       <div class="track-heading"><div><p class="eyebrow">RECORDING ${part}</p><h2>Part ${part}</h2></div><span>0${part}</span></div>
       ${track ? `<audio controls preload="metadata" data-audio-part="${part}" src="${escapeHtml(track.url)}">您的瀏覽器不支援音訊播放器。</audio>
-        <div class="speed-row"><label>播放速度<select data-speed-part="${part}">${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label></div>`
+        <div class="speed-row"><label>播放速度<select data-speed-part="${part}">${SPEEDS.map((speed) => `<option value="${speed}"${speed === state.speed ? " selected" : ""}>${speed}×</option>`).join("")}</select></label><button class="secondary-button" type="button" data-record-part="${part}">● 朗讀錄音練習</button></div>`
         : `<div class="track-unavailable"><strong>暫時未能找到 Part ${part} 錄音。</strong><br>請稍後再試，或通知老師檢查 Practice ${state.practice} 的 Part ${part}。</div>`}
     </article>`;
   }).join("");
@@ -602,6 +609,9 @@ function bindTranscriptSync(partNumber) {
   const lines = [...host.querySelectorAll("[data-transcript-line]")];
   const timingPart = PRACTICE_ONE_TIMINGS.parts[String(partNumber)] || PRACTICE_ONE_TIMINGS.parts[partNumber] || {};
   const authoredLines = Array.isArray(timingPart.lines) && timingPart.lines.length === lines.length ? timingPart.lines : [];
+  lines.forEach((line, index) => {
+    line.insertAdjacentHTML('beforeend', `<div class="transcript-row-actions"><button type="button" class="secondary-button" data-replay-row="${index}" ${!authoredLines[index] ? 'disabled' : ''}>▶ 只重聽這一行</button><button type="button" class="secondary-button" data-record-row="${index}">● 朗讀練習</button></div>`);
+  });
   const activate = () => {
     if (!state.syncHighlights || !authoredLines.length) {
       lines.forEach((line) => line.classList.remove("is-current"));
@@ -614,7 +624,7 @@ function bindTranscriptSync(partNumber) {
   audio.addEventListener("timeupdate", activate);
   host.addEventListener("click", (event) => {
     const line = event.target.closest("[data-transcript-line]");
-    if (!line || event.target.closest("[data-bookmark-word], [data-bookmark-item]")) return;
+    if (!line || event.target.closest("button")) return;
     const index = Number(line.dataset.transcriptLine);
     const startTime = Number(authoredLines[index]?.start);
     if (Number.isFinite(startTime)) audio.currentTime = startTime;
@@ -693,6 +703,7 @@ async function openPractice(practice, part = 0, options = {}) {
   showView("practice");
   try {
     await loadAudioCatalogue();
+    if (state.practice !== number || state.view !== 'practice') return;
     const available = [1, 2, 3, 4].filter((partNumber) => state.tracks.has(`${state.practice}:${partNumber}`)).length;
     renderTrackCards();
     renderPracticeWorkspace();
@@ -701,6 +712,7 @@ async function openPractice(practice, part = 0, options = {}) {
     if (state.requestedPart) window.setTimeout(() => document.querySelector(`[data-track-part="${state.requestedPart}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" }), 120);
   } catch (error) {
     console.warn("Listening catalogue failed", error);
+    if (state.practice !== number || state.view !== 'practice') return;
     setCatalogueStatus(error?.message || "暫時未能載入錄音。", "error");
     renderTrackCards();
     renderPracticeWorkspace();
@@ -708,8 +720,11 @@ async function openPractice(practice, part = 0, options = {}) {
 }
 
 function pauseAllAudio() {
+  study.stopReplay();
   document.querySelectorAll("audio").forEach((audio) => audio.pause());
 }
+
+const study = createListeningStudy({ state, rpc, escapeHtml, showView, updateRoute, pauseAllAudio, loadAudioCatalogue, toast: showToast, openPractice });
 
 document.addEventListener("click", (event) => {
   const bookmark = event.target.closest("[data-bookmark-word], [data-bookmark-item]");
@@ -804,6 +819,11 @@ document.addEventListener("input", (event) => {
 elements.loginForm.addEventListener("submit", handleLogin);
 
 async function initialise() {
+  if (new URL(location.href).searchParams.get('section') === 'admin') {
+    setConnection('管理員登入', 'online');
+    await study.restoreAdmin();
+    return;
+  }
   setConnection("正在連接", "checking");
   try {
     await ensureSupabaseSession();
