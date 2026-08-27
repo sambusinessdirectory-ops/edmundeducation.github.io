@@ -111,6 +111,7 @@ declare a uuid;
 begin
  if not public._schedule_worker_ok(p_service_secret) then return false; end if;
  a:=public._schedule_admin_id(p_admin_token); if a is null then return false; end if;
+ perform pg_advisory_xact_lock(80327104);
  if exists(select 1 from public.schedule_email_delivery_jobs where admin_id=a and template_slot=p_slot and status='processing') then raise exception 'An email is processing; try deleting later' using errcode='22023'; end if;
  update public.schedule_email_delivery_jobs set status='cancelled',last_error='TEMPLATE_DELETED',updated_at=clock_timestamp() where admin_id=a and template_slot=p_slot and status='queued';
  delete from public.schedule_email_templates where admin_id=a and slot=p_slot;
