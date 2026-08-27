@@ -9,6 +9,10 @@ const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "u
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
 const sharedNavRelease = "20260822-night-invitation1";
 
+test("the night-return message explicitly stays white over its dark background", () => {
+  assert.match(cssSource, /\.edmund-night-return #edmund-night-return-title\s*\{\s*color:\s*#fff;\s*\}/);
+});
+
 class MemoryStorage {
   constructor() { this.values = new Map(); }
   getItem(key) { return this.values.has(key) ? this.values.get(key) : null; }

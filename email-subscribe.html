@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes,viewport-fit=cover">
+  <meta name="description" content="訂閱 EdmundEducation 公開頁面更新；無需學生帳戶，可隨時取消。">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#35530a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>訂閱頁面更新 | EdmundEducation</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="email-v2.css?v=20260827-email2">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body style="background:#f4f7fb;margin:0">
+  <main class="subscribe-page">
+    <a href="resources.html">← EdmundEducation 學習資源</a>
+    <p>STAY CURIOUS · STAY UPDATED</p><h1>有新內容，讓你先知道。</h1>
+    <p>選擇你關心的頁面，收到更新電郵。無需建立學生帳戶。</p>
+    <section class="subscribe-card" data-action hidden><h2 data-action-title></h2><p data-action-description></p><button data-action-button type="button"></button></section>
+    <form class="subscribe-card" data-signup>
+      <h2>1. 選擇你的訂閱</h2>
+      <label>稱呼（選填）<input type="text" name="name" maxlength="80" autocomplete="given-name"></label>
+      <label>電郵地址<input type="email" name="email" required maxlength="254" autocomplete="email" placeholder="you@example.com"></label>
+      <fieldset data-topics><legend>想收到哪些頁面的更新？</legend></fieldset>
+      <label class="subscribe-trap" aria-hidden="true">Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+      <label><input name="consent" type="checkbox" required>我同意收到所選頁面的更新電郵，並了解下方資料使用說明。</label>
+      <button type="submit">寄送確認信 →</button>
+      <p class="helper">2. 到你的信箱開啟確認信，再按「確認訂閱」。<br>3. 完成後，公開內容有更新時便會收到提醒。</p>
+      <p class="helper">已訂閱？以同一地址重新申請並確認，即可更新頁面選擇。每小時最多寄一封確認信；寄送受每日配額限制，可能需要等候。</p>
+    </form>
+    <p data-result role="status" aria-live="polite"></p>
+    <section class="subscribe-card"><h2>訂閱資料使用說明</h2><p>我們儲存你的電郵、稱呼、所選頁面、訂閱確認／取消時間及寄送紀錄，用於處理訂閱、發送更新及排查寄送問題。訂閱者與學生帳戶分開管理，不會建立學生登入帳戶。</p><p>資料由 EdmundEducation 使用的 Supabase 服務儲存、Cloudflare 處理，電郵經 Google Gmail 寄出。訂閱資訊不會公開在網站。每封更新信都有取消訂閱連結；取消後停止未開始寄送的更新，已交予 Gmail 的信件可能仍會送達。</p><p>如需查詢或刪除訂閱資料，請聯絡 <a href="mailto:edmundeducationedu@gmail.com">edmundeducationedu@gmail.com</a>。請勿代他人提交地址。</p></section>
+    <noscript>請啟用 JavaScript 以完成訂閱。</noscript>
+  </main>
+  <script src="schedule-system-config.js"></script>
+  <script type="module" src="email-subscribe.js?v=20260827-email2"></script>
+</body>
+</html>

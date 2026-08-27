@@ -269,7 +269,9 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir _site
+          node tools/ielts-reading-analysis-publication-excludes.mjs > /tmp/ielts-reading-analysis-excludes.txt
           rsync -av \
+            --exclude-from=/tmp/ielts-reading-analysis-excludes.txt \
             --exclude='.git' \
             --exclude='.github' \
             --exclude='.DS_Store' \

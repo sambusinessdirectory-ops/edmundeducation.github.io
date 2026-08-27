@@ -4,9 +4,11 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { readFile, readdir } from "node:fs/promises";
 import vm from "node:vm";
+import { execFileSync } from "node:child_process";
 
 import {
   ArticleLoadError,
+  LOCKED_CATALOGUE_IDS,
   articleDataUrl,
   createArticleRepository,
   questionNumberLabel,
@@ -211,6 +213,62 @@ test("only safe manifest filenames can become data URLs", () => {
     () => articleDataUrl({ id: "unsafe", source: "json", file: "../private.json" }),
     (error) => error.code === "invalid-file",
   );
+});
+
+test("editorial holds block all 13 articles and their aliases before any data fetch", async () => {
+  const context = { window: {} };
+  vm.runInNewContext(await read("ielts-reading-analysis-availability.js"), context);
+  const manifest = context.window.EDMUND_IELTS_READING_ANALYSIS_AVAILABILITY;
+  assert.deepEqual([...LOCKED_CATALOGUE_IDS].sort(), [
+    "p1-008", "p1-013", "p1-022", "p1-025", "p1-071", "p1-079", "p1-090",
+    "p1-091", "p1-107", "p1-112", "p1-118", "p1-121", "p1-133",
+  ]);
+  let fetchCount = 0;
+  const repository = createArticleRepository({
+    availabilityManifest: manifest,
+    fetchImpl: async () => { fetchCount += 1; },
+  });
+  const excludedFiles = [];
+  for (const catalogueId of LOCKED_CATALOGUE_IDS) {
+    const entry = repository.availabilityForCatalogueId(catalogueId);
+    assert.ok(entry?.locked, `${catalogueId} must remain in the catalogue but locked`);
+    for (const alias of entry.catalogueIds) {
+      assert.equal(repository.availabilityForCatalogueId(alias)?.locked, true);
+    }
+    assert.equal(repository.getLoaded(entry.id), null);
+    await assert.rejects(repository.load(entry.id), { code: "locked" });
+    excludedFiles.push(`/ielts-reading-analysis-data/${entry.file}`);
+  }
+  assert.equal(fetchCount, 0);
+  assert.equal(repository.availabilityForCatalogueId("p1-001")?.locked, false);
+  assert.equal(repository.availabilityForCatalogueId("p2-090")?.locked, false);
+
+  const publicationExcludes = execFileSync(process.execPath, [
+    new URL("tools/ielts-reading-analysis-publication-excludes.mjs", root).pathname,
+  ], { encoding: "utf8" }).trim().split("\n");
+  assert.deepEqual(publicationExcludes.sort(), excludedFiles.sort());
+});
+
+test("bundled or preloaded content cannot bypass an editorial hold", async () => {
+  const article = { ...makeArticle(), catalogueId: "p1-008" };
+  const repository = createArticleRepository({ bundledArticles: { [article.id]: article } });
+  assert.equal(repository.availabilityForId(article.id)?.locked, true);
+  assert.equal(repository.getLoaded(article.id), null);
+  await assert.rejects(repository.load(article.id), { code: "locked" });
+});
+
+test("locked UI is disabled and direct article URLs show a non-retryable review notice", async () => {
+  const client = await read("ielts-reading-analysis.js");
+  const css = await read("ielts-reading-analysis.css");
+  const workflow = await read(".github/workflows/pages.yml");
+  assert.match(client, /card\.disabled = true/);
+  assert.match(client, /if \(articleAvailability && !locked\)/);
+  assert.ok(client.indexOf("if (articleAvailability.locked)") < client.indexOf("articleRepository.getLoaded(articleId)"));
+  assert.match(client, /renderArticleStatus\(articleAvailability, "locked"\)/);
+  assert.match(client, /const canRetry = status === "error"/);
+  assert.match(css, /\.title-card\.locked,[\s\S]*?background: #ffe5c7/);
+  assert.match(workflow, /node tools\/ielts-reading-analysis-publication-excludes\.mjs > \/tmp\/ielts-reading-analysis-excludes\.txt/);
+  assert.match(workflow, /--exclude-from=\/tmp\/ielts-reading-analysis-excludes\.txt/);
 });
 
 test("the page exposes loading, error, retry and stale-route protection", async () => {

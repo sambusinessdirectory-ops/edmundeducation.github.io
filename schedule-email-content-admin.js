@@ -1,3 +1,4 @@
+import {previewEmail,validateEmailDraft,checkEmailSpelling} from './email-preview.mjs';
 const SESSION_KEY = "edmund-schedule-session-v1";
 const settings = window.EDMUND_SUPABASE || {};
 const workerBaseUrl = String(window.EDMUND_SCHEDULE_CONFIG?.workerBaseUrl || "").replace(/\/+$/, "");
@@ -43,13 +44,14 @@ async function api(path, options = {}) {
   const response = await fetch(`${workerBaseUrl}${path}`, { ...options, headers });
   if (response.status === 204) return null;
   const payload = await response.json().catch(() => ({}));
-  if (!response.ok) throw new Error(payload.error || "服務暫時未能完成要求。");
+  if (!response.ok) throw new Error(`${payload.error || "服務暫時未能完成要求。"}${payload.requestId ? `（要求 ID：${payload.requestId}）` : ''}`);
   return payload;
 }
 
 function setStatus(text, error = false) {
   status.textContent = text;
   status.dataset.state = error ? "error" : "";
+  status.scrollIntoView({block:'nearest',behavior:'smooth'});
 }
 
 function formatBytes(bytes) {
@@ -137,7 +139,8 @@ function renderTemplate(data, displayIndex) {
   card.innerHTML = `
     <div class="card-heading"><h2>訊息 ${displayIndex + 1}</h2><button class="danger-text" type="button" data-delete>刪除這個訊息</button></div>
     <label class="enabled"><input type="checkbox" data-enabled> 啟用定期傳送</label>
-    <label class="field">內容（系統會在前方加入 Hi 帳戶名稱）<textarea maxlength="8000"></textarea></label>
+    <label class="field">內容（系統會在前方加入 Hi 帳戶名稱）<textarea maxlength="8000" spellcheck="true" lang="en"></textarea></label>
+    <button class="secondary" type="button" data-spelling>檢查英文拼字</button><p data-spelling-result role="status"></p>
     <div class="template-controls"><label>傳送頻率
       <select data-cadence>
         <option value="once">一次性發送</option><option value="15m">每 15 分鐘</option><option value="30m">每 30 分鐘</option>
@@ -148,7 +151,7 @@ function renderTemplate(data, displayIndex) {
     <fieldset class="asset-box"><legend>PDF 附件</legend><label class="field">新增 PDF（最多 3 個；每個 5 MB，合共 10 MB）<input type="file" accept="application/pdf,.pdf" multiple data-attachments></label><div data-saved-files></div></fieldset>
     <div class="recipient-tools"><button class="secondary" type="button" data-all>全選</button><button class="secondary" type="button" data-none>取消全選</button></div>
     <strong>接收帳戶</strong>
-    <div class="card-actions"><button class="primary" type="button" data-save>儲存</button><button class="send-once" type="button" data-send>儲存並一次性發送</button></div>`;
+    <div class="card-actions"><button class="primary" type="button" data-save>儲存</button><button class="send-once" type="button" data-send>預覽並一次性發送</button></div><p data-card-status role="status"></p>`;
   const enabled = card.querySelector("[data-enabled]");
   const textarea = card.querySelector("textarea");
   const cadence = card.querySelector("[data-cadence]");
@@ -182,7 +185,7 @@ function renderTemplate(data, displayIndex) {
   card.querySelector("[data-all]").addEventListener("click", () => recipients.querySelectorAll("input[type=checkbox]").forEach((box) => { box.checked = true; }));
   card.querySelector("[data-none]").addEventListener("click", () => recipients.querySelectorAll("input[type=checkbox]").forEach((box) => { box.checked = false; }));
 
-  async function save() {
+  async function save(requestId,approval) {
     const form = new FormData();
     form.set("content", textarea.value);
     form.set("enabled", String(enabled.checked));
@@ -195,28 +198,52 @@ function renderTemplate(data, displayIndex) {
     if (signatureFile) form.set("signature", signatureFile);
     form.set("removeAttachmentIds", JSON.stringify([...savedAttachments.removals]));
     [...(attachmentInput.files || [])].forEach((file) => form.append("attachments", file));
-    await api(`/v1/admin/email/templates/${data.slot}`, { method: "PATCH", body: form });
+    if(approval) {form.set('previewApproved','true');form.set('spellcheck',approval.spellcheck);}
+    return api(`/v1/admin/email/templates/${data.slot}`, { method: "PATCH", body: form,headers:{'X-Email-Request-ID':requestId} });
   }
-
-  card.querySelector("[data-save]").addEventListener("click", async (event) => {
-    event.currentTarget.disabled = true;
-    try { setStatus(`正在儲存訊息 ${displayIndex + 1}…`); await save(); await reloadSnapshot(); setStatus(`訊息 ${displayIndex + 1} 已儲存。`); }
-    catch (error) { setStatus(error.message || "未能儲存。", true); }
-    finally { event.currentTarget.disabled = false; }
+  const localStatus=card.querySelector('[data-card-status]');
+  const report=(message,error=false)=>{localStatus.textContent=message;localStatus.dataset.state=error?'error':'';setStatus(message,error);};
+  card.querySelector('[data-spelling]').addEventListener('click',async event=>{
+    const button=event.currentTarget;button.disabled=true;const result=card.querySelector('[data-spelling-result]');result.textContent='正在檢查…';
+    try {const issues=await checkEmailSpelling(textarea.value);result.textContent=issues.length?issues.map(i=>`${i.word}: ${i.message}`).join('\n'):'未發現明顯英文問題。';}
+    catch {result.textContent='拼字檢查暫時無法使用。發送時仍可選擇略過。';} finally {button.disabled=false;}
   });
-  card.querySelector("[data-send]").addEventListener("click", async (event) => {
-    if (!snapshot.transportConnected) return setStatus("請先連接 Gmail，才可傳送。", true);
-    if (!confirm("確認儲存並把這個訊息加入一次性發送隊列？")) return;
-    event.currentTarget.disabled = true;
+  let busy=false;
+  async function submit(sendNow) {
+    if(busy) return;
+    busy=true;const controls=[...card.querySelectorAll('button,input,select,textarea')].map(node=>({node,disabled:node.disabled}));controls.forEach(({node})=>node.disabled=true);
+    const requestId=crypto.randomUUID();let objectUrl='',savedSuccessfully=false;
     try {
-      setStatus(`正在儲存及排程訊息 ${displayIndex + 1}…`);
-      await save();
-      const result = await api(`/v1/admin/email/templates/${data.slot}/send-once`, { method: "POST", body: JSON.stringify({ requestId: crypto.randomUUID() }) });
-      await reloadSnapshot();
-      setStatus(`已加入 ${result.queued} 封電郵；系統會按每日 ${result.dailyLimit} 封上限逐步寄出。`);
-    } catch (error) { setStatus(error.message || "未能排程發送。", true); }
-    finally { event.currentTarget.disabled = false; }
-  });
+      const recipientIds=[...recipients.querySelectorAll('input:checked')].map(b=>b.value);
+      const selected=snapshot.students.filter(s=>recipientIds.includes(s.studentId));
+      const files=[...(attachmentInput.files||[])],existing=(data.attachments||[]).filter(f=>!savedAttachments.removals.has(f.id));
+      let approval=null;
+      if(sendNow || enabled.checked) {
+        if(!snapshot.transportConnected) throw new Error('請先連接 Gmail，才可傳送。');
+        validateEmailDraft({content:textarea.value,signatureFile:signature.files?.[0],attachments:files,existingAttachments:existing,signatureLink:signatureLink.value,recipientCount:selected.length});
+        let imageSource='';
+        if(signature.files?.[0]) {objectUrl=URL.createObjectURL(signature.files[0]);imageSource=objectUrl;}
+        else if(data.hasSignatureImage && !removeSignature.checked) {
+          const assets=await api(`/v1/admin/email/templates/${data.slot}/assets`);
+          if(assets.signatureContent) imageSource=`data:${assets.signatureContentType};base64,${assets.signatureContent.replace(/\s/g,'')}`;
+        }
+        approval=await previewEmail({content:textarea.value,recipients:selected,imageSource,signatureLink:signatureLink.value,attachments:[...existing,...files],sender:snapshot.sender.connectedEmail,action:sendNow?'確認發送':'確認儲存並啟用定期發送'});
+        if(!approval) return;
+      }
+      report(`正在儲存訊息 ${displayIndex+1}…`);
+      const saved=await save(requestId,approval);
+      savedSuccessfully=true;
+      if(!sendNow) {setStatus(`訊息 ${displayIndex+1} 已儲存。要求 ID：${requestId}`);return;}
+      const options={method:'POST',headers:{'X-Email-Request-ID':requestId},body:JSON.stringify({requestId,revision:saved.revision,previewApproved:true})};
+      let result;
+      try {result=await api(`/v1/admin/email/templates/${data.slot}/send-once`,options);}
+      catch(error) {if(!(error instanceof TypeError)) throw error;result=await api(`/v1/admin/email/templates/${data.slot}/send-once`,options);}
+      setStatus(`已排隊 ${result.emailIds.length} 封（尚未確認送達；通常於 5 分鐘內處理）。電郵 ID：${result.emailIds.join(', ')}。請到 Email Log 查看每個階段。`);
+    } catch(error) {report(`${error.message||'未能完成。'} 要求 ID：${requestId}。若已排隊，請先檢查 Email Log，避免重寄。`,true);}
+    finally {busy=false;controls.forEach(({node,disabled})=>node.disabled=disabled);if(objectUrl) URL.revokeObjectURL(objectUrl);if(savedSuccessfully) await reloadSnapshot().catch(()=>{});}
+  }
+  card.querySelector('[data-save]').addEventListener('click',()=>submit(false));
+  card.querySelector('[data-send]').addEventListener('click',()=>submit(true));
   card.querySelector("[data-delete]").addEventListener("click", async () => {
     if (!confirm(`確認刪除訊息 ${displayIndex + 1}、其簽名及附件？`)) return;
     try { await api(`/v1/admin/email/templates/${data.slot}`, { method: "DELETE", body: JSON.stringify({ confirmation: "DELETE" }) }); await reloadSnapshot(); setStatus(`訊息 ${displayIndex + 1} 已刪除。`); }
@@ -306,4 +333,8 @@ async function init() {
   } catch (error) { gate.textContent = error.message || "未能載入。"; }
 }
 
+document.querySelector('[data-public-sender]').addEventListener('click',async()=>{
+  try {await api('/v1/admin/email/public-sender',{method:'POST',body:'{}'});setStatus('訪客通知寄件人已設定。');}
+  catch(error){setStatus(error.message,true);}
+});
 init();

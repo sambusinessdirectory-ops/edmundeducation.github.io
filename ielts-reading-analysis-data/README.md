@@ -4,6 +4,21 @@ This directory is the deployment location for lazily loaded IELTS Reading
 analysis JSON files. The catalogue page does not fetch these files. It fetches
 one file only after a visitor opens the matching article.
 
+## Editorial holds
+
+As of 2026-08-27, 13 Passage 1 articles are temporarily locked pending diagram
+and explanation corrections. `LOCKED_CATALOGUE_IDS` in
+`ielts-reading-analysis-loader.mjs` is the single list of holds. The catalogue
+keeps these titles visible in pale orange, but the loader rejects direct links
+and cached/bundled access. The Pages preparation step uses
+`tools/ielts-reading-analysis-publication-excludes.mjs` to omit their JSON files
+from the public site. Source files remain here for editing.
+
+Correcting content does not release a hold. Remove its catalogue ID from the
+lock list only after an explicit request to unlock it, update the corresponding
+regression expectations, bump the client/loader cache versions, and redeploy.
+The corpus counts below describe source inventory, before these holds.
+
 ## Current Passage 1 corpus
 
 The expanded import currently contains:

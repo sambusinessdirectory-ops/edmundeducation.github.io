@@ -3,6 +3,17 @@ const SAFE_ARTICLE_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const SAFE_JSON_FILE = /^[a-z0-9][a-z0-9._-]*\.json$/i;
 const SUPPORTED_BLOCK_KINDS = new Set(["paragraph", "label", "quote", "comparison", "bullet"]);
 
+// Editorial holds remain in place until explicitly reviewed and released.
+export const LOCKED_CATALOGUE_IDS = Object.freeze([
+  "p1-008", "p1-022", "p1-091", "p1-013", "p1-025", "p1-071", "p1-079",
+  "p1-090", "p1-107", "p1-112", "p1-118", "p1-121", "p1-133",
+]);
+
+export function isArticleLocked(entry) {
+  const ids = Array.isArray(entry?.catalogueIds) ? entry.catalogueIds : [entry?.catalogueId];
+  return ids.some((id) => LOCKED_CATALOGUE_IDS.includes(id));
+}
+
 export class ArticleLoadError extends Error {
   constructor(code, message, cause) {
     super(message, cause ? { cause } : undefined);
@@ -45,6 +56,7 @@ function normalizeAvailabilityEntry(id, rawEntry) {
     catalogueIds: Object.freeze([...catalogueIds]),
     passage: entry.passage,
     source: entry.source,
+    locked: isArticleLocked(entry),
   };
   if (entry.source === "json") {
     const file = entry.file || `${id}.json`;
@@ -280,6 +292,9 @@ export function createArticleRepository({
   }
 
   const load = (id) => {
+    if (availabilityById.get(id)?.locked) {
+      return Promise.reject(new ArticleLoadError("locked", "This analysis is awaiting editorial review."));
+    }
     if (loadedArticles.has(id)) return Promise.resolve(loadedArticles.get(id));
     if (inFlightLoads.has(id)) return inFlightLoads.get(id);
 
@@ -327,7 +342,7 @@ export function createArticleRepository({
   return Object.freeze({
     availabilityForCatalogueId: (catalogueId) => availabilityByCatalogueId.get(catalogueId) || null,
     availabilityForId: (id) => availabilityById.get(id) || null,
-    getLoaded: (id) => loadedArticles.get(id) || null,
+    getLoaded: (id) => availabilityById.get(id)?.locked ? null : loadedArticles.get(id) || null,
     load,
   });
 }

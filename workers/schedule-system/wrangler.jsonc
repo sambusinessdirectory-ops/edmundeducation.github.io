@@ -9,6 +9,7 @@
     "crons": ["*/5 * * * *"]
   },
   "ratelimits": [
+    { "name": "EMAIL_SIGNUP_RATE_LIMITER", "namespace_id": "914072028", "simple": { "limit": 5, "period": 60 } },
     {
       "name": "ADMIN_LOGIN_RATE_LIMITER",
       "namespace_id": "914072027",

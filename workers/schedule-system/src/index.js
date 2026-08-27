@@ -1,12 +1,25 @@
+import { renderEmailHtml } from '../../../email-shared.mjs';
+import { emailEvent, safeDiagnostic, visitorRoute, unsubscribeUrl, checkPageUpdates } from './email-v2.js';
 const GMAIL_SEND_SCOPE = "https://www.googleapis.com/auth/gmail.send";
 
 export default {
   async fetch(request, env) {
+    const isEmail = new URL(request.url).pathname.startsWith('/v1/admin/email/');
+    const incomingId = request.headers.get('X-Email-Request-ID') || '';
+    env = {...env, EMAIL_REQUEST_ID: /^[a-f0-9-]{36}$/i.test(incomingId) ? incomingId : crypto.randomUUID(), EMAIL_ADMIN_TOKEN: bearerToken(request)};
     try {
-      return await route(request, env);
+      if(isEmail && request.method!=='OPTIONS') await emailEvent(env,rpc,'request_received','started',{method:request.method,path:new URL(request.url).pathname});
+      const response = await route(request, env);
+      if(isEmail && request.method!=='OPTIONS') {
+        const errorBody=response.ok?null:await response.clone().json().catch(()=>null);
+        await emailEvent(env,rpc,response.ok?'request_complete':'request_failed',response.ok?'ok':'error',{httpStatus:response.status,...(errorBody?.error?{error:safeDiagnostic(errorBody.error)}:{})});
+      }
+      return response;
     } catch (error) {
-      console.error("Schedule Worker error", error);
-      return json({ error: "Schedule service error" }, 500, request, env);
+      const diagnostic=safeDiagnostic(error);
+      console.error("Schedule Worker error", {requestId:env.EMAIL_REQUEST_ID,error:diagnostic});
+      if(isEmail) await emailEvent(env,rpc,'request_failed','error',{error:diagnostic});
+      return json({ error: isEmail ? diagnostic : "Schedule service error",requestId:env.EMAIL_REQUEST_ID }, error.httpStatus || 500, request, env);
     }
   },
   async scheduled(_event, env, ctx) {
@@ -26,7 +39,25 @@ async function route(request, env) {
   }
 
   if (url.pathname === "/v1/health" && request.method === "GET") {
-    return json({ ok: true, service: "edmund-schedule-system" }, 200, request, env);
+    return json({ ok: true, service: "edmund-schedule-system", emailVersion:2 }, 200, request, env);
+  }
+  const visitor = await visitorRoute(request,env,{rpc,json,readLimitedJson,sha256Hex});
+  if(visitor) return visitor;
+  if(url.pathname==='/v1/admin/email/public-sender' && request.method==='POST') {
+    const admin=await authenticateAdmin(request,env);
+    if(!admin) return json({error:'Administrator authentication required'},401,request,env);
+    return json(await rpc(env,'schedule_email_v2_admin',{p_admin_token:admin.token,p_operation:'public_sender',p_payload:{}}),200,request,env);
+  }
+  if(url.pathname==='/v1/admin/email/logs' && request.method==='GET') {
+    const admin=await authenticateAdmin(request,env);
+    if(!admin) return json({error:'Administrator authentication required'},401,request,env);
+    return json(await rpc(env,'schedule_email_v2_admin',{p_admin_token:admin.token,p_operation:'logs',p_payload:Object.fromEntries(url.searchParams)}),200,request,env);
+  }
+  const assetsMatch=url.pathname.match(/^\/v1\/admin\/email\/templates\/([1-9]\d{0,2})\/assets$/);
+  if(assetsMatch && request.method==='GET') {
+    const admin=await authenticateAdmin(request,env);
+    if(!admin) return json({error:'Administrator authentication required'},401,request,env);
+    return json(await rpc(env,'schedule_email_v2_admin',{p_admin_token:admin.token,p_operation:'assets',p_payload:{slot:Number(assetsMatch[1])}}),200,request,env);
   }
 
   if (url.pathname === "/v1/admin/login" && request.method === "POST") {
@@ -108,7 +139,7 @@ function isAllowedOrigin(origin, env) {
 
 function corsHeaders(origin, env) {
   const headers = new Headers({
-    "Access-Control-Allow-Headers": "Authorization, Content-Type",
+    "Access-Control-Allow-Headers": "Authorization, Content-Type, X-Email-Request-ID",
     "Access-Control-Allow-Methods": "GET, POST, PATCH, DELETE, OPTIONS",
     "Referrer-Policy": "no-referrer",
     "Vary": "Origin"
@@ -129,6 +160,7 @@ function json(value, status, request, env) {
   headers.set("Content-Type", "application/json; charset=utf-8");
   headers.set("Cache-Control", "no-store");
   headers.set("X-Content-Type-Options", "nosniff");
+  if(env.EMAIL_REQUEST_ID) headers.set('X-Email-Request-ID',env.EMAIL_REQUEST_ID);
   return new Response(JSON.stringify(value), { status, headers });
 }
 
@@ -256,7 +288,12 @@ async function rpc(env, name, body) {
     headers: { apikey: env.SUPABASE_ANON_KEY, "Content-Type": "application/json" },
     body: JSON.stringify({ p_service_secret: env.SCHEDULE_SERVICE_SECRET, ...body })
   });
-  if (!response.ok) throw new Error("UPSTREAM_ERROR");
+  if (!response.ok) {
+    const failure=await response.json().catch(()=>({}));
+    const error=new Error(`DATABASE_${name}_${failure.code || response.status}: ${safeDiagnostic(failure.message || 'Request failed')}`);
+    error.httpStatus=failure.code==='22023'?400:failure.code==='42501'?401:502;
+    throw error;
+  }
   return response.json();
 }
 
@@ -614,14 +651,18 @@ function pdfContentFromBytes(bytes) {
 async function saveEmailTemplate(request, env, slot) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) return json({ error: "Administrator authentication required" }, 401, request, env);
+  await emailEvent(env,rpc,'authentication','ok');
   let form;
   try {
     const bytes = await readLimitedBytes(request, 13_000_000);
     form = await new Request("https://worker.invalid/form", { method: "POST", headers: { "Content-Type": request.headers.get("Content-Type") || "" }, body: bytes }).formData();
+    await emailEvent(env,rpc,'upload_parsed','ok',{bytes:bytes.byteLength});
   } catch (error) {
     return json({ error: error?.message === "BODY_TOO_LARGE" ? "Message files are too large" : "Invalid message request" }, error?.message === "BODY_TOO_LARGE" ? 413 : 400, request, env);
   }
   const content = String(form.get("content") || "").replace(/\r\n?/g, "\n");
+  await emailEvent(env,rpc,'validation','started');
+  if(content.length>8000 || new TextEncoder().encode(content).length>24000) return json({error:'Content is too long'},400,request,env);
   const enabled = String(form.get("enabled")) === "true";
   const cadence = String(form.get("cadence") || "");
   const dailyTime = cadence === "daily" ? String(form.get("dailyTime") || "") : null;
@@ -667,7 +708,13 @@ async function saveEmailTemplate(request, env, slot) {
     p_signature_filename: hasSignature ? safeFilename(signature.name, "signature") : null,
     p_remove_attachment_ids: removeAttachmentIds, p_attachments: attachments
   });
-  return result ? json({ template: result }, 200, request, env) : json({ error: "Message could not be saved" }, 409, request, env);
+  await emailEvent(env,rpc,'validation','ok',{pdfCount:attachments.length,pdfBytes:totalPdfBytes,signatureBytes:signatureBytes?.length||0,recipients:recipientIds.length});
+  if(!result) return json({error:'Message could not be saved'},409,request,env);
+  const saved=result;
+  await emailEvent(env,rpc,'template_saved','ok',{slot,revision:saved.revision});
+  if(form.get('previewApproved')==='true') await emailEvent(env,rpc,'preview_approved','ok',{slot});
+  await emailEvent(env,rpc,'spellcheck','info',{result:String(form.get('spellcheck')||'not_checked').slice(0,60)});
+  return json({template:result,revision:saved.revision,requestId:env.EMAIL_REQUEST_ID},200,request,env);
 }
 
 async function queueOneTimeEmail(request, env, slot) {
@@ -677,9 +724,10 @@ async function queueOneTimeEmail(request, env, slot) {
   try { payload = await readLimitedJson(request, 1024); } catch { return json({ error: "Invalid send request" }, 400, request, env); }
   const requestId = String(payload?.requestId || "");
   if (!/^[0-9a-f-]{36}$/i.test(requestId)) return json({ error: "Invalid send request" }, 400, request, env);
-  const queued = Number(await rpc(env, "schedule_email_service_queue_once", { p_admin_token: admin.token, p_slot: slot, p_request_id: requestId }));
-  const processed = await processEmailJobs(env, 2);
-  return json({ queued, processed, dailyLimit: 400 }, 202, request, env);
+  if(payload.previewApproved!==true || !payload.revision) return json({error:'Preview and confirm the saved draft first'},400,request,env);
+  const result = await rpc(env,'schedule_email_v2_queue',{p_admin_token:admin.token,p_slot:slot,p_request_id:requestId,p_revision:payload.revision});
+  // Queue receipt is authoritative. Delivery happens on the scheduler, so a slow Gmail request cannot turn a successful queue into a misleading upload failure.
+  return json({...result,dailyLimit:400,requestId},202,request,env);
 }
 
 function escapeHtml(value) {
@@ -698,19 +746,18 @@ function mimeHeader(value) {
   return `=?UTF-8?B?${utf8Base64(String(value || "").replace(/[\r\n]/g, " "))}?=`;
 }
 
-function buildMime(job) {
+export function buildMime(job) {
   const mixed = `mixed_${crypto.randomUUID().replace(/-/g, "")}`;
   const related = `related_${crypto.randomUUID().replace(/-/g, "")}`;
   const signatureCid = `signature-${job.jobId}@edmundeducation.com`;
-  const contentHtml = escapeHtml(job.content).replace(/\n/g, "<br>");
-  const signatureHtml = job.signatureContent
-    ? `${job.signatureLink ? `<a href="${escapeHtml(job.signatureLink)}">` : ""}<img src="cid:${signatureCid}" alt="" style="max-width:100%;height:auto">${job.signatureLink ? "</a>" : ""}`
-    : "";
-  const html = `<p>Hi ${escapeHtml(job.recipientName)}</p><div>${contentHtml}</div>${signatureHtml ? `<p>${signatureHtml}</p>` : ""}`;
+  const html = renderEmailHtml(job,job.signatureContent?`cid:${signatureCid}`:'');
   const lines = [
     `From: ${mimeHeader(job.senderEmail)} <${job.senderEmail}>`,
     `To: <${String(job.recipientEmail).replace(/[\r\n]/g, "")}>`,
     `Subject: ${mimeHeader(job.subject)}`,
+    `Message-ID: <${job.jobId}@edmundeducation.com>`,
+    `X-Edmund-Email-ID: ${job.jobId}`,
+    `Date: ${new Date().toUTCString()}`,
     "MIME-Version: 1.0",
     `Content-Type: multipart/mixed; boundary="${mixed}"`, "",
     `--${mixed}`,
@@ -733,29 +780,41 @@ function buildMime(job) {
 }
 
 async function gmailAccessToken(env, job) {
+  await emailEvent(env,rpc,'token_refresh','started',{},job);
   const refreshToken = await decryptRefreshToken(env, job.refreshTokenCiphertext, job.refreshTokenIv);
   const response = await fetch("https://oauth2.googleapis.com/token", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({ client_id: env.GOOGLE_OAUTH_CLIENT_ID, client_secret: env.GOOGLE_OAUTH_CLIENT_SECRET, refresh_token: refreshToken, grant_type: "refresh_token" })
+    body: new URLSearchParams({ client_id: env.GOOGLE_OAUTH_CLIENT_ID, client_secret: env.GOOGLE_OAUTH_CLIENT_SECRET, refresh_token: refreshToken, grant_type: "refresh_token" }),signal:AbortSignal.timeout(15000)
   });
   const payload = await response.json();
   if (!response.ok || !payload.access_token) {
-    const error = new Error("GMAIL_TOKEN_REFRESH_FAILED");
+    const error = new Error(`GMAIL_TOKEN_REFRESH_FAILED_${response.status}: ${String(payload.error||'unknown').replace(/[^a-zA-Z0-9_]/g,'')}`);
     error.retry = response.status >= 500 || response.status === 429;
     throw error;
   }
+  await emailEvent(env,rpc,'token_refresh','ok',{httpStatus:response.status},job);
   return payload.access_token;
 }
 
-async function sendGmailJob(env, job) {
+export async function sendGmailJob(env, job) {
   const accessToken = await gmailAccessToken(env, job);
-  const response = await fetch("https://gmail.googleapis.com/gmail/v1/users/me/messages/send", {
+  if(job.kind==='visitor_update') job.unsubscribeUrl=await unsubscribeUrl(env,job.subscriberId);
+  if(job.kind==='visitor_confirmation') job.actionLabel='確認訂閱 / Confirm subscription';
+  const mime=buildMime(job);
+  await emailEvent(env,rpc,'mime_built','ok',{bytes:new TextEncoder().encode(mime).length,pdfCount:job.attachments?.length||0,signature:Boolean(job.signatureContent)},job);
+  const ready=await rpc(env,'schedule_email_v2_begin_send',{p_job_id:job.jobId,p_attempt:job.attempt});
+  if(!ready) { const error=new Error('SEND_CANCELLED_OR_STALE');error.cancelled=true;throw error; }
+  await emailEvent(env,rpc,'gmail_request','started',{},job);
+  let response,payload;
+  try {
+    response = await fetch("https://gmail.googleapis.com/gmail/v1/users/me/messages/send", {
     method: "POST",
     headers: { Authorization: `Bearer ${accessToken}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ raw: base64Url(new TextEncoder().encode(buildMime(job))) })
-  });
-  const payload = await response.json();
+    body: JSON.stringify({ raw: base64Url(new TextEncoder().encode(mime)) }),signal:AbortSignal.timeout(45000)
+    });
+    payload = await response.json();
+  } catch { const error=new Error('GMAIL_RESPONSE_UNKNOWN: check Sent using the Message-ID before retrying');error.uncertain=true;throw error; }
   if (!response.ok || !payload.id) {
     const providerStatus = String(payload?.error?.status || "").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 80);
     const providerReason = String(payload?.error?.errors?.[0]?.reason || "").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 80);
@@ -770,24 +829,33 @@ async function sendGmailJob(env, job) {
       providerReason
     ].filter(Boolean).join("_");
     const error = new Error(providerMessage ? `${diagnostic}: ${providerMessage}` : diagnostic);
-    error.retry = response.status === 429 || response.status >= 500;
+    // A 5xx response can follow acceptance; do not risk an automatic duplicate.
+    error.retry = response.status === 429;
+    error.uncertain = response.status >= 500 || (response.ok && !payload.id);
     throw error;
   }
+  await emailEvent(env,rpc,'gmail_accepted','ok',{gmailId:payload.id,httpStatus:response.status},job);
   return payload.id;
 }
 
-async function processEmailJobs(env, maxJobs = 2) {
+export async function processEmailJobs(env, maxJobs = 2) {
   let processed = 0;
   for (let index = 0; index < maxJobs; index += 1) {
     const job = await rpc(env, "schedule_email_service_claim_job", {});
     if (!job?.jobId) break;
+    let providerMessageId=null;
     try {
-      const providerMessageId = await sendGmailJob(env, job);
-      await rpc(env, "schedule_email_service_finish_job", { p_job_id: job.jobId, p_success: true, p_provider_message_id: providerMessageId, p_error: null, p_retry: false });
+      providerMessageId = await sendGmailJob(env, job);
+      const saved=await rpc(env,'schedule_email_v2_finish',{p_job_id:job.jobId,p_attempt:job.attempt,p_status:'accepted',p_provider_id:providerMessageId,p_error:null});
+      if(!saved) throw new Error('DELIVERY_RECORD_NOT_UPDATED');
       processed += 1;
     } catch (error) {
-      console.error("Gmail delivery failed", { jobId: job.jobId, error: error?.message });
-      await rpc(env, "schedule_email_service_finish_job", { p_job_id: job.jobId, p_success: false, p_provider_message_id: null, p_error: error?.message || "GMAIL_SEND_FAILED", p_retry: error?.retry === true });
+      const diagnostic=safeDiagnostic(error);
+      console.error("Gmail delivery failed", { jobId: job.jobId, error: diagnostic });
+      const status=providerMessageId?'accepted':error.uncertain?'uncertain':error.cancelled?'cancelled':error.retry?'queued':'failed';
+      await emailEvent(env,rpc,status,'error',{error:diagnostic,gmailId:providerMessageId},job);
+      // If recording fails after Gmail accepted, preserve the ID and retry only the record, never the send.
+      await rpc(env,'schedule_email_v2_finish',{p_job_id:job.jobId,p_attempt:job.attempt,p_status:status,p_provider_id:providerMessageId,p_error:diagnostic});
     }
   }
   return processed;
@@ -795,10 +863,14 @@ async function processEmailJobs(env, maxJobs = 2) {
 
 async function runEmailScheduler(env) {
   try {
+    await rpc(env,'schedule_email_v2_scheduler',{p_state:'started',p_error:null});
     await rpc(env, "schedule_email_service_enqueue_due", {});
-    await processEmailJobs(env, 2);
+    await processEmailJobs(env, 3);
+    await checkPageUpdates(env,rpc,sha256Hex);
+    await rpc(env,'schedule_email_v2_scheduler',{p_state:'complete',p_error:null});
   } catch (error) {
-    console.error("Email scheduler failed", error);
+    console.error("Email scheduler failed", safeDiagnostic(error));
+    await rpc(env,'schedule_email_v2_scheduler',{p_state:'failed',p_error:safeDiagnostic(error)}).catch(()=>{});
   }
 }
 
